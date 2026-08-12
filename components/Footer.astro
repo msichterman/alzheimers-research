@@ -1,0 +1,57 @@
+---
+/**
+ * Site footer, rendered under every page (registered as the `Footer` layout
+ * slot in components.ts — Blume has no built-in, so this is purely additive).
+ *
+ * It exists for attribution: the corpus summarizes other people's published
+ * research, most of it under Creative Commons licences that *require* credit
+ * and a link to the licence wherever the material travels. A per-page
+ * Attribution section covers each source; this covers the site.
+ */
+const year = new Date().getFullYear();
+---
+
+<footer
+  class="border-border border-t px-6 py-8 text-muted-foreground text-sm"
+  data-blume-footer
+>
+  <div class="mx-auto flex max-w-content flex-col gap-3">
+    <p class="m-0!">
+      Summaries and commentary © {year} the
+      <a
+        class="underline hover:text-foreground"
+        href="https://github.com/msichterman/alzheimers-research"
+        rel="noreferrer"
+        target="_blank">Alzheimer's Research contributors</a
+      >, available under
+      <a
+        class="underline hover:text-foreground"
+        href="https://creativecommons.org/licenses/by/4.0/"
+        rel="license noreferrer"
+        target="_blank">CC BY 4.0</a
+      >. Site code under the
+      <a
+        class="underline hover:text-foreground"
+        href="https://github.com/msichterman/alzheimers-research/blob/main/LICENSE"
+        rel="noreferrer"
+        target="_blank">MIT licence</a
+      >.
+    </p>
+    <p class="m-0!">
+      Every page summarizes work by the researchers credited on it — see each
+      page's <strong>Attribution</strong> section, the
+      <a class="underline hover:text-foreground" href="/research/authors"
+        >author index</a
+      >, and the full
+      <a class="underline hover:text-foreground" href="/attribution"
+        >attribution and licensing</a
+      > record. Trial data from
+      <a
+        class="underline hover:text-foreground"
+        href="https://clinicaltrials.gov"
+        rel="noreferrer"
+        target="_blank">ClinicalTrials.gov</a
+      >. Not medical advice.
+    </p>
+  </div>
+</footer>

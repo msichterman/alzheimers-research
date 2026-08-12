@@ -1,6 +1,6 @@
 import { defineMeta } from "blume";
 
 export default defineMeta({
-  title: "Templates",
-  icon: "file-plus",
+  title: "Papers",
+  icon: "file-text",
 });

@@ -1,3 +1,34 @@
 node_modules/
 .blume/
 dist/
+
+# Wrangler local state, dry-run output, and local secrets.
+.wrangler/
+.dev.vars
+
+# This repo's own Cloudflare sign-in (see scripts/cf) and its account pin.
+# .env.cloudflare.example is tracked.
+.cloudflare/
+.env.cloudflare
+
+# Agent skills: this project's own `research` skill is tracked (the README
+# links its source-tier policy), and `skills/` holds the two skills the site
+# publishes. The rest are vendored third-party skills — reproducible from
+# skills-lock.json, and not ours to republish from a public repo.
+.agents/skills/*
+!.agents/skills/research/
+.claude/
+
+# Secrets: AI_GATEWAY_API_KEY and friends. .env.example is tracked.
+.env
+.env.local
+.env.*.local
+
+# Conductor: machine-local workspace settings (shared defaults would go in
+# .conductor/settings.toml, which is tracked).
+.conductor/settings.local.toml
+
+# Pipeline: raw/ and enriched/ are tracked (they are the provenance trail);
+# agent transcripts are not.
+enriched/*/logs/
+.blume-verify/

@@ -1,0 +1,9 @@
+{
+  "id": "buntanetap-phase-2-3-ad",
+  "source": "sources/buntanetap-phase-2-3-ad.pdf",
+  "sha256": "7e23078fbb0e94d1dccf49922c2e97942b29125fcb956cde15da04a371e4d805",
+  "bytes": 1263543,
+  "chars": 54919,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-12T17:01:06.515Z"
+}

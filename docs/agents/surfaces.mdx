@@ -1,0 +1,283 @@
+---
+title: Machine-readable surfaces
+description: Every agent-facing endpoint this site publishes — Markdown mirrors, llms.txt, the MCP server, discovery manifests, WebMCP, skills, and signed agent identity.
+search:
+  tags: [agents, ai, llms-txt, mcp, discovery]
+---
+
+Everything below ships from the same Markdown the site renders — there is no second pipeline to drift out of sync. Each surface is listed with what it's for and where it's configured.
+
+:::note
+The generated files (`llms.txt`, `llms-full.txt`, `agent-readability.json`, the `.well-known/` documents) are written by `blume build`, so they exist on a built or deployed site — not on the dev server, which serves routes only. The Markdown mirrors, the MCP server, and WebMCP all work in dev.
+:::
+
+## At a glance
+
+| Surface | Path | What it's for |
+| --- | --- | --- |
+| Raw Markdown | `/<route>.md`, `/<route>.mdx` | One page, clean, token-efficient |
+| Corpus index | [`/llms.txt`](/llms.txt) | Every page with its summary, in sidebar order |
+| Full corpus | [`/llms-full.txt`](/llms-full.txt) | Every page's full text, one file |
+| MCP server | `/mcp` | Tools: search, read, list, navigate |
+| MCP discovery | `/.well-known/mcp.json` | Server card for scanners and clients |
+| Agent manifest | [`/agent-readability.json`](/agent-readability.json) | Index of everything on this page |
+| API catalog | `/.well-known/api-catalog` | RFC 9727 linkset naming the MCP service |
+| Agent skills | `/.well-known/agent-skills/index.json` | This project's published skills |
+| Ask AI | `POST /api/ask` | The in-page assistant's streaming endpoint |
+| Sitemap & robots | `/sitemap.xml`, `/robots.txt` | Crawlers, plus content-usage signals |
+
+## Raw Markdown
+
+Append `.md` to any URL for plain Markdown with components downleveled — tables stay tables, callouts become labeled blockquotes, steps become an ordered list. Append `.mdx` for the untouched source.
+
+| URL | Returns |
+| --- | --- |
+| `/trials/ahead-3-45` | The rendered page |
+| `/trials/ahead-3-45.md` | Plain Markdown, components converted |
+| `/trials/ahead-3-45.mdx` | The raw MDX source |
+
+Agents that don't know the convention can send `Accept: text/markdown` to the page's own URL instead; the dev server honors it, and Vercel and Cloudflare server builds wire the same negotiation into the deploy. Markdown responses carry an `x-markdown-tokens` estimate so a client can budget before it reads.
+
+The site's own `<OpenInChat />` component has an agent-facing form too — where a reader sees a row of chat buttons, the `.md` mirror carries the prompt text itself, registered through `ai.markdownComponents` in `blume.config.ts`.
+
+## llms.txt
+
+<Columns cols={2}>
+  <Column>
+    <Card title="/llms.txt" href="/llms.txt" icon="list">
+      A compact index: site title and description, then every page with its
+      summary, grouped exactly like the sidebar — so structure survives, not
+      just text.
+    </Card>
+  </Column>
+  <Column>
+    <Card title="/llms-full.txt" href="/llms-full.txt" icon="file-text">
+      The entire corpus: each page's full Markdown body with its source URL, in
+      one file.
+    </Card>
+  </Column>
+</Columns>
+
+Draft pages are excluded, and any page can opt out with `ai.exclude: true` in its frontmatter while still rendering and staying in search.
+
+## MCP server
+
+Configured in `blume.config.ts`:
+
+```ts blume.config.ts lineNumbers
+ai: {
+  mcp: {
+    enabled: true,
+    route: "/mcp",
+    name: "Alzheimer's Research",
+    instructions: "…how to scope retrieval by type and facet…",
+  },
+}
+```
+
+`instructions` is a system hint handed to every connecting agent: it explains the content types, the facets, and the house rule that a paper's **Critical review** section is read before its claims are repeated.
+
+`search_docs` runs its own full-text index, independent of the site's ⌘K search. See [For agents](/agents#mcp-server) for the tool list and worked prompts.
+
+<Expandable title="How types and facets are declared">
+
+```ts blume.config.ts lineNumbers
+content: {
+  types: {
+    trial: {
+      facets: ["status", "phase", "drug"],
+      frontmatter: {
+        drug: z.string().optional(),
+        phase: z.string().optional(),
+        status: z
+          .enum(["Recruiting", "Active", "Completed", "Terminated"])
+          .optional(),
+      },
+    },
+  },
+}
+```
+
+Facet values ride along on search documents and the MCP index, so `filters` matches against them. Every key is optional — a page that omits one is still valid, it just doesn't facet on it.
+
+</Expandable>
+
+## Discovery
+
+An agent shouldn't have to guess at conventions. Three layers advertise the surfaces above:
+
+<Steps>
+  <Step title="The manifest">
+    [`/agent-readability.json`](/agent-readability.json) lists only what's
+    enabled — the Markdown mirror pattern, both `llms.txt` files, the MCP
+    server and its discovery document, the Ask AI endpoint, the sitemap, and
+    the content-usage policy — alongside the site name, description, and
+    source repository.
+  </Step>
+  <Step title="The Link header">
+    The homepage answers with an RFC 8288 `Link` header pointing at the
+    manifest, `llms.txt`, the Markdown mirror, and the API catalog. Check it
+    with `curl -I`.
+  </Step>
+  <Step title="Every page's head">
+    An agent that lands mid-corpus from a search result never sees the
+    homepage, so every rendered page carries the same `describedby` and
+    `alternate` links in its HTML `<head>` — the `alternate` pointing at that
+    page's own Markdown twin.
+  </Step>
+</Steps>
+
+The [API catalog](https://www.rfc-editor.org/rfc/rfc9727) at `/.well-known/api-catalog` is a linkset that lets an agent enumerate this domain's services from the domain alone; here it names the MCP server, anchored at `/mcp`, with `/.well-known/mcp.json` as its description.
+
+### DNS-based discovery
+
+One surface can't ship in a build: [DNS for AI Discovery](https://datatracker.ietf.org/doc/draft-mozleywilliams-dnsop-dnsaid/) lets an agent find this site's AI surface before making a single HTTP request. DNS records live in the zone, so publish this yourself once the site has a domain:
+
+```txt
+_index._agents.alzheimers.dev. 3600 IN HTTPS 1 alzheimers.dev. alpn=h2
+```
+
+Use the `HTTPS` record type where the provider offers it, or a ServiceMode `SVCB` record otherwise, and sign the zone with DNSSEC if you can. `pnpm audit:agents` (which runs `blume audit --url`) checks the record over DNS-over-HTTPS and prints the exact line to publish if it's missing.
+
+## WebMCP
+
+Every page registers the corpus's read-only tools — `search_docs`, `get_page`, `list_pages` — on the browser's model context, so an [agentic browser](https://webmachinelearning.github.io/webmcp/) can drive the docs with no server connection. The script is tiny, loads nothing until a tool is called, and no-ops in browsers without the API (today, all of them outside Chrome's early preview). It's on by default:
+
+```ts blume.config.ts
+ai: {
+  webmcp: true,
+}
+```
+
+## Agent skills
+
+The repo's own [agent skills](https://agentskills.io) are published for discovery per the Agent Skills Discovery RFC — an agent can fetch, verify, and install them without cloning:
+
+<FileTree>
+
+- skills/
+  - alzheimers-research/
+    - SKILL.md
+  - research-pipeline/
+    - SKILL.md
+
+</FileTree>
+
+```ts blume.config.ts
+ai: {
+  skills: "./skills",
+}
+```
+
+The index at `/.well-known/agent-skills/index.json` carries each skill's name, description, artifact URL, and SHA-256 digest.
+
+| Skill | What it teaches |
+| --- | --- |
+| `alzheimers-research` | How to query this corpus: types, facets, MCP tools, citation rules |
+| `research-pipeline` | How to add a paper or trial: discover, ingest, enrich, publish |
+
+Locally, the same skills are available to Claude Code from `.agents/skills/` — including the `research` skill that drives the whole loop.
+
+## Content signals and identity
+
+<Columns cols={2}>
+  <Column>
+    <Card title="Content signals" icon="scale">
+      `robots.txt` declares this corpus open for `search`, `ai-input`
+      (retrieval at answer time), and `ai-train`. The same policy is echoed in
+      the agent manifest.
+    </Card>
+  </Column>
+  <Column>
+    <Card title="Web Bot Auth" icon="key-round">
+      If this org's own agents sign their outbound requests, their public keys
+      are served at `/.well-known/http-message-signatures-directory` so
+      receiving sites can verify them.
+    </Card>
+  </Column>
+</Columns>
+
+Web Bot Auth keys load from the environment, never the repo — the config only admits public JWKs and fails the build on private key material:
+
+```ts blume.config.ts lineNumbers
+const webBotAuthKey = process.env.WEB_BOT_AUTH_PUBLIC_JWK;
+
+ai: {
+  webBotAuth: {
+    keys: webBotAuthKey ? [JSON.parse(webBotAuthKey)] : [],
+  },
+}
+```
+
+Generate an Ed25519 pair with:
+
+```bash
+node -e 'const { generateKeyPairSync } = require("node:crypto"); const { publicKey, privateKey } = generateKeyPairSync("ed25519"); console.log("public: ", JSON.stringify(publicKey.export({ format: "jwk" }))); console.log("private:", JSON.stringify(privateKey.export({ format: "jwk" })))'
+```
+
+The public JWK goes in the environment; the private one goes wherever the signing agent runs. With no key set, no directory is published — which is the right answer if this org doesn't run agents.
+
+## Hosting
+
+Ask AI and the MCP server are live routes, so the site builds as a server rather than a static folder — one Cloudflare Worker on **alzheimers.dev**, serving the docs, the Markdown mirrors, and both API routes from a single origin:
+
+```ts blume.config.ts lineNumbers
+deployment: {
+  output: "server",
+  adapter: "cloudflare",
+  site: "https://alzheimers.dev",
+}
+```
+
+`wrangler.jsonc` at the repo root holds the Worker's own config — name, compatibility date, the `alzheimers.dev` custom domain, Workers Logs. The build merges it into `dist/server/wrangler.json` and patches in the Markdown-negotiation Worker plus its `run_worker_first` rules, so content-page requests reach the Worker (and `Accept: text/markdown` works) while assets keep their zero-Worker fast path.
+
+<Steps>
+  <Step title="Push to main">
+    GitHub Actions runs the same checks CI runs on pull requests — doctor,
+    internal links, a real build, link validation, the agent-readability audit,
+    and a Worker dry run.
+  </Step>
+  <Step title="Deploy">
+    `wrangler deploy` ships the Worker and attaches the custom domain. The Ask
+    AI key is synced as a Worker secret on the way through.
+  </Step>
+  <Step title="Smoke-test">
+    The deploy isn't finished until the live origin answers: the homepage,
+    `llms.txt`, the agent manifest, the skills index, an MCP `tools/list` call,
+    and an `Accept: text/markdown` request all have to pass.
+  </Step>
+</Steps>
+
+| Variable | Where | Needed for |
+| --- | --- | --- |
+| `CLOUDFLARE_API_TOKEN` | GitHub secret | Deploying the Worker and attaching the domain |
+| `CLOUDFLARE_ACCOUNT_ID` | GitHub secret | The account owning the `alzheimers.dev` zone |
+| `AI_GATEWAY_API_KEY` | Worker secret (synced from GitHub) | Ask AI through the Vercel AI Gateway |
+| `WEB_BOT_AUTH_PUBLIC_JWK` | Build-time env | Publishing the signature directory (optional) |
+| `BLUME_SITE` | Build-time env | Pointing a fork or mirror at a different origin |
+
+Pull requests from this repo get their own preview: `wrangler versions upload` publishes the build at a `workers.dev` preview URL without moving any production traffic, and the URL is printed in the run's job summary.
+
+:::note
+`POST /api/ask` is unauthenticated by necessity — the in-page assistant calls it from the browser. Blume validates and caps each request so it can't be repurposed as a general LLM proxy, but it can't stop repeat calls. Cloudflare's rate limiting rules on the zone (or a per-key spend limit at the provider) are the backstop.
+:::
+
+## Verify it
+
+```bash
+pnpm build           # prints a summary of every enabled AI surface
+pnpm doctor          # config and content problems
+pnpm validate:links  # internal, anchor, and asset links in the built site
+pnpm audit:agents    # agent-readability checks over dist/
+pnpm deploy:dry      # build, then validate the Worker bundle without deploying
+pnpm preview         # run the built Worker locally with wrangler dev
+```
+
+Against the live deployment:
+
+```bash
+curl -I https://alzheimers.dev                     # the discovery Link header
+curl https://alzheimers.dev/llms.txt               # the corpus index
+curl -H 'accept: text/markdown' https://alzheimers.dev/   # content negotiation
+pnpm audit:agents --url https://alzheimers.dev     # adds status codes, headers, DNS-AID
+```

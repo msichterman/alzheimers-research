@@ -1,0 +1,67 @@
+{/* Template: paper note. Copy into docs/research/papers/<short-slug>.mdx and fill in.
+    The pipeline (pnpm research) generates these automatically — this template is for
+    hand-written notes. Keep `date` set so the papers index and sidebar sort by it.
+    `type` and `year` make the note retrievable by agents: the MCP tools filter on
+    contentTypes ["paper"] and the `year` facet. */}
+
+---
+title: <Short paper name — e.g. "Lecanemab in early AD (CLARITY AD)">
+description: <One-sentence takeaway>
+type: paper
+date: <YYYY-MM-DD publication date>
+year: "<YYYY>"
+doi: <10.xxxx/yyyy>
+license: <CC BY 4.0 | CC BY-NC 4.0 | all rights reserved | unknown>
+firstAuthor: <Family I.>
+authors:
+  - name: <Family I.>
+    affiliation: <as printed in the paper, or omit>
+    orcid: <https://orcid.org/... or omit>
+    email: <only if the paper publishes it, or omit>
+    corresponding: true
+search:
+  tags: [paper, <topic tags: amyloid | tau | biomarkers | genetics | prevention>]
+---
+
+**Source**: [<Journal, Year>](https://doi.org/<doi>) · [PubMed](<pubmed-url>)
+**Authors**: <First author> et al.
+
+## Takeaway
+
+<The one thing to remember from this paper.>
+
+## Key findings
+
+- <Finding with the number that supports it>
+- <Finding>
+
+## Methods in brief
+
+<Design, n, population, duration — enough to judge the evidence.>
+
+## Caveats
+
+- <Limitations, conflicts, replication status>
+
+## Relates to
+
+- <Links to topic pages, trials, or other paper notes>
+
+## Attribution
+
+{/* The pipeline generates this section; write it by hand for a hand-written note.
+    CC BY and friends require credit, a licence link, and a statement of changes. */}
+
+**Cite the original work:** <Authors. Title. *Venue* Year. doi:...> — [DOI](<url>) · [PubMed](<url>)
+
+**Copyright:** <the copyright line as printed>
+
+**Licence:** [<licence name>](<licence url>)
+
+**Changes made:** this page is a summary with critical commentary. It is not the original text.
+
+| Author | Affiliation | Contact | Declared conflicts |
+| --- | --- | --- | --- |
+| <Family I.> ✉️ | <affiliation> | [ORCID](<url>) · [email](mailto:<address>) | <declared conflicts, or —> |
+
+*✉️ corresponding author. Affiliations and contact details are reproduced as published in the source document.*

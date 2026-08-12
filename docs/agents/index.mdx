@@ -1,0 +1,220 @@
+---
+title: For agents
+description: Connect this knowledge base to Claude Code, Cursor, VS Code, or any chat assistant — and drive it with tools instead of scraping.
+search:
+  tags: [agents, mcp, ai, llms-txt]
+---
+
+This corpus is built to be consumed by software. There are four ways in, from least to most capable — pick the one that matches your setup.
+
+<Columns cols={2}>
+  <Column>
+    <Card title="Open in chat" icon="message-square">
+      Zero setup. Pre-filled prompt, any assistant. Best for a one-off
+      question.
+    </Card>
+  </Column>
+  <Column>
+    <Card title="llms.txt" icon="file-text">
+      One fetch for the whole corpus. Best for grounding a chat that can
+      browse.
+    </Card>
+  </Column>
+  <Column>
+    <Card title="MCP server" icon="plug">
+      Real tools — search, read, list, navigate — with typed, faceted
+      retrieval. Best for coding agents.
+    </Card>
+  </Column>
+  <Column>
+    <Card title="WebMCP" icon="globe">
+      An agentic browser sitting on any page can call the same tools in-page,
+      with no connection at all.
+    </Card>
+  </Column>
+</Columns>
+
+## Open in chat
+
+Every page carries **Copy as Markdown** and **Open in chat** actions beneath its table of contents — the latter opens v0, ChatGPT, Claude, T3 Chat, Scira, or Cursor pre-filled with a prompt pointing at that page's raw Markdown.
+
+For the whole corpus rather than one page, use this:
+
+<OpenInChat description="Open the corpus in your assistant.">
+Read https://alzheimers.dev/llms-full.txt — the full text of an Alzheimer's disease research knowledge base covering clinical trials, paper notes, and topic syntheses. Answer only from that corpus, cite the page behind each claim, and flag anything it doesn't cover.
+</OpenInChat>
+
+## MCP server
+
+The docs site hosts its own [Model Context Protocol](https://modelcontextprotocol.io) server at `/mcp` — read-only, no scraping, no separate index to keep in sync.
+
+<Steps>
+  <Step title="Point your client at https://alzheimers.dev/mcp">
+    It's a live route on the Cloudflare Worker that serves these docs — no
+    install, no local server. See [Machine-readable
+    surfaces](/agents/surfaces#hosting) for how it's deployed.
+  </Step>
+  <Step title="Add the server to your agent">
+    Use the snippet for your client below, or the **Connect to MCP** menu on
+    any page, which fills the command in for you.
+  </Step>
+  <Step title="Ask in terms of the corpus">
+    Scope with `contentTypes`, narrow with `filters`, then read whole pages
+    with `get_page`.
+  </Step>
+</Steps>
+
+<CodeGroup>
+
+```bash Claude Code
+claude mcp add --transport http alzheimers-research https://alzheimers.dev/mcp
+```
+
+```json Cursor
+{
+  "mcpServers": {
+    "alzheimers-research": {
+      "url": "https://alzheimers.dev/mcp"
+    }
+  }
+}
+```
+
+```json VS Code
+{
+  "servers": {
+    "alzheimers-research": {
+      "type": "http",
+      "url": "https://alzheimers.dev/mcp"
+    }
+  }
+}
+```
+
+</CodeGroup>
+
+### Tools
+
+<TypeTable
+  type={{
+    search_docs: {
+      type: "query, contentTypes?, filters?",
+      description:
+        "Full-text search across every page, with its own index — independent of the site's ⌘K search. Results carry each page's content type and facet values.",
+    },
+    get_page: {
+      type: "path",
+      description:
+        "A page's full Markdown — components downleveled to plain Markdown, so tables, callouts, and steps arrive readable.",
+    },
+    list_pages: {
+      type: "contentTypes?, filters?",
+      description:
+        "Enumerate the corpus, optionally narrowed to a type and its facets. Use this to plan before reading.",
+    },
+    get_navigation: {
+      type: "—",
+      description:
+        "The sidebar tree: how the corpus is organized, section by section.",
+    },
+  }}
+/>
+
+### Typed, faceted retrieval
+
+Pages declare a `type`, and each type declares facets — custom frontmatter keys that become filterable metadata. Every entry in `filters` must match, so an agent can enumerate a slice first and read only what it needs:
+
+<Tabs param="type">
+  <Tab title="Trials">
+
+<Badge variant="accent">type: trial</Badge> — facets `status`, `phase`, `drug`.
+
+```json
+{
+  "contentTypes": ["trial"],
+  "filters": { "status": "Active", "phase": "3" }
+}
+```
+
+`status` is one of `Recruiting`, `Active`, `Completed`, `Terminated` — the same value the sidebar badge shows.
+
+  </Tab>
+  <Tab title="Papers">
+
+<Badge variant="accent">type: paper</Badge> — facets `year`, `license`, `firstAuthor`.
+
+```json
+{
+  "query": "plasma p-tau217",
+  "contentTypes": ["paper"],
+  "filters": { "year": "2026", "license": "CC BY 4.0" }
+}
+```
+
+Filtering on `license` is how an agent finds sources it may quote at length; `unknown` means the reuse terms were never confirmed, so summarize and link instead. Each page's **Attribution** section carries the citation, the authors with affiliations and declared conflicts, and what this site changed — see [Attribution and licensing](/attribution).
+
+Every paper note ends with a **Critical review** block: funding and conflicts, bias flags, claim-by-claim evidence strength, and the cross-examination record.
+
+  </Tab>
+  <Tab title="Topics">
+
+<Badge variant="accent">type: topic</Badge> — facet `stance` (`mainstream`, `contested`, `emerging`).
+
+```json
+{
+  "contentTypes": ["topic"],
+  "filters": { "stance": "contested" }
+}
+```
+
+Topic pages synthesize across sources rather than covering one paper.
+
+  </Tab>
+</Tabs>
+
+### Worked prompts
+
+<Prompt description="Build a **status table** of every active trial.">
+Using the alzheimers-research MCP server, call list_pages with contentTypes set to ["trial"] and a filters object where status is "Active". For each result, call get_page and pull the drug, phase, sponsor, population, and expected readout. Return one Markdown table sorted by readout date, and link each row to its page.
+</Prompt>
+
+<Prompt description="Cross-examine a claim against the **critical review** record.">
+Using the alzheimers-research MCP server, search_docs for "amyloid clearance clinical benefit" with contentTypes ["paper", "topic"]. Read each hit with get_page, then tell me — claim by claim — what the corpus rates as strong evidence versus weak or contested, quoting the Critical review section of each paper note. Name any funding conflicts it records.
+</Prompt>
+
+<Prompt description="Find what the corpus is **missing**.">
+Using the alzheimers-research MCP server, call get_navigation and list_pages. Compare the tracked trials against currently recruiting Alzheimer's phase 2/3 trials on ClinicalTrials.gov, and list the ones this knowledge base has no page for, with the registry ID and why each is worth tracking.
+</Prompt>
+
+:::tip
+Adding a trial or paper is itself an agent task — the repo ships a [`research` skill](/agents/surfaces#agent-skills) that frames the question, screens candidates against a source-tier policy, ingests what passes, and reviews the output before reporting.
+:::
+
+## Ask AI
+
+The in-page assistant answers from these pages only. Retrieval runs over the same index that powers <kbd>⌘K</kbd> search, the current page is added to context first, and answers cite the pages they drew from. It is told to separate what a trial showed from what its sponsor claimed, and not to give medical advice.
+
+Open it from the search bar, or press <kbd>⌘K</kbd> and switch to **Ask AI**.
+
+## Ground rules for agents
+
+<Accordion>
+  <AccordionItem title="Cite the page, not the corpus" icon="link">
+    Every claim here traces to a source link on its page. Quote the page, and
+    link it — `/trials/cor388-nct03823404`, not "a study".
+  </AccordionItem>
+  <AccordionItem title="Failed programs are here on purpose" icon="triangle-alert">
+    Discontinued drugs and missed endpoints are tracked deliberately. Never
+    report a subgroup signal as a met endpoint.
+  </AccordionItem>
+  <AccordionItem title="Dates and effect sizes are exact" icon="calendar">
+    Readout dates, enrollment counts, and effect sizes are recorded as the
+    source states them. Don't round them into a narrative.
+  </AccordionItem>
+  <AccordionItem title="This is not medical advice" icon="stethoscope">
+    It's a research reference. Don't interpret anyone's personal medical
+    situation from it.
+  </AccordionItem>
+</Accordion>
+
+Next: [every machine-readable surface](/agents/surfaces) this site publishes, and how each one is configured.

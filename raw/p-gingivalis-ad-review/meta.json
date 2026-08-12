@@ -1,0 +1,9 @@
+{
+  "id": "p-gingivalis-ad-review",
+  "source": "sources/p-gingivalis-ad-review.pdf",
+  "sha256": "b68424d3d13a8bed53025cb1a8fe916fdcbb364b1f3877a417c34ea6802994c1",
+  "bytes": 591629,
+  "chars": 18115,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-12T17:01:06.529Z"
+}

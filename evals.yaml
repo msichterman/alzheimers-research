@@ -1,0 +1,50 @@
+# `pnpm eval` — a test suite for the docs themselves. An agent answers each
+# question using ONLY this corpus (over a private MCP snapshot, with no repo
+# access), and a judge grades the answer against `expected`. A question the
+# pages can't answer fails, and the report names the page that should.
+questions:
+  - id: connect-agent
+    question: How do I connect this knowledge base to a coding agent like Claude Code?
+    expected:
+      - the site hosts an MCP server at /mcp
+      - add it with `claude mcp add --transport http`
+      - the tools are search_docs, get_page, list_pages, and get_navigation
+    routes:
+      - /agents
+      - /
+
+  - id: filter-active-trials
+    question: How would an agent list only the trials that are still active?
+    expected:
+      - trial pages carry the content type `trial`
+      - the MCP tools accept contentTypes and filters
+      - status is a facet, with the value Active
+    routes:
+      - /agents
+      - /agents/surfaces
+
+  - id: gain-trial-result
+    question: What did the GAIN trial of COR388 (atuzaginstat) actually show?
+    expected:
+      - it missed both co-primary endpoints at 48 weeks
+      - a P. gingivalis-positive subgroup showed a dose-response signal that was never independently replicated
+      - liver enzyme elevations led to an FDA clinical hold and the program's discontinuation
+    routes: /trials/cor388-nct03823404
+
+  - id: amyloid-open-questions
+    question: What are the main open questions about the amyloid hypothesis?
+    expected:
+      - plaque burden correlates weakly with cognitive decline while tau tracks symptoms better
+      - clinical benefit from amyloid clearance is modest, roughly 25-35% slowing over 18 months
+      - whether soluble oligomers or fibrillar plaques are the toxic species is unresolved
+    routes: /research/amyloid-hypothesis
+
+  - id: add-a-paper
+    question: How do I add a new paper note to this knowledge base?
+    expected:
+      - run the pipeline with `pnpm ingest` then `pnpm research`
+      - or copy templates/paper-note.mdx into docs/research/papers/
+      - the frontmatter needs type, date, and search tags
+    routes:
+      - /
+      - /research

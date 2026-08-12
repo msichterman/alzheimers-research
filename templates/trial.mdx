@@ -1,0 +1,43 @@
+{/* Template: trial page. Copy into docs/trials/<trial-slug>.mdx and fill in.
+    Set sidebar.badge to the current status so it shows in the sidebar at a glance.
+    `type`, `status`, `phase`, and `drug` are the content type and facets agents
+    filter on through the MCP tools — keep `status` and `sidebar.badge` in sync.
+    Run `pnpm publish:docs` afterward to refresh the tracked-trials table. */}
+
+---
+title: <Trial name — e.g. "AHEAD 3-45">
+description: <Drug, phase, and population in one sentence>
+type: trial
+status: <Recruiting | Active | Completed | Terminated>
+phase: "<1 | 2 | 2/3 | 3>"
+drug: <Canonical drug name, e.g. Lecanemab>
+sidebar:
+  badge: <Recruiting | Active | Completed | Terminated>
+search:
+  tags: [trial, <drug or mechanism tag>]
+---
+
+| | |
+| --- | --- |
+| **Registry** | [NCT________](https://clinicaltrials.gov/study/NCT________) |
+| **Drug** | <Name (mechanism)> |
+| **Phase** | <1 / 2 / 3> |
+| **Sponsor** | <Sponsor> |
+| **Population** | <Who is enrolled, target n> |
+| **Primary endpoint** | <Endpoint> |
+| **Started** | <YYYY-MM> |
+| **Expected readout** | <YYYY or YYYY-MM> |
+
+## Why it matters
+
+<What question this trial answers.>
+
+## Status log
+
+- **<YYYY-MM-DD>** — <Update, with source link>
+
+## Attribution
+
+Compiled from the trial's public [ClinicalTrials.gov](https://clinicaltrials.gov) registry record <plus the source document, cited in full>. Registry data is US government work; the summary and commentary here are this project's.
+
+{/* When the trial hits a milestone (start, readout, approval), add it to docs/timeline/. */}

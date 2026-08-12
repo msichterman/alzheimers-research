@@ -1,0 +1,26 @@
+{
+  "01-analysis": {
+    "source_sha256": "7e23078fbb0e94d1dccf49922c2e97942b29125fcb956cde15da04a371e4d805",
+    "completed_at": "2026-08-12T17:03:46.564Z",
+    "model": "sonnet",
+    "turns": 5,
+    "cost_usd": 0.6482441,
+    "session_id": "b8feb3c4-4f4e-481d-8fb8-1bbc08df514d"
+  },
+  "02-trials": {
+    "source_sha256": "7e23078fbb0e94d1dccf49922c2e97942b29125fcb956cde15da04a371e4d805",
+    "completed_at": "2026-08-12T17:07:07.200Z",
+    "model": "sonnet",
+    "turns": 20,
+    "cost_usd": 0.9652213000000001,
+    "session_id": "f60d6c5b-0d99-4a15-a566-2394a953f4ee"
+  },
+  "04-review": {
+    "source_sha256": "7e23078fbb0e94d1dccf49922c2e97942b29125fcb956cde15da04a371e4d805",
+    "completed_at": "2026-08-12T17:09:38.198Z",
+    "model": "sonnet",
+    "turns": 3,
+    "cost_usd": 0.7544028,
+    "session_id": "875c05ec-c164-4e1b-a1c2-f02987171066"
+  }
+}
