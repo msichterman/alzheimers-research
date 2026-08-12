@@ -1,0 +1,139 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT05686044",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05686044",
+      "name": null,
+      "drug": "buntanetap / Posiphen / ANVS401 (translational inhibitor of APP, Tau, alpha-synuclein, TDP-43 mRNA translation)",
+      "phase": "2/3",
+      "sponsor": "Annovis Bio Inc.",
+      "status": "Completed",
+      "enrollment": 351,
+      "population": "Adults 55-85 with mild-to-moderate probable AD (MMSE 14-24), no biomarker confirmation required at enrollment",
+      "primary_endpoint": "Change in ADAS-Cog11 from baseline to week 12; ADCS-CGIC score at week 12 (co-primary)",
+      "started": "2023-04",
+      "completed_or_readout": "2024-02 (primary/study completion); results posted to registry 2025-04-29; journal publication 2026-04",
+      "results_summary": "Missed both co-primary endpoints in the ITT population (ADAS-Cog11 and ADCS-CGIC vs placebo). A post-hoc, non-prespecified subgroup restricted to pTau217/t-Tau biomarker-positive mild AD patients (n=95) showed a nominally significant, dose-dependent ADAS-Cog11 improvement. Well tolerated, no serious drug-related TEAEs.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT06709014",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06709014",
+      "name": "ANVS-25001",
+      "drug": "buntanetap 30 mg (same mechanism)",
+      "phase": "3",
+      "sponsor": "Annovis Bio Inc.",
+      "status": "Active, not recruiting",
+      "enrollment": 760,
+      "population": "Adults 55-85 with early AD (2024 NIA-AA criteria), MMSE 20-28, biomarker-confirmed (positive amyloid-beta/pTau217) — i.e., the biomarker-selection strategy the npj Dementia paper's post-hoc analysis argues for",
+      "primary_endpoint": "ADAS-Cog13 (cognition) and ADCS-iADL (function) at 6-month and 18-month co-primary readouts",
+      "started": "2025-02",
+      "completed_or_readout": "Primary completion estimated 2027-12; study completion estimated 2028-06",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04524351",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04524351",
+      "name": "ANVS-12003",
+      "drug": "Posiphen (buntanetap precursor name)",
+      "phase": "1/2",
+      "sponsor": "Annovis Bio Inc.",
+      "status": "Completed",
+      "enrollment": 75,
+      "population": "Adults 45+ with early AD (CDR 0.5-1, MMSE 18-28) or early PD (Hoehn & Yahr ≤4, MMSE 18-30); no biomarker-confirmed AD pathology required",
+      "primary_endpoint": "Percentage with treatment-emergent adverse events vs placebo over ~25 days; secondary: plasma Cmax",
+      "started": "2020-08",
+      "completed_or_readout": "2022-01 (study completion); results posted 2023-02-28",
+      "results_summary": "Buntanetap safe/well tolerated up to 80 mg/day in both AD and PD patients; exploratory biomarker trend toward lower neurotoxic protein/inflammatory markers; nominal improvements on ADAS-Cog11 (AD) and MDS-UPDRS (PD) reported in a companion 2023 publication (PMID 36641607).",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05357989",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05357989",
+      "name": "ANVS-22001",
+      "drug": "buntanetap (same mechanism), tested in Parkinson's disease",
+      "phase": "3",
+      "sponsor": "Annovis Bio Inc.",
+      "status": "Completed",
+      "enrollment": 523,
+      "population": "Adults 40-85 with idiopathic PD (Hoehn & Yahr 1-3, MMSE 22-30); no biomarker-confirmed pathology required for inclusion",
+      "primary_endpoint": "Change from baseline to month 6 in MDS-UPDRS Part II",
+      "started": "2022-08",
+      "completed_or_readout": "2023-12 (completion); results posted 2025-03-03; biomarker data presented at CTAD Dec 2025",
+      "results_summary": "Per company/press reporting, buntanetap was safe and well tolerated with improvements in motor, non-motor and cognitive measures versus placebo, greatest in longer-duration/faster-progressing PD; full peer-reviewed publication not identified as of this search.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT07284784",
+      "registry_url": "https://clinicaltrials.gov/study/NCT07284784",
+      "name": "ANVS-25002 (open-label extension)",
+      "drug": "buntanetap 30 mg (same mechanism)",
+      "phase": "2/3",
+      "sponsor": "Annovis Bio Inc.",
+      "status": "Recruiting",
+      "enrollment": 500,
+      "population": "Adults 40-85 with idiopathic PD; Cohort 1 = prior buntanetap-trial participants, Cohort 2 = deep-brain-stimulation patients ≥12 months",
+      "primary_endpoint": "Long-term safety (AEs, TEAEs, SAEs) over 36 months",
+      "started": "2026-01",
+      "completed_or_readout": null,
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2026-04",
+      "kind": "paper",
+      "description": "Fang et al., npj Dementia — full peer-reviewed results of NCT05686044, the document under analysis",
+      "url": "https://www.nature.com/articles/s44400-026-00073-z"
+    },
+    {
+      "date": "2025-04-29",
+      "kind": "registry-results",
+      "description": "NCT05686044 results (outcome measures, adverse events) posted to ClinicalTrials.gov, ~1 year before journal publication",
+      "url": "https://clinicaltrials.gov/study/NCT05686044"
+    },
+    {
+      "date": "2023",
+      "kind": "paper",
+      "description": "Fang et al., J Prev Alzheimers Dis — earlier Phase 1/2 (NCT04524351) results in AD and PD, precursor evidence base for buntanetap",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36641607/"
+    },
+    {
+      "date": "2025-03-03",
+      "kind": "registry-results",
+      "description": "NCT05357989 (Phase 3 PD trial) results posted to ClinicalTrials.gov",
+      "url": "https://clinicaltrials.gov/study/NCT05357989"
+    },
+    {
+      "date": "2026-07-07",
+      "kind": "company",
+      "description": "Annovis Bio press release: pivotal Phase 3 AD trial (NCT06709014) reaches full enrollment (reported ~850 patients, above the registry's 760 estimate)",
+      "url": "https://www.globenewswire.com/news-release/2026/07/07/3323032/0/en/Annovis-Reaches-Full-Enrollment-in-Pivotal-Phase-3-Trial-of-Buntanetap-for-Early-Alzheimer-s-Disease.html"
+    },
+    {
+      "date": "2025-12-18",
+      "kind": "company",
+      "description": "Annovis Bio press release announcing the open-label extension PD safety study (NCT07284784), enrollment starting January 2026",
+      "url": "https://www.globenewswire.com/news-release/2025/12/18/3208204/0/en/Annovis-Announces-Open-Label-Extension-Study-for-Parkinson-s-Disease-Patients.html"
+    },
+    {
+      "date": "2025-11-17",
+      "kind": "company",
+      "description": "Annovis Bio press release on new biomarker data linking amyloid co-pathology to accelerated cognitive decline in PD patients (buntanetap program)",
+      "url": "https://www.globenewswire.com/news-release/2025/11/17/3189111/0/en/Annovis-Reports-New-Biomarker-Data-Linking-Amyloid-Co-Pathology-to-Accelerated-Cognitive-Decline-in-Parkinson-s-Patients.html"
+    }
+  ],
+  "evidence_assessment": "The evidence for buntanetap's efficacy in Alzheimer's disease is weak and not yet replicated: the only completed AD efficacy trial (NCT05686044, verified via registry) failed both co-primary endpoints in its full randomized, biomarker-unselected population, and the favorable finding the paper highlights comes from a small (n=95), post-hoc, non-prespecified, biomarker-selected subgroup — a classic data-dependent subgroup-selection risk that 'nominal significance' does not resolve. No independent replication of the subgroup finding exists yet; the sponsor's own biomarker-selected confirmatory Phase 3 (NCT06709014, registry-verified, active/not-recruiting, readout not before ~2027-2028) is the actual test of the hypothesis. The parallel Parkinson's disease program (NCT05357989, NCT04524351, NCT07284784) shows a consistent pattern across the buntanetap franchise: preliminary/company-reported positive signals in safety and secondary/exploratory measures, generally without independent peer-reviewed confirmatory publication of full primary results, and now a large open-label safety extension aimed partly at accumulating FDA exposure-requirement data rather than efficacy proof. Overall, the clinical evidence base is early-stage, entirely sponsor-generated to date (all trials sponsored by Annovis Bio, the drug's manufacturer, with author-sponsor overlap in the AD paper), and the central efficacy claim rests on exploratory analyses awaiting confirmation in an adequately powered, prespecified, biomarker-selected trial.",
+  "discrepancies": [
+    "The document frames the Phase 3 trial (NCT06709014) as building on the biomarker-selection rationale, and the registry confirms this design (MMSE 20-28, amyloid/pTau217-positive required) — consistent, no discrepancy there — but the registry's enrollment figure (760, estimated) is now outdated versus the sponsor's July 2026 press release claiming ~850 patients enrolled; the registry record has not been updated to reflect actual completion of enrollment.",
+    "The paper's 'no competing interests' disclosure is not something the registry can adjudicate, but the registry independently confirms Annovis Bio Inc. as sole sponsor of every buntanetap AD and PD trial identified (NCT05686044, NCT06709014, NCT04524351, NCT05357989, NCT07284784), reinforcing that the entire buntanetap evidence base to date is single-sponsor-generated.",
+    "There is roughly a 14-month gap between when NCT05686044 results were posted to the registry (2025-04-29) and the peer-reviewed npj Dementia publication (2026-04), during which the post-hoc biomarker-positive subgroup finding was already being publicized by the sponsor in press releases and conference presentations ahead of independent peer review."
+  ]
+}

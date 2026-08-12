@@ -1,0 +1,140 @@
+{
+  "fact_check": [
+    {
+      "fact": "Phase 1a/b trial (NCT03418688) completed; COR388 well tolerated over 28 days; reduced CSF ApoE fragmentation in a small AD-patient cohort",
+      "status": "verified",
+      "note": "Confirmed against ClinicalTrials.gov registry data. The ApoE-fragmentation result is a secondary/exploratory pharmacodynamic biomarker in 9 subjects (6 active, 3 placebo), not the trial's registered primary endpoint, and was reported only as a CTAD 2019 conference abstract (Detke et al.), never peer-reviewed."
+    },
+    {
+      "fact": "GAIN Phase 2/3 trial (NCT03823404, n=643) — paper states it is 'now underway'",
+      "status": "corrected",
+      "note": "Registry data show the trial has since completed. Topline results (Oct 2021) failed both co-primary endpoints (ADAS-Cog11, ADCS-ADL) at 48 weeks, with dose-dependent liver enzyme elevations in 15% (high dose) / 7% (low dose) vs. 2% (placebo). Not knowable at the paper's 2020 publication date."
+    },
+    {
+      "fact": "P. gingivalis DNA and gingipains detected in AD-patient autopsy brain and CSF, more abundant than in controls, correlating with tau/ubiquitin pathology",
+      "status": "verified",
+      "note": "Consistent with the paper's Section 3/Figure 2 citations to Dominy et al. 2019. Evidence is moderate strength per the analyst review and originates almost entirely from one Cortexyme-affiliated research group; independent replication is not discussed in the paper."
+    },
+    {
+      "fact": "Oral P. gingivalis infection produces AD-like neuropathology (plaques, tau tangles, neurodegeneration) in mice",
+      "status": "verified",
+      "note": "Paper cites four independent mouse studies (Dominy 2019, Poole 2015, Ilievski 2018, Ding 2018) with convergent findings across wild-type and ApoE-/- models."
+    },
+    {
+      "fact": "DOI 10.1002/JPER.20-0104 for this article",
+      "status": "verified",
+      "note": "Confirmed in the document's header and citation footer; consistent with J Periodontol 2020;91(Suppl.1):S45-S49. PubMed URL follows the standard indexed pattern but wasn't confirmed via a live lookup this pass."
+    },
+    {
+      "fact": "Author Mark Ryder is a paid Cortexyme clinical advisor, a financial interest in the therapeutic class reviewed",
+      "status": "verified",
+      "note": "Explicitly disclosed in the paper's Disclosures section: 'Dr. Ryder is on the Clinical Advisory Board of Cortexyme, Inc. and is a paid consultant for them.'"
+    },
+    {
+      "fact": "FDA clinical hold on atuzaginstat (Jan 2022) over dose-dependent hepatotoxicity; Cortexyme discontinued the program and rebranded as Quince Therapeutics (Aug 2022)",
+      "status": "unverified",
+      "note": "Sourced to a company IR press release and trade press (FierceBiotech, BioPharma Dive), not independently confirmed against FDA.gov or SEC filings in this review pass. Directionally consistent with the GAIN trial's registry status but should be spot-checked before treating as final if precision matters."
+    }
+  ],
+  "research_page": {
+    "slug": "p-gingivalis-cor388-alzheimers",
+    "title": "P. gingivalis and gingipain inhibition in AD (COR388/GAIN)",
+    "description": "A 2020 review by a paid Cortexyme advisor linked P. gingivalis to Alzheimer's and previewed COR388 as a promising treatment; the pivotal GAIN trial it anticipated later failed and was discontinued.",
+    "tags": [
+      "paper",
+      "infection",
+      "microbiome",
+      "amyloid",
+      "tau",
+      "COR388",
+      "conflict-of-interest"
+    ],
+    "source_line_md": "**Source**: [J Periodontol, 2020](https://doi.org/10.1002/JPER.20-0104) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/32441775/)",
+    "authors_line_md": "Mark I. Ryder — UCSF Division of Periodontology; paid Clinical Advisory Board member/consultant for Cortexyme, Inc., maker of COR388",
+    "takeaway_md": "This narrative review argues P. gingivalis and its gingipain proteases contribute to Alzheimer's pathology, and previewed early COR388 trial data as supportive. The mechanistic evidence (brain/CSF detection, mouse neuropathology) is moderate but comes almost entirely from one company-funded research group. The only adequately powered human test of the hypothesis — Cortexyme's Phase 2/3 GAIN trial — later failed both co-primary endpoints and the program was discontinued after a liver-toxicity hold. The review's author is a paid Cortexyme advisor, a conflict embedded in its central evidence.",
+    "key_findings_md": [
+      "P. gingivalis DNA and gingipains detected in autopsy brain and CSF of AD patients, more abundant than in controls and correlated with tau/ubiquitin pathology (paper, Section 3, Fig. 2; Dominy et al. 2019)",
+      "Oral P. gingivalis infection produced AD-like neuropathology — plaques, tau tangles, neurodegeneration — across four independent mouse studies (paper, Section 3)",
+      "Gingipain inhibitors reduced brain bacterial burden and neurotoxicity in mice, outperforming antibiotics and a beta-amyloid-production inhibitor (paper, Section 4)",
+      "Phase 1a/b trial ([NCT03418688](https://clinicaltrials.gov/study/NCT03418688), n=33) found COR388 well tolerated over 28 days and reduced CSF ApoE fragmentation in a 9-subject AD cohort — a biomarker result from a conference abstract, not a peer-reviewed clinical endpoint (paper, Section 4)"
+    ],
+    "methods_md": "Narrative/invited review presented at a 2019 UNC symposium; not a systematic review, and no independent original data. Synthesizes prior human observational association studies, autopsy/CSF pathogen-detection studies, four mouse infection models, and one completed Phase 1a/b human trial (n=33). No search strategy or study-selection criteria are described.",
+    "trial_evidence_md": "The review previewed the pivotal Phase 2/3 GAIN trial ([NCT03823404](https://clinicaltrials.gov/study/NCT03823404), n=643) as 'now underway.' It has since completed: topline results (Oct 2021) missed both co-primary endpoints (ADAS-Cog11, ADCS-ADL) at 48 weeks. A subgroup positive for oral P. gingivalis DNA (described by the sponsor as pre-specified) showed a slowed-decline signal, but this was not a confirmed primary result. Dose-dependent liver enzyme elevations triggered an FDA clinical hold in January 2022, and Cortexyme discontinued the program in August 2022, rebranding as Quince Therapeutics. See the [GAIN trial page](/trials/cor388-nct03823404) for detail.",
+    "sentiment_md": "Public reaction splits sharply by audience: biotech investors and media treat the GAIN failure, stock crash, and FDA hold as a cautionary tale, while dental and consumer-health coverage through 2025 continues to promote the P. gingivalis-Alzheimer's link and oral-hygiene prevention advice, largely without mentioning that COR388 already failed and was shelved ([STAT News, 2021](https://www.statnews.com/2021/10/26/cortexyme-bacteria-fighting-alzheimers-drug-fails-primary-goal/); [University Hospitals, 2025](https://www.uhhospitals.org/blog/articles/2025/07/gum-disease-is-linked-to-alzheimers-and-other-dementias)).",
+    "caveats_md": [
+      "Author Mark Ryder is a paid Cortexyme clinical advisor; the mechanistic and therapeutic sections rely almost entirely on Cortexyme-funded data (Dominy et al. 2019) and an unpublished conference abstract",
+      "No systematic review methodology — no search strategy or study-selection criteria — and no negative or null P. gingivalis/AD findings are discussed",
+      "CSF ApoE fragmentation reduction is a pharmacodynamic biomarker in 9 subjects, not a validated clinical or cognitive endpoint",
+      "The pivotal human efficacy test (GAIN) was negative on both co-primary endpoints and the program was later halted for liver toxicity — outcomes unknown at time of writing"
+    ],
+    "relates_to_md": [
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — P. gingivalis is proposed as one possible upstream trigger for amyloid deposition",
+      "[Biomarkers](/research/biomarkers) — CSF ApoE fragmentation and P. gingivalis DNA are among the biomarkers discussed here",
+      "[Trial tracker](/trials) — see current status of the GAIN trial and other AD programs"
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "cor388-nct03823404",
+      "title": "GAIN: COR388 in mild-to-moderate Alzheimer's (Phase 2/3)",
+      "description": "Gingipain inhibitor COR388 (atuzaginstat) vs. placebo in 643 patients with mild-to-moderate Alzheimer's; failed both co-primary endpoints and was later discontinued over liver toxicity.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "phase-2/3",
+        "COR388",
+        "atuzaginstat",
+        "gingipain",
+        "infection-hypothesis"
+      ],
+      "registry_md": "[NCT03823404](https://clinicaltrials.gov/study/NCT03823404)",
+      "drug": "COR388 / atuzaginstat (gingipain inhibitor)",
+      "phase": "2/3",
+      "sponsor": "Cortexyme, Inc.",
+      "population": "643 patients with mild-to-moderate Alzheimer's disease",
+      "primary_endpoint": "Co-primary: change from baseline in ADAS-Cog11 and ADCS-ADL at 48 weeks (40mg and 80mg BID COR388 vs. placebo)",
+      "started": "2019-03",
+      "readout": "2021-10",
+      "why_md": "GAIN was the definitive human test of the P. gingivalis/gingipain hypothesis described in [this review](/research/papers/p-gingivalis-cor388-alzheimers): if gingipain inhibition slowed cognitive decline, it would satisfy the review's 'treatment efficacy' criterion for causation. It's the largest trial to date of an anti-infective mechanism in Alzheimer's.",
+      "status_log_md": [
+        "**2019-03** — Trial begins, enrolling 643 patients with mild-to-moderate AD",
+        "**2021-10** — Topline results: fails both co-primary endpoints (ADAS-Cog11, ADCS-ADL); dose-dependent liver enzyme elevations noted ([BioPharma Dive](https://www.biopharmadive.com/news/cortexyme-alzheimers-gain-study-results-gingivalis/608879/))",
+        "**2022-01** — FDA places a clinical hold on atuzaginstat over hepatotoxicity ([press release](https://ir.quincetx.com/news-releases/news-release-details/cortexyme-announces-clinical-trial-hold-atuzaginstats-investigational))",
+        "**2022-08** — Cortexyme discontinues the gingipain-inhibitor program and rebrands as Quince Therapeutics ([FierceBiotech](https://www.fiercebiotech.com/biotech/quince-hoping-sweeten-its-fruit-new-strategic-plan-acquisitions-and-out-licensing-legacy))"
+      ],
+      "results_md": "GAIN missed both co-primary endpoints at 48 weeks. A subgroup the sponsor described as pre-specified (roughly half the cohort, positive for oral P. gingivalis DNA) showed a dose-response signal suggesting slowed decline, but this was not a confirmed primary result and was never independently replicated. Liver enzyme elevations occurred in 15% of high-dose and 7% of low-dose patients vs. 2% on placebo, prompting an FDA clinical hold and the program's full discontinuation in 2022. See [Sabbagh & Decourt, 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC10275298/) for a fuller account."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Infection hypothesis",
+      "date": "2019-03",
+      "title": "2019-03 — GAIN trial begins (COR388 in mild-to-moderate AD)",
+      "body_md": "Pivotal Phase 2/3 test of the P. gingivalis/gingipain hypothesis reviewed in [this paper](/research/papers/p-gingivalis-cor388-alzheimers); see the [GAIN trial page](/trials/cor388-nct03823404)."
+    },
+    {
+      "section": "Infection hypothesis",
+      "date": "2021-10",
+      "title": "2021-10 — GAIN trial fails co-primary endpoints",
+      "body_md": "COR388 showed no significant benefit on ADAS-Cog11 or ADCS-ADL, undercutting the treatment-efficacy case made in [this review](/research/papers/p-gingivalis-cor388-alzheimers)."
+    },
+    {
+      "section": "Infection hypothesis",
+      "date": "2022-01",
+      "title": "2022-01 — FDA holds COR388 trial over liver toxicity",
+      "body_md": "Dose-dependent liver enzyme elevations prompted a full clinical hold on atuzaginstat; detail on the [GAIN trial page](/trials/cor388-nct03823404)."
+    },
+    {
+      "section": "Infection hypothesis",
+      "date": "2022-08",
+      "title": "2022-08 — Cortexyme discontinues gingipain-inhibitor program",
+      "body_md": "Sponsor abandoned COR388/atuzaginstat and rebranded as Quince Therapeutics, ending the clinical test of the P. gingivalis hypothesis reviewed [here](/research/papers/p-gingivalis-cor388-alzheimers)."
+    }
+  ],
+  "notes_for_editor": [
+    "GAIN's post-hoc P. gingivalis-positive subgroup 'slowed decline' finding is non-primary and unreplicated; the page language deliberately frames it as hypothesis-generating only — confirm this is the desired weight.",
+    "Phase 1 trial (NCT03418688) was not given its own trial page under the 'central trials only' rule; it's referenced within the research page and GAIN's results instead. Revisit if policy wants standalone pages for all reported-here trials.",
+    "The FDA-hold and program-discontinuation events (Jan/Aug 2022) rest on trade press and a company IR release rather than a primary regulatory or SEC source — worth a direct check before treating as fully authoritative.",
+    "Sentiment findings (investor backlash vs. continuing consumer-health hype) were trimmed to two representative links for the page; the full multi-community breakdown from the sentiment researcher is available if a longer treatment is wanted later."
+  ]
+}

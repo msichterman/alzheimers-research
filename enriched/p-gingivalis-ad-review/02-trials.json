@@ -1,0 +1,76 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT03418688",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03418688",
+      "name": "COR388-002",
+      "drug": "COR388 / atuzaginstat (gingipain inhibitor)",
+      "phase": "1",
+      "sponsor": "Cortexyme, Inc.",
+      "status": "Completed",
+      "enrollment": 33,
+      "population": "Healthy volunteers (single- and multiple-ascending-dose cohorts) and a small cohort of patients with mild-to-moderate Alzheimer's disease dosed for 28 days",
+      "primary_endpoint": "Pharmacokinetics (AUC, Cmax, Tmax) and safety/tolerability; CSF ApoE fragmentation was a secondary/exploratory biomarker, not the registered primary endpoint",
+      "started": "2018-03",
+      "completed_or_readout": "2018-10",
+      "results_summary": "COR388 was well tolerated with no serious adverse events across dose cohorts. In the small 28-day AD-patient cohort (6 on COR388, 3 on placebo), CSF ApoE (ApoE3 and ApoE4) fragmentation was statistically significantly reduced versus placebo. These findings were presented at CTAD 2019 (Detke et al.) as a conference abstract, not a peer-reviewed primary publication.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03823404",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03823404",
+      "name": "GAIN",
+      "drug": "COR388 / atuzaginstat (gingipain inhibitor)",
+      "phase": "2/3",
+      "sponsor": "Cortexyme, Inc.",
+      "status": "Completed",
+      "enrollment": 643,
+      "population": "Patients with mild-to-moderate Alzheimer's disease",
+      "primary_endpoint": "Co-primary: change from baseline in ADAS-Cog11 and ADCS-ADL at 48 weeks, comparing two COR388 doses (40mg, 80mg BID) vs. placebo",
+      "started": "2019-03",
+      "completed_or_readout": "2022-01",
+      "results_summary": "Topline results (announced Oct 2021) showed the trial failed both co-primary endpoints — no significant separation from placebo on ADAS-Cog11 or ADCS-ADL at 48 weeks. Dose-related liver enzyme elevations occurred in 15% of high-dose and 7% of low-dose patients vs. 2% on placebo. A pre-specified subgroup (~half the cohort, defined by P. gingivalis DNA positivity on oral swab) showed a dose-response signal suggesting slowed cognitive decline, but this was not a confirmed primary result. An FDA clinical hold followed in January 2022 over hepatotoxicity, and the sponsor discontinued the atuzaginstat program in August 2022.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2019-12-07",
+      "kind": "paper",
+      "description": "Detke et al. CTAD 2019 oral presentation: COR388 decreases CSF ApoE fragmentation in AD patients (Phase 1b data) — conference abstract, not peer-reviewed",
+      "url": "https://www.alzheimer-europe.org/news/cortexyme-inc-presents-data-its-phase-1b-trial-gingipain-inhibitor-cor388-showing-reduced-apoe"
+    },
+    {
+      "date": "2021-10",
+      "kind": "company",
+      "description": "Cortexyme announces GAIN Phase 2/3 topline results: trial did not meet co-primary endpoints (ADAS-Cog11, ADCS-ADL)",
+      "url": "https://www.biopharmadive.com/news/cortexyme-alzheimers-gain-study-results-gingivalis/608879/"
+    },
+    {
+      "date": "2022-01",
+      "kind": "regulatory",
+      "description": "FDA places clinical hold on atuzaginstat IND over dose-dependent hepatotoxicity signal",
+      "url": "https://ir.quincetx.com/news-releases/news-release-details/cortexyme-announces-clinical-trial-hold-atuzaginstats-investigational"
+    },
+    {
+      "date": "2022-08",
+      "kind": "company",
+      "description": "Cortexyme discontinues gingipain-inhibitor (atuzaginstat) program entirely and rebrands as Quince Therapeutics, shifting focus away from Alzheimer's disease",
+      "url": "https://www.fiercebiotech.com/biotech/quince-hoping-sweeten-its-fruit-new-strategic-plan-acquisitions-and-out-licensing-legacy"
+    },
+    {
+      "date": "2022-09-01",
+      "kind": "paper",
+      "description": "Sabbagh & Decourt, 'COR388 (atuzaginstat): an investigational gingipain inhibitor for the treatment of Alzheimer disease,' Expert Opinion on Investigational Drugs — summarizes GAIN trial conduct, subgroup finding, and FDA hold",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10275298/"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence for gingipain inhibition as an Alzheimer's treatment, which this 2020 review previewed as promising, is now negative. The pivotal Phase 2/3 GAIN trial (NCT03823404, n=643) that the review describes as 'underway' was completed and failed both co-primary cognitive/functional endpoints (ADAS-Cog11, ADCS-ADL) per topline results announced in October 2021, and a dose-dependent hepatotoxicity signal triggered an FDA clinical hold in January 2022, leading the sponsor to discontinue the entire program by August 2022 and rebrand away from Alzheimer's research. The only positive human data the review cites — reduced CSF ApoE fragmentation in a 9-subject arm of the Phase 1a/b trial (NCT03418688) — was a pharmacodynamic biomarker in a tiny sample, reported only as a conference abstract, and was never validated against a clinical or cognitive endpoint. A post-hoc GAIN subgroup (roughly half the cohort, defined by P. gingivalis oral-swab positivity) showed a slowed-decline signal, but non-prespecified subgroup findings within an otherwise-failed trial carry low evidentiary weight absent independent confirmation, which never occurred. Overall, the mechanistic narrative (P. gingivalis/gingipains detected in AD brain, mouse neuropathology) remains associative and largely unreplicated outside the sponsor's own lab, while the one adequately powered causal test of the human therapeutic hypothesis was negative, undercutting the review's central 'treatment efficacy' pillar of its Hill-criteria argument.",
+  "discrepancies": [
+    "The document presents the Phase 1a/b CSF ApoE fragmentation reduction as supportive clinical evidence for COR388, but this was a biomarker/pharmacodynamic result in only 9 subjects (6 active, 3 placebo), reported solely as a conference abstract — not a peer-reviewed clinical or cognitive outcome.",
+    "The document frames the GAIN Phase 2/3 trial as ongoing momentum toward an AD treatment without flagging that its cognitive/functional co-primary endpoints were not yet available; the completed trial (topline results Oct 2021) failed both co-primary endpoints (ADAS-Cog11, ADCS-ADL).",
+    "The document does not (and could not, given its 2020 publication date) mention the subsequent FDA clinical hold (Jan 2022) for dose-dependent liver toxicity or the sponsor's full discontinuation of the gingipain-inhibitor program (Aug 2022) and corporate rebrand to Quince Therapeutics — outcomes that materially undercut the review's optimistic framing of COR388's therapeutic prospects."
+  ]
+}

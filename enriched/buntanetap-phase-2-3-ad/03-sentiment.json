@@ -1,0 +1,144 @@
+{
+  "overall": "mixed",
+  "summary": "Public conversation about buntanetap is concentrated almost entirely in financial/investor and trade-press circles rather than patient or caregiver communities, where it barely registers. Retail investors on Stocktwits and InvestorsHub have been described as 'extremely bullish,' but this sits atop a history of whiplash: buntanetap-linked stock crashes in 2021 and again in April 2024 (each followed by securities-fraud class actions alleging the company oversold subgroup results as trial 'success'). Trade/patient-news outlets (Alzheimer's News Today, Longevity.Technology, company-fed GlobeNewswire pickups) report the npj Dementia paper in largely promotional terms emphasizing the biomarker-positive subgroup win and downplaying the missed co-primary endpoints. Financial journalists and biotech analysts (FierceBiotech, STAT News, Seeking Alpha) are pointedly more skeptical, repeatedly flagging that Annovis leans on post-hoc subgroup framing when primary endpoints fail — a pattern they say has now recurred across the 2021 Phase 2a, 2024 Phase 2/3 AD, and 2025 Phase 3 Parkinson's readouts. No meaningful Reddit or caregiver-forum discussion (r/Alzheimers, r/dementia, ALZConnected, HealthUnlocked) turned up in searches, suggesting the drug has not yet broken through to patient/caregiver decision-making conversations the way, say, lecanemab or donanemab have.",
+  "communities": [
+    {
+      "community": "retail investors (ANVS) — Stocktwits/InvestorsHub",
+      "sentiment": "mixed",
+      "themes": [
+        "extremely bullish message volume/sentiment readings around catalysts",
+        "history of being burned by two prior stock crashes (2021, April 2024) tied to muddled readouts",
+        "anticipation fixated on Phase 3 symptomatic readout (Sept 2026) and disease-modifying readout (~2028)",
+        "some investors openly asking if subgroup-driven signals will hold up without 'heavy post-hoc filtering'"
+      ],
+      "example_urls": [
+        "https://stocktwits.com/news-articles/markets/equity/anvs-stock-jumps-after-analyst-reiterates-buy/cJczO3TRI2",
+        "https://investorshub.advfn.com/Annovis-Bio-Inc-ANVS-39030",
+        "https://bowtiedbiotech.substack.com/p/biotech-market-research-anvs-ep-986"
+      ]
+    },
+    {
+      "community": "biotech financial journalists / analysts (FierceBiotech, STAT News, Seeking Alpha)",
+      "sentiment": "skeptical",
+      "themes": [
+        "primary-endpoint misses repeatedly reframed by the company as subgroup 'success'",
+        "pattern-recognition across three separate trials (2021 AD Phase 2a, 2024 AD Phase 2/3, 2025 PD Phase 3) of the same post-hoc pivot",
+        "explicit statements that 'digging deeper... suggests the trial was a failure'",
+        "predictions that the stock only re-rates on an effect size 'unambiguously above noise', implying current data isn't there yet"
+      ],
+      "example_urls": [
+        "https://www.fiercebiotech.com/biotech/annovis-shares-plummet-more-40-after-muddled-alzheimers-readout",
+        "https://www.fiercebiotech.com/biotech/annovis-glosses-over-primary-endpoint-pivotal-parkinsons-data-focuses-subgroups-and",
+        "https://www.statnews.com/2024/02/23/annovis-bio-parkinsons-disease-buntanetap/",
+        "https://seekingalpha.com/article/4663894-annovis-bio-buntanetap-likely-disappoint-upcoming-ad-pd-clinical-trials"
+      ]
+    },
+    {
+      "community": "patient/health trade press (Alzheimer's News Today, Longevity.Technology)",
+      "sentiment": "hopeful",
+      "themes": [
+        "headline framing emphasizes 'found effective' and 'gains ground' rather than the ITT primary-endpoint miss",
+        "heavy reliance on company press releases and quotes from Annovis-affiliated authors",
+        "favorable safety/tolerability profile repeated prominently",
+        "positioning buntanetap as a mechanistically differentiated (non-amyloid-antibody) alternative to Leqembi/Kisunla"
+      ],
+      "example_urls": [
+        "https://alzheimersnewstoday.com/news/buntanetap-found-effective-safe-early-alzheimers-trial-data/",
+        "https://longevity.technology/news/buntanetap-gains-ground-in-new-alzheimers-trial-results/",
+        "https://www.globenewswire.com/news-release/2026/04/28/3282572/0/en/annovis-publishes-phase-2-3-alzheimer-s-trial-results-in-nature-portfolio.html"
+      ]
+    },
+    {
+      "community": "r/Alzheimers, r/dementia, ALZConnected, HealthUnlocked (patients/caregivers)",
+      "sentiment": "quiet",
+      "themes": [
+        "no buntanetap- or Annovis-specific threads surfaced in searches of these communities",
+        "general caregiver forums exist and are active on other topics, but this drug hasn't generated visible discussion there yet"
+      ],
+      "example_urls": []
+    },
+    {
+      "community": "scientist/biotech commentary (Alzforum, The Scientist)",
+      "sentiment": "mixed",
+      "themes": [
+        "Alzforum tracks the drug clinically without strong editorializing",
+        "company-authored historical/mechanistic pieces (e.g., 'execution poison to potential AD drug') read as promotional rather than independent",
+        "no independent academic commentary specifically critiquing the npj Dementia paper surfaced in search"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/therapeutics/buntanetap",
+        "https://www.the-scientist.com/buntanetap-from-execution-poison-to-potential-alzheimer-s-disease-drug-74274"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "FierceBiotech",
+      "tone": "critical",
+      "date": "2024-04",
+      "url": "https://www.fiercebiotech.com/biotech/annovis-shares-plummet-more-40-after-muddled-alzheimers-readout"
+    },
+    {
+      "outlet": "FierceBiotech",
+      "tone": "critical",
+      "date": null,
+      "url": "https://www.fiercebiotech.com/biotech/annovis-glosses-over-primary-endpoint-pivotal-parkinsons-data-focuses-subgroups-and"
+    },
+    {
+      "outlet": "STAT News",
+      "tone": "critical",
+      "date": "2024-02",
+      "url": "https://www.statnews.com/2024/02/23/annovis-bio-parkinsons-disease-buntanetap/"
+    },
+    {
+      "outlet": "Seeking Alpha",
+      "tone": "critical",
+      "date": null,
+      "url": "https://seekingalpha.com/article/4663894-annovis-bio-buntanetap-likely-disappoint-upcoming-ad-pd-clinical-trials"
+    },
+    {
+      "outlet": "Alzheimer's News Today",
+      "tone": "positive",
+      "date": null,
+      "url": "https://alzheimersnewstoday.com/news/buntanetap-found-effective-safe-early-alzheimers-trial-data/"
+    },
+    {
+      "outlet": "Longevity.Technology",
+      "tone": "positive",
+      "date": null,
+      "url": "https://longevity.technology/news/buntanetap-gains-ground-in-new-alzheimers-trial-results/"
+    },
+    {
+      "outlet": "GlobeNewswire (Annovis press release)",
+      "tone": "positive",
+      "date": "2026-04",
+      "url": "https://www.globenewswire.com/news-release/2026/04/28/3282572/0/en/annovis-publishes-phase-2-3-alzheimer-s-trial-results-in-nature-portfolio.html"
+    }
+  ],
+  "hype_vs_evidence": "Company-originated and downstream patient-media coverage consistently frames the 2026 npj Dementia paper as a validated efficacy win ('found effective,' 'statistically significant efficacy'), while the underlying paper itself concedes both co-primary endpoints failed in the full ITT population and the reported benefit comes from an unregistered, non-multiplicity-corrected post-hoc subgroup of just 95 patients. Financial press and short-thesis analysts have caught this gap explicitly and repeatedly — noting the identical pattern recurred in 2021 (Phase 2a), 2024 (Phase 2/3 AD, which triggered a 60% stock crash and a securities class action), and 2025 (Phase 3 Parkinson's) — so skepticism among people who track the stock closely is well-calibrated to the evidence, arguably more so than patient-facing coverage. Retail investors are simultaneously the most enthusiastic and the most burned community: Stocktwits sentiment reads 'extremely bullish' even as the same ticker carries a track record of two major post-readout collapses. Patients and caregivers, by contrast, appear largely unaware of or unengaged with buntanetap specifically, so there is little grassroots over- or under-hype to correct there yet — the main asymmetry is investor-press vs. patient-press interpretation of the same primary-endpoint miss.",
+  "misinformation_flags": [
+    "Framing the Phase 2/3 trial as a general 'success' or the drug as 'found effective and safe' without clarifying that both co-primary endpoints (ADAS-Cog11, ADCS-CGIC) failed in the full intent-to-treat population and that the positive result is limited to a small, post-hoc, non-prespecified biomarker-positive subgroup.",
+    "A 2021 company claim (amplified in press coverage) that buntanetap was 'not remotely as good' a comparison implying superiority — i.e., that buntanetap outperforms Biogen's Aduhelm — based on non-head-to-head, cross-trial comparisons.",
+    "Retail-investor characterizations of the April 2024 Phase 2/3 AD readout as a straightforward positive result; independent analysis (FierceBiotech) concluded the readout was, on balance, a failure once the ADCS-CGIC null result and subgroup selection were accounted for — this discrepancy was material enough to spawn shareholder litigation alleging the company's public statements were misleading."
+  ],
+  "searches_run": [
+    "site:reddit.com buntanetap",
+    "buntanetap reddit alzheimers",
+    "Annovis Bio stock ANVS buntanetap phase 3",
+    "buntanetap news alzheimer's trial results",
+    "buntanetap alzforum scientist commentary",
+    "ANVS stocktwits buntanetap",
+    "Annovis Bio investorshub ANVS",
+    "buntanetap Posiphen scam OR skeptical OR hype",
+    "\"buntanetap\" OR \"Annovis\" \"post hoc\" OR \"subgroup\" criticism biotech analyst",
+    "reddit.com/r/Alzheimers buntanetap OR Annovis",
+    "Derek Lowe buntanetap in the pipeline",
+    "Annovis Bio \"no competing interests\" OR conflict of interest criticism",
+    "Annovis Bio shares plummet Alzheimer's fiercebiotech muddled readout",
+    "alzconnected OR healthunlocked buntanetap caregiver forum",
+    "BowTiedBiotech ANVS Annovis buntanetap substack",
+    "Annovis Bio class action lawsuit investors misled buntanetap 2024",
+    "reddit ANVS Annovis stock buy",
+    "\"Annovis\" reddit pennystocks OR biotechplays OR wallstreetbets"
+  ]
+}

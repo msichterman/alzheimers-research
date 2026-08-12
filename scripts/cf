@@ -1,0 +1,49 @@
+#!/usr/bin/env bash
+# Project-scoped wrangler.
+#
+# Wrangler keeps its OAuth session in one machine-global file
+# (~/Library/Preferences/.wrangler/config/default.toml on macOS), so
+# `wrangler login` in any repo replaces the account every other repo uses.
+# This wrapper points wrangler's config home at `.cloudflare/` inside this
+# repo instead, so signing in here has no effect on your other projects —
+# and they have no effect on this one.
+#
+#   pnpm cf login     # sign in, this repo only
+#   pnpm cf whoami    # which account this repo deploys to
+#   pnpm cf logout    # sign out, this repo only
+#
+# In CI there is no browser and no session: CLOUDFLARE_API_TOKEN in the
+# environment takes precedence over any stored login, so the same commands
+# work unchanged.
+set -euo pipefail
+
+root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+
+# Wrangler resolves its config dir from XDG_CONFIG_HOME (see
+# `getGlobalConfigPath` in the wrangler bundle). Exported only for the
+# wrangler process this script execs, so nothing else on the machine sees it.
+# An XDG_CONFIG_HOME already in the environment wins, for the rare case where
+# you want to borrow another session deliberately.
+export XDG_CONFIG_HOME="${XDG_CONFIG_HOME:-$root/.cloudflare}"
+
+# Account pin and, optionally, an API token — gitignored. Keeping the account
+# id here means a deploy can't silently land in whichever account happens to be
+# signed in. See .env.cloudflare.example.
+if [ -f "$root/.env.cloudflare" ]; then
+  set -a
+  # shellcheck disable=SC1091
+  . "$root/.env.cloudflare"
+  set +a
+fi
+
+# A token in the environment outranks the stored login, so a blank
+# CLOUDFLARE_API_TOKEN= line would shadow a perfectly good `pnpm cf login`
+# session and fail every command with "Invalid access token". Drop it if it's
+# empty. (A non-empty but wrong token can't be caught here — if commands start
+# failing to authenticate right after you edit .env.cloudflare, comment the
+# token out and you're back on the browser session.)
+if [ -z "${CLOUDFLARE_API_TOKEN:-}" ]; then
+  unset CLOUDFLARE_API_TOKEN
+fi
+
+exec "$root/node_modules/.bin/wrangler" "$@"

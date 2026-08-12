@@ -1,0 +1,88 @@
+# Content and build validation on every push and PR, plus a Cloudflare preview
+# version for same-repo pull requests. Nothing here touches production traffic:
+# production is deploy.yml's job, on push to main.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Check and build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      # Preview versions upload only for branches on this repo — fork PRs can't
+      # read secrets — and only when Cloudflare credentials are configured.
+      CAN_PREVIEW: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository && secrets.CLOUDFLARE_API_TOKEN != '' }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: ./.github/actions/setup
+
+      - name: Doctor + internal links
+        # blume doctor + the repo's link checker: every link in docs/**/*.mdx
+        # and every redirect in blume.config.ts must resolve.
+        run: pnpm check
+
+      - name: Verify production build
+        # A real build, not `--isolated`: only this path emits llms.txt, the
+        # agent manifests, the published skills, and the patched Worker — the
+        # things the steps below check.
+        run: pnpm build
+        env:
+          WEB_BOT_AUTH_PUBLIC_JWK: ${{ secrets.WEB_BOT_AUTH_PUBLIC_JWK }}
+
+      - name: Validate links in the built site
+        # Internal, anchor, and asset links. Outbound links are left alone —
+        # `--external` would make CI depend on third-party uptime.
+        run: pnpm validate:links
+
+      - name: Audit SEO and agent readability
+        # Errors fail the run; warnings are reported and don't block a merge.
+        run: pnpm audit:agents --fail-on error
+
+      - name: Verify the Worker bundle
+        # Catches a site that builds but can't deploy — invalid wrangler
+        # config, bad bindings, an oversized bundle. No credentials needed.
+        # `scripts/cf` is the same wrapper local commands use; in CI the
+        # CLOUDFLARE_API_TOKEN environment variable takes precedence over the
+        # (absent) stored session, so nothing about it is CI-specific.
+        run: ./scripts/cf deploy --config dist/server/wrangler.json --dry-run --outdir .wrangler/dry-run
+
+      - name: Upload a preview version
+        if: env.CAN_PREVIEW == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        # `versions upload` publishes this build and returns a preview URL
+        # without moving any production traffic — alzheimers.dev keeps serving
+        # the last deployed version until the PR merges.
+        run: |
+          set -o pipefail
+          pnpm run deploy:version | tee version-upload.log
+
+      - name: Link the preview in the job summary
+        if: env.CAN_PREVIEW == 'true'
+        run: |
+          url="$(grep -oE 'https://[a-z0-9.-]+\.workers\.dev[^ ]*' version-upload.log | head -1)"
+          {
+            echo "### Cloudflare preview"
+            echo
+            if [ -n "$url" ]; then
+              echo "- Preview: $url"
+              echo "- Corpus index: $url/llms.txt"
+              echo "- MCP endpoint: $url/mcp"
+            else
+              echo "Version uploaded; no preview URL in the output (see the upload step's log)."
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"

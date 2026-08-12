@@ -1,0 +1,102 @@
+---
+title: Attribution and licensing
+description: Who made the work this knowledge base summarizes, under what licence, what changed here, and how to cite it.
+sidebar:
+  icon: scale
+search:
+  tags: [attribution, licensing, citation]
+---
+
+This site summarizes other people's research. Most of it is published under Creative Commons licences that **require** credit to the authors, a link to the licence, and a statement of what was changed — so those three things are generated onto every page rather than left to whoever writes it.
+
+## What carries attribution, and where
+
+<Steps>
+  <Step title="Every paper page">
+    An **Attribution** section with the full citation, DOI and PubMed links,
+    the copyright line, the source licence, a changes-made statement, and a
+    table of authors with affiliation, contact, and declared conflicts.
+  </Step>
+  <Step title="Every trial page">
+    An **Attribution** section crediting the ClinicalTrials.gov registry record
+    and the source document the summary was built from.
+  </Step>
+  <Step title="The author index">
+    [Every author](/research/authors) the pipeline has extracted, with the
+    papers they appear on — so credit is queryable, not buried in prose.
+  </Step>
+  <Step title="Page frontmatter">
+    `authors`, `firstAuthor`, `doi`, and `license` travel as structured
+    metadata, so an agent reading the [Markdown mirror](/agents/surfaces) or
+    calling the [MCP server](/agents#mcp-server) gets the credits too — and can
+    filter by licence before quoting.
+  </Step>
+  <Step title="Every page's footer">
+    The site-wide notice: content licence, code licence, and where the trial
+    data comes from.
+  </Step>
+</Steps>
+
+## How it's extracted
+
+Attribution is a pipeline stage, not an editing convention. During parsing, the analysis agent extracts one record per author — name as printed, affiliation, ORCID, corresponding-author flag, and that author's declared conflicts — plus the copyright line and any licence statement.
+
+Two rules make the difference between credit and surveillance:
+
+:::note
+**Contact details come only from what the source document itself publishes** — a corresponding-author line, an ORCID record. Never a web search for a person, never inferred from a name and an institution. A blank field is correct; a guessed one is not.
+
+**An unstated licence is `unknown`, not "open"**. Pages built from a source with unconfirmed reuse terms say so and link the original instead of quoting it at length.
+:::
+
+If you are credited here and want an entry corrected or removed, open an issue on [the repository](https://github.com/msichterman/alzheimers-research/issues) — the underlying record lives in `enriched/<id>/01-analysis.json`, and corrections there flow to every page on the next publish.
+
+## Sources
+
+<Columns cols={2}>
+  <Column>
+    <Card title="Research literature" icon="file-text">
+      Papers and reviews, each credited on its own page. Both current sources
+      are Creative Commons Attribution — see the
+      [papers index](/research/papers).
+    </Card>
+  </Column>
+  <Column>
+    <Card title="Trial registry" icon="flask-conical">
+      [ClinicalTrials.gov](https://clinicaltrials.gov), a US National Library
+      of Medicine service. Registry records are US government work; the
+      summaries here are not.
+    </Card>
+  </Column>
+  <Column>
+    <Card title="Literature search" icon="search">
+      [Europe PMC](https://europepmc.org) and the ClinicalTrials.gov API, used
+      by `pnpm discover` to find and screen candidate sources.
+    </Card>
+  </Column>
+  <Column>
+    <Card title="This site's own words" icon="pencil">
+      Summaries, critical review, and commentary are the project's, published
+      under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+    </Card>
+  </Column>
+</Columns>
+
+## Licensing, in short
+
+| Layer | Licence |
+| --- | --- |
+| Site code, pipeline, components | [MIT](https://github.com/msichterman/alzheimers-research/blob/main/LICENSE) |
+| Summaries, notes, and commentary written here | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| Quoted or summarized source material | The source's own licence, named on each page |
+| Trial registry data | US government work, via ClinicalTrials.gov |
+
+Full third-party credits — frameworks, tooling, icons, and brand marks — are in [ATTRIBUTION.md](https://github.com/msichterman/alzheimers-research/blob/main/ATTRIBUTION.md).
+
+## If you cite this site
+
+Cite the **original research**, not this summary of it — every page names it. If you're citing the knowledge base itself (the synthesis, the critical-review records, the tracker), this works:
+
+<Prompt description="Copy a **citation** for this knowledge base.">
+Alzheimer's Research knowledge base. https://alzheimers.dev — summaries and critical review of Alzheimer's disease research, licensed CC BY 4.0. Accessed [date].
+</Prompt>

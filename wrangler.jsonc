@@ -1,0 +1,51 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+
+  // Base Worker config. `@astrojs/cloudflare` reads this file at build time and
+  // merges it into the deploy config it generates at `dist/server/wrangler.json`
+  // — which is what `wrangler deploy` is pointed at (see package.json). `main`,
+  // `assets`, and `compatibility` plumbing for the Astro entry come from the
+  // adapter; everything the platform can't infer lives here.
+  //
+  // Blume additionally patches the generated config with
+  // `assets.run_worker_first` rules and a wrapper Worker, so content pages reach
+  // the Worker and `Accept: text/markdown` negotiation works. Don't hand-edit
+  // the generated file — change this one and rebuild.
+  "name": "alzheimers-research",
+  "compatibility_date": "2026-08-01",
+
+  // `nodejs_compat` is required by the Astro Cloudflare adapter. With it, and a
+  // compatibility date past 2025-04-01, the runtime populates `process.env`
+  // from vars and secrets — which is how Ask AI reads AI_GATEWAY_API_KEY
+  // (`wrangler secret put AI_GATEWAY_API_KEY`, or the GitHub Actions secret of
+  // the same name, synced on every production deploy).
+  "compatibility_flags": ["nodejs_compat", "nodejs_compat_populate_process_env"],
+
+  // The production hostnames. `custom_domain` makes Wrangler create each DNS
+  // record and attach the domain on deploy; the `alzheimers.dev` zone must
+  // already exist in the Cloudflare account the API token can reach, and the
+  // hostname must have no pre-existing A/CNAME records (Cloudflare refuses
+  // with code 100117 otherwise).
+  //
+  // Both hosts serve the same Worker. `deployment.site` in blume.config.ts
+  // stays the apex, so every canonical tag, sitemap entry, and absolute URL
+  // still points at https://alzheimers.dev — www is an alias, not a second
+  // identity.
+  "routes": [
+    { "pattern": "alzheimers.dev", "custom_domain": true },
+    { "pattern": "www.alzheimers.dev", "custom_domain": true }
+  ],
+
+  // Workers Logs: request/exception logs in the dashboard and `wrangler tail`.
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  },
+
+  // Production is served on the custom domain only — no second public origin on
+  // workers.dev competing with it for canonical URLs. Preview URLs stay on:
+  // pull requests upload a version instead of deploying, and Cloudflare serves
+  // it at `<version>-alzheimers-research.<subdomain>.workers.dev`.
+  "workers_dev": false,
+  "preview_urls": true
+}

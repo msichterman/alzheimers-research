@@ -1,0 +1,25 @@
+{
+  "published_at": "2026-08-12T19:10:51.582Z",
+  "files": [
+    "docs/research/papers/p-gingivalis-cor388-alzheimers.mdx",
+    "docs/trials/cor388-nct03823404.mdx"
+  ],
+  "timeline": [
+    {
+      "title": "2019-03 — GAIN trial begins (COR388 in mild-to-moderate AD)",
+      "action": "skipped (already present)"
+    },
+    {
+      "title": "2021-10 — GAIN trial fails co-primary endpoints",
+      "action": "skipped (already present)"
+    },
+    {
+      "title": "2022-01 — FDA holds COR388 trial over liver toxicity",
+      "action": "skipped (already present)"
+    },
+    {
+      "title": "2022-08 — Cortexyme discontinues gingipain-inhibitor program",
+      "action": "skipped (already present)"
+    }
+  ]
+}

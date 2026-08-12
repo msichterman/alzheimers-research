@@ -1,0 +1,116 @@
+{
+  "kind": "review",
+  "title": "Porphyromonas gingivalis and Alzheimer disease: Recent findings and potential therapies",
+  "authors": [
+    {
+      "name": "Ryder M.I.",
+      "affiliation": "Division of Periodontology, University of California San Francisco, San Francisco, CA 94143-0422, USA",
+      "orcid": null,
+      "email": "mark.ryder@ucsf.edu",
+      "corresponding": true,
+      "conflicts": "Paid Clinical Advisory Board member and consultant for Cortexyme, Inc., maker of COR388"
+    }
+  ],
+  "first_author": "Ryder M.I.",
+  "venue": "Journal of Periodontology",
+  "published": "2020-10",
+  "doi": "10.1002/JPER.20-0104",
+  "doi_url": "https://doi.org/10.1002/JPER.20-0104",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/32441775/",
+  "tags": [
+    "review",
+    "infection",
+    "inflammation",
+    "microbiome",
+    "amyloid",
+    "tau",
+    "small-molecule",
+    "gingipain",
+    "COR388",
+    "Cortexyme"
+  ],
+  "themes": [
+    "P. gingivalis brain colonization and AD",
+    "gingipains as neurotoxic mediators",
+    "Hill-criteria framework for causation (association, mechanism, treatment)",
+    "gingipain inhibitor (COR388) preclinical and early clinical evidence",
+    "mouse models of oral P. gingivalis infection"
+  ],
+  "one_line": "A narrative review by a paid Cortexyme advisor summarizes evidence linking P. gingivalis/gingipains to Alzheimer pathology and previews (largely industry-generated) preclinical and early-phase clinical data for the gingipain inhibitor COR388.",
+  "summary": "This is a non-systematic narrative review presented at a 2019 symposium honoring Steven Offenbacher, examining the proposed link between periodontitis, the bacterium Porphyromonas gingivalis, and Alzheimer disease (AD). The author organizes evidence around a three-criterion causality framework (association, plausible mechanism, and treatment efficacy), summarizing epidemiological association studies, detection of P. gingivalis DNA/LPS and gingipains in AD brain and CSF specimens, and mouse studies showing oral P. gingivalis infection produces AD-like neuropathology. It then describes Cortexyme's gingipain small-molecule inhibitors, which reduced P. gingivalis burden and neurotoxicity in mice, and reports that a completed Phase 1a/b trial of COR388 was well tolerated and reduced CSF ApoE fragment levels, with a Phase 2/3 trial (GAIN, NCT03823404) then underway. The review relies almost entirely on prior published work, most centrally the 2019 Dominy et al. Science Advances paper, rather than presenting new data. The author is a paid clinical advisor to Cortexyme, the company developing COR388, and this is disclosed. No independent human efficacy data for COR388 against AD are presented; the Phase 2/3 outcome was not yet known at time of writing.",
+  "key_claims": [
+    {
+      "claim": "P. gingivalis DNA, LPS, and gingipains are detectable in autopsy brain specimens and CSF/saliva of AD patients, more abundantly than in controls, and correlate with tau/ubiquitin pathology.",
+      "evidence": "Citations to Poole et al. 2013 (LPS), Dominy et al. 2019 (DNA, gingipains in autopsy brain and CSF/saliva), immunohistochemical/immunofluorescence colocalization with neurons, tau tangles, and intracellular amyloid-beta; gingipains most prominent in hippocampus.",
+      "strength": "moderate",
+      "location": "Section 3, Figure 2"
+    },
+    {
+      "claim": "Oral infection of mice with P. gingivalis produces AD-like neuropathology (infiltration, neuroinflammation, amyloid plaques, activated microglia, tau tangles, neurodegeneration).",
+      "evidence": "Cites Dominy et al. 2019 and three other mouse studies (Poole 2015 ApoE-/- mice; Ilievski 2018; Ding 2018) showing convergent findings across wild-type and ApoE-/- models.",
+      "strength": "moderate",
+      "location": "Section 3"
+    },
+    {
+      "claim": "Small-molecule gingipain inhibitors reduce P. gingivalis-induced neurotoxicity and brain bacterial burden, outperforming antibiotics (moxifloxacin, doxycycline) and a beta-amyloid-production inhibitor (semagacestat).",
+      "evidence": "In vitro neuroblastoma assay and in vivo mouse hippocampal injection/oral-infection models from Dominy et al. 2019: gingipain inhibitors protected hippocampal neurons and reduced brain P. gingivalis DNA, beta-amyloid, and TNF-alpha after established infection; antibiotics and semagacestat did not protect.",
+      "strength": "moderate",
+      "location": "Section 4"
+    },
+    {
+      "claim": "COR388 is safe/well tolerated and reduces a CSF biomarker (ApoE fragmentation) relevant to AD in humans.",
+      "evidence": "Completed Phase 1a/b FDA trial (NCT03418688) over 28 days; cited to a conference abstract (Detke et al. 2019, J Prev Alzheimer's Dis) rather than a peer-reviewed full paper.",
+      "strength": "weak",
+      "location": "Section 4, refs 32-33"
+    },
+    {
+      "claim": "Periodontitis and AD are epidemiologically associated.",
+      "evidence": "Cites multiple observational/epidemiological and case-control studies (refs 8-15) and a systematic review/meta-analysis (Leira et al. 2017) plus imaging/serum biomarker correlation studies (refs 16-17), while explicitly noting the 'chicken and egg' directionality problem.",
+      "strength": "moderate",
+      "location": "Section 2"
+    }
+  ],
+  "methods": {
+    "design": "Narrative/invited review (symposium proceedings); not a systematic review or original research",
+    "n": null,
+    "population": "Not applicable (review synthesizes prior human observational studies and mouse models)",
+    "duration": null,
+    "registration": null
+  },
+  "funding_and_conflicts": "Symposium hosted by UNC Adams School of Dentistry; supported by Colgate-Palmolive Company and the American Academy of Periodontology. Colgate-Palmolive funded publication of the supplement but states no involvement in content. The manuscript's initial draft was written by a medical writer (Elizabeth M. Adler, PhD, BioSerendipity LLC) based on content provided by the author; final manuscript under author's sole control. Disclosed conflict: author Mark Ryder is on the Clinical Advisory Board of Cortexyme, Inc. (developer of COR388 and the gingipain inhibitors discussed) and is a paid consultant for them — a direct financial interest in the therapeutic class being reviewed.",
+  "limitations": [
+    "Author explicitly notes association studies alone cannot establish causality due to the 'chicken and egg problem' and confounders like genetics, age, and tobacco use (Section 2).",
+    "No systematic review methodology is described (no search strategy, inclusion/exclusion criteria, or quality appraisal), so study selection could be non-representative.",
+    "Human efficacy evidence for gingipain inhibitors against AD is entirely absent; only a biomarker (CSF ApoE fragment) change from a small, short (28-day), non-cognitive-endpoint Phase 1a/b trial is cited, published only as a conference abstract, not peer-reviewed.",
+    "Central mechanistic evidence (Dominy et al. 2019) comes from a single research group/company (Cortexyme) that also funds and stands to profit from the reviewed therapeutic; independent replication is not discussed.",
+    "Mouse model neuropathology (plaques, tangles) is used as a proxy for human AD, but causal relevance of these features to cognitive decline in humans is not established in the review.",
+    "Review does not discuss any studies that failed to find P. gingivalis/AD associations or that found gingipain inhibitors ineffective, raising the possibility of one-sided citation selection."
+  ],
+  "red_flags": [
+    "The author is a paid clinical advisor to Cortexyme, the maker of COR388, and the review's mechanistic and therapeutic sections rely almost exclusively on that company's own published data (Dominy et al. 2019) and an unpublished conference abstract (ref 33) — a direct financial conflict embedded in the central evidentiary basis of the article.",
+    "The Phase 1a/b trial result reported (reduced CSF ApoE fragmentation) is a biomarker/pharmacodynamic surrogate, not a clinical or cognitive endpoint, but is presented in Section 4 in a way that reads as supportive clinical validation for AD treatment.",
+    "No mention that the pivotal Phase 2/3 GAIN trial (NCT03823404) had a primary endpoint of cognitive/functional outcomes still pending at time of writing — the review implies momentum toward efficacy without flagging that the definitive human cognitive-outcome data did not yet exist.",
+    "Selective evidence presentation: no citation of negative or null findings regarding P. gingivalis/AD association or gingipain inhibitor efficacy, despite this being an active and contested research area."
+  ],
+  "parse_quality": {
+    "score": 6,
+    "issues": [
+      "Widespread missing spaces between words from PDF-to-Markdown conversion (e.g., 'Alzheimerdisease', 'DivisionofPeriodontology'), especially in the title, author affiliation block, and reference list.",
+      "Figure captions (Figure 1, Figure 2) are present but images themselves are not reproduced/described beyond captions.",
+      "Superscript citation numbers are inconsistently rendered inline with body text, sometimes appearing as stray digits that could be mistaken for content (e.g., '2019 UNC OFFENBACHER SYMPOSIUM' header formatting).",
+      "Header/footer artifacts (page numbers 'S46', 'S47', author name 'RYDER' repeated as running headers) are interleaved into body text.",
+      "Reference list formatting is largely intact and usable despite spacing artifacts."
+    ]
+  },
+  "search_verification": [
+    "Confirmed DOI 10.1002/JPER.20-0104 is stated explicitly in the document header and citation footer, consistent with Journal of Periodontology Vol 91 Suppl 1, S45-S49 (2020); this is a well-known, frequently cited paper so the DOI format and journal/volume/page details are internally consistent and not flagged as suspicious.",
+    "PubMed URL was constructed from the standard PubMed ID pattern for this well-indexed 2020 Journal of Periodontology supplement article rather than confirmed via a live web lookup in this session; should be spot-checked if precision is critical, though the article is a known, indexed publication."
+  ],
+  "copyright": "©2020 The Authors. Journal of Periodontology published by Wiley Periodicals LLC on behalf of American Academy of Periodontology",
+  "license": {
+    "name": "CC BY",
+    "url": null,
+    "reuse": "redistribute",
+    "evidence": "This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited."
+  }
+}

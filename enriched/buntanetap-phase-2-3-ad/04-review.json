@@ -1,0 +1,186 @@
+{
+  "fact_check": [
+    {
+      "fact": "Buntanetap did not meet either co-primary endpoint (ADAS-Cog11, ADCS-CGIC) vs. placebo in the 351-patient ITT population.",
+      "status": "verified",
+      "note": "Matches paper Table 1 and 'Primary analysis results' text directly."
+    },
+    {
+      "fact": "ADAS-Cog11 LS mean difference 0.13 (95% CI −1.088, 1.350), p=0.833.",
+      "status": "verified",
+      "note": "Matches Table 1 exactly."
+    },
+    {
+      "fact": "ADCS-CGIC difference 0.22 (95% CI −0.074, 0.516), p=0.141.",
+      "status": "verified",
+      "note": "Matches Table 1 exactly."
+    },
+    {
+      "fact": "Key secondary ADCS-ADL difference −1.48 (95% CI −3.326, 0.375), p=0.118.",
+      "status": "verified",
+      "note": "Matches Table 1 exactly."
+    },
+    {
+      "fact": "351 participants randomized: 88/87/87 across 7.5/15/30 mg, 89 placebo.",
+      "status": "verified",
+      "note": "Matches 'Participant disposition and demographics' text."
+    },
+    {
+      "fact": "TEAEs 33.3% (86/262) buntanetap vs. 26.1% (23/88) placebo; drug-related TEAEs 8.9% (23/258) vs. 3.4% (3/88); no serious drug-related TEAEs.",
+      "status": "verified",
+      "note": "Matches safety section text exactly."
+    },
+    {
+      "fact": "~38-40% of enrolled participants lacked amyloid pathology by plasma pTau217/t-Tau testing; only 62.1% (n=216) confirmed AD pathology.",
+      "status": "verified",
+      "note": "62.1%/n=216 figure is exact. Note: the paper itself is internally inconsistent, using both '~38%' (post-hoc analysis section) and '~40%' (abstract, discussion) for the same figure — this is the source's inconsistency, not an error introduced downstream."
+    },
+    {
+      "fact": "In the post-hoc biomarker-positive mild AD subgroup (n=95), buntanetap showed a dose-dependent, nominally significant ADAS-Cog11 improvement.",
+      "status": "verified",
+      "note": "Matches text, but important nuance: the paper states this is improvement 'compared to baseline,' not vs. placebo — the subgroup section does not report a placebo-controlled treatment effect for ADAS-Cog11. Reflected in the takeaway wording."
+    },
+    {
+      "fact": "Moderate AD biomarker-positive patients (n=115) showed no ADAS-Cog11 treatment-related change; no subgroup showed ADCS-CGIC benefit.",
+      "status": "verified",
+      "note": "Matches Fig. 2a, c, d description text."
+    },
+    {
+      "fact": "Corresponding author and multiple co-authors are Annovis Bio employees (drug sponsor); paper states 'the authors declare no competing interests.'",
+      "status": "verified",
+      "note": "Correspondence email fang@annovisbio.com and 'Competing interests' statement both appear verbatim in the source."
+    },
+    {
+      "fact": "Forest plot (Fig. 3) shows a 'consistent favorable effect' across demographic/APOE4 subgroups.",
+      "status": "unverified",
+      "note": "Described only qualitatively in text; no point estimates or CIs given, and the figure image isn't available to check. Excluded from key findings, kept as a caveat only."
+    },
+    {
+      "fact": "Plasma biomarkers (t-Tau, TDP43, IL5, IL6, S100A12, IFN-γ, IGF1R, NFL) trended favorably with 30mg vs. placebo; GFAP showed no effect.",
+      "status": "unverified",
+      "note": "Reported descriptively with no p-values or formal statistical testing in the source. Kept out of key findings, noted as exploratory in caveats."
+    },
+    {
+      "fact": "NCT06709014 (confirmatory Phase 3) is a 760-patient, biomarker-selected, 18-month study with 6-month and 18-month co-primary readouts.",
+      "status": "verified",
+      "note": "760-patient/18-month figure matches paper Discussion text ('760-patient 18-month pivotal study'). Enrollment count is now disputed — see next entry."
+    },
+    {
+      "fact": "NCT06709014 enrollment: registry lists 760 (estimated); July 2026 Annovis press release claims ~850 enrolled, reaching full enrollment.",
+      "status": "disputed",
+      "note": "Registry has not been updated to reflect the sponsor's later enrollment claim. Flagged in trial_evidence_md and the NCT06709014 trial page rather than silently picking one number."
+    },
+    {
+      "fact": "NCT06709014 primary endpoints are ADAS-Cog13 and ADCS-iADL.",
+      "status": "unverified",
+      "note": "Not stated in the source paper text (which only gives readout timing); sourced from the trials researcher's registry check, marked 'verified: registry' on their end but not independently re-checked by me against ClinicalTrials.gov directly."
+    }
+  ],
+  "research_page": {
+    "slug": "buntanetap-phase-2-3-ad",
+    "title": "Buntanetap in mild-to-moderate AD (phase 2/3)",
+    "description": "Oral APP/Tau translation inhibitor missed its co-primary cognitive endpoints in the full trial population; a small post-hoc biomarker-positive subgroup showed a signal.",
+    "tags": [
+      "paper",
+      "trial",
+      "amyloid",
+      "tau",
+      "biomarkers",
+      "buntanetap"
+    ],
+    "source_line_md": "**Source**: [npj Dementia, 2026](https://doi.org/10.1038/s44400-026-00073-z)",
+    "authors_line_md": "Fang et al. — sponsor: Annovis Bio; corresponding author and several co-authors are Annovis Bio employees",
+    "takeaway_md": "Buntanetap (an oral APP/Tau translation inhibitor) missed both co-primary cognitive endpoints against placebo in the full 351-patient trial. A post-hoc plasma-biomarker check found ~40% of enrollees lacked amyloid pathology; restricted to the 95 biomarker-confirmed mild-AD patients, buntanetap showed a dose-dependent improvement in ADAS-Cog11 versus baseline — not versus placebo, and from an unregistered, non-multiplicity-corrected subgroup carved out of a dataset that had already failed its primary hypothesis. Safety was favorable, with no serious drug-related adverse events. A confirmatory, biomarker-selected Phase 3 ([NCT06709014](/trials/buntanetap-nct06709014)) is underway, with readout not expected before 2027–2028.",
+    "key_findings_md": [
+      "Both co-primary endpoints missed in the ITT population: ADAS-Cog11 LS mean difference 0.13 (95% CI −1.09, 1.35), p=0.833; ADCS-CGIC difference 0.22 (95% CI −0.07, 0.52), p=0.141 (paper, Table 1)",
+      "In the post-hoc biomarker-positive mild AD subgroup (n=95), buntanetap showed a dose-dependent, nominally significant ADAS-Cog11 improvement versus baseline — not a placebo-controlled result, and not prespecified (paper, Fig. 2b)",
+      "Moderate AD biomarker-positive patients (n=115) showed no treatment-related change on ADAS-Cog11; no biomarker-positive subgroup showed benefit on ADCS-CGIC (paper, Fig. 2a, c, d)",
+      "Plasma pTau217/t-Tau testing found only 62.1% (n=216) of enrollees had confirmed AD pathology despite meeting clinical inclusion criteria (paper, Post-hoc analysis section)",
+      "Treatment-emergent adverse events: 33.3% buntanetap (all doses) vs. 26.1% placebo; drug-related TEAEs 8.9% vs. 3.4%; no serious drug-related adverse events (paper, Safety section)"
+    ],
+    "methods_md": "Randomized, double-blind, placebo-controlled, dose-ranging Phase 2/3 trial ([NCT05686044](https://clinicaltrials.gov/study/NCT05686044)); 351 patients with mild-to-moderate AD (MMSE 14-24, ages 55-85) at 54 US sites, randomized 1:1:1:1 to 7.5mg, 15mg, 30mg buntanetap or placebo for 12 weeks. No biomarker or imaging confirmation of amyloid pathology was required for enrollment.",
+    "trial_evidence_md": "NCT05686044 is buntanetap's only completed AD efficacy trial, and it failed its prespecified primary hypothesis. The sponsor's confirmatory Phase 3, [NCT06709014](/trials/buntanetap-nct06709014), enrolls only biomarker-confirmed early-AD patients — directly testing the post-hoc subgroup hypothesis from this paper — with primary completion not expected before 2027-2028. Every buntanetap AD and Parkinson's trial to date is sponsored solely by Annovis Bio, and none has an independently replicated peer-reviewed primary efficacy result. A July 2026 Annovis press release claims NCT06709014 reached full enrollment at roughly 850 patients, above the registry's still-listed estimate of 760 — the registry record hasn't caught up.",
+    "sentiment_md": "Public discussion concentrates in investor and trade-press circles; searches found no meaningful discussion in patient or caregiver forums. Patient-facing trade outlets like [Alzheimer's News Today](https://alzheimersnewstoday.com/news/buntanetap-found-effective-safe-early-alzheimers-trial-data/) framed the results as a straightforward efficacy win, while financial press ([FierceBiotech](https://www.fiercebiotech.com/biotech/annovis-shares-plummet-more-40-after-muddled-alzheimers-readout)) has repeatedly flagged Annovis's pattern of emphasizing post-hoc subgroups when primary endpoints fail, across this and two prior buntanetap readouts.",
+    "caveats_md": [
+      "The headline subgroup finding (n=95) is post-hoc and unregistered, drawn from the same dataset that failed the prespecified primary hypothesis in the full ITT population — a data-dependent selection that 'nominal significance' does not resolve",
+      "The reported subgroup benefit is versus baseline, not versus placebo; a treatment-vs-placebo effect was not demonstrated in this subgroup",
+      "Not adjusted for multiplicity across a subgroup analysis or an 8+ analyte exploratory biomarker panel; GFAP showed no treatment effect and is not emphasized in the discussion",
+      "Corresponding author and several co-authors are Annovis Bio employees (the trial sponsor), yet the paper states 'the authors declare no competing interests'",
+      "Forest-plot (subgroup-consistency) and biomarker-trend claims are described only qualitatively, with no p-values, effect sizes, or figure data available for independent verification",
+      "Raw trial data are withheld until an NDA filing, limiting independent reanalysis"
+    ],
+    "relates_to_md": [
+      "[Biomarkers](/research/biomarkers) — plasma pTau217 testing drove the post-hoc reclassification of roughly 40% of enrollees as amyloid-negative",
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — buntanetap targets APP synthesis upstream of amyloid plaque formation, a non-antibody mechanism",
+      "[Trial tracker](/trials) — track the confirmatory Phase 3 readout"
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "buntanetap-nct05686044",
+      "title": "Buntanetap Phase 2/3 in mild-to-moderate AD (NCT05686044)",
+      "description": "Oral APP/Tau translation inhibitor, Phase 2/3, 351 patients with mild-to-moderate AD; missed co-primary endpoints.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "buntanetap",
+        "amyloid",
+        "tau"
+      ],
+      "registry_md": "[NCT05686044](https://clinicaltrials.gov/study/NCT05686044)",
+      "drug": "Buntanetap / Posiphen (oral inhibitor of APP, Tau, alpha-synuclein, TDP-43 mRNA translation)",
+      "phase": "2/3",
+      "sponsor": "Annovis Bio Inc.",
+      "population": "Adults 55-85 with mild-to-moderate probable AD (MMSE 14-24), n=351, no biomarker confirmation required at enrollment",
+      "primary_endpoint": "Change in ADAS-Cog11 from baseline to week 12; ADCS-CGIC score at week 12 (co-primary)",
+      "started": "2023-04",
+      "readout": "2026-04 (journal publication); registry results posted 2025-04-29",
+      "why_md": "Tests whether an oral, non-antibody small molecule targeting APP/Tau translation can improve cognition in mild-to-moderate AD — an alternative mechanism to the monoclonal antibodies covered on the [amyloid hypothesis](/research/amyloid-hypothesis) page. Its post-hoc biomarker-positive subgroup finding directly motivated the confirmatory [NCT06709014](/trials/buntanetap-nct06709014).",
+      "status_log_md": [
+        "**2023-04** — Trial begins enrollment across 54 US sites",
+        "**2025-04-29** — Results posted to [ClinicalTrials.gov](https://clinicaltrials.gov/study/NCT05686044)",
+        "**2026-04** — Full results published in [npj Dementia](https://doi.org/10.1038/s44400-026-00073-z); both co-primary endpoints missed in the ITT population"
+      ],
+      "results_md": "Missed both co-primary endpoints (ADAS-Cog11, ADCS-CGIC) in the 351-patient ITT population. A post-hoc subgroup of 95 biomarker-confirmed mild-AD patients showed a nominally significant, dose-dependent ADAS-Cog11 improvement versus baseline; not prespecified or multiplicity-corrected. Well tolerated, with no serious drug-related adverse events. See [Buntanetap in mild-to-moderate AD](/research/papers/buntanetap-phase-2-3-ad)."
+    },
+    {
+      "slug": "buntanetap-nct06709014",
+      "title": "Buntanetap pivotal Phase 3 in early AD (NCT06709014)",
+      "description": "Biomarker-selected confirmatory Phase 3 of buntanetap 30mg in early AD, testing the NCT05686044 subgroup hypothesis.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "buntanetap",
+        "biomarkers"
+      ],
+      "registry_md": "[NCT06709014](https://clinicaltrials.gov/study/NCT06709014)",
+      "drug": "Buntanetap 30 mg",
+      "phase": "3",
+      "sponsor": "Annovis Bio Inc.",
+      "population": "Adults 55-85 with early AD (2024 NIA-AA criteria), MMSE 20-28, biomarker-confirmed amyloid/pTau217-positive; registry estimate n=760, sponsor reports ~850 enrolled as of July 2026",
+      "primary_endpoint": "ADAS-Cog13 and ADCS-iADL at 6-month and 18-month co-primary readouts",
+      "started": "2025-02",
+      "readout": "Primary completion estimated 2027-12; study completion estimated 2028-06",
+      "why_md": "Confirmatory test of the biomarker-selection hypothesis raised by the post-hoc subgroup finding in [NCT05686044](/trials/buntanetap-nct05686044) — this time with prespecified, biomarker-confirmed enrollment and adequate statistical power. Its outcome determines whether buntanetap's mild-AD signal replicates.",
+      "status_log_md": [
+        "**2025-02** — Trial begins enrollment",
+        "**2026-07-07** — Annovis reports full enrollment reached (~850 patients per [press release](https://www.globenewswire.com/news-release/2026/07/07/3323032/0/en/Annovis-Reaches-Full-Enrollment-in-Pivotal-Phase-3-Trial-of-Buntanetap-for-Early-Alzheimer-s-Disease.html), above the registry's 760 estimate)"
+      ],
+      "results_md": null
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2026-04",
+      "title": "2026-04 — Buntanetap Phase 2/3 misses primary endpoint, biomarker subgroup shows signal",
+      "body_md": "An oral APP/Tau translation inhibitor failed its co-primary cognitive endpoints in the full trial population; a post-hoc, unvalidated biomarker-positive subgroup showed improvement, motivating a confirmatory Phase 3 — see [Buntanetap in mild-to-moderate AD](/research/papers/buntanetap-phase-2-3-ad)."
+    }
+  ],
+  "notes_for_editor": [
+    "The source paper itself is internally inconsistent about the amyloid-negative rate, citing both '~38%' (post-hoc analysis section) and '~40%' (abstract, discussion) for the same underlying figure (62.1%/n=216 confirmed). Used '~40%' per the abstract/discussion framing since that's the number most secondary coverage cites, but flagging the paper's own inconsistency.",
+    "Added a trial page for NCT06709014 even though its relation_to_document is 'related-program' rather than 'reported-here' — justified because it's the pivotal confirmatory trial directly testing this paper's central post-hoc hypothesis, similar in weight to AHEAD 3-45/TRAILBLAZER-ALZ 3. Worth a second opinion on whether that's the right call under the 'trial pages' standard.",
+    "No PubMed record could be found for this paper (per analyst's search); source_line_md omits a PubMed link rather than guessing one.",
+    "NCT06709014 enrollment count is disputed between the registry (760, estimated) and a July 2026 Annovis press release (~850, 'full enrollment'). Both figures are surfaced rather than silently picking one; registry should be rechecked periodically as it's the authoritative source once updated."
+  ]
+}

@@ -1,14 +1,75 @@
 ---
 title: Overview
-description: What this knowledge base is for and how to work in it.
+description: An AI-native Alzheimer's research knowledge base — read it yourself, or hand the whole corpus to your agent.
+search:
+  tags: [overview, agents, ai]
 ---
 
-This site compiles Alzheimer's disease research in one searchable place. It has three areas:
+This is an **AI-native** research directory. Every page is written for people _and_ published as machine-readable Markdown: a coding agent can search it, read it, and cite it without scraping a single line of HTML.
+
+Start by pointing your assistant at it.
+
+## Chat with these docs from your agent
+
+Press **Open in chat** to start a conversation about this knowledge base in Claude, ChatGPT, Cursor, or v0 — the prompt is pre-filled and points the assistant at the corpus.
+
+<OpenInChat description="Open this research base in your assistant.">
+Read https://alzheimers.dev/llms-full.txt — the full text of an Alzheimer's disease research knowledge base covering clinical trials, paper notes, and topic syntheses. I'll ask you questions about what the evidence actually shows. Answer only from that corpus, cite the specific page behind each claim, and tell me when something isn't covered.
+</OpenInChat>
+
+Prefer to wire it in properly? Connect the built-in **MCP server** and your agent gets four tools — `search_docs`, `get_page`, `list_pages`, `get_navigation` — over this exact content.
+
+<Tabs param="agent">
+  <Tab title="Claude Code">
+
+```bash
+claude mcp add --transport http alzheimers-research https://alzheimers.dev/mcp
+```
+
+Then ask it anything: _"Which tracked trials are still active, and what are their readout dates?"_
+
+  </Tab>
+  <Tab title="Cursor / VS Code">
+
+Every page's **Connect to MCP** menu (beneath the table of contents) has copy-and-go install for Cursor, VS Code, and Codex. Or add it by hand:
+
+```json .cursor/mcp.json
+{
+  "mcpServers": {
+    "alzheimers-research": {
+      "url": "https://alzheimers.dev/mcp"
+    }
+  }
+}
+```
+
+  </Tab>
+  <Tab title="Any chat assistant">
+
+No MCP needed — hand it the machine-readable corpus directly. `/llms.txt` is a linked index of every page; `/llms-full.txt` is the whole corpus in one fetch.
+
+<Prompt description="Ground an assistant in the **whole corpus**." actions={["copy", "cursor"]}>
+Read https://alzheimers.dev/llms-full.txt — the full text of an Alzheimer's disease research knowledge base — then answer my questions only from it, citing the page each answer comes from.
+</Prompt>
+
+  </Tab>
+  <Tab title="Right here">
+
+Hit **Ask AI** in the search bar. It answers from these pages only — retrieval runs over the same index that powers <kbd>⌘K</kbd> search — and cites what it used.
+
+  </Tab>
+</Tabs>
+
+:::note
+This site runs as a Cloudflare Worker on **alzheimers.dev**, so those endpoints are live addresses, not placeholders — Ask AI and the MCP server are request-time routes on the same origin as the docs. See [For agents](/agents) for the full surface, and [Machine-readable surfaces](/agents/surfaces#hosting) for how it's deployed.
+:::
+
+## What's in here
 
 <CardGroup cols={3}>
   <Card title="Research" href="/research" icon="book-open">
     Consolidated notes on papers, reviews, and topics — one page per paper or
-    topic, tagged for search.
+    topic, each with a critical-review record.
   </Card>
   <Card title="Trials" href="/trials" icon="flask-conical">
     A tracker for clinical trials: one page per trial with status, phase,
@@ -20,12 +81,85 @@ This site compiles Alzheimer's disease research in one searchable place. It has 
   </Card>
 </CardGroup>
 
+Pages are typed, so an agent can ask for one kind of thing and filter it:
+
+<Columns cols={3}>
+  <Column>
+    <Card title="type: trial" icon="flask-conical">
+      Facets: <Badge>status</Badge> <Badge>phase</Badge> <Badge>drug</Badge>
+    </Card>
+  </Column>
+  <Column>
+    <Card title="type: paper" icon="file-text">
+      Facets: <Badge>year</Badge>
+    </Card>
+  </Column>
+  <Column>
+    <Card title="type: topic" icon="book-open">
+      Facets: <Badge>stance</Badge>
+    </Card>
+  </Column>
+</Columns>
+
+<Prompt description="Ask an agent for a **filtered slice** of the corpus.">
+Using the alzheimers-research MCP server, call list_pages with contentTypes set to ["trial"] and a filters object where status is "Active", then summarize each active trial's drug, phase, and expected readout in a table.
+</Prompt>
+
+## Why "AI-native"
+
+<Accordion>
+  <AccordionItem title="Every page has a Markdown twin" icon="file-text">
+    Append `.md` to any URL for clean Markdown, or `.mdx` for the raw source —
+    no configuration, in dev and production. Agents that send
+    `Accept: text/markdown` get it at the page's own URL.
+  </AccordionItem>
+  <AccordionItem title="The whole corpus is one fetch" icon="download">
+    [`/llms.txt`](/llms.txt) is a linked index that mirrors the sidebar;
+    [`/llms-full.txt`](/llms-full.txt) is every page's full text in one file.
+  </AccordionItem>
+  <AccordionItem title="Tools, not scraping" icon="plug">
+    The hosted [MCP server](/agents#mcp-server) exposes `search_docs`,
+    `get_page`, `list_pages`, and `get_navigation` — with `contentTypes` and
+    `filters` for typed, faceted retrieval.
+  </AccordionItem>
+  <AccordionItem title="Discoverable without guessing" icon="compass">
+    [`/agent-readability.json`](/agent-readability.json) indexes every
+    agent-facing surface, advertised from a `Link` header and every page's
+    `<head>`.
+  </AccordionItem>
+  <AccordionItem title="Skills travel with the docs" icon="graduation-cap">
+    This project's [agent skills](/agents/surfaces#agent-skills) are published
+    at `/.well-known/agent-skills/`, so an agent can learn the house rules for
+    reading and extending the corpus.
+  </AccordionItem>
+</Accordion>
+
+Full details — every endpoint, every tool, every manifest — live in [For agents](/agents).
+
 ## How to add content
 
-1. **Paper note** — copy the [paper note template](/research/templates/paper-note) into `docs/research/`, fill in the frontmatter, and write the note.
-2. **Trial** — copy the [trial template](/research/templates/trial) into `docs/trials/`, set the status badge, and link the ClinicalTrials.gov record.
-3. **Timeline entry** — add the event to [the timeline](/timeline) in date order, and link it to the trial or paper page it comes from.
+<Steps>
+  <Step title="Run the pipeline">
+    `pnpm ingest <pdf-or-url>` then `pnpm research` parses the paper, runs the
+    research agents, and publishes the pages automatically (see `PIPELINE.md`
+    in the repo).
+  </Step>
+  <Step title="Or write a paper note by hand">
+    Copy `templates/paper-note.mdx` into `docs/research/papers/`, fill in the
+    frontmatter (including `type: paper`, `date`, and `year`), and write the
+    note.
+  </Step>
+  <Step title="Or add a trial by hand">
+    Copy `templates/trial.mdx` into `docs/trials/`, set `type: trial` plus the
+    `status`, `phase`, and `drug` facets, link the ClinicalTrials.gov record,
+    and run `pnpm publish:docs` to refresh the tracker table.
+  </Step>
+  <Step title="Then update the timeline">
+    Add the event to [the timeline](/timeline) in date order, linked to the
+    trial or paper page it comes from.
+  </Step>
+</Steps>
 
 ## Search
 
-Press <kbd>⌘K</kbd> (or <kbd>Ctrl K</kbd>) anywhere to search titles, descriptions, and body text. Pages carry `search.tags` in frontmatter (for example `trial`, `amyloid`, `biomarkers`), so results can be filtered by tag in the search dialog.
+Press <kbd>⌘K</kbd> (or <kbd>Ctrl K</kbd>) anywhere to search titles, descriptions, and body text. Pages carry `search.tags` in frontmatter (for example `trial`, `amyloid`, `biomarkers`), so results can be filtered by tag — and the same index grounds **Ask AI**.

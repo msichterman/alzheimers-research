@@ -1,0 +1,263 @@
+{
+  "kind": "research-paper",
+  "title": "Buntanetap treatment in mild to moderate Alzheimer’s disease: phase 2/3 study",
+  "authors": [
+    {
+      "name": "Fang C.",
+      "affiliation": "Annovis Bio, Malvern, PA, USA",
+      "orcid": null,
+      "email": "fang@annovisbio.com",
+      "corresponding": true,
+      "conflicts": null
+    },
+    {
+      "name": "Feng D.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Gaines M.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Laskowitz D.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Sanders L.H.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Liow K.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Peckham E.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Ritter A.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Chen M.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Morin A.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Kumar R.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Gandhi R.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Laird R.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Welsh-Bohmer K.A.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Farlow M.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Johnson K.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Mireskandari A.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Maccecchini M.L.",
+      "affiliation": "Annovis Bio, Malvern, PA, USA",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Fang C.",
+  "venue": "npj Dementia",
+  "published": "2026-04",
+  "doi": "10.1038/s44400-026-00073-z",
+  "doi_url": "https://doi.org/10.1038/s44400-026-00073-z",
+  "pubmed_url": null,
+  "tags": [
+    "paper",
+    "trial",
+    "amyloid",
+    "tau",
+    "biomarkers",
+    "inflammation",
+    "genetics",
+    "buntanetap",
+    "ptau217"
+  ],
+  "themes": [
+    "primary endpoint miss in ITT population",
+    "post-hoc biomarker-positive subgroup benefit",
+    "amyloid-negative misdiagnosis (~40%)",
+    "favorable safety/tolerability",
+    "multi-target translational inhibitor (APP/Tau/synuclein)",
+    "plasma inflammatory/neurodegeneration biomarkers"
+  ],
+  "one_line": "A 12-week Phase 2/3 trial of buntanetap in mild-to-moderate AD missed its co-primary cognitive endpoints in the full study population, but a post-hoc, unregistered subgroup analysis restricted to amyloid/tau-biomarker-confirmed mild AD patients showed dose-dependent cognitive improvement, alongside a favorable safety profile.",
+  "summary": "This industry-sponsored, randomized, double-blind, placebo-controlled Phase 2/3 trial (NCT05686044) tested three doses of buntanetap (7.5, 15, 30 mg) versus placebo over 12 weeks in 351 participants with mild-to-moderate Alzheimer's disease. The trial did not meet either co-primary endpoint (ADAS-Cog11 or ADCS-CGIC) in the intent-to-treat population, with buntanetap and placebo improving similarly. Post-hoc plasma pTau217/t-Tau testing, performed before database lock, found that ~38% of enrolled participants lacked amyloid pathology despite meeting clinical AD inclusion criteria. Restricting to biomarker-positive mild AD patients (n=95), the authors report a nominally statistically significant, dose-dependent improvement in ADAS-Cog11 versus baseline, though this subgroup analysis was not prespecified and not adjusted for multiple comparisons. Moderate AD biomarker-positive patients and the ADCS-CGIC functional endpoint showed no treatment benefit. Exploratory plasma biomarkers (t-Tau, TDP43, several inflammatory markers, NFL) trended favorably with 30 mg buntanetap versus placebo, presented as evidence of target and pathway engagement, though without formal statistical testing. Buntanetap was well-tolerated, with no serious drug-related adverse events and no dose-dependent increase in related TEAEs. The authors frame the results as supportive of a biomarker-selected Phase 3 trial (NCT06709014) that is already underway.",
+  "key_claims": [
+    {
+      "claim": "Buntanetap did not meet its co-primary endpoints (ADAS-Cog11 and ADCS-CGIC) versus placebo in the ITT population.",
+      "evidence": "Table 1: ADAS-Cog11 LS mean difference 0.13 (95% CI −1.088, 1.350), p=0.833; ADCS-CGIC difference 0.22 (95% CI −0.074, 0.516), p=0.141; key secondary ADCS-ADL difference −1.48, p=0.118.",
+      "strength": "strong",
+      "location": "Primary analysis results; Table 1"
+    },
+    {
+      "claim": "In a post-hoc subgroup of biomarker-confirmed (pTau217/t-Tau ≥4.2%) mild AD patients (MMSE 21-24, n=95), buntanetap produced a dose-dependent, nominally significant improvement in ADAS-Cog11 versus baseline.",
+      "evidence": "Fig. 2b and text describe dose-dependent improvement; abstract characterizes it as 'nominally statistically significant dose-dependent cognitive benefits' supported by biomarker evidence of target engagement.",
+      "strength": "weak",
+      "location": "Post-hoc analysis: 'Buntanetap improved cognition in biomarker positive (pTau217) mild AD participants'; Fig. 2"
+    },
+    {
+      "claim": "Buntanetap has a favorable safety and tolerability profile in mild-to-moderate AD, with no serious drug-related TEAEs.",
+      "evidence": "TEAEs: 33.3% buntanetap (all doses combined) vs 26.1% placebo; drug-related TEAEs 8.9% vs 3.4%, described as not statistically different; no severe TEAEs; 3/87 (30mg) and 3/88 (placebo) had serious TEAEs, none drug-related.",
+      "strength": "moderate",
+      "location": "Buntanetap had a favorable safety profile...; Supplementary Tables 2-5"
+    },
+    {
+      "claim": "Approximately 40% of clinically diagnosed participants lacked amyloid pathology, explaining the primary endpoint failure.",
+      "evidence": "Post-hoc plasma pTau217/t-Tau ratio testing found only 62.1% (n=216) of participants had confirmed AD pathology; cited as consistent with literature reporting 30-40% clinical misdiagnosis rates.",
+      "strength": "moderate",
+      "location": "Discussion; 'Buntanetap improved cognition in biomarker positive...' section"
+    },
+    {
+      "claim": "Buntanetap showed a consistent favorable treatment effect over placebo across demographic and APOE4 subgroups in biomarker-positive mild AD patients.",
+      "evidence": "Forest plot (Fig. 3) of 30 mg vs placebo across age, BMI, ethnicity, gender, race, and concomitant medication subgroups, described qualitatively as 'consistent favorable effect' without reported point estimates or CIs in text.",
+      "strength": "weak",
+      "location": "'Buntanetap had similar treatment effects across different demographics...' (Post-hoc); Fig. 3"
+    },
+    {
+      "claim": "Buntanetap (30 mg) reduced plasma t-Tau, TDP43, and several inflammatory markers (IL5, IL6, S100A12, IFN-γ, IGF1R) and NFL relative to placebo, indicating target/pathway engagement and reduced inflammation/neuronal injury.",
+      "evidence": "Descriptive comparison of biomarker trajectories from baseline to 12 weeks (Fig. 4) in biomarker-positive mild and all-AD patients; no statistical tests or p-values reported for these comparisons.",
+      "strength": "weak",
+      "location": "'Buntanetap demonstrated a trend of reducing neurotoxic proteins and inflammation...'; Fig. 4"
+    }
+  ],
+  "methods": {
+    "design": "Randomized, double-blind (quadruple-blinded), placebo-controlled, dose-ranging Phase 2/3 trial; 1:1:1:1 randomization to 7.5mg, 15mg, 30mg buntanetap or placebo",
+    "n": 351,
+    "population": "Mild to moderate AD patients (NIA-AA probable AD criteria, MMSE 14-24, ages 55-85) across 54 US sites",
+    "duration": "12 weeks",
+    "registration": "NCT05686044"
+  },
+  "funding_and_conflicts": "Sponsor/manufacturer appears to be Annovis Bio: corresponding author (Fang) and several co-authors (Gaines, Morin) are Annovis Bio-affiliated, correspondence email is fang@annovisbio.com, and the drug (buntanetap/Posiphen) is an Annovis Bio asset. No explicit funding statement is given in the provided text. The 'Competing interests' section states 'The authors declare no competing interests,' which is questionable given multiple authors' apparent employment by/financial ties to the trial sponsor.",
+  "limitations": [
+    "Self-reported: study was not powered to detect individual-dose-vs-placebo effects on ADCS-CGIC.",
+    "Self-reported: no biomarker (CSF/plasma/PET) confirmation of AD pathology was used for inclusion/exclusion, resulting in ~40% of enrolled 'AD' participants likely not having amyloid pathology.",
+    "Self-reported: the biomarker-positive mild AD subgroup analyses were post-hoc, not prespecified, and not adjusted for multiplicity.",
+    "Self-reported: short 3-month duration may explain lack of change in plasma Aβ42/40 ratio and lack of clinical efficacy signal in moderate AD despite biomarker trends.",
+    "Not self-reported: the positive subgroup finding was derived from the same dataset that failed the prespecified primary hypothesis (data-dependent subgroup selection/double dipping), which inflates the risk of a false-positive result beyond what 'nominal significance' conveys.",
+    "Not self-reported: at least 8 exploratory plasma biomarkers (t-Tau, TDP43, IL5, IL6, S100A12, IFN-γ, IGF1R, GFAP, NFL) were tested with no stated correction for multiple comparisons, and one (GFAP) showed no treatment effect but is not emphasized as a null result.",
+    "Not self-reported: biomarker/inflammatory results (Fig. 4) are described qualitatively ('trend', 'suggesting', 'potential reduction') without p-values, effect sizes, or formal statistical testing.",
+    "Not self-reported: the mild AD biomarker-positive subgroup is small (n=95 across 4 arms, ~24/arm), limiting reliability of the headline efficacy claim.",
+    "Not self-reported: raw trial data are withheld until an NDA filing, limiting independent reanalysis."
+  ],
+  "red_flags": [
+    "Post-hoc, unregistered subgroup analysis (biomarker-positive mild AD) is elevated to the headline finding in the abstract and framed prominently despite the trial's two co-primary endpoints failing in the full ITT population — a form of post-hoc-as-primary spin, though the paper does disclose the exploratory nature of these analyses in the Discussion.",
+    "Corresponding/multiple authors are affiliated with Annovis Bio (the drug sponsor/manufacturer, per email domain 'annovisbio.com'), yet the paper states 'The authors declare no competing interests' — a potentially understated conflict-of-interest disclosure.",
+    "Exploratory plasma biomarker panel (8+ analytes) reported descriptively without statistical testing or multiplicity correction, then interpreted as mechanistic 'target and pathway engagement' evidence supporting the drug's benefit.",
+    "Small subgroup size (n=95) underlying the study's most favorable claim.",
+    "No explicit statement of study funding source found in the provided text."
+  ],
+  "parse_quality": {
+    "score": 6,
+    "issues": [
+      "Frequent run-together words from PDF ligature/kerning artifacts (e.g., 'Alzheimer'sdisease(AD)isthemostcommon...').",
+      "Author affiliation footnote table is garbled and misaligned (pipe-table markup scrambled, numbering doesn't cleanly map authors to institutions).",
+      "Figures 1-4 are represented only by captions; actual image/chart content is not available in the Markdown, so quantitative figure data (e.g., Fig. 3 forest plot values, Fig. 4 biomarker trajectories) cannot be independently verified from text alone.",
+      "Reference superscript numbers are sometimes fused into body text without clear delimiters, making some citation attributions ambiguous.",
+      "Table 1 (primary/secondary outcomes) is reasonably well preserved and readable."
+    ]
+  },
+  "search_verification": [
+    "Confirmed via web search that DOI 10.1038/s44400-026-00073-z resolves to the nature.com article 'Buntanetap treatment in mild to moderate Alzheimer's disease: phase 2/3 study' in npj Dementia, with an associated Annovis Bio press release (GlobeNewswire, dated 2026-04-28) indicating publication around April 27, 2026.",
+    "Searched for a PubMed record (pubmed.ncbi.nlm.nih.gov) matching this DOI/title but found no confirmed PMID; pubmed_url is set to null rather than guessed.",
+    "Independent secondary coverage (Alzheimer's News Today, Longevity.Technology, ReachMD, Practical Neurology) corroborates the trial's design, dose groups, primary endpoint miss, and post-hoc biomarker-positive subgroup finding, consistent with the document's own reporting."
+  ],
+  "copyright": "© The Author(s) 2026",
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "reuse": "redistribute",
+    "evidence": "Open Access. This article is licensed under a Creative Commons Attribution 4.0 International License … provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made."
+  }
+}

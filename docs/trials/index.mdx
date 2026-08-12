@@ -1,5 +1,5 @@
 ---
-title: Trial tracker
+title: Trials
 description: Clinical trials tracked in this knowledge base, with status and expected readouts.
 search:
   tags: [trial]
@@ -9,13 +9,16 @@ One page per trial. Each page carries the registry link, phase, population, and 
 
 ## Tracked trials
 
-| Trial | Drug | Phase | Status | Expected readout |
+| Trial | Drug | Phase | Status | Readout |
 | --- | --- | --- | --- | --- |
 | [AHEAD 3-45](/trials/ahead-3-45) | Lecanemab | 3 | Active | ~2027 |
+| [Buntanetap pivotal Phase 3 in early AD (NCT06709014)](/trials/buntanetap-nct06709014) | Buntanetap 30 mg | 3 | Active | Primary completion estimated 2027-12 |
 | [TRAILBLAZER-ALZ 3](/trials/trailblazer-alz-3) | Donanemab | 3 | Active | ~2027 |
+| [Buntanetap Phase 2/3 in mild-to-moderate AD (NCT05686044)](/trials/buntanetap-nct05686044) | Buntanetap / Posiphen | 2/3 | Completed | 2026-04 (journal publication) |
+| [GAIN: COR388 in mild-to-moderate Alzheimer's (Phase 2/3)](/trials/cor388-nct03823404) | COR388 / atuzaginstat | 2/3 | Completed | 2021-10 |
 
-Keep this table in sync with the trial pages: one row per page, status matching the page's badge.
+This table is regenerated from the trial pages by `pnpm publish:docs` — edit the pages, not the table.
 
 ## Add a trial
 
-Copy the [trial template](/research/templates/trial) into `docs/trials/`, fill in the registry data, and add a row to the table above. Milestones (start, readout, approval) also go on [the timeline](/timeline).
+Copy `templates/trial.mdx` from the repo into `docs/trials/`, fill in the registry data, and run `pnpm publish:docs` to refresh the table above (the research pipeline does this automatically). Milestones (start, readout, approval) also go on [the timeline](/timeline).
