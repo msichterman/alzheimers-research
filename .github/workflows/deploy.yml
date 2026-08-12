@@ -100,6 +100,10 @@ jobs:
             -d '{"jsonrpc":"2.0","id":1,"method":"tools/list"}' | grep -q search_docs
           # `Accept: text/markdown` returns the page's Markdown mirror.
           curl -sS -H 'accept: text/markdown' https://alzheimers.dev/ | grep -q 'AI-native'
+          # The www alias serves the same Worker.
+          www="$(curl -sS -o /dev/null -w '%{http_code}' --retry 5 --retry-delay 5 --retry-all-errors https://www.alzheimers.dev/)"
+          echo "www -> $www"
+          [ "$www" = "200" ]
 
       - name: Audit the live deployment
         # Advisory: adds the network tier — status codes, response headers, and

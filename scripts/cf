@@ -36,4 +36,14 @@ if [ -f "$root/.env.cloudflare" ]; then
   set +a
 fi
 
+# A token in the environment outranks the stored login, so a blank
+# CLOUDFLARE_API_TOKEN= line would shadow a perfectly good `pnpm cf login`
+# session and fail every command with "Invalid access token". Drop it if it's
+# empty. (A non-empty but wrong token can't be caught here — if commands start
+# failing to authenticate right after you edit .env.cloudflare, comment the
+# token out and you're back on the browser session.)
+if [ -z "${CLOUDFLARE_API_TOKEN:-}" ]; then
+  unset CLOUDFLARE_API_TOKEN
+fi
+
 exec "$root/node_modules/.bin/wrangler" "$@"
