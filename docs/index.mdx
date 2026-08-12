@@ -1,0 +1,31 @@
+---
+title: Overview
+description: What this knowledge base is for and how to work in it.
+---
+
+This site compiles Alzheimer's disease research in one searchable place. It has three areas:
+
+<CardGroup cols={3}>
+  <Card title="Research" href="/research" icon="book-open">
+    Consolidated notes on papers, reviews, and topics — one page per paper or
+    topic, tagged for search.
+  </Card>
+  <Card title="Trials" href="/trials" icon="flask-conical">
+    A tracker for clinical trials: one page per trial with status, phase,
+    sponsor, and readout dates.
+  </Card>
+  <Card title="Timeline" href="/timeline" icon="calendar">
+    A clean timeline of the field — discoveries, approvals, and trial readouts
+    in chronological order.
+  </Card>
+</CardGroup>
+
+## How to add content
+
+1. **Paper note** — copy the [paper note template](/research/templates/paper-note) into `docs/research/`, fill in the frontmatter, and write the note.
+2. **Trial** — copy the [trial template](/research/templates/trial) into `docs/trials/`, set the status badge, and link the ClinicalTrials.gov record.
+3. **Timeline entry** — add the event to [the timeline](/timeline) in date order, and link it to the trial or paper page it comes from.
+
+## Search
+
+Press <kbd>⌘K</kbd> (or <kbd>Ctrl K</kbd>) anywhere to search titles, descriptions, and body text. Pages carry `search.tags` in frontmatter (for example `trial`, `amyloid`, `biomarkers`), so results can be filtered by tag in the search dialog.
