@@ -1,0 +1,292 @@
+{
+  "kind": "research-paper",
+  "title": "Two Phase 3 Trials of Gantenerumab in Early Alzheimer’s Disease",
+  "authors": [
+    {
+      "name": "R.J. Bateman",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "J. Smith",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "M.C. Donohue",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "P. Delmar",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "R. Abbas",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "S. Salloway",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "J. Wojtowicz",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "K. Blennow",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "T. Bittner",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "S.E. Black",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "G. Klein",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "M. Boada",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "T. Grimmer",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "A. Tamaoka",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "R.J. Perry",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "R.S. Turner",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "D. Watson",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "M. Woodward",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "A. Thanasopoulou",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "C. Lane",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "M. Baudler",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "N.C. Fox",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "J.L. Cummings",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "P. Fontoura",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "R.S. Doody",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    }
+  ],
+  "first_author": "R.J. Bateman",
+  "venue": "The New England journal of medicine",
+  "published": "2023",
+  "doi": "10.1056/NEJMoa2304430",
+  "doi_url": "https://doi.org/10.1056/NEJMoa2304430",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/37966285",
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law."
+  },
+  "tags": [
+    "paper",
+    "trial",
+    "amyloid",
+    "tau",
+    "immunotherapy",
+    "gantenerumab",
+    "aria",
+    "monoclonal-antibody"
+  ],
+  "themes": [
+    "Phase 3 clinical trials",
+    "Gantenerumab efficacy and safety",
+    "Amyloid-beta clearance",
+    "Amyloid-related imaging abnormalities (ARIA)"
+  ],
+  "one_line": "In two Phase 3 trials, the anti-amyloid monoclonal antibody gantenerumab significantly reduced brain amyloid levels but failed to slow clinical decline in patients with early Alzheimer's disease.",
+  "summary": "This document reports the results of the GRADUATE I and II Phase 3 clinical trials, which evaluated the safety and efficacy of the anti-amyloid monoclonal antibody gantenerumab in patients with early Alzheimer's disease. Over 116 weeks of double-blind treatment, gantenerumab failed to meet the primary endpoint of significantly slowing clinical decline on the Clinical Dementia Rating Sum of Boxes (CDR-SB) scale compared to placebo. While the drug led to partial removal of amyloid plaques and shifted fluid biomarkers like p-tau181 and Aβ42 in a normalizing direction, the magnitude of amyloid clearance was lower than predicted. Only about a quarter of treated patients achieved amyloid-negative status by the trial's end. Furthermore, gantenerumab was associated with a higher incidence of amyloid-related imaging abnormalities with edema (ARIA-E), particularly in APOE ε4 carriers. The authors conclude that more profound and rapid amyloid clearance may be necessary to demonstrate clinical efficacy within typical trial timeframes.",
+  "key_claims": [
+    {
+      "claim": "Gantenerumab did not significantly slow clinical decline in early Alzheimer's disease.",
+      "evidence": "The change from baseline in the CDR-SB score at week 116 showed no significant difference compared to placebo (GRADUATE I difference, −0.31; 95% CI, −0.66 to 0.05; P = 0.10 | GRADUATE II difference, −0.19; 95% CI, −0.55 to 0.17; P = 0.30).",
+      "strength": "strong",
+      "location": "Abstract / Clinical Outcomes"
+    },
+    {
+      "claim": "Gantenerumab reduces brain amyloid plaque burden, though to a lesser extent than predicted.",
+      "evidence": "The difference in amyloid level on PET vs placebo was −66.44 centiloids in GRADUATE I and −56.46 centiloids in GRADUATE II. Amyloid-negative status was attained in only 28.0% and 26.8% of Gantenerumab participants.",
+      "strength": "strong",
+      "location": "Abstract / BIOMARKER OUTCOMES"
+    },
+    {
+      "claim": "Gantenerumab treatment increases the incidence of amyloid-related imaging abnormalities with edema (ARIA-E).",
+      "evidence": "ARIA-E occurred in 24.9% of participants receiving gantenerumab versus 2.7% receiving placebo, with incidence doubling for each APOE ε4 allele present.",
+      "strength": "strong",
+      "location": "Abstract / ARIA"
+    },
+    {
+      "claim": "Gantenerumab shifts downstream fluid biomarkers in a normalizing direction.",
+      "evidence": "Participants on gantenerumab had lower CSF levels of total tau, p-tau181, and Aβ40, and higher levels of Aβ42 than those on placebo at week 116.",
+      "strength": "moderate",
+      "location": "BIOMARKER OUTCOMES"
+    }
+  ],
+  "methods": {
+    "design": "phase 3, multicenter, randomized, double-blind, placebo-controlled, parallel-group trials",
+    "n": 1965,
+    "population": "Persons 50 to 90 years of age with mild cognitive impairment or mild dementia due to Alzheimer’s disease and evidence of amyloid plaques",
+    "duration": "116 weeks",
+    "registration": "NCT03444870 and NCT03443973"
+  },
+  "funding_and_conflicts": "Funded by F. Hoffmann-La Roche. Two authors employed by the sponsor analyzed the data. The first draft was written with professional medical writing assistance funded by the sponsor. Specific conflicts for individual authors are not printed in the text snippet.",
+  "limitations": [
+    "Lack of racial diversity in the US trial population limits generalizability.",
+    "Multiple differences between these protocols and earlier trials, including a novel dose-escalation scheme, make cross-trial comparisons difficult.",
+    "The magnitude of amyloid plaque removal was smaller than expected, limiting the ability to fully test whether amyloid clearance leads to clinical benefit."
+  ],
+  "red_flags": [
+    "Sponsor-employed authors performed data analysis, and the sponsor funded the professional medical writing of the first draft.",
+    "The primary hierarchical testing failed, yet authors present a pooled analysis and an amyloid-negative subgroup post-hoc analysis that 'directionally favored' gantenerumab, creating a risk of spin.",
+    "Decreased whole-brain volume and increased ventricular volume were dismissed as likely fluid shifts rather than neurodegeneration, despite the lack of definitive proof."
+  ],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "Missing table or figure numbers, appearing as empty parentheses '()' in the text.",
+      "Minor spacing artifacts around Greek letters and hyphens (e.g., 'A β', 'APOE ε 4').",
+      "Omitted supplementary appendix references leaving hanging commas (e.g., 'Details are provided in the , available at NEJM.org')."
+    ]
+  },
+  "search_verification": [
+    "Identified DOI and PubMed ID in the document header and trusted them per instructions without fetching. Confirmed publication year as 2023 based on the PMCID and PMID."
+  ]
+}

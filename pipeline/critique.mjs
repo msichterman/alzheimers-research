@@ -345,7 +345,7 @@ const results = await mapLimit(docs, 4, async (record) => {
   const fidelity = {
     id: record.id,
     checked_at: new Date().toISOString(),
-    builder_model: readJson(join(ENRICHED_DIR, record.id, "05-evidence.json"))?._meta?.model ?? "claude (subagent)",
+    builder_model: readJson(join(ENRICHED_DIR, record.id, "05-evidence.json"))?._meta?.model ?? "gemini (subagent)",
     critic_model: answer.model,
     fields_compared: rows.length,
     disagreements: disagreements.length,

@@ -292,16 +292,29 @@
       "location": "Results, Comparison of Lumipulse and MS-based assays"
     },
     {
-      "name": "Lumipulse p-tau217 and MS-based p-tau217 accuracy and AUC in the PRIMARY CARE cohort, single cutoff",
+      "name": "Lumipulse p-tau217 accuracy and AUC in the PRIMARY CARE cohort, single cutoff (MS comparison subsample)",
       "tier": "secondary",
       "prespecified": "yes",
       "prespecification_evidence": "As secondary analyses, we compared the performance of plasma p-tau217 with that of the p-tau217:Aβ42 (Lumipulse) ratio currently under FDA evaluation and a high-performing MS-based method for plasma %p-tau217",
       "met": "not_applicable",
-      "effect_estimate": "Lumipulse p-tau217 accuracy 85%, AUC 0.92; MS-based p-tau217 accuracy 85%, AUC 0.94 (both lower than MS-based %p-tau217)",
-      "confidence_interval": "95% CI = 82–88 and 95% CI = 0.90–0.95 (Lumipulse); 95% CI = 82–88% and 95% CI = 0.92–0.96 (MS p-tau217)",
-      "p_value": "P = 0.003 and P = 0.006 (Lumipulse); P < 0.001 and P = 0.025 (MS p-tau217)",
+      "effect_estimate": "Lumipulse p-tau217 accuracy 85% and AUC 0.92 in primary care, both significantly lower than MS-based %p-tau217",
+      "confidence_interval": "95% CI = 82–88 (accuracy); 95% CI = 0.90–0.95 (AUC)",
+      "p_value": "P = 0.003 (accuracy); P = 0.006 (AUC)",
       "multiplicity_controlled": "no",
-      "quote": "Lumipulse p-tau217 (accuracy = 85%, 95% CI = 82–88, P = 0.003; AUC = 0.92, 95% CI = 0.90–0.95, P = 0.006) and MS-based p-tau217 (accuracy = 85%, 95% CI = 82–88%, P < 0.001; AUC = 0.94, 95% CI = 0.92–0.96, P = 0.025)",
+      "quote": "Lumipulse p-tau217 (accuracy = 85%, 95% CI = 82–88, P = 0.003; AUC = 0.92, 95% CI = 0.90–0.95, P = 0.006) and MS-based p-tau217",
+      "location": "Results, Comparison of Lumipulse and MS-based assays"
+    },
+    {
+      "name": "MS-based p-tau217 accuracy and AUC in the PRIMARY CARE cohort, single cutoff",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "As secondary analyses, we compared the performance of plasma p-tau217 with that of the p-tau217:Aβ42 (Lumipulse) ratio currently under FDA evaluation and a high-performing MS-based method for plasma %p-tau217",
+      "met": "not_applicable",
+      "effect_estimate": "MS-based p-tau217 accuracy 85% and AUC 0.94 in primary care, both significantly lower than MS-based %p-tau217",
+      "confidence_interval": "95% CI = 82–88% (accuracy); 95% CI = 0.92–0.96 (AUC)",
+      "p_value": "P < 0.001 (accuracy); P = 0.025 (AUC)",
+      "multiplicity_controlled": "no",
+      "quote": "and MS-based p-tau217 (accuracy = 85%, 95% CI = 82–88%, P < 0.001; AUC = 0.94, 95% CI = 0.92–0.96, P = 0.025) when using the single cutoff approach.",
       "location": "Results, Comparison of Lumipulse and MS-based assays"
     },
     {
@@ -392,7 +405,7 @@
     "In the two-cutoff approach, participants with an intermediate test result were not considered when calculating the accuracy, PPVs and NPVs, but have instead been specified in the figures.",
     "This calculation assumes that 14.7% of patients fall into the intermediate group (the total proportion in the present study) and require further testing (Supplementary Table ).",
     "However, in older individuals and those with CKD, the percentage of individuals with intermediate p-tau217 results increased to 19–20% (Fig. ).",
-    "Results were not corrected for multiple comparisons.",
+    "Differences between AUCs were assessed using DeLong statistics. Results were not corrected for multiple comparisons.",
     "Lumipulse plasma assays have not previously been validated with predefined cutoffs and have been examined only in single-center studies"
   ],
   "risk_of_bias": [
@@ -419,7 +432,7 @@
     {
       "domain": "multiplicity",
       "judgement": "Many pairwise comparisons across cohorts, subgroups, cognitive stages and assays were performed and the document states explicitly that no correction for multiple comparisons was applied.",
-      "quote": "Results were not corrected for multiple comparisons."
+      "quote": "Differences between AUCs were assessed using DeLong statistics. Results were not corrected for multiple comparisons."
     }
   ],
   "disagreements": [

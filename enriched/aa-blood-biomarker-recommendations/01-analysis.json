@@ -1,0 +1,110 @@
+{
+  "kind": "review",
+  "title": "The Alzheimer's Association appropriate use recommendations for blood biomarkers in Alzheimer's disease",
+  "authors": [
+    {
+      "name": "Hansson O",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "acquired research support (for the institution) from ADx, AVID Radiopharmaceuticals, Biogen, Eli Lilly, Eisai, Fujirebio, GE Healthcare, Pfizer, and Roche. In the past 2 years, he has received consultancy/speaker fees from Amylyx, Alzpath, BioArctic, Biogen, Cerveau, Fujirebio, Genentech, Novartis, Roche, and Siemens."
+    },
+    {
+      "name": "Edelmayer RM",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "full-time employee of the Alzheimer's Association."
+    },
+    {
+      "name": "Boxer AL",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "supported by the NIH (U19AG063911, U54NS092089, R01AG038791, U01AG045390), Tau Research Consortium, Bluefield Project to Cure FTD, University of California Cures AD Program, Association for Frontotemporal Degeneration, CBD Solutions, Alzheimer's Drug Discovery Foundation, and the Alzheimer's Association. He receives research support from Biogen, Eisai, and Regeneron. He has served as a paid consultant for AGTC, Alector, Arkuda, Arvinas, AZTherapeutics, Denali, GSK, Humana, Oligomerix, Oscotec, Roche, Stealth, Third Rock, Transposon, Third Rock Ventures, TrueBinding, and Wave."
+    }
+  ],
+  "first_author": "Hansson O",
+  "venue": "Alzheimer's & Dementia",
+  "published": "2022",
+  "doi": "10.1002/alz.12756",
+  "doi_url": "https://doi.org/10.1002/alz.12756",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/35908251",
+  "copyright": null,
+  "license": {
+    "name": "CC BY-NC 4.0",
+    "url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "reuse": "redistribute",
+    "evidence": "This is an open access article under the terms of the http://creativecommons.org/licenses/by-nc/4.0/ License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited and is not used for commercial purposes."
+  },
+  "tags": [
+    "review",
+    "biomarkers",
+    "amyloid",
+    "tau",
+    "guidelines",
+    "blood-based-markers"
+  ],
+  "themes": [
+    "Appropriate use recommendations",
+    "Clinical trial screening",
+    "Specialized memory clinics",
+    "Primary care implementation gaps",
+    "Biomarker combinations"
+  ],
+  "one_line": "The Alzheimer's Association provides appropriate use recommendations endorsing the cautious introduction of blood-based biomarkers for pre-screening in clinical trials and specialized memory clinics, while advising against their standalone use or deployment in primary care until further validation.",
+  "summary": "This document outlines the Alzheimer's Association's consensus appropriate use recommendations for blood-based biomarkers (BBMs) in Alzheimer's disease. The authors review the current performance of key plasma biomarkers, noting that plasma p-tau (especially p-tau217) and Aβ42/Aβ40 show high potential, while NfL and GFAP serve as useful indicators of neurodegeneration and astrocytic activation, respectively. They recommend that BBMs can currently be used as pre-screeners in clinical trials for disease-modifying therapies, provided AD status is confirmed with PET or CSF. In clinical practice, BBMs should be introduced cautiously and exclusively in specialized memory clinics, again with CSF or PET confirmation whenever possible. The experts explicitly caution against using BBMs as primary endpoints in pivotal trials or as standalone diagnostic tools in primary care until extensive real-world validation in diverse populations is completed.",
+  "key_claims": [
+    {
+      "claim": "Plasma p-tau levels, particularly p-tau217, can accurately separate AD dementia from other neurodegenerative diseases and perform similarly to CSF and PET biomarkers.",
+      "evidence": "Plasma p-tau levels are increased ≈250% to 600% in AD dementia compared to other neurodegenerative diseases, and p-tau217 has similar diagnostic performance to CSF biomarkers and tau-PET imaging.",
+      "strength": "strong",
+      "location": "Plasma phosphorylated tau"
+    },
+    {
+      "claim": "Plasma Aβ42/Aβ40 is a less robust brain Aβ pathology biomarker than CSF Aβ42/Aβ40 due to biological limitations.",
+      "evidence": "A small fold change is observed between Aβ-positive and Aβ-negative individuals (an 8%–15% reduction in plasma compared to 40%–60% in CSF).",
+      "strength": "strong",
+      "location": "Plasma Aβ42/Aβ40"
+    },
+    {
+      "claim": "BBMs can be used as a first screening step in AD trials evaluating potential disease-modifying therapies.",
+      "evidence": "Mention of the AHEAD 3-45 trial and TRAILBLAZER-ALZ3 trial utilizing plasma Aβ42/Aβ40 and p-tau217 assays for pre-screening to reduce the number and costs of necessary PET scans.",
+      "strength": "moderate",
+      "location": "The use of BBMs as a (pre-)screening step in clinical trials"
+    },
+    {
+      "claim": "Blood-based biomarkers are not yet validated enough to be used as primary surrogate endpoints in pivotal trials.",
+      "evidence": "No biomarker related to neurodegenerative diseases currently belongs to the FDA's 'validated surrogate endpoint' category, and further large-scale longitudinal observational trials are prioritized.",
+      "strength": "strong",
+      "location": "The use of BBM as a surrogate endpoint in trials"
+    }
+  ],
+  "methods": {
+    "design": "Systematic Review and Expert Consensus",
+    "n": null,
+    "population": null,
+    "duration": null,
+    "registration": null
+  },
+  "funding_and_conflicts": "Multiple authors received substantial funding from the NIH, various foundations, and the Alzheimer's Association. Extensive conflicts of interest are declared, including research support, consultancy fees, and advisory board positions with numerous pharmaceutical companies (e.g., Biogen, Eli Lilly, Eisai, Roche, Fujirebio). R.M.E. and M.C.C. are full-time employees of the Alzheimer's Association.",
+  "limitations": [
+    "Lack of extensive validation in diverse, representative real-world populations, particularly in primary care settings.",
+    "Biomarker assays currently lack globally certified reference materials and methods, making cut-offs assay-specific.",
+    "Potential confounding factors like ethnicity, BMI, and kidney function on BBM concentrations are not yet fully understood."
+  ],
+  "red_flags": [
+    "Authors declare extensive financial ties to the pharmaceutical and diagnostic companies developing the biomarkers and therapies discussed."
+  ],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "The main author list and affiliations are missing from the header, with authors only extracted from the citation block and acknowledgment initials at the end of the text.",
+      "Minor PDF-to-Markdown ligature and spacing artifacts (e.g., 'anti–amyloid beta [Aβ]', 'pre‐symptomatic')."
+    ]
+  },
+  "search_verification": []
+}

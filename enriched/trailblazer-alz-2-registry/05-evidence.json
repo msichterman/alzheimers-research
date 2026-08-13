@@ -1,0 +1,456 @@
+{
+  "document_kind": "registry_record",
+  "title": {
+    "value": "A Study of Donanemab (LY3002813) in Participants With Early Alzheimer's Disease (TRAILBLAZER-ALZ 2); official title: Assessment of Safety, Tolerability, and Efficacy of Donanemab in Early Symptomatic Alzheimer's Disease",
+    "quote": "A Study of Donanemab (LY3002813) in Participants With Early Alzheimer's Disease (TRAILBLAZER-ALZ 2)\n**Official title:** Assessment of Safety, Tolerability, and Efficacy of Donanemab in Early Symptomatic Alzheimer's Disease",
+    "location": "Document heading and official title line"
+  },
+  "authors": [],
+  "study": {
+    "design": {
+      "value": "Phase 3, double-blind, placebo-controlled interventional study; allocation RANDOMIZED, masking DOUBLE, primary purpose TREATMENT",
+      "quote": "TRAILBLAZER-ALZ 2 is a Phase 3, double-blind, placebo-controlled study to evaluate the safety and efficacy of N3pG antibody (donanemab) in participants with early symptomatic AD",
+      "location": "Detailed description, paragraph 1"
+    },
+    "phase": {
+      "value": "Phase 3",
+      "quote": "TRAILBLAZER-ALZ 2 is a Phase 3, double-blind, placebo-controlled study to evaluate the safety and efficacy of N3pG antibody (donanemab) in participants with early symptomatic AD",
+      "location": "Detailed description, paragraph 1"
+    },
+    "n": {
+      "value": 1736,
+      "quote": "- **Phase:** PHASE3\n\n- **Enrollment:** 1736 (ACTUAL)\n\n- **Start date:** 2020-06-19\n\n- **Primary completion:** 2023-04-14",
+      "location": "Mutable fields — observed 2026-08-13T17:02:18.933Z from the ClinicalTrials.gov API v2"
+    },
+    "n_description": {
+      "value": "Registry-reported actual enrollment observed on 2026-08-13T17:02:18.933Z from the ClinicalTrials.gov API v2. This is the registry's enrollment count, not a published analysis population; the posted-results adverse-event tables use denominators of 853 (donanemab) and 874 (placebo).",
+      "quote": "## Mutable fields — observed 2026-08-13T17:02:18.933Z from the ClinicalTrials.gov API v2",
+      "location": "Mutable fields section heading"
+    },
+    "population": {
+      "value": "Participants with early symptomatic Alzheimer's disease (prodromal AD and mild dementia due to AD) with the presence of brain amyloid and tau pathology",
+      "quote": "in participants with early symptomatic AD (prodromal AD and mild dementia due to AD) with the presence of brain amyloid and tau pathology.",
+      "location": "Detailed description, paragraph 1"
+    },
+    "followup": {
+      "value": "76-week double-blind main study period, followed by a double-blind 78-week long-term extension period",
+      "quote": "Following the double-blind 76-week main study period, a double-blind 78-week long-term extension period is added to further evaluate donanemab efficacy and safety over time.",
+      "location": "Detailed description, paragraph 2"
+    },
+    "intervention": {
+      "value": "Donanemab 700 mg every 4 weeks (Q4W) x 3 doses, then 1400 mg Q4W given intravenously (IV) for up to 72 weeks",
+      "quote": "- **Donanemab** (EXPERIMENTAL): Participants received 700 milligram (mg) Donanemab every 4 weeks (Q4W) x 3 doses, then 1400 mg Q4W given intravenously (IV) for up to 72 weeks",
+      "location": "Arms"
+    },
+    "comparator": {
+      "value": "Placebo given IV",
+      "quote": "- **Donanemab**: Participants received 700 milligram (mg) Donanemab every 4 weeks (Q4W) x 3 doses, then 1400 mg Q4W given intravenously (IV) for up to 72 weeks\n- **Placebo**: Participants received placebo given IV.",
+      "location": "Posted results, Participant flow groups"
+    },
+    "biomarker_confirmation": {
+      "value": "Central-read 18F flortaucipir (tau) PET scan criteria and central-read 18F florbetapir (amyloid) PET scan criteria",
+      "quote": "* Meet 18F flortaucipir PET scan (central read) criteria - does not apply to safety cohort\n* Meet 18F florbetapir PET scan (central read) criteria",
+      "location": "Eligibility, Inclusion Criteria"
+    },
+    "nct_ids": [
+      "NCT04437511"
+    ],
+    "cohorts": []
+  },
+  "outcomes": [
+    {
+      "name": "Change From Baseline on the Integrated Alzheimer's Disease Rating Scale (iADRS) (Overall Population)",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "1. **Change From Baseline on the Integrated Alzheimer's Disease Rating Scale (iADRS) (Overall Population)**\n- Time frame: Baseline, Week 76",
+      "met": "met",
+      "effect_estimate": "LS Mean change difference (Final Values) 2.92",
+      "confidence_interval": "95% CI 1.508 to 4.331",
+      "p_value": "p=<0.001",
+      "multiplicity_controlled": "unclear",
+      "quote": "- value: -10.19 (spread 0.53)\n- value: -13.11 (spread 0.50)\n- Analysis: LS Mean change difference (Final Values) 2.92 (95% CI 1.508 to 4.331), p=<0.001, SUPERIORITY, Mixed Models Analysis",
+      "location": "Posted results, PRIMARY: Change From Baseline on the Integrated Alzheimer's Disease Rating Scale (iADRS) (Overall Population)"
+    },
+    {
+      "name": "Change From Baseline on the Integrated Alzheimer's Disease Rating Scale (iADRS) (Intermediate (Low-medium) Tau Population)",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "2. **Change From Baseline on the Integrated Alzheimer's Disease Rating Scale (iADRS) (Intermediate (Low-medium) Tau Population)**\n- Time frame: Baseline, Week 76",
+      "met": "met",
+      "effect_estimate": "LS Mean change difference (Final Values) 3.25",
+      "confidence_interval": "95% CI 1.883 to 4.618",
+      "p_value": "p=<0.001",
+      "multiplicity_controlled": "unclear",
+      "quote": "- value: -6.02 (spread 0.50)\n- value: -9.27 (spread 0.49)\n- Analysis: LS Mean change difference (Final Values) 3.25 (95% CI 1.883 to 4.618), p=<0.001, SUPERIORITY, Mixed Models Analysis",
+      "location": "Posted results, PRIMARY: Change From Baseline on the Integrated Alzheimer's Disease Rating Scale (iADRS) (Intermediate (Low-medium) Tau Population)"
+    },
+    {
+      "name": "Change From Baseline on the Mini Mental State Examination (MMSE) Score (Overall Population)",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "1. **Change From Baseline on the Mini Mental State Examination (MMSE) Score (Overall Population)**\n- Time frame: Baseline, Week 76",
+      "met": "met",
+      "effect_estimate": "LS Mean change difference (Final Values) 0.47",
+      "confidence_interval": "95% CI 0.104 to 0.841",
+      "p_value": "p=0.012",
+      "multiplicity_controlled": "unclear",
+      "quote": "- value: -2.47 (spread 0.14)\n- value: -2.94 (spread 0.13)\n- Analysis: LS Mean change difference (Final Values) 0.47 (95% CI 0.104 to 0.841), p=0.012, SUPERIORITY, Mixed Models Analysis",
+      "location": "Posted results, SECONDARY: Change From Baseline on the Mini Mental State Examination (MMSE) Score (Overall Population)"
+    },
+    {
+      "name": "Change From Baseline on the Mini Mental State Examination (MMSE) Score (Intermediate (Low-medium) Tau Population)",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "2. **Change From Baseline on the Mini Mental State Examination (MMSE) Score (Intermediate (Low-medium) Tau Population)**\n- Time frame: Baseline, Week 76",
+      "met": "met",
+      "effect_estimate": "LS Mean change difference (Final Values) 0.48",
+      "confidence_interval": "95% CI 0.089 to 0.868",
+      "p_value": "p=0.016",
+      "multiplicity_controlled": "unclear",
+      "quote": "- value: -1.61 (spread 0.14)\n- value: -2.09 (spread 0.14)\n- Analysis: LS Mean change difference (Final Values) 0.48 (95% CI 0.089 to 0.868), p=0.016, SUPERIORITY, Mixed Models Analysis",
+      "location": "Posted results, SECONDARY: Change From Baseline on the Mini Mental State Examination (MMSE) Score (Intermediate (Low-medium) Tau Population)"
+    },
+    {
+      "name": "Change From Baseline on the Alzheimer's Disease Assessment Scale - Cognitive Subscale (ADAS-Cog13) (Overall Population)",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "3. **Change From Baseline on the Alzheimer's Disease Assessment Scale - Cognitive Subscale (ADAS-Cog13) (Overall Population)**\n- Time frame: Baseline, Week 76",
+      "met": "met",
+      "effect_estimate": "LS Mean change difference (Final Values) -1.33",
+      "confidence_interval": "95% CI -2.086 to -0.565",
+      "p_value": "p=0.0006",
+      "multiplicity_controlled": "unclear",
+      "quote": "- value: 5.46 (spread 0.28)\n- value: 6.79 (spread 0.27)\n- Analysis: LS Mean change difference (Final Values) -1.33 (95% CI -2.086 to -0.565), p=0.0006, SUPERIORITY, Mixed Models Analysis",
+      "location": "Posted results, SECONDARY: Change From Baseline on the Alzheimer's Disease Assessment Scale - Cognitive Subscale (ADAS-Cog13) (Overall Population)"
+    },
+    {
+      "name": "Change From Baseline on the Alzheimer's Disease Assessment Scale - Cognitive Subscale (ADAS-Cog13) (Intermediate (Low-medium) Tau Population)",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "4. **Change From Baseline on the Alzheimer's Disease Assessment Scale - Cognitive Subscale (ADAS-Cog13) (Intermediate (Low-medium) Tau Population)**\n- Time frame: Baseline, Week 76",
+      "met": "met",
+      "effect_estimate": "LS Mean change difference (Final Values) -1.52",
+      "confidence_interval": "95% CI -2.250 to -0.794",
+      "p_value": "p=<0.001",
+      "multiplicity_controlled": "unclear",
+      "quote": "- value: 3.17 (spread 0.27)\n- value: 4.69 (spread 0.26)\n- Analysis: LS Mean change difference (Final Values) -1.52 (95% CI -2.250 to -0.794), p=<0.001, SUPERIORITY, Mixed Models Analysis",
+      "location": "Posted results, SECONDARY: Change From Baseline on the Alzheimer's Disease Assessment Scale - Cognitive Subscale (ADAS-Cog13) (Intermediate (Low-medium) Tau Population)"
+    },
+    {
+      "name": "Change From Baseline on the Clinical Dementia Rating Scale-Sum of Boxes (CDR-SB) (Overall Population)",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "5. **Change From Baseline on the Clinical Dementia Rating Scale-Sum of Boxes (CDR-SB) (Overall Population)**\n- Time frame: Baseline, Week 76",
+      "met": "met",
+      "effect_estimate": "LS Mean change difference (Final Values) -0.70",
+      "confidence_interval": "95% CI -0.95 to -0.45",
+      "p_value": "p=<0.001",
+      "multiplicity_controlled": "unclear",
+      "quote": "- value: 1.72 (spread 0.096)\n- value: 2.42 (spread 0.092)\n- Analysis: LS Mean change difference (Final Values) -0.70 (95% CI -0.95 to -0.45), p=<0.001, SUPERIORITY, Mixed Models Analysis",
+      "location": "Posted results, SECONDARY: Change From Baseline on the Clinical Dementia Rating Scale-Sum of Boxes (CDR-SB) (Overall Population)"
+    },
+    {
+      "name": "Change From Baseline on the Clinical Dementia Rating Scale-Sum of Boxes (CDR-SB) (Intermediate (Low-medium) Tau Population)",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "6. **Change From Baseline on the Clinical Dementia Rating Scale-Sum of Boxes (CDR-SB) (Intermediate (Low-medium) Tau Population)**\n- Time frame: Baseline, Week 76",
+      "met": "met",
+      "effect_estimate": "LS Mean change difference (Final Values) -0.67",
+      "confidence_interval": "95% CI -0.95 to -0.40",
+      "p_value": "p=<0.001",
+      "multiplicity_controlled": "unclear",
+      "quote": "- value: 1.20 (spread 0.105)\n- value: 1.88 (spread 0.102)\n- Analysis: LS Mean change difference (Final Values) -0.67 (95% CI -0.95 to -0.40), p=<0.001, SUPERIORITY, Mixed Models Analysis",
+      "location": "Posted results, SECONDARY: Change From Baseline on the Clinical Dementia Rating Scale-Sum of Boxes (CDR-SB) (Intermediate (Low-medium) Tau Population)"
+    },
+    {
+      "name": "Change From Baseline on the Alzheimer's Disease Cooperative Study - Instrumental Activities of Daily Living (ADCS-iADL) Score (Overall Population)",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "7. **Change From Baseline on the Alzheimer's Disease Cooperative Study - Instrumental Activities of Daily Living (ADCS-iADL) Score (Overall Population)**\n- Time frame: Baseline, Week 76",
+      "met": "met",
+      "effect_estimate": "LS Mean change difference (Final Values) 1.70",
+      "confidence_interval": "95% CI 0.840 to 2.566",
+      "p_value": "p=0.0001",
+      "multiplicity_controlled": "unclear",
+      "quote": "- value: -4.42 (spread 0.32)\n- value: -6.13 (spread 0.30)\n- Analysis: LS Mean change difference (Final Values) 1.70 (95% CI 0.840 to 2.566), p=0.0001, SUPERIORITY, Mixed Models Analysis",
+      "location": "Posted results, SECONDARY: Change From Baseline on the Alzheimer's Disease Cooperative Study - Instrumental Activities of Daily Living (ADCS-iADL) Score (Overall Population)"
+    },
+    {
+      "name": "Change From Baseline on the Alzheimer's Disease Cooperative Study - Instrumental Activities of Daily Living (ADCS-iADL) Score (Intermediate (Low-medium) Tau Population)",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "8. **Change From Baseline on the Alzheimer's Disease Cooperative Study - Instrumental Activities of Daily Living (ADCS-iADL) Score (Intermediate (Low-medium) Tau Population)**\n- Time frame: Baseline, Week 76",
+      "met": "met",
+      "effect_estimate": "LS Mean change difference (Final Values) 1.83",
+      "confidence_interval": "95% CI 0.913 to 2.748",
+      "p_value": "p=<0.001",
+      "multiplicity_controlled": "unclear",
+      "quote": "- value: -2.76 (spread 0.34)\n- value: -4.59 (spread 0.32)\n- Analysis: LS Mean change difference (Final Values) 1.83 (95% CI 0.913 to 2.748), p=<0.001, SUPERIORITY, Mixed Models Analysis",
+      "location": "Posted results, SECONDARY: Change From Baseline on the Alzheimer's Disease Cooperative Study - Instrumental Activities of Daily Living (ADCS-iADL) Score (Intermediate (Low-medium) Tau Population)"
+    },
+    {
+      "name": "Change From Baseline in Brain Amyloid Plaque Deposition as Measured by Amyloid Positron Emission Tomography (PET) Scan",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "9. **Change From Baseline in Brain Amyloid Plaque Deposition as Measured by Amyloid Positron Emission Tomography (PET) Scan**\n- Time frame: Baseline, Week 76",
+      "met": "met",
+      "effect_estimate": "LS Mean change difference (Final Values) -86.37",
+      "confidence_interval": "95% CI -88.87 to -83.87",
+      "p_value": "p=<0.0001",
+      "multiplicity_controlled": "unclear",
+      "quote": "- value: -87.03 (spread 0.950)\n- value: -0.67 (spread 0.909)\n- Analysis: LS Mean change difference (Final Values) -86.37 (95% CI -88.87 to -83.87), p=<0.0001, SUPERIORITY, Mixed Models Analysis",
+      "location": "Posted results, SECONDARY: Change From Baseline in Brain Amyloid Plaque Deposition as Measured by Amyloid Positron Emission Tomography (PET) Scan"
+    },
+    {
+      "name": "Change From Baseline in Brain Tau Deposition as Measured by Flortaucipir F18 PET Scan",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "10. **Change From Baseline in Brain Tau Deposition as Measured by Flortaucipir F18 PET Scan**\n- Time frame: Baseline, Week 76",
+      "met": "not_met",
+      "effect_estimate": "LS Mean change difference (Final Values) -0.0041",
+      "confidence_interval": "95% CI -0.0148 to 0.0066",
+      "p_value": "p=0.4522",
+      "multiplicity_controlled": "unclear",
+      "quote": "- value: 0.0401 (spread 0.00398)\n- value: 0.0442 (spread 0.00374)\n- Analysis: LS Mean change difference (Final Values) -0.0041 (95% CI -0.0148 to 0.0066), p=0.4522, SUPERIORITY, ANCOVA",
+      "location": "Posted results, SECONDARY: Change From Baseline in Brain Tau Deposition as Measured by Flortaucipir F18 PET Scan"
+    },
+    {
+      "name": "Change From Baseline in Brain Volume as Measured by Volumetric Magnetic Resonance Imaging (vMRI)",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "11. **Change From Baseline in Brain Volume as Measured by Volumetric Magnetic Resonance Imaging (vMRI)**\n- Time frame: Baseline, Week 76",
+      "met": "met",
+      "effect_estimate": "Three regional analyses reported: LS Mean change difference (Final Values) 0.02 (Bilateral Hippocampus); -6.66 (Bilateral Whole Brain); 3.02 (Bilateral Ventricles). Note the treated-arm values show greater whole-brain volume loss and greater ventricular expansion than the comparator values as printed.",
+      "confidence_interval": "95% CI 0.01 to 0.04; 95% CI -7.76 to -5.56; 95% CI 2.52 to 3.52",
+      "p_value": "p=0.002; p=<0.001; p=<0.001",
+      "multiplicity_controlled": "unclear",
+      "quote": "- Bilateral Hippocampus: -0.20 (spread 0.005)\n- Bilateral Hippocampus: -0.22 (spread 0.005)\n- Bilateral Whole Brain: -27.46 (spread 0.409)\n- Bilateral Whole Brain: -20.79 (spread 0.392)\n- Bilateral Ventricles: 10.07 (spread 0.185)\n- Bilateral Ventricles: 7.05 (spread 0.178)",
+      "location": "Posted results, SECONDARY: Change From Baseline in Brain Volume as Measured by Volumetric Magnetic Resonance Imaging (vMRI)"
+    },
+    {
+      "name": "Pharmacokinetics (PK): Average Serum Concentration at Steady State of Donanemab",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "12. **Pharmacokinetics (PK): Average Serum Concentration at Steady State of Donanemab**\n- Time frame: Week 16 to week 20",
+      "met": "not_applicable",
+      "effect_estimate": "63 (spread 32)",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Time frame: Week 16 to week 20\nPopulation: All randomized participants who received at least one dose of study drug and had evaluable PK data.\n- value: 63 (spread 32)",
+      "location": "Posted results, SECONDARY: Pharmacokinetics (PK): Average Serum Concentration at Steady State of Donanemab"
+    },
+    {
+      "name": "Number or Participants With Anti-Donanemab Antibodies",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "13. **Number or Participants With Anti-Donanemab Antibodies**\n- Time frame: Baseline through Week 76",
+      "met": "not_applicable",
+      "effect_estimate": "693 and 48 participants (two values reported; the document does not label which arm each value belongs to)",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Time frame: Baseline through Week 76\nPopulation: All randomized participants who received at least one dose of study drug and had evaluable anti-drug antibody measurement.\n- value: 693\n- value: 48",
+      "location": "Posted results, SECONDARY: Number or Participants With Anti-Donanemab Antibodies"
+    }
+  ],
+  "primary_endpoint_status": {
+    "status": "met",
+    "explanation": "The posted results for the registered primary outcome — iADRS change from baseline at Week 76 in the overall population — report an LS mean change difference of 2.92 (95% CI 1.508 to 4.331), p=<0.001, in a superiority analysis, and the second registered primary outcome in the intermediate tau population reports 3.25 (95% CI 1.883 to 4.618), p=<0.001.",
+    "quote": "- Analysis: LS Mean change difference (Final Values) 2.92 (95% CI 1.508 to 4.331), p=<0.001, SUPERIORITY, Mixed Models Analysis"
+  },
+  "multiplicity": {
+    "approach": "none stated",
+    "quote": null,
+    "location": null
+  },
+  "safety": {
+    "harms": [
+      {
+        "name": "ARIA-E (Amyloid related imaging abnormality-oedema/effusion)",
+        "arm": "Donanemab (EG000, denominator 853)",
+        "count": "200",
+        "denominator": "853",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Amyloid related imaging abnormality-oedema/effusion (Nervous system disorders) — EG000: 200/853; EG001: 17/874",
+        "location": "Posted results, Adverse events, Other adverse events"
+      },
+      {
+        "name": "ARIA-E (Amyloid related imaging abnormality-oedema/effusion)",
+        "arm": "Placebo (EG001, denominator 874)",
+        "count": "17",
+        "denominator": "874",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Amyloid related imaging abnormality-oedema/effusion (Nervous system disorders) — EG000: 200/853; EG001: 17/874",
+        "location": "Posted results, Adverse events, Other adverse events"
+      },
+      {
+        "name": "ARIA-H (Amyloid related imaging abnormality-microhaemorrhages and haemosiderin deposits)",
+        "arm": "Donanemab (EG000, denominator 853)",
+        "count": "166",
+        "denominator": "853",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Amyloid related imaging abnormality-microhaemorrhages and haemosiderin deposits (Nervous system disorders) — EG000: 166/853; EG001: 65/874",
+        "location": "Posted results, Adverse events, Other adverse events"
+      },
+      {
+        "name": "ARIA-H (Amyloid related imaging abnormality-microhaemorrhages and haemosiderin deposits)",
+        "arm": "Placebo (EG001, denominator 874)",
+        "count": "65",
+        "denominator": "874",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Amyloid related imaging abnormality-microhaemorrhages and haemosiderin deposits (Nervous system disorders) — EG000: 166/853; EG001: 65/874",
+        "location": "Posted results, Adverse events, Other adverse events"
+      },
+      {
+        "name": "Superficial siderosis of central nervous system",
+        "arm": "Donanemab (EG000, denominator 853)",
+        "count": "58",
+        "denominator": "853",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Superficial siderosis of central nervous system (Nervous system disorders) — EG000: 58/853; EG001: 10/874",
+        "location": "Posted results, Adverse events, Other adverse events"
+      },
+      {
+        "name": "Superficial siderosis of central nervous system",
+        "arm": "Placebo (EG001, denominator 874)",
+        "count": "10",
+        "denominator": "874",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Superficial siderosis of central nervous system (Nervous system disorders) — EG000: 58/853; EG001: 10/874",
+        "location": "Posted results, Adverse events, Other adverse events"
+      },
+      {
+        "name": "Infusion related reaction",
+        "arm": "Donanemab (EG000, denominator 853)",
+        "count": "73",
+        "denominator": "853",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Infusion related reaction (Injury, poisoning and procedural complications) — EG000: 73/853; EG001: 4/874",
+        "location": "Posted results, Adverse events, Other adverse events"
+      },
+      {
+        "name": "Infusion related reaction",
+        "arm": "Placebo (EG001, denominator 874)",
+        "count": "4",
+        "denominator": "874",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Infusion related reaction (Injury, poisoning and procedural complications) — EG000: 73/853; EG001: 4/874",
+        "location": "Posted results, Adverse events, Other adverse events"
+      },
+      {
+        "name": "death",
+        "arm": "Donanemab",
+        "count": "16",
+        "denominator": "853",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- **Donanemab**: serious 148/853, other 567/853, deaths 16/853\n- **Placebo**: serious 138/874, other 425/874, deaths 10/874",
+        "location": "Posted results, Adverse events summary"
+      },
+      {
+        "name": "death",
+        "arm": "Placebo",
+        "count": "10",
+        "denominator": "874",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- **Donanemab**: serious 148/853, other 567/853, deaths 16/853\n- **Placebo**: serious 138/874, other 425/874, deaths 10/874",
+        "location": "Posted results, Adverse events summary"
+      },
+      {
+        "name": "Death (General disorders), reported as a serious adverse event term",
+        "arm": "Donanemab (EG000, denominator 853)",
+        "count": "3",
+        "denominator": "853",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Death (General disorders) — EG000: 3/853; EG001: 1/874",
+        "location": "Posted results, Adverse events, Serious adverse events"
+      },
+      {
+        "name": "Death (General disorders), reported as a serious adverse event term",
+        "arm": "Placebo (EG001, denominator 874)",
+        "count": "1",
+        "denominator": "874",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Death (General disorders) — EG000: 3/853; EG001: 1/874",
+        "location": "Posted results, Adverse events, Serious adverse events"
+      }
+    ],
+    "apoe_stratification_reported": false,
+    "serious_adverse_events": {
+      "value": "Serious adverse events: 148/853 donanemab, 138/874 placebo",
+      "quote": "- **Donanemab**: serious 148/853, other 567/853, deaths 16/853\n- **Placebo**: serious 138/874, other 425/874, deaths 10/874",
+      "location": "Posted results, Adverse events summary"
+    },
+    "deaths": {
+      "value": "Deaths: 16/853 donanemab, 10/874 placebo",
+      "quote": "- **Donanemab**: serious 148/853, other 567/853, deaths 16/853\n- **Placebo**: serious 138/874, other 425/874, deaths 10/874",
+      "location": "Posted results, Adverse events summary"
+    },
+    "discontinuations": {
+      "value": null,
+      "quote": null,
+      "location": null
+    }
+  },
+  "funding": [
+    "Lead sponsor: Eli Lilly and Company"
+  ],
+  "conflicts": [],
+  "limitations": [],
+  "risk_of_bias": [
+    {
+      "domain": "unblinding via ARIA",
+      "judgement": "The posted adverse-event table shows a large imbalance in ARIA-oedema/effusion between arms (200/853 vs 17/874), an imbalance of the kind that can compromise masking in a study registered as DOUBLE masked.",
+      "quote": "- Amyloid related imaging abnormality-oedema/effusion (Nervous system disorders) — EG000: 200/853; EG001: 17/874"
+    },
+    {
+      "domain": "sponsor-conducted trial and sponsor-posted results",
+      "judgement": "The record names Eli Lilly and Company as lead sponsor, and the posted results in this record are the sponsor's registry submission; the document contains no independent analysis or conflict-of-interest declarations.",
+      "quote": "- **Lead sponsor:** Eli Lilly and Company"
+    }
+  ],
+  "disagreements": [],
+  "linked_objects": [],
+  "trial_status_observation": {
+    "status": "ACTIVE_NOT_RECRUITING",
+    "enrollment": "1736 (ACTUAL)",
+    "phase": "PHASE3",
+    "observed_at": "2026-08-13T17:02:18.933Z",
+    "source": "ClinicalTrials.gov API v2"
+  },
+  "unlocatable_fields": [
+    "study.cohorts",
+    "multiplicity.quote",
+    "multiplicity.location",
+    "safety.harms[symptomatic ARIA]",
+    "safety.harms[macrohemorrhage]",
+    "safety.harms[*].percentage",
+    "safety.harms[*].apoe_stratum",
+    "safety.discontinuations",
+    "conflicts",
+    "limitations",
+    "disagreements",
+    "linked_objects",
+    "outcomes[PK].confidence_interval",
+    "outcomes[PK].p_value",
+    "outcomes[anti-donanemab antibodies].confidence_interval",
+    "outcomes[anti-donanemab antibodies].p_value"
+  ],
+  "_meta": {
+    "model": "claude (builder subagent)",
+    "extracted_at": "2026-08-13T17:35:00Z",
+    "source": "raw/trailblazer-alz-2-registry-nct04437511/document.md"
+  }
+}

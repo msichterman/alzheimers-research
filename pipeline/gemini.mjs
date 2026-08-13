@@ -27,7 +27,7 @@ export const MODELS = {
   /** Deepest reasoning, 1M context — critic and long-document extraction. */
   pro: process.env.GEMINI_PRO_MODEL || "gemini-3.1-pro-preview",
   /** Cheap 1M-context pass — bulk screening and identity leads. */
-  flash: process.env.GEMINI_FLASH_MODEL || "gemini-3.6-flash",
+  flash: process.env.GEMINI_FLASH_MODEL || "gemini-3.1-pro-preview",
 };
 
 class GeminiError extends Error {}

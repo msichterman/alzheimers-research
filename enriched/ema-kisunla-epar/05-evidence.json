@@ -1,0 +1,858 @@
+{
+  "document_kind": "regulatory_review",
+  "title": {
+    "value": "Assessment report — Kisunla, international non-proprietary name: donanemab, Procedure No. EMEA/H/C/006024/0000 (CHMP)",
+    "quote": "# Assessment report\n\n## Kisunla\n\n### International non-proprietary name: donanemab\n\n### Procedure No. EMEA/H/C/006024/0000",
+    "location": "Title page (document header, page 1)"
+  },
+  "authors": [],
+  "study": {
+    "design": {
+      "value": "randomized, parallel-group, double-blind, placebo-controlled phase III study (pivotal Study I5T-MC-AACI), assessed together with supportive phase 2 Study AACG",
+      "quote": "Study I5T-MC-AACI (Study AACI) was a randomized, parallel-group, double-blind placebo-controlled phase III study in patients with Mild Cognitive Impairment (MCI) and Mild Alzheimer’s disease (AD).",
+      "location": "Section 2.6.5.2 Main study – Study AACI, Methods"
+    },
+    "phase": {
+      "value": "Phase 3",
+      "quote": "A Phase 3, multicentre, randomised, parallel-group, double-blind, placebo-controlled study",
+      "location": "Table 17. Summary of efficacy for trial AACI, Design row"
+    },
+    "n": {
+      "value": 1736,
+      "quote": "Randomised: 1736 patients (876 to placebo and 860 to donanemab).",
+      "location": "Section 2.6.5.2, Results – study AACI, Participant flow"
+    },
+    "n_description": {
+      "value": "patients randomised in the pivotal Study AACI (876 to placebo, 860 to donanemab); efficacy analyses were presented by the assessor in the ITT population, and safety in 853 donanemab and 874 placebo patients who received at least one dose",
+      "quote": "The focus of the safety assessment in this assessment report lies on the randomized, placebo- controlled, double-blind single pivotal phase 3 study AACI in patients (n=853 donanemab, n=874 placebo) with MCI due to AD and mild AD dementia",
+      "location": "Section 2.6.8 Clinical safety, Patient exposure"
+    },
+    "population": {
+      "value": "Adults aged 60–85 with early symptomatic Alzheimer's disease (mild cognitive impairment or mild dementia due to AD), MMSE 20–28, with PET evidence of both brain amyloid and tau pathology",
+      "quote": "A Phase 3, double-blind, placebo-controlled study to evaluate the safety and efficacy of donanemab in patients with early symptomatic AD (mild cognitive impairment and mild dementia due to AD) with the presence of brain amyloid and tau pathology over 76 weeks of the double-blind period.",
+      "location": "Table 17. Summary of efficacy for trial AACI, Title row"
+    },
+    "followup": {
+      "value": "76 weeks double-blind placebo-controlled period (long-term extension of 78 weeks plus 44 weeks follow-up; up to 36 months safety data in AACI-PC plus LTE)",
+      "quote": "The design of study AACI was conventional to assess efficacy of donanemab treatment, i.e., randomised double-blind placebo-controlled parallel group study with a duration of 76 weeks in 1736 patients.",
+      "location": "Section 2.6.6 Discussion on clinical efficacy, Design and conduct of clinical studies"
+    },
+    "intervention": {
+      "value": "Donanemab 700 mg IV every 4 weeks for the first 3 doses, then 1400 mg IV every 4 weeks",
+      "quote": "Randomised patients received either placebo (saline) or donanemab. Both were administered by IV infusion every 4 weeks (Q4W). The first 3 doses of donanemab were 700mg followed by 1400mg.",
+      "location": "Section 2.6.5.2 Main study – Study AACI, Treatments"
+    },
+    "comparator": {
+      "value": "Placebo (saline) administered by IV infusion every 4 weeks; donanemab-treated patients meeting amyloid thresholds were switched to placebo in a blinded manner",
+      "quote": "Randomised patients received either placebo (saline) or donanemab. Both were administered by IV infusion every 4 weeks (Q4W).",
+      "location": "Section 2.6.5.2 Main study – Study AACI, Treatments"
+    },
+    "biomarker_confirmation": {
+      "value": "Amyloid PET (florbetapir F 18 or florbetaben F 18) plus tau PET (flortaucipir F 18) at screening",
+      "quote": "-Evidence of tau deposition as observed by flortaucipir F 18 PET scan.\n\n-Evidence of amyloid beta deposition as observed by florbetapir F 18 or florbetaben F 18 PET scan.",
+      "location": "Section 2.6.5.2 Main study – Study AACI, Main Inclusion criteria"
+    },
+    "nct_ids": [],
+    "cohorts": []
+  },
+  "outcomes": [
+    {
+      "name": "Change from baseline in iADRS score at Week 76 (overall population, all APOE-E4 genotypes) — MMRM in ITT with jump-to-reference imputation",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "-Change from baseline in iADRS score at Week 76*.",
+      "met": "met",
+      "effect_estimate": "1.90 (14.5% LS mean change difference versus placebo at week 76)",
+      "confidence_interval": "0.502, 3.289",
+      "p_value": "0.0077",
+      "multiplicity_controlled": "yes",
+      "quote": "The primary endpoint was Change from Baseline in iADRS at week 76. The mean difference in change from baseline in iADRS at week 76 between donanemab and placebo in the APOE-E4 non-carriers population was 2.02 (p=0.14). The mean difference in change from baseline in iADRS at week 76 between donanemab and placebo in the overall population was 1.58, (p=.026), see Table 10.",
+      "location": "Section 2.6.5.2, Outcomes and estimation, Primary endpoint / Table 10"
+    },
+    {
+      "name": "Change from baseline in iADRS score at Week 76 in the restricted APOE-E4 non-carriers population",
+      "tier": "subgroup",
+      "prespecified": "no",
+      "prespecification_evidence": "Because of safety reasons it is post-hoc proposed to restrict the indication further to APOE4 non-carrier patients. In the pivotal study 510 (29%) patients would represent the targeted population.",
+      "met": "not_applicable",
+      "effect_estimate": "2.26 (14.3)",
+      "confidence_interval": "-0.435,4.952",
+      "p_value": "0.1000",
+      "multiplicity_controlled": "no",
+      "quote": "|LS mean Change Difference versus placebo at week 76 (%)||2.26 (14.3)||1.90 (14.5)|\n|95% Confidence interval||-0.435,4.952||0.502, 3.289|\n|p-value||0.10||0.0077|",
+      "location": "Table 10. MMRM: Change from baseline in iADRS at Week 76 (ITT)"
+    },
+    {
+      "name": "Change from baseline in CDR-SB at Week 76 (overall population) — MMRM in ITT with jump-to-reference imputation",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "The Change from Baseline in CDR-SB at week 76 as analyzed with MRMM was a secondary endpoint included in the graphical testing strategy.",
+      "met": "met",
+      "effect_estimate": "-0.53 (22.1)",
+      "confidence_interval": "-0.769, -0.287",
+      "p_value": "<0.0001",
+      "multiplicity_controlled": "yes",
+      "quote": "mean difference in change from baseline at week 76 between donanemab and placebo in the overall population was -0.47 (p<0.001), see Table 11.",
+      "location": "Section 2.6.5.2, Secondary endpoints, CDR-SB / Table 11"
+    },
+    {
+      "name": "Change from baseline in CDR-SB at Week 76 in the restricted APOE-E4 non-carriers population",
+      "tier": "subgroup",
+      "prespecified": "no",
+      "prespecification_evidence": "By further restricting the indication to APOE-E4 non-carriers only a sample of approximately 29% (N =",
+      "met": "not_applicable",
+      "effect_estimate": "-0.56 (20.7)",
+      "confidence_interval": "-1.064, -0.065",
+      "p_value": "0.0269",
+      "multiplicity_controlled": "no",
+      "quote": "|LS mean Change Difference versus placebo at week 76 (%)||-0.56 (20.7)||-0.53 (22.1)|\n|95% Confidence interval||-1.064, -0.065||-0.769, -0.287|\n|p-value||0.027||<0.0001|",
+      "location": "Table 11. MMRM: Change from baseline in CDR-SB at Week 76 (ITT)"
+    },
+    {
+      "name": "Change from baseline in ADAS-Cog13 at Week 76",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "The Change from Baseline in ADAS-Cog13 at week 76 was a secondary endpoint included in the graphical testing strategy.",
+      "met": "met",
+      "effect_estimate": "-0.79 (11.7) in the overall population; -1.25 (15.0) in the APOE-E4 non-carriers population",
+      "confidence_interval": "-1.567, -0.022 (overall population); -2.722, 0.222 (non-carriers population)",
+      "p_value": "0.0439 (overall population); 0.096 (non-carriers population)",
+      "multiplicity_controlled": "yes",
+      "quote": "|LS mean Change Difference versus placebo at week 76 (%)||-1.25 (15.0)||-0.79 (11.7)|\n|95% Confidence interval||-2.722, 0.222||-1.567, -0.022|\n|p-value Assessment report||0.096||0.0439|",
+      "location": "Table 12. MMRM: Change from baseline in ADAS-Cog13 at Week 76 (ITT)"
+    },
+    {
+      "name": "Change from baseline in ADCS-iADL at Week 76",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "The Change from Baseline in ADCS-iADL at week 76 was a secondary endpoint included in the graphical testing strategy.",
+      "met": "met",
+      "effect_estimate": "1.21 (19.8) in the overall population; 1.31 (17.2) in the APOE-E4 non-carriers population",
+      "confidence_interval": "0.352, 2.076 (overall population); -0.474, 3.097 (non-carriers population)",
+      "p_value": "0.0058 (overall population); 0.1499 (non-carriers population)",
+      "multiplicity_controlled": "yes",
+      "quote": "The mean difference in change from baseline at week 76 between donanemab and placebo in the APOE-E4 non-carriers population was 1.31 (p=0.15). The mean difference in change from baseline at week 76 between donanemab and placebo in the overall population was 1.21 (p=0.006), see Table *13*.",
+      "location": "Section 2.6.5.2, Secondary endpoints, ADCS-iADL / Table 13"
+    },
+    {
+      "name": "Change from baseline in MMSE at Week 76",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "ADAS-Cog13 and ADCS-iADL were included in the hierarchical testing strategy, MMSE was not included.",
+      "met": "not_met",
+      "effect_estimate": "0.24 (8.0) in the overall population; 0.24 (7.0) in the APOE-E4 non-carriers population",
+      "confidence_interval": "-0.154, 0.632 (overall population); -0.508, 0.998 (non-carriers population)",
+      "p_value": "0.2328 (overall population); 0.5235 (non-carriers population)",
+      "multiplicity_controlled": "no",
+      "quote": "The mean difference in change from baseline at week 76 between donanemab and placebo in the APOE-E4 non-carriers population was 0.24 (p=0.52). The mean difference in change from baseline at week 76 between donanemab and placebo in the overall population was 0.24 (p=0.23), see Table 14.",
+      "location": "Section 2.6.5.2, Secondary endpoints, MMSE / Table 14"
+    },
+    {
+      "name": "Change from baseline in iADRS at Week 76 in the high tau only subgroup of APOE-E4 non-carriers",
+      "tier": "subgroup",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "-0.32 (1.5 increase)",
+      "confidence_interval": "-5.417, 4.786",
+      "p_value": "0.9034",
+      "multiplicity_controlled": "no",
+      "quote": "In the high tau only subgroup of the APOE-E4 non-carriers, no differences were observed between placebo and donanemab, see Table 15.",
+      "location": "Section 2.6.5.2, High tau only subgroup / Table 15"
+    },
+    {
+      "name": "Change from baseline in CDR-SB at Week 76 in the high tau only subgroup of APOE-E4 non-carriers",
+      "tier": "subgroup",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "-0.30 (9.0)",
+      "confidence_interval": "-1.224, 0.614",
+      "p_value": "0.5153",
+      "multiplicity_controlled": "no",
+      "quote": "In the high tau only population there is no difference between the donanemab treated group and the group on placebo on the iADRS, CDR-SB, ADCS-iADL and ADAS-Cog 13 despite a comparable amyloid reduction as in the restricted population.",
+      "location": "Section 2.6.6 Discussion on clinical efficacy, High tau only population"
+    },
+    {
+      "name": "Change from baseline in iADRS at Week 76 in APOE ε4 heterozygotes and noncarriers (hybrid J2R/CIR imputation, re-examination analysis)",
+      "tier": "post_hoc",
+      "prespecified": "no",
+      "prespecification_evidence": "In order to address remaining uncertainties regarding the size of the treatment effect, analyses using a different imputation method have been presented during the re-examination: a more conservative “hybrid” approach, using J2R for missing data due to severe/ symptomatic ARIA or death, and CIR for other grounds of missing data.",
+      "met": "not_applicable",
+      "effect_estimate": "2.65 (19.6% slowing of iADRS deterioration)",
+      "confidence_interval": "95%CI: 1.035,4.256",
+      "p_value": "0.0013",
+      "multiplicity_controlled": "unclear",
+      "quote": "With this hybrid approach of imputation, the mean difference in change from baseline in iADRS at week 76 between donanemab and placebo in the selected target population was 2.65 (95%CI: 1.035,4.256), which corresponds to a 19.6% slowing of iADRS deterioration.",
+      "location": "Section 6.7.1 Importance of favourable and unfavourable effects (updated benefit-risk after re-examination)"
+    },
+    {
+      "name": "Change from baseline in CDR-SB at Week 76 in APOE ε4 heterozygotes and noncarriers (hybrid J2R/CIR imputation, re-examination analysis)",
+      "tier": "post_hoc",
+      "prespecified": "no",
+      "prespecification_evidence": "The applicant accepted this objection and submitted additional analyses during the re-examination procedure, based on a different (“hybrid”) imputation method.",
+      "met": "not_applicable",
+      "effect_estimate": "-0.69 (28.5% slowing of CDR-SB deterioration)",
+      "confidence_interval": "95%CI: -0.950,-0.427",
+      "p_value": "< 0.0001",
+      "multiplicity_controlled": "unclear",
+      "quote": "The mean difference in change from baseline in the CDR-SB at week 76 between donanemab and placebo in the new target population was -0.69 (95%CI: -0.950,-0.427), which corresponds to a 28.5% slowing of CDR-SB deterioration.",
+      "location": "Section 6.7.1 Importance of favourable and unfavourable effects (updated benefit-risk after re-examination)"
+    },
+    {
+      "name": "Risk of progressing to a worse stage of CDR-Global in APOE ε4 heterozygotes and noncarriers (responder analysis)",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "38% lower risk of progressing to a worse stage of CDR-G (HR:0.62)",
+      "confidence_interval": null,
+      "p_value": "p<0.0001",
+      "multiplicity_controlled": "unclear",
+      "quote": "Significantly more placebo patients worsened to the next stage of the disease compared to donanemab treated patients, corresponding to a 38% lower risk of progressing to a worse stage of CDR-G with donanemab treatment in the heterozygotes and noncarriers (HR:0.62; p<0.0001)",
+      "location": "Section 6.2 Favourable effects, Responder analyses"
+    },
+    {
+      "name": "Probability of non-progression on CDR-SB at Week 76 (change from baseline ≤ 0)",
+      "tier": "exploratory",
+      "prespecified": "yes",
+      "prespecification_evidence": "Proportion of non-progressors on CBR-SB, defined as a CDR-SB change from baseline less than or equal to 0, will be analyzed in the intermediate tau population using a generalized linear mixed model",
+      "met": "not_applicable",
+      "effect_estimate": "19% of donanemab vs 14% of placebo (non-carriers); 36% vs 23% (overall population)",
+      "confidence_interval": null,
+      "p_value": "p=0.12 (non-carriers); nominal p<.00001 (overall population)",
+      "multiplicity_controlled": "no",
+      "quote": "At Week 76, 19% of donanemab-treated participants in the APOE- E4 non-carriers population compared with 14% of placebo-treated participants remained stable (showed no decline in CDR-SB from baseline) (p=0.12).",
+      "location": "Section 2.6.5.2, Tertiary endpoints, Probability of non-progression"
+    },
+    {
+      "name": "Time saved progression (disease progression time saved) at Week 76",
+      "tier": "exploratory",
+      "prespecified": "yes",
+      "prespecification_evidence": "Time progression models for the repeated measures (Time-PMRM) will be fitted for iADRS, CDR-SB, ADAS-Cog13, iADL and MMSE in both the intermediate tau and overall population.",
+      "met": "not_applicable",
+      "effect_estimate": "iADRS 1.2 months and CDR-SB 3.1 months in the overall population; iADRS 1.6 months in the noncarriers population",
+      "confidence_interval": "iADRS 1.2 (0.1, 2.2); CDR-SB 3.1 (1.3, 4.8) in the overall population",
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "Time saved progression analyses (saved (absolute in months and relative) based on the nonproportional PMRM analysis, under the assumptions as described above, for all primary and secondary endpoints in the intermediate and overall population were provided",
+      "location": "Section 2.6.5.2, Tertiary endpoints, Slowing of disease progression time / Table 16"
+    },
+    {
+      "name": "Change from baseline in brain amyloid plaque deposition measured by florbetapir F18 PET at Week 76",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "-Change from baseline in brain amyloid plaque deposition as measured by florbetapir F18 PET at Week 76.",
+      "met": "met",
+      "effect_estimate": "approximately 74% of intermediate tau and 69% of overall population participants met the dose cessation criteria for amyloid reduction at Week 76",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "A clear reduction in cerebral Aβ load as measured by the PET scan was found after treatment with donanemab. The calculation of the amyloid load was based on the centiloid method since two amyloid PET tracers were used.",
+      "location": "Section 2.6.6 Discussion on clinical efficacy, Pivotal study – AACI (phase 3)"
+    },
+    {
+      "name": "Change from baseline in global tau load (supportive phase 2 Study AACG)",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "The effect of donanemab on Aβ plaque was one of the secondary objectives and PET scans were conducted at week 24, 52 and 76.",
+      "met": "not_met",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "However, no statistically significant difference was reported in change from baseline to Week 76 in global tau load.",
+      "location": "Section 2.6.6 Discussion on clinical efficacy, Supportive study – AACG (phase 2)"
+    }
+  ],
+  "primary_endpoint_status": {
+    "status": "met",
+    "explanation": "The primary endpoint (change from baseline in iADRS at Week 76) reached statistical significance in the overall population under the assessor's preferred ITT analysis (1.90; 95% CI 0.502, 3.289; p=0.0077) and the CHMP accepted that efficacy was demonstrated, but it was not statistically significant in the post-hoc restricted APOE-E4 non-carriers population (2.26; 95% CI -0.435, 4.952; p=0.10) and the CHMP considered the magnitude and clinical relevance uncertain.",
+    "quote": "While there is no reason to question that Kisunla has demonstrated efficacy, for the magnitude of effect still remains some uncertainty because estimates strongly depend on the imputation strategy."
+  },
+  "multiplicity": {
+    "approach": "Bretz's graphical approach controlling two-sided type I error at 5%, with 4% initially allocated to the intermediate tau population and 1% to the overall population; CDR-SB, ADAS-Cog13 and ADCS-iADL were in the hierarchical testing strategy, MMSE was not",
+    "quote": "The type I error probability was controlled over the study at the two-sided 5% level through Bretz’s graphical approach with 4% initially allocated to the intermediate tau population and 1% to the overall population.",
+    "location": "Section 2.6.5.2 Main study – Study AACI, Statistical methods"
+  },
+  "safety": {
+    "harms": [
+      {
+        "name": "Any ARIA",
+        "arm": "donanemab (AACI-PC period)",
+        "count": null,
+        "denominator": "853",
+        "percentage": "37%",
+        "apoe_stratum": null,
+        "quote": "The incidence of any ARIA was higher in donanemab-treated participants (37%) than placebo-treated participants (15%). A total of 14 (1.6%) donanemab-treated participants reported SAEs that were attributable to any ARIA.",
+        "location": "Section 2.6.8 Clinical safety, Adverse events of special interest, ARIA (AACI-PC)"
+      },
+      {
+        "name": "Any ARIA",
+        "arm": "placebo (AACI-PC period)",
+        "count": null,
+        "denominator": "874",
+        "percentage": "15%",
+        "apoe_stratum": null,
+        "quote": "The incidence of any ARIA was higher in donanemab-treated participants (37%) than placebo-treated participants (15%). A total of 14 (1.6%) donanemab-treated participants reported SAEs that were attributable to any ARIA.",
+        "location": "Section 2.6.8 Clinical safety, Adverse events of special interest, ARIA (AACI-PC)"
+      },
+      {
+        "name": "ARIA-E",
+        "arm": "donanemab (AACI-PC period)",
+        "count": "205",
+        "denominator": "853",
+        "percentage": "24%",
+        "apoe_stratum": null,
+        "quote": "The incidence of ARIA-E based on MRI or TEAE cluster was higher in the donanemab group (n = 205; 24%) compared with the placebo group (n = 18, 2.1%) during the AACI-PC period.",
+        "location": "Section 2.6.8 Clinical safety, ARIA-E incidence and symptoms (AACI-PC)"
+      },
+      {
+        "name": "ARIA-E",
+        "arm": "placebo (AACI-PC period)",
+        "count": "18",
+        "denominator": "874",
+        "percentage": "2.1%",
+        "apoe_stratum": null,
+        "quote": "The incidence of ARIA-E based on MRI or TEAE cluster was higher in the donanemab group (n = 205; 24%) compared with the placebo group (n = 18, 2.1%) during the AACI-PC period.",
+        "location": "Section 2.6.8 Clinical safety, ARIA-E incidence and symptoms (AACI-PC)"
+      },
+      {
+        "name": "ARIA-H",
+        "arm": "donanemab (AACI-PC period)",
+        "count": "268",
+        "denominator": "853",
+        "percentage": "31.4%",
+        "apoe_stratum": null,
+        "quote": "The incidence of ARIA-H based on MRI or TEAE cluster was higher in the donanemab group (n = 268,",
+        "location": "Section 2.6.8 Clinical safety, ARIA-H Incidence (AACI-PC)"
+      },
+      {
+        "name": "ARIA-H",
+        "arm": "placebo (AACI-PC period)",
+        "count": "119",
+        "denominator": "874",
+        "percentage": "13.6%",
+        "apoe_stratum": null,
+        "quote": "31.4%) compared with the placebo group (n = 119, 13.6%) during the AACI-PC period.",
+        "location": "Section 2.6.8 Clinical safety, ARIA-H Incidence (AACI-PC)"
+      },
+      {
+        "name": "ARIA-H (adverse drug reaction table, includes cerebral microhaemorrhage and superficial siderosis)",
+        "arm": "donanemab vs placebo (AACI-PC)",
+        "count": "268 donanemab vs 119 placebo",
+        "denominator": "853 donanemab; 874 placebo",
+        "percentage": "31.4% donanemab vs 13.6% placebo",
+        "apoe_stratum": null,
+        "quote": "|a ARIA-E|18 (2.1%)|205 (24.0%)|\n|a,b ARIA-H|119 (13.6%)|268 (31.4%)|\n|Headache|86 (9.8%)|119 (14.0%)|",
+        "location": "Table 22. Frequency of adverse drug reactions, AACI-PC"
+      },
+      {
+        "name": "Symptomatic ARIA-E",
+        "arm": "donanemab (AACI-PC period)",
+        "count": "52",
+        "denominator": "205 participants with ARIA-E",
+        "percentage": "25.4% of those with ARIA-E (6.1% of all donanemab-treated patients)",
+        "apoe_stratum": null,
+        "quote": "A total of 52 of 205 (25.4%) donanemab-treated participants with ARIA-E were reported as symptomatic. The most commonly reported symptoms (≥0.5% participants treated with donanemab) associated with ARIA-E were headache, confusional state, dizziness, nausea, and seizure.",
+        "location": "Section 2.6.8 Clinical safety, ARIA-E incidence and symptoms (AACI-PC)"
+      },
+      {
+        "name": "Symptomatic ARIA-E and symptomatic ARIA-H",
+        "arm": "donanemab, overall population vs restricted APOE4 non-carrier population",
+        "count": null,
+        "denominator": "853 (overall); 255 (restricted APOE4 non-carriers)",
+        "percentage": "symptomatic ARIA-E 6.1% overall vs 3.9% in non-carriers; symptomatic ARIA-H 1.0% overall vs 0.4% in non-carriers",
+        "apoe_stratum": "APOE4 non-carriers (restricted target population) versus overall population",
+        "quote": "Overall, ARIA occurred in a quarter of patients (24.7%; ARIA-E: 15.7%, ARIA-H: 18.8%), and symptomatic ARIA in 4.3% of patients (3.9% ARIA-E, 0.4% ARIA-H). Serious ARIA occurred in 0.8% of patients.",
+        "location": "Section 2.6.8 Clinical safety, ARIA incidence in restricted population of APOE4 non-carriers / Table 28"
+      },
+      {
+        "name": "Any ARIA, ARIA-E and ARIA-H in restricted APOE4 non-carrier population",
+        "arm": "donanemab",
+        "count": null,
+        "denominator": "255 (restricted population) versus 853 (overall population)",
+        "percentage": "any ARIA 24.7% vs 36.8%; ARIA-E 15.7% vs 24.0%; ARIA-H 18.8% vs 31.4%",
+        "apoe_stratum": "APOE4 non-carriers",
+        "quote": "Within the restricted target population, ARIA incidence is reduced by ~12% compared to the overall population, but is in absolute term still very high, occurring in a quarter of patients (any ARIA: 24.7% vs. 36.8, resp.; ARIA-E: 15.7% vs. 24.0%, resp.; ARIA-H: 18.8% vs. 31.4%, resp.).",
+        "location": "Section 2.6.9 Discussion on clinical safety, Restricted target population"
+      },
+      {
+        "name": "ARIA-E by APOE ε4 genotype",
+        "arm": "donanemab (AACI-PC period)",
+        "count": "103 heterozygote carriers; 58 homozygote carriers; 40 non-carriers",
+        "denominator": "853 donanemab-treated patients, split by genotype",
+        "percentage": "22.8% heterozygotes; 40.6% homozygotes; 15.7% non-carriers",
+        "apoe_stratum": "APOE ε4 heterozygote carriers, homozygote carriers and non-carriers",
+        "quote": "- a higher incidence of ARIA-E was observed among APOE ε4 carriers (heterozygote carriers: n=103, 22.8%; and homozygote carriers: n=58, 40.6%) compared with non-carriers (n=40;\n15.7%);",
+        "location": "Section 2.6.8 Clinical safety, ARIA and macro-haemorrhage by subgroup analyses, APOE ε4 carrier status"
+      },
+      {
+        "name": "ARIA-H by APOE ε4 genotype",
+        "arm": "donanemab (AACI-PC period)",
+        "count": "146 heterozygote carriers; 72 homozygote carriers; 48 non-carriers",
+        "denominator": "853 donanemab-treated patients, split by genotype",
+        "percentage": "32.3% heterozygotes; 50.3% homozygotes; 18.8% non-carriers",
+        "apoe_stratum": "APOE ε4 heterozygote carriers, homozygote carriers and non-carriers",
+        "quote": "- similarly, a higher incidence of ARIA-H was observed among APOE ε4 carriers compared with non-carriers: o ARIA-H: APOE ε4 carriers (heterozygote carriers: n=146, 32.3%; and homozygote\ncarriers: n=72, 50.3%) versus non-carriers (n=48, 18.8%).",
+        "location": "Section 2.6.8 Clinical safety, ARIA and macro-haemorrhage by subgroup analyses, APOE ε4 carrier status"
+      },
+      {
+        "name": "ARIA-H micro-haemorrhage by APOE ε4 genotype",
+        "arm": "donanemab (AACI-PC period)",
+        "count": "121 heterozygote carriers; 59 homozygote carriers; 39 non-carriers",
+        "denominator": "853 donanemab-treated patients, split by genotype",
+        "percentage": "26.8% heterozygotes; 41.3% homozygotes; 15.3% non-carriers",
+        "apoe_stratum": "APOE ε4 heterozygote carriers, homozygote carriers and non-carriers",
+        "quote": "o ARIA-H micro-haemorrhage: APOE ε4 carriers (heterozygote carriers: n = 121, 26.8%; and homozygote carriers: n = 59, 41.3%) versus non-carriers (n = 39, 15.3%).",
+        "location": "Section 2.6.8 Clinical safety, ARIA and macro-haemorrhage by subgroup analyses, APOE ε4 carrier status"
+      },
+      {
+        "name": "ARIA-H superficial siderosis by APOE ε4 genotype",
+        "arm": "donanemab (AACI-PC period)",
+        "count": "75 heterozygote carriers; 40 homozygote carriers; 19 non-carriers",
+        "denominator": "853 donanemab-treated patients, split by genotype",
+        "percentage": "16.6% heterozygotes; 28.0% homozygotes; 7.5% non-carriers",
+        "apoe_stratum": "APOE ε4 heterozygote carriers, homozygote carriers and non-carriers",
+        "quote": "o ARIA-H superficial siderosis: APOE ε4 carriers (heterozygote carriers: n=75, 16.6%; and homozygote carriers: n=40, 28.0%) versus noncarriers (n=19, 7.5%).",
+        "location": "Section 2.6.8 Clinical safety, ARIA and macro-haemorrhage by subgroup analyses, APOE ε4 carrier status"
+      },
+      {
+        "name": "Macro-haemorrhage by APOE ε4 genotype",
+        "arm": "donanemab (AACI-PC period)",
+        "count": "3 heterozygote APOE ε4 carriers; none in homozygote carriers or non-carriers",
+        "denominator": "donanemab-treated patients by genotype",
+        "percentage": "0.7% of heterozygote carriers",
+        "apoe_stratum": "APOE ε4 heterozygote carriers, homozygote carriers and non-carriers",
+        "quote": "- Macro-haemorrhage was observed in 3 (0.7%) heterozygote APOE ε4 carriers and none in homozygote carriers or non-carriers.\nIn general, the homozygote APOE ε4 carriers are at a higher risk of developing ARIA than the heterozygote APOE ε4 carriers.",
+        "location": "Section 2.6.8 Clinical safety, ARIA and macro-haemorrhage by subgroup analyses, APOE ε4 carrier status"
+      },
+      {
+        "name": "Macro-haemorrhage",
+        "arm": "donanemab vs placebo (AACI-PC period)",
+        "count": "3 donanemab; 2 placebo",
+        "denominator": "853 donanemab; 874 placebo",
+        "percentage": "0.4% donanemab; 0.2% placebo",
+        "apoe_stratum": null,
+        "quote": "A total of 3 (0.4%) donanemab-treated participants and 2 (0.2%) placebo-treated participants reported macro-haemorrhage events. One participant from each treatment group reported 1 serious macro-haemorrhage event.",
+        "location": "Section 2.6.8 Clinical safety, Adverse events of special interest, ARIA (AACI-PC)"
+      },
+      {
+        "name": "Macro-haemorrhage (intracranial haemorrhage, extended search criteria)",
+        "arm": "donanemab vs placebo (AACI-PC period)",
+        "count": "11 donanemab; 7 placebo",
+        "denominator": "853 donanemab; 874 placebo",
+        "percentage": "1.3% donanemab; 0.8% placebo",
+        "apoe_stratum": null,
+        "quote": "Based on extended search criteria for intracranial-haemorrhage (TEAE or MRI), 11 [1.3%] donanemab- treated participants had a (macro) haemorrhagic lesion versus 7 [0.8%] of placebo-treated participants.",
+        "location": "Section 2.6.8 Clinical safety, ARIA-H Incidence (AACI-PC)"
+      },
+      {
+        "name": "Macro-haemorrhage in restricted APOE4 non-carrier population",
+        "arm": "donanemab vs placebo",
+        "count": null,
+        "denominator": "255 donanemab; 250 placebo (restricted population)",
+        "percentage": "2.0% donanemab vs 0.4% placebo; serious macro-haemorrhages 1.6%",
+        "apoe_stratum": "APOE4 non-carriers",
+        "quote": "The incidence of macro haemorrhagic events in the restricted population was still higher under donanemab, and mainly concerned subdural and subarachnoid haemorrhages (2.0% vs. 0.4% with placebo). Serious macro-haemorrhagic events occurred in 1.6% of patients in the restricted population.",
+        "location": "Section 2.6.9 Discussion on clinical safety, Restricted target population"
+      },
+      {
+        "name": "Serious ARIA-E",
+        "arm": "donanemab (AACI-PC period)",
+        "count": "13",
+        "denominator": "853",
+        "percentage": "1.5%",
+        "apoe_stratum": "of the 13, 8 (61.5%) heterozygous ε4 carriers, 4 (30.8%) ε4 homozygous carriers, 1 (7.7%) non-carrier",
+        "quote": "Serious ARIA-E occurred in 13 (1.5%) participants treated with donanemab. Of these, most were heterozygous ε4 carriers (n = 8; 61.5%), 4 (30.8%) were ε4 homozygous carriers, and 1 (7.7%) was a non-carrier.",
+        "location": "Section 2.6.8 Clinical safety, ARIA-E severity (MRI), seriousness, deaths"
+      },
+      {
+        "name": "Serious ARIA-H",
+        "arm": "donanemab (AACI-PC period)",
+        "count": "4",
+        "denominator": "853",
+        "percentage": "0.5%",
+        "apoe_stratum": "one ε3ε3, one ε3ε4, two ε4ε4",
+        "quote": "Serious ARIA-H occurred in four (0.5%) donanemab-treated participants. Three of the four serious ARIA-H events were severe and one was mild:",
+        "location": "Section 2.6.8 Clinical safety, Serious ARIA-H and macro-haemorrhage, deaths"
+      },
+      {
+        "name": "Death",
+        "arm": "donanemab vs placebo (AACI-PC period)",
+        "count": "16 donanemab; 10 placebo",
+        "denominator": "853 donanemab; 874 placebo",
+        "percentage": "1.9% donanemab; 1.1% placebo",
+        "apoe_stratum": null,
+        "quote": "More donanemab-treated patients died than control patients (1.9% [n = 16] vs. 1.1% [n = 10], respectively). Of the deaths in the donanemab group, three were deemed related to donanemab by the investigator:",
+        "location": "Section 2.6.8 Clinical safety, Deaths (AACI-PC)"
+      },
+      {
+        "name": "ARIA/ICH-related death",
+        "arm": "donanemab, overall versus restricted APOE4 non-carrier population",
+        "count": "3 in the overall population; 1 in the restricted APOE4 non-carrier population",
+        "denominator": "853 donanemab (overall); 255 donanemab (restricted)",
+        "percentage": "0.35% overall; 0.39% in restricted population",
+        "apoe_stratum": "APOE4 non-carriers (restricted target population)",
+        "quote": "One treatment-related death (due to ARIA-H and haemorrhagic stroke) occurred in an APOE4 non- carrier patient with baseline SS and a history of hypertension.",
+        "location": "Section 2.6.8 Clinical safety, ARIA incidence in restricted population of APOE4 non-carriers / Table 28"
+      },
+      {
+        "name": "Deaths related to ARIA or intracerebral haemorrhage across the donanemab programme",
+        "arm": "donanemab (all studies)",
+        "count": "7 deaths (4 related to ARIA, 3 to ICH)",
+        "denominator": "proposed indicated population (APOE4 heterozygotes and noncarriers)",
+        "percentage": null,
+        "apoe_stratum": "six of seven in APOE4 heterozygotes, one in an APOE4 noncarrier",
+        "quote": "Six of the **seven death cases** that were either related to ARIA (4 events) or ICH (3 events) in the proposed indicated population occurred in APOE4 heterozygotes and only one in an APOE4 noncarrier.",
+        "location": "Section 6.4 Unfavourable effects (updated benefit-risk after re-examination)"
+      },
+      {
+        "name": "ARIA-E in the proposed indicated population (APOE4 noncarriers and heterozygotes)",
+        "arm": "donanemab vs placebo (AACI-PC period)",
+        "count": "146 donanemab; 13 placebo",
+        "denominator": "710 donanemab; 728 placebo",
+        "percentage": "20.6% donanemab; 1.8% placebo",
+        "apoe_stratum": "APOE4 noncarriers and heterozygotes combined",
+        "quote": "**ARIA-E** was observed in 20.6% (146/710) of the proposed indicated population treated with donanemab and in 1.8% (13/728) patients on placebo.",
+        "location": "Section 6.4 Unfavourable effects (updated benefit-risk after re-examination)"
+      },
+      {
+        "name": "ARIA-E in APOE4 homozygotes",
+        "arm": "donanemab vs placebo",
+        "count": null,
+        "denominator": "APOE4 homozygote subgroup",
+        "percentage": "41.3% donanemab vs 3.4% placebo",
+        "apoe_stratum": "APOE4 homozygotes",
+        "quote": "In the donanemab group, APOE4 homozygotes had a higher incidence of **ARIA-E** (41.3% vs. 3.4% for placebo). After removal of APOE4 homozygotes from the analyses, the incidence was halved in both treatment groups, donanemab and placebo.",
+        "location": "Section 6.4 Unfavourable effects (updated benefit-risk after re-examination)"
+      },
+      {
+        "name": "Serious ARIA-E and symptomatic ARIA-E in the proposed indicated population",
+        "arm": "donanemab vs placebo (AACI-PC period)",
+        "count": "9 serious ARIA-E; 40 symptomatic of 146 total ARIA-E events",
+        "denominator": "710 donanemab in the proposed indicated population",
+        "percentage": "serious ARIA-E 1.3% (0% placebo); symptomatic ARIA-E 5.6% (0% placebo)",
+        "apoe_stratum": "APOE4 noncarriers and heterozygotes combined",
+        "quote": "In the proposed indicated population, the incidence of **serious ARIA-E** and **symptomatic ARIA-E** was 1.3% (0% for placebo) and 5.6% (0% for placebo) in study AACI-PC, and both did not increase during the combined treatment periods in study AACI-PC and its LTE (over up to 36 months).",
+        "location": "Section 6.4 Unfavourable effects (updated benefit-risk after re-examination)"
+      },
+      {
+        "name": "ARIA-H in the proposed indicated population (APOE4 noncarriers and heterozygotes)",
+        "arm": "donanemab (AACI-PC period)",
+        "count": "196",
+        "denominator": "710",
+        "percentage": "27.6%",
+        "apoe_stratum": "APOE4 noncarriers and heterozygotes combined",
+        "quote": "**ARIA-H** was observed in 27.6% (196/710) of patients from the proposed indicated population treated with donanemab. A majority of ARIA-H events was asymptomatic (96%), and only 4% of ARIA-H events were symptomatic.",
+        "location": "Section 6.4 Unfavourable effects (updated benefit-risk after re-examination)"
+      },
+      {
+        "name": "Serious ARIA-H and symptomatic ARIA-H in the proposed indicated population",
+        "arm": "donanemab vs placebo (AACI-PC period)",
+        "count": "2 serious (both fatal); 8 symptomatic of 196 total ARIA-H events",
+        "denominator": "710 donanemab in the proposed indicated population",
+        "percentage": "serious ARIA-H 0.3% (0% placebo); symptomatic ARIA-H 1.1% (0.3% placebo)",
+        "apoe_stratum": "APOE4 noncarriers and heterozygotes combined",
+        "quote": "In the proposed indicated population, **serious ARIA-H** and **symptomatic ARIA-H** events occurred with an incidence of 0.3% (0% for placebo) and 1.1% (0.3% for placebo) in study AACI-PC.",
+        "location": "Section 6.4 Unfavourable effects (updated benefit-risk after re-examination)"
+      },
+      {
+        "name": "Intracerebral haemorrhage (ICH) > 1 cm in the proposed indicated population",
+        "arm": "donanemab vs placebo (AACI-PC period)",
+        "count": "3 donanemab; 2 placebo",
+        "denominator": "710 donanemab; 728 placebo",
+        "percentage": "0.4% donanemab; 0.3% placebo",
+        "apoe_stratum": "APOE4 noncarriers and heterozygotes combined; all three donanemab cases were APOE4 heterozygotes",
+        "quote": "In the proposed indicated population in study AACI-PC**, intracerebral haemorrhage (ICH) > 1cm in** **diameter** occurred with an incidence of 0.4% in the donanemab group (3/710 patients) and 0.3% in the placebo group (2/728 patients).",
+        "location": "Section 6.4 Unfavourable effects (updated benefit-risk after re-examination)"
+      },
+      {
+        "name": "ARIA-E (All Dona integrated safety set)",
+        "arm": "donanemab, all studies pooled",
+        "count": null,
+        "denominator": "2727",
+        "percentage": "19.3% (serious ARIA-E 1.0%; symptomatic ARIA-E 4.3%)",
+        "apoe_stratum": null,
+        "quote": "ARIA-E (MRI) was observed in 19.3% of participants. Serious ARIA-E occurred in 1.0% of donanemab- treated participants. Most serious ARIA occurred early in the treatment period.",
+        "location": "Section 2.6.8 Clinical safety, ARIA-E (All Dona)"
+      },
+      {
+        "name": "ARIA-H (All Dona integrated safety set)",
+        "arm": "donanemab, all studies pooled",
+        "count": null,
+        "denominator": "2727",
+        "percentage": "25.6% (serious ARIA-H 0.3%)",
+        "apoe_stratum": null,
+        "quote": "ARIA-H (superficial siderosis and cerebral microhaemorrhage) was observed in 25.6% of participants treated with donanemab. Serious ARIA-H occurred in 0.3% of donanemab-treated participants.",
+        "location": "Section 2.6.8 Clinical safety, ARIA-H (All Dona)"
+      },
+      {
+        "name": "Infusion-related reaction",
+        "arm": "donanemab vs placebo (AACI-PC period)",
+        "count": "74 donanemab; 4 placebo",
+        "denominator": "853 donanemab; 874 placebo",
+        "percentage": "8.7% donanemab; 0.5% placebo",
+        "apoe_stratum": null,
+        "quote": "Common TEAEs that occurred more often under donanemab than in controls were ARIA-E (24.0% donanemab vs. 1.9% placebo), ARIA-H (19.7% donanemab vs. 7.4% placebo), superficial siderosis of CNS (6.8% donanemab vs. 1.1% placebo), infusion-related reaction (IRR; 8.7% donanemab vs. 0.5% placebo), headache (14.0% donanemab vs. 9.8% placebo).",
+        "location": "Section 2.6.8 Clinical safety, Common treatment-emergent adverse events (AACI-PC)"
+      },
+      {
+        "name": "ARIA-E with modified ('enhanced') titration versus standard titration in Study AACQ",
+        "arm": "donanemab modified titration vs standard titration, proposed indicated population",
+        "count": null,
+        "denominator": "proposed indicated population in Study AACQ at Week 52",
+        "percentage": "14.7% modified titration vs 20.4% standard dosing (≈28% relative risk reduction)",
+        "apoe_stratum": "APOE4 noncarriers and heterozygotes",
+        "quote": "At Week 52 in the proposed indicated population, the incidence of **ARIA-E** was lower in the modified titration group as compared to the standard dosing group (14.7% vs. 20.4%), i.e. a relative risk reduction of 28%.",
+        "location": "Section 6.4 Unfavourable effects, modified titration regimen (Study AACQ)"
+      }
+    ],
+    "apoe_stratification_reported": true,
+    "serious_adverse_events": {
+      "value": "Serious adverse events in 148 (17.4%) donanemab-treated versus 138 (15.8%) placebo patients in AACI-PC; the imbalance was driven by serious ARIA-E (1.5%) and ARIA-H (0.5%), with no serious ARIA in the placebo group",
+      "quote": "Serious adverse events occurred in more often in patients treated with donanemab (17.4%) compared to control patients (15.8%). The disbalance in SAEs between placebo and donanemab was mainly reported in the SOC of Nervous system disorders (4.7% donanemab vs. 3.2% controls), and driven by events of ARIA-E (1.5%) and ARIA-H (0.5%). No serious ARIAs were observed in the control group.",
+      "location": "Section 2.6.8 Clinical safety, Serious adverse events (AACI-PC)"
+    },
+    "deaths": {
+      "value": "16 (1.9%) donanemab versus 10 (1.1%) placebo deaths in AACI-PC, of which three donanemab deaths were deemed treatment-related by the investigator; 32 (1.2%) deaths in the All Dona set; seven deaths across the programme were related to ARIA or ICH",
+      "quote": "More patients died in the donanemab group than in the placebo group (1.9% vs. 1.1%, resp.), which is of concern. The applicant indicated that 3 deaths were due to donanemab-related ARIA-E and/or ARIA-H.",
+      "location": "Section 2.6.9 Discussion on clinical safety"
+    },
+    "discontinuations": {
+      "value": "Treatment discontinuation 29.3% under donanemab versus 20.1% under placebo; discontinuation of treatment due to AE 112 (13.1%) donanemab versus 38 (4.3%) placebo",
+      "quote": "Treatment discontinuation was higher under donanemab (29.3%) compared to controls (20.1%). This difference is mostly driven by withdrawal due to AEs (11.4% donanemab, 3.2% placebo).",
+      "location": "Section 2.6.8 Clinical safety, Patient exposure (AACI-PC)"
+    }
+  },
+  "funding": [],
+  "conflicts": [],
+  "limitations": [
+    "Evidence rests on a single pivotal study with no efficacy data beyond 76 weeks: \"This MAA contains a single pivotal study with no efficacy data after 76 weeks. There remain uncertainties on the clinical meaningfulness of the small effects of donanemab, also on the long term.\"",
+    "The magnitude of the treatment effect depends strongly on the imputation strategy used for missing data: \"the magnitude of the treatment effect varies greatly depending on the imputation strategy chosen\".",
+    "Methods used to assess clinical relevance rely on unverifiable assumptions: \"Several of the methods used to assess clinical relevance (such as the establishment of and comparison with MCID values on the continuous scales, the extrapolation to longer-term outcomes by simulation or by comparison with external cohorts) rely on assumptions that cannot – at present – be verified.\"",
+    "The lower limits of the 95% CI for % slowing do not exceed the applicant's 20% threshold: \"it appears that the lower limits of the 95% CI would clearly not exceed the 20% threshold identified by the applicant.\"",
+    "No efficacy data exist for the modified titration regimen that was adopted as a risk minimisation measure: \"No efficacy data are available with the modified dosing regimen.\"",
+    "Residual uncertainty in the risk reduction from restricting the population: \"a small uncertainty remains in the precise estimation of the risk reduction deriving from the restriction.\"",
+    "Long-term consequences of ARIA remain to be characterised and are an objective of a category 1 PASS: \"The long-term consequences of ARIA in terms of cognitive outcomes and disease progression are also to be better characterised\".",
+    "Condition: indication restricted to ApoE ε4 heterozygotes or non-carriers, with mandatory APOE testing — \"Testing for ApoE ε4 carrier status is mandatory prior to initiating donanemab treatment to inform the risk of developing ARIA.\"",
+    "Condition: maximum treatment duration of 18 months — \"The maximum treatment duration is 18 months which should not be exceeded even if plaque clearance is not confirmed.\"",
+    "Condition: mandatory MRI monitoring schedule — \"MRIs should be performed prior to the second dose, prior to the third dose, prior to the fourth dose, and prior to the seventh dose.\"",
+    "Condition: permanent discontinuation rules — \"Donanemab should be permanently discontinued after serious ARIA-E, serious ARIA-H, intracerebral haemorrhage greater than 1 cm, or recurrent symptomatic or radiographically moderate or severe ARIA events.\"",
+    "Condition: European Controlled Access Programme restricting access to preselected centres, plus HCP educational materials and a patient card.",
+    "Post-authorisation obligation: registry-based safety study characterising symptomatic and asymptomatic ARIA, final report due 31 December 2031.",
+    "Post-authorisation obligation: secondary database cohort study on hypersensitivity, intracranial haemorrhage, drug utilisation and effectiveness of risk minimisation measures, final report due 31 December 2030.",
+    "Contraindications imposed: baseline MRI findings suggestive of cerebral amyloid angiopathy, uncontrolled bleeding disorders, severe white matter disease, conditions precluding MRI monitoring, ongoing anticoagulant therapy and poorly controlled hypertension.",
+    "No conclusions can be drawn on neuropsychiatric/behavioural effects: \"No outcomes assessing neuropsychiatric/ behavioural symptoms were included in the pivotal study.\""
+  ],
+  "risk_of_bias": [
+    {
+      "domain": "attrition / missing data",
+      "judgement": "Around 20-25% of patients had missing week 76 data, with more missing data in the donanemab arm, and the difference in proportion missing was especially large in the overall population.",
+      "quote": "At week 76, for around 20-25% of patients data is missing. Difference in proportion missing is especially large in the overall population."
+    },
+    {
+      "domain": "analysis population / selection bias",
+      "judgement": "The applicant's preferred evaluable efficacy set excluded patients without a post-baseline measurement, which may depend on treatment received and may introduce selection bias; CHMP required ITT analyses instead.",
+      "quote": "The exclusion criteria for the EES set also include the availability of a post-baseline measurement which may depend on the treatment received (e.g. through early AEs) which may introduce selection bias."
+    },
+    {
+      "domain": "unblinding via ARIA",
+      "judgement": "Patients with ARIA received additional MRI monitoring which may have impacted blinding; the SAG considered functional unblinding may have influenced patient- and caregiver-reported outcomes.",
+      "quote": "Patients who experienced ARIA’s were monitored more intensively with additional MRI. This may have impacted on the blinding."
+    },
+    {
+      "domain": "functional unblinding (expert group view)",
+      "judgement": "SAG Neurology experts concluded functional unblinding may have influenced patient and caregiver-reported outcomes but not objective tests.",
+      "quote": "The experts also discussed the potential role of functional unblinding and concluded that it may have influenced the effects on patient and caregiver-reported outcomes, but not on objective tests."
+    },
+    {
+      "domain": "sponsor-developed endpoint and sponsor-authored MCID literature",
+      "judgement": "The primary endpoint iADRS was developed and validated by the applicant and the available MCID literature for it was published by employees of the applicant, limiting independent validation.",
+      "quote": "Currently, the literature that is available concerning the minimal clinically important difference (MCID) on the iADRS is published by employees of the applicant. Limiting an ‘independent’ source to validate or reflect on this MCID."
+    },
+    {
+      "domain": "study conduct and protocol deviations",
+      "judgement": "The assessor identified three indications for poor study conduct, and three sites were closed for GCP non-compliance affecting 63 patients.",
+      "quote": "There are three indications for poor study conduct: 1) the number of important protocol violations, 2) the inclusion of moderate AD patients, 3) the absence of (post)baseline values, with more missing data in the donanemab arms."
+    },
+    {
+      "domain": "protocol amendments during conduct / study integrity",
+      "judgement": "Multiple modifications were made while the study was ongoing, including changing the primary endpoint from CDR-SB to iADRS and the analysis method, which may have affected study integrity.",
+      "quote": "In addition, multiple modifications were made while the study AACI was ongoing, this may have affected study integrity."
+    },
+    {
+      "domain": "single pivotal study / false positive risk",
+      "judgement": "The CHMP considered that relying on one pivotal study carries a risk of false positive conclusions in a field with a history of failed amyloid trials, citing the aducanumab dossier.",
+      "quote": "Relying on one pivotal study has a risk of false positive conclusions. The aducanumab dossier illustrates this."
+    },
+    {
+      "domain": "post-hoc population restriction",
+      "judgement": "The restriction of the indication to APOE4 non-carriers (and later to non-carriers plus heterozygotes) was proposed post-hoc for safety reasons, leaving 29% (later 83%) of the studied population.",
+      "quote": "Because of safety reasons it is post-hoc proposed to restrict the indication further to APOE4 non-carrier patients. In the pivotal study 510 (29%) patients would represent the targeted population."
+    },
+    {
+      "domain": "selective emphasis on favourable secondary endpoints (divergent CHMP members)",
+      "judgement": "Divergent CHMP members considered that focusing on post-hoc selected favourable secondary endpoint results risks overestimating donanemab's benefit.",
+      "quote": "The focus on post-hoc selected favourable efficacy results for some of the predefined secondary endpoints (in particular, CDR-based endpoints) bears the potential of overestimation and overinterpretation of the beneficial effects of donanemab."
+    }
+  ],
+  "disagreements": [
+    {
+      "question": "Whether the benefit-risk balance of donanemab was positive at the time of the initial opinion",
+      "position": "The CHMP concluded by majority that efficacy and safety were not sufficiently demonstrated and recommended refusal of the marketing authorisation on 27 March 2025; the overall benefit/risk balance was negative.",
+      "attributed_to": "CHMP (majority decision, initial opinion of 27 March 2025)",
+      "quote": "the above-mentioned medicinal product are not sufficiently demonstrated, and, therefore, recommends the refusal of the granting of the marketing authorisation for the above-mentioned medicinal product."
+    },
+    {
+      "question": "Whether the effect magnitude and long-term uncertainty outweigh the safety concerns (ground #1 for refusal)",
+      "position": "The CHMP held that the magnitude of the effect of Kisunla and the uncertainties beyond 18 months of treatment do not outweigh the safety concerns.",
+      "attributed_to": "CHMP (formal ground #1 for refusal)",
+      "quote": "The magnitude of the effect of Kisunla and the uncertainties of the (long-term) effect beyond a maximum treatment of 18 months do not outweigh the safety concerns."
+    },
+    {
+      "question": "Whether ARIA and its clinical consequences are acceptable (ground #2 for refusal)",
+      "position": "The CHMP held that donanemab causes ARIA in a significant proportion of treated patients including in the restricted target population, with potentially serious and fatal consequences.",
+      "attributed_to": "CHMP (formal ground #2 for refusal)",
+      "quote": "Donanemab treatment causes amyloid-related imaging abnormalities (ARIA) in a significant proportion of treated patients, including in the restricted target population proposed. Clinical consequences may be serious and potentially fatal in some patients."
+    },
+    {
+      "question": "Whether patients benefit from donanemab irrespective of tau burden",
+      "position": "The CHMP did not share the applicant's conclusion, finding no difference between donanemab and placebo in the high tau population despite comparable amyloid reduction.",
+      "attributed_to": "CHMP assessors, disagreeing with the applicant",
+      "quote": "The applicant concludes that patients irrespective of tau burden have benefit of donanemab treatment. This position is not shared given these analyses in the high tau group."
+    },
+    {
+      "question": "Which analysis population and missing-data strategy should support the effect estimate",
+      "position": "The CHMP rejected the applicant's preferred evaluable efficacy set under a missing-at-random assumption and presented instead conservative ITT estimates using jump-to-reference imputation.",
+      "attributed_to": "CHMP assessors, disagreeing with the applicant's preferred analysis",
+      "quote": "For this reason, conservative estimates in the ITT analysis using a jump-to-reference imputation method are presented here, rather than the primary analyses as presented by the applicant."
+    },
+    {
+      "question": "Whether copy-increment-in-reference (CIR) imputation is appropriate for data missing after ARIA",
+      "position": "The CHMP did not agree with the applicant's CIR approach, holding that for patients with symptomatic and serious ARIA treatment was no longer viable and they may have experienced harm not reflected by CIR, and required a more conservative hybrid approach.",
+      "attributed_to": "CHMP (re-examination assessment of ground #1)",
+      "quote": "The applicant’s position expressed above on handling of missing data is not agreed. The CIR imputation method assumes that after a participant's last observed time point, their missing data will track the changes observed in a specified reference group, such as a placebo arm."
+    },
+    {
+      "question": "Whether the applicant's argument that ARIA-E patients did as well or better invalidates the missing-data objection",
+      "position": "The CHMP held that the comparison only includes patients able to continue treatment and is not representative of patients with missing data due to more severe ARIA.",
+      "attributed_to": "CHMP (re-examination assessment of ground #1)",
+      "quote": "This group only includes patients who were able to continue treatment and presumably did not develop severe ARIA symptoms and is therefore not representative for patients with missing data due to more severe ARIA events."
+    },
+    {
+      "question": "Whether the observed differences on iADRS and CDR-SB are clinically meaningful",
+      "position": "The SAG Neurology experts considered by consensus that the magnitudes of the primary and key secondary endpoint differences are not clinically meaningful.",
+      "attributed_to": "SAG Neurology (Scientific Advisory Group convened by CHMP, 5 December 2024)",
+      "quote": "The SAG-N experts considered by consensus that the magnitudes of the above mentioned endpoints are not clinically meaningful."
+    },
+    {
+      "question": "Whether effects should be expressed as percentage slowing of decline",
+      "position": "Most SAG experts held that the effect should primarily be expressed in absolute rather than relative terms and did not accept that 20% slowing reflects clinical relevance.",
+      "attributed_to": "SAG Neurology experts",
+      "quote": "Most experts indeed were of the opinion that effect should primarily be expressed in absolute terms, and not in relative terms i.e. of percentage of decline prevented."
+    },
+    {
+      "question": "Whether mandatory APOE4 testing with contraindication in homozygotes is justified",
+      "position": "The SAG Neurology did not support mandatory APOE4 testing and the APOE4/APOE4 contraindication from either a safety or an ethical perspective, noting fatal cases did not occur in homozygous participants.",
+      "attributed_to": "SAG Neurology (all SAG-N members agreed)",
+      "quote": "The mandatory testing for APOE4 and the subsequent contraindication in APOE4/APOE4 was discussed and was not supported from a safety perspective but also not from an ethical perspective."
+    },
+    {
+      "question": "Whether the proposed risk minimisation measures can adequately manage ARIA in practice",
+      "position": "The SAG Neurology acknowledged the measures as reasonable but some experts considered them still insufficient even if fully implemented, and questioned MRI monitoring feasibility in Europe.",
+      "attributed_to": "SAG Neurology experts",
+      "quote": "Even if fully implemented, some experts considered that these may be still insufficient to fully manage for the risk of ARIA. For the MRI monitoring, the SAG-N experts questioned the feasibility to be fully implemented in Europe and questioned the acceptability from the patient’s perspective."
+    },
+    {
+      "question": "Whether the safety of donanemab was sufficiently substantiated at the initial assessment",
+      "position": "The CHMP concluded that although the safety profile improved with the proposed restrictions, the high incidence of ARIA and risk of fatalities remain a concern and safety is not sufficiently substantiated.",
+      "attributed_to": "CHMP (initial conclusions on clinical safety, section 2.6.10)",
+      "quote": "Thus, the safety profile of donanemab improves with the newly proposed measures and restrictions, but the high incidence of ARIA and risk of fatalities remain a concern."
+    },
+    {
+      "question": "Whether the 'enhanced titration' schedule reduces ARIA in the restricted target population",
+      "position": "At the initial assessment the CHMP held that the safety benefit of enhanced titration in the restricted target population was not apparent, since the ARIA reduction was mainly driven by APOE4 homozygotes; at re-examination the CHMP accepted the modified titration as an additional risk minimisation measure.",
+      "attributed_to": "CHMP (initial assessment, section 2.6.9, versus re-examination assessment of ground #2)",
+      "quote": "Thus, the safety benefit of enhanced titration in the restricted target population is not apparent."
+    },
+    {
+      "question": "Whether an established relationship exists between cerebral amyloid reduction and clinical outcome",
+      "position": "The CHMP held that there is no established association between cerebral amyloid reduction and clinically relevant clinical outcomes.",
+      "attributed_to": "CHMP (benefit-risk assessment, section 3.7.1)",
+      "quote": "This implies that there is no established association between cerebral amyloid reduction and clinical outcomes that are translated into a clinically relevant effect."
+    },
+    {
+      "question": "Whether the applicant's adverse drug reaction list was acceptable",
+      "position": "The CHMP rejected the applicant's initial ADR list and required updates concerning macro-haemorrhage, ARIA symptoms and IRR/hypersensitivity events.",
+      "attributed_to": "CHMP assessors, disagreeing with the applicant",
+      "quote": "The ADR list was not acceptable, and several updates to the ADR table and description of selected adverse reactions were requested (e.g., concerning macro-haemorrhage, ARIA symptoms, and IRR/hypersensitivity events)."
+    },
+    {
+      "question": "Whether the benefit-risk balance is positive after re-examination (divergent position)",
+      "position": "Seventeen named CHMP members dissented from the majority recommendation, concluding that the limited treatment effect does not outweigh the safety risk of potentially fatal ARIA in ApoE ε4 heterozygotes or non-carriers.",
+      "attributed_to": "Divergent CHMP members (Appendix 8.1, signed 24 July 2025)",
+      "quote": "To conclude, the limited treatment effect achieved with donanemab does not outweigh the safety risk of potentially fatal events of ARIA in a population of ApoE ε4 heterozygotes or non-carriers with MCI or mild dementia due to AD."
+    },
+    {
+      "question": "Whether heterozygotes and non-carriers form a credible subgroup for minimising ARIA risk",
+      "position": "Divergent CHMP members held that because six of seven fatal ARIA/ICH events occurred in heterozygotes and one in a non-carrier, the data do not support this subgroup as credible for minimising serious and life-threatening ARIA.",
+      "attributed_to": "Divergent CHMP members (Appendix 8.1)",
+      "quote": "These data do not support the conclusion of heterozygotes and non-carriers being a credible subgroup for minimizing the risk for potentially serious and life-threatening ARIA events."
+    },
+    {
+      "question": "Whether the 20% slowing threshold was reached",
+      "position": "Divergent CHMP members held that a slowing of less than 10% cannot be excluded based on the lower limit of the confidence interval from the primary endpoint analysis.",
+      "attributed_to": "Divergent CHMP members (Appendix 8.1)",
+      "quote": "Due to the uncertainty of effect estimation based on the lower limit of the confidence interval a slowing of effect of less than 10% cannot be excluded following the primary endpoint analysis."
+    },
+    {
+      "question": "Whether risk minimisation measures and PASS studies change the risk",
+      "position": "Divergent CHMP members held that risk minimisation measures would not change the risks seen with donanemab and that the proposed PASS studies are not suitable to inform the relationship between ARIA, risk mitigation and serious or fatal outcomes.",
+      "attributed_to": "Divergent CHMP members (Appendix 8.1)",
+      "quote": "These, however, would not change the risks seen with donanemab; even if RMMs are applied correctly, a substantial group of patients in the target population would still experience ARIA, including fatal events."
+    },
+    {
+      "question": "Whether the supportive phase 2 study AACG corroborates the pivotal trial",
+      "position": "The CHMP held that the phase 2 results were less consistent than the phase 3 results and provided limited support, since CDR-SB, ADCS-iADL and MMSE showed no difference.",
+      "attributed_to": "CHMP assessors",
+      "quote": "Thus, the results of the phase 2 study are less consistent in the intermediate tau population than the results in this population of the phase 3 study. This makes this study of limited support for the single pivotal phase 3 study."
+    }
+  ],
+  "linked_objects": [
+    {
+      "relation": "regulatory_review",
+      "identifier": "EMEA/H/C/006024/0000",
+      "note": "Centralised marketing authorisation procedure number for Kisunla (donanemab) assessed by the CHMP; assessment report reference EMA/298973/2025, adopted 24 July 2025."
+    },
+    {
+      "relation": "regulatory_review",
+      "identifier": "CHMP negative opinion of 27 March 2025",
+      "note": "The initial CHMP opinion recommending refusal, which was re-examined at the applicant's request and revised to a positive opinion on 24 July 2025."
+    },
+    {
+      "relation": "registry_record",
+      "identifier": "2020-000077-25",
+      "note": "EudraCT number of the pivotal Study I5T-MC-AACI (TRAILBLAZER-ALZ 2) as printed in the summary of efficacy table."
+    }
+  ],
+  "trial_status_observation": {
+    "status": "Following re-examination, the CHMP concluded by majority decision that the benefit-risk of Kisunla is favourable and recommended granting of the marketing authorisation, restricted to ApoE ε4 heterozygotes or non-carriers; a divergent position is appended.",
+    "enrollment": "1736 patients randomised in the pivotal Study AACI (876 placebo, 860 donanemab); more than 2700 subjects exposed to donanemab across the programme",
+    "phase": "Phase 3 (pivotal Study AACI), with supportive phase 2 Study AACG and ongoing phase 3b Study AACQ",
+    "observed_at": "24 July 2025",
+    "source": "CHMP assessment report EMA/298973/2025, Kisunla (donanemab), Procedure No. EMEA/H/C/006024/0000"
+  },
+  "unlocatable_fields": [
+    "authors",
+    "funding",
+    "conflicts",
+    "study.nct_ids",
+    "study.cohorts"
+  ],
+  "_meta": {
+    "model": "claude (builder subagent)",
+    "extracted_at": "2026-08-13T00:00:00Z",
+    "source": "raw/ema-kisunla-epar/document.md"
+  }
+}

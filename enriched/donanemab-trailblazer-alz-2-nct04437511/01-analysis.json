@@ -1,0 +1,77 @@
+{
+  "kind": "other",
+  "title": "Assessment of Safety, Tolerability, and Efficacy of Donanemab in Early Symptomatic Alzheimer's Disease",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2025-08",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "tau",
+    "immunotherapy",
+    "donanemab",
+    "trailblazer-alz-2"
+  ],
+  "themes": [
+    "Donanemab efficacy",
+    "Alzheimer's clinical decline",
+    "Amyloid plaque clearance",
+    "ARIA adverse events",
+    "Tau stratification"
+  ],
+  "one_line": "The Phase 3 TRAILBLAZER-ALZ 2 clinical trial results indicate that donanemab significantly slowed clinical decline and cleared brain amyloid plaque in patients with early symptomatic Alzheimer's disease, while increasing the incidence of ARIA-related adverse events.",
+  "summary": "TRAILBLAZER-ALZ 2 is a Phase 3, double-blind, placebo-controlled clinical trial evaluating the safety and efficacy of donanemab (700-1400 mg IV) compared to placebo in 1,736 participants aged 60-85 with early symptomatic Alzheimer's disease. The primary endpoint, change from baseline on the iADRS at Week 76, demonstrated that donanemab significantly slowed clinical decline in both the overall and intermediate tau populations. Key secondary endpoints, including the CDR-SB, ADAS-Cog13, ADCS-iADL, and MMSE, consistently supported a statistically significant slowing of disease progression in the treatment group. Furthermore, amyloid PET scans showed a massive and significant reduction in brain amyloid plaque burden among participants receiving donanemab. However, the trial also recorded a notable increase in Amyloid Related Imaging Abnormalities (ARIA), specifically ARIA-E (oedema/effusion) and ARIA-H (microhaemorrhages), in the donanemab group compared to placebo.",
+  "key_claims": [
+    {
+      "claim": "Donanemab slows clinical decline on the iADRS compared to placebo in the overall early Alzheimer's population.",
+      "evidence": "LS Mean change difference of 2.92 (95% CI 1.508 to 4.331), p<0.001 at Week 76.",
+      "strength": "strong",
+      "location": "Posted results > PRIMARY: Change From Baseline on the Integrated Alzheimer's Disease Rating Scale (iADRS) (Overall Population)"
+    },
+    {
+      "claim": "Donanemab causes significant reduction in brain amyloid plaque deposition.",
+      "evidence": "LS Mean change difference of -86.37 centiloids (95% CI -88.87 to -83.87), p<0.0001 at Week 76.",
+      "strength": "strong",
+      "location": "Posted results > SECONDARY: Change From Baseline in Brain Amyloid Plaque Deposition as Measured by Amyloid Positron Emission Tomography (PET) Scan"
+    },
+    {
+      "claim": "Donanemab treatment increases the incidence of Amyloid Related Imaging Abnormalities (ARIA).",
+      "evidence": "ARIA-oedema/effusion occurred in 200/853 participants on donanemab vs 17/874 on placebo; ARIA-microhaemorrhages occurred in 166/853 on donanemab vs 65/874 on placebo.",
+      "strength": "strong",
+      "location": "Posted results > Adverse events > Other adverse events"
+    }
+  ],
+  "methods": {
+    "design": "Phase 3, double-blind, placebo-controlled, randomized interventional trial",
+    "n": 1736,
+    "population": "Participants aged 60 to 85 with early symptomatic Alzheimer's disease, progressive memory change for >= 6 months, MMSE 20-28, and meeting specific tau/amyloid PET scan criteria.",
+    "duration": "76 weeks (main study period)",
+    "registration": "NCT04437511"
+  },
+  "funding_and_conflicts": "Lead sponsor is Eli Lilly and Company. No author conflicts of interest are stated as this is a registry data export without an author byline.",
+  "limitations": [
+    "Strict enrollment criteria relying on specific 18F flortaucipir and florbetapir PET scan results may limit generalizability to broader clinical populations.",
+    "The document is a raw clinical trial registry results export, lacking the qualitative discussion, nuanced sub-analyses, and peer review found in published medical journal articles."
+  ],
+  "red_flags": [
+    "This is sponsor-reported clinical trial registry output rather than a peer-reviewed publication, so interpretations are strictly statistical and lack independent academic scrutiny."
+  ],
+  "parse_quality": {
+    "score": 10,
+    "issues": []
+  },
+  "search_verification": [
+    "Verified that the document is a direct export of a ClinicalTrials.gov registry record (NCT04437511). Because it is not a traditional journal article, DOI, PubMed URLs, and standard academic publisher metadata do not exist for this specific file format."
+  ]
+}

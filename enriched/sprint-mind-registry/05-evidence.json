@@ -1,0 +1,552 @@
+{
+  "document_kind": "registry_record",
+  "title": {
+    "value": "Systolic Blood Pressure Intervention Trial",
+    "quote": "# Systolic Blood Pressure Intervention Trial\n**Official title:** Systolic Blood Pressure Intervention Trial",
+    "location": "Document heading / Official title"
+  },
+  "authors": [],
+  "study": {
+    "design": {
+      "value": "2-arm, multicenter, randomized clinical trial; registered as INTERVENTIONAL with RANDOMIZED allocation, SINGLE masking and TREATMENT as primary purpose",
+      "quote": "is a 2-arm, multicenter, randomized clinical trial designed to test whether a treatment program aimed at reducing systolic blood pressure (SBP) to a lower goal than currently recommended will reduce cardiovascular disease (CVD) risk.",
+      "location": "Brief summary; allocation and masking in Registry identity"
+    },
+    "phase": {
+      "value": "NA (as recorded in the mutable-fields block observed 2026-08-13T17:02:18.930Z)",
+      "quote": "- **Overall status:** COMPLETED\n\n- **Phase:** NA\n\n- **Enrollment:** 9361 (ACTUAL)\n\n- **Start date:** 2010-10",
+      "location": "Mutable fields — observed 2026-08-13T17:02:18.930Z from the ClinicalTrials.gov API v2"
+    },
+    "n": {
+      "value": 9361,
+      "quote": "- **Enrollment:** 9361 (ACTUAL)\n\n- **Start date:** 2010-10\n\n- **Primary completion:** 2016-07\n\n- **Completion:** 2019-03",
+      "location": "Mutable fields — observed 2026-08-13T17:02:18.930Z from the ClinicalTrials.gov API v2"
+    },
+    "n_description": {
+      "value": "Registry-reported enrollment of 9361, flagged ACTUAL, as observed on 2026-08-13T17:02:18.930Z from the ClinicalTrials.gov API v2. This is a registry enrollment figure, not a published analysis population; the posted adverse-event denominators are 4678 (Intensive) and 4683 (Standard).",
+      "quote": "- **Overall status:** COMPLETED\n\n- **Phase:** NA\n\n- **Enrollment:** 9361 (ACTUAL)",
+      "location": "Mutable fields — observed 2026-08-13T17:02:18.930Z from the ClinicalTrials.gov API v2"
+    },
+    "population": {
+      "value": "Participants aged at least 50 years with systolic blood pressure of 130 mm Hg or above (130-180 mm Hg depending on number of antihypertensive medications) and at least one additional CVD risk factor; diabetes mellitus and history of stroke were exclusions",
+      "quote": "SPRINT strived to enroll about 9250 participants aged ≥ 50 years with SBP ≥130 mm Hg and at least one additional CVD risk factor.",
+      "location": "Detailed description; entry thresholds and exclusions in Eligibility"
+    },
+    "followup": {
+      "value": "Participants were followed for 4-6 years; registered outcome time frames are 6 years, except the Small Vessel Cerebral Ischemic Disease outcome at 4 years",
+      "quote": "Participants were recruited at approximately 90 clinics within 5 clinical center networks (CCNs) over approximately a 2-year period, and were followed for 4-6 years.",
+      "location": "Detailed description"
+    },
+    "intervention": {
+      "value": "Intensive control of SBP to a goal of SBP <120 mm Hg using one or more study-provided antihypertensive drug classes, titrated at monthly visits",
+      "quote": "- **DRUG: Intensive control of SBP** — Participants in the Intensive arm have a goal of SBP \\<120 mm Hg. Use of once-daily antihypertensive agents will be encouraged unless alternative frequency is indicated/necessary.",
+      "location": "Interventions"
+    },
+    "comparator": {
+      "value": "Standard control of SBP to a goal of SBP <140 mm Hg using the same medications (registered as ACTIVE_COMPARATOR)",
+      "quote": "- **DRUG: Standard control of SBP** — Participants in the Standard BP arm have a goal of SBP \\<140 mm Hg. The same medications used in the Intensive BP arm will be used for the Standard BP arm.",
+      "location": "Interventions"
+    },
+    "biomarker_confirmation": {
+      "value": null,
+      "quote": null,
+      "location": null
+    },
+    "nct_ids": ["NCT01206062"],
+    "cohorts": []
+  },
+  "outcomes": [
+    {
+      "name": "Number of Participants With First Occurrence of a Myocardial Infarction (MI), Acute Coronary Syndrome (ACS), Stroke, Heart Failure (HF), or CVD Death",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "*Order and wording as registered. This is the prespecification baseline a publication is checked against.*",
+      "met": "met",
+      "effect_estimate": "243 vs 319 participants with a first primary CVD event (arm values as printed, in the record's arm order: Intensive Control of SBP then Standard Control of SBP); Hazard Ratio (HR) 0.75",
+      "confidence_interval": "95% CI 0.64 to 0.89",
+      "p_value": "p=<0.001",
+      "multiplicity_controlled": "unclear",
+      "quote": "- value: 243\n- value: 319\n- Analysis: Hazard Ratio (HR) 0.75 (95% CI 0.64 to 0.89), p=<0.001, SUPERIORITY_OR_OTHER_LEGACY, Regression, Cox",
+      "location": "Posted results → PRIMARY: Number of Participants With First Occurrence of a Myocardial Infarction (MI), Acute Coronary Syndrome (ACS), Stroke, Heart Failure (HF), or CVD Death (time frame: 6 years)"
+    },
+    {
+      "name": "Number of Participants With All-cause Mortality",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "*Order and wording as registered. This is the prespecification baseline a publication is checked against.*",
+      "met": "met",
+      "effect_estimate": "155 vs 210 deaths (arm values as printed, Intensive Control of SBP then Standard Control of SBP); Hazard Ratio (HR) 0.73",
+      "confidence_interval": "95% CI 0.60 to 0.90",
+      "p_value": "p=0.003",
+      "multiplicity_controlled": "unclear",
+      "quote": "- value: 155\n- value: 210\n- Analysis: Hazard Ratio (HR) 0.73 (95% CI 0.60 to 0.90), p=0.003, SUPERIORITY_OR_OTHER_LEGACY, Regression, Cox",
+      "location": "Posted results → SECONDARY: Number of Participants With All-cause Mortality (time frame: 6 years)"
+    },
+    {
+      "name": "Number of CKD Participants Who Experienced a 50% Decline From Baseline eGFR",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "*Order and wording as registered. This is the prespecification baseline a publication is checked against.*",
+      "met": "not_met",
+      "effect_estimate": "10 vs 12 participants with CKD at baseline (arm values as printed, Intensive Control of SBP then Standard Control of SBP); Hazard Ratio (HR) 0.79",
+      "confidence_interval": "95% CI 0.34 to 1.83",
+      "p_value": "p=0.58",
+      "multiplicity_controlled": "unclear",
+      "quote": "- value: 10\n- value: 12\n- Analysis: Hazard Ratio (HR) 0.79 (95% CI 0.34 to 1.83), p=0.58, SUPERIORITY_OR_OTHER_LEGACY, Regression, Cox",
+      "location": "Posted results → SECONDARY: Number of CKD Participants Who Experienced a 50% Decline From Baseline eGFR (population: Participants with CKD at baseline)"
+    },
+    {
+      "name": "Participants Who Developed End Stage Renal Disease",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "*Order and wording as registered. This is the prespecification baseline a publication is checked against.*",
+      "met": "not_applicable",
+      "effect_estimate": "12 vs 8 participants (arm values as printed, Intensive Control of SBP then Standard Control of SBP); no statistical analysis is posted for this outcome",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "### SECONDARY: Participants Who Developed End Stage Renal Disease\nTime frame: 6 years\n- value: 12\n- value: 8",
+      "location": "Posted results → SECONDARY: Participants Who Developed End Stage Renal Disease (time frame: 6 years)"
+    },
+    {
+      "name": "Number of Patients With All-cause Dementia",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "*Order and wording as registered. This is the prespecification baseline a publication is checked against.*",
+      "met": "not_met",
+      "effect_estimate": "149 vs 176 patients with all-cause dementia (arm values as printed, Intensive Control of SBP then Standard Control of SBP); Hazard Ratio (HR) 0.83",
+      "confidence_interval": "95% CI 0.67 to 1.04",
+      "p_value": "p=.10",
+      "multiplicity_controlled": "unclear",
+      "quote": "- value: 149\n- value: 176\n- Analysis: Hazard Ratio (HR) 0.83 (95% CI 0.67 to 1.04), p=.10, SUPERIORITY_OR_OTHER_LEGACY, Regression, Cox",
+      "location": "Posted results → SECONDARY: Number of Patients With All-cause Dementia (population: Participants who completed at least 1 cognitive assessment during follow-up)"
+    },
+    {
+      "name": "Small Vessel Cerebral Ischemic Disease",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "*Order and wording as registered. This is the prespecification baseline a publication is checked against.*",
+      "met": "not_applicable",
+      "effect_estimate": "Change in total white matter lesion volume from baseline 0.23 vs 0.37; change in total brain volume from baseline -7.7 vs -6.8 (arm values as printed, Intensive Control of SBP then Standard Control of SBP); no p-value or between-group test is posted",
+      "confidence_interval": "White matter lesion volume [0.17, 0.29] and [0.30, 0.43]; total brain volume [-8.1, -7.3] and [-7.3, -6.3]",
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "- Change in total white matter lesion volume from ba: 0.23 [0.17, 0.29]\n- Change in total white matter lesion volume from ba: 0.37 [0.30, 0.43]\n- Change in total brain volume from baseline: -7.7 [-8.1, -7.3]\n- Change in total brain volume from baseline: -6.8 [-7.3, -6.3]",
+      "location": "Posted results → SECONDARY: Small Vessel Cerebral Ischemic Disease (time frame: 4 years)"
+    }
+  ],
+  "primary_endpoint_status": {
+    "status": "met",
+    "explanation": "The posted results report 243 versus 319 participants with a first primary CVD event and a hazard ratio of 0.75 (95% CI 0.64 to 0.89), p<0.001, by Cox regression, favouring intensive systolic blood-pressure control.",
+    "quote": "- Analysis: Hazard Ratio (HR) 0.75 (95% CI 0.64 to 0.89), p=<0.001, SUPERIORITY_OR_OTHER_LEGACY, Regression, Cox"
+  },
+  "multiplicity": {
+    "approach": "none stated",
+    "quote": null,
+    "location": null
+  },
+  "safety": {
+    "harms": [
+      {
+        "name": "death",
+        "arm": "Intensive Control of SBP",
+        "count": "155",
+        "denominator": "4678",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- **Intensive Control of SBP**: serious 1793/4678, other 1399/4678, deaths 155/4678\n- **Standard Control of SBP**: serious 1736/4683, other 1342/4683, deaths 210/4683",
+        "location": "Posted results → Adverse events, summary line"
+      },
+      {
+        "name": "death",
+        "arm": "Standard Control of SBP",
+        "count": "210",
+        "denominator": "4683",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- **Standard Control of SBP**: serious 1736/4683, other 1342/4683, deaths 210/4683",
+        "location": "Posted results → Adverse events, summary line"
+      },
+      {
+        "name": "Death (General disorders) — serious adverse event table row",
+        "arm": "Intensive Control of SBP (EG000)",
+        "count": "155",
+        "denominator": "4678",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Death (General disorders) — EG000: 155/4678; EG001: 210/4683\n- Knee arthroplasty (Musculoskeletal and connective tissue disorders) — EG000: 138/4678; EG001: 119/4683",
+        "location": "Posted results → Adverse events → Serious adverse events"
+      },
+      {
+        "name": "Death (General disorders) — serious adverse event table row",
+        "arm": "Standard Control of SBP (EG001)",
+        "count": "210",
+        "denominator": "4683",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Death (General disorders) — EG000: 155/4678; EG001: 210/4683\n- Knee arthroplasty (Musculoskeletal and connective tissue disorders) — EG000: 138/4678; EG001: 119/4683",
+        "location": "Posted results → Adverse events → Serious adverse events"
+      },
+      {
+        "name": "serious adverse events (all)",
+        "arm": "Intensive Control of SBP",
+        "count": "1793",
+        "denominator": "4678",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- **Intensive Control of SBP**: serious 1793/4678, other 1399/4678, deaths 155/4678\n- **Standard Control of SBP**: serious 1736/4683, other 1342/4683, deaths 210/4683",
+        "location": "Posted results → Adverse events, summary line"
+      },
+      {
+        "name": "serious adverse events (all)",
+        "arm": "Standard Control of SBP",
+        "count": "1736",
+        "denominator": "4683",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- **Standard Control of SBP**: serious 1736/4683, other 1342/4683, deaths 210/4683",
+        "location": "Posted results → Adverse events, summary line"
+      },
+      {
+        "name": "other (non-serious) adverse events (all)",
+        "arm": "Intensive Control of SBP",
+        "count": "1399",
+        "denominator": "4678",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- **Intensive Control of SBP**: serious 1793/4678, other 1399/4678, deaths 155/4678",
+        "location": "Posted results → Adverse events, summary line"
+      },
+      {
+        "name": "other (non-serious) adverse events (all)",
+        "arm": "Standard Control of SBP",
+        "count": "1342",
+        "denominator": "4683",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- **Standard Control of SBP**: serious 1736/4683, other 1342/4683, deaths 210/4683",
+        "location": "Posted results → Adverse events, summary line"
+      },
+      {
+        "name": "Hypotension (Cardiac disorders)",
+        "arm": "Intensive Control of SBP (EG000)",
+        "count": "48",
+        "denominator": "4678",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Hypotension (Cardiac disorders) — EG000: 48/4678; EG001: 27/4683\n- Syncope (Nervous system disorders) — EG000: 56/4678; EG001: 33/4683",
+        "location": "Posted results → Adverse events → Other adverse events"
+      },
+      {
+        "name": "Hypotension (Cardiac disorders)",
+        "arm": "Standard Control of SBP (EG001)",
+        "count": "27",
+        "denominator": "4683",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Hypotension (Cardiac disorders) — EG000: 48/4678; EG001: 27/4683\n- Syncope (Nervous system disorders) — EG000: 56/4678; EG001: 33/4683",
+        "location": "Posted results → Adverse events → Other adverse events"
+      },
+      {
+        "name": "Syncope (Nervous system disorders)",
+        "arm": "Intensive Control of SBP (EG000)",
+        "count": "56",
+        "denominator": "4678",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Syncope (Nervous system disorders) — EG000: 56/4678; EG001: 33/4683",
+        "location": "Posted results → Adverse events → Other adverse events"
+      },
+      {
+        "name": "Syncope (Nervous system disorders)",
+        "arm": "Standard Control of SBP (EG001)",
+        "count": "33",
+        "denominator": "4683",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Syncope (Nervous system disorders) — EG000: 56/4678; EG001: 33/4683",
+        "location": "Posted results → Adverse events → Other adverse events"
+      },
+      {
+        "name": "Bradycardia (Vascular disorders)",
+        "arm": "Intensive Control of SBP (EG000)",
+        "count": "17",
+        "denominator": "4678",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Bradycardia (Vascular disorders) — EG000: 17/4678; EG001: 10/4683\n- Electrolyte Abnormality (General disorders) — EG000: 33/4678; EG001: 22/4683",
+        "location": "Posted results → Adverse events → Other adverse events"
+      },
+      {
+        "name": "Bradycardia (Vascular disorders)",
+        "arm": "Standard Control of SBP (EG001)",
+        "count": "10",
+        "denominator": "4683",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Bradycardia (Vascular disorders) — EG000: 17/4678; EG001: 10/4683\n- Electrolyte Abnormality (General disorders) — EG000: 33/4678; EG001: 22/4683",
+        "location": "Posted results → Adverse events → Other adverse events"
+      },
+      {
+        "name": "Electrolyte Abnormality (General disorders)",
+        "arm": "Intensive Control of SBP (EG000)",
+        "count": "33",
+        "denominator": "4678",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Electrolyte Abnormality (General disorders) — EG000: 33/4678; EG001: 22/4683\n- Injurious fall (General disorders) — EG000: 229/4678; EG001: 222/4683",
+        "location": "Posted results → Adverse events → Other adverse events"
+      },
+      {
+        "name": "Electrolyte Abnormality (General disorders)",
+        "arm": "Standard Control of SBP (EG001)",
+        "count": "22",
+        "denominator": "4683",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Electrolyte Abnormality (General disorders) — EG000: 33/4678; EG001: 22/4683\n- Injurious fall (General disorders) — EG000: 229/4678; EG001: 222/4683",
+        "location": "Posted results → Adverse events → Other adverse events"
+      },
+      {
+        "name": "Injurious fall (General disorders)",
+        "arm": "Intensive Control of SBP (EG000)",
+        "count": "229",
+        "denominator": "4678",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Injurious fall (General disorders) — EG000: 229/4678; EG001: 222/4683",
+        "location": "Posted results → Adverse events → Other adverse events"
+      },
+      {
+        "name": "Injurious fall (General disorders)",
+        "arm": "Standard Control of SBP (EG001)",
+        "count": "222",
+        "denominator": "4683",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Injurious fall (General disorders) — EG000: 229/4678; EG001: 222/4683",
+        "location": "Posted results → Adverse events → Other adverse events"
+      },
+      {
+        "name": "Acute kidney injury or acute renal failure (Renal and urinary disorders)",
+        "arm": "Intensive Control of SBP (EG000)",
+        "count": "11",
+        "denominator": "4678",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Acute kidney injury or acute renal failure (Renal and urinary disorders) — EG000: 11/4678; EG001: 3/4683",
+        "location": "Posted results → Adverse events → Other adverse events"
+      },
+      {
+        "name": "Acute kidney injury or acute renal failure (Renal and urinary disorders)",
+        "arm": "Standard Control of SBP (EG001)",
+        "count": "3",
+        "denominator": "4683",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Acute kidney injury or acute renal failure (Renal and urinary disorders) — EG000: 11/4678; EG001: 3/4683",
+        "location": "Posted results → Adverse events → Other adverse events"
+      },
+      {
+        "name": "Serum sodium < 130 mmol/liter (General disorders)",
+        "arm": "Intensive Control of SBP (EG000)",
+        "count": "180",
+        "denominator": "4678",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Serum sodium < 130 mmol/liter (General disorders) — EG000: 180/4678; EG001: 100/4683",
+        "location": "Posted results → Adverse events → Other adverse events"
+      },
+      {
+        "name": "Serum sodium < 130 mmol/liter (General disorders)",
+        "arm": "Standard Control of SBP (EG001)",
+        "count": "100",
+        "denominator": "4683",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Serum sodium < 130 mmol/liter (General disorders) — EG000: 180/4678; EG001: 100/4683",
+        "location": "Posted results → Adverse events → Other adverse events"
+      },
+      {
+        "name": "Serum potassium <3.0 mmol/liter (General disorders)",
+        "arm": "Intensive Control of SBP (EG000)",
+        "count": "114",
+        "denominator": "4678",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Serum potassium <3.0 mmol/liter (General disorders) — EG000: 114/4678; EG001: 74/4683",
+        "location": "Posted results → Adverse events → Other adverse events"
+      },
+      {
+        "name": "Serum potassium <3.0 mmol/liter (General disorders)",
+        "arm": "Standard Control of SBP (EG001)",
+        "count": "74",
+        "denominator": "4683",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Serum potassium <3.0 mmol/liter (General disorders) — EG000: 114/4678; EG001: 74/4683",
+        "location": "Posted results → Adverse events → Other adverse events"
+      },
+      {
+        "name": "Orthostatic hypotension alone (Nervous system disorders)",
+        "arm": "Intensive Control of SBP (EG000)",
+        "count": "777",
+        "denominator": "4678",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Orthostatic hypotension alone (Nervous system disorders) — EG000: 777/4678; EG001: 857/4683",
+        "location": "Posted results → Adverse events → Other adverse events"
+      },
+      {
+        "name": "Orthostatic hypotension alone (Nervous system disorders)",
+        "arm": "Standard Control of SBP (EG001)",
+        "count": "857",
+        "denominator": "4683",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Orthostatic hypotension alone (Nervous system disorders) — EG000: 777/4678; EG001: 857/4683",
+        "location": "Posted results → Adverse events → Other adverse events"
+      },
+      {
+        "name": "Orthostatic hypotension with dizziness (Nervous system disorders)",
+        "arm": "Intensive Control of SBP (EG000)",
+        "count": "62",
+        "denominator": "4678",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Orthostatic hypotension with dizziness (Nervous system disorders) — EG000: 62/4678; EG001: 71/4683",
+        "location": "Posted results → Adverse events → Other adverse events"
+      },
+      {
+        "name": "Orthostatic hypotension with dizziness (Nervous system disorders)",
+        "arm": "Standard Control of SBP (EG001)",
+        "count": "71",
+        "denominator": "4683",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Orthostatic hypotension with dizziness (Nervous system disorders) — EG000: 62/4678; EG001: 71/4683",
+        "location": "Posted results → Adverse events → Other adverse events"
+      },
+      {
+        "name": "Ischaemic cerebrovascular conditions (Vascular disorders)",
+        "arm": "Intensive Control of SBP (EG000)",
+        "count": "109",
+        "denominator": "4678",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Ischaemic cerebrovascular conditions (Vascular disorders) — EG000: 109/4678; EG001: 121/4683\n- Pneumonia (Respiratory, thoracic and mediastinal disorders) — EG000: 100/4678; EG001: 114/4683",
+        "location": "Posted results → Adverse events → Serious adverse events"
+      },
+      {
+        "name": "Ischaemic cerebrovascular conditions (Vascular disorders)",
+        "arm": "Standard Control of SBP (EG001)",
+        "count": "121",
+        "denominator": "4683",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Ischaemic cerebrovascular conditions (Vascular disorders) — EG000: 109/4678; EG001: 121/4683\n- Pneumonia (Respiratory, thoracic and mediastinal disorders) — EG000: 100/4678; EG001: 114/4683",
+        "location": "Posted results → Adverse events → Serious adverse events"
+      },
+      {
+        "name": "Cardiac failure (Cardiac disorders)",
+        "arm": "Intensive Control of SBP (EG000)",
+        "count": "58",
+        "denominator": "4678",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Cardiac failure (Cardiac disorders) — EG000: 58/4678; EG001: 98/4683\n- Myocardial infarcation (Cardiac disorders) — EG000: 70/4678; EG001: 106/4683",
+        "location": "Posted results → Adverse events → Serious adverse events"
+      },
+      {
+        "name": "Cardiac failure (Cardiac disorders)",
+        "arm": "Standard Control of SBP (EG001)",
+        "count": "98",
+        "denominator": "4683",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "- Cardiac failure (Cardiac disorders) — EG000: 58/4678; EG001: 98/4683\n- Myocardial infarcation (Cardiac disorders) — EG000: 70/4678; EG001: 106/4683",
+        "location": "Posted results → Adverse events → Serious adverse events"
+      }
+    ],
+    "apoe_stratification_reported": false,
+    "serious_adverse_events": {
+      "value": "Intensive Control of SBP 1793/4678; Standard Control of SBP 1736/4683",
+      "quote": "- **Intensive Control of SBP**: serious 1793/4678, other 1399/4678, deaths 155/4678\n- **Standard Control of SBP**: serious 1736/4683, other 1342/4683, deaths 210/4683",
+      "location": "Posted results → Adverse events"
+    },
+    "deaths": {
+      "value": "Intensive Control of SBP 155/4678; Standard Control of SBP 210/4683",
+      "quote": "- **Intensive Control of SBP**: serious 1793/4678, other 1399/4678, deaths 155/4678\n- **Standard Control of SBP**: serious 1736/4683, other 1342/4683, deaths 210/4683",
+      "location": "Posted results → Adverse events"
+    },
+    "discontinuations": {
+      "value": null,
+      "quote": null,
+      "location": null
+    }
+  },
+  "funding": [
+    "National Heart, Lung, and Blood Institute (NHLBI) (lead sponsor as declared in the registry identity block)",
+    "National Institute on Aging (NIA) (collaborator)",
+    "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) (collaborator)",
+    "National Institute of Neurological Disorders and Stroke (NINDS) (collaborator)",
+    "Wake Forest University Health Sciences (collaborator)"
+  ],
+  "conflicts": [],
+  "limitations": [
+    "Back-transformation of the inverse hyperbolic sine transformed white matter lesion volumes to the original cm3 scale is difficult, as the record itself states for the Small Vessel Cerebral Ischemic Disease outcome"
+  ],
+  "risk_of_bias": [
+    {
+      "domain": "masking",
+      "judgement": "The trial is registered with SINGLE masking for an open-label blood-pressure treat-to-target intervention, so participants and treating clinicians knew the assigned SBP goal.",
+      "quote": "- **Study type:** INTERVENTIONAL\n\n- **Allocation:** RANDOMIZED\n\n- **Masking:** SINGLE\n\n- **Primary purpose:** TREATMENT"
+    },
+    {
+      "domain": "early stopping for benefit",
+      "judgement": "The blood pressure intervention was stopped earlier than originally planned in order to disseminate significant preliminary results, which can inflate effect estimates and truncates follow-up for the cognitive outcomes.",
+      "quote": "NIH stopped the blood pressure intervention earlier than originally planned in order to quickly disseminate the significant preliminary results."
+    },
+    {
+      "domain": "attrition in the MRI substudy",
+      "judgement": "The Small Vessel Cerebral Ischemic Disease outcome rests on 449 of the 670 participants with a baseline white matter lesion measurement, a loss of roughly one third of the imaging substudy.",
+      "quote": "Of the 670 participants with WML volume measurement at baseline, 462 completed the follow-up MRI. Image quality control requirements were not met for 13 participants with a follow-up MRI scan, resulting in a sample of 449 adults."
+    },
+    {
+      "domain": "outcome population selection",
+      "judgement": "The all-cause dementia outcome is reported only among participants who completed at least one cognitive assessment during follow-up, not among all randomized participants.",
+      "quote": "Population: Participants who completed at least 1 cognitive assessment during follow-up"
+    }
+  ],
+  "disagreements": [],
+  "linked_objects": [],
+  "trial_status_observation": {
+    "status": "COMPLETED",
+    "enrollment": "9361 (ACTUAL)",
+    "phase": "NA",
+    "observed_at": "2026-08-13T17:02:18.930Z",
+    "source": "ClinicalTrials.gov API v2"
+  },
+  "unlocatable_fields": [
+    "authors (a registry record prints no author list)",
+    "study.biomarker_confirmation (entry is by blood pressure and cardiovascular risk criteria; no biological confirmation of disease is stated)",
+    "study.cohorts (the record names no external cohort or dataset)",
+    "multiplicity.quote (the record does not address multiple-comparison control)",
+    "outcomes[Participants Who Developed End Stage Renal Disease].confidence_interval (no analysis is posted)",
+    "outcomes[Participants Who Developed End Stage Renal Disease].p_value (no analysis is posted)",
+    "outcomes[Small Vessel Cerebral Ischemic Disease].p_value (no p-value is posted)",
+    "safety.harms[ARIA-E] (not reported; this is a blood-pressure trial, not an anti-amyloid trial)",
+    "safety.harms[ARIA-H] (not reported)",
+    "safety.harms[symptomatic ARIA] (not reported)",
+    "safety.harms[macrohemorrhage] (not reported)",
+    "safety.harms[*].percentage (the adverse-event tables print counts over denominators only, no percentages)",
+    "safety.harms[*].apoe_stratum (no harm is reported by APOE genotype)",
+    "safety.discontinuations (not reported)",
+    "conflicts (the record declares none)"
+  ],
+  "_meta": {
+    "model": "claude (builder subagent)",
+    "extracted_at": "2026-08-13T17:35:00Z",
+    "source": "raw/sprint-mind-registry-nct01206062/document.md"
+  }
+}

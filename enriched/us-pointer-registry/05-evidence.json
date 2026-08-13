@@ -1,0 +1,266 @@
+{
+  "document_kind": "registry_record",
+  "title": {
+    "value": "U.S. Study to Protect Brain Health Through Lifestyle Intervention to Reduce Risk",
+    "quote": "**Official title:** U.S. Study to Protect Brain Health Through Lifestyle Intervention to Reduce Risk",
+    "location": "Document heading / Official title"
+  },
+  "authors": [],
+  "study": {
+    "design": {
+      "value": "Randomized, triple-masked interventional study registered with supportive care as its primary purpose",
+      "quote": "- **Study type:** INTERVENTIONAL\n\n- **Allocation:** RANDOMIZED\n\n- **Masking:** TRIPLE\n\n- **Primary purpose:** SUPPORTIVE_CARE",
+      "location": "Registry identity"
+    },
+    "phase": {
+      "value": "NA (as recorded in the mutable-fields block observed 2026-08-13T17:02:18.938Z)",
+      "quote": "- **Overall status:** COMPLETED\n\n- **Phase:** NA\n\n- **Enrollment:** 2000 (ACTUAL)\n\n- **Start date:** 2019-01-08",
+      "location": "Mutable fields — observed 2026-08-13T17:02:18.938Z from the ClinicalTrials.gov API v2"
+    },
+    "n": {
+      "value": 2000,
+      "quote": "- **Enrollment:** 2000 (ACTUAL)\n\n- **Start date:** 2019-01-08\n\n- **Primary completion:** 2025-05-16\n\n- **Completion:** 2025-05-16",
+      "location": "Mutable fields — observed 2026-08-13T17:02:18.938Z from the ClinicalTrials.gov API v2"
+    },
+    "n_description": {
+      "value": "Registry-reported enrollment of 2000, flagged ACTUAL, as observed on 2026-08-13T17:02:18.938Z from the ClinicalTrials.gov API v2. This is a registry enrollment figure, not a published analysis population.",
+      "quote": "- **Overall status:** COMPLETED\n\n- **Phase:** NA\n\n- **Enrollment:** 2000 (ACTUAL)",
+      "location": "Mutable fields — observed 2026-08-13T17:02:18.938Z from the ClinicalTrials.gov API v2"
+    },
+    "population": {
+      "value": "Sedentary, cognitively unimpaired adults aged 60-79 years with a low MIND Diet score and a risk score for cognitive decline greater than 2, i.e. older adults in the U.S. at increased risk for cognitive decline and dementia",
+      "quote": "* No cognitive impairment as per Telephone Interview for Cognitive Status (mTICS) score \\>32 (includes adjustments for demographics such as age, education and race), the Clinical Dementia Rating Scale (CDR \\<0.5), and the CDR-Sum of Boxes (CDR-SB \\<1)",
+      "location": "Eligibility, Inclusion Criteria; age range from the Minimum age (60 Years) / Maximum age (79 Years) fields"
+    },
+    "followup": {
+      "value": "2 years (24 months); every registered outcome measure has a time frame of 'up to 2 years'",
+      "quote": "will test whether a similar 2-year intensive lifestyle intervention, adapted to American culture and delivered within the community, can protect cognitive function in older adults in the U.S.",
+      "location": "Detailed description"
+    },
+    "intervention": {
+      "value": "Structured Lifestyle Intervention — a structured program of diet, physical and cognitive exercise, and management of cardiometabolic risks",
+      "quote": "- **BEHAVIORAL: Structured Lifestyle Intervention** — Lifestyle intervention that involves a structured program of diet, physical and cognitive exercise, and management of cardiometabolic risks.",
+      "location": "Interventions"
+    },
+    "comparator": {
+      "value": "Self-Guided Lifestyle Intervention — a lifestyle modification program developed by the participant, supported with education, support and tangible tools (registered as an EXPERIMENTAL arm, not a placebo or usual-care control)",
+      "quote": "- **BEHAVIORAL: Self-Guided Lifestyle Intervention** — Lifestyle intervention that involves providing participants with education, support, and tangible tools to assist them in developing and carrying out healthier lifestyle practices.",
+      "location": "Interventions; arm description under Arms"
+    },
+    "biomarker_confirmation": {
+      "value": null,
+      "quote": null,
+      "location": null
+    },
+    "nct_ids": ["NCT03688126"],
+    "cohorts": []
+  },
+  "outcomes": [
+    {
+      "name": "Global cognitive function composite score",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "*Order and wording as registered. This is the prespecification baseline a publication is checked against.*",
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "1. **Global cognitive function composite score**\n- Time frame: up to 2 years",
+      "location": "Prespecified outcome measures → Primary outcome measures, item 1 (time frame: up to 2 years)"
+    },
+    {
+      "name": "Episodic memory composite score",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "*Order and wording as registered. This is the prespecification baseline a publication is checked against.*",
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "1. **Episodic memory composite score**\n- Time frame: up to 2 years",
+      "location": "Prespecified outcome measures → Secondary outcome measures, item 1"
+    },
+    {
+      "name": "Executive function composite score",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "*Order and wording as registered. This is the prespecification baseline a publication is checked against.*",
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "2. **Executive function composite score**\n- Time frame: up to 2 years",
+      "location": "Prespecified outcome measures → Secondary outcome measures, item 2"
+    },
+    {
+      "name": "Processing speed composite score",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "*Order and wording as registered. This is the prespecification baseline a publication is checked against.*",
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "3. **Processing speed composite score**\n- Time frame: up to 2 years",
+      "location": "Prespecified outcome measures → Secondary outcome measures, item 3"
+    },
+    {
+      "name": "Clinical dementia rating-sum of boxes",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "*Order and wording as registered. This is the prespecification baseline a publication is checked against.*",
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "4. **Clinical dementia rating-sum of boxes**\n- Time frame: up to 2 years",
+      "location": "Prespecified outcome measures → Secondary outcome measures, item 4"
+    },
+    {
+      "name": "Instrumental activities of daily living (IADL) score",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "*Order and wording as registered. This is the prespecification baseline a publication is checked against.*",
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "5. **Instrumental activities of daily living (IADL) score**\n- Time frame: up to 2 years",
+      "location": "Prespecified outcome measures → Secondary outcome measures, item 5"
+    },
+    {
+      "name": "Everyday cognition (ECog) score",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "*Order and wording as registered. This is the prespecification baseline a publication is checked against.*",
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "6. **Everyday cognition (ECog) score**\n- Time frame: up to 2 years",
+      "location": "Prespecified outcome measures → Secondary outcome measures, item 6"
+    },
+    {
+      "name": "Digital clock drawing test (DCTClock) time",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "*Order and wording as registered. This is the prespecification baseline a publication is checked against.*",
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "7. **Digital clock drawing test (DCTClock) time**\n- Time frame: up to 2 years",
+      "location": "Prespecified outcome measures → Secondary outcome measures, item 7"
+    },
+    {
+      "name": "Lifestyle composite score",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "*Order and wording as registered. This is the prespecification baseline a publication is checked against.*",
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "8. **Lifestyle composite score**\n- Time frame: up to 2 years",
+      "location": "Prespecified outcome measures → Secondary outcome measures, item 8"
+    },
+    {
+      "name": "Deficit accumulation frailty index score",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "*Order and wording as registered. This is the prespecification baseline a publication is checked against.*",
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "9. **Deficit accumulation frailty index score**\n- Time frame: up to 2 years",
+      "location": "Prespecified outcome measures → Secondary outcome measures, item 9"
+    }
+  ],
+  "primary_endpoint_status": {
+    "status": "not_applicable",
+    "explanation": "This registry record has no posted-results section — it states 'Results posted: false' — so although the overall status was COMPLETED as observed on 2026-08-13, the registered primary outcome (global cognitive function composite score, up to 2 years) has no result reported in this document.",
+    "quote": "- **Study type:** INTERVENTIONAL\n\n- **Allocation:** RANDOMIZED\n\n- **Masking:** TRIPLE\n\n- **Primary purpose:** SUPPORTIVE_CARE\n\n- **Results posted:** false"
+  },
+  "multiplicity": {
+    "approach": "none stated",
+    "quote": null,
+    "location": null
+  },
+  "safety": {
+    "harms": [],
+    "apoe_stratification_reported": false,
+    "serious_adverse_events": {
+      "value": null,
+      "quote": null,
+      "location": null
+    },
+    "deaths": {
+      "value": null,
+      "quote": null,
+      "location": null
+    },
+    "discontinuations": {
+      "value": null,
+      "quote": null,
+      "location": null
+    }
+  },
+  "funding": [
+    "Wake Forest University Health Sciences (lead sponsor as declared in the registry identity block)",
+    "Alzheimer's Association (collaborator)"
+  ],
+  "conflicts": [],
+  "limitations": [],
+  "risk_of_bias": [
+    {
+      "domain": "comparator design",
+      "judgement": "Both randomized arms are registered as EXPERIMENTAL lifestyle interventions rather than an intervention versus an inert control, so the contrast is structured versus self-guided lifestyle change, not lifestyle change versus none.",
+      "quote": "- **Self-Guided Lifestyle Intervention** (EXPERIMENTAL): Lifestyle modification program that is developed by the participant to meet his/her specific needs.\n- **Structured Lifestyle Intervention** (EXPERIMENTAL): Lifestyle modification program that involves participants completing structured activities that target diet, physical exercise, and intellectual and social stimulation."
+    },
+    {
+      "domain": "no posted results",
+      "judgement": "The record's overall status was COMPLETED as observed on 2026-08-13 but no results were posted, so none of the prespecified outcome measures can be checked against a reported effect estimate in this document.",
+      "quote": "- **Primary purpose:** SUPPORTIVE_CARE\n\n- **Results posted:** false"
+    }
+  ],
+  "disagreements": [],
+  "linked_objects": [],
+  "trial_status_observation": {
+    "status": "COMPLETED",
+    "enrollment": "2000 (ACTUAL)",
+    "phase": "NA",
+    "observed_at": "2026-08-13T17:02:18.938Z",
+    "source": "ClinicalTrials.gov API v2"
+  },
+  "unlocatable_fields": [
+    "authors (a registry record prints no author list)",
+    "study.biomarker_confirmation (entry is by cognitive screening and a risk score; the record states no biomarker or biological confirmation of disease)",
+    "study.cohorts (the record names no external cohort or dataset)",
+    "outcomes[*].effect_estimate (no results are posted; 'Results posted: false')",
+    "outcomes[*].confidence_interval (no results are posted)",
+    "outcomes[*].p_value (no results are posted)",
+    "multiplicity.quote (the record does not address multiple-comparison control)",
+    "safety.harms (the record contains no adverse-event data)",
+    "safety.serious_adverse_events",
+    "safety.deaths",
+    "safety.discontinuations",
+    "conflicts (the record declares none)",
+    "limitations (the record states none about itself)"
+  ],
+  "_meta": {
+    "model": "claude (builder subagent)",
+    "extracted_at": "2026-08-13T17:35:00Z",
+    "source": "raw/us-pointer-registry-nct03688126/document.md"
+  }
+}

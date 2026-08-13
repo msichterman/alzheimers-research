@@ -1,0 +1,567 @@
+{
+  "id": "sargramostim-phase-2",
+  "checked_at": "2026-08-13T17:07:15.593Z",
+  "builder_model": "claude (builder subagent)",
+  "critic_model": "gemini-3.1-pro-preview",
+  "fields_compared": 44,
+  "disagreements": 6,
+  "conflicts": 4,
+  "coverage_gaps": 2,
+  "agreement_rate": 0.864,
+  "passed": false,
+  "needs_adjudication": true,
+  "disagreement_rows": [
+    {
+      "field": "study.population",
+      "builder": "Participants with clinically diagnosed mild-to-moderate Alzheimer's disease and a screening MMSE score of 10 to 26 inclusive",
+      "critic": "mild‐to‐moderate AD participants, defined by clinical diagnosis and a screening Mini‐Mental State Examination (MMSE) score of 10 to 26 inclusive",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "no drug-related serious adverse events and no amyloid-related imaging abnormalities",
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": null,
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[ADAS‐Cog13 Memory Subscale at end of treatment].tier",
+      "builder": "exploratory",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Plasma total tau at end of treatment (N4PB assay)].tier",
+      "builder": "exploratory",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Plasma UCH‐L1 at end of treatment].tier",
+      "builder": "exploratory",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ],
+  "conflict_rows": [
+    {
+      "field": "study.population",
+      "builder": "Participants with clinically diagnosed mild-to-moderate Alzheimer's disease and a screening MMSE score of 10 to 26 inclusive",
+      "critic": "mild‐to‐moderate AD participants, defined by clinical diagnosis and a screening Mini‐Mental State Examination (MMSE) score of 10 to 26 inclusive",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[ADAS‐Cog13 Memory Subscale at end of treatment].tier",
+      "builder": "exploratory",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Plasma total tau at end of treatment (N4PB assay)].tier",
+      "builder": "exploratory",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Plasma UCH‐L1 at end of treatment].tier",
+      "builder": "exploratory",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ],
+  "builder_values_not_found_in_document": [],
+  "critic_values_not_found_in_document": [
+    {
+      "path": "study.n",
+      "value": 40,
+      "quote": "randomized to receive either sargramostim (20 participants... or placebo (20 participants"
+    }
+  ],
+  "all_rows": [
+    {
+      "field": "study.design",
+      "builder": "randomized, double-blind, placebo-controlled phase II trial",
+      "critic": "randomized, double‐blind, placebo‐controlled phase II trial",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.n",
+      "builder": 40,
+      "critic": 40,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": false
+    },
+    {
+      "field": "study.population",
+      "builder": "Participants with clinically diagnosed mild-to-moderate Alzheimer's disease and a screening MMSE score of 10 to 26 inclusive",
+      "critic": "mild‐to‐moderate AD participants, defined by clinical diagnosis and a screening Mini‐Mental State Examination (MMSE) score of 10 to 26 inclusive",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.comparator",
+      "builder": "placebo (subcutaneous saline), 5 days/week for 3 weeks, 20 participants",
+      "critic": "placebo (SC saline, 5 days/week for 3 weeks)",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.followup",
+      "builder": "5 days/week for 3 weeks of treatment plus follow-up visits at 45 days (FU1) and 90 days (FU2) after end of treatment",
+      "critic": "3 weeks plus two follow‐up (FU) visits (FU1 at 45 days and FU2 at 90 days)",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.intervention",
+      "builder": "sargramostim (GM-CSF/leukine) 250 mcg/m2/day subcutaneous injection, 5 days/week for 3 weeks",
+      "critic": "sargramostim (250 mcg/m 2 /day subcutaneous injection [SC], 5 days/week for 3 weeks)",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.phase",
+      "builder": "phase II",
+      "critic": "phase II",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "primary_endpoint_status.status",
+      "builder": "met",
+      "critic": "met",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "multiplicity.approach",
+      "builder": "none stated",
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[primary].name",
+      "builder": "Safety (drug-related serious adverse events, including amyloid-related imaging abnormalities)",
+      "critic": "Safety",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].met",
+      "builder": "met",
+      "critic": "met",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "no drug-related serious adverse events and no amyloid-related imaging abnormalities",
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": null,
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].p_value",
+      "builder": null,
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].multiplicity_controlled",
+      "builder": "unclear",
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[ARIA-E].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[ARIA-H].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[symptomatic ARIA].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[macrohemorrhage].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[death].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.apoe_stratification_reported",
+      "builder": false,
+      "critic": false,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[Safety (drug-related serious adverse events, including amyloid-related imaging abnormalities)].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Safety (drug-related serious adverse events, including amyloid-related imaging abnormalities)].tier",
+      "builder": "primary",
+      "critic": "primary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[MMSE total score change from baseline at end of treatment, sargramostim group vs its own baseline].prespecified",
+      "builder": "unclear",
+      "critic": "unclear",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[MMSE total score change from baseline at end of treatment, sargramostim group vs its own baseline].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Difference in mean change from baseline in MMSE total score, sargramostim vs placebo, at end of treatment].prespecified",
+      "builder": "unclear",
+      "critic": "unclear",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[Difference in mean change from baseline in MMSE total score, sargramostim vs placebo, at end of treatment].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Difference in mean change from baseline in MMSE total score, sargramostim vs placebo, at 45-day follow-up (FU1)].prespecified",
+      "builder": "unclear",
+      "critic": "unclear",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[Difference in mean change from baseline in MMSE total score, sargramostim vs placebo, at 45-day follow-up (FU1)].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[ADAS‐Cog13 total score at end of treatment].prespecified",
+      "builder": "unclear",
+      "critic": "unclear",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[ADAS‐Cog13 total score at end of treatment].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[ADAS‐Cog13 total score at 45-day follow-up (FU1)].prespecified",
+      "builder": "unclear",
+      "critic": "unclear",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[ADAS‐Cog13 total score at 45-day follow-up (FU1)].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[ADAS‐Cog13 Memory Subscale at end of treatment].prespecified",
+      "builder": "unclear",
+      "critic": "unclear",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[ADAS‐Cog13 Memory Subscale at end of treatment].tier",
+      "builder": "exploratory",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[ADCS‐ADL at end of treatment].prespecified",
+      "builder": "unclear",
+      "critic": "unclear",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[ADCS‐ADL at end of treatment].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[CDR‐SB and TRAILS‐A].prespecified",
+      "builder": "unclear",
+      "critic": "unclear",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[CDR‐SB and TRAILS‐A].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Plasma total tau at end of treatment (N4PB assay)].prespecified",
+      "builder": "unclear",
+      "critic": "unclear",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[Plasma total tau at end of treatment (N4PB assay)].tier",
+      "builder": "exploratory",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Plasma UCH‐L1 at end of treatment].prespecified",
+      "builder": "unclear",
+      "critic": "unclear",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[Plasma UCH‐L1 at end of treatment].tier",
+      "builder": "exploratory",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ]
+}

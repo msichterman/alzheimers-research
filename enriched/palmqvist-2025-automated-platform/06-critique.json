@@ -1,0 +1,228 @@
+{
+  "extracted_by": "gemini-3.1-pro-preview",
+  "extracted_at": "2026-08-13T17:06:54.190Z",
+  "independent": true,
+  "saw_builder_output": false,
+  "source": "raw/palmqvist-2025-automated-platform/document.md",
+  "source_sha256": "5360c6411ed867792c17f8c16d1a59646728fd8147e76f0754b62b0399015113",
+  "truncated": false,
+  "tokens": {
+    "in": 20283,
+    "out": 3165
+  },
+  "record": {
+    "document_kind": "journal_article",
+    "title": {
+      "value": "Plasma phospho-tau217 for Alzheimer’s disease diagnosis in primary and secondary care using a fully automated platform",
+      "quote": "Plasma phospho-tau217 for Alzheimer’s disease diagnosis in primary and secondary care using a fully automated platform",
+      "location": "Title"
+    },
+    "study": {
+      "design": {
+        "value": "independent secondary care cohorts and a primary care cohort",
+        "quote": "The study included 1,767 participants with cognitive symptoms from 4 independent secondary care cohorts in Malmö (Sweden, n = 337), Gothenburg (Sweden, n = 165), Barcelona (Spain, n = 487) and Brescia (Italy, n = 230), and a primary care cohort in Sweden ( n = 548).",
+        "location": "Abstract"
+      },
+      "n": {
+        "value": 1767,
+        "quote": "The study included 1,767 participants with cognitive symptoms",
+        "location": "Abstract"
+      },
+      "population": {
+        "value": "participants with cognitive symptoms",
+        "quote": "participants with cognitive symptoms",
+        "location": "Abstract"
+      },
+      "biomarker_confirmation": {
+        "value": "abnormal cerebrospinal fluid Aβ42:p-tau181",
+        "quote": "The primary outcome was AD pathology defined as abnormal cerebrospinal fluid Aβ42:p-tau181.",
+        "location": "Abstract"
+      },
+      "cohorts": [
+        "BioFINDER-Memory Clinic study",
+        "H70 Clinical Studies",
+        "BIODEGMAR study",
+        "Life-BIO cohort",
+        "BioFINDER-Primary Care study"
+      ],
+      "comparator": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "followup": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "intervention": {
+        "value": "plasma phospho-tau217 (p-tau217) using predefined biomarker cutoffs",
+        "quote": "we evaluated plasma phospho-tau217 (p-tau217) using predefined biomarker cutoffs.",
+        "location": "Abstract"
+      },
+      "n_description": {
+        "value": "participants with cognitive symptoms",
+        "quote": "The study included 1,767 participants with cognitive symptoms",
+        "location": "Abstract"
+      },
+      "nct_ids": [
+        "NCT06122415",
+        "NCT06120361"
+      ],
+      "phase": {
+        "value": null,
+        "quote": null,
+        "location": null
+      }
+    },
+    "outcomes": [
+      {
+        "name": "AD pathology defined as abnormal cerebrospinal fluid Aβ42:p-tau181",
+        "tier": "primary",
+        "prespecified": "yes",
+        "met": "met",
+        "quote": "The primary outcome was AD pathology defined as abnormal cerebrospinal fluid Aβ42:p-tau181. Plasma p-tau217 detected AD pathology with areas under the receiver operating characteristic curves of 0.93–0.96.",
+        "location": "Abstract",
+        "confidence_interval": null,
+        "effect_estimate": "0.93–0.96",
+        "multiplicity_controlled": "no",
+        "p_value": null,
+        "prespecification_evidence": "The primary outcome was AD pathology defined as abnormal cerebrospinal fluid Aβ42:p-tau181."
+      }
+    ],
+    "primary_endpoint_status": {
+      "status": "met",
+      "quote": "Plasma p-tau217 detected AD pathology with areas under the receiver operating characteristic curves of 0.93–0.96.",
+      "explanation": "Plasma p-tau217 accurately detected AD pathology with high AUCs."
+    },
+    "safety": {
+      "harms": [],
+      "apoe_stratification_reported": false,
+      "deaths": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "discontinuations": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "serious_adverse_events": {
+        "value": null,
+        "quote": null,
+        "location": null
+      }
+    },
+    "unlocatable_fields": [
+      "comparator",
+      "followup",
+      "phase",
+      "deaths",
+      "discontinuations",
+      "serious_adverse_events"
+    ],
+    "authors": [
+      {
+        "name": "Sebastian Palmqvist",
+        "affiliation": null,
+        "corresponding": true,
+        "orcid": null
+      },
+      {
+        "name": "Noëlle Warmenhoven",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Federica Anastasi",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Nicholas J. Ashton",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Marc Suárez-Calvet",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Oskar Hansson",
+        "affiliation": null,
+        "corresponding": true,
+        "orcid": null
+      }
+    ],
+    "conflicts": [
+      "S.P. acquired research support (for the institution) from Avid and ADDF through ki elements. In the past 2 years, he received consultancy or speaker fees from BioArtic, Biogen, Eisai, Eli Lilly, Novo Nordisk and Roche.",
+      "N.M.-C. received consultancy/speaker from Biogen, Owkin and Merck.",
+      "R.S. received speaker fees from Roche and Triolab.",
+      "H.Z. served on scientific advisory boards and/or as a consultant for Abbvie, Acumen, Alector, Alzinova, ALZpath, Amylyx, Annexon, Apellis, Artery Therapeutics, AZTherapies, Cognito Therapeutics, CogRx, Denali, Eisai, Merry Life, Nervgen, Novo Nordisk, Optoceutics, Passage Bio, Pinteon Therapeutics, Prothena, Red Abbey Labs, reMYND, Roche, Samumed, Siemens Healthineers, Triplet Therapeutics and Wave, has given lectures in symposia sponsored by Alzecure, Biogen, Cellectricon, Fujirebio, Lilly, Novo Nordisk and Roche, and is a co-founder of Brain Biomarker Solutions in Gothenburg AB (BBS)",
+      "R.O. received research funding or support from the ERC, ZonMw, NWO, National Institutes of Health, Alzheimer Association, Alzheimer Nederland, Stichting Dioraphte, Cure Alzheimer’s fund, Health Holland, ERA PerMed, Alzheimerfonden, Hjarnfonden, Avid Radiopharmaceuticals, Janssen Research & Development, Roche, Quanterix and Optina Diagnostics, has given lectures in symposia sponsored by GE Healthcare and is an advisory board member for Asceneuron and a steering committee member for Bristol Myers Squibb.",
+      "C.T. is supported by the Ministry of Health PRIN 2021 RePlast.",
+      "A.P.‐P. served on advisory boards for Schwabe Farma Iberica.",
+      "S.K. served on scientific advisory boards, and as a speaker and/or consultant for Roche, Eli Lilly, Geras Solutions, Optoceutics, Biogen, Eisai, Merry Life, Triolab, Novo Nordisk and BioArctic.",
+      "A. Pilotto received travel grants from Abbvie, Bial, Lundbeck, Roche and Zambon pharmaceuticals, and personal compensation as a consultant or fees for lectures from Abbvie, Biogen and Lundbeck.",
+      "A. Padovani received travel grants from Biougen, Lundbeck, Novonordisk, Roche pharmaceuticals, and personal compensation as a consultant or fees for lectures from Biogen, Lundbeck, Roche, Nutricia and General Healthcare (GE).",
+      "K.B. served as a consultant and was on advisory boards for Acumen, ALZpath, AriBio, BioArctic, Biogen, Eisai, Lilly, Moleac Pte. Ltd, Novartis, Ono Pharma, Prothena, Roche Diagnostics and Siemens Healthineers, served at data monitoring committees for Julius Clinical and Novartis, has given lectures, produced educational materials and participated in educational programs for AC Immune, Biogen, Celdara Medical, Eisai and Roche Diagnostics, and is a co-founder of BBS",
+      "N.J.A. received consultancy or speaker fees from BioArtic, Biogen, Lilly, Quanterix and Alamar Biosciences.",
+      "M.S.-C. received, in the past 36 months, consultancy or speaker’s fees (paid to the institution) from Almirall, Eli Lilly, Novo Nordisk and Roche Diagnostics. He received consultancy fees or served on advisory boards (paid to the institution) of Eli Lilly, Grifols, Novo Nordisk and Roche Diagnostics. He was granted a project and is a site investigator of a clinical trial (funded to the institution) by Roche Diagnostics. In-kind support for research (to the institution) was received from ADx Neurosciences, Alamar Biosciences, ALZpath, Avid Radiopharmaceuticals, Eli Lilly, Fujirebio, Janssen Research & Development, Meso Scale Discovery and Roche Diagnostics.",
+      "O.H. is an employee of Eli Lilly and Lund University and previously acquired research support (for Lund University) from AVID Radiopharmaceuticals, Biogen, C2N Diagnostics, Eli Lilly, Eisai, Fujirebio, GE Healthcare and Roche. In the past 2 years, he received consultancy or speaker’s fees from ALZpath, BioArctic, Biogen, Bristol Meyer Squibb, Eisai, Eli Lilly, Fujirebio, Merck, Novartis, Novo Nordisk, Roche, Sanofi and Siemens.",
+      "All C2N coauthors are salaried employees or consultants with cash and/or equity compensation from C2N Diagnostics."
+    ],
+    "disagreements": [],
+    "funding": [
+      "National Institute of Aging (grant no. R01AG083740 to O.H., S.P., R.O. and S.J.)",
+      "Alzheimer’s Association (grant nos. SG-23-1061717 and ZEN24-1069572 to O.H.)",
+      "GHR Foundation (O.H. and S.P.)",
+      "European Research Council (ERC, grant no. ADG-101096455 to O.H.)",
+      "Swedish Research Council (grant nos. 2023-00356 to O.H., 2021-02219 to N.M.-C. and 2018-02052 to S.P.)",
+      "ERA PerMed (grant no. ERAPERMED2021-184 to O.H.)",
+      "Knut and Alice Wallenberg Foundation (grant no. 2022-0231 to O.H.)",
+      "European Union’s (EU’s) Horizon Europe research and innovation program under grant agreement no. 101053962 (to O.H.)",
+      "Strategic Research Area MultiPark (Multidisciplinary Research in Parkinson’s disease) at Lund University (to O.H.)",
+      "Swedish Alzheimer Foundation",
+      "Swedish Brain Foundation",
+      "family Rönström’s Foundation",
+      "Berg Family Foundation",
+      "Parkinson Foundation of Sweden",
+      "Cure Alzheimer’s fund",
+      "Konung Gustaf V:s och Drottning Victorias Frimurarestiftelse",
+      "Skåne University Hospital Foundation",
+      "EU Joint Programme Neurodegenerative Diseases",
+      "WASP and DDLS Joint call for research projects",
+      "Regionalt Forskningsstöd",
+      "Swedish Federal Government under the ALF-agreement",
+      "GE Healthcare",
+      "Stiftelsen Psykiatriska Forskningsfonden",
+      "Kirsten and Freddy Johansen Foundation",
+      "MCIU/AEI/10.13039/501100011033 and the EU NextGeneration EU/PRTR",
+      "Generalitat de Catalunya (Departament de Salut)",
+      "Instituto de Salud Carlos III (ISCIII)",
+      "‘la Caixa’ Foundation",
+      "Airalzh Foundation",
+      "LIMPE-DISMOV Foundation Segala Grant 2021",
+      "Italian Ministry of University and Research",
+      "H2020 IMI IDEA-FAST",
+      "Italian Ministry of Health"
+    ],
+    "limitations": [
+      "First, our study included only European cohorts, necessitating further validation in clinical cohorts from other regions worldwide.",
+      "Second, the slightly lower performance compared with %p-tau217 in primary care settings and among older age groups highlights the need for further investigation."
+    ],
+    "linked_objects": [],
+    "multiplicity": {
+      "approach": "none stated",
+      "location": "Fig. 2",
+      "quote": "Results were not corrected for multiple comparisons."
+    },
+    "risk_of_bias": []
+  }
+}

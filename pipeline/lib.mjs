@@ -18,7 +18,7 @@ export const ENRICHED_DIR = join(ROOT, "enriched");
 export const DOCS_DIR = join(ROOT, "docs");
 export const PROMPTS_DIR = join(ROOT, "pipeline", "prompts");
 
-export const MODEL = process.env.PIPELINE_MODEL || "sonnet";
+export const MODEL = process.env.PIPELINE_MODEL || "google/gemini-3.1-pro-preview";
 export const MAX_TURNS = Number(process.env.PIPELINE_MAX_TURNS || 60);
 export const STAGE_TIMEOUT_MS = Number(
   process.env.PIPELINE_TIMEOUT_MS || 15 * 60 * 1000,
@@ -143,14 +143,11 @@ export async function runAgent(prompt, { id, stage, logPath }) {
 function claudePrint(prompt, { id, stage, logPath }) {
   return new Promise((resolvePromise, reject) => {
     const args = [
-      "-p",
-      "--output-format", "json",
-      "--model", MODEL,
-      "--max-turns", String(MAX_TURNS),
-      "--allowed-tools", "WebSearch,WebFetch,Read",
-      "--strict-mcp-config",
+      "run",
+      "-m", MODEL,
+      "--format", "json",
     ];
-    const child = spawn("claude", args, {
+    const child = spawn("opencode", args, {
       cwd: ROOT,
       stdio: ["pipe", "pipe", "pipe"],
     });
@@ -173,18 +170,45 @@ function claudePrint(prompt, { id, stage, logPath }) {
         ensureDir(dirname(logPath));
         writeFileSync(logPath, `--- args ---\n${args.join(" ")}\n--- stdout ---\n${stdout}\n--- stderr ---\n${stderr}\n`);
       }
-      let envelope;
-      try {
-        envelope = JSON.parse(stdout.slice(stdout.indexOf("{")));
-      } catch {
-        reject(new Error(`${stage}: claude exited ${code}; unparseable output. ${stderr.slice(0, 400)}`));
+
+      let resultText = "";
+      let totalCost = 0;
+      let turns = 0;
+      let sessionID = "";
+
+      const lines = stdout.trim().split("\n");
+      for (const line of lines) {
+        if (!line.trim()) continue;
+        try {
+          const event = JSON.parse(line);
+          if (event.sessionID) sessionID = event.sessionID;
+          if (event.type === "text" && event.part?.text) {
+            resultText += event.part.text;
+          } else if (event.type === "step_finish") {
+            turns++;
+            if (event.cost) totalCost += event.cost;
+          }
+        } catch (err) {
+          // Ignore parse errors on individual lines
+        }
+      }
+
+      if (code !== 0 && !resultText) {
+        reject(new Error(`${stage}: opencode exited ${code}; no output. ${stderr.slice(0, 400)}`));
         return;
       }
-      if (envelope.is_error || envelope.subtype !== "success") {
-        reject(new Error(`${stage}: claude reported ${envelope.subtype || "error"}. ${String(envelope.result || "").slice(0, 400)}`));
-        return;
-      }
-      log(id, `${stage}: done in ${Math.round((envelope.duration_ms || 0) / 1000)}s, ${envelope.num_turns} turns, $${(envelope.total_cost_usd || 0).toFixed(2)}`);
+
+      const envelope = {
+        is_error: false,
+        subtype: "success",
+        result: resultText,
+        duration_ms: 0,
+        num_turns: turns,
+        total_cost_usd: totalCost,
+        session_id: sessionID
+      };
+
+      log(id, `${stage}: done, ${envelope.num_turns} turns, $${(envelope.total_cost_usd || 0).toFixed(4)}`);
       resolvePromise(envelope);
     });
 

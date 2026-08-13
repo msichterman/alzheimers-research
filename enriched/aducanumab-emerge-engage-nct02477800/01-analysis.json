@@ -1,0 +1,77 @@
+{
+  "kind": "other",
+  "title": "221AD301 Phase 3 Study of Aducanumab (BIIB037) in Early Alzheimer's Disease",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2021-09",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "immunotherapy",
+    "aducanumab"
+  ],
+  "themes": [
+    "Aducanumab efficacy and safety",
+    "Early Alzheimer's disease",
+    "Amyloid-related imaging abnormalities (ARIA)",
+    "Futility analysis"
+  ],
+  "one_line": "A Phase 3 clinical trial of aducanumab in early Alzheimer's disease that was terminated early due to futility, showing no significant clinical benefit and high rates of amyloid-related imaging abnormalities (ARIA).",
+  "summary": "This document summarizes the ClinicalTrials.gov registry record for the 221AD301 Phase 3 study (NCT02477800) evaluating the efficacy and safety of aducanumab in patients with early Alzheimer's disease. The trial was a quadruple-masked, randomized, placebo-controlled study with low-dose and high-dose aducanumab arms. The study was prematurely terminated following a futility analysis, indicating that the drug was unlikely to meet its primary efficacy endpoints. Results showed no statistically significant difference between aducanumab and placebo on the primary outcome measure (CDR-SB) or secondary cognitive and functional measures (MMSE, ADAS-Cog 13, ADCS-ADL-MCI) at Week 78. Safety data revealed a notably high incidence of amyloid-related imaging abnormalities (ARIA-E and ARIA-H) among participants receiving the drug, particularly in the high-dose group, compared to those receiving placebo.",
+  "key_claims": [
+    {
+      "claim": "Aducanumab does not significantly slow clinical decline on the Clinical Dementia Rating Sum of Boxes (CDR-SB) compared to placebo.",
+      "evidence": "Difference from Placebo 0.110 (95% CI -0.469 to 0.403), p=0.2250.",
+      "strength": "strong",
+      "location": "PRIMARY: Change From Baseline in Clinical Dementia Rating Sum of Boxes (CDR-SB) Score at Week 78"
+    },
+    {
+      "claim": "Aducanumab does not show significant benefits on secondary global cognitive and functional measures.",
+      "evidence": "MMSE Difference from Placebo 0.2 (p=0.4795); ADAS-Cog 13 Difference from Placebo -0.583 (p=0.2536); ADCS-ADL-MCI Difference from Placebo 0.7 (p=0.1225).",
+      "strength": "strong",
+      "location": "SECONDARY outcomes"
+    },
+    {
+      "claim": "Aducanumab is associated with a high incidence of amyloid-related imaging abnormalities (ARIA), particularly at high doses.",
+      "evidence": "ARIA-E occurred in 195/558 (35%) in the High Dose group and 140/549 (25.5%) in the Low Dose group compared to 16/540 (3%) in Placebo. ARIA-H occurred in 102/558 (18.3%) in High Dose compared to 34/540 (6.3%) in Placebo.",
+      "strength": "strong",
+      "location": "Adverse events / Other adverse events"
+    }
+  ],
+  "methods": {
+    "design": "Multicenter, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group",
+    "n": 1653,
+    "population": "Adults aged 50-85 with MCI due to AD or mild AD, positive amyloid PET scan, MMSE 24-30, and CDR-Global 0.5.",
+    "duration": "Up to approximately 1.5 years (PC period) with evaluation at Week 78",
+    "registration": "NCT02477800"
+  },
+  "funding_and_conflicts": "Lead sponsor: Biogen. No individual author conflicts are stated in this registry export.",
+  "limitations": [
+    "Study was terminated early due to a futility analysis, meaning the planned primary completion data is truncated.",
+    "As a raw registry export, the data lacks nuanced subgroup analyses, narrative context, and detailed statistical methodology typical of a peer-reviewed publication."
+  ],
+  "red_flags": [
+    "The trial was terminated for futility, indicating a failure to demonstrate efficacy during interim analysis.",
+    "High incidence of ARIA-E (35% in high dose) and ARIA-H compared to the placebo group."
+  ],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "The Markdown conversion of the results sections lists sequential values (e.g., 'value: 1.56', 'value: 1.38', 'value: 1.59') without explicitly mapping them to the specific trial arms (Placebo, Low Dose, High Dose) in the immediate text, requiring the reader to infer the mapping based on the order of the arms defined earlier."
+    ]
+  },
+  "search_verification": [
+    "Verified absence of DOI, PubMed URL, and authors, as the source text is a direct export from the ClinicalTrials.gov registry (NCT02477800)."
+  ]
+}

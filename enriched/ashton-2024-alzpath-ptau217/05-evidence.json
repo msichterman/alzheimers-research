@@ -1,0 +1,425 @@
+{
+  "document_kind": "journal_article",
+  "title": {
+    "value": "Blood biomarkers for Alzheimer's disease in clinical practice and trials",
+    "quote": "Blood biomarkers for Alzheimer’s disease in clinical practice and trials",
+    "location": "Title line, top of document"
+  },
+  "authors": [
+    { "name": "Oskar Hansson", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Kaj Blennow", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Henrik Zetterberg", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Jeffrey Dage", "affiliation": null, "orcid": null, "corresponding": null }
+  ],
+  "study": {
+    "design": { "value": null, "quote": null, "location": null },
+    "phase": { "value": null, "quote": null, "location": null },
+    "n": { "value": null, "quote": null, "location": null },
+    "n_description": { "value": null, "quote": null, "location": null },
+    "population": {
+      "value": "No enrolled study population — the document reports no cohort of its own. CARE SETTING addressed by its diagnostic and prognostic claims: patients with cognitive impairment (MCI or dementia) and patients with mild cognitive complaints assessed in SPECIALIST MEMORY CLINICS, where the document says high-performing plasma p-tau assays would reduce the need for CSF or PET. The document separately discusses primary care as a setting where blood biomarkers are NOT yet endorsed and where few studies have evaluated diagnostic accuracy against a valid reference standard, and discusses cognitively unimpaired individuals only in the context of clinical trials.",
+      "quote": "The use of such high-performing plasma p-tau assays in the clinical practice of specialist memory clinics would reduce the need for more costly investigations involving cerebrospinal fluid samples or positron emission tomography.",
+      "location": "Abstract"
+    },
+    "followup": { "value": null, "quote": null, "location": null },
+    "intervention": { "value": null, "quote": null, "location": null },
+    "comparator": {
+      "value": "Reference/comparator investigations discussed throughout: cerebrospinal fluid AD biomarkers and amyloid or tau PET imaging, against which blood-based biomarkers are positioned",
+      "quote": "In specialist clinics with access to CSF and/or PET, BBMs will speed up the diagnostic process and substantially reduce costs.",
+      "location": "BBMs as diagnostic biomarkers in clinical practice"
+    },
+    "biomarker_confirmation": {
+      "value": "The document describes amyloid PET, CSF Aβ and CSF p-tau as the confirmatory standards, and states that patients with uncertain blood-biomarker outcomes need confirmatory testing with Aβ PET or CSF AD biomarkers",
+      "quote": "only those patients with uncertain BBM outcomes are likely to need confirmatory testing with Aβ PET or CSF AD biomarkers",
+      "location": "BBMs as diagnostic biomarkers in clinical practice"
+    },
+    "nct_ids": ["NCT04468659", "NCT05026866"],
+    "cohorts": [
+      "A4 (Anti-Amyloid Treatment in Asymptomatic Alzheimer's) trial"
+    ]
+  },
+  "outcomes": [
+    {
+      "name": "AUC of plasma Aβ42/Aβ40 assays for detecting Aβ pathology in a head-to-head comparison (mass spectrometry versus immunoassays)",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "AUC 0.84–0.87 for certain mass spectrometry-based assays versus AUC 0.64–0.69 for many commonly used immunoassays",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "a recent head-to-head comparison showed that certain mass spectrometry-based assays could detect Aβ pathology with areas under the receiver operating characteristic curve (AUC) of 0.84–0.87, whereas many commonly used immunoassays performed much worse (AUC, 0.64–0.69)",
+      "location": "BBMs for AD and related disorders"
+    },
+    {
+      "name": "Increase in AUC from adding APOE genotype to plasma Aβ42/Aβ40-based prediction models",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "AUC increased by about 10%",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Adding APOE genotype to plasma Aβ 42 /Aβ 40 -based prediction models increases the AUC by about 10% (refs. ,,).",
+      "location": "BBMs for AD and related disorders"
+    },
+    {
+      "name": "Correlation between plasma and CSF levels for high-performing Aβ42/Aβ40 assays",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "modest correlations, r of 0.56–0.65",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "these relatively high-performing Aβ 42 /Aβ 40 assays exhibit only modest correlations between the levels in plasma and CSF ( r s of 0.56–0.65) , probably because much of the Aβ in plasma is derived from peripheral sources .",
+      "location": "BBMs for AD and related disorders"
+    },
+    {
+      "name": "Correlation between plasma and CSF levels for the best-performing p-tau217 assay",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "correlation coefficient of 0.89",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The best-performing p-tau217 assay showed a high correlation between plasma and CSF levels, with a correlation coefficient of 0.89 (ref. ).",
+      "location": "BBMs for AD and related disorders"
+    },
+    {
+      "name": "Proportion of patients with MCI accurately diagnosed by a plasma p-tau217 diagnostic algorithm, and proportion left uncertain",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "accurate AD diagnosis in about 80% of patients with MCI; around 20% had uncertain blood biomarker results and needed confirmatory CSF testing",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "a recent study showed that a diagnostic algorithm based on plasma p-tau217 resulted in an accurate AD diagnosis in about 80% of patients with MCI, whereas around 20% had uncertain blood biomarker results and needed further confirmatory testing with CSF AD biomarkers .",
+      "location": "BBMs as diagnostic biomarkers in clinical practice"
+    },
+    {
+      "name": "Fold increase of plasma p-tau217 in symptomatic AD versus healthy individuals and other neurodegenerative diseases",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "increases of about 300–700%",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Plasma p-tau217 is the tau variant that shows the largest fold increase in individuals with symptomatic AD, with increases of about 300–700% compared to both healthy individuals and patients with other neurodegenerative diseases .",
+      "location": "BBMs as diagnostic biomarkers in clinical practice"
+    },
+    {
+      "name": "Magnitude of change in plasma Aβ42/Aβ40 in symptomatic AD (effect size / robustness)",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "a very modest drop of 8–15% in symptomatic AD, giving low performance and robustness in routine clinical settings",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "When it comes to plasma Aβ 42 /Aβ 40 levels, the very modest drop of 8–15% in symptomatic AD means that this biomarker has low performance and robustness in routine clinical settings",
+      "location": "BBMs as diagnostic biomarkers in clinical practice"
+    },
+    {
+      "name": "Robustness of plasma Aβ42/Aβ40 expressed as fold difference in brain amyloidosis",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "the ratio is only 0.9-fold lower in patients with brain amyloidosis than in amyloid PET-negative cognitively normal older people",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "the Aβ 42 /Aβ 40 ratio has very low robustness when measured in plasma, as the ratio is only 0.9-fold lower in patients with brain amyloidosis than in amyloid PET-negative cognitively normal older people .",
+      "location": "Robustness"
+    },
+    {
+      "name": "Effect of test–retest variability on diagnostic accuracy of plasma p-tau217",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "plasma p-tau217 least affected by test–retest variability, with a change in diagnostic accuracy of <1%",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "plasma p-tau217 was least affected by this test–retest variability with a change in diagnostic accuracy of <1% (ref. ).",
+      "location": "Robustness"
+    },
+    {
+      "name": "Round-robin cross-assay correlations for plasma Aβ42 and Aβ40 versus the same immunoassays in CSF",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "plasma Aβ42 assays r = 0.41–0.54, plasma Aβ40 assays r = 0.59–0.79, versus r = 0.94–0.99 for the same immunoassays applied to CSF",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "on Aβ methods showed disappointingly poor correlations across plasma Aβ 42 assays ( r = 0.41–0.54), including mass spectrometry methods, whereas correlations for Aβ 40 assays were better ( r = 0.59–0.79) .",
+      "location": "Standardization"
+    },
+    {
+      "name": "Proportion of patients with MCI or clinically diagnosed AD dementia who do not have brain Aβ pathology",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "about 40–60% of patients with MCI and 20–30% of those with clinically diagnosed AD dementia do not have brain Aβ pathology",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "About 40–60% of patients with MCI and 20–30% of those with clinically diagnosed AD dementia do not have brain Aβ pathology .",
+      "location": "BBMs as prescreening biomarkers in clinical trials"
+    },
+    {
+      "name": "Prevalence of amyloid positivity in cognitively unimpaired individuals aged 60–80 years",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "only 10–30% of individuals aged 60–80 years are positive for amyloid PET or CSF Aβ",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "As only 10–30% of individuals aged 60–80 years are positive for amyloid PET or CSF Aβ , a large number of PET (or CSF) examinations is currently needed to identify a sufficient number of individuals for phase 3 trials",
+      "location": "BBMs as prescreening biomarkers in clinical trials (cognitively unimpaired)"
+    },
+    {
+      "name": "Prognostic risk of MCI and dementia in cognitively unimpaired individuals by combined Aβ PET and tau PET status",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "20× increased probability of developing MCI and 40× increased probability of developing dementia versus those with normal PET scans",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "cognitively unimpaired individuals with both positive Aβ PET and positive tau PET had 20× and 40× increased probabilities of developing mild cognitive impairment (MCI) and dementia, respectively, compared to those with normal PET scans .",
+      "location": "Imaging-based biomarkers"
+    },
+    {
+      "name": "Prevalence of Aβ plaques at age 90 (limiting the interpretation of an abnormal Aβ PET scan in older patients)",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "about 40% of individuals aged 90 years have Aβ plaques in the brain",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "in an older patient, such a result should be interpreted with caution, considering that about 40% of individuals aged 90 years have Aβ plaques in the brain .",
+      "location": "Imaging-based biomarkers"
+    },
+    {
+      "name": "Proportion of patients with cognitive impairment not recognized or correctly diagnosed in PRIMARY CARE",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "about 50–70% of patients with cognitive impairment are currently not recognized or correctly diagnosed in primary care",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "it seems that about 50–70% of patients with cognitive impairment are currently not recognized or correctly diagnosed in primary care, due to lack of easily accessible, time- and cost-effective, and accurate diagnostic tools .",
+      "location": "Potential use of BBMs in primary care settings"
+    },
+    {
+      "name": "Sample size required for a preclinical AD trial enrolling on amyloid positivity alone",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "about 2,000 participants per group to detect a treatment effect of 25% over 4 years on a cognitive composite",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Power calculations indicate that, if only amyloid positivity is included as a requirement, about 2,000 participants are needed per group to detect a treatment effect of 25% over 4 years",
+      "location": "BBMs as prescreening biomarkers in clinical trials (cognitively unimpaired)"
+    },
+    {
+      "name": "Reduction in required sample size from combining plasma p-tau217 and tau PET at baseline",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "sample sizes substantially reduced by >40% when using longitudinal tau PET as the primary outcome in preclinical AD trials",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "a combination of p-tau217 and tau PET at baseline could be used to substantially reduce the needed sample sizes by >40% when using longitudinal tau PET as the primary outcome in preclinical AD trials .",
+      "location": "BBMs as prescreening biomarkers in clinical trials (cognitively unimpaired)"
+    },
+    {
+      "name": "Screening burden of the A4 preclinical AD trial without blood-based prescreening",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "3.5 years and more than 4,000 amyloid PET scans to identify 1,169 eligible participants",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "it took 3.5 years and more than 4,000 amyloid PET scans to identify 1,169 participants eligible for the study",
+      "location": "BBMs as prescreening biomarkers in clinical trials (cognitively unimpaired)"
+    }
+  ],
+  "primary_endpoint_status": {
+    "status": "not_applicable",
+    "explanation": "The document is a review article that reports no cohort, no prespecified primary analysis and no primary endpoint of its own; all quantitative figures it reports are drawn from other studies it cites.",
+    "quote": "Blood-based biomarkers hold great promise to revolutionize the diagnostic and prognostic work-up of Alzheimer’s disease (AD) in clinical practice."
+  },
+  "multiplicity": {
+    "approach": "none stated — the document performs no statistical analysis of its own and does not address multiple comparisons",
+    "quote": null,
+    "location": null
+  },
+  "safety": {
+    "harms": [],
+    "apoe_stratification_reported": false,
+    "serious_adverse_events": { "value": null, "quote": null, "location": null },
+    "deaths": { "value": null, "quote": null, "location": null },
+    "discontinuations": { "value": null, "quote": null, "location": null }
+  },
+  "funding": [
+    "O.H. was supported by the Swedish Research Council (202200775), ERA PerMed (ERAPERMED2021-184), the Knut and Alice Wallenberg Foundation (2017-0383), the Strategic Research Area MultiPark (Multidisciplinary Research in Parkinson’s disease) at Lund University, the Swedish Alzheimer Foundation (AF-980907), the Swedish Brain Foundation (FO2021-0293), the Parkinson Foundation of Sweden (1412/22), the Cure Alzheimer’s Fund",
+    "K.B. is supported by the Swedish Research Council (2017-00915 and 2022-00732; 1 January 2023 to 31 December 2026), the Alzheimer Drug Discovery Foundation, USA (RDAPB-201809-2016615), the Swedish Alzheimer Foundation (AF-930351, AF-939721 and AF-968270), Hjärnfonden, Sweden (FO20170243 and ALZ2022-0006)",
+    "the National Institutes of Health, USA (grant 1R01AG068398-01), the Alzheimer’s Association 2021 Zenith Award (ZEN-21-848495) and the Alzheimer’s Association 2022-2025 grant (SG-23-1038904 QC)",
+    "H.Z. is a Wallenberg Scholar supported by grants from the Swedish Research Council (2018-02532), the European Union’s Horizon Europe research and innovation program under grant agreement 101053962, Swedish State Support for Clinical Research (ALFGBG-71320), the Alzheimer Drug Discovery Foundation, USA (201809-2016862), the AD Strategic Fund and the Alzheimer’s Association",
+    "the Bluefield Project, the Olav Thon Foundation, the Erling-Persson Family Foundation, Stiftelsen för Gamla Tjänarinnor, Hjärnfonden, Sweden (FO2022-0270), the European Union’s Horizon 2020 research and innovation program under the Marie Skłodowska-Curie grant agreement 860197 (MIRIADE) and the UK Dementia Research Institute at UCL (UKDRI-1003)"
+  ],
+  "conflicts": [
+    "O.H. has acquired research support (for the institution) from ADx, Avid Radiopharmaceuticals, Biogen, Eli Lilly, Eisai, Fujirebio, GE Healthcare, Pfizer and Roche. In the past 2 years, he has received consultancy and/or speaker fees from AC Immune, Amylyx, ALZpath, BioArctic, Biogen, Cerveau, Eisai, Fujirebio, Genentech, Novartis, Roche and Siemens.",
+    "K.B. has served as a consultant on advisory boards or on data-monitoring committees for Abcam, Axon, BioArctic, Biogen, JOMDD–Shimadzu, Julius Clinical, Lilly, MagQu, Novartis, Ono Pharma, Pharmatrophix, Prothena, Roche Diagnostics and Siemens Healthineers and is a cofounder of Brain Biomarker Solutions in Gothenburg (BBS)",
+    "H.Z. has served on scientific advisory boards and/or as a consultant for AbbVie, Acumen, Alector, Alzinova, ALZpath, Annexon, Apellis, Artery Therapeutics, AZTherapies, CogRx, Denali, Eisai, NervGen, Novo Nordisk, Passage Bio, Pinteon Therapeutics, Prothena, Red Abbey Labs, reMYND, Roche, Samumed, Siemens Healthineers, Triplet Therapeutics and Wave; has given lectures in symposia sponsored by Cellectricon, Fujirebio, AlzeCure, Biogen and Roche; and is a cofounder of Brain Biomarker Solutions in Gothenburg (BBS)",
+    "J.D. is an inventor on patents or patent applications of Eli Lilly relating to the assays, methods, reagents and/or compositions of matter related to measurement of p-tau217.",
+    "J.D. has served as a consultant for AbbVie, Genotix Biotechnologies, Gates Ventures, Karuna Therapeutics, ALZpath and Cognito Therapeutics and received research support from ADx NeuroSciences, Fujirebio, ALZpath, Roche Diagnostics and Eli Lilly in the past 2 years. J.D. has received speaker fees from Eli Lilly."
+  ],
+  "limitations": [
+    "Importantly, BBMs should be combined with a thorough clinical assessment, including psychiatric and neurological examinations, cognitive testing and structural brain imaging. BBMs should never replace such investigations, and they should only be used in patients with cognitive impairment for whom AD is a possible diagnosis and where such a diagnosis will probably change the management of the patient .",
+    "These recommendations are primarily based on the risk that false-positive results could lead to anxiety, depression or rash behavior; even a 5% false-positive rate would mean thousands of people would be inappropriately diagnosed with AD if the tests were used in broad screening ahead of identification of objective cognitive impairment.",
+    "Regulatory authorities in many countries will probably require such studies before AD BBMs can be widely implemented in primary care settings, which is why the Alzheimer’s Association appropriate-use recommendations do not yet endorse the use of AD BBMs in primary care .",
+    "We must stress, however, that BBMs might help the clinician in decision making but should in no case substitute a proper neurological assessment.",
+    "Indeed, confirmatory diagnosis in specialist care settings will continue to be important for some time for many patient populations",
+    "Therefore, whether blood p-tau can be used as a single marker or replace CSF biomarkers that have been tested in larger varieties of disease conditions remains unclear.",
+    "Realistically, we might need to exercise caution in projecting immediate diagnostic use of blood p-tau levels as a CSF substitute until large-scale clinical characterization studies have been performed.",
+    "Regarding the clinical diagnostic performance of the biomarkers, it should be noted that, in principle, all data published thus far come from retrospective studies, in which all samples were analyzed in batch, after which the optimal cutoff was identified and descriptive data on the performance were calculated (AUC, sensitivity and specificity).",
+    "To generate data on the ‘real-life’ diagnostic performance, prospective studies are needed, with fixed biomarker cutoffs set before the start of the study and biomarkers analyzed on a routine (daily or weekly) basis, allowing the obtained biomarker results to be influenced by all the components constituting the true total measurement variability ().",
+    "Although few studies in primary care settings have systematically evaluated the accuracy of AD diagnoses against a valid reference standard (for example, dementia expert diagnoses supported by CSF or PET)",
+    "We do not yet know how observations from such cohorts will translate to the setting of routine memory clinics, which see patients with greater heterogeneity in demographics, disease presentation and comorbidities.",
+    "Finally, we need to perform studies to prospectively generate real-world clinical data on the performance of blood-based AD biomarkers, especially in primary care settings.",
+    "We need to demonstrate biomarker validity in diverse cohorts.",
+    "Thus, even if these biomarkers are very robust in symptomatic AD, they might be less robust in detecting preclinical AD, which may have implications for prescreening in preclinical AD trials (see above).",
+    "However, only validated surrogate endpoints can be used as a primary endpoint in pivotal trials used for full FDA approval, and no AD biomarker currently meets this definition.",
+    "However, plasma levels of p-tau217 are very low in healthy individuals, and it might therefore be challenging to establish this biomarker on many of the fully automated platforms used in clinical practice today, as has been the case for the Roche Elecsys platform .",
+    "an abnormal Aβ PET scan is indicative of AD in a younger patient with cognitive symptoms, but, in an older patient, such a result should be interpreted with caution",
+    "A first round-robin study (which aims to verify a new method and compare results across methods and laboratories) on Aβ methods showed disappointingly poor correlations across plasma Aβ 42 assays ( r = 0.41–0.54), including mass spectrometry methods",
+    "However, further studies are needed to assess possible physiological differences in blood biomarker levels across ethnic groups, also adjusting for socioeconomic status and comorbidities.",
+    "as they might confound interpretation at an individual patient level (for example, in a patient with severe kidney disease and obesity)",
+    "Finally, we want to stress that we need to develop blood biomarkers for non-AD brain pathologies, especially for pathological changes in TDP-43, 3R tau, 4R tau, α-synuclein and cerebrovascular changes as well as synaptic dysfunction.",
+    "It is currently unclear whether plasma GFAP levels correlate with the number of reactive astrocytes as determined post-mortem using immunohistochemistry or antemortem using PET."
+  ],
+  "risk_of_bias": [
+    {
+      "domain": "narrative review without stated search or selection method",
+      "judgement": "The document presents no search strategy, inclusion criteria or quantitative synthesis; the performance figures it reports are selected citations from other studies, several of them the authors' own work.",
+      "quote": "Recently, we reported that plasma p-tau217 increases more clearly over 4–6 years in preclinical and prodromal AD than Aβ 42 /Aβ 40 , p-tau181, p-tau231, GFAP and NfL"
+    },
+    {
+      "domain": "author financial ties to assay manufacturers and to p-tau217 intellectual property",
+      "judgement": "All four authors declare payments from assay and diagnostics companies, and one author is an inventor on Eli Lilly patents covering p-tau217 measurement, which is the biomarker the review concludes is best performing.",
+      "quote": "J.D. is an inventor on patents or patent applications of Eli Lilly relating to the assays, methods, reagents and/or compositions of matter related to measurement of p-tau217."
+    },
+    {
+      "domain": "retrospective, batch-analysed source data with post-hoc cutoff selection",
+      "judgement": "The document itself states that essentially all published diagnostic performance data derive from retrospective batch analyses in which the optimal cutoff was chosen after the fact, so the performance figures it cites are likely optimistic relative to real-world use.",
+      "quote": "in principle, all data published thus far come from retrospective studies, in which all samples were analyzed in batch, after which the optimal cutoff was identified and descriptive data on the performance were calculated"
+    }
+  ],
+  "disagreements": [
+    {
+      "question": "Should AD blood biomarkers be used in primary care?",
+      "position": "Not yet — the document states that the Alzheimer's Association appropriate-use recommendations do not yet endorse the use of AD blood biomarkers in primary care and that regulatory authorities will probably require prospective primary care validation first.",
+      "attributed_to": "Hansson, Blennow, Zetterberg and Dage (this document), citing the Alzheimer's Association appropriate-use recommendations",
+      "quote": "which is why the Alzheimer’s Association appropriate-use recommendations do not yet endorse the use of AD BBMs in primary care ."
+    },
+    {
+      "question": "Can a blood p-tau test stand alone as a diagnostic test or replace CSF biomarkers?",
+      "position": "No — blood biomarkers must be combined with clinical assessment and should never replace neurological examination, and whether blood p-tau can replace CSF biomarkers remains unclear pending large-scale clinical characterization studies.",
+      "attributed_to": "Hansson, Blennow, Zetterberg and Dage (this document)",
+      "quote": "BBMs should never replace such investigations, and they should only be used in patients with cognitive impairment for whom AD is a possible diagnosis and where such a diagnosis will probably change the management of the patient ."
+    },
+    {
+      "question": "Are plasma Aβ42/Aβ40 assays suitable for routine clinical use?",
+      "position": "Largely not — because the change in symptomatic AD is only 8–15% the ratio has low robustness in plasma, in contrast to its high robustness in CSF, and assay-to-assay correlations in plasma are poor.",
+      "attributed_to": "Hansson, Blennow, Zetterberg and Dage (this document)",
+      "quote": "By contrast, the Aβ 42 /Aβ 40 ratio has very low robustness when measured in plasma, as the ratio is only 0.9-fold lower in patients with brain amyloidosis than in amyloid PET-negative cognitively normal older people ."
+    },
+    {
+      "question": "Can tau PET and CSF/plasma p-tau be used interchangeably as the 'T' biomarker in the NIA-AA research framework?",
+      "position": "No — the document endorses splitting them, proposing an 'APT' scheme in which P is soluble p-tau and T is tau PET, because p-tau rises much earlier than the tau PET signal.",
+      "attributed_to": "Hansson, Blennow, Zetterberg and Dage (this document), against the existing NIA-AA 'AT' framework",
+      "quote": "It has therefore been suggested that the NIA-AA research framework be updated to include p-tau and tau PET as separate biomarker entities, that is, using ‘APT’ instead of ‘AT’"
+    },
+    {
+      "question": "Is any AD fluid biomarker an acceptable surrogate endpoint for regulatory approval?",
+      "position": "No — only Aβ PET is deemed a 'reasonably likely surrogate endpoint' by the FDA, and no AD biomarker currently meets the definition of a validated surrogate endpoint usable as a primary endpoint in pivotal trials.",
+      "attributed_to": "Hansson, Blennow, Zetterberg and Dage (this document), citing the US Food and Drug Administration",
+      "quote": "Aβ PET but not yet any AD-related fluid biomarker is deemed by the US Food and Drug Administration (FDA) to be a ‘reasonably likely surrogate endpoint’"
+    },
+    {
+      "question": "Is plasma NfL a useful surrogate marker of neurodegeneration in AD?",
+      "position": "Less so than in other neurodegenerative diseases — the document notes attenuated CSF NfL increases in anti-Aβ trials but no such plasma NfL result, and argues NfL may be a better surrogate outside AD.",
+      "attributed_to": "Hansson, Blennow, Zetterberg and Dage (this document)",
+      "quote": "In anti-Aβ antibody trials for AD, attenuated increases of CSF NfL have been reported , , but no such results have been obtained thus far for plasma NfL ."
+    }
+  ],
+  "linked_objects": [
+    {
+      "relation": "registry_record",
+      "identifier": "NCT04468659",
+      "note": "Phase 3 preclinical AD trial named in the document (lecanemab), which the document says uses plasma p-tau217 for prescreening"
+    },
+    {
+      "relation": "registry_record",
+      "identifier": "NCT05026866",
+      "note": "Phase 3 preclinical AD trial named in the document (donanemab), which the document says uses plasma Aβ42/Aβ40 for prescreening"
+    }
+  ],
+  "trial_status_observation": null,
+  "unlocatable_fields": [
+    "study.design",
+    "study.phase",
+    "study.n",
+    "study.n_description",
+    "study.followup",
+    "study.intervention",
+    "safety.harms",
+    "safety.serious_adverse_events",
+    "safety.deaths",
+    "safety.discontinuations",
+    "multiplicity.quote",
+    "trial_status_observation",
+    "authors[].affiliation",
+    "authors[].orcid",
+    "authors[].corresponding",
+    "outcomes[].confidence_interval",
+    "outcomes[].p_value",
+    "outcomes[].prespecification_evidence"
+  ],
+  "_meta": {
+    "model": "claude (builder subagent)",
+    "extracted_at": "2026-08-13T00:00:00Z",
+    "source": "raw/ashton-2024-alzpath-ptau217/document.md"
+  }
+}
