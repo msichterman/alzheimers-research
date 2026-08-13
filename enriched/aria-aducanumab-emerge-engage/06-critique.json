@@ -1,0 +1,345 @@
+{
+  "extracted_by": "gemini-3.1-pro-preview",
+  "extracted_at": "2026-08-13T16:32:13.729Z",
+  "independent": true,
+  "saw_builder_output": false,
+  "source": "raw/aria-aducanumab-emerge-engage/document.md",
+  "source_sha256": "dfac3ecab3af72959c7b95bc70bf3b4e0bc610ce7611d46ded503bf7ed227c8b",
+  "truncated": false,
+  "tokens": {
+    "in": 11433,
+    "out": 3533
+  },
+  "record": {
+    "document_kind": "journal_article",
+    "title": {
+      "value": "Amyloid-Related Imaging Abnormalities in 2 Phase 3 Studies Evaluating Aducanumab in Patients With Early Alzheimer Disease",
+      "quote": "Amyloid-Related Imaging Abnormalities in 2 Phase 3 Studies Evaluating Aducanumab in Patients With Early Alzheimer Disease",
+      "location": "Title"
+    },
+    "study": {
+      "design": {
+        "value": "secondary analysis of 2 double-blind, placebo-controlled, parallel-group, phase 3 randomized clinical trials",
+        "quote": "Secondary analysis of data from the EMERGE and ENGAGE trials, which were 2 double-blind, placebo-controlled, parallel-group, phase 3 randomized clinical trials",
+        "location": "Abstract, Design, Setting, and Participants"
+      },
+      "n": {
+        "value": 3285,
+        "quote": "The combined studies consisted of a total of 3285 participants with Alzheimer disease",
+        "location": "Abstract, Design, Setting, and Participants"
+      },
+      "population": {
+        "value": "individuals aged 50 to 85 years who met clinical criteria for mild cognitive impairment due to AD or mild dementia due to AD",
+        "quote": "individuals aged 50 to 85 years who met clinical criteria for mild cognitive impairment due to AD or mild dementia due to AD, with amyloid pathology confirmed by visual assessment of amyloid positron emission tomography.",
+        "location": "Methods, paragraph 2"
+      },
+      "biomarker_confirmation": {
+        "value": "visual assessment of amyloid positron emission tomography",
+        "quote": "amyloid pathology confirmed by visual assessment of amyloid positron emission tomography.",
+        "location": "Methods, paragraph 2"
+      },
+      "cohorts": [
+        "EMERGE",
+        "ENGAGE"
+      ],
+      "comparator": {
+        "value": "placebo",
+        "quote": "participants were randomly assigned 1:1:1 to high-dose or low-dose intravenous aducanumab or placebo",
+        "location": "Abstract, Interventions"
+      },
+      "followup": {
+        "value": "76 weeks for a total of 20 doses",
+        "quote": "monthly intravenous doses over 76 weeks for a total of 20 doses",
+        "location": "Methods, paragraph 3"
+      },
+      "intervention": {
+        "value": "high-dose or low-dose intravenous aducanumab",
+        "quote": "high-dose or low-dose intravenous aducanumab",
+        "location": "Abstract, Interventions"
+      },
+      "n_description": {
+        "value": "participants with Alzheimer disease who received 1 or more doses of placebo or aducanumab",
+        "quote": "participants with Alzheimer disease who received 1 or more doses of placebo (n = 1087) or aducanumab (n = 2198; 2752 total person-years of exposure) during the placebo-controlled period.",
+        "location": "Abstract, Design, Setting, and Participants"
+      },
+      "nct_ids": [
+        "NCT02484547",
+        "NCT02477800"
+      ],
+      "phase": {
+        "value": "phase 3",
+        "quote": "phase 3 randomized clinical trials",
+        "location": "Abstract, Design, Setting, and Participants"
+      }
+    },
+    "outcomes": [
+      {
+        "name": "ARIA-E",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "not_applicable",
+        "quote": "ARIA-edema (ARIA-E) was the most common adverse event (362 of 1029 [35.2%])",
+        "location": "Abstract, Results",
+        "confidence_interval": null,
+        "effect_estimate": "35.2%",
+        "multiplicity_controlled": "no",
+        "p_value": null,
+        "prespecification_evidence": "Most of the secondary analyses for this report were prespecified for the integrated summary of safety"
+      }
+    ],
+    "primary_endpoint_status": {
+      "status": "not_applicable",
+      "quote": "The primary analysis will be reported elsewhere.",
+      "explanation": "This document is a secondary analysis focused on safety (ARIA) and explicitly states that the primary efficacy analysis is reported in a different publication."
+    },
+    "safety": {
+      "harms": [
+        {
+          "name": "ARIA-E",
+          "arm": "10 mg/kg",
+          "quote": "ARIA-edema (ARIA-E) was the most common adverse event (362 of 1029 [35.2%])",
+          "location": "Abstract, Results",
+          "apoe_stratum": null,
+          "count": "362",
+          "denominator": "1029",
+          "percentage": "35.2%"
+        },
+        {
+          "name": "ARIA-E",
+          "arm": "Placebo",
+          "quote": "In the placebo group, 29 of 1076 participants (2.7%) had ARIA-E",
+          "location": "Abstract, Results",
+          "apoe_stratum": null,
+          "count": "29",
+          "denominator": "1076",
+          "percentage": "2.7%"
+        },
+        {
+          "name": "ARIA-E",
+          "arm": "10 mg/kg",
+          "quote": "incidence of ARIA-E was highest in ApoE ε4 carriers (290 of 674 [43.0%])",
+          "location": "Results, paragraph 2",
+          "apoe_stratum": "ApoE ε4 carriers",
+          "count": "290",
+          "denominator": "674",
+          "percentage": "43.0%"
+        },
+        {
+          "name": "ARIA-E",
+          "arm": "10 mg/kg",
+          "quote": "vs noncarriers (72 of 355 [20.3%]) in the 10-mg/kg group.",
+          "location": "Results, paragraph 2",
+          "apoe_stratum": "ApoE ε4 noncarriers",
+          "count": "72",
+          "denominator": "355",
+          "percentage": "20.3%"
+        },
+        {
+          "name": "ARIA-microhemorrhage",
+          "arm": "10 mg/kg",
+          "quote": "ARIA-microhemorrhage and ARIA–superficial siderosis occurred in 197 participants (19.1%) and 151 participants (14.7%), respectively.",
+          "location": "Abstract, Results",
+          "apoe_stratum": null,
+          "count": "197",
+          "denominator": "1029",
+          "percentage": "19.1%"
+        },
+        {
+          "name": "Brain microhemorrhages",
+          "arm": "Placebo",
+          "quote": "Brain microhemorrhages were the most common type of ARIA-H (placebo group: 71 [6.6%]; 10-mg/kg group: 197 [19.1%])",
+          "location": "Results, paragraph 4",
+          "apoe_stratum": null,
+          "count": "71",
+          "denominator": "1076",
+          "percentage": "6.6%"
+        },
+        {
+          "name": "symptomatic ARIA-E",
+          "arm": "10 mg/kg",
+          "quote": "Of the 362 participants with ARIA-E in the 10-mg/kg group, 94 (26.0%) were symptomatic",
+          "location": "Results, paragraph 9",
+          "apoe_stratum": null,
+          "count": "94",
+          "denominator": "362",
+          "percentage": "26.0%"
+        },
+        {
+          "name": "Hemorrhage >1 cm",
+          "arm": "10 mg/kg",
+          "quote": "Larger brain hemorrhages measuring more than 1 cm in diameter were rare and balanced between placebo and aducanumab groups (placebo group: 4 [0.4%]; 10-mg/kg group: 3 [0.3%]).",
+          "location": "Results, paragraph 4",
+          "apoe_stratum": null,
+          "count": "3",
+          "denominator": "1029",
+          "percentage": "0.3%"
+        },
+        {
+          "name": "Hemorrhage >1 cm",
+          "arm": "Placebo",
+          "quote": "Larger brain hemorrhages measuring more than 1 cm in diameter were rare and balanced between placebo and aducanumab groups (placebo group: 4 [0.4%]; 10-mg/kg group: 3 [0.3%]).",
+          "location": "Results, paragraph 4",
+          "apoe_stratum": null,
+          "count": "4",
+          "denominator": "1076",
+          "percentage": "0.4%"
+        },
+        {
+          "name": "deaths due to ARIA",
+          "arm": "overall",
+          "quote": "There were no deaths due to ARIA.",
+          "location": "Results, paragraph 9",
+          "apoe_stratum": null,
+          "count": "0",
+          "denominator": null,
+          "percentage": null
+        }
+      ],
+      "apoe_stratification_reported": true,
+      "deaths": {
+        "value": "0 deaths due to ARIA",
+        "quote": "There were no deaths due to ARIA.",
+        "location": "Results, paragraph 9"
+      },
+      "discontinuations": {
+        "value": "64 participants (6.2%) discontinued treatment due to ARIA",
+        "quote": "Overall, 64 participants (6.2%) discontinued treatment due to ARIA.",
+        "location": "Results, paragraph 3"
+      },
+      "serious_adverse_events": {
+        "value": "14 patients (1.4%) experienced serious ARIA cases",
+        "quote": "serious cases occurring in 14 patients (1.4%)",
+        "location": "Abstract, Results"
+      }
+    },
+    "unlocatable_fields": [
+      "confidence_interval",
+      "p_value",
+      "multiplicity.approach",
+      "multiplicity.quote",
+      "multiplicity.location",
+      "conflicts",
+      "funding",
+      "linked_objects",
+      "deaths.denominator",
+      "deaths.percentage",
+      "authors.affiliation",
+      "authors.corresponding",
+      "authors.orcid"
+    ],
+    "authors": [
+      {
+        "name": "Stephen Salloway",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Spyros Chalkias",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Frederik Barkhof",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Patrick Burkett",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Jerome Barakos",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Derk Purcell",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Joyce Suhy",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Fiona Forrestal",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Ying Tian",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Kimberly Umans",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Guanfang Wang",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Priya Singhal",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Samantha Budd Haeberlein",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Karen Smirnakis",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      }
+    ],
+    "conflicts": [],
+    "disagreements": [],
+    "funding": [],
+    "limitations": [
+      "early termination of the trials (35% of participants in the EMERGE trial and 30% in the ENGAGE trial withdrew owing to early study termination), which led to fewer patients completing a full course of dosing and could potentially impact the incidence of adverse events.",
+      "the global phase 3 study populations lacked racial and ethnic diversity; therefore, very limited data about the frequency and severity of ARIA in diverse populations are available.",
+      "Data are not available for initiation of treatment at other stages of disease (ie, preclinical) or later (ie, moderate to severe dementia) stages of AD"
+    ],
+    "linked_objects": [],
+    "multiplicity": {
+      "approach": null,
+      "location": null,
+      "quote": null
+    },
+    "risk_of_bias": [
+      {
+        "domain": "attrition",
+        "judgement": "High attrition due to early study termination by the sponsor",
+        "quote": "early termination of the trials (35% of participants in the EMERGE trial and 30% in the ENGAGE trial withdrew owing to early study termination), which led to fewer patients completing a full course of dosing and could potentially impact the incidence of adverse events."
+      }
+    ],
+    "trial_status_observation": {
+      "status": "terminated early",
+      "observed_at": "March 21, 2019",
+      "source": "Abstract, Design, Setting, and Participants",
+      "enrollment": "3285",
+      "phase": "phase 3"
+    }
+  }
+}

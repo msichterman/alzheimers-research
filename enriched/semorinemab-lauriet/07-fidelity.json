@@ -1,0 +1,447 @@
+{
+  "id": "semorinemab-lauriet",
+  "checked_at": "2026-08-13T16:53:44.209Z",
+  "builder_model": "claude (builder subagent)",
+  "critic_model": "gemini-3.1-pro-preview",
+  "fields_compared": 35,
+  "disagreements": 3,
+  "conflicts": 3,
+  "coverage_gaps": 0,
+  "agreement_rate": 0.914,
+  "passed": false,
+  "needs_adjudication": true,
+  "disagreement_rows": [
+    {
+      "field": "study.population",
+      "builder": "Participants with mild-to-moderate AD who met National Institute on Aging-Alzheimer's Association core clinical criteria for probable AD dementia, with a screening MMSE score of 16–21 inclusive and a Clinical Dementia Rating-Global Score (CDR-GS) of 1 or 2",
+      "critic": "Adults 50–85 years of age with mild-to-moderate AD",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change from baseline to week 49 in the ADAS-Cog11 in the restricted mITT population (cohorts 1 and 2)].tier",
+      "builder": "secondary",
+      "critic": "primary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Changes from baseline to week 49 or 61 in ventricular, whole brain, cerebral cortex, and hippocampal volumes on volumetric MRI].tier",
+      "builder": "exploratory",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ],
+  "conflict_rows": [
+    {
+      "field": "study.population",
+      "builder": "Participants with mild-to-moderate AD who met National Institute on Aging-Alzheimer's Association core clinical criteria for probable AD dementia, with a screening MMSE score of 16–21 inclusive and a Clinical Dementia Rating-Global Score (CDR-GS) of 1 or 2",
+      "critic": "Adults 50–85 years of age with mild-to-moderate AD",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change from baseline to week 49 in the ADAS-Cog11 in the restricted mITT population (cohorts 1 and 2)].tier",
+      "builder": "secondary",
+      "critic": "primary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Changes from baseline to week 49 or 61 in ventricular, whole brain, cerebral cortex, and hippocampal volumes on volumetric MRI].tier",
+      "builder": "exploratory",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ],
+  "builder_values_not_found_in_document": [],
+  "critic_values_not_found_in_document": [
+    {
+      "path": "safety.harms[0]",
+      "value": "1",
+      "quote": "Deaths 1 (0.7)"
+    },
+    {
+      "path": "safety.harms[1]",
+      "value": "3",
+      "quote": "Deaths 3 (2.3)"
+    },
+    {
+      "path": "safety.serious_adverse_events",
+      "value": "46",
+      "quote": "Patients with ≥1 serious AE 23 (17.0) 23 (17.4)"
+    }
+  ],
+  "all_rows": [
+    {
+      "field": "study.design",
+      "builder": "Multicenter, randomized, double-blind, placebo-controlled, parallel-group, phase 2 study with an optional open-label extension (the Lauriet study)",
+      "critic": "multicenter, randomized, double-blind, placebo-controlled, parallel-group, phase 2 study with an optional open-label extension (OLE)",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.n",
+      "builder": 272,
+      "critic": 272,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.population",
+      "builder": "Participants with mild-to-moderate AD who met National Institute on Aging-Alzheimer's Association core clinical criteria for probable AD dementia, with a screening MMSE score of 16–21 inclusive and a Clinical Dementia Rating-Global Score (CDR-GS) of 1 or 2",
+      "critic": "Adults 50–85 years of age with mild-to-moderate AD",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.comparator",
+      "builder": "Placebo (the same volume of IV saline as participants receiving semorinemab), randomized 1:1",
+      "critic": "placebo",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.followup",
+      "builder": "4,500 mg of IV semorinemab or placebo every 4 weeks for 48 or 60 weeks of blinded treatment (60 weeks for cohort 2, extended because of the COVID-19 pandemic)",
+      "critic": "48 or 60 weeks",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.intervention",
+      "builder": "4,500 mg of IV semorinemab, the first 3 doses biweekly to reach steady state followed by every 4-week dosing",
+      "critic": "4,500 mg of IV semorinemab",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.phase",
+      "builder": "Phase 2",
+      "critic": "phase 2",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "primary_endpoint_status.status",
+      "builder": "not_met",
+      "critic": "not_met",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "multiplicity.approach",
+      "builder": "none stated — the document describes no multiple-comparison adjustment; it reports a 2-sided α = 0.2 significance level for the sample size calculation, coprimary endpoints requiring both cognitive and functional measures, and a prespecified interim futility analysis at approximately 40% completion",
+      "critic": "none stated",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[primary].name",
+      "builder": "Coprimary endpoint: change from baseline to week 49 in the ADAS-Cog11 (cohorts 1 and 2, mITT population)",
+      "critic": "Change from baseline to week 49 in the ADAS-Cog11",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].met",
+      "builder": "met",
+      "critic": "met",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "−2.89 points (semorinemab adjusted mean 3.96 vs placebo 6.85), a 42.2% relative reduction in decline",
+      "critic": "−2.89 points",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": "95% CI −4.56 to −1.21",
+      "critic": "95% CI −4.56 to −1.21",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].p_value",
+      "builder": "p = 0.0008",
+      "critic": "p = 0.0008",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].multiplicity_controlled",
+      "builder": "unclear",
+      "critic": "unclear",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[ARIA-E].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[ARIA-H].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[symptomatic ARIA].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[macrohemorrhage].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[death].reported",
+      "builder": "reported",
+      "critic": "reported",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": false
+    },
+    {
+      "field": "safety.harms[death].counts",
+      "builder": "semorinemab 4,500 mg: 1 | placebo: 3 | both arms (1 semorinemab [unexplained death]; 3 placebo [2 unexplained deaths; 1 because of COVID]): 4",
+      "critic": "semorinemab: 1 | placebo: 3",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": false
+    },
+    {
+      "field": "safety.apoe_stratification_reported",
+      "builder": false,
+      "critic": false,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[Coprimary endpoint: change from baseline to week 49 in the ADAS-Cog11 (cohorts 1 and 2, mITT population)].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Coprimary endpoint: change from baseline to week 49 in the ADAS-Cog11 (cohorts 1 and 2, mITT population)].tier",
+      "builder": "primary",
+      "critic": "primary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Coprimary endpoint: change from baseline to week 49 in the ADCS-ADL (cohorts 1 and 2, mITT population)].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Coprimary endpoint: change from baseline to week 49 in the ADCS-ADL (cohorts 1 and 2, mITT population)].tier",
+      "builder": "primary",
+      "critic": "primary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Secondary endpoint: change from baseline to week 49 in the CDR-SB (mITT population)].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Secondary endpoint: change from baseline to week 49 in the CDR-SB (mITT population)].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Secondary endpoint: change from baseline to week 49 in the MMSE (mITT population)].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Secondary endpoint: change from baseline to week 49 in the MMSE (mITT population)].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change from baseline to week 49 in the ADAS-Cog11 in the restricted mITT population (cohorts 1 and 2)].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change from baseline to week 49 in the ADAS-Cog11 in the restricted mITT population (cohorts 1 and 2)].tier",
+      "builder": "secondary",
+      "critic": "primary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Changes from baseline to week 49 or 61 in ventricular, whole brain, cerebral cortex, and hippocampal volumes on volumetric MRI].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Changes from baseline to week 49 or 61 in ventricular, whole brain, cerebral cortex, and hippocampal volumes on volumetric MRI].tier",
+      "builder": "exploratory",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ]
+}

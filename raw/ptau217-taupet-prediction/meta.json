@@ -1,0 +1,9 @@
+{
+  "id": "ptau217-taupet-prediction",
+  "source": "sources/ptau217-taupet-prediction.xml",
+  "sha256": "e3eec2c1b01e7c6cd94686d9667aa7ba611a3ae30feb348cecbbd2ca52b3df55",
+  "bytes": 168104,
+  "chars": 75078,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:11.259Z"
+}

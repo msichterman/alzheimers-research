@@ -1,0 +1,32 @@
+{
+  "id": "app-a673t-protection",
+  "cluster": "genetics",
+  "checked_at": "2026-08-13T16:59:46.000Z",
+  "passed": false,
+  "text_sufficiency": null,
+  "evidence_completeness": "none",
+  "failures": [
+    {
+      "gate": "file",
+      "detail": "no primary document acquired"
+    },
+    {
+      "gate": "file",
+      "detail": "no extracted text layer at raw/<id>/document.md"
+    },
+    {
+      "gate": "evidence",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing)"
+    },
+    {
+      "gate": "fidelity",
+      "detail": "no independent critic pass (enriched/<id>/07-fidelity.json missing)"
+    },
+    {
+      "gate": "critical-review",
+      "detail": "no record to review"
+    }
+  ],
+  "warnings": [],
+  "manifest_discrepancies": []
+}

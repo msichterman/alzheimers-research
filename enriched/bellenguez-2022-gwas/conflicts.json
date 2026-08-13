@@ -1,0 +1,42 @@
+{
+  "id": "bellenguez-2022-gwas",
+  "prepared_at": "2026-08-13T16:55:51.035Z",
+  "instructions": "Two independent extractions of the same retrieved document disagree on these fields. For each conflict, decide against the document which reading is correct — or that both are, or neither is. You are not told which pipeline produced which reading, and you must not guess.",
+  "conflicts": [
+    {
+      "conflict_id": "bellenguez-2022-gwas#0",
+      "field": "study.n",
+      "reading_a": 111326,
+      "reading_b": 788989,
+      "note": null
+    },
+    {
+      "conflict_id": "bellenguez-2022-gwas#1",
+      "field": "primary_endpoint_status.status",
+      "reading_a": "not_applicable",
+      "reading_b": "met",
+      "note": null
+    },
+    {
+      "conflict_id": "bellenguez-2022-gwas#2",
+      "field": "multiplicity.approach",
+      "reading_a": "Genome-wide significance threshold of P ≤ 5 × 10 −8 in the combined stage I and stage II meta-analysis, plus a requirement for nominal association (P ≤ 0.05) and concordant direction of effect in stage II; PLINK clumping and conditional analyses defined independent signals; q values were used for the pathway gene-set analyses",
+      "reading_b": "correction for multiple testing",
+      "note": null
+    },
+    {
+      "conflict_id": "bellenguez-2022-gwas#3",
+      "field": "outcomes[primary].effect_estimate",
+      "reading_a": null,
+      "reading_b": "75 risk loci",
+      "note": "One reading found nothing here. Decide whether the document actually states this; 'neither' is correct if it does not."
+    },
+    {
+      "conflict_id": "bellenguez-2022-gwas#4",
+      "field": "outcomes[primary].confidence_interval",
+      "reading_a": null,
+      "reading_b": null,
+      "note": "One reading found nothing here. Decide whether the document actually states this; 'neither' is correct if it does not."
+    }
+  ]
+}

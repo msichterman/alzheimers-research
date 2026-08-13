@@ -1,0 +1,4648 @@
+{
+  "generated_at": "2026-08-13T16:51:07.787Z",
+  "count": 108,
+  "records": {
+    "lecanemab-clarity-ad": {
+      "id": "lecanemab-clarity-ad",
+      "cluster": "amyloid-antibody",
+      "type": "rct",
+      "acquired_at": "2026-08-13T16:50:34.409Z",
+      "canonical_doi": "10.1056/nejmoa2212948",
+      "primary": {
+        "role": "primary-substitute",
+        "nct": "NCT03887455",
+        "tier": 1,
+        "path": "sources/lecanemab-clarity-ad-nct03887455.json",
+        "extension": ".json",
+        "url": "https://clinicaltrials.gov/api/v2/studies/NCT03887455",
+        "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT03887455",
+        "content_type": "application/json",
+        "sha256": "e457103f6c3e42c7a3bc6ec436e3e8d59d54d4cca5442ff458e10a8a7f8547e9",
+        "bytes": 64112,
+        "observed_at": "2026-08-13T16:50:34.655Z",
+        "source": "ClinicalTrials.gov API v2",
+        "kind": "registry"
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT03887455",
+          "tier": 1,
+          "path": "sources/lecanemab-clarity-ad-nct03887455.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT03887455",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT03887455",
+          "content_type": "application/json",
+          "sha256": "e457103f6c3e42c7a3bc6ec436e3e8d59d54d4cca5442ff458e10a8a7f8547e9",
+          "bytes": 64112,
+          "observed_at": "2026-08-13T16:50:34.655Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT03887455",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        },
+        {
+          "tier": 2,
+          "kind": "publisher-oa-pdf",
+          "url": "https://digitalcommons.wustl.edu/oa_4/2191",
+          "ok": false,
+          "http_status": 200,
+          "reason": "PDF route returned an HTML page (paywall, consent wall or challenge)"
+        },
+        {
+          "tier": 2,
+          "kind": "publisher-oa-pdf",
+          "url": "https://www.nejm.org/doi/pdf/10.1056/NEJMoa2212948?articleTools=true",
+          "ok": false,
+          "http_status": 403,
+          "reason": "HTTP 403"
+        },
+        {
+          "tier": 2,
+          "kind": "publisher-oa-landing",
+          "url": "https://doi.org/10.1056/nejmoa2212948",
+          "ok": false,
+          "reason": "landing page is a citation target, not a primary document — not ingested as evidence"
+        }
+      ],
+      "evidence_completeness": "registry-substitute",
+      "quarantine": {
+        "reason": "version of record unreachable; registry record ingested in its place",
+        "canonical_doi": "10.1056/nejmoa2212948",
+        "blocked_routes": [
+          "publisher-oa-pdf 200 PDF route returned an HTML page (paywall, consent wall or challenge)",
+          "publisher-oa-pdf 403 HTTP 403",
+          "publisher-oa-landing  landing page is a citation target, not a primary document — not ingested as evidence"
+        ]
+      }
+    },
+    "donanemab-trailblazer-alz-2": {
+      "id": "donanemab-trailblazer-alz-2",
+      "cluster": "amyloid-antibody",
+      "type": "rct",
+      "acquired_at": "2026-08-13T16:50:34.409Z",
+      "canonical_doi": "10.1001/jama.2023.13239",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-efetch",
+        "note": "PubMed Central via E-utilities (includes NIH author manuscripts)",
+        "path": "sources/donanemab-trailblazer-alz-2.xml",
+        "extension": ".xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10352931&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10352931&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "content_type": "text/xml",
+        "sha256": "29b97b91460f735289162411c4a2239068418bf44260884bcf0f8e1a2799beae",
+        "bytes": 25860
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT04437511",
+          "tier": 1,
+          "path": "sources/donanemab-trailblazer-alz-2-nct04437511.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT04437511",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT04437511",
+          "content_type": "application/json",
+          "sha256": "0aee370094d2a4b1bcd88e89a0e5d9b68064edecb1337efd498861a99f77144b",
+          "bytes": 174936,
+          "observed_at": "2026-08-13T16:50:34.722Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT04437511",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10352931/fullTextXML",
+          "ok": false,
+          "http_status": 404,
+          "reason": "HTTP 404"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-efetch",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10352931&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "lecanemab-phase-2b": {
+      "id": "lecanemab-phase-2b",
+      "cluster": "amyloid-antibody",
+      "type": "rct",
+      "acquired_at": "2026-08-13T16:50:34.409Z",
+      "canonical_doi": "10.1186/s13195-021-00813-8",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/lecanemab-phase-2b.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8053280/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8053280/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "36a8c721ed1fd97e29b4475e279975eca58405724c500ed354a7e0b39eb631f6",
+        "bytes": 132009
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT01767311",
+          "tier": 1,
+          "path": "sources/lecanemab-phase-2b-nct01767311.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT01767311",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT01767311",
+          "content_type": "application/json",
+          "sha256": "6324396bb8433aebef359ddae447b7880705e2d64fccabf0372cbda1c783d217",
+          "bytes": 291215,
+          "observed_at": "2026-08-13T16:50:34.728Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT01767311",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        },
+        {
+          "tier": 2,
+          "kind": "publisher-oa-pdf",
+          "url": "https://alzres.biomedcentral.com/counter/pdf/10.1186/s13195-021-00813-8",
+          "ok": false,
+          "http_status": 200,
+          "reason": "PDF route returned an HTML page (paywall, consent wall or challenge)"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8053280/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "donanemab-trailblazer-alz-phase-2": {
+      "id": "donanemab-trailblazer-alz-phase-2",
+      "cluster": "amyloid-antibody",
+      "type": "rct",
+      "acquired_at": "2026-08-13T16:50:34.409Z",
+      "canonical_doi": "10.1056/nejmoa2100708",
+      "primary": {
+        "role": "primary-substitute",
+        "nct": "NCT03367403",
+        "tier": 1,
+        "path": "sources/donanemab-trailblazer-alz-phase-2-nct03367403.json",
+        "extension": ".json",
+        "url": "https://clinicaltrials.gov/api/v2/studies/NCT03367403",
+        "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT03367403",
+        "content_type": "application/json",
+        "sha256": "677f93266c04c56a80d5f5923399864fb1fc4cc9d89896443e006252a5300fb3",
+        "bytes": 243133,
+        "observed_at": "2026-08-13T16:50:34.775Z",
+        "source": "ClinicalTrials.gov API v2",
+        "kind": "registry"
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT03367403",
+          "tier": 1,
+          "path": "sources/donanemab-trailblazer-alz-phase-2-nct03367403.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT03367403",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT03367403",
+          "content_type": "application/json",
+          "sha256": "677f93266c04c56a80d5f5923399864fb1fc4cc9d89896443e006252a5300fb3",
+          "bytes": 243133,
+          "observed_at": "2026-08-13T16:50:34.775Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT03367403",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        },
+        {
+          "tier": 2,
+          "kind": "publisher-oa-pdf",
+          "url": "https://www.nejm.org/doi/pdf/10.1056/NEJMoa2100708?articleTools=true",
+          "ok": false,
+          "http_status": 403,
+          "reason": "HTTP 403"
+        },
+        {
+          "tier": 2,
+          "kind": "publisher-oa-landing",
+          "url": "https://doi.org/10.1056/nejmoa2100708",
+          "ok": false,
+          "reason": "landing page is a citation target, not a primary document — not ingested as evidence"
+        }
+      ],
+      "evidence_completeness": "registry-substitute",
+      "quarantine": {
+        "reason": "version of record unreachable; registry record ingested in its place",
+        "canonical_doi": "10.1056/nejmoa2100708",
+        "blocked_routes": [
+          "publisher-oa-pdf 403 HTTP 403",
+          "publisher-oa-landing  landing page is a citation target, not a primary document — not ingested as evidence"
+        ]
+      }
+    },
+    "aducanumab-emerge-engage": {
+      "id": "aducanumab-emerge-engage",
+      "cluster": "amyloid-antibody",
+      "type": "rct",
+      "acquired_at": "2026-08-13T16:50:34.830Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary-substitute",
+        "nct": "NCT02484547",
+        "tier": 1,
+        "path": "sources/aducanumab-emerge-engage-nct02484547.json",
+        "extension": ".json",
+        "url": "https://clinicaltrials.gov/api/v2/studies/NCT02484547",
+        "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT02484547",
+        "content_type": "application/json",
+        "sha256": "f5a2451a609771772c926bfe4e44b0768c6de226f193e6c8dbdac6e0e3c9852b",
+        "bytes": 219025,
+        "observed_at": "2026-08-13T16:50:34.930Z",
+        "source": "ClinicalTrials.gov API v2",
+        "kind": "registry"
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT02484547",
+          "tier": 1,
+          "path": "sources/aducanumab-emerge-engage-nct02484547.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT02484547",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT02484547",
+          "content_type": "application/json",
+          "sha256": "f5a2451a609771772c926bfe4e44b0768c6de226f193e6c8dbdac6e0e3c9852b",
+          "bytes": 219025,
+          "observed_at": "2026-08-13T16:50:34.930Z",
+          "source": "ClinicalTrials.gov API v2"
+        },
+        {
+          "role": "registry",
+          "nct": "NCT02477800",
+          "tier": 1,
+          "path": "sources/aducanumab-emerge-engage-nct02477800.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT02477800",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT02477800",
+          "content_type": "application/json",
+          "sha256": "c2a722144cf2352170fb06f8fcacbdaef0d346b76cad70f469368d9fb5f17203",
+          "bytes": 224713,
+          "observed_at": "2026-08-13T16:50:35.109Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT02484547",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        },
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT02477800",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "registry-substitute",
+      "quarantine": {
+        "reason": "version of record unreachable; registry record ingested in its place",
+        "canonical_doi": null,
+        "blocked_routes": []
+      }
+    },
+    "aducanumab-phase-1b-prime": {
+      "id": "aducanumab-phase-1b-prime",
+      "cluster": "amyloid-antibody",
+      "type": "rct",
+      "acquired_at": "2026-08-13T16:50:35.109Z",
+      "canonical_doi": "10.1038/nature19323",
+      "primary": {
+        "role": "primary-substitute",
+        "nct": "NCT01677572",
+        "tier": 1,
+        "path": "sources/aducanumab-phase-1b-prime-nct01677572.json",
+        "extension": ".json",
+        "url": "https://clinicaltrials.gov/api/v2/studies/NCT01677572",
+        "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT01677572",
+        "content_type": "application/json",
+        "sha256": "23cc5f39967c7469b0d02738b7f9d557c74ba65173b8aad74a35da8ccc83a9cf",
+        "bytes": 20093,
+        "observed_at": "2026-08-13T16:50:35.239Z",
+        "source": "ClinicalTrials.gov API v2",
+        "kind": "registry"
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT01677572",
+          "tier": 1,
+          "path": "sources/aducanumab-phase-1b-prime-nct01677572.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT01677572",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT01677572",
+          "content_type": "application/json",
+          "sha256": "23cc5f39967c7469b0d02738b7f9d557c74ba65173b8aad74a35da8ccc83a9cf",
+          "bytes": 20093,
+          "observed_at": "2026-08-13T16:50:35.239Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT01677572",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        },
+        {
+          "tier": 4,
+          "kind": "publisher-landing",
+          "url": "https://doi.org/10.1038/nature19323",
+          "ok": false,
+          "reason": "landing page is a citation target, not a primary document — not ingested as evidence"
+        }
+      ],
+      "evidence_completeness": "registry-substitute",
+      "quarantine": {
+        "reason": "version of record unreachable; registry record ingested in its place",
+        "canonical_doi": "10.1038/nature19323",
+        "blocked_routes": [
+          "publisher-landing  landing page is a citation target, not a primary document — not ingested as evidence"
+        ]
+      }
+    },
+    "gantenerumab-graduate": {
+      "id": "gantenerumab-graduate",
+      "cluster": "amyloid-antibody",
+      "type": "rct",
+      "acquired_at": "2026-08-13T16:50:35.240Z",
+      "canonical_doi": "10.1056/nejmoa2304430",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-efetch",
+        "note": "PubMed Central via E-utilities (includes NIH author manuscripts)",
+        "path": "sources/gantenerumab-graduate.xml",
+        "extension": ".xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10794000&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10794000&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "content_type": "text/xml",
+        "sha256": "6ee18ccd189d7d0746ae5c782f42bcb951323fceb0192a530d89163f726bbfa7",
+        "bytes": 114792
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT03444870",
+          "tier": 1,
+          "path": "sources/gantenerumab-graduate-nct03444870.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT03444870",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT03444870",
+          "content_type": "application/json",
+          "sha256": "bca051091b328f4df5f1e6a7e06d9fd8184e845c7f131294d12bc17c50b5d0a8",
+          "bytes": 303867,
+          "observed_at": "2026-08-13T16:50:35.394Z",
+          "source": "ClinicalTrials.gov API v2"
+        },
+        {
+          "role": "registry",
+          "nct": "NCT03443973",
+          "tier": 1,
+          "path": "sources/gantenerumab-graduate-nct03443973.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT03443973",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT03443973",
+          "content_type": "application/json",
+          "sha256": "0cb416e13da732f3b46c8b2a69520f0b129787ea66b93cd913bc3cc49a12bbc4",
+          "bytes": 199192,
+          "observed_at": "2026-08-13T16:50:35.593Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT03444870",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        },
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT03443973",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10794000/fullTextXML",
+          "ok": false,
+          "http_status": 404,
+          "reason": "HTTP 404"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-efetch",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10794000&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "solanezumab-a4-prevention": {
+      "id": "solanezumab-a4-prevention",
+      "cluster": "amyloid-antibody",
+      "type": "rct",
+      "acquired_at": "2026-08-13T16:50:35.302Z",
+      "canonical_doi": "10.1056/nejmoa2305032",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-efetch",
+        "note": "PubMed Central via E-utilities (includes NIH author manuscripts)",
+        "path": "sources/solanezumab-a4-prevention.xml",
+        "extension": ".xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10559996&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10559996&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "content_type": "text/xml",
+        "sha256": "d5097797d9b1927570d567dfe099ecb95597d90f7e169b4c5c354b50023dfcc1",
+        "bytes": 93491
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT02008357",
+          "tier": 1,
+          "path": "sources/solanezumab-a4-prevention-nct02008357.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT02008357",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT02008357",
+          "content_type": "application/json",
+          "sha256": "cefdac5b31571e174531196ad958bdee90a1e1ae5dc44c6a43d2f5140f664c07",
+          "bytes": 289153,
+          "observed_at": "2026-08-13T16:50:35.389Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT02008357",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10559996/fullTextXML",
+          "ok": false,
+          "http_status": 404,
+          "reason": "HTTP 404"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-efetch",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10559996&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "solanezumab-expedition": {
+      "id": "solanezumab-expedition",
+      "cluster": "amyloid-antibody",
+      "type": "rct",
+      "acquired_at": "2026-08-13T16:50:35.589Z",
+      "canonical_doi": "10.1056/nejmoa1312889",
+      "primary": null,
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "publisher-oa-pdf",
+          "url": "https://www.nejm.org/doi/pdf/10.1056/NEJMoa1312889?articleTools=true",
+          "ok": false,
+          "http_status": 403,
+          "reason": "HTTP 403"
+        },
+        {
+          "tier": 2,
+          "kind": "publisher-oa-landing",
+          "url": "https://doi.org/10.1056/nejmoa1312889",
+          "ok": false,
+          "reason": "landing page is a citation target, not a primary document — not ingested as evidence"
+        }
+      ],
+      "evidence_completeness": "none",
+      "quarantine": {
+        "reason": "no acquisition route returned a usable primary document",
+        "canonical_doi": "10.1056/nejmoa1312889",
+        "blocked_routes": [
+          "publisher-oa-pdf 403 HTTP 403",
+          "publisher-oa-landing  landing page is a citation target, not a primary document — not ingested as evidence"
+        ]
+      }
+    },
+    "bapineuzumab-phase-3": {
+      "id": "bapineuzumab-phase-3",
+      "cluster": "amyloid-antibody",
+      "type": "rct",
+      "acquired_at": "2026-08-13T16:50:35.624Z",
+      "canonical_doi": "10.1056/nejmoa1304839",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-efetch",
+        "note": "PubMed Central via E-utilities (includes NIH author manuscripts)",
+        "path": "sources/bapineuzumab-phase-3.xml",
+        "extension": ".xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=4159618&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=4159618&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "content_type": "text/xml",
+        "sha256": "e890c9e9a3c795b94ea981ee466ccb0b0313120e5e661dbd53e86a8627b9adee",
+        "bytes": 97955
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4159618/fullTextXML",
+          "ok": false,
+          "http_status": 404,
+          "reason": "HTTP 404"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-efetch",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=4159618&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "verubecestat-epoch": {
+      "id": "verubecestat-epoch",
+      "cluster": "bace",
+      "type": "rct",
+      "acquired_at": "2026-08-13T16:50:35.873Z",
+      "canonical_doi": "10.1056/nejmoa1706441",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-efetch",
+        "note": "PubMed Central via E-utilities (includes NIH author manuscripts)",
+        "path": "sources/verubecestat-epoch.xml",
+        "extension": ".xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6776074&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6776074&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "content_type": "text/xml",
+        "sha256": "e6393c113917daecb43b5f9773dcddff574882bf863637adac5d821119766cc8",
+        "bytes": 110245
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT01739348",
+          "tier": 1,
+          "path": "sources/verubecestat-epoch-nct01739348.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT01739348",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT01739348",
+          "content_type": "application/json",
+          "sha256": "5f2e005cc66bfb00263384e56161bb434108e3d3837d2a11dad0998e516f89b3",
+          "bytes": 384307,
+          "observed_at": "2026-08-13T16:50:35.937Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT01739348",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6776074/fullTextXML",
+          "ok": false,
+          "http_status": 404,
+          "reason": "HTTP 404"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-efetch",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6776074&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "verubecestat-apecs": {
+      "id": "verubecestat-apecs",
+      "cluster": "bace",
+      "type": "rct",
+      "acquired_at": "2026-08-13T16:50:35.885Z",
+      "canonical_doi": "10.1056/nejmoa1812840",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-efetch",
+        "note": "PubMed Central via E-utilities (includes NIH author manuscripts)",
+        "path": "sources/verubecestat-apecs.xml",
+        "extension": ".xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6776078&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6776078&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "content_type": "text/xml",
+        "sha256": "1bc643984a5d342b522ae03894763b34deda0a627766cf0effeae89b6e45ca4d",
+        "bytes": 112566
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT01953601",
+          "tier": 1,
+          "path": "sources/verubecestat-apecs-nct01953601.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT01953601",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT01953601",
+          "content_type": "application/json",
+          "sha256": "6add7f6762f519ce1dc835afce7ad84493c28e733afb09e24e84712602c7c1f0",
+          "bytes": 283957,
+          "observed_at": "2026-08-13T16:50:36.155Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT01953601",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6776078/fullTextXML",
+          "ok": false,
+          "http_status": 404,
+          "reason": "HTTP 404"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-efetch",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6776078&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "lanabecestat-amaranth-daybreak": {
+      "id": "lanabecestat-amaranth-daybreak",
+      "cluster": "bace",
+      "type": "rct",
+      "acquired_at": "2026-08-13T16:50:36.196Z",
+      "canonical_doi": "10.1001/jamaneurol.2019.3988",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/lanabecestat-amaranth-daybreak.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6902191/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6902191/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "045d6e450178004788df83240a4b6c56e35eca7138bd23dcf38a5993f7f5e720",
+        "bytes": 133896
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6902191/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "semaglutide-evoke": {
+      "id": "semaglutide-evoke",
+      "cluster": "amyloid-antibody",
+      "type": "rct",
+      "acquired_at": "2026-08-13T16:50:36.525Z",
+      "canonical_doi": "10.1016/s0140-6736(26)00459-9",
+      "primary": {
+        "role": "primary-substitute",
+        "nct": "NCT04777396",
+        "tier": 1,
+        "path": "sources/semaglutide-evoke-nct04777396.json",
+        "extension": ".json",
+        "url": "https://clinicaltrials.gov/api/v2/studies/NCT04777396",
+        "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT04777396",
+        "content_type": "application/json",
+        "sha256": "8222bde89385d59fcfe74fb5713dd2391b8653e1974dccacd5565dd034827d02",
+        "bytes": 90326,
+        "observed_at": "2026-08-13T16:50:37.295Z",
+        "source": "ClinicalTrials.gov API v2",
+        "kind": "registry"
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT04777396",
+          "tier": 1,
+          "path": "sources/semaglutide-evoke-nct04777396.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT04777396",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT04777396",
+          "content_type": "application/json",
+          "sha256": "8222bde89385d59fcfe74fb5713dd2391b8653e1974dccacd5565dd034827d02",
+          "bytes": 90326,
+          "observed_at": "2026-08-13T16:50:37.295Z",
+          "source": "ClinicalTrials.gov API v2"
+        },
+        {
+          "role": "registry",
+          "nct": "NCT04777409",
+          "tier": 1,
+          "path": "sources/semaglutide-evoke-nct04777409.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT04777409",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT04777409",
+          "content_type": "application/json",
+          "sha256": "b82b42ee8fedf8d9dce018c6cfd34f42ad7a951c26afb3828286dc49997126e3",
+          "bytes": 98298,
+          "observed_at": "2026-08-13T16:50:37.358Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT04777396",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        },
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT04777409",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        },
+        {
+          "tier": 2,
+          "kind": "publisher-oa-landing",
+          "url": "https://doi.org/10.1016/s0140-6736(26)00459-9",
+          "ok": false,
+          "reason": "landing page is a citation target, not a primary document — not ingested as evidence"
+        }
+      ],
+      "evidence_completeness": "registry-substitute",
+      "quarantine": {
+        "reason": "version of record unreachable; registry record ingested in its place",
+        "canonical_doi": "10.1016/s0140-6736(26)00459-9",
+        "blocked_routes": [
+          "publisher-oa-landing  landing page is a citation target, not a primary document — not ingested as evidence"
+        ]
+      }
+    },
+    "trontinemab-brainshuttle-registry": {
+      "id": "trontinemab-brainshuttle-registry",
+      "cluster": "amyloid-antibody",
+      "type": "registry",
+      "acquired_at": "2026-08-13T16:50:37.359Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "nct": "NCT04639050",
+        "tier": 1,
+        "path": "sources/trontinemab-brainshuttle-registry-nct04639050.json",
+        "extension": ".json",
+        "url": "https://clinicaltrials.gov/api/v2/studies/NCT04639050",
+        "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT04639050",
+        "content_type": "application/json",
+        "sha256": "de464af6e3860d80822b9a3ebe2b168e79591766a6ace52d26b6139e0909f19f",
+        "bytes": 23490,
+        "observed_at": "2026-08-13T16:50:37.507Z",
+        "source": "ClinicalTrials.gov API v2",
+        "kind": "registry",
+        "note": "official structured trial record"
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT04639050",
+          "tier": 1,
+          "path": "sources/trontinemab-brainshuttle-registry-nct04639050.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT04639050",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT04639050",
+          "content_type": "application/json",
+          "sha256": "de464af6e3860d80822b9a3ebe2b168e79591766a6ace52d26b6139e0909f19f",
+          "bytes": 23490,
+          "observed_at": "2026-08-13T16:50:37.507Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT04639050",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "registry-only",
+      "quarantine": null
+    },
+    "trontier-1-registry": {
+      "id": "trontier-1-registry",
+      "cluster": "amyloid-antibody",
+      "type": "registry",
+      "acquired_at": "2026-08-13T16:50:37.507Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "nct": "NCT07169578",
+        "tier": 1,
+        "path": "sources/trontier-1-registry-nct07169578.json",
+        "extension": ".json",
+        "url": "https://clinicaltrials.gov/api/v2/studies/NCT07169578",
+        "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT07169578",
+        "content_type": "application/json",
+        "sha256": "fad9bc7b2fc80c3da9905fc07f9f26fa7d07034110eb2610f89165fe1068635a",
+        "bytes": 34349,
+        "observed_at": "2026-08-13T16:50:37.726Z",
+        "source": "ClinicalTrials.gov API v2",
+        "kind": "registry",
+        "note": "official structured trial record"
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT07169578",
+          "tier": 1,
+          "path": "sources/trontier-1-registry-nct07169578.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT07169578",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT07169578",
+          "content_type": "application/json",
+          "sha256": "fad9bc7b2fc80c3da9905fc07f9f26fa7d07034110eb2610f89165fe1068635a",
+          "bytes": 34349,
+          "observed_at": "2026-08-13T16:50:37.726Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT07169578",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "registry-only",
+      "quarantine": null
+    },
+    "trontier-2-registry": {
+      "id": "trontier-2-registry",
+      "cluster": "amyloid-antibody",
+      "type": "registry",
+      "acquired_at": "2026-08-13T16:50:37.681Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "nct": "NCT07170150",
+        "tier": 1,
+        "path": "sources/trontier-2-registry-nct07170150.json",
+        "extension": ".json",
+        "url": "https://clinicaltrials.gov/api/v2/studies/NCT07170150",
+        "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT07170150",
+        "content_type": "application/json",
+        "sha256": "364d46ae773ee88771966d8601f4ab72b5a1637a94da05156ac5196e33f3bf22",
+        "bytes": 35401,
+        "observed_at": "2026-08-13T16:50:37.857Z",
+        "source": "ClinicalTrials.gov API v2",
+        "kind": "registry",
+        "note": "official structured trial record"
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT07170150",
+          "tier": 1,
+          "path": "sources/trontier-2-registry-nct07170150.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT07170150",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT07170150",
+          "content_type": "application/json",
+          "sha256": "364d46ae773ee88771966d8601f4ab72b5a1637a94da05156ac5196e33f3bf22",
+          "bytes": 35401,
+          "observed_at": "2026-08-13T16:50:37.857Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT07170150",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "registry-only",
+      "quarantine": null
+    },
+    "trailrunner-alz-1-registry": {
+      "id": "trailrunner-alz-1-registry",
+      "cluster": "amyloid-antibody",
+      "type": "registry",
+      "acquired_at": "2026-08-13T16:50:37.726Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "nct": "NCT05463731",
+        "tier": 1,
+        "path": "sources/trailrunner-alz-1-registry-nct05463731.json",
+        "extension": ".json",
+        "url": "https://clinicaltrials.gov/api/v2/studies/NCT05463731",
+        "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT05463731",
+        "content_type": "application/json",
+        "sha256": "2c6fa0ea2c4e08b5c1de7c0f0fdd590b87356fdfc85a615a673de9c058b538e1",
+        "bytes": 23384,
+        "observed_at": "2026-08-13T16:50:37.856Z",
+        "source": "ClinicalTrials.gov API v2",
+        "kind": "registry",
+        "note": "official structured trial record"
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT05463731",
+          "tier": 1,
+          "path": "sources/trailrunner-alz-1-registry-nct05463731.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT05463731",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT05463731",
+          "content_type": "application/json",
+          "sha256": "2c6fa0ea2c4e08b5c1de7c0f0fdd590b87356fdfc85a615a673de9c058b538e1",
+          "bytes": 23384,
+          "observed_at": "2026-08-13T16:50:37.856Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT05463731",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "registry-only",
+      "quarantine": null
+    },
+    "remternetug-prevention-registry": {
+      "id": "remternetug-prevention-registry",
+      "cluster": "amyloid-antibody",
+      "type": "registry",
+      "acquired_at": "2026-08-13T16:50:37.856Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "nct": "NCT06653153",
+        "tier": 1,
+        "path": "sources/remternetug-prevention-registry-nct06653153.json",
+        "extension": ".json",
+        "url": "https://clinicaltrials.gov/api/v2/studies/NCT06653153",
+        "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT06653153",
+        "content_type": "application/json",
+        "sha256": "2055046871a5ab9ebfd293486b4e48045a866b2f0c68f580e4e9250751beb9dc",
+        "bytes": 49849,
+        "observed_at": "2026-08-13T16:50:37.959Z",
+        "source": "ClinicalTrials.gov API v2",
+        "kind": "registry",
+        "note": "official structured trial record"
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT06653153",
+          "tier": 1,
+          "path": "sources/remternetug-prevention-registry-nct06653153.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT06653153",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT06653153",
+          "content_type": "application/json",
+          "sha256": "2055046871a5ab9ebfd293486b4e48045a866b2f0c68f580e4e9250751beb9dc",
+          "bytes": 49849,
+          "observed_at": "2026-08-13T16:50:37.959Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT06653153",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "registry-only",
+      "quarantine": null
+    },
+    "sabirnetug-intercept-ad": {
+      "id": "sabirnetug-intercept-ad",
+      "cluster": "amyloid-antibody",
+      "type": "rct",
+      "acquired_at": "2026-08-13T16:50:37.857Z",
+      "canonical_doi": "10.1016/j.tjpad.2024.100005",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/sabirnetug-intercept-ad.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12184067/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12184067/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "e534fda9f9f882417d9a491538e53493645f1f70ea5b45a88c436db8449a49f6",
+        "bytes": 115293
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12184067/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "altitude-ad-registry": {
+      "id": "altitude-ad-registry",
+      "cluster": "amyloid-antibody",
+      "type": "registry",
+      "acquired_at": "2026-08-13T16:50:37.913Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "nct": "NCT06335173",
+        "tier": 1,
+        "path": "sources/altitude-ad-registry-nct06335173.json",
+        "extension": ".json",
+        "url": "https://clinicaltrials.gov/api/v2/studies/NCT06335173",
+        "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT06335173",
+        "content_type": "application/json",
+        "sha256": "8c9049092d1bd5051bc259dfde2cefd846a6e61079a3fd0a69f286f4d2ca9cb9",
+        "bytes": 31520,
+        "observed_at": "2026-08-13T16:50:38.204Z",
+        "source": "ClinicalTrials.gov API v2",
+        "kind": "registry",
+        "note": "official structured trial record"
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT06335173",
+          "tier": 1,
+          "path": "sources/altitude-ad-registry-nct06335173.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT06335173",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT06335173",
+          "content_type": "application/json",
+          "sha256": "8c9049092d1bd5051bc259dfde2cefd846a6e61079a3fd0a69f286f4d2ca9cb9",
+          "bytes": 31520,
+          "observed_at": "2026-08-13T16:50:38.204Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT06335173",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "registry-only",
+      "quarantine": null
+    },
+    "cochrane-anti-amyloid-2026": {
+      "id": "cochrane-anti-amyloid-2026",
+      "cluster": "amyloid-antibody",
+      "type": "systematic-review",
+      "acquired_at": "2026-08-13T16:50:37.959Z",
+      "canonical_doi": "10.1002/14651858.cd016297",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/cochrane-anti-amyloid-2026.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13082890/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13082890/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "ca22d7a870e3569204f03139ffbf21f7c4569786793b6ad3d5a9270d4869022d",
+        "bytes": 362601
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13082890/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "aria-aducanumab-emerge-engage": {
+      "id": "aria-aducanumab-emerge-engage",
+      "cluster": "amyloid-antibody",
+      "type": "safety-analysis",
+      "acquired_at": "2026-08-13T16:50:38.204Z",
+      "canonical_doi": "10.1001/jamaneurol.2021.4161",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/aria-aducanumab-emerge-engage.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8609465/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8609465/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "dfac3ecab3af72959c7b95bc70bf3b4e0bc610ce7611d46ded503bf7ed227c8b",
+        "bytes": 103596
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8609465/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "fda-leqembi-traditional-approval": {
+      "id": "fda-leqembi-traditional-approval",
+      "cluster": "regulatory",
+      "type": "regulatory",
+      "acquired_at": "2026-08-13T16:50:38.209Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "tier": 1,
+        "kind": "regulator",
+        "note": "work-order endpoint, verified live (regulator)",
+        "path": "sources/fda-leqembi-traditional-approval.html",
+        "extension": ".html",
+        "url": "https://www.fda.gov/news-events/press-announcements/fda-converts-novel-alzheimers-disease-treatment-traditional-approval",
+        "final_url": "https://www.fda.gov/news-events/press-announcements/fda-converts-novel-alzheimers-disease-treatment-traditional-approval",
+        "content_type": "text/html",
+        "sha256": "d13c52300641a044e270c80a6395e06408a17bb7c871a7c6ffb3c69cf26f331a",
+        "bytes": 38870
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "regulator",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-converts-novel-alzheimers-disease-treatment-traditional-approval",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "regulator-or-registry",
+      "quarantine": null
+    },
+    "fda-leqembi-approval-letter-traditional": {
+      "id": "fda-leqembi-approval-letter-traditional",
+      "cluster": "regulatory",
+      "type": "regulatory",
+      "acquired_at": "2026-08-13T16:50:38.469Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "tier": 1,
+        "kind": "regulator",
+        "note": "work-order endpoint, verified live (regulator)",
+        "path": "sources/fda-leqembi-approval-letter-traditional.pdf",
+        "extension": ".pdf",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/761269Orig1s001ltr.pdf",
+        "final_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/761269Orig1s001ltr.pdf",
+        "content_type": "application/pdf",
+        "sha256": "bd7bec6c00cddc20a721ae0e2cfddcfab903b234b3d89736013a39c309c441ce",
+        "bytes": 569025
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "regulator",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/761269Orig1s001ltr.pdf",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "regulator-or-registry",
+      "quarantine": null
+    },
+    "fda-leqembi-review-traditional": {
+      "id": "fda-leqembi-review-traditional",
+      "cluster": "regulatory",
+      "type": "regulatory",
+      "acquired_at": "2026-08-13T16:50:38.516Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "tier": 1,
+        "kind": "regulator",
+        "note": "work-order endpoint, verified live (regulator)",
+        "path": "sources/fda-leqembi-review-traditional.pdf",
+        "extension": ".pdf",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/761269Orig1s001.pdf",
+        "final_url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/761269Orig1s001.pdf",
+        "content_type": "application/pdf",
+        "sha256": "e74fb0d9c8a01c058b03d654cd8b9d6a4f2a5d07b8e21149a6e46d5c4609b747",
+        "bytes": 15940454
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "regulator",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/761269Orig1s001.pdf",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "regulator-or-registry",
+      "quarantine": null
+    },
+    "fda-leqembi-label-traditional": {
+      "id": "fda-leqembi-label-traditional",
+      "cluster": "regulatory",
+      "type": "regulatory",
+      "acquired_at": "2026-08-13T16:50:38.722Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "tier": 1,
+        "kind": "regulator",
+        "note": "work-order endpoint, verified live (regulator)",
+        "path": "sources/fda-leqembi-label-traditional.pdf",
+        "extension": ".pdf",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/761269Orig1s001lbl.pdf",
+        "final_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/761269Orig1s001lbl.pdf",
+        "content_type": "application/pdf",
+        "sha256": "d1908d5e122ba1289c70e2fbf9f4185b32d6a6447c92672101a59b4fd8f1e53b",
+        "bytes": 1096986
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "regulator",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/761269Orig1s001lbl.pdf",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "regulator-or-registry",
+      "quarantine": null
+    },
+    "fda-leqembi-summary-review-accelerated": {
+      "id": "fda-leqembi-summary-review-accelerated",
+      "cluster": "regulatory",
+      "type": "regulatory",
+      "acquired_at": "2026-08-13T16:50:38.827Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "tier": 1,
+        "kind": "regulator",
+        "note": "work-order endpoint, verified live (regulator)",
+        "path": "sources/fda-leqembi-summary-review-accelerated.pdf",
+        "extension": ".pdf",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/summary_review/2023/761269Orig1s000SumR.pdf",
+        "final_url": "https://www.accessdata.fda.gov/drugsatfda_docs/summary_review/2023/761269Orig1s000SumR.pdf",
+        "content_type": "application/pdf",
+        "sha256": "5de24982c0393fb7675fc588d770aa63a0343cabc41a2f1e62661bcc961401e9",
+        "bytes": 1823000
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "regulator",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/summary_review/2023/761269Orig1s000SumR.pdf",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "regulator-or-registry",
+      "quarantine": null
+    },
+    "fda-leqembi-label-current": {
+      "id": "fda-leqembi-label-current",
+      "cluster": "regulatory",
+      "type": "regulatory",
+      "acquired_at": "2026-08-13T16:50:38.955Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "tier": 1,
+        "kind": "regulator",
+        "note": "work-order endpoint, verified live (regulator)",
+        "path": "sources/fda-leqembi-label-current.pdf",
+        "extension": ".pdf",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761269s011lbl.pdf",
+        "final_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761269s011lbl.pdf",
+        "content_type": "application/pdf",
+        "sha256": "9635683bd78e35fc465113d9d6b5123dc0724831a78d04f27403b8c1633c9aea",
+        "bytes": 1784701
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "regulator",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761269s011lbl.pdf",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "regulator-or-registry",
+      "quarantine": null
+    },
+    "fda-kisunla-approval-letter": {
+      "id": "fda-kisunla-approval-letter",
+      "cluster": "regulatory",
+      "type": "regulatory",
+      "acquired_at": "2026-08-13T16:50:39.520Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "tier": 1,
+        "kind": "regulator",
+        "note": "work-order endpoint, verified live (regulator)",
+        "path": "sources/fda-kisunla-approval-letter.pdf",
+        "extension": ".pdf",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/761248Orig1s000ltr.pdf",
+        "final_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/761248Orig1s000ltr.pdf",
+        "content_type": "application/pdf",
+        "sha256": "f88317e7252808fbe9bb33e48ba777327ce29563fcf60f1d2981ccef1e01b2e3",
+        "bytes": 553278
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "regulator",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/761248Orig1s000ltr.pdf",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "regulator-or-registry",
+      "quarantine": null
+    },
+    "fda-kisunla-statistical-review": {
+      "id": "fda-kisunla-statistical-review",
+      "cluster": "regulatory",
+      "type": "regulatory",
+      "acquired_at": "2026-08-13T16:50:39.669Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "tier": 1,
+        "kind": "regulator",
+        "note": "work-order endpoint, verified live (regulator)",
+        "path": "sources/fda-kisunla-statistical-review.pdf",
+        "extension": ".pdf",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/761248Orig1s000StatR.pdf",
+        "final_url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/761248Orig1s000StatR.pdf",
+        "content_type": "application/pdf",
+        "sha256": "024565fe8c129d3ef9c80343a8f5f240c0636217e8838c8eb9a1829eb7c82787",
+        "bytes": 4996927
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "regulator",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/761248Orig1s000StatR.pdf",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "regulator-or-registry",
+      "quarantine": null
+    },
+    "fda-kisunla-risk-review": {
+      "id": "fda-kisunla-risk-review",
+      "cluster": "regulatory",
+      "type": "regulatory",
+      "acquired_at": "2026-08-13T16:50:39.840Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "tier": 1,
+        "kind": "regulator",
+        "note": "work-order endpoint, verified live (regulator)",
+        "path": "sources/fda-kisunla-risk-review.pdf",
+        "extension": ".pdf",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/761248Orig1s000RiskR.pdf",
+        "final_url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/761248Orig1s000RiskR.pdf",
+        "content_type": "application/pdf",
+        "sha256": "b5583995c8c6e8ac46fa640dc97f94bf870db2cc7e50477d4e5ab3a8906122b4",
+        "bytes": 582595
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "regulator",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/761248Orig1s000RiskR.pdf",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "regulator-or-registry",
+      "quarantine": null
+    },
+    "fda-kisunla-label": {
+      "id": "fda-kisunla-label",
+      "cluster": "regulatory",
+      "type": "regulatory",
+      "acquired_at": "2026-08-13T16:50:40.166Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "tier": 1,
+        "kind": "regulator",
+        "note": "work-order endpoint, verified live (regulator)",
+        "path": "sources/fda-kisunla-label.pdf",
+        "extension": ".pdf",
+        "url": "https://www.fda.gov/media/180803/download",
+        "final_url": "https://www.fda.gov/media/180803/download",
+        "content_type": "application/pdf",
+        "sha256": "54cd9855816af3052ed621d37ed476ce69474d3e811fc21a0202b9c2c1cb7fa2",
+        "bytes": 877274
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "regulator",
+          "url": "https://www.fda.gov/media/180803/download",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "regulator-or-registry",
+      "quarantine": null
+    },
+    "ema-leqembi-epar": {
+      "id": "ema-leqembi-epar",
+      "cluster": "regulatory",
+      "type": "regulatory",
+      "acquired_at": "2026-08-13T16:50:40.327Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "tier": 1,
+        "kind": "regulator",
+        "note": "work-order endpoint, verified live (regulator)",
+        "path": "sources/ema-leqembi-epar.html",
+        "extension": ".html",
+        "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/leqembi",
+        "final_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/leqembi",
+        "content_type": "text/html",
+        "sha256": "b08910c13a70a16697d939aa8e19dfbbd4f33252d2ef2e517100310f70ef84f8",
+        "bytes": 218785
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "regulator",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/leqembi",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "regulator-or-registry",
+      "quarantine": null
+    },
+    "ema-kisunla-epar": {
+      "id": "ema-kisunla-epar",
+      "cluster": "regulatory",
+      "type": "regulatory",
+      "acquired_at": "2026-08-13T16:50:40.472Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "tier": 1,
+        "kind": "regulator",
+        "note": "work-order endpoint, verified live (regulator)",
+        "path": "sources/ema-kisunla-epar.pdf",
+        "extension": ".pdf",
+        "url": "https://www.ema.europa.eu/en/documents/assessment-report/kisunla-epar-public-assessment-report_en.pdf",
+        "final_url": "https://www.ema.europa.eu/en/documents/assessment-report/kisunla-epar-public-assessment-report_en.pdf",
+        "content_type": "application/pdf",
+        "sha256": "da0112d302972b853ab5fb167cac0cdd138354837073ce1c7c3f89b9e43d535d",
+        "bytes": 6563313
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "regulator",
+          "url": "https://www.ema.europa.eu/en/documents/assessment-report/kisunla-epar-public-assessment-report_en.pdf",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "regulator-or-registry",
+      "quarantine": null
+    },
+    "maptrx-antisense-tau": {
+      "id": "maptrx-antisense-tau",
+      "cluster": "tau",
+      "type": "rct",
+      "acquired_at": "2026-08-13T16:50:40.536Z",
+      "canonical_doi": "10.1038/s41591-023-02326-3",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/maptrx-antisense-tau.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10287562/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10287562/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "e0c72e3ff102380a245ead13089b2831c9dbb753dc27dbf3c52a5e73bcbf652b",
+        "bytes": 143864
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT03186989",
+          "tier": 1,
+          "path": "sources/maptrx-antisense-tau-nct03186989.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT03186989",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT03186989",
+          "content_type": "application/json",
+          "sha256": "0deebc3d630be126e0a712da370803e24425313e5d4ee54c776923b4374dc123",
+          "bytes": 167281,
+          "observed_at": "2026-08-13T16:50:40.610Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT03186989",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10287562/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "celia-biib080-registry": {
+      "id": "celia-biib080-registry",
+      "cluster": "tau",
+      "type": "registry",
+      "acquired_at": "2026-08-13T16:50:40.937Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "nct": "NCT05399888",
+        "tier": 1,
+        "path": "sources/celia-biib080-registry-nct05399888.json",
+        "extension": ".json",
+        "url": "https://clinicaltrials.gov/api/v2/studies/NCT05399888",
+        "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT05399888",
+        "content_type": "application/json",
+        "sha256": "c93619bdf8666e17cd25beba6c7edbd7dc636787a5a17c0809f8e74445d01c2c",
+        "bytes": 41447,
+        "observed_at": "2026-08-13T16:50:40.997Z",
+        "source": "ClinicalTrials.gov API v2",
+        "kind": "registry",
+        "note": "official structured trial record"
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT05399888",
+          "tier": 1,
+          "path": "sources/celia-biib080-registry-nct05399888.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT05399888",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT05399888",
+          "content_type": "application/json",
+          "sha256": "c93619bdf8666e17cd25beba6c7edbd7dc636787a5a17c0809f8e74445d01c2c",
+          "bytes": 41447,
+          "observed_at": "2026-08-13T16:50:40.997Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT05399888",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "registry-only",
+      "quarantine": null
+    },
+    "aadvac1-adamant": {
+      "id": "aadvac1-adamant",
+      "cluster": "tau",
+      "type": "rct",
+      "acquired_at": "2026-08-13T16:50:40.997Z",
+      "canonical_doi": "10.1038/s43587-021-00070-2",
+      "primary": null,
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 3,
+          "kind": "repository-landing",
+          "url": "https://pure.amsterdamumc.nl/en/publications/215d95f5-425a-4a7e-b52f-6dc0341e4ded",
+          "ok": false,
+          "reason": "landing page is a citation target, not a primary document — not ingested as evidence"
+        },
+        {
+          "tier": 4,
+          "kind": "publisher-landing",
+          "url": "https://doi.org/10.1038/s43587-021-00070-2",
+          "ok": false,
+          "reason": "landing page is a citation target, not a primary document — not ingested as evidence"
+        }
+      ],
+      "evidence_completeness": "none",
+      "quarantine": {
+        "reason": "no acquisition route returned a usable primary document",
+        "canonical_doi": "10.1038/s43587-021-00070-2",
+        "blocked_routes": [
+          "repository-landing  landing page is a citation target, not a primary document — not ingested as evidence",
+          "publisher-landing  landing page is a citation target, not a primary document — not ingested as evidence"
+        ]
+      }
+    },
+    "semorinemab-tauriel": {
+      "id": "semorinemab-tauriel",
+      "cluster": "tau",
+      "type": "rct",
+      "acquired_at": "2026-08-13T16:50:40.997Z",
+      "canonical_doi": "10.1001/jamaneurol.2022.1375",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/semorinemab-tauriel.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9194753/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9194753/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "c451473a4a712178ab13051a88f140e156741c48b9f7e6713318a8e0fa222dce",
+        "bytes": 116609
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT03289143",
+          "tier": 1,
+          "path": "sources/semorinemab-tauriel-nct03289143.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT03289143",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT03289143",
+          "content_type": "application/json",
+          "sha256": "38e409fa3b34eb2552e0679907803782523cf09b3a2df3be64135d1b9460be29",
+          "bytes": 165691,
+          "observed_at": "2026-08-13T16:50:41.160Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT03289143",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9194753/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "semorinemab-lauriet": {
+      "id": "semorinemab-lauriet",
+      "cluster": "tau",
+      "type": "rct",
+      "acquired_at": "2026-08-13T16:50:41.399Z",
+      "canonical_doi": "10.1212/wnl.0000000000207663",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/semorinemab-lauriet.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10573141/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10573141/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "e1ee7811f3db345b01545f566eb5bc69c881f35ba12a1dac43726c14404b3201",
+        "bytes": 106180
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10573141/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "gosuranemab-tango": {
+      "id": "gosuranemab-tango",
+      "cluster": "tau",
+      "type": "rct",
+      "acquired_at": "2026-08-13T16:50:41.547Z",
+      "canonical_doi": "10.1038/s43587-023-00523-w",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/gosuranemab-tango.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10724064/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10724064/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "03a19edfc149a3595b795f74cc98f10ed5e3dc72bc19c9b45e30667da2ce7a6b",
+        "bytes": 157230
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT03352557",
+          "tier": 1,
+          "path": "sources/gosuranemab-tango-nct03352557.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT03352557",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT03352557",
+          "content_type": "application/json",
+          "sha256": "dfd7d7a219e694a18b45c5b688f63ad5ae0a58023764b223290552d9dcb9f3ba",
+          "bytes": 167702,
+          "observed_at": "2026-08-13T16:50:41.621Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT03352557",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10724064/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "tilavonemab-early-ad": {
+      "id": "tilavonemab-early-ad",
+      "cluster": "tau",
+      "type": "rct",
+      "acquired_at": "2026-08-13T16:50:41.592Z",
+      "canonical_doi": "10.1093/brain/awad024",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/tilavonemab-early-ad.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10232284/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10232284/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "0f0c2a2ccb374db2a46aed684ea03b5df4c3c86031b9dfe01cf5f01aa376aaaa",
+        "bytes": 99489
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10232284/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "bepranemab-together": {
+      "id": "bepranemab-together",
+      "cluster": "tau",
+      "type": "rct",
+      "acquired_at": "2026-08-13T16:50:41.875Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/bepranemab-together.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12739807/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12739807/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "44df681b8e1a906dfa8b2bf198067fa3adff585c66515c29cfb6bda9ea0f8452",
+        "bytes": 9310
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT04867616",
+          "tier": 1,
+          "path": "sources/bepranemab-together-nct04867616.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT04867616",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT04867616",
+          "content_type": "application/json",
+          "sha256": "c93aec1bacb2be8b571e4d065da85323583d21163f93f51ec296bc42b860096b",
+          "bytes": 29948,
+          "observed_at": "2026-08-13T16:50:41.930Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT04867616",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        },
+        {
+          "tier": 2,
+          "kind": "publisher-oa-pdf",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12739807/",
+          "ok": false,
+          "http_status": 200,
+          "reason": "PDF route returned an HTML page (paywall, consent wall or challenge)"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12739807/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "dian-tu-tau-nexgen-registry": {
+      "id": "dian-tu-tau-nexgen-registry",
+      "cluster": "tau",
+      "type": "registry",
+      "acquired_at": "2026-08-13T16:50:41.914Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "nct": "NCT05269394",
+        "tier": 1,
+        "path": "sources/dian-tu-tau-nexgen-registry-nct05269394.json",
+        "extension": ".json",
+        "url": "https://clinicaltrials.gov/api/v2/studies/NCT05269394",
+        "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT05269394",
+        "content_type": "application/json",
+        "sha256": "b36c8633867234904f29b9111ad6bd6f16b9f38a9d9425b539fe343dca895e9f",
+        "bytes": 27597,
+        "observed_at": "2026-08-13T16:50:42.088Z",
+        "source": "ClinicalTrials.gov API v2",
+        "kind": "registry",
+        "note": "official structured trial record"
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT05269394",
+          "tier": 1,
+          "path": "sources/dian-tu-tau-nexgen-registry-nct05269394.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT05269394",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT05269394",
+          "content_type": "application/json",
+          "sha256": "b36c8633867234904f29b9111ad6bd6f16b9f38a9d9425b539fe343dca895e9f",
+          "bytes": 27597,
+          "observed_at": "2026-08-13T16:50:42.088Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT05269394",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "registry-only",
+      "quarantine": null
+    },
+    "e2814-lecanemab-registry": {
+      "id": "e2814-lecanemab-registry",
+      "cluster": "tau",
+      "type": "registry",
+      "acquired_at": "2026-08-13T16:50:42.088Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "nct": "NCT06602258",
+        "tier": 1,
+        "path": "sources/e2814-lecanemab-registry-nct06602258.json",
+        "extension": ".json",
+        "url": "https://clinicaltrials.gov/api/v2/studies/NCT06602258",
+        "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT06602258",
+        "content_type": "application/json",
+        "sha256": "ad66cc00e6597dff5731deb404d298c908cdb4cdc8daa1ef86779a26360814cb",
+        "bytes": 19587,
+        "observed_at": "2026-08-13T16:50:42.234Z",
+        "source": "ClinicalTrials.gov API v2",
+        "kind": "registry",
+        "note": "official structured trial record"
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT06602258",
+          "tier": 1,
+          "path": "sources/e2814-lecanemab-registry-nct06602258.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT06602258",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT06602258",
+          "content_type": "application/json",
+          "sha256": "ad66cc00e6597dff5731deb404d298c908cdb4cdc8daa1ef86779a26360814cb",
+          "bytes": 19587,
+          "observed_at": "2026-08-13T16:50:42.234Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT06602258",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "registry-only",
+      "quarantine": null
+    },
+    "e2814-diad-registry": {
+      "id": "e2814-diad-registry",
+      "cluster": "tau",
+      "type": "registry",
+      "acquired_at": "2026-08-13T16:50:42.131Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "nct": "NCT04971733",
+        "tier": 1,
+        "path": "sources/e2814-diad-registry-nct04971733.json",
+        "extension": ".json",
+        "url": "https://clinicaltrials.gov/api/v2/studies/NCT04971733",
+        "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT04971733",
+        "content_type": "application/json",
+        "sha256": "66c9ad896e533084e1e4d33f10f7cf56094bea17d2edc4e7ebbdf944b40d248b",
+        "bytes": 100721,
+        "observed_at": "2026-08-13T16:50:42.401Z",
+        "source": "ClinicalTrials.gov API v2",
+        "kind": "registry",
+        "note": "official structured trial record"
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT04971733",
+          "tier": 1,
+          "path": "sources/e2814-diad-registry-nct04971733.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT04971733",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT04971733",
+          "content_type": "application/json",
+          "sha256": "66c9ad896e533084e1e4d33f10f7cf56094bea17d2edc4e7ebbdf944b40d248b",
+          "bytes": 100721,
+          "observed_at": "2026-08-13T16:50:42.401Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT04971733",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "registry-only",
+      "quarantine": null
+    },
+    "al002-invoke-2": {
+      "id": "al002-invoke-2",
+      "cluster": "trem2-neuroinflammation",
+      "type": "rct",
+      "acquired_at": "2026-08-13T16:50:42.234Z",
+      "canonical_doi": "10.1038/s41591-026-04273-1",
+      "primary": null,
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 4,
+          "kind": "publisher-landing",
+          "url": "https://doi.org/10.1038/s41591-026-04273-1",
+          "ok": false,
+          "reason": "landing page is a citation target, not a primary document — not ingested as evidence"
+        }
+      ],
+      "evidence_completeness": "none",
+      "quarantine": {
+        "reason": "no acquisition route returned a usable primary document",
+        "canonical_doi": "10.1038/s41591-026-04273-1",
+        "blocked_routes": [
+          "publisher-landing  landing page is a citation target, not a primary document — not ingested as evidence"
+        ]
+      }
+    },
+    "invoke-2-registry": {
+      "id": "invoke-2-registry",
+      "cluster": "trem2-neuroinflammation",
+      "type": "registry",
+      "acquired_at": "2026-08-13T16:50:42.234Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "nct": "NCT04592874",
+        "tier": 1,
+        "path": "sources/invoke-2-registry-nct04592874.json",
+        "extension": ".json",
+        "url": "https://clinicaltrials.gov/api/v2/studies/NCT04592874",
+        "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT04592874",
+        "content_type": "application/json",
+        "sha256": "4d51542582549b8e850e279846ed61073441671f377019f9939dbb345c1f3408",
+        "bytes": 85354,
+        "observed_at": "2026-08-13T16:50:42.452Z",
+        "source": "ClinicalTrials.gov API v2",
+        "kind": "registry",
+        "note": "official structured trial record"
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT04592874",
+          "tier": 1,
+          "path": "sources/invoke-2-registry-nct04592874.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT04592874",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT04592874",
+          "content_type": "application/json",
+          "sha256": "4d51542582549b8e850e279846ed61073441671f377019f9939dbb345c1f3408",
+          "bytes": 85354,
+          "observed_at": "2026-08-13T16:50:42.452Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT04592874",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "registry-only",
+      "quarantine": null
+    },
+    "sargramostim-phase-2": {
+      "id": "sargramostim-phase-2",
+      "cluster": "trem2-neuroinflammation",
+      "type": "rct",
+      "acquired_at": "2026-08-13T16:50:42.401Z",
+      "canonical_doi": "10.1002/trc2.12158",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/sargramostim-phase-2.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7988877/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7988877/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "bf8aba37a64dbdc99c2637d26b36bd2a36913bf15cb1ccc6d2e87e4dbde6c4ae",
+        "bytes": 120134
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7988877/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "masitinib-phase-3": {
+      "id": "masitinib-phase-3",
+      "cluster": "trem2-neuroinflammation",
+      "type": "rct",
+      "acquired_at": "2026-08-13T16:50:42.403Z",
+      "canonical_doi": "10.1186/s13195-023-01169-x",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/masitinib-phase-3.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9972756/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9972756/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "b80c405e19c449cc583773e5831974c959625dc918a161d3a046371a35de8002",
+        "bytes": 112529
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9972756/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "trem2-jonsson-2013": {
+      "id": "trem2-jonsson-2013",
+      "cluster": "genetics",
+      "type": "genetics",
+      "acquired_at": "2026-08-13T16:50:42.452Z",
+      "canonical_doi": "10.1056/nejmoa1211103",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-efetch",
+        "note": "PubMed Central via E-utilities (includes NIH author manuscripts)",
+        "path": "sources/trem2-jonsson-2013.xml",
+        "extension": ".xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=3677583&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=3677583&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "content_type": "text/xml",
+        "sha256": "dbba260d38e20a0cdd17815d8494458504b72d3ccd961441e4007b5ec8cb1229",
+        "bytes": 100452
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3677583/fullTextXML",
+          "ok": false,
+          "http_status": 404,
+          "reason": "HTTP 404"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-efetch",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=3677583&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "trem2-guerreiro-2013": {
+      "id": "trem2-guerreiro-2013",
+      "cluster": "genetics",
+      "type": "genetics",
+      "acquired_at": "2026-08-13T16:50:42.678Z",
+      "canonical_doi": "10.1056/nejmoa1211851",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-efetch",
+        "note": "PubMed Central via E-utilities (includes NIH author manuscripts)",
+        "path": "sources/trem2-guerreiro-2013.xml",
+        "extension": ".xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=3631573&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=3631573&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "content_type": "text/xml",
+        "sha256": "391660104cc8d402bffff78f0b10449ee20d34fd4111a3fd0fd4f8c9f98ead92",
+        "bytes": 101893
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3631573/fullTextXML",
+          "ok": false,
+          "http_status": 404,
+          "reason": "HTTP 404"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-efetch",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=3631573&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "disease-associated-microglia": {
+      "id": "disease-associated-microglia",
+      "cluster": "trem2-neuroinflammation",
+      "type": "mechanistic",
+      "acquired_at": "2026-08-13T16:50:42.766Z",
+      "canonical_doi": "10.1016/j.cell.2017.05.018",
+      "primary": null,
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "publisher-oa-pdf",
+          "url": "http://www.cell.com/article/S0092867417305780/pdf",
+          "ok": false,
+          "http_status": 403,
+          "reason": "HTTP 403"
+        },
+        {
+          "tier": 2,
+          "kind": "publisher-oa-landing",
+          "url": "https://doi.org/10.1016/j.cell.2017.05.018",
+          "ok": false,
+          "reason": "landing page is a citation target, not a primary document — not ingested as evidence"
+        },
+        {
+          "tier": 3,
+          "kind": "repository-landing",
+          "url": "https://dspace.library.uu.nl/handle/1874/361455",
+          "ok": false,
+          "reason": "landing page is a citation target, not a primary document — not ingested as evidence"
+        }
+      ],
+      "evidence_completeness": "none",
+      "quarantine": {
+        "reason": "no acquisition route returned a usable primary document",
+        "canonical_doi": "10.1016/j.cell.2017.05.018",
+        "blocked_routes": [
+          "publisher-oa-pdf 403 HTTP 403",
+          "publisher-oa-landing  landing page is a citation target, not a primary document — not ingested as evidence",
+          "repository-landing  landing page is a citation target, not a primary document — not ingested as evidence"
+        ]
+      }
+    },
+    "trem2-apoe-microglia": {
+      "id": "trem2-apoe-microglia",
+      "cluster": "trem2-neuroinflammation",
+      "type": "mechanistic",
+      "acquired_at": "2026-08-13T16:50:42.944Z",
+      "canonical_doi": "10.1016/j.immuni.2017.08.008",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-efetch",
+        "note": "PubMed Central via E-utilities (includes NIH author manuscripts)",
+        "path": "sources/trem2-apoe-microglia.xml",
+        "extension": ".xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5719893&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5719893&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "content_type": "text/xml",
+        "sha256": "d91775a65d5cb0e1c8b3496f1cfbd9abfe655a16fd2b26640d1004fbd0c16948",
+        "bytes": 241763
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5719893/fullTextXML",
+          "ok": false,
+          "http_status": 404,
+          "reason": "HTTP 404"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-efetch",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5719893&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "mathys-2019-single-cell": {
+      "id": "mathys-2019-single-cell",
+      "cluster": "genetics",
+      "type": "genomics",
+      "acquired_at": "2026-08-13T16:50:42.950Z",
+      "canonical_doi": "10.1038/s41586-019-1195-2",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-efetch",
+        "note": "PubMed Central via E-utilities (includes NIH author manuscripts)",
+        "path": "sources/mathys-2019-single-cell.xml",
+        "extension": ".xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6865822&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6865822&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "content_type": "text/xml",
+        "sha256": "5f1c567bb7243368c51e3621a76465c74a6b233a94e3acf78ac190c2926cdec3",
+        "bytes": 138873
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6865822/fullTextXML",
+          "ok": false,
+          "http_status": 404,
+          "reason": "HTTP 404"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-efetch",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6865822&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "mathys-2024-multiregion": {
+      "id": "mathys-2024-multiregion",
+      "cluster": "genetics",
+      "type": "genomics",
+      "acquired_at": "2026-08-13T16:50:43.069Z",
+      "canonical_doi": "10.1038/s41586-024-07606-7",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/mathys-2024-multiregion.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11338834/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11338834/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "2eb14a1a71ad1f4d64b4bfe7725c5047d48e1338ffa190f9313648b08fc10631",
+        "bytes": 301669
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "publisher-oa-pdf",
+          "url": "https://www.nature.com/articles/s41586-024-07606-7",
+          "ok": false,
+          "http_status": 200,
+          "reason": "PDF route returned an HTML page (paywall, consent wall or challenge)"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11338834/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "single-cell-cognitive-resilience": {
+      "id": "single-cell-cognitive-resilience",
+      "cluster": "genetics",
+      "type": "genomics",
+      "acquired_at": "2026-08-13T16:50:43.352Z",
+      "canonical_doi": "10.1016/j.cell.2023.08.039",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-efetch",
+        "note": "PubMed Central via E-utilities (includes NIH author manuscripts)",
+        "path": "sources/single-cell-cognitive-resilience.xml",
+        "extension": ".xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10601493&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10601493&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "content_type": "text/xml",
+        "sha256": "059ebe56e0ace9029d857978ebb3cc2701aa4731a3c12a577912e2d0eb686612",
+        "bytes": 337543
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10601493/fullTextXML",
+          "ok": false,
+          "http_status": 404,
+          "reason": "HTTP 404"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-efetch",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10601493&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "bellenguez-2022-gwas": {
+      "id": "bellenguez-2022-gwas",
+      "cluster": "genetics",
+      "type": "gwas",
+      "acquired_at": "2026-08-13T16:50:43.707Z",
+      "canonical_doi": "10.1038/s41588-022-01024-z",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/bellenguez-2022-gwas.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9005347/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9005347/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "fd2d5a2be6ddb5a60c153ee63dd7d5f0645808b8a60a56a3ebddf3747200bdc0",
+        "bytes": 530685
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "publisher-oa-pdf",
+          "url": "https://www.nature.com/articles/s41588-022-01024-z",
+          "ok": false,
+          "http_status": 200,
+          "reason": "PDF route returned an HTML page (paywall, consent wall or challenge)"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9005347/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "wightman-2021-gwas": {
+      "id": "wightman-2021-gwas",
+      "cluster": "genetics",
+      "type": "gwas",
+      "acquired_at": "2026-08-13T16:50:44.212Z",
+      "canonical_doi": "10.1038/s41588-021-00921-z",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-efetch",
+        "note": "PubMed Central via E-utilities (includes NIH author manuscripts)",
+        "path": "sources/wightman-2021-gwas.xml",
+        "extension": ".xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10243600&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10243600&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "content_type": "text/xml",
+        "sha256": "430b1c1b1a73b851ea4770601d6bb8db24f53e2415246a7f8d07c5e03ab503f1",
+        "bytes": 174718
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10243600/fullTextXML",
+          "ok": false,
+          "http_status": 404,
+          "reason": "HTTP 404"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-efetch",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10243600&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "kunkle-2019-gwas": {
+      "id": "kunkle-2019-gwas",
+      "cluster": "genetics",
+      "type": "gwas",
+      "acquired_at": "2026-08-13T16:50:45.029Z",
+      "canonical_doi": "10.1038/s41588-019-0358-2",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-efetch",
+        "note": "PubMed Central via E-utilities (includes NIH author manuscripts)",
+        "path": "sources/kunkle-2019-gwas.xml",
+        "extension": ".xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6463297&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6463297&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "content_type": "text/xml",
+        "sha256": "5d868567b278d4fc510727b89fd30466e11eff1ebf5e4466931e624216c7274c",
+        "bytes": 435007
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "publisher-oa-pdf",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6463297/",
+          "ok": false,
+          "http_status": 200,
+          "reason": "PDF route returned an HTML page (paywall, consent wall or challenge)"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6463297/fullTextXML",
+          "ok": false,
+          "http_status": 404,
+          "reason": "HTTP 404"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-efetch",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6463297&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "consensus-gwas-2026": {
+      "id": "consensus-gwas-2026",
+      "cluster": "genetics",
+      "type": "gwas",
+      "acquired_at": "2026-08-13T16:50:45.119Z",
+      "canonical_doi": "10.1038/s41588-026-02583-1",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/consensus-gwas-2026.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13263136/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13263136/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "2cc7ff6a6a4a99ef68691833a2c0d1e7a7c5628b5ba7a0bf2e71da497984a55a",
+        "bytes": 285964
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "publisher-oa-pdf",
+          "url": "https://www.nature.com/articles/s41588-026-02583-1",
+          "ok": false,
+          "http_status": 200,
+          "reason": "PDF route returned an HTML page (paywall, consent wall or challenge)"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13263136/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "lake-2023-multiancestry": {
+      "id": "lake-2023-multiancestry",
+      "cluster": "genetics",
+      "type": "gwas",
+      "acquired_at": "2026-08-13T16:50:45.682Z",
+      "canonical_doi": "10.1038/s41380-023-02089-w",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/lake-2023-multiancestry.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10615750/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10615750/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "ce3a3aa328a3d1b67094253f970a090b03cf1f0876b4e8d4b7c30057126a273f",
+        "bytes": 183635
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "publisher-oa-pdf",
+          "url": "https://www.nature.com/articles/s41380-023-02089-w",
+          "ok": false,
+          "http_status": 200,
+          "reason": "PDF route returned an HTML page (paywall, consent wall or challenge)"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10615750/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "holstege-2022-exome": {
+      "id": "holstege-2022-exome",
+      "cluster": "genetics",
+      "type": "exome",
+      "acquired_at": "2026-08-13T16:50:45.872Z",
+      "canonical_doi": "10.1038/s41588-022-01208-7",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/holstege-2022-exome.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9729101/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9729101/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "5fd6d7ae75039d98face9fb2d773f73c7f504d6fad0760c548652994e2248490",
+        "bytes": 203557
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "publisher-oa-pdf",
+          "url": "https://www.nature.com/articles/s41588-022-01208-7",
+          "ok": false,
+          "http_status": 200,
+          "reason": "PDF route returned an HTML page (paywall, consent wall or challenge)"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9729101/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "shade-2024-neuropathology-gwas": {
+      "id": "shade-2024-neuropathology-gwas",
+      "cluster": "genetics",
+      "type": "gwas",
+      "acquired_at": "2026-08-13T16:50:46.073Z",
+      "canonical_doi": "10.1038/s41588-024-01939-9",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/shade-2024-neuropathology-gwas.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11549054/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11549054/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "42855fc8ef19d7ccdf79bee7cc0514baccf199463be2d5b85dfffed42f0fb4ee",
+        "bytes": 335725
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "publisher-oa-pdf",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11549054/",
+          "ok": false,
+          "http_status": 200,
+          "reason": "PDF route returned an HTML page (paywall, consent wall or challenge)"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11549054/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "apoe3-christchurch-resistance": {
+      "id": "apoe3-christchurch-resistance",
+      "cluster": "genetics",
+      "type": "case-study",
+      "acquired_at": "2026-08-13T16:50:46.185Z",
+      "canonical_doi": "10.1038/s41591-019-0611-3",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-efetch",
+        "note": "PubMed Central via E-utilities (includes NIH author manuscripts)",
+        "path": "sources/apoe3-christchurch-resistance.xml",
+        "extension": ".xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6898984&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6898984&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "content_type": "text/xml",
+        "sha256": "00a118243b0260374e14c855f1dc40b1058fb0967c9d17d4d1530f9091c4267f",
+        "bytes": 94446
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6898984/fullTextXML",
+          "ok": false,
+          "http_status": 404,
+          "reason": "HTTP 404"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-efetch",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6898984&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "christchurch-snrnaseq": {
+      "id": "christchurch-snrnaseq",
+      "cluster": "genetics",
+      "type": "mechanistic",
+      "acquired_at": "2026-08-13T16:50:46.622Z",
+      "canonical_doi": "10.1016/j.neuron.2024.02.009",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-efetch",
+        "note": "PubMed Central via E-utilities (includes NIH author manuscripts)",
+        "path": "sources/christchurch-snrnaseq.xml",
+        "extension": ".xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11156559&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11156559&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "content_type": "text/xml",
+        "sha256": "2252458d26ff8dbc34af718c85df530af309a6dba340e9a310033b32411bee0b",
+        "bytes": 237635
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11156559/fullTextXML",
+          "ok": false,
+          "http_status": 404,
+          "reason": "HTTP 404"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-efetch",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11156559&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "apoe-r136s-protection": {
+      "id": "apoe-r136s-protection",
+      "cluster": "genetics",
+      "type": "mechanistic",
+      "acquired_at": "2026-08-13T16:50:47.300Z",
+      "canonical_doi": "10.1038/s41593-023-01480-8",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/apoe-r136s-protection.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10689245/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10689245/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "3bb735e3c828dfac030f3871bfe0fdda9f357d6d5add73a2e998ab5aea9ee234",
+        "bytes": 316945
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10689245/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "app-a673t-protection": {
+      "id": "app-a673t-protection",
+      "cluster": "genetics",
+      "type": "genetics",
+      "acquired_at": "2026-08-13T16:50:47.411Z",
+      "canonical_doi": "10.1038/nature11283",
+      "primary": null,
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 4,
+          "kind": "publisher-landing",
+          "url": "https://doi.org/10.1038/nature11283",
+          "ok": false,
+          "reason": "landing page is a citation target, not a primary document — not ingested as evidence"
+        }
+      ],
+      "evidence_completeness": "none",
+      "quarantine": {
+        "reason": "no acquisition route returned a usable primary document",
+        "canonical_doi": "10.1038/nature11283",
+        "blocked_routes": [
+          "publisher-landing  landing page is a citation target, not a primary document — not ingested as evidence"
+        ]
+      }
+    },
+    "app-a673t-mechanism": {
+      "id": "app-a673t-mechanism",
+      "cluster": "genetics",
+      "type": "mechanistic",
+      "acquired_at": "2026-08-13T16:50:47.411Z",
+      "canonical_doi": "10.1074/jbc.m114.589069",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-efetch",
+        "note": "PubMed Central via E-utilities (includes NIH author manuscripts)",
+        "path": "sources/app-a673t-mechanism.xml",
+        "extension": ".xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=4223305&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=4223305&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "content_type": "text/xml",
+        "sha256": "291e5d222546e6734ad7a40410a4d992dd2ce5e05c266e9cde3e89f5f557efc4",
+        "bytes": 11983
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "publisher-oa-pdf",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4223305/",
+          "ok": false,
+          "http_status": 200,
+          "reason": "PDF route returned an HTML page (paywall, consent wall or challenge)"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4223305/fullTextXML",
+          "ok": false,
+          "http_status": 404,
+          "reason": "HTTP 404"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-efetch",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=4223305&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "asc-specks-cross-seed": {
+      "id": "asc-specks-cross-seed",
+      "cluster": "trem2-neuroinflammation",
+      "type": "mechanistic",
+      "acquired_at": "2026-08-13T16:50:47.721Z",
+      "canonical_doi": "10.1038/nature25158",
+      "primary": null,
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 4,
+          "kind": "publisher-landing",
+          "url": "https://doi.org/10.1038/nature25158",
+          "ok": false,
+          "reason": "landing page is a citation target, not a primary document — not ingested as evidence"
+        }
+      ],
+      "evidence_completeness": "none",
+      "quarantine": {
+        "reason": "no acquisition route returned a usable primary document",
+        "canonical_doi": "10.1038/nature25158",
+        "blocked_routes": [
+          "publisher-landing  landing page is a citation target, not a primary document — not ingested as evidence"
+        ]
+      }
+    },
+    "nlrp3-tau-pathology": {
+      "id": "nlrp3-tau-pathology",
+      "cluster": "trem2-neuroinflammation",
+      "type": "mechanistic",
+      "acquired_at": "2026-08-13T16:50:47.721Z",
+      "canonical_doi": "10.1038/s41586-019-1769-z",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-efetch",
+        "note": "PubMed Central via E-utilities (includes NIH author manuscripts)",
+        "path": "sources/nlrp3-tau-pathology.xml",
+        "extension": ".xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7324015&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7324015&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "content_type": "text/xml",
+        "sha256": "75ba7b828f4b40d55b42e07f4e0850afc47fad087e31e72f6fa3c19b51fc5c94",
+        "bytes": 101394
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7324015/fullTextXML",
+          "ok": false,
+          "http_status": 404,
+          "reason": "HTTP 404"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-efetch",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7324015&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "nlrp3-heneka-2013": {
+      "id": "nlrp3-heneka-2013",
+      "cluster": "trem2-neuroinflammation",
+      "type": "mechanistic",
+      "acquired_at": "2026-08-13T16:50:47.805Z",
+      "canonical_doi": "10.1038/nature11729",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-efetch",
+        "note": "PubMed Central via E-utilities (includes NIH author manuscripts)",
+        "path": "sources/nlrp3-heneka-2013.xml",
+        "extension": ".xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=3812809&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=3812809&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "content_type": "text/xml",
+        "sha256": "1ceba70ba63e7e141b924823633fcb8e80c1bf7306a2c410c790123724e7cf94",
+        "bytes": 61166
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "publisher-oa-pdf",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3812809/",
+          "ok": false,
+          "http_status": 200,
+          "reason": "PDF route returned an HTML page (paywall, consent wall or challenge)"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3812809/fullTextXML",
+          "ok": false,
+          "http_status": 404,
+          "reason": "HTTP 404"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-efetch",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=3812809&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "plasma-ptau217-discriminative-accuracy": {
+      "id": "plasma-ptau217-discriminative-accuracy",
+      "cluster": "biomarkers",
+      "type": "diagnostic",
+      "acquired_at": "2026-08-13T16:50:47.886Z",
+      "canonical_doi": "10.1001/jama.2020.12134",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-efetch",
+        "note": "PubMed Central via E-utilities (includes NIH author manuscripts)",
+        "path": "sources/plasma-ptau217-discriminative-accuracy.xml",
+        "extension": ".xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7388060&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7388060&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "content_type": "text/xml",
+        "sha256": "8d161f304499512b164521c28088ee2abf2bf94806351fe398092dbcc6dc80df",
+        "bytes": 29257
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7388060/fullTextXML",
+          "ok": false,
+          "http_status": 404,
+          "reason": "HTTP 404"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-efetch",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7388060&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "karikari-2020-ptau181": {
+      "id": "karikari-2020-ptau181",
+      "cluster": "biomarkers",
+      "type": "diagnostic",
+      "acquired_at": "2026-08-13T16:50:48.207Z",
+      "canonical_doi": "10.1016/s1474-4422(20)30071-5",
+      "primary": {
+        "role": "primary",
+        "tier": 3,
+        "kind": "repository-am",
+        "note": "Unpaywall repository copy (submittedVersion, University College London)",
+        "path": "sources/karikari-2020-ptau181.pdf",
+        "extension": ".pdf",
+        "url": "https://discovery.ucl.ac.uk/10097597/3/Zetterberg_Blood%20phosphorylated%20tau%20181%20as%20a%20biomarker%20for%20Alzheimer%27s%20disease_AAM.pdf",
+        "final_url": "https://discovery.ucl.ac.uk/id/eprint/10097597/3/Zetterberg_Blood%20phosphorylated%20tau%20181%20as%20a%20biomarker%20for%20Alzheimer's%20disease_AAM.pdf",
+        "content_type": "application/pdf",
+        "sha256": "acd2b437993d6b392c4c02bf93a01c577baf63edff44b79794378f3403a04cb4",
+        "bytes": 11827084
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 3,
+          "kind": "repository-am",
+          "url": "https://discovery.ucl.ac.uk/10097597/3/Zetterberg_Blood%20phosphorylated%20tau%20181%20as%20a%20biomarker%20for%20Alzheimer%27s%20disease_AAM.pdf",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "accepted-manuscript",
+      "quarantine": null
+    },
+    "janelidze-2020-ptau181": {
+      "id": "janelidze-2020-ptau181",
+      "cluster": "biomarkers",
+      "type": "diagnostic",
+      "acquired_at": "2026-08-13T16:50:49.639Z",
+      "canonical_doi": "10.1038/s41591-020-0755-1",
+      "primary": null,
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 4,
+          "kind": "publisher-landing",
+          "url": "https://doi.org/10.1038/s41591-020-0755-1",
+          "ok": false,
+          "reason": "landing page is a citation target, not a primary document — not ingested as evidence"
+        }
+      ],
+      "evidence_completeness": "none",
+      "quarantine": {
+        "reason": "no acquisition route returned a usable primary document",
+        "canonical_doi": "10.1038/s41591-020-0755-1",
+        "blocked_routes": [
+          "publisher-landing  landing page is a citation target, not a primary document — not ingested as evidence"
+        ]
+      }
+    },
+    "mattsson-carlgren-2020-ptau217": {
+      "id": "mattsson-carlgren-2020-ptau217",
+      "cluster": "biomarkers",
+      "type": "diagnostic",
+      "acquired_at": "2026-08-13T16:50:49.639Z",
+      "canonical_doi": "10.1093/brain/awaa286",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/mattsson-carlgren-2020-ptau217.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7719022/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7719022/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "8538401b88d3aee4ff7c2e890272eadcd17eacd9ec13ee884fce53f269f745fe",
+        "bytes": 74662
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7719022/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "palmqvist-2024-primary-care": {
+      "id": "palmqvist-2024-primary-care",
+      "cluster": "biomarkers",
+      "type": "diagnostic",
+      "acquired_at": "2026-08-13T16:50:49.829Z",
+      "canonical_doi": "10.1001/jama.2024.13855",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-efetch",
+        "note": "PubMed Central via E-utilities (includes NIH author manuscripts)",
+        "path": "sources/palmqvist-2024-primary-care.xml",
+        "extension": ".xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11284636&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11284636&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "content_type": "text/xml",
+        "sha256": "c45c99458cd1e82de106748e91ca62655476afe911f969595ffe499e788c07cf",
+        "bytes": 31938
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11284636/fullTextXML",
+          "ok": false,
+          "http_status": 404,
+          "reason": "HTTP 404"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-efetch",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11284636&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "palmqvist-2025-automated-platform": {
+      "id": "palmqvist-2025-automated-platform",
+      "cluster": "biomarkers",
+      "type": "diagnostic",
+      "acquired_at": "2026-08-13T16:50:49.888Z",
+      "canonical_doi": "10.1038/s41591-025-03622-w",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/palmqvist-2025-automated-platform.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12176611/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12176611/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "5360c6411ed867792c17f8c16d1a59646728fd8147e76f0754b62b0399015113",
+        "bytes": 148799
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "publisher-oa-pdf",
+          "url": "https://www.nature.com/articles/s41591-025-03622-w",
+          "ok": false,
+          "http_status": 200,
+          "reason": "PDF route returned an HTML page (paywall, consent wall or challenge)"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12176611/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "petersen-2026-ptau217-onset": {
+      "id": "petersen-2026-ptau217-onset",
+      "cluster": "biomarkers",
+      "type": "prognostic",
+      "acquired_at": "2026-08-13T16:50:50.259Z",
+      "canonical_doi": "10.1038/s41591-026-04206-y",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/petersen-2026-ptau217-onset.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13004683/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13004683/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "c1878da31954731e42687bd854aca9586b269e6dc8752d8e89a9d95caaa8a3e7",
+        "bytes": 200138
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "publisher-oa-pdf",
+          "url": "https://www.nature.com/articles/s41591-026-04206-y",
+          "ok": false,
+          "http_status": 200,
+          "reason": "PDF route returned an HTML page (paywall, consent wall or challenge)"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13004683/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "grande-2025-community-cohort": {
+      "id": "grande-2025-community-cohort",
+      "cluster": "biomarkers",
+      "type": "prognostic",
+      "acquired_at": "2026-08-13T16:50:50.787Z",
+      "canonical_doi": "10.1038/s41591-025-03605-x",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/grande-2025-community-cohort.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12176656/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12176656/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "a38e17346e5de8cd20a68cfe2511900b9bfc4d8bcb920682d508e7ee4546d108",
+        "bytes": 135157
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "publisher-oa-pdf",
+          "url": "https://www.nature.com/articles/s41591-025-03605-x",
+          "ok": false,
+          "http_status": 200,
+          "reason": "PDF route returned an HTML page (paywall, consent wall or challenge)"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12176656/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "fda-lumipulse-clearance": {
+      "id": "fda-lumipulse-clearance",
+      "cluster": "regulatory",
+      "type": "regulatory",
+      "acquired_at": "2026-08-13T16:50:51.314Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "tier": 1,
+        "kind": "regulator",
+        "note": "work-order endpoint, verified live (regulator)",
+        "path": "sources/fda-lumipulse-clearance.html",
+        "extension": ".html",
+        "url": "https://www.fda.gov/news-events/press-announcements/fda-clears-first-blood-test-used-diagnosing-alzheimers-disease",
+        "final_url": "https://www.fda.gov/news-events/press-announcements/fda-clears-first-blood-test-used-diagnosing-alzheimers-disease",
+        "content_type": "text/html",
+        "sha256": "f790809fa715b1e6cfa641ab4a42d3c9ea5672a9ab8d5639912e561867ab5b50",
+        "bytes": 38444
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "regulator",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-clears-first-blood-test-used-diagnosing-alzheimers-disease",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "regulator-or-registry",
+      "quarantine": null
+    },
+    "fda-lumipulse-510k-decision": {
+      "id": "fda-lumipulse-510k-decision",
+      "cluster": "regulatory",
+      "type": "regulatory",
+      "acquired_at": "2026-08-13T16:50:51.552Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "tier": 1,
+        "kind": "regulator",
+        "note": "work-order endpoint, verified live (regulator)",
+        "path": "sources/fda-lumipulse-510k-decision.html",
+        "extension": ".html",
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242706",
+        "final_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242706",
+        "content_type": "text/html",
+        "sha256": "1140ab15e07049ee50a4dd42da15cf7519e228c857a5ccd44f02593ed06b25b6",
+        "bytes": 40174
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "regulator",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242706",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "regulator-or-registry",
+      "quarantine": null
+    },
+    "fda-lumipulse-recall": {
+      "id": "fda-lumipulse-recall",
+      "cluster": "regulatory",
+      "type": "regulatory",
+      "acquired_at": "2026-08-13T16:50:51.570Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "tier": 1,
+        "kind": "regulator",
+        "note": "work-order endpoint, verified live (regulator)",
+        "path": "sources/fda-lumipulse-recall.html",
+        "extension": ".html",
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=217945",
+        "final_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=217945",
+        "content_type": "text/html",
+        "sha256": "7e0beedc97df8d6531cffe50c3fe632b06398ecea4ee9b068b6a2fffcc2ba579",
+        "bytes": 43672
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "regulator",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=217945",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "regulator-or-registry",
+      "quarantine": null
+    },
+    "jack-2024-revised-criteria": {
+      "id": "jack-2024-revised-criteria",
+      "cluster": "conceptual",
+      "type": "consensus",
+      "acquired_at": "2026-08-13T16:50:51.708Z",
+      "canonical_doi": "10.1002/alz.13859",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/jack-2024-revised-criteria.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11350039/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11350039/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "8adb28b69bc1b2f800641d11a24b3878f026e79dd3a03bc74b8e1a3025381092",
+        "bytes": 428792
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11350039/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "nia-aa-research-framework-2018": {
+      "id": "nia-aa-research-framework-2018",
+      "cluster": "conceptual",
+      "type": "consensus",
+      "acquired_at": "2026-08-13T16:50:51.869Z",
+      "canonical_doi": "10.1016/j.jalz.2018.02.018",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/nia-aa-research-framework-2018.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5958625/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5958625/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "4fba85b7d6652a0d6dc5fc1c6693c71fd04dc7fb5197f126a214a5a0e93ee02d",
+        "bytes": 385725
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5958625/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "centiloid-project": {
+      "id": "centiloid-project",
+      "cluster": "biomarkers",
+      "type": "methods",
+      "acquired_at": "2026-08-13T16:50:51.994Z",
+      "canonical_doi": "10.1016/j.jalz.2014.07.003",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-efetch",
+        "note": "PubMed Central via E-utilities (includes NIH author manuscripts)",
+        "path": "sources/centiloid-project.xml",
+        "extension": ".xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=4300247&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=4300247&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "content_type": "text/xml",
+        "sha256": "db31e9cc8539350e25d4974d25344a9ad358f74c19e19ee94c209174c48a581a",
+        "bytes": 169186
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4300247/fullTextXML",
+          "ok": false,
+          "http_status": 404,
+          "reason": "HTTP 404"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-efetch",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=4300247&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "ossenkoppele-2022-amyloid-tau-pet": {
+      "id": "ossenkoppele-2022-amyloid-tau-pet",
+      "cluster": "biomarkers",
+      "type": "prognostic",
+      "acquired_at": "2026-08-13T16:50:52.014Z",
+      "canonical_doi": "10.1038/s41591-022-02049-x",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/ossenkoppele-2022-amyloid-tau-pet.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9671808/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9671808/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "a0010a6f89d9a62dad0fe2e60485d4c6c5a5d8887181b9be6a6f887a5ac8671c",
+        "bytes": 148925
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "publisher-oa-pdf",
+          "url": "https://www.nature.com/articles/s41591-022-02049-x",
+          "ok": false,
+          "http_status": 200,
+          "reason": "PDF route returned an HTML page (paywall, consent wall or challenge)"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9671808/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "tau-pet-vs-phospho-tau": {
+      "id": "tau-pet-vs-phospho-tau",
+      "cluster": "biomarkers",
+      "type": "prognostic",
+      "acquired_at": "2026-08-13T16:50:52.569Z",
+      "canonical_doi": "10.1002/alz.12875",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-efetch",
+        "note": "PubMed Central via E-utilities (includes NIH author manuscripts)",
+        "path": "sources/tau-pet-vs-phospho-tau.xml",
+        "extension": ".xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10264552&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10264552&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "content_type": "text/xml",
+        "sha256": "5d54f32387f28d35a6e4c557ffeda40b6ab3118ba8697aa304e306ce25dbb100",
+        "bytes": 124092
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10264552/fullTextXML",
+          "ok": false,
+          "http_status": 404,
+          "reason": "HTTP 404"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-efetch",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10264552&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "ptau217-taupet-prediction": {
+      "id": "ptau217-taupet-prediction",
+      "cluster": "biomarkers",
+      "type": "prognostic",
+      "acquired_at": "2026-08-13T16:50:52.903Z",
+      "canonical_doi": "10.1038/s43587-025-00835-z",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/ptau217-taupet-prediction.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12092243/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12092243/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "e3eec2c1b01e7c6cd94686d9667aa7ba611a3ae30feb348cecbbd2ca52b3df55",
+        "bytes": 168104
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12092243/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "ashton-2024-alzpath-ptau217": {
+      "id": "ashton-2024-alzpath-ptau217",
+      "cluster": "biomarkers",
+      "type": "diagnostic",
+      "acquired_at": "2026-08-13T16:50:52.906Z",
+      "canonical_doi": "10.1038/s43587-023-00403-3",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-efetch",
+        "note": "PubMed Central via E-utilities (includes NIH author manuscripts)",
+        "path": "sources/ashton-2024-alzpath-ptau217.xml",
+        "extension": ".xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10979350&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10979350&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "content_type": "text/xml",
+        "sha256": "74adf7b633d4762e99cacc8768f59aa5afc6a4cc81ec9237dd31d9eda445b3ec",
+        "bytes": 181183
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10979350/fullTextXML",
+          "ok": false,
+          "http_status": 404,
+          "reason": "HTTP 404"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-efetch",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10979350&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "schindler-2019-plasma-abeta": {
+      "id": "schindler-2019-plasma-abeta",
+      "cluster": "biomarkers",
+      "type": "diagnostic",
+      "acquired_at": "2026-08-13T16:50:52.932Z",
+      "canonical_doi": "10.1212/wnl.0000000000008081",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-efetch",
+        "note": "PubMed Central via E-utilities (includes NIH author manuscripts)",
+        "path": "sources/schindler-2019-plasma-abeta.xml",
+        "extension": ".xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6946467&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6946467&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "content_type": "text/xml",
+        "sha256": "571aa8dd8aa8ef2e49c94332d79f95db36e86e8ccaac9713f6131d70bfc5cf86",
+        "bytes": 53887
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "publisher-oa-pdf",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6946467/",
+          "ok": false,
+          "http_status": 200,
+          "reason": "PDF route returned an HTML page (paywall, consent wall or challenge)"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6946467/fullTextXML",
+          "ok": false,
+          "http_status": 404,
+          "reason": "HTTP 404"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-efetch",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6946467&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "nakamura-2018-plasma-amyloid": {
+      "id": "nakamura-2018-plasma-amyloid",
+      "cluster": "biomarkers",
+      "type": "diagnostic",
+      "acquired_at": "2026-08-13T16:50:53.111Z",
+      "canonical_doi": "10.1038/nature25456",
+      "primary": null,
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 4,
+          "kind": "publisher-landing",
+          "url": "https://doi.org/10.1038/nature25456",
+          "ok": false,
+          "reason": "landing page is a citation target, not a primary document — not ingested as evidence"
+        }
+      ],
+      "evidence_completeness": "none",
+      "quarantine": {
+        "reason": "no acquisition route returned a usable primary document",
+        "canonical_doi": "10.1038/nature25456",
+        "blocked_routes": [
+          "publisher-landing  landing page is a citation target, not a primary document — not ingested as evidence"
+        ]
+      }
+    },
+    "ovod-2017-silk-plasma-abeta": {
+      "id": "ovod-2017-silk-plasma-abeta",
+      "cluster": "biomarkers",
+      "type": "methods",
+      "acquired_at": "2026-08-13T16:50:53.111Z",
+      "canonical_doi": "10.1016/j.jalz.2017.06.2266",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-efetch",
+        "note": "PubMed Central via E-utilities (includes NIH author manuscripts)",
+        "path": "sources/ovod-2017-silk-plasma-abeta.xml",
+        "extension": ".xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5567785&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5567785&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "content_type": "text/xml",
+        "sha256": "9d24d042d8da21e53defbad4ee50dca65e51c6ea1e9a175f8d8bdf569beba09b",
+        "bytes": 68661
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5567785/fullTextXML",
+          "ok": false,
+          "http_status": 404,
+          "reason": "HTTP 404"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-efetch",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5567785&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "benedet-2021-gfap": {
+      "id": "benedet-2021-gfap",
+      "cluster": "biomarkers",
+      "type": "diagnostic",
+      "acquired_at": "2026-08-13T16:50:53.418Z",
+      "canonical_doi": "10.1001/jamaneurol.2021.3671",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/benedet-2021-gfap.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8524356/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8524356/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "79fa2dcc0b2770643afab4ba090ec0138580d028497355b580ea576973f92405",
+        "bytes": 160526
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8524356/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "pereira-2021-gfap": {
+      "id": "pereira-2021-gfap",
+      "cluster": "biomarkers",
+      "type": "diagnostic",
+      "acquired_at": "2026-08-13T16:50:53.627Z",
+      "canonical_doi": "10.1093/brain/awab223",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/pereira-2021-gfap.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8677538/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8677538/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "28fbcebab4f018582f761cf768c8bcccb7adcdc7ace82df690997a4424a9d609",
+        "bytes": 140137
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8677538/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "aa-blood-biomarker-recommendations": {
+      "id": "aa-blood-biomarker-recommendations",
+      "cluster": "biomarkers",
+      "type": "consensus",
+      "acquired_at": "2026-08-13T16:50:53.813Z",
+      "canonical_doi": "10.1002/alz.12756",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/aa-blood-biomarker-recommendations.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10087669/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10087669/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "0475fab57fa2ed0a3a9ee14c7ae9cae8ee58b2ed3d3cda958ac9ffc35006a78f",
+        "bytes": 217537
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10087669/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "hansson-blood-biomarkers-review": {
+      "id": "hansson-blood-biomarkers-review",
+      "cluster": "biomarkers",
+      "type": "review",
+      "acquired_at": "2026-08-13T16:50:54.008Z",
+      "canonical_doi": "10.1038/s43587-023-00403-3",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-efetch",
+        "note": "PubMed Central via E-utilities (includes NIH author manuscripts)",
+        "path": "sources/hansson-blood-biomarkers-review.xml",
+        "extension": ".xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10979350&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10979350&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "content_type": "text/xml",
+        "sha256": "74adf7b633d4762e99cacc8768f59aa5afc6a4cc81ec9237dd31d9eda445b3ec",
+        "bytes": 181183
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10979350/fullTextXML",
+          "ok": false,
+          "http_status": 404,
+          "reason": "HTTP 404"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-efetch",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10979350&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "us-pointer": {
+      "id": "us-pointer",
+      "cluster": "prevention",
+      "type": "rct",
+      "acquired_at": "2026-08-13T16:50:54.021Z",
+      "canonical_doi": "10.1001/jama.2025.12923",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-efetch",
+        "note": "PubMed Central via E-utilities (includes NIH author manuscripts)",
+        "path": "sources/us-pointer.xml",
+        "extension": ".xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12305445&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12305445&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "content_type": "text/xml",
+        "sha256": "825a9c8b7eb685d437e09fa4e562287f64c81a1dd4bdb745637abdbeec54d5b2",
+        "bytes": 32197
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT03688126",
+          "tier": 1,
+          "path": "sources/us-pointer-nct03688126.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT03688126",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT03688126",
+          "content_type": "application/json",
+          "sha256": "bf8c471206a8e57a9fd74f173eb240e38b661644342b332250cb1e01167ec2d8",
+          "bytes": 24069,
+          "observed_at": "2026-08-13T16:50:54.200Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT03688126",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12305445/fullTextXML",
+          "ok": false,
+          "http_status": 404,
+          "reason": "HTTP 404"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-efetch",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12305445&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "finger-trial": {
+      "id": "finger-trial",
+      "cluster": "prevention",
+      "type": "rct",
+      "acquired_at": "2026-08-13T16:50:54.302Z",
+      "canonical_doi": "10.1016/s0140-6736(15)60461-5",
+      "primary": {
+        "role": "primary-substitute",
+        "nct": "NCT01041989",
+        "tier": 1,
+        "path": "sources/finger-trial-nct01041989.json",
+        "extension": ".json",
+        "url": "https://clinicaltrials.gov/api/v2/studies/NCT01041989",
+        "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT01041989",
+        "content_type": "application/json",
+        "sha256": "f4d760a95cbc3388ebd37a25922040987fc343347d18415b1952aff08f212441",
+        "bytes": 26578,
+        "observed_at": "2026-08-13T16:50:54.457Z",
+        "source": "ClinicalTrials.gov API v2",
+        "kind": "registry"
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT01041989",
+          "tier": 1,
+          "path": "sources/finger-trial-nct01041989.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT01041989",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT01041989",
+          "content_type": "application/json",
+          "sha256": "f4d760a95cbc3388ebd37a25922040987fc343347d18415b1952aff08f212441",
+          "bytes": 26578,
+          "observed_at": "2026-08-13T16:50:54.457Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT01041989",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        },
+        {
+          "tier": 4,
+          "kind": "publisher-landing",
+          "url": "https://doi.org/10.1016/s0140-6736(15)60461-5",
+          "ok": false,
+          "reason": "landing page is a citation target, not a primary document — not ingested as evidence"
+        }
+      ],
+      "evidence_completeness": "registry-substitute",
+      "quarantine": {
+        "reason": "version of record unreachable; registry record ingested in its place",
+        "canonical_doi": "10.1016/s0140-6736(15)60461-5",
+        "blocked_routes": [
+          "publisher-landing  landing page is a citation target, not a primary document — not ingested as evidence"
+        ]
+      }
+    },
+    "sprint-mind": {
+      "id": "sprint-mind",
+      "cluster": "prevention",
+      "type": "rct",
+      "acquired_at": "2026-08-13T16:50:54.458Z",
+      "canonical_doi": "10.1001/jama.2018.21442",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-efetch",
+        "note": "PubMed Central via E-utilities (includes NIH author manuscripts)",
+        "path": "sources/sprint-mind.xml",
+        "extension": ".xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6439590&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6439590&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "content_type": "text/xml",
+        "sha256": "71c93e42fe50d60817d80058d54fb8c23960951d253fdee7ddfd674238452529",
+        "bytes": 39812
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT01206062",
+          "tier": 1,
+          "path": "sources/sprint-mind-nct01206062.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT01206062",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT01206062",
+          "content_type": "application/json",
+          "sha256": "0414365011ee06d1018c0031841caadc84cf5d5024863b0a8588795deb4f513f",
+          "bytes": 109370,
+          "observed_at": "2026-08-13T16:50:54.529Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT01206062",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6439590/fullTextXML",
+          "ok": false,
+          "http_status": 404,
+          "reason": "HTTP 404"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-efetch",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6439590&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "mapt-trial": {
+      "id": "mapt-trial",
+      "cluster": "prevention",
+      "type": "rct",
+      "acquired_at": "2026-08-13T16:50:54.540Z",
+      "canonical_doi": "10.1016/s1474-4422(17)30040-6",
+      "primary": null,
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 4,
+          "kind": "publisher-landing",
+          "url": "https://doi.org/10.1016/s1474-4422(17)30040-6",
+          "ok": false,
+          "reason": "landing page is a citation target, not a primary document — not ingested as evidence"
+        }
+      ],
+      "evidence_completeness": "none",
+      "quarantine": {
+        "reason": "no acquisition route returned a usable primary document",
+        "canonical_doi": "10.1016/s1474-4422(17)30040-6",
+        "blocked_routes": [
+          "publisher-landing  landing page is a citation target, not a primary document — not ingested as evidence"
+        ]
+      }
+    },
+    "predivia-trial": {
+      "id": "predivia-trial",
+      "cluster": "prevention",
+      "type": "rct",
+      "acquired_at": "2026-08-13T16:50:54.540Z",
+      "canonical_doi": "10.1016/s0140-6736(16)30950-3",
+      "primary": {
+        "role": "primary",
+        "tier": 3,
+        "kind": "repository-am",
+        "note": "Unpaywall repository copy (acceptedVersion, University of Cambridge)",
+        "path": "sources/predivia-trial.html",
+        "extension": ".html",
+        "url": "https://www.repository.cam.ac.uk/handle/1810/260322",
+        "final_url": "https://www.repository.cam.ac.uk/items/c3f34cc2-afeb-480d-b7e3-e89d764ff401",
+        "content_type": "text/html",
+        "sha256": "60d165e0e4661a5e9e062a062528e0e8d55d7e8cc7f21ff4e60bcd3965990868",
+        "bytes": 514907
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 3,
+          "kind": "repository-am",
+          "url": "https://www.repository.cam.ac.uk/handle/1810/260322",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "accepted-manuscript",
+      "quarantine": null
+    },
+    "lancet-commission-2024": {
+      "id": "lancet-commission-2024",
+      "cluster": "prevention",
+      "type": "evidence-synthesis",
+      "acquired_at": "2026-08-13T16:50:56.032Z",
+      "canonical_doi": "10.1016/s0140-6736(24)01296-0",
+      "primary": {
+        "role": "primary",
+        "tier": 3,
+        "kind": "repository-am",
+        "note": "Unpaywall repository copy (submittedVersion, University College London)",
+        "path": "sources/lancet-commission-2024.pdf",
+        "extension": ".pdf",
+        "url": "https://discovery.ucl.ac.uk/id/eprint/10196488/3/Livingston_Table%20file%20after%20revision%202.pdf",
+        "final_url": "https://discovery.ucl.ac.uk/id/eprint/10196488/3/Livingston_Table%20file%20after%20revision%202.pdf",
+        "content_type": "application/pdf",
+        "sha256": "4c4b96385049365cfba429395bd779d625897161a42475a121bb9f58baa27d38",
+        "bytes": 144880
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "publisher-oa-pdf",
+          "url": "https://www.thelancet.com/action/showPdf?pii=S0140-6736(24)01296-0",
+          "ok": false,
+          "http_status": 403,
+          "reason": "HTTP 403"
+        },
+        {
+          "tier": 3,
+          "kind": "repository-landing",
+          "url": "https://doi.org/10.1016/S0140-6736(24)01296-0",
+          "ok": false,
+          "reason": "landing page is a citation target, not a primary document — not ingested as evidence"
+        },
+        {
+          "tier": 3,
+          "kind": "repository-am",
+          "url": "https://discovery.ucl.ac.uk/id/eprint/10196488/3/Livingston_Table%20file%20after%20revision%202.pdf",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "accepted-manuscript",
+      "quarantine": null
+    },
+    "lancet-commission-2020": {
+      "id": "lancet-commission-2020",
+      "cluster": "prevention",
+      "type": "evidence-synthesis",
+      "acquired_at": "2026-08-13T16:50:56.237Z",
+      "canonical_doi": "10.1016/s0140-6736(20)30367-6",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/lancet-commission-2020.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7392084/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7392084/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "d6aa7e6a74f28b20806291b99193cbd1bfd61bcc7bb2fbdf278c1bdd79adb4da",
+        "bytes": 521120
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7392084/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "mendes-2025-network-meta-analysis": {
+      "id": "mendes-2025-network-meta-analysis",
+      "cluster": "prevention",
+      "type": "systematic-review",
+      "acquired_at": "2026-08-13T16:50:56.458Z",
+      "canonical_doi": "10.1016/j.lanhl.2025.100762",
+      "primary": null,
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "publisher-oa-landing",
+          "url": "https://doi.org/10.1016/j.lanhl.2025.100762",
+          "ok": false,
+          "reason": "landing page is a citation target, not a primary document — not ingested as evidence"
+        }
+      ],
+      "evidence_completeness": "none",
+      "quarantine": {
+        "reason": "no acquisition route returned a usable primary document",
+        "canonical_doi": "10.1016/j.lanhl.2025.100762",
+        "blocked_routes": [
+          "publisher-oa-landing  landing page is a citation target, not a primary document — not ingested as evidence"
+        ]
+      }
+    },
+    "cummings-pipeline-2026": {
+      "id": "cummings-pipeline-2026",
+      "cluster": "conceptual",
+      "type": "review",
+      "acquired_at": "2026-08-13T16:50:56.458Z",
+      "canonical_doi": "10.1002/trc2.70251",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-xml",
+        "note": "Europe PMC full text (open-access subset)",
+        "path": "sources/cummings-pipeline-2026.xml",
+        "extension": ".xml",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13140253/fullTextXML",
+        "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13140253/fullTextXML",
+        "content_type": "application/xml",
+        "sha256": "1ea08dff47efe929e343b322c40af9bfdaaccf8a764d7c9b9760494693a5de34",
+        "bytes": 207079
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13140253/fullTextXML",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "karran-de-strooper-amyloid-hypothesis": {
+      "id": "karran-de-strooper-amyloid-hypothesis",
+      "cluster": "conceptual",
+      "type": "review",
+      "acquired_at": "2026-08-13T16:50:56.558Z",
+      "canonical_doi": "10.1038/s41573-022-00391-w",
+      "primary": null,
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 3,
+          "kind": "repository-landing",
+          "url": "https://lirias.kuleuven.be/bitstream/20.500.12942/695341/3/NRDD-21-133%20De%20Strooper-karran_final.pdf",
+          "ok": false,
+          "reason": "landing page is a citation target, not a primary document — not ingested as evidence"
+        },
+        {
+          "tier": 4,
+          "kind": "publisher-landing",
+          "url": "https://doi.org/10.1038/s41573-022-00391-w",
+          "ok": false,
+          "reason": "landing page is a citation target, not a primary document — not ingested as evidence"
+        }
+      ],
+      "evidence_completeness": "none",
+      "quarantine": {
+        "reason": "no acquisition route returned a usable primary document",
+        "canonical_doi": "10.1038/s41573-022-00391-w",
+        "blocked_routes": [
+          "repository-landing  landing page is a citation target, not a primary document — not ingested as evidence",
+          "publisher-landing  landing page is a citation target, not a primary document — not ingested as evidence"
+        ]
+      }
+    },
+    "probabilistic-model-amyloid": {
+      "id": "probabilistic-model-amyloid",
+      "cluster": "conceptual",
+      "type": "review",
+      "acquired_at": "2026-08-13T16:50:56.558Z",
+      "canonical_doi": "10.1038/s41583-021-00533-w",
+      "primary": {
+        "role": "primary",
+        "tier": 2,
+        "kind": "pmc-efetch",
+        "note": "PubMed Central via E-utilities (includes NIH author manuscripts)",
+        "path": "sources/probabilistic-model-amyloid.xml",
+        "extension": ".xml",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8840505&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8840505&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+        "content_type": "text/xml",
+        "sha256": "7977c229ba861202628381e34cb28630efaedc29c3cf74065f800bdf59113b8d",
+        "bytes": 259745
+      },
+      "companions": [],
+      "attempts": [
+        {
+          "tier": 2,
+          "kind": "pmc-xml",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8840505/fullTextXML",
+          "ok": false,
+          "http_status": 404,
+          "reason": "HTTP 404"
+        },
+        {
+          "tier": 2,
+          "kind": "pmc-efetch",
+          "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8840505&retmode=xml&tool=alzheimers-research&email=matt%40flamel.ai",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    }
+  }
+}

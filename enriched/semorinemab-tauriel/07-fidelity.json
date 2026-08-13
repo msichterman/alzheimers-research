@@ -1,0 +1,471 @@
+{
+  "id": "semorinemab-tauriel",
+  "checked_at": "2026-08-13T16:53:26.603Z",
+  "builder_model": "claude (builder subagent)",
+  "critic_model": "gemini-3.1-pro-preview",
+  "fields_compared": 41,
+  "disagreements": 3,
+  "conflicts": 1,
+  "coverage_gaps": 2,
+  "agreement_rate": 0.927,
+  "passed": false,
+  "needs_adjudication": true,
+  "disagreement_rows": [
+    {
+      "field": "study.population",
+      "builder": "Individuals aged 50 to 80 years (inclusive) with prodromal to mild Alzheimer disease, MMSE scores between 20 and 30 (inclusive), and confirmed β-amyloid pathology by positron emission tomography or cerebrospinal fluid",
+      "critic": "Individuals aged 50 to 80 years (inclusive) with prodromal to mild AD, Mini-Mental State Examination scores between 20 and 30 (inclusive), and confirmed β-amyloid pathology",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "placebo Δ = 2.19; semorinemab 1500 mg Δ = 2.36 (adjusted change from baseline in CDR-SB points)",
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": "placebo 95% CI, 1.74-2.63; semorinemab 1500 mg 95% CI, 1.83-2.89",
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ],
+  "conflict_rows": [
+    {
+      "field": "study.population",
+      "builder": "Individuals aged 50 to 80 years (inclusive) with prodromal to mild Alzheimer disease, MMSE scores between 20 and 30 (inclusive), and confirmed β-amyloid pathology by positron emission tomography or cerebrospinal fluid",
+      "critic": "Individuals aged 50 to 80 years (inclusive) with prodromal to mild AD, Mini-Mental State Examination scores between 20 and 30 (inclusive), and confirmed β-amyloid pathology",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ],
+  "builder_values_not_found_in_document": [],
+  "critic_values_not_found_in_document": [],
+  "all_rows": [
+    {
+      "field": "study.design",
+      "builder": "Phase 2, multicenter, randomized, double-blind, placebo-controlled, parallel-group clinical trial (the Tauriel study)",
+      "critic": "phase 2 randomized, double-blind, placebo-controlled, parallel-group clinical trial",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.n",
+      "builder": 457,
+      "critic": 457,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.population",
+      "builder": "Individuals aged 50 to 80 years (inclusive) with prodromal to mild Alzheimer disease, MMSE scores between 20 and 30 (inclusive), and confirmed β-amyloid pathology by positron emission tomography or cerebrospinal fluid",
+      "critic": "Individuals aged 50 to 80 years (inclusive) with prodromal to mild AD, Mini-Mental State Examination scores between 20 and 30 (inclusive), and confirmed β-amyloid pathology",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.comparator",
+      "builder": "Placebo, with randomization in a 2:3:2:3 ratio to 1500 mg, 4500 mg, or 8100 mg of semorinemab or placebo",
+      "critic": "placebo",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.followup",
+      "builder": "73-week blinded study period (described in the Discussion as 18 months)",
+      "critic": "73-week",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.intervention",
+      "builder": "Intravenous semorinemab 1500 mg, 4500 mg, or 8100 mg, every 2 weeks for the first 3 infusions and every 4 weeks thereafter, during the 73-week blinded study period",
+      "critic": "intravenous infusions of placebo or semorinemab (1500 mg, 4500 mg, or 8100 mg) every 2 weeks for the first 3 infusions and every 4 weeks thereafter",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.phase",
+      "builder": "Phase 2",
+      "critic": "phase 2",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "primary_endpoint_status.status",
+      "builder": "not_met",
+      "critic": "not_met",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "multiplicity.approach",
+      "builder": "none stated — the document describes no method of controlling for multiple comparisons; it states only that the study was powered at the α = .20 level for the 4500-mg versus placebo CDR-SB comparison",
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[primary].name",
+      "builder": "Change from baseline to week 73 on the Clinical Dementia Rating–Sum of Boxes (CDR-SB) — placebo and 1500-mg semorinemab arms",
+      "critic": "change from baseline on the Clinical Dementia Rating–Sum of Boxes score from baseline to week 73",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].met",
+      "builder": "not_met",
+      "critic": "not_met",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "placebo Δ = 2.19; semorinemab 1500 mg Δ = 2.36 (adjusted change from baseline in CDR-SB points)",
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": "placebo 95% CI, 1.74-2.63; semorinemab 1500 mg 95% CI, 1.83-2.89",
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].p_value",
+      "builder": null,
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].multiplicity_controlled",
+      "builder": "unclear",
+      "critic": "unclear",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[ARIA-E].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[ARIA-H].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[symptomatic ARIA].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[macrohemorrhage].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[death].reported",
+      "builder": "reported",
+      "critic": "reported",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[death].counts",
+      "builder": "placebo: 2 | semorinemab 1500 mg: 0 | semorinemab 4500 mg: 1 | semorinemab 8100 mg: 1 | all arms (placebo: 2; 4500 mg: 1; 8100 mg: 1): 4",
+      "critic": "placebo: 2 | 4500 mg: 1 | 8100 mg: 1",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.apoe_stratification_reported",
+      "builder": false,
+      "critic": false,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[Change from baseline to week 73 on the Clinical Dementia Rating–Sum of Boxes (CDR-SB) — placebo and 1500-mg semorinemab arms].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change from baseline to week 73 on the Clinical Dementia Rating–Sum of Boxes (CDR-SB) — placebo and 1500-mg semorinemab arms].tier",
+      "builder": "primary",
+      "critic": "primary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change from baseline to week 73 on the Clinical Dementia Rating–Sum of Boxes (CDR-SB) — 4500-mg and 8100-mg semorinemab arms].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change from baseline to week 73 on the Clinical Dementia Rating–Sum of Boxes (CDR-SB) — 4500-mg and 8100-mg semorinemab arms].tier",
+      "builder": "primary",
+      "critic": "primary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change from baseline to week 73 on the 13-item Alzheimer’s Disease Assessment Scale–Cognitive Subscale (ADAS-Cog-13)].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change from baseline to week 73 on the 13-item Alzheimer’s Disease Assessment Scale–Cognitive Subscale (ADAS-Cog-13)].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change from baseline to week 73 on the RBANS total index].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change from baseline to week 73 on the RBANS total index].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change from baseline to week 73 on the Alzheimer’s Disease Cooperative Study–Activities of Daily Living Scale (ADCS-ADL)].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change from baseline to week 73 on the Alzheimer’s Disease Cooperative Study–Activities of Daily Living Scale (ADCS-ADL)].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change from baseline to week 73 on the Amsterdam Instrumental Activities of Daily Living Questionnaire (A-IADL-Q)].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change from baseline to week 73 on the Amsterdam Instrumental Activities of Daily Living Questionnaire (A-IADL-Q)].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change from baseline to week 73 in [18F]GTP1 tau PET standardized uptake value ratio (SUVR) in the whole cortical gray region of interest].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change from baseline to week 73 in [18F]GTP1 tau PET standardized uptake value ratio (SUVR) in the whole cortical gray region of interest].tier",
+      "builder": "exploratory",
+      "critic": "exploratory",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Plasma total tau levels].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Plasma total tau levels].tier",
+      "builder": "exploratory",
+      "critic": "exploratory",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change from baseline to week 73 in ventricular, whole brain, cerebral cortex, and hippocampal volumes on volumetric MRI].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change from baseline to week 73 in ventricular, whole brain, cerebral cortex, and hippocampal volumes on volumetric MRI].tier",
+      "builder": "exploratory",
+      "critic": "exploratory",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "extracted_by": "gemini-3.1-pro-preview",
+  "extracted_at": "2026-08-13T16:54:28.846Z",
+  "independent": true,
+  "saw_builder_output": false,
+  "source": "raw/bellenguez-2022-gwas/document.md",
+  "source_sha256": "fd2d5a2be6ddb5a60c153ee63dd7d5f0645808b8a60a56a3ebddf3747200bdc0",
+  "truncated": false,
+  "tokens": {
+    "in": 29036,
+    "out": 1891
+  },
+  "record": {
+    "document_kind": "journal_article",
+    "title": {
+      "value": "New insights into the genetic etiology of Alzheimer’s disease and related dementias",
+      "quote": "New insights into the genetic etiology of Alzheimer’s disease and related dementias",
+      "location": "Title"
+    },
+    "study": {
+      "design": {
+        "value": "two-stage genome-wide association study",
+        "quote": "We performed a two-stage genome-wide association study",
+        "location": "Abstract"
+      },
+      "n": {
+        "value": 788989,
+        "quote": "totaling 111,326 clinically diagnosed/‘proxy’ AD cases and 677,663 controls.",
+        "location": "Abstract"
+      },
+      "population": {
+        "value": "clinically diagnosed/‘proxy’ AD cases and controls",
+        "quote": "clinically diagnosed/‘proxy’ AD cases and 677,663 controls.",
+        "location": "Abstract"
+      },
+      "biomarker_confirmation": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "cohorts": [
+        "EADB",
+        "UKBB",
+        "ADGC",
+        "FinnGen",
+        "CHARGE",
+        "GR@ACE",
+        "EADI",
+        "GERAD/PERADES",
+        "DemGene",
+        "Bonn",
+        "Rotterdam study",
+        "CCHS study",
+        "NxC",
+        "3C",
+        "AgeCoDe",
+        "AMC",
+        "DCN",
+        "FACE",
+        "FHS",
+        "HAN",
+        "MAS",
+        "RS1",
+        "RS2",
+        "VITA",
+        "UAN",
+        "UHA",
+        "ZIM",
+        "ROSMAP",
+        "MSBB",
+        "AMP-AD",
+        "MayoRNAseq",
+        "eQTLGen",
+        "GTEx",
+        "MiGA"
+      ],
+      "comparator": {
+        "value": "controls",
+        "quote": "677,663 controls",
+        "location": "Abstract"
+      },
+      "followup": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "intervention": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "n_description": {
+        "value": "clinically diagnosed/‘proxy’ AD cases and controls",
+        "quote": "totaling 111,326 clinically diagnosed/‘proxy’ AD cases and 677,663 controls.",
+        "location": "Abstract"
+      },
+      "nct_ids": [],
+      "phase": {
+        "value": null,
+        "quote": null,
+        "location": null
+      }
+    },
+    "outcomes": [
+      {
+        "name": "risk loci",
+        "tier": "primary",
+        "prespecified": "unclear",
+        "met": "met",
+        "quote": "We found 75 risk loci, of which 42 were new at the time of analysis.",
+        "location": "Abstract",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": null,
+        "p_value": null,
+        "prespecification_evidence": null
+      },
+      {
+        "name": "genetic risk score associated with the risk of future AD/dementia or progression from mild cognitive impairment to AD/dementia",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "met": "met",
+        "quote": "We also built a new genetic risk score associated with the risk of future AD/dementia or progression from mild cognitive impairment to AD/dementia.",
+        "location": "Abstract",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": null,
+        "p_value": null,
+        "prespecification_evidence": null
+      }
+    ],
+    "primary_endpoint_status": {
+      "status": "not_applicable",
+      "quote": "We performed a two-stage genome-wide association study totaling 111,326 clinically diagnosed/‘proxy’ AD cases and 677,663 controls.",
+      "explanation": "This is a genome-wide association study, not a clinical trial with a primary efficacy endpoint."
+    },
+    "safety": {
+      "harms": [],
+      "apoe_stratification_reported": false,
+      "deaths": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "discontinuations": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "serious_adverse_events": {
+        "value": null,
+        "quote": null,
+        "location": null
+      }
+    },
+    "unlocatable_fields": [
+      "biomarker_confirmation",
+      "followup",
+      "intervention",
+      "phase",
+      "deaths",
+      "discontinuations",
+      "serious_adverse_events"
+    ],
+    "authors": [
+      {
+        "name": "Céline Bellenguez",
+        "affiliation": null,
+        "corresponding": true,
+        "orcid": null
+      },
+      {
+        "name": "Jean-Charles Lambert",
+        "affiliation": null,
+        "corresponding": true,
+        "orcid": null
+      }
+    ],
+    "conflicts": [
+      "H. Hampel is an employee of Eisai. The present article was initiated and prepared as part of his academic position at Sorbonne University (Paris, France), and it reflects entirely and exclusively his own opinion. He serves as Senior Associate Editor for the Alzheimers & Dementia journal and has not received any fees or honoraria since May 2019. Before May 2019, H. Hampel received lecture fees from Servier, Biogen and Roche; research grants from Pfizer, Avid and MSD Avenir (paid to the institution); travel funding from Eisai, Functional Neuromodulation, Axovant, Eli Lilly and Company, Takeda, Zinfandel Pharmaceuticals, GE Healthcare and Oryzon Genomics; and consultancy fees from Qynapse, Jung Diagnostics, Cytox, Axovant, Anavex, Takeda, Zinfandel Pharmaceuticals, GE Healthcare, Oryzon Genomics and Functional Neuromodulation. He served as a scientific advisory board member for Functional Neuromodulation, Axovant, Eisai, Eli Lilly and Company, Cytox, GE Healthcare, Takeda and Zinfandel, Oryzon Genomics and Roche Diagnostics. The remaining authors declare no competing interests"
+    ],
+    "disagreements": [],
+    "funding": [
+      "UKBB resource (application number 61054)",
+      "EU Joint Programme – Neurodegenerative Disease Research",
+      "INSERM UMR1167 is also funded by the INSERM, Institut Pasteur de Lille, Lille Métropole Communauté Urbaine and French government’s LABEX DISTALZ program"
+    ],
+    "limitations": [
+      "identification of rare variants with very low frequencies is a major challenge for genetic studies, because available samples with sequencing data in AD are underpowered.",
+      "gene–gene and gene–environment interactions have not yet been studied in detail.",
+      "GRSs developed with European-ancestry populations are known to be less effective with other ancestries"
+    ],
+    "linked_objects": [],
+    "multiplicity": {
+      "approach": "correction for multiple testing",
+      "location": "Pathway analyses",
+      "quote": "Ninety-three gene sets were still statistically significant after correction for multiple testing ( q ≤ 0.05; and Supplementary Table )."
+    },
+    "risk_of_bias": []
+  }
+}

@@ -1,0 +1,401 @@
+{
+  "id": "solanezumab-a4-prevention",
+  "checked_at": "2026-08-13T16:27:39.166Z",
+  "builder_model": "claude (builder subagent)",
+  "critic_model": "gemini-3.1-pro-preview",
+  "fields_compared": 32,
+  "disagreements": 3,
+  "conflicts": 3,
+  "coverage_gaps": 0,
+  "agreement_rate": 0.906,
+  "passed": false,
+  "needs_adjudication": true,
+  "disagreement_rows": [
+    {
+      "field": "study.population",
+      "builder": "Cognitively unimpaired persons 65 to 85 years of age living independently without a diagnosis of mild cognitive impairment or dementia (global CDR score of 0, MMSE 25 to 30, Wechsler Memory Scale Logical Memory Delayed Recall 6 to 18) with elevated brain amyloid levels on florbetapir PET — i.e., preclinical Alzheimer's disease",
+      "critic": "Persons 65 to 85 years of age with a global Clinical Dementia Rating score of 0 (range, 0 to 3, with 0 indicating no cognitive impairment and 3 severe dementia), a score on the Mini–Mental State Examination of 25 or more (range, 0 to 30, with lower scores indicating poorer cognition), and elevated brain amyloid levels on 18 F-florbetapir positron-emission tomography (PET)",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[ARIA-E].reported",
+      "builder": "reported",
+      "critic": "absent",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[ARIA-H].reported",
+      "builder": "reported",
+      "critic": "absent",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    }
+  ],
+  "conflict_rows": [
+    {
+      "field": "study.population",
+      "builder": "Cognitively unimpaired persons 65 to 85 years of age living independently without a diagnosis of mild cognitive impairment or dementia (global CDR score of 0, MMSE 25 to 30, Wechsler Memory Scale Logical Memory Delayed Recall 6 to 18) with elevated brain amyloid levels on florbetapir PET — i.e., preclinical Alzheimer's disease",
+      "critic": "Persons 65 to 85 years of age with a global Clinical Dementia Rating score of 0 (range, 0 to 3, with 0 indicating no cognitive impairment and 3 severe dementia), a score on the Mini–Mental State Examination of 25 or more (range, 0 to 30, with lower scores indicating poorer cognition), and elevated brain amyloid levels on 18 F-florbetapir positron-emission tomography (PET)",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[ARIA-E].reported",
+      "builder": "reported",
+      "critic": "absent",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[ARIA-H].reported",
+      "builder": "reported",
+      "critic": "absent",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    }
+  ],
+  "builder_values_not_found_in_document": [],
+  "critic_values_not_found_in_document": [],
+  "all_rows": [
+    {
+      "field": "study.design",
+      "builder": "Randomized (1:1), double-blind, placebo-controlled phase 3 prevention trial in preclinical Alzheimer's disease, conducted at 67 sites in Australia, Canada, Japan, and the United States",
+      "critic": "phase 3 trial",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.n",
+      "builder": 1169,
+      "critic": 1169,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.population",
+      "builder": "Cognitively unimpaired persons 65 to 85 years of age living independently without a diagnosis of mild cognitive impairment or dementia (global CDR score of 0, MMSE 25 to 30, Wechsler Memory Scale Logical Memory Delayed Recall 6 to 18) with elevated brain amyloid levels on florbetapir PET — i.e., preclinical Alzheimer's disease",
+      "critic": "Persons 65 to 85 years of age with a global Clinical Dementia Rating score of 0 (range, 0 to 3, with 0 indicating no cognitive impairment and 3 severe dementia), a score on the Mini–Mental State Examination of 25 or more (range, 0 to 30, with lower scores indicating poorer cognition), and elevated brain amyloid levels on 18 F-florbetapir positron-emission tomography (PET)",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.comparator",
+      "builder": "Placebo (matching intravenous placebo supplied by Eli Lilly), 1:1 randomization stratified by ApoE ε4 carrier status, years of education, and trial site",
+      "critic": "placebo",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.followup",
+      "builder": "240 weeks (4.5 years) of double-blind treatment",
+      "critic": "240 weeks",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.intervention",
+      "builder": "Solanezumab intravenously every 4 weeks, at a dose of up to 1600 mg (initially 400 mg every 4 weeks; increased by protocol amendment in 2017 to 1600 mg every 4 weeks)",
+      "critic": "solanezumab at a dose of up to 1600 mg intravenously every 4 weeks",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.phase",
+      "builder": "phase 3",
+      "critic": "phase 3",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "primary_endpoint_status.status",
+      "builder": "not_met",
+      "critic": "not_met",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "multiplicity.approach",
+      "builder": "Prespecified graphical testing scheme for the primary and secondary end points, with change in the PACC score as the primary end point followed by the secondary end points; because the primary end point failed, no claims of significance were allowed for subsequent end points. Imaging end points were reported with multiplicity-unadjusted confidence intervals only.",
+      "critic": "graphical testing scheme",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].name",
+      "builder": "Change in the Preclinical Alzheimer Cognitive Composite (PACC) score at 4.5 years (240 weeks)",
+      "critic": "change in the Preclinical Alzheimer Cognitive Composite (PACC) score",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].met",
+      "builder": "not_met",
+      "critic": "not_met",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "difference, −0.30 PACC points (mean change −1.43 in the solanezumab group vs. −1.13 in the placebo group), i.e. numerically greater decline with solanezumab",
+      "critic": "−0.30",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": "95% CI, −0.82 to 0.22",
+      "critic": "95% CI, −0.82 to 0.22",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].p_value",
+      "builder": "P = 0.26",
+      "critic": "P = 0.26",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].multiplicity_controlled",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[ARIA-E].reported",
+      "builder": "reported",
+      "critic": "absent",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[ARIA-H].reported",
+      "builder": "reported",
+      "critic": "absent",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[symptomatic ARIA].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[macrohemorrhage].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[death].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.apoe_stratification_reported",
+      "builder": false,
+      "critic": false,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[Change in the Preclinical Alzheimer Cognitive Composite (PACC) score at 4.5 years (240 weeks)].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change in the Preclinical Alzheimer Cognitive Composite (PACC) score at 4.5 years (240 weeks)].tier",
+      "builder": "primary",
+      "critic": "primary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change in the Cognitive Function Index (CFI) score (first secondary end point in the graphical testing scheme)].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change in the Cognitive Function Index (CFI) score (first secondary end point in the graphical testing scheme)].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Alzheimer’s Disease Cooperative Study Activities of Daily Living (ADL) Prevention Questionnaire score].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Alzheimer’s Disease Cooperative Study Activities of Daily Living (ADL) Prevention Questionnaire score].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[CDR–Sum of Boxes (CDR-SB) score].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[CDR–Sum of Boxes (CDR-SB) score].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Progression of the global CDR score to a nonzero score (mild cognitive impairment or dementia)].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Progression of the global CDR score to a nonzero score (mild cognitive impairment or dementia)].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ]
+}

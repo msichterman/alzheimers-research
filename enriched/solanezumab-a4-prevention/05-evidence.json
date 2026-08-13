@@ -1,0 +1,508 @@
+{
+  "document_kind": "journal_article",
+  "title": {
+    "value": "Trial of Solanezumab in Preclinical Alzheimer’s Disease",
+    "quote": "# Trial of Solanezumab in Preclinical Alzheimer’s Disease\n**Authors:** Reisa A. Sperling, Michael C. Donohue, Rema Raman, Michael S. Rafii",
+    "location": "Title line (document header)"
+  },
+  "authors": [
+    {
+      "name": "Reisa A. Sperling",
+      "affiliation": null,
+      "orcid": null
+    },
+    {
+      "name": "Michael C. Donohue",
+      "affiliation": null,
+      "orcid": null
+    },
+    {
+      "name": "Rema Raman",
+      "affiliation": null,
+      "orcid": null
+    },
+    {
+      "name": "Michael S. Rafii",
+      "affiliation": null,
+      "orcid": null
+    },
+    {
+      "name": "Keith Johnson",
+      "affiliation": null,
+      "orcid": null
+    },
+    {
+      "name": "Colin L. Masters",
+      "affiliation": null,
+      "orcid": null
+    },
+    {
+      "name": "Christopher H. van Dyck",
+      "affiliation": null,
+      "orcid": null
+    },
+    {
+      "name": "Takeshi Iwatsubo",
+      "affiliation": null,
+      "orcid": null
+    },
+    {
+      "name": "Gad A. Marshall",
+      "affiliation": null,
+      "orcid": null
+    },
+    {
+      "name": "Roy Yaari",
+      "affiliation": null,
+      "orcid": null
+    },
+    {
+      "name": "Michele Mancini",
+      "affiliation": null,
+      "orcid": null
+    },
+    {
+      "name": "Karen C. Holdridge",
+      "affiliation": null,
+      "orcid": null
+    },
+    {
+      "name": "Michael Case",
+      "affiliation": null,
+      "orcid": null
+    },
+    {
+      "name": "John R. Sims",
+      "affiliation": null,
+      "orcid": null
+    },
+    {
+      "name": "Paul S. Aisen",
+      "affiliation": null,
+      "orcid": null
+    }
+  ],
+  "study": {
+    "design": {
+      "value": "Randomized (1:1), double-blind, placebo-controlled phase 3 prevention trial in preclinical Alzheimer's disease, conducted at 67 sites in Australia, Canada, Japan, and the United States",
+      "quote": "We tested solanezumab, which targets monomeric amyloid, in a phase 3 trial involving persons with preclinical Alzheimer’s disease.",
+      "location": "Abstract, METHODS"
+    },
+    "phase": {
+      "value": "phase 3",
+      "quote": "We tested solanezumab, which targets monomeric amyloid, in a phase 3 trial involving persons with preclinical Alzheimer’s disease.",
+      "location": "Abstract, METHODS"
+    },
+    "n": {
+      "value": 1169,
+      "quote": "A total of 1169 persons underwent randomization: 578 were assigned to the solanezumab group and 591 to the placebo group.",
+      "location": "Abstract, RESULTS"
+    },
+    "n_description": {
+      "value": "randomized (1169 randomly assigned: 578 solanezumab, 591 placebo); the modified intention-to-treat population included 564 solanezumab and 583 placebo participants",
+      "quote": "Ultimately, 1169 participants were randomly assigned to a trial group, 578 to receive solanezumab and 591 to receive placebo; the modified intention-to-treat population included 564 participants who received solanezumab and 583 who received placebo.",
+      "location": "Results, Participants"
+    },
+    "population": {
+      "value": "Cognitively unimpaired persons 65 to 85 years of age living independently without a diagnosis of mild cognitive impairment or dementia (global CDR score of 0, MMSE 25 to 30, Wechsler Memory Scale Logical Memory Delayed Recall 6 to 18) with elevated brain amyloid levels on florbetapir PET — i.e., preclinical Alzheimer's disease",
+      "quote": "Participants were eligible for screening if they were 65 to 85 years of age and were living independently without a diagnosis of mild cognitive impairment or dementia",
+      "location": "Methods, Trial Design"
+    },
+    "followup": {
+      "value": "240 weeks (4.5 years) of double-blind treatment",
+      "quote": "The primary objective was to test the hypothesis that solanezumab, administered for 240 weeks, slows cognitive decline as compared with placebo in participants with preclinical Alzheimer’s disease.",
+      "location": "Methods, Statistical Analysis"
+    },
+    "intervention": {
+      "value": "Solanezumab intravenously every 4 weeks, at a dose of up to 1600 mg (initially 400 mg every 4 weeks; increased by protocol amendment in 2017 to 1600 mg every 4 weeks)",
+      "quote": "Participants were randomly assigned in a 1:1 ratio to receive solanezumab at a dose of up to 1600 mg intravenously every 4 weeks or placebo.",
+      "location": "Abstract, METHODS"
+    },
+    "comparator": {
+      "value": "Placebo (matching intravenous placebo supplied by Eli Lilly), 1:1 randomization stratified by ApoE ε4 carrier status, years of education, and trial site",
+      "quote": "Eligible participants were randomly assigned in a 1:1 ratio to receive intravenous solanezumab or placebo. Randomization was stratified according to apolipoprotein E (ApoE) ε4 carrier status, years of education (≤12 or >12), and trial site.",
+      "location": "Methods, Trial Design"
+    },
+    "biomarker_confirmation": {
+      "value": "Elevated brain amyloid on 18F-florbetapir PET: mean cortical SUVR of 1.15 or more, or SUVR 1.10 to less than 1.15 with a positive two-reader consensus visual read",
+      "quote": "A quantitative SUVR threshold of 1.15 or more was used as the primary criterion to define elevated amyloid levels in the identification of persons with early amyloid accumulation.",
+      "location": "Methods, Trial Design"
+    },
+    "nct_ids": [
+      "NCT02008357"
+    ],
+    "cohorts": [
+      "A4 (the trial cohort itself, referred to as the A4 trial / A4 Study Team)"
+    ]
+  },
+  "outcomes": [
+    {
+      "name": "Change in the Preclinical Alzheimer Cognitive Composite (PACC) score at 4.5 years (240 weeks)",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "A graphical testing scheme to account for multiple comparisons of the primary and secondary end points (see the plan) was prespecified in February 2023, before unblinding, with the change in the PACC score as the primary end point",
+      "met": "not_met",
+      "effect_estimate": "difference, −0.30 PACC points (mean change −1.43 in the solanezumab group vs. −1.13 in the placebo group), i.e. numerically greater decline with solanezumab",
+      "confidence_interval": "95% CI, −0.82 to 0.22",
+      "p_value": "P = 0.26",
+      "multiplicity_controlled": "yes",
+      "quote": "At 240 weeks, the mean change in PACC score was −1.43 in the solanezumab group and −1.13 in the placebo group (difference, −0.30; 95% confidence interval, −0.82 to 0.22; P = 0.26).",
+      "location": "Abstract, RESULTS (also Results, Trial End Points)"
+    },
+    {
+      "name": "Change in the Cognitive Function Index (CFI) score (first secondary end point in the graphical testing scheme)",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "The first secondary end point in the graphical testing scheme described below was the change in the Cognitive Function Index (CFI) score",
+      "met": "not_met",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "yes",
+      "quote": "Because the between-group difference in the primary end point failed to reach significance, the graphical testing scheme did not allow claims of significance for subsequent end points",
+      "location": "Methods, End Points; Results, Trial End Points"
+    },
+    {
+      "name": "Alzheimer’s Disease Cooperative Study Activities of Daily Living (ADL) Prevention Questionnaire score",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Additional secondary end points include the score on the Alzheimer’s Disease Cooperative Study Activities of Daily Living (ADL) Prevention Questionnaire, which was assessed by the partner",
+      "met": "not_met",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "yes",
+      "quote": "solanezumab did not slow the progression of cognitive and functional decline in persons with preclinical Alzheimer’s disease as compared with placebo over a period of 4.5 years",
+      "location": "Methods, End Points; Discussion (concluding paragraph)"
+    },
+    {
+      "name": "CDR–Sum of Boxes (CDR-SB) score",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "the CDR–Sum of Boxes (CDR-SB) score (range, 0 to 18, with higher scores indicating greater impairment in global functioning)",
+      "met": "not_met",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "yes",
+      "quote": "did not slow the progression of preclinical Alzheimer’s disease as compared with placebo on the basis of the primary or secondary cognitive and functional end points over a period of 4.5 years",
+      "location": "Methods, End Points; Discussion, paragraph 1"
+    },
+    {
+      "name": "Progression of the global CDR score to a nonzero score (mild cognitive impairment or dementia)",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "and progression of the global CDR score to a nonzero score indicating mild cognitive impairment or dementia",
+      "met": "not_met",
+      "effect_estimate": "33.4% of participants across both groups had progression of the global CDR score at 240 weeks; no between-group estimate is reported",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "yes",
+      "quote": "Across both groups, 33.4% of the participants had progression of the global CDR score at 240 weeks.",
+      "location": "Results, Trial End Points"
+    },
+    {
+      "name": "Change in brain amyloid burden on 18F-florbetapir PET (centiloids)",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Imaging end points included the change in findings on 18 F-florbetapir amyloid PET and volumetric magnetic resonance imaging (MRI).",
+      "met": "not_applicable",
+      "effect_estimate": "mean difference in change, 7.7 centiloids (increase of 11.6 centiloids with solanezumab vs. 19.3 centiloids with placebo)",
+      "confidence_interval": "95% CI, 5.1 to 10.4",
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "The increase was numerically larger in the placebo group than in the solanezumab group (19.3 centiloids vs. 11.6 centiloids; mean difference in change, 7.7 centiloids; 95% CI, 5.1 to 10.4), but statistical inferences from these results have limitations",
+      "location": "Results, Trial End Points"
+    },
+    {
+      "name": "Change in 18F-flortaucipir tau PET (neocortical composite as primary imaging end point; medial temporal lobe as secondary), in the tau PET substudy subgroup",
+      "tier": "subgroup",
+      "prespecified": "yes",
+      "prespecification_evidence": "18 F-flortaucipir tau PET was performed in a subgroup of participants, with the primary imaging end point measured from a composite of neocortical regions and a secondary imaging end point in medial temporal lobe regions at baseline and 240 weeks.",
+      "met": "not_applicable",
+      "effect_estimate": "increases in neocortical and medial temporal tau were similar in the two groups; no numeric estimate reported",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "On tau PET (performed in 114 participants in each group), increases in neocortical and medial temporal tau were similar in the two groups",
+      "location": "Results, Trial End Points"
+    },
+    {
+      "name": "Change in volumetric MRI measures (hippocampal and total gray-matter volume)",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Imaging end points included the change in findings on 18 F-florbetapir amyloid PET and volumetric magnetic resonance imaging (MRI).",
+      "met": "not_applicable",
+      "effect_estimate": "changes were similar in the two groups; no numeric estimate reported",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "Changes in volumetric MRI measures in the hippocampus and total gray matter were similar in the two groups",
+      "location": "Results, Trial End Points"
+    },
+    {
+      "name": "Prespecified subgroup analyses of the primary end point",
+      "tier": "subgroup",
+      "prespecified": "yes",
+      "prespecification_evidence": "Prespecified subgroup analyses showed similar results",
+      "met": "not_applicable",
+      "effect_estimate": "described only as showing similar results; no numeric estimates reported in the retrieved text",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Prespecified subgroup analyses showed similar results (see ). Because the between-group difference in the primary end point failed to reach significance",
+      "location": "Results, Trial End Points"
+    },
+    {
+      "name": "Post hoc analysis of the effect of baseline amyloid level (florbetapir PET centiloid tertiles) in the modified intention-to-treat population",
+      "tier": "post_hoc",
+      "prespecified": "no",
+      "prespecification_evidence": "There was no prespecified plan for adjustment of the widths of confidence intervals for multiple comparisons, and no conclusions can be drawn from this analysis.",
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "A post hoc analysis was conducted to characterize the effect of the baseline amyloid level on florbetapir PET, expressed in centiloids, in the modified intention-to-treat population",
+      "location": "Methods, Statistical Analysis"
+    },
+    {
+      "name": "Association of baseline amyloid level with cognitive and functional decline and risk of progression to symptomatic Alzheimer's disease (both groups combined)",
+      "tier": "post_hoc",
+      "prespecified": "no",
+      "prespecification_evidence": "but no formal statistical conclusions can be drawn from those analyses",
+      "met": "not_applicable",
+      "effect_estimate": "higher baseline amyloid levels associated with faster cognitive and functional decline and greater risk of progression; no numeric estimate reported",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "In both groups combined, higher baseline amyloid levels were associated with faster cognitive and functional decline and a greater risk of progression to symptomatic Alzheimer’s disease",
+      "location": "Results, Trial End Points"
+    }
+  ],
+  "primary_endpoint_status": {
+    "status": "not_met",
+    "explanation": "The primary end point — change in PACC score over 240 weeks in cognitively unimpaired, amyloid-positive participants — showed no significant between-group difference (difference, −0.30; 95% CI, −0.82 to 0.22; P = 0.26), with numerically greater decline in the solanezumab group.",
+    "quote": "which indicated no significant between-group difference and a numerically greater decline in the solanezumab group"
+  },
+  "multiplicity": {
+    "approach": "Prespecified graphical testing scheme for the primary and secondary end points, with change in the PACC score as the primary end point followed by the secondary end points; because the primary end point failed, no claims of significance were allowed for subsequent end points. Imaging end points were reported with multiplicity-unadjusted confidence intervals only.",
+    "quote": "A graphical testing scheme to account for multiple comparisons of the primary and secondary end points (see the plan) was prespecified in February 2023, before unblinding, with the change in the PACC score as the primary end point",
+    "location": "Methods, Statistical Analysis"
+  },
+  "safety": {
+    "harms": [
+      {
+        "name": "ARIA-E (amyloid-related imaging abnormalities with edema)",
+        "arm": "solanezumab",
+        "count": "One case",
+        "denominator": null,
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "One case of amyloidrelated imaging abnormalities (ARIA) with edema was reported in the solanezumab group, and two cases were reported in the placebo group.",
+        "location": "Results, Safety"
+      },
+      {
+        "name": "ARIA-E (amyloid-related imaging abnormalities with edema)",
+        "arm": "placebo",
+        "count": "two cases",
+        "denominator": null,
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "One case of amyloidrelated imaging abnormalities (ARIA) with edema was reported in the solanezumab group, and two cases were reported in the placebo group.",
+        "location": "Results, Safety"
+      },
+      {
+        "name": "ARIA-E (amyloid-related imaging abnormalities with edema)",
+        "arm": "both arms (solanezumab and placebo), reported jointly",
+        "count": null,
+        "denominator": null,
+        "percentage": "less than 1% of the participants in each group",
+        "apoe_stratum": null,
+        "quote": "Amyloidrelated imaging abnormalities (ARIA) with edema occurred in less than 1% of the participants in each group.",
+        "location": "Abstract, RESULTS"
+      },
+      {
+        "name": "ARIA-H (ARIA with microhemorrhage or hemosiderosis)",
+        "arm": "solanezumab",
+        "count": null,
+        "denominator": null,
+        "percentage": "29.2%",
+        "apoe_stratum": null,
+        "quote": "ARIA with microhemorrhage or hemosiderosis occurred in 29.2% of the participants in the solanezumab group and 32.8% of those in the placebo group.",
+        "location": "Results, Safety (also Abstract, RESULTS)"
+      },
+      {
+        "name": "ARIA-H (ARIA with microhemorrhage or hemosiderosis)",
+        "arm": "placebo",
+        "count": null,
+        "denominator": null,
+        "percentage": "32.8%",
+        "apoe_stratum": null,
+        "quote": "ARIA with microhemorrhage or hemosiderosis occurred in 29.2% of the participants in the solanezumab group and 32.8% of those in the placebo group.",
+        "location": "Results, Safety (also Abstract, RESULTS)"
+      },
+      {
+        "name": "Overall and serious adverse events",
+        "arm": "solanezumab and placebo (compared)",
+        "count": null,
+        "denominator": null,
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "Overall and serious adverse events were similar in the two groups in both type and incidence",
+        "location": "Results, Safety"
+      }
+    ],
+    "apoe_stratification_reported": false,
+    "serious_adverse_events": {
+      "value": "Overall and serious adverse events were similar in the two groups in both type and incidence; no counts, denominators or percentages are reported in the retrieved text",
+      "quote": "Overall and serious adverse events were similar in the two groups in both type and incidence",
+      "location": "Results, Safety"
+    },
+    "deaths": {
+      "value": null,
+      "quote": null,
+      "location": null
+    },
+    "discontinuations": {
+      "value": null,
+      "quote": null,
+      "location": null
+    }
+  },
+  "funding": [
+    "Supported by a public–private–philanthropic partnership, including funding from the National Institute on Aging of the National Institutes of Health (R01AG063689, U19AG010483, and U24AG057437)",
+    "Eli Lilly (also the supplier of active medication and placebo)",
+    "the Alzheimer’s Association",
+    "the Accelerating Medicines Partnership through the Foundation for the National Institutes of Health",
+    "the GHR Foundation",
+    "the Davis Alzheimer Prevention Program",
+    "the Yugilbar Foundation",
+    "an anonymous foundation, and additional private donors to Brigham and Women’s Hospital",
+    "in-kind support from Avid Radiopharmaceuticals, Cogstate, Albert Einstein College of Medicine, and the Foundation for Neurologic Diseases",
+    "funding from the National Institutes of Health, Eli Lilly (holder of the investigational new drug application), and philanthropic donors"
+  ],
+  "conflicts": [
+    "Disclosure forms provided by the authors are available with the full text of this article at NEJM.org — the individual author disclosures themselves are not contained in the retrieved document",
+    "The trial was designed by five academic authors in collaboration with three authors employed by Eli Lilly and other colleagues (sponsor employees are among the listed authors)",
+    "Data were analyzed by two academic authors; parallel analyses were conducted by an author employed by Eli Lilly",
+    "There were confidentiality agreements between Eli Lilly and the academic authors; however, the authors were not restricted with regard to access to data, analysis, interpretation, presentation, and publication of results",
+    "Eli Lilly provided the trial drug and matching placebo and is the holder of the investigational new drug application"
+  ],
+  "limitations": [
+    "Participants were not representative of older persons at risk for cognitive decline, and there were few Black participants.",
+    "Our trial was complicated by a midtrial dose increase.",
+    "The trial had widespread disruption of activities at the sites due to the Covid-19 pandemic.",
+    "For the amyloid PET results: statistical inferences from these results have limitations, and only multiplicity-unadjusted 95% confidence intervals are provided for imaging end-point analyses, which cannot be used for statistical inferences.",
+    "For the post hoc baseline-amyloid analysis: there was no prespecified plan for adjustment of the widths of confidence intervals for multiple comparisons, and no conclusions can be drawn from this analysis.",
+    "No formal statistical conclusions can be drawn from the analyses of baseline amyloid level and its association with decline and progression."
+  ],
+  "risk_of_bias": [
+    {
+      "domain": "attrition / missing primary outcome data",
+      "judgement": "Roughly 30% of participants in each group were missing the final-visit PACC observation, the primary end-point measure; the sample-size calculation had assumed 30% attrition and the model used all available observations without imputation.",
+      "quote": "Final-visit PACC observations were missing for 30.6% of the participants in the solanezumab group and 28.4% of those in the placebo group."
+    },
+    {
+      "domain": "sponsor involvement in design and analysis",
+      "judgement": "The sponsor (Eli Lilly) funded the trial, supplied drug and placebo, held the IND, contributed three author-employees to the trial design, and ran parallel analyses; the document states the academic team coordinated the trial and that authors were unrestricted in data access and publication.",
+      "quote": "Data were analyzed by two academic authors; parallel analyses were conducted by an author employed by Eli Lilly."
+    },
+    {
+      "domain": "mid-trial protocol change (dose increase and duration extension)",
+      "judgement": "The dose was quadrupled and the double-blind phase extended after roughly 970 participants had already been enrolled, so exposure differed across the cohort; the authors list this among the trial's limitations.",
+      "quote": "the protocol was changed to adjust the dose to 1600 mg intravenously every 4 weeks in 2017, when approximately 970 participants had already been enrolled"
+    },
+    {
+      "domain": "analysis-plan amendment",
+      "judgement": "The primary analysis method was changed from mixed-model repeated measures to a constrained longitudinal spline analysis using days since baseline; the document states this was done before unblinding.",
+      "quote": "was amended to use days since baseline derived from examination dates as the time variable, rather than categorical visit. This change was made before results were unblinded to the trial team and investigators."
+    },
+    {
+      "domain": "selection / representativeness of the enrolled population",
+      "judgement": "Self-referred volunteers recruited via advertising and registries, with Black and Hispanic or Latino participants underrepresented relative to the general population, limiting generalizability.",
+      "quote": "Participants who identified as Black or as Hispanic or Latino were underrepresented as compared with the general population"
+    },
+    {
+      "domain": "external disruption (Covid-19)",
+      "judgement": "Pandemic social-distancing measures interrupted dosing and testing and pushed many visits past their target dates, forcing the change in the time variable used for analysis.",
+      "quote": "The hiatus in dose administration and testing in the trial due to social-distancing measures during the Covid-19 pandemic resulted in many visits being conducted later than the original target date."
+    },
+    {
+      "domain": "internal reporting consistency",
+      "judgement": "The Results section reports 33.4% of participants across both groups with progression of the global CDR score at 240 weeks, while the Discussion reports progression to more than 0 in 36% of participants.",
+      "quote": "Cognitive and clinical decline, with progression of the global CDR score to more than 0 in 36% of the participants"
+    }
+  ],
+  "disagreements": [
+    {
+      "question": "Does slowing amyloid accumulation, without reducing fibrillar amyloid below baseline, slow clinical progression in cognitively unimpaired amyloid-positive people?",
+      "position": "It does not; the A4 results are consistent with trials showing that only substantial reduction of fibrillar amyloid toward normal levels is associated with slowed progression.",
+      "attributed_to": "the authors of this trial report (A4 investigators)",
+      "quote": "slowing amyloid accumulation without reduction of fibrillar amyloid levels below baseline did not slow clinical progression"
+    },
+    {
+      "question": "Does solanezumab produce the cognitive benefit suggested by the meta-analysis of the EXPEDITION trials in mild Alzheimer's dementia?",
+      "position": "This trial found numerical worsening on the primary and secondary end points with solanezumab, which the authors call unexpected given the EXPEDITION meta-analysis, and they conjecture the fourfold dose increase may have severely depleted monomeric Aβ and yielded cognitive worsening.",
+      "attributed_to": "the authors of this trial report (A4 investigators), contrasting with the EXPEDITION meta-analysis",
+      "quote": "worsening with respect to the primary and secondary end points in the solanezumab group as compared with the placebo group, although not significantly different between groups, was unexpected in view of the results of a meta-analysis of the EXPEDITION trials"
+    },
+    {
+      "question": "Does the accumulation of brain amyloid in a cognitively unimpaired population mark early-stage Alzheimer's disease?",
+      "position": "Yes — observed cognitive and clinical decline plus tau accumulation on flortaucipir PET are consistent with elevated amyloid in an unimpaired population being a marker for early-stage Alzheimer's disease.",
+      "attributed_to": "the authors of this trial report (A4 investigators)",
+      "quote": "is consistent with the view that the accumulation of brain amyloid in an unimpaired population may represent a marker for early-stage Alzheimer’s disease"
+    }
+  ],
+  "linked_objects": [
+    {
+      "relation": "registry_record",
+      "identifier": "NCT02008357",
+      "note": "The A4 trial registration named in the document: \"A4 ClinicalTrials.gov number, NCT02008357\""
+    }
+  ],
+  "trial_status_observation": {
+    "status": "Double-blind phase conducted from 2014 through 2022 and completed, with database lock in early 2023; 379 solanezumab and 396 placebo participants continued to an open-label extension phase",
+    "enrollment": "1169 participants randomly assigned (578 solanezumab, 591 placebo)",
+    "phase": "phase 3",
+    "observed_at": "early 2023 (database lock of the double-blind phase), as stated in the document: \"The double-blind phase of the trial was conducted from 2014 through 2022, and database lock of this phase occurred in early 2023.\"",
+    "source": "This journal article (Methods, Trial Oversight and Results, Participants)"
+  },
+  "unlocatable_fields": [
+    "authors[].affiliation",
+    "authors[].orcid",
+    "authors[].corresponding",
+    "safety.deaths",
+    "safety.discontinuations",
+    "safety.harms[symptomatic ARIA]",
+    "safety.harms[macrohemorrhage]",
+    "safety.harms[death]",
+    "safety.harms[ARIA-E].denominator",
+    "safety.harms[ARIA-E].percentage (by arm; only 'less than 1% in each group' is given jointly)",
+    "safety.harms[ARIA-H].count",
+    "safety.harms[ARIA-H].denominator",
+    "safety.harms[serious adverse events].count",
+    "safety.apoe_stratification_reported — no harm is broken down by APOE genotype in this document",
+    "outcomes[CFI].effect_estimate",
+    "outcomes[CFI].confidence_interval",
+    "outcomes[CFI].p_value",
+    "outcomes[ADL].effect_estimate",
+    "outcomes[ADL].confidence_interval",
+    "outcomes[ADL].p_value",
+    "outcomes[CDR-SB].effect_estimate",
+    "outcomes[CDR-SB].confidence_interval",
+    "outcomes[CDR-SB].p_value",
+    "outcomes[global CDR progression].between-group effect estimate, confidence interval and p-value",
+    "outcomes[amyloid PET].p_value",
+    "outcomes[tau PET].effect_estimate (numeric), confidence_interval and p_value",
+    "outcomes[volumetric MRI].effect_estimate (numeric), confidence_interval and p_value",
+    "outcomes[prespecified subgroup analyses].effect_estimate, confidence_interval and p_value",
+    "outcomes[post hoc baseline-amyloid tertiles].effect_estimate, confidence_interval and p_value",
+    "conflicts — individual author disclosure statements (only a pointer to disclosure forms at NEJM.org is given)"
+  ],
+  "_meta": {
+    "model": "claude (builder subagent)",
+    "extracted_at": "2026-08-13T16:15:39Z",
+    "source": "raw/solanezumab-a4-prevention/document.md"
+  }
+}

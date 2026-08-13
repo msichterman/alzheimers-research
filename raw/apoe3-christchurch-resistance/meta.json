@@ -1,0 +1,9 @@
+{
+  "id": "apoe3-christchurch-resistance",
+  "source": "sources/apoe3-christchurch-resistance.xml",
+  "sha256": "00a118243b0260374e14c855f1dc40b1058fb0967c9d17d4d1530f9091c4267f",
+  "bytes": 94446,
+  "chars": 31014,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:07.911Z"
+}

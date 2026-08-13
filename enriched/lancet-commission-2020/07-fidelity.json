@@ -1,0 +1,401 @@
+{
+  "id": "lancet-commission-2020",
+  "checked_at": "2026-08-13T16:55:41.770Z",
+  "builder_model": "claude (builder subagent)",
+  "critic_model": "gemini-3.1-pro-preview",
+  "fields_compared": 24,
+  "disagreements": 8,
+  "conflicts": 6,
+  "coverage_gaps": 2,
+  "agreement_rate": 0.667,
+  "passed": false,
+  "needs_adjudication": true,
+  "disagreement_rows": [
+    {
+      "field": "study.n",
+      "builder": null,
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "study.population",
+      "builder": "The worldwide population at risk of dementia, modelled with global risk factor figures; the report states that nearly all the underlying evidence comes from studies in high-income countries",
+      "critic": "potentially modifiable risk factors for dementia",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].name",
+      "builder": "Combined weighted population attributable fraction (PAF) of dementia for the 12 potentially modifiable risk factors",
+      "critic": "RR associated with drinking—more than 21 units (168 g) of alcohol weekly—compared with lighter drinking",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].met",
+      "builder": "not_applicable",
+      "critic": "met",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "around 40% of worldwide dementias, presented as theoretically preventable or delayable",
+      "critic": "1·18",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": null,
+      "critic": "95% Cl 1·06–1·31",
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[New random-effects meta-analysis: pooled relative risk of all-cause dementia from traumatic brain injury of all severities (analysis performed by the Commission)].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ],
+  "conflict_rows": [
+    {
+      "field": "study.population",
+      "builder": "The worldwide population at risk of dementia, modelled with global risk factor figures; the report states that nearly all the underlying evidence comes from studies in high-income countries",
+      "critic": "potentially modifiable risk factors for dementia",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].name",
+      "builder": "Combined weighted population attributable fraction (PAF) of dementia for the 12 potentially modifiable risk factors",
+      "critic": "RR associated with drinking—more than 21 units (168 g) of alcohol weekly—compared with lighter drinking",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].met",
+      "builder": "not_applicable",
+      "critic": "met",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "around 40% of worldwide dementias, presented as theoretically preventable or delayable",
+      "critic": "1·18",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[New random-effects meta-analysis: pooled relative risk of all-cause dementia from traumatic brain injury of all severities (analysis performed by the Commission)].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ],
+  "builder_values_not_found_in_document": [],
+  "critic_values_not_found_in_document": [],
+  "all_rows": [
+    {
+      "field": "study.design",
+      "builder": "Commission evidence synthesis: a reconvened expert Commission using a triangulation framework, presenting a narrative synthesis of existing systematic reviews and meta-analyses and performing new systematic literature reviews and meta-analyses (for excessive alcohol consumption and traumatic brain injury) to build an updated 12 risk factor life-course model and population attributable fraction (PAF) calculation",
+      "critic": "systematic literature reviews and meta-analyses",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.n",
+      "builder": null,
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "study.population",
+      "builder": "The worldwide population at risk of dementia, modelled with global risk factor figures; the report states that nearly all the underlying evidence comes from studies in high-income countries",
+      "critic": "potentially modifiable risk factors for dementia",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.comparator",
+      "builder": null,
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "study.followup",
+      "builder": null,
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "study.intervention",
+      "builder": null,
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "study.phase",
+      "builder": null,
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "primary_endpoint_status.status",
+      "builder": "not_applicable",
+      "critic": "not_applicable",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "multiplicity.approach",
+      "builder": "none stated — the report does not describe any adjustment or control for multiple comparisons across its risk factor analyses",
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[primary].name",
+      "builder": "Combined weighted population attributable fraction (PAF) of dementia for the 12 potentially modifiable risk factors",
+      "critic": "RR associated with drinking—more than 21 units (168 g) of alcohol weekly—compared with lighter drinking",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].met",
+      "builder": "not_applicable",
+      "critic": "met",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "around 40% of worldwide dementias, presented as theoretically preventable or delayable",
+      "critic": "1·18",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": null,
+      "critic": "95% Cl 1·06–1·31",
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].p_value",
+      "builder": null,
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].multiplicity_controlled",
+      "builder": "unclear",
+      "critic": "unclear",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[ARIA-E].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[ARIA-H].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[symptomatic ARIA].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[macrohemorrhage].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[death].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.apoe_stratification_reported",
+      "builder": false,
+      "critic": false,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[New random-effects meta-analysis: pooled relative risk of all-cause dementia from traumatic brain injury of all severities (analysis performed by the Commission)].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[New random-effects meta-analysis: pooled relative risk of all-cause dementia from traumatic brain injury of all severities (analysis performed by the Commission)].tier",
+      "builder": "primary",
+      "critic": "primary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ]
+}

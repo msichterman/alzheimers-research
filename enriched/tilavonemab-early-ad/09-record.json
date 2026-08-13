@@ -1,0 +1,1354 @@
+{
+  "id": "tilavonemab-early-ad",
+  "built_at": "2026-08-13T16:59:45.869Z",
+  "derived_from": {
+    "builder": "enriched/<id>/05-evidence.json",
+    "independent_critic": "enriched/<id>/06-critique.json",
+    "fidelity_diff": "enriched/<id>/07-fidelity.json",
+    "adjudication": "enriched/<id>/08-adjudication.json"
+  },
+  "conflicts_found": 1,
+  "conflicts_ruled": 1,
+  "conflicts_unresolved": 0,
+  "conflicts_needing_manual_apply": 0,
+  "adjudication_changelog": [
+    {
+      "field": "study.population",
+      "verdict": "both",
+      "resolved_value": "adults aged 55–85 years who met the National Institute on Aging and the Alzheimer’s Association criteria for mild cognitive impairment or probable Alzheimer’s disease and had a Clinical Dementia Rating (CDR) global score of 0.5 at screening Visit 1, a Mini-Mental State Examination (MMSE) score of 22 to 30, inclusive, at screening Visit 1, and a Repeated Battery for the Assessment of Neuropsychological Status-Delayed Memory Index (RBANS-DMI) score of ≤85; a positive amyloid PET scan; a Modified Hachinski Ischemic Scale score of ≤4",
+      "applied": true,
+      "disposition": "applied",
+      "quote": "Eligible patients were adults aged 55–85 years who met the National Institute on Aging and the Alzheimer’s Association criteria for mild cognitive impairment or probable Alzheimer’s disease and had a Clinical Dementia Rating (CDR) global score of 0.5 at screening Visit 1, a Mini-Mental State Examination (MMSE) score of 22 to 30, inclusive, at screening Visit 1, and a Repeated Battery for the Assessment of Neuropsychological Status-Delayed Memory Index (RBANS-DMI) score of ≤85; a positive amyloid PET scan; a Modified Hachinski Ischemic Scale score of ≤4",
+      "reasoning": "The two readings are the same eligibility criteria at different levels of detail — reading B abbreviates NIA-AA and drops the 'at screening Visit 1' qualifiers — and reading A reproduces the document's sentence essentially verbatim, so it is the value that should stand."
+    }
+  ],
+  "unresolved": [],
+  "needs_manual_apply": [],
+  "record": {
+    "document_kind": "journal_article",
+    "title": {
+      "value": "Tilavonemab in early Alzheimer’s disease: results from a phase 2, randomized, double-blind study",
+      "quote": "Tilavonemab in early Alzheimer’s disease: results from a phase 2, randomized, double-blind study",
+      "location": "Title (document heading)"
+    },
+    "authors": [
+      {
+        "name": "Hana Florian",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Deli Wang",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Steven E Arnold",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Mercè Boada",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Qi Guo",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Ziyi Jin",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Hui Zheng",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Nahome Fisseha",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Hari Varun Kalluri",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Beatrice Rendenbach-Mueller",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Kumar Budur",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Michael Gold",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      }
+    ],
+    "study": {
+      "design": {
+        "value": "Phase 2, multiple-dose, randomized, double-blind, placebo-controlled study conducted at 60 sites in 11 countries",
+        "quote": "This was a phase 2, multiple-dose, randomized, double-blind, placebo-controlled study (Clinicaltrials.gov identifier: NCT02880956 ) conducted at 60 sites in 11 countries",
+        "location": "Materials and methods, 'Study design and participants'"
+      },
+      "phase": {
+        "value": "Phase 2",
+        "quote": "This phase 2 study evaluated the safety and efficacy of tilavonemab, an anti-tau monoclonal antibody, in patients with early Alzheimer’s disease.",
+        "location": "Abstract"
+      },
+      "n": {
+        "value": 453,
+        "quote": "A total of 453 patients were randomized, of whom 337 were treated with tilavonemab (300 mg, n = 108; 1000 mg, n = 116; 2000 mg, n = 113) and 116 received placebo.",
+        "location": "Abstract; Results, first paragraph"
+      },
+      "n_description": {
+        "value": "453 randomized out of 1360 screened; the intent-to-treat dataset included all randomized patients who received at least one study drug dose",
+        "quote": "Efficacy analyses were performed on the intent-to-treat (ITT) dataset, which included all randomized patients who received at least one study drug dose.",
+        "location": "Materials and methods, 'Statistical analysis'"
+      },
+      "population": {
+        "value": "adults aged 55–85 years who met the National Institute on Aging and the Alzheimer’s Association criteria for mild cognitive impairment or probable Alzheimer’s disease and had a Clinical Dementia Rating (CDR) global score of 0.5 at screening Visit 1, a Mini-Mental State Examination (MMSE) score of 22 to 30, inclusive, at screening Visit 1, and a Repeated Battery for the Assessment of Neuropsychological Status-Delayed Memory Index (RBANS-DMI) score of ≤85; a positive amyloid PET scan; a Modified Hachinski Ischemic Scale score of ≤4",
+        "quote": "patients aged 55–85 years meeting clinical criteria for early Alzheimer’s disease with a Clinical Dementia Rating-Global Score of 0.5, a Mini-Mental State Examination score of 22 to 30",
+        "location": "Abstract; Materials and methods, 'Study design and participants'"
+      },
+      "followup": {
+        "value": "96-week double-blind treatment period, preceded by a 12-week screening period and followed by a 20-week follow-up after the last study drug administration",
+        "quote": "The study consisted of a 12-week screening period, 96-week double-blind treatment period, and a 20-week follow-up after administration of the last study drug.",
+        "location": "Materials and methods, 'Procedures'"
+      },
+      "intervention": {
+        "value": "Tilavonemab 300 mg, 1000 mg or 2000 mg administered by intravenous infusion every 4 weeks",
+        "quote": "randomized 1:1:1:1 to receive one of three doses of tilavonemab (300 mg, 1000 mg, or 2000 mg) or placebo via intravenous infusion every 4 weeks",
+        "location": "Abstract"
+      },
+      "comparator": {
+        "value": "Placebo (n = 116) administered by intravenous infusion every 4 weeks",
+        "quote": "in a 1:1:1:1 ratio to receive one of three tilavonemab doses (300 mg, 1000 mg, 2000 mg) or placebo administered via intravenous infusion every 4 weeks",
+        "location": "Materials and methods, 'Randomization and masking'"
+      },
+      "biomarker_confirmation": {
+        "value": "A positive amyloid PET scan was required for entry (mean baseline amyloid PET 99.0 ± 31.1 centiloid); tau PET was not available at study start and was added later in a subset",
+        "quote": "a Repeated Battery for the Assessment of Neuropsychological Status-Delayed Memory Index (RBANS-DMI) score of ≤85; a positive amyloid PET scan; a Modified Hachinski Ischemic Scale score of ≤4",
+        "location": "Materials and methods, 'Study design and participants'"
+      },
+      "nct_ids": [
+        "NCT02880956",
+        "NCT03712787",
+        "NCT02494024",
+        "NCT02985879"
+      ],
+      "cohorts": [
+        "Cohort 1 (within-trial pharmacokinetics, safety-monitoring and CSF target-engagement cohort named by this study)"
+      ]
+    },
+    "outcomes": [
+      {
+        "name": "Change from baseline to Week 96 in Clinical Dementia Rating-Sum of Boxes (CDR-SB) score",
+        "tier": "primary",
+        "prespecified": "yes",
+        "prespecification_evidence": "The primary efficacy end point was the change from baseline to Week 96 in Clinical Dementia Rating-Sum of Boxes (CDR-SB) score.",
+        "met": "not_met",
+        "effect_estimate": "Least squares mean change from baseline versus placebo at Week 96: 300 mg (n = 85) −0.07; 1000 mg (n = 91) −0.06; 2000 mg (n = 81) 0.16 CDR-SB points",
+        "confidence_interval": "300 mg: 95% CI: −0.83 to 0.69; 1000 mg: 95% CI: −0.81 to 0.68; 2000 mg: 95% CI: −0.60 to 0.93",
+        "p_value": "all P ≥ 0.05 (Figure 2: 300 mg P = 0.848; 1000 mg P = 0.869; 2000 mg P = 0.679)",
+        "multiplicity_controlled": "yes",
+        "quote": "The least squares mean change from baseline at Week 96 in the CDR-SB score with tilavonemab was not significantly different compared with placebo [300 mg ( n = 85): −0.07 (95% confidence interval, CI: −0.83 to 0.69);",
+        "location": "Abstract; Figure 2 caption"
+      },
+      {
+        "name": "Secondary efficacy endpoints through Week 96, including global clinical impact and decline in patient cognition",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "prespecification_evidence": "Secondary efficacy endpoints are listed in .",
+        "met": "not_met",
+        "effect_estimate": null,
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "Similarly, through Week 96, there was no significant difference across treatment groups in any of the secondary outcomes assessed, including global clinical impact and decline in patient cognition ().",
+        "location": "Results"
+      },
+      {
+        "name": "Whole-brain, medial temporal lobe and lateral ventricle volume by volumetric MRI (vMRI)",
+        "tier": "exploratory",
+        "prespecified": "yes",
+        "prespecification_evidence": "Exploratory outcomes assessed the effects of tilavonemab on potential markers of disease progression.",
+        "met": "not_met",
+        "effect_estimate": "No treatment effect on whole-brain, medial temporal lobe or lateral ventricle volume (data not shown for the latter two)",
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "no",
+        "quote": "Tilavonemab did not affect whole-brain volume over time (), nor was there any evidence of a treatment effect on medial temporal lobe or lateral ventricle volume as measured by vMRI (data not shown).",
+        "location": "Results"
+      },
+      {
+        "name": "Hippocampal volume by volumetric MRI (vMRI)",
+        "tier": "exploratory",
+        "prespecified": "yes",
+        "prespecification_evidence": "Exploratory outcomes assessed the effects of tilavonemab on potential markers of disease progression.",
+        "met": "not_applicable",
+        "effect_estimate": "Week 28, tilavonemab 1000 mg versus placebo: −94.9 versus −121.6 mm3; Week 44, tilavonemab 2000 mg versus placebo: −127.9 versus −165.9 mm3; these were the only time points reaching statistical significance and no multiplicity adjustment was applied",
+        "confidence_interval": null,
+        "p_value": "P = 0.03 (Week 28, 1000 mg); P = 0.01 (Week 44, 2000 mg)",
+        "multiplicity_controlled": "no",
+        "quote": "Hippocampal volume was significantly less decreased at Week 28 in the tilavonemab 1000 mg group compared with placebo (−94.9 versus −121.6 mm 3 , respectively; P = 0.03)",
+        "location": "Results"
+      },
+      {
+        "name": "Plasma neurofilament light chain (NFL) and CSF NFL levels",
+        "tier": "exploratory",
+        "prespecified": "yes",
+        "prespecification_evidence": "Exploratory outcomes assessed the effects of tilavonemab on potential markers of disease progression.",
+        "met": "not_met",
+        "effect_estimate": "No evidence of a treatment effect on plasma NFL or CSF NFL levels",
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "no",
+        "quote": "Similarly, there was no evidence of a treatment effect on plasma NFL or CSF NFL levels (), nor was there evidence of a treatment effect in the amount of tau deposits in any Braak regions",
+        "location": "Results"
+      },
+      {
+        "name": "Tau PET standardized uptake value ratio (SUVR) in Braak regions I-VI",
+        "tier": "exploratory",
+        "prespecified": "yes",
+        "prespecification_evidence": "Exploratory outcomes assessed the effects of tilavonemab on potential markers of disease progression.",
+        "met": "not_met",
+        "effect_estimate": "No evidence of a treatment effect on the amount of tau deposits in any Braak region, in the subset of patients with baseline and Week 96 scans (tau PET: n = 59 at baseline, n = 115 at Week 44, n = 128 at Week 96)",
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "no",
+        "quote": "nor was there evidence of a treatment effect in the amount of tau deposits in any Braak regions based on the tau PET SUVR analyses that were completed in a subset of patients",
+        "location": "Results"
+      },
+      {
+        "name": "CSF free tau concentration at Week 12 (target engagement, not a clinical efficacy measure)",
+        "tier": "exploratory",
+        "prespecified": "yes",
+        "prespecification_evidence": "Patients in Cohort 1 underwent more frequent pharmacokinetics (PK) sampling, safety monitoring by the data monitoring committee, and target engagement assessment based on measurements of CSF free tau.",
+        "met": "met",
+        "effect_estimate": "CSF free tau levels significantly lower than placebo at Week 12 in the 1000 mg and 2000 mg groups (Cohort 1)",
+        "confidence_interval": null,
+        "p_value": "P = 0.028 (1000 mg); P = 0.002 (2000 mg)",
+        "multiplicity_controlled": "unclear",
+        "quote": "Compared with placebo, CSF free tau levels were significantly lower at Week 12 in the tilavonemab 1000 mg ( P = 0.028) and tilavonemab 2000 mg ( P = 0.002) treatment groups ().",
+        "location": "Results, target engagement paragraph"
+      },
+      {
+        "name": "CSF total tau concentration at Week 12",
+        "tier": "exploratory",
+        "prespecified": "yes",
+        "prespecification_evidence": "Exploratory outcomes assessed the effects of tilavonemab on potential markers of disease progression.",
+        "met": "not_applicable",
+        "effect_estimate": "Significantly lower than placebo in the 300 mg group only; not different from placebo in the higher-dose groups",
+        "confidence_interval": null,
+        "p_value": "P = 0.024 (300 mg versus placebo)",
+        "multiplicity_controlled": "unclear",
+        "quote": "CSF total tau concentrations were significantly lower in the tilavonemab 300 mg group ( P = 0.024 versus placebo) but were not different from placebo in the higher-dose groups ().",
+        "location": "Results, target engagement paragraph"
+      },
+      {
+        "name": "Plasma total tau concentration",
+        "tier": "exploratory",
+        "prespecified": "yes",
+        "prespecification_evidence": "Exploratory outcomes assessed the effects of tilavonemab on potential markers of disease progression.",
+        "met": "met",
+        "effect_estimate": "Plasma total tau levels significantly increased in all tilavonemab-treated patients compared with placebo",
+        "confidence_interval": null,
+        "p_value": "P < 0.001 for all comparisons",
+        "multiplicity_controlled": "unclear",
+        "quote": "Plasma total tau levels were significantly increased in all treated patients compared with placebo ( P < 0.001 for all comparisons; ).",
+        "location": "Results, target engagement paragraph; Figure 3 caption"
+      },
+      {
+        "name": "Exposure-response analysis of tilavonemab exposure versus the primary and key secondary end points",
+        "tier": "exploratory",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "not_met",
+        "effect_estimate": "No improvement in the primary or key secondary end points with increasing tilavonemab exposures",
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "Preliminary exposure-response results showed no improvement in the primary or key secondary end points with increasing tilavonemab exposures ().",
+        "location": "Results, pharmacokinetics paragraph"
+      },
+      {
+        "name": "ANCOVA subgroup analysis of CDR-SB mean score change from baseline by sex and by age (<65 years versus >=65 years)",
+        "tier": "subgroup",
+        "prespecified": "unclear",
+        "prespecification_evidence": "An analysis of covariance (ANCOVA) model was used for CDR-SB score subgroup analysis and CSF biomarkers for each scheduled visit.",
+        "met": "not_applicable",
+        "effect_estimate": "A numerical differential effect in male versus female patients and in patients younger than 65 years versus 65 years and older; statistical significance was not achieved for any tilavonemab dose group after adjustment for multiple comparisons",
+        "confidence_interval": null,
+        "p_value": "Treatment x Gender interaction P = 0.227; Treatment x Age group interaction P = 0.064",
+        "multiplicity_controlled": "yes",
+        "quote": "An ANCOVA subgroup analysis of CDR-SB mean score change from baseline revealed a numerical differential effect observed in male versus female patients and those aged younger than 65 years versus those aged 65 years and older ().",
+        "location": "Results; Discussion, subgroup paragraph"
+      },
+      {
+        "name": "CDR-SB subgroup analyses by ApoE4 carrier status, geographic location, baseline Alzheimer's disease medication use and baseline amyloid burden",
+        "tier": "subgroup",
+        "prespecified": "unclear",
+        "prespecification_evidence": "An analysis of covariance (ANCOVA) model was used for CDR-SB score subgroup analysis and CSF biomarkers for each scheduled visit.",
+        "met": "not_applicable",
+        "effect_estimate": "No differential treatment effect observed in any of these subgroups",
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "No differential treatment effect was observed for subgroups based on ApoE4 carrier status, patients’ geographic location, baseline Alzheimer’s disease medication use, or baseline amyloid burden measured by PET ().",
+        "location": "Results"
+      }
+    ],
+    "primary_endpoint_status": {
+      "status": "not_met",
+      "explanation": "The primary endpoint, change from baseline to Week 96 in CDR-SB, was not met: no tilavonemab dose differed significantly from placebo (300 mg −0.07, 95% CI −0.83 to 0.69; 1000 mg −0.06, 95% CI −0.81 to 0.68; 2000 mg 0.16, 95% CI −0.60 to 0.93; all P ≥ 0.05), and CDR-SB worsened in every group.",
+      "quote": "Tilavonemab was generally well tolerated but did not demonstrate efficacy in treating patients with early Alzheimer’s disease. Further investigations of tilavonemab in early Alzheimer’s disease are not warranted."
+    },
+    "multiplicity": {
+      "approach": "Bonferroni method to adjust multiplicity, with one-sided testing at the 2.5% significance level, in the powering and testing framework for the primary CDR-SB endpoint; the exploratory hippocampal volume comparisons are explicitly described as being without multiplicity adjustment, and the age subgroup analysis was adjusted for multiple comparisons across the three dose groups",
+      "quote": "using a one-sided test at the 2.5% significance level with Bonferroni method to adjust multiplicity",
+      "location": "Materials and methods, 'Statistical analysis'"
+    },
+    "safety": {
+      "harms": [
+        {
+          "name": "Any adverse event",
+          "arm": "placebo",
+          "count": "108",
+          "denominator": "116",
+          "percentage": "93.1%",
+          "apoe_stratum": null,
+          "quote": "| Any adverse event | 108 (93.1) | 94 (87.0) | 108 (93.1) | 104 (92.0) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Any adverse event",
+          "arm": "tilavonemab 300 mg",
+          "count": "94",
+          "denominator": "108",
+          "percentage": "87.0%",
+          "apoe_stratum": null,
+          "quote": "| Any adverse event | 108 (93.1) | 94 (87.0) | 108 (93.1) | 104 (92.0) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Any adverse event",
+          "arm": "tilavonemab 1000 mg",
+          "count": "108",
+          "denominator": "116",
+          "percentage": "93.1%",
+          "apoe_stratum": null,
+          "quote": "| Any adverse event | 108 (93.1) | 94 (87.0) | 108 (93.1) | 104 (92.0) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Any adverse event",
+          "arm": "tilavonemab 2000 mg",
+          "count": "104",
+          "denominator": "113",
+          "percentage": "92.0%",
+          "apoe_stratum": null,
+          "quote": "| Any adverse event | 108 (93.1) | 94 (87.0) | 108 (93.1) | 104 (92.0) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Adverse event related to study drug",
+          "arm": "placebo",
+          "count": "28",
+          "denominator": "116",
+          "percentage": "24.1%",
+          "apoe_stratum": null,
+          "quote": "| Adverse event related to study drug | 28 (24.1) | 32 (29.6) | 31 (27.6) | 33 (29.2) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Adverse event related to study drug",
+          "arm": "tilavonemab 300 mg",
+          "count": "32",
+          "denominator": "108",
+          "percentage": "29.6%",
+          "apoe_stratum": null,
+          "quote": "| Adverse event related to study drug | 28 (24.1) | 32 (29.6) | 31 (27.6) | 33 (29.2) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Adverse event related to study drug",
+          "arm": "tilavonemab 1000 mg",
+          "count": "31",
+          "denominator": "116",
+          "percentage": "27.6%",
+          "apoe_stratum": null,
+          "quote": "| Adverse event related to study drug | 28 (24.1) | 32 (29.6) | 31 (27.6) | 33 (29.2) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Adverse event related to study drug",
+          "arm": "tilavonemab 2000 mg",
+          "count": "33",
+          "denominator": "113",
+          "percentage": "29.2%",
+          "apoe_stratum": null,
+          "quote": "| Adverse event related to study drug | 28 (24.1) | 32 (29.6) | 31 (27.6) | 33 (29.2) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Serious adverse event",
+          "arm": "placebo",
+          "count": "26",
+          "denominator": "116",
+          "percentage": "22.4%",
+          "apoe_stratum": null,
+          "quote": "| Serious adverse event | 26 (22.4) | 19 (17.6) | 22 (19.0) | 17 (15.0) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Serious adverse event",
+          "arm": "tilavonemab 300 mg",
+          "count": "19",
+          "denominator": "108",
+          "percentage": "17.6%",
+          "apoe_stratum": null,
+          "quote": "| Serious adverse event | 26 (22.4) | 19 (17.6) | 22 (19.0) | 17 (15.0) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Serious adverse event",
+          "arm": "tilavonemab 1000 mg",
+          "count": "22",
+          "denominator": "116",
+          "percentage": "19.0%",
+          "apoe_stratum": null,
+          "quote": "| Serious adverse event | 26 (22.4) | 19 (17.6) | 22 (19.0) | 17 (15.0) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Serious adverse event",
+          "arm": "tilavonemab 2000 mg",
+          "count": "17",
+          "denominator": "113",
+          "percentage": "15.0%",
+          "apoe_stratum": null,
+          "quote": "| Serious adverse event | 26 (22.4) | 19 (17.6) | 22 (19.0) | 17 (15.0) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Adverse event leading to discontinuation of study drug",
+          "arm": "placebo",
+          "count": "4",
+          "denominator": "116",
+          "percentage": "3.4%",
+          "apoe_stratum": null,
+          "quote": "| Adverse event leading to discontinuation of study drug | 4 (3.4) | 6 (5.6) | 6 (5.2) | 4 (3.5) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Adverse event leading to discontinuation of study drug",
+          "arm": "tilavonemab 300 mg",
+          "count": "6",
+          "denominator": "108",
+          "percentage": "5.6%",
+          "apoe_stratum": null,
+          "quote": "| Adverse event leading to discontinuation of study drug | 4 (3.4) | 6 (5.6) | 6 (5.2) | 4 (3.5) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Adverse event leading to discontinuation of study drug",
+          "arm": "tilavonemab 1000 mg",
+          "count": "6",
+          "denominator": "116",
+          "percentage": "5.2%",
+          "apoe_stratum": null,
+          "quote": "| Adverse event leading to discontinuation of study drug | 4 (3.4) | 6 (5.6) | 6 (5.2) | 4 (3.5) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Adverse event leading to discontinuation of study drug",
+          "arm": "tilavonemab 2000 mg",
+          "count": "4",
+          "denominator": "113",
+          "percentage": "3.5%",
+          "apoe_stratum": null,
+          "quote": "| Adverse event leading to discontinuation of study drug | 4 (3.4) | 6 (5.6) | 6 (5.2) | 4 (3.5) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Death",
+          "arm": "placebo",
+          "count": "1",
+          "denominator": "116",
+          "percentage": "0.9%",
+          "apoe_stratum": null,
+          "quote": "| Death | 1 (0.9) | 2 (1.9) | 2 (1.7) | 1 (0.9) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Death",
+          "arm": "tilavonemab 300 mg",
+          "count": "2",
+          "denominator": "108",
+          "percentage": "1.9%",
+          "apoe_stratum": null,
+          "quote": "| Death | 1 (0.9) | 2 (1.9) | 2 (1.7) | 1 (0.9) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Death",
+          "arm": "tilavonemab 1000 mg",
+          "count": "2",
+          "denominator": "116",
+          "percentage": "1.7%",
+          "apoe_stratum": null,
+          "quote": "| Death | 1 (0.9) | 2 (1.9) | 2 (1.7) | 1 (0.9) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Death",
+          "arm": "tilavonemab 2000 mg",
+          "count": "1",
+          "denominator": "113",
+          "percentage": "0.9%",
+          "apoe_stratum": null,
+          "quote": "| Death | 1 (0.9) | 2 (1.9) | 2 (1.7) | 1 (0.9) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Fall",
+          "arm": "placebo",
+          "count": "25",
+          "denominator": "116",
+          "percentage": "21.6%",
+          "apoe_stratum": null,
+          "quote": "| Fall | 25 (21.6) | 21 (19.4) | 17 (14.7) | 26 (23.0) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Fall",
+          "arm": "tilavonemab 300 mg",
+          "count": "21",
+          "denominator": "108",
+          "percentage": "19.4%",
+          "apoe_stratum": null,
+          "quote": "| Fall | 25 (21.6) | 21 (19.4) | 17 (14.7) | 26 (23.0) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Fall",
+          "arm": "tilavonemab 1000 mg",
+          "count": "17",
+          "denominator": "116",
+          "percentage": "14.7%",
+          "apoe_stratum": null,
+          "quote": "| Fall | 25 (21.6) | 21 (19.4) | 17 (14.7) | 26 (23.0) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Fall",
+          "arm": "tilavonemab 2000 mg",
+          "count": "26",
+          "denominator": "113",
+          "percentage": "23.0%",
+          "apoe_stratum": null,
+          "quote": "| Fall | 25 (21.6) | 21 (19.4) | 17 (14.7) | 26 (23.0) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Headaches",
+          "arm": "placebo",
+          "count": "12",
+          "denominator": "116",
+          "percentage": "10.3%",
+          "apoe_stratum": null,
+          "quote": "| Headaches | 12 (10.3) | 10 (9.3) | 11 (9.5) | 20 (17.7) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Headaches",
+          "arm": "tilavonemab 300 mg",
+          "count": "10",
+          "denominator": "108",
+          "percentage": "9.3%",
+          "apoe_stratum": null,
+          "quote": "| Headaches | 12 (10.3) | 10 (9.3) | 11 (9.5) | 20 (17.7) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Headaches",
+          "arm": "tilavonemab 1000 mg",
+          "count": "11",
+          "denominator": "116",
+          "percentage": "9.5%",
+          "apoe_stratum": null,
+          "quote": "| Headaches | 12 (10.3) | 10 (9.3) | 11 (9.5) | 20 (17.7) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Headaches",
+          "arm": "tilavonemab 2000 mg",
+          "count": "20",
+          "denominator": "113",
+          "percentage": "17.7%",
+          "apoe_stratum": null,
+          "quote": "| Headaches | 12 (10.3) | 10 (9.3) | 11 (9.5) | 20 (17.7) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Dizziness",
+          "arm": "placebo",
+          "count": "10",
+          "denominator": "116",
+          "percentage": "8.6%",
+          "apoe_stratum": null,
+          "quote": "| Dizziness | 10 (8.6) | 14 (13.0) | 9 (7.8) | 14 (12.4) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Dizziness",
+          "arm": "tilavonemab 300 mg",
+          "count": "14",
+          "denominator": "108",
+          "percentage": "13.0%",
+          "apoe_stratum": null,
+          "quote": "| Dizziness | 10 (8.6) | 14 (13.0) | 9 (7.8) | 14 (12.4) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Dizziness",
+          "arm": "tilavonemab 1000 mg",
+          "count": "9",
+          "denominator": "116",
+          "percentage": "7.8%",
+          "apoe_stratum": null,
+          "quote": "| Dizziness | 10 (8.6) | 14 (13.0) | 9 (7.8) | 14 (12.4) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Dizziness",
+          "arm": "tilavonemab 2000 mg",
+          "count": "14",
+          "denominator": "113",
+          "percentage": "12.4%",
+          "apoe_stratum": null,
+          "quote": "| Dizziness | 10 (8.6) | 14 (13.0) | 9 (7.8) | 14 (12.4) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Upper respiratory tract infection",
+          "arm": "placebo",
+          "count": "9",
+          "denominator": "116",
+          "percentage": "7.8%",
+          "apoe_stratum": null,
+          "quote": "| Upper respiratory tract infection | 9 (7.8) | 7 (6.5) | 12 (10.3) | 18 (15.9) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Upper respiratory tract infection",
+          "arm": "tilavonemab 300 mg",
+          "count": "7",
+          "denominator": "108",
+          "percentage": "6.5%",
+          "apoe_stratum": null,
+          "quote": "| Upper respiratory tract infection | 9 (7.8) | 7 (6.5) | 12 (10.3) | 18 (15.9) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Upper respiratory tract infection",
+          "arm": "tilavonemab 1000 mg",
+          "count": "12",
+          "denominator": "116",
+          "percentage": "10.3%",
+          "apoe_stratum": null,
+          "quote": "| Upper respiratory tract infection | 9 (7.8) | 7 (6.5) | 12 (10.3) | 18 (15.9) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Upper respiratory tract infection",
+          "arm": "tilavonemab 2000 mg",
+          "count": "18",
+          "denominator": "113",
+          "percentage": "15.9%",
+          "apoe_stratum": null,
+          "quote": "| Upper respiratory tract infection | 9 (7.8) | 7 (6.5) | 12 (10.3) | 18 (15.9) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Nasopharyngitis",
+          "arm": "placebo",
+          "count": "11",
+          "denominator": "116",
+          "percentage": "9.5%",
+          "apoe_stratum": null,
+          "quote": "| Nasopharyngitis | 11 (9.5) | 11 (10.2) | 12 (10.3) | 12 (10.6) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Nasopharyngitis",
+          "arm": "tilavonemab 300 mg",
+          "count": "11",
+          "denominator": "108",
+          "percentage": "10.2%",
+          "apoe_stratum": null,
+          "quote": "| Nasopharyngitis | 11 (9.5) | 11 (10.2) | 12 (10.3) | 12 (10.6) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Nasopharyngitis",
+          "arm": "tilavonemab 1000 mg",
+          "count": "12",
+          "denominator": "116",
+          "percentage": "10.3%",
+          "apoe_stratum": null,
+          "quote": "| Nasopharyngitis | 11 (9.5) | 11 (10.2) | 12 (10.3) | 12 (10.6) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Nasopharyngitis",
+          "arm": "tilavonemab 2000 mg",
+          "count": "12",
+          "denominator": "113",
+          "percentage": "10.6%",
+          "apoe_stratum": null,
+          "quote": "| Nasopharyngitis | 11 (9.5) | 11 (10.2) | 12 (10.3) | 12 (10.6) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Urinary tract infection",
+          "arm": "placebo",
+          "count": "15",
+          "denominator": "116",
+          "percentage": "12.9%",
+          "apoe_stratum": null,
+          "quote": "| Urinary tract infection | 15 (12.9) | 11 (10.2) | 13 (11.2) | 11 (9.7) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Urinary tract infection",
+          "arm": "tilavonemab 300 mg",
+          "count": "11",
+          "denominator": "108",
+          "percentage": "10.2%",
+          "apoe_stratum": null,
+          "quote": "| Urinary tract infection | 15 (12.9) | 11 (10.2) | 13 (11.2) | 11 (9.7) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Urinary tract infection",
+          "arm": "tilavonemab 1000 mg",
+          "count": "13",
+          "denominator": "116",
+          "percentage": "11.2%",
+          "apoe_stratum": null,
+          "quote": "| Urinary tract infection | 15 (12.9) | 11 (10.2) | 13 (11.2) | 11 (9.7) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Urinary tract infection",
+          "arm": "tilavonemab 2000 mg",
+          "count": "11",
+          "denominator": "113",
+          "percentage": "9.7%",
+          "apoe_stratum": null,
+          "quote": "| Urinary tract infection | 15 (12.9) | 11 (10.2) | 13 (11.2) | 11 (9.7) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Diarrhoea",
+          "arm": "placebo",
+          "count": "9",
+          "denominator": "116",
+          "percentage": "7.8%",
+          "apoe_stratum": null,
+          "quote": "| Diarrhoea | 9 (7.8) | 12 (11.1) | 10 (8.6) | 12 (10.6) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Diarrhoea",
+          "arm": "tilavonemab 300 mg",
+          "count": "12",
+          "denominator": "108",
+          "percentage": "11.1%",
+          "apoe_stratum": null,
+          "quote": "| Diarrhoea | 9 (7.8) | 12 (11.1) | 10 (8.6) | 12 (10.6) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Diarrhoea",
+          "arm": "tilavonemab 1000 mg",
+          "count": "10",
+          "denominator": "116",
+          "percentage": "8.6%",
+          "apoe_stratum": null,
+          "quote": "| Diarrhoea | 9 (7.8) | 12 (11.1) | 10 (8.6) | 12 (10.6) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Diarrhoea",
+          "arm": "tilavonemab 2000 mg",
+          "count": "12",
+          "denominator": "113",
+          "percentage": "10.6%",
+          "apoe_stratum": null,
+          "quote": "| Diarrhoea | 9 (7.8) | 12 (11.1) | 10 (8.6) | 12 (10.6) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Depression",
+          "arm": "placebo",
+          "count": "11",
+          "denominator": "116",
+          "percentage": "9.5%",
+          "apoe_stratum": null,
+          "quote": "| Depression | 11 (9.5) | 10 (9.3) | 8 (6.9) | 12 (10.6) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Depression",
+          "arm": "tilavonemab 300 mg",
+          "count": "10",
+          "denominator": "108",
+          "percentage": "9.3%",
+          "apoe_stratum": null,
+          "quote": "| Depression | 11 (9.5) | 10 (9.3) | 8 (6.9) | 12 (10.6) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Depression",
+          "arm": "tilavonemab 1000 mg",
+          "count": "8",
+          "denominator": "116",
+          "percentage": "6.9%",
+          "apoe_stratum": null,
+          "quote": "| Depression | 11 (9.5) | 10 (9.3) | 8 (6.9) | 12 (10.6) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Depression",
+          "arm": "tilavonemab 2000 mg",
+          "count": "12",
+          "denominator": "113",
+          "percentage": "10.6%",
+          "apoe_stratum": null,
+          "quote": "| Depression | 11 (9.5) | 10 (9.3) | 8 (6.9) | 12 (10.6) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Arthralgia",
+          "arm": "placebo",
+          "count": "9",
+          "denominator": "116",
+          "percentage": "7.8%",
+          "apoe_stratum": null,
+          "quote": "| Arthralgia | 9 (7.8) | 7 (6.5) | 12 (10.3) | 10 (8.8) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Arthralgia",
+          "arm": "tilavonemab 300 mg",
+          "count": "7",
+          "denominator": "108",
+          "percentage": "6.5%",
+          "apoe_stratum": null,
+          "quote": "| Arthralgia | 9 (7.8) | 7 (6.5) | 12 (10.3) | 10 (8.8) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Arthralgia",
+          "arm": "tilavonemab 1000 mg",
+          "count": "12",
+          "denominator": "116",
+          "percentage": "10.3%",
+          "apoe_stratum": null,
+          "quote": "| Arthralgia | 9 (7.8) | 7 (6.5) | 12 (10.3) | 10 (8.8) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Arthralgia",
+          "arm": "tilavonemab 2000 mg",
+          "count": "10",
+          "denominator": "113",
+          "percentage": "8.8%",
+          "apoe_stratum": null,
+          "quote": "| Arthralgia | 9 (7.8) | 7 (6.5) | 12 (10.3) | 10 (8.8) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Anxiety",
+          "arm": "placebo",
+          "count": "11",
+          "denominator": "116",
+          "percentage": "9.5%",
+          "apoe_stratum": null,
+          "quote": "| Anxiety | 11 (9.5) | 3 (2.8) | 9 (7.8) | 16 (14.2) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Anxiety",
+          "arm": "tilavonemab 300 mg",
+          "count": "3",
+          "denominator": "108",
+          "percentage": "2.8%",
+          "apoe_stratum": null,
+          "quote": "| Anxiety | 11 (9.5) | 3 (2.8) | 9 (7.8) | 16 (14.2) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Anxiety",
+          "arm": "tilavonemab 1000 mg",
+          "count": "9",
+          "denominator": "116",
+          "percentage": "7.8%",
+          "apoe_stratum": null,
+          "quote": "| Anxiety | 11 (9.5) | 3 (2.8) | 9 (7.8) | 16 (14.2) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Anxiety",
+          "arm": "tilavonemab 2000 mg",
+          "count": "16",
+          "denominator": "113",
+          "percentage": "14.2%",
+          "apoe_stratum": null,
+          "quote": "| Anxiety | 11 (9.5) | 3 (2.8) | 9 (7.8) | 16 (14.2) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Microhaemorrhage (adverse event of interest)",
+          "arm": "placebo",
+          "count": "9",
+          "denominator": "116",
+          "percentage": "7.8%",
+          "apoe_stratum": null,
+          "quote": "| Microhaemorrhage | 9/116 (7.8) | 10/107 (9.3) | 15/116 (12.9) | 9/111 (8.1) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Microhaemorrhage (adverse event of interest)",
+          "arm": "tilavonemab 300 mg",
+          "count": "10",
+          "denominator": "107",
+          "percentage": "9.3%",
+          "apoe_stratum": null,
+          "quote": "| Microhaemorrhage | 9/116 (7.8) | 10/107 (9.3) | 15/116 (12.9) | 9/111 (8.1) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Microhaemorrhage (adverse event of interest)",
+          "arm": "tilavonemab 1000 mg",
+          "count": "15",
+          "denominator": "116",
+          "percentage": "12.9%",
+          "apoe_stratum": null,
+          "quote": "| Microhaemorrhage | 9/116 (7.8) | 10/107 (9.3) | 15/116 (12.9) | 9/111 (8.1) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Microhaemorrhage (adverse event of interest)",
+          "arm": "tilavonemab 2000 mg",
+          "count": "9",
+          "denominator": "111",
+          "percentage": "8.1%",
+          "apoe_stratum": null,
+          "quote": "| Microhaemorrhage | 9/116 (7.8) | 10/107 (9.3) | 15/116 (12.9) | 9/111 (8.1) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Cerebral oedema (adverse event of interest)",
+          "arm": "placebo",
+          "count": "3",
+          "denominator": "116",
+          "percentage": "2.6%",
+          "apoe_stratum": null,
+          "quote": "| Cerebral oedema | 3/116 (2.6) | 3/107 (2.8) | 2/116 (1.7) | 2/111 (1.8) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Cerebral oedema (adverse event of interest)",
+          "arm": "tilavonemab 300 mg",
+          "count": "3",
+          "denominator": "107",
+          "percentage": "2.8%",
+          "apoe_stratum": null,
+          "quote": "| Cerebral oedema | 3/116 (2.6) | 3/107 (2.8) | 2/116 (1.7) | 2/111 (1.8) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Cerebral oedema (adverse event of interest)",
+          "arm": "tilavonemab 1000 mg",
+          "count": "2",
+          "denominator": "116",
+          "percentage": "1.7%",
+          "apoe_stratum": null,
+          "quote": "| Cerebral oedema | 3/116 (2.6) | 3/107 (2.8) | 2/116 (1.7) | 2/111 (1.8) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Cerebral oedema (adverse event of interest)",
+          "arm": "tilavonemab 2000 mg",
+          "count": "2",
+          "denominator": "111",
+          "percentage": "1.8%",
+          "apoe_stratum": null,
+          "quote": "| Cerebral oedema | 3/116 (2.6) | 3/107 (2.8) | 2/116 (1.7) | 2/111 (1.8) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Infusion-related reaction",
+          "arm": "placebo",
+          "count": "0",
+          "denominator": "116",
+          "percentage": null,
+          "apoe_stratum": null,
+          "quote": "| Infusion-related reaction, n (%) | 0 | 1 (0.9) | 0 | 2 (1.8) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Infusion-related reaction",
+          "arm": "tilavonemab 300 mg",
+          "count": "1",
+          "denominator": "108",
+          "percentage": "0.9%",
+          "apoe_stratum": null,
+          "quote": "| Infusion-related reaction, n (%) | 0 | 1 (0.9) | 0 | 2 (1.8) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Infusion-related reaction",
+          "arm": "tilavonemab 1000 mg",
+          "count": "0",
+          "denominator": "116",
+          "percentage": null,
+          "apoe_stratum": null,
+          "quote": "| Infusion-related reaction, n (%) | 0 | 1 (0.9) | 0 | 2 (1.8) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Infusion-related reaction",
+          "arm": "tilavonemab 2000 mg",
+          "count": "2",
+          "denominator": "113",
+          "percentage": "1.8%",
+          "apoe_stratum": null,
+          "quote": "| Infusion-related reaction, n (%) | 0 | 1 (0.9) | 0 | 2 (1.8) |",
+          "location": "Table 2. Treatment-emergent adverse events through Week 96"
+        },
+        {
+          "name": "Any treatment-emergent adverse event (all patients)",
+          "arm": "all randomized and treated patients (tilavonemab and placebo)",
+          "count": "414",
+          "denominator": "453",
+          "percentage": "91.4%",
+          "apoe_stratum": null,
+          "quote": "Through Week 96 of the study, a treatment-emergent adverse event was reported for 414 (91.4%) patients.",
+          "location": "Results, safety paragraph"
+        },
+        {
+          "name": "Adverse event with a reasonable possibility of being treatment related",
+          "arm": "all randomized and treated patients (tilavonemab and placebo)",
+          "count": "124",
+          "denominator": "453",
+          "percentage": "27.4%",
+          "apoe_stratum": null,
+          "quote": "Of these, 124 (27.4%) patients experienced an adverse event with a reasonable possibility of being treatment related as assessed by the investigator.",
+          "location": "Results, safety paragraph"
+        },
+        {
+          "name": "Serious adverse event (all patients)",
+          "arm": "all randomized and treated patients (tilavonemab and placebo)",
+          "count": "84",
+          "denominator": "453",
+          "percentage": "18.5%",
+          "apoe_stratum": null,
+          "quote": "Serious adverse events were reported for 84 (18.5%) patients, with the most common being pneumonia, fall, and syncope (each occurring in four patients total).",
+          "location": "Results, safety paragraph"
+        },
+        {
+          "name": "Discontinuation of study drug due to an adverse event (all patients)",
+          "arm": "all randomized and treated patients (tilavonemab and placebo)",
+          "count": "20",
+          "denominator": "453",
+          "percentage": "4.4%",
+          "apoe_stratum": null,
+          "quote": "In total, 20 (4.4%) patients discontinued study drug due to an adverse event.",
+          "location": "Results, safety paragraph"
+        },
+        {
+          "name": "Death (all patients)",
+          "arm": "all randomized and treated patients (tilavonemab and placebo)",
+          "count": "6",
+          "denominator": "453",
+          "percentage": null,
+          "apoe_stratum": null,
+          "quote": "There were six deaths during the study (); none were considered related to treatment.",
+          "location": "Results, safety paragraph"
+        },
+        {
+          "name": "Fall",
+          "arm": "tilavonemab (any dose)",
+          "count": null,
+          "denominator": "337",
+          "percentage": "19.0%",
+          "apoe_stratum": null,
+          "quote": "The most common (>10.0%) adverse events among patients receiving tilavonemab (any dose) were fall (19.0%), headache (12.2%), dizziness (11.0%), upper respiratory tract infection (11.0%)",
+          "location": "Results, safety paragraph"
+        },
+        {
+          "name": "Headache",
+          "arm": "tilavonemab (any dose)",
+          "count": null,
+          "denominator": "337",
+          "percentage": "12.2%",
+          "apoe_stratum": null,
+          "quote": "The most common (>10.0%) adverse events among patients receiving tilavonemab (any dose) were fall (19.0%), headache (12.2%), dizziness (11.0%), upper respiratory tract infection (11.0%)",
+          "location": "Results, safety paragraph"
+        },
+        {
+          "name": "Dizziness",
+          "arm": "tilavonemab (any dose)",
+          "count": null,
+          "denominator": "337",
+          "percentage": "11.0%",
+          "apoe_stratum": null,
+          "quote": "The most common (>10.0%) adverse events among patients receiving tilavonemab (any dose) were fall (19.0%), headache (12.2%), dizziness (11.0%), upper respiratory tract infection (11.0%)",
+          "location": "Results, safety paragraph"
+        },
+        {
+          "name": "Upper respiratory tract infection",
+          "arm": "tilavonemab (any dose)",
+          "count": null,
+          "denominator": "337",
+          "percentage": "11.0%",
+          "apoe_stratum": null,
+          "quote": "The most common (>10.0%) adverse events among patients receiving tilavonemab (any dose) were fall (19.0%), headache (12.2%), dizziness (11.0%), upper respiratory tract infection (11.0%)",
+          "location": "Results, safety paragraph"
+        },
+        {
+          "name": "Nasopharyngitis",
+          "arm": "tilavonemab (any dose)",
+          "count": null,
+          "denominator": "337",
+          "percentage": "10.4%",
+          "apoe_stratum": null,
+          "quote": "The most common (>10.0%) adverse events among patients receiving tilavonemab (any dose) were fall (19.0%), headache (12.2%), dizziness (11.0%), upper respiratory tract infection (11.0%), nasopharyngitis (10.4%), urinary tract infection (10.4%), and diarrhoea (10.1%).",
+          "location": "Results, safety paragraph"
+        },
+        {
+          "name": "Urinary tract infection",
+          "arm": "tilavonemab (any dose)",
+          "count": null,
+          "denominator": "337",
+          "percentage": "10.4%",
+          "apoe_stratum": null,
+          "quote": "The most common (>10.0%) adverse events among patients receiving tilavonemab (any dose) were fall (19.0%), headache (12.2%), dizziness (11.0%), upper respiratory tract infection (11.0%), nasopharyngitis (10.4%), urinary tract infection (10.4%), and diarrhoea (10.1%).",
+          "location": "Results, safety paragraph"
+        },
+        {
+          "name": "Diarrhoea",
+          "arm": "tilavonemab (any dose)",
+          "count": null,
+          "denominator": "337",
+          "percentage": "10.1%",
+          "apoe_stratum": null,
+          "quote": "The most common (>10.0%) adverse events among patients receiving tilavonemab (any dose) were fall (19.0%), headache (12.2%), dizziness (11.0%), upper respiratory tract infection (11.0%), nasopharyngitis (10.4%), urinary tract infection (10.4%), and diarrhoea (10.1%).",
+          "location": "Results, safety paragraph"
+        },
+        {
+          "name": "Infusion-related reaction",
+          "arm": "all four arms (300 mg, 1000 mg, 2000 mg, placebo)",
+          "count": "tilavonemab 300 mg, n = 1; tilavonemab 1000 mg, n = 0; tilavonemab 2000 mg, n = 2; placebo, n = 0",
+          "denominator": null,
+          "percentage": null,
+          "apoe_stratum": null,
+          "quote": "Infusion-related reactions were minimal across all treatment groups (tilavonemab 300 mg, n = 1; tilavonemab 1000 mg, n = 0; tilavonemab 2000 mg, n = 2; placebo, n = 0).",
+          "location": "Results, safety paragraph"
+        },
+        {
+          "name": "MRI safety findings (microhaemorrhages and cerebral oedema)",
+          "arm": "tilavonemab groups and placebo",
+          "count": null,
+          "denominator": null,
+          "percentage": null,
+          "apoe_stratum": null,
+          "quote": "MRI safety findings (e.g. microhaemorrhages and cerebral oedema) were comparable among the tilavonemab and placebo groups ().",
+          "location": "Results, safety paragraph"
+        },
+        {
+          "name": "Study discontinuation (any reason)",
+          "arm": "all four arms (300 mg, 1000 mg, 2000 mg, placebo)",
+          "count": "tilavonemab 300 mg n = 15; 1000 mg n = 11; 2000 mg n = 18; placebo n = 17",
+          "denominator": "108, 116, 113 and 116 respectively",
+          "percentage": "13.9%, 9.5%, 15.9% and 14.7%",
+          "apoe_stratum": null,
+          "quote": "[tilavonemab 300 mg ( n = 15, 13.9%), tilavonemab 1000 mg ( n = 11, 9.5%), tilavonemab 2000 mg ( n = 18, 15.9%), placebo ( n = 17, 14.7%)]",
+          "location": "Results, first paragraph"
+        }
+      ],
+      "apoe_stratification_reported": false,
+      "serious_adverse_events": {
+        "value": "Serious adverse events were reported for 84 (18.5%) of all patients; by arm: placebo 26/116 (22.4%), 300 mg 19/108 (17.6%), 1000 mg 22/116 (19.0%), 2000 mg 17/113 (15.0%); most common were pneumonia, fall and syncope (four patients each)",
+        "quote": "Serious adverse events were reported for 84 (18.5%) patients, with the most common being pneumonia, fall, and syncope (each occurring in four patients total).",
+        "location": "Results, safety paragraph; Table 2"
+      },
+      "deaths": {
+        "value": "Six deaths during the study, none considered related to treatment; by arm: placebo 1 (0.9%), 300 mg 2 (1.9%), 1000 mg 2 (1.7%), 2000 mg 1 (0.9%)",
+        "quote": "There were six deaths during the study (); none were considered related to treatment.",
+        "location": "Results, safety paragraph; Table 2"
+      },
+      "discontinuations": {
+        "value": "20 patients (4.4%) discontinued study drug due to an adverse event; adverse events leading to discontinuation of study drug by arm: placebo 4 (3.4%), 300 mg 6 (5.6%), 1000 mg 6 (5.2%), 2000 mg 4 (3.5%). Overall study discontinuation: 300 mg 15 (13.9%), 1000 mg 11 (9.5%), 2000 mg 18 (15.9%), placebo 17 (14.7%); 392 (86.5%) completed the study",
+        "quote": "In total, 20 (4.4%) patients discontinued study drug due to an adverse event.",
+        "location": "Results, safety paragraph; Results, first paragraph; Table 2"
+      }
+    },
+    "funding": [
+      "AbbVie Inc. funded the research for this study and participated in the study design; study research; collection, analysis, and interpretation of data; and writing, reviewing, and approving this manuscript for publication",
+      "Medical writing assistance, funded by AbbVie Inc., was provided by Marion France, PhD, Michelle Kelly, PhD, Nicola Chikkalingaiah, MD, and Alicia Salinero, PhD, ISMPP CMPP, of JB Ashtin"
+    ],
+    "conflicts": [
+      "H.F., D.W., Q.G., Z.J., H.Z., N.F., H.V.K., and M.G. are employees of AbbVie Inc., and may hold AbbVie stock and/or stock options",
+      "B.R.-M. is an employee of AbbVie Deutschland GmbH",
+      "K.B. is a former employee of AbbVie Inc., currently employed by Harmony Biosciences",
+      "S.E.A. has received advisory board fees from Allyx Therapeutics, Bob's Last Marathon, Cassava, Cortexyme, Sage Therapeutics and vTv Therapeutics, consulting fees from AbbVie Inc. and others, and sponsored research grant support from commercial entities including AbbVie Inc.",
+      "M.B. has received consulting fees from Grifols, Araclon Biotech, Roche, Biogen, Lilly, Merck and Zambon, has served on advisory boards for those and other companies, and has received funding and grants from Life Molecular Imaging, Bioiberica, Grifols, Araclon Biotech, Roche, Janssen and public funders"
+    ],
+    "limitations": [
+      "The natural history of the disease in the study population: patients clinically diagnosed with early Alzheimer's disease may already be too advanced pathologically to benefit from an anti-tau antibody",
+      "Tau imaging was not available when the trial began, so the effect of tilavonemab on tau accumulation could be assessed only in a small subset of patients",
+      "Lack of diversity in the study population, as most participants were White and well educated",
+      "Small sample size (15 to 28 patients per tilavonemab dose group) in the younger-than-65-years subgroup contributes to uncertainty about the observed treatment effect in that subgroup",
+      "The magnitude of decrease in CSF tau necessary for clinical benefit is unknown"
+    ],
+    "risk_of_bias": [
+      {
+        "domain": "sponsor analysis",
+        "judgement": "The sponsor funded the trial and participated in design, research, collection, analysis and interpretation of the data, and most authors are AbbVie employees who may hold AbbVie stock.",
+        "quote": "AbbVie Inc. funded the research for this study and participated in the study design; study research; and collection, analysis, and interpretation of the data."
+      },
+      {
+        "domain": "multiplicity / selective inference",
+        "judgement": "The only positive imaging findings (hippocampal volume at Week 28 and Week 44) are nominal, at isolated time points, and explicitly without multiplicity adjustment.",
+        "quote": "however, these were the only time points with statistical significance between groups without multiplicity adjustment ()."
+      },
+      {
+        "domain": "interim analyses / data monitoring committee access to efficacy data",
+        "judgement": "Three interim efficacy analyses were performed and the data monitoring committee reviewed unblinded efficacy data during the trial.",
+        "quote": "Interim efficacy analyses were also performed when 8 patients/group, 35 patients/group, and 55 patients/group, respectively, completed the Week 96 visit."
+      },
+      {
+        "domain": "attrition / missing data",
+        "judgement": "Analysis of the primary endpoint at Week 96 rested on 85, 91 and 81 patients in the three tilavonemab groups out of 108, 116 and 113 randomized, with missing data handled by multiple imputation applied separately within treatment groups.",
+        "quote": "Missing data were handled using multiple imputation applied separately for each treatment group."
+      },
+      {
+        "domain": "external validity / generalizability",
+        "judgement": "The trial population was overwhelmingly White and well educated, which the document itself flags as a limitation.",
+        "quote": "An additional limitation is the lack of diversity in the study population, as most of the participants were White and well educated."
+      },
+      {
+        "domain": "incomplete biomarker ascertainment",
+        "judgement": "Tau PET was added after the study commenced and only a subset of patients contributed scans, limiting the assessment of the drug's effect on tau accumulation.",
+        "quote": "Tau PET imaging was initiated during the trial at a limited number of sites and was therefore assessed in a subset of patients"
+      }
+    ],
+    "disagreements": [
+      {
+        "question": "Should tilavonemab be developed further in early Alzheimer's disease?",
+        "position": "This document concludes that further investigation of tilavonemab in early Alzheimer's disease is not warranted and that the data do not support it.",
+        "attributed_to": "Florian et al. (AbbVie-funded study report)",
+        "quote": "Overall, data from this phase 2 study do not support further investigations of tilavonemab for the treatment of early Alzheimer’s disease."
+      },
+      {
+        "question": "Would higher doses of tilavonemab produce clinical benefit?",
+        "position": "This document argues higher doses are unlikely to help, because the CSF free tau reduction plateaus at higher exposures.",
+        "attributed_to": "Florian et al., citing the PSP study by Höglinger et al.",
+        "quote": "Therefore, it seems unlikely that higher doses of tilavonemab will show clinical benefit."
+      },
+      {
+        "question": "Is the N-terminus of tau an appropriate antibody target?",
+        "position": "This document argues that antibodies directed against the N-terminus may be less effective than those targeting the mid-domain region.",
+        "attributed_to": "Florian et al. (Discussion)",
+        "quote": "This suggests that anti-tau antibodies directed against the N-terminus may be less effective than those that target the mid-domain region."
+      },
+      {
+        "question": "Does target engagement imply clinical benefit?",
+        "position": "This document reports clear target engagement (reduced CSF free tau) alongside an absence of clinical efficacy, and treats the two as separate findings.",
+        "attributed_to": "Florian et al. (Discussion)",
+        "quote": "Despite lack of treatment efficacy, there was evidence of target engagement. The decrease of CSF free tau (i.e. tau not bound by antibodies) indicates that the doses assessed were sufficient to engage CSF tau."
+      },
+      {
+        "question": "Are the negative results consistent with other N-terminal anti-tau antibody programmes?",
+        "position": "This document states its negative findings are consistent with gosuranemab and semorinemab, which also failed to slow disease progression while being well tolerated.",
+        "attributed_to": "Florian et al., citing trials of gosuranemab and semorinemab",
+        "quote": "In separate trials, gosuranemab and semorinemab, IgG4 monoclonal antibodies that target the N-terminal of extracellular tau, failed to slow disease progression in patients with mild cognitive impairment due to Alzheimer’s disease and mild Alzheimer’s disease but were well tolerated."
+      }
+    ],
+    "linked_objects": [
+      {
+        "relation": "registry_record",
+        "identifier": "NCT02880956",
+        "note": "ClinicalTrials.gov registration for this phase 2 tilavonemab study in early Alzheimer's disease"
+      },
+      {
+        "relation": "registry_record",
+        "identifier": "NCT03712787",
+        "note": "Long-term dose-blinded extension study, which the document states was terminated when the primary efficacy analysis did not achieve the study objectives"
+      },
+      {
+        "relation": "published_version_of",
+        "identifier": "10.1093/brain/awad024",
+        "note": "DOI of this Brain article (PMID 36730056, PMCID PMC10232284)"
+      }
+    ],
+    "trial_status_observation": {
+      "status": "Double-blind study completed (392 of 453 patients, 86.5%, completed); the long-term extension study was terminated when the primary efficacy analysis did not achieve the study objectives",
+      "enrollment": "1360 screened, 453 randomized (placebo 116; tilavonemab 300 mg 108, 1000 mg 116, 2000 mg 113)",
+      "phase": "Phase 2",
+      "observed_at": "Patients were randomized between October 2016 and May 2019; the document does not date the extension study termination itself",
+      "source": "Tilavonemab phase 2 primary publication, Brain (Results, first and final paragraphs)"
+    },
+    "unlocatable_fields": [
+      "authors[].affiliation (author affiliations are not printed in the retrieved document)",
+      "authors[].orcid",
+      "authors[].corresponding (the document does not identify a corresponding author)",
+      "safety.harms[ARIA-E] (ARIA is not reported in this anti-tau antibody trial; the document reports cerebral oedema as an adverse event of interest instead)",
+      "safety.harms[ARIA-H] (not reported; the document reports microhaemorrhage as an adverse event of interest instead)",
+      "safety.harms[symptomatic ARIA] (not reported)",
+      "safety.harms[macrohemorrhage] (not reported)",
+      "safety.harms[*].apoe_stratum (no harm is reported by APOE genotype; ApoE4 carrier status is reported only at baseline and in an efficacy subgroup analysis)",
+      "study.cohorts (no external named research cohort or dataset such as ADNI is named; only the within-trial 'Cohort 1' is named)",
+      "outcomes[secondary].name (the individual secondary efficacy endpoints are referenced to a table that is not reproduced in the retrieved document)",
+      "outcomes[secondary].effect_estimate",
+      "outcomes[secondary].confidence_interval",
+      "outcomes[secondary].p_value",
+      "outcomes[vMRI whole brain].p_value",
+      "outcomes[NFL].p_value",
+      "outcomes[tau PET].p_value",
+      "outcomes[exposure-response].prespecification_evidence",
+      "outcomes[*].confidence_interval for all exploratory and subgroup outcomes"
+    ],
+    "_meta": {
+      "model": "claude (builder subagent)",
+      "extracted_at": "2026-08-13T16:39:52Z",
+      "source": "raw/tilavonemab-early-ad/document.md"
+    }
+  }
+}

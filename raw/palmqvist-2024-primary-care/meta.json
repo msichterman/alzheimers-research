@@ -1,0 +1,9 @@
+{
+  "id": "palmqvist-2024-primary-care",
+  "source": "sources/palmqvist-2024-primary-care.xml",
+  "sha256": "c45c99458cd1e82de106748e91ca62655476afe911f969595ffe499e788c07cf",
+  "bytes": 31938,
+  "chars": 5465,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:11.132Z"
+}

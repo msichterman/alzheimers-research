@@ -1,0 +1,433 @@
+{
+  "extracted_by": "gemini-3.1-pro-preview",
+  "extracted_at": "2026-08-13T16:54:36.644Z",
+  "independent": true,
+  "saw_builder_output": false,
+  "source": "raw/fda-kisunla-label/document.md",
+  "source_sha256": "54cd9855816af3052ed621d37ed476ce69474d3e811fc21a0202b9c2c1cb7fa2",
+  "truncated": false,
+  "tokens": {
+    "in": 14466,
+    "out": 4960
+  },
+  "record": {
+    "document_kind": "regulatory_label",
+    "title": {
+      "value": "KISUNLA (donanemab-azbt) injection, for intravenous use",
+      "quote": "KISUNLA (donanemab-azbt) injection, for intravenous use",
+      "location": "HIGHLIGHTS OF PRESCRIBING INFORMATION"
+    },
+    "study": {
+      "design": {
+        "value": "double-blind, placebo-controlled, parallel-group study",
+        "quote": "double-blind, placebo-controlled, parallel-group study",
+        "location": "14 CLINICAL STUDIES, paragraph 1"
+      },
+      "n": {
+        "value": 1736,
+        "quote": "1736 patients were randomized",
+        "location": "14 CLINICAL STUDIES, paragraph 2"
+      },
+      "population": {
+        "value": "patients with Alzheimer’s disease (patients with confirmed presence of amyloid pathology and mild cognitive impairment or mild dementia stage of disease, consistent with Stage 3 and Stage 4 Alzheimer’s disease)",
+        "quote": "patients with Alzheimer’s disease (patients with confirmed presence of amyloid pathology and mild cognitive impairment or mild dementia stage of disease, consistent with Stage 3 and Stage 4 Alzheimer’s disease)",
+        "location": "14 CLINICAL STUDIES, paragraph 1"
+      },
+      "biomarker_confirmation": {
+        "value": "confirmed presence of amyloid pathology",
+        "quote": "confirmed presence of amyloid pathology",
+        "location": "14 CLINICAL STUDIES, paragraph 1"
+      },
+      "cohorts": [],
+      "comparator": {
+        "value": "placebo",
+        "quote": "placebo",
+        "location": "14 CLINICAL STUDIES, paragraph 2"
+      },
+      "followup": {
+        "value": "up to 72 weeks",
+        "quote": "for a total of up to 72 weeks",
+        "location": "14 CLINICAL STUDIES, paragraph 2"
+      },
+      "intervention": {
+        "value": "700 mg of KISUNLA every 4 weeks for the first 3 doses, and then 1400 mg every 4 weeks",
+        "quote": "700 mg of KISUNLA every 4 weeks for the first 3 doses, and then 1400 mg every 4 weeks",
+        "location": "14 CLINICAL STUDIES, paragraph 2"
+      },
+      "n_description": {
+        "value": "randomized",
+        "quote": "randomized",
+        "location": "14 CLINICAL STUDIES, paragraph 2"
+      },
+      "nct_ids": [
+        "NCT04437511"
+      ],
+      "phase": {
+        "value": null,
+        "quote": null,
+        "location": null
+      }
+    },
+    "outcomes": [
+      {
+        "name": "change in the integrated Alzheimer’s Disease Rating Scale (iADRS) score from baseline to 76 weeks",
+        "tier": "primary",
+        "prespecified": "yes",
+        "met": "met",
+        "quote": "Patients treated with KISUNLA demonstrated a statistically significant reduction in clinical decline on iADRS compared to placebo at Week 76 in the combined population (2.92, p<0.0001) and the low/medium tau population (3.25, p<0.0001).",
+        "location": "14 CLINICAL STUDIES",
+        "confidence_interval": null,
+        "effect_estimate": "2.92",
+        "multiplicity_controlled": "unclear",
+        "p_value": "p<0.0001",
+        "prespecification_evidence": "The primary efficacy endpoint was change in the integrated Alzheimer’s Disease Rating Scale (iADRS) score from baseline to 76 weeks."
+      },
+      {
+        "name": "Clinical Dementia Rating Scale – Sum of Boxes (CDR-SB)",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "met",
+        "quote": "Patients treated with KISUNLA demonstrated a statistically significant reduction in clinical decline on CDR-SB compared to placebo at Week 76 in the combined population (-0.70, p<0.0001)",
+        "location": "14 CLINICAL STUDIES",
+        "confidence_interval": null,
+        "effect_estimate": "-0.70",
+        "multiplicity_controlled": "unclear",
+        "p_value": "p<0.0001",
+        "prespecification_evidence": "Other efficacy endpoints included Clinical Dementia Rating Scale – Sum of Boxes (CDR-SB), ADAS-Cog13, and ADCS-iADL."
+      },
+      {
+        "name": "ADAS-Cog13",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "met",
+        "quote": "There were also statistically significant differences (p<0.001) between treatment groups as measured by ADAS-Cog13 and ADCS-iADL at Week 76",
+        "location": "14 CLINICAL STUDIES",
+        "confidence_interval": null,
+        "effect_estimate": "-1.33",
+        "multiplicity_controlled": "unclear",
+        "p_value": "p=0.0006",
+        "prespecification_evidence": "Other efficacy endpoints included Clinical Dementia Rating Scale – Sum of Boxes (CDR-SB), ADAS-Cog13, and ADCS-iADL."
+      },
+      {
+        "name": "ADCS-iADL",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "met",
+        "quote": "There were also statistically significant differences (p<0.001) between treatment groups as measured by ADAS-Cog13 and ADCS-iADL at Week 76",
+        "location": "14 CLINICAL STUDIES",
+        "confidence_interval": null,
+        "effect_estimate": "1.70",
+        "multiplicity_controlled": "unclear",
+        "p_value": "p=0.0001",
+        "prespecification_evidence": "Other efficacy endpoints included Clinical Dementia Rating Scale – Sum of Boxes (CDR-SB), ADAS-Cog13, and ADCS-iADL."
+      }
+    ],
+    "primary_endpoint_status": {
+      "status": "met",
+      "quote": "Patients treated with KISUNLA demonstrated a statistically significant reduction in clinical decline on iADRS compared to placebo at Week 76 in the combined population (2.92, p<0.0001) and the low/medium tau population (3.25, p<0.0001).",
+      "explanation": "The study met its primary endpoint, showing a statistically significant reduction in clinical decline on the iADRS score at Week 76 for patients treated with KISUNLA compared to placebo."
+    },
+    "safety": {
+      "harms": [
+        {
+          "name": "ARIA-E",
+          "arm": "KISUNLA",
+          "quote": "ARIA-E was observed in 24% (201/853) of patients treated with KISUNLA",
+          "location": "5.1 Amyloid Related Imaging Abnormalities, Incidence of ARIA",
+          "apoe_stratum": null,
+          "count": "201",
+          "denominator": "853",
+          "percentage": "24%"
+        },
+        {
+          "name": "ARIA-E",
+          "arm": "placebo",
+          "quote": "compared with 2% (17/874) of patients on placebo.",
+          "location": "5.1 Amyloid Related Imaging Abnormalities, Incidence of ARIA",
+          "apoe_stratum": null,
+          "count": "17",
+          "denominator": "874",
+          "percentage": "2%"
+        },
+        {
+          "name": "ARIA-H",
+          "arm": "KISUNLA",
+          "quote": "ARIA-H was observed in 31% (263/853) of patients treated with KISUNLA",
+          "location": "5.1 Amyloid Related Imaging Abnormalities, Incidence of ARIA",
+          "apoe_stratum": null,
+          "count": "263",
+          "denominator": "853",
+          "percentage": "31%"
+        },
+        {
+          "name": "ARIA-H",
+          "arm": "placebo",
+          "quote": "compared with 13% (111/874) of patients on placebo.",
+          "location": "5.1 Amyloid Related Imaging Abnormalities, Incidence of ARIA",
+          "apoe_stratum": null,
+          "count": "111",
+          "denominator": "874",
+          "percentage": "13%"
+        },
+        {
+          "name": "Symptomatic ARIA",
+          "arm": "KISUNLA",
+          "quote": "Symptomatic ARIA occurred in 6% (52/853) of patients treated with KISUNLA in Study 1",
+          "location": "5.1 Amyloid Related Imaging Abnormalities, Incidence of ARIA",
+          "apoe_stratum": null,
+          "count": "52",
+          "denominator": "853",
+          "percentage": "6%"
+        },
+        {
+          "name": "Intracerebral hemorrhage greater than 1 cm in diameter",
+          "arm": "KISUNLA",
+          "quote": "Intracerebral hemorrhage greater than 1 cm in diameter was reported in 0.5% (4/853) of patients in Study 1 after treatment with KISUNLA",
+          "location": "5.1 Amyloid Related Imaging Abnormalities, Incidence of Intracerebral Hemorrhage",
+          "apoe_stratum": null,
+          "count": "4",
+          "denominator": "853",
+          "percentage": "0.5%"
+        },
+        {
+          "name": "Intracerebral hemorrhage greater than 1 cm in diameter",
+          "arm": "placebo",
+          "quote": "compared to 0.2% (2/874) of patients on placebo.",
+          "location": "5.1 Amyloid Related Imaging Abnormalities, Incidence of Intracerebral Hemorrhage",
+          "apoe_stratum": null,
+          "count": "2",
+          "denominator": "874",
+          "percentage": "0.2%"
+        },
+        {
+          "name": "ARIA",
+          "arm": "KISUNLA",
+          "quote": "The incidence of ARIA was higher in ApoE ε4 homozygotes (55% on KISUNLA",
+          "location": "5.1 Amyloid Related Imaging Abnormalities, ApoE ε4 Carrier Status",
+          "apoe_stratum": "ApoE ε4 homozygotes",
+          "count": null,
+          "denominator": null,
+          "percentage": "55%"
+        },
+        {
+          "name": "ARIA",
+          "arm": "placebo",
+          "quote": "vs. 22% on placebo)",
+          "location": "5.1 Amyloid Related Imaging Abnormalities, ApoE ε4 Carrier Status",
+          "apoe_stratum": "ApoE ε4 homozygotes",
+          "count": null,
+          "denominator": null,
+          "percentage": "22%"
+        },
+        {
+          "name": "ARIA",
+          "arm": "KISUNLA",
+          "quote": "than in heterozygotes (36% on KISUNLA",
+          "location": "5.1 Amyloid Related Imaging Abnormalities, ApoE ε4 Carrier Status",
+          "apoe_stratum": "heterozygotes",
+          "count": null,
+          "denominator": null,
+          "percentage": "36%"
+        },
+        {
+          "name": "ARIA",
+          "arm": "placebo",
+          "quote": "vs. 13% on placebo)",
+          "location": "5.1 Amyloid Related Imaging Abnormalities, ApoE ε4 Carrier Status",
+          "apoe_stratum": "heterozygotes",
+          "count": null,
+          "denominator": null,
+          "percentage": "13%"
+        },
+        {
+          "name": "ARIA",
+          "arm": "KISUNLA",
+          "quote": "and noncarriers (25% on KISUNLA",
+          "location": "5.1 Amyloid Related Imaging Abnormalities, ApoE ε4 Carrier Status",
+          "apoe_stratum": "noncarriers",
+          "count": null,
+          "denominator": null,
+          "percentage": "25%"
+        },
+        {
+          "name": "ARIA",
+          "arm": "placebo",
+          "quote": "vs. 12% on placebo).",
+          "location": "5.1 Amyloid Related Imaging Abnormalities, ApoE ε4 Carrier Status",
+          "apoe_stratum": "noncarriers",
+          "count": null,
+          "denominator": null,
+          "percentage": "12%"
+        },
+        {
+          "name": "symptomatic ARIA-E",
+          "arm": "KISUNLA",
+          "quote": "Among patients treated with KISUNLA, symptomatic ARIA-E occurred in 8% of ApoE ε4 homozygotes",
+          "location": "5.1 Amyloid Related Imaging Abnormalities, ApoE ε4 Carrier Status",
+          "apoe_stratum": "ApoE ε4 homozygotes",
+          "count": null,
+          "denominator": null,
+          "percentage": "8%"
+        },
+        {
+          "name": "symptomatic ARIA-E",
+          "arm": "KISUNLA",
+          "quote": "compared with 7% of heterozygotes",
+          "location": "5.1 Amyloid Related Imaging Abnormalities, ApoE ε4 Carrier Status",
+          "apoe_stratum": "heterozygotes",
+          "count": null,
+          "denominator": null,
+          "percentage": "7%"
+        },
+        {
+          "name": "symptomatic ARIA-E",
+          "arm": "KISUNLA",
+          "quote": "and 4% of noncarriers.",
+          "location": "5.1 Amyloid Related Imaging Abnormalities, ApoE ε4 Carrier Status",
+          "apoe_stratum": "noncarriers",
+          "count": null,
+          "denominator": null,
+          "percentage": "4%"
+        },
+        {
+          "name": "severe radiographic ARIA-E",
+          "arm": "KISUNLA",
+          "quote": "Among patients treated with KISUNLA, the rate of severe radiographic ARIA-E was highest in ApoE ε4 homozygotes 3% (4/143)",
+          "location": "5.1 Amyloid Related Imaging Abnormalities, Radiographic Severity",
+          "apoe_stratum": "ApoE ε4 homozygotes",
+          "count": "4",
+          "denominator": "143",
+          "percentage": "3%"
+        },
+        {
+          "name": "severe radiographic ARIA-E",
+          "arm": "KISUNLA",
+          "quote": "compared to heterozygotes 2% (9/452)",
+          "location": "5.1 Amyloid Related Imaging Abnormalities, Radiographic Severity",
+          "apoe_stratum": "heterozygotes",
+          "count": "9",
+          "denominator": "452",
+          "percentage": "2%"
+        },
+        {
+          "name": "severe radiographic ARIA-E",
+          "arm": "KISUNLA",
+          "quote": "or noncarriers 0.4% (1/255).",
+          "location": "5.1 Amyloid Related Imaging Abnormalities, Radiographic Severity",
+          "apoe_stratum": "noncarriers",
+          "count": "1",
+          "denominator": "255",
+          "percentage": "0.4%"
+        },
+        {
+          "name": "severe radiographic ARIA-H",
+          "arm": "KISUNLA",
+          "quote": "Among patients treated with KISUNLA, the rate of severe radiographic ARIA-H was highest in ApoE ε4 homozygotes 22% (31/143)",
+          "location": "5.1 Amyloid Related Imaging Abnormalities, Radiographic Severity",
+          "apoe_stratum": "ApoE ε4 homozygotes",
+          "count": "31",
+          "denominator": "143",
+          "percentage": "22%"
+        },
+        {
+          "name": "severe radiographic ARIA-H",
+          "arm": "KISUNLA",
+          "quote": "compared to heterozygotes 8% (38/452)",
+          "location": "5.1 Amyloid Related Imaging Abnormalities, Radiographic Severity",
+          "apoe_stratum": "heterozygotes",
+          "count": "38",
+          "denominator": "452",
+          "percentage": "8%"
+        },
+        {
+          "name": "severe radiographic ARIA-H",
+          "arm": "KISUNLA",
+          "quote": "or noncarriers 4% (9/255).",
+          "location": "5.1 Amyloid Related Imaging Abnormalities, Radiographic Severity",
+          "apoe_stratum": "noncarriers",
+          "count": "9",
+          "denominator": "255",
+          "percentage": "4%"
+        },
+        {
+          "name": "ARIA-H microhemorrhage",
+          "arm": "KISUNLA",
+          "quote": "25",
+          "location": "Table 6",
+          "apoe_stratum": null,
+          "count": null,
+          "denominator": "853",
+          "percentage": "25%"
+        },
+        {
+          "name": "ARIA-H microhemorrhage",
+          "arm": "Placebo",
+          "quote": "11",
+          "location": "Table 6",
+          "apoe_stratum": null,
+          "count": null,
+          "denominator": "874",
+          "percentage": "11%"
+        },
+        {
+          "name": "ARIA-H superficial siderosis",
+          "arm": "KISUNLA",
+          "quote": "15",
+          "location": "Table 6",
+          "apoe_stratum": null,
+          "count": null,
+          "denominator": "853",
+          "percentage": "15%"
+        },
+        {
+          "name": "ARIA-H superficial siderosis",
+          "arm": "Placebo",
+          "quote": "3",
+          "location": "Table 6",
+          "apoe_stratum": null,
+          "count": null,
+          "denominator": "874",
+          "percentage": "3%"
+        }
+      ],
+      "apoe_stratification_reported": true,
+      "deaths": {
+        "value": "Fatal events of intracerebral hemorrhage in patients taking KISUNLA have been observed.",
+        "quote": "Fatal events of intracerebral hemorrhage in patients taking KISUNLA have been observed.",
+        "location": "5.1 Amyloid Related Imaging Abnormalities, Incidence of Intracerebral Hemorrhage"
+      },
+      "discontinuations": {
+        "value": "Thirteen percent of patients treated with KISUNLA compared to 4% of patients on placebo stopped study treatment because of an adverse reaction.",
+        "quote": "Thirteen percent of patients treated with KISUNLA compared to 4% of patients on placebo stopped study treatment because of an adverse reaction.",
+        "location": "6.1 Clinical Trials Experience"
+      },
+      "serious_adverse_events": {
+        "value": null,
+        "quote": null,
+        "location": null
+      }
+    },
+    "unlocatable_fields": [
+      "study.phase.value",
+      "study.phase.quote",
+      "study.phase.location",
+      "safety.serious_adverse_events.value",
+      "safety.serious_adverse_events.quote",
+      "safety.serious_adverse_events.location",
+      "multiplicity.approach",
+      "multiplicity.location",
+      "multiplicity.quote"
+    ],
+    "authors": [],
+    "conflicts": [],
+    "disagreements": [],
+    "funding": [],
+    "limitations": [],
+    "linked_objects": [],
+    "multiplicity": {
+      "approach": null,
+      "location": null,
+      "quote": null
+    }
+  }
+}

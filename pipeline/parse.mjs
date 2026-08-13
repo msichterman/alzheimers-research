@@ -5,6 +5,7 @@
 import { toMarkdown } from "@firecrawl/anydoc";
 import { readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { basename, extname, join, relative } from "node:path";
+import { ctgovToMarkdown, htmlToMarkdown, jatsToMarkdown } from "./convert.mjs";
 import {
   RAW_DIR,
   ROOT,
@@ -20,7 +21,40 @@ import {
 const SUPPORTED = new Set([
   ".pdf", ".doc", ".docx", ".docm", ".ppt", ".pptx", ".pptm", ".ppsx",
   ".xls", ".xlsx", ".xlsm", ".odt", ".ods", ".odp", ".rtf", ".epub", ".csv",
+  // Added for the corpus expansion: registry JSON, JATS full text, and
+  // publisher/repository HTML all arrive through the same acquisition path.
+  ".json", ".xml", ".html", ".md",
 ]);
+
+/**
+ * A parsed document is only usable as evidence if it has a real text layer.
+ * anydoc does not OCR, so an image-only PDF converts to a few dozen characters
+ * of noise; a paywall page converts to a menu. Both are caught here rather than
+ * silently becoming a record with every field null.
+ */
+function textLayerCheck(markdown, extension) {
+  const words = markdown.split(/\s+/).filter((w) => /[a-z]{3,}/i.test(w)).length;
+  if (markdown.length < 400 || words < 60) {
+    return { ok: false, reason: `extracted text layer is too thin (${markdown.length} chars, ${words} words) — likely an image-only scan or an access wall` };
+  }
+  if (extension === ".pdf" && markdown.replace(/[^a-zA-Z]/g, "").length / markdown.length < 0.3) {
+    return { ok: false, reason: "extracted PDF text is mostly non-alphabetic — likely a failed text layer" };
+  }
+  return { ok: true, words };
+}
+
+/** Route a source to its converter. Office formats and PDFs stay on anydoc. */
+async function convert(source, extension) {
+  if (extension === ".json") {
+    const json = JSON.parse(readFileSync(source, "utf8"));
+    if (json.protocolSection) return ctgovToMarkdown(json);
+    return `\`\`\`json\n${JSON.stringify(json, null, 2)}\n\`\`\``;
+  }
+  if (extension === ".xml") return jatsToMarkdown(readFileSync(source, "utf8"));
+  if (extension === ".html") return htmlToMarkdown(readFileSync(source, "utf8"));
+  if (extension === ".md") return readFileSync(source, "utf8");
+  return await toMarkdown(source);
+}
 
 const argv = process.argv.slice(2);
 const force = argv.includes("--force");
@@ -58,11 +92,18 @@ for (const source of sources) {
   }
 
   try {
-    const markdown = (await toMarkdown(source))
+    const extension = extname(source).toLowerCase();
+    const markdown = (await convert(source, extension))
       .replace(/\r\n/g, "\n")
       .replace(/[ \t]+$/gm, "")
       .replace(/\n{3,}/g, "\n\n")
       .trim();
+    const text = textLayerCheck(markdown, extension);
+    if (!text.ok) {
+      const error = new Error(text.reason);
+      error.code = "no-text-layer";
+      throw error;
+    }
     ensureDir(join(RAW_DIR, id));
     writeFileSync(join(RAW_DIR, id, "document.md"), `${markdown}\n`);
     writeJson(metaPath, {

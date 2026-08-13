@@ -1,0 +1,43 @@
+{
+  "id": "gosuranemab-tango",
+  "adjudicated_at": "2026-08-13T16:57:19Z",
+  "rulings": [
+    {
+      "conflict_id": "gosuranemab-tango#0",
+      "field": "study.intervention",
+      "verdict": "both",
+      "correct_value": "Intravenous gosuranemab for 78 weeks: low-dose (125 mg q4w, n = 58; 375 mg q12w, n = 58), intermediate-dose (600 mg q4w, n = 106) or high-dose (2,000 mg q4w, n = 214), versus placebo (q4w, n = 214)",
+      "quote": "received ( n = 650) low-dose (125 mg once every 4 weeks (q4w), n = 58; 375 mg q12w, n = 58), intermediate-dose (600 mg q4w, n = 106) or high-dose (2,000 mg q4w, n = 214) gosuranemab or placebo (q4w, n = 214) intravenously for 78 weeks",
+      "reasoning": "Both readings describe the same dosing scheme from the same abstract sentence — A carries the per-arm sample sizes, B carries the intravenous route and 78-week duration — and the document states all of these elements."
+    },
+    {
+      "conflict_id": "gosuranemab-tango#1",
+      "field": "safety.harms[death].reported",
+      "verdict": "b",
+      "correct_value": "reported",
+      "quote": "During the placebo-controlled period, one death occurred in the placebo group (0.5%) and two deaths occurred across all gosuranemab groups (0.5%). One death (in the high-dose group) was considered treatment-related (subdural hematoma related to a possible fall)",
+      "reasoning": "Deaths are explicitly reported in the narrative and as a 'Mortality events' row in the primary safety table (placebo 1 (0.5); total gosuranemab 2 (0.5)), plus six deaths in the LTE period, so 'absent' is contradicted by the document."
+    },
+    {
+      "conflict_id": "gosuranemab-tango#2",
+      "field": "outcomes[primary].effect_estimate",
+      "verdict": "a",
+      "correct_value": "Any AE: placebo 181/214 (84.6%) vs total gosuranemab 381/436 (87.4%); SAEs: placebo 26/214 (12.1%) vs total gosuranemab 50/436 (11.5%)",
+      "quote": "| Any AE | 181 (84.6) | 50 (86.2) | 48 (82.8) | 94 (88.7) | 189 (88.3) | 381 (87.4) |",
+      "reasoning": "The primary endpoint is the incidence of AEs and SAEs, and Table 3 ('Primary safety endpoint for the placebo-controlled period') prints exactly these counts and percentages for placebo (n = 214) and total gosuranemab (n = 436), including the SAE row 26 (12.1) versus 50 (11.5)."
+    },
+    {
+      "conflict_id": "gosuranemab-tango#3",
+      "field": "outcomes[primary].confidence_interval",
+      "verdict": "neither",
+      "correct_value": null,
+      "quote": "For the placebo-controlled period of this study, the primary endpoint was the incidence of AEs and SAEs.",
+      "reasoning": "The primary endpoint is an incidence of adverse events, reported only as counts and percentages with no interval anywhere in the document; the 95% CIs that do appear belong to the secondary CDR-SB and exploratory endpoints."
+    }
+  ],
+  "notes": [
+    "The primary endpoint of TANGO is safety, not efficacy: 'The primary objective was to assess the safety and tolerability of gosuranemab compared to placebo' and 'the primary endpoint was the incidence of AEs and SAEs.' CDR-SB change at week 78 is explicitly a secondary endpoint ('No significant difference in the CDR-SB score (a secondary endpoint)'). Rulings #2 and #3 follow that designation — the AE/SAE incidences are the primary-endpoint result, and CDR-SB adjusted means with 95% CIs must not be promoted into outcomes[primary].",
+    "Conflict #3 was presented with both readings null; the ruling records that the document genuinely prints no confidence interval for the primary safety endpoint, so the two readings agree and neither needs correcting.",
+    "For conflict #1, note that deaths are reported at two distinct levels: 3 deaths in the placebo-controlled period (1 placebo, 2 gosuranemab, one of which was assessed treatment-related) and 6 further deaths during the long-term extension, none treatment-related."
+  ]
+}

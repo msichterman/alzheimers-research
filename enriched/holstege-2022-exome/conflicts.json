@@ -1,0 +1,49 @@
+{
+  "id": "holstege-2022-exome",
+  "prepared_at": "2026-08-13T16:55:51.040Z",
+  "instructions": "Two independent extractions of the same retrieved document disagree on these fields. For each conflict, decide against the document which reading is correct — or that both are, or neither is. You are not told which pipeline produced which reading, and you must not guess.",
+  "conflicts": [
+    {
+      "conflict_id": "holstege-2022-exome#0",
+      "field": "study.population",
+      "reading_a": "Individuals of European ancestry only (non-European ancestry samples removed at QC), comprising AD cases diagnosed by NIA-AA or NINCDS-ADRDA criteria — 4,060 early-onset (age at onset ≤65 years) and 8,592 late-onset (age at onset >65 years) cases in stage 1 — and controls not diagnosed with AD; carriers of pathogenic PSEN1, PSEN2, APP or other Mendelian dementia variants and relatives up to the third degree were removed",
+      "reading_b": "Alzheimer's disease cases and controls",
+      "note": null
+    },
+    {
+      "conflict_id": "holstege-2022-exome#1",
+      "field": "outcomes[primary].name",
+      "reading_a": "gene-based burden of rare damaging variants",
+      "reading_b": "Exome-wide significant association of rare predicted damaging variants in ATP8B4 and ABCA1 with AD risk (new genes)",
+      "note": null
+    },
+    {
+      "conflict_id": "holstege-2022-exome#2",
+      "field": "outcomes[primary].prespecified",
+      "reading_a": "unclear",
+      "reading_b": "yes",
+      "note": null
+    },
+    {
+      "conflict_id": "holstege-2022-exome#3",
+      "field": "outcomes[Genes whose rare damaging variant burden was confirmed as associated with AD in the stage 1 + stage 2 meta-analysis].prespecified",
+      "reading_a": "unclear",
+      "reading_b": "yes",
+      "note": null
+    },
+    {
+      "conflict_id": "holstege-2022-exome#4",
+      "field": "outcomes[primary].effect_estimate",
+      "reading_a": "ATP8B4 (LOF + REVEL ≥ 25) meta-analysis OR 1.5; ABCA1 (LOF + REVEL ≥ 75) meta-analysis OR 1.7",
+      "reading_b": null,
+      "note": "One reading found nothing here. Decide whether the document actually states this; 'neither' is correct if it does not."
+    },
+    {
+      "conflict_id": "holstege-2022-exome#5",
+      "field": "outcomes[primary].confidence_interval",
+      "reading_a": "1.3–1.7 (ATP8B4); 1.4–2.1 (ABCA1)",
+      "reading_b": null,
+      "note": "One reading found nothing here. Decide whether the document actually states this; 'neither' is correct if it does not."
+    }
+  ]
+}

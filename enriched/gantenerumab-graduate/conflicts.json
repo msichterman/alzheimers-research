@@ -1,0 +1,28 @@
+{
+  "id": "gantenerumab-graduate",
+  "prepared_at": "2026-08-13T16:55:51.039Z",
+  "instructions": "Two independent extractions of the same retrieved document disagree on these fields. For each conflict, decide against the document which reading is correct — or that both are, or neither is. You are not told which pipeline produced which reading, and you must not guess.",
+  "conflicts": [
+    {
+      "conflict_id": "gantenerumab-graduate#0",
+      "field": "study.population",
+      "reading_a": "Persons 50 to 90 years of age with mild cognitive impairment due to Alzheimer’s disease or mild dementia due to Alzheimer’s disease (CDR-GS of 0.5 or 1, MMSE ≥22, FCSRT cueing index ≤0.67 and free recall ≤27) with evidence of amyloid plaques on PET or CSF testing",
+      "reading_b": "Persons 50 to 90 years of age were eligible for inclusion in the trials if they had mild cognitive impairment due to Alzheimer’s disease or had mild dementia due to Alzheimer’s disease",
+      "note": null
+    },
+    {
+      "conflict_id": "gantenerumab-graduate#1",
+      "field": "study.intervention",
+      "reading_a": "Subcutaneous gantenerumab escalated over 36 weeks to a target dose of 510 mg every 2 weeks, regardless of APOE ε4 genotype (120 mg every 4 weeks for three doses, then 255 mg every 4 weeks for three doses, then 510 mg every 4 weeks for three doses, then 510 mg every 2 weeks)",
+      "reading_b": "gantenerumab... target level of 510 mg every 2 weeks",
+      "note": null
+    },
+    {
+      "conflict_id": "gantenerumab-graduate#2",
+      "field": "outcomes[primary].name",
+      "reading_a": "change from baseline in the score on the Clinical Dementia Rating scale−Sum of Boxes (CDR-SB; range, 0 to 18, with higher scores indicating greater cognitive impairment) at week 116",
+      "reading_b": "Change from baseline in the CDR-SB score at week 116 — GRADUATE I trial",
+      "note": null
+    }
+  ]
+}

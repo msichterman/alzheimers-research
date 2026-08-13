@@ -1,0 +1,108 @@
+{
+  "_comment": [
+    "Questions a naive corpus gets wrong. Each one has a failure mode: the answer a",
+    "corpus produces when it has indexed abstracts, press releases and sponsor framing",
+    "instead of primary documents. The failure_mode field is NOT shown to any answerer.",
+    "It is shown only to the evaluator, after it has already picked a winner, so it can",
+    "check whether the winning answer actually avoided the trap.",
+    "The six questions the work order names explicitly are marked required: true."
+  ],
+  "questions": [
+    {
+      "id": "lecanemab-phase2b-primary",
+      "cluster": "amyloid-antibody",
+      "required": true,
+      "question": "Did lecanemab's Phase 2b study meet its prespecified primary criterion? State the criterion, the threshold, and the result.",
+      "failure_mode": "Saying it succeeded because the programme advanced to Phase 3 and later won approval. The prespecified 12-month Bayesian criterion was not met; the dose-response case for Phase 3 rested on later analyses."
+    },
+    {
+      "id": "amyloid-class-consistency",
+      "cluster": "amyloid-antibody",
+      "required": true,
+      "question": "Has amyloid lowering produced consistent clinical benefit across the anti-amyloid antibody class? Answer with the evidence from across the class, not from the successful trials alone.",
+      "failure_mode": "Generalising from lecanemab and donanemab while omitting gantenerumab, solanezumab, bapineuzumab and the discordant aducanumab pair — survivorship bias over the class."
+    },
+    {
+      "id": "sprint-mind-dementia",
+      "cluster": "prevention",
+      "required": true,
+      "question": "Did SPRINT MIND reduce dementia? Be precise about which endpoint was reduced and which was not, and about statistical significance.",
+      "failure_mode": "Reporting a dementia reduction. The probable-dementia primary outcome did not reach significance; MCI, a secondary outcome, did. Conflating the two is the classic error."
+    },
+    {
+      "id": "us-pointer-control-arm",
+      "cluster": "prevention",
+      "required": true,
+      "question": "Did U.S. POINTER have an untreated control arm? Describe what each arm received and what that means for interpreting the result.",
+      "failure_mode": "Describing the comparison as intervention versus no intervention. Both arms received a lifestyle programme, so the trial measures structured versus self-guided, not versus nothing."
+    },
+    {
+      "id": "cochrane-vs-regulators",
+      "cluster": "amyloid-antibody",
+      "required": true,
+      "question": "What does the 2026 Cochrane pooled analysis of anti-amyloid antibodies conclude, and how does that differ from what FDA and EMA concluded? Attribute each position to its source.",
+      "failure_mode": "Resolving the disagreement into one verdict, or omitting the Cochrane position entirely. These are materially different analytical positions, both grounded in evidence, and both belong in the answer attributed to whoever holds them."
+    },
+    {
+      "id": "lumipulse-clearance-status",
+      "cluster": "regulatory",
+      "required": true,
+      "question": "Does the FDA clearance of the Lumipulse plasma pTau217/beta-amyloid 1-42 ratio still stand unqualified? Include any post-market action and what it affected.",
+      "failure_mode": "Reporting the 2025 clearance as the current, unqualified state, missing the subsequent lot recall / product correction and the limits stated in the clearance itself."
+    },
+    {
+      "id": "bace-programme-outcome",
+      "cluster": "bace",
+      "question": "What happened when BACE inhibition was tested in Alzheimer's disease, and did treating earlier rescue the mechanism? Include any evidence of harm.",
+      "failure_mode": "Reporting BACE trials as merely 'unsuccessful' or 'inconclusive', omitting that some measures favoured placebo and that earlier-stage treatment did not rescue the approach."
+    },
+    {
+      "id": "anti-tau-antibody-class",
+      "cluster": "tau",
+      "question": "What have anti-tau antibody trials in Alzheimer's disease shown about the relationship between target engagement and clinical benefit?",
+      "failure_mode": "Presenting biomarker or target-engagement success as evidence of efficacy, or promoting a single positive cognitive scale in one trial into a demonstrated functional benefit."
+    },
+    {
+      "id": "trem2-agonism-result",
+      "cluster": "trem2-neuroinflammation",
+      "question": "What did the first large randomized trial of TREM2 agonism show, and what does that imply for genetically motivated targets?",
+      "failure_mode": "Treating strong human genetic support for a target as predictive of trial success, and omitting the safety observations from the trial."
+    },
+    {
+      "id": "gwas-independence",
+      "cluster": "genetics",
+      "question": "How many independent replications support the current Alzheimer's genetic risk loci, and what limits their generalisability?",
+      "failure_mode": "Counting overlapping GWAS meta-analyses that reuse the same consortia and biobanks as independent replications, and omitting the European-ancestry concentration of the evidence."
+    },
+    {
+      "id": "ptau217-clinical-readiness",
+      "cluster": "biomarkers",
+      "question": "Is plasma p-tau217 ready to diagnose Alzheimer's disease on its own in routine primary care? Distinguish research performance from approved clinical use.",
+      "failure_mode": "Reading strong diagnostic-accuracy numbers from specialist memory-clinic cohorts as clearance for standalone primary-care diagnosis, and ignoring appropriate-use guidance and regulatory limits."
+    },
+    {
+      "id": "aria-apoe-risk",
+      "cluster": "amyloid-antibody",
+      "question": "How does APOE e4 genotype affect the risk of ARIA with anti-amyloid antibodies, and what does that mean for who gets treated?",
+      "failure_mode": "Giving a single pooled ARIA rate with no genotype stratification, and omitting homozygote-specific risk and the resulting label guidance."
+    },
+    {
+      "id": "amyloid-hypothesis-status",
+      "cluster": "conceptual",
+      "question": "Is the amyloid hypothesis confirmed by the recent antibody trials? Give the strongest case each way.",
+      "failure_mode": "Answering with a binary verdict in either direction instead of representing the genuine, evidence-grounded disagreement in the field."
+    },
+    {
+      "id": "prevention-trial-record",
+      "cluster": "prevention",
+      "question": "What does the randomized evidence actually show about multidomain lifestyle intervention preventing dementia?",
+      "failure_mode": "Citing FINGER alone and omitting MAPT and preDIVA, which did not show significant benefit on their primary outcomes — selective citation across the prevention literature."
+    },
+    {
+      "id": "negative-trial-recall",
+      "cluster": "amyloid-antibody",
+      "question": "Which anti-amyloid antibody programmes failed to show clinical benefit, and what was the reported result in each?",
+      "failure_mode": "A corpus built from positive publications cannot answer this at all, or names only one or two programmes."
+    }
+  ]
+}

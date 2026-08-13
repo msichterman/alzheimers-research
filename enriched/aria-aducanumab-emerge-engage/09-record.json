@@ -1,0 +1,1379 @@
+{
+  "id": "aria-aducanumab-emerge-engage",
+  "built_at": "2026-08-13T16:59:45.841Z",
+  "derived_from": {
+    "builder": "enriched/<id>/05-evidence.json",
+    "independent_critic": "enriched/<id>/06-critique.json",
+    "fidelity_diff": "enriched/<id>/07-fidelity.json",
+    "adjudication": "enriched/<id>/08-adjudication.json"
+  },
+  "conflicts_found": 18,
+  "conflicts_ruled": 18,
+  "conflicts_unresolved": 0,
+  "conflicts_needing_manual_apply": 5,
+  "adjudication_changelog": [
+    {
+      "field": "safety.harms[ARIA-H].reported",
+      "verdict": "a",
+      "resolved_value": "reported",
+      "applied": false,
+      "disposition": "advisory only — harm entries are not rewritten from a presence ruling",
+      "quote": "ARIA-microhemorrhage and ARIA–superficial siderosis occurred in 197 participants (19.1%) and 151 participants (14.7%), respectively.",
+      "reasoning": "ARIA-H is reported explicitly, with counts and percentages for both of its components in the abstract, in the Results text, and as a labelled block in Table 1 (Microhemorrhage 197 [19.1]; Superficial siderosis 151 [14.7] in the 10-mg/kg group). It is not absent."
+    },
+    {
+      "field": "safety.harms[macrohemorrhage].reported",
+      "verdict": "a",
+      "resolved_value": "reported",
+      "applied": false,
+      "disposition": "advisory only — harm entries are not rewritten from a presence ruling",
+      "quote": "Larger brain hemorrhages measuring more than 1 cm in diameter were rare and balanced between placebo and aducanumab groups (placebo group: 4 [0.4%]; 10-mg/kg group: 3 [0.3%]).",
+      "reasoning": "Macrohemorrhage (brain hemorrhage >1 cm) is reported with explicit counts in the Results text and as the Table 1 row \"Hemorrhage >1 cm\" (placebo 4 [0.4]; 3 mg/kg 1 [0.1]; 6 mg/kg 3 [0.8]; 10 mg/kg 3 [0.3]). The document uses the phrase \"hemorrhage >1 cm\" rather than the word \"macrohemorrhage\", but the harm itself is reported."
+    },
+    {
+      "field": "outcomes[Incidence of ARIA (ARIA-E or ARIA-H) during the placebo-controlled period, 10-mg/kg group].prespecified",
+      "verdict": "a",
+      "resolved_value": "unclear",
+      "applied": true,
+      "disposition": "applied",
+      "quote": "Most of the secondary analyses for this report were prespecified for the integrated summary of safety but were not included in the trial protocol. Some ad hoc analyses to address regulatory queries are of scientific interest and are therefore included as part of this report.",
+      "reasoning": "The document states only that \"most\" of the report's secondary analyses were prespecified and that some were ad hoc, without identifying which is which; it never labels this specific incidence analysis as prespecified. \"Unclear\" is the supported reading."
+    },
+    {
+      "field": "outcomes[Incidence of ARIA-edema (ARIA-E)].prespecified",
+      "verdict": "b",
+      "resolved_value": "unclear",
+      "applied": true,
+      "disposition": "applied",
+      "quote": "Most of the secondary analyses for this report were prespecified for the integrated summary of safety but were not included in the trial protocol. Some ad hoc analyses to address regulatory queries are of scientific interest and are therefore included as part of this report.",
+      "reasoning": "The document does not attribute prespecification to any individual analysis, only to \"most\" of them collectively. Calling this outcome prespecified overstates the text; \"unclear\" is correct."
+    },
+    {
+      "field": "outcomes[Incidence of ARIA-H (ARIA-microhemorrhage and ARIA–superficial siderosis), 10-mg/kg group].prespecified",
+      "verdict": "a",
+      "resolved_value": "unclear",
+      "applied": true,
+      "disposition": "applied",
+      "quote": "Most of the secondary analyses for this report were prespecified for the integrated summary of safety but were not included in the trial protocol. Some ad hoc analyses to address regulatory queries are of scientific interest and are therefore included as part of this report.",
+      "reasoning": "No statement in the document assigns prespecified status to the ARIA-H incidence analysis specifically; the only statement is the hedged \"most ... were prespecified\". \"Unclear\" is correct."
+    },
+    {
+      "field": "outcomes[Symptomatic ARIA-E among participants with ARIA-E in the 10-mg/kg group].prespecified",
+      "verdict": "b",
+      "resolved_value": "unclear",
+      "applied": true,
+      "disposition": "applied",
+      "quote": "Most of the secondary analyses for this report were prespecified for the integrated summary of safety but were not included in the trial protocol. Some ad hoc analyses to address regulatory queries are of scientific interest and are therefore included as part of this report.",
+      "reasoning": "The Main Outcomes and Measures section says only that symptoms \"were reported as adverse events\"; it does not designate the symptomatic-ARIA-E analysis as prespecified, and the Methods hedge (\"most\", plus unlabelled ad hoc analyses) leaves this indeterminate."
+    },
+    {
+      "field": "outcomes[Radiographic resolution of ARIA-E events in the 10-mg/kg group].prespecified",
+      "verdict": "b",
+      "resolved_value": "unclear",
+      "applied": true,
+      "disposition": "applied",
+      "quote": "Most of the secondary analyses for this report were prespecified for the integrated summary of safety but were not included in the trial protocol. Some ad hoc analyses to address regulatory queries are of scientific interest and are therefore included as part of this report.",
+      "reasoning": "Resolution of ARIA-E is reported (479 of 488 [98.2%] resolved; 404 of 488 [82.8%] within 16 weeks) but the document nowhere states that this analysis was prespecified. \"Unclear\" is correct."
+    },
+    {
+      "field": "outcomes[Hazard of ARIA-E associated with ApoE ε4 carrier status (proportional hazards model, 10-mg/kg group)].prespecified",
+      "verdict": "a",
+      "resolved_value": "unclear",
+      "applied": true,
+      "disposition": "applied",
+      "quote": "A proportional hazards model to assess potential ARIA risk factors was performed (eFigure 2 in ).",
+      "reasoning": "The proportional hazards model is introduced without any statement of prespecification, and the Methods say only that \"most\" secondary analyses were prespecified while \"some ad hoc analyses\" are also included. Prespecified status for this model cannot be determined from the document."
+    },
+    {
+      "field": "outcomes[Hazard of ARIA-E associated with ApoE ε4 carrier status (proportional hazards model, 10-mg/kg group)].tier",
+      "verdict": "a",
+      "resolved_value": "secondary",
+      "applied": true,
+      "disposition": "applied",
+      "quote": "This report includes secondary analyses of the trials. The primary analysis will be reported elsewhere.",
+      "reasoning": "The document characterises everything in this report as secondary analyses and never uses the term \"exploratory\"; \"secondary\" is the only tier label the text supports."
+    },
+    {
+      "field": "outcomes[Hazard of ARIA-E associated with baseline brain microhemorrhages (proportional hazards model, 10-mg/kg group)].prespecified",
+      "verdict": "a",
+      "resolved_value": "unclear",
+      "applied": true,
+      "disposition": "applied",
+      "quote": "A proportional hazards model to assess potential ARIA risk factors was performed (eFigure 2 in ).",
+      "reasoning": "As with the other risk-factor hazards, the document reports the result (HR 1.7; 95% CI, 1.31-2.27) without stating whether the analysis was prespecified; the Methods hedge leaves it indeterminate."
+    },
+    {
+      "field": "outcomes[Hazard of ARIA-E associated with baseline brain microhemorrhages (proportional hazards model, 10-mg/kg group)].tier",
+      "verdict": "b",
+      "resolved_value": "secondary",
+      "applied": true,
+      "disposition": "applied",
+      "quote": "This report includes secondary analyses of the trials. The primary analysis will be reported elsewhere.",
+      "reasoning": "The report is described in its entirety as secondary analyses; the document never applies the label \"exploratory\" to any analysis, so \"secondary\" is the supported tier."
+    },
+    {
+      "field": "outcomes[Hazard of isolated ARIA-H per additional year of baseline age (proportional hazards model, 10-mg/kg group)].prespecified",
+      "verdict": "a",
+      "resolved_value": "unclear",
+      "applied": true,
+      "disposition": "applied",
+      "quote": "The same is true of all of these factors for increased hazard of isolated ARIA-H with the exception of baseline age, where there is increased hazard for older participants (hazard ratio [95% CI], 1.06 [1.02-1.09] per additional year).",
+      "reasoning": "The age-related hazard for isolated ARIA-H is reported as part of the risk-factor model, with no statement anywhere that this analysis was prespecified; the Methods only say \"most\" secondary analyses were prespecified."
+    },
+    {
+      "field": "outcomes[Hazard of isolated ARIA-H per additional year of baseline age (proportional hazards model, 10-mg/kg group)].tier",
+      "verdict": "a",
+      "resolved_value": "secondary",
+      "applied": true,
+      "disposition": "applied",
+      "quote": "This report includes secondary analyses of the trials. The primary analysis will be reported elsewhere.",
+      "reasoning": "\"Secondary\" is the document's own description of the analyses contained in this report; \"exploratory\" appears nowhere in the text."
+    },
+    {
+      "field": "outcomes[Course of ARIA-E events that started radiographically mild and asymptomatic with continued dosing (10-mg/kg group)].prespecified",
+      "verdict": "b",
+      "resolved_value": "unclear",
+      "applied": true,
+      "disposition": "applied",
+      "quote": "Based on the study protocol, participants with radiographically mild and asymptomatic ARIA could continue dosing without interruptions (eFigure 1B in ).",
+      "reasoning": "The dosing rule was protocol-based, but that does not make the analysis of the subsequent course of these 161 events a prespecified outcome, and the document never says it was; \"unclear\" is correct."
+    },
+    {
+      "field": "outcomes[Course of ARIA-E events that started radiographically mild and asymptomatic with continued dosing (10-mg/kg group)].tier",
+      "verdict": "a",
+      "resolved_value": "secondary",
+      "applied": true,
+      "disposition": "applied",
+      "quote": "This report includes secondary analyses of the trials. The primary analysis will be reported elsewhere.",
+      "reasoning": "The document frames all analyses in this report as secondary and never uses the word \"exploratory\", so \"secondary\" is the only tier the text supports."
+    },
+    {
+      "field": "outcomes[primary].met",
+      "verdict": "neither",
+      "resolved_value": null,
+      "applied": false,
+      "disposition": "not applied — field path not present in the record",
+      "quote": "This report includes secondary analyses of the trials. The primary analysis will be reported elsewhere.",
+      "reasoning": "This publication is an ARIA-focused secondary safety analysis that explicitly defers the primary analysis to a separate report; its own Main Outcomes and Measures section states only \"Brain magnetic resonance imaging was used to monitor patients for ARIA; associated symptoms were reported as adverse events.\" There is no primary efficacy endpoint here and no statement that any primary endpoint was or was not met."
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "verdict": "neither",
+      "resolved_value": null,
+      "applied": false,
+      "disposition": "not applied — field path not present in the record",
+      "quote": "This report includes secondary analyses of the trials. The primary analysis will be reported elsewhere.",
+      "reasoning": "Because the document reports no primary outcome of its own, it prints no effect estimate for one. The only effect estimates in the text are hazard ratios from the ARIA risk-factor model (e.g. \"HR 1.7; 95% CI, 1.31-2.27\", \"HR 2.5; 95% CI, 1.90-3.20\"), which belong to the secondary ARIA analyses, not to a primary endpoint."
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "verdict": "neither",
+      "resolved_value": null,
+      "applied": false,
+      "disposition": "not applied — field path not present in the record",
+      "quote": "This report includes secondary analyses of the trials. The primary analysis will be reported elsewhere.",
+      "reasoning": "No primary outcome is reported in this document, so no confidence interval for one is printed. The confidence intervals that do appear (1.06 [1.02-1.09] per additional year; HR 1.7 [1.31-2.27]; HR 2.5 [1.90-3.20]) all attach to the proportional hazards ARIA risk-factor analyses."
+    }
+  ],
+  "unresolved": [],
+  "needs_manual_apply": [
+    {
+      "field": "safety.harms[ARIA-H].reported",
+      "verdict": "a",
+      "resolved_value": "reported",
+      "reason": "advisory only — harm entries are not rewritten from a presence ruling"
+    },
+    {
+      "field": "safety.harms[macrohemorrhage].reported",
+      "verdict": "a",
+      "resolved_value": "reported",
+      "reason": "advisory only — harm entries are not rewritten from a presence ruling"
+    },
+    {
+      "field": "outcomes[primary].met",
+      "verdict": "neither",
+      "resolved_value": null,
+      "reason": "not applied — field path not present in the record"
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "verdict": "neither",
+      "resolved_value": null,
+      "reason": "not applied — field path not present in the record"
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "verdict": "neither",
+      "resolved_value": null,
+      "reason": "not applied — field path not present in the record"
+    }
+  ],
+  "record": {
+    "document_kind": "journal_article",
+    "title": {
+      "value": "Amyloid-Related Imaging Abnormalities in 2 Phase 3 Studies Evaluating Aducanumab in Patients With Early Alzheimer Disease",
+      "quote": "Amyloid-Related Imaging Abnormalities in 2 Phase 3 Studies Evaluating Aducanumab in Patients With Early Alzheimer Disease",
+      "location": "Title (document heading, line 1)"
+    },
+    "authors": [
+      {
+        "name": "Stephen Salloway"
+      },
+      {
+        "name": "Spyros Chalkias"
+      },
+      {
+        "name": "Frederik Barkhof"
+      },
+      {
+        "name": "Patrick Burkett"
+      },
+      {
+        "name": "Jerome Barakos"
+      },
+      {
+        "name": "Derk Purcell"
+      },
+      {
+        "name": "Joyce Suhy"
+      },
+      {
+        "name": "Fiona Forrestal"
+      },
+      {
+        "name": "Ying Tian"
+      },
+      {
+        "name": "Kimberly Umans"
+      },
+      {
+        "name": "Guanfang Wang"
+      },
+      {
+        "name": "Priya Singhal"
+      },
+      {
+        "name": "Samantha Budd Haeberlein"
+      },
+      {
+        "name": "Karen Smirnakis"
+      }
+    ],
+    "study": {
+      "design": {
+        "value": "Secondary analysis (pooled/integrated safety data set) of 2 double-blind, placebo-controlled, parallel-group, phase 3 randomized clinical trials (EMERGE and ENGAGE)",
+        "quote": "Secondary analysis of data from the EMERGE and ENGAGE trials, which were 2 double-blind, placebo-controlled, parallel-group, phase 3 randomized clinical trials that compared low-dose and high-dose aducanumab treatment with placebo among participants at 348 sites across 20 countries.",
+        "location": "Abstract, Design, Setting, and Participants"
+      },
+      "phase": {
+        "value": "phase 3",
+        "quote": "Following the PRIME trial, 2 identically designed global phase 3 trials, EMERGE and ENGAGE, assessed the safety and efficacy of aducanumab in patients with early AD.",
+        "location": "Introduction, paragraph 2"
+      },
+      "n": {
+        "value": 3285,
+        "quote": "The combined studies consisted of a total of 3285 participants with Alzheimer disease who received 1 or more doses of placebo (n = 1087) or aducanumab (n = 2198; 2752 total person-years of exposure) during the placebo-controlled period.",
+        "location": "Abstract, Design, Setting, and Participants"
+      },
+      "n_description": {
+        "value": "The safety population: all participants who received at least 1 dose of study treatment (placebo or aducanumab) during the placebo-controlled period. ARIA analyses used the MRI safety population (n = 3253), those with at least 1 postbaseline MRI scan.",
+        "quote": "The safety population (n = 3285) consisted of all participants who received at least 1 dose of study treatment (placebo or aducanumab) during the placebo-controlled period. ARIA analyses were based on the MRI safety population (n = 3253)",
+        "location": "Methods, Statistical Analysis"
+      },
+      "population": {
+        "value": "Individuals aged 50 to 85 years meeting clinical criteria for mild cognitive impairment due to Alzheimer disease or mild dementia due to Alzheimer disease, with amyloid pathology confirmed by visual assessment of amyloid PET; patients on nonaspirin antiplatelet agents or anticoagulation were excluded, as were patients with more than 4 microhemorrhages or any area of siderosis at baseline",
+        "quote": "Trial participants were individuals aged 50 to 85 years who met clinical criteria for mild cognitive impairment due to AD or mild dementia due to AD, with amyloid pathology confirmed by visual assessment of amyloid positron emission tomography.",
+        "location": "Methods, paragraph 2"
+      },
+      "followup": {
+        "value": "Monthly intravenous doses over 76 weeks for a total of 20 doses (placebo-controlled period); postbaseline routine MRIs at weeks 14, 22, 30, 42, 54, 66, and 78",
+        "quote": "administered by monthly intravenous doses over 76 weeks for a total of 20 doses, and randomization was stratified by apolipoprotein E (ApoE) ε4 status (carrier or noncarrier)",
+        "location": "Methods, paragraph 3"
+      },
+      "intervention": {
+        "value": "Intravenous aducanumab, high dose or low dose, once every 4 weeks, with dose titration; high-dose target 10 mg/kg (titrated from 1 to 3 to 6 to 10 mg/kg over 24 weeks) from protocol version 4; low dose 3 mg/kg in ApoE ε4 carriers or 6 mg/kg in noncarriers",
+        "quote": "Participants were randomly assigned 1:1:1 to high-dose or low-dose intravenous aducanumab or placebo once every 4 weeks. Dose titration was used as a risk-minimization strategy.",
+        "location": "Abstract, Interventions"
+      },
+      "comparator": {
+        "value": "Placebo (n = 1087 in the safety population; n = 1076 in the MRI safety population)",
+        "quote": "The placebo-controlled period of the combined EMERGE and ENGAGE trials included 2198 aducanumab-treated participants (2752 total person-years of exposure) and 1087 participants receiving placebo.",
+        "location": "Results, paragraph 1"
+      },
+      "biomarker_confirmation": {
+        "value": "Amyloid pathology confirmed by visual assessment of amyloid positron emission tomography",
+        "quote": "with amyloid pathology confirmed by visual assessment of amyloid positron emission tomography. See the eMethods in for the inclusion and exclusion criteria.",
+        "location": "Methods, paragraph 2"
+      },
+      "nct_ids": [
+        "NCT02484547",
+        "NCT02477800"
+      ],
+      "cohorts": [
+        "EMERGE",
+        "ENGAGE"
+      ]
+    },
+    "outcomes": [
+      {
+        "name": "Incidence of ARIA (ARIA-E or ARIA-H) during the placebo-controlled period, 10-mg/kg group",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": "Most of the secondary analyses for this report were prespecified for the integrated summary of safety but were not included in the trial protocol.",
+        "met": "not_applicable",
+        "effect_estimate": "425 of 1029 patients (41.3%) in the 10-mg/kg group; 111 of 1076 (10.3%) placebo",
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "During the placebo-controlled period, 425 of 1029 patients (41.3%) experienced ARIA, with serious cases occurring in 14 patients (1.4%).",
+        "location": "Abstract, Results / Results paragraph 2 and Table 1"
+      },
+      {
+        "name": "Incidence of ARIA-edema (ARIA-E)",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": "Most of the secondary analyses for this report were prespecified for the integrated summary of safety but were not included in the trial protocol.",
+        "met": "not_applicable",
+        "effect_estimate": "362 of 1029 (35.2%) in the 10-mg/kg group vs 83 of 392 (21.2%) at 6 mg/kg, 223 of 756 (29.5%) at 3 mg/kg, and 29 of 1076 (2.7%) placebo",
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "The incidence of ARIA-E was highest in the aducanumab 10-mg/kg group (362 of 1029 [35.2%]) compared with the 6-mg/kg group (83 of 392 [21.2%]), 3-mg/kg group (223 of 756 [29.5%]), and placebo group (29 of 1076 [2.7%])",
+        "location": "Results, paragraph 2"
+      },
+      {
+        "name": "Incidence of ARIA-H (ARIA-microhemorrhage and ARIA–superficial siderosis), 10-mg/kg group",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": "Most of the secondary analyses for this report were prespecified for the integrated summary of safety but were not included in the trial protocol.",
+        "met": "not_applicable",
+        "effect_estimate": "ARIA-microhemorrhage 197 of 1029 (19.1%); ARIA–superficial siderosis 151 of 1029 (14.7%)",
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "ARIA-microhemorrhage and ARIA–superficial siderosis occurred in 197 participants (19.1%) and 151 participants (14.7%), respectively.",
+        "location": "Abstract, Results (final sentence)"
+      },
+      {
+        "name": "Symptomatic ARIA-E among participants with ARIA-E in the 10-mg/kg group",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": "Most of the secondary analyses for this report were prespecified for the integrated summary of safety but were not included in the trial protocol.",
+        "met": "not_applicable",
+        "effect_estimate": "94 of 362 (26.0%) symptomatic",
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "Of the 362 participants with ARIA-E in the 10-mg/kg group, 94 (26.0%) were symptomatic (); most participants who reported ARIA-E did not have symptoms during the episode.",
+        "location": "Results, symptomatic ARIA paragraph"
+      },
+      {
+        "name": "Radiographic resolution of ARIA-E events in the 10-mg/kg group",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": "Most of the secondary analyses for this report were prespecified for the integrated summary of safety but were not included in the trial protocol.",
+        "met": "not_applicable",
+        "effect_estimate": "479 of 488 events (98.2%) resolved; 336 (68.9%) within 12 weeks; 404 (82.8%) within 16 weeks",
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "Of all ARIA-E events in the 10-mg/kg group, 479 (98.2%) were observed to have resolved (ie, no residual brain edema) during the study; specifically, 336 (68.9%) resolved within 12 weeks and 404 (82.8%) resolved within 16 weeks.",
+        "location": "Results, radiographic severity paragraph"
+      },
+      {
+        "name": "Hazard of ARIA-E associated with ApoE ε4 carrier status (proportional hazards model, 10-mg/kg group)",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "not_applicable",
+        "effect_estimate": "HR 2.5 for ApoE ε4 carriers vs noncarriers",
+        "confidence_interval": "95% CI, 1.90-3.20",
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "ApoE ε4 carriers were more likely to be at risk than noncarriers (HR 2.5; 95% CI, 1.90-3.20); ApoE ε4 carriers and participants with baseline microhemorrhages were not at an increased risk of isolated ARIA-H.",
+        "location": "Results, proportional hazards model paragraph"
+      },
+      {
+        "name": "Hazard of ARIA-E associated with baseline brain microhemorrhages (proportional hazards model, 10-mg/kg group)",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "not_applicable",
+        "effect_estimate": "HR 1.7 for participants with baseline brain microhemorrhages",
+        "confidence_interval": "95% CI, 1.31-2.27",
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "In the 10-mg/kg group, participants with baseline brain microhemorrhages were more likely to be at risk of an ARIA-E event than participants without baseline microhemorrhages (HR 1.7; 95% CI, 1.31-2.27)",
+        "location": "Results, proportional hazards model paragraph"
+      },
+      {
+        "name": "Hazard of isolated ARIA-H per additional year of baseline age (proportional hazards model, 10-mg/kg group)",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "not_applicable",
+        "effect_estimate": "hazard ratio 1.06 per additional year of baseline age",
+        "confidence_interval": "95% CI, 1.02-1.09",
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "with the exception of baseline age, where there is increased hazard for older participants (hazard ratio [95% CI], 1.06 [1.02-1.09] per additional year)",
+        "location": "Results, proportional hazards model paragraph"
+      },
+      {
+        "name": "Course of ARIA-E events that started radiographically mild and asymptomatic with continued dosing (10-mg/kg group)",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": "Some ad hoc analyses to address regulatory queries are of scientific interest and are therefore included as part of this report.",
+        "met": "not_applicable",
+        "effect_estimate": "93 of 161 events (57.8%) remained radiographically mild and asymptomatic; 64 (39.8%) became moderate; 1 (0.6%) became severe; 11 of 161 (6.8%) became symptomatic",
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "Most of these ARIA-E events (93 of 161 [57.8%]) remained radiographically mild and asymptomatic (eTable 6 in ). The radiographic severity of ARIA-E changed to moderate or severe in 64 events (39.8%) and 1 event (0.6%), respectively",
+        "location": "Results, final paragraph"
+      }
+    ],
+    "primary_endpoint_status": {
+      "status": "not_applicable",
+      "explanation": "This document is a secondary safety analysis whose main outcome measure was MRI monitoring for ARIA with associated symptoms reported as adverse events; it explicitly states that the primary analysis of the trials will be reported elsewhere, so it reports no primary efficacy endpoint of its own.",
+      "quote": "This report includes secondary analyses of the trials. The primary analysis will be reported elsewhere. Most of the secondary analyses for this report were prespecified for the integrated summary of safety but were not included in the trial protocol."
+    },
+    "multiplicity": {
+      "approach": "none stated",
+      "quote": null,
+      "location": null
+    },
+    "safety": {
+      "harms": [
+        {
+          "name": "Any ARIA (ARIA-E or ARIA-H)",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "425",
+          "denominator": "1029",
+          "percentage": "41.3%",
+          "apoe_stratum": null,
+          "quote": "During the placebo-controlled period, 425 of 1029 patients (41.3%) experienced ARIA, with serious cases occurring in 14 patients (1.4%).",
+          "location": "Results, paragraph 2 (also Abstract, Results)"
+        },
+        {
+          "name": "Any ARIA (ARIA-E or ARIA-H)",
+          "arm": "placebo",
+          "count": "111",
+          "denominator": "1076",
+          "percentage": "10.3",
+          "apoe_stratum": null,
+          "quote": "| Any ARIA (ARIA-E or ARIA-H) | 111 (10.3) | 274 (36.2) | 104 (26.5) | 425 (41.3) |",
+          "location": "Table 1, Any ARIA row"
+        },
+        {
+          "name": "Any ARIA (ARIA-E or ARIA-H)",
+          "arm": "aducanumab 3 mg/kg",
+          "count": "274",
+          "denominator": "756",
+          "percentage": "36.2",
+          "apoe_stratum": null,
+          "quote": "| Any ARIA (ARIA-E or ARIA-H) | 111 (10.3) | 274 (36.2) | 104 (26.5) | 425 (41.3) |",
+          "location": "Table 1, Any ARIA row"
+        },
+        {
+          "name": "Any ARIA (ARIA-E or ARIA-H)",
+          "arm": "aducanumab 6 mg/kg",
+          "count": "104",
+          "denominator": "392",
+          "percentage": "26.5",
+          "apoe_stratum": null,
+          "quote": "| Any ARIA (ARIA-E or ARIA-H) | 111 (10.3) | 274 (36.2) | 104 (26.5) | 425 (41.3) |",
+          "location": "Table 1, Any ARIA row"
+        },
+        {
+          "name": "ARIA-E",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "362",
+          "denominator": "1029",
+          "percentage": "35.2%",
+          "apoe_stratum": null,
+          "quote": "The incidence of ARIA-E was highest in the aducanumab 10-mg/kg group (362 of 1029 [35.2%]) compared with the 6-mg/kg group (83 of 392 [21.2%]), 3-mg/kg group (223 of 756 [29.5%]), and placebo group (29 of 1076 [2.7%])",
+          "location": "Results, paragraph 2"
+        },
+        {
+          "name": "ARIA-E",
+          "arm": "aducanumab 6 mg/kg",
+          "count": "83",
+          "denominator": "392",
+          "percentage": "21.2%",
+          "apoe_stratum": null,
+          "quote": "The incidence of ARIA-E was highest in the aducanumab 10-mg/kg group (362 of 1029 [35.2%]) compared with the 6-mg/kg group (83 of 392 [21.2%]), 3-mg/kg group (223 of 756 [29.5%]), and placebo group (29 of 1076 [2.7%])",
+          "location": "Results, paragraph 2"
+        },
+        {
+          "name": "ARIA-E",
+          "arm": "aducanumab 3 mg/kg",
+          "count": "223",
+          "denominator": "756",
+          "percentage": "29.5%",
+          "apoe_stratum": null,
+          "quote": "compared with the 6-mg/kg group (83 of 392 [21.2%]), 3-mg/kg group (223 of 756 [29.5%]), and placebo group (29 of 1076 [2.7%])",
+          "location": "Results, paragraph 2"
+        },
+        {
+          "name": "ARIA-E",
+          "arm": "placebo",
+          "count": "29",
+          "denominator": "1076",
+          "percentage": "2.7%",
+          "apoe_stratum": null,
+          "quote": "In the placebo group, 29 of 1076 participants (2.7%) had ARIA-E (ApoE ε4 carriers, 16 of 742 [2.2%]; noncarriers, 13 of 334 [3.9%]).",
+          "location": "Results, paragraph 2"
+        },
+        {
+          "name": "ARIA-E",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "290",
+          "denominator": "674",
+          "percentage": "43.0%",
+          "apoe_stratum": "ApoE ε4 carriers",
+          "quote": "the incidence of ARIA-E was highest in ApoE ε4 carriers (290 of 674 [43.0%]) vs noncarriers (72 of 355 [20.3%]) in the 10-mg/kg group",
+          "location": "Results, paragraph 2"
+        },
+        {
+          "name": "ARIA-E",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "72",
+          "denominator": "355",
+          "percentage": "20.3%",
+          "apoe_stratum": "ApoE ε4 noncarriers",
+          "quote": "the incidence of ARIA-E was highest in ApoE ε4 carriers (290 of 674 [43.0%]) vs noncarriers (72 of 355 [20.3%]) in the 10-mg/kg group",
+          "location": "Results, paragraph 2"
+        },
+        {
+          "name": "ARIA-E",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "105",
+          "denominator": "159",
+          "percentage": "66.0%",
+          "apoe_stratum": "ApoE ε4 homozygous carriers",
+          "quote": "Among ApoE ε4 carriers in the 10-mg/kg group, the incidence of ARIA-E was 66.0% in homozygous carriers (105 of 159) and 35.9% in heterozygous carriers (185 of 515).",
+          "location": "Results, paragraph 2"
+        },
+        {
+          "name": "ARIA-E",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "185",
+          "denominator": "515",
+          "percentage": "35.9%",
+          "apoe_stratum": "ApoE ε4 heterozygous carriers",
+          "quote": "Among ApoE ε4 carriers in the 10-mg/kg group, the incidence of ARIA-E was 66.0% in homozygous carriers (105 of 159) and 35.9% in heterozygous carriers (185 of 515).",
+          "location": "Results, paragraph 2"
+        },
+        {
+          "name": "ARIA-E",
+          "arm": "placebo",
+          "count": "16",
+          "denominator": "742",
+          "percentage": "2.2%",
+          "apoe_stratum": "ApoE ε4 carriers",
+          "quote": "In the placebo group, 29 of 1076 participants (2.7%) had ARIA-E (ApoE ε4 carriers, 16 of 742 [2.2%]; noncarriers, 13 of 334 [3.9%]).",
+          "location": "Results, paragraph 2 (also Table 1)"
+        },
+        {
+          "name": "ARIA-E",
+          "arm": "placebo",
+          "count": "13",
+          "denominator": "334",
+          "percentage": "3.9%",
+          "apoe_stratum": "ApoE ε4 noncarriers",
+          "quote": "In the placebo group, 29 of 1076 participants (2.7%) had ARIA-E (ApoE ε4 carriers, 16 of 742 [2.2%]; noncarriers, 13 of 334 [3.9%]).",
+          "location": "Results, paragraph 2 (also Table 1)"
+        },
+        {
+          "name": "ARIA-E",
+          "arm": "aducanumab 3 mg/kg",
+          "count": "223",
+          "denominator": "756",
+          "percentage": "29.5",
+          "apoe_stratum": "ApoE ε4 carriers (the 3-mg/kg group consisted entirely of ApoE ε4 carriers)",
+          "quote": "| ApoE ε4 carriers, No./total No. (%) | 16/742 (2.2) | 223/756 (29.5) | 25/66 (37.9) | 290/674 (43.0) |",
+          "location": "Table 1, ARIA-E ApoE ε4 carriers row"
+        },
+        {
+          "name": "ARIA-E",
+          "arm": "aducanumab 6 mg/kg",
+          "count": "25",
+          "denominator": "66",
+          "percentage": "37.9",
+          "apoe_stratum": "ApoE ε4 carriers",
+          "quote": "| ApoE ε4 carriers, No./total No. (%) | 16/742 (2.2) | 223/756 (29.5) | 25/66 (37.9) | 290/674 (43.0) |",
+          "location": "Table 1, ARIA-E ApoE ε4 carriers row"
+        },
+        {
+          "name": "ARIA-E",
+          "arm": "aducanumab 6 mg/kg",
+          "count": "58",
+          "denominator": "326",
+          "percentage": "17.8",
+          "apoe_stratum": "ApoE ε4 noncarriers",
+          "quote": "| ApoE ε4 noncarriers, No./total No. (%) | 13/334 (3.9) | NA | 58/326 (17.8) | 72/355 (20.3) |",
+          "location": "Table 1, ARIA-E ApoE ε4 noncarriers row"
+        },
+        {
+          "name": "Recurrent ARIA-E",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "109",
+          "denominator": "1029",
+          "percentage": "10.6%",
+          "apoe_stratum": null,
+          "quote": "In the 10-mg/kg group, 109 of 1029 participants (10.6%) had 1 or more ARIA-E events (109 of 362 [30.1%] among those with ARIA-E).",
+          "location": "Results, paragraph 2 (also Table 1, Recurrent ARIA-E row)"
+        },
+        {
+          "name": "Recurrent ARIA-E",
+          "arm": "placebo; aducanumab 3 mg/kg; aducanumab 6 mg/kg",
+          "count": "placebo 0; 3 mg/kg 66; 6 mg/kg 14",
+          "denominator": "placebo 1076; 3 mg/kg 756; 6 mg/kg 392",
+          "percentage": "placebo 0; 3 mg/kg 8.7; 6 mg/kg 3.6",
+          "apoe_stratum": null,
+          "quote": "| Recurrent ARIA-E | 0 | 66 (8.7) | 14 (3.6) | 109 (10.6) |",
+          "location": "Table 1, Recurrent ARIA-E row"
+        },
+        {
+          "name": "ARIA-H microhemorrhage",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "197",
+          "denominator": "1029",
+          "percentage": "19.1%",
+          "apoe_stratum": null,
+          "quote": "ARIA-microhemorrhage and ARIA–superficial siderosis occurred in 197 participants (19.1%) and 151 participants (14.7%), respectively.",
+          "location": "Abstract, Results (final sentence); also Table 1"
+        },
+        {
+          "name": "ARIA-H microhemorrhage",
+          "arm": "placebo",
+          "count": "71",
+          "denominator": "1076",
+          "percentage": "6.6%",
+          "apoe_stratum": null,
+          "quote": "Brain microhemorrhages were the most common type of ARIA-H (placebo group: 71 [6.6%]; 10-mg/kg group: 197 [19.1%]), followed by localized superficial siderosis (placebo group: 24 [2.2%]; 10-mg/kg group: 151 [14.7%]) ().",
+          "location": "Results, ARIA-H paragraph"
+        },
+        {
+          "name": "ARIA-H microhemorrhage",
+          "arm": "aducanumab 3 mg/kg; aducanumab 6 mg/kg",
+          "count": "3 mg/kg 141; 6 mg/kg 50",
+          "denominator": "3 mg/kg 756; 6 mg/kg 392",
+          "percentage": "3 mg/kg 18.7; 6 mg/kg 12.8",
+          "apoe_stratum": null,
+          "quote": "| Microhemorrhage | 71 (6.6) | 141 (18.7) | 50 (12.8) | 197 (19.1) |",
+          "location": "Table 1, ARIA-H Microhemorrhage row"
+        },
+        {
+          "name": "ARIA-H microhemorrhage",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "153",
+          "denominator": "674",
+          "percentage": "22.7",
+          "apoe_stratum": "ApoE ε4 carriers",
+          "quote": "| ApoE ε4 carriers, No./total No. (%) | 57/742 (7.7) | 141/756 (18.7) | 15/66 (22.7) | 153/674 (22.7) |",
+          "location": "Table 1, Microhemorrhage ApoE ε4 carriers row"
+        },
+        {
+          "name": "ARIA-H microhemorrhage",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "44",
+          "denominator": "355",
+          "percentage": "12.4",
+          "apoe_stratum": "ApoE ε4 noncarriers",
+          "quote": "| ApoE ε4 noncarriers, No./total No. (%) | 14/334 (4.2) | NA | 35/326 (10.7) | 44/355 (12.4) |",
+          "location": "Table 1, Microhemorrhage ApoE ε4 noncarriers row"
+        },
+        {
+          "name": "ARIA-H microhemorrhage",
+          "arm": "placebo",
+          "count": "57",
+          "denominator": "742",
+          "percentage": "7.7",
+          "apoe_stratum": "ApoE ε4 carriers",
+          "quote": "| ApoE ε4 carriers, No./total No. (%) | 57/742 (7.7) | 141/756 (18.7) | 15/66 (22.7) | 153/674 (22.7) |",
+          "location": "Table 1, Microhemorrhage ApoE ε4 carriers row"
+        },
+        {
+          "name": "ARIA-H microhemorrhage",
+          "arm": "placebo",
+          "count": "14",
+          "denominator": "334",
+          "percentage": "4.2",
+          "apoe_stratum": "ApoE ε4 noncarriers",
+          "quote": "| ApoE ε4 noncarriers, No./total No. (%) | 14/334 (4.2) | NA | 35/326 (10.7) | 44/355 (12.4) |",
+          "location": "Table 1, Microhemorrhage ApoE ε4 noncarriers row"
+        },
+        {
+          "name": "ARIA-H microhemorrhage",
+          "arm": "aducanumab 6 mg/kg",
+          "count": "carriers 15; noncarriers 35",
+          "denominator": "carriers 66; noncarriers 326",
+          "percentage": "carriers 22.7; noncarriers 10.7",
+          "apoe_stratum": "ApoE ε4 carriers and noncarriers",
+          "quote": "| ApoE ε4 carriers, No./total No. (%) | 57/742 (7.7) | 141/756 (18.7) | 15/66 (22.7) | 153/674 (22.7) |",
+          "location": "Table 1, Microhemorrhage ApoE ε4 rows"
+        },
+        {
+          "name": "ARIA–superficial siderosis",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "151",
+          "denominator": "1029",
+          "percentage": "14.7%",
+          "apoe_stratum": null,
+          "quote": "ARIA-microhemorrhage and ARIA–superficial siderosis occurred in 197 participants (19.1%) and 151 participants (14.7%), respectively.",
+          "location": "Abstract, Results (final sentence); also Table 1"
+        },
+        {
+          "name": "ARIA–superficial siderosis",
+          "arm": "placebo",
+          "count": "24",
+          "denominator": "1076",
+          "percentage": "2.2%",
+          "apoe_stratum": null,
+          "quote": "followed by localized superficial siderosis (placebo group: 24 [2.2%]; 10-mg/kg group: 151 [14.7%]) (). Larger brain hemorrhages measuring more than 1 cm in diameter were rare",
+          "location": "Results, ARIA-H paragraph"
+        },
+        {
+          "name": "ARIA–superficial siderosis",
+          "arm": "aducanumab 3 mg/kg; aducanumab 6 mg/kg",
+          "count": "3 mg/kg 91; 6 mg/kg 23",
+          "denominator": "3 mg/kg 756; 6 mg/kg 392",
+          "percentage": "3 mg/kg 12.0; 6 mg/kg 5.9",
+          "apoe_stratum": null,
+          "quote": "| Superficial siderosis | 24 (2.2) | 91 (12.0) | 23 (5.9) | 151 (14.7) |",
+          "location": "Table 1, Superficial siderosis row"
+        },
+        {
+          "name": "ARIA–superficial siderosis",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "129",
+          "denominator": "674",
+          "percentage": "19.1",
+          "apoe_stratum": "ApoE ε4 carriers",
+          "quote": "| ApoE ε4 carriers, No./total No. (%) | 14/742 (1.9) | 91/756 (12.0) | 11/66 (16.7) | 129/674 (19.1) |",
+          "location": "Table 1, Superficial siderosis ApoE ε4 carriers row"
+        },
+        {
+          "name": "ARIA–superficial siderosis",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "22",
+          "denominator": "355",
+          "percentage": "6.2",
+          "apoe_stratum": "ApoE ε4 noncarriers",
+          "quote": "| ApoE ε4 noncarriers, No./total No. (%) | 10/334 (3.0) | NA | 12/326 (3.7) | 22/355 (6.2) |",
+          "location": "Table 1, Superficial siderosis ApoE ε4 noncarriers row"
+        },
+        {
+          "name": "ARIA–superficial siderosis",
+          "arm": "placebo",
+          "count": "carriers 14; noncarriers 10",
+          "denominator": "carriers 742; noncarriers 334",
+          "percentage": "carriers 1.9; noncarriers 3.0",
+          "apoe_stratum": "ApoE ε4 carriers and noncarriers",
+          "quote": "| ApoE ε4 carriers, No./total No. (%) | 14/742 (1.9) | 91/756 (12.0) | 11/66 (16.7) | 129/674 (19.1) |",
+          "location": "Table 1, Superficial siderosis ApoE ε4 carriers row"
+        },
+        {
+          "name": "Macrohemorrhage (brain hemorrhage >1 cm)",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "3",
+          "denominator": "1029",
+          "percentage": "0.3%",
+          "apoe_stratum": null,
+          "quote": "Larger brain hemorrhages measuring more than 1 cm in diameter were rare and balanced between placebo and aducanumab groups (placebo group: 4 [0.4%]; 10-mg/kg group: 3 [0.3%]).",
+          "location": "Results, ARIA-H paragraph"
+        },
+        {
+          "name": "Macrohemorrhage (brain hemorrhage >1 cm)",
+          "arm": "placebo",
+          "count": "4",
+          "denominator": "1076",
+          "percentage": "0.4%",
+          "apoe_stratum": null,
+          "quote": "Larger brain hemorrhages measuring more than 1 cm in diameter were rare and balanced between placebo and aducanumab groups (placebo group: 4 [0.4%]; 10-mg/kg group: 3 [0.3%]).",
+          "location": "Results, ARIA-H paragraph"
+        },
+        {
+          "name": "Macrohemorrhage (brain hemorrhage >1 cm)",
+          "arm": "aducanumab 3 mg/kg; aducanumab 6 mg/kg",
+          "count": "3 mg/kg 1; 6 mg/kg 3",
+          "denominator": "3 mg/kg 756; 6 mg/kg 392",
+          "percentage": "3 mg/kg 0.1; 6 mg/kg 0.8",
+          "apoe_stratum": null,
+          "quote": "| Hemorrhage >1 cm | 4 (0.4) | 1 (0.1) | 3 (0.8) | 3 (0.3) |",
+          "location": "Table 1, Hemorrhage >1 cm row"
+        },
+        {
+          "name": "Macrohemorrhage (brain hemorrhage >1 cm)",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "1",
+          "denominator": "674",
+          "percentage": "0.1",
+          "apoe_stratum": "ApoE ε4 carriers",
+          "quote": "| ApoE ε4 carriers, No./total No. (%) | 1/742 (0.1) | 1/756 (0.1) | 3/66 (4.5) | 1/674 (0.1) |",
+          "location": "Table 1, Hemorrhage >1 cm ApoE ε4 carriers row"
+        },
+        {
+          "name": "Macrohemorrhage (brain hemorrhage >1 cm)",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "2",
+          "denominator": "355",
+          "percentage": "0.6",
+          "apoe_stratum": "ApoE ε4 noncarriers",
+          "quote": "| ApoE ε4 noncarriers, No./total No. (%) | 3/334 (0.9) | NA | 0/326 (0.0) | 2/355 (0.6) |",
+          "location": "Table 1, Hemorrhage >1 cm ApoE ε4 noncarriers row"
+        },
+        {
+          "name": "Macrohemorrhage (brain hemorrhage >1 cm)",
+          "arm": "placebo",
+          "count": "carriers 1; noncarriers 3",
+          "denominator": "carriers 742; noncarriers 334",
+          "percentage": "carriers 0.1; noncarriers 0.9",
+          "apoe_stratum": "ApoE ε4 carriers and noncarriers",
+          "quote": "| ApoE ε4 noncarriers, No./total No. (%) | 3/334 (0.9) | NA | 0/326 (0.0) | 2/355 (0.6) |",
+          "location": "Table 1, Hemorrhage >1 cm ApoE ε4 noncarriers row"
+        },
+        {
+          "name": "Brain microhemorrhage in participants with ARIA-E",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "146",
+          "denominator": "362",
+          "percentage": "40.3%",
+          "apoe_stratum": null,
+          "quote": "in the 362 participants with ARIA-E, the incidence of brain microhemorrhages and localized superficial siderosis was 40.3% (146) and 38.7% (140), respectively, in the 10-mg/kg group",
+          "location": "Results, ARIA-H stratified by ARIA-E status paragraph"
+        },
+        {
+          "name": "Localized superficial siderosis in participants with ARIA-E",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "140",
+          "denominator": "362",
+          "percentage": "38.7%",
+          "apoe_stratum": null,
+          "quote": "in the 362 participants with ARIA-E, the incidence of brain microhemorrhages and localized superficial siderosis was 40.3% (146) and 38.7% (140), respectively, in the 10-mg/kg group",
+          "location": "Results, ARIA-H stratified by ARIA-E status paragraph"
+        },
+        {
+          "name": "Brain microhemorrhage and localized superficial siderosis in participants without ARIA-E",
+          "arm": "aducanumab 10 mg/kg vs placebo",
+          "count": "10 mg/kg: microhemorrhage 51, siderosis 11; placebo: microhemorrhage 67, siderosis 15",
+          "denominator": "10 mg/kg 667; placebo 1047",
+          "percentage": "10 mg/kg: 7.6% and 1.6%; placebo: 6.4% and 1.4%",
+          "apoe_stratum": null,
+          "quote": "In participants without ARIA-E, the incidence of brain microhemorrhage and localized superficial siderosis was lower and similar between the aducanumab (10-mg/kg group: brain microhemorrhage, 51 of 667 [7.6%]; localized superficial siderosis, 11 of 667 [1.6%])",
+          "location": "Results, ARIA-H stratified by ARIA-E status paragraph"
+        },
+        {
+          "name": "Brain microhemorrhage in participants without ARIA-E",
+          "arm": "placebo",
+          "count": "67",
+          "denominator": "1047",
+          "percentage": "6.4%",
+          "apoe_stratum": null,
+          "quote": "and placebo groups (brain microhemorrhage, 67 of 1047 [6.4%]; localized superficial siderosis, 15 of 1047 [1.4%]).",
+          "location": "Results, ARIA-H stratified by ARIA-E status paragraph"
+        },
+        {
+          "name": "Symptomatic ARIA-E",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "94",
+          "denominator": "362 participants with ARIA-E",
+          "percentage": "26.0%",
+          "apoe_stratum": null,
+          "quote": "Of the 362 participants with ARIA-E in the 10-mg/kg group, 94 (26.0%) were symptomatic (); most participants who reported ARIA-E did not have symptoms during the episode.",
+          "location": "Results, symptomatic ARIA paragraph (also Table 3)"
+        },
+        {
+          "name": "Symptomatic ARIA-E",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "77",
+          "denominator": "290",
+          "percentage": "26.6%",
+          "apoe_stratum": "ApoE ε4 carriers",
+          "quote": "The proportion exhibiting symptoms was similar between ApoE ε4 carriers and noncarriers (77 of 290 carriers [26.6%] vs 17 of 72 noncarriers [23.6%]; eTable 4 in ).",
+          "location": "Results, symptomatic ARIA paragraph"
+        },
+        {
+          "name": "Symptomatic ARIA-E",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "17",
+          "denominator": "72",
+          "percentage": "23.6%",
+          "apoe_stratum": "ApoE ε4 noncarriers",
+          "quote": "The proportion exhibiting symptoms was similar between ApoE ε4 carriers and noncarriers (77 of 290 carriers [26.6%] vs 17 of 72 noncarriers [23.6%]; eTable 4 in ).",
+          "location": "Results, symptomatic ARIA paragraph"
+        },
+        {
+          "name": "Symptomatic ARIA-E",
+          "arm": "placebo; aducanumab 3 mg/kg; aducanumab 6 mg/kg",
+          "count": "placebo 3; 3 mg/kg 51; 6 mg/kg 17",
+          "denominator": "placebo 29; 3 mg/kg 223; 6 mg/kg 83 (patients with ARIA-E)",
+          "percentage": "placebo 10.3; 3 mg/kg 22.9; 6 mg/kg 20.5",
+          "apoe_stratum": null,
+          "quote": "| Symptomatic | 3 (10.3) | 51 (22.9) | 17 (20.5) | 94 (26.0) |",
+          "location": "Table 3, Patients with ARIA-E — Symptomatic row"
+        },
+        {
+          "name": "Symptomatic ARIA (any ARIA)",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "103",
+          "denominator": "425 patients with any ARIA",
+          "percentage": "24.2",
+          "apoe_stratum": null,
+          "quote": "| Symptomatic | 5 (4.5) | 56 (20.4) | 17 (16.3) | 103 (24.2) |",
+          "location": "Table 3, Patients with any ARIA — Symptomatic row"
+        },
+        {
+          "name": "Symptomatic ARIA (any ARIA)",
+          "arm": "placebo",
+          "count": "5",
+          "denominator": "111 patients with any ARIA",
+          "percentage": "4.5",
+          "apoe_stratum": null,
+          "quote": "| Symptomatic | 5 (4.5) | 56 (20.4) | 17 (16.3) | 103 (24.2) |",
+          "location": "Table 3, Patients with any ARIA — Symptomatic row"
+        },
+        {
+          "name": "Asymptomatic ARIA-E",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "268",
+          "denominator": "362",
+          "percentage": "74.0",
+          "apoe_stratum": null,
+          "quote": "| Asymptomatic | 26 (89.7) | 172 (77.1) | 66 (79.5) | 268 (74.0) |",
+          "location": "Table 3, Patients with ARIA-E — Asymptomatic row"
+        },
+        {
+          "name": "Maximal clinical severity of symptoms during ARIA (mild)",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "67",
+          "denominator": "99 participants with symptoms during ARIA",
+          "percentage": "67.7%",
+          "apoe_stratum": null,
+          "quote": "For the 99 participants with symptoms during ARIA (either ARIA-E or ARIA-H) in the 10-mg/kg group, the maximal clinical severity of the symptoms, as reported by investigators, was mild for 67 (67.7%)",
+          "location": "Results, symptomatic ARIA paragraph (also Table 3)"
+        },
+        {
+          "name": "Maximal clinical severity of symptoms during ARIA (moderate and severe)",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "moderate 28; severe 4",
+          "denominator": "99 participants with symptoms during ARIA",
+          "percentage": "moderate 28.3%; severe 4.0%",
+          "apoe_stratum": null,
+          "quote": "the maximal clinical severity of the symptoms, as reported by investigators, was mild for 67 (67.7%), moderate for 28 (28.3%), and severe for 4 (4.0%)",
+          "location": "Results, symptomatic ARIA paragraph (also Table 3)"
+        },
+        {
+          "name": "Serious ARIA",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "14",
+          "denominator": "1029",
+          "percentage": "1.4%",
+          "apoe_stratum": null,
+          "quote": "Serious ARIA events (including those resulting in hospitalization) were uncommon in the 10-mg/kg group (14 of 1029 total participants [1.4%]; 7 of 674 ApoE ε4 carriers [1.0%]; and 7 of 355 noncarriers [2.0%]; eTable 3 in ).",
+          "location": "Results, radiographic severity paragraph"
+        },
+        {
+          "name": "Serious ARIA",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "7",
+          "denominator": "674",
+          "percentage": "1.0%",
+          "apoe_stratum": "ApoE ε4 carriers",
+          "quote": "Serious ARIA events (including those resulting in hospitalization) were uncommon in the 10-mg/kg group (14 of 1029 total participants [1.4%]; 7 of 674 ApoE ε4 carriers [1.0%]; and 7 of 355 noncarriers [2.0%]; eTable 3 in ).",
+          "location": "Results, radiographic severity paragraph"
+        },
+        {
+          "name": "Serious ARIA",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "7",
+          "denominator": "355",
+          "percentage": "2.0%",
+          "apoe_stratum": "ApoE ε4 noncarriers",
+          "quote": "Serious ARIA events (including those resulting in hospitalization) were uncommon in the 10-mg/kg group (14 of 1029 total participants [1.4%]; 7 of 674 ApoE ε4 carriers [1.0%]; and 7 of 355 noncarriers [2.0%]; eTable 3 in ).",
+          "location": "Results, radiographic severity paragraph"
+        },
+        {
+          "name": "Serious ARIA",
+          "arm": "placebo; aducanumab 3 mg/kg; aducanumab 6 mg/kg",
+          "count": "placebo 2; 3 mg/kg 6; 6 mg/kg 3",
+          "denominator": "placebo 1076; 3 mg/kg 756; 6 mg/kg 392",
+          "percentage": "placebo 0.2; 3 mg/kg 0.8; 6 mg/kg 0.8",
+          "apoe_stratum": null,
+          "quote": "| Serious ARIA | 2 (0.2) | 6 (0.8) | 3 (0.8) | 14 (1.4) |",
+          "location": "Table 2, Serious ARIA row"
+        },
+        {
+          "name": "Serious ARIA symptoms",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "3",
+          "denominator": "1029",
+          "percentage": "0.3%",
+          "apoe_stratum": null,
+          "quote": "Serious ARIA symptoms occurred in 3 of 1029 participants (0.3%) in the 10-mg/kg aducanumab group ().",
+          "location": "Results, symptomatic ARIA paragraph (also Table 3)"
+        },
+        {
+          "name": "Death due to ARIA",
+          "arm": "all groups (EMERGE and ENGAGE integrated safety data set)",
+          "count": "0",
+          "denominator": null,
+          "percentage": null,
+          "apoe_stratum": null,
+          "quote": "Reports of seizures were overall balanced between the aducanumab and placebo groups, and there were no fatal events due to ARIA.",
+          "location": "Discussion, symptomatic ARIA paragraph (also Results: 'There were no deaths due to ARIA.')"
+        },
+        {
+          "name": "Seizure",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "4",
+          "denominator": "1033",
+          "percentage": "0.4%",
+          "apoe_stratum": null,
+          "quote": "the overall incidence of seizures was balanced between the placebo group (9 of 1087 [0.8%]) and 10-mg/kg aducanumab group (4 of 1033 [0.4%])",
+          "location": "Results, symptomatic ARIA paragraph"
+        },
+        {
+          "name": "Seizure",
+          "arm": "placebo",
+          "count": "9",
+          "denominator": "1087",
+          "percentage": "0.8%",
+          "apoe_stratum": null,
+          "quote": "the overall incidence of seizures was balanced between the placebo group (9 of 1087 [0.8%]) and 10-mg/kg aducanumab group (4 of 1033 [0.4%])",
+          "location": "Results, symptomatic ARIA paragraph"
+        },
+        {
+          "name": "Headache (symptom of ARIA)",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "48",
+          "denominator": "103 participants with symptomatic ARIA",
+          "percentage": "46.6%",
+          "apoe_stratum": null,
+          "quote": "the most common symptoms were headache (48 [46.6%]), confusion (15 [14.6%]), dizziness (11 [10.7%]), and nausea (8 [7.8%])",
+          "location": "Results, symptomatic ARIA paragraph"
+        },
+        {
+          "name": "Confusion (symptom of ARIA)",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "15",
+          "denominator": "103 participants with symptomatic ARIA",
+          "percentage": "14.6%",
+          "apoe_stratum": null,
+          "quote": "the most common symptoms were headache (48 [46.6%]), confusion (15 [14.6%]), dizziness (11 [10.7%]), and nausea (8 [7.8%])",
+          "location": "Results, symptomatic ARIA paragraph"
+        },
+        {
+          "name": "Dizziness (symptom of ARIA)",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "11",
+          "denominator": "103 participants with symptomatic ARIA",
+          "percentage": "10.7%",
+          "apoe_stratum": null,
+          "quote": "the most common symptoms were headache (48 [46.6%]), confusion (15 [14.6%]), dizziness (11 [10.7%]), and nausea (8 [7.8%])",
+          "location": "Results, symptomatic ARIA paragraph"
+        },
+        {
+          "name": "Nausea (symptom of ARIA)",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "8",
+          "denominator": "103 participants with symptomatic ARIA",
+          "percentage": "7.8%",
+          "apoe_stratum": null,
+          "quote": "the most common symptoms were headache (48 [46.6%]), confusion (15 [14.6%]), dizziness (11 [10.7%]), and nausea (8 [7.8%])",
+          "location": "Results, symptomatic ARIA paragraph"
+        },
+        {
+          "name": "Fatigue, visual impairment, blurred vision, and gait disturbance (less frequent ARIA symptoms)",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "5 each",
+          "denominator": "103 participants with symptomatic ARIA",
+          "percentage": "4.9%",
+          "apoe_stratum": null,
+          "quote": "Less frequent symptoms included fatigue, visual impairment, blurred vision, and gait disturbance, each occurring in 5 symptomatic participants (4.9%) in the 10-mg/kg group.",
+          "location": "Results, symptomatic ARIA paragraph"
+        },
+        {
+          "name": "Duration of ARIA symptoms",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "median (IQR) 5 (1-13) weeks",
+          "denominator": null,
+          "percentage": null,
+          "apoe_stratum": null,
+          "quote": "The median (IQR) reported duration of symptoms was 5 (1-13) weeks in the 10-mg/kg group.",
+          "location": "Results, symptomatic ARIA paragraph"
+        },
+        {
+          "name": "Timing of first ARIA-E (onset within first 8 doses)",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "263 patients; 298 of 488 events",
+          "denominator": "362 patients with ARIA-E; 488 ARIA-E events",
+          "percentage": "72.7% of patients; 61.1% of events",
+          "apoe_stratum": null,
+          "quote": "In the 10-mg/kg group, ARIA-E occurred during the first 8 doses of aducanumab among 263 of 362 patients (72.7%), and 298 of all 488 ARIA-E events (61.1%) occurred during first 8 doses.",
+          "location": "Results, Kaplan-Meier paragraph"
+        },
+        {
+          "name": "Radiographic resolution of ARIA-E events",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "479 resolved; 336 within 12 weeks; 404 within 16 weeks",
+          "denominator": "488 ARIA-E events",
+          "percentage": "98.2%; 68.9%; 82.8%",
+          "apoe_stratum": null,
+          "quote": "Of all ARIA-E events in the 10-mg/kg group, 479 (98.2%) were observed to have resolved (ie, no residual brain edema) during the study; specifically, 336 (68.9%) resolved within 12 weeks and 404 (82.8%) resolved within 16 weeks.",
+          "location": "Results, radiographic severity paragraph"
+        },
+        {
+          "name": "Stabilization of ARIA-H events within 8 weeks",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "178 microhemorrhage events; 135 superficial siderosis events",
+          "denominator": "260 ARIA-H–microhemorrhage events; 200 ARIA-H–superficial siderosis events",
+          "percentage": "68.5%; 92.5%",
+          "apoe_stratum": null,
+          "quote": "In the 10-mg/kg group, 178 of 260 ARIA-H–microhemorrhage events (68.5%) and 135 of 200 ARIA-H–superficial siderosis events (92.5%), respectively, stabilized within 8 weeks.",
+          "location": "Results, radiographic severity paragraph"
+        },
+        {
+          "name": "Maximal radiographic severity of ARIA-E",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "mild 109; moderate 209; severe 44",
+          "denominator": "362 participants with ARIA-E",
+          "percentage": "30.1%; 57.7%; 12.2%",
+          "apoe_stratum": null,
+          "quote": "the maximal radiographic severity was mild in 109 participants (30.1%), moderate in 209 participants (57.7%), and severe in 44 participants (12.2%)",
+          "location": "Results, radiographic severity paragraph (also Table 2)"
+        },
+        {
+          "name": "Maximal radiographic severity of ARIA-E",
+          "arm": "placebo; aducanumab 3 mg/kg; aducanumab 6 mg/kg",
+          "count": "mild: placebo 21, 3 mg/kg 66, 6 mg/kg 33",
+          "denominator": "placebo 29; 3 mg/kg 223; 6 mg/kg 83 (ARIA-edema, No.)",
+          "percentage": "72.4; 29.6; 39.8",
+          "apoe_stratum": null,
+          "quote": "| Mild | 21 (72.4) | 66 (29.6) | 33 (39.8) | 109 (30.1) |",
+          "location": "Table 2, ARIA-edema Mild row"
+        },
+        {
+          "name": "Maximal radiographic severity of ARIA-microhemorrhage (severe)",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "23",
+          "denominator": "197",
+          "percentage": "11.7%",
+          "apoe_stratum": null,
+          "quote": "Of participants in the 10-mg/kg group with ARIA-H–microhemorrhage and ARIA-H–superficial siderosis, the maximal radiographic severity was severe in 23 of 197 (11.7%) and 33 of 151 (21.9%), respectively ().",
+          "location": "Results, radiographic severity paragraph (also Table 2)"
+        },
+        {
+          "name": "Maximal radiographic severity of ARIA–superficial siderosis (severe)",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "33",
+          "denominator": "151",
+          "percentage": "21.9%",
+          "apoe_stratum": null,
+          "quote": "Of participants in the 10-mg/kg group with ARIA-H–microhemorrhage and ARIA-H–superficial siderosis, the maximal radiographic severity was severe in 23 of 197 (11.7%) and 33 of 151 (21.9%), respectively ().",
+          "location": "Results, radiographic severity paragraph (also Table 2)"
+        },
+        {
+          "name": "Maximal radiographic severity of ARIA-microhemorrhage (mild and moderate)",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "mild 147; moderate 27",
+          "denominator": "197",
+          "percentage": "74.6; 13.7",
+          "apoe_stratum": null,
+          "quote": "| Mild | 65 (91.5) | 103 (73.0) | 38 (76.0) | 147 (74.6) |\n| Moderate | 5 (7.0) | 11 (7.8) | 4 (8.0) | 27 (13.7) |",
+          "location": "Table 2, ARIA-microhemorrhage rows"
+        },
+        {
+          "name": "Maximal radiographic severity of ARIA–superficial siderosis (mild and moderate)",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "mild 74; moderate 44",
+          "denominator": "151",
+          "percentage": "49.0; 29.1",
+          "apoe_stratum": null,
+          "quote": "| Mild | 22 (91.7) | 50 (54.9) | 13 (56.5) | 74 (49.0) |\n| Moderate | 0 | 25 (27.5) | 6 (26.1) | 44 (29.1) |",
+          "location": "Table 2, ARIA–superficial siderosis rows"
+        },
+        {
+          "name": "Discontinuation of treatment due to ARIA",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "64",
+          "denominator": "1029",
+          "percentage": "6.2%",
+          "apoe_stratum": null,
+          "quote": "Overall, 64 participants (6.2%) discontinued treatment due to ARIA. Discontinuations due to ARIA were higher for ApoE ε4 carriers than noncarriers ().",
+          "location": "Results, discontinuation paragraph (also Table 1)"
+        },
+        {
+          "name": "Discontinuation of treatment due to ARIA",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "55",
+          "denominator": "674",
+          "percentage": "8.2",
+          "apoe_stratum": "ApoE ε4 carriers",
+          "quote": "| ApoE ε4 carriers, No./total No. (%) | 2/742 (0.3) | 47/756 (6.2) | 14/66 (21.2) | 55/674 (8.2) |",
+          "location": "Table 1, Discontinuations due to ARIA — ApoE ε4 carriers row"
+        },
+        {
+          "name": "Discontinuation of treatment due to ARIA",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "9",
+          "denominator": "355",
+          "percentage": "2.5",
+          "apoe_stratum": "ApoE ε4 noncarriers",
+          "quote": "| ApoE ε4 noncarriers, No./total No. (%) | 4/334 (1.2) | NA | 7/326 (2.1) | 9/355 (2.5) |",
+          "location": "Table 1, Discontinuations due to ARIA — ApoE ε4 noncarriers row"
+        },
+        {
+          "name": "Discontinuation of treatment due to ARIA",
+          "arm": "placebo; aducanumab 3 mg/kg; aducanumab 6 mg/kg",
+          "count": "placebo 6; 3 mg/kg 47; 6 mg/kg 21",
+          "denominator": "placebo 1076; 3 mg/kg 756; 6 mg/kg 392",
+          "percentage": "placebo 0.6; 3 mg/kg 6.2; 6 mg/kg 5.4",
+          "apoe_stratum": null,
+          "quote": "| Discontinuations due to ARIA | 6 (0.6) | 47 (6.2) | 21 (5.4) | 64 (6.2) |",
+          "location": "Table 1, Discontinuations due to ARIA row"
+        },
+        {
+          "name": "Concomitant medication administered for an ARIA event",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "11",
+          "denominator": "1029",
+          "percentage": "1.1%",
+          "apoe_stratum": null,
+          "quote": "Among participants in the 10-mg/kg group, 11 (1.1%) received a concomitant medication for an ARIA event; corticosteroids and acetaminophen were the most commonly administered concomitant medications for ARIA (eTable 5 in ).",
+          "location": "Results, symptomatic ARIA paragraph"
+        },
+        {
+          "name": "Progression of radiographically mild, asymptomatic ARIA-E events during continued dosing",
+          "arm": "aducanumab 10 mg/kg",
+          "count": "64 events became moderate; 1 event became severe; 11 events became symptomatic",
+          "denominator": "161 ARIA-E events that started as radiographically mild and asymptomatic",
+          "percentage": "39.8%; 0.6%; 6.8%",
+          "apoe_stratum": null,
+          "quote": "The radiographic severity of ARIA-E changed to moderate or severe in 64 events (39.8%) and 1 event (0.6%), respectively, and 11 of 161 events (6.8%) were subsequently associated with symptoms (eTable 6 in ).",
+          "location": "Results, final paragraph"
+        }
+      ],
+      "apoe_stratification_reported": true,
+      "serious_adverse_events": {
+        "value": "Serious ARIA events (including those resulting in hospitalization) occurred in 14 of 1029 participants (1.4%) in the 10-mg/kg group (7 of 674 ApoE ε4 carriers [1.0%]; 7 of 355 noncarriers [2.0%]); serious ARIA symptoms occurred in 3 of 1029 (0.3%). Table 2 reports serious ARIA in 2 (0.2%) placebo, 6 (0.8%) at 3 mg/kg and 3 (0.8%) at 6 mg/kg.",
+        "quote": "Serious ARIA events (including those resulting in hospitalization) were uncommon in the 10-mg/kg group (14 of 1029 total participants [1.4%]; 7 of 674 ApoE ε4 carriers [1.0%]; and 7 of 355 noncarriers [2.0%]; eTable 3 in ).",
+        "location": "Results, radiographic severity paragraph; Table 2"
+      },
+      "deaths": {
+        "value": "No deaths due to ARIA; no fatal events due to ARIA",
+        "quote": "Reports of seizures were overall balanced between the aducanumab and placebo groups, and there were no fatal events due to ARIA.",
+        "location": "Discussion, paragraph on symptoms (also Results: 'There were no deaths due to ARIA.')"
+      },
+      "discontinuations": {
+        "value": "64 participants (6.2%) in the 10-mg/kg group discontinued treatment due to ARIA (ApoE ε4 carriers 55 of 674 [8.2%]; noncarriers 9 of 355 [2.5%]); placebo 6 (0.6%), 3 mg/kg 47 (6.2%), 6 mg/kg 21 (5.4%). Discontinuation was protocol mandated for serious ARIA-E and for radiographically severe or serious ARIA-H.",
+        "quote": "Discontinuation of treatment was protocol mandated for serious ARIA-E (regardless of radiographic severity) and radiographically severe or serious ARIA-H (eFigure 1B in ). Overall, 64 participants (6.2%) discontinued treatment due to ARIA.",
+        "location": "Results, discontinuation paragraph; Table 1"
+      }
+    },
+    "funding": [],
+    "conflicts": [],
+    "limitations": [
+      "Potential limitations of this work include the early termination of the trials (35% of participants in the EMERGE trial and 30% in the ENGAGE trial withdrew owing to early study termination), which led to fewer patients completing a full course of dosing and could potentially impact the incidence of adverse events.",
+      "Additionally, the global phase 3 study populations lacked racial and ethnic diversity; therefore, very limited data about the frequency and severity of ARIA in diverse populations are available.",
+      "Data are not available for initiation of treatment at other stages of disease (ie, preclinical) or later (ie, moderate to severe dementia) stages of AD, and initiation of aducanumab is not indicated in those populations.",
+      "Important to the interpretation of ARIA-H incidence in this study is the fact that patients with preexisting microhemorrhages (more than 4) or areas of superficial siderosis were excluded from the phase 3 trials, which may have contributed to the overall observed incidence of ARIA-H.",
+      "More real-world data on the treatment and management of ARIA, outside of the clinical trial protocols, are required to assess which medications may be effective in treating symptomatic patients with ARIA."
+    ],
+    "risk_of_bias": [
+      {
+        "domain": "unblinding via ARIA",
+        "judgement": "The document acknowledges the potential for functional unblinding due to ARIA and states it was addressed in the study design by separating efficacy raters from safety raters and keeping efficacy raters blinded to ARIA assessments.",
+        "quote": "The potential for functional unblinding due to ARIA is a consideration in studies of anti-Aβ antibodies, and it was considered in the study design."
+      },
+      {
+        "domain": "attrition / early termination",
+        "judgement": "44.8% of the safety population did not complete the placebo-controlled period, predominantly because the sponsor terminated the studies early, which the document itself says could affect the incidence of adverse events.",
+        "quote": "1473 (44.8%) had not completed the period (EMERGE, n = 764; ENGAGE, n = 709), with the predominant reason being early study termination by the sponsor (EMERGE, 572 patients [35%]; ENGAGE, 491 [30%])"
+      },
+      {
+        "domain": "prespecification of analyses",
+        "judgement": "The analyses in this report were not in the trial protocol; most were prespecified only in the integrated summary of safety, which is not the protocol-level prespecification a reader might assume.",
+        "quote": "The primary analysis will be reported elsewhere. Most of the secondary analyses for this report were prespecified for the integrated summary of safety but were not included in the trial protocol."
+      },
+      {
+        "domain": "ad hoc analyses included",
+        "judgement": "The document states that some analyses in this report are ad hoc analyses performed to address regulatory queries, so they are not prespecified.",
+        "quote": "Some ad hoc analyses to address regulatory queries are of scientific interest and are therefore included as part of this report."
+      },
+      {
+        "domain": "selection — baseline exclusion of hemorrhage-prone participants",
+        "judgement": "Participants with more than 4 baseline microhemorrhages or any siderosis were excluded, which the document states may have contributed to the observed ARIA-H incidence.",
+        "quote": "Patients with more than 4 microhemorrhages or any area of siderosis on gradient echo MRI sequences at baseline were excluded."
+      },
+      {
+        "domain": "treatment-group assignment for pooled analysis",
+        "judgement": "Treatment groups in the pooled analysis are based on target dose in the randomized regimen, and the high-dose carrier target dose was changed mid-study from 6 mg/kg to 10 mg/kg in protocol version 4, so the 6-mg/kg group is a remainder group rather than a cleanly randomized comparator.",
+        "quote": "For participants in the safety population randomized to the high-dose carrier group (n = 746), the target dose was changed from 6 mg/kg to 10 mg/kg in protocol version 4."
+      }
+    ],
+    "disagreements": [
+      {
+        "question": "Was the futility analysis that terminated EMERGE and ENGAGE valid?",
+        "position": "The document states that after termination it was determined that key assumptions underlying the futility decision were not valid, and that final data were collected per protocol and analyzed per the prespecified analysis plan.",
+        "attributed_to": "the authors of this report (Salloway et al, JAMA Neurology, sponsor-affiliated analysis of EMERGE and ENGAGE)",
+        "quote": "The EMERGE and ENGAGE trials were terminated early based on futility analysis. After termination, it was determined that key assumptions on which the futility decision was based were not valid."
+      },
+      {
+        "question": "Is it acceptable to continue dosing through radiographically mild, asymptomatic ARIA-E?",
+        "position": "The document concludes continued dosing for asymptomatic and radiographically limited ARIA-E is feasible, because most such events did not increase in size or involve multiple brain locations and patients typically remained asymptomatic.",
+        "attributed_to": "the authors of this report (Salloway et al, JAMA Neurology)",
+        "quote": "the results indicate that continued dosing for asymptomatic and radiographically limited ARIA-E is feasible since, during uninterrupted dosing, most ARIA-E events did not increase in size or involve multiple brain locations and patients remained typically asymptomatic"
+      },
+      {
+        "question": "Which factors increase the risk of ARIA in aducanumab-treated patients?",
+        "position": "The document reports that only pretreatment brain microhemorrhages and ApoE ε4 carrier status were associated with increased incidence of ARIA-E, and that these same factors did not confer increased risk of ARIA-H; age, sex, AD stage and antithrombotic use showed no association with ARIA-E.",
+        "attributed_to": "the authors of this report (Salloway et al, JAMA Neurology)",
+        "quote": "Among other demographic and baseline characteristics, only pretreatment brain microhemorrhages and ApoE ε4 carrier status were found to be associated with an increase in the incidence of ARIA-E. These same factors did not confer an increased risk of ARIA-H."
+      }
+    ],
+    "linked_objects": [
+      {
+        "relation": "registry_record",
+        "identifier": "NCT02484547",
+        "note": "ClinicalTrials.gov registration named in the document's Trial Registrations section (EMERGE/ENGAGE)"
+      },
+      {
+        "relation": "registry_record",
+        "identifier": "NCT02477800",
+        "note": "ClinicalTrials.gov registration named in the document's Trial Registrations section (EMERGE/ENGAGE)"
+      },
+      {
+        "relation": "regulatory_label",
+        "identifier": "Aduhelm US prescribing information",
+        "note": "The document cites the Aduhelm US prescribing information for guidance on the timing of surveillance MRIs (obtain MRI prior to the 7th and 12th infusions, in addition to as clinically indicated)."
+      }
+    ],
+    "trial_status_observation": {
+      "status": "The EMERGE and ENGAGE trials were terminated early based on a futility analysis; the placebo-controlled period data reported here exclude the long-term extension.",
+      "enrollment": "3285 participants who received 1 or more doses of placebo (n = 1087) or aducanumab (n = 2198) during the placebo-controlled period; EMERGE n = 1643 and ENGAGE n = 1653",
+      "phase": "phase 3",
+      "observed_at": "March 21, 2019 (date of early termination as stated in the document); enrollment occurred from August 2015 to July 2018; primary data analyses November 2019 to July 2020 with additional analyses through July 2021",
+      "source": "This journal article (JAMA Neurology secondary analysis of EMERGE and ENGAGE), Abstract, Design, Setting, and Participants"
+    },
+    "unlocatable_fields": [
+      "funding",
+      "conflicts",
+      "multiplicity.quote",
+      "multiplicity.location",
+      "authors[].affiliation",
+      "authors[].orcid",
+      "authors[].corresponding",
+      "outcomes[].p_value",
+      "outcomes[primary].confidence_interval",
+      "safety.harms[].apoe_stratum for harms the document does not stratify by genotype"
+    ],
+    "_meta": {
+      "model": "claude (builder subagent)",
+      "extracted_at": "2026-08-13T16:16:11Z",
+      "source": "raw/aria-aducanumab-emerge-engage/document.md"
+    }
+  }
+}

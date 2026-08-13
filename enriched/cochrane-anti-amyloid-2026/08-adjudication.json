@@ -1,0 +1,69 @@
+{
+  "id": "cochrane-anti-amyloid-2026",
+  "adjudicated_at": "2026-08-13T16:35:32Z",
+  "rulings": [
+    {
+      "conflict_id": "cochrane-anti-amyloid-2026#0",
+      "field": "study.comparator",
+      "verdict": "both",
+      "correct_value": "placebo — the review's eligibility criterion was 'placebo or no treatment', but all 17 included studies used placebo as the comparison",
+      "quote": "We had also planned to perform subgroup analysis based on the comparator: placebo versus no treatment, but we did not do this because all studies compared treatment versus placebo.",
+      "reasoning": "Reading B is the review's stated eligibility/comparison criterion ('compared amyloid‐beta‐targeting monoclonal antibodies with placebo or no treatment'; 'Comparison intervention: placebo or no intervention'), while reading A is the realised comparator in the included studies ('All used placebo as a comparison.'). Same field at two detail levels; A is the more precise statement the document fully supports."
+    },
+    {
+      "conflict_id": "cochrane-anti-amyloid-2026#1",
+      "field": "study.followup",
+      "verdict": "both",
+      "correct_value": "eligible trials had to last at least 12 months; the 17 included studies lasted 18 to 27 months, with data analysed at 12, 18, 24 and above 24 months and the main results reported at 18 months",
+      "quote": "The studies were conducted between 2014 and 2024, with durations varying from 18 months to 27 months.",
+      "reasoning": "Reading B restates the inclusion threshold ('We included randomised controlled trials (RCTs) that lasted at least 12 months'), while reading A describes the actual durations and analysis time points ('We analysed data at 12, 18, 24, and over 24 months of treatment'; 'Below, we report the results of the studies at 18 months'). Both are in the document; A is the more precise and complete description."
+    },
+    {
+      "conflict_id": "cochrane-anti-amyloid-2026#2",
+      "field": "outcomes[primary].name",
+      "verdict": "both",
+      "correct_value": "Cognitive function assessed with the ADAS‐Cog (Alzheimer's Disease Assessment Scale‐Cognitive) scale, follow‐up mean 18 months",
+      "quote": "Cognitive function assessed with: ADAS‐Cog scale follow‐up: mean 18 months",
+      "reasoning": "Both readings name the same outcome; the summary of findings table and the results section attach the 18‐month time point to it, so reading A's added detail is fully supported and is the more precise version."
+    },
+    {
+      "conflict_id": "cochrane-anti-amyloid-2026#3",
+      "field": "safety.harms[ARIA-E].reported",
+      "verdict": "b",
+      "correct_value": "reported",
+      "quote": "Amyloid‐beta‐targeting monoclonal antibodies probably result in a small increase in the occurrence of any ARIA E (ARD (absolute risk difference) 107 more per 1000, 95% CI 77 more to 148 more; 11 studies, 13,595 participants; moderate certainty)",
+      "reasoning": "ARIA E is a prespecified critical harm and is reported quantitatively at 18 months, 24 months and above 24 months, plus symptomatic ARIA E; 'All studies reported the number of participants with any ARIA E (symptomatic or asymptomatic)'. Reading A ('absent') is contradicted."
+    },
+    {
+      "conflict_id": "cochrane-anti-amyloid-2026#4",
+      "field": "safety.harms[ARIA-H].reported",
+      "verdict": "b",
+      "correct_value": "reported",
+      "quote": "The intervention results in little or no difference in the absolute risk of ARIA‐H, compared with placebo at 24 months (RR 1.27, 95% CI 0.96 to 1.70; I² = 0%; ARD 17 more events/1000 participants, 95% CI 2 fewer to 43 more; 2 studies, 913 participants; high‐certainty evidence; Analysis 4.8)",
+      "reasoning": "ARIA H is reported: nine studies reported any ARIA H, results are given per individual study at 18 months (pooling prevented by I² = 81%) and pooled at 24 months and above 24 months, with symptomatic ARIA H reported by one study. Reading A ('absent') is contradicted."
+    },
+    {
+      "conflict_id": "cochrane-anti-amyloid-2026#5",
+      "field": "safety.harms[symptomatic ARIA].counts",
+      "verdict": "both",
+      "correct_value": "Symptomatic ARIA E at 18 months: placebo 1 per 1000 vs amyloid‐beta‐targeting monoclonal antibodies 30 per 1000 (23 to 39), RR 52.49 (40.13 to 68.66), ARD 29 more per 1000 (22 more to 38 more), 2 RCTs, 3522 participants. Symptomatic ARIA H at 18 months: placebo 2 per 1000 vs 7 per 1000 (1 to 33), RR 3.00 (0.61 to 14.81), ARD 4 more per 1000 (1 fewer to 31 more), 1 RCT, 1795 participants.",
+      "quote": "| Symptomatic ARIA E assessed with: number of people with with symptomatic ARIA E follow‐up: mean 18 months | 1 per 1000 | 30 per 1000 (23 to 39) | RR 52.49 (40.13 to 68.66) | 3522 (2 RCTs) | ⊕⊕⊕⊝ Moderate e | |",
+      "reasoning": "Both readings are numerically correct for the same two 18‐month analyses: A gives the anticipated per‐arm absolute risks from the summary of findings table (symptomatic ARIA E 1 vs 30 per 1000; symptomatic ARIA H 2 vs 7 per 1000), B gives the corresponding risk differences and risk ratios. The combined value above is the fully supported, more precise record; note that reading B's 'pooled' label is inaccurate for symptomatic ARIA H, which comes from a single RCT."
+    },
+    {
+      "conflict_id": "cochrane-anti-amyloid-2026#6",
+      "field": "safety.harms[death].reported",
+      "verdict": "b",
+      "correct_value": "reported",
+      "quote": "The intervention results in little or no difference in the absolute risk of death, compared with placebo at 18 months (RR 1.17, 95% CI 0.74 to 1.86; I² = 32%; ARD 2 more events/1000 participants, 95% CI 3 fewer to 11 more; 7 studies, 9733 participants; high‐certainty evidence; Analysis 6.1",
+      "reasoning": "Any‐cause mortality is a prespecified critical outcome, was reported by 13 studies, and is quantified at 18 months, 24 months and above 24 months in both the summary of findings table and the results. Reading A ('absent') is contradicted."
+    }
+  ],
+  "notes": [
+    "Total-versus-analysed participants: the review included 17 studies with 20,342 participants, but no single pooled analysis uses that denominator. The 18-month analyses cited here rest on much smaller subsets (e.g. ADAS-Cog 13 studies/9895; any ARIA E 11 studies/13,595; symptomatic ARIA E 2 studies/3522; symptomatic ARIA H 1 study/1795; SAEs 9 studies/11,904; mortality 7 studies/9733). Any record field should keep these distinct.",
+    "Symptomatic ARIA H at 18 months comes from a single RCT (1795 participants), so describing it as a 'pooled' estimate (reading B) is a misnomer even though the numbers are right.",
+    "Any ARIA H at 18 months was NOT pooled: I² = 81% prevented meta-analysis and the three study-level results are reported individually (RR 2.31; RR 1.91; RR 0.85). A downstream record should not report a pooled 18-month ARIA H effect.",
+    "Symptomatic brain haemorrhage was a prespecified critical outcome but was not reported by any study — the correct value for that harm is genuinely 'not reported', unlike ARIA E, ARIA H and mortality.",
+    "The comparator and follow-up conflicts both pit an eligibility criterion against what the included trials actually did; maintainers may want separate fields for 'eligibility criterion' and 'as-included characteristic' to stop this recurring."
+  ]
+}

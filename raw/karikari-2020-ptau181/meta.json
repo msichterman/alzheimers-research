@@ -1,0 +1,9 @@
+{
+  "id": "karikari-2020-ptau181",
+  "source": "sources/karikari-2020-ptau181.pdf",
+  "sha256": "acd2b437993d6b392c4c02bf93a01c577baf63edff44b79794378f3403a04cb4",
+  "bytes": 11827084,
+  "chars": 66004,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:11.005Z"
+}

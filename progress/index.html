@@ -1,0 +1,549 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="refresh" content="120">
+<title>Alzheimer's corpus expansion — live progress</title>
+<style>
+:root{--bg:#0e1116;--panel:#161b22;--line:#26303d;--fg:#e6edf3;--dim:#8b98a5;--ok:#3fb950;--warn:#d29922;--bad:#f85149;--info:#58a6ff}
+*{box-sizing:border-box}
+body{margin:0;padding:16px;background:var(--bg);color:var(--fg);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+h1{font-size:20px;margin:0 0 4px}h2{font-size:16px;margin:28px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+.sub{color:var(--dim);font-size:13px;margin-bottom:18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(104px,1fr));gap:8px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:10px}
+.card .n{font-size:22px;font-weight:600}.card .l{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.04em}
+.bar{height:8px;border-radius:4px;background:var(--line);overflow:hidden;display:flex;margin:10px 0 4px}
+.bar i{display:block;height:100%}
+table{width:100%;border-collapse:collapse;font-size:13px;margin-top:8px}
+th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--dim);font-weight:500;font-size:11px;text-transform:uppercase;letter-spacing:.04em}
+code{font:12px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--info);word-break:break-all}
+.pill{display:inline-block;padding:1px 7px;border-radius:20px;font-size:11px;font-weight:500;white-space:nowrap}
+.validated{background:#12341f;color:var(--ok)}.extracted{background:#132b45;color:var(--info)}
+.parsed{background:#1c2733;color:#a5c8ff}.acquired{background:#2b2413;color:var(--warn)}
+.resolved{background:#22262c;color:var(--dim)}.quarantined{background:#3d1518;color:var(--bad)}
+.unresolved{background:#3d1518;color:var(--bad)}
+.muted{color:var(--dim)}.small{font-size:12px}
+details{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:10px;margin-bottom:8px}
+summary{cursor:pointer;font-weight:500}
+.empty{color:var(--dim);font-style:italic;padding:8px 0}
+@media(max-width:520px){td:nth-child(3),th:nth-child(3){display:none}}
+</style></head><body>
+
+<h1>Alzheimer's corpus expansion</h1>
+<div class="sub">Generated 2026-08-13 16:59:46Z · auto-refreshes every 2 min · 108 targets in the work order</div>
+
+<div class="bar"><i style="width:11%;background:#3fb950" title="validated"></i><i style="width:89%;background:#f85149" title="quarantined"></i></div>
+<div class="grid">
+  <div class="card"><div class="n" style="color:var(--ok)">12</div><div class="l">validated</div></div>
+  <div class="card"><div class="n" style="color:var(--info)">0</div><div class="l">extracted</div></div>
+  <div class="card"><div class="n">0</div><div class="l">parsed</div></div>
+  <div class="card"><div class="n" style="color:var(--warn)">0</div><div class="l">acquired</div></div>
+  <div class="card"><div class="n" style="color:var(--bad)">113</div><div class="l">quarantined</div></div>
+  <div class="card"><div class="n" style="color:var(--bad)">2</div><div class="l">unresolved ids</div></div>
+</div>
+
+<h2>Evidence completeness</h2>
+<table><tr><th>Level</th><th>Records</th><th>Meaning</th></tr>
+<tr><td><code>full-text-oa</code></td><td>62</td><td class="small muted">version of record or full text via PMC / publisher open access</td></tr><tr><td><code>accepted-manuscript</code></td><td>3</td><td class="small muted">legal institutional or repository accepted manuscript</td></tr><tr><td><code>regulator-or-registry</code></td><td>15</td><td class="small muted">FDA/EMA document or registry protocol as the primary record</td></tr><tr><td><code>registry-only</code></td><td>11</td><td class="small muted">registry record is the primary record by design</td></tr><tr><td><code>registry-substitute</code></td><td>6</td><td class="small muted">version of record unreachable; registry stands in, DOI preserved</td></tr><tr><td><code>none</code></td><td>11</td><td class="small muted">no primary document acquired</td></tr>
+</table>
+
+<h2>Blind A/B verdicts by cluster</h2>
+<table><tr><th>Cluster</th><th>Latest winner</th><th>Largest gap named</th></tr><tr>
+      <td>Anti-amyloid monoclonal antibodies<div class="muted small">5/20 validated</div></td>
+      <td><span class="pill validated">corpus</span></td>
+      <td class="small muted">Answer A hallucinates a future publication year (2026) for the Cochrane review and misses the explicit disagreement between the Cochrane authors and regulatory agencies (FDA, EMA, MHRA) regarding the benefit-to-risk balance.</td>
+    </tr><tr>
+      <td>BACE inhibitors and secretase modulation<div class="muted small">2/3 validated</div></td>
+      <td><span class="pill quarantined">primary-sources</span></td>
+      <td class="small muted">Answer B needs to correctly identify progression to dementia as an exploratory endpoint rather than a prespecified secondary outcome, and ensure specific trial data (like hippocampal volume changes) is attributed to the correct trial.</td>
+    </tr><tr>
+      <td>Tau-targeting therapeutics<div class="muted small">5/11 validated</div></td>
+      <td><span class="pill validated">corpus</span></td>
+      <td class="small muted">Answer B fails to include the differing perspectives and hypotheses from investigators on why target engagement did not translate to clinical benefit, missing an opportunity to present attributed disagreements.</td>
+    </tr><tr>
+      <td>TREM2, microglia and neuroinflammation<div class="muted small">0/9 validated</div></td>
+      <td><span class="muted small">not yet run</span></td>
+      <td class="small muted">—</td>
+    </tr><tr>
+      <td>Human genetics and single-cell genomics<div class="muted small">0/17 validated</div></td>
+      <td><span class="pill validated">corpus</span></td>
+      <td class="small muted">Answer A resolves the differing views on proxy cases into a single negative limitation, missing the explicit disagreement where Bellenguez defended their use as adding power without losing biological relevance.</td>
+    </tr><tr>
+      <td>Fluid and imaging biomarkers<div class="muted small">0/20 validated</div></td>
+      <td><span class="pill quarantined">primary-sources</span></td>
+      <td class="small muted">It does not explicitly state that the text lacks information on research performance versus approved clinical use, which was a specific constraint in the prompt.</td>
+    </tr><tr>
+      <td>Prevention and risk-reduction trials<div class="muted small">0/8 validated</div></td>
+      <td><span class="pill quarantined">primary-sources</span></td>
+      <td class="small muted">Falsely claiming the text does not contain the results of the randomized trials, thereby missing the detailed findings of the FINGER and HATICE trials.</td>
+    </tr><tr>
+      <td>Regulatory decisions and post-market actions<div class="muted small">0/15 validated</div></td>
+      <td><span class="pill validated">corpus</span></td>
+      <td class="small muted">Answer A stops at stating the information is missing without offering the closely related context about p-tau217 bioanalysis uncertainties found in the text.</td>
+    </tr><tr>
+      <td>Conceptual, framework and pipeline reviews<div class="muted small">0/5 validated</div></td>
+      <td><span class="muted small">not yet run</span></td>
+      <td class="small muted">—</td>
+    </tr></table>
+
+<h2>Rounds</h2>
+<details open>
+      <summary>Round 1 — 2026-08-13 16:59 · baseline after wave 1: amyloid-antibody, BACE, tau, genetics, regulatory, prevention partially extracted</summary>
+      <table><tr><th>Cluster</th><th>Winner</th><th>Largest gap in the loser</th></tr>
+      <tr><td>Anti-amyloid monoclonal antibodies</td><td><span class="pill quarantined">primary-sources</span></td><td class="small">Answer A fails to define what the ED90 dose actually means in the context of the trial's adaptive design, instead just equating it to the 10 mg/kg biweekly dose in the criterion section.</td></tr><tr><td>Anti-amyloid monoclonal antibodies</td><td><span class="pill validated">corpus</span></td><td class="small">Omits the missed prespecified secondary endpoint (CDR-SB) for Lecanemab Study 201, softening the trial's failure by only highlighting the successful secondary endpoints.</td></tr><tr><td>Prevention and risk-reduction trials</td><td><span class="pill quarantined">primary-sources</span></td><td class="small">Failing to find and report the specific SPRINT MIND trial results (event rates, hazard ratios, and confidence intervals) that were available in the text.</td></tr><tr><td>Prevention and risk-reduction trials</td><td><span class="pill quarantined">primary-sources</span></td><td class="small">Answer A slightly paraphrases the prompt's question about interpreting results into 'its results', which loses a tiny bit of the nuance of the original question.</td></tr><tr><td>Anti-amyloid monoclonal antibodies</td><td><span class="pill quarantined">primary-sources</span></td><td class="small">Answer B fails to mention the specific negative and failed trials (such as gantenerumab and solanezumab) and their missed primary endpoints.</td></tr><tr><td>Regulatory decisions and post-market actions</td><td><span class="pill validated">corpus</span></td><td class="small">Answer A stops at stating the information is missing without offering the closely related context about p-tau217 bioanalysis uncertainties found in the text.</td></tr><tr><td>BACE inhibitors and secretase modulation</td><td><span class="pill quarantined">primary-sources</span></td><td class="small">Answer B needs to correctly identify progression to dementia as an exploratory endpoint rather than a prespecified secondary outcome, and ensure specific trial data (like hippocampal volume changes) is attributed to the correct trial.</td></tr><tr><td>Tau-targeting therapeutics</td><td><span class="pill validated">corpus</span></td><td class="small">Answer B fails to include the differing perspectives and hypotheses from investigators on why target engagement did not translate to clinical benefit, missing an opportunity to present attributed disagreements.</td></tr><tr><td>Human genetics and single-cell genomics</td><td><span class="pill validated">corpus</span></td><td class="small">Answer A resolves the differing views on proxy cases into a single negative limitation, missing the explicit disagreement where Bellenguez defended their use as adding power without losing biological relevance.</td></tr><tr><td>Fluid and imaging biomarkers</td><td><span class="pill quarantined">primary-sources</span></td><td class="small">It does not explicitly state that the text lacks information on research performance versus approved clinical use, which was a specific constraint in the prompt.</td></tr><tr><td>Anti-amyloid monoclonal antibodies</td><td><span class="pill validated">corpus</span></td><td class="small">Answer A fails to distinguish the aducanumab safety analysis as a secondary/integrated analysis, omits the failed solanezumab trial, and softens the explicit disagreement between the regulatory authority and the study authors regarding lecanemab dosing.</td></tr><tr><td>Prevention and risk-reduction trials</td><td><span class="pill quarantined">primary-sources</span></td><td class="small">Falsely claiming the text does not contain the results of the randomized trials, thereby missing the detailed findings of the FINGER and HATICE trials.</td></tr><tr><td>Anti-amyloid monoclonal antibodies</td><td><span class="pill validated">corpus</span></td><td class="small">Answer A hallucinates a future publication year (2026) for the Cochrane review and misses the explicit disagreement between the Cochrane authors and regulatory agencies (FDA, EMA, MHRA) regarding the benefit-to-risk balance.</td></tr>
+      </table>
+      <div class="small muted" style="margin-top:8px">Next builder tasks: [amyloid-antibody] Answer A fails to define what the ED90 dose actually means in the context of the trial's adaptive design, instead just equating it to the 10 mg/kg biweekly dose in the criterion section. · [prevention] Failing to find and report the specific SPRINT MIND trial results (event rates, hazard ratios, and confidence intervals) that were available in the text. · [prevention] Answer A slightly paraphrases the prompt's question about interpreting results into 'its results', which loses a tiny bit of the nuance of the original question. · [amyloid-antibody] Answer B fails to mention the specific negative and failed trials (such as gantenerumab and solanezumab) and their missed primary endpoints. · [bace] Answer B needs to correctly identify progression to dementia as an exploratory endpoint rather than a prespecified secondary outcome, and ensure specific trial data (like hippocampal volume changes) is attributed to the correct trial. · [biomarkers] It does not explicitly state that the text lacks information on research performance versus approved clinical use, which was a specific constraint in the prompt. · [prevention] Falsely claiming the text does not contain the results of the randomized trials, thereby missing the detailed findings of the FINGER and HATICE trials.</div>
+    </details>
+
+<h2>Quarantine queue <span class="muted small">(113)</span></h2>
+<table><tr><th>Record</th><th>Reason</th><th>Detail</th></tr><tr><td><code>lecanemab-clarity-ad</code><div class="muted small">acquisition</div></td><td class="small">version of record unreachable; registry record ingested in its place</td><td class="small muted">publisher-oa-pdf 200 PDF route returned an HTML page (paywall, consent wall or challenge) · publisher-oa-pdf 403 HTTP 403 · publisher-oa-landing  landing page is a citation target,</td></tr><tr><td><code>donanemab-trailblazer-alz-phase-2</code><div class="muted small">acquisition</div></td><td class="small">version of record unreachable; registry record ingested in its place</td><td class="small muted">publisher-oa-pdf 403 HTTP 403 · publisher-oa-landing  landing page is a citation target, not a primary document — not ingested as evidence</td></tr><tr><td><code>aducanumab-emerge-engage</code><div class="muted small">acquisition</div></td><td class="small">version of record unreachable; registry record ingested in its place</td><td class="small muted"></td></tr><tr><td><code>aducanumab-phase-1b-prime</code><div class="muted small">acquisition</div></td><td class="small">version of record unreachable; registry record ingested in its place</td><td class="small muted">publisher-landing  landing page is a citation target, not a primary document — not ingested as evidence</td></tr><tr><td><code>solanezumab-expedition</code><div class="muted small">acquisition</div></td><td class="small">no acquisition route returned a usable primary document</td><td class="small muted">publisher-oa-pdf 403 HTTP 403 · publisher-oa-landing  landing page is a citation target, not a primary document — not ingested as evidence</td></tr><tr><td><code>semaglutide-evoke</code><div class="muted small">acquisition</div></td><td class="small">version of record unreachable; registry record ingested in its place</td><td class="small muted">publisher-oa-landing  landing page is a citation target, not a primary document — not ingested as evidence</td></tr><tr><td><code>aadvac1-adamant</code><div class="muted small">acquisition</div></td><td class="small">no acquisition route returned a usable primary document</td><td class="small muted">repository-landing  landing page is a citation target, not a primary document — not ingested as evidence · publisher-landing  landing page is a citation target, not a primary docum</td></tr><tr><td><code>al002-invoke-2</code><div class="muted small">acquisition</div></td><td class="small">no acquisition route returned a usable primary document</td><td class="small muted">publisher-landing  landing page is a citation target, not a primary document — not ingested as evidence</td></tr><tr><td><code>disease-associated-microglia</code><div class="muted small">acquisition</div></td><td class="small">no acquisition route returned a usable primary document</td><td class="small muted">publisher-oa-pdf 403 HTTP 403 · publisher-oa-landing  landing page is a citation target, not a primary document — not ingested as evidence · repository-landing  landing page is a c</td></tr><tr><td><code>app-a673t-protection</code><div class="muted small">acquisition</div></td><td class="small">no acquisition route returned a usable primary document</td><td class="small muted">publisher-landing  landing page is a citation target, not a primary document — not ingested as evidence</td></tr><tr><td><code>asc-specks-cross-seed</code><div class="muted small">acquisition</div></td><td class="small">no acquisition route returned a usable primary document</td><td class="small muted">publisher-landing  landing page is a citation target, not a primary document — not ingested as evidence</td></tr><tr><td><code>janelidze-2020-ptau181</code><div class="muted small">acquisition</div></td><td class="small">no acquisition route returned a usable primary document</td><td class="small muted">publisher-landing  landing page is a citation target, not a primary document — not ingested as evidence</td></tr><tr><td><code>nakamura-2018-plasma-amyloid</code><div class="muted small">acquisition</div></td><td class="small">no acquisition route returned a usable primary document</td><td class="small muted">publisher-landing  landing page is a citation target, not a primary document — not ingested as evidence</td></tr><tr><td><code>finger-trial</code><div class="muted small">acquisition</div></td><td class="small">version of record unreachable; registry record ingested in its place</td><td class="small muted">publisher-landing  landing page is a citation target, not a primary document — not ingested as evidence</td></tr><tr><td><code>mapt-trial</code><div class="muted small">acquisition</div></td><td class="small">no acquisition route returned a usable primary document</td><td class="small muted">publisher-landing  landing page is a citation target, not a primary document — not ingested as evidence</td></tr><tr><td><code>mendes-2025-network-meta-analysis</code><div class="muted small">acquisition</div></td><td class="small">no acquisition route returned a usable primary document</td><td class="small muted">publisher-oa-landing  landing page is a citation target, not a primary document — not ingested as evidence</td></tr><tr><td><code>karran-de-strooper-amyloid-hypothesis</code><div class="muted small">acquisition</div></td><td class="small">no acquisition route returned a usable primary document</td><td class="small muted">repository-landing  landing page is a citation target, not a primary document — not ingested as evidence · publisher-landing  landing page is a citation target, not a primary docum</td></tr><tr><td><code>aa-blood-biomarker-recommendations</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>aadvac1-adamant</code><div class="muted small">validation</div></td><td class="small">file, evidence, fidelity, critical-review</td><td class="small muted">no primary document acquired · no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no reco</td></tr><tr><td><code>aducanumab-emerge-engage</code><div class="muted small">validation</div></td><td class="small">file, evidence, fidelity, critical-review</td><td class="small muted">no extracted text layer at raw/&lt;id&gt;/document.md · no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json</td></tr><tr><td><code>aducanumab-phase-1b-prime</code><div class="muted small">validation</div></td><td class="small">file, evidence, fidelity, critical-review</td><td class="small muted">no extracted text layer at raw/&lt;id&gt;/document.md · no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json</td></tr><tr><td><code>al002-invoke-2</code><div class="muted small">validation</div></td><td class="small">file, file, evidence, fidelity, critical-review</td><td class="small muted">no primary document acquired · no extracted text layer at raw/&lt;id&gt;/document.md · no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass </td></tr><tr><td><code>altitude-ad-registry</code><div class="muted small">validation</div></td><td class="small">file, evidence, fidelity, critical-review</td><td class="small muted">no extracted text layer at raw/&lt;id&gt;/document.md · no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json</td></tr><tr><td><code>apoe-r136s-protection</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>apoe3-christchurch-resistance</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>app-a673t-mechanism</code><div class="muted small">validation</div></td><td class="small">file, evidence, fidelity, critical-review</td><td class="small muted">extracted text is abstract-only (3092 chars, sections: none) — not sufficient for an evidence record · no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no in</td></tr><tr><td><code>app-a673t-protection</code><div class="muted small">validation</div></td><td class="small">file, file, evidence, fidelity, critical-review</td><td class="small muted">no primary document acquired · no extracted text layer at raw/&lt;id&gt;/document.md · no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass </td></tr><tr><td><code>asc-specks-cross-seed</code><div class="muted small">validation</div></td><td class="small">file, file, evidence, fidelity, critical-review</td><td class="small muted">no primary document acquired · no extracted text layer at raw/&lt;id&gt;/document.md · no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass </td></tr><tr><td><code>ashton-2024-alzpath-ptau217</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>bapineuzumab-phase-3</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>bellenguez-2022-gwas</code><div class="muted small">validation</div></td><td class="small">fidelity, fidelity</td><td class="small muted">5 conflict(s) reached no adjudicator ruling: study.n (no adjudicator ruling for this conflict); primary_endpoint_status.status (no adjudicator ruling for this conflict); multiplici</td></tr><tr><td><code>benedet-2021-gfap</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>bepranemab-together</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>celia-biib080-registry</code><div class="muted small">validation</div></td><td class="small">file, evidence, fidelity, critical-review</td><td class="small muted">no extracted text layer at raw/&lt;id&gt;/document.md · no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json</td></tr><tr><td><code>centiloid-project</code><div class="muted small">validation</div></td><td class="small">fidelity, fidelity</td><td class="small muted">6 conflict(s) reached no adjudicator ruling: study.population (no adjudicator ruling for this conflict); study.design (no adjudicator ruling for this conflict); study.n (no adjudic</td></tr><tr><td><code>christchurch-snrnaseq</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>consensus-gwas-2026</code><div class="muted small">validation</div></td><td class="small">fidelity, fidelity</td><td class="small muted">6 conflict(s) reached no adjudicator ruling: study.n (no adjudicator ruling for this conflict); study.population (no adjudicator ruling for this conflict); outcomes[primary].prespe</td></tr><tr><td><code>cummings-pipeline-2026</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>dian-tu-tau-nexgen-registry</code><div class="muted small">validation</div></td><td class="small">file, evidence, fidelity, critical-review</td><td class="small muted">no extracted text layer at raw/&lt;id&gt;/document.md · no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json</td></tr><tr><td><code>disease-associated-microglia</code><div class="muted small">validation</div></td><td class="small">file, file, evidence, fidelity, critical-review</td><td class="small muted">no primary document acquired · extracted text is abstract-only (2574 chars, sections: none) — not sufficient for an evidence record · no evidence record extracted (enriched/&lt;id&gt;/05</td></tr><tr><td><code>donanemab-trailblazer-alz-2</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>donanemab-trailblazer-alz-phase-2</code><div class="muted small">validation</div></td><td class="small">file, evidence, fidelity, critical-review</td><td class="small muted">no extracted text layer at raw/&lt;id&gt;/document.md · no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json</td></tr><tr><td><code>e2814-diad-registry</code><div class="muted small">validation</div></td><td class="small">file, evidence, fidelity, critical-review</td><td class="small muted">no extracted text layer at raw/&lt;id&gt;/document.md · no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json</td></tr><tr><td><code>e2814-lecanemab-registry</code><div class="muted small">validation</div></td><td class="small">file, evidence, fidelity, critical-review</td><td class="small muted">no extracted text layer at raw/&lt;id&gt;/document.md · no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json</td></tr><tr><td><code>ema-kisunla-epar</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>ema-leqembi-epar</code><div class="muted small">validation</div></td><td class="small">file, evidence, fidelity, critical-review</td><td class="small muted">no extracted text layer at raw/&lt;id&gt;/document.md · no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json</td></tr><tr><td><code>fda-kisunla-approval-letter</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>fda-kisunla-label</code><div class="muted small">validation</div></td><td class="small">fidelity, fidelity</td><td class="small muted">5 conflict(s) reached no adjudicator ruling: study.population (no adjudicator ruling for this conflict); study.intervention (no adjudicator ruling for this conflict); safety.harms[</td></tr><tr><td><code>fda-kisunla-risk-review</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>fda-kisunla-statistical-review</code><div class="muted small">validation</div></td><td class="small">fidelity</td><td class="small muted">5 conflict(s) reached no adjudicator ruling: outcomes[primary].effect_estimate (no adjudicator ruling for this conflict); outcomes[primary].confidence_interval (no adjudicator ruli</td></tr><tr><td><code>fda-leqembi-approval-letter-traditional</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>fda-leqembi-label-current</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>fda-leqembi-label-traditional</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>fda-leqembi-review-traditional</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>fda-leqembi-summary-review-accelerated</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>fda-leqembi-traditional-approval</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>fda-lumipulse-510k-decision</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>fda-lumipulse-clearance</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>fda-lumipulse-recall</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>finger-trial</code><div class="muted small">validation</div></td><td class="small">file, evidence, fidelity, critical-review</td><td class="small muted">no extracted text layer at raw/&lt;id&gt;/document.md · no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json</td></tr><tr><td><code>grande-2025-community-cohort</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>hansson-blood-biomarkers-review</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>holstege-2022-exome</code><div class="muted small">validation</div></td><td class="small">fidelity, fidelity</td><td class="small muted">6 conflict(s) reached no adjudicator ruling: study.population (no adjudicator ruling for this conflict); outcomes[primary].name (no adjudicator ruling for this conflict); outcomes[</td></tr><tr><td><code>invoke-2-registry</code><div class="muted small">validation</div></td><td class="small">file, evidence, fidelity, critical-review</td><td class="small muted">no extracted text layer at raw/&lt;id&gt;/document.md · no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json</td></tr><tr><td><code>jack-2024-revised-criteria</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>janelidze-2020-ptau181</code><div class="muted small">validation</div></td><td class="small">file, file, evidence, fidelity, critical-review</td><td class="small muted">no primary document acquired · no extracted text layer at raw/&lt;id&gt;/document.md · no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass </td></tr><tr><td><code>karikari-2020-ptau181</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>karran-de-strooper-amyloid-hypothesis</code><div class="muted small">validation</div></td><td class="small">file, file, evidence, fidelity, critical-review</td><td class="small muted">no primary document acquired · no extracted text layer at raw/&lt;id&gt;/document.md · no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass </td></tr><tr><td><code>kunkle-2019-gwas</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>lake-2023-multiancestry</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>lanabecestat-amaranth-daybreak</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>lancet-commission-2020</code><div class="muted small">validation</div></td><td class="small">fidelity, fidelity</td><td class="small muted">8 conflict(s) reached no adjudicator ruling: study.population (no adjudicator ruling for this conflict); outcomes[primary].name (no adjudicator ruling for this conflict); outcomes[</td></tr><tr><td><code>lancet-commission-2024</code><div class="muted small">validation</div></td><td class="small">identity, file, evidence, fidelity, critical-review</td><td class="small muted">regulatory-url https://www.thelancet.com/action/showPdf?pii=S0140-6736(24)01296-0 did not resolve live · extracted text is abstract-only (4133 chars, sections: none) — not sufficie</td></tr><tr><td><code>lecanemab-clarity-ad</code><div class="muted small">validation</div></td><td class="small">file, evidence, fidelity, critical-review</td><td class="small muted">no extracted text layer at raw/&lt;id&gt;/document.md · no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json</td></tr><tr><td><code>mapt-trial</code><div class="muted small">validation</div></td><td class="small">file, file, evidence, fidelity, critical-review</td><td class="small muted">no primary document acquired · no extracted text layer at raw/&lt;id&gt;/document.md · no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass </td></tr><tr><td><code>masitinib-phase-3</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, cross-links, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · a published correction exists (10.1186</td></tr><tr><td><code>mathys-2019-single-cell</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>mathys-2024-multiregion</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>mattsson-carlgren-2020-ptau217</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>mendes-2025-network-meta-analysis</code><div class="muted small">validation</div></td><td class="small">file, file, evidence, fidelity, critical-review</td><td class="small muted">no primary document acquired · no extracted text layer at raw/&lt;id&gt;/document.md · no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass </td></tr><tr><td><code>nakamura-2018-plasma-amyloid</code><div class="muted small">validation</div></td><td class="small">file, file, evidence, fidelity, critical-review</td><td class="small muted">no primary document acquired · no extracted text layer at raw/&lt;id&gt;/document.md · no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass </td></tr><tr><td><code>nia-aa-research-framework-2018</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>nlrp3-heneka-2013</code><div class="muted small">validation</div></td><td class="small">file, evidence, fidelity, critical-review</td><td class="small muted">extracted text is abstract-only (4816 chars, sections: method) — not sufficient for an evidence record · no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no </td></tr><tr><td><code>nlrp3-tau-pathology</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>ossenkoppele-2022-amyloid-tau-pet</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>ovod-2017-silk-plasma-abeta</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>palmqvist-2024-primary-care</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>palmqvist-2025-automated-platform</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>pereira-2021-gfap</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>petersen-2026-ptau217-onset</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>plasma-ptau217-discriminative-accuracy</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>predivia-trial</code><div class="muted small">validation</div></td><td class="small">file, evidence, fidelity, critical-review</td><td class="small muted">extracted text is abstract-only (4804 chars, sections: none) — not sufficient for an evidence record · no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no in</td></tr><tr><td><code>probabilistic-model-amyloid</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>ptau217-taupet-prediction</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>remternetug-prevention-registry</code><div class="muted small">validation</div></td><td class="small">file, evidence, fidelity, critical-review</td><td class="small muted">no extracted text layer at raw/&lt;id&gt;/document.md · no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json</td></tr><tr><td><code>sabirnetug-intercept-ad</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>sargramostim-phase-2</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>schindler-2019-plasma-abeta</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>semaglutide-evoke</code><div class="muted small">validation</div></td><td class="small">file, evidence, fidelity, critical-review</td><td class="small muted">no extracted text layer at raw/&lt;id&gt;/document.md · no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json</td></tr><tr><td><code>shade-2024-neuropathology-gwas</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>single-cell-cognitive-resilience</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>solanezumab-expedition</code><div class="muted small">validation</div></td><td class="small">file, file, evidence, fidelity, critical-review</td><td class="small muted">no primary document acquired · no extracted text layer at raw/&lt;id&gt;/document.md · no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass </td></tr><tr><td><code>sprint-mind</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>tau-pet-vs-phospho-tau</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>trailrunner-alz-1-registry</code><div class="muted small">validation</div></td><td class="small">file, evidence, fidelity, critical-review</td><td class="small muted">no extracted text layer at raw/&lt;id&gt;/document.md · no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json</td></tr><tr><td><code>trem2-apoe-microglia</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>trem2-guerreiro-2013</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>trem2-jonsson-2013</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>trontier-1-registry</code><div class="muted small">validation</div></td><td class="small">file, evidence, fidelity, critical-review</td><td class="small muted">no extracted text layer at raw/&lt;id&gt;/document.md · no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json</td></tr><tr><td><code>trontier-2-registry</code><div class="muted small">validation</div></td><td class="small">file, evidence, fidelity, critical-review</td><td class="small muted">no extracted text layer at raw/&lt;id&gt;/document.md · no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json</td></tr><tr><td><code>trontinemab-brainshuttle-registry</code><div class="muted small">validation</div></td><td class="small">file, evidence, fidelity, critical-review</td><td class="small muted">no extracted text layer at raw/&lt;id&gt;/document.md · no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json</td></tr><tr><td><code>us-pointer</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr><tr><td><code>wightman-2021-gwas</code><div class="muted small">validation</div></td><td class="small">evidence, fidelity, critical-review</td><td class="small muted">no evidence record extracted (enriched/&lt;id&gt;/05-evidence.json missing) · no independent critic pass (enriched/&lt;id&gt;/07-fidelity.json missing) · no record to review</td></tr></table>
+
+<h2>Unresolved identifiers <span class="muted small">(2)</span></h2>
+<table><tr><th>Target</th><th>Kind</th><th>Detail</th></tr><tr><td><code>aducanumab-emerge-engage</code></td><td class="small">unresolved-identity</td><td class="small muted">no confident Europe PMC match; best hit &quot;Baseline characteristics from evoke and evoke+: Two phase 3 randomized placebo-controlled trials of semaglutide in participants with early-stage symptomatic Al</td></tr><tr><td><code>lancet-commission-2024</code></td><td class="small">unresolved-url</td><td class="small muted">HTTP 403</td></tr></table>
+
+<h2>Manifest-versus-source discrepancies <span class="muted small">(10)</span></h2>
+<div class="sub">The work order is not evidence. Where it disagrees with the retrieved primary document, the document wins and the disagreement is recorded here.</div>
+<table><tr><th>Target</th><th>Field</th><th>What the source actually says</th></tr><tr><td><code>fda-leqembi-traditional-approval</code></td><td class="small">acquisition route</td><td class="small muted">The hard rules forbid substituting a press release for a primary record that exists. Located the actual documents through the Drugs@FDA API (api.fda.gov/drug/drugsfda.json) and added them as targets fda-leqembi-approval-letter-traditional, fda-leqembi-review-t</td></tr><tr><td><code>fda-lumipulse-clearance</code></td><td class="small">acquisition route</td><td class="small muted">Same substitution rule as the Leqembi entry. The 510(k) record and the releasable decision documents are the evidence for what was cleared and on what data; the press announcement is a communication about it.</td></tr><tr><td><code>bepranemab-together</code></td><td class="small">source authority</td><td class="small muted">Not a primary record. Acquisition fell back to the registry record and any peer-reviewed publication; the news item is not ingested as evidence for the trial's results.</td></tr><tr><td><code>mattsson-carlgren-2020-ptau217</code></td><td class="small">reference URL</td><td class="small muted">Identity was resolved through Europe PMC and Crossref instead, and full text acquired through a permitted route.</td></tr><tr><td><code>ashton-2024-alzpath-ptau217</code></td><td class="small">PMCID</td><td class="small muted">Two work-order rows resolved to the same record through the supplied identifiers. Flagged as a weak-title-match and queued for agent re-resolution so the two papers are not merged into one corpus record.</td></tr><tr><td><code>sabirnetug-intercept-ad</code></td><td class="small">10.1016/j.tjpad.2024.100005</td><td class="small muted">identity accepted from a supplied identifier, but its title &quot;INTERCEPT-AD, a phase 1 study of intravenous sabirnetug in participants with mild cognitive impairment or mild dementia due to Alzheimer's disease.&quot; matches the work-order hint at only 0.56 — confirm</td></tr><tr><td><code>ashton-2024-alzpath-ptau217</code></td><td class="small">10.1038/s43587-023-00403-3</td><td class="small muted">identity accepted from a supplied identifier, but its title &quot;Blood biomarkers for Alzheimer's disease in clinical practice and trials.&quot; matches the work-order hint at only 0.29 — confirm the work order named the right paper</td></tr><tr><td><code>lecanemab-phase-2b</code></td><td class="small">n</td><td class="small muted">work order states N=856; the retrieved document states N=854. The document wins.</td></tr><tr><td><code>tilavonemab-early-ad</code></td><td class="small">n</td><td class="small muted">work order states N=450; the retrieved document states N=453. The document wins.</td></tr><tr><td><code>verubecestat-apecs</code></td><td class="small">n</td><td class="small muted">work order states N=1451; the retrieved document states N=1454. The document wins.</td></tr></table>
+
+<h2>Grounded-search leads <span class="muted small">(24, unverified)</span></h2>
+<div class="sub">Leads from Gemini with Google Search grounding, used only to find candidate identifiers. Every one is re-verified against Crossref, Europe PMC, NCBI and ClinicalTrials.gov before it can enter a record.</div>
+<table><tr><th>Target</th><th>Lead DOI</th><th>Confidence</th></tr><tr><td><code>lecanemab-clarity-ad</code></td><td><code>10.1056/NEJMoa2212948</code></td><td class="small">unparsed</td></tr><tr><td><code>donanemab-trailblazer-alz-phase-2</code></td><td><code>—</code></td><td class="small">unparsed</td></tr><tr><td><code>aducanumab-emerge-engage</code></td><td><code>—</code></td><td class="small">unparsed</td></tr><tr><td><code>aducanumab-phase-1b-prime</code></td><td><code>10.1038/nature19323</code></td><td class="small">unparsed</td></tr><tr><td><code>solanezumab-expedition</code></td><td><code>—</code></td><td class="small">unparsed</td></tr><tr><td><code>semaglutide-evoke</code></td><td><code>—</code></td><td class="small">unparsed</td></tr><tr><td><code>ema-leqembi-epar</code></td><td><code>—</code></td><td class="small">unparsed</td></tr><tr><td><code>aadvac1-adamant</code></td><td><code>10.1038/s43587-021-00070-2</code></td><td class="small">unparsed</td></tr><tr><td><code>bepranemab-together</code></td><td><code>10.1002/alz70859_099279</code></td><td class="small">unparsed</td></tr><tr><td><code>al002-invoke-2</code></td><td><code>10.1038/s41591-026-04273-1</code></td><td class="small">unparsed</td></tr><tr><td><code>disease-associated-microglia</code></td><td><code>—</code></td><td class="small">unparsed</td></tr><tr><td><code>kunkle-2019-gwas</code></td><td><code>10.1038/s41588-019-0358-2</code></td><td class="small">unparsed</td></tr><tr><td><code>shade-2024-neuropathology-gwas</code></td><td><code>10.1038/s41588-024-01939-9</code></td><td class="small">unparsed</td></tr><tr><td><code>app-a673t-protection</code></td><td><code>10.1038/nature11283</code></td><td class="small">unparsed</td></tr><tr><td><code>app-a673t-mechanism</code></td><td><code>10.1074/jbc.M114.589069</code></td><td class="small">unparsed</td></tr><tr><td><code>asc-specks-cross-seed</code></td><td><code>—</code></td><td class="small">unparsed</td></tr><tr><td><code>nlrp3-heneka-2013</code></td><td><code>10.1038/nature11729</code></td><td class="small">unparsed</td></tr><tr><td><code>janelidze-2020-ptau181</code></td><td><code>10.1038/s41591-020-0755-1</code></td><td class="small">unparsed</td></tr><tr><td><code>schindler-2019-plasma-abeta</code></td><td><code>10.1212/WNL.0000000000008081</code></td><td class="small">unparsed</td></tr><tr><td><code>nakamura-2018-plasma-amyloid</code></td><td><code>10.1038/nature25456</code></td><td class="small">unparsed</td></tr><tr><td><code>mapt-trial</code></td><td><code>10.1016/S1474-4422(17)30040-6</code></td><td class="small">unparsed</td></tr><tr><td><code>lancet-commission-2024</code></td><td><code>10.1016/S0140-6736(24)01296-0</code></td><td class="small">unparsed</td></tr><tr><td><code>mendes-2025-network-meta-analysis</code></td><td><code>—</code></td><td class="small">unparsed</td></tr><tr><td><code>karran-de-strooper-amyloid-hypothesis</code></td><td><code>10.1038/s41573-022-00391-w</code></td><td class="small">unparsed</td></tr></table>
+
+<h2>All records</h2>
+<table><tr><th>State</th><th>Record</th><th>Identity</th></tr><tr>
+      <td><span class="pill validated">validated</span></td>
+      <td>A randomized, double-blind, phase 2b proof-of-concept clinical trial in early Alzheimer's <div class="muted small">Anti-amyloid monoclonal antibodies · full-text-oa</div></td>
+      <td><code>10.1186/s13195-021-00813-8</code></td>
+    </tr><tr>
+      <td><span class="pill validated">validated</span></td>
+      <td>Two Phase 3 Trials of Gantenerumab in Early Alzheimer's Disease<div class="muted small">Anti-amyloid monoclonal antibodies · full-text-oa</div></td>
+      <td><code>10.1056/nejmoa2304430</code></td>
+    </tr><tr>
+      <td><span class="pill validated">validated</span></td>
+      <td>Trial of Solanezumab in Preclinical Alzheimer's Disease<div class="muted small">Anti-amyloid monoclonal antibodies · full-text-oa</div></td>
+      <td><code>10.1056/nejmoa2305032</code></td>
+    </tr><tr>
+      <td><span class="pill validated">validated</span></td>
+      <td>Randomized Trial of Verubecestat for Mild-to-Moderate Alzheimer's Disease<div class="muted small">BACE inhibitors and secretase modulation · full-text-oa</div></td>
+      <td><code>10.1056/nejmoa1706441</code></td>
+    </tr><tr>
+      <td><span class="pill validated">validated</span></td>
+      <td>Randomized Trial of Verubecestat for Prodromal Alzheimer's Disease<div class="muted small">BACE inhibitors and secretase modulation · full-text-oa</div></td>
+      <td><code>10.1056/nejmoa1812840</code></td>
+    </tr><tr>
+      <td><span class="pill validated">validated</span></td>
+      <td>Amyloid-beta-targeting monoclonal antibodies for people with mild cognitive impairment or <div class="muted small">Anti-amyloid monoclonal antibodies · full-text-oa</div></td>
+      <td><code>10.1002/14651858.cd016297</code></td>
+    </tr><tr>
+      <td><span class="pill validated">validated</span></td>
+      <td>Amyloid-Related Imaging Abnormalities in 2 Phase 3 Studies Evaluating Aducanumab in Patien<div class="muted small">Anti-amyloid monoclonal antibodies · full-text-oa</div></td>
+      <td><code>10.1001/jamaneurol.2021.4161</code></td>
+    </tr><tr>
+      <td><span class="pill validated">validated</span></td>
+      <td>Tau-targeting antisense oligonucleotide MAPTRx in mild Alzheimer's disease<div class="muted small">Tau-targeting therapeutics · full-text-oa</div></td>
+      <td><code>10.1038/s41591-023-02326-3</code></td>
+    </tr><tr>
+      <td><span class="pill validated">validated</span></td>
+      <td>Safety and Efficacy of Semorinemab in Individuals With Prodromal to Mild Alzheimer Disease<div class="muted small">Tau-targeting therapeutics · full-text-oa</div></td>
+      <td><code>10.1001/jamaneurol.2022.1375</code></td>
+    </tr><tr>
+      <td><span class="pill validated">validated</span></td>
+      <td>Randomized phase II trial of the anti-tau antibody semorinemab in mild-to-moderate Alzheim<div class="muted small">Tau-targeting therapeutics · full-text-oa</div></td>
+      <td><code>10.1212/wnl.0000000000207663</code></td>
+    </tr><tr>
+      <td><span class="pill validated">validated</span></td>
+      <td>TANGO: a placebo-controlled randomized phase 2 study of efficacy and safety of the anti-ta<div class="muted small">Tau-targeting therapeutics · full-text-oa</div></td>
+      <td><code>10.1038/s43587-023-00523-w</code></td>
+    </tr><tr>
+      <td><span class="pill validated">validated</span></td>
+      <td>Tilavonemab in early Alzheimer's disease: results from a phase 2, randomised, double-blind<div class="muted small">Tau-targeting therapeutics · full-text-oa</div></td>
+      <td><code>10.1093/brain/awad024</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Lecanemab in Early Alzheimer's Disease<div class="muted small">Anti-amyloid monoclonal antibodies · registry-substitute</div></td>
+      <td><code>10.1056/nejmoa2212948</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Donanemab in Early Symptomatic Alzheimer Disease: the TRAILBLAZER-ALZ 2 Randomized Clinica<div class="muted small">Anti-amyloid monoclonal antibodies · full-text-oa</div></td>
+      <td><code>10.1001/jama.2023.13239</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Donanemab in Early Alzheimer's Disease<div class="muted small">Anti-amyloid monoclonal antibodies · registry-substitute</div></td>
+      <td><code>10.1056/nejmoa2100708</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Two Randomized Phase 3 Studies of Aducanumab in Early Alzheimer's Disease<div class="muted small">Anti-amyloid monoclonal antibodies · registry-substitute</div></td>
+      <td><code>NCT02484547</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>The antibody aducanumab reduces Abeta plaques in Alzheimer's disease<div class="muted small">Anti-amyloid monoclonal antibodies · registry-substitute</div></td>
+      <td><code>10.1038/nature19323</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Phase 3 Trials of Solanezumab for Mild-to-Moderate Alzheimer's Disease<div class="muted small">Anti-amyloid monoclonal antibodies</div></td>
+      <td><code>10.1056/nejmoa1312889</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Two Phase 3 Trials of Bapineuzumab in Mild-to-Moderate Alzheimer's Disease<div class="muted small">Anti-amyloid monoclonal antibodies · full-text-oa</div></td>
+      <td><code>10.1056/nejmoa1304839</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Efficacy and Safety of Lanabecestat for Treatment of Early and Mild Alzheimer Disease: The<div class="muted small">BACE inhibitors and secretase modulation · full-text-oa</div></td>
+      <td><code>10.1001/jamaneurol.2019.3988</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Oral semaglutide in early Alzheimer's disease: EVOKE and EVOKE+<div class="muted small">Anti-amyloid monoclonal antibodies · registry-substitute</div></td>
+      <td><code>10.1016/s0140-6736(26)00459-9</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Brainshuttle AD: trontinemab multiple-ascending-dose study<div class="muted small">Anti-amyloid monoclonal antibodies · registry-only</div></td>
+      <td><code>NCT04639050</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>TRONTIER study of trontinemab in early symptomatic AD<div class="muted small">Anti-amyloid monoclonal antibodies · registry-only</div></td>
+      <td><code>NCT07169578</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Second TRONTIER Phase 3 trontinemab study<div class="muted small">Anti-amyloid monoclonal antibodies · registry-only</div></td>
+      <td><code>NCT07170150</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>TRAILRUNNER-ALZ 1: remternetug in early AD<div class="muted small">Anti-amyloid monoclonal antibodies · registry-only</div></td>
+      <td><code>NCT05463731</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Remternetug in preclinical/early Alzheimer's disease<div class="muted small">Anti-amyloid monoclonal antibodies · registry-only</div></td>
+      <td><code>NCT06653153</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>INTERCEPT-AD: a Phase 1 randomized trial of sabirnetug (ACU193) in early Alzheimer's disea<div class="muted small">Anti-amyloid monoclonal antibodies · full-text-oa</div></td>
+      <td><code>10.1016/j.tjpad.2024.100005</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>ALTITUDE-AD: sabirnetug in early AD<div class="muted small">Anti-amyloid monoclonal antibodies · registry-only</div></td>
+      <td><code>NCT06335173</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>FDA converts novel Alzheimer's disease treatment to traditional approval (Leqembi)<div class="muted small">Regulatory decisions and post-market actions · regulator-or-registry</div></td>
+      <td><code>https://www.fda.gov/news-events/press-announcements/fda-conv</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>FDA approval letter for Leqembi (lecanemab-irmb), BLA 761269 supplement 1 (traditional app<div class="muted small">Regulatory decisions and post-market actions · regulator-or-registry</div></td>
+      <td><code>https://www.accessdata.fda.gov/drugsatfda_docs/appletter/202</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>FDA multidisciplinary review for Leqembi (lecanemab-irmb), BLA 761269 supplement 1<div class="muted small">Regulatory decisions and post-market actions · regulator-or-registry</div></td>
+      <td><code>https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/7612</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Leqembi (lecanemab-irmb) prescribing information, 2023 traditional approval<div class="muted small">Regulatory decisions and post-market actions · regulator-or-registry</div></td>
+      <td><code>https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/76</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>FDA summary review for Leqembi (lecanemab-irmb), BLA 761269 original accelerated approval<div class="muted small">Regulatory decisions and post-market actions · regulator-or-registry</div></td>
+      <td><code>https://www.accessdata.fda.gov/drugsatfda_docs/summary_revie</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Leqembi (lecanemab-irmb) current prescribing information<div class="muted small">Regulatory decisions and post-market actions · regulator-or-registry</div></td>
+      <td><code>https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/76</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>FDA approval letter for Kisunla (donanemab-azbt)<div class="muted small">Regulatory decisions and post-market actions · regulator-or-registry</div></td>
+      <td><code>https://www.accessdata.fda.gov/drugsatfda_docs/appletter/202</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>FDA statistical review for Kisunla (donanemab-azbt), BLA 761248<div class="muted small">Regulatory decisions and post-market actions · regulator-or-registry</div></td>
+      <td><code>https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/7612</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>FDA risk-management review for Kisunla (donanemab-azbt), BLA 761248<div class="muted small">Regulatory decisions and post-market actions · regulator-or-registry</div></td>
+      <td><code>https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/7612</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Kisunla (donanemab-azbt) prescribing information<div class="muted small">Regulatory decisions and post-market actions · regulator-or-registry</div></td>
+      <td><code>https://www.fda.gov/media/180803/download</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>EMA Leqembi (lecanemab) European public assessment report<div class="muted small">Regulatory decisions and post-market actions · regulator-or-registry</div></td>
+      <td><code>https://www.ema.europa.eu/en/medicines/human/EPAR/leqembi</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>EMA Kisunla (donanemab) public assessment report<div class="muted small">Regulatory decisions and post-market actions · regulator-or-registry</div></td>
+      <td><code>https://www.ema.europa.eu/en/documents/assessment-report/kis</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>CELIA: diranersen (BIIB080) Phase 2<div class="muted small">Tau-targeting therapeutics · registry-only</div></td>
+      <td><code>NCT05399888</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>ADAMANT: a placebo-controlled randomized phase 2 study of AADvac1, an active immunotherapy<div class="muted small">Tau-targeting therapeutics</div></td>
+      <td><code>10.1038/s43587-021-00070-2</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Bepranemab TOGETHER Phase 2 study in prodromal to mild Alzheimer's disease<div class="muted small">Tau-targeting therapeutics · full-text-oa</div></td>
+      <td><code>NCT04867616</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>DIAN-TU Tau NexGen: E2814<div class="muted small">Tau-targeting therapeutics · registry-only</div></td>
+      <td><code>NCT05269394</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>E2814 with concurrent lecanemab<div class="muted small">Tau-targeting therapeutics · registry-only</div></td>
+      <td><code>NCT06602258</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>E2814 safety and target engagement in dominantly inherited AD<div class="muted small">Tau-targeting therapeutics · registry-only</div></td>
+      <td><code>NCT04971733</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>The TREM2 agonistic antibody AL002 in early Alzheimer's disease<div class="muted small">TREM2, microglia and neuroinflammation</div></td>
+      <td><code>10.1038/s41591-026-04273-1</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>INVOKE-2: AL002 registry record<div class="muted small">TREM2, microglia and neuroinflammation · registry-only</div></td>
+      <td><code>NCT04592874</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Safety and efficacy of sargramostim (GM-CSF) in the treatment of Alzheimer's disease<div class="muted small">TREM2, microglia and neuroinflammation · full-text-oa</div></td>
+      <td><code>10.1002/trc2.12158</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Masitinib for mild-to-moderate Alzheimer's disease<div class="muted small">TREM2, microglia and neuroinflammation · full-text-oa</div></td>
+      <td><code>10.1186/s13195-023-01169-x</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Variant of TREM2 Associated with the Risk of Alzheimer's Disease<div class="muted small">Human genetics and single-cell genomics · full-text-oa</div></td>
+      <td><code>10.1056/nejmoa1211103</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>TREM2 Variants in Alzheimer's Disease<div class="muted small">Human genetics and single-cell genomics · full-text-oa</div></td>
+      <td><code>10.1056/nejmoa1211851</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>A Unique Microglia Type Associated with Restricting Development of Alzheimer's Disease<div class="muted small">TREM2, microglia and neuroinflammation</div></td>
+      <td><code>10.1016/j.cell.2017.05.018</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>The TREM2-APOE Pathway Drives the Transcriptional Phenotype of Dysfunctional Microglia in <div class="muted small">TREM2, microglia and neuroinflammation · full-text-oa</div></td>
+      <td><code>10.1016/j.immuni.2017.08.008</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Single-cell transcriptomic analysis of Alzheimer's disease<div class="muted small">Human genetics and single-cell genomics · full-text-oa</div></td>
+      <td><code>10.1038/s41586-019-1195-2</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Single-cell multiregion dissection of Alzheimer's disease<div class="muted small">Human genetics and single-cell genomics · full-text-oa</div></td>
+      <td><code>10.1038/s41586-024-07606-7</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Single-cell atlas reveals correlates of high cognitive function, dementia, and resilience <div class="muted small">Human genetics and single-cell genomics · full-text-oa</div></td>
+      <td><code>10.1016/j.cell.2023.08.039</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>New insights into the genetic etiology of Alzheimer's disease and related dementias<div class="muted small">Human genetics and single-cell genomics · full-text-oa</div></td>
+      <td><code>10.1038/s41588-022-01024-z</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>A genome-wide association study with 1,126,563 individuals identifies new risk loci for Al<div class="muted small">Human genetics and single-cell genomics · full-text-oa</div></td>
+      <td><code>10.1038/s41588-021-00921-z</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Genetic meta-analysis of diagnosed Alzheimer's disease identifies new risk loci and implic<div class="muted small">Human genetics and single-cell genomics · full-text-oa</div></td>
+      <td><code>10.1038/s41588-019-0358-2</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Consensus meta-analysis of genome-wide association studies for Alzheimer's disease and rel<div class="muted small">Human genetics and single-cell genomics · full-text-oa</div></td>
+      <td><code>10.1038/s41588-026-02583-1</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Multi-ancestry meta-analysis and fine-mapping in Alzheimer's disease<div class="muted small">Human genetics and single-cell genomics · full-text-oa</div></td>
+      <td><code>10.1038/s41380-023-02089-w</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Exome sequencing identifies rare damaging variants in ATP8B4 and ABCA1 as risk factors for<div class="muted small">Human genetics and single-cell genomics · full-text-oa</div></td>
+      <td><code>10.1038/s41588-022-01208-7</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>GWAS of multiple neuropathology endophenotypes identifies new risk loci and provides insig<div class="muted small">Human genetics and single-cell genomics · full-text-oa</div></td>
+      <td><code>10.1038/s41588-024-01939-9</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Resistance to autosomal dominant Alzheimer's disease in an APOE3 Christchurch homozygote: <div class="muted small">Human genetics and single-cell genomics · full-text-oa</div></td>
+      <td><code>10.1038/s41591-019-0611-3</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Single-nucleus RNA sequencing demonstrates an autosomal dominant Alzheimer's disease profi<div class="muted small">Human genetics and single-cell genomics · full-text-oa</div></td>
+      <td><code>10.1016/j.neuron.2024.02.009</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>The APOE-R136S mutation protects against APOE4-driven Tau pathology, neurodegeneration and<div class="muted small">Human genetics and single-cell genomics · full-text-oa</div></td>
+      <td><code>10.1038/s41593-023-01480-8</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>A mutation in APP protects against Alzheimer's disease and age-related cognitive decline<div class="muted small">Human genetics and single-cell genomics</div></td>
+      <td><code>10.1038/nature11283</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Molecular mechanisms of Alzheimer disease protection by the A673T allele of amyloid precur<div class="muted small">Human genetics and single-cell genomics · full-text-oa</div></td>
+      <td><code>10.1074/jbc.m114.589069</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Microglia-derived ASC specks cross-seed amyloid-beta in Alzheimer's disease<div class="muted small">TREM2, microglia and neuroinflammation</div></td>
+      <td><code>10.1038/nature25158</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>NLRP3 inflammasome activation drives tau pathology<div class="muted small">TREM2, microglia and neuroinflammation · full-text-oa</div></td>
+      <td><code>10.1038/s41586-019-1769-z</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>NLRP3 is activated in Alzheimer's disease and contributes to pathology in APP/PS1 mice<div class="muted small">TREM2, microglia and neuroinflammation · full-text-oa</div></td>
+      <td><code>10.1038/nature11729</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Discriminative Accuracy of Plasma Phospho-tau217 for Alzheimer Disease vs Other Neurodegen<div class="muted small">Fluid and imaging biomarkers · full-text-oa</div></td>
+      <td><code>10.1001/jama.2020.12134</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Blood phosphorylated tau 181 as a biomarker for Alzheimer's disease: a diagnostic performa<div class="muted small">Fluid and imaging biomarkers · accepted-manuscript</div></td>
+      <td><code>10.1016/s1474-4422(20)30071-5</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Plasma P-tau181 in Alzheimer's disease: relationship to other biomarkers, differential dia<div class="muted small">Fluid and imaging biomarkers</div></td>
+      <td><code>10.1038/s41591-020-0755-1</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Longitudinal plasma p-tau217 is increased in early stages of Alzheimer's disease<div class="muted small">Fluid and imaging biomarkers · full-text-oa</div></td>
+      <td><code>10.1093/brain/awaa286</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Blood Biomarkers to Detect Alzheimer Disease in Primary Care and Secondary Care<div class="muted small">Fluid and imaging biomarkers · full-text-oa</div></td>
+      <td><code>10.1001/jama.2024.13855</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Plasma phospho-tau217 for Alzheimer's disease diagnosis in primary and secondary care usin<div class="muted small">Fluid and imaging biomarkers · full-text-oa</div></td>
+      <td><code>10.1038/s41591-025-03622-w</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Predicting onset of symptomatic Alzheimer's disease with plasma p-tau217<div class="muted small">Fluid and imaging biomarkers · full-text-oa</div></td>
+      <td><code>10.1038/s41591-026-04206-y</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Blood-based biomarkers of Alzheimer's disease and incident dementia in a community populat<div class="muted small">Fluid and imaging biomarkers · full-text-oa</div></td>
+      <td><code>10.1038/s41591-025-03605-x</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>FDA clears first blood test used in diagnosing Alzheimer's disease (Lumipulse G pTau217/be<div class="muted small">Regulatory decisions and post-market actions · regulator-or-registry</div></td>
+      <td><code>https://www.fda.gov/news-events/press-announcements/fda-clea</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>FDA 510(k) decision summary K242706, Lumipulse G pTau217/beta-Amyloid 1-42 Plasma Ratio<div class="muted small">Regulatory decisions and post-market actions · regulator-or-registry</div></td>
+      <td><code>https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>FDA Class II recall / product correction for Lumipulse plasma ratio lots<div class="muted small">Regulatory decisions and post-market actions · regulator-or-registry</div></td>
+      <td><code>https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Revised criteria for diagnosis and staging of Alzheimer's disease: Alzheimer's Association<div class="muted small">Conceptual, framework and pipeline reviews · full-text-oa</div></td>
+      <td><code>10.1002/alz.13859</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease<div class="muted small">Conceptual, framework and pipeline reviews · full-text-oa</div></td>
+      <td><code>10.1016/j.jalz.2018.02.018</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>The Centiloid Project: standardizing quantitative amyloid plaque estimation by PET<div class="muted small">Fluid and imaging biomarkers · full-text-oa</div></td>
+      <td><code>10.1016/j.jalz.2014.07.003</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Amyloid and tau PET-positive cognitively unimpaired individuals are at high risk for futur<div class="muted small">Fluid and imaging biomarkers · full-text-oa</div></td>
+      <td><code>10.1038/s41591-022-02049-x</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Tau-PET is superior to phospho-tau when predicting cognitive decline in symptomatic AD pat<div class="muted small">Fluid and imaging biomarkers · full-text-oa</div></td>
+      <td><code>10.1002/alz.12875</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Plasma p-tau217 and tau-PET predict future cognitive decline<div class="muted small">Fluid and imaging biomarkers · full-text-oa</div></td>
+      <td><code>10.1038/s43587-025-00835-z</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Diagnostic Accuracy of a Plasma Phosphorylated Tau 217 Immunoassay for Alzheimer Disease P<div class="muted small">Fluid and imaging biomarkers · full-text-oa</div></td>
+      <td><code>10.1038/s43587-023-00403-3</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>High-precision plasma beta-amyloid 42/40 predicts current and future brain amyloidosis<div class="muted small">Fluid and imaging biomarkers · full-text-oa</div></td>
+      <td><code>10.1212/wnl.0000000000008081</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>High performance plasma amyloid-beta biomarkers for Alzheimer's disease<div class="muted small">Fluid and imaging biomarkers</div></td>
+      <td><code>10.1038/nature25456</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Amyloid beta concentrations and stable isotope labeling kinetics of human plasma specific <div class="muted small">Fluid and imaging biomarkers · full-text-oa</div></td>
+      <td><code>10.1016/j.jalz.2017.06.2266</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Differences Between Plasma and Cerebrospinal Fluid Glial Fibrillary Acidic Protein Levels <div class="muted small">Fluid and imaging biomarkers · full-text-oa</div></td>
+      <td><code>10.1001/jamaneurol.2021.3671</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Plasma GFAP is an early marker of amyloid-beta but not tau pathology in Alzheimer's diseas<div class="muted small">Fluid and imaging biomarkers · full-text-oa</div></td>
+      <td><code>10.1093/brain/awab223</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>The Alzheimer's Association appropriate use recommendations for blood biomarkers in Alzhei<div class="muted small">Fluid and imaging biomarkers · full-text-oa</div></td>
+      <td><code>10.1002/alz.12756</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Blood biomarkers for Alzheimer's disease in clinical practice and trials<div class="muted small">Fluid and imaging biomarkers · full-text-oa</div></td>
+      <td><code>10.1038/s43587-023-00403-3</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Structured vs Self-Guided Multidomain Lifestyle Interventions for Global Cognitive Functio<div class="muted small">Prevention and risk-reduction trials · full-text-oa</div></td>
+      <td><code>10.1001/jama.2025.12923</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>A 2 year multidomain intervention of diet, exercise, cognitive training, and vascular risk<div class="muted small">Prevention and risk-reduction trials · registry-substitute</div></td>
+      <td><code>10.1016/s0140-6736(15)60461-5</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Effect of Intensive vs Standard Blood Pressure Control on Probable Dementia: A Randomized <div class="muted small">Prevention and risk-reduction trials · full-text-oa</div></td>
+      <td><code>10.1001/jama.2018.21442</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Effect of long-term omega 3 polyunsaturated fatty acid supplementation with or without mul<div class="muted small">Prevention and risk-reduction trials</div></td>
+      <td><code>10.1016/s1474-4422(17)30040-6</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Effectiveness of a 6-year multidomain vascular care intervention to prevent dementia (preD<div class="muted small">Prevention and risk-reduction trials · accepted-manuscript</div></td>
+      <td><code>10.1016/s0140-6736(16)30950-3</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission<div class="muted small">Prevention and risk-reduction trials · accepted-manuscript</div></td>
+      <td><code>10.1016/s0140-6736(24)01296-0</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Dementia prevention, intervention, and care: 2020 report of the Lancet Commission<div class="muted small">Prevention and risk-reduction trials · full-text-oa</div></td>
+      <td><code>10.1016/s0140-6736(20)30367-6</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Single-domain and multidomain lifestyle interventions for prevention of cognitive decline:<div class="muted small">Prevention and risk-reduction trials</div></td>
+      <td><code>10.1016/j.lanhl.2025.100762</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>Alzheimer's disease drug development pipeline: 2026<div class="muted small">Conceptual, framework and pipeline reviews · full-text-oa</div></td>
+      <td><code>10.1002/trc2.70251</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>The amyloid hypothesis in Alzheimer disease: new insights from new therapeutics<div class="muted small">Conceptual, framework and pipeline reviews</div></td>
+      <td><code>10.1038/s41573-022-00391-w</code></td>
+    </tr><tr>
+      <td><span class="pill quarantined">quarantined</span></td>
+      <td>The probabilistic model of Alzheimer disease: the amyloid hypothesis revised<div class="muted small">Conceptual, framework and pipeline reviews · full-text-oa</div></td>
+      <td><code>10.1038/s41583-021-00533-w</code></td>
+    </tr></table>
+
+<div class="sub" style="margin-top:24px">Sources of truth: <code>pipeline/corpus/resolved.json</code>, <code>pipeline/corpus/acquired.json</code>, <code>raw/</code>, <code>enriched/*/gates.json</code>, <code>pipeline/corpus/rounds.json</code>.</div>
+</body></html>

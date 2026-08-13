@@ -1,0 +1,9 @@
+{
+  "id": "wightman-2021-gwas",
+  "source": "sources/wightman-2021-gwas.xml",
+  "sha256": "430b1c1b1a73b851ea4770601d6bb8db24f53e2415246a7f8d07c5e03ab503f1",
+  "bytes": 174718,
+  "chars": 40180,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:11.341Z"
+}

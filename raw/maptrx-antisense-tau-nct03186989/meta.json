@@ -1,0 +1,9 @@
+{
+  "id": "maptrx-antisense-tau-nct03186989",
+  "source": "sources/maptrx-antisense-tau-nct03186989.json",
+  "sha256": "0deebc3d630be126e0a712da370803e24425313e5d4ee54c776923b4374dc123",
+  "bytes": 167281,
+  "chars": 32380,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:11.081Z"
+}

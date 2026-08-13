@@ -1,0 +1,9 @@
+{
+  "id": "predivia-trial",
+  "source": "sources/predivia-trial.html",
+  "sha256": "60d165e0e4661a5e9e062a062528e0e8d55d7e8cc7f21ff4e60bcd3965990868",
+  "bytes": 514907,
+  "chars": 4803,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:11.148Z"
+}

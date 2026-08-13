@@ -1,0 +1,34 @@
+{
+  "id": "solanezumab-a4-prevention",
+  "adjudicated_at": "2026-08-13T16:36:02Z",
+  "rulings": [
+    {
+      "conflict_id": "solanezumab-a4-prevention#0",
+      "field": "study.population",
+      "verdict": "both",
+      "correct_value": "Cognitively unimpaired persons 65 to 85 years of age living independently without a diagnosis of mild cognitive impairment or dementia (global CDR score of 0, MMSE 25 to 30, Wechsler Memory Scale Logical Memory Delayed Recall 6 to 18) with elevated brain amyloid levels on florbetapir PET — i.e., preclinical Alzheimer's disease",
+      "quote": "Participants were eligible for screening if they were 65 to 85 years of age and were living independently without a diagnosis of mild cognitive impairment or dementia; the absence of cognitive impairment was confirmed by a global Clinical Dementia Rating (CDR) score of 0 (on an ordinal scale of 0 to 3, with 0 indicating no cognitive impairment and 3 indicating severe dementia), by a Mini–Mental State Examination (MMSE) score of 25 to 30 (range, 0 to 30, with lower scores indicating poorer cognitive performance), and by a Wechsler Memory Scale Logical Memory Delayed Recall (LMDR) score of 6 to 18 (range, 0 to 25, with lower scores indicating fewer details recalled).",
+      "reasoning": "Both readings describe the same enrolled population; reading B reproduces the abstract's summary (MMSE 25 or more) while reading A adds the Methods-level detail (independent living, MMSE 25 to 30, LMDR 6 to 18, preclinical Alzheimer's disease), all of which the document supports, so A is the more precise supported value."
+    },
+    {
+      "conflict_id": "solanezumab-a4-prevention#1",
+      "field": "safety.harms[ARIA-E].reported",
+      "verdict": "b",
+      "correct_value": "reported",
+      "quote": "One case of amyloidrelated imaging abnormalities (ARIA) with edema was reported in the solanezumab group, and two cases were reported in the placebo group.",
+      "reasoning": "The document reports ARIA-E explicitly with case counts by group in the Safety section and with a rate in the abstract ('occurred in less than 1% of the participants in each group'), so the harm is reported, not absent."
+    },
+    {
+      "conflict_id": "solanezumab-a4-prevention#2",
+      "field": "safety.harms[ARIA-H].reported",
+      "verdict": "b",
+      "correct_value": "reported",
+      "quote": "ARIA with microhemorrhage or hemosiderosis occurred in 29.2% of the participants in the solanezumab group and 32.8% of those in the placebo group.",
+      "reasoning": "The document reports ARIA with microhemorrhage or hemosiderosis with group-level incidence rates in both the abstract and the Safety section, so the harm is reported, not absent."
+    }
+  ],
+  "notes": [
+    "ARIA-H is reported in the document under the wording 'ARIA with microhemorrhage or hemosiderosis'; the record should preserve that phrasing rather than assuming the ARIA-H label used in other trials.",
+    "The ARIA-E counts (1 solanezumab, 2 placebo) mean the numerically higher rate was in the placebo group; the harm being 'reported' should not be read as a treatment-associated signal in this document."
+  ]
+}

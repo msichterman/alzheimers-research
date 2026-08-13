@@ -1,0 +1,9 @@
+{
+  "id": "trontinemab-brainshuttle-registry-nct04639050",
+  "source": "sources/trontinemab-brainshuttle-registry-nct04639050.json",
+  "sha256": "de464af6e3860d80822b9a3ebe2b168e79591766a6ace52d26b6139e0909f19f",
+  "bytes": 23490,
+  "chars": 12981,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:11.323Z"
+}

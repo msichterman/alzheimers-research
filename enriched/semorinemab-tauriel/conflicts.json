@@ -1,0 +1,28 @@
+{
+  "id": "semorinemab-tauriel",
+  "prepared_at": "2026-08-13T16:55:51.043Z",
+  "instructions": "Two independent extractions of the same retrieved document disagree on these fields. For each conflict, decide against the document which reading is correct — or that both are, or neither is. You are not told which pipeline produced which reading, and you must not guess.",
+  "conflicts": [
+    {
+      "conflict_id": "semorinemab-tauriel#0",
+      "field": "study.population",
+      "reading_a": "Individuals aged 50 to 80 years (inclusive) with prodromal to mild Alzheimer disease, MMSE scores between 20 and 30 (inclusive), and confirmed β-amyloid pathology by positron emission tomography or cerebrospinal fluid",
+      "reading_b": "Individuals aged 50 to 80 years (inclusive) with prodromal to mild AD, Mini-Mental State Examination scores between 20 and 30 (inclusive), and confirmed β-amyloid pathology",
+      "note": null
+    },
+    {
+      "conflict_id": "semorinemab-tauriel#1",
+      "field": "outcomes[primary].effect_estimate",
+      "reading_a": "placebo Δ = 2.19; semorinemab 1500 mg Δ = 2.36 (adjusted change from baseline in CDR-SB points)",
+      "reading_b": null,
+      "note": "One reading found nothing here. Decide whether the document actually states this; 'neither' is correct if it does not."
+    },
+    {
+      "conflict_id": "semorinemab-tauriel#2",
+      "field": "outcomes[primary].confidence_interval",
+      "reading_a": null,
+      "reading_b": "placebo 95% CI, 1.74-2.63; semorinemab 1500 mg 95% CI, 1.83-2.89",
+      "note": "One reading found nothing here. Decide whether the document actually states this; 'neither' is correct if it does not."
+    }
+  ]
+}

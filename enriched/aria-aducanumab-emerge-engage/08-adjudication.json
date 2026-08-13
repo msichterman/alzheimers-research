@@ -1,0 +1,156 @@
+{
+  "id": "aria-aducanumab-emerge-engage",
+  "adjudicated_at": "2026-08-13T16:34:51Z",
+  "rulings": [
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#0",
+      "field": "safety.harms[ARIA-H].reported",
+      "verdict": "a",
+      "correct_value": "reported",
+      "quote": "ARIA-microhemorrhage and ARIA–superficial siderosis occurred in 197 participants (19.1%) and 151 participants (14.7%), respectively.",
+      "reasoning": "ARIA-H is reported explicitly, with counts and percentages for both of its components in the abstract, in the Results text, and as a labelled block in Table 1 (Microhemorrhage 197 [19.1]; Superficial siderosis 151 [14.7] in the 10-mg/kg group). It is not absent."
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#1",
+      "field": "safety.harms[macrohemorrhage].reported",
+      "verdict": "a",
+      "correct_value": "reported",
+      "quote": "Larger brain hemorrhages measuring more than 1 cm in diameter were rare and balanced between placebo and aducanumab groups (placebo group: 4 [0.4%]; 10-mg/kg group: 3 [0.3%]).",
+      "reasoning": "Macrohemorrhage (brain hemorrhage >1 cm) is reported with explicit counts in the Results text and as the Table 1 row \"Hemorrhage >1 cm\" (placebo 4 [0.4]; 3 mg/kg 1 [0.1]; 6 mg/kg 3 [0.8]; 10 mg/kg 3 [0.3]). The document uses the phrase \"hemorrhage >1 cm\" rather than the word \"macrohemorrhage\", but the harm itself is reported."
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#2",
+      "field": "outcomes[Incidence of ARIA (ARIA-E or ARIA-H) during the placebo-controlled period, 10-mg/kg group].prespecified",
+      "verdict": "a",
+      "correct_value": "unclear",
+      "quote": "Most of the secondary analyses for this report were prespecified for the integrated summary of safety but were not included in the trial protocol. Some ad hoc analyses to address regulatory queries are of scientific interest and are therefore included as part of this report.",
+      "reasoning": "The document states only that \"most\" of the report's secondary analyses were prespecified and that some were ad hoc, without identifying which is which; it never labels this specific incidence analysis as prespecified. \"Unclear\" is the supported reading."
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#3",
+      "field": "outcomes[Incidence of ARIA-edema (ARIA-E)].prespecified",
+      "verdict": "b",
+      "correct_value": "unclear",
+      "quote": "Most of the secondary analyses for this report were prespecified for the integrated summary of safety but were not included in the trial protocol. Some ad hoc analyses to address regulatory queries are of scientific interest and are therefore included as part of this report.",
+      "reasoning": "The document does not attribute prespecification to any individual analysis, only to \"most\" of them collectively. Calling this outcome prespecified overstates the text; \"unclear\" is correct."
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#4",
+      "field": "outcomes[Incidence of ARIA-H (ARIA-microhemorrhage and ARIA–superficial siderosis), 10-mg/kg group].prespecified",
+      "verdict": "a",
+      "correct_value": "unclear",
+      "quote": "Most of the secondary analyses for this report were prespecified for the integrated summary of safety but were not included in the trial protocol. Some ad hoc analyses to address regulatory queries are of scientific interest and are therefore included as part of this report.",
+      "reasoning": "No statement in the document assigns prespecified status to the ARIA-H incidence analysis specifically; the only statement is the hedged \"most ... were prespecified\". \"Unclear\" is correct."
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#5",
+      "field": "outcomes[Symptomatic ARIA-E among participants with ARIA-E in the 10-mg/kg group].prespecified",
+      "verdict": "b",
+      "correct_value": "unclear",
+      "quote": "Most of the secondary analyses for this report were prespecified for the integrated summary of safety but were not included in the trial protocol. Some ad hoc analyses to address regulatory queries are of scientific interest and are therefore included as part of this report.",
+      "reasoning": "The Main Outcomes and Measures section says only that symptoms \"were reported as adverse events\"; it does not designate the symptomatic-ARIA-E analysis as prespecified, and the Methods hedge (\"most\", plus unlabelled ad hoc analyses) leaves this indeterminate."
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#6",
+      "field": "outcomes[Radiographic resolution of ARIA-E events in the 10-mg/kg group].prespecified",
+      "verdict": "b",
+      "correct_value": "unclear",
+      "quote": "Most of the secondary analyses for this report were prespecified for the integrated summary of safety but were not included in the trial protocol. Some ad hoc analyses to address regulatory queries are of scientific interest and are therefore included as part of this report.",
+      "reasoning": "Resolution of ARIA-E is reported (479 of 488 [98.2%] resolved; 404 of 488 [82.8%] within 16 weeks) but the document nowhere states that this analysis was prespecified. \"Unclear\" is correct."
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#7",
+      "field": "outcomes[Hazard of ARIA-E associated with ApoE ε4 carrier status (proportional hazards model, 10-mg/kg group)].prespecified",
+      "verdict": "a",
+      "correct_value": "unclear",
+      "quote": "A proportional hazards model to assess potential ARIA risk factors was performed (eFigure 2 in ).",
+      "reasoning": "The proportional hazards model is introduced without any statement of prespecification, and the Methods say only that \"most\" secondary analyses were prespecified while \"some ad hoc analyses\" are also included. Prespecified status for this model cannot be determined from the document."
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#8",
+      "field": "outcomes[Hazard of ARIA-E associated with ApoE ε4 carrier status (proportional hazards model, 10-mg/kg group)].tier",
+      "verdict": "a",
+      "correct_value": "secondary",
+      "quote": "This report includes secondary analyses of the trials. The primary analysis will be reported elsewhere.",
+      "reasoning": "The document characterises everything in this report as secondary analyses and never uses the term \"exploratory\"; \"secondary\" is the only tier label the text supports."
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#9",
+      "field": "outcomes[Hazard of ARIA-E associated with baseline brain microhemorrhages (proportional hazards model, 10-mg/kg group)].prespecified",
+      "verdict": "a",
+      "correct_value": "unclear",
+      "quote": "A proportional hazards model to assess potential ARIA risk factors was performed (eFigure 2 in ).",
+      "reasoning": "As with the other risk-factor hazards, the document reports the result (HR 1.7; 95% CI, 1.31-2.27) without stating whether the analysis was prespecified; the Methods hedge leaves it indeterminate."
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#10",
+      "field": "outcomes[Hazard of ARIA-E associated with baseline brain microhemorrhages (proportional hazards model, 10-mg/kg group)].tier",
+      "verdict": "b",
+      "correct_value": "secondary",
+      "quote": "This report includes secondary analyses of the trials. The primary analysis will be reported elsewhere.",
+      "reasoning": "The report is described in its entirety as secondary analyses; the document never applies the label \"exploratory\" to any analysis, so \"secondary\" is the supported tier."
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#11",
+      "field": "outcomes[Hazard of isolated ARIA-H per additional year of baseline age (proportional hazards model, 10-mg/kg group)].prespecified",
+      "verdict": "a",
+      "correct_value": "unclear",
+      "quote": "The same is true of all of these factors for increased hazard of isolated ARIA-H with the exception of baseline age, where there is increased hazard for older participants (hazard ratio [95% CI], 1.06 [1.02-1.09] per additional year).",
+      "reasoning": "The age-related hazard for isolated ARIA-H is reported as part of the risk-factor model, with no statement anywhere that this analysis was prespecified; the Methods only say \"most\" secondary analyses were prespecified."
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#12",
+      "field": "outcomes[Hazard of isolated ARIA-H per additional year of baseline age (proportional hazards model, 10-mg/kg group)].tier",
+      "verdict": "a",
+      "correct_value": "secondary",
+      "quote": "This report includes secondary analyses of the trials. The primary analysis will be reported elsewhere.",
+      "reasoning": "\"Secondary\" is the document's own description of the analyses contained in this report; \"exploratory\" appears nowhere in the text."
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#13",
+      "field": "outcomes[Course of ARIA-E events that started radiographically mild and asymptomatic with continued dosing (10-mg/kg group)].prespecified",
+      "verdict": "b",
+      "correct_value": "unclear",
+      "quote": "Based on the study protocol, participants with radiographically mild and asymptomatic ARIA could continue dosing without interruptions (eFigure 1B in ).",
+      "reasoning": "The dosing rule was protocol-based, but that does not make the analysis of the subsequent course of these 161 events a prespecified outcome, and the document never says it was; \"unclear\" is correct."
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#14",
+      "field": "outcomes[Course of ARIA-E events that started radiographically mild and asymptomatic with continued dosing (10-mg/kg group)].tier",
+      "verdict": "a",
+      "correct_value": "secondary",
+      "quote": "This report includes secondary analyses of the trials. The primary analysis will be reported elsewhere.",
+      "reasoning": "The document frames all analyses in this report as secondary and never uses the word \"exploratory\", so \"secondary\" is the only tier the text supports."
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#15",
+      "field": "outcomes[primary].met",
+      "verdict": "neither",
+      "correct_value": null,
+      "quote": "This report includes secondary analyses of the trials. The primary analysis will be reported elsewhere.",
+      "reasoning": "This publication is an ARIA-focused secondary safety analysis that explicitly defers the primary analysis to a separate report; its own Main Outcomes and Measures section states only \"Brain magnetic resonance imaging was used to monitor patients for ARIA; associated symptoms were reported as adverse events.\" There is no primary efficacy endpoint here and no statement that any primary endpoint was or was not met."
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#16",
+      "field": "outcomes[primary].effect_estimate",
+      "verdict": "neither",
+      "correct_value": null,
+      "quote": "This report includes secondary analyses of the trials. The primary analysis will be reported elsewhere.",
+      "reasoning": "Because the document reports no primary outcome of its own, it prints no effect estimate for one. The only effect estimates in the text are hazard ratios from the ARIA risk-factor model (e.g. \"HR 1.7; 95% CI, 1.31-2.27\", \"HR 2.5; 95% CI, 1.90-3.20\"), which belong to the secondary ARIA analyses, not to a primary endpoint."
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#17",
+      "field": "outcomes[primary].confidence_interval",
+      "verdict": "neither",
+      "correct_value": null,
+      "quote": "This report includes secondary analyses of the trials. The primary analysis will be reported elsewhere.",
+      "reasoning": "No primary outcome is reported in this document, so no confidence interval for one is printed. The confidence intervals that do appear (1.06 [1.02-1.09] per additional year; HR 1.7 [1.31-2.27]; HR 2.5 [1.90-3.20]) all attach to the proportional hazards ARIA risk-factor analyses."
+    }
+  ],
+  "notes": [
+    "The single controlling passage for every prespecified conflict is the Methods sentence: \"Most of the secondary analyses for this report were prespecified for the integrated summary of safety but were not included in the trial protocol. Some ad hoc analyses to address regulatory queries are of scientific interest and are therefore included as part of this report.\" Because the document says \"most\" and never identifies which analyses are the prespecified ones and which are the ad hoc ones, no individual outcome in this record can be marked prespecified=yes from this document. All nine prespecified conflicts therefore resolve to \"unclear\".",
+    "Tier conflicts are decided on the same weak footing but in the opposite direction: the document explicitly calls the whole report \"secondary analyses of the trials\", and the word \"exploratory\" does not appear anywhere in the text. Maintainers should note the residual ambiguity — the acknowledgement that \"some ad hoc analyses\" are included means an individual analysis (plausibly the proportional hazards risk-factor model, which is presented without any prespecification claim) could in fact be ad hoc. If the schema admits a distinct \"ad hoc\" or \"unclear\" tier value, that would be a more faithful encoding than either reading offered here.",
+    "Conflicts #0 and #1 are not close calls: both harms are reported with explicit numerators and percentages in Table 1 and in the Results narrative. For macrohemorrhage the document's own wording is \"Hemorrhage >1 cm\" / \"Larger brain hemorrhages measuring more than 1 cm in diameter\" rather than \"macrohemorrhage\"; the record should keep the document's phrasing if harm labels are meant to be verbatim.",
+    "Note a denominator inconsistency in the source itself, in case downstream numbers are checked: ARIA-E resolution percentages are computed over 488 events (479/488 [98.2%]) while participant-level ARIA-E counts use 362 participants, and seizure incidence in the 10-mg/kg group is reported over n = 1033 (4 of 1033 [0.4%]) rather than the n = 1029 MRI safety population used elsewhere."
+  ]
+}

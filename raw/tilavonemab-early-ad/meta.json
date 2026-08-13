@@ -1,0 +1,9 @@
+{
+  "id": "tilavonemab-early-ad",
+  "source": "sources/tilavonemab-early-ad.xml",
+  "sha256": "0f0c2a2ccb374db2a46aed684ea03b5df4c3c86031b9dfe01cf5f01aa376aaaa",
+  "bytes": 99489,
+  "chars": 38038,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:11.310Z"
+}

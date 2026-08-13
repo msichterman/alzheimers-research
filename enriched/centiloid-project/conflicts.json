@@ -1,0 +1,49 @@
+{
+  "id": "centiloid-project",
+  "prepared_at": "2026-08-13T16:55:51.035Z",
+  "instructions": "Two independent extractions of the same retrieved document disagree on these fields. For each conflict, decide against the document which reading is correct — or that both are, or neither is. You are not told which pipeline produced which reading, and you must not guess.",
+  "conflicts": [
+    {
+      "conflict_id": "centiloid-project#0",
+      "field": "study.population",
+      "reading_a": "Two anchor groups plus a separate VOI-definition set: cognitively normal subjects under 45 years of age (34 young controls, 31.5 ± 6.3 years, range 22-43); patients diagnosed with AD by 1984 NINCDS-ADRDA criteria with a Clinical Dementia Rating global score of 0.5 or 1 (45 analysed, mean age 67.5 ± 10.5 yrs, range 50 to 89); and separately 19 AD-CTX subjects and 25 amyloid-negative older controls used only to define the cortical target region",
+      "reading_b": "young controls (≤45 years) and typical Alzheimer’s disease patients",
+      "note": null
+    },
+    {
+      "conflict_id": "centiloid-project#1",
+      "field": "study.design",
+      "reading_a": null,
+      "reading_b": "A methods and standardisation study by a working group: a cross-sectional calibration that linearly scales the outcome of any amyloid PET analysis method or tracer onto a 0 to 100 'Centiloid' (CL) scale anchored at the mean of young controls (0) and the mean of typical Alzheimer's disease patients (100). The process has three levels: Level-1 defines the standard method and the anchor points; Level-2 is how an independent site calibrates its own tracer or method to the scale; Level-3 is exact reproduction of an already-calibrated method as a pipeline check.",
+      "note": "One reading found nothing here. Decide whether the document actually states this; 'neither' is correct if it does not."
+    },
+    {
+      "conflict_id": "centiloid-project#2",
+      "field": "study.n",
+      "reading_a": null,
+      "reading_b": null,
+      "note": "One reading found nothing here. Decide whether the document actually states this; 'neither' is correct if it does not."
+    },
+    {
+      "conflict_id": "centiloid-project#3",
+      "field": "outcomes[primary].met",
+      "reading_a": "not_applicable",
+      "reading_b": null,
+      "note": "One reading found nothing here. Decide whether the document actually states this; 'neither' is correct if it does not."
+    },
+    {
+      "conflict_id": "centiloid-project#4",
+      "field": "outcomes[primary].effect_estimate",
+      "reading_a": null,
+      "reading_b": "1.009 SUVr, set to 0 CL",
+      "note": "One reading found nothing here. Decide whether the document actually states this; 'neither' is correct if it does not."
+    },
+    {
+      "conflict_id": "centiloid-project#5",
+      "field": "outcomes[primary].confidence_interval",
+      "reading_a": null,
+      "reading_b": null,
+      "note": "One reading found nothing here. Decide whether the document actually states this; 'neither' is correct if it does not."
+    }
+  ]
+}

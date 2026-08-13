@@ -1,0 +1,371 @@
+{
+  "id": "maptrx-antisense-tau",
+  "checked_at": "2026-08-13T16:33:21.318Z",
+  "builder_model": "claude (builder subagent)",
+  "critic_model": "gemini-3.1-pro-preview",
+  "fields_compared": 29,
+  "disagreements": 4,
+  "conflicts": 2,
+  "coverage_gaps": 2,
+  "agreement_rate": 0.862,
+  "passed": false,
+  "needs_adjudication": true,
+  "disagreement_rows": [
+    {
+      "field": "study.population",
+      "builder": "Adults aged 50–74 years with mild AD, defined by CDR Overall Global Score of 1 or Global Score of 0.5 with a Memory Score of 1, MMSE 20–27 inclusive, a CSF pattern of low Aβ42 and elevated t-tau and p-tau, and a diagnosis of probable AD by NIA-AA criteria",
+      "critic": "mild AD, defined by a CDR Overall Global Score of 1 or Global Score of 0.5 with a Memory Score of 1, Mini-Mental State Examination score (MMSE ) of 20–27 inclusive",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.intervention",
+      "builder": "MAPT Rx (ISIS 814907/BIIB080), a tau-targeting antisense oligonucleotide, given as intrathecal bolus injections: 10 mg, 30 mg or 60 mg monthly (four doses each) or 115 mg quarterly (two doses)",
+      "critic": "intrathecal bolus administrations of MAPT Rx or placebo every 4 or 12 weeks",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "Adverse events in 94% of MAPT Rx-treated participants versus 75% of placebo-treated participants; all mild (88%) or moderate (12%); no serious adverse events in MAPT Rx-treated participants",
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": null,
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ],
+  "conflict_rows": [
+    {
+      "field": "study.population",
+      "builder": "Adults aged 50–74 years with mild AD, defined by CDR Overall Global Score of 1 or Global Score of 0.5 with a Memory Score of 1, MMSE 20–27 inclusive, a CSF pattern of low Aβ42 and elevated t-tau and p-tau, and a diagnosis of probable AD by NIA-AA criteria",
+      "critic": "mild AD, defined by a CDR Overall Global Score of 1 or Global Score of 0.5 with a Memory Score of 1, Mini-Mental State Examination score (MMSE ) of 20–27 inclusive",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.intervention",
+      "builder": "MAPT Rx (ISIS 814907/BIIB080), a tau-targeting antisense oligonucleotide, given as intrathecal bolus injections: 10 mg, 30 mg or 60 mg monthly (four doses each) or 115 mg quarterly (two doses)",
+      "critic": "intrathecal bolus administrations of MAPT Rx or placebo every 4 or 12 weeks",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ],
+  "builder_values_not_found_in_document": [],
+  "critic_values_not_found_in_document": [],
+  "all_rows": [
+    {
+      "field": "study.design",
+      "builder": "randomized, double-blind, placebo-controlled, multicenter, multiple-ascending dose (MAD) phase 1b trial with an open-label long-term extension",
+      "critic": "randomized, double-blind, placebo-controlled, multiple-ascending dose phase 1b trial",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.n",
+      "builder": 46,
+      "critic": 46,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.population",
+      "builder": "Adults aged 50–74 years with mild AD, defined by CDR Overall Global Score of 1 or Global Score of 0.5 with a Memory Score of 1, MMSE 20–27 inclusive, a CSF pattern of low Aβ42 and elevated t-tau and p-tau, and a diagnosis of probable AD by NIA-AA criteria",
+      "critic": "mild AD, defined by a CDR Overall Global Score of 1 or Global Score of 0.5 with a Memory Score of 1, Mini-Mental State Examination score (MMSE ) of 20–27 inclusive",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.comparator",
+      "builder": "placebo (artificial CSF), administered as bolus intrathecal injection, randomized 3:1 within each dose cohort; placebo group pooled for analyses",
+      "critic": "placebo",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.followup",
+      "builder": "13-week treatment period followed by a 23-week post-treatment period (with an optional open-label long-term extension, part 2)",
+      "critic": "13-week treatment period, followed by a 23 week post-treatment period",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.intervention",
+      "builder": "MAPT Rx (ISIS 814907/BIIB080), a tau-targeting antisense oligonucleotide, given as intrathecal bolus injections: 10 mg, 30 mg or 60 mg monthly (four doses each) or 115 mg quarterly (two doses)",
+      "critic": "intrathecal bolus administrations of MAPT Rx or placebo every 4 or 12 weeks",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.phase",
+      "builder": "phase 1b (first-in-human)",
+      "critic": "phase 1b",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "primary_endpoint_status.status",
+      "builder": "met",
+      "critic": "met",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "multiplicity.approach",
+      "builder": "none stated — the document describes only descriptive summarization of safety, PK, PD, exploratory and clinical endpoints by treatment group and does not address control for multiple comparisons",
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[primary].name",
+      "builder": "Safety of MAPT Rx (adverse events, physical and neurologic examination, Columbia Suicide Severity Rating Scale, laboratory assessments, vital signs, electrocardiograms and safety MRI)",
+      "critic": "safety",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].met",
+      "builder": "met",
+      "critic": "met",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "Adverse events in 94% of MAPT Rx-treated participants versus 75% of placebo-treated participants; all mild (88%) or moderate (12%); no serious adverse events in MAPT Rx-treated participants",
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": null,
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].p_value",
+      "builder": null,
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].multiplicity_controlled",
+      "builder": "unclear",
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[ARIA-E].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[ARIA-H].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[symptomatic ARIA].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[macrohemorrhage].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[death].reported",
+      "builder": "reported",
+      "critic": "reported",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[death].counts",
+      "builder": "all trial participants (MAPT Rx and placebo): 0",
+      "critic": "all: 0",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.apoe_stratification_reported",
+      "builder": false,
+      "critic": false,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[Safety of MAPT Rx (adverse events, physical and neurologic examination, Columbia Suicide Severity Rating Scale, laboratory assessments, vital signs, electrocardiograms and safety MRI)].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[Safety of MAPT Rx (adverse events, physical and neurologic examination, Columbia Suicide Severity Rating Scale, laboratory assessments, vital signs, electrocardiograms and safety MRI)].tier",
+      "builder": "primary",
+      "critic": "primary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[MAPT Rx pharmacokinetics in cerebrospinal fluid (CSF)].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[MAPT Rx pharmacokinetics in cerebrospinal fluid (CSF)].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[CSF total-tau (t-tau) protein concentration — mean percentage change from baseline at 24 weeks post-last dose (prespecified key exploratory outcome)].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[CSF total-tau (t-tau) protein concentration — mean percentage change from baseline at 24 weeks post-last dose (prespecified key exploratory outcome)].tier",
+      "builder": "exploratory",
+      "critic": "exploratory",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ]
+}

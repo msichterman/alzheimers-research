@@ -1,0 +1,517 @@
+{
+  "id": "fda-kisunla-statistical-review",
+  "checked_at": "2026-08-13T16:53:29.767Z",
+  "builder_model": "claude (builder subagent)",
+  "critic_model": "gemini-3.1-pro-preview",
+  "fields_compared": 39,
+  "disagreements": 5,
+  "conflicts": 5,
+  "coverage_gaps": 0,
+  "agreement_rate": 0.872,
+  "passed": false,
+  "needs_adjudication": true,
+  "disagreement_rows": [
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "3.3 iADRS points (NCS2 difference in adjusted mean change from baseline)",
+      "critic": "2.9",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": "95% CI 1.9, 4.6",
+      "critic": "95% CI 1.5, 4.3",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[ADAS-Cog13 change from baseline at Week 76 with death imputed as the worst score (FDA-requested sensitivity analysis)].prespecified",
+      "builder": "no",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[ADAS-Cog13 change from baseline at Week 76 with death imputed as the worst score (FDA-requested sensitivity analysis)].tier",
+      "builder": "post_hoc",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Brain amyloid change from baseline at Week 76 by amyloid PET (Phase 2 Study AACG)].tier",
+      "builder": "exploratory",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ],
+  "conflict_rows": [
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "3.3 iADRS points (NCS2 difference in adjusted mean change from baseline)",
+      "critic": "2.9",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": "95% CI 1.9, 4.6",
+      "critic": "95% CI 1.5, 4.3",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[ADAS-Cog13 change from baseline at Week 76 with death imputed as the worst score (FDA-requested sensitivity analysis)].prespecified",
+      "builder": "no",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[ADAS-Cog13 change from baseline at Week 76 with death imputed as the worst score (FDA-requested sensitivity analysis)].tier",
+      "builder": "post_hoc",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Brain amyloid change from baseline at Week 76 by amyloid PET (Phase 2 Study AACG)].tier",
+      "builder": "exploratory",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ],
+  "builder_values_not_found_in_document": [],
+  "critic_values_not_found_in_document": [
+    {
+      "path": "safety.serious_adverse_events",
+      "value": "148 (17.4%) on donanemab and 138 (15.8%) on placebo",
+      "quote": "SAE Incidence 148 (17.4%) 138 (15.8%)"
+    }
+  ],
+  "all_rows": [
+    {
+      "field": "study.design",
+      "builder": "multicenter, randomized, double-blind, placebo-controlled, Phase 3 study of participants with early symptomatic AD (Study I5T-MC-AACI); the review also covers the Phase 2 study I5T-MC-AACG",
+      "critic": "multicenter, randomized, double-blind, placebo-controlled, Phase 3 study",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.n",
+      "builder": 1736,
+      "critic": 1736,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.population",
+      "builder": "Early symptomatic AD with the presence of brain amyloid and tau pathology (intermediate and high); main inclusion criteria included age 60 to 85 years and MMSE 20 to 28",
+      "critic": "early symptomatic AD with the presence of brain amyloid and tau pathology (intermediate and high)",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.comparator",
+      "builder": "matching placebo administered IV Q4W",
+      "critic": "placebo IV Q4W",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.followup",
+      "builder": "up to 72 weeks of treatment with final endpoint measures at Week 76 (double-blind period); mortality assessed at 76 weeks and 76 weeks + 57 days",
+      "critic": "76 weeks",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.intervention",
+      "builder": "Donanemab 700 mg IV every four weeks for the first 3 doses, then 1400 mg IV Q4W",
+      "critic": "Donanemab: 700 mg administered by intravenous (IV) infusion once every four weeks (Q4W) for the first 3 doses, then 1400 mg IV Q4W",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.phase",
+      "builder": "Phase 3 (Study AACI); Phase 2 (Study AACG)",
+      "critic": "Phase 3",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "primary_endpoint_status.status",
+      "builder": "met",
+      "critic": "met",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "multiplicity.approach",
+      "builder": "Prespecified hypothesis testing plan using Bretz's graphical approach with alpha recycling, controlling the study-wise two-sided Type I error rate at 0.05, with 0.04 allocated to the intermediate tau population and 0.01 to the overall population (Study AACI); the Phase 2 Study AACG used a graphical approach that did not include a pathway for multiplicity adjusted testing of amyloid deposition",
+      "critic": "Bretz’s graphical approach",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].name",
+      "builder": "iADRS (integrated Alzheimer's Disease Rating Scale) change from baseline at Week 76, intermediate tau population (Study AACI)",
+      "critic": "iADRS (integrated Alzheimer’s Disease Rating Scale) change from baseline at Week 76",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].met",
+      "builder": "met",
+      "critic": "met",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "3.3 iADRS points (NCS2 difference in adjusted mean change from baseline)",
+      "critic": "2.9",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": "95% CI 1.9, 4.6",
+      "critic": "95% CI 1.5, 4.3",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].p_value",
+      "builder": "p < 0.001",
+      "critic": "p < 0.001",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].multiplicity_controlled",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[ARIA-E].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[ARIA-H].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[symptomatic ARIA].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[macrohemorrhage].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[death].reported",
+      "builder": "reported",
+      "critic": "reported",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[death].counts",
+      "builder": "Donanemab: 17 | Placebo: 10 | Donanemab and placebo (risk difference 1.1%): 19 donanemab (2.5%) and 11 placebo (1.4%), per Table 5A | Donanemab: 19 | Placebo: 10 | Donanemab (N = 984) and placebo (N = 999): 18 donanemab (IR 1.44 per 100 PY); 11 placebo (IR 0.84 per 100 PY) | Donanemab and placebo (o",
+      "critic": "Donanemab: 17 | Placebo: 10 | Donanemab: 19 | Placebo: 11",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.apoe_stratification_reported",
+      "builder": false,
+      "critic": false,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[iADRS (integrated Alzheimer's Disease Rating Scale) change from baseline at Week 76, intermediate tau population (Study AACI)].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[iADRS (integrated Alzheimer's Disease Rating Scale) change from baseline at Week 76, intermediate tau population (Study AACI)].tier",
+      "builder": "primary",
+      "critic": "primary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[CDR-SB (Clinical Dementia Rating Scale - Sum of Boxes) change from baseline at Week 76 (Study AACI)].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[CDR-SB (Clinical Dementia Rating Scale - Sum of Boxes) change from baseline at Week 76 (Study AACI)].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[ADCS-iADL change from baseline at Week 76 (Study AACI)].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[ADCS-iADL change from baseline at Week 76 (Study AACI)].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[ADAS-Cog13 change from baseline at Week 76 (Study AACI)].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[ADAS-Cog13 change from baseline at Week 76 (Study AACI)].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Time to substantial decline in CDR global score (CDR-G) by Week 76 (Study AACI)].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Time to substantial decline in CDR global score (CDR-G) by Week 76 (Study AACI)].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Amyloid centiloid change from baseline at Week 76 by amyloid PET (Study AACI)].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Amyloid centiloid change from baseline at Week 76 by amyloid PET (Study AACI)].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[ADAS-Cog13 change from baseline at Week 76 with death imputed as the worst score (FDA-requested sensitivity analysis)].prespecified",
+      "builder": "no",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[ADAS-Cog13 change from baseline at Week 76 with death imputed as the worst score (FDA-requested sensitivity analysis)].tier",
+      "builder": "post_hoc",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Brain amyloid change from baseline at Week 76 by amyloid PET (Phase 2 Study AACG)].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Brain amyloid change from baseline at Week 76 by amyloid PET (Phase 2 Study AACG)].tier",
+      "builder": "exploratory",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ]
+}

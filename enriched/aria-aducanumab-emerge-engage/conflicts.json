@@ -1,0 +1,133 @@
+{
+  "id": "aria-aducanumab-emerge-engage",
+  "prepared_at": "2026-08-13T16:55:51.032Z",
+  "instructions": "Two independent extractions of the same retrieved document disagree on these fields. For each conflict, decide against the document which reading is correct — or that both are, or neither is. You are not told which pipeline produced which reading, and you must not guess.",
+  "conflicts": [
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#0",
+      "field": "safety.harms[ARIA-H].reported",
+      "reading_a": "reported",
+      "reading_b": "absent",
+      "note": null
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#1",
+      "field": "safety.harms[macrohemorrhage].reported",
+      "reading_a": "reported",
+      "reading_b": "absent",
+      "note": null
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#2",
+      "field": "outcomes[Incidence of ARIA (ARIA-E or ARIA-H) during the placebo-controlled period, 10-mg/kg group].prespecified",
+      "reading_a": "unclear",
+      "reading_b": "yes",
+      "note": null
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#3",
+      "field": "outcomes[Incidence of ARIA-edema (ARIA-E)].prespecified",
+      "reading_a": "yes",
+      "reading_b": "unclear",
+      "note": null
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#4",
+      "field": "outcomes[Incidence of ARIA-H (ARIA-microhemorrhage and ARIA–superficial siderosis), 10-mg/kg group].prespecified",
+      "reading_a": "unclear",
+      "reading_b": "yes",
+      "note": null
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#5",
+      "field": "outcomes[Symptomatic ARIA-E among participants with ARIA-E in the 10-mg/kg group].prespecified",
+      "reading_a": "yes",
+      "reading_b": "unclear",
+      "note": null
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#6",
+      "field": "outcomes[Radiographic resolution of ARIA-E events in the 10-mg/kg group].prespecified",
+      "reading_a": "yes",
+      "reading_b": "unclear",
+      "note": null
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#7",
+      "field": "outcomes[Hazard of ARIA-E associated with ApoE ε4 carrier status (proportional hazards model, 10-mg/kg group)].prespecified",
+      "reading_a": "unclear",
+      "reading_b": "yes",
+      "note": null
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#8",
+      "field": "outcomes[Hazard of ARIA-E associated with ApoE ε4 carrier status (proportional hazards model, 10-mg/kg group)].tier",
+      "reading_a": "secondary",
+      "reading_b": "exploratory",
+      "note": null
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#9",
+      "field": "outcomes[Hazard of ARIA-E associated with baseline brain microhemorrhages (proportional hazards model, 10-mg/kg group)].prespecified",
+      "reading_a": "unclear",
+      "reading_b": "yes",
+      "note": null
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#10",
+      "field": "outcomes[Hazard of ARIA-E associated with baseline brain microhemorrhages (proportional hazards model, 10-mg/kg group)].tier",
+      "reading_a": "exploratory",
+      "reading_b": "secondary",
+      "note": null
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#11",
+      "field": "outcomes[Hazard of isolated ARIA-H per additional year of baseline age (proportional hazards model, 10-mg/kg group)].prespecified",
+      "reading_a": "unclear",
+      "reading_b": "yes",
+      "note": null
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#12",
+      "field": "outcomes[Hazard of isolated ARIA-H per additional year of baseline age (proportional hazards model, 10-mg/kg group)].tier",
+      "reading_a": "secondary",
+      "reading_b": "exploratory",
+      "note": null
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#13",
+      "field": "outcomes[Course of ARIA-E events that started radiographically mild and asymptomatic with continued dosing (10-mg/kg group)].prespecified",
+      "reading_a": "yes",
+      "reading_b": "unclear",
+      "note": null
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#14",
+      "field": "outcomes[Course of ARIA-E events that started radiographically mild and asymptomatic with continued dosing (10-mg/kg group)].tier",
+      "reading_a": "secondary",
+      "reading_b": "exploratory",
+      "note": null
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#15",
+      "field": "outcomes[primary].met",
+      "reading_a": null,
+      "reading_b": null,
+      "note": "One reading found nothing here. Decide whether the document actually states this; 'neither' is correct if it does not."
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#16",
+      "field": "outcomes[primary].effect_estimate",
+      "reading_a": null,
+      "reading_b": null,
+      "note": "One reading found nothing here. Decide whether the document actually states this; 'neither' is correct if it does not."
+    },
+    {
+      "conflict_id": "aria-aducanumab-emerge-engage#17",
+      "field": "outcomes[primary].confidence_interval",
+      "reading_a": null,
+      "reading_b": null,
+      "note": "One reading found nothing here. Decide whether the document actually states this; 'neither' is correct if it does not."
+    }
+  ]
+}

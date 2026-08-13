@@ -1,0 +1,837 @@
+{
+  "generated_at": "2026-08-13T16:48:59.424Z",
+  "note": "Unverified leads from grounded search. Every field must be re-verified by pipeline/resolve.mjs against Crossref/Europe PMC/NCBI/ClinicalTrials.gov before use.",
+  "leads": {
+    "lecanemab-clarity-ad": {
+      "id": "lecanemab-clarity-ad",
+      "lead": {
+        "title": "Lecanemab in Early Alzheimer's Disease",
+        "authors": [
+          "Christopher H van Dyck",
+          "Chad J Swanson",
+          "Paul Aisen",
+          "Randall J Bateman",
+          "Christopher Chen",
+          "Michelle Gee",
+          "Michio Kanekiyo",
+          "David Li",
+          "Larisa Reyderman",
+          "Sharon Cohen",
+          "Lutz Froelich",
+          "Sadao Katayama",
+          "Marwan Sabbagh",
+          "Bruno Vellas",
+          "David Watson",
+          "Shobha Dhadda",
+          "Michael Irizarry",
+          "Lynn D Kramer",
+          "Takeshi Iwatsubo"
+        ],
+        "year": 2023,
+        "doi": "10.1056/NEJMoa2212948",
+        "open_access_urls": [
+          "https://digitalcommons.wustl.edu/oa_4/2191"
+        ]
+      },
+      "raw": null,
+      "grounding_citations": [],
+      "model": "gemini-3.1-pro-preview",
+      "generated_at": "2026-08-13T16:41:45.671Z",
+      "status": "unverified-lead"
+    },
+    "donanemab-trailblazer-alz-phase-2": {
+      "id": "donanemab-trailblazer-alz-phase-2",
+      "lead": {
+        "title": "Donanemab in Early Alzheimer's Disease",
+        "authors": [
+          "Mintun MA",
+          "Lo AC",
+          "Duggan Evans C",
+          "Wessels AM",
+          "Ardayfio PA",
+          "Andersen SW",
+          "Shcherbinin S",
+          "Sparks J",
+          "Sims JR",
+          "Brys M",
+          "Apostolova LG",
+          "Salloway SP",
+          "Skovronsky DM"
+        ],
+        "year": 2021,
+        "open_access_urls": []
+      },
+      "raw": null,
+      "grounding_citations": [],
+      "model": "gemini-3.1-pro-preview",
+      "generated_at": "2026-08-13T16:41:33.777Z",
+      "status": "unverified-lead"
+    },
+    "aducanumab-emerge-engage": {
+      "id": "aducanumab-emerge-engage",
+      "lead": {
+        "title": "Two Randomized Phase 3 Studies of Aducanumab in Early Alzheimer's Disease",
+        "authors": [
+          "Samantha Budd Haeberlein",
+          "P. S. Aisen",
+          "F. Barkhof",
+          "S. Chalkias",
+          "T. Chen",
+          "S. Cohen",
+          "G. Dent",
+          "O. Hansson",
+          "K. Harrison",
+          "C. von Hehn",
+          "T. Iwatsubo",
+          "C. Mallinckrodt",
+          "C. J. Mummery",
+          "K. K. Muralidharan",
+          "I. Nestorov",
+          "L. Nisenbaum",
+          "R. Rajagovindan",
+          "L. Skordos",
+          "Y. Tian",
+          "C. H. van Dyck",
+          "B. Vellas",
+          "S. Wu",
+          "Y. Zhu",
+          "A. Sandrock"
+        ],
+        "year": 2022,
+        "open_access_urls": [
+          "https://link.springer.com/article/10.14283/jpad.2022.30"
+        ]
+      },
+      "raw": null,
+      "grounding_citations": [],
+      "model": "gemini-3.1-pro-preview",
+      "generated_at": "2026-08-13T16:41:41.210Z",
+      "status": "unverified-lead"
+    },
+    "aducanumab-phase-1b-prime": {
+      "id": "aducanumab-phase-1b-prime",
+      "lead": {
+        "title": "The antibody aducanumab reduces Aβ plaques in Alzheimer's disease",
+        "authors": [
+          "Sevigny J",
+          "Chiao P",
+          "Bussière T",
+          "Weinreb PH",
+          "Williams L",
+          "Maier M",
+          "Dunstan R",
+          "Salloway S",
+          "Chen T",
+          "Ling Y",
+          "O'Gorman J",
+          "Qian F",
+          "Arastu M",
+          "Li M",
+          "Chollate S",
+          "Brennan MS",
+          "Quintero-Monzon O",
+          "Scannevin RH",
+          "Arnold HM",
+          "Engber T",
+          "Rhodes K",
+          "Ferrero J",
+          "Hang Y",
+          "Mikulskis A",
+          "Grimm J",
+          "Hock C",
+          "Nitsch RM",
+          "Sandrock A"
+        ],
+        "year": 2016,
+        "doi": "10.1038/nature19323",
+        "open_access_urls": []
+      },
+      "raw": null,
+      "grounding_citations": [],
+      "model": "gemini-3.1-pro-preview",
+      "generated_at": "2026-08-13T16:42:52.551Z",
+      "status": "unverified-lead"
+    },
+    "solanezumab-expedition": {
+      "id": "solanezumab-expedition",
+      "lead": {
+        "title": "Phase 3 trials of solanezumab for mild-to-moderate Alzheimer's disease",
+        "authors": [
+          "Rachelle S Doody",
+          "Ronald G Thomas",
+          "Martin Farlow",
+          "Takeshi Iwatsubo",
+          "Bruno Vellas",
+          "Steven Joffe",
+          "Karl Kieburtz",
+          "Rema Raman",
+          "Xiaoying Sun",
+          "Paul S Aisen",
+          "Eric Siemers",
+          "Hong Liu-Seifert",
+          "Richard Mohs"
+        ],
+        "year": 2014,
+        "open_access_urls": []
+      },
+      "raw": null,
+      "grounding_citations": [],
+      "model": "gemini-3.1-pro-preview",
+      "generated_at": "2026-08-13T16:43:11.929Z",
+      "status": "unverified-lead"
+    },
+    "semaglutide-evoke": {
+      "id": "semaglutide-evoke",
+      "lead": {
+        "title": "Efficacy and safety of oral semaglutide 14 mg (flexible dose) in early-stage symptomatic Alzheimer's disease (evoke and evoke+): two phase 3, randomised, placebo-controlled trials",
+        "authors": [
+          "Cummings JL",
+          "Atri A",
+          "Sano M",
+          "Zetterberg H",
+          "Scheltens P",
+          "Knop FK",
+          "Johannsen P",
+          "Wichmann CA",
+          "Abschneider RM",
+          "Leon T",
+          "Feldman HH"
+        ],
+        "year": 2026,
+        "open_access_urls": [
+          "https://doi.org/10.1016/S0140-6736(26)00459-9"
+        ]
+      },
+      "raw": null,
+      "grounding_citations": [],
+      "model": "gemini-3.1-pro-preview",
+      "generated_at": "2026-08-13T16:42:20.176Z",
+      "status": "unverified-lead"
+    },
+    "ema-leqembi-epar": {
+      "id": "ema-leqembi-epar",
+      "lead": {
+        "title": "Leqembi: EPAR - Public assessment report",
+        "authors": [
+          "European Medicines Agency"
+        ],
+        "year": 2025,
+        "open_access_urls": [
+          "https://www.ema.europa.eu/en/documents/assessment-report/leqembi-epar-public-assessment-report_en.pdf",
+          "https://www.ema.europa.eu/en/medicines/human/EPAR/leqembi"
+        ]
+      },
+      "raw": null,
+      "grounding_citations": [],
+      "model": "gemini-3.1-pro-preview",
+      "generated_at": "2026-08-13T16:42:42.225Z",
+      "status": "unverified-lead"
+    },
+    "aadvac1-adamant": {
+      "id": "aadvac1-adamant",
+      "lead": {
+        "title": "ADAMANT: a placebo-controlled randomized phase 2 study of AADvac1, an active immunotherapy against pathological tau in Alzheimer's disease",
+        "authors": [
+          "Petr Novak",
+          "Branislav Kovacech",
+          "Stanislav Katina",
+          "Reinhold Schmidt",
+          "Philip Scheltens",
+          "Eva Kontsekova",
+          "Stefan Ropele",
+          "Lubica Fialova",
+          "Milica Kramberger",
+          "Natalia Paulenka-Ivanovova",
+          "Miroslav Smisek",
+          "Jozef Hanes",
+          "Eva Stevens",
+          "Andrej Kovac",
+          "Stanislav Sutovsky",
+          "Vojtech Parrak",
+          "Peter Koson",
+          "Michal Prcina",
+          "Jaroslav Galba",
+          "Martin Cente",
+          "Tomas Hromadka",
+          "Peter Filipcik",
+          "Juraj Piestansky",
+          "Maria Samcova",
+          "Carmen Prenn-Gologranc",
+          "Roman Sivak",
+          "Lutz Froelich",
+          "Michal Fresser",
+          "Martin Rakusa",
+          "John Harrison",
+          "Jakub Hort",
+          "Markus Otto",
+          "Duygu Tosun",
+          "Matej Ondrus",
+          "Bengt Winblad",
+          "Michal Novak",
+          "Norbert Zilka"
+        ],
+        "year": 2021,
+        "doi": "10.1038/s43587-021-00070-2",
+        "open_access_urls": []
+      },
+      "raw": null,
+      "grounding_citations": [],
+      "model": "gemini-3.1-pro-preview",
+      "generated_at": "2026-08-13T16:43:53.189Z",
+      "status": "unverified-lead"
+    },
+    "bepranemab-together": {
+      "id": "bepranemab-together",
+      "lead": {
+        "title": "Tau positron emission tomography results from TOGETHER, a double‐blind, placebo‐controlled Phase II study of bepranemab in prodromal–mild Alzheimer's disease",
+        "authors": [
+          "Ralph P Maguire",
+          "William Byrnes",
+          "Matthew E Barton",
+          "Irene Rebollo Mesa",
+          "Tim J Buchanan",
+          "Bart Van Den Steen",
+          "Hans L.G Van Tricht",
+          "Katie Taiyari",
+          "Omobola Famodimu",
+          "Jos Bloemers",
+          "Steve Einstein",
+          "Colin Ewen"
+        ],
+        "year": 2025,
+        "doi": "10.1002/alz70859_099279",
+        "open_access_urls": [
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12739807/",
+          "https://europepmc.org/article/PMC/PMC12739807"
+        ]
+      },
+      "raw": null,
+      "grounding_citations": [],
+      "model": "gemini-3.1-pro-preview",
+      "generated_at": "2026-08-13T16:43:41.174Z",
+      "status": "unverified-lead"
+    },
+    "al002-invoke-2": {
+      "id": "al002-invoke-2",
+      "lead": {
+        "title": "The TREM2 agonistic antibody AL002 in early Alzheimer's disease: a phase 2 randomized trial",
+        "authors": [
+          "Catherine J Mummery",
+          "Arthur J Mayorga",
+          "Adam Simmons",
+          "T W Chow",
+          "B Burgess",
+          "T Nguyen",
+          "J Gao",
+          "B Budda",
+          "L Q Park",
+          "R Gupta",
+          "C Li",
+          "L Shi",
+          "S Kenkare-Mitra",
+          "A Rosenthal",
+          "R Paul",
+          "M Ward",
+          "D D Purcell",
+          "S Salloway",
+          "M Grundman",
+          "G Romano",
+          "G Salvadore"
+        ],
+        "year": 2026,
+        "doi": "10.1038/s41591-026-04273-1",
+        "open_access_urls": []
+      },
+      "raw": null,
+      "grounding_citations": [],
+      "model": "gemini-3.1-pro-preview",
+      "generated_at": "2026-08-13T16:43:44.618Z",
+      "status": "unverified-lead"
+    },
+    "disease-associated-microglia": {
+      "id": "disease-associated-microglia",
+      "lead": {
+        "title": "A Unique Microglia Type Associated with Restricting Development of Alzheimer's Disease",
+        "authors": [
+          "Hadas Keren-Shaul",
+          "Amit Spinrad",
+          "Assaf Weiner",
+          "Orit Matcovitch-Natan",
+          "Raz Dvir-Szternfeld",
+          "Tyler K. Ulland",
+          "Eyal David",
+          "Kuti Baruch",
+          "David Lara-Astaiso",
+          "Beata Toth",
+          "Shalev Itzkovitz",
+          "Marco Colonna",
+          "Michal Schwartz",
+          "Ido Amit"
+        ],
+        "year": 2017,
+        "open_access_urls": [
+          "https://dspace.library.uu.nl/bitstream/handle/1874/355431/PIIS0092867417305780.pdf"
+        ]
+      },
+      "raw": null,
+      "grounding_citations": [],
+      "model": "gemini-3.1-pro-preview",
+      "generated_at": "2026-08-13T16:45:01.192Z",
+      "status": "unverified-lead"
+    },
+    "kunkle-2019-gwas": {
+      "id": "kunkle-2019-gwas",
+      "lead": {
+        "title": "Genetic meta-analysis of diagnosed Alzheimer's disease identifies new risk loci and implicates Aβ, tau, immunity and lipid processing",
+        "authors": [
+          "Kunkle BW",
+          "Grenier-Boley B",
+          "Sims R",
+          "Bis JC",
+          "Damotte V",
+          "Naj AC",
+          "Boland A",
+          "Vronskaya M",
+          "van der Lee SJ",
+          "Amlie-Wolf A",
+          "et al."
+        ],
+        "year": 2019,
+        "doi": "10.1038/s41588-019-0358-2",
+        "open_access_urls": [
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6463297/",
+          "https://europepmc.org/article/pmc/pmc6463297"
+        ]
+      },
+      "raw": null,
+      "grounding_citations": [],
+      "model": "gemini-3.1-pro-preview",
+      "generated_at": "2026-08-13T16:44:11.079Z",
+      "status": "unverified-lead"
+    },
+    "shade-2024-neuropathology-gwas": {
+      "id": "shade-2024-neuropathology-gwas",
+      "lead": {
+        "title": "GWAS of multiple neuropathology endophenotypes identifies new risk loci and provides insights into the genetic risk of dementia",
+        "authors": [
+          "Shade LMP",
+          "Katsumata Y",
+          "Abner EL",
+          "Aung KZ",
+          "Claas SA",
+          "Qiao Q",
+          "Heberle BA",
+          "Brandon JA",
+          "Page ML",
+          "Hohman TJ",
+          "Mukherjee S",
+          "Mayeux RP",
+          "Farrer LA",
+          "Schellenberg GD",
+          "Haines JL",
+          "Kukull WA",
+          "Nho K",
+          "Saykin AJ",
+          "Bennett DA",
+          "Schneider JA",
+          "Ebbert MTW",
+          "Nelson PT",
+          "Fardo DW"
+        ],
+        "year": 2024,
+        "doi": "10.1038/s41588-024-01939-9",
+        "open_access_urls": [
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11549054/",
+          "https://europepmc.org/article/PMC/PMC11549054"
+        ]
+      },
+      "raw": null,
+      "grounding_citations": [],
+      "model": "gemini-3.1-pro-preview",
+      "generated_at": "2026-08-13T16:44:09.258Z",
+      "status": "unverified-lead"
+    },
+    "app-a673t-protection": {
+      "id": "app-a673t-protection",
+      "lead": {
+        "title": "A mutation in APP protects against Alzheimer's disease and age-related cognitive decline",
+        "authors": [
+          "Thorlakur Jonsson",
+          "Jasvinder K. Atwal",
+          "Stacy Steinberg",
+          "Jon Snaedal",
+          "Palmi V. Jonsson",
+          "Sigurbjorn Bjornsson",
+          "Hreinn Stefansson",
+          "Patrick Sulem",
+          "Daniel Gudbjartsson",
+          "Janice Maloney",
+          "Kwame Hoyte",
+          "Amy Gustafson",
+          "Yichin Liu",
+          "Yanmei Lu",
+          "Tushar Bhangale",
+          "Robert R. Graham",
+          "Johanna Huttenlocher",
+          "Gyda Bjornsdottir",
+          "Ole A. Andreassen",
+          "Erik G. Jönsson",
+          "Aarno Palotie",
+          "Timothy W. Behrens",
+          "Olafur T. Magnusson",
+          "Augustine Kong",
+          "Unnur Thorsteinsdottir",
+          "Ryan J. Watts",
+          "Kari Stefansson"
+        ],
+        "year": 2012,
+        "doi": "10.1038/nature11283",
+        "open_access_urls": []
+      },
+      "raw": null,
+      "grounding_citations": [],
+      "model": "gemini-3.1-pro-preview",
+      "generated_at": "2026-08-13T16:45:01.773Z",
+      "status": "unverified-lead"
+    },
+    "app-a673t-mechanism": {
+      "id": "app-a673t-mechanism",
+      "lead": {
+        "title": "Molecular mechanisms of Alzheimer disease protection by the A673T allele of amyloid precursor protein",
+        "authors": [
+          "Maloney JA",
+          "Bainbridge T",
+          "Gustafson A",
+          "Zhang S",
+          "Kyauk R",
+          "Steiner P",
+          "van der Brug M",
+          "Liu Y",
+          "Ernst JA",
+          "Watts RJ",
+          "Atwal JK"
+        ],
+        "year": 2014,
+        "doi": "10.1074/jbc.M114.589069",
+        "pmid": "25253696",
+        "pmcid": "PMC4223305",
+        "open_access_urls": [
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4223305/",
+          "https://europepmc.org/article/pmc/pmc4223305",
+          "https://doi.org/10.1074/jbc.M114.589069"
+        ]
+      },
+      "raw": null,
+      "grounding_citations": [],
+      "model": "gemini-3.1-pro-preview",
+      "generated_at": "2026-08-13T16:44:45.664Z",
+      "status": "unverified-lead"
+    },
+    "asc-specks-cross-seed": {
+      "id": "asc-specks-cross-seed",
+      "lead": {
+        "title": "Microglia-derived ASC specks cross-seed amyloid-β in Alzheimer's disease",
+        "authors": [
+          "Carmen Venegas",
+          "Sathish Kumar",
+          "Bernardo S. Franklin",
+          "Tobias Dierkes",
+          "Rebecca Brinkschulte",
+          "Dario Tejera",
+          "Ana Vieira-Saecker",
+          "Stephanie Schwartz",
+          "Francesco Santarelli",
+          "Markus P. Kummer",
+          "Angelika Griep",
+          "Ellen Gelpi",
+          "Michael Beilharz",
+          "Dietmar Riedel",
+          "Douglas T. Golenbock",
+          "Matthias Geyer",
+          "Jochen Walter",
+          "Eicke Latz",
+          "Michael T. Heneka"
+        ],
+        "year": 2017,
+        "open_access_urls": []
+      },
+      "raw": null,
+      "grounding_citations": [],
+      "model": "gemini-3.1-pro-preview",
+      "generated_at": "2026-08-13T16:45:35.845Z",
+      "status": "unverified-lead"
+    },
+    "nlrp3-heneka-2013": {
+      "id": "nlrp3-heneka-2013",
+      "lead": {
+        "title": "NLRP3 is activated in Alzheimer's disease and contributes to pathology in APP/PS1 mice",
+        "authors": [
+          "Michael T Heneka",
+          "Markus P Kummer",
+          "Andrea Stutz",
+          "Andrea Delekate",
+          "Stephanie Schwartz",
+          "Ana Vieira-Saecker",
+          "Angelika Griep",
+          "Daisy Axt",
+          "Anita Remus",
+          "Te-Chen Tzeng",
+          "Ellen Gelpi",
+          "Annett Halle",
+          "Martin Korte",
+          "Eicke Latz",
+          "Douglas T Golenbock"
+        ],
+        "year": 2013,
+        "doi": "10.1038/nature11729",
+        "pmid": "23254930",
+        "pmcid": "PMC3812809",
+        "open_access_urls": [
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3812809/",
+          "https://europepmc.org/article/pmc/pmc3812809",
+          "https://hdl.handle.net/10993/61000"
+        ]
+      },
+      "raw": null,
+      "grounding_citations": [],
+      "model": "gemini-3.1-pro-preview",
+      "generated_at": "2026-08-13T16:45:46.219Z",
+      "status": "unverified-lead"
+    },
+    "janelidze-2020-ptau181": {
+      "id": "janelidze-2020-ptau181",
+      "lead": {
+        "title": "Plasma P-tau181 in Alzheimer's disease: relationship to other biomarkers, differential diagnosis, neuropathology and longitudinal progression to Alzheimer's dementia",
+        "authors": [
+          "Shorena Janelidze",
+          "Niklas Mattsson",
+          "Sebastian Palmqvist",
+          "Ruben Smith",
+          "Thomas G. Beach",
+          "Geidy E. Serrano",
+          "Xiyun Chai",
+          "Nicholas K. Proctor",
+          "Udo Eichenlaub",
+          "Henrik Zetterberg",
+          "Kaj Blennow",
+          "Eric M. Reiman",
+          "Erik Stomrud",
+          "Jeffrey L. Dage",
+          "Oskar Hansson"
+        ],
+        "year": 2020,
+        "doi": "10.1038/s41591-020-0755-1",
+        "open_access_urls": []
+      },
+      "raw": null,
+      "grounding_citations": [],
+      "model": "gemini-3.1-pro-preview",
+      "generated_at": "2026-08-13T16:45:54.306Z",
+      "status": "unverified-lead"
+    },
+    "schindler-2019-plasma-abeta": {
+      "id": "schindler-2019-plasma-abeta",
+      "lead": {
+        "title": "High-precision plasma β-amyloid 42/40 predicts current and future brain amyloidosis",
+        "authors": [
+          "Suzanne E. Schindler",
+          "James G. Bollinger",
+          "Vitaliy Ovod",
+          "Kwasi G. Mawuenyega",
+          "Yan Li",
+          "Brian A. Gordon",
+          "David M. Holtzman",
+          "John C. Morris",
+          "Tammie L.S. Benzinger",
+          "Chengjie Xiong",
+          "Anne M. Fagan",
+          "Randall J. Bateman"
+        ],
+        "year": 2019,
+        "doi": "10.1212/WNL.0000000000008081",
+        "open_access_urls": [
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6946467/",
+          "https://europepmc.org/article/pmc/pmc6946467"
+        ]
+      },
+      "raw": null,
+      "grounding_citations": [],
+      "model": "gemini-3.1-pro-preview",
+      "generated_at": "2026-08-13T16:45:50.665Z",
+      "status": "unverified-lead"
+    },
+    "nakamura-2018-plasma-amyloid": {
+      "id": "nakamura-2018-plasma-amyloid",
+      "lead": {
+        "title": "High performance plasma amyloid-β biomarkers for Alzheimer's disease",
+        "authors": [
+          "Akinori Nakamura",
+          "Naoki Kaneko",
+          "Victor L. Villemagne",
+          "Takashi Kato",
+          "James Doecke",
+          "Vincent Doré",
+          "Chris Fowler",
+          "Qiao-Xin Li",
+          "Ralph Martins",
+          "Christopher Rowe",
+          "Taisuke Tomita",
+          "Katsumi Matsuzaki",
+          "Kenji Ishii",
+          "Kazunari Ishii",
+          "Yutaka Arahata",
+          "Shinichi Iwamoto",
+          "Kengo Ito",
+          "Koichi Tanaka",
+          "Colin L. Masters",
+          "Katsuhiko Yanagisawa"
+        ],
+        "year": 2018,
+        "doi": "10.1038/nature25456",
+        "open_access_urls": []
+      },
+      "raw": null,
+      "grounding_citations": [],
+      "model": "gemini-3.1-pro-preview",
+      "generated_at": "2026-08-13T16:46:35.301Z",
+      "status": "unverified-lead"
+    },
+    "mapt-trial": {
+      "id": "mapt-trial",
+      "lead": {
+        "title": "Effect of long-term omega 3 polyunsaturated fatty acid supplementation with or without multidomain intervention on cognitive function in elderly adults with memory complaints (MAPT): a randomised, placebo-controlled trial",
+        "authors": [
+          "Sandrine Andrieu",
+          "Sophie Guyonnet",
+          "Nicola Coley",
+          "Christelle Cantet",
+          "Marc Bonnefoy",
+          "Serge Bordes",
+          "Lawrence Bories",
+          "Marie-Noëlle Cufi",
+          "Thierry Dantoine",
+          "Jean-François Dartigues",
+          "François Desclaux",
+          "Audrey Gabelle",
+          "Yannick Gasnier",
+          "Alain Pesce",
+          "Kristel Sudres",
+          "Jacques Touchon",
+          "Philippe Robert",
+          "Olivier Rouaud",
+          "Philippe Legrand",
+          "Pierre Payoux",
+          "Jean-Paul Caubere",
+          "Michael Weiner",
+          "Isabelle Carrié",
+          "Pierre-Jean Ousset",
+          "Bruno Vellas"
+        ],
+        "year": 2017,
+        "doi": "10.1016/S1474-4422(17)30040-6",
+        "open_access_urls": []
+      },
+      "raw": null,
+      "grounding_citations": [],
+      "model": "gemini-3.1-pro-preview",
+      "generated_at": "2026-08-13T16:46:46.075Z",
+      "status": "unverified-lead"
+    },
+    "lancet-commission-2024": {
+      "id": "lancet-commission-2024",
+      "lead": {
+        "title": "Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission",
+        "authors": [
+          "Livingston G",
+          "Huntley J",
+          "Liu KY",
+          "Costafreda SG",
+          "Selbæk G",
+          "Alladi S",
+          "Ames D",
+          "Banerjee S",
+          "Burns A",
+          "Brayne C",
+          "Fox NC",
+          "Ferri CP",
+          "Gitlin LN",
+          "Howard R",
+          "Kales HC",
+          "Kivimäki M",
+          "Larson EB",
+          "Nakasujja N",
+          "Rockwood K",
+          "Samus Q",
+          "Shirai K",
+          "Singh-Manoux A",
+          "Schneider LS",
+          "Walsh S",
+          "Yao Y",
+          "Sommerlad A",
+          "Mukadam N"
+        ],
+        "year": 2024,
+        "doi": "10.1016/S0140-6736(24)01296-0",
+        "open_access_urls": [
+          "https://www.thelancet.com/action/showPdf?pii=S0140-6736(24)01296-0",
+          "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)01296-0/fulltext"
+        ]
+      },
+      "raw": null,
+      "grounding_citations": [],
+      "model": "gemini-3.1-pro-preview",
+      "generated_at": "2026-08-13T16:47:35.080Z",
+      "status": "unverified-lead"
+    },
+    "mendes-2025-network-meta-analysis": {
+      "id": "mendes-2025-network-meta-analysis",
+      "lead": {
+        "title": "Single-domain and multidomain lifestyle interventions for the prevention of cognitive decline in older adults who are cognitively unimpaired: a systematic review and network meta-analysis",
+        "authors": [
+          "Mendes AJ",
+          "Ribaldi F",
+          "Sayin O",
+          "Khachvani G",
+          "Mulargia R",
+          "Volpara G",
+          "Remoli G",
+          "Nencha U",
+          "Gianonni-Luza S",
+          "Cappa S",
+          "Frisoni GB"
+        ],
+        "year": 2025,
+        "study_type": "systematic-review",
+        "topic_cluster": "prevention",
+        "open_access_urls": [
+          "https://europepmc.org/article/med/41016407",
+          "https://www.sciencedirect.com/science/article/pii/S266675682500762X/pdfft?isDTMRedir=true&download=true"
+        ]
+      },
+      "raw": null,
+      "grounding_citations": [],
+      "model": "gemini-3.1-pro-preview",
+      "generated_at": "2026-08-13T16:48:59.423Z",
+      "status": "unverified-lead"
+    },
+    "karran-de-strooper-amyloid-hypothesis": {
+      "id": "karran-de-strooper-amyloid-hypothesis",
+      "lead": {
+        "title": "The amyloid hypothesis in Alzheimer disease: new insights from new therapeutics",
+        "authors": [
+          "Eric Karran",
+          "Bart De Strooper"
+        ],
+        "year": 2022,
+        "doi": "10.1038/s41573-022-00391-w",
+        "pmid": "35177833",
+        "open_access_urls": []
+      },
+      "raw": null,
+      "grounding_citations": [],
+      "model": "gemini-3.1-pro-preview",
+      "generated_at": "2026-08-13T16:48:24.547Z",
+      "status": "unverified-lead"
+    }
+  }
+}

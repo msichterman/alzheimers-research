@@ -1,0 +1,451 @@
+{
+  "document_kind": "journal_article",
+  "title": {
+    "value": "The Centiloid Project: Standardizing Quantitative Amyloid Plaque Estimation by PET",
+    "quote": "The Centiloid Project: Standardizing Quantitative Amyloid Plaque Estimation by PET",
+    "location": "Title"
+  },
+  "authors": [
+    { "name": "William E. Klunk", "affiliation": null, "orcid": null, "corresponding": false },
+    { "name": "Robert A. Koeppe", "affiliation": null, "orcid": null, "corresponding": false },
+    { "name": "Julie C. Price", "affiliation": null, "orcid": null, "corresponding": false },
+    { "name": "Tammie Benzinger", "affiliation": null, "orcid": null, "corresponding": false },
+    { "name": "Michael D. Devous", "affiliation": null, "orcid": null, "corresponding": false },
+    { "name": "William Jagust", "affiliation": null, "orcid": null, "corresponding": false },
+    { "name": "Keith Johnson", "affiliation": null, "orcid": null, "corresponding": false },
+    { "name": "Chester A. Mathis", "affiliation": null, "orcid": null, "corresponding": false },
+    { "name": "Davneet Minhas", "affiliation": null, "orcid": null, "corresponding": false },
+    { "name": "Michael J. Pontecorvo", "affiliation": null, "orcid": null, "corresponding": false },
+    { "name": "Christopher C. Rowe", "affiliation": null, "orcid": null, "corresponding": false },
+    { "name": "Daniel Skovronsky", "affiliation": null, "orcid": null, "corresponding": false },
+    { "name": "Mark Mintun", "affiliation": null, "orcid": null, "corresponding": false }
+  ],
+  "study": {
+    "design": {
+      "value": "A methods and standardisation study by a working group: a cross-sectional calibration that linearly scales the outcome of any amyloid PET analysis method or tracer onto a 0 to 100 'Centiloid' (CL) scale anchored at the mean of young controls (0) and the mean of typical Alzheimer's disease patients (100). The process has three levels: Level-1 defines the standard method and the anchor points; Level-2 is how an independent site calibrates its own tracer or method to the scale; Level-3 is exact reproduction of an already-calibrated method as a pipeline check.",
+      "quote": "Our working group was formed to standardize quantitative amyloid imaging measures by scaling the outcome of each particular analysis method or tracer to a 0 to 100 scale, anchored by young controls (≤45 years) and typical Alzheimer’s disease patients.",
+      "location": "Abstract"
+    },
+    "phase": { "value": null, "quote": null, "location": null },
+    "n": { "value": null, "quote": null, "location": null },
+    "n_description": {
+      "value": "The report gives no single headline N. The Level-1 anchoring analysis used 34 young control (YC-0) subjects and 45 AD-100 subjects (47 collected, 2 excluded as low outliers). A separate, non-overlapping set of 19 AD-CTX subjects and 25 older control OC-CTX subjects was used to define the cortical target VOI. Level-2 calibration by an independent site requires at least 25 subjects.",
+      "quote": "the mean value of the YC-0 subjects (1.009 SUVr; ) was set to 0 CL and the mean of the AD-100 subjects (2.076 SUVr; ) was set to 100 CL",
+      "location": "APPROACH and RESULTS, 1.3.2 Calculation of Centiloid Values"
+    },
+    "population": {
+      "value": "Two anchor groups plus a separate VOI-definition set: cognitively normal subjects under 45 years of age (34 young controls, 31.5 ± 6.3 years, range 22-43); patients diagnosed with AD by 1984 NINCDS-ADRDA criteria with a Clinical Dementia Rating global score of 0.5 or 1 (45 analysed, mean age 67.5 ± 10.5 yrs, range 50 to 89); and separately 19 AD-CTX subjects and 25 amyloid-negative older controls used only to define the cortical target region",
+      "quote": "PiB PET data that included data from at least 50-70 min after injection of PiB was collected from 47 subjects diagnosed with AD using the 1984 NINCDS-ADRDA criteria",
+      "location": "APPROACH and RESULTS, 1.1.2 The AD 100-Anchor (AD-100) Subject Set"
+    },
+    "followup": { "value": null, "quote": null, "location": null },
+    "intervention": {
+      "value": "[C-11]Pittsburgh Compound-B (PiB) PET, 10-15 mCi injected, with the standard measure taken as the 50-70 min post-injection SUVr; FDG PET (~7 mCi) was additionally acquired in 13 AD-CTX subjects to build the cerebellar gray reference region",
+      "quote": "All subjects were injected with 10-15 mCi of PiB at the start of the experiment and imaged according to previously published methods [].",
+      "location": "APPROACH and RESULTS, 1.1.3 The Global Cortical Target (CTX) Region Subject Set"
+    },
+    "comparator": {
+      "value": "The 'standard PiB method' — PiB 50-70 min SUVr computed with the standard CTX target VOI and whole cerebellum (WC) reference VOI — is the reference against which any non-standard method or other tracer is calibrated; an F-18 tracer already directly calibrated to it may serve as a surrogate reference, no more than one step removed from PiB",
+      "quote": "whenever a procedure other than the “Standard PiB Method” (i.e., PiB 50-70 min SUVr data using the standard CTX and WC VOIs described above) is to be calibrated to the CL scale.",
+      "location": "APPROACH and RESULTS, 2. Level-2: Calibrating a new method to the Centiloid Scale"
+    },
+    "biomarker_confirmation": {
+      "value": "No biomarker entry requirement for the AD anchor group, which was diagnosed clinically by 1984 NINCDS-ADRDA criteria; the young controls were taken to be amyloid-negative on the basis of age alone (≤45 years); the OC-CTX older controls were confirmed amyloid-negative by previously published quantitative criteria and by visual assessment",
+      "quote": "This age range was used because it lends great certainty that the subject will be truly amyloid-negative",
+      "location": "APPROACH and RESULTS, 1.1.1 The Young Control 0-Anchor (YC-0) Subject Set"
+    },
+    "nct_ids": [],
+    "cohorts": [
+      "Young Control 0-Anchor (YC-0) subject set — 34 cognitively normal subjects under 45 years",
+      "AD 100-Anchor (AD-100) subject set — 47 AD subjects collected, 45 analysed after outlier exclusion",
+      "AD-CTX subject set — 19 typical AD subjects used to define the cortical target VOI",
+      "Older control OC-CTX subject set — 25 amyloid-negative older controls used to define the cortical target VOI",
+      "Washington University in St. Louis (20 of the YC-0 subjects)",
+      "University of California at Berkeley/Lawrence Berkeley National Laboratory (UCB/LBNL) (14 of the YC-0 subjects)",
+      "University of California at San Francisco (UCSF) and LBNL (22 of the AD-100 subjects)",
+      "University of Pittsburgh (18 of the AD-100 subjects; also all AD-CTX and OC-CTX subjects)",
+      "Australian Imaging, Biomarkers and Lifestyle study (AIBL) (7 of the AD-100 subjects)",
+      "Global Alzheimer's Association Information Network (GAAIN) — the public database holding all Level-1 scan data and VOIs",
+      "International Consortium for Brain Mapping (ICBM) Single Subject MRI Anatomical Template and MNI-152 template (spatial templates, not subject cohorts)",
+      "ADNI (PiB and AV-45), Japan-ADNI (PiB and BF-227) and AIBL (PiB, flutemetamol, AV-45) — named only as studies whose results Centiloid conversion may allow to be combined in future, not used in this calibration"
+    ]
+  },
+  "outcomes": [
+    {
+      "name": "The 0 Centiloid anchor: mean 50-70 min PiB SUVr of the 34 YC-0 young control subjects, using the standard CTX target and whole cerebellum reference VOIs",
+      "tier": "primary",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "1.009 SUVr, set to 0 CL",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "the mean value of the YC-0 subjects (1.009 SUVr; ) was set to 0 CL and the mean of the AD-100 subjects (2.076 SUVr; ) was set to 100 CL",
+      "location": "APPROACH and RESULTS, 1.3.2 Calculation of Centiloid Values"
+    },
+    {
+      "name": "The 100 Centiloid anchor: mean 50-70 min PiB SUVr of the 45 AD-100 subjects, using the standard CTX target and whole cerebellum reference VOIs",
+      "tier": "primary",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "2.076 SUVr, set to 100 CL",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "After calculation of the SUVr values (referenced to WC) for all 34 YC-0 and the 45 AD-100 subjects (), the mean value of the YC-0 subjects (1.009 SUVr; ) was set to 0 CL",
+      "location": "APPROACH and RESULTS, 1.3.2 Calculation of Centiloid Values"
+    },
+    {
+      "name": "What the anchors mean biologically: the 0-anchor represents a definitively amyloid-negative brain and the 100-anchor the global amyloid deposition of a typical mild-moderate AD subject, both as group means",
+      "tier": "primary",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "0 CL = mean of high-certainty amyloid-negative young controls; 100 CL = mean of typical mild-moderate AD subjects; about half of AD subjects fall above 100 CL and some amyloid-negative scans fall below 0 CL",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Since both are mean values, some amyloid(−) scans will have slightly negative CL values. Likewise, there will be a range of “typical AD values” around 100 CL and about half of all AD subjects will fall above",
+      "location": "APPROACH and RESULTS, 1. Level-1: The Standard Method and Anchor Points"
+    },
+    {
+      "name": "Choice of the standard reference region for the standard PiB method",
+      "tier": "primary",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "whole cerebellum (WC) chosen, on the basis of lower variance in the YC-0 group; WC and WC+B were nearly equivalent",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Therefore, the WC was chosen as the reference VOI for the “standard PiB method.”",
+      "location": "APPROACH and RESULTS, 1.3.1 Choice of the Standard Reference Region"
+    },
+    {
+      "name": "Relative performance of the four candidate reference VOIs (Pons, cerebellar gray, whole cerebellum, whole cerebellum plus brainstem), judged on variance and on the effect size separating AD-100 from YC-0",
+      "tier": "secondary",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "Pons gave the largest (worst) variance and smallest effect size; CG performed better but was outperformed by WC and WC+B, which produced similar results",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The Pons gave the largest (worst) variance and smallest effect size, the CG performed better, but was consistently outperformed by the WC and WC+B which produced predictably similar results.",
+      "location": "APPROACH and RESULTS, 1.3.1 Choice of the Standard Reference Region"
+    },
+    {
+      "name": "Comparability gain from expressing typical AD values in Centiloids rather than SUVr: the same AD group read on two different reference regions",
+      "tier": "primary",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "typical AD range about 1.90-3.00 SUVr with cerebellar gray reference versus about 1.20-1.90 SUVr with pons reference; on the Centiloid scale the same ranges become about 55-150 CL and about 60-155 CL",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "In contrast, when the typical AD range using CG as reference is expressed on the Centiloid scale it is about 55-150 CL and when pons is used as reference, the typical AD range is about 60-155 CL.",
+      "location": "DISCUSSION, paragraph on cross-site comparison"
+    },
+    {
+      "name": "Minimum data a site must acquire for a Level-2 calibration of its own tracer or method",
+      "tier": "secondary",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "at least 25 subjects with PiB PET 50-70 SUVr and structural MRI; of these at least 10 cognitively normal aged ≤45 years and at least 15 with high likelihood of amyloid positivity (~5 typical AD and ~10 with intermediate values)",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "A calibrating site should acquire PiB PET 50-70 SUVr and structural MRI data (for normalization/co-registration) on at least 25 subjects.",
+      "location": "APPROACH and RESULTS, 2.1.1 Standard-Method PiB Data as a Scaling reference"
+    },
+    {
+      "name": "Level-2 pipeline replication tolerance: how closely a calibrating site's re-analysis of the downloaded Level-1 scans must reproduce the published anchor SUVr values",
+      "tier": "secondary",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "site means must fall within 2% of the Level-1 means, i.e. 2.05-2.13 SUVr for AD-100 and 1.05-1.09 SUVr for YC-100",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The mean Level-2 PiB SUVr of the 34 YC-0 subjects and 45 AD-100 subjects should fall within 2% of the mean PiB SUVr determined in the Level-1 analysis",
+      "location": "APPROACH and RESULTS, 2.2.1 Replication of the Level-1 Analysis"
+    },
+    {
+      "name": "Level-2 and Level-3 acceptance criteria for the correlation between a site's recalculated Centiloid values and the published Centiloid values",
+      "tier": "secondary",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "slope between 0.98 and 1.02, intercept between −2 and 2 CL, R 2 greater than 0.98",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The expectation is that the slope will be between 0.98 and 1.02, the intercept will be between −2 and 2 CL and the R 2 will be > 0.98.",
+      "location": "APPROACH and RESULTS, 2.2.1 Replication of the Level-1 Analysis (repeated in 3.2 Level-3 Analysis)"
+    },
+    {
+      "name": "Reliability threshold for a newly calibrated tracer or method against the standard PiB method",
+      "tier": "secondary",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "R 2 greater than 0.7 for a well-correlated tracer/method, to be reported in the first publication using the non-standard method",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The expectation is that the R 2 will be > 0.7 for a well-correlated tracer/method.",
+      "location": "APPROACH and RESULTS, 2.3.1 Reliability"
+    },
+    {
+      "name": "Worked Level-2 example 1: calibration of simplified reference tissue method (sRTM) BP ND data against the standard PiB SUVr method in 40 AD-100 and 34 YC-0 subjects with dynamic data",
+      "tier": "secondary",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "slope 0.805 and intercept 0.166; the authors attribute the reduced dynamic range mostly to the PiB SUVr method overestimating specific binding",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The slope ( PiB m NS ) for this correlation is 0.805 suggesting that the dynamic range of the sRTM method is less than that of the PiB SUVr method",
+      "location": "APPROACH and RESULTS, 2.5 Examples of Level-2 Analyses"
+    },
+    {
+      "name": "Worked Level-2 example 1, quality metrics: reliability and relative variance of the sRTM method expressed in Centiloids",
+      "tier": "secondary",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "R 2 = 0.991, well above the suggested threshold of 0.7; relative variance 0.98 (SD of YC-0 values 4.24 CL for sRTM versus 4.34 CL for the standard method)",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "we assessed the reliability by calculating a R 2 value for the correlation in , finding it to be 0.991. This is well above the suggested threshold of 0.7.",
+      "location": "APPROACH and RESULTS, 2.5 Examples of Level-2 Analyses"
+    },
+    {
+      "name": "Worked Level-2 example 2: pons used as a non-standard reference region with the standard CTX target VOI",
+      "tier": "secondary",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "slope 0.724, intercept 0.0315, R 2 = 0.955 between PiB SUVr and PiB SUVr Pons values; relative variance 1.65, reflecting the greater variance of the pons method",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The slope ( PiB m NS ) for this correlation was 0.724 and the intercept ( PiB b NS ) was 0.0315. The R 2 value for the correlation between the PiB SUVr and PiB SUVr Pons values was 0.955",
+      "location": "APPROACH and RESULTS, 2.5 Examples of Level-2 Analyses"
+    },
+    {
+      "name": "Inter-site pipeline agreement: the Level-1 analysis developed at the University of Michigan repeated independently at the University of Pittsburgh",
+      "tier": "secondary",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "agreement was well within the stated limits for all reference VOIs; the only procedural difference was reslicing normalized MRI to 2 × 2 × 2 mm rather than 1 × 1 × 1 mm voxels",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The agreement was well within the limits set above for all reference VOIs ().",
+      "location": "APPROACH and RESULTS, 2.2.2 Example of a Replication Analysis"
+    },
+    {
+      "name": "Slope of a surrogate tracer against PiB as an interpretable measure of relative signal (dynamic range)",
+      "tier": "secondary",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "a slope of 1.0 means the surrogate has the same specific signal as PiB; 0.5 means half the signal of PiB; 2 means twice the signal of PiB",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "A Tracer m Std of 1.0 means the surrogate has the same specific signal (or dynamic range) as PiB. A slope of 0.5, half the signal of PiB, a slope of 2, twice the signal of PiB.",
+      "location": "APPROACH and RESULTS, 2.2.3.1 Calibration of another Tracer for Future Use as a Surrogate Reference"
+    },
+    {
+      "name": "Restriction on what may legitimately be called a Centiloid value",
+      "tier": "secondary",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "four permitted derivations only: the Level-1 standard PiB method; a Level-2 analysis calibrated to the standard PiB method; a Level-2 analysis calibrated to an F-18 surrogate previously directly calibrated to the standard PiB method; or a Level-3 analysis",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "By definition, Centiloid units have a very specific meaning and should be reserved only for data derived in one of four ways",
+      "location": "APPROACH and RESULTS, 1.3.1 Choice of the Standard Reference Region"
+    }
+  ],
+  "primary_endpoint_status": {
+    "status": "not_applicable",
+    "explanation": "The paper has no clinical endpoint of its own: it is a standardisation exercise whose output is a scaling method that places any amyloid PET analysis or tracer on a 0 to 100 Centiloid scale.",
+    "quote": "Basically, we describe a “standard” method of analyzing PiB PET data and then a method for scaling any “non-standard” method of PiB PET analysis (or any other tracer) to the Centiloid scale."
+  },
+  "multiplicity": {
+    "approach": "none stated — the paper describes no adjustment for multiple comparisons; its quality criteria are correlation-based acceptance thresholds (slope, intercept, R 2) and a relative variance ratio rather than hypothesis tests",
+    "quote": null,
+    "location": null
+  },
+  "safety": {
+    "harms": [],
+    "apoe_stratification_reported": false,
+    "serious_adverse_events": { "value": null, "quote": null, "location": null },
+    "deaths": { "value": null, "quote": null, "location": null },
+    "discontinuations": { "value": null, "quote": null, "location": null }
+  },
+  "funding": [
+    "National Institute on Aging R37 AG025516 (WEK)",
+    "National Institute on Aging P01 AG025204 (WEK)",
+    "National Institute on Aging P50 AG005133 (WEK)",
+    "National Institute on Aging R01 AG034570 (WJ)",
+    "National Institute on Aging P01 AG026276 (TB)",
+    "National Institute on Aging U19 AG032438 (TB)"
+  ],
+  "conflicts": [
+    "GE Healthcare holds a license agreement with the University of Pittsburgh based on the PiB technology described in this manuscript; Drs. Klunk and Mathis are co-inventors of PiB and have a financial interest in this license agreement",
+    "GE Healthcare provided no grant support for this study and had no role in the design or interpretation of results or preparation of this manuscript, as declared",
+    "Dr. Jagust is a consultant to Genentech, Synarc, and F. Hoffman LaRoche",
+    "Dr. Rowe has received research grants for imaging in dementia from Bayer-Schering Pharma, Avid Radiopharmaceuticals, GE Healthcare, Piramal and Astra Zeneca, and has been a consultant and conference speaker for Bayer Schering Pharma and GE Healthcare",
+    "Dr. Benzinger has received research grants for imaging in dementia from Avid Radiopharmaceuticals, a wholly owned subsidiary of Eli Lilly",
+    "Dr. Devous has received grants from Avid Radiopharmaceuticals, and has served as a consultant for Eli Lilly, Piramal, Navidea, and GE Healthcare",
+    "Drs. Pontecorvo, Skovronsky and Mintun are employees of Avid Radiopharmaceuticals, a wholly owned subsidiary of Eli Lilly and Company",
+    "All other authors have no conflicts with this work"
+  ],
+  "limitations": [
+    "The approach is meant to be broadly applicable and, as such, some shortcomings were accepted in order to improve simplicity and accessibility by most groups.",
+    "This initial description is intended to be a serviceable first iteration. We assume that further research will be necessary to fully examine the assumptions made and to fine-tune the process and fully understand the strengths and limitations.",
+    "Since both are mean values, some amyloid(−) scans will have slightly negative CL values.",
+    "One critical assumption when translating the online level-1 data into site-acquired Centiloid data is that, when analyzed by the standard method presented here, any given subject would yield essentially the same PiB SUVr 50-70 min value if scanned at two different sites several days apart.",
+    "It is not currently clear how differences in scanners, reconstruction algorithms, instrument resolution or methods of attenuation correction might affect this assumption, but we are aware that this assumption is incorrect at least to some degree.",
+    "Subjects in this study were scanned on similar instruments with comparable resolution, however we have not investigated effects of substantial differences in scanner design and software nor can we account for future developments in instrumentation that might render our assumptions about the similarities invalid.",
+    "We have attempted to minimize site-specific nuances in the level-1 data by including data from three separate sites – although two of these sites used the same scanner.",
+    "We emphasize that when scaling other tracers to the standard method PiB data reported here, the R 2 and SD values determined are solely to test the overall validity of the scaling process and are not valid comparisons of the performance of different tracers.",
+    "Therefore, it is not valid, for example, to make inferences about the relative similarities of two different F-18-labelled tracers to PiB by simply comparing the R 2 and SD values. Direct comparison between F-18 tracers will require studies performed in the same group of subjects.",
+    "We acknowledge that the choice of reference region was guided solely by between-group comparisons using cross-sectional data. The performance of various reference regions across time in longitudinal studies could be different and is an area for further investigation.",
+    "Partial volume correction (PVC) was not included in this “standard” approach since both the practice of applying PVC at all and the process by which PVC is accomplished is highly variable across centers.",
+    "While these were found to function well for the purpose of this study, and out-performed several other methods tested, we do not claim that these are the only, or even the best, approaches for this purpose.",
+    "The use of smaller regional measures, while acceptable, will produce CL values that may not carry the same connotation as the global measures.",
+    "Also, care must be taken to understand that cutoff values will be tied to the region from which they were generated.",
+    "While this may be acceptable, we expect that, at some point, a target VOI may be too small to use in a valid manner. Precise definition of the limits of valid target VOIs will have to await future explorations of the nuances of the Centiloid process.",
+    "it should be recognized that there is likely a degree of departure from the standard CTX and WC VOIs at which the calibration is no longer valid",
+    "An area of particular concern was the brainstem, that was handled less well than cortical areas by all methods."
+  ],
+  "risk_of_bias": [
+    {
+      "domain": "outlier exclusion before setting the 100-anchor",
+      "judgement": "Two AD subjects were removed as low outliers on suspicion of clinical misdiagnosis and none were removed as high outliers, so the 100-anchor is set by an AD group trimmed only at the low end",
+      "quote": "As described below, this resulted in the exclusion of two AD subjects with low PiB retention (no AD subjects were outliers due to high PiB retention) leaving 45 AD-100 subjects for further analysis."
+    },
+    {
+      "domain": "clinical rather than biomarker definition of the anchor group",
+      "judgement": "The 100-anchor group was defined by 1984 NINCDS-ADRDA clinical criteria, and the paper states that outliers were excluded because they were suspected to be clinically misdiagnosed",
+      "quote": "Since the intention of this cohort was to define the average PiB retention of a “typical” AD cohort, we excluded outlier subjects that were suspected to be clinically misdiagnosed."
+    },
+    {
+      "domain": "method choices optimised for PiB only",
+      "judgement": "Where the working group optimised outcomes, it optimised on PiB data and explicitly not on the F-18 tracers that the scale is intended to standardise",
+      "quote": "Whenever choices were made based on optimization of outcomes, the data used was PiB data and no consideration was given to optimization of any of the F-18-labeled tracers."
+    },
+    {
+      "domain": "limited site and scanner diversity in the anchor data",
+      "judgement": "Level-1 data came from three sites, two of which used the same scanner, and effects of substantially different scanner designs were not investigated",
+      "quote": "We have attempted to minimize site-specific nuances in the level-1 data by including data from three separate sites – although two of these sites used the same scanner."
+    },
+    {
+      "domain": "selective data use by calibrating sites",
+      "judgement": "The authors recognise the risk that sites could choose favourable subsets when calibrating, and issue recommendations to prevent it rather than a verified safeguard",
+      "quote": "In order to avoid any appearance of pre-informed selection of data, we recommend that: 1) all subjects be studied prospectively and no subject be excluded except for carefully justified technical reasons"
+    },
+    {
+      "domain": "cross-sectional evidence used to justify a scale applied longitudinally",
+      "judgement": "The reference region was chosen only from between-group cross-sectional comparisons; longitudinal behaviour of the reference regions is untested",
+      "quote": "We acknowledge that the choice of reference region was guided solely by between-group comparisons using cross-sectional data."
+    },
+    {
+      "domain": "inventor and sponsor financial interest",
+      "judgement": "Two authors are co-inventors of the reference tracer PiB with a financial interest in its license, and three authors are employees of the manufacturer of an F-18 amyloid tracer",
+      "quote": "Drs. Klunk and Mathis are co-inventors of PiB and, as such, have a financial interest in this license agreement."
+    }
+  ],
+  "disagreements": [
+    {
+      "question": "Should the Centiloid scale replace a site's own preferred analysis method?",
+      "position": "No; the working group holds that Centiloids are a translation layer for comparison across sites, not a replacement for a locally optimised method",
+      "attributed_to": "the Centiloid working group (Klunk et al)",
+      "quote": "It is important to stress that the Centiloid process is not intended to replace any method that a site has determined is optimal for its specific purposes."
+    },
+    {
+      "question": "Is 50-70 min SUVr inferior to dynamic analysis methods for PiB?",
+      "position": "The authors acknowledge the objection but argue their worked example shows the 50-70 min SUVr correlates well with an sRTM dynamic method in the same subjects, and that requiring 0-90 min dynamic data would be an unnecessary burden",
+      "attributed_to": "the Centiloid working group (Klunk et al), responding to unnamed critics",
+      "quote": "While some may argue that this approach is inferior to a variety of dynamic analysis methods for PiB data, our example above shows that the 50-70 SUVr method correlates well with an sRTM dynamic method in the same subjects."
+    },
+    {
+      "question": "Which reference region should be standard for amyloid PET quantification?",
+      "position": "Whole cerebellum, on the basis of lower variance in the young control group; the purely gray matter cerebellar gray region and the pons performed worse, the pons surprisingly so",
+      "attributed_to": "the Centiloid working group (Klunk et al)",
+      "quote": "The poor performance of the Pons VOI was surprising, but also likely relates to the smaller size of this VOI and the fact that the SPM8 normalization algorithm seems to handle brainstem structures less well than cortical structures."
+    },
+    {
+      "question": "Can R 2 and SD values from calibration be used to compare the performance of different amyloid tracers?",
+      "position": "No; the authors state such comparisons are not valid because different subject groups are used to scale different tracers, and direct comparison requires the same subjects",
+      "attributed_to": "the Centiloid working group (Klunk et al)",
+      "quote": "Therefore, it is not valid, for example, to make inferences about the relative similarities of two different F-18-labelled tracers to PiB by simply comparing the R 2 and SD values."
+    },
+    {
+      "question": "Do the current FDA-approved amyloid PET labels adequately define an AD-like range of amyloid deposition?",
+      "position": "The authors argue the absence of a clearly defined AD-like range, separate from that of amyloid-positive controls, may have contributed to limitations in the approved labels for Amyvid and Vizamyl",
+      "attributed_to": "the Centiloid working group (Klunk et al)",
+      "quote": "The lack of a clearly defined AD-like range, separate from that of amyloid-positive controls, may have contributed to limitations regarding the value of a positive scan in the FDA-approved labels for the two currently-approved amyloid imaging PET tracers"
+    },
+    {
+      "question": "Does a Centiloid value from a small regional VOI mean the same thing as a global Centiloid value?",
+      "position": "No; the authors warn that regional Centiloid values do not carry the same connotation and that cutoffs are tied to the region they were generated from",
+      "attributed_to": "the Centiloid working group (Klunk et al)",
+      "quote": "For example, a group of AD subjects with a mean of 100 PiB CL Std may have a PiB CL NS of significantly greater than 100 in precuneus and significantly less than 100 in occipital cortex."
+    }
+  ],
+  "linked_objects": [],
+  "trial_status_observation": {
+    "status": null,
+    "enrollment": null,
+    "phase": null,
+    "observed_at": null,
+    "source": null
+  },
+  "unlocatable_fields": [
+    "authors[].affiliation",
+    "authors[].orcid",
+    "authors[].corresponding",
+    "study.phase",
+    "study.n (the paper states no single headline N; group sizes are reported separately)",
+    "study.followup",
+    "study.nct_ids",
+    "outcomes[].p_value",
+    "outcomes[].confidence_interval",
+    "outcomes[].prespecification_evidence",
+    "multiplicity.quote",
+    "multiplicity.location",
+    "safety.harms",
+    "safety.harms[ARIA-E]",
+    "safety.harms[ARIA-H]",
+    "safety.harms[symptomatic ARIA]",
+    "safety.harms[macrohemorrhage]",
+    "safety.harms[death]",
+    "safety.serious_adverse_events",
+    "safety.deaths",
+    "safety.discontinuations",
+    "safety.apoe_stratification_reported (APOE genotype of the subject groups is reported, but no safety outcome is stratified by it)",
+    "linked_objects",
+    "trial_status_observation"
+  ],
+  "_meta": {
+    "model": "claude (builder subagent)",
+    "extracted_at": "2026-08-13T00:00:00Z",
+    "source": "raw/centiloid-project/document.md"
+  }
+}

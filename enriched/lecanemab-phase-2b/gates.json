@@ -1,0 +1,31 @@
+{
+  "id": "lecanemab-phase-2b",
+  "cluster": "amyloid-antibody",
+  "checked_at": "2026-08-13T16:59:45.922Z",
+  "passed": true,
+  "text_sufficiency": {
+    "level": "full-text",
+    "chars": 55566,
+    "sections": [
+      "method",
+      "result",
+      "discussion"
+    ]
+  },
+  "evidence_completeness": "full-text-oa",
+  "failures": [],
+  "warnings": [
+    {
+      "gate": "fidelity",
+      "detail": "1 adjudicated ruling(s) could not be applied automatically and need a hand edit: safety.harms[macrohemorrhage].reported"
+    }
+  ],
+  "manifest_discrepancies": [
+    {
+      "field": "n",
+      "work_order_says": 856,
+      "source_says": 854,
+      "detail": "work order states N=856; the retrieved document states N=854. The document wins."
+    }
+  ]
+}

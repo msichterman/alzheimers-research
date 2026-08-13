@@ -1,0 +1,28 @@
+{
+  "id": "semorinemab-lauriet",
+  "prepared_at": "2026-08-13T16:55:51.042Z",
+  "instructions": "Two independent extractions of the same retrieved document disagree on these fields. For each conflict, decide against the document which reading is correct — or that both are, or neither is. You are not told which pipeline produced which reading, and you must not guess.",
+  "conflicts": [
+    {
+      "conflict_id": "semorinemab-lauriet#0",
+      "field": "study.population",
+      "reading_a": "Participants with mild-to-moderate AD who met National Institute on Aging-Alzheimer's Association core clinical criteria for probable AD dementia, with a screening MMSE score of 16–21 inclusive and a Clinical Dementia Rating-Global Score (CDR-GS) of 1 or 2",
+      "reading_b": "Adults 50–85 years of age with mild-to-moderate AD",
+      "note": null
+    },
+    {
+      "conflict_id": "semorinemab-lauriet#1",
+      "field": "outcomes[Change from baseline to week 49 in the ADAS-Cog11 in the restricted mITT population (cohorts 1 and 2)].tier",
+      "reading_a": "secondary",
+      "reading_b": "primary",
+      "note": null
+    },
+    {
+      "conflict_id": "semorinemab-lauriet#2",
+      "field": "outcomes[Changes from baseline to week 49 or 61 in ventricular, whole brain, cerebral cortex, and hippocampal volumes on volumetric MRI].tier",
+      "reading_a": "secondary",
+      "reading_b": "exploratory",
+      "note": null
+    }
+  ]
+}

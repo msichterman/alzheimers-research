@@ -1,0 +1,595 @@
+{
+  "document_kind": "regulatory_label",
+  "title": {
+    "value": "KISUNLA (donanemab-azbt) injection, for intravenous use — Highlights of Prescribing Information, Initial U.S. Approval: 2024, Revised: 7/2024",
+    "quote": "KISUNLA (donanemab-azbt) injection, for intravenous use** **Initial U.S. Approval: 2024",
+    "location": "Highlights of Prescribing Information, title block"
+  },
+  "authors": [],
+  "study": {
+    "design": {
+      "value": "double-blind, placebo-controlled, parallel-group study (Study 1, NCT04437511)",
+      "quote": "The efficacy of KISUNLA was evaluated in a double-blind, placebo-controlled, parallel-group study (Study 1, NCT04437511) in patients with Alzheimer’s disease",
+      "location": "Section 14 Clinical Studies"
+    },
+    "phase": {
+      "value": null,
+      "quote": null,
+      "location": null
+    },
+    "n": {
+      "value": 1736,
+      "quote": "In Study 1, 1736 patients were randomized 1:1 to receive 700 mg of KISUNLA every 4 weeks for the first 3 doses, and then 1400 mg every 4 weeks (N = 860) or placebo (N = 876)",
+      "location": "Section 14 Clinical Studies"
+    },
+    "n_description": {
+      "value": "Patients randomized 1:1 in Study 1 (KISUNLA N = 860, placebo N = 876); the adverse reaction and ARIA incidence figures are based on the 853 patients who received at least one dose of KISUNLA and the 874 patients on placebo in Study 1, while the overall safety database comprised 2885 patients exposed to KISUNLA",
+      "quote": "In Study 1 (NCT04437511), a total of 853 patients with Alzheimer’s disease received at least one dose of KISUNLA *[see* *Clinical Studies (14)]*.",
+      "location": "Section 6.1 Clinical Trials Experience"
+    },
+    "population": {
+      "value": "Indicated for the treatment of Alzheimer's disease, with treatment to be initiated in patients with mild cognitive impairment or mild dementia stage of disease — the population in which treatment was initiated in the clinical trials; Study 1 enrolled patients with confirmed amyloid pathology, MMSE 20 to 28, and progressive memory change for at least 6 months",
+      "quote": "KISUNLA TM is indicated for the treatment of Alzheimer’s disease. Treatment with KISUNLA should be initiated in patients with mild cognitive impairment or mild dementia stage of disease, the population in which treatment was initiated in the clinical trials.",
+      "location": "Section 1 Indications and Usage"
+    },
+    "followup": {
+      "value": "up to 72 weeks of treatment in Study 1, with efficacy endpoints assessed at Week 76; patients could enroll in an optional long-term extension",
+      "quote": "Patients were enrolled with or without concomitant approved therapies (cholinesterase inhibitors and the N-methyl-D-aspartate antagonist memantine) for Alzheimer’s disease. Patients could enroll in an optional, long-term extension.",
+      "location": "Section 14 Clinical Studies"
+    },
+    "intervention": {
+      "value": "KISUNLA (donanemab-azbt) 700 mg by intravenous infusion over approximately 30 minutes every four weeks for the first three doses, followed by 1400 mg every four weeks; consider stopping dosing based on reduction of amyloid plaques to minimal levels on amyloid PET imaging",
+      "quote": "The recommended dosage of KISUNLA is 700 mg administered as an intravenous infusion over approximately 30 minutes every four weeks for the first three doses, followed by 1400 mg every four weeks. (2.2)",
+      "location": "Highlights, Dosage and Administration; Section 2.2 Dosing Instructions"
+    },
+    "comparator": {
+      "value": "placebo (N = 876) in Study 1",
+      "quote": "In Study 1, 1736 patients were randomized 1:1 to receive 700 mg of KISUNLA every 4 weeks for the first 3 doses, and then 1400 mg every 4 weeks (N = 860) or placebo (N = 876)",
+      "location": "Section 14 Clinical Studies"
+    },
+    "biomarker_confirmation": {
+      "value": "Amyloid beta pathology must be confirmed prior to initiating treatment; in Study 1 patients had confirmed amyloid pathology and were included based on visual assessment of tau PET imaging with flortaucipir and standardized uptake value ratio (SUVR)",
+      "quote": "Patients were included in the study based on visual assessment of tau PET imaging with flortaucipir and standardized uptake value ratio (SUVR).",
+      "location": "Section 14 Clinical Studies; see also Section 2.1 Patient Selection"
+    },
+    "nct_ids": [
+      "NCT04437511"
+    ],
+    "cohorts": []
+  },
+  "outcomes": [
+    {
+      "name": "Change in the integrated Alzheimer's Disease Rating Scale (iADRS) score from baseline to 76 weeks",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "The primary efficacy endpoint was change in the integrated Alzheimer’s Disease Rating Scale (iADRS) score from baseline to 76 weeks.",
+      "met": "met",
+      "effect_estimate": "2.92 in the combined population and 3.25 in the low/medium tau population",
+      "confidence_interval": null,
+      "p_value": "p<0.0001",
+      "multiplicity_controlled": "unclear",
+      "quote": "Patients treated with KISUNLA demonstrated a statistically significant reduction in clinical decline on iADRS compared to placebo at Week 76 in the combined population (2.92, p<0.0001) and the low/medium tau population (3.25, p<0.0001).",
+      "location": "Section 14 Clinical Studies"
+    },
+    {
+      "name": "CDR-SB (Clinical Dementia Rating Scale - Sum of Boxes) change from baseline at Week 76, combined population",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Other efficacy endpoints included Clinical Dementia Rating Scale – Sum of Boxes (CDR-SB), ADAS-Cog₁₃, and ADCS-iADL.",
+      "met": "met",
+      "effect_estimate": "-0.70 (29% slowing of decline relative to placebo); adjusted mean change 1.72 with KISUNLA versus 2.42 with placebo",
+      "confidence_interval": null,
+      "p_value": "p<0.0001",
+      "multiplicity_controlled": "unclear",
+      "quote": "Patients treated with KISUNLA demonstrated a statistically significant reduction in clinical decline on CDR-SB compared to placebo at Week 76 in the combined population (-0.70, p<0.0001)",
+      "location": "Section 14 Clinical Studies; Table 8"
+    },
+    {
+      "name": "ADAS-Cog13 change from baseline at Week 76, combined population",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Other efficacy endpoints included Clinical Dementia Rating Scale – Sum of Boxes (CDR-SB), ADAS-Cog₁₃, and ADCS-iADL.",
+      "met": "met",
+      "effect_estimate": "-1.33 (20% slowing of decline relative to placebo); adjusted mean change 5.46 with KISUNLA versus 6.79 with placebo",
+      "confidence_interval": null,
+      "p_value": "p=0.0006",
+      "multiplicity_controlled": "unclear",
+      "quote": "Difference from placebo (%)d-1.33 (20%)-- p=0.0006 **c** **ADCS-iADL** Mean baseline 47.96 47.98",
+      "location": "Table 8: Efficacy Analysis Results in Combined Population at Week 76"
+    },
+    {
+      "name": "ADCS-iADL change from baseline at Week 76, combined population",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Other efficacy endpoints included Clinical Dementia Rating Scale – Sum of Boxes (CDR-SB), ADAS-Cog₁₃, and ADCS-iADL.",
+      "met": "met",
+      "effect_estimate": "1.70 (28% slowing of decline relative to placebo); adjusted mean change -4.42 with KISUNLA versus -6.13 with placebo",
+      "confidence_interval": null,
+      "p_value": "p=0.0001",
+      "multiplicity_controlled": "unclear",
+      "quote": "Difference from placebo (%)d1.70 (28%)-- p=0.0001 a Abbreviations: ADAS-Cog13 = Alzheimer’s Disease Assessment Scale – 13-item Cognitive Subscale",
+      "location": "Table 8: Efficacy Analysis Results in Combined Population at Week 76"
+    },
+    {
+      "name": "Amyloid beta PET Centiloid change from baseline at Week 76 (biomarker/pharmacodynamic endpoint)",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "adjusted mean change -87.0 with KISUNLA versus -0.7 with placebo; difference from placebo -86.4",
+      "confidence_interval": null,
+      "p_value": "p<0.0001",
+      "multiplicity_controlled": "unclear",
+      "quote": "|Amyloid Beta PET Centiloid|N = 765|N = 812|\n|Mean baseline|104.0|101.8|\n|Adjusted mean change from baseline Difference from placebo|-87.0 -86.4, p<0.0001|-0.7|",
+      "location": "Table 7: Biomarker Results of KISUNLA in Study 1 (AACI)"
+    },
+    {
+      "name": "Amyloid beta PET SUVR change from baseline at Week 76 (biomarker/pharmacodynamic endpoint)",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "adjusted mean change -0.47 with KISUNLA versus -0.00 with placebo; difference from placebo -0.47",
+      "confidence_interval": null,
+      "p_value": "p<0.0001",
+      "multiplicity_controlled": "unclear",
+      "quote": "|Amyloid Beta PET SUVR|N = 712|N = 754|\n|Mean baseline|1.53|1.52|\n|Adjusted mean change from baseline Difference from placebo|-0.47 -0.47, p<0.0001|-0.00|",
+      "location": "Table 7: Biomarker Results of KISUNLA in Study 1 (AACI)"
+    },
+    {
+      "name": "Plasma p-tau217 (log10 transformed) change from baseline at Week 76 (biomarker/pharmacodynamic endpoint)",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "adjusted mean change -0.19 with KISUNLA versus 0.03 with placebo; difference from placebo -0.22, to be interpreted with caution due to uncertainties in bioanalysis",
+      "confidence_interval": null,
+      "p_value": "p<0.0001",
+      "multiplicity_controlled": "unclear",
+      "quote": "|a Plasma p-tau217 (log10 transformed)|N = 758|N = 786|\n|Mean baseline|0.67|0.66|\n|Adjusted mean change from baseline Difference from placebo|-0.19 -0.22, p<0.0001|0.03|",
+      "location": "Table 7: Biomarker Results of KISUNLA in Study 1 (AACI)"
+    },
+    {
+      "name": "Percentage of patients eligible for switch to placebo based on amyloid PET levels at Weeks 24, 52 and 76",
+      "tier": "exploratory",
+      "prespecified": "yes",
+      "prespecification_evidence": "The treatment was switched to placebo based on amyloid PET levels measured at Week 24, Week 52, and Week 76. If the amyloid plaque level was <11 Centiloids on a single PET scan",
+      "met": "not_applicable",
+      "effect_estimate": "17% at Week 24, 47% at Week 52, and 69% at Week 76",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "The percentages of patients eligible for switch to placebo based on amyloid PET levels at Week 24, Week 52, and Week 76 timepoints were 17%, 47%, and 69%, respectively.",
+      "location": "Section 14 Clinical Studies"
+    }
+  ],
+  "primary_endpoint_status": {
+    "status": "met",
+    "explanation": "The label reports that the primary efficacy endpoint, iADRS change from baseline to 76 weeks, showed a statistically significant reduction in clinical decline with KISUNLA versus placebo in both the combined population (2.92) and the low/medium tau population (3.25).",
+    "quote": "Patients treated with KISUNLA demonstrated a statistically significant reduction in clinical decline on iADRS compared to placebo at Week 76 in the combined population (2.92, p<0.0001) and the low/medium tau population (3.25, p<0.0001)."
+  },
+  "multiplicity": {
+    "approach": "none stated — the prescribing information does not describe any multiplicity-control or hypothesis-testing hierarchy for the efficacy endpoints it reports",
+    "quote": null,
+    "location": null
+  },
+  "safety": {
+    "harms": [
+      {
+        "name": "ARIA (any, including asymptomatic radiographic events)",
+        "arm": "KISUNLA and placebo, Study 1",
+        "count": "307 KISUNLA; 122 placebo",
+        "denominator": "853 KISUNLA; 874 placebo",
+        "percentage": "36% KISUNLA; 14% placebo",
+        "apoe_stratum": null,
+        "quote": "Including asymptomatic radiographic events, ARIA was observed in 36% (307/853) of patients treated with KISUNLA, compared to 14% (122/874) of patients on placebo in Study 1.",
+        "location": "Section 5.1 Incidence of ARIA"
+      },
+      {
+        "name": "ARIA-E",
+        "arm": "KISUNLA and placebo, Study 1",
+        "count": "201 KISUNLA; 17 placebo",
+        "denominator": "853 KISUNLA; 874 placebo",
+        "percentage": "24% KISUNLA; 2% placebo",
+        "apoe_stratum": null,
+        "quote": "ARIA-E was observed in 24% (201/853) of patients treated with KISUNLA compared with 2% (17/874) of patients on placebo.",
+        "location": "Section 5.1 Incidence of ARIA"
+      },
+      {
+        "name": "ARIA-H",
+        "arm": "KISUNLA and placebo, Study 1",
+        "count": "263 KISUNLA; 111 placebo",
+        "denominator": "853 KISUNLA; 874 placebo",
+        "percentage": "31% KISUNLA; 13% placebo",
+        "apoe_stratum": null,
+        "quote": "ARIA-H was observed in 31% (263/853) of patients treated with KISUNLA compared with 13% (111/874) of patients on placebo. There was no increase in isolated ARIA-H",
+        "location": "Section 5.1 Incidence of ARIA"
+      },
+      {
+        "name": "symptomatic ARIA",
+        "arm": "KISUNLA, Study 1",
+        "count": "52",
+        "denominator": "853",
+        "percentage": "6%",
+        "apoe_stratum": null,
+        "quote": "Symptomatic ARIA occurred in 6% (52/853) of patients treated with KISUNLA in Study 1 *[see Adverse Reactions (6.1)]*. Clinical symptoms associated with ARIA resolved in approximately 85% (44/52) of patients.",
+        "location": "Section 5.1 Incidence of ARIA"
+      },
+      {
+        "name": "ARIA-H microhemorrhage (adverse reaction reported in at least 5% of KISUNLA patients)",
+        "arm": "KISUNLA and placebo, Study 1",
+        "count": null,
+        "denominator": "N = 853 KISUNLA; N = 874 placebo",
+        "percentage": "25% KISUNLA; 11% placebo",
+        "apoe_stratum": null,
+        "quote": "**KISUNLA Placebo** **Adverse Reaction N = 853 N = 874**\n\n||%|%|\n|---|---|---|\n|a ARIA-H microhemorrhage|25|11|\n|ARIA-E|24|2|",
+        "location": "Table 6: Adverse Reactions Reported in at Least 5% of Patients Treated With KISUNLA and at Least 2% Higher Than Placebo in Study 1"
+      },
+      {
+        "name": "ARIA-H superficial siderosis, headache and infusion-related reaction (adverse reactions reported in at least 5% of KISUNLA patients)",
+        "arm": "KISUNLA and placebo, Study 1",
+        "count": null,
+        "denominator": "N = 853 KISUNLA; N = 874 placebo",
+        "percentage": "ARIA-H superficial siderosis 15% vs 3%; headache 13% vs 10%; infusion-related reaction 9% vs 0.5%",
+        "apoe_stratum": null,
+        "quote": "|a ARIA-H microhemorrhage|25|11|\n|ARIA-E|24|2|\n\n|a ARIA-H superficial siderosis|15|3|\n|---|---|---|\n|Headache|13|10|\n|Infusion-related reaction|9|0.5|",
+        "location": "Table 6: Adverse Reactions Reported in at Least 5% of Patients Treated With KISUNLA and at Least 2% Higher Than Placebo in Study 1"
+      },
+      {
+        "name": "macrohemorrhage (intracerebral hemorrhage greater than 1 cm in diameter)",
+        "arm": "KISUNLA and placebo, Study 1",
+        "count": "4 KISUNLA; 2 placebo",
+        "denominator": "853 KISUNLA; 874 placebo",
+        "percentage": "0.5% KISUNLA; 0.2% placebo",
+        "apoe_stratum": null,
+        "quote": "Intracerebral hemorrhage greater than 1 cm in diameter was reported in 0.5% (4/853) of patients in Study 1 after treatment with KISUNLA compared to 0.2% (2/874) of patients on placebo.",
+        "location": "Section 5.1 Incidence of Intracerebral Hemorrhage"
+      },
+      {
+        "name": "death (fatal intracerebral hemorrhage)",
+        "arm": "KISUNLA",
+        "count": "number not stated; fatal events observed",
+        "denominator": null,
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "Fatal events of intracerebral hemorrhage in patients taking KISUNLA have been observed.",
+        "location": "Section 5.1 Incidence of Intracerebral Hemorrhage"
+      },
+      {
+        "name": "death (one fatal intracerebral hemorrhage with concomitant thrombolytic use)",
+        "arm": "KISUNLA",
+        "count": "1",
+        "denominator": null,
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "One fatal intracerebral hemorrhage occurred in a patient taking KISUNLA in the setting of focal neurologic symptoms of ARIA and the use of a thrombolytic agent.",
+        "location": "Section 5.1 Concomitant Antithrombotic or Thrombolytic Medication"
+      },
+      {
+        "name": "ARIA (any) in ApoE e4 homozygotes",
+        "arm": "KISUNLA versus placebo",
+        "count": null,
+        "denominator": "143/850 patients in the KISUNLA arm were ApoE e4 homozygotes",
+        "percentage": "55% on KISUNLA vs. 22% on placebo",
+        "apoe_stratum": "ApoE ε4 homozygotes",
+        "quote": "The incidence of ARIA was higher in ApoE ε4 homozygotes (55% on KISUNLA vs. 22% on placebo) than in heterozygotes (36% on KISUNLA vs. 13% on placebo) and noncarriers (25% on KISUNLA vs. 12% on placebo).",
+        "location": "Section 5.1 ApoE ε4 Carrier Status"
+      },
+      {
+        "name": "ARIA (any) in ApoE e4 heterozygotes",
+        "arm": "KISUNLA versus placebo",
+        "count": null,
+        "denominator": "452/850 patients in the KISUNLA arm were heterozygotes",
+        "percentage": "36% on KISUNLA vs. 13% on placebo",
+        "apoe_stratum": "ApoE ε4 heterozygotes",
+        "quote": "The incidence of ARIA was higher in ApoE ε4 homozygotes (55% on KISUNLA vs. 22% on placebo) than in heterozygotes (36% on KISUNLA vs. 13% on placebo) and noncarriers (25% on KISUNLA vs. 12% on placebo).",
+        "location": "Section 5.1 ApoE ε4 Carrier Status"
+      },
+      {
+        "name": "ARIA (any) in ApoE e4 noncarriers",
+        "arm": "KISUNLA versus placebo",
+        "count": null,
+        "denominator": "255/850 patients in the KISUNLA arm were noncarriers",
+        "percentage": "25% on KISUNLA vs. 12% on placebo",
+        "apoe_stratum": "ApoE ε4 noncarriers",
+        "quote": "The incidence of ARIA was higher in ApoE ε4 homozygotes (55% on KISUNLA vs. 22% on placebo) than in heterozygotes (36% on KISUNLA vs. 13% on placebo) and noncarriers (25% on KISUNLA vs. 12% on placebo).",
+        "location": "Section 5.1 ApoE ε4 Carrier Status"
+      },
+      {
+        "name": "symptomatic ARIA-E by ApoE genotype",
+        "arm": "KISUNLA",
+        "count": null,
+        "denominator": "143 homozygotes, 452 heterozygotes, 255 noncarriers in the KISUNLA arm",
+        "percentage": "8% of ApoE ε4 homozygotes, 7% of heterozygotes, 4% of noncarriers",
+        "apoe_stratum": "ApoE ε4 homozygotes, heterozygotes and noncarriers",
+        "quote": "Among patients treated with KISUNLA, symptomatic ARIA-E occurred in 8% of ApoE ε4 homozygotes compared with 7% of heterozygotes and 4% of noncarriers.",
+        "location": "Section 5.1 ApoE ε4 Carrier Status"
+      },
+      {
+        "name": "serious ARIA by ApoE genotype",
+        "arm": "KISUNLA",
+        "count": null,
+        "denominator": "143 homozygotes, 452 heterozygotes, 255 noncarriers in the KISUNLA arm",
+        "percentage": "3% of ApoE ε4 homozygotes, 2% of heterozygotes, 1% of noncarriers",
+        "apoe_stratum": "ApoE ε4 homozygotes, heterozygotes and noncarriers",
+        "quote": "Serious events of ARIA occurred in 3% of ApoE ε4 homozygotes, 2% of heterozygotes and 1% of noncarriers.",
+        "location": "Section 5.1 ApoE ε4 Carrier Status"
+      },
+      {
+        "name": "severe radiographic ARIA-E by ApoE genotype",
+        "arm": "KISUNLA",
+        "count": "4 homozygotes; 9 heterozygotes; 1 noncarrier",
+        "denominator": "143 homozygotes; 452 heterozygotes; 255 noncarriers",
+        "percentage": "3% homozygotes; 2% heterozygotes; 0.4% noncarriers",
+        "apoe_stratum": "ApoE ε4 homozygotes, heterozygotes and noncarriers",
+        "quote": "Among patients treated with KISUNLA, the rate of severe radiographic ARIA-E was highest in ApoE ε4 homozygotes 3% (4/143) compared to heterozygotes 2% (9/452) or noncarriers 0.4% (1/255).",
+        "location": "Section 5.1 Radiographic Severity"
+      },
+      {
+        "name": "severe radiographic ARIA-H by ApoE genotype",
+        "arm": "KISUNLA",
+        "count": "31 homozygotes; 38 heterozygotes; 9 noncarriers",
+        "denominator": "143 homozygotes; 452 heterozygotes; 255 noncarriers",
+        "percentage": "22% homozygotes; 8% heterozygotes; 4% noncarriers",
+        "apoe_stratum": "ApoE ε4 homozygotes, heterozygotes and noncarriers",
+        "quote": "Among patients treated with KISUNLA, the rate of severe radiographic ARIA-H was highest in ApoE ε4 homozygotes 22% (31/143) compared to heterozygotes 8% (38/452) or noncarriers 4% (9/255).",
+        "location": "Section 5.1 Radiographic Severity"
+      },
+      {
+        "name": "ARIA-E by maximum radiographic severity",
+        "arm": "KISUNLA",
+        "count": "59 mild; 128 moderate; 14 severe",
+        "denominator": "853",
+        "percentage": "7% mild; 15% moderate; 2% severe",
+        "apoe_stratum": null,
+        "quote": "The maximum radiographic severity of ARIA-E in patients treated with KISUNLA was mild in 7% (59/853) of patients, moderate in 15% (128/853) of patients, and severe in 2% (14/853) of patients.",
+        "location": "Section 5.1 Radiographic Severity"
+      },
+      {
+        "name": "ARIA-H microhemorrhage by maximum radiographic severity",
+        "arm": "KISUNLA",
+        "count": "143 mild; 34 moderate; 40 severe",
+        "denominator": "853",
+        "percentage": "17% mild; 4% moderate; 5% severe",
+        "apoe_stratum": null,
+        "quote": "The maximum radiographic severity of ARIA- H microhemorrhage in patients treated with KISUNLA was mild in 17% (143/853) of patients, moderate in 4% (34/853) of patients, and severe in 5% (40/853) of patients.",
+        "location": "Section 5.1 Radiographic Severity"
+      },
+      {
+        "name": "ARIA-H superficial siderosis by maximum radiographic severity",
+        "arm": "KISUNLA",
+        "count": "47 mild; 32 moderate; 46 severe",
+        "denominator": "853",
+        "percentage": "6% mild; 4% moderate; 5% severe",
+        "apoe_stratum": null,
+        "quote": "The maximum radiographic severity of ARIA-H superficial siderosis in patients treated with KISUNLA was mild in 6% (47/853) of patients, moderate in 4% (32/853) of patients, and severe in 5% (46/853) of patients.",
+        "location": "Section 5.1 Radiographic Severity"
+      },
+      {
+        "name": "ARIA-H with concomitant antithrombotic medication",
+        "arm": "KISUNLA with versus without concomitant antithrombotic within 30 days",
+        "count": "106 with antithrombotic; 148 without",
+        "denominator": "349 with antithrombotic; 504 without",
+        "percentage": "30% versus 29%",
+        "apoe_stratum": null,
+        "quote": "The incidence of ARIA-H was 30% (106/349) in patients taking KISUNLA with a concomitant antithrombotic medication within 30 days compared to 29% (148/504) who did not receive an antithrombotic within 30 days of an ARIA-H event.",
+        "location": "Section 5.1 Concomitant Antithrombotic or Thrombolytic Medication"
+      },
+      {
+        "name": "intracerebral hemorrhage greater than 1 cm with concomitant antithrombotic medication",
+        "arm": "KISUNLA with versus without concomitant antithrombotic",
+        "count": "2 with antithrombotic; 2 without",
+        "denominator": "349 with antithrombotic; 504 without",
+        "percentage": "0.6% versus 0.4%",
+        "apoe_stratum": null,
+        "quote": "The incidence of intracerebral hemorrhage greater than 1 cm in diameter was 0.6% (2/349 patients) in patients taking KISUNLA with a concomitant antithrombotic medication compared to 0.4% (2/504) in those who did not receive an antithrombotic.",
+        "location": "Section 5.1 Concomitant Antithrombotic or Thrombolytic Medication"
+      },
+      {
+        "name": "infusion-related reactions",
+        "arm": "KISUNLA and placebo, Study 1",
+        "count": "74 KISUNLA; 4 placebo",
+        "denominator": "853 KISUNLA; 874 placebo",
+        "percentage": "9% KISUNLA; 0.5% placebo",
+        "apoe_stratum": null,
+        "quote": "In Study 1, infusion-related reactions were observed in 9% (74/853) of patients treated with KISUNLA compared to 0.5% (4/874) of patients on placebo; the majority (70%, 52/74) occurred within the first 4 infusions.",
+        "location": "Section 5.3 Infusion-Related Reactions"
+      },
+      {
+        "name": "discontinuation due to infusion-related reaction",
+        "arm": "KISUNLA",
+        "count": "31",
+        "denominator": "853",
+        "percentage": "4%",
+        "apoe_stratum": null,
+        "quote": "Infusion-related reactions resulted in discontinuations in 4% (31/853) of patients treated with KISUNLA. Signs and symptoms of infusion-related reactions include chills, erythema, nausea/vomiting, difficulty breathing/dyspnea, sweating, elevated blood pressure, headache, chest pain, and low blood pressure.",
+        "location": "Section 5.3 Infusion-Related Reactions"
+      },
+      {
+        "name": "hypersensitivity reactions including anaphylaxis",
+        "arm": "KISUNLA and placebo",
+        "count": null,
+        "denominator": "853 KISUNLA; 874 placebo",
+        "percentage": "3% KISUNLA; 0.7% placebo",
+        "apoe_stratum": null,
+        "quote": "Hypersensitivity reactions, including anaphylaxis, occurred in 3% of patients treated with KISUNLA compared to 0.7% of patients on placebo *[see Warnings and Precautions (5.2)]*.",
+        "location": "Section 6.1 Less Common Adverse Reactions"
+      },
+      {
+        "name": "serious adverse reactions of intestinal obstruction",
+        "arm": "KISUNLA and placebo",
+        "count": "3 KISUNLA; 0 placebo",
+        "denominator": "853 KISUNLA; 874 placebo",
+        "percentage": "0.4% KISUNLA",
+        "apoe_stratum": null,
+        "quote": "Three patients (0.4%) treated with KISUNLA had serious adverse reactions of intestinal obstruction compared to no patients on placebo.",
+        "location": "Section 6.1 Less Common Adverse Reactions"
+      },
+      {
+        "name": "serious adverse reactions of intestinal perforation",
+        "arm": "KISUNLA and placebo",
+        "count": "2 KISUNLA; 1 placebo",
+        "denominator": "853 KISUNLA; 874 placebo",
+        "percentage": "0.2% KISUNLA; 0.1% placebo",
+        "apoe_stratum": null,
+        "quote": "Two patients (0.2%) treated with KISUNLA had serious adverse reactions of intestinal perforation compared to one patient (0.1%) on placebo.",
+        "location": "Section 6.1 Less Common Adverse Reactions"
+      },
+      {
+        "name": "treatment discontinuation because of an adverse reaction",
+        "arm": "KISUNLA and placebo",
+        "count": null,
+        "denominator": "853 KISUNLA; 874 placebo",
+        "percentage": "13% KISUNLA; 4% placebo",
+        "apoe_stratum": null,
+        "quote": "Thirteen percent of patients treated with KISUNLA compared to 4% of patients on placebo stopped study treatment because of an adverse reaction.",
+        "location": "Section 6.1 Clinical Trials Experience"
+      },
+      {
+        "name": "anti-donanemab-azbt antibodies (immunogenicity)",
+        "arm": "KISUNLA",
+        "count": "691 developed anti-drug antibodies, of whom 691 had neutralizing antibodies",
+        "denominator": "792 evaluated",
+        "percentage": "87%; 100% of those with ADA had neutralizing antibodies",
+        "apoe_stratum": null,
+        "quote": "In up to 18 months of treatment in Study 1, 87% (691/792) of patients receiving KISUNLA once monthly developed anti- donanemab-azbt antibodies, and of those, 100% (691/691) had neutralizing antibodies.",
+        "location": "Section 12.6 Immunogenicity"
+      }
+    ],
+    "apoe_stratification_reported": true,
+    "serious_adverse_events": {
+      "value": "Serious events of ARIA occurred in 3% of ApoE ε4 homozygotes, 2% of heterozygotes and 1% of noncarriers treated with KISUNLA; serious adverse reactions of intestinal obstruction (3 patients, 0.4%) and intestinal perforation (2 patients, 0.2%) were also reported. No overall serious adverse event rate is given.",
+      "quote": "Serious events of ARIA occurred in 3% of ApoE ε4 homozygotes, 2% of heterozygotes and 1% of noncarriers.",
+      "location": "Section 5.1 ApoE ε4 Carrier Status"
+    },
+    "deaths": {
+      "value": "No overall death counts are reported; the label states that fatal events of intracerebral hemorrhage have been observed in patients taking KISUNLA, and that one fatal intracerebral hemorrhage occurred in a patient with focal neurologic symptoms of ARIA who received a thrombolytic agent",
+      "quote": "Fatal events of intracerebral hemorrhage in patients taking KISUNLA have been observed.",
+      "location": "Section 5.1 Incidence of Intracerebral Hemorrhage"
+    },
+    "discontinuations": {
+      "value": "13% of patients treated with KISUNLA versus 4% on placebo stopped study treatment because of an adverse reaction, most commonly infusion-related reaction (4% of KISUNLA patients versus none on placebo); separately, the label instructs prescribers to consider stopping dosing based on reduction of amyloid plaques to minimal levels on amyloid PET imaging, and to suspend or discontinue dosing according to the ARIA-E and ARIA-H severity tables",
+      "quote": "Thirteen percent of patients treated with KISUNLA compared to 4% of patients on placebo stopped study treatment because of an adverse reaction.",
+      "location": "Section 6.1 Clinical Trials Experience; see also Sections 2.2 and 2.3"
+    }
+  },
+  "funding": [],
+  "conflicts": [],
+  "limitations": [
+    "There is no data beyond the 76-week duration of Study 1 to guide whether additional dosing with KISUNLA may be needed for longer-term clinical benefit.",
+    "There is limited experience in patients who continued dosing through asymptomatic but radiographically mild to moderate ARIA-E, and there are limited data for dosing patients who have experienced recurrent episodes of ARIA-E.",
+    "The number of events and the limited exposure to non-aspirin antithrombotic medications limit definitive conclusions about the risk of ARIA or intracerebral hemorrhage in patients taking antithrombotic medications.",
+    "An FDA-authorized test for detection of ApoE ε4 alleles to identify patients at risk of ARIA if treated with KISUNLA is not currently available, and currently available tests may vary in accuracy and design.",
+    "Plasma p-tau217 biomarker results should be interpreted with caution due to the uncertainties in bioanalysis.",
+    "Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice.",
+    "There are no adequate data on KISUNLA use in pregnant women, no animal reproductive or developmental toxicity studies, and no data on presence in human milk.",
+    "Safety and effectiveness in pediatric patients have not been established.",
+    "No clinical studies were conducted to evaluate the pharmacokinetics of donanemab-azbt in patients with renal or hepatic impairment; carcinogenicity, genotoxicity and fertility studies have not been conducted."
+  ],
+  "risk_of_bias": [
+    {
+      "domain": "generalizability — neuroimaging exclusions",
+      "judgement": "Patients with prior large intracerebral hemorrhage, more than 4 microhemorrhages, more than 1 area of superficial siderosis, severe white matter disease or vasogenic edema were excluded from Study 1, so the reported ARIA and hemorrhage rates do not describe those patients.",
+      "quote": "Patients were excluded from\n\nenrollment in Study 1 for findings on neuroimaging of prior intracerebral hemorrhage greater than 1 cm in diameter, more than 4 microhemorrhages, more than 1 area of superficial siderosis, severe white matter disease, and vasogenic edema."
+    },
+    {
+      "domain": "exposure duration / size of safety database",
+      "judgement": "Long-term exposure is limited: of 2885 patients exposed, only 432 received KISUNLA for at least 18 months at the recommended dosing schedule.",
+      "quote": "In the clinical studies of KISUNLA, 1912 patients with Alzheimer’s disease received KISUNLA once monthly for at least 6 months, 1057 patients for at least 12 months, and 432 patients for at least 18 months, at the recommended dosing schedule."
+    },
+    {
+      "domain": "treatment switching within the randomized period",
+      "judgement": "Active treatment was switched to placebo based on amyloid PET thresholds at Weeks 24, 52 and 76, with 17%, 47% and 69% of patients eligible for switch at those timepoints, so exposure varied within the KISUNLA arm.",
+      "quote": "The treatment was switched to placebo based on amyloid PET levels measured at Week 24, Week 52, and Week 76."
+    },
+    {
+      "domain": "immunogenicity",
+      "judgement": "87% of treated patients developed anti-donanemab-azbt antibodies, all of them neutralizing, and high ADA titers were associated with less amyloid plaque reduction, although the label states no clinically significant effect on effectiveness over 18 months was identified.",
+      "quote": "Patients with high ADA titers showed less reduction in amyloid plaque compared to patients with low ADA titers."
+    },
+    {
+      "domain": "cross-trial comparability of adverse reaction rates",
+      "judgement": "The label itself cautions that adverse reaction rates from these trials cannot be directly compared with those of other drugs and may not reflect practice.",
+      "quote": "adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice"
+    }
+  ],
+  "disagreements": [
+    {
+      "question": "What risk warning must accompany this class of anti-amyloid antibodies?",
+      "position": "FDA requires a boxed warning that KISUNLA can cause ARIA-E and ARIA-H, that serious intracerebral hemorrhages greater than 1 cm, some fatal, have been observed with this class, and that ARIA-E can cause focal neurologic deficits mimicking ischemic stroke, which clinicians must consider before giving thrombolytic therapy.",
+      "attributed_to": "FDA (boxed warning of the approved KISUNLA prescribing information)",
+      "quote": "Serious intracerebral hemorrhages >1 cm, some of which have been fatal, have been observed in patients treated"
+    },
+    {
+      "question": "Should ApoE ε4 genotype be tested before starting treatment?",
+      "position": "The label states that ApoE ε4 homozygotes have a higher incidence of ARIA, including symptomatic, serious and severe radiographic ARIA, than heterozygotes and noncarriers, and directs that testing for ApoE ε4 status should be performed prior to initiation of treatment, with a pre-test discussion of risk across genotypes; patients may still be treated if not tested.",
+      "attributed_to": "FDA (boxed warning and Section 5.1 of the approved KISUNLA prescribing information)",
+      "quote": "Testing for ApoE ε4 status should be performed prior to initiation of treatment to inform the risk of developing ARIA. Prior to testing, prescribers should discuss with patients the risk of ARIA across genotypes"
+    },
+    {
+      "question": "In which patients should treatment be started?",
+      "position": "The indication is Alzheimer's disease generally, but the label restricts initiation to patients at the mild cognitive impairment or mild dementia stage, explicitly because that is the population in which treatment was initiated in the clinical trials.",
+      "attributed_to": "FDA (Section 1 Indications and Usage of the approved KISUNLA prescribing information)",
+      "quote": "Treatment with KISUNLA should be initiated in patients with mild cognitive impairment or mild dementia stage of disease, the population in which treatment was initiated in the clinical trials."
+    },
+    {
+      "question": "How long should treatment continue?",
+      "position": "The label directs prescribers to consider stopping dosing based on reduction of amyloid plaques to minimal levels on amyloid PET imaging, and states there are no data beyond the 76-week duration of Study 1 to guide whether additional dosing is needed for longer-term clinical benefit.",
+      "attributed_to": "FDA (Sections 2.2 and 14 of the approved KISUNLA prescribing information)",
+      "quote": "There is no data beyond the 76-week duration of Study 1 to guide whether additional dosing with KISUNLA may be needed for longer-term clinical benefit."
+    },
+    {
+      "question": "Is ApoE ε4 genotyping for ARIA risk supported by an authorized test?",
+      "position": "The label states that no FDA-authorized test for detecting ApoE ε4 alleles to identify patients at risk of ARIA on KISUNLA is currently available, and that currently available tests may vary in accuracy and design — a qualification attached to its own testing recommendation.",
+      "attributed_to": "FDA (Section 5.1 ApoE ε4 Carrier Status of the approved KISUNLA prescribing information)",
+      "quote": "An FDA-authorized test for detection of ApoE ε4 alleles to identify patients at risk of ARIA if treated with KISUNLA is not currently available. Currently available tests used to identify ApoE ε4 alleles may vary in accuracy and design."
+    },
+    {
+      "question": "Can conclusions be drawn about antithrombotic or thrombolytic use during treatment?",
+      "position": "The label reports similar ARIA-H and hemorrhage rates with and without concomitant antithrombotics but states the number of events and limited non-aspirin exposure preclude definitive conclusions, and it advises additional caution with antithrombotics or thrombolytics.",
+      "attributed_to": "FDA (Section 5.1 Concomitant Antithrombotic or Thrombolytic Medication)",
+      "quote": "The number of events and the limited exposure to non-aspirin antithrombotic medications limit definitive conclusions about the risk of ARIA or intracerebral hemorrhage in patients taking antithrombotic medications."
+    },
+    {
+      "question": "How should the plasma p-tau217 biomarker result be read?",
+      "position": "The label reports a statistically significant reduction in plasma p-tau217 with KISUNLA but attaches a footnote that the results should be interpreted with caution because of uncertainties in bioanalysis.",
+      "attributed_to": "FDA (Table 7 footnote, Section 12.2 Pharmacodynamics)",
+      "quote": "N is the number of patients with baseline value. a Results should be interpreted with caution due to the uncertainties in bioanalysis."
+    }
+  ],
+  "linked_objects": [
+    {
+      "relation": "registry_record",
+      "identifier": "NCT04437511",
+      "note": "Study 1, the double-blind placebo-controlled trial whose efficacy and safety results are described in the label"
+    }
+  ],
+  "trial_status_observation": {
+    "status": null,
+    "enrollment": null,
+    "phase": null,
+    "observed_at": null,
+    "source": null
+  },
+  "unlocatable_fields": [
+    "study.phase",
+    "study.cohorts",
+    "funding",
+    "conflicts",
+    "authors",
+    "multiplicity.quote",
+    "multiplicity.location",
+    "outcomes[*].confidence_interval",
+    "safety.harms[death].count (no overall mortality count is reported in the label)",
+    "trial_status_observation.status",
+    "trial_status_observation.enrollment",
+    "trial_status_observation.phase",
+    "trial_status_observation.observed_at",
+    "trial_status_observation.source"
+  ],
+  "_meta": {
+    "model": "claude (builder subagent)",
+    "extracted_at": "2026-08-13T13:10:00Z",
+    "source": "raw/fda-kisunla-label/document.md"
+  }
+}

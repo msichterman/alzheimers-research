@@ -1,0 +1,9 @@
+{
+  "id": "benedet-2021-gfap",
+  "source": "sources/benedet-2021-gfap.xml",
+  "sha256": "79fa2dcc0b2770643afab4ba090ec0138580d028497355b580ea576973f92405",
+  "bytes": 160526,
+  "chars": 41182,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:07.934Z"
+}

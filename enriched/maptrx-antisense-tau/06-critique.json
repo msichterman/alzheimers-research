@@ -1,0 +1,373 @@
+{
+  "extracted_by": "gemini-3.1-pro-preview",
+  "extracted_at": "2026-08-13T16:33:21.311Z",
+  "independent": true,
+  "saw_builder_output": false,
+  "source": "raw/maptrx-antisense-tau/document.md",
+  "source_sha256": "e0c72e3ff102380a245ead13089b2831c9dbb753dc27dbf3c52a5e73bcbf652b",
+  "truncated": false,
+  "tokens": {
+    "in": 12725,
+    "out": 3548
+  },
+  "record": {
+    "document_kind": "journal_article",
+    "title": {
+      "value": "Tau-targeting antisense oligonucleotide MAPT Rx in mild Alzheimer’s disease: a phase 1b, randomized, placebo-controlled trial",
+      "quote": "Tau-targeting antisense oligonucleotide MAPT Rx in mild Alzheimer’s disease: a phase 1b, randomized, placebo-controlled trial",
+      "location": "Title"
+    },
+    "study": {
+      "design": {
+        "value": "randomized, double-blind, placebo-controlled, multiple-ascending dose phase 1b trial",
+        "quote": "A randomized, double-blind, placebo-controlled, multiple-ascending dose phase 1b trial evaluated the safety, pharmacokinetics and target engagement of MAPT Rx .",
+        "location": "Abstract"
+      },
+      "n": {
+        "value": 46,
+        "quote": "Forty-six patients enrolled in the trial",
+        "location": "Abstract"
+      },
+      "population": {
+        "value": "mild AD, defined by a CDR Overall Global Score of 1 or Global Score of 0.5 with a Memory Score of 1, Mini-Mental State Examination score (MMSE ) of 20–27 inclusive",
+        "quote": "Eligible participants were between the ages of 50 and 74 years and had mild AD, defined by a CDR Overall Global Score of 1 or Global Score of 0.5 with a Memory Score of 1, Mini-Mental State Examination score (MMSE ) of 20–27 inclusive",
+        "location": "Methods, Study design and participants"
+      },
+      "biomarker_confirmation": {
+        "value": "CSF pattern of low Aβ42 and elevated t-tau and p-tau consistent with diagnosis of AD",
+        "quote": "CSF pattern of low Aβ42 and elevated t-tau and p-tau consistent with diagnosis of AD",
+        "location": "Methods, Study design and participants"
+      },
+      "cohorts": [],
+      "comparator": {
+        "value": "placebo",
+        "quote": "Four ascending dose cohorts were enrolled sequentially and randomized 3:1 to intrathecal bolus administrations of MAPT Rx or placebo",
+        "location": "Abstract"
+      },
+      "followup": {
+        "value": "13-week treatment period, followed by a 23 week post-treatment period",
+        "quote": "13-week treatment period, followed by a 23 week post-treatment period",
+        "location": "Abstract"
+      },
+      "intervention": {
+        "value": "intrathecal bolus administrations of MAPT Rx or placebo every 4 or 12 weeks",
+        "quote": "intrathecal bolus administrations of MAPT Rx or placebo every 4 or 12 weeks",
+        "location": "Abstract"
+      },
+      "n_description": {
+        "value": "enrolled in the trial",
+        "quote": "Forty-six patients enrolled in the trial",
+        "location": "Abstract"
+      },
+      "nct_ids": [
+        "NCT03186989",
+        "NCT05399888"
+      ],
+      "phase": {
+        "value": "phase 1b",
+        "quote": "A randomized, double-blind, placebo-controlled, multiple-ascending dose phase 1b trial",
+        "location": "Abstract"
+      }
+    },
+    "outcomes": [
+      {
+        "name": "safety",
+        "tier": "primary",
+        "prespecified": "yes",
+        "met": "met",
+        "quote": "The primary endpoint was safety.",
+        "location": "Abstract",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": null,
+        "p_value": null,
+        "prespecification_evidence": null
+      },
+      {
+        "name": "MAPT Rx pharmacokinetics in cerebrospinal fluid (CSF)",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "met",
+        "quote": "The secondary endpoint was MAPT Rx pharmacokinetics in cerebrospinal fluid (CSF).",
+        "location": "Abstract",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": null,
+        "p_value": null,
+        "prespecification_evidence": null
+      },
+      {
+        "name": "CSF total-tau protein concentration",
+        "tier": "exploratory",
+        "prespecified": "yes",
+        "met": "met",
+        "quote": "The prespecified key exploratory outcome was CSF total-tau protein concentration.",
+        "location": "Abstract",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": null,
+        "p_value": null,
+        "prespecification_evidence": "The prespecified key exploratory outcome was CSF total-tau protein concentration."
+      }
+    ],
+    "primary_endpoint_status": {
+      "status": "met",
+      "quote": "Overall MAPT Rx treatment was generally well tolerated, with all participants completing the treatment period and over 90% of participants completing the post-treatment period.",
+      "explanation": "The trial evaluated safety as its primary endpoint and found the drug to be well tolerated with no severe or serious adverse events in the treatment groups."
+    },
+    "safety": {
+      "harms": [
+        {
+          "name": "death",
+          "arm": "all",
+          "quote": "There were no deaths, dose-limiting AEs or discontinuations of dosing regimens during the trial.",
+          "location": "Results, Primary endpoint of safety",
+          "apoe_stratum": null,
+          "count": "0",
+          "denominator": "46",
+          "percentage": "0"
+        }
+      ],
+      "apoe_stratification_reported": false,
+      "deaths": {
+        "value": "0",
+        "quote": "There were no deaths, dose-limiting AEs or discontinuations of dosing regimens during the trial.",
+        "location": "Results, Primary endpoint of safety"
+      },
+      "discontinuations": {
+        "value": "3",
+        "quote": "Three participants (6.5%) voluntarily withdrew from the study during the post-treatment period",
+        "location": "Results, Patients"
+      },
+      "serious_adverse_events": {
+        "value": "2",
+        "quote": "Two serious AEs occurred in two participants receiving placebo: hospitalization due to diverticulitis and an emergency room visit due to a minor stroke from which both participants recovered.",
+        "location": "Results, Primary endpoint of safety"
+      }
+    },
+    "unlocatable_fields": [
+      "multiplicity.approach",
+      "multiplicity.location",
+      "multiplicity.quote",
+      "outcomes.confidence_interval",
+      "outcomes.effect_estimate",
+      "outcomes.multiplicity_controlled",
+      "outcomes.p_value",
+      "authors.affiliation",
+      "authors.corresponding",
+      "authors.orcid",
+      "safety.harms.apoe_stratum"
+    ],
+    "authors": [
+      {
+        "name": "C.J. Mummery",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "A. Börjesson-Hanson",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "D.J. Blackburn",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "E.G.B. Vijverberg",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "P.P. De Deyn",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "S. Ducharme",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "M. Jonsson",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "A. Schneider",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "J.O. Rinne",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "A.C. Ludolph",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Ralf Bodenschatz",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Laurence Mignon",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Candice Junge",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Roger M. Lane",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Holly Kordasiewicz",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Eric E. Swayze",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Bethany Fitzsimmons",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Katrina M. Moore",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Chris Yun",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Tiffany Baumann",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Dan Li",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Daniel A. Norris",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Rebecca Crean",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Danielle L. Graham",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Ellen Huang",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Elena Ratti",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "C. Frank Bennett",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      }
+    ],
+    "conflicts": [
+      "C.J.M. reports advisory board membership for Roche, Lilly, Biogen and Ionis; research grants from Biogen; seminar chair for Biogen; chair of data safety monitoring board for AD trial led by Imperial College; supported by the NIHR Biomedical Research Centre dementia subtheme at UCLH.",
+      "M.J. reports advisory board membership for Biogen Sweden AB and BioArctic AB.",
+      "S.D. reports salary support from the Fonds de recherche du Québec – Santé; consultancies from Biogen, Wave Life Sciences, AZTherapies and Janssen Pharmaceuticals; advisory board membership and/or speaker fees from Eisai, Biogen, Sunovion, Innodem Neurosciences, HealthTech Connex and QurAlis; cofounder of AFX Medical Inc.",
+      "E.G.B.V. reports consultancies from New Amsterdam Pharma, Treeway, ReMynd, Vivoryon, Biogen, Vigil Neuroscience, ImmunoBrain Checkpoint and Brainstorm Therapeutics. PI of studies with AC immune, CogRX therapeutics, New Amsterdam Pharma, Janssen, UCB, Roche, GreenValley, Vivoryon, ImmunoBrain, Alector and Alzheon and sub-I from DIAN-TU, Alzheon, Eli Lilly, Cortexyme, Biogen en Fuij Film Toyama.",
+      "L.M., K.M.M., C.Y., D.L., D.A.N., R.C., C.F.B., C.J. and R.M.L. are employees of, and hold stock in, Ionis.",
+      "D.L.G., E.H. and E.R. are employees of, and hold stock in, Biogen."
+    ],
+    "disagreements": [],
+    "funding": [
+      "The study was funded by Ionis Pharmaceuticals and Biogen."
+    ],
+    "limitations": [
+      "This first-in-human study of MAPT Rx has several limitations mainly due to its small size ( N = 46) as is typical of phase 1 studies.",
+      "interpretation of the clinical meaningfulness of these results is limited due to the combination of assay variability and small sample size.",
+      "this study was conducted in relatively young participants with mild AD, and it will be important that future studies of MAPT Rx evaluate safety and efficacy in an older population, which may be more representative of late-onset AD."
+    ],
+    "linked_objects": [
+      {
+        "relation": "correction",
+        "identifier": "10.1038/s41591-023-02639-3",
+        "note": "A Correction to this paper has been published"
+      },
+      {
+        "relation": "registry_record",
+        "identifier": "NCT03186989",
+        "note": "Clinicaltrials.gov registration number"
+      },
+      {
+        "relation": "registry_record",
+        "identifier": "NCT05399888",
+        "note": "Clinicaltrials.gov registration number for phase 2 study"
+      }
+    ],
+    "multiplicity": {
+      "approach": null,
+      "location": null,
+      "quote": null
+    },
+    "risk_of_bias": [],
+    "trial_status_observation": {
+      "status": "completed",
+      "observed_at": "May 2022",
+      "source": "Methods, Study design and participants",
+      "enrollment": "46",
+      "phase": "phase 1b"
+    }
+  }
+}

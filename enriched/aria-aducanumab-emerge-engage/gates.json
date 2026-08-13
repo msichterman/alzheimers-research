@@ -1,0 +1,35 @@
+{
+  "id": "aria-aducanumab-emerge-engage",
+  "cluster": "amyloid-antibody",
+  "checked_at": "2026-08-13T16:59:45.934Z",
+  "passed": true,
+  "text_sufficiency": {
+    "level": "full-text",
+    "chars": 38156,
+    "sections": [
+      "method",
+      "result",
+      "discussion",
+      "statistical analysis",
+      "outcome",
+      "participants"
+    ]
+  },
+  "evidence_completeness": "full-text-oa",
+  "failures": [],
+  "warnings": [
+    {
+      "gate": "fidelity",
+      "detail": "5 adjudicated ruling(s) could not be applied automatically and need a hand edit: safety.harms[ARIA-H].reported, safety.harms[macrohemorrhage].reported, outcomes[primary].met, outcomes[primary].effect_estimate, outcomes[primary].confidence_interval"
+    },
+    {
+      "gate": "cross-links",
+      "detail": "document names NCT02484547 but no resolved registry record is linked for it"
+    },
+    {
+      "gate": "cross-links",
+      "detail": "document names NCT02477800 but no resolved registry record is linked for it"
+    }
+  ],
+  "manifest_discrepancies": []
+}

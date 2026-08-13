@@ -1,0 +1,9 @@
+{
+  "id": "holstege-2022-exome",
+  "source": "sources/holstege-2022-exome.xml",
+  "sha256": "5fd6d7ae75039d98face9fb2d773f73c7f504d6fad0760c548652994e2248490",
+  "bytes": 203557,
+  "chars": 47738,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:10.898Z"
+}

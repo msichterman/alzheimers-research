@@ -1,0 +1,581 @@
+{
+  "id": "verubecestat-epoch",
+  "checked_at": "2026-08-13T16:28:47.319Z",
+  "builder_model": "claude (builder subagent)",
+  "critic_model": "gemini-3.1-pro-preview",
+  "fields_compared": 43,
+  "disagreements": 7,
+  "conflicts": 6,
+  "coverage_gaps": 1,
+  "agreement_rate": 0.837,
+  "passed": false,
+  "needs_adjudication": true,
+  "disagreement_rows": [
+    {
+      "field": "study.intervention",
+      "builder": "oral verubecestat 12 mg or 40 mg once daily; a 60-mg dose level was included only in the phase 2 lead-in safety cohort and was prespecified to be dropped for the phase 3 component",
+      "critic": "verubecestat at doses of 12 mg and 40 mg per day",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": null,
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[macrohemorrhage].reported",
+      "builder": "reported",
+      "critic": "absent",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[change from baseline at week 78 in the CDR-SB score].tier",
+      "builder": "secondary",
+      "critic": "primary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[change from baseline at week 78 in the MMSE score].tier",
+      "builder": "secondary",
+      "critic": "primary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[change from baseline at week 78 in the NPI score].tier",
+      "builder": "secondary",
+      "critic": "primary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[change from baseline to week 78 in cerebrospinal fluid concentrations of A-beta-40, A-beta-42 and sAPP-beta].tier",
+      "builder": "exploratory",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ],
+  "conflict_rows": [
+    {
+      "field": "study.intervention",
+      "builder": "oral verubecestat 12 mg or 40 mg once daily; a 60-mg dose level was included only in the phase 2 lead-in safety cohort and was prespecified to be dropped for the phase 3 component",
+      "critic": "verubecestat at doses of 12 mg and 40 mg per day",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[macrohemorrhage].reported",
+      "builder": "reported",
+      "critic": "absent",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[change from baseline at week 78 in the CDR-SB score].tier",
+      "builder": "secondary",
+      "critic": "primary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[change from baseline at week 78 in the MMSE score].tier",
+      "builder": "secondary",
+      "critic": "primary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[change from baseline at week 78 in the NPI score].tier",
+      "builder": "secondary",
+      "critic": "primary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[change from baseline to week 78 in cerebrospinal fluid concentrations of A-beta-40, A-beta-42 and sAPP-beta].tier",
+      "builder": "exploratory",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ],
+  "builder_values_not_found_in_document": [],
+  "critic_values_not_found_in_document": [],
+  "all_rows": [
+    {
+      "field": "study.design",
+      "builder": "randomized, double-blind, placebo-controlled, parallel-group, 78-week trial period (part 1), followed by an optional extension period (part 2) of up to 5 years",
+      "critic": "randomized, double-blind, placebo-controlled, 78-week trial",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.n",
+      "builder": 1958,
+      "critic": 1958,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.population",
+      "builder": "patients between 55 and 85 years of age who met standard research and clinical criteria for dementia probably due to Alzheimer's disease, with an entry Mini-Mental State Examination score of 15 to 26 (mild or moderate dementia)",
+      "critic": "mild-to-moderate Alzheimer’s disease",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.comparator",
+      "builder": "matching placebo (653 patients), administered as identical-appearing tablets",
+      "critic": "placebo",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.followup",
+      "builder": "78-week double-blind treatment period (part 1); an optional extension period (part 2) of up to 5 years was planned but no patient completed it",
+      "critic": "78-week",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.intervention",
+      "builder": "oral verubecestat 12 mg or 40 mg once daily; a 60-mg dose level was included only in the phase 2 lead-in safety cohort and was prespecified to be dropped for the phase 3 component",
+      "critic": "verubecestat at doses of 12 mg and 40 mg per day",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.phase",
+      "builder": "phase 2 lead-in safety cohort component intended to transition to a phase 3 trial",
+      "critic": "phase 3",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "primary_endpoint_status.status",
+      "builder": "not_met",
+      "critic": "not_met",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "multiplicity.approach",
+      "builder": "Bonferroni correction applied to both verubecestat dose levels, in conjunction with a closed sequential testing approach controlling the type 1 error rate, testing primary outcomes and then secondary outcomes in the order specified in the statistical plan",
+      "critic": "Bonferroni correction ... in conjunction with a closed sequential testing approach",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].name",
+      "builder": "change from baseline to week 78 in the score on the cognitive subscale of the Alzheimer's Disease Assessment Scale (ADAS-cog)",
+      "critic": "change from baseline to week 78 in the score on the cognitive subscale of the Alzheimer’s Disease Assessment Scale (ADAS-cog",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].met",
+      "builder": "not_met",
+      "critic": "not_met",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "estimated mean change from baseline to week 78 of 7.9 in the 12-mg group, 8.0 in the 40-mg group, and 7.7 in the placebo group — both verubecestat groups worsened numerically more than placebo, so the direction of the difference favoured placebo",
+      "critic": "7.9 in the 12-mg group, 8.0 in the 40-mg group, and 7.7 in the placebo group",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": null,
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].p_value",
+      "builder": "P=0.63 for the comparison between the 12-mg group and the placebo group and P=0.46 for the comparison between the 40-mg group and the placebo group",
+      "critic": "P=0.63",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].multiplicity_controlled",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[ARIA-E].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[ARIA-H].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[symptomatic ARIA].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[macrohemorrhage].reported",
+      "builder": "reported",
+      "critic": "absent",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[death].reported",
+      "builder": "reported",
+      "critic": "reported",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[death].counts",
+      "builder": "verubecestat 12 mg per day: 9 | verubecestat 40 mg per day: 12 | placebo: 5",
+      "critic": "12-mg group: 9 | 40-mg group: 12 | placebo group: 5",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.apoe_stratification_reported",
+      "builder": false,
+      "critic": false,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[change from baseline to week 78 in the score on the cognitive subscale of the Alzheimer's Disease Assessment Scale (ADAS-cog)].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[change from baseline to week 78 in the score on the cognitive subscale of the Alzheimer's Disease Assessment Scale (ADAS-cog)].tier",
+      "builder": "primary",
+      "critic": "primary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[change from baseline to week 78 in the score on the Alzheimer's Disease Cooperative Study Activities of Daily Living Inventory scale (ADCS-ADL)].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[change from baseline to week 78 in the score on the Alzheimer's Disease Cooperative Study Activities of Daily Living Inventory scale (ADCS-ADL)].tier",
+      "builder": "primary",
+      "critic": "primary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[change from baseline at week 78 in the CDR-SB score].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[change from baseline at week 78 in the CDR-SB score].tier",
+      "builder": "secondary",
+      "critic": "primary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[change from baseline at week 78 in the MMSE score].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[change from baseline at week 78 in the MMSE score].tier",
+      "builder": "secondary",
+      "critic": "primary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[change from baseline at week 78 in the NPI score].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[change from baseline at week 78 in the NPI score].tier",
+      "builder": "secondary",
+      "critic": "primary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[change from baseline at week 78 in total hippocampal volume as assessed by MRI].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[change from baseline at week 78 in total hippocampal volume as assessed by MRI].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[change from baseline at week 78 in the concentration of total tau in cerebrospinal fluid].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[change from baseline at week 78 in the concentration of total tau in cerebrospinal fluid].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[change from baseline at week 78 in brain amyloid load as assessed by PET].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[change from baseline at week 78 in brain amyloid load as assessed by PET].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[change from baseline to week 78 in cerebrospinal fluid concentrations of A-beta-40, A-beta-42 and sAPP-beta].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[change from baseline to week 78 in cerebrospinal fluid concentrations of A-beta-40, A-beta-42 and sAPP-beta].tier",
+      "builder": "exploratory",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[coprimary outcomes (ADAS-cog and ADCS-ADL) in patients with mild Alzheimer's disease and in patients positive for APOE4].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[coprimary outcomes (ADAS-cog and ADCS-ADL) in patients with mild Alzheimer's disease and in patients positive for APOE4].tier",
+      "builder": "subgroup",
+      "critic": "subgroup",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ]
+}

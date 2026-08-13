@@ -1,0 +1,343 @@
+{
+  "extracted_by": "gemini-3.1-pro-preview",
+  "extracted_at": "2026-08-13T16:53:44.202Z",
+  "independent": true,
+  "saw_builder_output": false,
+  "source": "raw/semorinemab-lauriet/document.md",
+  "source_sha256": "e1ee7811f3db345b01545f566eb5bc69c881f35ba12a1dac43726c14404b3201",
+  "truncated": false,
+  "tokens": {
+    "in": 11938,
+    "out": 3745
+  },
+  "record": {
+    "document_kind": "journal_article",
+    "title": {
+      "value": "Randomized Phase II Study of the Safety and Efficacy of Semorinemab in Participants With Mild-to-Moderate Alzheimer Disease: Lauriet",
+      "quote": "Randomized Phase II Study of the Safety and Efficacy of Semorinemab in Participants With Mild-to-Moderate Alzheimer Disease: Lauriet",
+      "location": "Title"
+    },
+    "study": {
+      "design": {
+        "value": "multicenter, randomized, double-blind, placebo-controlled, parallel-group, phase 2 study with an optional open-label extension (OLE)",
+        "quote": "The Lauriet study was a multicenter, randomized, double-blind, placebo-controlled, parallel-group, phase 2 study with an optional open-label extension (OLE)",
+        "location": "Methods, Study Design"
+      },
+      "n": {
+        "value": 272,
+        "quote": "272 participants were randomized",
+        "location": "Abstract, Results"
+      },
+      "population": {
+        "value": "Adults 50–85 years of age with mild-to-moderate AD",
+        "quote": "Adults 50–85 years of age were eligible for participation if they: (1) met National Institute on Aging-Alzheimer's Association core clinical criteria for probable AD dementia ; (2) had a screening MMSE score of 16–21, inclusive",
+        "location": "Methods, Participants"
+      },
+      "biomarker_confirmation": {
+        "value": "amyloid PET or CSF Aβ (1–42)",
+        "quote": "centralized independent qualitative visual read of amyloid PET scan (new or prior scans) confirming the presence of cerebral amyloid pathology or CSF Aβ (1–42) ≤1,000 pg/mL",
+        "location": "Methods, Participants"
+      },
+      "cohorts": [
+        "Lauriet"
+      ],
+      "comparator": {
+        "value": "placebo",
+        "quote": "Participants were randomly assigned (1:1) through a centralized randomization system to 4,500 mg of semorinemab or placebo IV.",
+        "location": "Methods, Randomization and Blinding"
+      },
+      "followup": {
+        "value": "48 or 60 weeks",
+        "quote": "received 4,500 mg of IV semorinemab or placebo every 4 weeks for 48 or 60 weeks.",
+        "location": "Abstract, Methods"
+      },
+      "intervention": {
+        "value": "4,500 mg of IV semorinemab",
+        "quote": "4,500 mg of semorinemab or placebo IV. The first 3 doses of study drug were administered biweekly to reach steady-state concentrations followed by every 4-week dosing.",
+        "location": "Methods, Randomization and Blinding"
+      },
+      "n_description": {
+        "value": "randomized",
+        "quote": "272 participants were randomized",
+        "location": "Abstract, Results"
+      },
+      "nct_ids": [
+        "NCT03828747",
+        "NCT03289143",
+        "NCT02820896"
+      ],
+      "phase": {
+        "value": "phase 2",
+        "quote": "Lauriet is a phase 2 study",
+        "location": "Abstract, Background and Objectives"
+      }
+    },
+    "outcomes": [
+      {
+        "name": "Change from baseline to week 49 in the ADAS-Cog11",
+        "tier": "primary",
+        "prespecified": "yes",
+        "met": "met",
+        "quote": "At week 49, the semorinemab arm demonstrated a 42.2% reduction (−2.89 points, 95% CI −4.56 to −1.21, p = 0.0008) in decline on the ADAS-Cog11 (coprimary endpoint) relative to the placebo arm.",
+        "location": "Abstract, Results",
+        "confidence_interval": "95% CI −4.56 to −1.21",
+        "effect_estimate": "−2.89 points",
+        "multiplicity_controlled": "unclear",
+        "p_value": "p = 0.0008",
+        "prespecification_evidence": "Coprimary efficacy endpoints were change from baseline to week 49 or 61 on the 11-item version of the Alzheimer's Disease Assessment Scale-Cognitive Subscale (ADAS-Cog11)"
+      },
+      {
+        "name": "Change from baseline to week 49 in the ADCS-ADL",
+        "tier": "primary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "no treatment effects were observed on the ADCS-ADL scale (coprimary endpoint; absolute difference between the 2 treatment arms in the ADCS-ADL score change from baseline of −0.83 points, 95% CI −3.39 to 1.72, p = 0.52)",
+        "location": "Abstract, Results",
+        "confidence_interval": "95% CI −3.39 to 1.72",
+        "effect_estimate": "−0.83 points",
+        "multiplicity_controlled": "unclear",
+        "p_value": "p = 0.52",
+        "prespecification_evidence": "Coprimary efficacy endpoints were change from baseline to week 49 or 61 on the 11-item version of the Alzheimer's Disease Assessment Scale-Cognitive Subscale (ADAS-Cog11) and the Alzheimer's Disease Cooperative Study-Activities of Daily Living (ADCS-ADL) scale."
+      },
+      {
+        "name": "Change from baseline to week 49 in the CDR-SB",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "Change from baseline to week 49 in the CDR-SB ... 0.26 (−0.29 to 0.82) ... 0.3501",
+        "location": "Table 2",
+        "confidence_interval": "95% CI, -0.29 to 0.82",
+        "effect_estimate": "0.26",
+        "multiplicity_controlled": "unclear",
+        "p_value": "0.3501",
+        "prespecification_evidence": "Secondary efficacy endpoints included change from baseline on the Mini-Mental State Examination (MMSE) and Clinical Dementia Rating-Sum of Boxes (CDR-SB)."
+      },
+      {
+        "name": "Change from baseline to week 49 in the MMSE",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "Change from baseline to week 49 in the MMSE ... 0.27 (−0.58 to 1.11) ... 0.5366",
+        "location": "Table 2",
+        "confidence_interval": "95% CI, -0.58 to 1.11",
+        "effect_estimate": "0.27",
+        "multiplicity_controlled": "unclear",
+        "p_value": "0.5366",
+        "prespecification_evidence": "Secondary efficacy endpoints included change from baseline on the Mini-Mental State Examination (MMSE) and Clinical Dementia Rating-Sum of Boxes (CDR-SB)."
+      }
+    ],
+    "primary_endpoint_status": {
+      "status": "not_met",
+      "quote": "Based on the results of the prespecified coprimary endpoints, this study was negative.",
+      "explanation": "The study met its coprimary endpoint for ADAS-Cog11 but failed to meet the coprimary endpoint for ADCS-ADL, rendering the overall study negative."
+    },
+    "safety": {
+      "harms": [
+        {
+          "name": "Deaths",
+          "arm": "semorinemab",
+          "quote": "Deaths 1 (0.7)",
+          "location": "Table 3",
+          "apoe_stratum": null,
+          "count": "1",
+          "denominator": "135",
+          "percentage": "0.7"
+        },
+        {
+          "name": "Deaths",
+          "arm": "placebo",
+          "quote": "Deaths 3 (2.3)",
+          "location": "Table 3",
+          "apoe_stratum": null,
+          "count": "3",
+          "denominator": "132",
+          "percentage": "2.3"
+        },
+        {
+          "name": "vasogenic edema",
+          "arm": "semorinemab",
+          "quote": "There were no reports of vasogenic edema",
+          "location": "Results, paragraph 11",
+          "apoe_stratum": null,
+          "count": "0",
+          "denominator": null,
+          "percentage": null
+        },
+        {
+          "name": "vasogenic edema",
+          "arm": "placebo",
+          "quote": "There were no reports of vasogenic edema",
+          "location": "Results, paragraph 11",
+          "apoe_stratum": null,
+          "count": "0",
+          "denominator": null,
+          "percentage": null
+        }
+      ],
+      "apoe_stratification_reported": false,
+      "deaths": {
+        "value": "4",
+        "quote": "Four participants died during the double-blind treatment period and/or during the safety follow-up period",
+        "location": "Results, paragraph 10"
+      },
+      "discontinuations": {
+        "value": "24%",
+        "quote": "The overall discontinuation rate during the placebo-controlled treatment period (excluding safety follow-up) was 24%",
+        "location": "Results, paragraph 1"
+      },
+      "serious_adverse_events": {
+        "value": "46",
+        "quote": "Patients with ≥1 serious AE 23 (17.0) 23 (17.4)",
+        "location": "Table 3"
+      }
+    },
+    "unlocatable_fields": [
+      "multiplicity.quote",
+      "multiplicity.location",
+      "trial_status_observation.status",
+      "trial_status_observation.observed_at",
+      "trial_status_observation.source",
+      "trial_status_observation.enrollment",
+      "trial_status_observation.phase"
+    ],
+    "authors": [
+      {
+        "name": "Cecilia Monteiro",
+        "affiliation": "Genentech, Inc., South San Francisco, CA",
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Balazs Toth",
+        "affiliation": "Genentech, Inc., South San Francisco, CA",
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Flavia Brunstein",
+        "affiliation": "Genentech, Inc., South San Francisco, CA",
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Ashwini Bobbala",
+        "affiliation": "Genentech, Inc., South San Francisco, CA",
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Seema Datta",
+        "affiliation": "Genentech, Inc., South San Francisco, CA",
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Ryan Ceniceros",
+        "affiliation": "Genentech, Inc., South San Francisco, CA",
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Sandra M. Sanabria Bohorquez",
+        "affiliation": "Genentech, Inc., South San Francisco, CA",
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Veronica G. Anania",
+        "affiliation": "Genentech, Inc., South San Francisco, CA",
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Kristin R. Wildsmith",
+        "affiliation": "Genentech, Inc., South San Francisco, CA",
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Stephen P. Schauer",
+        "affiliation": "Genentech, Inc., South San Francisco, CA",
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Julie Lee",
+        "affiliation": "Genentech, Inc., South San Francisco, CA",
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Michael J. Dolton",
+        "affiliation": "Genentech, Inc., South San Francisco, CA",
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Vidya Ramakrishnan",
+        "affiliation": "Genentech, Inc., South San Francisco, CA",
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Daniel Abramzon",
+        "affiliation": "Genentech, Inc., South San Francisco, CA",
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Edmond Teng",
+        "affiliation": "Genentech, Inc., South San Francisco, CA",
+        "corresponding": null,
+        "orcid": null
+      }
+    ],
+    "conflicts": [
+      "All authors are employees of Genentech, Inc. and shareholders in F. Hoffmann La Roche, Ltd."
+    ],
+    "disagreements": [],
+    "funding": [
+      "This work was supported by Genentech, Inc."
+    ],
+    "limitations": [
+      "The COVID-19 pandemic contributed to missed doses and/or remote or missed clinical assessments for some participants.",
+      "The relatively small sample size and lack of racial and ethnic diversity in the study cohort may also restrict the generalizability of our findings."
+    ],
+    "linked_objects": [
+      {
+        "relation": "registry_record",
+        "identifier": "NCT03828747",
+        "note": "Lauriet study registration"
+      },
+      {
+        "relation": "registry_record",
+        "identifier": "NCT03289143",
+        "note": "Tauriel study registration"
+      },
+      {
+        "relation": "registry_record",
+        "identifier": "NCT02820896",
+        "note": "Phase 1 study registration"
+      }
+    ],
+    "multiplicity": {
+      "approach": "none stated",
+      "location": null,
+      "quote": null
+    },
+    "risk_of_bias": [
+      {
+        "domain": "attrition",
+        "judgement": "High discontinuation rate (24%)",
+        "quote": "The overall discontinuation rate during the placebo-controlled treatment period (excluding safety follow-up) was 24%"
+      }
+    ],
+    "trial_status_observation": {
+      "status": null,
+      "observed_at": null,
+      "source": null,
+      "enrollment": null,
+      "phase": null
+    }
+  }
+}

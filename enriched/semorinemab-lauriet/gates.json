@@ -1,0 +1,35 @@
+{
+  "id": "semorinemab-lauriet",
+  "cluster": "tau",
+  "checked_at": "2026-08-13T16:59:45.980Z",
+  "passed": true,
+  "text_sufficiency": {
+    "level": "full-text",
+    "chars": 43513,
+    "sections": [
+      "method",
+      "result",
+      "discussion",
+      "statistical analysis",
+      "outcome",
+      "participants"
+    ]
+  },
+  "evidence_completeness": "full-text-oa",
+  "failures": [],
+  "warnings": [
+    {
+      "gate": "cross-links",
+      "detail": "document names NCT03828747 but no resolved registry record is linked for it"
+    },
+    {
+      "gate": "cross-links",
+      "detail": "document names NCT03289143 but no resolved registry record is linked for it"
+    },
+    {
+      "gate": "cross-links",
+      "detail": "document names NCT02820896 but no resolved registry record is linked for it"
+    }
+  ],
+  "manifest_discrepancies": []
+}

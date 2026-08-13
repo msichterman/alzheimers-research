@@ -1,0 +1,9 @@
+{
+  "id": "semaglutide-evoke-nct04777396",
+  "source": "sources/semaglutide-evoke-nct04777396.json",
+  "sha256": "8222bde89385d59fcfe74fb5713dd2391b8653e1974dccacd5565dd034827d02",
+  "bytes": 90326,
+  "chars": 17492,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:11.270Z"
+}

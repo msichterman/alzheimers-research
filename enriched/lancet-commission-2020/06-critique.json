@@ -1,0 +1,250 @@
+{
+  "extracted_by": "gemini-3.1-pro-preview",
+  "extracted_at": "2026-08-13T16:55:41.762Z",
+  "independent": true,
+  "saw_builder_output": false,
+  "source": "raw/lancet-commission-2020/document.md",
+  "source_sha256": "d6aa7e6a74f28b20806291b99193cbd1bfd61bcc7bb2fbdf278c1bdd79adb4da",
+  "truncated": false,
+  "tokens": {
+    "in": 28473,
+    "out": 2675
+  },
+  "record": {
+    "document_kind": "consensus_statement",
+    "title": {
+      "value": "Dementia prevention, intervention, and care: 2020 report of the Lancet Commission",
+      "quote": "Dementia prevention, intervention, and care: 2020 report of the Lancet Commission",
+      "location": "Title"
+    },
+    "study": {
+      "design": {
+        "value": "systematic literature reviews and meta-analyses",
+        "quote": "We performed systematic literature reviews and meta-analyses where needed to generate new evidence for our analysis of potentially modifiable risk factors for dementia.",
+        "location": "Introduction, paragraph 2"
+      },
+      "n": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "population": {
+        "value": "potentially modifiable risk factors for dementia",
+        "quote": "potentially modifiable risk factors for dementia",
+        "location": "Executive summary, paragraph 1"
+      },
+      "biomarker_confirmation": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "cohorts": [
+        "Framingham Offspring cohort",
+        "Whitehall Study",
+        "HUNT study",
+        "FINGER",
+        "HATICE",
+        "World Wide FINGERS",
+        "UK biobank"
+      ],
+      "comparator": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "followup": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "intervention": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "n_description": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "nct_ids": [],
+      "phase": {
+        "value": null,
+        "quote": null,
+        "location": null
+      }
+    },
+    "outcomes": [
+      {
+        "name": "RR associated with drinking—more than 21 units (168 g) of alcohol weekly—compared with lighter drinking",
+        "tier": "primary",
+        "prespecified": "yes",
+        "met": "met",
+        "quote": "The RR associated with drinking—more than 21 units (168 g) of alcohol weekly—compared with lighter drinking was 1·18 (95% Cl 1·06–1·31; ).",
+        "location": "Incorporation of the new chosen risks in new systematic reviews, Alcohol",
+        "confidence_interval": "95% Cl 1·06–1·31",
+        "effect_estimate": "1·18",
+        "multiplicity_controlled": "unclear",
+        "p_value": null,
+        "prespecification_evidence": "To calculate new RRs for excessive alcohol consumption, TBI and air pollution, we systematically reviewed the literature and did new meta-analyses for excessive alcohol consumption and TBI."
+      },
+      {
+        "name": "pooled RR for all cause dementia from all severities of TBI",
+        "tier": "primary",
+        "prespecified": "yes",
+        "met": "met",
+        "quote": "The pooled RR was 1·84 (95% CI 1·54–2·20) for all cause dementia from all severities of TBI",
+        "location": "Incorporation of the new chosen risks in new systematic reviews, TBI",
+        "confidence_interval": "95% CI 1·54–2·20",
+        "effect_estimate": "1·84",
+        "multiplicity_controlled": "unclear",
+        "p_value": null,
+        "prespecification_evidence": "To estimate the RR of TBI of all severities for all cause dementia, we searched Embase, Medline, and PsycINFO"
+      }
+    ],
+    "primary_endpoint_status": {
+      "status": "not_applicable",
+      "quote": "We reconvened the 2017 Lancet Commission on dementia prevention, intervention, and care to identify the evidence for advances likely to have the greatest impact since our 2017 paper and build on its work.",
+      "explanation": "The document is a commission report and evidence synthesis, not a primary clinical trial with a single primary endpoint."
+    },
+    "safety": {
+      "harms": [],
+      "apoe_stratification_reported": false,
+      "deaths": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "discontinuations": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "serious_adverse_events": {
+        "value": null,
+        "quote": null,
+        "location": null
+      }
+    },
+    "unlocatable_fields": [
+      "n",
+      "biomarker_confirmation",
+      "comparator",
+      "followup",
+      "intervention",
+      "n_description",
+      "phase",
+      "deaths",
+      "discontinuations",
+      "serious_adverse_events",
+      "multiplicity"
+    ],
+    "authors": [
+      {
+        "name": "GL"
+      },
+      {
+        "name": "JH"
+      },
+      {
+        "name": "AS"
+      },
+      {
+        "name": "NM"
+      },
+      {
+        "name": "DA"
+      },
+      {
+        "name": "CLB"
+      },
+      {
+        "name": "SB"
+      },
+      {
+        "name": "AB"
+      },
+      {
+        "name": "JC-M"
+      },
+      {
+        "name": "CC"
+      },
+      {
+        "name": "SGC"
+      },
+      {
+        "name": "NF"
+      },
+      {
+        "name": "RH"
+      },
+      {
+        "name": "HCK"
+      },
+      {
+        "name": "EBL"
+      },
+      {
+        "name": "VO"
+      },
+      {
+        "name": "KRi"
+      },
+      {
+        "name": "KRo"
+      },
+      {
+        "name": "ELS"
+      },
+      {
+        "name": "QS"
+      },
+      {
+        "name": "LSS"
+      },
+      {
+        "name": "GS"
+      },
+      {
+        "name": "CBa"
+      },
+      {
+        "name": "LNG"
+      },
+      {
+        "name": "MK"
+      }
+    ],
+    "conflicts": [
+      "AS reports grants from Wellcome Trust (200163/Z/15/Z), outside the submitted work.",
+      "DA reports grants from Eli Lilly, during the conduct of the study.",
+      "CBa reports grants and personal fees from Aca-dia and Lundbeck; and personal fees from Roche, Otsuka, Biogen, Eli Lilly, and Pfizer, outside the sub-mitted work.",
+      "SB reports grants and personal fees from AbbVie, personal fees and non-financial sup-port from Eli Lilly, and personal fees from Eleusis, Daval International, Boehringer Ingelheim, Axovant Sciences, Lundbeck, and Nutricia, outside the submitted work; and he has been employed by the Department of Health for England.",
+      "NF reports non-financial support from Eli Lilly, outside the submitted work.",
+      "LNG and her institutions (Johns Hopkins University, Baltimore, MD, USA, Drexel University, Philadelphia, PA, USA, and Thomas Jefferson University, Philadelphia, PA, USA) are entitled to receive royalties from fees associated with online training for the tailored activity program, which is an evidence-based program referenced in the Review.",
+      "RH reports grants from Department of Health, NIHR HTA Programme, outside the submitted work; and he is a Scientific Trustee of the charity Alzheimer's Research UK.",
+      "MK reports grants from the UK Medical Research Council (S011676, R024227), NordForsk (the Nordic Programme on Health and Welfare, 75021) and the Academy of Finland (311492), outside the submitted work.",
+      "EBL reports other (royalties) from UpToDate, outside the submitted work.",
+      "KRo reports personal fees from Clinical Cardio Day-Cape Breton University, Sydney, NS, Canada, CRUIGM-Montreal, Jackson Laboratory, Bar Harbor, MA, USA (speaker fees), MouseAge, Rome, Italy (speaker fees), Lundbeck, Frontemporal Dementia Study-Group, SunLife Insurance, Japan, outside the submitted work. He is a President and Chief Science Officer of DGI Clinical, which in the last 5 years has contracts with pharma and device manufacturers (Baxter, Baxalta, Shire, Hollister, Nutricia, Roche, Otsuka) on individualised outcome measurement. In 2017, he attended an advisory board meeting with Lundbeck. He is also Associate Director of the Canadian Consortium on Neurodegeneration in Aging, which is funded by the Canadian Institutes of Health Research, and with additional funding from the Alzheimer Society of Canada and several other charities, as well as, in its first phase (2013-2018), from Pfizer Canada and Sanofi Canada. He receives career support from the Dalhousie Medical Research Foundation as the Kathryn Allen Weldon Professor of Alzheimer Research, and research support from the Canadian Institutes of Health Research, the QEII Health Science Centre Foundation, the Capital Health Research Fund and the Fountain Family Innovation Fund of the QEII Health Science Centre Foundation.",
+      "LSS reports grants and personal fees from Eli Lilly, Merck, and Roche/Genentech; personal fees from Avraham, Boehringer Ingelheim, Neurim, Neuronix, Cognition, Eisai, Takeda, vTv, and Abbott; and grants from Biogen, Novartis, Biohaven, and Washington University DIAN-TU, outside the submitted work."
+    ],
+    "disagreements": [],
+    "funding": [
+      "University College London (UCL)",
+      "Alzheimer's Society, UK",
+      "Economic and Social Research Council",
+      "Alzheimer's Research UK"
+    ],
+    "limitations": [
+      "We used global figures for dementia risk although we know the risk factors prevalence varies between countries and most global research is from HIC, so LMIC are under-represented because of lack of data.",
+      "We have assumed a causal relationship between risk factors and dementia, although we have been cautious and not included risk factors with less good evidence.",
+      "No single database exists with all 12 risk factors together, but we found 11 of the factors in a UK database and used the mean figure for communality calculations for TBI.",
+      "We found that social isolation was not explicitly measured and had to use proxies, such as cohabitation when considering prevalence, which are approximate.",
+      "Specifically, evidence for the association of alcohol misuse with dementia comes from HIC and future studies from LMIC are needed to complete the picture.",
+      "We were also unable to meta-analyse data on pollution and thus unlike the other relative risks, the figure comes from only one study, from an area of low pollution so is likely to be an underestimate."
+    ],
+    "linked_objects": [],
+    "risk_of_bias": []
+  }
+}

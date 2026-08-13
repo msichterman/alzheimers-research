@@ -1,0 +1,37 @@
+{
+  "id": "aducanumab-emerge-engage",
+  "cluster": "amyloid-antibody",
+  "checked_at": "2026-08-13T16:59:45.922Z",
+  "passed": false,
+  "text_sufficiency": null,
+  "evidence_completeness": "registry-substitute",
+  "failures": [
+    {
+      "gate": "file",
+      "detail": "no extracted text layer at raw/<id>/document.md"
+    },
+    {
+      "gate": "evidence",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing)"
+    },
+    {
+      "gate": "fidelity",
+      "detail": "no independent critic pass (enriched/<id>/07-fidelity.json missing)"
+    },
+    {
+      "gate": "critical-review",
+      "detail": "no record to review"
+    }
+  ],
+  "warnings": [
+    {
+      "gate": "identity",
+      "detail": "only one metadata source carried a title — cross-source title agreement could not be checked"
+    },
+    {
+      "gate": "provenance",
+      "detail": "licence/open-access status not recorded"
+    }
+  ],
+  "manifest_discrepancies": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "donanemab-trailblazer-alz-2",
+  "source": "sources/donanemab-trailblazer-alz-2.xml",
+  "sha256": "29b97b91460f735289162411c4a2239068418bf44260884bcf0f8e1a2799beae",
+  "bytes": 25860,
+  "chars": 5105,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:08.021Z"
+}

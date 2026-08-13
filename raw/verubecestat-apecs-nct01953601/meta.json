@@ -1,0 +1,9 @@
+{
+  "id": "verubecestat-apecs-nct01953601",
+  "source": "sources/verubecestat-apecs-nct01953601.json",
+  "sha256": "6add7f6762f519ce1dc835afce7ad84493c28e733afb09e24e84712602c7c1f0",
+  "bytes": 283957,
+  "chars": 51312,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:11.329Z"
+}

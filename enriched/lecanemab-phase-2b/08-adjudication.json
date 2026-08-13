@@ -1,0 +1,51 @@
+{
+  "id": "lecanemab-phase-2b",
+  "adjudicated_at": "2026-08-13T16:36:02Z",
+  "rulings": [
+    {
+      "conflict_id": "lecanemab-phase-2b#0",
+      "field": "multiplicity.approach",
+      "verdict": "both",
+      "correct_value": "No multiplicity correction for frequentist key secondary analyses (all p-values nominal); Bayesian analyses stated not to require multiplicity adjustment",
+      "quote": "Bayesian analyses did not require adjustment for multiplicity by nature of the Bayesian approach. Conventional analyses were performed using a mixed effects model with repeated measures (MMRM) comparing placebo to active arms. All listed p -values for key secondary endpoints using conventional statistics are nominal, and no correction was applied for multiplicity.",
+      "reasoning": "Both readings capture the same fact — no multiplicity adjustment for either analysis stream — at different levels of detail; reading A is the more precise supported version. Reading B's phrase 'none stated for Bayesian' is slightly inaccurate, since the document explicitly states that Bayesian analyses did not require adjustment rather than being silent on it."
+    },
+    {
+      "conflict_id": "lecanemab-phase-2b#1",
+      "field": "outcomes[primary].multiplicity_controlled",
+      "verdict": "b",
+      "correct_value": "unclear",
+      "quote": "The primary endpoint was met if the Bayesian analysis, when all subjects completed 12 months of treatment, met the threshold of an 80% probability that the ED90 dose achieved at least 25% less clinical decline compared to placebo on ADCOMS.",
+      "reasoning": "The document describes the primary endpoint only as a single prespecified Bayesian probability threshold and never states that any type I error / multiplicity control procedure was applied to it, so 'yes' is not supported; the multiplicity statements in the document are directed at the key secondary endpoints and at Bayesian analyses generally."
+    },
+    {
+      "conflict_id": "lecanemab-phase-2b#2",
+      "field": "safety.harms[macrohemorrhage].reported",
+      "verdict": "neither",
+      "correct_value": "Macrohemorrhage is named only as a constituent of the composite ARIA-H definition; the document gives no separate macrohemorrhage counts or rates and does not state that macrohemorrhages were absent or zero",
+      "quote": "In this study, ARIA-H (new cerebral microhemorrhages, cerebral macrohemorrhages, and superficial siderosis) regardless of the presence of ARIA-E were observed in 13 (5.3%) subjects in the placebo group ( N = 245) compared to 65 (10.7%) subjects in the lecanemab groups ( N = 609).",
+      "reasoning": "Reading A ('reported') overstates, because only the composite ARIA-H is quantified and cerebral macrohemorrhage appears solely inside the composite's definition; reading B ('absent') also overstates, because the harm is named in the document and nowhere declared absent or zero."
+    },
+    {
+      "conflict_id": "lecanemab-phase-2b#3",
+      "field": "outcomes[primary].effect_estimate",
+      "verdict": "b",
+      "correct_value": "64% probability of being better than placebo with 25% less decline on ADCOMS at 12 months (threshold was 80%)",
+      "quote": "The primary analysis conducted at month 12 of treatment for all subjects indicated that the 10 mg/kg biweekly (ED90) dose had a 64% probability of being better than placebo with 25% less decline on ADCOMS at 12 months, missing the pre-specified 80% probability threshold for the primary outcome (Table ). As such, the primary endpoint was not met.",
+      "reasoning": "The document prints reading B's value essentially verbatim: the primary endpoint's reported quantity is the posterior probability of 64% against the prespecified 80% threshold, corroborated by Table 2 (Pr (CSD) = 0.638 for 10 mg/kg biweekly). Reading A's null is wrong because the document does state the primary result."
+    },
+    {
+      "conflict_id": "lecanemab-phase-2b#4",
+      "field": "outcomes[primary].confidence_interval",
+      "verdict": "neither",
+      "correct_value": null,
+      "quote": "The primary analysis conducted at month 12 of treatment for all subjects indicated that the 10 mg/kg biweekly (ED90) dose had a 64% probability of being better than placebo with 25% less decline on ADCOMS at 12 months, missing the pre-specified 80% probability threshold for the primary outcome (Table ). As such, the primary endpoint was not met.",
+      "reasoning": "The primary endpoint is reported only as a posterior probability against a threshold; Table 2 gives change-from-baseline means and SDs plus posterior probabilities (Pr (Max), Pr (ED90), Pr Superiority, Pr (CSD)) and no interval estimate. No confidence or credible interval for the 12-month ADCOMS primary appears anywhere in the document."
+    }
+  ],
+  "notes": [
+    "The primary endpoint was additionally monitored at repeated interim analyses for futility and early success; the document describes prespecified posterior-probability thresholds for these looks but no alpha-spending or other frequentist error control, which is a further reason the primary's multiplicity status is best recorded as unclear.",
+    "The document reports that there were no symptomatic cases of ARIA-H ('There were no symptomatic cases of ARIA-H in Study 201.'), but this is a statement about symptoms, not about macrohemorrhage counts.",
+    "The document states 'All reported p values are considered nominal because the primary endpoint was not met', implying a gated interpretation of secondaries without describing a formal hierarchical testing procedure."
+  ]
+}

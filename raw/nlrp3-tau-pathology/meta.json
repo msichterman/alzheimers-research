@@ -1,0 +1,9 @@
+{
+  "id": "nlrp3-tau-pathology",
+  "source": "sources/nlrp3-tau-pathology.xml",
+  "sha256": "75ba7b828f4b40d55b42e07f4e0850afc47fad087e31e72f6fa3c19b51fc5c94",
+  "bytes": 101394,
+  "chars": 45358,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:11.112Z"
+}

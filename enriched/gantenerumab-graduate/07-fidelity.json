@@ -1,0 +1,351 @@
+{
+  "id": "gantenerumab-graduate",
+  "checked_at": "2026-08-13T16:27:00.066Z",
+  "builder_model": "claude (builder subagent)",
+  "critic_model": "gemini-3.1-pro-preview",
+  "fields_compared": 27,
+  "disagreements": 3,
+  "conflicts": 3,
+  "coverage_gaps": 0,
+  "agreement_rate": 0.889,
+  "passed": false,
+  "needs_adjudication": true,
+  "disagreement_rows": [
+    {
+      "field": "study.population",
+      "builder": "Persons 50 to 90 years of age with mild cognitive impairment due to Alzheimer’s disease or mild dementia due to Alzheimer’s disease (CDR-GS of 0.5 or 1, MMSE ≥22, FCSRT cueing index ≤0.67 and free recall ≤27) with evidence of amyloid plaques on PET or CSF testing",
+      "critic": "Persons 50 to 90 years of age were eligible for inclusion in the trials if they had mild cognitive impairment due to Alzheimer’s disease or had mild dementia due to Alzheimer’s disease",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.intervention",
+      "builder": "Subcutaneous gantenerumab escalated over 36 weeks to a target dose of 510 mg every 2 weeks, regardless of APOE ε4 genotype (120 mg every 4 weeks for three doses, then 255 mg every 4 weeks for three doses, then 510 mg every 4 weeks for three doses, then 510 mg every 2 weeks)",
+      "critic": "gantenerumab... target level of 510 mg every 2 weeks",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].name",
+      "builder": "Change from baseline in the CDR-SB score at week 116 — GRADUATE I trial",
+      "critic": "change from baseline in the score on the Clinical Dementia Rating scale−Sum of Boxes (CDR-SB; range, 0 to 18, with higher scores indicating greater cognitive impairment) at week 116",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ],
+  "conflict_rows": [
+    {
+      "field": "study.population",
+      "builder": "Persons 50 to 90 years of age with mild cognitive impairment due to Alzheimer’s disease or mild dementia due to Alzheimer’s disease (CDR-GS of 0.5 or 1, MMSE ≥22, FCSRT cueing index ≤0.67 and free recall ≤27) with evidence of amyloid plaques on PET or CSF testing",
+      "critic": "Persons 50 to 90 years of age were eligible for inclusion in the trials if they had mild cognitive impairment due to Alzheimer’s disease or had mild dementia due to Alzheimer’s disease",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.intervention",
+      "builder": "Subcutaneous gantenerumab escalated over 36 weeks to a target dose of 510 mg every 2 weeks, regardless of APOE ε4 genotype (120 mg every 4 weeks for three doses, then 255 mg every 4 weeks for three doses, then 510 mg every 4 weeks for three doses, then 510 mg every 2 weeks)",
+      "critic": "gantenerumab... target level of 510 mg every 2 weeks",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].name",
+      "builder": "Change from baseline in the CDR-SB score at week 116 — GRADUATE I trial",
+      "critic": "change from baseline in the score on the Clinical Dementia Rating scale−Sum of Boxes (CDR-SB; range, 0 to 18, with higher scores indicating greater cognitive impairment) at week 116",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ],
+  "builder_values_not_found_in_document": [],
+  "critic_values_not_found_in_document": [],
+  "all_rows": [
+    {
+      "field": "study.design",
+      "builder": "Two phase 3, multicenter, randomized, double-blind, placebo-controlled, parallel-group trials (GRADUATE I and GRADUATE II)",
+      "critic": "phase 3, multicenter, randomized, double-blind, placebo-controlled, parallel-group trials",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.n",
+      "builder": 1965,
+      "critic": 1965,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.population",
+      "builder": "Persons 50 to 90 years of age with mild cognitive impairment due to Alzheimer’s disease or mild dementia due to Alzheimer’s disease (CDR-GS of 0.5 or 1, MMSE ≥22, FCSRT cueing index ≤0.67 and free recall ≤27) with evidence of amyloid plaques on PET or CSF testing",
+      "critic": "Persons 50 to 90 years of age were eligible for inclusion in the trials if they had mild cognitive impairment due to Alzheimer’s disease or had mild dementia due to Alzheimer’s disease",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.comparator",
+      "builder": "Placebo, administered every 2 weeks in a 1:1 ratio",
+      "critic": "placebo",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.followup",
+      "builder": "116-week double-blind treatment period (initially planned as 104 weeks), with long-term safety follow-up visits 14 and 50 weeks after the last dose",
+      "critic": "116 weeks",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.intervention",
+      "builder": "Subcutaneous gantenerumab escalated over 36 weeks to a target dose of 510 mg every 2 weeks, regardless of APOE ε4 genotype (120 mg every 4 weeks for three doses, then 255 mg every 4 weeks for three doses, then 510 mg every 4 weeks for three doses, then 510 mg every 2 weeks)",
+      "critic": "gantenerumab... target level of 510 mg every 2 weeks",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.phase",
+      "builder": "Phase 3",
+      "critic": "phase 3",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "primary_endpoint_status.status",
+      "builder": "not_met",
+      "critic": "not_met",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "multiplicity.approach",
+      "builder": "Fixed hierarchical (gatekeeping) testing procedure across primary then secondary outcomes, controlling overall type I error at 5%, applied separately within each trial",
+      "critic": "fixed hierarchical testing procedure",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].name",
+      "builder": "Change from baseline in the CDR-SB score at week 116 — GRADUATE I trial",
+      "critic": "change from baseline in the score on the Clinical Dementia Rating scale−Sum of Boxes (CDR-SB; range, 0 to 18, with higher scores indicating greater cognitive impairment) at week 116",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].met",
+      "builder": "not_met",
+      "critic": "not_met",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "difference, −0.31 (3.35 with gantenerumab vs. 3.65 with placebo, CDR-SB points)",
+      "critic": "−0.31",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": "95% confidence interval [CI], −0.66 to 0.05",
+      "critic": "95% CI, −0.66 to 0.05",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].p_value",
+      "builder": "P = 0.10",
+      "critic": "P = 0.10",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].multiplicity_controlled",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[ARIA-E].reported",
+      "builder": "reported",
+      "critic": "reported",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[ARIA-E].counts",
+      "builder": "gantenerumab (pooled across GRADUATE I and II): 24.9% | placebo (pooled across GRADUATE I and II): 2.7% | gantenerumab (pooled): no numeric per-stratum percentage stated; the document states the incidence approximately doubled with each APOE ε4 allele present | gantenerumab (pooled): 21.8% | placebo",
+      "critic": "gantenerumab: 24.9% | placebo: 2.7% | gantenerumab: 5.0% | placebo: 0.2%",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[ARIA-H].reported",
+      "builder": "reported",
+      "critic": "reported",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[ARIA-H].counts",
+      "builder": "gantenerumab (pooled): 22.9% | placebo (pooled): 12.3% | gantenerumab (pooled): 8.6% | placebo (pooled): 11.4% | gantenerumab (pooled): 13.5% | placebo (pooled): 0.7%",
+      "critic": "gantenerumab: 22.9% | placebo: 12.3%",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[symptomatic ARIA].reported",
+      "builder": "reported",
+      "critic": "reported",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[symptomatic ARIA].counts",
+      "builder": "gantenerumab (pooled): 5.0% | placebo (pooled): 0.2% | gantenerumab (pooled): 11 participants | gantenerumab (pooled): 11 participants",
+      "critic": "gantenerumab: 5.0% | placebo: 0.2%",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[macrohemorrhage].reported",
+      "builder": "reported",
+      "critic": "reported",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[macrohemorrhage].counts",
+      "builder": "gantenerumab (pooled): 1.4% | placebo (pooled): 1.0%",
+      "critic": "gantenerumab: 1.4% | placebo: 1.0%",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[death].reported",
+      "builder": "reported",
+      "critic": "reported",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[death].counts",
+      "builder": "gantenerumab (pooled): 10 | placebo (pooled): 14",
+      "critic": "gantenerumab: 10 | placebo: 14",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.apoe_stratification_reported",
+      "builder": true,
+      "critic": true,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    }
+  ]
+}

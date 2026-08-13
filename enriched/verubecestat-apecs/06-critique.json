@@ -1,0 +1,308 @@
+{
+  "extracted_by": "gemini-3.1-pro-preview",
+  "extracted_at": "2026-08-13T16:29:45.755Z",
+  "independent": true,
+  "saw_builder_output": false,
+  "source": "raw/verubecestat-apecs/document.md",
+  "source_sha256": "1bc643984a5d342b522ae03894763b34deda0a627766cf0effeae89b6e45ca4d",
+  "truncated": false,
+  "tokens": {
+    "in": 6505,
+    "out": 3225
+  },
+  "record": {
+    "document_kind": "journal_article",
+    "title": {
+      "value": "Randomized Trial of Verubecestat for Prodromal Alzheimer’s Disease",
+      "quote": "Randomized Trial of Verubecestat for Prodromal Alzheimer’s Disease",
+      "location": "Title"
+    },
+    "study": {
+      "design": {
+        "value": "randomized, double-blind, placebo-controlled, parallel group, 104-week trial period",
+        "quote": "The trial consisted of a randomized, double-blind, placebo-controlled, parallel group, 104-week trial period",
+        "location": "METHODS, TRIAL DESIGN, paragraph 1"
+      },
+      "n": {
+        "value": 1454,
+        "quote": "A total of 1454 patients were enrolled",
+        "location": "RESULTS, PATIENT CHARACTERISTICS, paragraph 1"
+      },
+      "population": {
+        "value": "patients who had memory impairment and elevated brain amyloid levels but whose condition did not meet the case definition of dementia",
+        "quote": "patients who had memory impairment and elevated brain amyloid levels but whose condition did not meet the case definition of dementia.",
+        "location": "Abstract, METHODS"
+      },
+      "biomarker_confirmation": {
+        "value": "presence of brain amyloid as gauged by a radiologist’s visual inspection of amyloid-ligand positronemission tomography (PET) imaging",
+        "quote": "presence of brain amyloid as gauged by a radiologist’s visual inspection of amyloid-ligand positronemission tomography (PET) imaging.",
+        "location": "METHODS, PATIENTS, paragraph 1"
+      },
+      "cohorts": [
+        "Alzheimer’s Disease Neuroimaging Initiative"
+      ],
+      "comparator": {
+        "value": "oral placebo",
+        "quote": "oral placebo.",
+        "location": "METHODS, TRIAL DESIGN, paragraph 1"
+      },
+      "followup": {
+        "value": "104-week",
+        "quote": "104-week trial period",
+        "location": "METHODS, TRIAL DESIGN, paragraph 1"
+      },
+      "intervention": {
+        "value": "oral verubecestat at a dose of 12 mg, oral verubecestat at a dose of 40 mg",
+        "quote": "oral verubecestat at a dose of 12 mg, oral verubecestat at a dose of 40 mg",
+        "location": "METHODS, TRIAL DESIGN, paragraph 1"
+      },
+      "n_description": {
+        "value": "enrolled",
+        "quote": "A total of 1454 patients were enrolled",
+        "location": "RESULTS, PATIENT CHARACTERISTICS, paragraph 1"
+      },
+      "nct_ids": [
+        "NCT01231971"
+      ],
+      "phase": {
+        "value": null,
+        "quote": null,
+        "location": null
+      }
+    },
+    "outcomes": [
+      {
+        "name": "change from baseline to week 104 in the Clinical Dementia Rating Scale–Sum of Boxes score",
+        "tier": "primary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "The estimated mean change from baseline to week 104 in the CDR-SB score was 1.65 in the 12-mg group, 2.02 in the 40-mg group, and 1.58 in the placebo group (P=0.67 for the comparison between the 12-mg group and the placebo group and P=0.01 for the comparison between the 40-mg group and the placebo group), suggesting a worse outcome in the higher-dose group than in the placebo group.",
+        "location": "Abstract, RESULTS",
+        "confidence_interval": null,
+        "effect_estimate": "1.65 in the 12-mg group, 2.02 in the 40-mg group, and 1.58 in the placebo group",
+        "multiplicity_controlled": "yes",
+        "p_value": "P=0.67 for the comparison between the 12-mg group and the placebo group and P=0.01 for the comparison between the 40-mg group and the placebo group",
+        "prespecification_evidence": "The primary efficacy outcome was the change from baseline to week 104 in the Clinical Dementia Rating Scale–Sum of Boxes score"
+      },
+      {
+        "name": "progression to the diagnosis of dementia due to Alzheimer’s disease",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "The estimated rate of progression to dementia due to Alzheimer’s disease was 24.5, 25.5, and 19.3 events per 100 patient-years in the 12-mg group, the 40-mg group, and the placebo group, respectively (hazard ratio for 40 mg vs. placebo, 1.38; 97.51% confidence interval, 1.07 to 1.79, not adjusted for multiple comparisons), favoring placebo.",
+        "location": "Abstract, RESULTS",
+        "confidence_interval": "97.51% confidence interval, 1.07 to 1.79",
+        "effect_estimate": "hazard ratio for 40 mg vs. placebo, 1.38",
+        "multiplicity_controlled": "no",
+        "p_value": null,
+        "prespecification_evidence": "There were seven secondary outcomes: the progression to the diagnosis of dementia due to Alzheimer’s disease"
+      }
+    ],
+    "primary_endpoint_status": {
+      "status": "not_met",
+      "quote": "The trial was terminated for futility after 1454 patients had been enrolled",
+      "explanation": "The trial was stopped early for futility as verubecestat did not improve clinical ratings of dementia on the CDR-SB compared to placebo."
+    },
+    "safety": {
+      "harms": [
+        {
+          "name": "death",
+          "arm": "placebo group",
+          "quote": "In part 1 of the trial, there were three deaths in the placebo group, three in the 12-mg group, and one in the 40-mg group",
+          "location": "RESULTS, SAFETY, paragraph 1",
+          "apoe_stratum": null,
+          "count": "3",
+          "denominator": null,
+          "percentage": null
+        },
+        {
+          "name": "death",
+          "arm": "12-mg group",
+          "quote": "In part 1 of the trial, there were three deaths in the placebo group, three in the 12-mg group, and one in the 40-mg group",
+          "location": "RESULTS, SAFETY, paragraph 1",
+          "apoe_stratum": null,
+          "count": "3",
+          "denominator": null,
+          "percentage": null
+        },
+        {
+          "name": "death",
+          "arm": "40-mg group",
+          "quote": "In part 1 of the trial, there were three deaths in the placebo group, three in the 12-mg group, and one in the 40-mg group",
+          "location": "RESULTS, SAFETY, paragraph 1",
+          "apoe_stratum": null,
+          "count": "1",
+          "denominator": null,
+          "percentage": null
+        },
+        {
+          "name": "amyloid-related imaging abnormalities",
+          "arm": "verubecestat",
+          "quote": "verubecestat was not associated with a greater incidence of delirium or amyloid-related imaging abnormalities.",
+          "location": "RESULTS, SAFETY, paragraph 2",
+          "apoe_stratum": null,
+          "count": null,
+          "denominator": null,
+          "percentage": null
+        }
+      ],
+      "apoe_stratification_reported": false,
+      "deaths": {
+        "value": "three deaths in the placebo group, three in the 12-mg group, and one in the 40-mg group",
+        "quote": "In part 1 of the trial, there were three deaths in the placebo group, three in the 12-mg group, and one in the 40-mg group",
+        "location": "RESULTS, SAFETY, paragraph 1"
+      },
+      "discontinuations": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "serious_adverse_events": {
+        "value": "osteoarthritis, basal-cell carcinoma, squamouscell carcinoma, syncope, and prostate cancer",
+        "quote": "Serious adverse events that were reported in more than 1% of the patients in at least one trial group in this part of the trial included osteoarthritis, basal-cell carcinoma, squamouscell carcinoma, syncope, and prostate cancer, with similar incidences among the groups.",
+        "location": "RESULTS, SAFETY, paragraph 1"
+      }
+    },
+    "unlocatable_fields": [
+      "study.phase.value",
+      "study.phase.quote",
+      "study.phase.location",
+      "safety.discontinuations.value",
+      "safety.discontinuations.quote",
+      "safety.discontinuations.location"
+    ],
+    "authors": [
+      {
+        "name": "Michael F. Egan",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "James Kost",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Tiffini Voss",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Yuki Mukai",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Paul S. Aisen",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Jeffrey L. Cummings",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Pierre N. Tariot",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Bruno Vellas",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Christopher H. van Dyck",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Merce Boada",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Ying Zhang",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Wen Li",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Christine Furtek",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Erin Mahoney",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Lyn Harper Mozley",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Yi Mo",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Cyrille Sur",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "David Michelson",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      }
+    ],
+    "conflicts": [],
+    "disagreements": [],
+    "funding": [
+      "Merck Sharp & Dohme"
+    ],
+    "limitations": [
+      "Since there were few patients in the substudy of biomarkers in cerebrospinal fluid (five or six patients per group), planned analyses were not performed",
+      "These comparisons are exploratory, and the confidence intervals are unadjusted; thus, the strength of any resulting inferences is limited."
+    ],
+    "linked_objects": [],
+    "multiplicity": {
+      "approach": "Bonferroni approach (splitting the overall α between the two dose levels of verubecestat) in conjunction with a hierarchical sequential testing approach",
+      "location": "METHODS, STATISTICAL ANALYSIS, paragraph 2",
+      "quote": "A Bonferroni approach (splitting the overall α between the two dose levels of verubecestat) in conjunction with a hierarchical sequential testing approach of outcomes was used to control for the type 1 error rate"
+    },
+    "risk_of_bias": [],
+    "trial_status_observation": {
+      "status": "terminated for futility",
+      "observed_at": "February 2018",
+      "source": "RESULTS, PATIENT CHARACTERISTICS, paragraph 2",
+      "enrollment": "1454",
+      "phase": null
+    }
+  }
+}

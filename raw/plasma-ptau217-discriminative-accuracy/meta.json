@@ -1,0 +1,9 @@
+{
+  "id": "plasma-ptau217-discriminative-accuracy",
+  "source": "sources/plasma-ptau217-discriminative-accuracy.xml",
+  "sha256": "8d161f304499512b164521c28088ee2abf2bf94806351fe398092dbcc6dc80df",
+  "bytes": 29257,
+  "chars": 5341,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:11.146Z"
+}

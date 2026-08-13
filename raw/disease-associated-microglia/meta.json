@@ -1,0 +1,9 @@
+{
+  "id": "disease-associated-microglia",
+  "source": "sources/disease-associated-microglia.html",
+  "sha256": "444f7e2129c9655285a9bcb5b1d35a677f5ca8089ea754fef5ec8af7d32d9647",
+  "bytes": 465394,
+  "chars": 2573,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:05:03.562Z"
+}

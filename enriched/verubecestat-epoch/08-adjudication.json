@@ -1,0 +1,67 @@
+{
+  "id": "verubecestat-epoch",
+  "adjudicated_at": "2026-08-13T16:35:10Z",
+  "rulings": [
+    {
+      "conflict_id": "verubecestat-epoch#0",
+      "field": "study.intervention",
+      "verdict": "both",
+      "correct_value": "oral verubecestat 12 mg or 40 mg once daily; a 60-mg dose level was included only in the phase 2 lead-in safety cohort and was prespecified to be dropped for the phase 3 component",
+      "quote": "The 60-mg dose level was included in the phase 2 lead-in safety cohort to explore the safety of this high dose and was prespecified to be dropped for the phase 3 component of the trial.",
+      "reasoning": "Both readings describe the same intervention, but the document explicitly documents the once-daily oral 12-mg and 40-mg dose levels plus the phase 2 lead-in-only 60-mg level, so reading B is the more precise supported version."
+    },
+    {
+      "conflict_id": "verubecestat-epoch#1",
+      "field": "safety.harms[macrohemorrhage].reported",
+      "verdict": "b",
+      "correct_value": "absent",
+      "quote": "Among the prespecified adverse events of clinical interest, verubecestat was associated with the occurrence of rash but not of delirium or amyloid-related imaging abnormalities.",
+      "reasoning": "Macrohemorrhage was a prespecified amyloid-related imaging abnormality of interest, and the document explicitly reports verubecestat as not associated with amyloid-related imaging abnormalities; no macrohemorrhage events are reported as having occurred."
+    },
+    {
+      "conflict_id": "verubecestat-epoch#2",
+      "field": "outcomes[change from baseline at week 78 in the CDR-SB score].tier",
+      "verdict": "b",
+      "correct_value": "secondary",
+      "quote": "The secondary outcomes were the change from baseline at week 78 in the CDR-SB score, the total hippocampal volume as assessed by MRI, the concentration of total tau in cerebrospinal fluid, the brain amyloid load as assessed by PET, the MMSE score, and the NPI score.",
+      "reasoning": "The Outcomes section lists CDR-SB at week 78 among the secondary outcomes; the coprimary outcomes were ADAS-cog and ADCS-ADL only."
+    },
+    {
+      "conflict_id": "verubecestat-epoch#3",
+      "field": "outcomes[change from baseline at week 78 in the MMSE score].tier",
+      "verdict": "a",
+      "correct_value": "secondary",
+      "quote": "The secondary outcomes were the change from baseline at week 78 in the CDR-SB score, the total hippocampal volume as assessed by MRI, the concentration of total tau in cerebrospinal fluid, the brain amyloid load as assessed by PET, the MMSE score, and the NPI score.",
+      "reasoning": "MMSE appears in the enumerated secondary outcome list; the coprimary outcomes were the ADAS-cog and ADCS-ADL changes from baseline to week 78."
+    },
+    {
+      "conflict_id": "verubecestat-epoch#4",
+      "field": "outcomes[change from baseline at week 78 in the NPI score].tier",
+      "verdict": "b",
+      "correct_value": "secondary",
+      "quote": "Scores for the secondary clinical outcomes of CDR-SB, MMSE, and NPI worsened over time in all three trial groups, and there were no significant differences between verubecestat and placebo for any of these outcomes",
+      "reasoning": "Both the Outcomes section and the Results section identify NPI as a secondary clinical outcome, not a primary one."
+    },
+    {
+      "conflict_id": "verubecestat-epoch#5",
+      "field": "outcomes[change from baseline to week 78 in cerebrospinal fluid concentrations of A-beta-40, A-beta-42 and sAPP-beta].tier",
+      "verdict": "a",
+      "correct_value": "exploratory",
+      "quote": "Exploratory outcomes included the change from baseline in other cerebrospinal fluid measures.",
+      "reasoning": "Only the cerebrospinal fluid concentration of total tau is listed as a secondary outcome; A-beta-40, A-beta-42 and sAPP-beta are the 'other cerebrospinal fluid measures' assigned to the exploratory tier."
+    },
+    {
+      "conflict_id": "verubecestat-epoch#6",
+      "field": "outcomes[primary].confidence_interval",
+      "verdict": "neither",
+      "correct_value": null,
+      "quote": "The mean change from baseline to week 78 in the ADAS-cog score was 7.9 in the 12-mg group, 8.0 in the 40-mg group, and 7.7 in the placebo group (P=0.63 for the comparison between the 12-mg group and the placebo group and P=0.46 for the comparison between the 40-mg group and the placebo group). The mean change from baseline to week 78 in the ADCS-ADL score was −8.4 in the 12-mg group, −8.2 in the 40-mg group, and −8.9 in the placebo group (P=0.49 for the comparison between the 12-mg group and the placebo group and P = 0.32 for the comparison between the 40-mg group and the placebo group).",
+      "reasoning": "Both coprimary outcomes are reported as group mean changes accompanied only by P values. The Statistical Analysis section states that mean differences \"as well as the confidence intervals and two-sided P values, were estimated from this model\", but no confidence interval value for either coprimary outcome is printed anywhere in this document (the abstract likewise gives only means and P values)."
+    }
+  ],
+  "notes": [
+    "Conflicts #2 through #5 are all settled by the single Outcomes paragraph: coprimary = ADAS-cog and ADCS-ADL change from baseline at week 78; secondary = CDR-SB, hippocampal volume, CSF total tau, PET amyloid load, MMSE, NPI; exploratory = other CSF measures. Any reading that labels CDR-SB, MMSE or NPI as primary contradicts the document.",
+    "On #1, the field name '.reported' is ambiguous between 'the harm was mentioned in the document' and 'the harm was observed'. Macrohemorrhage is named in the document only as a prespecified amyloid-related imaging abnormality of interest, and the Safety and Discussion sections state verubecestat was not associated with amyloid-related imaging abnormalities. That is an explicit absence finding, not a silent omission, so 'absent' should stand — but a maintainer may want to record it as 'assessed, explicitly reported absent' rather than a bare null.",
+    "The document reports no macrohemorrhage incidence numbers in text (tables are not included in the retrieved text), so the absence finding rests on the narrative statement."
+  ]
+}

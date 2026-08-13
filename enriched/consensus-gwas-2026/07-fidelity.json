@@ -1,0 +1,367 @@
+{
+  "id": "consensus-gwas-2026",
+  "checked_at": "2026-08-13T16:54:52.140Z",
+  "builder_model": "claude (builder subagent)",
+  "critic_model": "gemini-3.1-pro-preview",
+  "fields_compared": 24,
+  "disagreements": 6,
+  "conflicts": 4,
+  "coverage_gaps": 2,
+  "agreement_rate": 0.75,
+  "passed": false,
+  "needs_adjudication": true,
+  "disagreement_rows": [
+    {
+      "field": "study.n",
+      "builder": 128681,
+      "critic": 978514,
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.population",
+      "builder": "European-ancestry participants from 52 studies: clinically diagnosed AD cases, biobank cases identified by International Classification of Diseases codes, and proxy ADRD cases (individuals reporting at least one biological relative, parent or sibling, affected with dementia), plus controls and proxy controls",
+      "critic": "European-ancestry samples, the UK Biobank (UKBB) and FinnGen",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": false
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "91 tier 1 loci, of which 16 new in European-ancestry samples and 56 associated with clinically diagnosed AD",
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": null,
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Number of genome-wide significant (tier 1) loci associated with ADRD risk in the main meta-analysis].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    }
+  ],
+  "conflict_rows": [
+    {
+      "field": "study.n",
+      "builder": 128681,
+      "critic": 978514,
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.population",
+      "builder": "European-ancestry participants from 52 studies: clinically diagnosed AD cases, biobank cases identified by International Classification of Diseases codes, and proxy ADRD cases (individuals reporting at least one biological relative, parent or sibling, affected with dementia), plus controls and proxy controls",
+      "critic": "European-ancestry samples, the UK Biobank (UKBB) and FinnGen",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": false
+    },
+    {
+      "field": "outcomes[primary].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Number of genome-wide significant (tier 1) loci associated with ADRD risk in the main meta-analysis].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    }
+  ],
+  "builder_values_not_found_in_document": [],
+  "critic_values_not_found_in_document": [
+    {
+      "path": "study.population",
+      "value": "European-ancestry samples, the UK Biobank (UKBB) and FinnGen",
+      "quote": "European-ancestry samples, the UK Biobank (UKBB) and FinnGen"
+    }
+  ],
+  "all_rows": [
+    {
+      "field": "study.design",
+      "builder": "Consensus fixed-effects meta-analysis of European-ancestry genome-wide association studies of Alzheimer's disease and related dementias, across the EADB, IGAP and PGC-ALZ consortia plus UK Biobank and FinnGen, with no-proxy and no-biobank sensitivity meta-analyses",
+      "critic": "meta-analysis of European-ancestry genome-wide association studies",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.n",
+      "builder": 128681,
+      "critic": 978514,
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.population",
+      "builder": "European-ancestry participants from 52 studies: clinically diagnosed AD cases, biobank cases identified by International Classification of Diseases codes, and proxy ADRD cases (individuals reporting at least one biological relative, parent or sibling, affected with dementia), plus controls and proxy controls",
+      "critic": "European-ancestry samples, the UK Biobank (UKBB) and FinnGen",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": false
+    },
+    {
+      "field": "study.comparator",
+      "builder": "Controls and proxy controls; in the UK Biobank, proxy status was based on reporting a biological relative affected with dementia",
+      "critic": "controls and proxy controls",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.followup",
+      "builder": null,
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "study.intervention",
+      "builder": null,
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "study.phase",
+      "builder": null,
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "primary_endpoint_status.status",
+      "builder": "met",
+      "critic": "met",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "multiplicity.approach",
+      "builder": "Genome-wide significance threshold of P ≤ 5 × 10 −8 for tier 1 loci, with a further requirement of P ≤ 1 × 10 −7 in conditional analyses; secondary signals defined at P = 1 × 10 −5 by GCTA COJO stepwise conditional analysis; Bonferroni corrections applied for the rare-variant gene-based tests (P < 9.8 × 10 −4 for 51 tests), the polygenic score–neuropathology analyses (P < 2.27 × 10 −3 for 22 tests) and the genetic correlations (P < 3.13 × 10 −3 for 16 phenotypes)",
+      "critic": "Bonferroni correction",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].name",
+      "builder": "Number of genome-wide significant (tier 1) loci associated with ADRD risk in the main meta-analysis",
+      "critic": "genome-wide significant (GWS) loci",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].met",
+      "builder": "met",
+      "critic": "met",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "91 tier 1 loci, of which 16 new in European-ancestry samples and 56 associated with clinically diagnosed AD",
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": null,
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].p_value",
+      "builder": "P ≤ 5 × 10 −8",
+      "critic": "P ≤ 5 × 10 −8",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].multiplicity_controlled",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[ARIA-E].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[ARIA-H].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[symptomatic ARIA].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[macrohemorrhage].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[death].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.apoe_stratification_reported",
+      "builder": false,
+      "critic": false,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[Number of genome-wide significant (tier 1) loci associated with ADRD risk in the main meta-analysis].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[Number of genome-wide significant (tier 1) loci associated with ADRD risk in the main meta-analysis].tier",
+      "builder": "primary",
+      "critic": "primary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ]
+}
