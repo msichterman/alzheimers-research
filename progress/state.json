@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-08-13T16:59:46.073Z",
+  "generated_at": "2026-08-13T17:05:41.830Z",
   "counts": {
     "validated": 12,
     "extracted": 0,
     "parsed": 0,
     "acquired": 0,
     "resolved": 0,
-    "quarantined": 96,
+    "quarantined": 103,
     "unresolved": 0
   },
   "completeness": {
     "registry-substitute": 6,
     "full-text-oa": 62,
     "none": 11,
-    "registry-only": 11,
+    "registry-only": 18,
     "regulator-or-registry": 15,
     "accepted-manuscript": 3
   },
-  "quarantine": 113,
+  "quarantine": 120,
   "unresolved_identifiers": 2,
   "manifest_discrepancies": 10,
   "rounds": 1

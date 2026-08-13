@@ -1,7 +1,7 @@
 {
   "id": "consensus-gwas-2026",
   "cluster": "genetics",
-  "checked_at": "2026-08-13T16:59:45.995Z",
+  "checked_at": "2026-08-13T17:02:32.990Z",
   "passed": false,
   "text_sufficiency": {
     "level": "full-text",

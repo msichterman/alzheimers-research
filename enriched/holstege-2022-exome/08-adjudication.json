@@ -1,0 +1,59 @@
+{
+  "id": "holstege-2022-exome",
+  "adjudicated_at": "2026-08-13T17:01:00Z",
+  "rulings": [
+    {
+      "conflict_id": "holstege-2022-exome#0",
+      "field": "study.population",
+      "verdict": "both",
+      "correct_value": "Individuals of European ancestry only (non-European ancestry samples removed at QC), comprising AD cases diagnosed by NIA-AA or NINCDS-ADRDA criteria — 4,060 early-onset (age at onset ≤65 years) and 8,592 late-onset (age at onset >65 years) cases in stage 1 — and controls not diagnosed with AD; carriers of pathogenic PSEN1, PSEN2, APP or other Mendelian dementia variants and relatives up to the third degree were removed",
+      "quote": "After sample QC, we first compared gene-based rare-variant burdens between 12,652 AD cases, consisting of 4,060 early-onset AD cases (EOAD, age at onset ≤65 years) and 8,592 late-onset AD cases (LOAD, age at onset >65 years) and 8,693 controls (stage 1 analysis; Supplementary Table )",
+      "reasoning": "Both readings describe the same cohort; reading B is a bare restatement while every element of reading A is stated in the document (EOAD/LOAD counts, NIA-AA/NINCDS-ADRDA case definition, controls not diagnosed with AD, and QC removal of non-European ancestry, third-degree relatives and Mendelian dementia variant carriers)."
+    },
+    {
+      "conflict_id": "holstege-2022-exome#1",
+      "field": "outcomes[primary].name",
+      "verdict": "both",
+      "correct_value": "Exome-wide significant association of rare predicted damaging variants in ATP8B4 and ABCA1 with AD risk (new genes)",
+      "quote": "Together, we report ATP8B4 and ABCA1 as new AD risk factors with exome-wide significance",
+      "reasoning": "Reading A names the measure ('gene-based burden of rare damaging variants', the abstract's own phrasing) and reading B names the same outcome with its specific genes and significance level; B is the more precise supported statement."
+    },
+    {
+      "conflict_id": "holstege-2022-exome#2",
+      "field": "outcomes[primary].prespecified",
+      "verdict": "a",
+      "correct_value": "unclear",
+      "quote": "Using ordinal logistic regression, 31,204 burden tests were performed across 13,222 genes in stage 1 (single genes were tested with up to 4 thresholds).",
+      "reasoning": "Stage 1 was an exome-wide, hypothesis-free discovery scan across 31,204 burden tests, and the document contains no protocol or registration declaring an outcome in advance. 'Unclear' is what the document supports."
+    },
+    {
+      "conflict_id": "holstege-2022-exome#3",
+      "field": "outcomes[Genes whose rare damaging variant burden was confirmed as associated with AD in the stage 1 + stage 2 meta-analysis].prespecified",
+      "verdict": "a",
+      "correct_value": "unclear",
+      "quote": "Genes were selected for confirmation in stage 2 if the FDR for AD association was <0.1 in stage 1",
+      "reasoning": "The gene set carried into stage 2 was chosen from stage 1 results rather than specified beforehand, and the meta-analysis combines that same discovery stage. The stage 2 analysis plan (one-sided test in the stage 1 direction) is prespecified relative to stage 2 data only, which does not make the outcome prespecified as stated in the document."
+    },
+    {
+      "conflict_id": "holstege-2022-exome#4",
+      "field": "outcomes[primary].effect_estimate",
+      "verdict": "a",
+      "correct_value": "ATP8B4 (LOF + REVEL ≥ 25) meta-analysis OR 1.5; ABCA1 (LOF + REVEL ≥ 75) meta-analysis OR 1.7",
+      "quote": "ATP8B4 LOF + REVEL ≥ 25 7.2 × 10 −6 0.02 72/575 1.5 (1.3–1.8) 3.3 × 10 −3 40/286 1.4 (1.0–1.8) 9.6 × 10 −9 3.0 × 10 −4 1.5 (1.3–1.7) 9.7 × 10 −1 LOF + REVEL ≥ 50 2.8 × 10 −5 0.068 61/521 1.5 (1.3–1.9) 1.6 × 10 −2 34/265 1.3 (1.0–1.7) 2.8 × 10 −6 8.7 × 10 −2 1.5 (1.3–1.7) 6.6 × 10 −1 LOF + REVEL ≥ 75 3.2 × 10 −6 0.014 38/490 1.7 (1.4–2.0) 2.4 × 10 −2 22/243 1.3 (1.0–1.8) 5.7 × 10 −7 1.8 × 10 −2 1.5 (1.3–1.8) 4.2 × 10 −1 ABCA1 LOF + REVEL ≥ 75 6.1 × 10 −6 0.019 93/280 1.7 (1.3–2.2) 6.6 × 10 −3 48/159 1.6 (1.1–2.3) 2.6 × 10 −7 8.0 × 10 −3 1.7 (1.4–2.1) 6.3 × 10 −1",
+      "reasoning": "Table 1 gives meta-analysis case/control ORs of 1.5 for ATP8B4 at LOF + REVEL ≥ 25 and 1.7 for ABCA1 at LOF + REVEL ≥ 75, exactly as reading A records; the field is not empty."
+    },
+    {
+      "conflict_id": "holstege-2022-exome#5",
+      "field": "outcomes[primary].confidence_interval",
+      "verdict": "a",
+      "correct_value": "1.3–1.7 (ATP8B4, LOF + REVEL ≥ 25, meta-analysis OR 1.5); 1.4–2.1 (ABCA1, LOF + REVEL ≥ 75, meta-analysis OR 1.7)",
+      "quote": "ATP8B4 LOF + REVEL ≥ 25 7.2 × 10 −6 0.02 72/575 1.5 (1.3–1.8) 3.3 × 10 −3 40/286 1.4 (1.0–1.8) 9.6 × 10 −9 3.0 × 10 −4 1.5 (1.3–1.7) 9.7 × 10 −1 LOF + REVEL ≥ 50 2.8 × 10 −5 0.068 61/521 1.5 (1.3–1.9) 1.6 × 10 −2 34/265 1.3 (1.0–1.7) 2.8 × 10 −6 8.7 × 10 −2 1.5 (1.3–1.7) 6.6 × 10 −1 LOF + REVEL ≥ 75 3.2 × 10 −6 0.014 38/490 1.7 (1.4–2.0) 2.4 × 10 −2 22/243 1.3 (1.0–1.8) 5.7 × 10 −7 1.8 × 10 −2 1.5 (1.3–1.8) 4.2 × 10 −1 ABCA1 LOF + REVEL ≥ 75 6.1 × 10 −6 0.019 93/280 1.7 (1.3–2.2) 6.6 × 10 −3 48/159 1.6 (1.1–2.3) 2.6 × 10 −7 8.0 × 10 −3 1.7 (1.4–2.1) 6.3 × 10 −1",
+      "reasoning": "Unlike the other records here, this document does report intervals for its primary effect estimates: the Table 1 meta-analysis columns read 1.5 (1.3–1.7) for ATP8B4 and 1.7 (1.4–2.1) for ABCA1."
+    }
+  ],
+  "notes": [
+    "Conflicts #4 and #5 are the exception to the usual 'no CI outside clinical trials' pattern — Table 1 reports meta-analysis ORs with 95% CIs, so the null readings are wrong.",
+    "The quoted Table 1 stretch runs ATP8B4 (three thresholds) then ABCA1; the meta-analysis OR (95% CI) is the second-to-last numeric pair in each row.",
+    "Conflicts #2 and #3 were ruled the same way for consistency; the closest thing to prespecification in the document is the stage 2 confirmatory design (one-sided testing in the stage 1 direction), which a maintainer may want to record separately."
+  ]
+}

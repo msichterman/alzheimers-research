@@ -1,0 +1,9 @@
+{
+  "id": "trailblazer-alz-2-registry-nct04437511",
+  "source": "sources/trailblazer-alz-2-registry-nct04437511.json",
+  "sha256": "0aee370094d2a4b1bcd88e89a0e5d9b68064edecb1337efd498861a99f77144b",
+  "bytes": 174936,
+  "chars": 36166,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T17:02:18.934Z"
+}

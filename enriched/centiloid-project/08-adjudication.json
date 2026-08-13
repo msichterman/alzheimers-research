@@ -1,0 +1,59 @@
+{
+  "id": "centiloid-project",
+  "adjudicated_at": "2026-08-13T17:01:00Z",
+  "rulings": [
+    {
+      "conflict_id": "centiloid-project#0",
+      "field": "study.population",
+      "verdict": "both",
+      "correct_value": "Two anchor groups plus a separate VOI-definition set: cognitively normal subjects under 45 years of age (34 young controls, 31.5 ± 6.3 years, range 22-43); patients diagnosed with AD by 1984 NINCDS-ADRDA criteria with a Clinical Dementia Rating global score of 0.5 or 1 (45 analysed, mean age 67.5 ± 10.5 yrs, range 50 to 89); and separately 19 AD-CTX subjects and 25 amyloid-negative older controls used only to define the cortical target region",
+      "quote": "In order to avoid using the same subjects for definition of the CTX volume-of-interest (VOI) (see below) as were used to define the 0-Anchor and 100-Anchor points, a separate set of 19 “AD-CTX” subjects (CDR =0.5-1; 72.1 ± 11.8 yrs; range 53-94 yrs) and 25 older control (OC-CTX) subjects (71.4 ± 9.8 yrs; range 45-88 yrs) were used.",
+      "reasoning": "Reading B is the abstract's shorthand for the two anchor groups; reading A adds the counts, ages, diagnostic criteria and the deliberately separate AD-CTX/OC-CTX set used only to define the CTX VOI, all stated in the document."
+    },
+    {
+      "conflict_id": "centiloid-project#1",
+      "field": "study.design",
+      "verdict": "b",
+      "correct_value": "A methods and standardisation study by a working group: a calibration that linearly scales the outcome of any amyloid PET analysis method or tracer onto a 0 to 100 'Centiloid' (CL) scale anchored at the mean of young controls (0) and the mean of typical Alzheimer's disease patients (100). The process has three levels: Level-1 defines the standard method and the anchor points; Level-2 is how an independent site calibrates its own tracer or method to the scale; Level-3 is exact reproduction of an already-calibrated method as a pipeline check.",
+      "quote": "There are three “levels” to the Centiloid process. The first level is described in this report and need not be repeated by other sites. The purpose of this level-1 process is to set the “typical” 0-anchor and 100-anchor points for all future scaling operations. The second level of the Centiloid process is the method suggested for individual sites to scale their unique method of PiB-PET or any method using a tracer other than PiB to the Centiloid scale. The third level is to be used when an individual site simply wants to exactly reproduce a method that has previously been scaled to Centiloids and is basically a check of the processing pipeline to ensure that errors are eliminated before the processing and scaling of site-collected data is begun.",
+      "reasoning": "The document states the design directly — a working group scaling each method or tracer to a 0-100 scale anchored by young controls and typical AD patients — and then defines the three levels exactly as reading B describes, so the field is not empty."
+    },
+    {
+      "conflict_id": "centiloid-project#2",
+      "field": "study.n",
+      "verdict": "neither",
+      "correct_value": "No single study total is reported. The document reports 34 young control (YC-0) subjects defining the 0-anchor; 47 AD subjects collected, of which 2 low outliers were excluded leaving 45 AD-100 subjects defining the 100-anchor; and a separate VOI-definition set of 19 AD-CTX and 25 OC-CTX subjects.",
+      "quote": "After calculation of the SUVr values (referenced to WC) for all 34 YC-0 and the 45 AD-100 subjects (), the mean value of the YC-0 subjects (1.009 SUVr; ) was set to 0 CL and the mean of the AD-100 subjects (2.076 SUVr; ) was set to 100 CL.",
+      "reasoning": "These are several different counts serving different roles (0-anchor, 100-anchor before and after outlier exclusion, and CTX VOI definition); a bare study.n would misrepresent all of them, so the null readings should be replaced by the labelled counts rather than by any single number."
+    },
+    {
+      "conflict_id": "centiloid-project#3",
+      "field": "outcomes[primary].met",
+      "verdict": "a",
+      "correct_value": "not_applicable",
+      "quote": "Basically, we describe a “standard” method of analyzing PiB PET data and then a method for scaling any “non-standard” method of PiB PET analysis (or any other tracer) to the Centiloid scale.",
+      "reasoning": "This is a standardisation/methods report with no hypothesis-testing endpoint that could be met or missed, so 'not_applicable' is the correct value rather than an empty field."
+    },
+    {
+      "conflict_id": "centiloid-project#4",
+      "field": "outcomes[primary].effect_estimate",
+      "verdict": "b",
+      "correct_value": "Mean YC-0 SUVr of 1.009 set to 0 CL and mean AD-100 SUVr of 2.076 set to 100 CL (CL = 100 × (SUVr_IND − 1.009) / 1.067)",
+      "quote": "After calculation of the SUVr values (referenced to WC) for all 34 YC-0 and the 45 AD-100 subjects (), the mean value of the YC-0 subjects (1.009 SUVr; ) was set to 0 CL and the mean of the AD-100 subjects (2.076 SUVr; ) was set to 100 CL.",
+      "reasoning": "The document states the 0-anchor value reading B recorded, but that is only half the calibration; the same sentence also fixes the 100-anchor at 2.076 SUVr, and both are needed for the estimate to mean anything."
+    },
+    {
+      "conflict_id": "centiloid-project#5",
+      "field": "outcomes[primary].confidence_interval",
+      "verdict": "neither",
+      "correct_value": null,
+      "quote": "The mean and SD values and effect sizes for each reference VOI are shown in and presented graphically in .",
+      "reasoning": "The document reports means, standard deviations, effect sizes, R² values, slopes and intercepts, but no confidence intervals anywhere; both readings correctly recorded nothing."
+    }
+  ],
+  "notes": [
+    "Conflict #5 is degenerate (both readings null); ruled 'neither' because the document contains no confidence intervals at all.",
+    "Conflict #1: reading B's substance is supported, but the word 'cross-sectional' is an inference — the document never uses it — so it was dropped from the value that should stand.",
+    "Conflict #4: reading B captured only the 0-anchor; the corrected value carries both anchors and the resulting equation."
+  ]
+}

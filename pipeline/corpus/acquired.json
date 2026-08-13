@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-13T16:51:07.787Z",
-  "count": 108,
+  "generated_at": "2026-08-13T17:02:18.581Z",
+  "count": 115,
   "records": {
     "lecanemab-clarity-ad": {
       "id": "lecanemab-clarity-ad",
@@ -4642,6 +4642,363 @@
         }
       ],
       "evidence_completeness": "full-text-oa",
+      "quarantine": null
+    },
+    "clarity-ad-registry": {
+      "id": "clarity-ad-registry",
+      "cluster": "amyloid-antibody",
+      "type": "registry",
+      "acquired_at": "2026-08-13T17:02:18.057Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "nct": "NCT03887455",
+        "tier": 1,
+        "path": "sources/clarity-ad-registry-nct03887455.json",
+        "extension": ".json",
+        "url": "https://clinicaltrials.gov/api/v2/studies/NCT03887455",
+        "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT03887455",
+        "content_type": "application/json",
+        "sha256": "e457103f6c3e42c7a3bc6ec436e3e8d59d54d4cca5442ff458e10a8a7f8547e9",
+        "bytes": 64112,
+        "observed_at": "2026-08-13T17:02:18.302Z",
+        "source": "ClinicalTrials.gov API v2",
+        "kind": "registry",
+        "note": "official structured trial record"
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT03887455",
+          "tier": 1,
+          "path": "sources/clarity-ad-registry-nct03887455.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT03887455",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT03887455",
+          "content_type": "application/json",
+          "sha256": "e457103f6c3e42c7a3bc6ec436e3e8d59d54d4cca5442ff458e10a8a7f8547e9",
+          "bytes": 64112,
+          "observed_at": "2026-08-13T17:02:18.302Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT03887455",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "registry-only",
+      "quarantine": null
+    },
+    "trailblazer-alz-2-registry": {
+      "id": "trailblazer-alz-2-registry",
+      "cluster": "amyloid-antibody",
+      "type": "registry",
+      "acquired_at": "2026-08-13T17:02:18.057Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "nct": "NCT04437511",
+        "tier": 1,
+        "path": "sources/trailblazer-alz-2-registry-nct04437511.json",
+        "extension": ".json",
+        "url": "https://clinicaltrials.gov/api/v2/studies/NCT04437511",
+        "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT04437511",
+        "content_type": "application/json",
+        "sha256": "0aee370094d2a4b1bcd88e89a0e5d9b68064edecb1337efd498861a99f77144b",
+        "bytes": 174936,
+        "observed_at": "2026-08-13T17:02:18.367Z",
+        "source": "ClinicalTrials.gov API v2",
+        "kind": "registry",
+        "note": "official structured trial record"
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT04437511",
+          "tier": 1,
+          "path": "sources/trailblazer-alz-2-registry-nct04437511.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT04437511",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT04437511",
+          "content_type": "application/json",
+          "sha256": "0aee370094d2a4b1bcd88e89a0e5d9b68064edecb1337efd498861a99f77144b",
+          "bytes": 174936,
+          "observed_at": "2026-08-13T17:02:18.367Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT04437511",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "registry-only",
+      "quarantine": null
+    },
+    "emerge-registry": {
+      "id": "emerge-registry",
+      "cluster": "amyloid-antibody",
+      "type": "registry",
+      "acquired_at": "2026-08-13T17:02:18.057Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "nct": "NCT02484547",
+        "tier": 1,
+        "path": "sources/emerge-registry-nct02484547.json",
+        "extension": ".json",
+        "url": "https://clinicaltrials.gov/api/v2/studies/NCT02484547",
+        "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT02484547",
+        "content_type": "application/json",
+        "sha256": "f5a2451a609771772c926bfe4e44b0768c6de226f193e6c8dbdac6e0e3c9852b",
+        "bytes": 219025,
+        "observed_at": "2026-08-13T17:02:18.365Z",
+        "source": "ClinicalTrials.gov API v2",
+        "kind": "registry",
+        "note": "official structured trial record"
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT02484547",
+          "tier": 1,
+          "path": "sources/emerge-registry-nct02484547.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT02484547",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT02484547",
+          "content_type": "application/json",
+          "sha256": "f5a2451a609771772c926bfe4e44b0768c6de226f193e6c8dbdac6e0e3c9852b",
+          "bytes": 219025,
+          "observed_at": "2026-08-13T17:02:18.365Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT02484547",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "registry-only",
+      "quarantine": null
+    },
+    "engage-registry": {
+      "id": "engage-registry",
+      "cluster": "amyloid-antibody",
+      "type": "registry",
+      "acquired_at": "2026-08-13T17:02:18.057Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "nct": "NCT02477800",
+        "tier": 1,
+        "path": "sources/engage-registry-nct02477800.json",
+        "extension": ".json",
+        "url": "https://clinicaltrials.gov/api/v2/studies/NCT02477800",
+        "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT02477800",
+        "content_type": "application/json",
+        "sha256": "c2a722144cf2352170fb06f8fcacbdaef0d346b76cad70f469368d9fb5f17203",
+        "bytes": 224713,
+        "observed_at": "2026-08-13T17:02:18.424Z",
+        "source": "ClinicalTrials.gov API v2",
+        "kind": "registry",
+        "note": "official structured trial record"
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT02477800",
+          "tier": 1,
+          "path": "sources/engage-registry-nct02477800.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT02477800",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT02477800",
+          "content_type": "application/json",
+          "sha256": "c2a722144cf2352170fb06f8fcacbdaef0d346b76cad70f469368d9fb5f17203",
+          "bytes": 224713,
+          "observed_at": "2026-08-13T17:02:18.424Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT02477800",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "registry-only",
+      "quarantine": null
+    },
+    "us-pointer-registry": {
+      "id": "us-pointer-registry",
+      "cluster": "prevention",
+      "type": "registry",
+      "acquired_at": "2026-08-13T17:02:18.302Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "nct": "NCT03688126",
+        "tier": 1,
+        "path": "sources/us-pointer-registry-nct03688126.json",
+        "extension": ".json",
+        "url": "https://clinicaltrials.gov/api/v2/studies/NCT03688126",
+        "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT03688126",
+        "content_type": "application/json",
+        "sha256": "bf8c471206a8e57a9fd74f173eb240e38b661644342b332250cb1e01167ec2d8",
+        "bytes": 24069,
+        "observed_at": "2026-08-13T17:02:18.487Z",
+        "source": "ClinicalTrials.gov API v2",
+        "kind": "registry",
+        "note": "official structured trial record"
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT03688126",
+          "tier": 1,
+          "path": "sources/us-pointer-registry-nct03688126.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT03688126",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT03688126",
+          "content_type": "application/json",
+          "sha256": "bf8c471206a8e57a9fd74f173eb240e38b661644342b332250cb1e01167ec2d8",
+          "bytes": 24069,
+          "observed_at": "2026-08-13T17:02:18.487Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT03688126",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "registry-only",
+      "quarantine": null
+    },
+    "finger-registry": {
+      "id": "finger-registry",
+      "cluster": "prevention",
+      "type": "registry",
+      "acquired_at": "2026-08-13T17:02:18.365Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "nct": "NCT01041989",
+        "tier": 1,
+        "path": "sources/finger-registry-nct01041989.json",
+        "extension": ".json",
+        "url": "https://clinicaltrials.gov/api/v2/studies/NCT01041989",
+        "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT01041989",
+        "content_type": "application/json",
+        "sha256": "f4d760a95cbc3388ebd37a25922040987fc343347d18415b1952aff08f212441",
+        "bytes": 26578,
+        "observed_at": "2026-08-13T17:02:18.574Z",
+        "source": "ClinicalTrials.gov API v2",
+        "kind": "registry",
+        "note": "official structured trial record"
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT01041989",
+          "tier": 1,
+          "path": "sources/finger-registry-nct01041989.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT01041989",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT01041989",
+          "content_type": "application/json",
+          "sha256": "f4d760a95cbc3388ebd37a25922040987fc343347d18415b1952aff08f212441",
+          "bytes": 26578,
+          "observed_at": "2026-08-13T17:02:18.574Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT01041989",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "registry-only",
+      "quarantine": null
+    },
+    "sprint-mind-registry": {
+      "id": "sprint-mind-registry",
+      "cluster": "prevention",
+      "type": "registry",
+      "acquired_at": "2026-08-13T17:02:18.367Z",
+      "canonical_doi": null,
+      "primary": {
+        "role": "primary",
+        "nct": "NCT01206062",
+        "tier": 1,
+        "path": "sources/sprint-mind-registry-nct01206062.json",
+        "extension": ".json",
+        "url": "https://clinicaltrials.gov/api/v2/studies/NCT01206062",
+        "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT01206062",
+        "content_type": "application/json",
+        "sha256": "0414365011ee06d1018c0031841caadc84cf5d5024863b0a8588795deb4f513f",
+        "bytes": 109370,
+        "observed_at": "2026-08-13T17:02:18.581Z",
+        "source": "ClinicalTrials.gov API v2",
+        "kind": "registry",
+        "note": "official structured trial record"
+      },
+      "companions": [
+        {
+          "role": "registry",
+          "nct": "NCT01206062",
+          "tier": 1,
+          "path": "sources/sprint-mind-registry-nct01206062.json",
+          "extension": ".json",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT01206062",
+          "final_url": "https://clinicaltrials.gov/api/v2/studies/NCT01206062",
+          "content_type": "application/json",
+          "sha256": "0414365011ee06d1018c0031841caadc84cf5d5024863b0a8588795deb4f513f",
+          "bytes": 109370,
+          "observed_at": "2026-08-13T17:02:18.581Z",
+          "source": "ClinicalTrials.gov API v2"
+        }
+      ],
+      "attempts": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT01206062",
+          "ok": true,
+          "http_status": 200,
+          "reason": null
+        }
+      ],
+      "evidence_completeness": "registry-only",
       "quarantine": null
     }
   }

@@ -1,0 +1,52 @@
+{
+  "id": "fda-kisunla-statistical-review",
+  "adjudicated_at": "2026-08-13T17:00:00Z",
+  "rulings": [
+    {
+      "conflict_id": "fda-kisunla-statistical-review#0",
+      "field": "outcomes[primary].effect_estimate",
+      "verdict": "both",
+      "correct_value": "iADRS change from baseline at Week 76 (NCS2 difference in adjusted mean change): 3.3 in the intermediate tau population and 2.9 in the overall population",
+      "quote": "The NCS2 difference in adjusted mean change from baseline of iADRS in the intermediate tau population (3.3; 95% CI 1.9, 4.6; p < 0.001) and the overall population (2.9; 95% CI 1.5, 4.3; p < 0.001) are shown in Table 4 and Figure 6.",
+      "reasoning": "The primary endpoint was tested in two pre-specified populations with split alpha (0.04 intermediate tau, 0.01 overall), and the reviewer reports both estimates as primary results; neither reading is wrong, but each is only half the primary result."
+    },
+    {
+      "conflict_id": "fda-kisunla-statistical-review#1",
+      "field": "outcomes[primary].confidence_interval",
+      "verdict": "both",
+      "correct_value": "95% CI 1.9, 4.6 (intermediate tau population, estimate 3.3); 95% CI 1.5, 4.3 (overall population, estimate 2.9)",
+      "quote": "Study AACI showed that the donanemab arm compared to the placebo arm had statistically significantly less decline at Week 76 as measured by iADRS: intermediate tau population (3.3; 95% CI 1.9, 4.6; p < 0.001); overall population (2.9; 95% CI 1.5, 4.3; p < 0.001).",
+      "reasoning": "Both intervals are printed in the review, one per co-primary population; the interval must travel with its own point estimate, and each reading paired it with the other population's estimate."
+    },
+    {
+      "conflict_id": "fda-kisunla-statistical-review#2",
+      "field": "outcomes[ADAS-Cog13 change from baseline at Week 76 with death imputed as the worst score (FDA-requested sensitivity analysis)].prespecified",
+      "verdict": "a",
+      "correct_value": "no",
+      "quote": "There was not a similar sensitivity analysis pre-specified for CDR-SB, ADAS-Cog13, ADCS-iADL, and time to substantial decline in CDR-G.",
+      "reasoning": "The reviewer states explicitly that the death-imputed-as-worst-score analysis was pre-specified only for iADRS and not for ADAS-Cog13, which the Division had to request during the BLA review."
+    },
+    {
+      "conflict_id": "fda-kisunla-statistical-review#3",
+      "field": "outcomes[ADAS-Cog13 change from baseline at Week 76 with death imputed as the worst score (FDA-requested sensitivity analysis)].tier",
+      "verdict": "a",
+      "correct_value": "post_hoc",
+      "quote": "During the BLA review, we requested Sponsor to conduct a sensitivity analysis imputing the worst score for measurements after death until Week 76 in the primary analysis of ADAS- Cog13, ADCS-iADL, and time to substantial decline in CDR-G.",
+      "reasoning": "The analysis was generated at FDA's request after submission and sits outside the pre-specified multiplicity graph, so it is post hoc; the pre-specified secondary endpoint was ADAS-Cog13 with death as a censoring event, a different analysis."
+    },
+    {
+      "conflict_id": "fda-kisunla-statistical-review#4",
+      "field": "outcomes[Brain amyloid change from baseline at Week 76 by amyloid PET (Phase 2 Study AACG)].tier",
+      "verdict": "a",
+      "correct_value": "exploratory",
+      "quote": "this plan did not include a pathway for multiplicity adjusted testing of change in brain amyloid deposition. All endpoints not included in this graphical approach should be considered exploratory.",
+      "reasoning": "The sponsor listed brain amyloid deposition among 'other secondary endpoints' in AACG, but the FDA statistical reviewer concluded it fell outside the multiplicity-controlled graph and must be treated as exploratory; the reviewer's reading governs."
+    }
+  ],
+  "notes": [
+    "Conflicts #0 and #1 are cross-paired: one reading gave the intermediate tau estimate (3.3) with the overall population interval (1.5, 4.3), the other gave the overall estimate (2.9) with the intermediate tau interval (1.9, 4.6). Whichever population the record settles on, estimate and interval must be taken from the same row of Table 4.",
+    "If the record must carry a single primary population, note that the trial's power calculation and the larger alpha allocation (0.04 vs 0.01) were both for the intermediate tau population, while the overall population (n=1736) is the one matching the approved indication. The document designates neither as sole primary.",
+    "The FDA-requested ADAS-Cog13 death-imputed analysis is the reviewer/sponsor divergence in this document: 'the estimates with death imputed as the worst score in the intermediate tau population (-1.0; 95% CI -2.2, 0.1; p = 0.07) and the overall population (-1.0; 95% CI -2.0, 0.0; p =0.04) were not statistically significant compared to the alpha allocation of 0.04 and 0.01', and by the testing hierarchy CDR-G would also fail. Any downstream summary should not present ADAS-Cog13 as a clean positive secondary.",
+    "The AACG amyloid PET conflict is adjudicated against the Massie 2023 accelerated-approval statistical review appended to this document (the AACG source), not against the AACI review."
+  ]
+}

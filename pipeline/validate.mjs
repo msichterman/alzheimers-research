@@ -49,7 +49,12 @@ function textSufficiency(markdown, kind, targetType) {
   if (targetType === "registry" || targetType === "regulatory" || kind === "registry_record" || kind === "regulatory_recall" || kind === "regulatory_label") {
     return { level: chars > 1500 ? "structured-record" : "thin", chars, sections };
   }
-  if (chars < 9000 && sections.length < 2) return { level: "abstract-only", chars, sections };
+  // A structured abstract carries the same section headings as a full paper —
+  // Methods, Results, Conclusions — in a couple of thousand characters. Heading
+  // count alone therefore cannot tell them apart, and length has to be the floor.
+  // This is not academic: the blind A/B lost SPRINT MIND and U.S. POINTER because
+  // their records were built from structured abstracts that passed as full text.
+  if (chars < 9000) return { level: "abstract-only", chars, sections };
   if (chars < 20000 && sections.length < 3) return { level: "partial-text", chars, sections };
   return { level: "full-text", chars, sections };
 }
@@ -106,7 +111,15 @@ function gatesFor(id) {
       if (!head.startsWith("%PDF")) fail("file", "file claims to be a PDF but does not carry a PDF header");
     }
   }
-  const rawPath = join(RAW_DIR, id, "document.md");
+  // The parsed document is named after the file that was acquired, which for a
+  // registry-primary record is "<id>-<nct>", not "<id>". Deriving the path from
+  // the acquisition record rather than the target id keeps the two in step.
+  const rawId = primary?.path
+    ? primary.path.replace(/^sources\//, "").replace(/\.[a-z0-9]+$/i, "")
+    : id;
+  const rawPath = existsSync(join(RAW_DIR, rawId, "document.md"))
+    ? join(RAW_DIR, rawId, "document.md")
+    : join(RAW_DIR, id, "document.md");
   let sufficiency = null;
   if (!existsSync(rawPath)) fail("file", "no extracted text layer at raw/<id>/document.md");
   else {

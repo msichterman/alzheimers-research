@@ -1,0 +1,9 @@
+{
+  "id": "finger-registry-nct01041989",
+  "source": "sources/finger-registry-nct01041989.json",
+  "sha256": "f4d760a95cbc3388ebd37a25922040987fc343347d18415b1952aff08f212441",
+  "bytes": 26578,
+  "chars": 5068,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T17:02:18.700Z"
+}

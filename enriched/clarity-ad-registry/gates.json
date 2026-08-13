@@ -1,0 +1,32 @@
+{
+  "id": "clarity-ad-registry",
+  "cluster": "amyloid-antibody",
+  "checked_at": "2026-08-13T17:02:33.031Z",
+  "passed": false,
+  "text_sufficiency": {
+    "level": "structured-record",
+    "chars": 17984,
+    "sections": [
+      "result",
+      "outcome",
+      "participants"
+    ]
+  },
+  "evidence_completeness": "registry-only",
+  "failures": [
+    {
+      "gate": "evidence",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing)"
+    },
+    {
+      "gate": "fidelity",
+      "detail": "no independent critic pass (enriched/<id>/07-fidelity.json missing)"
+    },
+    {
+      "gate": "critical-review",
+      "detail": "no record to review"
+    }
+  ],
+  "warnings": [],
+  "manifest_discrepancies": []
+}

@@ -46,6 +46,21 @@
       }
     },
     {
+      "id": "clarity-ad-registry",
+      "rank": 1.1,
+      "cluster": "amyloid-antibody",
+      "type": "registry",
+      "title": "CLARITY AD registry record (NCT03887455)",
+      "authors": null,
+      "year": null,
+      "candidates": {
+        "nct": [
+          "NCT03887455"
+        ]
+      },
+      "manifest_claims": {}
+    },
+    {
       "id": "donanemab-trailblazer-alz-2",
       "rank": 2,
       "cluster": "amyloid-antibody",
@@ -62,6 +77,21 @@
         "n": 1736,
         "outcome": "Significantly slowed integrated cognitive/functional decline at 76 weeks"
       }
+    },
+    {
+      "id": "trailblazer-alz-2-registry",
+      "rank": 2.1,
+      "cluster": "amyloid-antibody",
+      "type": "registry",
+      "title": "TRAILBLAZER-ALZ 2 registry record with posted results (NCT04437511)",
+      "authors": null,
+      "year": null,
+      "candidates": {
+        "nct": [
+          "NCT04437511"
+        ]
+      },
+      "manifest_claims": {}
     },
     {
       "id": "lecanemab-phase-2b",
@@ -120,6 +150,36 @@
         "n": 3285,
         "outcome": "Discordant trials after futility stopping"
       }
+    },
+    {
+      "id": "emerge-registry",
+      "rank": 5.1,
+      "cluster": "amyloid-antibody",
+      "type": "registry",
+      "title": "EMERGE registry record (NCT02484547)",
+      "authors": null,
+      "year": null,
+      "candidates": {
+        "nct": [
+          "NCT02484547"
+        ]
+      },
+      "manifest_claims": {}
+    },
+    {
+      "id": "engage-registry",
+      "rank": 5.2,
+      "cluster": "amyloid-antibody",
+      "type": "registry",
+      "title": "ENGAGE registry record (NCT02477800)",
+      "authors": null,
+      "year": null,
+      "candidates": {
+        "nct": [
+          "NCT02477800"
+        ]
+      },
+      "manifest_claims": {}
     },
     {
       "id": "aducanumab-phase-1b-prime",
@@ -1666,6 +1726,21 @@
       }
     },
     {
+      "id": "us-pointer-registry",
+      "rank": 90.1,
+      "cluster": "prevention",
+      "type": "registry",
+      "title": "U.S. POINTER registry record (NCT03688126)",
+      "authors": null,
+      "year": null,
+      "candidates": {
+        "nct": [
+          "NCT03688126"
+        ]
+      },
+      "manifest_claims": {}
+    },
+    {
       "id": "finger-trial",
       "rank": 91,
       "cluster": "prevention",
@@ -1684,6 +1759,21 @@
       }
     },
     {
+      "id": "finger-registry",
+      "rank": 91.1,
+      "cluster": "prevention",
+      "type": "registry",
+      "title": "FINGER registry record (NCT01041989)",
+      "authors": null,
+      "year": null,
+      "candidates": {
+        "nct": [
+          "NCT01041989"
+        ]
+      },
+      "manifest_claims": {}
+    },
+    {
       "id": "sprint-mind",
       "rank": 92,
       "cluster": "prevention",
@@ -1700,6 +1790,21 @@
         "n": 9361,
         "outcome": "Probable-dementia reduction did not reach statistical significance; MCI significantly reduced"
       }
+    },
+    {
+      "id": "sprint-mind-registry",
+      "rank": 92.1,
+      "cluster": "prevention",
+      "type": "registry",
+      "title": "SPRINT MIND registry record with posted results (NCT01206062)",
+      "authors": null,
+      "year": null,
+      "candidates": {
+        "nct": [
+          "NCT01206062"
+        ]
+      },
+      "manifest_claims": {}
     },
     {
       "id": "mapt-trial",

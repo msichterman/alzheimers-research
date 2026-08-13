@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-13T16:50:34.352Z",
-  "count": 108,
+  "generated_at": "2026-08-13T17:02:17.991Z",
+  "count": 115,
   "records": {
     "lecanemab-clarity-ad": {
       "id": "lecanemab-clarity-ad",
@@ -48738,6 +48738,321 @@
           "kind": "epmc-pdf",
           "url": "https://europepmc.org/articles/PMC8840505?pdf=render",
           "note": "Europe PMC PDF (Europe_PMC, Free)"
+        }
+      ],
+      "findings": []
+    },
+    "clarity-ad-registry": {
+      "id": "clarity-ad-registry",
+      "rank": 1.1,
+      "cluster": "amyloid-antibody",
+      "type": "registry",
+      "resolved_at": "2026-08-13T17:02:17.469Z",
+      "identity": null,
+      "crossref": null,
+      "unpaywall": null,
+      "pubmed": null,
+      "trials": [
+        {
+          "nct": "NCT03887455",
+          "resolved": true,
+          "observed_at": "2026-08-13T17:02:17.687Z",
+          "source": "ClinicalTrials.gov API v2",
+          "brief_title": "A Study to Confirm Safety and Efficacy of Lecanemab in Participants With Early Alzheimer's Disease",
+          "official_title": "A Placebo-Controlled, Double-Blind, Parallel-Group, 18-Month Study With an Open-Label Extension Phase to Confirm Safety and Efficacy of BAN2401 in Subjects With Early Alzheimer's Disease",
+          "sponsor": "Eisai Inc.",
+          "has_results": false,
+          "last_update_posted": "2026-04-07",
+          "trial_status_observation": {
+            "status": "ACTIVE_NOT_RECRUITING",
+            "why_stopped": null,
+            "enrollment": 1906,
+            "enrollment_type": "ACTUAL",
+            "phase": [
+              "PHASE3"
+            ],
+            "observed_at": "2026-08-13T17:02:17.687Z",
+            "source": "ClinicalTrials.gov API v2"
+          }
+        }
+      ],
+      "regulatory_checks": [],
+      "access_plan": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT03887455",
+          "note": "official structured trial record"
+        }
+      ],
+      "findings": []
+    },
+    "trailblazer-alz-2-registry": {
+      "id": "trailblazer-alz-2-registry",
+      "rank": 2.1,
+      "cluster": "amyloid-antibody",
+      "type": "registry",
+      "resolved_at": "2026-08-13T17:02:17.469Z",
+      "identity": null,
+      "crossref": null,
+      "unpaywall": null,
+      "pubmed": null,
+      "trials": [
+        {
+          "nct": "NCT04437511",
+          "resolved": true,
+          "observed_at": "2026-08-13T17:02:17.820Z",
+          "source": "ClinicalTrials.gov API v2",
+          "brief_title": "A Study of Donanemab (LY3002813) in Participants With Early Alzheimer's Disease (TRAILBLAZER-ALZ 2)",
+          "official_title": "Assessment of Safety, Tolerability, and Efficacy of Donanemab in Early Symptomatic Alzheimer's Disease",
+          "sponsor": "Eli Lilly and Company",
+          "has_results": true,
+          "last_update_posted": "2025-08-29",
+          "trial_status_observation": {
+            "status": "ACTIVE_NOT_RECRUITING",
+            "why_stopped": null,
+            "enrollment": 1736,
+            "enrollment_type": "ACTUAL",
+            "phase": [
+              "PHASE3"
+            ],
+            "observed_at": "2026-08-13T17:02:17.820Z",
+            "source": "ClinicalTrials.gov API v2"
+          }
+        }
+      ],
+      "regulatory_checks": [],
+      "access_plan": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT04437511",
+          "note": "official structured trial record"
+        }
+      ],
+      "findings": []
+    },
+    "emerge-registry": {
+      "id": "emerge-registry",
+      "rank": 5.1,
+      "cluster": "amyloid-antibody",
+      "type": "registry",
+      "resolved_at": "2026-08-13T17:02:17.469Z",
+      "identity": null,
+      "crossref": null,
+      "unpaywall": null,
+      "pubmed": null,
+      "trials": [
+        {
+          "nct": "NCT02484547",
+          "resolved": true,
+          "observed_at": "2026-08-13T17:02:17.822Z",
+          "source": "ClinicalTrials.gov API v2",
+          "brief_title": "221AD302 Phase 3 Study of Aducanumab (BIIB037) in Early Alzheimer's Disease",
+          "official_title": "A Phase 3 Multicenter, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group Study to Evaluate the Efficacy and Safety of Aducanumab (BIIB037) in Subjects With Early Alzheimer's Disease",
+          "sponsor": "Biogen",
+          "has_results": true,
+          "last_update_posted": "2021-09-02",
+          "trial_status_observation": {
+            "status": "TERMINATED",
+            "why_stopped": "Study was discontinued based on futility analysis done and not based on safety concerns. Follow-up visits and closing out study activities are completed",
+            "enrollment": 1643,
+            "enrollment_type": "ACTUAL",
+            "phase": [
+              "PHASE3"
+            ],
+            "observed_at": "2026-08-13T17:02:17.822Z",
+            "source": "ClinicalTrials.gov API v2"
+          }
+        }
+      ],
+      "regulatory_checks": [],
+      "access_plan": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT02484547",
+          "note": "official structured trial record"
+        }
+      ],
+      "findings": []
+    },
+    "engage-registry": {
+      "id": "engage-registry",
+      "rank": 5.2,
+      "cluster": "amyloid-antibody",
+      "type": "registry",
+      "resolved_at": "2026-08-13T17:02:17.469Z",
+      "identity": null,
+      "crossref": null,
+      "unpaywall": null,
+      "pubmed": null,
+      "trials": [
+        {
+          "nct": "NCT02477800",
+          "resolved": true,
+          "observed_at": "2026-08-13T17:02:17.838Z",
+          "source": "ClinicalTrials.gov API v2",
+          "brief_title": "221AD301 Phase 3 Study of Aducanumab (BIIB037) in Early Alzheimer's Disease",
+          "official_title": "A Phase 3 Multicenter, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group Study to Evaluate the Efficacy and Safety of Aducanumab (BIIB037) in Subjects With Early Alzheimer's Disease",
+          "sponsor": "Biogen",
+          "has_results": true,
+          "last_update_posted": "2021-09-02",
+          "trial_status_observation": {
+            "status": "TERMINATED",
+            "why_stopped": "Study was discontinued based on futility analysis done and not based on safety concerns. Follow-up visits and closing out study activities are completed",
+            "enrollment": 1653,
+            "enrollment_type": "ACTUAL",
+            "phase": [
+              "PHASE3"
+            ],
+            "observed_at": "2026-08-13T17:02:17.838Z",
+            "source": "ClinicalTrials.gov API v2"
+          }
+        }
+      ],
+      "regulatory_checks": [],
+      "access_plan": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT02477800",
+          "note": "official structured trial record"
+        }
+      ],
+      "findings": []
+    },
+    "us-pointer-registry": {
+      "id": "us-pointer-registry",
+      "rank": 90.1,
+      "cluster": "prevention",
+      "type": "registry",
+      "resolved_at": "2026-08-13T17:02:17.687Z",
+      "identity": null,
+      "crossref": null,
+      "unpaywall": null,
+      "pubmed": null,
+      "trials": [
+        {
+          "nct": "NCT03688126",
+          "resolved": true,
+          "observed_at": "2026-08-13T17:02:17.983Z",
+          "source": "ClinicalTrials.gov API v2",
+          "brief_title": "U.S. Study to Protect Brain Health Through Lifestyle Intervention to Reduce Risk",
+          "official_title": "U.S. Study to Protect Brain Health Through Lifestyle Intervention to Reduce Risk",
+          "sponsor": "Wake Forest University Health Sciences",
+          "has_results": false,
+          "last_update_posted": "2025-11-03",
+          "trial_status_observation": {
+            "status": "COMPLETED",
+            "why_stopped": null,
+            "enrollment": 2000,
+            "enrollment_type": "ACTUAL",
+            "phase": [
+              "NA"
+            ],
+            "observed_at": "2026-08-13T17:02:17.983Z",
+            "source": "ClinicalTrials.gov API v2"
+          }
+        }
+      ],
+      "regulatory_checks": [],
+      "access_plan": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT03688126",
+          "note": "official structured trial record"
+        }
+      ],
+      "findings": []
+    },
+    "finger-registry": {
+      "id": "finger-registry",
+      "rank": 91.1,
+      "cluster": "prevention",
+      "type": "registry",
+      "resolved_at": "2026-08-13T17:02:17.820Z",
+      "identity": null,
+      "crossref": null,
+      "unpaywall": null,
+      "pubmed": null,
+      "trials": [
+        {
+          "nct": "NCT01041989",
+          "resolved": true,
+          "observed_at": "2026-08-13T17:02:17.984Z",
+          "source": "ClinicalTrials.gov API v2",
+          "brief_title": "Finnish Geriatric Intervention Study to Prevent Cognitive Impairment and Disability",
+          "official_title": "Finnish Geriatric Intervention Study to Prevent Cognitive Impairment and Disability",
+          "sponsor": "Finnish Institute for Health and Welfare",
+          "has_results": false,
+          "last_update_posted": "2023-04-19",
+          "trial_status_observation": {
+            "status": "UNKNOWN",
+            "why_stopped": null,
+            "enrollment": 1200,
+            "enrollment_type": "ESTIMATED",
+            "phase": [
+              "NA"
+            ],
+            "observed_at": "2026-08-13T17:02:17.984Z",
+            "source": "ClinicalTrials.gov API v2"
+          }
+        }
+      ],
+      "regulatory_checks": [],
+      "access_plan": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT01041989",
+          "note": "official structured trial record"
+        }
+      ],
+      "findings": []
+    },
+    "sprint-mind-registry": {
+      "id": "sprint-mind-registry",
+      "rank": 92.1,
+      "cluster": "prevention",
+      "type": "registry",
+      "resolved_at": "2026-08-13T17:02:17.822Z",
+      "identity": null,
+      "crossref": null,
+      "unpaywall": null,
+      "pubmed": null,
+      "trials": [
+        {
+          "nct": "NCT01206062",
+          "resolved": true,
+          "observed_at": "2026-08-13T17:02:17.991Z",
+          "source": "ClinicalTrials.gov API v2",
+          "brief_title": "Systolic Blood Pressure Intervention Trial",
+          "official_title": "Systolic Blood Pressure Intervention Trial",
+          "sponsor": "National Heart, Lung, and Blood Institute (NHLBI)",
+          "has_results": true,
+          "last_update_posted": "2021-01-08",
+          "trial_status_observation": {
+            "status": "COMPLETED",
+            "why_stopped": null,
+            "enrollment": 9361,
+            "enrollment_type": "ACTUAL",
+            "phase": [
+              "NA"
+            ],
+            "observed_at": "2026-08-13T17:02:17.991Z",
+            "source": "ClinicalTrials.gov API v2"
+          }
+        }
+      ],
+      "regulatory_checks": [],
+      "access_plan": [
+        {
+          "tier": 1,
+          "kind": "registry",
+          "url": "https://clinicaltrials.gov/api/v2/studies/NCT01206062",
+          "note": "official structured trial record"
         }
       ],
       "findings": []

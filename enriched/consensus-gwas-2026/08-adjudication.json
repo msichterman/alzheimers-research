@@ -1,0 +1,59 @@
+{
+  "id": "consensus-gwas-2026",
+  "adjudicated_at": "2026-08-13T17:01:00Z",
+  "rulings": [
+    {
+      "conflict_id": "consensus-gwas-2026#0",
+      "field": "study.n",
+      "verdict": "neither",
+      "correct_value": "128,681 cases or proxy cases of ADRD (72,721 AD cases plus 55,960 proxy ADRD cases) and 849,833 (proxy) controls (614,267 controls plus 235,566 proxy controls) from 52 studies — 978,514 individuals in total, corresponding to a rough effective sample size of 230,631.",
+      "quote": "we performed a meta-analysis of European-ancestry genome-wide association studies in 128,681 cases or proxy cases of ADRD and 849,833 (proxy) controls.",
+      "reasoning": "The readings count different things: 128,681 is the case/proxy-case total and 978,514 is the cases-plus-controls sum (which the document never states as such). The document additionally reports a rough effective sample size of 230,631, so no bare number can stand unlabelled."
+    },
+    {
+      "conflict_id": "consensus-gwas-2026#1",
+      "field": "study.population",
+      "verdict": "both",
+      "correct_value": "European-ancestry participants from 52 studies: clinically diagnosed AD cases, biobank cases identified by International Classification of Diseases codes, and proxy ADRD cases (individuals reporting at least one biological relative, parent or sibling, affected with dementia), plus controls and proxy controls",
+      "quote": "The meta-analysis included 72,721 AD cases, 55,960 proxy ADRD cases, 614,267 controls and 235,566 proxy controls from 52 studies, corresponding to a rough effective sample size of 230,631",
+      "reasoning": "Both describe the same population at different resolutions; reading B echoes one clause of the Main text and omits deCODE and HUNT, the 52 studies, and the case/control composition, all of which the document states. Reading A is fully supported and more precise."
+    },
+    {
+      "conflict_id": "consensus-gwas-2026#2",
+      "field": "outcomes[primary].prespecified",
+      "verdict": "a",
+      "correct_value": "unclear",
+      "quote": "To better characterize the genetic architecture and pathophysiology underlying AD and ADRD, we joined efforts across the three consortia to perform a consensus meta-analysis of ADRD GWAS across all our samples of European ancestry, the UK Biobank (UKBB) and FinnGen.",
+      "reasoning": "The document contains no registration, protocol or statement that any outcome was specified in advance; it describes a hypothesis-free genome-wide discovery meta-analysis with post hoc sensitivity and tier classifications. 'Unclear' is what the document supports."
+    },
+    {
+      "conflict_id": "consensus-gwas-2026#3",
+      "field": "outcomes[Number of genome-wide significant (tier 1) loci associated with ADRD risk in the main meta-analysis].prespecified",
+      "verdict": "b",
+      "correct_value": "unclear",
+      "quote": "We identified 91 genome-wide significant (GWS) loci ( P ≤ 5 × 10 −8 , defined as ‘tier 1’)",
+      "reasoning": "Same underlying outcome as conflict #2 and it must be ruled the same way: the locus count is a discovery output, and the tier 1/tier 2 classification was applied after seeing conditional-analysis results. Nothing states prespecification."
+    },
+    {
+      "conflict_id": "consensus-gwas-2026#4",
+      "field": "outcomes[primary].effect_estimate",
+      "verdict": "b",
+      "correct_value": "91 tier 1 loci, of which 16 new in European-ancestry samples and 56 associated with clinically diagnosed AD",
+      "quote": "We identified 91 genetic loci associated with ADRD risk, of which 16 are new and 56 are specifically detected in clinically diagnosed AD cases.",
+      "reasoning": "The document states all three numbers in the abstract and repeats them in the summary paragraph (56 of 91 GWS in the no-biobank meta-analysis focusing on clinically diagnosed AD cases), so the field is not empty."
+    },
+    {
+      "conflict_id": "consensus-gwas-2026#5",
+      "field": "outcomes[primary].confidence_interval",
+      "verdict": "neither",
+      "correct_value": null,
+      "quote": "individuals in the tenth decile had a risk increased by 2.05-fold (95% CI = 1.47–2.85) and 1.96-fold (95% CI = 1.39–2.78)",
+      "reasoning": "Confidence intervals appear only for the polygenic-score decile odds ratios, the SRC rare-variant burden and the genetic correlations — never for the primary outcome, which is a count of loci. Both readings recorded nothing, matching the document."
+    }
+  ],
+  "notes": [
+    "Conflicts #2 and #3 concern the same underlying outcome (the tier 1 locus count) and were ruled consistently as 'unclear'; the two readings had simply swapped which slot they hedged.",
+    "Conflict #5 is degenerate: both readings were null. Ruled 'neither' because the document reports no CI for the primary outcome.",
+    "study.n for this record should never be stored as a bare integer: cases/proxy cases, controls/proxy controls, the 978,514 sum, and the effective sample size of 230,631 are four different quantities."
+  ]
+}

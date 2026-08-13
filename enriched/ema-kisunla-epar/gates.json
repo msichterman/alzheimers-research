@@ -1,7 +1,7 @@
 {
   "id": "ema-kisunla-epar",
   "cluster": "regulatory",
-  "checked_at": "2026-08-13T16:59:45.976Z",
+  "checked_at": "2026-08-13T17:02:32.967Z",
   "passed": false,
   "text_sufficiency": {
     "level": "structured-record",
