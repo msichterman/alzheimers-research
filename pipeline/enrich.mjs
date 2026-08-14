@@ -97,10 +97,8 @@ const results = await mapLimit(docs, CONCURRENCY, async (doc) => {
   const analysis = await runStage(doc, "01-analysis", common);
   const analysisJson = JSON.stringify(analysis, null, 2);
 
-  const [trials, sentiment] = await Promise.all([
-    runStage(doc, "02-trials", { ANALYSIS_JSON: analysisJson }),
-    runStage(doc, "03-sentiment", { ANALYSIS_JSON: analysisJson }),
-  ]);
+  const trials = await runStage(doc, "02-trials", { ANALYSIS_JSON: analysisJson });
+  const sentiment = await runStage(doc, "03-sentiment", { ANALYSIS_JSON: analysisJson });
 
   const timelineTitles = [
     ...readFileSync(join(DOCS_DIR, "timeline", "index.mdx"), "utf8").matchAll(

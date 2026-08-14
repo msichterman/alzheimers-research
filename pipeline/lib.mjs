@@ -23,7 +23,7 @@ export const MAX_TURNS = Number(process.env.PIPELINE_MAX_TURNS || 60);
 export const STAGE_TIMEOUT_MS = Number(
   process.env.PIPELINE_TIMEOUT_MS || 15 * 60 * 1000,
 );
-export const CONCURRENCY = Number(process.env.PIPELINE_CONCURRENCY || 2);
+export const CONCURRENCY = Number(process.env.PIPELINE_CONCURRENCY || 1);
 
 export function log(id, message) {
   const stamp = new Date().toISOString().slice(11, 19);
