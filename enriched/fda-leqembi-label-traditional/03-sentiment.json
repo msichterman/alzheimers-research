@@ -1,0 +1,76 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment surrounding Leqembi is hopeful but heavily stratified by community. Retail investors and pharmaceutical media are highly enthusiastic following the recent mid-2026 FDA approval of the subcutaneous autoinjector (Leqembi Iqlik), anticipating broader market adoption and surging sales. Scientists remain cautiously hopeful, focusing on long-term biomarker data and the transition to maintenance dosing to prevent disease relapse. Meanwhile, patients and caregivers display a more mixed sentiment; while they are desperate for treatments, they express deep anxiety over the boxed ARIA warnings (brain bleeding and swelling) and the logistical burden of the therapy. The discrepancy between the PR narrative of 'improvement' and the clinical reality of modestly slowed decline remains a point of friction.",
+  "communities": [
+    {
+      "community": "Patients & Caregivers (r/Alzheimers, alzconnected.org)",
+      "sentiment": "mixed",
+      "themes": [
+        "Evaluating the risk versus reward of treatment ('yay or nay')",
+        "Anxiety regarding ARIA side effects and brain bleeds",
+        "Logistics of biweekly infusions versus the newly approved autoinjector"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/comments/1cj7ll5/leqembi_yay_or_nay/",
+        "https://alzconnected.org/discussion/74101/leqembi-infusions"
+      ]
+    },
+    {
+      "community": "Retail Investors (r/stocks, r/growthstonks)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Stock price breakouts and price targets (BIIB)",
+        "Market expansion from the subcutaneous autoinjector approval",
+        "Sales surges and earnings reports"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/growthstonks/comments/170gkv9/biib_bouncing_back_with_leqembi/",
+        "https://www.thestreet.com/investing/stocks/goldman-sachs-raises-biogen-price-target-to-250-on-leqembi-surge"
+      ]
+    },
+    {
+      "community": "Scientists & Neurologists (Alzforum)",
+      "sentiment": "hopeful",
+      "themes": [
+        "Transitioning to maintenance dosing protocols",
+        "Biomarker trajectories and amyloid return when off-treatment",
+        "Mechanisms of clearing protofibrils versus plaques"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/therapeutics/leqembi",
+        "https://www.alzforum.org/news/conference-coverage/leqembi-case-long-term-dosing"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "PR Newswire",
+      "tone": "positive",
+      "date": "2026-07",
+      "url": "https://www.prnewswire.com/news-releases/leqembi-real-world-leader-study-presented-at-aaic-2026-finds-over-75-of-early-alzheimers-patients-enrolled-in-the-study-remained-stable-and-nearly-7-improved-over-an-average-of-17-months-of-treatment-302825236.html"
+    },
+    {
+      "outlet": "Alzheimer's Association",
+      "tone": "positive",
+      "date": "2026-07",
+      "url": "https://www.alz.org/news/2026/alzheimers-association-welcomes-fda-approval-leqembi-subcutaneous-starter-dose"
+    },
+    {
+      "outlet": "Pharmaphorum",
+      "tone": "neutral",
+      "date": "2026-08",
+      "url": "https://pharmaphorum.com/news/fda-sets-august-date-subcutaneous-leqembi-decision"
+    }
+  ],
+  "hype_vs_evidence": "There is a significant divergence between commercial hype and clinical reality, particularly regarding the ApoE ε4 homozygote subpopulation. While investor and mainstream media coverage treats Leqembi as a universal breakthrough for early Alzheimer's, the FDA label explicitly notes that ApoE ε4 homozygotes—who face a 45% risk of ARIA and a 13.5% risk of severe microhemorrhages—showed no treatment effect on the primary clinical endpoint (CDR-SB) in exploratory analyses. Furthermore, press releases emphasizing that some patients 'improved' on the drug mask the fact that Leqembi's proven evidence is merely a 27% slowing of inevitable cognitive decline, not a reversal or cure. Public perception often conflates amyloid clearance with cognitive restoration.",
+  "misinformation_flags": [
+    "Some media and patient forums falsely claim or imply Leqembi 'improves' cognition or 'reverses' Alzheimer's, whereas clinical trials only proved a moderate slowing of cognitive decline.",
+    "Many patients and investors are unaware that if a patient carries two copies of the ApoE ε4 gene, the drug showed no primary clinical benefit in trials while drastically increasing their risk of severe brain bleeds (ARIA)."
+  ],
+  "searches_run": [
+    "site:reddit.com/r/Alzheimers OR site:reddit.com/r/dementia leqembi",
+    "site:alzforum.org leqembi OR lecanemab",
+    "leqembi biogen stock retail investors reddit",
+    "leqembi news 2026 OR 2025"
+  ]
+}

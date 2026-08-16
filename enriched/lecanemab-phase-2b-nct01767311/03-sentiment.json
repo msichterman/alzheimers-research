@@ -1,0 +1,70 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment surrounding lecanemab (Leqembi) is highly polarized, reflecting a deep divide between hopeful patients and cautious scientists. Caregiver communities and patient advocacy groups express optimism about finally having an approved disease-modifying treatment, focusing on Medicare access and diagnostic logistics. In stark contrast, scientific and medical forums are highly skeptical and focused on safety, frequently discussing severe amyloid-related imaging abnormalities (ARIA) and patient deaths. Mainstream tabloids occasionally hype the drug as a 'miracle,' further fragmenting the public understanding of its modest efficacy and serious risks.",
+  "communities": [
+    {
+      "community": "r/Alzheimers and r/dementia (Patients & Caregivers)",
+      "sentiment": "hopeful",
+      "themes": [
+        "Medicare coverage and financial access",
+        "Hope for slowing cognitive decline",
+        "Diagnostic hurdles (PET scans, lumbar punctures)"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/comments/1bhl5bl/lecanemab_is_now_supposedly_covered_by_medicare/",
+        "https://www.reddit.com/r/Alzheimers/comments/xq1pfe/lecanemab_win/"
+      ]
+    },
+    {
+      "community": "Alzforum and Medical/Scientific Forums",
+      "sentiment": "skeptical",
+      "themes": [
+        "Severe ARIA-E and ARIA-H risks",
+        "APOE4 carrier dangers and screening",
+        "Patient deaths and worst-case pathological scenarios"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/conference-coverage/two-new-deaths-leqembi-highlight-need-better-manage-aria",
+        "https://www.alzforum.org/news/research-news/brain-woman-who-died-leqembi-shows-worst-case-scenario"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "The US Sun",
+      "tone": "positive",
+      "date": "2023-07",
+      "url": "https://www.the-sun.com/health/8626745/first-person-alzheimers-lecanemab-trial-miracle-drug/"
+    },
+    {
+      "outlet": "NY Post",
+      "tone": "positive",
+      "date": "2023-07",
+      "url": "https://nypost.com/2023/07/18/alzheimers-patient-new-miracle-drug-has-given-me-my-life-back/"
+    },
+    {
+      "outlet": "Medscape",
+      "tone": "neutral",
+      "date": null,
+      "url": "https://www.medscape.com/viewarticle/lecanemab-ad-shows-sustained-benefit-real-world-study-2026a1000ofl"
+    },
+    {
+      "outlet": "PR Newswire",
+      "tone": "positive",
+      "date": null,
+      "url": "https://www.prnewswire.com/news-releases/leqembi-real-world-leader-study-presented-at-aaic-2026-finds-over-75-of-early-alzheimers-patients-enrolled-in-the-study-remained-stable-and-nearly-7-improved-over-an-average-of-17-months-of-treatment-302825236.html"
+    }
+  ],
+  "hype_vs_evidence": "Tabloid media and some patient narratives hype lecanemab as a 'miracle drug' capable of giving patients their lives back, which sharply contrasts with the trial data. The Phase 2 trial actually demonstrated only weak statistical confidence (63.8% Bayesian posterior probability) for its primary clinical endpoint of slowing cognitive decline, meaning it does not reverse or halt the disease. Furthermore, the public hype largely minimizes the strong evidence of infusion reactions and life-threatening ARIA (brain swelling and bleeding), especially among APOE4 carriers, which is a major red flag in the clinical community.",
+  "misinformation_flags": [
+    "Claims that lecanemab is a 'miracle drug' that cures Alzheimer's or reverses memory loss",
+    "Belief that the drug is perfectly safe, ignoring the significant risk of ARIA (brain swelling and bleeding)"
+  ],
+  "searches_run": [
+    "site:reddit.com/r/Alzheimers lecanemab",
+    "site:reddit.com/r/dementia lecanemab",
+    "site:alzforum.org lecanemab ARIA",
+    "lecanemab news 2026",
+    "lecanemab miracle"
+  ]
+}

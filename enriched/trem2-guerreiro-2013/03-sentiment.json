@@ -1,0 +1,70 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment around the TREM2 hypothesis is deeply divided by community. Among scientists and biotech investors, TREM2 represents a major 'beyond amyloid' frontier, sparking significant enthusiasm, ongoing clinical trials (like AL002), and robust debate over microglial mechanisms. However, among patients and caregivers, awareness of TREM2 is virtually nonexistent; community discussions remain focused on daily management, cognitive decline, and approved anti-amyloid drugs. The initial enthusiasm from genetic discoveries has matured in the scientific realm, balancing hope with the reality that modulating neuroinflammation safely is difficult.",
+  "communities": [
+    {
+      "community": "Patients and Caregivers (r/Alzheimers, caregiver forums)",
+      "sentiment": "quiet",
+      "themes": [
+        "Lack of awareness or discussion of TREM2 genetics",
+        "Focus on immediate symptoms, daily care strategies, and approved treatments"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/comments/gneh74/alzheimers_disease_or_type_3_diabetes_alzheimers/",
+        "https://www.dementiacarecentral.com/forum/"
+      ]
+    },
+    {
+      "community": "Science Media and Researchers (Alzforum, academic publications)",
+      "sentiment": "hopeful",
+      "themes": [
+        "TREM2 as a highly validated genetic target for late-onset AD",
+        "Complexity of microglial activation states (protective vs. harmful)",
+        "Debate over whether R47H alters or purely loses function"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/mutations/trem2",
+        "https://www.alzforum.org/news/conference-coverage/moving-target-new-biology-casts-trem2-shifty-mark"
+      ]
+    },
+    {
+      "community": "Retail Investors and Biotech Followers (Alector, AL002 watchers)",
+      "sentiment": "mixed",
+      "themes": [
+        "Anticipation of trial readouts for TREM2 agonists like AL002",
+        "Caution derived from historical Alzheimer's trial failures",
+        "Focus on biomarker changes and disease-slowing metrics"
+      ],
+      "example_urls": [
+        "https://investors.alector.com/news-releases/news-release-details/alector-announces-results-al002-invoke-2-phase-2-trial/",
+        "https://www.reddit.com/r/longevity/comments/hjo7oo/another_antitrem2_antibody_al002_looks_like_a/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Nature Medicine",
+      "tone": "positive",
+      "date": "2025-06",
+      "url": "https://www.nature.com/articles/s41591-025-03816-2"
+    },
+    {
+      "outlet": "Frontiers in Aging Neuroscience",
+      "tone": "neutral",
+      "date": "2025-01",
+      "url": "https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2025.1576020/full"
+    }
+  ],
+  "hype_vs_evidence": "While the 2013 genetic evidence robustly links loss-of-function variants like R47H to increased Alzheimer's risk, translating this into effective therapies has proven highly complex. Investor and media hype often frames activating TREM2 as a straightforward way to 'clean up' amyloid and tau. However, scientific evidence indicates that microglial activation is a double-edged sword: it may be protective early on but drive harmful neuroinflammation in later disease stages. Public perception often underestimates the difficulty of correctly timing and dosing immune-modulating brain therapies.",
+  "misinformation_flags": [
+    "Assuming that boosting the brain's immune system is universally beneficial regardless of the disease stage",
+    "Believing R47H is a routine genetic test provided to all Alzheimer's patients"
+  ],
+  "searches_run": [
+    "site:reddit.com trem2",
+    "site:reddit.com al002 alzheimer",
+    "AL002 Alector alzheimer investor OR stock",
+    "TREM2 alzheimer news 2026 OR 2025",
+    "trem2 alzheimer caregiver forum"
+  ]
+}

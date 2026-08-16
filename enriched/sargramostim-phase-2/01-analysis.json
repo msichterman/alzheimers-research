@@ -1,0 +1,115 @@
+{
+  "kind": "research-paper",
+  "title": "Safety and efficacy of sargramostim (GM‐CSF) in the treatment of Alzheimer's disease",
+  "authors": [
+    {
+      "name": "Potter, Huntington",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "inventor on several U.S. patents owned by the University of South Florida"
+    },
+    {
+      "name": "Woodcock, Jonathan H.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Boyd, Timothy D.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "inventor on several U.S. patents owned by the University of South Florida; employee of Partner Therapeutics"
+    }
+  ],
+  "first_author": "Potter, Huntington",
+  "venue": "Alzheimer's & Dementia : Translational Research & Clinical Interventions",
+  "published": "2021",
+  "doi": "10.1002/trc2.12158",
+  "doi_url": "https://doi.org/10.1002/trc2.12158",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/33778150",
+  "copyright": null,
+  "license": {
+    "name": "CC BY-NC-ND 4.0",
+    "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "reuse": "quote-and-summarize",
+    "evidence": "This is an open access article under the terms of the http://creativecommons.org/licenses/by-nc-nd/4.0/ License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made."
+  },
+  "tags": [
+    "paper",
+    "trial",
+    "inflammation",
+    "immunotherapy",
+    "biomarkers",
+    "sargramostim",
+    "gm-csf",
+    "innate-immunity"
+  ],
+  "themes": [
+    "Innate immune system modulation",
+    "GM-CSF safety and efficacy",
+    "Plasma biomarkers of AD neuropathology",
+    "Neuroinflammation and cognitive outcomes",
+    "Short-term cytokine intervention"
+  ],
+  "one_line": "A phase II trial of the innate immune system modulator sargramostim (GM-CSF) in mild-to-moderate Alzheimer's disease found it was safe, altered immune and plasma biomarkers, and improved MMSE scores, though other cognitive measures like ADAS-Cog13 did not show consistent benefit.",
+  "summary": "This randomized, double-blind, placebo-controlled phase II trial investigated the safety and efficacy of the innate immune system modulator sargramostim (GM-CSF) in 40 participants with mild-to-moderate Alzheimer's disease. Participants received subcutaneous injections of either sargramostim or placebo 5 days a week for 3 weeks. The primary endpoint of safety was met, with no drug-related serious adverse events or amyloid-related imaging abnormalities (ARIAs) reported. Sargramostim successfully stimulated the innate immune system, evidenced by increased monocytes, lymphocytes, neutrophils, and several pro-inflammatory cytokines. Exploratory efficacy analyses showed a statistically significant improvement in Mini-Mental State Examination (MMSE) scores at the end of treatment and at a 45-day follow-up. Additionally, plasma biomarkers showed a 10% increase in Aβ40 and significant reductions in total tau and UCH-L1 compared to placebo. However, the ADAS-Cog13 showed no significant benefit at the end of treatment and a temporary worsening at the 45-day follow-up, highlighting mixed cognitive results that require further investigation in larger, longer trials.",
+  "key_claims": [
+    {
+      "claim": "Sargramostim is safe and well tolerated in mild-to-moderate AD participants.",
+      "evidence": "DSMB assessments found 0 drug-related serious adverse events and 0 ARIAs; most common AEs were expected dermatological, GI, and headache events.",
+      "strength": "strong",
+      "location": "RESULTS / Safety (primary endpoint)"
+    },
+    {
+      "claim": "Sargramostim treatment significantly modulates the innate immune system in humans.",
+      "evidence": "Complete blood counts showed statistically significant increases in monocytes (P=.0005), lymphocytes (P=.0512), and neutrophils (P<.0001), alongside changes in IL-6, IL-10, TNF-a, and IL-8.",
+      "strength": "strong",
+      "location": "RESULTS / Innate immune system activation / Figure 1"
+    },
+    {
+      "claim": "Sargramostim improves cognitive function as measured by the MMSE.",
+      "evidence": "MMSE total score increased 1.45 units from baseline at EOT (P=.0074) and was 1.80 units higher than placebo (P=.0370).",
+      "strength": "moderate",
+      "location": "RESULTS / Efficacy (secondary/exploratory endpoints) / Figure 2"
+    },
+    {
+      "claim": "Sargramostim treatment partially normalizes plasma biomarkers of AD neuropathology and neurodegeneration.",
+      "evidence": "Plasma Ab40 increased by 10% (P=.0105); total tau decreased by 24% (P=.0174); UCH-L1 decreased by 42% (P=.0019) compared to placebo.",
+      "strength": "moderate",
+      "location": "RESULTS / Plasma biomarkers of AD neuropathology / Figure 4"
+    }
+  ],
+  "methods": {
+    "design": "Randomized, double-blind, placebo-controlled phase II trial",
+    "n": 40,
+    "population": "Participants with mild-to-moderate Alzheimer's disease (MMSE score 10-26)",
+    "duration": "3 weeks of treatment (5 days/week) plus follow-ups at 45 and 90 days post-treatment",
+    "registration": "NCT01409915"
+  },
+  "funding_and_conflicts": "Funded by States of Colorado and Florida, University of Colorado, Global Down Syndrome Foundation, Linda Crnic Institute, Alzheimer's Association, Dana Foundation, NIH/NCATS (UL1 TR002535), and philanthropists. Conflicts: Drs. Potter and Boyd are inventors on US patents owned by the University of South Florida; Dr. Boyd is an employee of Partner Therapeutics.",
+  "limitations": [
+    "Short treatment period (3 weeks)",
+    "Small sample size (N=40), resulting in an underpowered study for secondary endpoints",
+    "Very small sample size in the amyloid-PET imaging substudy (n=16)",
+    "Non-memory cognitive measures (ADAS-Cog13, CDR-SB, TRAILS-A) showed no direct treatment effects or worsened temporarily"
+  ],
+  "red_flags": [
+    "Baseline imbalance in cognitive scores: The placebo group started with noticeably higher baseline MMSE scores (20.75 vs 17.10 in the treatment group).",
+    "Analytical flexibility to achieve significance: The authors state that when adjusting for the significant baseline MMSE differences as covariates, the primary cognitive treatment effect at EOT was 'only marginally statistically non-significant' (P = 0.0808), prompting them to use an unadjusted cell means model instead.",
+    "Selective emphasis on positive endpoints: The abstract highlights the MMSE improvements but omits that the ADAS-Cog13 (a standard AD clinical endpoint) showed no significant benefit at the end of treatment and statistically significant worsening (P = 0.0009) at the 45-day follow-up."
+  ],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "Incomplete author byline extraction: The full author list is missing from the main body, represented only as 'Potter H, Woodcock JH, Boyd TD, et al.' in the citation and in the acknowledgements.",
+      "Minor PDF ligature and spacing artifacts in statistical brackets."
+    ]
+  },
+  "search_verification": []
+}

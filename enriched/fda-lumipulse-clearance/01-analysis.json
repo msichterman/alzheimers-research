@@ -1,0 +1,71 @@
+{
+  "kind": "press-release",
+  "title": "FDA Clears First Blood Test Used in Diagnosing Alzheimer’s Disease | FDA",
+  "authors": [],
+  "first_author": null,
+  "venue": "U.S. Food and Drug Administration",
+  "published": "2025-05-16",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "biomarkers",
+    "amyloid",
+    "tau",
+    "blood-test",
+    "fda-clearance",
+    "lumipulse"
+  ],
+  "themes": [
+    "FDA regulatory clearance",
+    "Blood-based biomarkers",
+    "pTau217 and Amyloid 1-42 ratio",
+    "Less invasive diagnostic alternatives"
+  ],
+  "one_line": "The FDA has granted clearance to the Lumipulse G pTau217/ß-Amyloid 1-42 Plasma Ratio, marking the first authorized blood-based in vitro diagnostic test for early detection of amyloid plaques in Alzheimer's disease.",
+  "summary": "The U.S. Food and Drug Administration (FDA) has cleared the Lumipulse G pTau217/ß-Amyloid 1-42 Plasma Ratio test developed by Fujirebio Diagnostics, Inc. This marks the first clearance of a blood-based in vitro diagnostic device to aid in diagnosing Alzheimer's disease. The test measures the ratio of pTau217 to beta-amyloid 1-42 in plasma, correlating to the presence of brain amyloid plaques and reducing the reliance on costly PET scans or invasive lumbar punctures. In a multi-center study of 499 cognitively impaired adults, the test demonstrated a 91.7% positive agreement and a 97.3% negative agreement with PET scan or cerebrospinal fluid (CSF) findings. However, nearly 20% of the sample yielded indeterminate results. The FDA emphasizes that the blood test is not a standalone diagnostic tool and must be used in conjunction with other clinical evaluations.",
+  "key_claims": [
+    {
+      "claim": "The Lumipulse blood test reliably predicts the presence or absence of amyloid pathology associated with Alzheimer's disease.",
+      "evidence": "A clinical study of 499 cognitively impaired adults showed 91.7% positive agreement and 97.3% negative agreement with established amyloid PET scan or CSF test results.",
+      "strength": "strong",
+      "location": "Paragraph 6 and 7"
+    },
+    {
+      "claim": "The plasma ratio test reduces the need for PET scans and spinal taps while maintaining substantial equivalence.",
+      "evidence": "Requires only a simple blood draw and is substantially equivalent to the previously authorized Lumipulse G β-amyloid Ratio (1-42/1-40) test that uses cerebrospinal fluid.",
+      "strength": "moderate",
+      "location": "Paragraph 4 and 10"
+    }
+  ],
+  "methods": {
+    "design": "multi-center clinical validation study comparing plasma samples to PET/CSF results",
+    "n": 499,
+    "population": "adults aged 55 and older who were cognitively impaired",
+    "duration": null,
+    "registration": null
+  },
+  "funding_and_conflicts": "none stated",
+  "limitations": [
+    "Test is not a standalone diagnostic and must be interpreted alongside other clinical information",
+    "Risk of false positives leading to unnecessary treatment and distress",
+    "Risk of false negatives leading to delayed effective treatment",
+    "Nearly 20% of tests in the clinical study resulted in an indeterminate finding"
+  ],
+  "red_flags": [
+    "The press release mentions an indeterminate result rate of 'less than 20%' almost as an aside, which is a fairly high inconclusive rate for clinical application",
+    "Lacks demographic breakdowns of the 499-patient cohort, making it unclear if the test performs equally well across different ethnicities and comorbidities"
+  ],
+  "parse_quality": {
+    "score": 10,
+    "issues": []
+  },
+  "search_verification": []
+}

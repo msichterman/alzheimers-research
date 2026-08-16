@@ -1,0 +1,79 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT01767311",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01767311",
+      "name": "Study 201 (BAN2401-G000-201)",
+      "drug": "Lecanemab (anti-amyloid protofibril antibody)",
+      "phase": "2",
+      "sponsor": "Eisai Inc.",
+      "status": "Completed",
+      "enrollment": 856,
+      "population": "Subjects aged 50-90 with mild cognitive impairment due to Alzheimer's disease or mild Alzheimer's disease dementia and positive amyloid load",
+      "primary_endpoint": "Core Study Phase: Change From Baseline in Alzheimer's Disease Composite Score (ADCOMS) at Month 12",
+      "started": "2012-12",
+      "completed_or_readout": "2024-12",
+      "results_summary": "At 12 months, the 10 mg/kg biweekly dose showed a 64% probability of 25% slowing of decline on ADCOMS, missing the strict 80% primary endpoint threshold. However, prespecified 18-month analyses showed significant brain amyloid reduction and consistent clinical benefit, supporting Phase 3 advancement.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03887455",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03887455",
+      "name": "Clarity AD",
+      "drug": "Lecanemab (anti-amyloid protofibril antibody)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "status": "Active",
+      "enrollment": 1906,
+      "population": "Early Alzheimer's disease (MCI or mild dementia) with confirmed amyloid pathology",
+      "primary_endpoint": "Core Study: Change from Baseline in the CDR-SB at 18 Months",
+      "started": "2019-03",
+      "completed_or_readout": "2029-06",
+      "results_summary": "Met its primary endpoint, demonstrating that lecanemab reduced clinical decline by 27% on the CDR-SB scale at 18 months compared to placebo, alongside robust clearance of amyloid burden.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04468659",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04468659",
+      "name": "AHEAD 3-45",
+      "drug": "Lecanemab (anti-amyloid protofibril antibody)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "status": "Active",
+      "enrollment": 1400,
+      "population": "Preclinical Alzheimer's disease (cognitively unimpaired with elevated brain amyloid)",
+      "primary_endpoint": "A45 Trial: Change From Baseline in Preclinical Alzheimer Cognitive Composite 5 (PACC5) Score at Week 216",
+      "started": "2020-07",
+      "completed_or_readout": "2028-12",
+      "results_summary": "Ongoing Phase 3 trial evaluating the efficacy of lecanemab in preventing or delaying cognitive decline in asymptomatic individuals with preclinical Alzheimer's disease; no efficacy results reported yet.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2021-04-17",
+      "kind": "paper",
+      "description": "Peer-reviewed publication of the Phase 2 (NCT01767311) core results by Swanson et al. in Alzheimer's Research & Therapy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33865446/"
+    },
+    {
+      "date": "2023-01-05",
+      "kind": "paper",
+      "description": "Peer-reviewed publication of the Phase 3 Clarity AD (NCT03887455) efficacy and safety results by van Dyck et al. in NEJM.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36449413/"
+    },
+    {
+      "date": "2023-07-06",
+      "kind": "regulatory",
+      "description": "FDA grants traditional approval to Leqembi (lecanemab) for early Alzheimer's disease based on the Phase 3 clinical benefit.",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-converts-novel-alzheimers-disease-treatment-traditional-approval"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence for lecanemab's efficacy and safety in early Alzheimer's disease is highly robust and mature. While the Phase 2 trial (NCT01767311) evaluated in the document narrowly missed its strict Bayesian statistical threshold for the 12-month ADCOMS primary endpoint, it definitively established the 10 mg/kg biweekly dose as highly effective for amyloid clearance. This dose was successfully advanced to the Phase 3 Clarity AD trial (NCT03887455), which met its primary endpoint by significantly slowing clinical decline by 27% on the CDR-SB scale over 18 months. The consistent safety signal of amyloid-related imaging abnormalities (ARIA), particularly in APOE4 carriers, has been thoroughly validated and incorporated into standard clinical management. The totality of this positive data led to lecanemab's full FDA approval in 2023, while ongoing trials like AHEAD 3-45 now explore its preventative potential in preclinical stages of the disease.",
+  "discrepancies": [
+    "The document accurately reflects the registry and peer-reviewed records. The noted 'red flag' regarding the protocol-mandated discontinuation of APOE4-positive participants from the highest dose group is correct; this was a mid-study regulatory mandate prompted by ARIA-E safety signals that unequally impacted the statistical power for that subgroup, but it is a well-documented event in the trial's history."
+  ]
+}

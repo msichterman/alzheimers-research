@@ -1,0 +1,78 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment surrounding oral semaglutide for Alzheimer's disease is highly polarized and shifting in the wake of the failed EVOKE and EVOKE+ clinical trials. Retail investors have reacted sharply and negatively to Novo Nordisk's failure to meet primary endpoints, driving stock prices to recent lows. Conversely, patients and caregivers maintain a strong undercurrent of hope, often influenced by early preclinical hype and personal experiences with the drug's metabolic benefits. While the scientific community is disappointed by the failure to treat symptomatic Alzheimer's, researchers are cautiously debating the drug's potential for early prevention, a nuance that is frequently lost in broader public discourse.",
+  "communities": [
+    {
+      "community": "r/Semaglutide and r/dementia (Patients & Caregivers)",
+      "sentiment": "hopeful",
+      "themes": [
+        "Desire to stay on the drug long-term due to family history of Alzheimer's",
+        "Conflating improvements in metabolic health/weight loss with dementia protection",
+        "Seeking out or enrolling loved ones in clinical trials"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Semaglutide/comments/11bosie/do_you_ever_worry_about_these_meds_going_away/",
+        "https://www.reddit.com/r/dementia/comments/13c6p5t/article_semaglutide_for_dementia/"
+      ]
+    },
+    {
+      "community": "Retail Investors",
+      "sentiment": "negative",
+      "themes": [
+        "Disappointment over the EVOKE Phase 3 trial failures",
+        "Novo Nordisk stock price plummets to multi-year lows",
+        "Anxiety regarding market competition and Alzheimer's pipeline viability"
+      ],
+      "example_urls": [
+        "https://www.forbes.com/sites/siladityaray/2025/11/24/novo-nordisk-stock-plummets-after-ozempic-makers-alzheimers-drug-trial-fails/",
+        "https://economictimes.indiatimes.com/news/international/us/novo-nordisk-stock-share-price-today-why-companys-shares-are-down-heres-alzheimer-drugs-trial-outcome-stock-market-impact-analysts-insights-semaglutide-ozempic-and-wegovy-alzheimers-disease-progression-in-clinical-trials-competitive-pharmaceutical-market/articleshow/125543769.cms"
+      ]
+    },
+    {
+      "community": "Science Media & Researchers (e.g., Alzforum, The Lancet)",
+      "sentiment": "mixed",
+      "themes": [
+        "Clear acknowledgment that oral semaglutide failed as a treatment for established Alzheimer's",
+        "Debate over shifting focus entirely to prevention rather than symptom management",
+        "Ongoing interest in neuroinflammation and metabolic dysfunction as AD indicators"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/conference-coverage/semaglutide-does-not-treat-alzheimers-could-it-prevent-dementia",
+        "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01647-8/fulltext"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Forbes",
+      "tone": "critical",
+      "date": "2025-11",
+      "url": "https://www.forbes.com/sites/siladityaray/2025/11/24/novo-nordisk-stock-plummets-after-ozempic-makers-alzheimers-drug-trial-fails/"
+    },
+    {
+      "outlet": "Alzheimer's Research UK",
+      "tone": "neutral",
+      "date": "2025-11",
+      "url": "https://www.alzheimersresearchuk.org/news/weight-loss-drug-does-not-slow-alzheimers-says-drug-maker/"
+    },
+    {
+      "outlet": "Neuroscience News",
+      "tone": "positive",
+      "date": null,
+      "url": "https://neurosciencenews.com/glp1-semaglutide-amyloid-reduction-30584/"
+    }
+  ],
+  "hype_vs_evidence": "There is a distinct gap between the current scientific consensus and public perception regarding semaglutide's capabilities. The evidence—crystallized by the EVOKE and EVOKE+ trial failures—demonstrates that oral semaglutide does not successfully slow cognitive decline or treat early symptomatic Alzheimer's disease. However, many patients and caregivers still believe the drug is actively protecting them from dementia, fueled by earlier preclinical hype and generalized media coverage about its neuroprotective potential. While researchers are pivoting their hypotheses toward strict early prevention, the general public frequently blurs the line between prevention and treatment, keeping community hope disproportionately high relative to the clinical reality.",
+  "misinformation_flags": [
+    "The belief that taking semaglutide will effectively treat, halt, or reverse the progression of already established Alzheimer's disease, a claim thoroughly disproven by the recent EVOKE and EVOKE+ Phase 3 trials."
+  ],
+  "searches_run": [
+    "site:reddit.com oral semaglutide alzheimer",
+    "novo nordisk alzheimers semaglutide stock",
+    "semaglutide alzheimer news",
+    "oral semaglutide caregiver forum alzheimers",
+    "site:reddit.com novo nordisk alzheimer fail",
+    "site:reddit.com semaglutide dementia prevention",
+    "site:reddit.com/r/dementia semaglutide"
+  ]
+}

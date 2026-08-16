@@ -1,0 +1,69 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment toward lecanemab (Leqembi) is a complex blend of cautious hope and significant anxiety. Patients and caregivers are desperate for treatments but highly concerned about the risk of brain bleeds (ARIA) and the logistical and financial burdens of taking the drug. The scientific and biotech communities acknowledge the drug as a clear scientific advancement over aducanumab, validating the amyloid hypothesis, yet remain skeptical about its real-world clinical meaningfulness and commercial viability due to payer pushback. Media coverage tends to amplify the 'historic approval' narrative while appending obligatory caveats about its high cost and safety risks.",
+  "communities": [
+    {
+      "community": "r/Alzheimers & r/dementia",
+      "sentiment": "mixed",
+      "themes": [
+        "Desperation for any disease-modifying option",
+        "Fear of ARIA (brain bleeds and swelling)",
+        "Logistical burdens (infusions, MRI monitoring)"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/comments/1cj7ll5/leqembi_yay_or_nay/",
+        "https://www.reddit.com/r/Alzheimers/comments/1p1s2e7/leqembi_side_effects/"
+      ]
+    },
+    {
+      "community": "r/biotech & r/investing",
+      "sentiment": "skeptical",
+      "themes": [
+        "Clear efficacy improvement over aducanumab",
+        "Reimbursement challenges stifling revenue",
+        "Slow commercial rollout and uptake"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/biotech/comments/1eyukpo/eisai_biogens_leqembi_nabs_uk_nod_but/",
+        "https://www.reddit.com/r/stocks/comments/1cbvveq/biogen_tops_profit_estimates_as_cost_cuts_take/"
+      ]
+    },
+    {
+      "community": "Alzforum",
+      "sentiment": "mixed",
+      "themes": [
+        "Validation of the amyloid clearance mechanism",
+        "Small clinical effect size vs. biomarker success",
+        "Safety concerns for ApoE4 carriers and blood thinner users"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/research-news/us-fda-gives-green-light-leqembi-aka-lecanemab"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Nature",
+      "tone": "critical",
+      "date": "2026-08",
+      "url": "https://www.nature.com/articles/d41586-025-02927-7"
+    },
+    {
+      "outlet": "Pharmaceutical Executive",
+      "tone": "neutral",
+      "date": "2026-08",
+      "url": "https://www.pharmexec.com/view/fda-approves-leqembi-iqlik-subcutaneous-injection-early-alzheimer"
+    }
+  ],
+  "hype_vs_evidence": "The most significant divergence is the public's hope for noticeable cognitive improvement versus the trial evidence, which only demonstrated a modest slowing of decline (a 27% difference on CDR-SB). Furthermore, media hype around 'accelerated approval' often glosses over the severe safety profile for specific subgroups; the Phase 2b data showed a 50% ARIA-E incidence in ApoE ε4 homozygotes, a nuance largely missed in consumer-facing optimism. Additionally, the hype assumes widespread access, whereas the evidence and label mandate strict MRI monitoring and early-stage-only eligibility.",
+  "misinformation_flags": [
+    "Circulating belief that the drug reverses memory loss or restores cognitive function, rather than just moderately slowing decline.",
+    "Underestimation of ARIA risk, particularly the assumption that the drug has a universal safety profile regardless of ApoE4 genetic status."
+  ],
+  "searches_run": [
+    "site:reddit.com/r/Alzheimers OR site:reddit.com/r/dementia lecanemab OR leqembi",
+    "site:reddit.com/r/investing OR site:reddit.com/r/biotech lecanemab eisai biogen",
+    "site:alzforum.org/news lecanemab leqembi",
+    "lecanemab leqembi fda approval cost aria"
+  ]
+}

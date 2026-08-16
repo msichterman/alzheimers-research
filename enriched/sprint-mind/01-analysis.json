@@ -1,0 +1,451 @@
+{
+  "kind": "research-paper",
+  "title": "Effect of Intensive vs Standard Blood Pressure Control on Probable Dementia",
+  "authors": [
+    {
+      "name": "Williamson, Jeff D.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Pajewski, Nicholas M.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Auchus, Alexander P.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Bryan, R. Nick",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Chelune, Gordon",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Cheung, Alfred K.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Cleveland, Maryjo L.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Coker, Laura H.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Crowe, Michael G.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Cushman, William C.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Cutler, Jeffrey A.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Davatzikos, Christos",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Desiderio, Lisa",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Erus, Guray",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Fine, Larry J.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Gaussoin, Sarah A.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Harris, Darrin",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Hsieh, Meng-Kang",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Johnson, Karen C.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Kimmel, Paul L.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Kurella Tamura, Manjula",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Launer, Lenore J.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Lerner, Alan J.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Lewis, Cora E.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Martindale-Adams, Jennifer",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Moy, Claudia S.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Nasrallah, Ilya M.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Nichols, Linda O.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Oparil, Suzanne",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Ogrocki, Paula K.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Rahman, Mahboob",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Rapp, Stephen R.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Reboussin, David M.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Rocco, Michael V.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Sachs, Bonnie C.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Sink, Kaycee M.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Still, Carolyn H.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Supiano, Mark A.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Snyder, Joni K.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Wadley, Virginia G.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Walker, Jennifer",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Weiner, Daniel E.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Whelton, Paul K.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Wilson, Valerie M.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Woolard, Nancy",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Wright, Jackson T.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Wright, Clinton B.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Williamson, Jeff D.",
+  "venue": "JAMA",
+  "published": "2018",
+  "doi": "10.1001/jama.2018.21442",
+  "doi_url": "https://doi.org/10.1001/jama.2018.21442",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/30688979",
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "prevention",
+    "hypertension",
+    "blood-pressure",
+    "sprint-mind"
+  ],
+  "themes": [
+    "Intensive blood pressure control",
+    "Probable dementia incidence",
+    "Mild cognitive impairment (MCI)",
+    "Cardiovascular risk factors for cognitive decline"
+  ],
+  "one_line": "Intensive blood pressure control to a target of <120 mm Hg did not significantly reduce the risk of probable dementia, but it did significantly reduce the risk of mild cognitive impairment.",
+  "summary": "This randomized clinical trial (SPRINT MIND) investigated whether intensive blood pressure control (systolic target <120 mm Hg) reduces the risk of dementia compared to standard control (<140 mm Hg). The study included 9,361 adults aged 50 years or older with hypertension but without diabetes or a history of stroke. The trial was stopped early due to cardiovascular and all-cause mortality benefits, resulting in a median intervention period of 3.34 years and a median follow-up of 5.11 years. Intensive blood pressure control did not significantly reduce the incidence of probable dementia, the primary cognitive outcome. However, it did significantly lower the risk of mild cognitive impairment and a composite outcome of mild cognitive impairment or probable dementia. The early termination of the trial likely left the primary cognitive outcome underpowered.",
+  "key_claims": [
+    {
+      "claim": "Intensive blood pressure control (systolic target <120 mm Hg) does not significantly reduce the risk of probable dementia compared to standard control (<140 mm Hg).",
+      "evidence": "149 participants in the intensive treatment group vs 176 in the standard treatment group developed probable dementia (7.2 vs 8.6 cases per 1000 person-years; hazard ratio [HR], 0.83; 95% CI, 0.67-1.04).",
+      "strength": "moderate",
+      "location": "Results"
+    },
+    {
+      "claim": "Intensive blood pressure control significantly reduces the risk of mild cognitive impairment.",
+      "evidence": "14.6 cases per 1000 person-years in the intensive group vs 18.3 in the standard group (HR, 0.81; 95% CI, 0.69-0.95).",
+      "strength": "moderate",
+      "location": "Results"
+    },
+    {
+      "claim": "Intensive blood pressure control significantly reduces the combined rate of mild cognitive impairment or probable dementia.",
+      "evidence": "20.2 cases per 1000 person-years in the intensive group vs 24.1 in the standard group (HR, 0.85; 95% CI, 0.74-0.97).",
+      "strength": "moderate",
+      "location": "Results"
+    }
+  ],
+  "methods": {
+    "design": "Randomized clinical trial",
+    "n": 9361,
+    "population": "Adults aged 50 years or older with hypertension but without diabetes or history of stroke",
+    "duration": "Median intervention period 3.34 years, total median follow-up 5.11 years",
+    "registration": "NCT01206062"
+  },
+  "funding_and_conflicts": "none stated",
+  "limitations": [
+    "The trial was stopped early for benefit on its primary cardiovascular outcome, leading to fewer than expected cases of dementia and likely underpowering the study for the primary cognitive end point."
+  ],
+  "red_flags": [
+    "The primary cognitive outcome (probable dementia) was not statistically significant, but emphasis is placed on secondary outcomes (mild cognitive impairment and the composite outcome) which were significant."
+  ],
+  "parse_quality": {
+    "score": 9,
+    "issues": [
+      "Metadata identifiers block contains multiple repeated and run-together elements (e.g. pmcaiid: 6439590 · doi: 10.1001/jama.2018.21442) making it difficult to read."
+    ]
+  },
+  "search_verification": []
+}

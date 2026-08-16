@@ -1,0 +1,119 @@
+{
+  "fact_check": [
+    {
+      "fact": "10% to 30% of individuals clinically diagnosed as AD dementia do not display AD neuropathologic changes at autopsy.",
+      "status": "verified",
+      "note": "Checked against Section 4 of the source document."
+    },
+    {
+      "fact": "30% to 40% of cognitively unimpaired elderly persons have AD neuropathologic changes at autopsy.",
+      "status": "verified",
+      "note": "Checked against Section 4 of the source document."
+    },
+    {
+      "fact": "Lecanemab and donanemab trials required confirmation of amyloid pathology for enrollment.",
+      "status": "verified",
+      "note": "Confirmed against trial inclusion criteria in registry data (Clarity AD and TRAILBLAZER-ALZ 2)."
+    }
+  ],
+  "research_page": {
+    "slug": "nia-aa-research-framework-2018",
+    "title": "2018 NIA-AA Research Framework (AT(N))",
+    "description": "The National Institute on Aging and Alzheimer's Association proposes defining Alzheimer's disease by its biological markers rather than clinical symptoms.",
+    "tags": [
+      "paper",
+      "biomarkers",
+      "diagnostic-criteria",
+      "atn-framework",
+      "amyloid",
+      "tau"
+    ],
+    "source_line_md": "**Source**: [Alzheimer's & dementia : the journal of the Alzheimer's Association, 2018](https://doi.org/10.1016/j.jalz.2018.02.018) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/29653606)",
+    "authors_line_md": "Clifford R. Jack et al. — National Institute on Aging and Alzheimer’s Association (NIA-AA)",
+    "takeaway_md": "The 2018 NIA-AA framework radically shifted Alzheimer's research by defining the disease biologically using the AT(N) classification (amyloid, tau, neurodegeneration). Under this system, \"Alzheimer's disease\" requires biomarker evidence of both amyloid and pathologic tau, treating cognitive impairment as a downstream symptom for staging rather than the disease itself.",
+    "key_findings_md": [
+      "10% to 30% of patients clinically diagnosed with Alzheimer's dementia lack the corresponding neuropathology at autopsy, demonstrating the inaccuracy of purely symptom-based diagnosis (Section 4).",
+      "30% to 40% of cognitively unimpaired older adults possess Alzheimer's neuropathologic changes, highlighting a lengthy preclinical phase of the disease (Section 4).",
+      "Individuals with both an amyloid biomarker and a second biomarker (tau or neurodegeneration) exhibit significantly faster cognitive decline than those with only one or neither (Section 8)."
+    ],
+    "methods_md": "Consensus research framework and guideline update by the NIA-AA committee. The authors synthesized accumulated biomarker data and autopsy studies to establish the AT(N) biological classification system, creating a standardized language for observational and interventional research across the Alzheimer's continuum.",
+    "trial_evidence_md": "The AT(N) biological definition transformed clinical trial design. Modern anti-amyloid Phase 3 trials like [Clarity AD](/trials/lecanemab-clarity-ad-nct03887455) (lecanemab) and [TRAILBLAZER-ALZ 2](/trials/donanemab-trailblazer-alz-2-nct04437511) (donanemab) utilized this framework to selectively enroll patients with confirmed pathology, ultimately yielding successful readouts. Conversely, preclinical trials enrolling solely based on biomarkers without cognitive symptoms, such as the [A4 Study](/research/papers/solanezumab-a4-prevention), failed to show cognitive benefit. While the framework authors explicitly cautioned that biological diagnosis was premature for routine clinical practice in 2018, recent FDA approvals for lecanemab and donanemab—which mandate amyloid confirmation—have effectively cemented the biological framework into mainstream care.",
+    "sentiment_md": "The AT(N) framework is polarizing. The scientific and biotech communities enthusiastically embrace it as a precision tool for clinical trials and regulatory endpoints. Conversely, clinical practitioners express skepticism about applying it outside research, citing the high cost of biomarker testing and the risk of over-diagnosing cognitively normal populations. Patients and caregivers often report anxiety regarding \"asymptomatic Alzheimer's,\" frequently conflating a positive biomarker test with the inevitable rapid onset of severe dementia.",
+    "caveats_md": [
+      "The framework relies heavily on expensive and invasive testing like PET scans and lumbar punctures, creating a risk that diverse, lower-resource, or rural populations will be systematically excluded from cutting-edge research.",
+      "A negative biomarker test only confirms that pathology falls below a specific in vivo detection threshold; it does not guarantee a complete absence of amyloid or tau in the brain.",
+      "Neurodegeneration biomarkers (such as MRI atrophy) are completely nonspecific, making it difficult to untangle Alzheimer's-driven cognitive decline from other common comorbidities in older adults."
+    ],
+    "relates_to_md": [
+      "[Biomarkers](/research/biomarkers) — establishes the foundational AT(N) classification system for Alzheimer's biomarkers.",
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — operationalizes the amyloid cascade into a strict biological diagnostic framework.",
+      "[AHEAD 3-45](/trials/ahead-3-45) — a prominent preclinical trial evaluating intervention at the asymptomatic stage defined by this framework."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "lecanemab-clarity-ad-nct03887455",
+      "title": "Clarity AD",
+      "description": "Lecanemab Phase 3 trial in early Alzheimer's disease with confirmed amyloid pathology.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "phase-3",
+        "lecanemab",
+        "anti-amyloid"
+      ],
+      "registry_md": "[NCT03887455](https://clinicaltrials.gov/study/NCT03887455)",
+      "drug": "Lecanemab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "population": "Participants with early Alzheimer's disease (mild cognitive impairment or mild dementia) with confirmed amyloid pathology",
+      "primary_endpoint": "Change from Baseline in the CDR-SB at 18 Months",
+      "started": "2019-03",
+      "readout": "2023-01",
+      "why_md": "This pivotal trial evaluated lecanemab in early Alzheimer's patients selected using biological criteria. Its success validated the utility of biomarker-driven trial enrollment.",
+      "status_log_md": [
+        "**2019-03** — Trial begins enrollment.",
+        "**2023-01-05** — [Results published in NEJM](https://doi.org/10.1056/NEJMoa2212948) showing lecanemab reduced amyloid and slowed cognitive decline."
+      ],
+      "results_md": "Lecanemab significantly reduced brain amyloid levels and resulted in moderately less decline on measures of cognition and function than placebo at 18 months."
+    },
+    {
+      "slug": "donanemab-trailblazer-alz-2-nct04437511",
+      "title": "TRAILBLAZER-ALZ 2",
+      "description": "Donanemab Phase 3 trial in early symptomatic Alzheimer's disease with amyloid and tau pathology.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "phase-3",
+        "donanemab",
+        "anti-amyloid"
+      ],
+      "registry_md": "[NCT04437511](https://clinicaltrials.gov/study/NCT04437511)",
+      "drug": "Donanemab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "population": "Participants with early symptomatic Alzheimer's disease with biomarker-confirmed amyloid and tau pathology",
+      "primary_endpoint": "Change From Baseline on the Integrated Alzheimer's Disease Rating Scale (iADRS)",
+      "started": "2020-06",
+      "readout": "2023-04",
+      "why_md": "This trial utilized a highly specific AT(N) framework implementation, requiring both amyloid and tau positivity for enrollment. It proved that selecting patients based on precise biological markers can yield significant clinical benefits.",
+      "status_log_md": [
+        "**2020-06** — Trial begins enrollment.",
+        "**2023-08-08** — [Results published in JAMA](https://doi.org/10.1001/jama.2023.13239) demonstrating slowed clinical decline."
+      ],
+      "results_md": "Donanemab significantly slowed clinical decline at 76 weeks compared to placebo in patients with early symptomatic AD and biomarker-confirmed amyloid and tau pathology."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2018",
+      "title": "2018 — NIA-AA proposes biological AT(N) definition of Alzheimer's",
+      "body_md": "The [2018 NIA-AA Research Framework](/research/papers/nia-aa-research-framework-2018) radically shifted the field by defining Alzheimer's disease through biomarkers (amyloid, tau, neurodegeneration) rather than clinical symptoms, paving the way for targeted clinical trials."
+    }
+  ],
+  "notes_for_editor": [
+    "The clinical researcher output for Clarity AD lists completion in 2029-06 due to ongoing extension phases, but the primary 18-month readout was published in 2023. I have set the 'readout' date to 2023-01 to reflect the primary completion milestone.",
+    "FDA approval milestones for lecanemab and donanemab were kept off the local trial status logs to prevent redundancy with the global timeline, as instructed."
+  ]
+}

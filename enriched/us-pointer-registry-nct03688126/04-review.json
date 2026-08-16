@@ -1,0 +1,82 @@
+{
+  "fact_check": [
+    {
+      "fact": "Results posted: false",
+      "status": "corrected",
+      "note": "Registry indicates no results, but primary outcomes were published in JAMA (August 2025) and imaging outcomes in JAMA Neurology (June 2026)."
+    },
+    {
+      "fact": "Enrollment: 2000 (ACTUAL)",
+      "status": "corrected",
+      "note": "Registry lists 2,000, but the primary JAMA readout reports an actual enrollment of 2,111 participants."
+    }
+  ],
+  "research_page": {
+    "slug": "us-pointer-lifestyle-intervention",
+    "title": "U.S. POINTER: Multidomain lifestyle intervention for cognitive decline",
+    "description": "A 2-year structured lifestyle intervention modestly improved global cognitive function in at-risk older adults.",
+    "tags": [
+      "trial",
+      "prevention",
+      "lifestyle-intervention",
+      "us-pointer"
+    ],
+    "source_line_md": "**Source**: [JAMA, 2025](https://doi.org/10.1001/jama.2025.12923) · [ClinicalTrials.gov](https://clinicaltrials.gov/study/NCT03688126)",
+    "authors_line_md": "U.S. POINTER Study Group — Wake Forest University Health Sciences / Alzheimer's Association",
+    "takeaway_md": "A structured, multidomain lifestyle intervention encompassing diet, exercise, and cognitive training significantly improved global cognitive scores over two years compared to a self-guided program. However, it did not alter underlying Alzheimer's biomarkers like amyloid or tau. This suggests the benefits stem from general brain health and cognitive reserve rather than direct disease modification.",
+    "key_findings_md": [
+      "Structured lifestyle intervention improved global cognitive function more than self-guided intervention (mean difference 0.029 SD/year, p=0.008) (JAMA 2025).",
+      "No significant difference between intervention groups in longitudinal amyloid or tau imaging biomarkers (JAMA Neurology 2026)."
+    ],
+    "methods_md": "Randomized, triple-masked interventional trial evaluating 2,111 sedentary older adults (aged 60-79) with elevated risk for cognitive decline but no baseline impairment. Participants were randomized to either a structured or self-guided lifestyle program for 2 years. Registered as NCT03688126.",
+    "trial_evidence_md": "U.S. POINTER successfully adapts the Finnish FINGER model for a diverse American population, establishing Phase 3-equivalent evidence that multidomain lifestyle interventions offer measurable cognitive resilience. The [U.S. POINTER trial](/trials/us-pointer-nct03688126) confirms behavioral interventions are protective, but the lack of effect on amyloid or tau indicates these benefits act through compensatory or vascular mechanisms rather than halting core Alzheimer's pathology.",
+    "sentiment_md": "Public sentiment is cautiously hopeful. Alzheimer's advocacy groups celebrate the validation of accessible risk-reduction strategies, though widespread mainstream awareness is lower than for pharmaceutical trials. Highly-educated patient communities and longevity biohackers note the clinical effect size is modest, pushing back against oversimplified media narratives that frame lifestyle changes as a guaranteed prevention.",
+    "caveats_md": [
+      "The clinical effect size on global cognition is statistically significant but small (0.029 SD/year), raising questions about real-world subjective impact.",
+      "The intervention does not modify core Alzheimer's pathology, meaning it cannot cure or halt disease progression driven by amyloid and tau.",
+      "The control group (self-guided lifestyle intervention) also received educational tools and showed some benefits, blurring the lines on exactly how much intensive supervision is required."
+    ],
+    "relates_to_md": [
+      "[Next Steps After an Alzheimer's Diagnosis](/journey/newly-diagnosed) — Lifestyle interventions are heavily recommended to preserve cognitive reserve.",
+      "[Biomarkers](/research/biomarkers) — Evaluated amyloid and tau trajectories, finding no change from lifestyle modifications."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "us-pointer-nct03688126",
+      "title": "U.S. POINTER",
+      "description": "Multidomain lifestyle intervention in sedentary at-risk older adults.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "prevention",
+        "lifestyle-intervention"
+      ],
+      "registry_md": "[NCT03688126](https://clinicaltrials.gov/study/NCT03688126)",
+      "drug": "Multidomain lifestyle intervention (behavioral)",
+      "phase": "n/a",
+      "sponsor": "Wake Forest University Health Sciences",
+      "population": "Sedentary adults aged 60-79 with elevated risk for cognitive decline",
+      "primary_endpoint": "Global cognitive function composite score slope",
+      "started": "2019-01",
+      "readout": "2025-08",
+      "why_md": "Adapting the successful FINGER trial to an American demographic, this study aims to definitively prove whether diet, exercise, and cognitive training can protect memory in at-risk older adults. It establishes the baseline efficacy of non-pharmacological risk reduction independently of core [biomarkers](/research/biomarkers).",
+      "status_log_md": [
+        "**2019-01-08** — Trial begins.",
+        "**2025-05-16** — Trial completes.",
+        "**2025-08-26** — Primary cognitive outcomes published in [JAMA](https://doi.org/10.1001/jama.2025.12923), meeting the primary endpoint.",
+        "**2026-06-01** — Ancillary imaging study published in [JAMA Neurology](https://doi.org/10.1001/jamaneurol.2026.0832) showing no effect on amyloid or tau."
+      ],
+      "results_md": "The structured intervention significantly improved global cognitive function over 2 years compared to the self-guided intervention (mean difference 0.029 SD/year, p=0.008). However, it did not significantly alter amyloid or tau biomarker trajectories."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2025-08",
+      "title": "2025-08 — U.S. POINTER lifestyle trial reads out",
+      "body_md": "The U.S. POINTER study demonstrated that a structured multidomain lifestyle intervention significantly, though modestly, protected [global cognition](/research/papers/us-pointer-lifestyle-intervention) in at-risk older adults over two years."
+    }
+  ],
+  "notes_for_editor": []
+}

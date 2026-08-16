@@ -1,0 +1,168 @@
+{
+  "kind": "other",
+  "title": "STATISTICAL REVIEW AND EVALUATION: Kisunla (donanemab) BLA 761248",
+  "authors": [
+    {
+      "name": "Li, Ping",
+      "affiliation": "Division of Analytics and Informatics (DAI)",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Zhao, Fengyu",
+      "affiliation": "Division of Biometrics VII (DBVII)",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Zhao, Yueqin",
+      "affiliation": "Division of Biometrics VII (DBVII)",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Soukup, Matthew J.",
+      "affiliation": "Division of Biometrics VII (DBVII)",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Tran, Thanh V.",
+      "affiliation": "Division of Biometrics I (DBI)",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Wang, Xiaofeng",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Lawrence, John P.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Hung, Hsien Ming J.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Massie, Tristan S.",
+      "affiliation": "Division of Biometrics I",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Li, Ping",
+  "venue": "Center for Drug Evaluation and Research, FDA",
+  "published": "2024-05",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "tau",
+    "biomarkers",
+    "immunotherapy",
+    "donanemab",
+    "fda-review",
+    "missing-data"
+  ],
+  "themes": [
+    "Efficacy and safety of donanemab in early Alzheimer's disease",
+    "Impact of high study discontinuation rates on data reliability",
+    "Mortality risk imbalances and missing vital status data",
+    "Statistical methodology controversies (iADRS vs CDR-SB, NCS2 vs MMRM)",
+    "Sensitivity of primary analyses to missing data assumptions",
+    "Amyloid plaque reduction and its correlation with clinical outcomes"
+  ],
+  "one_line": "FDA statistical review of Kisunla (donanemab) evaluating its efficacy in slowing Alzheimer's decline and analyzing concerns regarding mortality imbalances and high trial discontinuation rates.",
+  "summary": "This document compiles multiple FDA statistical reviews and addenda evaluating the BLA resubmission for Kisunla (donanemab) for early symptomatic Alzheimer's disease. The reviews primarily analyze Phase 3 Trial AACI and Phase 2 Trial AACG. Efficacy analyses demonstrated that donanemab statistically significantly slowed cognitive and functional decline on the iADRS and CDR-SB scales, while dramatically reducing amyloid plaque. However, reviewers highlighted significant methodological and safety concerns. A potential safety signal of increased mortality risk (1.0% risk difference at 76 weeks) was observed, complicated by disproportionately high study discontinuation rates (27% for donanemab vs. 20% for placebo). Furthermore, missing vital status data for discontinued participants required tipping point analyses, demonstrating that primary outcomes were sensitive to missing data assumptions. Despite these issues, the reviews conclude there is sufficient evidence of effectiveness and recommend approval.",
+  "key_claims": [
+    {
+      "claim": "Donanemab statistically significantly slows cognitive and functional decline in early Alzheimer's disease compared to placebo.",
+      "evidence": "iADRS change difference of 3.3 (p<0.001) in intermediate tau and 2.9 (p<0.001) in overall population; CDR-SB difference of -0.7 in both populations.",
+      "strength": "moderate",
+      "location": "Table 4, Table 7"
+    },
+    {
+      "claim": "Donanemab demonstrates a dramatic reduction in brain amyloid plaque.",
+      "evidence": "Amyloid centiloid difference of -88.2 in intermediate tau and -86.4 in overall population (p<0.0001) at Week 76.",
+      "strength": "strong",
+      "location": "Table 7, Figure 11"
+    },
+    {
+      "claim": "There is a potential safety signal of increased mortality risk associated with donanemab.",
+      "evidence": "Estimated risk difference of 1.0% for death at week 76, with a 95% CI of (-0.3%, 2.3%), failing to rule out an increased harm of up to 2.3%.",
+      "strength": "moderate",
+      "location": "Section 6 Summary and Conclusions (Addendum), Table 5A"
+    },
+    {
+      "claim": "The primary clinical efficacy results (CDR-SB) are highly sensitive to missing data assumptions.",
+      "evidence": "Tipping point analyses showed results became non-significant near a minimal delta pair of (0, 0.5), representing just the minimum within-subject scale increment change.",
+      "strength": "strong",
+      "location": "Section 5.1 Statistical Issues, Table 5, Table 6"
+    }
+  ],
+  "methods": {
+    "design": "Phase 3, multicenter, randomized, double-blind, placebo-controlled",
+    "n": 1736,
+    "population": "Early symptomatic Alzheimer's disease with amyloid and tau pathology",
+    "duration": "76 weeks",
+    "registration": null
+  },
+  "funding_and_conflicts": "none stated",
+  "limitations": [
+    "High study discontinuation rate (23% overall, 27% in donanemab arm)",
+    "Significant amount of missing vital status data for discontinued participants",
+    "Primary analysis of CDR-SB is highly sensitive to missing data assumptions",
+    "Sponsor's use of Time-PMRM analysis had multiple flaws, including not accounting for death or defining disease progression at the patient level"
+  ],
+  "red_flags": [
+    "Sponsor proceeded with iADRS as the primary endpoint against explicit FDA advice",
+    "Sponsor assumed death was not informative and treated measurements after death as missing rather than an unfavorable outcome",
+    "Protocol allowed study discontinuation for intercurrent events, which contradicted the intent of the treatment policy estimand",
+    "Disproportionately high dropout due to adverse events in the donanemab arm (30.5% vs 7.2% in Phase 2, and 13% vs 4% in Phase 3)"
+  ],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "Some tabular data run together (e.g., 'spl_1*trtn_')",
+      "Missing horizontal spacing in some multi-column tables",
+      "Footnotes embedded directly into table cells and flow text"
+    ]
+  },
+  "search_verification": [
+    "No DOI or PubMed ID verified as this is an internal FDA regulatory review document."
+  ]
+}

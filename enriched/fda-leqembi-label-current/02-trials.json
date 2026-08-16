@@ -1,0 +1,74 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT03887455",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03887455",
+      "name": "Clarity AD",
+      "drug": "Lecanemab (anti-Aβ protofibril antibody)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "status": "Active",
+      "enrollment": 1906,
+      "population": "Participants with early Alzheimer's disease (MCI or mild dementia) with confirmed amyloid pathology",
+      "primary_endpoint": "Change from Baseline in the CDR-SB at 18 Months",
+      "started": "2019-03",
+      "completed_or_readout": "2029-06",
+      "results_summary": "Lecanemab significantly reduced brain amyloid burden and slowed cognitive and functional decline by 27% on the CDR-SB compared to placebo over 18 months. ARIA occurred more frequently in treated patients, particularly ApoE ε4 homozygotes.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01767311",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01767311",
+      "name": "Study 201",
+      "drug": "Lecanemab (anti-Aβ protofibril antibody)",
+      "phase": "2",
+      "sponsor": "Eisai Inc.",
+      "status": "Completed",
+      "enrollment": 856,
+      "population": "Subjects with early Alzheimer's disease (MCI or mild dementia) with confirmed amyloid pathology",
+      "primary_endpoint": "Core Study Phase: Change From Baseline in Alzheimer's Disease Composite Score (ADCOMS) at Month 12",
+      "started": "2012-12",
+      "completed_or_readout": "2024-12",
+      "results_summary": "Lecanemab showed a dose-dependent reduction in amyloid plaques and a trend toward slower clinical decline, which informed the selection of the 10 mg/kg biweekly dose for Phase 3 trials.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05533801",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05533801",
+      "name": null,
+      "drug": "Lecanemab SC (subcutaneous formulation)",
+      "phase": "1",
+      "sponsor": "Eisai Inc.",
+      "status": "Completed",
+      "enrollment": 160,
+      "population": "Healthy participants",
+      "primary_endpoint": "AUC, Cmax, Tmax, and t1/2 of lecanemab",
+      "started": "2022-09",
+      "completed_or_readout": "2023-01",
+      "results_summary": "Demonstrated bioequivalence between the subcutaneous formulation of lecanemab supplied in vials versus a single-use auto-injector.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2023-01-05",
+      "kind": "paper",
+      "description": "NEJM publication of Phase 3 Clarity AD primary results demonstrating slowed cognitive decline and amyloid clearance.",
+      "url": "https://doi.org/10.1056/NEJMoa2212948"
+    },
+    {
+      "date": "2021-04-17",
+      "kind": "paper",
+      "description": "Alzheimer's Research & Therapy publication of Phase 2b proof-of-concept trial (Study 201) results.",
+      "url": "https://doi.org/10.1186/s13195-021-00813-8"
+    }
+  ],
+  "evidence_assessment": "Lecanemab's clinical efficacy and safety are well-supported by two rigorous, double-blind trials: the Phase 3 Clarity AD (NCT03887455) and the Phase 2b Study 201 (NCT01767311). Both studies conclusively show robust, dose-dependent clearance of brain amyloid plaques accompanied by a modest but statistically significant slowing of cognitive decline (27% on the CDR-SB over 18 months in Clarity AD). However, the clinical evidence reveals a challenging risk-benefit profile for ApoE ε4 homozygotes; despite effective amyloid clearance, exploratory analyses in this high-risk subgroup failed to show significant clinical benefit on the primary endpoint, while the incidence of ARIA was markedly higher (45% vs. 19% in heterozygotes). The newly added subcutaneous maintenance dosing option is grounded in Phase 1 bioequivalence data and open-label extensions, though the document appropriately limits claims regarding the long-term clinical benefit and safety of transitioning to this maintenance regimen.",
+  "discrepancies": [
+    "The document states Study 2 evaluated 1,795 patients, while the ClinicalTrials.gov record for NCT03887455 lists an enrollment of 1,906. This is expected as 1,795 reflects the modified intention-to-treat population evaluated for efficacy, whereas 1,906 is the total randomized enrollment.",
+    "The document describes a subcutaneous injection maintenance option; this was not evaluated in the core 18-month placebo-controlled periods of Study 1 or Study 2, but rather in separate bioequivalence bridging studies (such as Phase 1 NCT05533801) and open-label extension cohorts."
+  ]
+}

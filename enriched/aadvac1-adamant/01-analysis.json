@@ -1,0 +1,377 @@
+{
+  "kind": "research-paper",
+  "title": "ADAMANT: a placebo-controlled randomized phase 2 study of AADvac1, an active immunotherapy against pathological tau in Alzheimer’s disease",
+  "authors": [
+    {
+      "name": "Novak, Petr",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": true,
+      "conflicts": null
+    },
+    {
+      "name": "Kovacech, Branislav",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Katina, Stanislav",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Schmidt, Reinhold",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Scheltens, Philip",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Kontsekova, Eva",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Ropele, Stefan",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Fialova, Lubica",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Kramberger, Milica",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Paulenka-Ivanovova, Natalia",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Smisek, Miroslav",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Hanes, Jozef",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Stevens, Eva",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Kovac, Andrej",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Sutovsky, Stanislav",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Parrak, Vojtech",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Koson, Peter",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Prcina, Michal",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Galba, Jaroslav",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Cente, Martin",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Hromadka, Tomas",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Filipcik, Peter",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Piestansky, Juraj",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Samcova, Maria",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Prenn-Gologranc, Carmen",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Sivak, Roman",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Froelich, Lutz",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Fresser, Michal",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Rakusa, Martin",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Harrison, John",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Hort, Jakub",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Otto, Markus",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Tosun, Duygu",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Ondrus, Matej",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Winblad, Bengt",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Novak, Michal",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Zilka, Norbert",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Novak, Petr",
+  "venue": "Nature Aging",
+  "published": "2021-06",
+  "doi": "10.1038/s43587-021-00070-2",
+  "doi_url": "https://doi.org/10.1038/s43587-021-00070-2",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/37117834/",
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": "Licence: Taverne"
+  },
+  "tags": [
+    "paper",
+    "trial",
+    "tau",
+    "immunotherapy",
+    "aadvac1",
+    "vaccine",
+    "phase-2"
+  ],
+  "themes": [
+    "Active immunotherapy targeting pathological tau",
+    "Safety and immunogenicity of AADvac1",
+    "Clinical efficacy in mild Alzheimer's disease"
+  ],
+  "one_line": "The ADAMANT phase 2 trial found the active tau vaccine AADvac1 to be safe and highly immunogenic in mild Alzheimer's disease, but it did not yield significant cognitive or functional improvements in the overall study population.",
+  "summary": "This document outlines the results of the ADAMANT study, a 24-month, double-blind, placebo-controlled phase 2 trial of AADvac1, an active peptide vaccine targeting pathological tau in Alzheimer's disease. Across 196 randomized patients with mild Alzheimer's dementia, the vaccine was administered in 11 doses of 40 μg. The trial met its primary objective, demonstrating that long-term treatment with AADvac1 was safe and well-tolerated. It also fulfilled a secondary objective by inducing high levels of IgG antibodies against tau. However, the treatment failed to produce significant cognitive or functional improvements in the whole study sample compared to placebo. Exploratory and post hoc analyses suggest potential biomarker and clinical effects in specific subgroups, highlighting the need for larger, stratified studies to properly evaluate clinical efficacy.",
+  "key_claims": [
+    {
+      "claim": "AADvac1 is safe and well tolerated in patients with mild Alzheimer's disease dementia.",
+      "evidence": "Serious adverse events were observed in 17.1% of AADvac1-treated individuals versus 24.1% of placebo-treated individuals; adverse events were observed in 84.6% of AADvac1-treated individuals and 81.0% of placebo-treated individuals.",
+      "strength": "strong",
+      "location": "Abstract"
+    },
+    {
+      "claim": "AADvac1 treatment does not significantly slow cognitive and functional decline across the general mild AD population.",
+      "evidence": "Clinical Dementia Rating-Sum of the Boxes scale adjusted mean point difference was −0.360 (95% CI −1.306, 0.589); custom cognitive battery adjusted mean z-score difference was 0.0008 (95% CI −0.169, 0.172).",
+      "strength": "strong",
+      "location": "Abstract"
+    },
+    {
+      "claim": "The AADvac1 vaccine successfully induces high levels of IgG antibodies.",
+      "evidence": "Stated as 'The vaccine induced high levels of IgG antibodies.' (no specific titers or statistical values provided in the abstract).",
+      "strength": "moderate",
+      "location": "Abstract"
+    }
+  ],
+  "methods": {
+    "design": "24-month double-blinded, parallel-arm, randomized phase 2 multicenter placebo-controlled trial",
+    "n": 196,
+    "population": "patients with mild AD dementia",
+    "duration": "24 months",
+    "registration": "EudraCT 2015-000630-30"
+  },
+  "funding_and_conflicts": "none stated",
+  "limitations": [
+    "Failed to meet secondary efficacy endpoints for cognitive and functional decline in the primary overall study sample",
+    "Only a metadata/abstract scrape was provided, limiting the ability to assess full methodologies, dropout rates, and specific post hoc subgroup analyses"
+  ],
+  "red_flags": [
+    "Authors indicate relying on exploratory and post hoc analyses of specific subgroups for positive signals after the trial failed to demonstrate cognitive/functional efficacy in the whole study sample"
+  ],
+  "parse_quality": {
+    "score": 3,
+    "issues": [
+      "Document is a metadata scrape (e.g., from a university repository like Pure) rather than the full-text article",
+      "Author affiliations are listed as a disconnected block, preventing accurate mapping to individual authors",
+      "Missing full text body, figures, tables, and conflict of interest declarations"
+    ]
+  },
+  "search_verification": [
+    "Searched PubMed via E-utilities API using DOI 10.1038/s43587-021-00070-2; successfully identified PubMed ID 37117834"
+  ]
+}

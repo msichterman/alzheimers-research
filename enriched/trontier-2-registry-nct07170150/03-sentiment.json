@@ -1,0 +1,75 @@
+{
+  "overall": "hopeful",
+  "summary": "Public sentiment surrounding trontinemab is highly hopeful, heavily driven by early Phase 1b/2a data showing rapid, deep amyloid plaque clearance with very low ARIA rates. Retail investors are notably enthusiastic, framing Roche's 'Brainshuttle' technology as a potential game-changer that could dominate a $13 billion market. Patient and caregiver communities are cautiously optimistic but show some confusion regarding the drug's exact mechanism of action. Specialized science media is impressed by the biomarker data but remains focused on the pending Phase 3 cognitive outcomes.",
+  "communities": [
+    {
+      "community": "Retail investors (RHHBY)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "$13B market opportunity",
+        "Game-changer for Alzheimer's",
+        "Low ARIA rates as a competitive advantage"
+      ],
+      "example_urls": [
+        "https://www.ainvest.com/news/roche-alzheimer-prevention-gambit-game-changer-13b-market-2507/",
+        "https://www.stocktitan.net/news/RHHBY/roche-presents-new-insights-in-alzheimer-s-disease-research-across-3r5pfsfmk89x.html"
+      ]
+    },
+    {
+      "community": "r/Alzheimers and caregiver forums",
+      "sentiment": "hopeful",
+      "themes": [
+        "Promising new mechanisms compared to current mabs",
+        "Hope for better blood-brain barrier penetration",
+        "Safety and lower side effects"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/comments/1bhl5bl/lecanemab_is_now_supposedly_covered_by_medicare/",
+        "https://alzheimersweekly.com/trontinemab-a-new-hope-for-alzheimers/"
+      ]
+    },
+    {
+      "community": "Science media and research community",
+      "sentiment": "hopeful",
+      "themes": [
+        "Unprecedented plaque clearance rates (91% negative)",
+        "Biomarker normalization (p-tau, GFAP)",
+        "Infusion-related reactions as primary adverse event"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/conference-coverage/roche-spells-out-phase-three-plans-trontinemab",
+        "https://www.alzforum.org/therapeutics/trontinemab"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "AInvest",
+      "tone": "positive",
+      "date": "2025-07",
+      "url": "https://www.ainvest.com/news/roche-alzheimer-prevention-gambit-game-changer-13b-market-2507/"
+    },
+    {
+      "outlet": "Psychiatric Times",
+      "tone": "positive",
+      "date": "2025-12",
+      "url": "https://www.psychiatrictimes.com/view/trontinemab-shows-promise-for-treatment-of-alzheimer-disease-in-new-data-at-ctad"
+    },
+    {
+      "outlet": "Alzforum",
+      "tone": "neutral",
+      "date": "2025-08",
+      "url": "https://www.alzforum.org/news/conference-coverage/roche-spells-out-phase-three-plans-trontinemab"
+    }
+  ],
+  "hype_vs_evidence": "Public perception is running slightly ahead of the clinical evidence regarding actual cognitive benefits. While early Phase 1b/2a data has demonstrated remarkable amyloid plaque clearance (91% PET negative) and favorable safety profiles (low ARIA), the public and investor hype assumes this will translate directly to slowing Alzheimer's cognitive decline faster than existing drugs. The Phase 3 trial (NCT07170150) evaluating actual cognitive outcomes (such as CDR-SB) will not complete until 2028, meaning efficacy claims are currently unproven. Additionally, investor enthusiasm heavily highlights a preventative approach, even though the primary Phase 3 trial targets early symptomatic patients.",
+  "misinformation_flags": [
+    "Claim: Trontinemab uses a smaller section of Gantenerumab, small enough to pass through pre-existing gaps in the blood-brain barrier. (Correction: Trontinemab does not passively slip through gaps due to a smaller size; it actively crosses the blood-brain barrier via transferrin receptor-mediated transcytosis using Roche's Brainshuttle technology.)",
+    "Claim: Trontinemab is already proven to slow Alzheimer's faster and safer than anything before. (Correction: Cognitive efficacy will not be established until Phase 3 trials read out in 2028; current data only proves rapid plaque clearance and biomarker normalization.)"
+  ],
+  "searches_run": [
+    "trontinemab site:reddit.com",
+    "trontinemab roche stock investors",
+    "trontinemab alzheimers forum OR caregiver"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "kind": "research-paper",
+  "title": "Multi-ancestry meta-analysis and fine-mapping in Alzheimer’s disease",
+  "authors": [
+    {
+      "name": "Lake, Julie",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Solsberg, Caroline Warly",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Yokoyama, Jennifer S.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "JSY serves on the scientific advisory board for the Epstein Family Alzheimer’s Research Collaboration."
+    },
+    {
+      "name": "Leonard, Hampton L.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "participation in this project was part of a competitive contract awarded to Data Tecnica International LLC by the National Institutes of Health to support open science research"
+    }
+  ],
+  "first_author": "Lake, Julie",
+  "venue": "Molecular Psychiatry",
+  "published": "2023",
+  "doi": "10.1038/s41380-023-02089-w",
+  "doi_url": "https://doi.org/10.1038/s41380-023-02089-w",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/37198259",
+  "copyright": null,
+  "license": {
+    "name": "CC BY 4.0",
+    "url": null,
+    "reuse": "redistribute",
+    "evidence": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made."
+  },
+  "tags": [
+    "paper",
+    "genetics",
+    "inflammation",
+    "gwas",
+    "multi-ancestry",
+    "polygenic-risk-score"
+  ],
+  "themes": [
+    "Multi-ancestry genome-wide association study",
+    "Identification of novel Alzheimer's risk loci",
+    "Fine-mapping of known Alzheimer's disease loci",
+    "Ancestral heterogeneity in genetic risk factors",
+    "Cross-population generalizability of polygenic risk scores"
+  ],
+  "one_line": "A multi-ancestry genome-wide meta-analysis identifies two novel Alzheimer's disease risk loci on chromosome 3 and highlights the importance of diverse genetic representation for fine-mapping and polygenic risk scoring.",
+  "summary": "This study conducted a multi-ancestry genome-wide association study (GWAS) meta-analysis of Alzheimer's disease and related dementias (ADD) using data from 644,188 individuals. The cohorts included participants of European, East Asian, African American, and Caribbean Hispanic ancestries. The researchers identified two novel, independent disease-associated loci on chromosome 3 near the TRANK1 and VWA5B2 genes, though these failed to replicate significantly in an independent cohort. Leveraging diverse haplotype structures, the study successfully fine-mapped nine known ADD risk loci to highly probable causal variants. The analysis revealed significant genetic heterogeneity across populations at known loci, most notably at APOE. Furthermore, polygenic risk scores derived from this multi-ancestry meta-analysis outperformed single-ancestry scores when predicting ADD risk in an independent admixed Colombian cohort. These findings underscore the critical need to include non-European populations in genetic research to better understand disease architecture and improve generalizability of risk prediction models.",
+  "key_claims": [
+    {
+      "claim": "Two independent novel Alzheimer's disease risk loci exist on chromosome 3 near the TRANK1 and VWA5B2 genes.",
+      "evidence": "Fixed and random effects meta-analysis yielded P values < 5 x 10^-8 for lead SNPs; however, they failed to reach genome-wide significance in the MR-MEGA meta-regression model.",
+      "strength": "weak",
+      "location": "Meta-GWAS / Table 1"
+    },
+    {
+      "claim": "Multi-ancestry data improves the fine-mapping resolution of known Alzheimer's risk loci compared to European-only datasets.",
+      "evidence": "Nine loci were successfully fine-mapped to a credible set of ≤ 2 SNPs with a combined posterior probability of 99%, including four loci (RHOH, CTSB, FAM157C/PRDM7, GRN) that had not been previously fine-mapped at this resolution.",
+      "strength": "strong",
+      "location": "Fine-mapping / Table 2"
+    },
+    {
+      "claim": "Multi-ancestry-derived polygenic risk scores (PRS) outperform single-ancestry scores in predicting Alzheimer's risk in admixed populations.",
+      "evidence": "In an independent admixed Colombian cohort (281 cases, 87 controls), a multi-ancestry random-effects-derived PRS achieved maximal AUCs of 79% (with APOE) and 68% (without APOE), outperforming the European-based PRS (75% and 63%).",
+      "strength": "moderate",
+      "location": "Polygenic risk scoring / Fig. 4"
+    }
+  ],
+  "methods": {
+    "design": "Multi-ancestry genome-wide association study meta-analysis",
+    "n": 644188,
+    "population": "Individuals of European, East Asian, African American, and Caribbean Hispanic ancestries",
+    "duration": null,
+    "registration": null
+  },
+  "funding_and_conflicts": "Funded in part by the Intramural Research Programs of the NIA/NIH, Rainwater Charitable Foundation, Alzheimer’s Association, Global Brain Health Institute, Mary Oakley Foundation, and Korea Brain Research Institute. Conflicts: KL, DV, HL, and MAN's participation was funded by an NIH contract awarded to Data Tecnica International LLC. MAN serves on the scientific advisory board for Clover Therapeutics and advises Neuron23 Inc. PH is an employee and stockholder at Alector. JSY advises the Epstein Family Alzheimer’s Research Collaboration.",
+  "limitations": [
+    "Relies heavily on proxy-ADD cases (individuals designated as cases purely because a parent had Alzheimer's or dementia), introducing substantial phenotypic inaccuracy.",
+    "The meta-regression (MR-MEGA) filtered out rare variants (MAF < 1%) and required SNPs to be present in at least 4 studies, reducing the potential variant set and biasing fine-mapping results.",
+    "Despite being a multi-ancestry study, a strong Eurocentric bias remains, as European-ancestry individuals comprised approximately 85% of the total cases."
+  ],
+  "red_flags": [
+    "The two highlighted 'novel' risk loci (TRANK1 and VWA5B2) were sub-significant in the study's primary multi-ancestry model (MR-MEGA) and failed to replicate in the independent East Asian cohort (VWA5B2 actually showed an opposite effect direction).",
+    "Nearly half of the total case cohort (46,828 out of 101,061) were 'proxy' cases, diluting the certainty of the clinical phenotype being analyzed."
+  ],
+  "parse_quality": {
+    "score": 3,
+    "issues": [
+      "The primary author byline and all affiliations were entirely stripped during conversion; only authors explicitly mentioned in the equal-contribution and competing-interests footnotes are visible.",
+      "In-text figure and table citations are missing their numbers entirely (e.g., 'Fig. and Table', 'Fig. ').",
+      "Table structures are heavily flattened, making column data difficult to align and parse programmatically."
+    ]
+  },
+  "search_verification": []
+}

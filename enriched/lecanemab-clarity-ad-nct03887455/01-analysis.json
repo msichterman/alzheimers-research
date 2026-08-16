@@ -1,0 +1,58 @@
+{
+  "kind": "other",
+  "title": "A Study to Confirm Safety and Efficacy of Lecanemab in Participants With Early Alzheimer's Disease",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2019-03",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "biomarkers",
+    "genetics",
+    "immunotherapy",
+    "lecanemab",
+    "ban2401",
+    "protocol"
+  ],
+  "themes": [
+    "Early Alzheimer's disease",
+    "Lecanemab (BAN2401)",
+    "Clinical trial protocol",
+    "Monoclonal antibody therapy",
+    "Amyloid PET"
+  ],
+  "one_line": "Registry record for the Phase 3 Clarity AD clinical trial (NCT03887455) evaluating the safety and efficacy of lecanemab in early Alzheimer's disease.",
+  "summary": "This document is a ClinicalTrials.gov registry record outlining the protocol for NCT03887455, also known as the Clarity AD trial. It describes a Phase 3, randomized, quadruple-blind, placebo-controlled study to confirm the safety and efficacy of the monoclonal antibody lecanemab (BAN2401) in participants with early Alzheimer's disease. The core study spans 18 months, with the primary outcome measure being the change from baseline in the Clinical Dementia Rating-Sum of Boxes (CDR-SB). Secondary outcome measures include amyloid PET changes, ADAS-cog14, ADCOMS, and ADCS MCI-ADL. The trial aims to enroll 1,906 participants aged 50 to 90 who have positive biomarkers for brain amyloid pathology. The record also details an open-label extension phase for long-term safety and efficacy evaluation. As of the retrieval date, the study is active but not recruiting, and no results have been posted in this record.",
+  "key_claims": [],
+  "methods": {
+    "design": "Interventional, randomized, quadruple-blind, parallel-group Phase 3 clinical trial",
+    "n": 1906,
+    "population": "Adults aged 50 to 90 years with Mild Cognitive Impairment (MCI) due to Alzheimer's disease or mild Alzheimer's disease dementia, demonstrating positive brain amyloid pathology.",
+    "duration": "18 months for the core study, with extension phases up to approximately 66 months.",
+    "registration": "NCT03887455"
+  },
+  "funding_and_conflicts": "Lead sponsor: Eisai Inc. Collaborators: Biogen. No individual conflicts of interest are stated in this registry record.",
+  "limitations": [
+    "This document is a clinical trial registry record outlining the study protocol, not a peer-reviewed publication.",
+    "No study results or empirical data are included in this record (Results posted: false)."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 10,
+    "issues": []
+  },
+  "search_verification": [
+    "No DOI or PubMed ID was searched because the provided text is definitively a ClinicalTrials.gov registry export (NCT03887455), which does not possess a native scholarly DOI."
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "kind": "other",
+  "title": "Class 2 Device Recall Lumipulse G pTau217/BAmyloid 142 Plasma Ratio",
+  "authors": [],
+  "first_author": null,
+  "venue": "U.S. Food & Drug Administration",
+  "published": "2026-02",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "biomarkers",
+    "amyloid",
+    "tau",
+    "fda-recall",
+    "lumipulse",
+    "plasma-ratio"
+  ],
+  "themes": [
+    "FDA Class 2 device recall",
+    "Plasma biomarker diagnostic inaccuracy",
+    "False positive Alzheimer's classification",
+    "Indeterminate test results"
+  ],
+  "one_line": "The FDA issued a Class 2 recall for Fujirebio's Lumipulse G pTau217/BAmyloid 142 Plasma Ratio test due to false positive and indeterminate results compared to CSF/PET imaging.",
+  "summary": "This document is a U.S. Food and Drug Administration (FDA) Class 2 Device Recall notice for the Lumipulse G pTau217/BAmyloid 142 Plasma Ratio test manufactured by Fujirebio Diagnostics, Inc. The recall was initiated on December 11, 2025, and posted on February 5, 2026, affecting 128 units distributed across multiple US states. The manufacturer reported that the test was yielding inaccurate results, specifically a higher frequency of classification in the indeterminate and positive zones, along with low specificity when compared to FDA-cleared CSF ratios or PET imaging. This defect risks the incorrect classification of patients as having amyloid pathology associated with Alzheimer's disease, or necessitates unnecessary additional clinical testing. The FDA notes that the specific cause of the inaccuracy is currently under investigation by the firm.",
+  "key_claims": [
+    {
+      "claim": "The Lumipulse G pTau217/BAmyloid 142 Plasma Ratio test has a higher frequency of falsely elevated positive and indeterminate results with low specificity.",
+      "evidence": "Manufacturer observation of inaccuracies when compared back to FDA-cleared CSF ratio and PET imaging.",
+      "strength": "strong",
+      "location": "Manufacturer Reason for Recall"
+    }
+  ],
+  "methods": {
+    "design": "Device Recall",
+    "n": 128,
+    "population": null,
+    "duration": null,
+    "registration": null
+  },
+  "funding_and_conflicts": "none stated",
+  "limitations": [
+    "This is a regulatory recall notice rather than a peer-reviewed scientific study.",
+    "The underlying technical cause for the assay's failure remains undetermined (listed as 'Under Investigation by firm')."
+  ],
+  "red_flags": [
+    "Test inaccuracy directly causing potential false positive Alzheimer's disease diagnoses",
+    "Low specificity compared to gold standard CSF/PET imaging for amyloid pathology"
+  ],
+  "parse_quality": {
+    "score": 9,
+    "issues": [
+      "Missing Greek letter beta character before 'Amyloid' (e.g., rendered as 'BAmyloid' or '-Amyloid')",
+      "Missing apostrophe or formatting artifact in 'Alzheimer s disease'"
+    ]
+  },
+  "search_verification": []
+}

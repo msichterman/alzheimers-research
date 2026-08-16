@@ -1,0 +1,77 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT01953601",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01953601",
+      "name": "APECS",
+      "drug": "Verubecestat (BACE1 inhibitor)",
+      "phase": "3",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "status": "Terminated",
+      "enrollment": 1454,
+      "population": "Individuals with Amnestic Mild Cognitive Impairment (Prodromal Alzheimer's Disease)",
+      "primary_endpoint": "Part 1 (Base Study). Least Squares Mean (LSM) Change From Baseline in Clinical Dementia Rating Sum of Boxes (CDR-SB) Score at Week 104",
+      "started": "2013-11",
+      "completed_or_readout": "2018-04",
+      "results_summary": "Verubecestat did not improve clinical or cognitive outcomes in prodromal Alzheimer's disease; instead, it resulted in worse cognitive performance at the higher dose and increased adverse events.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01739348",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01739348",
+      "name": "EPOCH",
+      "drug": "Verubecestat (BACE1 inhibitor)",
+      "phase": "2/3",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "status": "Terminated",
+      "enrollment": 2211,
+      "population": "Individuals with Mild to Moderate Alzheimer's Disease",
+      "primary_endpoint": "[Part I (Base Study)] Change From Baseline in the Alzheimer's Disease Assessment Scale-Cognitive Subscale (ADAS-Cog) Score",
+      "started": "2012-11",
+      "completed_or_readout": "2017-04",
+      "results_summary": "The trial was terminated early for futility, showing that verubecestat did not improve clinical ratings of dementia and was associated with an increased incidence of adverse events.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01496170",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01496170",
+      "name": null,
+      "drug": "Verubecestat (BACE1 inhibitor)",
+      "phase": "1",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "status": "Completed",
+      "enrollment": 32,
+      "population": "Individuals with Alzheimer's Disease",
+      "primary_endpoint": "Mean population Inhibitory Concentration for 50% Effect (IC50) in cerebral spinal fluid (CSF) ß-amyloid peptide 40 (Aß40)",
+      "started": "2011-12",
+      "completed_or_readout": "2012-06",
+      "results_summary": "Evaluated the safety, tolerability, and pharmacodynamics of verubecestat, demonstrating successful target engagement via robust reductions in CSF amyloid levels.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2019-04-11",
+      "kind": "paper",
+      "description": "Peer-reviewed readout of the Phase 3 APECS trial (NCT01953601) in NEJM.",
+      "url": "https://doi.org/10.1056/NEJMoa1812840"
+    },
+    {
+      "date": "2018-05-03",
+      "kind": "paper",
+      "description": "Peer-reviewed readout of the Phase 2/3 EPOCH trial (NCT01739348) in NEJM.",
+      "url": "https://doi.org/10.1056/NEJMoa1706441"
+    },
+    {
+      "date": "2017-02-15",
+      "kind": "news",
+      "description": "BMJ news report on Merck terminating the EPOCH trial for verubecestat.",
+      "url": "https://doi.org/10.1136/bmj.j845"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence supporting the document's central claims is definitive and well-established. The peer-reviewed readout of the APECS trial (NCT01953601) in the New England Journal of Medicine confirms that the BACE1 inhibitor verubecestat lacked efficacy in prodromal Alzheimer's disease and paradoxically accelerated cognitive decline and clinical dementia progression, despite successfully lowering amyloid load. This aligns completely with the earlier failure of the EPOCH trial (NCT01739348) in mild-to-moderate Alzheimer's disease, which was similarly halted due to lack of efficacy and a detrimental safety profile. Consequently, the entire verubecestat clinical development program was terminated, strongly validating the conclusion that BACE1 inhibition with this compound is both ineffective and harmful in these populations.",
+  "discrepancies": []
+}

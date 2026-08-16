@@ -1,0 +1,113 @@
+{
+  "fact_check": [
+    {
+      "fact": "The trial enrolled 241 participants.",
+      "status": "verified",
+      "note": "Matches the 'Enrollment: 241 (ACTUAL)' field in the registry record."
+    },
+    {
+      "fact": "Interim analyses showed highly rapid and robust dose-dependent amyloid plaque depletion with low ARIA.",
+      "status": "unverified",
+      "note": "The provided registry record explicitly states 'Results posted: false'. These claims come from external interim conference abstracts, not the document being reviewed."
+    },
+    {
+      "fact": "The trial evaluates a drug targeting transferrin receptor 1 to cross the blood-brain barrier.",
+      "status": "verified",
+      "note": "Matches the clinical-trials researcher's drug description and the 'Brainshuttle' mechanism mentioned in the source document."
+    }
+  ],
+  "research_page": {
+    "slug": "trontinemab-phase-1b-2a",
+    "title": "Trontinemab in prodromal to moderate AD (Phase 1b/2a)",
+    "description": "A Phase 1b/2a trial registry evaluating Roche's Brainshuttle anti-amyloid immunotherapy, trontinemab.",
+    "tags": [
+      "trial-registry",
+      "amyloid",
+      "immunotherapy",
+      "trontinemab"
+    ],
+    "source_line_md": "**Source**: [ClinicalTrials.gov, 2020](https://clinicaltrials.gov/study/NCT04639050)",
+    "authors_line_md": "Hoffmann-La Roche",
+    "takeaway_md": "This registry describes the Phase 1b/2a multiple-ascending dose trial of trontinemab (RO7126209), an anti-amyloid antibody fused to a Brainshuttle module. Although the registry itself contains no results, external interim readouts have prompted Roche to accelerate the drug into multiple pivotal Phase 3 trials.",
+    "key_findings_md": [
+      "The trial evaluates multiple ascending intravenous doses in 241 participants across dose-finding and expansion cohorts (registry).",
+      "Primary endpoints focus on safety (percentage of participants with adverse events) and efficacy via change in brain amyloid load on PET scans (registry)."
+    ],
+    "methods_md": "A Phase 1b/2a, randomized, double-blind, placebo-controlled, multiple-ascending dose study (NCT04639050) enrolling 241 adults (aged 50-85) with prodromal or mild to moderate Alzheimer's disease and positive amyloid PET scans. The study spans a dose-finding phase, an expansion phase, a dose/frequency relationship phase, and an open-label extension lasting up to 233 weeks.",
+    "trial_evidence_md": "This is the registry record for the foundational Phase 1b/2a Brainshuttle AD trial ([NCT04639050](/trials/brainshuttle-ad-nct04639050)). Based on highly encouraging interim biomarker and safety readouts presented at conferences, Roche has advanced the drug directly into a massive Phase 3 program (TRONTIER 1, TRONTIER 2, and PrevenTRON) before this Phase 2 trial has fully completed.",
+    "sentiment_md": "The scientific and patient communities are highly optimistic about trontinemab's blood-brain barrier-crossing mechanism. Enthusiasts anticipate that the Brainshuttle technology might clear amyloid much faster and safely bypass the vascular accumulation that causes ARIA. However, caution remains among some experts who warn against over-interpreting early surrogate biomarker data before Phase 3 clinical efficacy is proven.",
+    "caveats_md": [
+      "The registry record itself contains no efficacy or safety data; claims of rapid amyloid clearance currently rely entirely on interim conference abstracts.",
+      "Reductions in amyloid PET load and downstream biomarkers do not automatically guarantee that trontinemab will successfully slow cognitive decline.",
+      "Long-term safety, especially the durable ARIA risk profile at higher doses in a broad population, cannot be established until Phase 3 readouts."
+    ],
+    "relates_to_md": [
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Trontinemab represents a next-generation attempt to validate this hypothesis with safer, more efficient brain penetration.",
+      "[Biomarkers](/research/biomarkers) — The trial heavily relies on amyloid PET and CSF tau to measure early target engagement."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "brainshuttle-ad-nct04639050",
+      "title": "Brainshuttle AD",
+      "description": "Phase 1b/2a multiple-ascending dose trial of trontinemab in early to moderate Alzheimer's disease.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "amyloid",
+        "phase-1",
+        "phase-2",
+        "trontinemab"
+      ],
+      "registry_md": "[NCT04639050](https://clinicaltrials.gov/study/NCT04639050)",
+      "drug": "Trontinemab / RO7126209 (anti-amyloid Brainshuttle)",
+      "phase": "Phase 1/2",
+      "sponsor": "Hoffmann-La Roche",
+      "population": "Adults aged 50-85 with prodromal or mild to moderate Alzheimer's disease and positive amyloid PET scans (N=241)",
+      "primary_endpoint": "Percentage of participants with adverse events; Change from baseline in brain amyloid load",
+      "started": "2021-03",
+      "readout": "2027-07",
+      "why_md": "This trial tests whether attaching an anti-amyloid antibody to a transferrin receptor 'shuttle' (trontinemab) allows it to cross the blood-brain barrier more efficiently. It aims to establish if this approach lowers amyloid faster and with less ARIA than standard antibodies.",
+      "status_log_md": [
+        "**2021-03-15** — Trial started dosing participants ([NCT04639050](https://clinicaltrials.gov/study/NCT04639050))."
+      ],
+      "results_md": "No official results are posted in the registry. Interim conference presentations suggest rapid amyloid plaque depletion and improvements in downstream CSF biomarkers with low ARIA incidence."
+    },
+    {
+      "slug": "trontier-1-nct07169578",
+      "title": "TRONTIER 1",
+      "description": "Pivotal Phase 3 trial evaluating trontinemab in early symptomatic Alzheimer's disease.",
+      "badge": "Recruiting",
+      "tags": [
+        "trial",
+        "amyloid",
+        "phase-3",
+        "trontinemab"
+      ],
+      "registry_md": "[NCT07169578](https://clinicaltrials.gov/study/NCT07169578)",
+      "drug": "Trontinemab (anti-amyloid Brainshuttle)",
+      "phase": "Phase 3",
+      "sponsor": "Hoffmann-La Roche",
+      "population": "Participants with early symptomatic Alzheimer's disease (N=800)",
+      "primary_endpoint": "Change from baseline to Week 72 in Clinical Dementia Rating, Sum of Boxes (CDR-SB)",
+      "started": "2025-09",
+      "readout": "2028-06",
+      "why_md": "As a pivotal efficacy study, TRONTIER 1 is designed to confirm whether the rapid amyloid clearance observed in earlier trontinemab trials translates into a significant slowing of cognitive decline.",
+      "status_log_md": [
+        "**2025-09** — Trial begins enrollment based on promising Phase 1b/2a biomarker data."
+      ],
+      "results_md": null
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2021-03",
+      "title": "2021-03 — Brainshuttle AD Phase 1b/2a trial begins",
+      "body_md": "Roche initiates dosing in [Brainshuttle AD](/trials/brainshuttle-ad-nct04639050) to evaluate trontinemab, a next-generation anti-amyloid antibody utilizing a blood-brain barrier shuttle."
+    }
+  ],
+  "notes_for_editor": [
+    "The clinical trials researcher cited interim results for trontinemab (rapid clearance, low ARIA) that are not included in this registry record itself. These claims have been appropriately contextualized in the fact check and caveats as coming from external interim abstracts rather than completed registry data."
+  ]
+}

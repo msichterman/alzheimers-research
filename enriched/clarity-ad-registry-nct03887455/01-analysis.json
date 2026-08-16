@@ -1,0 +1,64 @@
+{
+  "kind": "other",
+  "title": "A Placebo-Controlled, Double-Blind, Parallel-Group, 18-Month Study With an Open-Label Extension Phase to Confirm Safety and Efficacy of BAN2401 in Subjects With Early Alzheimer's Disease",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2019-03",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "immunotherapy",
+    "lecanemab",
+    "ban2401",
+    "clarity-ad"
+  ],
+  "themes": [
+    "Efficacy of lecanemab in early Alzheimer's disease",
+    "Clearance of brain amyloid pathology",
+    "Long-term safety and tolerability of anti-amyloid therapy"
+  ],
+  "one_line": "A Phase 3, double-blind, placebo-controlled clinical trial registry protocol (Clarity AD) evaluating the safety and efficacy of the anti-amyloid monoclonal antibody lecanemab in participants with early Alzheimer's disease.",
+  "summary": "This document is the ClinicalTrials.gov registry record for NCT03887455, corresponding to the Clarity AD Phase 3 trial. Sponsored by Eisai Inc. in collaboration with Biogen, the trial is designed to evaluate the efficacy and safety of the monoclonal antibody lecanemab (BAN2401) administered intravenously or subcutaneously in participants aged 50 to 90 with early Alzheimer's disease and confirmed amyloid pathology. The study consists of an 18-month double-blind, placebo-controlled core phase, followed by a long-term open-label extension phase lasting up to 66 months. The primary outcome measure is the change from baseline in the Clinical Dementia Rating-Sum of Boxes (CDR-SB) at 18 months. Secondary endpoints encompass changes in amyloid PET (Centiloids), ADAS-cog14, ADCOMS, and ADCS MCI-ADL, as well as the comprehensive tracking of treatment-emergent adverse events over the study's duration.",
+  "key_claims": [
+    {
+      "claim": "Lecanemab administration will demonstrate superiority compared with placebo on the change from baseline in the Clinical Dementia Rating-Sum of Boxes (CDR-SB) at 18 months of treatment.",
+      "evidence": "Planned evaluation within a Phase 3 randomized, quadruple-blind, placebo-controlled trial involving 1906 participants (trial protocol only; results are not reported in this document).",
+      "strength": "not-supported",
+      "location": "Brief summary"
+    }
+  ],
+  "methods": {
+    "design": "Phase 3, randomized, quadruple-blind, placebo-controlled, parallel-group, interventional study with an open-label extension",
+    "n": 1906,
+    "population": "Male and female participants aged 50-90 with Mild Cognitive Impairment (MCI) or mild dementia due to Alzheimer's disease and confirmed brain amyloid pathology",
+    "duration": "18 months (Core study) plus up to 66 months (Extension Phase)",
+    "registration": "NCT03887455"
+  },
+  "funding_and_conflicts": "Lead sponsor: Eisai Inc. Collaborators: Biogen. No individual conflicts of interest are stated in this registry record.",
+  "limitations": [
+    "This is a trial registry protocol outlining the study parameters, not a peer-reviewed publication reporting the actual outcomes.",
+    "Exclusion of individuals with significant cerebrovascular pathology, such as more than 4 microhemorrhages, may limit the generalizability of the safety data to broader populations.",
+    "APOE4 homozygous carriers are excluded from Extension Phase Part B in specific countries where lecanemab is restricted to noncarriers and heterozygous carriers, potentially obscuring long-term safety data for this high-risk subgroup."
+  ],
+  "red_flags": [
+    "The registry indicates 'Results posted: false' despite an enrollment of 1906 being marked as 'ACTUAL' and the 18-month core study timeframe having elapsed since the 2019 start date, reflecting a delay in updating the official registry with trial results."
+  ],
+  "parse_quality": {
+    "score": 10,
+    "issues": []
+  },
+  "search_verification": [
+    "Verified that ClinicalTrials.gov registry records (such as NCT03887455) do not inherently possess cross-referenced DOIs or PubMed IDs for the protocol page itself. Therefore, doi and pubmed_url fields were correctly assigned null."
+  ]
+}

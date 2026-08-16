@@ -1,0 +1,74 @@
+{
+  "kind": "other",
+  "title": "Anti-Amyloid Treatment in Asymptomatic Alzheimer's Disease (A4 Study)",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2023-06",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "prevention",
+    "immunotherapy",
+    "solanezumab",
+    "a4-study"
+  ],
+  "themes": [
+    "Preclinical Alzheimer's disease",
+    "Anti-amyloid monoclonal antibodies",
+    "Cognitive decline prevention",
+    "Clinical trial results",
+    "Biomarker changes"
+  ],
+  "one_line": "A Phase 3 clinical trial registry report showing that the anti-amyloid antibody solanezumab did not slow cognitive decline compared to placebo in asymptomatic older adults with preclinical Alzheimer's disease.",
+  "summary": "This document is a ClinicalTrials.gov registry extract detailing the results of the A4 study (NCT02008357). The trial was a Phase 3, randomized, quadruple-masked, placebo-controlled study evaluating the efficacy of solanezumab, an anti-amyloid monoclonal antibody, in older adults at risk for memory loss (preclinical Alzheimer's disease). Participants had elevated brain amyloid on PET scans but normal cognition at baseline. Over an approximately 240-week double-blind period, 1,169 participants received either intravenous solanezumab or placebo. The primary endpoint, change from baseline on the Preclinical Alzheimer Cognitive Composite (PACC) score, showed no significant difference between the treatment and placebo groups (p=0.260). Secondary cognitive and functional endpoints also failed to show clinical benefit, although significant differences were observed in some fluid and imaging biomarkers such as CSF amyloid beta and tau PET.",
+  "key_claims": [
+    {
+      "claim": "Solanezumab does not significantly slow cognitive decline compared to placebo in asymptomatic older adults with preclinical Alzheimer's disease.",
+      "evidence": "Primary outcome (PACC score) LS Mean difference -0.30 (95% CI -0.816 to 0.220), p=0.260.",
+      "strength": "strong",
+      "location": "Posted results / PRIMARY: Change From Baseline of the Preclinical Alzheimer Cognitive Composite (PACC) Score"
+    },
+    {
+      "claim": "Solanezumab does not significantly slow functional decline in preclinical Alzheimer's disease.",
+      "evidence": "Secondary outcomes CFI LS Mean difference 0.47 (p=0.100) and ADCS-ADL-Prevention LS Mean difference -0.59 (p=0.082).",
+      "strength": "strong",
+      "location": "Posted results / SECONDARY: Change From Baseline in Cognitive Function Index (CFI) and ADCS-ADL-Prevention Questionnaire Score"
+    },
+    {
+      "claim": "Solanezumab treatment significantly alters CSF amyloid beta biomarker concentrations.",
+      "evidence": "CSF Amyloid Beta 1-40 LS Mean difference 12738.449 (p<0.001) and CSF Amyloid Beta 1-42 LS Mean difference 996.411 (p<0.001).",
+      "strength": "strong",
+      "location": "Posted results / SECONDARY: Change From Baseline of Cerebrospinal Fluid (CSF) Concentrations of Amyloid Beta (Aβ)"
+    }
+  ],
+  "methods": {
+    "design": "Phase 3, interventional, randomized, quadruple-masked, placebo-controlled",
+    "n": 1169,
+    "population": "Adults aged 65 to 85 with normal cognition (MMSE 25-30, CDR 0) but elevated brain amyloid on florbetapir PET scans",
+    "duration": "Approximately 240 weeks double-blind, followed by a 204-week open-label extension",
+    "registration": "NCT02008357"
+  },
+  "funding_and_conflicts": "Lead sponsor: Eli Lilly and Company; Collaborators: Alzheimer's Therapeutic Research Institute. No individual investigator conflicts of interest are stated in the registry record.",
+  "limitations": [
+    "As a registry record, the document lacks a qualitative discussion section to contextualize the findings.",
+    "Delayed-start analyses for the open-label extension (week 336) were not conducted because no treatment difference was observed at the end of the placebo-controlled period.",
+    "Safety data relies on aggregate adverse event reporting without detailed clinical narratives."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 10,
+    "issues": []
+  },
+  "search_verification": []
+}

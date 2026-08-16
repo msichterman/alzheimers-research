@@ -1,0 +1,80 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT02021682",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02021682",
+      "name": "CNS and Plasma Amyloid-Beta Kinetics in AD",
+      "drug": "Stable Isotope Labeling Kinetics / Plasma Aβ (Diagnostic method)",
+      "phase": "n/a",
+      "sponsor": "Washington University School of Medicine",
+      "status": "Completed",
+      "enrollment": 58,
+      "population": "Adults age 60 and older from the Alzheimer's Disease Research Center with known amyloid status",
+      "primary_endpoint": "Analysis of SILK blood and CSF Aβ isoforms comparing amyloid positive group with control group",
+      "started": "2013-12",
+      "completed_or_readout": "2017-07",
+      "results_summary": "Confirmed that plasma Aβ turnover kinetics are significantly faster than in CSF. Demonstrated that the Aβ42/Aβ40 ratio drops in amyloid-positive patients, validating plasma Aβ ratios as an accurate screening mechanism for CNS amyloidosis.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05477056",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05477056",
+      "name": "QUIP I",
+      "drug": "PrecivityAD blood test (Plasma Aβ42/40 ratio & ApoE)",
+      "phase": "n/a",
+      "sponsor": "C2N Diagnostics",
+      "status": "Completed",
+      "enrollment": 366,
+      "population": "Memory Specialists and their patients presenting with mild cognitive impairment or early dementia",
+      "primary_endpoint": "Evaluate patient selection and score interpretation through clinician survey responses",
+      "started": "2021-03",
+      "completed_or_readout": "2022-10",
+      "results_summary": "Revealed that providing physicians with the PrecivityAD blood test results significantly influenced clinical decision-making, increasing diagnostic confidence and altering patient management plans.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT06856681",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06856681",
+      "name": "ADELAIDE",
+      "drug": "PrecivityAD2 (Plasma Aβ42/40 ratio & p-tau217)",
+      "phase": "n/a",
+      "sponsor": "C2N Diagnostics",
+      "status": "Terminated",
+      "enrollment": 0,
+      "population": "Patients aged 50+ with symptoms of MCI or cognitive impairment",
+      "primary_endpoint": "Time to achieve >=90% Diagnostic Confidence for AD or Non-AD",
+      "started": "2025-07",
+      "completed_or_readout": "2025-12",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2019-10",
+      "kind": "paper",
+      "description": "Validation study demonstrating that high-precision plasma Aβ42/40 accurately predicts current and future brain amyloidosis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31371569/"
+    },
+    {
+      "date": "2022-02",
+      "kind": "paper",
+      "description": "Large-scale multi-cohort validation (ADNI, BioFINDER) of Plasma Amyloid-β 42/40 for detecting AD amyloid plaques.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34906975/"
+    },
+    {
+      "date": "2023-08",
+      "kind": "registry-results",
+      "description": "Peer-reviewed results from the QUIP I trial showing the real-world clinical impact of the PrecivityAD test.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37550958/"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence supporting the diagnostic utility of plasma Aβ concentrations (specifically the Aβ42/Aβ40 ratio) is exceptionally strong and has transitioned smoothly into commercial clinical practice. The foundational kinetic study in Ovod et al. (NCT02021682) elegantly explained the brain-to-blood transport differences seen in Alzheimer's disease. While the initial study was limited by a small sample size (N=41) and retrospective amyloid-status anchoring, its core findings have been subsequently validated in massive, independent cohorts worldwide, demonstrating highly robust diagnostic accuracy (AUCs routinely > 0.85). The assay was commercialized by C2N Diagnostics as the PrecivityAD test; clinical utility data from subsequent registry trials (e.g., QUIP I) confirms that these blood biomarkers reliably alter physician diagnostic confidence and patient management.",
+  "discrepancies": [
+    "The document states a study population size of 41 participants, but the foundational registry record (NCT02021682) shows an actual total enrollment of 58.",
+    "The document does not list any trial registration number, but the study matches NCT02021682 perfectly (supported by the shared R01NS065667 grant, principal investigator, and unique SILK pulse-labeling methodology)."
+  ]
+}

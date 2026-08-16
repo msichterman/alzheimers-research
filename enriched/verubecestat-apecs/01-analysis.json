@@ -1,0 +1,230 @@
+{
+  "kind": "research-paper",
+  "title": "Randomized Trial of Verubecestat for Prodromal Alzheimer’s Disease",
+  "authors": [
+    {
+      "name": "Egan, Michael F.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Kost, James",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Voss, Tiffini",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Mukai, Yuki",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Aisen, Paul S.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Cummings, Jeffrey L.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Tariot, Pierre N.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Vellas, Bruno",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "van Dyck, Christopher H.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Boada, Merce",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Zhang, Ying",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Li, Wen",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Furtek, Christine",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Mahoney, Erin",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Mozley, Lyn Harper",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Mo, Yi",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Sur, Cyrille",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Michelson, David",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Egan, Michael F.",
+  "venue": "The New England journal of medicine",
+  "published": "2019",
+  "doi": "10.1056/NEJMoa1812840",
+  "doi_url": "https://doi.org/10.1056/NEJMoa1812840",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/30970186",
+  "copyright": null,
+  "license": {
+    "name": "all rights reserved",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law."
+  },
+  "tags": [
+    "trial",
+    "paper",
+    "amyloid",
+    "prevention",
+    "verubecestat",
+    "bace-1-inhibitor",
+    "small-molecule"
+  ],
+  "themes": [
+    "BACE-1 inhibition",
+    "Prodromal Alzheimer's disease",
+    "Clinical trial futility",
+    "Cognitive worsening from treatment",
+    "Amyloid beta reduction"
+  ],
+  "one_line": "The BACE-1 inhibitor verubecestat successfully lowered amyloid burden but was terminated early for futility because it failed to improve, and potentially worsened, clinical and cognitive outcomes in patients with prodromal Alzheimer's disease.",
+  "summary": "This randomized, double-blind, placebo-controlled Phase 3 trial investigated the efficacy of the BACE-1 inhibitor verubecestat (12 mg and 40 mg daily) in 1,454 patients with prodromal Alzheimer's disease. The trial was terminated early for futility when interim analyses revealed it would not meet its primary endpoint. While verubecestat engaged its target and effectively reduced cerebrospinal fluid amyloid-beta levels and brain amyloid load, it did not improve clinical dementia ratings. In fact, patients receiving the higher 40-mg dose exhibited statistically worse cognitive and functional decline on the CDR-SB compared to placebo. Adverse events, including rash, sleep disturbances, weight loss, and hair color changes, were also more common in the verubecestat groups.",
+  "key_claims": [
+    {
+      "claim": "Verubecestat does not improve clinical ratings of dementia in prodromal Alzheimer's disease.",
+      "evidence": "Mean change from baseline to week 104 in the CDR-SB score showed no benefit compared to placebo (P=0.67 for the 12-mg group).",
+      "strength": "strong",
+      "location": "RESULTS / CLINICAL OUTCOMES"
+    },
+    {
+      "claim": "Higher doses of verubecestat may worsen cognition and daily function.",
+      "evidence": "CDR-SB change from baseline was 2.02 for the 40-mg group vs 1.58 for placebo (P=0.01 favoring placebo). Progression to dementia hazard ratio was 1.38 favoring placebo.",
+      "strength": "moderate",
+      "location": "RESULTS / CLINICAL OUTCOMES"
+    },
+    {
+      "claim": "Verubecestat successfully engages its target, reducing brain and CSF amyloid.",
+      "evidence": "Reductions >60% from baseline in CSF Aβ40 and Aβ42, and reductions in brain amyloid load on PET imaging in treated groups compared to an increase in the placebo group.",
+      "strength": "strong",
+      "location": "RESULTS / BIOMARKERS"
+    }
+  ],
+  "methods": {
+    "design": "Randomized, double-blind, placebo-controlled, parallel group trial",
+    "n": 1454,
+    "population": "Adults aged 50-85 with prodromal Alzheimer's disease (subjective memory decrease, abnormal memory test, elevated brain amyloid, but not meeting dementia criteria).",
+    "duration": "104 weeks (part 1)",
+    "registration": null
+  },
+  "funding_and_conflicts": "Funded by Merck Sharp & Dohme (MSD). The sponsor designed the trial in consultation with academic authors, collected the data, and analyzed the data. A medical writer employed by the sponsor wrote the first draft. Individual conflicts refer to forms at NEJM.org.",
+  "limitations": [
+    "The trial was terminated early for futility, resulting in fewer patients completing the 104-week planned assessments.",
+    "Because the primary outcome failed to demonstrate superiority, formal statistical testing of secondary outcomes could not be conducted per the hierarchical plan, making further findings strictly exploratory.",
+    "The CSF biomarker substudy enrolled too few patients (5 or 6 per group) to allow for planned formal analyses.",
+    "No partial-volume correction was applied to PET imaging data."
+  ],
+  "red_flags": [
+    "The sponsor (MSD) was heavily involved in data collection, data analysis, and drafting the manuscript via an in-house medical writer.",
+    "The Markdown text has missing references and table/figure callouts resulting in empty parentheses, representing a loss of specific inline context.",
+    "ClinicalTrials.gov identifier is stripped from the abstract."
+  ],
+  "parse_quality": {
+    "score": 7,
+    "issues": [
+      "Table, figure, and reference callouts are heavily stripped, leaving empty parentheses like '()' and '(, and )' scattered throughout the text.",
+      "The NCT registration number in the abstract was stripped entirely ('ClinicalTrials.gov number, .')."
+    ]
+  },
+  "search_verification": [
+    "Confirmed DOI 10.1056/NEJMoa1812840 and PMID 30970186 map to the published NEJM APECS trial paper (Egan et al., 2019)."
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "kind": "review",
+  "title": "Revised criteria for diagnosis and staging of Alzheimer's disease: Alzheimer's Association Workgroup",
+  "authors": [
+    {
+      "name": "Jack Jr., Clifford R.",
+      "affiliation": "Mayo Clinic",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Data Safety Monitoring Board for Roche pro bono; holds index funds"
+    },
+    {
+      "name": "Andrews, J. Scott",
+      "affiliation": "Takeda Pharmaceuticals",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Employed by and minor shareholder for Takeda Pharmaceuticals; former employee and minor shareholder of Eli Lilly"
+    },
+    {
+      "name": "Beach, Thomas G.",
+      "affiliation": "Banner Health",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Consulting fees from Aprinoia Therapeutics, Acadia Pharmaceuticals, Biogen; honoraria from World PD Coalition, etc.; stock options with Vivid Genomics"
+    },
+    {
+      "name": "Burracchio, Teresa",
+      "affiliation": "US Food and Drug Administration",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "None to disclose"
+    },
+    {
+      "name": "Dunn, Billy",
+      "affiliation": "Consultant",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Consulting fees for Arch Venture Partners, Cerveau Technologies, etc.; stock options with Prothena Inc."
+    },
+    {
+      "name": "Graf, Ana",
+      "affiliation": "Novartis Pharma AG",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Employed by Novartis Pharma AG and has stock options in the company"
+    },
+    {
+      "name": "Hansson, Oskar",
+      "affiliation": "Lund University",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Grants/contracts and consulting fees from AVID Radiopharmaceuticals, Biogen, Eli Lilly, Eisai, Fujirebio, GE Healthcare, Pfizer, Roche, AC Immune, etc."
+    },
+    {
+      "name": "Ho, Carole",
+      "affiliation": "Denali Therapeutics",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Employed by and holds stock options with Denali Therapeutics; Board Director and holds stock options for Beam Therapeutics and NGM Therapeutics"
+    },
+    {
+      "name": "Jagust, William",
+      "affiliation": "University of California, Berkley",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Consulting fees from Biogen, Clario, Eisai, Lilly, and Prothena; stock with Optoceutics and Molecular Medicine"
+    },
+    {
+      "name": "McDade, Eric",
+      "affiliation": "Washington University, St Louis",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Royalties licensed to C2N; consulting fees from Alzamend, Sanofi, AstraZeneca, Roche, Grifols, Merck, Sage; Advisory Board for Alector and Eli Lilly"
+    },
+    {
+      "name": "Molinuevo, Jose Luis",
+      "affiliation": "H. Lundbeck A/S",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Full-time employee of H. Lundbeck A/S"
+    },
+    {
+      "name": "Okonkwo, Ozioma",
+      "affiliation": "University of Wisconsin School of Medicine & Public Health",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Consulting fees from Mayo Clinic Rochester and IUPUI"
+    },
+    {
+      "name": "Pani, Luca",
+      "affiliation": "University of Miami and the University of Modena and Reggio Emilia",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Options/stocks from Relmada Therapeutics and NetraMark in unrelated areas"
+    },
+    {
+      "name": "Rafii, Michael",
+      "affiliation": "University of Southern California and ATRI",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Consulting fees from AC Immune and Ionis; Advisory Board for Alzheon, Aptah Bio, Biohaven, Embic, Keystone Bio, Prescient Imaging, Positrigo"
+    },
+    {
+      "name": "Scheltens, Philip",
+      "affiliation": "Life Science Partners and Amsterdam University Medical Center",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Employed by Life Science Partners; stock options in EQT AB"
+    },
+    {
+      "name": "Siemers, Eric",
+      "affiliation": "Acumen Pharmaceuticals, Inc.",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Employed by and shareholder/options for Acumen Pharmaceuticals; shareholder for Eli Lilly; consulting fees from Cogstate Ltd., Cortexyme Inc., etc."
+    },
+    {
+      "name": "Snyder, Heather",
+      "affiliation": "Alzheimer's Association",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "None to disclose; spouse employed by Abbott Laboratories in unrelated area"
+    },
+    {
+      "name": "Sperling, Reisa",
+      "affiliation": "Brigham and Women's Hospital",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Consulting fees from Abbvie, AC Immune, Acumen, Alector, Alnylam, Biohaven, Bristol-Myers Squibb, Cytox, Genentech, Ionis, Janssen, Merck, etc."
+    },
+    {
+      "name": "Teunissen, Charlotte E.",
+      "affiliation": "Amsterdam UMC",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Contract researcher and recipient of honoraria from ADx Neurosciences, AC-Immune, Aribio, Axon Neurosciences, Beckman-Coulter, Eli Lilly, Roche, etc."
+    },
+    {
+      "name": "Carrillo, Maria",
+      "affiliation": "Alzheimer's Association",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "None to disclose"
+    },
+    {
+      "name": "Masliah, Eliezer",
+      "affiliation": "National Institute on Aging at the National Institutes of Health",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "None to disclose"
+    },
+    {
+      "name": "Ryan, Laurie",
+      "affiliation": "National Institute on Aging at the National Institutes of Health",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "None to disclose"
+    }
+  ],
+  "first_author": "Jack Jr., Clifford R.",
+  "venue": "Alzheimer's & Dementia",
+  "published": "2024",
+  "doi": "10.1002/alz.13859",
+  "doi_url": "https://doi.org/10.1002/alz.13859",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/38934362",
+  "copyright": null,
+  "license": {
+    "name": "CC BY-NC-ND 4.0",
+    "url": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "reuse": "redistribute",
+    "evidence": "This is an open access article under the terms of the http://creativecommons.org/licenses/by-nc-nd/4.0/ License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made."
+  },
+  "tags": [
+    "review",
+    "biomarkers",
+    "amyloid",
+    "tau",
+    "diagnosis",
+    "staging",
+    "copathology"
+  ],
+  "themes": [
+    "Biological definition of Alzheimer's",
+    "Core 1 and Core 2 biomarker categorization",
+    "Integration of blood-based biomarkers",
+    "Independent biological and clinical staging"
+  ],
+  "one_line": "The Alzheimer's Association updates its diagnostic criteria to define Alzheimer's disease purely by biological biomarkers, endorsing validated blood-based assays and introducing an integrated biological and clinical staging framework.",
+  "summary": "This document outlines updated criteria from the Alzheimer's Association Workgroup for the diagnosis and staging of Alzheimer's disease (AD), replacing the 2018 NIA-AA research framework. It reinforces the shift toward defining AD as a biological process detectable via biomarkers, rather than a clinical syndrome. The update formally categorizes markers into Core 1 (early indicators of AD neuropathologic change, such as amyloid PET and highly accurate plasma p-tau217) and Core 2 (later tau changes predicting symptoms). An abnormal Core 1 biomarker is now deemed sufficient to diagnose AD in symptomatic individuals. The criteria introduce a four-stage biological severity scale based on PET and fluid markers, alongside a numeric clinical staging system ranging from asymptomatic to severe dementia. Finally, the framework integrates both scales to accommodate modifying factors like cognitive reserve and non-AD copathologies.",
+  "key_claims": [
+    {
+      "claim": "An abnormal Core 1 biomarker result (amyloid PET, specific CSF ratios, or highly accurate plasma p-tau assays) is sufficient to establish a biological diagnosis of Alzheimer's disease.",
+      "evidence": "Analysis of the NACC autopsy database shows that 95% of symptomatic individuals with moderate/frequent neuritic plaques meet criteria for intermediate/high AD neuropathologic change.",
+      "strength": "strong",
+      "location": "DIAGNOSIS / Rationale for diagnosis of AD by Core 1 biomarkers"
+    },
+    {
+      "claim": "Accurate blood-based biomarkers (BBMs), particularly p-tau217, can serve as standalone diagnostic tests for AD.",
+      "evidence": "Select plasma assays demonstrate >90% accuracy compared to amyloid PET or CSF reference standards, performing equivalently to approved CSF assays.",
+      "strength": "moderate",
+      "location": "DIAGNOSIS / Anchoring Core 1 biomarkers for AD diagnosis to reference standards"
+    },
+    {
+      "claim": "Biological disease severity can be staged independently of clinical symptoms using amyloid and tau PET or fluid markers.",
+      "evidence": "Natural history studies indicate a stereotypical sequence: abnormal amyloid PET (Stage A), followed by medial temporal tau PET uptake (Stage B), and progressing to neocortical tau uptake (Stages C and D).",
+      "strength": "strong",
+      "location": "BIOLOGICAL DISEASE STAGING / Table 3 and Table 4"
+    }
+  ],
+  "methods": {
+    "design": "Workgroup consensus / criteria guidelines",
+    "n": null,
+    "population": null,
+    "duration": null,
+    "registration": null
+  },
+  "funding_and_conflicts": "Funded by NIH, Alzheimer's Association, GHR Foundation, and various public/private grants. Massive industry conflicts of interest declared: nearly all authors report employment, stock options, or consulting fees from major pharmaceutical companies working on AD therapeutics and diagnostics (e.g., Takeda, Biogen, Eli Lilly, Eisai, Roche, Novartis, Denali, H. Lundbeck).",
+  "limitations": [
+    "Biomarkers are less sensitive than neuropathologic examination for detecting early/mild AD neuropathologic change.",
+    "Lack of certified biofluid reference methods and materials (except for CSF Aβ42).",
+    "The criteria are not presently operationalizable at all centers, especially outside major medical institutions or high-income countries.",
+    "Recommendations advise against clinical diagnostic biomarker testing in cognitively unimpaired individuals outside of research."
+  ],
+  "red_flags": [
+    "Extensive financial conflicts of interest across the workgroup with companies that directly profit from the expansion of biomarker testing and anti-amyloid therapies."
+  ],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "No explicit author affiliation block at the document's header; affiliations had to be pieced together from the Conflict of Interest section",
+      "Minor spacing and ligature artifacts (e.g., non‐commercial with an unusual hyphen)",
+      "Some table formatting merges awkwardly into the text stream"
+    ]
+  },
+  "search_verification": []
+}

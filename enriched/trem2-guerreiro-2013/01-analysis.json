@@ -1,0 +1,269 @@
+{
+  "kind": "research-paper",
+  "title": "TREM2 Variants in Alzheimer's Disease",
+  "authors": [
+    {
+      "name": "Guerreiro, Rita",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Wojtas, Aleksandra",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Bras, Jose",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Carrasquillo, Minerva",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Rogaeva, Ekaterina",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Majounie, Elisa",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Cruchaga, Carlos",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Sassi, Celeste",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Kauwe, John S.K.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Younkin, Steven",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Hazrati, Lilinaz",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Collinge, John",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Pocock, Jennifer",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Lashley, Tammaryn",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Williams, Julie",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Lambert, Jean-Charles",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Amouyel, Philippe",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Goate, Alison",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Rademakers, Rosa",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Morgan, Kevin",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Powell, John",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "St. George-Hyslop, Peter",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Singleton, Andrew",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Hardy, John",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Guerreiro, Rita",
+  "venue": "The New England journal of medicine",
+  "published": "2013",
+  "doi": "10.1056/NEJMoa1211851",
+  "doi_url": "https://doi.org/10.1056/NEJMoa1211851",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/23150934",
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law."
+  },
+  "tags": [
+    "paper",
+    "genetics",
+    "inflammation",
+    "amyloid",
+    "trem2",
+    "r47h",
+    "microglia"
+  ],
+  "themes": [
+    "TREM2 rare variants strongly increase Alzheimer's risk",
+    "R47H mutation is the primary risk variant identified",
+    "TREM2 expression is upregulated in Alzheimer's mouse models",
+    "TREM2 localizes to microglia surrounding amyloid plaques",
+    "Heterozygous loss-of-function variants play a substantial role in late-onset disease"
+  ],
+  "one_line": "Heterozygous rare loss-of-function variants in the TREM2 gene, specifically R47H, significantly increase the risk of Alzheimer's disease.",
+  "summary": "This study utilized genome, exome, and Sanger sequencing to investigate TREM2 genetic variability in Alzheimer's disease (AD) patients compared to controls. The researchers identified a significant excess of variants in exon 2 of TREM2 among AD cases. The most strongly associated variant was rs75932628, which encodes the R47H substitution. This association was confirmed through a meta-analysis of imputed genomewide association study data and by direct genotyping in an independent replication cohort. Furthermore, Trem2 expression was shown to be upregulated in transgenic Alzheimer's mice, specifically localizing to microglia surrounding amyloid plaques. The findings demonstrate that heterozygous loss-of-function variants in TREM2 confer a substantial risk for late-onset Alzheimer's disease, highlighting the role of microglial inflammatory and phagocytic responses in disease pathogenesis.",
+  "key_claims": [
+    {
+      "claim": "Variants in TREM2 exon 2 are significantly more frequent in Alzheimer's disease patients than controls.",
+      "evidence": "In the discovery set, there were 22 variant alleles in 1092 AD patients versus 5 variant alleles in 1107 controls (P<0.001).",
+      "strength": "strong",
+      "location": "Abstract (RESULTS) / RESULTS"
+    },
+    {
+      "claim": "The TREM2 R47H variant (rs75932628) is highly associated with Alzheimer's disease.",
+      "evidence": "Odds ratio of 5.05 (95% CI, 2.77 to 9.16; P = 9.0×10^-9) in a direct genotyping series of 1994 AD patients and 4062 controls. Meta-analysis of imputed GWAS data also confirmed this (P=0.002).",
+      "strength": "strong",
+      "location": "RESULTS"
+    },
+    {
+      "claim": "Trem2 expression increases in response to amyloid beta accumulation in Alzheimer's disease mouse models.",
+      "evidence": "Trem2 granules in microglia increased significantly from an average of 6.7 granules per cell at 70 days to 22.4 granules at 90 days in TgCRND8 mice, and were localized to microglia surrounding amyloid plaques.",
+      "strength": "moderate",
+      "location": "RESULTS"
+    }
+  ],
+  "methods": {
+    "design": "Case-control genetic association study, meta-analysis of genome-wide association studies, and functional expression analysis in transgenic mice",
+    "n": 8255,
+    "population": "Patients with Alzheimer's disease and unaffected controls of European or North American descent",
+    "duration": null,
+    "registration": null
+  },
+  "funding_and_conflicts": "Funded by Alzheimer's Research UK, MRC, Wellcome Trust, and others. Disclosure forms provided by the authors are available with the full text at NEJM.org, but specific conflicts of interest are not detailed in the text.",
+  "limitations": [
+    "Imputation of rare variants like rs75932628 from GWAS data can be limited or inaccurate, which prompted the authors to perform direct genotyping to ensure robust confirmation."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 9,
+    "issues": [
+      "Missing spaces around some citations or symbols.",
+      "Figures and tables are omitted from the text, though references to them remain as empty brackets."
+    ]
+  },
+  "search_verification": []
+}

@@ -1,0 +1,125 @@
+{
+  "fact_check": [
+    {
+      "fact": "1,200 enrollment target, adults aged 60-77",
+      "status": "verified",
+      "note": "Matches the registry's Eligibility and Mutable fields."
+    },
+    {
+      "fact": "Trial primary completion was December 2013, with extended follow-up to December 2025",
+      "status": "verified",
+      "note": "Matches registry Mutable fields."
+    },
+    {
+      "fact": "No results available to support the claim",
+      "status": "corrected",
+      "note": "While no tabular results are posted in the registry itself, the clinical trials researcher identified the primary results published in The Lancet in 2015."
+    }
+  ],
+  "research_page": {
+    "slug": "finger-trial-nct01041989",
+    "title": "FINGER: Finnish Geriatric Intervention Study",
+    "description": "A landmark 2-year trial demonstrating that a multi-domain lifestyle intervention can improve or maintain cognitive function in at-risk older adults.",
+    "tags": [
+      "trial",
+      "prevention",
+      "lifestyle-intervention",
+      "cognitive-training",
+      "diet"
+    ],
+    "source_line_md": "**Source**: [ClinicalTrials.gov, 2010](https://clinicaltrials.gov/study/NCT01041989) · Primary results: [The Lancet, 2015](https://pubmed.ncbi.nlm.nih.gov/25771249/)",
+    "authors_line_md": "Finnish Institute for Health and Welfare",
+    "takeaway_md": "The FINGER trial provides landmark proof-of-concept that dementia risk is modifiable through lifestyle changes. It demonstrated that a structured, multi-domain approach—combining diet, exercise, cognitive training, and vascular monitoring—can significantly slow cognitive decline in high-risk older adults.",
+    "key_findings_md": [
+      "A 2-year multidomain intervention significantly improved or maintained cognitive functioning compared to standard counseling ([The Lancet, 2015](https://pubmed.ncbi.nlm.nih.gov/25771249/)).",
+      "Secondary analyses suggest the intervention reduces the estimated overall relative risk of dementia ([JAD, 2021](https://pubmed.ncbi.nlm.nih.gov/34151805/)).",
+      "The WW-FINGERS network expanded these findings; the US POINTER trial confirmed that structured lifestyle interventions offer greater cognitive benefit than self-guided approaches ([JAMA, 2025](https://pubmed.ncbi.nlm.nih.gov/40720610/))."
+    ],
+    "methods_md": "An interventional, randomized, single-masked prevention trial of 1,200 adults aged 60-77 with an increased dementia risk score and mild cognitive changes. The primary intervention spanned 2 years, with an ongoing extended follow-up phase tracking long-term dementia incidence. Registered as NCT01041989.",
+    "trial_evidence_md": "While the official ClinicalTrials.gov record remains outdated with no results posted, the FINGER trial successfully completed its primary phase in 2013. Its positive results were published in The Lancet in 2015, establishing it as the gold standard for non-pharmacological prevention. The protocol directly catalyzed the World-Wide FINGERS (WW-FINGERS) network, notably driving the pivotal [US POINTER](/trials/us-pointer-nct03688126) replication.",
+    "sentiment_md": "Public perception is highly hopeful, especially within high-risk communities (like APOE4 carriers) and longevity circles who value the intervention as an empowering, actionable strategy in late life. Scientists praise the trial for shifting the paradigm toward proactive risk reduction. However, educated advocates must frequently temper lay media coverage that mistakenly frames the modest risk-reduction effect as a 'cure' for existing Alzheimer's or conflates it with biomarker blood tests.",
+    "caveats_md": [
+      "The intervention bends the slope of cognitive decline; it is a preventative measure for at-risk individuals, not a treatment or cure for existing clinical dementia.",
+      "Implementing the multi-domain protocol requires significant patient adherence and structural support, which may challenge real-world scalability.",
+      "Definitive proof that the intervention delays the actual clinical onset of dementia requires final data from the extended follow-up, expected to complete in late 2025."
+    ],
+    "relates_to_md": [
+      "[US POINTER](/trials/us-pointer-nct03688126) — The major US-based replication trial of the FINGER protocol.",
+      "[Biomarkers](/research/biomarkers) — The trial intensively monitored vascular and metabolic risk factors to track intervention efficacy.",
+      "[Understanding the Amyloid Hypothesis](/journey/amyloid-hypothesis-consumer) — FINGER offers a distinct, non-pharmacological pathway to risk reduction outside of amyloid-targeting drugs."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "finger-nct01041989",
+      "title": "FINGER",
+      "description": "A 2-year randomized trial evaluating a multi-domain lifestyle intervention to prevent cognitive impairment in at-risk older adults.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "prevention",
+        "lifestyle",
+        "non-pharmacological"
+      ],
+      "registry_md": "[NCT01041989](https://clinicaltrials.gov/study/NCT01041989)",
+      "drug": "Multi-domain lifestyle counseling",
+      "phase": "n/a",
+      "sponsor": "Finnish Institute for Health and Welfare",
+      "population": "1,200 adults aged 60-77 with increased dementia risk and mild cognitive changes",
+      "primary_endpoint": "Cognitive impairment assessed via NTB, Stroop, and Trail Making tests at 2 years",
+      "started": "2009-09",
+      "readout": "2013-12",
+      "why_md": "To determine if a comprehensive lifestyle intervention—targeting nutrition, exercise, cognitive training, and vascular health—can prevent or delay cognitive impairment in high-risk older adults.",
+      "status_log_md": [
+        "**2009-09** — Trial started",
+        "**2013-12** — Primary completion reached",
+        "**2015-06** — [Primary results published in The Lancet](https://pubmed.ncbi.nlm.nih.gov/25771249/)"
+      ],
+      "results_md": "The 2-year multidomain intervention improved or maintained cognitive functioning compared to control counseling, demonstrating a significant between-group difference in the NTB total score."
+    },
+    {
+      "slug": "us-pointer-nct03688126",
+      "title": "US POINTER",
+      "description": "A 2-year trial evaluating structured vs. self-guided multidomain lifestyle interventions to protect cognitive function in older adults.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "prevention",
+        "lifestyle",
+        "WW-FINGERS"
+      ],
+      "registry_md": "[NCT03688126](https://clinicaltrials.gov/study/NCT03688126)",
+      "drug": "Structured vs. Self-Guided Multidomain Lifestyle Intervention",
+      "phase": "n/a",
+      "sponsor": "Wake Forest University Health Sciences",
+      "population": "2,000 sedentary older adults (60-79) with suboptimal diet and increased risk for cognitive decline",
+      "primary_endpoint": "Global cognitive function composite score at 2 years",
+      "started": "2019-01",
+      "readout": "2025-05",
+      "why_md": "To adapt and replicate the FINGER trial protocol in a diverse US population, establishing whether highly structured lifestyle interventions offer superior cognitive protection compared to self-guided education.",
+      "status_log_md": [
+        "**2019-01** — Trial started",
+        "**2025-05** — Trial completed",
+        "**2025-08** — [Primary results published in JAMA](https://pubmed.ncbi.nlm.nih.gov/40720610/)"
+      ],
+      "results_md": "Both groups showed increased cognitive composite scores over time, but the structured intervention yielded a statistically significant greater benefit on global cognition than the self-guided intervention."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Prevention and Lifestyle",
+      "date": "2015-06",
+      "title": "2015-06 — FINGER trial primary results read out",
+      "body_md": "The FINGER trial published landmark proof-of-concept data demonstrating that a multi-domain lifestyle intervention can improve or maintain cognitive functioning in at-risk older adults, detailed in the [FINGER research page](/research/papers/finger-trial-nct01041989)."
+    },
+    {
+      "section": "Prevention and Lifestyle",
+      "date": "2025-08",
+      "title": "2025-08 — US POINTER trial results read out",
+      "body_md": "The [US POINTER trial](/trials/us-pointer-nct03688126), part of the WW-FINGERS global replication network, confirmed that structured multidomain lifestyle interventions provide greater global cognitive benefit than self-guided approaches."
+    }
+  ],
+  "notes_for_editor": [
+    "The ClinicalTrials.gov record for NCT01041989 is notably outdated (listed as 'UNKNOWN' status with no results posted). I explicitly addressed this discrepancy in the `trial_evidence_md` and fact check, drawing on the 2015 Lancet publication to represent the trial's actual outcome."
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "overall": "negative",
+  "summary": "Public and scientific sentiment surrounding verubecestat is overwhelmingly negative, reflecting its status as a high-profile clinical failure. Early excitement from patient communities and science enthusiasts focused heavily on the drug's unprecedented ability to clear amyloid from the brain. However, this optimism gave way to sharp skepticism and disappointment when Phase 3 trial data showed it worsened cognitive outcomes and caused brain shrinkage. Discussions today treat verubecestat as a cautionary tale about the limits of the amyloid cascade hypothesis and the dangers of BACE inhibitors. As a result, current conversations are largely retrospective and scientific, with retail investors and caregivers having long since abandoned hope for the compound.",
+  "communities": [
+    {
+      "community": "Reddit (r/science, r/medicine, r/longevity)",
+      "sentiment": "skeptical",
+      "themes": [
+        "Biomarker success vs. clinical failure",
+        "Worsened cognitive decline compared to placebo",
+        "Discontinuation of BACE inhibitor programs"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/longevity/comments/bc8cl6/results_from_verubecestat_apecs_trial_published/",
+        "https://www.reddit.com/r/science/comments/7xdbvr/merck_discontinues_phase_3_trial_of_verubecestat/"
+      ]
+    },
+    {
+      "community": "Scientist Commentary (Alzforum)",
+      "sentiment": "negative",
+      "themes": [
+        "Failure of BACE1 inhibition",
+        "Safety signals and adverse events",
+        "Hippocampal atrophy"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/therapeutics/verubecestat"
+      ]
+    },
+    {
+      "community": "Patient & Caregiver Forums",
+      "sentiment": "mixed",
+      "themes": [
+        "Tracking early trial developments",
+        "Desperation for new treatments"
+      ],
+      "example_urls": [
+        "https://forum.alzheimers.org.uk/threads/further-test-trials-on-drug-verubecestat.96604/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "New England Journal of Medicine",
+      "tone": "critical",
+      "date": "2018-05",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1706441"
+    }
+  ],
+  "hype_vs_evidence": "There is a massive disconnect between early phase hype and late phase evidence. Early perception assumed that verubecestat's proven capacity to reduce amyloid-beta levels by 75-90% would inherently translate to a clinical cure or disease modification. The EPOCH trial evidence definitively proved the opposite: robust biomarker clearance failed to stop cognitive decline and instead drove paradoxical harms like accelerated hippocampal volume loss. Public perception has largely corrected to align with the evidence, viewing the drug as a failed clinical experiment and a cautionary tale.",
+  "misinformation_flags": [
+    "Old posts and press releases celebrating the drug's 'success' in clearing amyloid without the context of its subsequent clinical failure and discontinuation."
+  ],
+  "searches_run": [
+    "verubecestat site:reddit.com",
+    "verubecestat alzforum",
+    "verubecestat caregiver forum"
+  ]
+}

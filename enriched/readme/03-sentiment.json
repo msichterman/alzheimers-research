@@ -1,0 +1,85 @@
+{
+  "overall": "hopeful",
+  "summary": "Public sentiment surrounding Buntanetap and the P. gingivalis hypothesis is predominantly hopeful but starkly divided by community. Retail investors exhibit high enthusiasm fueled by recent trial advances, safety validations, and stock surges, often overlooking clinical nuances. Patient and caregiver communities display cautious optimism, actively seeking out clinical trial enrollment and personal anecdotes for Buntanetap as an alternative to existing therapies. Meanwhile, general science enthusiasts and media express strong interest in the P. gingivalis hypothesis, though popular discussions frequently overstate the link between gum disease and Alzheimer's as definitive causation. Overall, there is a strong public appetite for these non-amyloid approaches, even as hype occasionally outpaces rigorous clinical reality.",
+  "communities": [
+    {
+      "community": "Retail Investors ($ANVS)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Trial readouts and DSMB safety validations",
+        "Stock price surges and market potential",
+        "Multi-target mechanism as a competitive edge"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Annovis/comments/1bk4d1f/anvs_annovis_bio_inc_nyse_anvs_surges_24_as/",
+        "https://www.reddit.com/r/Annovis/comments/1ddcl9o/anvs_annovis_bios_buntanetap_found_safe_and/"
+      ]
+    },
+    {
+      "community": "Patients & Caregivers",
+      "sentiment": "hopeful",
+      "themes": [
+        "Clinical trial screening and participation",
+        "Search for anecdotes and personal experiences",
+        "High trial completion rates and safety profiles"
+      ],
+      "example_urls": [
+        "https://alzconnected.org/discussion/73436/clinical-trial-buntanetap",
+        "https://forums.apoe4.info/viewtopic.php?t=8856"
+      ]
+    },
+    {
+      "community": "General Science Enthusiasts",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Microbiome-brain connection",
+        "Gum disease as a primary cause of Alzheimer's",
+        "Alternative to the amyloid hypothesis"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/science/comments/aj6dgr/a_bacteria_that_commonly_causes_gum_infections/",
+        "https://www.reddit.com/r/HumanMicrobiome/comments/ajcw4x/a_common_gum_infection_bacteria_p_gingivalis_may/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Nature",
+      "tone": "neutral",
+      "date": "2026-04",
+      "url": "https://www.nature.com/articles/s44400-026-00073-z"
+    },
+    {
+      "outlet": "Longevity Technology",
+      "tone": "positive",
+      "date": "2026-05",
+      "url": "https://longevity.technology/news/buntanetap-gains-ground-in-new-alzheimers-trial-results/"
+    },
+    {
+      "outlet": "Alzheimer's News Today",
+      "tone": "positive",
+      "date": "2025-04",
+      "url": "https://alzheimersnewstoday.com/buntanetap-alzheimers-disease/"
+    },
+    {
+      "outlet": "Psychiatric Times",
+      "tone": "positive",
+      "date": null,
+      "url": "https://www.psychiatrictimes.com/view/buntanetap-for-neurodegenerative-diseases-positive-recommendation-from-data-and-safety-monitoring-board"
+    }
+  ],
+  "hype_vs_evidence": "Public perception runs significantly ahead of clinical evidence in two main areas. Retail investors often interpret Buntanetap's positive DSMB safety reviews and biomarker subgroup data as definitive proof of broad clinical efficacy, inflating expectations before pivotal Phase 3 cognitive readouts are fully validated. Similarly, popular science communities frequently treat the P. gingivalis hypothesis as a definitively proven cause of Alzheimer's disease. This ignores the fact that it remains one of several competing infectious hypotheses and that previous gingipain inhibitors have faced clinical setbacks.",
+  "misinformation_flags": [
+    "Treating P. gingivalis (gum disease) as the definitively proven root cause of Alzheimer's disease.",
+    "Over-generalizing Buntanetap's subgroup biomarker improvements as definitive proof of efficacy for all Alzheimer's patients."
+  ],
+  "searches_run": [
+    "buntanetap alzheimers site:reddit.com",
+    "ANVS buntanetap stock site:reddit.com",
+    "buntanetap alzheimers news",
+    "buntanetap caregiver forum",
+    "buntanetap alzforum",
+    "P. gingivalis alzheimers reddit",
+    "gingipains hypothesis alzheimers"
+  ]
+}

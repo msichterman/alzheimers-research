@@ -1,0 +1,319 @@
+{
+  "kind": "research-paper",
+  "title": "Single-cell atlas reveals correlates of high cognitive function, dementia, and resilience to Alzheimer’s disease pathology",
+  "authors": [
+    {
+      "name": "Mathys, Hansruedi",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Peng, Zhuyu",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Boix, Carles A.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Victor, Matheus B.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Leary, Noelle",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Babu, Sudhagar",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Abdelhady, Ghada",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Jiang, Xueqiao",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Ng, Ayesha P.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Ghafari, Kimia",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Kunisky, Alexander K.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Mantero, Julio",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Galani, Kyriaki",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Lohia, Vanshika N.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Fortier, Gabrielle E.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Lotfi, Yasmine",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Ivey, Jason",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Brown, Hannah P.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Patel, Pratham R.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Chakraborty, Nehal",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Beaudway, Jacob I.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Imhoff, Elizabeth J.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Keeler, Cameron F.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "McChesney, Maren M.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Patel, Haishal H.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Patel, Sahil P.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Thai, Megan T.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Bennett, David A.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Kellis, Manolis",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Tsai, Li-Huei",
+      "affiliation": null,
+      "orcid": null,
+      "email": "lhtsai@mit.edu",
+      "corresponding": true,
+      "conflicts": "Member of the Scientific Advisory Board of Cognito Therapeutics, 4M Therapeutics, Cell Signaling Technology, and Souvien Therapeutics"
+    }
+  ],
+  "first_author": "Mathys, Hansruedi",
+  "venue": "Cell",
+  "published": "2023",
+  "doi": "10.1016/j.cell.2023.08.039",
+  "doi_url": "https://doi.org/10.1016/j.cell.2023.08.039",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/37774677",
+  "copyright": null,
+  "license": {
+    "name": "all rights reserved",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law."
+  },
+  "tags": [
+    "paper",
+    "genetics",
+    "single-cell-rna-seq",
+    "cognitive-resilience",
+    "inhibitory-neurons"
+  ],
+  "themes": [
+    "Single-cell transcriptomics",
+    "Cognitive resilience",
+    "Alzheimer's pathology",
+    "Inhibitory neuron vulnerability",
+    "DNA damage response"
+  ],
+  "one_line": "A 2.3-million nuclei single-cell transcriptomic atlas of the aged human prefrontal cortex maps the molecular and cellular correlates of Alzheimer's disease pathology, cognitive decline, and resilience.",
+  "summary": "The authors generated a comprehensive single-nucleus RNA-sequencing atlas profiling over 2.3 million cells from the prefrontal cortex of 427 individuals in the ROSMAP cohort. This dataset maps the molecular alterations associated with varying degrees of Alzheimer's disease (AD) pathology and cognitive impairment. The study identifies widespread, pathology-associated transcriptional changes across cell types, noting a coordinated upregulation of the cohesin complex and DNA damage response factors in both excitatory neurons and oligodendrocytes. Compositional analyses reveal that somatostatin (SST) inhibitory neurons are selectively vulnerable and depleted in the presence of AD pathology. Conversely, specific subsets of inhibitory neurons—including a RELN-positive LAMP5 population—are overrepresented in individuals who maintain high cognitive function and exhibit resilience to AD pathology. The resulting atlas provides a critical resource for understanding the diverse cellular trajectories in the aging human brain.",
+  "key_claims": [
+    {
+      "claim": "The cohesin complex and DNA damage response factors are coordinately upregulated in Alzheimer's disease.",
+      "evidence": "Elevated module scores for the cohesin complex were observed across excitatory neuron subtypes and oligodendrocytes in individuals with high AD pathology, strongly correlating with the expression of chromatin regulators and DNA damage response genes (e.g., ATRX, NIPBL).",
+      "strength": "strong",
+      "location": "Coordinated increase of cohesin complex expression and DNA damage response in AD"
+    },
+    {
+      "claim": "Somatostatin (SST) inhibitory neurons are selectively vulnerable to AD pathology.",
+      "evidence": "A significant depletion of the SST subclass and three specific SST subtypes (Inh CUX2 MSR1, Inh ENOX2 SPHKAP, Inh L3-5 SST MAFB) was observed in individuals with high global AD pathology, neurofibrillary tangle burden, and tangle density, confirmed by quasi-binomial regression.",
+      "strength": "strong",
+      "location": "Neuronal and glial compositional changes with the accumulation of AD pathology"
+    },
+    {
+      "claim": "Specific inhibitory neuron subtypes are linked to preserved cognitive function and resilience to AD pathology.",
+      "evidence": "The LAMP5 RELN group and vulnerable SST subtypes of inhibitory neurons were significantly overrepresented in individuals maintaining high cognitive function late in life and demonstrating cognitive resilience to global AD pathology.",
+      "strength": "moderate",
+      "location": "Differences in cell type composition associated with cognitive impairment / Cell types associated with cognitive resilience to AD pathology"
+    }
+  ],
+  "methods": {
+    "design": "Cross-sectional post-mortem single-nucleus RNA-sequencing study",
+    "n": 427,
+    "population": "Older adults from the Religious Orders Study and Rush Memory and Aging Project (ROSMAP)",
+    "duration": null,
+    "registration": null
+  },
+  "funding_and_conflicts": "Funded by Cure Alzheimer’s Fund, JBP Foundation, Robert A. and Renee E. Belfer Family Foundation, Eduardo Eurnekian, Joseph P DiSabato, and NIH grants (AG058002, AG062377, NS110453, etc.). L-H Tsai is a member of the Scientific Advisory Board of Cognito Therapeutics, 4M Therapeutics, Cell Signaling Technology, and Souvien Therapeutics. The other authors declare no competing interests.",
+  "limitations": [
+    "Limited statistical power to detect changes in less prevalent cell types due to the number of cells acquired per participant",
+    "Potential impact of ambient RNA contamination on analysis, particularly affecting certain glial cell types despite using DecontX",
+    "Potential influence of unmeasured or unknown covariates on gene expression variation"
+  ],
+  "red_flags": [
+    "The cohort lacks ethnic and racial diversity (425 of 427 individuals identified as White), which significantly limits the generalizability of the transcriptomic findings"
+  ],
+  "parse_quality": {
+    "score": 9,
+    "issues": [
+      "Author affiliation block is missing from the parsed text",
+      "Graphical abstracts and standard figures are missing representations"
+    ]
+  },
+  "search_verification": []
+}

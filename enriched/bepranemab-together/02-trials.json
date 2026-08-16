@@ -1,0 +1,114 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT04867616",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04867616",
+      "name": "TOGETHER (AH0003)",
+      "drug": "Bepranemab (anti-tau monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "UCB Biopharma SRL",
+      "status": "Completed",
+      "enrollment": 466,
+      "population": "Prodromal to mild Alzheimer's disease (aged 50-80 years) with cerebral Aβ accumulation and global CDR score 0.5-1.0",
+      "primary_endpoint": "Change from Baseline to Week 80 in the Clinical Dementia Rating Scale Sum of Boxes (CDR-SB) total score",
+      "started": "2021-06",
+      "completed_or_readout": "2025-08",
+      "results_summary": "The trial failed to meet its primary clinical endpoint (CDR-SB) in the overall population. Bepranemab did slow tau accumulation (a secondary endpoint) by 33-58%. Post-hoc subgroup analyses suggested a slowing of clinical progression (29% on CDR-SB) exclusively in patients with low baseline tau or who were APOE4 non-carriers.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04185415",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04185415",
+      "name": "PSP003",
+      "drug": "Bepranemab (UCB0107)",
+      "phase": "1",
+      "sponsor": "UCB Biopharma SRL",
+      "status": "Completed",
+      "enrollment": 25,
+      "population": "Participants with Progressive Supranuclear Palsy (PSP) Richardson's Syndrome",
+      "primary_endpoint": "Incidence of treatment emergent adverse events (TEAEs) from Baseline to the last Visit (Week 68)",
+      "started": "2019-12",
+      "completed_or_readout": "2021-11",
+      "results_summary": "Evaluated the safety, tolerability, and biomarker effects of bepranemab in a progressive supranuclear palsy population; results have been peer-reviewed and published.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04658199",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04658199",
+      "name": "PSP002",
+      "drug": "Bepranemab (UCB0107)",
+      "phase": "1",
+      "sponsor": "UCB Biopharma SRL",
+      "status": "Active, not recruiting",
+      "enrollment": 19,
+      "population": "Rollover participants from the PSP003 trial with Progressive Supranuclear Palsy",
+      "primary_endpoint": "Incidence of treatment emergent adverse events from Baseline of the open-label extension to the end of the study",
+      "started": "2020-11",
+      "completed_or_readout": "2027-12",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03464227",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03464227",
+      "name": "UP0047",
+      "drug": "Bepranemab (UCB0107)",
+      "phase": "1",
+      "sponsor": "UCB Biopharma S.P.R.L.",
+      "status": "Completed",
+      "enrollment": 52,
+      "population": "Healthy Male Volunteers",
+      "primary_endpoint": "The incidence of Adverse Events (AEs) during the study",
+      "started": "2018-02",
+      "completed_or_readout": "2018-12",
+      "results_summary": "Showed acceptable safety and evaluated the pharmacokinetics of single ascending intravenous doses in healthy males.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03605082",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03605082",
+      "name": "UP0065",
+      "drug": "Bepranemab (UCB0107)",
+      "phase": "1",
+      "sponsor": "UCB Biopharma S.P.R.L.",
+      "status": "Completed",
+      "enrollment": 24,
+      "population": "Healthy Japanese Volunteers",
+      "primary_endpoint": "The incidence of treatment-emergent adverse events during the study from first dose of UCB0107 to safety follow-up",
+      "started": "2018-07",
+      "completed_or_readout": "2019-03",
+      "results_summary": "Demonstrated the safety, tolerability, and PK profiles of single doses of bepranemab in a healthy Japanese population.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2024-10-31",
+      "kind": "company",
+      "description": "UCB press release detailing the full results of the TOGETHER Phase 2a trial, disclosing the missed primary endpoint and sub-group findings.",
+      "url": "https://www.ucb.com/newsroom/press-releases/article/ucb-presents-encouraging-data-on-bepranemab-in-early-alzheimer-s-disease-in-phase-2a-study-at-ctad-2024"
+    },
+    {
+      "date": "2026-03-24",
+      "kind": "paper",
+      "description": "Publication in BMJ Neurol Open detailing the Phase 1 healthy volunteer studies (UP0047 and UP0065).",
+      "url": "https://doi.org/10.1136/bmjno-2025-001395"
+    },
+    {
+      "date": "2026-02-26",
+      "kind": "paper",
+      "description": "Publication in BMJ Neurol Open detailing the safety, tolerability, and biomarker results in the PSP003 phase 1b trial.",
+      "url": "https://doi.org/10.1136/bmjno-2025-001396"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence base for bepranemab is characterized by a major discrepancy between published biomarkers and established clinical efficacy. The analyzed document claims a clinical benefit based exclusively on a secondary endpoint (slowing of tau accumulation via PET imaging). However, UCB's announcements reveal that the TOGETHER Phase II trial (NCT04867616) failed to meet its actual primary endpoint (CDR-SB) in the full intent-to-treat population. While target engagement is clear across early-phase studies in both Alzheimer's disease and Progressive Supranuclear Palsy (PSP), the only signals of clinical disease modification come from post-hoc subgroup analyses (low-tau and APOE4 non-carriers). Until these subgroup hypotheses are confirmed in prospectively powered trials, the claim of broad clinical benefit for bepranemab in prodromal-mild Alzheimer's disease is unsupported by the primary outcome data.",
+  "discrepancies": [
+    "The document claims bepranemab 'demonstrated a clinical benefit', but omits that the TOGETHER Phase II trial (NCT04867616) failed to meet its primary clinical endpoint (CDR-SB) in the overall population.",
+    "The document focuses entirely on the tau PET biomarker findings (a secondary endpoint) to substantiate its conclusions, while failing to report the negative primary clinical findings of the same trial."
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "kind": "research-paper",
+  "title": "NLRP3 inflammasome activation drives tau pathology",
+  "authors": [
+    {
+      "name": "Christina Ising",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Carmen Venegas",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Shuangshuang Zhang",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Hannah Scheiblich",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Susanne V. Schmidt",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Ana Vieira-Saecker",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Stephanie Schwartz",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Shadi Albasset",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Róisín M. McManus",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Dario Tejera",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Angelika Griep",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Francesco Santarelli",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Frederic Brosseron",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Sabine Opitz",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "James Stunden",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Maximilian Merten",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Rakez Kayed",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Douglas T. Golenbock",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "David Blum",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Eicke Latz",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Luc Buée",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Michael T. Heneka",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "M.T.H. serves as advisory board member at IFM Therapeutics and Alector."
+    }
+  ],
+  "first_author": "Christina Ising",
+  "venue": "Nature",
+  "published": "2019-11",
+  "doi": "10.1038/s41586-019-1769-z",
+  "doi_url": "https://doi.org/10.1038/s41586-019-1769-z",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/31748742/",
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law."
+  },
+  "tags": [
+    "paper",
+    "amyloid",
+    "tau",
+    "inflammation",
+    "nlrp3-inflammasome",
+    "microglia"
+  ],
+  "themes": [
+    "NLRP3 inflammasome drives tau pathology",
+    "Tau activates microglial NLRP3",
+    "NLRP3 deletion reduces tau hyperphosphorylation",
+    "Microglia bridge amyloid and tau pathology"
+  ],
+  "one_line": "Microglial NLRP3 inflammasome activation is a critical step in Alzheimer's pathogenesis, as it is activated by tau and mediates amyloid-beta-induced tau pathology.",
+  "summary": "This study investigates the role of the NLRP3 inflammasome in tauopathies, including Alzheimer's disease and frontotemporal dementia. Researchers found elevated NLRP3 activation markers in human FTD brains and the Tau22 mouse model. By crossing Tau22 mice with ASC- or NLRP3-deficient mice, they demonstrated that a lack of inflammasome function reduced tau hyperphosphorylation, aggregation, and spatial memory deficits. The study also showed that tau monomers and oligomers can directly activate the NLRP3 inflammasome in microglia. Furthermore, intracerebral injection of amyloid-beta brain homogenates induced tau pathology only when NLRP3 was functional. These findings position microglial NLRP3 activation downstream of amyloid-beta and upstream of tau tangle formation, supporting its potential as a therapeutic target.",
+  "key_claims": [
+    {
+      "claim": "The NLRP3 inflammasome is activated in human tauopathy patients and Tau22 mice.",
+      "evidence": "Elevated cleavage of caspase-1, increased ASC levels, and mature IL-1β (p17) in FTD human cortex and 11-month-old Tau22 mice compared with WT, along with extracellular ASC specks in Tau22 mice.",
+      "strength": "strong",
+      "location": "NLRP3 inflammasome activity in FTD"
+    },
+    {
+      "claim": "Loss of NLRP3 function protects against tau pathology and spatial memory deficits.",
+      "evidence": "Lower levels of tau hyperphosphorylation (AT8), aggregated tau, and misfolded tau (MC1) in aged Tau22/Asc-/- and Tau22/Nlrp3-/- mice, coupled with rescued spatial memory deficits in the Morris water maze.",
+      "strength": "strong",
+      "location": "NLRP3 loss protects from tau pathology"
+    },
+    {
+      "claim": "NLRP3 regulates tau kinases and phosphatases, specifically CaMKII-α.",
+      "evidence": "Decreased levels of inactive phosphatase PP2A and reduced active CaMKII-α in knockout mice. In vitro conditioned medium from WT microglia (but not KO) increased p-tau and active CaMKII-α in primary neurons.",
+      "strength": "moderate",
+      "location": "NLRP3 regulates kinases and phosphatases"
+    },
+    {
+      "claim": "Tau monomers and oligomers directly activate the NLRP3 inflammasome.",
+      "evidence": "Tau monomers and oligomers significantly increased IL-1β secretion in primary microglia in an ASC- and NLRP3-dependent manner. Fibrils had only small, non-significant effects.",
+      "strength": "strong",
+      "location": "NLRP3 regulates kinases and phosphatases / Extended Data Figure 10"
+    },
+    {
+      "claim": "NLRP3 inflammasome mediates Aβ-induced tau pathology.",
+      "evidence": "Injection of APP/PS1 brain homogenate efficiently induced tau hyperphosphorylation in Tau22 mice, but failed to do so in Tau22/Asc-/- or Tau22/Nlrp3-/- mice.",
+      "strength": "strong",
+      "location": "NLRP3 mediates Aβ-induced tau pathology"
+    }
+  ],
+  "methods": {
+    "design": "in vivo animal study (transgenic mice) alongside in vitro primary cell cultures and human post-mortem brain tissue analysis",
+    "n": null,
+    "population": "C57BL/6 mice (Tau22, Asc-/-, Nlrp3-/-), primary murine cells, and post-mortem FTD patient cortex samples",
+    "duration": "Mice assessed at 3, 8, and 11 months of age; and 5 months post-stereotaxic injection",
+    "registration": null
+  },
+  "funding_and_conflicts": "Funded by Deutsche Forschungsgemeinschaft (DFG) (IS 299/3-1), NIH (R01 AG059752-02), and ImmunoSensation Bonn Cluster of Excellence. M.T.H. serves as advisory board member at IFM Therapeutics and Alector. All other authors declare no competing interests.",
+  "limitations": [
+    "Self-reported: A gene set enrichment analysis (GSEA) of genes highly expressed in 8-month-old Tau22 mice was not feasible due to low gene numbers.",
+    "Self-reported: Human tau levels were decreased in Tau22 inflammasome knockouts at 8 months but not 11 months, complicating the interpretation of age-dependent progression.",
+    "Unstated: The use of APP/PS1 whole brain homogenates for Aβ injections (instead of synthetic or highly purified fibrils) introduces other potentially confounding inflammatory brain factors."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "Extensive loss of figure/citation references, leaving empty parentheses such as '(, )' or '(– and –)' in the text.",
+      "Minor spacing artifacts like 'Aß 1–42- induced'."
+    ]
+  },
+  "search_verification": [
+    "Used CrossRef API to query DOI 10.1038/s41586-019-1769-z. Confirmed online publication date as November 20, 2019."
+  ]
+}

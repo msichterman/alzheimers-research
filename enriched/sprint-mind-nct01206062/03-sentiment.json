@@ -1,0 +1,80 @@
+{
+  "overall": "mixed",
+  "summary": "Public and professional sentiment regarding the SPRINT and SPRINT MIND trials is distinctly divided. General science enthusiasts and longevity advocates are highly hopeful, viewing intensive blood pressure control as a proven, accessible preventative measure for cognitive decline. In contrast, the medical community remains cautious and skeptical, heavily criticizing the early termination of the trial which truncated critical long-term dementia data, and highlighting the adverse events of intensive blood pressure control. Patient and caregiver communities are largely quiet on the topic, as the trial focuses on early risk prevention rather than active treatment for existing Alzheimer's disease.",
+  "communities": [
+    {
+      "community": "r/medicine (Medical Professionals)",
+      "sentiment": "mixed",
+      "themes": [
+        "Inadequate follow-up time due to the early trial termination",
+        "Risks of tight BP control (AKI, hypotension, syncope) in older adults",
+        "Failure to meet the primary all-cause dementia endpoint"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/medicine/comments/aktoek/sprint_mind_finds_no_significant_decrease_in/",
+        "https://www.reddit.com/r/medicine/comments/3uvfsr/best_review_of_the_sprint_trial_i_have_read/"
+      ]
+    },
+    {
+      "community": "r/science (General Science Enthusiasts)",
+      "sentiment": "hopeful",
+      "themes": [
+        "Hypertension as a highly modifiable risk factor",
+        "Reduction in mild cognitive impairment (MCI)",
+        "Accessibility of existing blood pressure medications"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/science/comments/o4s0ov/some_blood_pressurelowering_meds_linked_to_less/"
+      ]
+    },
+    {
+      "community": "r/longevity (Longevity and Aging Advocates)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Funding for follow-up studies (SPRINT MIND 2.0)",
+        "Cardiovascular health as a fundamental pillar of brain health and healthspan"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/longevity/comments/akyw95/the_alzheimers_association_has_awarded_more_than/"
+      ]
+    },
+    {
+      "community": "r/Alzheimers and r/dementia (Patient/Caregiver Forums)",
+      "sentiment": "quiet",
+      "themes": [
+        "Lack of relevance to late-stage or active disease care",
+        "Focus on daily disease management rather than decades-prior preventative lifestyle adjustments"
+      ],
+      "example_urls": []
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Evidence-Based Practice",
+      "tone": "critical",
+      "date": "2018-01",
+      "url": "https://doi.org/10.1097/ebp.0000000000000799"
+    },
+    {
+      "outlet": "Neurology Today",
+      "tone": "neutral",
+      "date": "2019-03",
+      "url": "https://doi.org/10.1097/01.nt.0000554409.60521.67"
+    },
+    {
+      "outlet": "Blood Pressure (Journal)",
+      "tone": "positive",
+      "date": "2018-09",
+      "url": "https://doi.org/10.1080/08037051.2018.1507621"
+    }
+  ],
+  "hype_vs_evidence": "Broader public perception and some media summaries frequently conflate mild cognitive impairment (MCI) with dementia, leading to the hyped narrative that the SPRINT MIND trial proved intensive blood pressure control prevents Alzheimer's disease. In reality, the evidence showed only a non-significant trend (p=0.10) for the reduction of all-cause dementia. Furthermore, the early termination of the blood pressure intervention limits the ability to draw definitive long-term conclusions about dementia, which typically develops over decades. The medical community actively pushes back against this hype by emphasizing the real-world risks of treating frail, older adults to <120 mm Hg.",
+  "misinformation_flags": [
+    "The circulating claim that intensive blood pressure control (<120 mm Hg) was definitively proven by the SPRINT trial to prevent or reduce the incidence of dementia. The trial only reached statistical significance for mild cognitive impairment (MCI)."
+  ],
+  "searches_run": [
+    "site:reddit.com SPRINT trial dementia",
+    "site:reddit.com SPRINT MIND trial dementia",
+    "SPRINT MIND blood pressure dementia (CrossRef API)"
+  ]
+}

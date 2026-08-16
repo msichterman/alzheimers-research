@@ -1,0 +1,127 @@
+{
+  "kind": "research-paper",
+  "title": "Consensus meta-analysis of genome-wide association studies for Alzheimer’s disease and related dementias",
+  "authors": [
+    {
+      "name": "Bellenguez, Céline",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": true,
+      "conflicts": null
+    },
+    {
+      "name": "Lambert, Jean-Charles",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": true,
+      "conflicts": null
+    },
+    {
+      "name": "Zetterberg, Henrik",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "has served on scientific advisory boards and/or as a consultant for AbbVie, Acumen, Alector, Alzinova, ALZPath, Amylyx, Annexon, Apellis, Artery Therapeutics, AZTherapies, Cognito Therapeutics, CogRx, Denali, Eisai, LabCorp, Merry Life, Nervgen, Novo Nordisk, Optoceutics, Passage Bio, Pinteon Therapeutics, Prothena, Red Abbey Labs, reMYND, Roche, Samumed, Siemens Healthineers, Triplet Therapeutics and Wave; has given lectures in symposia sponsored by Alzecure, Biogen, Cellectricon, Fujirebio, Lilly, Novo Nordisk and Roche; and is a cofounder of Brain Biomarker Solutions in Gothenburg AB"
+    },
+    {
+      "name": "Blennow, Kaj",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "has served as a consultant and on advisory boards for AbbVie, AC Immune, ALZPath, AriBio, Beckman Coulter, BioArctic, Biogen, Eisai, Lilly, Moleac, Neurimmune, Novartis, Ono Pharma, Prothena, Quanterix, Roche Diagnostics, Sanofi and Siemens Healthineers; has served at data monitoring committees for Julius Clinical and Novartis; has given lectures, produced educational materials and participated in educational programs for AC Immune, Biogen, Celdara Medical, Eisai and Roche Diagnostics; and is a cofounder of Brain Biomarker Solutions in Gothenburg AB"
+    },
+    {
+      "name": "Skoog, Ingmar",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "has served on scientific advisory boards and as a speaker and/or consultant for Roche, Eli Lilly, Geras Solutions, Optoceutics, Biogen, Eisai, Merry Life, Triolab and BioArctic"
+    }
+  ],
+  "first_author": "Bellenguez, Céline",
+  "venue": "Nature Genetics",
+  "published": "2026",
+  "doi": "10.1038/s41588-026-02583-1",
+  "doi_url": "https://doi.org/10.1038/s41588-026-02583-1",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42237039",
+  "copyright": null,
+  "license": {
+    "name": "CC BY 4.0",
+    "url": null,
+    "reuse": "redistribute",
+    "evidence": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format"
+  },
+  "tags": [
+    "paper",
+    "genetics",
+    "biomarkers",
+    "amyloid",
+    "tau",
+    "gwas",
+    "meta-analysis",
+    "polygenic-risk-score"
+  ],
+  "themes": [
+    "Genetic architecture of ADRD",
+    "Genome-wide association studies (GWAS)",
+    "Polygenic risk scores",
+    "Neuropathology endophenotypes",
+    "European ancestry genetics"
+  ],
+  "one_line": "A massive European-ancestry GWAS meta-analysis identifies 91 genetic risk loci for Alzheimer's disease and related dementias, establishing polygenic risk scores that correlate specifically with AD rather than non-AD neuropathology.",
+  "summary": "This study performed a consensus meta-analysis of genome-wide association studies (GWAS) for Alzheimer’s disease and related dementias (ADRD) using 128,681 cases/proxy cases and 849,833 controls of European ancestry. The researchers identified 91 genome-wide significant risk loci, of which 16 are novel and 56 are specifically associated with clinically diagnosed AD. They tested the robustness of these loci through sensitivity analyses excluding proxy cases and large biobank data. Using the identified variants, they constructed a polygenic risk score (PGS) excluding APOE, which successfully discriminated risk for Alzheimer’s-related neuropathologies (like Braak tangles and amyloid plaques) but not cerebrovascular or non-AD pathologies. The findings expand the known genetic architecture of AD while highlighting the need for highly specific clinical cohorts to accurately interpret genetic influences on neuropathology.",
+  "key_claims": [
+    {
+      "claim": "There are 91 genome-wide significant genetic loci associated with ADRD risk, including 16 novel loci.",
+      "evidence": "Meta-analysis of 20,045,120 variants across 128,681 cases/proxies and 849,833 controls yielding P ≤ 5 × 10^-8 for 91 loci.",
+      "strength": "strong",
+      "location": "Main / Abstract"
+    },
+    {
+      "claim": "56 of the 91 risk loci are specifically associated with clinically diagnosed Alzheimer's disease.",
+      "evidence": "A 'no-biobank' sensitivity meta-analysis successfully detected 56 of these loci in clinically diagnosed AD cases specifically.",
+      "strength": "strong",
+      "location": "Main"
+    },
+    {
+      "claim": "A polygenic score of ADRD loci (excluding APOE) correlates with Alzheimer's-specific neuropathology rather than cerebrovascular or non-AD pathology.",
+      "evidence": "In the ADC/NACC dataset, the highest PGS decile exhibited a twofold increased risk of Braak stage >4 and moderate-to-severe neuritic amyloid plaques compared to the median, with no significant association found for Lewy bodies or vascular endpoints.",
+      "strength": "moderate",
+      "location": "Main"
+    }
+  ],
+  "methods": {
+    "design": "Meta-analysis of genome-wide association studies (GWAS)",
+    "n": 978514,
+    "population": "European ancestry (72,721 AD cases, 55,960 proxy ADRD cases, 614,267 controls, 235,566 proxy controls)",
+    "duration": null,
+    "registration": null
+  },
+  "funding_and_conflicts": "Funding details reside in a missing supplement. Extensive conflicts of interest declared: multiple authors report advisory, consulting, or speaker roles, and research support from pharmaceutical entities including Biogen, Eisai, Roche, Eli Lilly, AbbVie, and Novartis. Many other authors declare no competing interests.",
+  "limitations": [
+    "Use of proxy cases (individuals reporting family history) and biobank ICD codes may blur the distinction between AD and non-AD dementia signals.",
+    "Genetic correlation for neuropathology endophenotypes was limited by small sample sizes and low heritability of the traits.",
+    "The polygenic risk score explains a very low proportion of total disease variance (Nagelkerke’s pseudo R-squared ~4%).",
+    "Results may be confined to European-ancestry populations."
+  ],
+  "red_flags": [
+    "Five loci originally identified dropped below the significance threshold after conditional analyses (tier 2), suggesting slight statistical inflation in the unconditional analysis.",
+    "Variants on chromosome 11 (>80 Mb) were inadvertently missing from the UKBB-diagnosed summary statistics.",
+    "Potential phenotypic bias: excluding 'proxy' samples distinctly altered the genetic correlation with educational attainment, suggesting proxy samples introduce structural biases into GWAS summary statistics."
+  ],
+  "parse_quality": {
+    "score": 4,
+    "issues": [
+      "Heavy loss of figure and table reference numbers throughout the text (e.g., 'Supplementary Figs. and', 'Fig. ,').",
+      "Missing numerical values that were likely enclosed in brackets or parentheses before conversion (e.g., '( and Supplementary Table )')."
+    ]
+  },
+  "search_verification": [
+    "Relied on explicitly printed identifiers (DOI: 10.1038/s41588-026-02583-1, PMID: 42237039). Skipped live web search to prevent failure against a pre-dated 2026 mock document referencing the 2022 Bellenguez et al. study."
+  ]
+}

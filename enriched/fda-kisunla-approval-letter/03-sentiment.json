@@ -1,0 +1,59 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment toward Kisunla is deeply mixed. Caregivers and patients express a strong desire for an Alzheimer's cure but are confronting the harsh realities of the drug's modest efficacy and severe side effects, like ARIA and allergic reactions. Meanwhile, retail investors show remarkably little interest in Kisunla, as Eli Lilly's market narrative is overwhelmingly dominated by its GLP-1 weight-loss pipeline. The scientific and medical communities remain highly cautious, heavily emphasizing the narrow risk-benefit profile given the brain bleeding and swelling side effects highlighted in the FDA's postmarketing requirements.",
+  "communities": [
+    {
+      "community": "Caregivers and Patients (e.g. r/Alzheimers)",
+      "sentiment": "mixed",
+      "themes": [
+        "Fears of ARIA and brain bleeds",
+        "High burden of side effects like allergic reactions and ER visits",
+        "Weighing modest cognitive slowing against quality of life"
+      ],
+      "example_urls": [
+        "https://old.reddit.com/r/Alzheimers/comments/1oeeoi9/kisunla_impact/",
+        "https://old.reddit.com/r/Alzheimers/comments/1vmbegp/kisunla_experience/"
+      ]
+    },
+    {
+      "community": "Retail Investors (e.g. r/stocks)",
+      "sentiment": "quiet",
+      "themes": [
+        "Total focus on GLP-1 weight loss drugs (Zepbound/Mounjaro)",
+        "Lack of enthusiasm or discussion regarding the Alzheimer's portfolio"
+      ],
+      "example_urls": [
+        "https://old.reddit.com/r/stocks/search/?q=donanemab+OR+kisunla+OR+lilly&restrict_sr=on&sort=new&t=all"
+      ]
+    },
+    {
+      "community": "Scientific and Medical Community (e.g. r/science)",
+      "sentiment": "skeptical",
+      "themes": [
+        "Recalibrating the risk-benefit profile of anti-amyloids",
+        "Emphasizing the exact clinical benefit (e.g. 4-month delay) vs ARIA risks"
+      ],
+      "example_urls": [
+        "https://old.reddit.com/r/science/comments/15258iy/new_findings_confirm_that_donanemab_can_delay_the/",
+        "https://old.reddit.com/r/science/comments/1ck9u0q/recalibrating_the_riskbenefit_profiles_of/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Technology Networks",
+      "tone": "critical",
+      "date": "2023-07",
+      "url": "https://www.technologynetworks.com/tn/news/exciting-new-alzheimers-drug-slows-disease-progression-but-side-effects-dampen-celebrations-376289"
+    }
+  ],
+  "hype_vs_evidence": "Public perception is polarized: some patients harbor outsized expectations—believing the drug can halt the disease for a decade—while others quickly experience disappointment when confronting severe side effects like ARIA and allergic reactions. The scientific evidence aligns closely with the FDA's strict postmarketing requirements, demonstrating only a modest delay in cognitive decline (about 4 months over an 18-month period) that must be carefully weighed against the substantial risk of intracerebral hemorrhage. Notably, investor perception accurately reflects the reality that Kisunla is not an immediate, massive revenue driver compared to the company's obesity drugs.",
+  "misinformation_flags": [
+    "Claims that Kisunla can provide '10 additional good years' or essentially halt Alzheimer's progression for a decade, rather than the clinically observed modest slowing."
+  ],
+  "searches_run": [
+    "https://old.reddit.com/r/Alzheimers/search?q=kisunla&restrict_sr=on&sort=relevance&t=all",
+    "https://old.reddit.com/r/stocks/search?q=donanemab+OR+kisunla+OR+lilly&restrict_sr=on&sort=new&t=all",
+    "https://old.reddit.com/r/science/search?q=donanemab&restrict_sr=on&sort=relevance&t=all"
+  ]
+}

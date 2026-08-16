@@ -1,0 +1,79 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT04592874",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04592874",
+      "name": "INVOKE-2",
+      "drug": "AL002 (TREM2 agonistic monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Alector Inc.",
+      "status": "Completed",
+      "enrollment": 356,
+      "population": "Adult participants aged 50-85 with early Alzheimer's disease and evidence of brain amyloidosis, excluding APOE e4/e4 homozygotes.",
+      "primary_endpoint": "Change from baseline in Clinical Dementia Rating - Sum of Boxes (CDR-SB) score at Weeks 24, 48, 72 and 96.",
+      "started": "2021-01",
+      "completed_or_readout": "2024-08",
+      "results_summary": "The study failed to meet its primary endpoint (CDR-SB) and showed no significant differences on any secondary cognitive or functional endpoints compared to placebo. Treatment was associated with notably increased incidences of ARIA-E and ARIA-H.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05744401",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05744401",
+      "name": null,
+      "drug": "AL002 (TREM2 agonistic monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Alector Inc.",
+      "status": "Terminated",
+      "enrollment": 197,
+      "population": "Participants with early Alzheimer's disease who completed the planned treatment period in the parent INVOKE-2 study (NCT04592874).",
+      "primary_endpoint": "Safety and Tolerability as Measured by Number of Treatment-expected Adverse Events (TEAE) and Treatment-related Adverse Events (AEs).",
+      "started": "2023-01",
+      "completed_or_readout": "2025-01",
+      "results_summary": "This open-label extension was terminated early due to the negative efficacy and safety results from the parent INVOKE-2 trial.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03635047",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03635047",
+      "name": null,
+      "drug": "AL002 (TREM2 agonistic monoclonal antibody)",
+      "phase": "1",
+      "sponsor": "Alector Inc.",
+      "status": "Completed",
+      "enrollment": 69,
+      "population": "Healthy volunteers and participants with probable Alzheimer's disease dementia.",
+      "primary_endpoint": "Evaluation of safety and tolerability of AL002 measured by number of subjects with adverse events and Dose Limiting Adverse Event (DLAEs)",
+      "started": "2018-11",
+      "completed_or_readout": "2020-08",
+      "results_summary": "First-in-human trial demonstrated that AL002 was generally safe and tolerable, showing target engagement in the central nervous system by reducing soluble TREM2.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2026-05",
+      "kind": "paper",
+      "description": "Peer-reviewed publication of the Phase 2 randomized trial of AL002 in Nature Medicine, confirming negative primary and secondary endpoints alongside increased ARIA rates.",
+      "url": "https://doi.org/10.1038/s41591-026-04273-1"
+    },
+    {
+      "date": "2025-10",
+      "kind": "registry-results",
+      "description": "ClinicalTrials.gov posted results for the AL002 INVOKE-2 Phase 2 study.",
+      "url": "https://clinicaltrials.gov/study/NCT04592874"
+    },
+    {
+      "date": "2024-10-23",
+      "kind": "paper",
+      "description": "Preclinical and first-in-human Phase 1 evaluation of AL002 published in Alzheimer's Research & Therapy.",
+      "url": "https://doi.org/10.1186/s13195-024-01599-1"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence strongly corroborates the document's claims that AL002 is neither effective at slowing cognitive decline nor safe regarding amyloid-related imaging abnormalities (ARIA) in early Alzheimer's disease. The Phase 2 INVOKE-2 trial (NCT04592874) decisively failed its primary endpoint (CDR-SB) and all secondary cognitive/functional endpoints, while demonstrating a dose-dependent increase in ARIA-E and ARIA-H. These negative findings were confirmed by the subsequent early termination of the AL002 long-term extension study (NCT05744401) and the formal peer-reviewed publication of the trial results in Nature Medicine in 2026. Consequently, clinical development of AL002 for Alzheimer's disease has been effectively halted.",
+  "discrepancies": [
+    "The analyzed document reports an enrollment of 356 participants based on the ClinicalTrials.gov registry extract, whereas the subsequent peer-reviewed publication in Nature Medicine (May 2026) reports that 381 participants were randomized."
+  ]
+}

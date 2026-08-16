@@ -1,0 +1,73 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT04592874",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04592874",
+      "name": "INVOKE-2",
+      "drug": "AL002 (TREM2 agonistic antibody)",
+      "phase": "2",
+      "sponsor": "Alector Inc.",
+      "status": "Completed",
+      "enrollment": 356,
+      "population": "Participants with Early Alzheimer's Disease",
+      "primary_endpoint": "Disease Progression as Measured by the Clinical Dementia Rating - Sum of Boxes (CDR-SB) Score",
+      "started": "2021-01",
+      "completed_or_readout": "2024-09",
+      "results_summary": "The study did not meet its primary endpoint; there was no significant difference from baseline in CDR-SB scores compared to placebo at week 96. The drug demonstrated sustained target engagement but also showed an increased frequency of ARIA (amyloid-related imaging abnormalities).",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03635047",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03635047",
+      "name": "INVOKE-1",
+      "drug": "AL002 (TREM2 agonistic antibody)",
+      "phase": "1",
+      "sponsor": "Alector Inc.",
+      "status": "Completed",
+      "enrollment": 69,
+      "population": "Healthy volunteers",
+      "primary_endpoint": "Evaluation of safety and tolerability of AL002 measured by number of subjects with adverse events and Dose Limiting Adverse Event (DLAEs)",
+      "started": "2018-11",
+      "completed_or_readout": "2020-11",
+      "results_summary": "AL002 was well tolerated with no treatment-related serious adverse events. It demonstrated brain target engagement based on dose-dependent reduction of sTREM2 in CSF and parallel increases in biomarkers of TREM2 signaling.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05450549",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05450549",
+      "name": null,
+      "drug": "DNL919 (TREM2 agonist)",
+      "phase": "1",
+      "sponsor": "Denali Therapeutics Inc.",
+      "status": "Completed",
+      "enrollment": 47,
+      "population": "Healthy Participants",
+      "primary_endpoint": "Safety: Incidence, severity, and seriousness of treatment-emergent adverse events (TEAEs)",
+      "started": "2022-07",
+      "completed_or_readout": "2023-06",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2026-05",
+      "kind": "paper",
+      "description": "Phase 2 readout for AL002 (INVOKE-2) in early Alzheimer's disease showing negative results.",
+      "url": "https://doi.org/10.1038/s41591-026-04273-1"
+    },
+    {
+      "date": "2024-10-23",
+      "kind": "paper",
+      "description": "Preclinical and Phase 1 trial evaluation of AL002 showing successful target engagement and safety.",
+      "url": "https://doi.org/10.1186/s13195-024-01599-1"
+    }
+  ],
+  "evidence_assessment": "The 2013 document robustly establishes TREM2 loss-of-function mutations as significant genetic risk factors for Alzheimer's disease, laying the groundwork for developing TREM2 agonists to correct microglial dysfunction. While this genetic validation was widely accepted, the clinical translation has encountered a major setback. The lead clinical-stage TREM2 agonistic antibody, Alector's AL002, effectively engaged CNS targets and demonstrated safety in Phase 1 trials but completely failed to slow clinical disease progression in a Phase 2 trial of early AD patients. This casts considerable doubt on whether pharmacological agonism of TREM2 after symptom onset can successfully modify Alzheimer's disease progression, despite the strong genetic link to lifetime disease risk.",
+  "discrepancies": [
+    "The document points to TREM2 loss-of-function variants as a causal risk factor, implying that therapeutically enhancing TREM2 activity would mitigate Alzheimer's pathology; however, clinical trial records show that the most advanced TREM2 agonist (AL002) successfully engaged its target but completely failed to improve cognitive or functional decline (CDR-SB) in early AD patients."
+  ]
+}

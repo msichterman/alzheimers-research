@@ -1,0 +1,270 @@
+{
+  "kind": "research-paper",
+  "title": "Variant of TREM2 Associated with the Risk of Alzheimer’s Disease",
+  "authors": [
+    {
+      "name": "Jonsson, Thorlakur",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Stefansson, Hreinn",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Steinberg, Stacy",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Jonsdottir, Ingileif",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Jonsson, Palmi V.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Snaedal, Jon",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Bjornsson, Sigurbjorn",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Huttenlocher, Johanna",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Levey, Allan I.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Lah, James J.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Rujescu, Dan",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Hampel, Harald",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Giegling, Ina",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Andreassen, Ole A.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Engedal, Knut",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Ulstein, Ingun",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Djurovic, Srdjan",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Ibrahim-Verbaas, Carla",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Hofman, Albert",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Ikram, M. Arfan",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "van Duijn, Cornelia M.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Thorsteinsdottir, Unnur",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Kong, Augustine",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Stefansson, Kari",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Jonsson, Thorlakur",
+  "venue": "The New England journal of medicine",
+  "published": "2013",
+  "doi": "10.1056/NEJMoa1211103",
+  "doi_url": "https://doi.org/10.1056/NEJMoa1211103",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/23150908",
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law."
+  },
+  "tags": [
+    "paper",
+    "genetics",
+    "inflammation",
+    "trem2",
+    "missense-mutation",
+    "iceland"
+  ],
+  "themes": [
+    "TREM2 variant R47H",
+    "Alzheimer's disease genetic risk",
+    "Microglial inflammation",
+    "Rare genetic variants"
+  ],
+  "one_line": "A rare missense mutation (R47H) in the TREM2 gene confers a risk of late-onset Alzheimer's disease comparable to the ApoE ε4 allele.",
+  "summary": "This study identified rare sequence variants affecting late-onset Alzheimer's disease risk by sequencing 2,261 Icelanders and imputing these variants into larger case-control cohorts. The researchers discovered that the rs75932628-T mutation in the TREM2 gene, causing an R47H amino acid substitution, significantly increased the risk of Alzheimer's disease in Iceland. This finding was robustly replicated across additional cohorts from the US, Norway, the Netherlands, and Germany, yielding a combined odds ratio of 2.90. The TREM2 variant confers a risk comparable to the well-known ApoE ε4 allele, despite being much rarer in the general population. Furthermore, elderly carriers of the variant without an Alzheimer's diagnosis exhibited poorer cognitive function compared to non-carriers. Given TREM2's established role in microglial activation and phagocytosis, the authors propose that the R47H mutation may predispose individuals to the disease by impairing the clearance of amyloid plaques and the containment of inflammatory processes.",
+  "key_claims": [
+    {
+      "claim": "The TREM2 R47H mutation (rs75932628-T) significantly increases the risk of developing late-onset Alzheimer's disease.",
+      "evidence": "A combined odds ratio of 2.90 (95% CI, 2.16 to 3.91; P = 2.1×10−12) in the discovery cohort and multiple international replication cohorts.",
+      "strength": "strong",
+      "location": "RESULTS / REPLICATION SERIES"
+    },
+    {
+      "claim": "The risk conferred by the TREM2 R47H variant is comparable in effect size to the ApoE ε4 allele.",
+      "evidence": "When compared with controls 85 years of age or older, the odds ratio for Alzheimer’s disease was 2.92 for rs75932628-T and 3.08 for the ApoE ε4 allele.",
+      "strength": "strong",
+      "location": "RESULTS / ASSOCIATION WITH APOE ε4"
+    },
+    {
+      "claim": "Cognitively intact elderly carriers of the TREM2 R47H mutation have poorer cognitive function than non-carriers.",
+      "evidence": "Carriers between 80 and 100 years of age showed worse cognition, with a mean increase of 0.87 units on the Cognitive Performance Scale (P = 0.003).",
+      "strength": "moderate",
+      "location": "RESULTS / ASSOCIATION ACCORDING TO AGE"
+    }
+  ],
+  "methods": {
+    "design": "Case-control genetic association study utilizing whole-genome sequencing, imputation, and replication cohorts",
+    "n": 3550,
+    "population": "Icelandic, Norwegian, American (US), German, and Dutch populations of European ancestry",
+    "duration": null,
+    "registration": null
+  },
+  "funding_and_conflicts": "Funded by the National Institute on Aging, Research Council of Norway, 3M, NIH, eMERGE, Erasmus Medical Center, and others. No individual author conflicts of interest are stated in the text.",
+  "limitations": [
+    "The effect of the variant on the age of Alzheimer's disease onset was not statistically significant in the Icelandic cohort alone due to low variant frequency and a resulting high standard error.",
+    "Interaction between the TREM2 variant and the ApoE ε4 allele did not significantly replicate across additional data sets.",
+    "The authors found no clinical features (e.g., radiographic features, sex distribution, rate of disease progression) to distinguish R47H mutation carriers from non-carriers with Alzheimer's disease."
+  ],
+  "red_flags": [
+    "The use of multiple, differently defined control groups (population controls vs. cognitively intact elderly controls >= 85 years) yielded widely varying odds ratios (2.26 vs. 4.66), though the authors provided biological justification for isolating elderly controls."
+  ],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "Empty parentheses left behind where figure or table citations were likely stripped during markdown conversion (e.g., 'P= 3.42×10 −10 ) ()')"
+    ]
+  },
+  "search_verification": []
+}

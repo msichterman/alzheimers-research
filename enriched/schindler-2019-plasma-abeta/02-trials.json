@@ -1,0 +1,73 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT03899844",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03899844",
+      "name": "SEABIRD",
+      "drug": "PrecivityAD (plasma Aβ42/40 assay)",
+      "phase": "n/a",
+      "sponsor": "Washington University School of Medicine",
+      "status": "Completed",
+      "enrollment": 1122,
+      "population": "Cognitively normal and impaired older adults (≥60 years) recruited from the community",
+      "primary_endpoint": "Plasma amyloid-beta 42/40 ratio; Area under the curve (AUC) of the blood test in predicting amyloid PET status",
+      "started": "2019-04",
+      "completed_or_readout": "2024-01",
+      "results_summary": "Confirmed that a decreased blood plasma Aβ42/40 ratio is an accurate biomarker of amyloid plaques in a diverse community-based older adult population, validating earlier findings.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05477056",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05477056",
+      "name": "QUIP I",
+      "drug": "PrecivityAD (plasma Aβ42/Aβ40 assay)",
+      "phase": "n/a",
+      "sponsor": "C2N Diagnostics",
+      "status": "Completed",
+      "enrollment": 366,
+      "population": "Memory specialists and their patients (>60 years) presenting with mild cognitive impairment",
+      "primary_endpoint": "Evaluate patient selection for the blood test and score interpretation for the Amyloid Probability Score (APS) through analysis of clinician survey responses",
+      "started": "2021-03",
+      "completed_or_readout": "2022-10",
+      "results_summary": "Demonstrated that the PrecivityAD blood biomarker test significantly impacts the clinical evaluation of cognitive impairment, altering patient management and diagnostic decision-making.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT06025877",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06025877",
+      "name": "QUIP II",
+      "drug": "PrecivityAD2 (plasma Aβ42/40 and p-tau217 ratio)",
+      "phase": "n/a",
+      "sponsor": "C2N Diagnostics",
+      "status": "Active",
+      "enrollment": 400,
+      "population": "Memory care specialists and their patients (≥55 years) with MCI or dementia",
+      "primary_endpoint": "Change in planned clinical management based on medical decision making",
+      "started": "2023-11",
+      "completed_or_readout": "2025-04",
+      "results_summary": "Recent 2025 readout confirmed high clinical utility of the updated PrecivityAD2 test in changing clinical management among cognitively impaired patients.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2023-08-07",
+      "kind": "paper",
+      "description": "QUIP I study results published, showing the PrecivityAD blood test impacts clinical evaluation of cognitive impairment.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37550958/"
+    },
+    {
+      "date": "2025-01-13",
+      "kind": "paper",
+      "description": "QUIP II study results published, confirming clinical utility of the upgraded PrecivityAD2 Alzheimer's blood test.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39857051/"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence for the document's central claims regarding the predictive power of plasma Aβ42/40 for brain amyloidosis is exceptionally strong. The high-precision mass-spectrometry assay pioneered in the document was subsequently commercialized as the PrecivityAD test. Prospective validation in larger, community-based populations, such as the SEABIRD trial (NCT03899844), confirmed that the plasma Aβ42/40 ratio provides robust diagnostic accuracy compared to the gold standards of amyloid PET and CSF testing. Real-world utility studies (QUIP I and QUIP II) demonstrate that these test results significantly alter physician diagnostic confidence and patient management. Rather than being discontinued, the test mechanism has advanced to include p-tau217 alongside Aβ42/40 (PrecivityAD2), further improving effect sizes (AUCs > 0.90) and cementing its role as a widely used, accessible screening tool.",
+  "discrepancies": [
+    "The analyzed document reports an observational cohort study without a dedicated ClinicalTrials.gov registration; it is not an interventional trial itself, hence it does not list an NCT ID in its metadata. However, there are no discrepancies between the diagnostic accuracy claimed in the document and the later real-world validation findings."
+  ]
+}

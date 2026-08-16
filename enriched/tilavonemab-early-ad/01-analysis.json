@@ -1,0 +1,185 @@
+{
+  "kind": "research-paper",
+  "title": "Tilavonemab in early Alzheimer’s disease: results from a phase 2, randomized, double-blind study",
+  "authors": [
+    {
+      "name": "Hana Florian",
+      "affiliation": "AbbVie Inc.",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "employee of AbbVie Inc., and may hold AbbVie stock and/or stock options"
+    },
+    {
+      "name": "Deli Wang",
+      "affiliation": "AbbVie Inc.",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "employee of AbbVie Inc., and may hold AbbVie stock and/or stock options"
+    },
+    {
+      "name": "Steven E Arnold",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "received fees for serving on advisory boards for Allyx Therapeutics, Inc., Bob’s Last Marathon, Cassava, Cortexyme, Inc., Sage Therapeutics, Inc., vTv Therapeutics, Inc., and for consulting to AbbVie Inc., Boyle Shaughnessy Law, Cognito Therapeutics, Inc., Eisai, EIP Pharma, Inc., M3 Biotech, Inc., Orthogonal Neuroscience, Inc., and Risen Pharmaceutical Technology Co, Ltd. Sponsored research grant support from AbbVie Inc., Amylyx, Inc., Athira Pharma, Inc., Chromadex, Inc., EIP Pharma, Inc., Janssen Pharmaceuticals, Inc., Novartis AG, Seer Biosciences, Inc. and vTv Therapeutics, Inc. Sponsored research grant support from Alzheimer's Association, Alzheimer's Drug Discovery Foundation, Challenger Foundation, John Sperling Foundation, and the National Institutes of Health"
+    },
+    {
+      "name": "Mercè Boada",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "received consulting fees from Grifols, Araclon Biotech, Roche, Biogen, Lilly, Merck, and Zambon. Served on advisory boards for Grifols, Roche, Lilly, Araclon Biotech, Merck, Zambon, Biogen, Novo-Nordisk, Eisai, and Schwabe Pharma, and given lectures for Roche, Biogen, Grifols, Nutricia, Araclon Biotech, and Novo-Nordisk. Received funding from Life Molecular Imaging, Bioiberica, Grifols, Araclon Biotech, Roche, and Janssen, and grants from CIBERNED, EU/EFPIA, and other programs"
+    },
+    {
+      "name": "Qi Guo",
+      "affiliation": "AbbVie Inc.",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "employee of AbbVie Inc., and may hold AbbVie stock and/or stock options"
+    },
+    {
+      "name": "Ziyi Jin",
+      "affiliation": "AbbVie Inc.",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "employee of AbbVie Inc., and may hold AbbVie stock and/or stock options"
+    },
+    {
+      "name": "Hui Zheng",
+      "affiliation": "AbbVie Inc.",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "employee of AbbVie Inc., and may hold AbbVie stock and/or stock options"
+    },
+    {
+      "name": "Nahome Fisseha",
+      "affiliation": "AbbVie Inc.",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "employee of AbbVie Inc., and may hold AbbVie stock and/or stock options"
+    },
+    {
+      "name": "Hari Varun Kalluri",
+      "affiliation": "AbbVie Inc.",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "employee of AbbVie Inc., and may hold AbbVie stock and/or stock options"
+    },
+    {
+      "name": "Beatrice Rendenbach-Mueller",
+      "affiliation": "AbbVie Deutschland GmbH",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "employee of AbbVie Deutschland GmbH"
+    },
+    {
+      "name": "Kumar Budur",
+      "affiliation": "Harmony Biosciences",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "former employee of AbbVie Inc., currently employed by Harmony Biosciences"
+    },
+    {
+      "name": "Michael Gold",
+      "affiliation": "AbbVie Inc.",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "employee of AbbVie Inc., and may hold AbbVie stock and/or stock options"
+    }
+  ],
+  "first_author": "Hana Florian",
+  "venue": "Brain",
+  "published": "2023-02",
+  "doi": "10.1093/brain/awad024",
+  "doi_url": "https://doi.org/10.1093/brain/awad024",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/36730056",
+  "copyright": null,
+  "license": {
+    "name": "CC BY-NC 4.0",
+    "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "reuse": "redistribute",
+    "evidence": "This is an Open Access article distributed under the terms of the Creative Commons Attribution-NonCommercial License ( https://creativecommons.org/licenses/by-nc/4.0/ ), which permits non-commercial re-use, distribution, and reproduction in any medium, provided the original work is properly cited."
+  },
+  "tags": [
+    "paper",
+    "trial",
+    "tau",
+    "immunotherapy",
+    "biomarkers",
+    "tilavonemab",
+    "monoclonal-antibody"
+  ],
+  "themes": [
+    "Anti-tau immunotherapy",
+    "Phase 2 clinical trial",
+    "Early Alzheimer's disease",
+    "Biomarker target engagement",
+    "Therapeutic efficacy failure"
+  ],
+  "one_line": "The anti-tau monoclonal antibody tilavonemab engaged its target but failed to slow clinical or cognitive decline in a phase 2 trial of patients with early Alzheimer's disease.",
+  "summary": "This phase 2, randomized, double-blind, placebo-controlled trial evaluated the safety and efficacy of tilavonemab, an IgG4 monoclonal antibody targeting the N-terminus of tau, in 453 patients with early Alzheimer's disease. Participants were randomized to receive placebo or one of three doses of tilavonemab (300 mg, 1000 mg, or 2000 mg) intravenously every 4 weeks for 96 weeks. Although target engagement was demonstrated by significant dose-dependent reductions in CSF free tau levels, the primary efficacy endpoint (change in CDR-SB score) showed no significant difference between any tilavonemab dose and placebo. Secondary clinical, functional, and global endpoints also failed to show a therapeutic benefit, and volumetric MRI and tau PET burden were largely unchanged. Tilavonemab was generally well tolerated, with safety and adverse event profiles comparable to placebo. The authors conclude that despite successfully binding its target, tilavonemab does not warrant further clinical development for early Alzheimer's disease.",
+  "key_claims": [
+    {
+      "claim": "Tilavonemab does not demonstrate efficacy in slowing clinical disease progression in early Alzheimer's disease.",
+      "evidence": "The least squares mean change from baseline at Week 96 in the CDR-SB score with tilavonemab was not significantly different compared with placebo across all doses (300 mg: -0.07; 1000 mg: -0.06; 2000 mg: 0.16; all P ≥ 0.05).",
+      "strength": "strong",
+      "location": "Abstract / Results (Figure 2)"
+    },
+    {
+      "claim": "Tilavonemab successfully engages extracellular tau in the central nervous system.",
+      "evidence": "CSF free tau levels were significantly lower at Week 12 in the tilavonemab 1000 mg (P = 0.028) and 2000 mg (P = 0.002) treatment groups compared to placebo.",
+      "strength": "strong",
+      "location": "Results (Figure 4)"
+    },
+    {
+      "claim": "Tilavonemab is generally well tolerated with a safety profile comparable to placebo.",
+      "evidence": "The incidence of any adverse event was 93.1% for placebo, 87.0% for 300 mg, 93.1% for 1000 mg, and 92.0% for 2000 mg. Microhaemorrhages and cerebral oedema findings were also comparable.",
+      "strength": "strong",
+      "location": "Results (Table 2)"
+    },
+    {
+      "claim": "Tilavonemab treatment leads to increased plasma total tau levels.",
+      "evidence": "Plasma total tau levels were significantly increased in all treated patients compared with placebo (P < 0.001 for all comparisons), likely due to the extended plasma half-life of detectable tau bound to antibodies.",
+      "strength": "strong",
+      "location": "Results (Figure 3)"
+    }
+  ],
+  "methods": {
+    "design": "phase 2, multiple-dose, randomized, double-blind, placebo-controlled study",
+    "n": 453,
+    "population": "patients aged 55–85 years meeting clinical criteria for mild cognitive impairment or probable Alzheimer’s disease with a CDR global score of 0.5, MMSE of 22-30, and a positive amyloid PET scan",
+    "duration": "96 weeks",
+    "registration": "NCT02880956"
+  },
+  "funding_and_conflicts": "AbbVie Inc. funded the research, participated in study design, data collection/analysis, and manuscript preparation. Eight of the twelve authors are employees of AbbVie and may hold stock. Other authors declared advisory board fees, consulting fees, and grant support from various commercial and non-commercial entities, including AbbVie.",
+  "limitations": [
+    "Tau PET imaging was only available for a small subset of patients as it was initiated mid-trial, limiting the ability to assess the drug's effect on tau accumulation.",
+    "The study population lacked racial and ethnic diversity (96.5% White).",
+    "It is possible that even patients clinically diagnosed with 'early' Alzheimer's disease are already too advanced pathologically to benefit from an anti-tau antibody treatment."
+  ],
+  "red_flags": [
+    "The authors highlight a significant preservation of hippocampal volume at specific weeks for specific doses (Week 28 for 1000 mg and Week 44 for 2000 mg), but acknowledge these were the only significant time points and lacked multiplicity adjustment, presenting a risk of spurious findings."
+  ],
+  "parse_quality": {
+    "score": 9,
+    "issues": [
+      "Minor typography artifacts in Table 1 (e.g., '0.4 ± 00.1', '0.4 ± 0.1 l')",
+      "No explicit institutional affiliation lines printed directly under the author byline (affiliations had to be inferred from the Competing Interests section)."
+    ]
+  },
+  "search_verification": [
+    "Used Crossref API (https://api.crossref.org/works/10.1093/brain/awad024) to retrieve the exact publication date (2023-02-02) since the manuscript text only provided the DOI, PMID, and PMCID."
+  ]
+}

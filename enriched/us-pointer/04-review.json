@@ -1,0 +1,90 @@
+{
+  "fact_check": [
+    {
+      "fact": "Trial enrollment of 2,111 participants.",
+      "status": "verified",
+      "note": "Verified against the JAMA paper abstract, though the ClinicalTrials.gov registry (NCT03688126) lists 2,000."
+    },
+    {
+      "fact": "Trial blinding (Single-blind vs Triple-blind).",
+      "status": "verified",
+      "note": "The JAMA abstract explicitly states 'Single-blind', which conflicts with the registry's 'Triple' masking. The published paper is treated as the source of truth here."
+    },
+    {
+      "fact": "Structured group increased 0.243 SD/year; self-guided increased 0.213 SD/year; difference of 0.029 SD/year (P = .008).",
+      "status": "verified",
+      "note": "Verified directly against the JAMA paper Results section."
+    }
+  ],
+  "research_page": {
+    "slug": "us-pointer-lifestyle-jama-2025",
+    "title": "US-POINTER: Structured vs self-guided lifestyle interventions",
+    "description": "A 2-year trial of diet and exercise interventions in at-risk older adults found a statistically significant but clinically marginal cognitive benefit.",
+    "tags": [
+      "paper",
+      "trial",
+      "prevention",
+      "us-pointer",
+      "lifestyle-intervention"
+    ],
+    "source_line_md": "**Source**: [JAMA, 2025](https://doi.org/10.1001/jama.2025.12923) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/40720610)",
+    "authors_line_md": "Baker et al.",
+    "takeaway_md": "The US-POINTER trial found that a structured multidomain lifestyle intervention (including the MIND diet and regular exercise) yielded a statistically significant cognitive benefit over a self-guided version. However, the absolute difference was extremely small (0.029 SD/year), and cognitive scores inexplicably increased from baseline in both groups. This strongly suggests the cognitive tests were measuring practice effects rather than genuine neurobiological enhancement.",
+    "key_findings_md": [
+      "Mean global cognitive scores increased over the 2-year study in both the structured (+0.243 SD/year) and self-guided (+0.213 SD/year) groups (paper, Results).",
+      "The structured intervention showed a statistically significant but clinically negligible greater improvement of 0.029 SD/year compared to the self-guided approach (paper, Results).",
+      "The observed benefit was consistent regardless of APOE ε4 carrier status but appeared slightly larger for those starting with lower baseline cognition (paper, Results)."
+    ],
+    "methods_md": "A single-blind, multicenter randomized clinical trial enrolling 2,111 older adults (ages 60-79) at risk of cognitive decline due to sedentary lifestyles and suboptimal diets. Participants were randomly assigned to either a structured (n=1056) or self-guided (n=1055) 2-year lifestyle intervention (paper, Design). Registered as [NCT03688126](https://clinicaltrials.gov/study/NCT03688126).",
+    "trial_evidence_md": "US-POINTER ([NCT03688126](/trials/us-pointer-nct03688126)) represents a major effort to validate the effects of diet, exercise, and cognitive challenges on dementia risk. However, the results are heavily confounded by the lack of a true no-intervention control arm and pervasive practice effects, making it difficult to demonstrate genuine disease modification. These findings follow similar trials like FINGER (which showed modest protection) and MAPT (which showed no significant benefit).",
+    "sentiment_md": "Public perception often overestimates the ability of diet and exercise to halt or reverse Alzheimer's disease, fueled by overly optimistic media narratives. Patient and caregiver communities remain highly invested in lifestyle modifications as empowering tools, but scientific circles emphasize the clinical insignificance of the trial's marginal cognitive difference and point to practice effects as the likely cause of the score improvements.",
+    "caveats_md": [
+      "Because cognitive test scores improved over two years in both study arms, participants likely just got better at taking the tests over time (practice effects).",
+      "The 0.029 standard deviation annual difference between the two groups is mathematically significant but practically invisible in a real-world clinical setting.",
+      "The trial currently lacks functional outcomes or biomarker data to prove the intervention altered underlying disease pathology."
+    ],
+    "relates_to_md": [
+      "[US-POINTER (NCT03688126)](/trials/us-pointer-nct03688126) — The trial reported in this paper.",
+      "[Biomarkers](/research/biomarkers) — Biomarker validation is currently missing from this trial's reported outcomes."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "us-pointer-nct03688126",
+      "title": "US-POINTER",
+      "description": "A 2-year trial of structured versus self-guided multidomain lifestyle interventions in older adults at risk of cognitive decline.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "prevention",
+        "us-pointer",
+        "lifestyle-intervention"
+      ],
+      "registry_md": "[NCT03688126](https://clinicaltrials.gov/study/NCT03688126)",
+      "drug": "Structured Multidomain Lifestyle Intervention",
+      "phase": "Not Applicable",
+      "sponsor": "Wake Forest University Health Sciences",
+      "population": "Older adults (60-79 years) at risk of cognitive decline with sedentary lifestyle and suboptimal diet",
+      "primary_endpoint": "Global cognitive function composite score slope over 2 years",
+      "started": "2019-01",
+      "readout": "2025-05",
+      "why_md": "US-POINTER evaluates whether a structured, high-intensity lifestyle intervention (including diet, exercise, and social stimulation) can protect against cognitive decline better than a self-guided program. It aims to provide rigorous clinical data for non-pharmacological [prevention](/research) strategies.",
+      "status_log_md": [
+        "**2025-08-26** — Primary results published in JAMA showing a statistically significant but clinically marginal difference between structured and self-guided groups, with both groups improving overall ([paper](/research/papers/us-pointer-lifestyle-jama-2025))."
+      ],
+      "results_md": "The trial reported a statistically significant but clinically negligible difference (0.029 SD/year) in cognitive decline between the structured and self-guided groups. Because cognitive scores in both groups increased from baseline, researchers suspect the tests primarily measured practice effects rather than genuine neurobiological disease modification."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Prevention & Lifestyle",
+      "date": "2025-08",
+      "title": "2025-08 — US-POINTER trial reads out",
+      "body_md": "The [US-POINTER trial](/research/papers/us-pointer-lifestyle-jama-2025) of lifestyle interventions reported a marginal cognitive benefit for structured versus self-guided programs, though results were heavily confounded by test practice effects."
+    }
+  ],
+  "notes_for_editor": [
+    "The registry lists enrollment at 2000 and triple-blinding, whereas the JAMA paper explicitly states 2111 enrolled and single-blinding. I have used the paper's numbers as the source of truth but flagged the discrepancy in the fact check.",
+    "FINGER (NCT01041989) and MAPT (NCT00672685) were listed by the clinical trials researcher as related context trials. I linked their names directly rather than generating duplicate trial pages, as they are not the primary focus of this document."
+  ]
+}

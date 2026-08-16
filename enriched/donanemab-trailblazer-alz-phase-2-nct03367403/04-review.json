@@ -1,0 +1,115 @@
+{
+  "fact_check": [
+    {
+      "fact": "Donanemab slowed cognitive decline on the iADRS with p=0.042",
+      "status": "verified",
+      "note": "Checked against source document primary endpoint results (Mean Difference 3.20, 95% CI 0.12 to 6.27, p=0.042)."
+    },
+    {
+      "fact": "Donanemab failed to show statistically significant superiority on the CDR-SB",
+      "status": "verified",
+      "note": "Checked against source document secondary endpoint results (Mean Difference -0.36, 95% CI -0.83 to 0.12, p=0.139)."
+    },
+    {
+      "fact": "Donanemab reduced brain amyloid plaque deposition by 85 Centiloids",
+      "status": "verified",
+      "note": "Checked against source document secondary endpoint results (Mean Difference -85.06, p<0.001)."
+    },
+    {
+      "fact": "Donanemab slows cognitive decline by 35%",
+      "status": "disputed",
+      "note": "This headline figure popularized in mainstream media stems from the subsequent Phase 3 TRAILBLAZER-ALZ 2 trial, not the Phase 2 TRAILBLAZER-ALZ results reported in this document."
+    }
+  ],
+  "research_page": {
+    "slug": "trailblazer-alz-phase-2",
+    "title": "TRAILBLAZER-ALZ Phase 2: Donanemab in early AD",
+    "description": "Phase 2 trial showing donanemab effectively clears amyloid plaques and provides borderline significant slowing of decline on the iADRS, while missing standard secondary endpoints.",
+    "tags": [
+      "trial",
+      "amyloid",
+      "immunotherapy",
+      "donanemab"
+    ],
+    "source_line_md": "**Source**: [ClinicalTrials.gov, 2021](https://clinicaltrials.gov/study/NCT03367403) — NCT03367403",
+    "authors_line_md": "Eli Lilly and Company",
+    "takeaway_md": "Donanemab achieved dramatic amyloid plaque clearance over 76 weeks and met its primary endpoint for slowing decline on the iADRS (p=0.042). However, standard cognitive endpoints like the CDR-SB and MMSE did not reach statistical significance in this Phase 2 trial. These marginal clinical benefits despite massive biomarker changes prompted early skepticism that was later resolved by Phase 3 data.",
+    "key_findings_md": [
+      "Met the primary endpoint on the iADRS, slowing decline versus placebo (mean difference 3.20, p=0.042) (source document).",
+      "Dramatically reduced brain amyloid plaque deposition compared to placebo (mean difference -85.06 Centiloids, p<0.001) (source document).",
+      "Failed to show statistically significant superiority on the CDR-SB (p=0.139), MMSE (p=0.227), or ADCS-iADL (p=0.230) (source document)."
+    ],
+    "methods_md": "Phase 2 double-blind, placebo-controlled trial randomizing 272 adults aged 60-85 with early symptomatic Alzheimer's disease and positive amyloid and tau PET scans. Evaluated donanemab IV every 4 weeks over 76 weeks.",
+    "trial_evidence_md": "This trial ([TRAILBLAZER-ALZ](/trials/trailblazer-alz-nct03367403)) provided the first efficacy signal for donanemab. The discrepancy between the borderline primary iADRS and non-significant secondary CDR-SB outcomes initially fueled debate over clinical meaningfulness. These findings were subsequently validated by the much larger [TRAILBLAZER-ALZ 2](/trials/trailblazer-alz-2) Phase 3 trial, which met all primary and secondary endpoints and led to full FDA approval in 2024.",
+    "sentiment_md": "Public perception is highly polarized. Mainstream media and general audiences frequently focus on breakthrough top-line efficacy figures, while patients and caregivers weigh modest benefits against the logistical burden of treatment. Conversely, scientific communities and investigative journalists remain skeptical of the marginal Phase 2 clinical benefits relative to safety risks like brain bleeds (ARIA).",
+    "caveats_md": [
+      "The combination therapy arm (donanemab + LY3202626) was discontinued mid-trial for futility, causing an unbalanced trial structure.",
+      "Phase 2 clinical benefits were inconsistent across rating scales, relying on the composite iADRS to achieve statistical significance while failing on standard independent measures."
+    ],
+    "relates_to_md": [
+      "[TRAILBLAZER-ALZ 3](/trials/trailblazer-alz-3) — Ongoing Phase 3 prevention trial in preclinical Alzheimer's disease.",
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Trial results highlight the complex relationship between dramatic biomarker clearance and modest short-term cognitive outcomes."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "trailblazer-alz-nct03367403",
+      "title": "TRAILBLAZER-ALZ (Phase 2)",
+      "description": "Phase 2 trial of donanemab in adults with early symptomatic Alzheimer's disease.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "donanemab",
+        "amyloid",
+        "phase-2"
+      ],
+      "registry_md": "[NCT03367403](https://clinicaltrials.gov/study/NCT03367403)",
+      "drug": "donanemab (anti-amyloid beta antibody)",
+      "phase": "2",
+      "sponsor": "Eli Lilly and Company",
+      "population": "Adults aged 60-85 with early symptomatic Alzheimer's disease",
+      "primary_endpoint": "Change from baseline in the iADRS Score at 76 weeks",
+      "started": "2017-12",
+      "readout": "2021-09",
+      "why_md": "Designed to evaluate whether donanemab's rapid clearance of amyloid plaques could slow cognitive and functional decline in early Alzheimer's disease.",
+      "status_log_md": [
+        "**2021-09-21** — Trial completed ([ClinicalTrials.gov](https://clinicaltrials.gov/study/NCT03367403))"
+      ],
+      "results_md": "Demonstrated highly significant amyloid plaque reduction and met its primary iADRS endpoint (p=0.042). Failed to achieve statistical significance on standard secondary cognitive endpoints including the CDR-SB and MMSE."
+    },
+    {
+      "slug": "trailblazer-alz-2",
+      "title": "TRAILBLAZER-ALZ 2",
+      "description": "Pivotal Phase 3 trial of donanemab in early symptomatic Alzheimer's disease.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "donanemab",
+        "amyloid",
+        "phase-3"
+      ],
+      "registry_md": "[NCT04437511](https://clinicaltrials.gov/study/NCT04437511)",
+      "drug": "donanemab (anti-amyloid beta antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "population": "Early symptomatic Alzheimer's disease",
+      "primary_endpoint": "Change from baseline on the iADRS",
+      "started": "2020-06",
+      "readout": "2023-04",
+      "why_md": "The confirmatory pivotal trial necessary to validate the borderline clinical efficacy seen in the Phase 2 TRAILBLAZER-ALZ study and support FDA approval.",
+      "status_log_md": [
+        "**2023-04** — Readout confirming clinical efficacy, followed by full publication in JAMA in July 2023."
+      ],
+      "results_md": "Successfully confirmed Phase 2 findings, significantly slowing clinical decline on both the iADRS and CDR-SB compared to placebo over 76 weeks."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Anti-amyloid breakthroughs",
+      "date": "2021-03",
+      "title": "2021-03 — Donanemab Phase 2 (TRAILBLAZER-ALZ) readout",
+      "body_md": "Eli Lilly reports Phase 2 results for donanemab showing robust amyloid clearance and a borderline significant slowing of decline on the primary iADRS endpoint, [though missing secondary clinical measures](/research/papers/trailblazer-alz-phase-2)."
+    }
+  ],
+  "notes_for_editor": []
+}

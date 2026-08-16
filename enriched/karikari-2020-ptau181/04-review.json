@@ -1,0 +1,149 @@
+{
+  "fact_check": [
+    {
+      "fact": "TRIAD validation cohort n=226, BioFINDER-2 validation cohort n=763",
+      "status": "verified",
+      "note": "Checked against Methods section."
+    },
+    {
+      "fact": "Plasma p-tau181 differentiates Alzheimer's from frontotemporal dementia with AUC=100%",
+      "status": "verified",
+      "note": "Checked against Results/Findings for the TRIAD cohort."
+    },
+    {
+      "fact": "Longitudinal predictions of cognitive decline and hippocampal atrophy are based on n=88",
+      "status": "verified",
+      "note": "Checked against Outcomes and Results; explicitly restricted to an 88-patient subset of the TRIAD cohort."
+    },
+    {
+      "fact": "Primary-care cohort included 105 patients without PET/CSF confirmation",
+      "status": "verified",
+      "note": "Checked against Methods and Discussion; the authors note lack of detailed PET or CSF biomarker data for this cohort."
+    }
+  ],
+  "research_page": {
+    "slug": "plasma-ptau181-karikari-2020",
+    "title": "Plasma p-tau181 as an Alzheimer's blood biomarker (Karikari 2020)",
+    "description": "Development and validation of an ultrasensitive blood test for p-tau181 across four prospective cohorts.",
+    "tags": [
+      "paper",
+      "biomarkers",
+      "amyloid",
+      "tau",
+      "plasma-ptau181"
+    ],
+    "source_line_md": "**Source**: [The Lancet Neurology, 2020](https://doi.org/10.1016/s1474-4422(20)30071-5) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/32333900/)",
+    "authors_line_md": "Thomas K. Karikari et al. — University of Gothenburg",
+    "takeaway_md": "An ultrasensitive blood test for p-tau181 accurately differentiates Alzheimer's disease from other neurodegenerative disorders and strongly predicts brain amyloid and tau pathology. This evidence established p-tau181 as a highly scalable, first-line clinical screening tool.",
+    "key_findings_md": [
+      "Plasma p-tau181 levels increased progressively across the Alzheimer's continuum, from amyloid-negative young adults to those with Alzheimer's dementia (paper, Figure 1).",
+      "The assay distinguished Alzheimer's disease from other neurodegenerative disorders, including frontotemporal dementia, with high accuracy (AUC 82.76% to 100%) (paper, Findings).",
+      "Blood p-tau181 strongly predicted in vivo tau and amyloid-beta PET positivity, outperforming age and APOE ε4 status (paper, Figure 3).",
+      "Baseline p-tau181 concentrations correlated with one-year cognitive decline and hippocampal atrophy (paper, Figure 4)."
+    ],
+    "methods_md": "Prospective cohort study analyzing 1,131 participants across four clinic-based cohorts (discovery, two validation, and primary-care). Included cognitively unimpaired adults, individuals with mild cognitive impairment, Alzheimer's dementia, and other neurodegenerative diseases. Cross-sectional analysis with a limited one-year longitudinal follow-up (n=88).",
+    "trial_evidence_md": "This document establishes foundational data from the [BioFINDER-1](/trials/biofinder-1-nct01208675) and [BioFINDER-2](/trials/biofinder-2-nct03174938) cohorts, alongside the TRIAD cohort. While the one-year predictive claims rely on a small patient subset, subsequent independent cohorts (ADNI and DIAN) have replicated the findings, confirming plasma p-tau181 as a robust diagnostic and prescreening biomarker.",
+    "sentiment_md": "Public sentiment views the p-tau181 blood test as a breakthrough that democratizes Alzheimer's diagnostics by removing the bottleneck of expensive PET scans. However, patient communities report mixed feelings, expressing anxiety over receiving early diagnostic information without accessible cures and confusion about direct-to-consumer test marketing.",
+    "caveats_md": [
+      "The strong claims regarding one-year clinical and physical decline are heavily extrapolated from an extremely small subset of the total study population.",
+      "Because different brain imaging techniques (PET ligands) were used in different study locations, some variation in the data may be driven by the clinical centers themselves rather than distinct biology."
+    ],
+    "relates_to_md": [
+      "[Biomarkers](/research/biomarkers) — Established plasma p-tau181 as a highly accurate blood-based diagnostic tool.",
+      "[BioFINDER-1](/trials/biofinder-1-nct01208675) — Data source for the study's discovery and initial validation.",
+      "[BioFINDER-2](/trials/biofinder-2-nct03174938) — Data source for the large independent validation cohort."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "biofinder-1-nct01208675",
+      "title": "BioFINDER-1",
+      "description": "Observational study of plasma p-tau181 and other biomarkers in 1,150 individuals.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "observational",
+        "biomarkers",
+        "p-tau181"
+      ],
+      "registry_md": "[NCT01208675](https://clinicaltrials.gov/study/NCT01208675)",
+      "drug": "plasma p-tau181 (Diagnostic Biomarker)",
+      "phase": "Observational",
+      "sponsor": "Skane University Hospital",
+      "population": "Cognitively healthy elderly, mild cognitive impairment, Alzheimer's dementia, and other dementias",
+      "primary_endpoint": "Time to conversion to clinically probable AD",
+      "started": "2010-09",
+      "readout": "2024-12",
+      "why_md": "This foundational observational cohort established that CSF and plasma biomarkers, including p-tau181, can accurately identify Alzheimer's pathology. It provides the basis for [blood-based biomarker](/research/biomarkers) validation used in clinical practice.",
+      "status_log_md": [
+        "**2010-09-01** — Study begins.",
+        "**2020-05-01** — Foundational data validating plasma p-tau181 published in [The Lancet Neurology](/research/papers/plasma-ptau181-karikari-2020).",
+        "**2024-12-01** — Study completes."
+      ],
+      "results_md": "Established that plasma p-tau181 and other biomarkers accurately differentiate Alzheimer's disease pathology and predict clinical progression in both cognitively unimpaired and impaired populations."
+    },
+    {
+      "slug": "biofinder-2-nct03174938",
+      "title": "BioFINDER-2",
+      "description": "Large observational cohort (n=2,950) validating fluid and imaging biomarkers across neurodegenerative diseases.",
+      "badge": "Recruiting",
+      "tags": [
+        "trial",
+        "observational",
+        "biomarkers",
+        "p-tau181"
+      ],
+      "registry_md": "[NCT03174938](https://clinicaltrials.gov/study/NCT03174938)",
+      "drug": "plasma p-tau181 (Diagnostic Biomarker)",
+      "phase": "Observational",
+      "sponsor": "Skane University Hospital",
+      "population": "Cognitively healthy individuals, patients with subjective cognitive decline, mild cognitive impairment, Alzheimer's and other neurodegenerative diseases",
+      "primary_endpoint": "Clinical diagnosis",
+      "started": "2017-05",
+      "readout": "2036-12",
+      "why_md": "Designed to cross-validate emerging [biomarkers](/research/biomarkers) like plasma p-tau181 against PET imaging across a broad spectrum of neurodegenerative diseases. It serves as a primary validation cohort for new Alzheimer's diagnostic models.",
+      "status_log_md": [
+        "**2017-05-01** — Study begins.",
+        "**2020-05-01** — Interim baseline findings validating plasma p-tau181's diagnostic accuracy published in [The Lancet Neurology](/research/papers/plasma-ptau181-karikari-2020)."
+      ],
+      "results_md": "Interim data established strong diagnostic accuracy for plasma p-tau181 in distinguishing Alzheimer's disease from other conditions like frontotemporal dementia and progressive supranuclear palsy."
+    },
+    {
+      "slug": "biofinder-primary-care-nct06120361",
+      "title": "BioFINDER - Primary Care",
+      "description": "Observational study evaluating Alzheimer's biomarkers in 1,200 primary care patients with mild cognitive symptoms.",
+      "badge": "Recruiting",
+      "tags": [
+        "trial",
+        "observational",
+        "biomarkers",
+        "primary-care"
+      ],
+      "registry_md": "[NCT06120361](https://clinicaltrials.gov/study/NCT06120361)",
+      "drug": "plasma p-tau181 (Diagnostic Biomarker)",
+      "phase": "Observational",
+      "sponsor": "Skane University Hospital",
+      "population": "Patients seeking medical care due to mild cognitive symptoms in primary care units",
+      "primary_endpoint": "Presence of brain AD pathology",
+      "started": "2020-01",
+      "readout": "2028-12",
+      "why_md": "Tests the real-world utility of Alzheimer's [blood biomarkers](/research/biomarkers) in non-specialized settings, where PET and CSF testing are largely unavailable.",
+      "status_log_md": [
+        "**2020-01-01** — Study begins."
+      ],
+      "results_md": "Early pilot data demonstrated the utility of p-tau181 in primary care settings, though initial samples lacked independent PET or CSF validation."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2020-05",
+      "title": "2020-05 — Plasma p-tau181 validated as highly accurate Alzheimer's blood test",
+      "body_md": "A landmark study led by the University of Gothenburg demonstrates that a simple blood test for p-tau181 accurately distinguishes Alzheimer's disease from other neurodegenerative disorders, paving the way for scalable diagnostics. [Read the paper](/research/papers/plasma-ptau181-karikari-2020)"
+    }
+  ],
+  "notes_for_editor": [
+    "The BioFINDER primary care cohort NCT06120361 officially began in 2020, but the Karikari paper uses pre-2020 primary care pilot data. We've mapped the paper's primary-care findings to the formal NCT06120361 trial page, but this timeline discrepancy requires manual review.",
+    "The sentiment analysis references a January 2025 FDA clearance for Roche's p-tau181 test, but the existing timeline contains '2025-05 — First blood test cleared'. We omitted the Jan 2025 timeline entry to avoid duplicating or conflicting with the existing May 2025 node. Recommend verifying if these refer to the same test."
+  ]
+}

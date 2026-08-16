@@ -1,0 +1,120 @@
+{
+  "fact_check": [
+    {
+      "fact": "ARIA-E occurred in 15.3% of bapineuzumab-treated carriers (27.3% in APOE ε4 homozygotes) and up to 14.2% in noncarriers at the highest dose, compared to 0.2% in placebo.",
+      "status": "verified",
+      "note": "Checked against source document (RESULTS / SAFETY section)."
+    },
+    {
+      "fact": "36.1% of APOE ε4 noncarriers did not reach the threshold for amyloid positivity at baseline.",
+      "status": "verified",
+      "note": "Checked against source document (RESULTS / KEY BIOMARKER OUTCOMES / PIB-PET)."
+    },
+    {
+      "fact": "At week 78, between-group differences in ADAS-cog11 and DAD scores were -0.2 (P=0.80) and -1.2 (P=0.34) in carriers.",
+      "status": "verified",
+      "note": "Checked against source document (Abstract / RESULTS)."
+    }
+  ],
+  "research_page": {
+    "slug": "bapineuzumab-phase-3-mild-moderate",
+    "title": "Bapineuzumab in mild-to-moderate AD (Phase 3)",
+    "description": "Two Phase 3 trials showed the anti-amyloid antibody bapineuzumab failed to improve clinical outcomes, despite engaging biomarkers in APOE4 carriers.",
+    "tags": [
+      "trial",
+      "amyloid",
+      "immunotherapy",
+      "biomarkers",
+      "bapineuzumab",
+      "aria",
+      "monoclonal-antibody"
+    ],
+    "source_line_md": "**Source**: [The New England journal of medicine, 2014](https://doi.org/10.1056/NEJMoa1304839) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/24450891)",
+    "authors_line_md": "Salloway et al. — Janssen Alzheimer Immunotherapy and Pfizer",
+    "takeaway_md": "Bapineuzumab did not slow cognitive or functional decline in patients with mild-to-moderate Alzheimer's disease. While the drug proved it could engage its biological targets—stabilizing brain amyloid and lowering CSF phospho-tau in APOE4 carriers—these changes failed to produce clinical benefits. The drug's narrow therapeutic window, driven by dose-dependent amyloid-related imaging abnormalities (ARIA-E), ultimately led to the termination of the highest dose and the eventual abandonment of the program.",
+    "key_findings_md": [
+      "Bapineuzumab failed to improve primary cognitive (ADAS-cog11) or functional (DAD) scores at 78 weeks in either APOE4 carriers or noncarriers (paper, Abstract).",
+      "The drug stabilized brain amyloid accumulation on PIB-PET and significantly reduced CSF phospho-tau in APOE4 carriers compared to placebo (paper, Key Biomarker Outcomes).",
+      "ARIA-E occurred in 15.3% of bapineuzumab-treated carriers, reaching 27.3% in APOE4 homozygotes, compared to 0.2% on placebo (paper, Safety).",
+      "Symptomatic ARIA-E rates forced the premature discontinuation of the highest evaluated dose (2.0 mg/kg) across the program (paper, Study Design and Treatment)."
+    ],
+    "methods_md": "Two parallel double-blind, randomized, placebo-controlled Phase 3 trials enrolled 2,452 patients aged 50 to 88 with mild-to-moderate Alzheimer's disease (MMSE 16-26). One trial enrolled 1,121 APOE4 carriers; the other enrolled 1,331 noncarriers. Participants received intravenous bapineuzumab or placebo every 13 weeks for 78 weeks ([NCT00575055](https://clinicaltrials.gov/study/NCT00575055), [NCT00574132](https://clinicaltrials.gov/study/NCT00574132)).",
+    "trial_evidence_md": "These pivotal North American trials ([NCT00575055](/trials/bapineuzumab-nct00575055) and [NCT00574132](/trials/bapineuzumab-nct00574132)) conclusively demonstrated a lack of clinical efficacy for intravenous bapineuzumab. Consequently, sponsors terminated the entire clinical development program in August 2012, including parallel global trials ([NCT00676143](https://clinicaltrials.gov/study/NCT00676143) and [NCT00667810](https://clinicaltrials.gov/study/NCT00667810)).",
+    "sentiment_md": "Public perception is largely negative, heavily shaped by the severe financial losses investors suffered when these high-profile trials failed to meet primary endpoints. Within the scientific community, sentiment is more nuanced; researchers view the confirmed biomarker modifications as a critical biological proof-of-concept for the [amyloid hypothesis](/research/amyloid-hypothesis), arguing it proves the target was engaged but suggests interventions must happen earlier in the disease course.",
+    "caveats_md": [
+      "The premature discontinuation of the 2.0 mg/kg bapineuzumab dose severely limited the ability to evaluate whether higher-dose therapy could have driven clinical efficacy.",
+      "Biomarker substudies for PIB-PET and CSF analysis relied on very small sample sizes, limiting the statistical power of the biological findings, particularly among noncarriers."
+    ],
+    "relates_to_md": [
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Bapineuzumab provided the first major Phase 3 evidence that clearing amyloid does not automatically rescue cognition in symptomatic patients.",
+      "[Biomarkers](/research/biomarkers) — The 36.1% amyloid-negative rate among noncarriers highlighted the absolute necessity of using PET or CSF screening to confirm diagnosis before trial enrollment.",
+      "[Aducanumab in early AD](/research/papers/aria-aducanumab-emerge-engage) — A subsequent anti-amyloid antibody that engaged the same biological targets but also grappled with dose-limiting ARIA safety challenges."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "bapineuzumab-nct00575055",
+      "title": "Bapineuzumab 302 (ApoE4 Carrier)",
+      "description": "Phase 3 trial evaluating bapineuzumab in APOE4 carriers with mild-to-moderate Alzheimer's disease.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "phase-3",
+        "bapineuzumab",
+        "amyloid",
+        "apoe4"
+      ],
+      "registry_md": "[NCT00575055](https://clinicaltrials.gov/study/NCT00575055)",
+      "drug": "Bapineuzumab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "JANSSEN Alzheimer Immunotherapy Research & Development, LLC",
+      "population": "Patients aged 50-88 with probable Alzheimer's disease, MMSE 16-26 (APOE4 carriers)",
+      "primary_endpoint": "ADAS-cog11 and DAD",
+      "started": "2007-12",
+      "readout": "2012-04",
+      "why_md": "This trial tested whether clearing amyloid plaques with bapineuzumab could slow cognitive and functional decline in APOE4 carriers with established mild-to-moderate Alzheimer's disease.",
+      "status_log_md": [
+        "**2007-12-01** — Trial begins enrollment.",
+        "**2012-04-01** — Trial completed.",
+        "**2014-01-23** — Primary results published in NEJM, showing no clinical benefit ([doi:10.1056/NEJMoa1304839](https://doi.org/10.1056/NEJMoa1304839))."
+      ],
+      "results_md": "Bapineuzumab failed to show significant differences compared to placebo on the primary clinical endpoints (ADAS-cog11 and DAD). While the drug successfully stabilized brain amyloid and reduced CSF phospho-tau, it caused dose-dependent amyloid-related imaging abnormalities (ARIA-E)."
+    },
+    {
+      "slug": "bapineuzumab-nct00574132",
+      "title": "Bapineuzumab 301 (ApoE4 Non-Carrier)",
+      "description": "Phase 3 trial evaluating bapineuzumab in APOE4 noncarriers with mild-to-moderate Alzheimer's disease.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "phase-3",
+        "bapineuzumab",
+        "amyloid"
+      ],
+      "registry_md": "[NCT00574132](https://clinicaltrials.gov/study/NCT00574132)",
+      "drug": "Bapineuzumab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "JANSSEN Alzheimer Immunotherapy Research & Development, LLC",
+      "population": "Patients aged 50-88 with probable Alzheimer's disease, MMSE 16-26 (APOE4 noncarriers)",
+      "primary_endpoint": "ADAS-cog11 and DAD",
+      "started": "2007-12",
+      "readout": "2012-06",
+      "why_md": "This parallel Phase 3 trial evaluated bapineuzumab specifically in APOE4 noncarriers to determine if anti-amyloid therapy had different safety and efficacy profiles based on genetic risk factors.",
+      "status_log_md": [
+        "**2007-12-01** — Trial begins enrollment.",
+        "**2012-06-01** — Trial completed.",
+        "**2014-01-23** — Primary results published in NEJM, noting a severe confounding factor with baseline amyloid negativity ([doi:10.1056/NEJMoa1304839](https://doi.org/10.1056/NEJMoa1304839))."
+      ],
+      "results_md": "The trial missed its primary clinical endpoints. Retrospective biomarker analysis revealed that over a third (36.1%) of enrolled noncarriers lacked amyloid pathology at baseline, severely confounding the results and invalidating much of the clinical data for this subgroup."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2012-08",
+      "title": "2012-08 — Intravenous bapineuzumab program terminated",
+      "body_md": "Pfizer and Janssen discontinue all global Phase 3 trials of the anti-amyloid antibody bapineuzumab after [North American trials](/research/papers/bapineuzumab-phase-3-mild-moderate) fail to show clinical benefit in mild-to-moderate Alzheimer's disease."
+    }
+  ],
+  "notes_for_editor": []
+}

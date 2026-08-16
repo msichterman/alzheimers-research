@@ -1,0 +1,53 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment toward Etalanetug (E2814) is sharply divided between biomarker optimism in the scientific community and a complete lack of awareness among the broader public. Scientific discourse is highly encouraged by the drug's robust target engagement and dose-dependent reductions in key pathological tau biomarkers like MTBR-tau243 and p-tau217. However, researchers emphasize significant caution due to the extremely small sample size (n=8) of the Phase 1b/2 DIAN-TU cohort and the presence of severe adverse events at higher doses. Meanwhile, patient, caregiver, and retail investor communities remain largely quiet, reflecting the early-stage nature of the trial and public focus on currently approved anti-amyloid therapies.",
+  "communities": [
+    {
+      "community": "Science and Medical Research (Alzforum, PubMed)",
+      "sentiment": "mixed",
+      "themes": [
+        "Strong target engagement (MTBR-tau243 and p-tau217 reductions)",
+        "Concerns over extremely small n=8 sample size",
+        "Tolerability and severe adverse event risks at high doses"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/therapeutics/etalanetug",
+        "https://pubmed.ncbi.nlm.nih.gov/38868475"
+      ]
+    },
+    {
+      "community": "Patients and Caregivers (r/Alzheimers, r/dementia)",
+      "sentiment": "quiet",
+      "themes": [
+        "Lack of awareness of early-stage pipeline experimental therapies",
+        "Discourse dominated by approved drugs rather than Phase 1/2 trials"
+      ],
+      "example_urls": []
+    },
+    {
+      "community": "Retail Investors",
+      "sentiment": "quiet",
+      "themes": [
+        "Absence of targeted financial hype for this specific Phase 1b/2 asset"
+      ],
+      "example_urls": []
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Alzforum",
+      "tone": "neutral",
+      "date": "2024-11",
+      "url": "https://www.alzforum.org/news/conference-coverage/finally-therapeutic-antibodies-start-reduce-tangles"
+    }
+  ],
+  "hype_vs_evidence": "There is a notable divergence in how biomarker data is historically perceived versus the current clinical reality of this drug. While optimism naturally surrounds the robust CSF biomarker reductions (MTBR-tau243, p-tau217) achieved by Etalanetug, the scientific evidence is strictly limited to target engagement in just 8 participants. Any premature assumptions that these biomarker drops guarantee cognitive preservation run ahead of the evidence, especially given the severe treatment-emergent adverse events documented at higher doses, which dictate the need for much larger safety studies before clinical efficacy can be established.",
+  "misinformation_flags": [],
+  "searches_run": [
+    "E2814 alzheimer site:reddit.com",
+    "E2814 Eisai alzheimer news",
+    "\"E2814\" alzforum",
+    "etalanetug",
+    "NCT04971733 OR \"E2814\" DIAD"
+  ]
+}

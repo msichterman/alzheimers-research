@@ -1,0 +1,69 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment regarding Kisunla (donanemab) following the EMA CHMP reversal is heavily fragmented across different interest groups. Retail investors are broadly enthusiastic about Eli Lilly's regulatory win and the expanding market for amyloid-targeting therapies. Conversely, the scientific and medical communities remain highly skeptical, pointing to the marginal absolute clinical benefits, missing data handling, and the significant ARIA risks that necessitated the APOE4 restriction. Patients and caregivers express a hopeful but frustrated tone, as the strict eligibility criteria (early symptomatic stage, APOE4 testing, exclusion of homozygotes) mean a large portion of those suffering from the disease are excluded. Media coverage attempts to balance the milestone of a new approval with heavy emphasis on the fatal safety risks and stringent monitoring protocols.",
+  "communities": [
+    {
+      "community": "Patient and Caregiver Forums (e.g., r/Alzheimers, r/dementia)",
+      "sentiment": "mixed",
+      "themes": [
+        "Desperation for any disease-modifying treatment",
+        "Frustration over strict APOE4 and disease-stage eligibility",
+        "Fear of ARIA and brain bleeds"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/"
+      ]
+    },
+    {
+      "community": "Retail Investors (e.g., Yahoo Finance, LLY stockholders)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Bullish reaction to CHMP regulatory reversal",
+        "High commercial expectations for Kisunla vs Leqembi",
+        "Minimizing safety concerns as a manageable labeling issue"
+      ],
+      "example_urls": [
+        "https://finance.yahoo.com/quote/LLY"
+      ]
+    },
+    {
+      "community": "Scientific & Medical Community (PubMed, Neurologists)",
+      "sentiment": "skeptical",
+      "themes": [
+        "Questions over clinical meaningfulness of small iADRS/CDR-SB changes",
+        "Criticism of trial endpoint shifts and high dropout rates",
+        "Concerns regarding long-term brain volume loss and ARIA management"
+      ],
+      "example_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42602524/",
+        "https://pubmed.ncbi.nlm.nih.gov/42552749/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Wikipedia (General Information)",
+      "tone": "neutral",
+      "date": "2026-05",
+      "url": "https://en.wikipedia.org/wiki/Donanemab"
+    },
+    {
+      "outlet": "PubMed / Scientific Literature",
+      "tone": "critical",
+      "date": "2026-08",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42541080/"
+    }
+  ],
+  "hype_vs_evidence": "While retail investor hype portrays donanemab as a major breakthrough that broadly cures or stops Alzheimer's, the clinical evidence demonstrates only a modest slowing of cognitive decline (19-28%) in a highly restricted patient subset. Public perception often misses the reality that the drug does not reverse existing damage or definitively halt the disease, but merely delays progression by a matter of months. Furthermore, commercial excitement frequently glosses over the severe safety profile, whereas the evidence shows a near 20% incidence of ARIA even in the safer non-homozygote population, requiring intense medical infrastructure and strict APOE4 testing to manage safely.",
+  "misinformation_flags": [
+    "Claiming donanemab reverses cognitive decline or restores lost memory.",
+    "Assuming all Alzheimer's patients are eligible for the drug, ignoring the early-stage and APOE4 non-homozygote restrictions.",
+    "Downplaying ARIA as a minor, asymptomatic side effect, despite reports of treatment-related fatalities."
+  ],
+  "searches_run": [
+    "donanemab Kisunla site:reddit.com/r/Alzheimers OR site:reddit.com/r/dementia",
+    "LLY Kisunla donanemab site:reddit.com/r/investing OR site:reddit.com/r/stocks",
+    "donanemab EMA approval chmp reversal",
+    "donanemab ARIA APOE4 site:pubmed.ncbi.nlm.nih.gov"
+  ]
+}

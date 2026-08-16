@@ -1,0 +1,68 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT04374136",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04374136",
+      "name": "INFRONT-3",
+      "drug": "latozinemab / AL001 (sortilin inhibitor / progranulin elevator)",
+      "phase": "3",
+      "sponsor": "Alector Inc. / GlaxoSmithKline",
+      "status": "Terminated",
+      "enrollment": 119,
+      "population": "Individuals at risk for or with Frontotemporal Dementia due to heterozygous mutations in the progranulin gene (FTD-GRN)",
+      "primary_endpoint": "CDR® plus NACC FTLD-SB score",
+      "started": "2020-07",
+      "completed_or_readout": "2026-01",
+      "results_summary": "The trial was terminated after failing to meet the clinical co-primary endpoint of slowing FTD-GRN progression, as measured by the CDR plus NACC FTLD-SB.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04747431",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04747431",
+      "name": "upliFT-D",
+      "drug": "PBFT02 (AAV1-GRN gene therapy)",
+      "phase": "1/2",
+      "sponsor": "Passage Bio, Inc.",
+      "status": "Active",
+      "enrollment": 30,
+      "population": "Adults with FTD and mutations in the GRN or C9ORF72 genes",
+      "primary_endpoint": "Number of treatment-related AEs and SAEs; Change in nerve conduction velocity; Change in cellular and humoral response",
+      "started": "2021-09",
+      "completed_or_readout": "2028-08",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05262023",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05262023",
+      "name": null,
+      "drug": "DNL593 (protein transport vehicle / GRN replacement)",
+      "phase": "1/2",
+      "sponsor": "Denali Therapeutics Inc. / Takeda",
+      "status": "Active",
+      "enrollment": 85,
+      "population": "Healthy participants and participants with Frontotemporal Dementia (FTD-GRN)",
+      "primary_endpoint": "Incidence of TEAEs, safety lab abnormalities, vital signs, ECG changes, and C-SSRS",
+      "started": "2022-02",
+      "completed_or_readout": "2026-12",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2026-01-20",
+      "kind": "registry-results",
+      "description": "ClinicalTrials.gov update confirming the termination of the INFRONT-3 trial for latozinemab (AL001) due to failing to meet its primary efficacy endpoint.",
+      "url": "https://clinicaltrials.gov/study/NCT04374136"
+    }
+  ],
+  "evidence_assessment": "The document is a GWAS meta-analysis that identifies novel genetic risk loci (APOC2, COL4A1, LZTS1) for specific neuropathology endophenotypes and reinforces the role of known loci like GRN in non-AD pathologies (e.g., LATE-NC and hippocampal sclerosis). Currently, there is no clinical evidence record for interventions targeting APOC2, COL4A1, or LZTS1 in dementia or cerebrovascular disease, marking them as purely preclinical or observational targets. The GRN pathway, however, has an active clinical pipeline primarily focused on frontotemporal dementia (FTD-GRN). The clinical viability of the GRN mechanism recently suffered a major setback with the termination of the Phase 3 INFRONT-3 trial for latozinemab (AL001) due to a lack of efficacy. While early-phase gene therapy (PBFT02) and protein replacement (DNL593) trials remain active, the clinical translation of these loci into effective therapeutics remains unproven and highly challenged.",
+  "discrepancies": [
+    "The document highlights APOC2, COL4A1, and LZTS1 as promising novel risk loci for dementia-related cerebrovascular pathologies, but a search of the clinical trial registry reveals zero active or planned clinical development programs evaluating interventions against these targets for cognitive impairment or dementia.",
+    "The document positions the GRN locus as a significant contributor to dementia risk via non-AD pathologies, but the leading clinical asset targeting the GRN pathway (latozinemab) recently failed its Phase 3 efficacy trial for FTD-GRN, indicating a gap between robust genetic risk implication and therapeutic viability."
+  ]
+}

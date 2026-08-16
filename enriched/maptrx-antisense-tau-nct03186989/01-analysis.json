@@ -1,0 +1,72 @@
+{
+  "kind": "other",
+  "title": "Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of IONIS-MAPTRx in Patients With Mild Alzheimer's Disease",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2025-04",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "tau",
+    "pharmacokinetics",
+    "safety",
+    "antisense-oligo"
+  ],
+  "themes": [
+    "Tau-targeting therapy",
+    "Antisense oligonucleotides",
+    "Phase 1 trial",
+    "Pharmacokinetics",
+    "Safety and tolerability"
+  ],
+  "one_line": "This ClinicalTrials.gov record details the trial design, safety, and pharmacokinetic outcomes of the tau-targeting antisense oligonucleotide IONIS-MAPTRx in a Phase 1 study for mild Alzheimer's disease.",
+  "summary": "This document is a ClinicalTrials.gov registry record (NCT03186989) for a Phase 1 interventional study of IONIS-MAPTRx (ISIS 814907), an intrathecally administered antisense oligonucleotide targeting tau. The trial enrolled 46 patients with mild Alzheimer's disease and consisted of a randomized, double-blind, placebo-controlled multiple ascending dose phase followed by an open-label extension. The primary endpoints focused on the frequency and severity of treatment-emergent adverse events over 37 to 64 weeks. Secondary endpoints measured pharmacokinetic properties such as CSF trough concentrations, Cmax, Tmax, terminal elimination half-life, and AUC across doses ranging from 10 mg to 115 mg. The document provides raw incidence rates for adverse events, highlighting procedural complications like post-lumbar puncture syndrome, as well as pharmacokinetic data distributions, without offering a peer-reviewed narrative or statistical conclusions.",
+  "key_claims": [
+    {
+      "claim": "IONIS-MAPTRx exhibits a measurable pharmacokinetic profile in both plasma and CSF across doses from 10 mg to 115 mg.",
+      "evidence": "Raw data for Cmax, Tmax, AUC, and CSF trough concentrations are listed across the multiple ascending dose and open-label extension cohorts.",
+      "strength": "moderate",
+      "location": "Posted results / SECONDARY"
+    },
+    {
+      "claim": "Procedural and administration-related adverse events occurred in the study population.",
+      "evidence": "Adverse event tables show incidences of post lumbar puncture syndrome, procedural pain, and puncture site reactions across both active and placebo cohorts.",
+      "strength": "moderate",
+      "location": "Posted results / Adverse events"
+    }
+  ],
+  "methods": {
+    "design": "Randomized, double-blind, placebo-controlled multiple ascending dose study, followed by an open-label extension",
+    "n": 46,
+    "population": "Males or females aged 50-74 years diagnosed with mild Alzheimer's disease",
+    "duration": "Up to Week 37 in Part 1 and Week 64 in Part 2",
+    "registration": "NCT03186989"
+  },
+  "funding_and_conflicts": "Lead sponsor: Ionis Pharmaceuticals, Inc. No conflicts stated.",
+  "limitations": [
+    "Document is a raw clinical trial registry record, lacking statistical analyses or peer-reviewed narrative conclusions.",
+    "Small sample sizes per cohort (4 to 13 participants) limit generalizability."
+  ],
+  "red_flags": [
+    "Results are presented as detached, flattened data points without explicit context or significance testing."
+  ],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "ClinicalTrials.gov tabular data for secondary outcomes (like CSF Trough Concentration and Cmax) are flattened into a list of bullet points ('- value: ...'), losing the visual mapping to their specific dosage cohorts."
+    ]
+  },
+  "search_verification": [
+    "Searched web knowledge to confirm NCT03186989 corresponds to the MAPTRx trial (BIIB080) published in Nature Medicine in 2023 (Mummery et al.), though the provided text is strictly the registry data."
+  ]
+}

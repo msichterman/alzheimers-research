@@ -1,0 +1,54 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT01953601",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01953601",
+      "name": "APECS",
+      "drug": "Verubecestat (BACE-1 inhibitor)",
+      "phase": "3",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "status": "Terminated",
+      "enrollment": 1454,
+      "population": "Participants with prodromal Alzheimer's disease",
+      "primary_endpoint": "Change from baseline in Clinical Dementia Rating Sum of Boxes (CDR-SB) score at Week 104",
+      "started": "2013-11",
+      "completed_or_readout": "2018-04",
+      "results_summary": "The trial was terminated early for futility. While verubecestat robustly reduced amyloid-beta biomarkers, it did not improve clinical dementia ratings. Patients on the higher 40-mg dose showed statistically worse cognitive and functional decline on the CDR-SB compared to placebo.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01739348",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01739348",
+      "name": "EPOCH",
+      "drug": "Verubecestat (BACE-1 inhibitor)",
+      "phase": "2/3",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "status": "Terminated",
+      "enrollment": 2211,
+      "population": "Participants with mild to moderate Alzheimer's disease",
+      "primary_endpoint": "Change from baseline in the Alzheimer's Disease Assessment Scale-Cognitive Subscale (ADAS-Cog) and Alzheimer's Disease Cooperative Study-Activities of Daily Living (ADCS-ADL) scores",
+      "started": "2012-11",
+      "completed_or_readout": "2017-04",
+      "results_summary": "The trial was terminated early for futility after 50 months. Verubecestat failed to reduce cognitive or functional decline compared to placebo, despite lowering CSF Aβ levels, and it was associated with an increase in adverse events.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2019-04-11",
+      "kind": "paper",
+      "description": "Primary publication of the APECS phase 3 trial results (prodromal AD) detailing the early termination and cognitive worsening.",
+      "url": "https://doi.org/10.1056/NEJMoa1812840"
+    },
+    {
+      "date": "2018-05-03",
+      "kind": "paper",
+      "description": "Primary publication of the EPOCH phase 3 trial results (mild-to-moderate AD) confirming lack of clinical efficacy.",
+      "url": "https://doi.org/10.1056/NEJMoa1706441"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence regarding verubecestat's efficacy is definitive and entirely negative. Two massive, well-powered Phase 3 trials (APECS in prodromal AD and EPOCH in mild-to-moderate AD) both demonstrated robust target engagement with significant reductions in amyloid biomarkers, but absolutely no clinical benefit. In fact, the APECS trial demonstrated a statistically significant worsening in cognition (via the CDR-SB) and daily function for patients receiving the higher 40-mg dose compared to placebo. Both trials were terminated early for futility, and the sponsor subsequently abandoned the verubecestat clinical program, firmly establishing that this BACE-1 inhibitor is ineffective and potentially harmful for treating Alzheimer's disease.",
+  "discrepancies": []
+}

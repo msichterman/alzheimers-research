@@ -1,0 +1,56 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment surrounding the Lumipulse pTau217 plasma test shifted from early enthusiasm to cautious skepticism following the FDA Class 2 recall in February 2026. Initially heralded as a breakthrough in accessible Alzheimer's diagnostics, recent media coverage now emphasizes the test's limitations and the psychological toll of false positives. Scientific and medical commentary frame the recall as an important 'early warning' about the premature clinical adoption of plasma biomarkers. Meanwhile, patient and caregiver forums on platforms like Reddit have remained largely quiet, suggesting the recall's details have not yet widely penetrated general consumer discussions.",
+  "communities": [
+    {
+      "community": "Reddit (r/Alzheimers, r/dementia)",
+      "sentiment": "quiet",
+      "themes": [
+        "Lack of direct discussion about the Lumipulse recall",
+        "General questions about diagnosis rather than specific tests"
+      ],
+      "example_urls": []
+    },
+    {
+      "community": "Scientific and Medical Media",
+      "sentiment": "mixed",
+      "themes": [
+        "The recall serves as an early warning for plasma biomarkers",
+        "Necessity of comparing plasma tests to gold standard PET/CSF",
+        "Clinical implications of false positive results"
+      ],
+      "example_urls": [
+        "https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/lessons-from-the-lumipulse-recall-for-alzheimers-disease-blood-biomarkers/94C37C9F54B00B50A6803252A5DE679E"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Forbes",
+      "tone": "critical",
+      "date": "2026-07",
+      "url": "https://www.forbes.com/sites/howardgleckman/2026/07/16/new-alzheimers-blood-tests-are-easy-but-do-you-really-want-one/"
+    },
+    {
+      "outlet": "Harvard Health",
+      "tone": "positive",
+      "date": "2025-09",
+      "url": "https://www.health.harvard.edu/mind-and-mood/the-new-alzheimers-blood-test-what-it-means-for-diagnosis"
+    },
+    {
+      "outlet": "RecallWeekly",
+      "tone": "neutral",
+      "date": "2026-02",
+      "url": "https://recallweekly.com/recalls/FDA-Device/Z-1301-2026"
+    }
+  ],
+  "hype_vs_evidence": "When first cleared, the Lumipulse test was heavily hyped as a simple, highly accurate alternative to invasive CSF taps and expensive PET scans. However, the evidence leading to the FDA recall demonstrated that the plasma assay suffered from low specificity, meaning it falsely classified patients in the positive or indeterminate zones. This divergence shows that public and early clinical optimism ran ahead of the assay's real-world diagnostic reliability, requiring a reset in expectations for standalone blood-based Alzheimer's diagnostics.",
+  "misinformation_flags": [
+    "Circulating belief that a single positive Lumipulse plasma test definitively confirms Alzheimer's pathology, despite low specificity and false positive risks."
+  ],
+  "searches_run": [
+    "Lumipulse FDA recall plasma pTau217",
+    "site:reddit.com Lumipulse pTau217 recall",
+    "site:reddit.com Lumipulse pTau217 OR alzheimer"
+  ]
+}

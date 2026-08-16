@@ -1,0 +1,119 @@
+{
+  "fact_check": [
+    {
+      "fact": "Trial enrollment is 800 participants.",
+      "status": "verified",
+      "note": "Matches the registry record 'Enrollment: 800 (ESTIMATED)'."
+    },
+    {
+      "fact": "Target population requires a baseline MMSE of 22 or higher.",
+      "status": "verified",
+      "note": "Matches registry Inclusion Criteria: 'Screening MMSE score >= 22'."
+    },
+    {
+      "fact": "Primary outcome is change in CDR-SB at Week 72.",
+      "status": "verified",
+      "note": "Matches registry Primary Outcome Measures."
+    },
+    {
+      "fact": "Trontinemab passively crosses the blood-brain barrier due to its smaller size.",
+      "status": "corrected",
+      "note": "Trontinemab uses active transferrin receptor (TfR)-mediated transcytosis to cross the blood-brain barrier, rather than passive diffusion."
+    },
+    {
+      "fact": "Phase 1b/2a data showed 91% PET negative plaque clearance.",
+      "status": "unverified",
+      "note": "This statistic is heavily cited by media and investors, but is not present in this prospective registry document."
+    }
+  ],
+  "research_page": {
+    "slug": "trontinemab-trontier-2-registry",
+    "title": "TRONTIER 2: Trontinemab in early symptomatic AD (Phase 3)",
+    "description": "Registry protocol for a Phase 3 trial evaluating the transferrin receptor-binding anti-amyloid antibody trontinemab in 800 patients with early Alzheimer's disease.",
+    "tags": [
+      "trial",
+      "amyloid",
+      "immunotherapy",
+      "trontinemab",
+      "phase-3"
+    ],
+    "source_line_md": "**Source**: [ClinicalTrials.gov, 2025](https://clinicaltrials.gov/study/NCT07170150)",
+    "authors_line_md": "Hoffmann-La Roche",
+    "takeaway_md": "Roche is advancing its Brainshuttle anti-amyloid antibody, trontinemab, into a massive Phase 3 program. The TRONTIER 2 trial will evaluate cognitive outcomes over 72 weeks, seeking to prove that enhanced blood-brain barrier penetration translates to superior clinical efficacy.",
+    "key_findings_md": [
+      "The primary endpoint is change in the Clinical Dementia Rating-Sum of Boxes (CDR-SB) at Week 72 (registry record).",
+      "The target population requires confirmed amyloid pathology and a screening MMSE score of 22 or higher (registry record)."
+    ],
+    "methods_md": "Phase 3, multicenter, randomized, double-blind, placebo-controlled, parallel-group trial. Enrolling approximately 800 adults aged 50 to 90 with early symptomatic Alzheimer's disease. Treatment duration is 72 weeks.",
+    "trial_evidence_md": "[TRONTIER 2](/trials/trontinemab-nct07170150) is part of a broad late-stage clinical program for trontinemab. The rapid progression to Phase 3 prior to final Phase 1/2 peer-reviewed publication suggests robust interim biomarker data from the ongoing [Brainshuttle AD](/trials/trontinemab-nct04639050) trial.",
+    "sentiment_md": "Public and investor sentiment is highly optimistic, driven by early Phase 1b/2a biomarker data showing rapid amyloid clearance. However, enthusiasm sometimes outpaces evidence, with some retail investors prematurely assuming these biomarker improvements guarantee superior cognitive slowing before Phase 3 trials read out.",
+    "caveats_md": [
+      "This document is a prospective registry protocol, not a peer-reviewed report of clinical results.",
+      "The relationship between rapid amyloid clearance via Brainshuttle delivery and actual cognitive benefit remains unproven until Phase 3 completion."
+    ],
+    "relates_to_md": [
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Trontinemab targets amyloid clearance via a novel active-transport delivery mechanism."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "trontinemab-nct07170150",
+      "title": "TRONTIER 2",
+      "description": "Phase 3 trial evaluating the Brainshuttle antibody trontinemab in early symptomatic Alzheimer's disease.",
+      "badge": "Recruiting",
+      "tags": [
+        "trial",
+        "phase-3",
+        "amyloid",
+        "trontinemab"
+      ],
+      "registry_md": "[NCT07170150](https://clinicaltrials.gov/study/NCT07170150)",
+      "drug": "Trontinemab (TfR-mediated anti-amyloid antibody)",
+      "phase": "3",
+      "sponsor": "Hoffmann-La Roche",
+      "population": "Early symptomatic Alzheimer's disease (MCI to mild dementia)",
+      "primary_endpoint": "Change from baseline to Week 72 in CDR-SB",
+      "started": "2025-11",
+      "readout": "2028-06",
+      "why_md": "This trial aims to determine if the rapid amyloid clearance seen in early trontinemab studies translates to clinical cognitive benefit. By using a transferrin receptor 'Brainshuttle' mechanism, Roche hopes to achieve better efficacy and lower ARIA rates than first-generation anti-amyloid therapies.",
+      "status_log_md": [
+        "**2025-11-12** — Trial started recruiting based on [registry updates](https://clinicaltrials.gov/study/NCT07170150)."
+      ],
+      "results_md": null
+    },
+    {
+      "slug": "trontinemab-nct04639050",
+      "title": "Brainshuttle AD",
+      "description": "Phase 2 multiple ascending dose study of trontinemab in prodromal or mild to moderate Alzheimer's disease.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "phase-2",
+        "amyloid",
+        "trontinemab"
+      ],
+      "registry_md": "[NCT04639050](https://clinicaltrials.gov/study/NCT04639050)",
+      "drug": "Trontinemab (TfR-mediated anti-amyloid antibody)",
+      "phase": "2",
+      "sponsor": "Hoffmann-La Roche",
+      "population": "Prodromal or mild to moderate Alzheimer's disease",
+      "primary_endpoint": "Adverse events and change in brain amyloid load",
+      "started": "2021-03",
+      "readout": "2027-07",
+      "why_md": "As the foundational clinical study for Roche's Brainshuttle technology, this trial evaluates whether active transport via the transferrin receptor safely increases antibody penetration into the central nervous system.",
+      "status_log_md": [
+        "**2021-03** — Trial initiated."
+      ],
+      "results_md": null
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2025-11",
+      "title": "2025-11 — TRONTIER 2 begins",
+      "body_md": "Roche initiates [TRONTIER 2](/trials/trontinemab-nct07170150), a massive Phase 3 program evaluating the transferrin receptor-binding Brainshuttle antibody trontinemab in early Alzheimer's disease."
+    }
+  ],
+  "notes_for_editor": []
+}

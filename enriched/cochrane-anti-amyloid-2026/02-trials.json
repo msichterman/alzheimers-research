@@ -1,0 +1,148 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT03887455",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03887455",
+      "name": "Clarity AD",
+      "drug": "Lecanemab (anti-amyloid-beta monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "status": "Active",
+      "enrollment": 1906,
+      "population": "Participants With Early Alzheimer's Disease",
+      "primary_endpoint": "Change from Baseline in the CDR-SB at 18 Months",
+      "started": "2019-03",
+      "completed_or_readout": "2029-06",
+      "results_summary": "Results published in NEJM (2023) showed a statistically significant but numerically modest slowing of clinical decline on the CDR-SB scale at 18 months, with a notable incidence of ARIA.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04437511",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04437511",
+      "name": "TRAILBLAZER-ALZ 2",
+      "drug": "Donanemab (anti-amyloid-beta monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Active",
+      "enrollment": 1736,
+      "population": "Participants With Early Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline on the Integrated Alzheimer's Disease Rating Scale (iADRS) (Overall Population)",
+      "started": "2020-06",
+      "completed_or_readout": "2028-11",
+      "results_summary": "Results published in JAMA (2023) demonstrated a slowing of clinical and functional decline at 18 months, alongside substantial rates of ARIA.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02484547",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02484547",
+      "name": "EMERGE",
+      "drug": "Aducanumab (anti-amyloid-beta monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Biogen",
+      "status": "Terminated",
+      "enrollment": 1643,
+      "population": "Early Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline in Clinical Dementia Rating Scale - Sum of Boxes (CDR-SB) Score at Week 78",
+      "started": "2015-09",
+      "completed_or_readout": "2019-08",
+      "results_summary": "Trial was halted early for futility; later post-hoc analyses suggested marginal benefit in a high-dose subgroup, leading to controversial accelerated approval which was later discontinued.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02477800",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02477800",
+      "name": "ENGAGE",
+      "drug": "Aducanumab (anti-amyloid-beta monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Biogen",
+      "status": "Terminated",
+      "enrollment": 1653,
+      "population": "Early Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline in Clinical Dementia Rating Sum of Boxes (CDR-SB) Score at Week 78",
+      "started": "2015-08",
+      "completed_or_readout": "2019-08",
+      "results_summary": "Trial halted early for futility; failed to demonstrate a significant clinical benefit on the primary efficacy endpoint.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03444870",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03444870",
+      "name": "GRADUATE I",
+      "drug": "Gantenerumab (anti-amyloid-beta monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Hoffmann-La Roche",
+      "status": "Terminated",
+      "enrollment": 1053,
+      "population": "Participants With Early Alzheimer's Disease (AD)",
+      "primary_endpoint": "Change From Baseline to Week 116 in Global Outcome, as Measured by CDR-SB",
+      "started": "2018-06",
+      "completed_or_readout": "2023-02",
+      "results_summary": "Trial failed to meet its primary endpoint of significantly slowing clinical decline, resulting in the termination of the drug's development program.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03443973",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03443973",
+      "name": "GRADUATE II",
+      "drug": "Gantenerumab (anti-amyloid-beta monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Hoffmann-La Roche",
+      "status": "Terminated",
+      "enrollment": 975,
+      "population": "Participants With Early Alzheimer's Disease (AD)",
+      "primary_endpoint": "Change From Baseline to Week 116 in Global Outcome, as Measured by CDR-SB",
+      "started": "2018-08",
+      "completed_or_readout": "2022-11",
+      "results_summary": "Failed to meet the primary efficacy endpoint, leading to discontinuation of the clinical program.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01900665",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01900665",
+      "name": "EXPEDITION 3",
+      "drug": "Solanezumab (anti-amyloid-beta monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Terminated",
+      "enrollment": 2129,
+      "population": "Progress of Mild Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline in Alzheimer's Disease Assessment Scale-Cognitive 14 Item Subscore (ADAS-Cog14)",
+      "started": "2013-07",
+      "completed_or_readout": "2017-02",
+      "results_summary": "Trial failed to meet its primary endpoint; the drug did not significantly slow cognitive decline compared to placebo.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2023-01-05",
+      "kind": "paper",
+      "description": "Lecanemab in Early Alzheimer's Disease (Clarity AD results published in NEJM)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36449413/"
+    },
+    {
+      "date": "2023-08-08",
+      "kind": "paper",
+      "description": "Donanemab in Early Symptomatic Alzheimer Disease: The TRAILBLAZER-ALZ 2 Randomized Clinical Trial (published in JAMA)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37459141/"
+    },
+    {
+      "date": "2021-09-01",
+      "kind": "paper",
+      "description": "The Problem of Aducanumab for the Treatment of Alzheimer Disease (Editorial in Ann Intern Med analyzing the controversial FDA approval)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34138642/"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence record robustly supports the review's central claims regarding trivial absolute clinical benefits and concerning safety risks. While recent pivotal phase 3 trials for lecanemab (Clarity AD) and donanemab (TRAILBLAZER-ALZ 2) met their primary endpoints with statistical significance, the absolute differences on clinical scales were numerically small (e.g. fractional point differences on the 18-point CDR-SB scale) and fall below widely accepted thresholds for clinical meaningfulness. Furthermore, earlier programs involving aducanumab, gantenerumab, and solanezumab were terminated after failing to demonstrate efficacy. The registry records confirm a consistently high incidence of ARIA across the class, substantiating the authors' conclusion of an unfavorable risk-benefit profile for anti-amyloid monoclonal antibodies in early Alzheimer's disease.",
+  "discrepancies": [
+    "No factual discrepancies were found between the registry records and the Cochrane review's meta-analysis.",
+    "The review accurately reports and pools the clinical endpoint values that were published in primary readouts, accurately reflecting the small absolute effect sizes observed in these trials."
+  ]
+}

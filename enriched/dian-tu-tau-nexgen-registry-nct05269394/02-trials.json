@@ -1,0 +1,105 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT05269394",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05269394",
+      "name": "DIAN-TU",
+      "drug": "E2814, Lecanemab, Matching Placebo (E2814)",
+      "phase": "2/3",
+      "sponsor": "Washington University School of Medicine",
+      "status": "Active Not Recruiting",
+      "enrollment": 197,
+      "population": "Individuals aged 18-80 with a known Alzheimer's disease-causing genetic mutation, within -10 to +10 years of predicted or actual symptom onset",
+      "primary_endpoint": "Change from Week 24 to Week 104 and Week 208 in tau PET in the Symptomatic Population",
+      "started": "2021-12",
+      "completed_or_readout": "2028-04",
+      "results_summary": null,
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT06602258",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06602258",
+      "name": "E2814 With Concurrent Lecanemab in Early AD",
+      "drug": "E2814, Lecanemab, Placebo",
+      "phase": "2",
+      "sponsor": "Eisai Inc.",
+      "status": "Active Not Recruiting",
+      "enrollment": 105,
+      "population": "Participants diagnosed with mild cognitive impairment (MCI) due to AD-intermediate likelihood or mild AD dementia",
+      "primary_endpoint": "Change From Baseline in CSF MTBR-tau-243 at 6 Months",
+      "started": "2024-09",
+      "completed_or_readout": "2026-12",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01760005",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01760005",
+      "name": "DIAN-TU Master Protocol",
+      "drug": "Gantenerumab, Solanezumab, E2814, Lecanemab",
+      "phase": "2/3",
+      "sponsor": "Washington University School of Medicine",
+      "status": "Active Not Recruiting",
+      "enrollment": 490,
+      "population": "Individuals at risk for or with a type of early onset AD caused by a genetic mutation (DIAD)",
+      "primary_endpoint": "Assess cognitive efficacy as measured by the change from baseline in the DIAN-Multivariate Cognitive Endpoint (DIAN-MCE)",
+      "started": "2012-12",
+      "completed_or_readout": "2028-04",
+      "results_summary": "Initial cohorts evaluating Gantenerumab and Solanezumab failed to meet the primary cognitive endpoint in 2020. The platform subsequently added the E2814 and Lecanemab arms.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04971733",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04971733",
+      "name": "Phase 1b/2 E2814 in DIAD",
+      "drug": "E2814",
+      "phase": "1",
+      "sponsor": "Eisai Inc.",
+      "status": "Completed",
+      "enrollment": 8,
+      "population": "Participants with mild to moderate cognitive impairment due to dominantly inherited Alzheimer's disease",
+      "primary_endpoint": "Number of Participants With Treatment-emergent Adverse Events (TEAEs) and Serious TEAEs",
+      "started": "2021-06",
+      "completed_or_readout": "2024-05",
+      "results_summary": "Etalanetug (E2814) was well-tolerated in DIAD participants, successfully engaging targets by reducing CSF ptau217 by 57.9% at 108 weeks and MTBR-tau243 by 71.6% at 36 weeks. Preliminary tau PET indicated stability without further accumulation over 108 weeks.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04231513",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04231513",
+      "name": "Phase 1 E2814 in Healthy Participants",
+      "drug": "E2814",
+      "phase": "1",
+      "sponsor": "Eisai Inc.",
+      "status": "Completed",
+      "enrollment": 72,
+      "population": "Healthy participants",
+      "primary_endpoint": "Number of Participants With Treatment-emergent Adverse Events (TEAEs) and Serious Adverse Events (SAEs)",
+      "started": "2019-12",
+      "completed_or_readout": "2023-03",
+      "results_summary": "Etalanetug (E2814) was safe and well-tolerated following single and multiple infusions. It demonstrated target engagement by binding to MTBR tau species with minimal immunogenicity.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2026-04",
+      "kind": "paper",
+      "description": "Phase 1b/2 study results of Etalanetug (E2814) in dominantly inherited Alzheimer's disease demonstrating safety and target engagement.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41964075/"
+    },
+    {
+      "date": "2025-07",
+      "kind": "paper",
+      "description": "Phase 1 First-in-human (FIH) study results of Etalanetug (E2814) in healthy subjects showing it was safe, well-tolerated, and engaged target MTBR tau.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40673737/"
+    }
+  ],
+  "evidence_assessment": "The core hypothesis that combining the anti-MTBR tau antibody E2814 (etalanetug) with lecanemab could slow or prevent neurodegeneration in dominantly inherited Alzheimer's disease (DIAD) remains untested, as the Phase II/III DIAN-TU platform trial (NCT05269394) is currently active and not yet completed. However, preliminary Phase 1b data (NCT04971733) indicates that E2814 monotherapy is well-tolerated in DIAD populations and successfully engages its target, substantially reducing CSF ptau217 and MTBR-tau243 levels. These biomarker improvements correspond with early stability in tau PET signals, supporting the drug's mechanism of action prior to the availability of longitudinal clinical efficacy data. The combination strategy is also being evaluated in sporadic early Alzheimer's disease in a separate Phase 2 trial (NCT06602258).",
+  "discrepancies": []
+}

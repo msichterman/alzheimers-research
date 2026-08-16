@@ -1,0 +1,74 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT01872598",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01872598",
+      "name": "AB09004",
+      "drug": "Masitinib (tyrosine kinase inhibitor)",
+      "phase": "3",
+      "sponsor": "AB Science",
+      "status": "Completed",
+      "enrollment": 721,
+      "population": "Patients aged ≥50 years with mild to moderate Alzheimer's disease (MMSE 12-25) treated with standard of care",
+      "primary_endpoint": "Change in ADCS-ADL and ADAS-Cog at 24 weeks",
+      "started": "2012-01",
+      "completed_or_readout": "2020-12",
+      "results_summary": "The 4.5 mg/kg/day arm showed significant cognitive benefit on the ADAS-Cog endpoint but failed to reach significance on the ADCS-ADL functional endpoint. The 6.0 mg/kg/day escalating dose arm failed to show a significant effect on either measure.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05564169",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05564169",
+      "name": "AB21004",
+      "drug": "Masitinib (tyrosine kinase inhibitor)",
+      "phase": "3",
+      "sponsor": "AB Science",
+      "status": "Unknown",
+      "enrollment": 600,
+      "population": "Patients with mild Alzheimer's disease (MMSE 21-25) with a positive amyloid/tau biomarker profile",
+      "primary_endpoint": "Absolute change from baseline in iADRS score at week 24",
+      "started": "2026-06",
+      "completed_or_readout": "2028-12",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT00976118",
+      "registry_url": "https://clinicaltrials.gov/study/NCT00976118",
+      "name": "AB04024",
+      "drug": "Masitinib (tyrosine kinase inhibitor)",
+      "phase": "2",
+      "sponsor": "AB Science",
+      "status": "Completed",
+      "enrollment": 34,
+      "population": "Adults with mild to moderate Alzheimer's disease (MMSE 12-26)",
+      "primary_endpoint": "Change from baseline in ADAS-Cog at week 24",
+      "started": "2006-02",
+      "completed_or_readout": "2009-02",
+      "results_summary": "Published results suggested masitinib as an adjunct therapy may provide some cognitive benefit with an acceptable safety profile, serving as proof-of-concept for the larger Phase 3 trial.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2011-04-19",
+      "kind": "paper",
+      "description": "Phase 2 trial (AB04024) results published in Alzheimer's Research & Therapy",
+      "url": "https://doi.org/10.1186/alzrt75"
+    },
+    {
+      "date": "2023-02-28",
+      "kind": "paper",
+      "description": "Phase 3 trial (AB09004) results published in Alzheimer's Research & Therapy",
+      "url": "https://doi.org/10.1186/s13195-023-01169-x"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence supporting masitinib for mild-to-moderate Alzheimer's disease is currently weak and highly uncertain. The document highlights the Phase 3 AB09004 trial, which claimed efficacy at 4.5 mg/kg/day but failed at the higher 6.0 mg/kg/day dose. The trial's positive finding relies heavily on a controversial late protocol amendment that changed the outcome measures from co-primary to independent primary endpoints, allowing success to be declared based on ADAS-Cog alone, alongside a concerning 34.5% dropout rate in the treatment arm and a lack of biomarker confirmation. Recognizing these limitations, the sponsor has registered a confirmatory Phase 3 trial (AB21004) restricted to mild Alzheimer's patients with required amyloid/tau biomarker confirmation and a composite primary endpoint (iADRS). Until this more rigorously designed trial produces positive results, the efficacy of masitinib in Alzheimer's disease remains unproven.",
+  "discrepancies": [
+    "The registry description for NCT01872598 explicitly defines ADCS-ADL and ADAS-Cog as 'co-primary' outcome measures (requiring both to be met for full success), whereas the document reveals a late protocol amendment split them into multiple independent primary endpoints, allowing the trial to claim success based solely on the ADAS-Cog result.",
+    "The document states a final trial enrollment of 718 participants, but the registry records 721."
+  ]
+}

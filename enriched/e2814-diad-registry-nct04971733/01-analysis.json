@@ -1,0 +1,73 @@
+{
+  "kind": "other",
+  "title": "A Study to Assess Safety and Target Engagement of E2814 in Participants With Mild to Moderate Cognitive Impairment Due to Dominantly Inherited Alzheimer's Disease",
+  "authors": [],
+  "first_author": "Not specified",
+  "venue": "ClinicalTrials.gov",
+  "published": "2021-07",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "tau",
+    "immunotherapy",
+    "biomarkers",
+    "genetics",
+    "e2814",
+    "diad"
+  ],
+  "themes": [
+    "Dominantly Inherited Alzheimer's Disease (DIAD)",
+    "Anti-tau monoclonal antibodies",
+    "Drug safety and tolerability",
+    "Cerebrospinal fluid (CSF) biomarkers",
+    "Target engagement"
+  ],
+  "one_line": "An open-label phase 1b/2 trial evaluating the safety, pharmacokinetics, and target engagement of the anti-tau monoclonal antibody E2814 in eight participants with dominantly inherited Alzheimer's disease.",
+  "summary": "This document is a ClinicalTrials.gov registry entry detailing the results of an open-label Phase 1b/2 study (NCT04971733) sponsored by Eisai Inc. The trial evaluated E2814, an investigational anti-tau monoclonal antibody, in 8 participants with mild to moderate cognitive impairment due to dominantly inherited Alzheimer's disease (DIAD). Participants received intravenous infusions of E2814 at dosages ranging from 750 mg to 4500 mg. Primary outcomes focused on safety, revealing treatment-emergent adverse events in all dosage groups, with three severe adverse events reported at higher doses (3000 mg and 4500 mg). Secondary outcomes measured target engagement and biomarker changes, demonstrating dose-dependent increases in CSF E2814 concentrations and substantial longitudinal reductions in CSF biomarkers including MTBR-tau243, p-tau181, p-tau205, and p-tau217.",
+  "key_claims": [
+    {
+      "claim": "E2814 demonstrates target engagement by substantially reducing levels of specific pathological tau species in the cerebrospinal fluid over time.",
+      "evidence": "CSF concentrations showed pronounced mean reductions from baseline at Day 757, including -381 for MTBR-tau243, -422.60 for p-tau217, and -606.64 for p-tau181.",
+      "strength": "strong",
+      "location": "SECONDARY: Cohort A: Change From Baseline in CSF Concentrations..."
+    },
+    {
+      "claim": "E2814 administration is associated with treatment-emergent adverse events, including serious adverse events at higher dosage tiers.",
+      "evidence": "Serious TEAEs were observed in 2 out of 8 participants in the 3000 mg cohort (cerebral venous sinus thrombosis, seizure) and 1 out of 4 in the 4500 mg cohort (arthritis, lower respiratory tract infection).",
+      "strength": "strong",
+      "location": "Adverse events"
+    }
+  ],
+  "methods": {
+    "design": "Open-label, interventional Phase 1b/2 trial",
+    "n": 8,
+    "population": "Adults aged 18-80 with mild to moderate cognitive impairment due to dominantly inherited Alzheimer's disease (mutation positive for PSEN1, APP, or PSEN2)",
+    "duration": "Up to 120 weeks",
+    "registration": "NCT04971733"
+  },
+  "funding_and_conflicts": "Lead sponsor: Eisai Inc.",
+  "limitations": [
+    "Extremely small sample size (n=8 actual enrollment) limits statistical power and generalizability",
+    "Open-label design introduces potential expectation bias and lacks a placebo comparison group",
+    "Some biomarker data is missing for specific time points or dose groups"
+  ],
+  "red_flags": [
+    "Only 8 participants were enrolled across multiple distinct dosing phases (750 mg to 4500 mg), making it difficult to confidently attribute rare serious adverse events or specific biomarker trajectories to the drug."
+  ],
+  "parse_quality": {
+    "score": 9,
+    "issues": [
+      "The term 'spread' is used generically in the data output for variance/dispersion, rather than specifying whether the values represent standard deviation (SD), standard error (SE), or confidence intervals."
+    ]
+  },
+  "search_verification": []
+}

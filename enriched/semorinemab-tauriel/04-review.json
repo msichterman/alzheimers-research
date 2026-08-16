@@ -1,0 +1,107 @@
+{
+  "fact_check": [
+    {
+      "fact": "457 participants were randomized in the trial.",
+      "status": "verified",
+      "note": "Verified against the abstract and methods section of the source document."
+    },
+    {
+      "fact": "Similar increases on the CDR-SB score were seen in placebo (2.19 points) and semorinemab arms (2.36 to 2.41 points).",
+      "status": "verified",
+      "note": "Verified against the efficacy results in the source document."
+    },
+    {
+      "fact": "The trial completed or read out in 2021-01.",
+      "status": "corrected",
+      "note": "The source document notes the 73-week blinded portion concluded on July 16, 2020. The 2021-01 date provided by the trials researcher likely reflects the termination of the open-label extension and primary data readout."
+    },
+    {
+      "fact": "Genentech discontinued clinical development of semorinemab in February 2024.",
+      "status": "unverified",
+      "note": "Unverified within the 2022 source text, but consistent with the external findings provided by the sentiment and clinical-trials researchers. Added to timeline."
+    }
+  ],
+  "research_page": {
+    "slug": "semorinemab-tauriel",
+    "title": "Semorinemab in prodromal-to-mild AD (Tauriel)",
+    "description": "A Phase 2 trial demonstrating that the anti-tau antibody semorinemab was safe but failed to slow clinical decline or tau accumulation in early Alzheimer's disease.",
+    "tags": [
+      "paper",
+      "trial",
+      "tau",
+      "immunotherapy",
+      "semorinemab"
+    ],
+    "source_line_md": "**Source**: [JAMA Neurology, 2022](https://doi.org/10.1001/jamaneurol.2022.1375) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/35696185/)",
+    "authors_line_md": "Edmond Teng et al. — Genentech, Inc.",
+    "takeaway_md": "The Phase 2 Tauriel trial found that the N-terminal anti-tau monoclonal antibody semorinemab did not slow clinical decline or cerebral tau accumulation in patients with prodromal to mild Alzheimer's disease. While biomarker data indicated the drug successfully engaged its target in plasma and CSF, these biological effects did not translate into clinical benefit.",
+    "key_findings_md": [
+      "Semorinemab yielded no significant clinical benefit on the primary endpoint (CDR-SB), with the placebo group declining by 2.19 points and treatment groups declining by 2.36 to 2.41 points over 73 weeks (paper, Results).",
+      "The drug failed to reduce cerebral tau accumulation, as measured by [18F]GTP1 tau PET imaging, with all arms showing similar increases (paper, Results).",
+      "Dose-dependent increases in plasma total tau and modest declines in CSF tau indices indicated the drug engaged its target in both the periphery and central nervous system (paper, Results).",
+      "The antibody demonstrated an acceptable safety profile, with similar overall rates of adverse events between the placebo (93.1%) and semorinemab (88.8% to 94.7%) arms (paper, Results)."
+    ],
+    "methods_md": "Phase 2 randomized, double-blind, placebo-controlled trial across 97 sites. Enrolled 457 individuals aged 50-80 with prodromal to mild Alzheimer's disease and confirmed amyloid pathology. Participants received intravenous placebo or semorinemab (1500 mg, 4500 mg, or 8100 mg) for 73 weeks. Trial registered as NCT03289143.",
+    "trial_evidence_md": "Tauriel ([NCT03289143](/trials/semorinemab-tauriel-nct03289143)) provided definitive evidence that targeting the N-terminus of tau with semorinemab does not slow early Alzheimer's disease. A parallel Phase 2 trial in a moderate AD population, [Lauriet](/research/papers/semorinemab-lauriet), was also formally negative on its functional coprimary endpoint. Genentech subsequently discontinued clinical development of the drug.",
+    "sentiment_md": "Public perception is exceptionally quiet among patient and caregiver communities, as the drug failed its efficacy endpoints and development was halted. Within the scientific community, semorinemab is critically discussed as a pivotal case study illustrating the disconnect between biological target engagement (lowering CSF tau) and clinical outcomes.",
+    "caveats_md": [
+      "The study relied on remote clinical assessments for some participants after March 2020 due to the COVID-19 pandemic, though sensitivity analyses found this did not alter the primary outcomes.",
+      "Small sample sizes for longitudinal CSF data limited the power of post hoc analyses on tau biomarker changes.",
+      "The trial population was predominantly White (91.9%), restricting the generalizability of the findings to more diverse populations."
+    ],
+    "relates_to_md": [
+      "[Tauriel Trial](/trials/semorinemab-tauriel-nct03289143) — The central clinical trial reported in this paper.",
+      "[Semorinemab Lauriet Trial](/research/papers/semorinemab-lauriet) — Parallel Phase 2 trial of semorinemab in moderate Alzheimer's disease.",
+      "[Biomarkers](/research/biomarkers) — Relevant context for the disconnect between tau target engagement and clinical efficacy."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "semorinemab-tauriel-nct03289143",
+      "title": "Tauriel: Semorinemab in Prodromal-to-Mild AD",
+      "description": "Phase 2 trial evaluating the N-terminal anti-tau antibody semorinemab in prodromal to mild Alzheimer's disease.",
+      "badge": "Terminated",
+      "tags": [
+        "trial",
+        "phase-2",
+        "semorinemab",
+        "tau",
+        "terminated"
+      ],
+      "registry_md": "[NCT03289143](https://clinicaltrials.gov/study/NCT03289143)",
+      "drug": "Semorinemab (N-terminal anti-tau monoclonal antibody)",
+      "phase": "Phase 2",
+      "sponsor": "Genentech, Inc.",
+      "population": "Individuals aged 50-80 with prodromal to mild Alzheimer's disease and confirmed amyloid pathology (N=457).",
+      "primary_endpoint": "Change from baseline on the Clinical Dementia Rating-Sum of Boxes (CDR-SB) score at week 73.",
+      "started": "2017-10",
+      "readout": "2020-07",
+      "why_md": "Tauriel was designed to test whether targeting the N-terminal domain of the tau protein with semorinemab could slow or stop the spread of tau pathology and clinical decline in early Alzheimer's disease. Its failure raised critical questions about the viability of N-terminal anti-tau immunotherapies.",
+      "status_log_md": [
+        "**2017-10-18** — Trial begins enrollment.",
+        "**2020-07-16** — Double-blind study period completes.",
+        "**2021-01** — Open-label extension terminated following negative primary efficacy analysis.",
+        "**2022-06** — Comprehensive trial results published in [JAMA Neurology](/research/papers/semorinemab-tauriel).",
+        "**2024-02** — Genentech officially discontinues the clinical development program for semorinemab."
+      ],
+      "results_md": "The trial completely failed to show clinical efficacy on its primary and secondary endpoints. Semorinemab did not slow cognitive or functional decline, nor did it reduce cerebral tau accumulation on PET scans. Due to the lack of efficacy, the trial's open-label extension was terminated."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Clinical Trial Readouts",
+      "date": "2021-01",
+      "title": "2021-01 — Semorinemab Phase 2 Tauriel trial fails",
+      "body_md": "The Phase 2 Tauriel trial of the anti-tau antibody semorinemab in prodromal-to-mild AD [reports negative results](/research/papers/semorinemab-tauriel), failing to slow clinical decline and leading to the termination of its open-label extension."
+    },
+    {
+      "section": "Clinical Trial Readouts",
+      "date": "2024-02",
+      "title": "2024-02 — Semorinemab clinical development discontinued",
+      "body_md": "Following the clinical failures of both the Tauriel and Lauriet trials, Genentech formally discontinues development of the N-terminal anti-tau antibody [semorinemab](/research/papers/semorinemab-tauriel)."
+    }
+  ],
+  "notes_for_editor": [
+    "The clinical trials researcher flagged the Tauriel completion/readout date as 2021-01, but the published paper states the 73-week blinded portion concluded on July 16, 2020. The 2021-01 date likely refers to the termination of the open-label extension and the public readout. Both dates have been incorporated into the trial's status log for clarity."
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT01855152",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01855152",
+      "name": "WHELD",
+      "drug": "Person-centred care and activities (Non-pharmacological)",
+      "phase": "n/a",
+      "sponsor": "King's College London",
+      "status": "Unknown",
+      "enrollment": 1000,
+      "population": "People with dementia living in nursing homes",
+      "primary_endpoint": "Quality of Life (DEMQOL-proxy)",
+      "started": "2013-08",
+      "completed_or_readout": "2015-03",
+      "results_summary": "The WHELD intervention significantly improved quality of life and reduced agitation and neuropsychiatric symptoms compared to usual care. It also reduced the use of antipsychotic medications in nursing home residents with dementia.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT00259467",
+      "registry_url": "https://clinicaltrials.gov/study/NCT00259467",
+      "name": "Project TAP",
+      "drug": "Tailored Activity Program (Non-pharmacological)",
+      "phase": "1",
+      "sponsor": "Thomas Jefferson University",
+      "status": "Completed",
+      "enrollment": 60,
+      "population": "Older adults with dementia and their family caregivers",
+      "primary_endpoint": "Behavioral occurrence",
+      "started": "2004-02",
+      "completed_or_readout": "2007-01",
+      "results_summary": "The Tailored Activity Program (TAP) reduced the frequency and severity of dementia-related behaviors and improved caregiver well-being by providing personalized activities based on the patient's preserved capabilities.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "ISRCTN10416500",
+      "registry_url": "https://www.isrctn.com/ISRCTN10416500",
+      "name": "DAPA",
+      "drug": "Moderate to high intensity aerobic and strength exercise (Non-pharmacological)",
+      "phase": "n/a",
+      "sponsor": "University of Warwick",
+      "status": "Completed",
+      "enrollment": 494,
+      "population": "People with mild to moderate dementia living in the community",
+      "primary_endpoint": "Alzheimer's disease assessment scale-cognitive subscale (ADAS-cog) at 12 months",
+      "started": null,
+      "completed_or_readout": "2018-05",
+      "results_summary": "The exercise training program improved physical fitness but did not slow cognitive impairment. Cognitive scores were slightly worse in the exercise group, and there were no meaningful improvements in secondary clinical outcomes or activities of daily living.",
+      "relation_to_document": "reported-here",
+      "verified": "secondary-source"
+    },
+    {
+      "nct_id": "ISRCTN15320670",
+      "registry_url": "https://www.isrctn.com/ISRCTN15320670",
+      "name": "PrAISED (Harwood)",
+      "drug": "Intensive exercise and functional activity training (Non-pharmacological)",
+      "phase": "n/a",
+      "sponsor": "University of Nottingham",
+      "status": "Completed",
+      "enrollment": 365,
+      "population": "Adults with early dementia or mild cognitive impairment living at home",
+      "primary_endpoint": "Disability assessment for dementia scale at 12 months",
+      "started": null,
+      "completed_or_readout": "2023-08",
+      "results_summary": "The intensive PrAISED program did not improve activities of daily living, physical activity, or quality of life compared to usual care. It also did not significantly reduce falls or improve other secondary health status outcomes.",
+      "relation_to_document": "reported-here",
+      "verified": "secondary-source"
+    },
+    {
+      "nct_id": "NTR5035",
+      "registry_url": "https://trialsearch.who.int/Trial2.aspx?TrialID=NTR5035",
+      "name": "Sanders Exercise Trial",
+      "drug": "Low- and high-intensity physical exercise (Non-pharmacological)",
+      "phase": "n/a",
+      "sponsor": "University of Groningen",
+      "status": "Completed",
+      "enrollment": 91,
+      "population": "Older persons with all-cause dementia",
+      "primary_endpoint": "Physical and cognitive function over 24 weeks",
+      "started": "2015-03",
+      "completed_or_readout": "2020-03",
+      "results_summary": "The exercise program improved gait speed compared to control, but the effect dissipated after detraining. There were no beneficial effects of exercise on global cognition, verbal/visual memory, executive function, mobility, or balance.",
+      "relation_to_document": "reported-here",
+      "verified": "secondary-source"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2024-08",
+      "kind": "paper",
+      "description": "Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission",
+      "url": "https://doi.org/10.1016/s0140-6736(24)01296-0"
+    },
+    {
+      "date": "2018-02-06",
+      "kind": "paper",
+      "description": "WHELD cluster-randomized controlled trial results published in PLoS Medicine",
+      "url": "https://doi.org/10.1371/journal.pmed.1002500"
+    },
+    {
+      "date": "2018-05-16",
+      "kind": "paper",
+      "description": "DAPA randomized controlled trial results published in the BMJ",
+      "url": "https://doi.org/10.1136/bmj.k1675"
+    },
+    {
+      "date": "2023-08-29",
+      "kind": "paper",
+      "description": "PrAISED (Harwood) randomized controlled trial results published in the BMJ",
+      "url": "https://doi.org/10.1136/bmj-2023-074787"
+    },
+    {
+      "date": "2020-03-19",
+      "kind": "paper",
+      "description": "Sanders trial results on low- and high-intensity physical exercise published in Alzheimer's Research & Therapy",
+      "url": "https://doi.org/10.1186/s13195-020-00597-3"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence strongly supports the document's claims regarding the efficacy of non-pharmacological interventions for dementia. Multicenter randomized controlled trials (like WHELD and TAP) demonstrate that personalized, multidomain activity and wellbeing programs successfully improve quality of life and reduce behavioral symptoms such as agitation. Conversely, rigorous RCTs focused exclusively on physical exercise (DAPA, PrAISED, and the Sanders trial) consistently show no meaningful benefits for cognitive function or activities of daily living in dementia patients. The Lancet Commission accurately summarizes this dichotomy in the clinical evidence base.",
+  "discrepancies": [
+    "The document's claims perfectly align with the published RCT readouts; there are no major discrepancies between the Lancet Commission's conclusions and the trial records.",
+    "Note on registry status: ClinicalTrials.gov lists the WHELD trial (NCT01855152) with an 'Unknown' status because it was not updated after 2013, but peer-reviewed publications confirm the study was fully completed and successfully read out."
+  ]
+}

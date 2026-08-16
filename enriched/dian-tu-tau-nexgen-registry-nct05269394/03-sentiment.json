@@ -1,0 +1,68 @@
+{
+  "overall": "hopeful",
+  "summary": "Public sentiment surrounding the E2814 (etalanetug) and lecanemab combination therapy is largely hopeful, particularly among patients and families affected by dominantly inherited Alzheimer's disease (DIAD). Participants enrolled in the DIAN-TU trial frequently discuss their experiences on Reddit, viewing the 'double whammy' approach of targeting both amyloid and tau as a logical and promising defense against the disease. Science media and researchers at Alzforum are cautiously optimistic, focusing on the mechanistic rationale of attacking the MTBR tau core alongside amyloid clearance. Meanwhile, mainstream and investor focus remains heavily skewed toward the already-approved anti-amyloid drug lecanemab, with E2814 primarily recognized as an experimental pipeline asset. Early biomarker data presented at recent conferences has bolstered enthusiasm, though definitive clinical cognitive efficacy remains unproven.",
+  "communities": [
+    {
+      "community": "Patients and Caregivers (r/Alzheimers)",
+      "sentiment": "hopeful",
+      "themes": [
+        "Desperation for preventative therapies for genetic Alzheimer's",
+        "Excitement over 'double whammy' combination approaches",
+        "Willingness to endure trial burdens for a chance at slowed decline"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/comments/1cfbkkc/neurologist_prescribed_leqembi/",
+        "https://www.reddit.com/r/Alzheimers/comments/1mvi0cr/i_believe_strongly_we_should_follow_the/"
+      ]
+    },
+    {
+      "community": "Scientific and Medical Community (Alzforum, r/neurology)",
+      "sentiment": "mixed",
+      "themes": [
+        "Strong mechanistic interest in targeting the MTBR tau region",
+        "Debate over the clinical meaningfulness of biomarker changes",
+        "Caution regarding the lack of finalized Phase III cognitive outcomes"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/research-news/aiming-tangles-heart-dian-tu-trial-torpedo-taus-core",
+        "https://www.reddit.com/r/neurology/comments/145mv5c/advisory_panel_recommends_approval_of_lecanemab_60/"
+      ]
+    },
+    {
+      "community": "Retail Investors (r/stocks)",
+      "sentiment": "quiet",
+      "themes": [
+        "Heavy focus on Biogen/Eisai's lecanemab revenues rather than E2814",
+        "Broad tracking of the broader 'Alzheimer's treatment race' among large pharma"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/stocks/comments/ycd4zq/alzheimers_treatment_race/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Alzforum",
+      "tone": "positive",
+      "date": "2021-03",
+      "url": "https://www.alzforum.org/news/research-news/aiming-tangles-heart-dian-tu-trial-torpedo-taus-core"
+    },
+    {
+      "outlet": "Eisai / Corporate News",
+      "tone": "positive",
+      "date": "2026-07",
+      "url": "https://www.eisai.com/news/2026/news202639.html"
+    }
+  ],
+  "hype_vs_evidence": "There is a notable gap between the clinical evidence and patient expectations regarding the combination of E2814 and lecanemab. While the DIAN-TU trial is still active and has not published definitive cognitive efficacy results for the combination, patients on forums frequently project the population-level cognitive slowing seen in isolated anti-amyloid trials directly onto their personal disease trajectories. Furthermore, recent biomarker successes—such as reductions in plasma MTBR-tau243—are often interpreted by the public as guaranteed clinical protection. The hypothesis that this combination prevents or slows neurodegeneration remains an unproven investigational premise.",
+  "misinformation_flags": [
+    "Patients equating population-average statistical slowing (e.g., 27% less decline) to an individual guarantee of slowing their personal disease progression by that exact metric.",
+    "Premature claims that the combination of E2814 and lecanemab actively prevents Alzheimer's onset, which is currently just the unproven hypothesis of the ongoing DIAN-TU trial."
+  ],
+  "searches_run": [
+    "site:reddit.com \"E2814\" OR (\"DIAN-TU\" lecanemab)",
+    "site:reddit.com/r/investing OR site:reddit.com/r/stocks Eisai \"E2814\" OR \"lecanemab\"",
+    "site:alzforum.org \"E2814\"",
+    "\"E2814\" Eisai alzheimer news"
+  ]
+}

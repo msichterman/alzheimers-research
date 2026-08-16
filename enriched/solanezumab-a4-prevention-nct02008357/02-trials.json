@@ -1,0 +1,94 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT02008357",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02008357",
+      "name": "A4 Study",
+      "drug": "Solanezumab",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Completed",
+      "enrollment": 1169,
+      "population": "Adults aged 65 to 85 with normal cognition but elevated brain amyloid on PET scans (preclinical Alzheimer's disease)",
+      "primary_endpoint": "Change From Baseline of the Preclinical Alzheimer Cognitive Composite (PACC) Score",
+      "started": "2014-02",
+      "completed_or_readout": "2023-06",
+      "results_summary": "Solanezumab did not significantly slow cognitive decline on the PACC score compared to placebo over 240 weeks, nor did it show clinical benefit on secondary cognitive and functional endpoints.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01900665",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01900665",
+      "name": "EXPEDITION 3",
+      "drug": "Solanezumab",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Terminated",
+      "enrollment": 2129,
+      "population": "Mild Alzheimer's disease",
+      "primary_endpoint": "Change From Baseline in Alzheimer's Disease Assessment Scale-Cognitive 14 Item Subscore (ADAS-Cog14)",
+      "started": "2013-07",
+      "completed_or_readout": "2017-02",
+      "results_summary": "The study was terminated early after failing to meet its primary endpoint; solanezumab did not significantly slow cognitive decline compared to placebo in patients with mild AD.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01760005",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01760005",
+      "name": "DIAN-TU-001",
+      "drug": "Solanezumab / Gantenerumab",
+      "phase": "2/3",
+      "sponsor": "Washington University School of Medicine",
+      "status": "Active, not recruiting",
+      "enrollment": 490,
+      "population": "Individuals at risk for or with early onset dominantly inherited Alzheimer's disease caused by a genetic mutation",
+      "primary_endpoint": "Change from baseline in the DIAN-Multivariate Cognitive Endpoint (DIAN-MCE)",
+      "started": "2012-12",
+      "completed_or_readout": "2028-07",
+      "results_summary": "Neither solanezumab nor gantenerumab significantly slowed cognitive decline on the DIAN-MCE compared to placebo in patients with dominantly inherited Alzheimer's disease.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT00905372",
+      "registry_url": "https://clinicaltrials.gov/study/NCT00905372",
+      "name": "EXPEDITION 1",
+      "drug": "Solanezumab",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Completed",
+      "enrollment": 1000,
+      "population": "Mild to moderate Alzheimer's disease",
+      "primary_endpoint": "Change from baseline to endpoint in Alzheimer's Disease Assessment Scale-Cognitive subscore (ADAS-Cog11)",
+      "started": "2009-05",
+      "completed_or_readout": "2012-04",
+      "results_summary": "Solanezumab failed to show a significant slowing of cognitive or functional decline compared to placebo in patients with mild-to-moderate Alzheimer's disease.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2023-09-21",
+      "kind": "paper",
+      "description": "Primary peer-reviewed publication of the A4 Study results in the New England Journal of Medicine.",
+      "url": "https://doi.org/10.1056/NEJMoa2305032"
+    },
+    {
+      "date": "2021-07",
+      "kind": "paper",
+      "description": "Results of the DIAN-TU-001 trial showing solanezumab and gantenerumab failed to slow cognitive decline in dominantly inherited AD, published in Nature Medicine.",
+      "url": "https://doi.org/10.1038/s41591-021-01369-8"
+    },
+    {
+      "date": "2023-12-28",
+      "kind": "registry-results",
+      "description": "Posted results for the A4 Study on ClinicalTrials.gov.",
+      "url": "https://clinicaltrials.gov/study/NCT02008357"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence strongly supports the document's central claim that solanezumab does not slow cognitive or functional decline in asymptomatic older adults with preclinical Alzheimer's disease. The Phase 3 A4 study (NCT02008357) was a large, well-designed, quadruple-masked trial that definitively failed to meet its primary and secondary clinical endpoints despite evidence of target engagement via CSF biomarkers. This failure adds to the extensive record of unsuccessful solanezumab trials across the Alzheimer's disease continuum, including earlier failures in mild-to-moderate AD (EXPEDITION 1, 2, and 3) and in dominantly inherited AD (DIAN-TU-001). Consequently, Eli Lilly discontinued the clinical development of solanezumab in 2023.",
+  "discrepancies": []
+}

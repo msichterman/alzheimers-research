@@ -1,0 +1,57 @@
+{
+  "kind": "other",
+  "title": "Source documents",
+  "authors": [],
+  "first_author": null,
+  "venue": null,
+  "published": null,
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "provenance",
+    "licensing",
+    "repository-management"
+  ],
+  "themes": [
+    "Knowledge base management",
+    "Document provenance",
+    "Open access licensing requirements"
+  ],
+  "one_line": "A README document outlining the provenance chain and licensing requirements for storing source documents in an Alzheimer's disease repository.",
+  "summary": "This document serves as a README for the 'sources' directory of a knowledge base repository. It explains the document provenance chain, showing how original files are parsed into Markdown, enriched by agents, and eventually published as documentation pages. A strict policy is established that only documents with licenses permitting redistribution may be stored directly in the repository, while others must be processed locally. The document includes a table referencing two example source files (a review on P. gingivalis and a phase 2/3 study on Buntanetap) along with their respective Open Access licenses. It concludes by noting that author attributions and conflict of interest data are extracted into separate JSON files during the enrichment phase.",
+  "key_claims": [
+    {
+      "claim": "Documents are kept in the repository only if their licenses permit redistribution.",
+      "evidence": "Stated as a repository management rule.",
+      "strength": "not-supported",
+      "location": "Paragraph 2"
+    }
+  ],
+  "methods": {
+    "design": null,
+    "n": null,
+    "population": null,
+    "duration": null,
+    "registration": null
+  },
+  "funding_and_conflicts": "none stated",
+  "limitations": [
+    "The provided document is a repository README file, not a scientific research paper, making standard clinical or methodological limitations inapplicable."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 10,
+    "issues": [
+      "No PDF conversion artifacts observed; the text appears to be natively written Markdown rather than a converted PDF."
+    ]
+  },
+  "search_verification": []
+}

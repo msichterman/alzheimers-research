@@ -1,0 +1,132 @@
+{
+  "fact_check": [
+    {
+      "fact": "At month 18, Amyloid PET changed by -72.495 Centiloids in the 10 mg/kg biweekly group compared to +1.004 in the placebo group.",
+      "status": "verified",
+      "note": "Checked against registry secondary outcomes for Month 18 Centiloid change."
+    },
+    {
+      "fact": "ADCOMS change value of 0.077 vs 0.113 for placebo with a Bayesian posterior probability of 63.8 at 12 months.",
+      "status": "verified",
+      "note": "Checked against registry primary outcomes for Month 12 ADCOMS change."
+    },
+    {
+      "fact": "In the open-label extension, 30/180 participants experienced ARIA-microhemorrhages and 15/180 had ARIA-edema.",
+      "status": "verified",
+      "note": "Checked against registry OLE Phase adverse events."
+    },
+    {
+      "fact": "In the core phase, 59/253 in the 10 mg/kg monthly group and 31/161 in the 10 mg/kg biweekly group experienced infusion related reactions.",
+      "status": "verified",
+      "note": "Checked against registry Core Study Phase adverse events."
+    },
+    {
+      "fact": "APOE4 positive subjects receiving treatment with lecanemab 10 mg/kg biweekly were discontinued from that dosing regimen.",
+      "status": "verified",
+      "note": "Checked against Extension Phase inclusion and exclusion criteria."
+    }
+  ],
+  "research_page": {
+    "slug": "lecanemab-phase-2b",
+    "title": "Lecanemab Phase 2b in early AD (Study 201)",
+    "description": "A Phase 2b dose-finding trial that showed robust amyloid clearance for lecanemab but missed its strict 12-month clinical endpoint.",
+    "tags": [
+      "trial",
+      "lecanemab",
+      "amyloid",
+      "immunotherapy",
+      "biomarkers"
+    ],
+    "source_line_md": "**Source**: [ClinicalTrials.gov, 2026](https://clinicaltrials.gov/study/NCT01767311)",
+    "authors_line_md": "Eisai Inc. and Biogen",
+    "takeaway_md": "Lecanemab (10 mg/kg biweekly) robustly cleared amyloid plaques and showed consistent clinical benefit, establishing the dosing for its Phase 3 program. The trial also highlighted increased ARIA risks for APOE4 carriers, which prompted mid-study regulatory changes.",
+    "key_findings_md": [
+      "Reduced brain amyloid by 72.5 Centiloids at 18 months, compared to a 1.0 Centiloid increase for placebo ([Registry](https://clinicaltrials.gov/study/NCT01767311)).",
+      "Slowed clinical decline on ADCOMS at 12 months (0.077 vs 0.113 for placebo) with a 63.8% posterior probability, missing the prespecified 80% success threshold ([Registry](https://clinicaltrials.gov/study/NCT01767311)).",
+      "Showed a dose-dependent increase in amyloid-related imaging abnormalities (ARIA) and infusion reactions ([Registry](https://clinicaltrials.gov/study/NCT01767311))."
+    ],
+    "methods_md": "Placebo-controlled, double-blind, Bayesian adaptive randomization Phase 2 trial enrolling 856 participants aged 50-90 with early Alzheimer's disease and confirmed amyloid pathology. The core study tested five lecanemab dosing regimens against placebo over 18 months, followed by an open-label extension up to 60 months. (NCT01767311)",
+    "trial_evidence_md": "This Phase 2 trial ([Study 201](/trials/lecanemab-nct01767311)) provided the critical dose-finding and safety data for lecanemab. While it missed its primary 12-month Bayesian clinical endpoint, the 10 mg/kg biweekly dose demonstrated profound amyloid clearance, advancing to the [Phase 3 Clarity AD](/trials/lecanemab-clarity-ad-nct03887455) trial which ultimately secured FDA approval. The trial also led to a deeper understanding of ARIA risks in APOE4 carriers.",
+    "sentiment_md": "Public perception of lecanemab is highly polarized. Patient and caregiver communities frequently express hope and view it as a milestone treatment, though they are often frustrated by Medicare and diagnostic hurdles. Conversely, medical and scientific communities remain skeptical, heavily focused on the serious risks of ARIA (brain swelling and bleeding) and reports of patient deaths.",
+    "caveats_md": [
+      "The trial failed to meet its prespecified primary statistical threshold for clinical efficacy at 12 months.",
+      "Early safety signals of ARIA-E forced a protocol amendment that truncated the 10 mg/kg biweekly dose for APOE4 carriers, unequally impacting the trial's statistical power for that subgroup."
+    ],
+    "relates_to_md": [
+      "[Understanding the Amyloid Hypothesis](/journey/amyloid-hypothesis-consumer) — Lecanemab's amyloid clearance is central to validating the amyloid hypothesis.",
+      "[Biomarkers](/research/biomarkers) — The trial relied heavily on amyloid PET and CSF biomarkers to track disease modification."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "lecanemab-nct01767311",
+      "title": "Study 201 (Lecanemab Phase 2b)",
+      "description": "Phase 2 dose-finding study of lecanemab in early Alzheimer's disease.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "lecanemab",
+        "phase-2"
+      ],
+      "registry_md": "[NCT01767311](https://clinicaltrials.gov/study/NCT01767311)",
+      "drug": "Lecanemab (anti-amyloid protofibril antibody)",
+      "phase": "Phase 2",
+      "sponsor": "Eisai Inc.",
+      "population": "Subjects aged 50-90 with mild cognitive impairment or mild Alzheimer's disease dementia and positive amyloid load",
+      "primary_endpoint": "Core Study Phase: Change From Baseline in ADCOMS at Month 12",
+      "started": "2012-12",
+      "readout": "2024-12",
+      "why_md": "This trial was designed to find the optimal dose of lecanemab and establish proof-of-concept for its ability to clear brain amyloid and slow cognitive decline in early Alzheimer's disease. It set the stage for the pivotal Phase 3 program.",
+      "status_log_md": [
+        "**2012-12-20** — Trial begins enrollment. ([Registry](https://clinicaltrials.gov/study/NCT01767311))",
+        "**2024-12-10** — Trial completes. ([Registry](https://clinicaltrials.gov/study/NCT01767311))"
+      ],
+      "results_md": "At 12 months, the 10 mg/kg biweekly dose showed a 64% probability of 25% slowing of decline on ADCOMS, missing the 80% primary endpoint threshold. However, prespecified 18-month analyses showed significant brain amyloid reduction and consistent clinical benefit, supporting Phase 3 advancement."
+    },
+    {
+      "slug": "lecanemab-clarity-ad-nct03887455",
+      "title": "Clarity AD (Lecanemab Phase 3)",
+      "description": "Pivotal Phase 3 trial evaluating lecanemab in early Alzheimer's disease.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "lecanemab",
+        "phase-3"
+      ],
+      "registry_md": "[NCT03887455](https://clinicaltrials.gov/study/NCT03887455)",
+      "drug": "Lecanemab (anti-amyloid protofibril antibody)",
+      "phase": "Phase 3",
+      "sponsor": "Eisai Inc.",
+      "population": "Early Alzheimer's disease (MCI or mild dementia) with confirmed amyloid pathology",
+      "primary_endpoint": "Core Study: Change from Baseline in the CDR-SB at 18 Months",
+      "started": "2019-03",
+      "readout": "2029-06",
+      "why_md": "Clarity AD served as the pivotal trial to confirm lecanemab's efficacy and safety for full FDA approval in early Alzheimer's disease.",
+      "status_log_md": [
+        "**2019-03** — Trial begins. ([Registry](https://clinicaltrials.gov/study/NCT03887455))"
+      ],
+      "results_md": "Lecanemab met its primary endpoint, reducing clinical decline by 27% on the CDR-SB scale at 18 months compared to placebo, alongside robust clearance of amyloid burden."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2012-12",
+      "title": "2012-12 — Lecanemab Phase 2b trial begins",
+      "body_md": "The dose-finding Phase 2b study (Study 201) for lecanemab enrolls its first participants to evaluate amyloid clearance and clinical efficacy. ([Lecanemab Phase 2b](/research/papers/lecanemab-phase-2b))"
+    },
+    {
+      "section": "Disease-modifying era",
+      "date": "2019-03",
+      "title": "2019-03 — Clarity AD trial begins",
+      "body_md": "Eisai initiates the pivotal Phase 3 Clarity AD trial to confirm lecanemab's efficacy in early Alzheimer's disease. ([Clarity AD](/trials/lecanemab-clarity-ad-nct03887455))"
+    },
+    {
+      "section": "Disease-modifying era",
+      "date": "2021-04",
+      "title": "2021-04 — Lecanemab Phase 2b results published",
+      "body_md": "Peer-reviewed results from the lecanemab Phase 2b trial show profound amyloid clearance and support Phase 3 advancement despite missing the primary 12-month clinical threshold. ([Lecanemab Phase 2b](/research/papers/lecanemab-phase-2b))"
+    }
+  ],
+  "notes_for_editor": []
+}

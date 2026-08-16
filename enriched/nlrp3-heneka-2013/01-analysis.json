@@ -1,0 +1,200 @@
+{
+  "kind": "research-paper",
+  "title": "NLRP3 is activated in Alzheimer´s disease and contributes to pathology in APP/PS1 mice",
+  "authors": [
+    {
+      "name": "Heneka, Michael T.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "The authors declare no competing financial interests."
+    },
+    {
+      "name": "Kummer, Markus P.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "The authors declare no competing financial interests."
+    },
+    {
+      "name": "Stutz, Andrea",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "The authors declare no competing financial interests."
+    },
+    {
+      "name": "Delekate, Andrea",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "The authors declare no competing financial interests."
+    },
+    {
+      "name": "Schwartz, Stephanie",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "The authors declare no competing financial interests."
+    },
+    {
+      "name": "Saecker, Ana",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "The authors declare no competing financial interests."
+    },
+    {
+      "name": "Griep, Angelika",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "The authors declare no competing financial interests."
+    },
+    {
+      "name": "Axt, Daisy",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "The authors declare no competing financial interests."
+    },
+    {
+      "name": "Remus, Anita",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "The authors declare no competing financial interests."
+    },
+    {
+      "name": "Tzeng, Te-Chen",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "The authors declare no competing financial interests."
+    },
+    {
+      "name": "Gelpi, Ellen",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "The authors declare no competing financial interests."
+    },
+    {
+      "name": "Halle, Annett",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "The authors declare no competing financial interests."
+    },
+    {
+      "name": "Korte, Martin",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "The authors declare no competing financial interests."
+    },
+    {
+      "name": "Latz, Eicke",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "The authors declare no competing financial interests."
+    },
+    {
+      "name": "Golenbock, Douglas",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "The authors declare no competing financial interests."
+    }
+  ],
+  "first_author": "Heneka, Michael T.",
+  "venue": "Nature",
+  "published": "2013",
+  "doi": "10.1038/nature11729",
+  "doi_url": "https://doi.org/10.1038/nature11729",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/23254930",
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": "http://www.nature.com/authors/editorial_policies/license.html#terms",
+    "reuse": "quote-and-summarize",
+    "evidence": "Users may view, print, copy, download and text and data- mine the content in such documents, for the purposes of academic research, subject always to the full Conditions of use: http://www.nature.com/authors/editorial_policies/license.html#terms"
+  },
+  "tags": [
+    "paper",
+    "inflammation",
+    "amyloid",
+    "animal-model",
+    "microglia",
+    "nlrp3"
+  ],
+  "themes": [
+    "NLRP3 inflammasome activation",
+    "Neuroinflammation in Alzheimer's",
+    "Microglial M2 phenotype skewing",
+    "Amyloid beta clearance",
+    "APP/PS1 mouse model pathology"
+  ],
+  "one_line": "Deficiency in the NLRP3 inflammasome or caspase-1 protects APP/PS1 mice from Alzheimer's-associated spatial memory loss and amyloid beta deposition by shifting microglia to a protective M2 phenotype.",
+  "summary": "This study investigates the role of the NLRP3 inflammasome in Alzheimer's disease (AD) pathogenesis. The authors demonstrate elevated active caspase-1 expression in the brains of humans with mild cognitive impairment (MCI) and AD. Using the APP/PS1 mouse model of AD crossed with NLRP3- or caspase-1-deficient mice, they show that ablation of the inflammasome protects against spatial memory loss and other AD-like sequelae. Furthermore, this deficiency reduced brain levels of active caspase-1 and IL-1β while enhancing amyloid beta (Aβ) clearance. The neuroprotective effect appears to be driven by a shift in microglial cells towards an M2 anti-inflammatory and highly phagocytic phenotype, ultimately resulting in decreased Aβ plaque deposition.",
+  "key_claims": [
+    {
+      "claim": "NLRP3 inflammasome is activated in human MCI and AD brains.",
+      "evidence": "Demonstration of strongly enhanced active caspase-1 expression in human MCI and AD brains.",
+      "strength": "moderate",
+      "location": "Abstract"
+    },
+    {
+      "claim": "NLRP3 or caspase-1 deficiency protects against AD-associated memory loss and sequelae.",
+      "evidence": "NLRP3-/- or caspase-1-/- APP/PS1 mice were largely protected from loss of spatial memory; tested via Morris Water Maze and object recognition tests.",
+      "strength": "strong",
+      "location": "Abstract / Methods summary"
+    },
+    {
+      "claim": "Inflammasome deficiency decreases Aβ deposition by skewing microglia to an M2 phenotype.",
+      "evidence": "Decreased deposition of Aβ in APP/PS1 mice, accompanied by microglial shift to M2 phenotype determined by FACS analysis and qPCR for M1/M2 markers.",
+      "strength": "strong",
+      "location": "Abstract / Methods summary"
+    }
+  ],
+  "methods": {
+    "design": "Preclinical animal study with ex vivo human brain tissue analysis",
+    "n": null,
+    "population": "C57/Bl6 background mice (WT, NLRP3-/-, APP/PS1, APP/PS1/NLRP3-/-, Caspase-1-/-, APP/PS1/Caspase-1-/-); Human MCI and AD brain tissue",
+    "duration": null,
+    "registration": null
+  },
+  "funding_and_conflicts": "Funded by the Dana foundation (E.L.), the NIH (E.L., D.T.G) and the DFG (E.L., M.T.H.). The authors declare no competing financial interests.",
+  "limitations": [
+    "No specific sample sizes (n) provided in the summary text.",
+    "Relies primarily on transgenic APP/PS1 mouse models, which may not fully recapitulate human sporadic Alzheimer's disease.",
+    "Full manuscript body is missing from the provided text, limiting thorough review of data and effect sizes."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 9,
+    "issues": [
+      "Full text body is missing; only Abstract and Methods summary are included.",
+      "Minor spacing and punctuation artifacts due to PDF conversion (e.g., 'Alzheimer´s', missing spaces in mouse strain lists like 'NLRP3 -/-, , APP/PS1')."
+    ]
+  },
+  "search_verification": [
+    "Identifiers (DOI: 10.1038/nature11729, PMID: 23254930) were present and structurally valid. Did not perform external web search as internal identifiers were sufficient and unambiguous."
+  ]
+}

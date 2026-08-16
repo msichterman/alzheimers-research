@@ -1,0 +1,70 @@
+{
+  "overall": "hopeful",
+  "summary": "Public sentiment surrounding plasma p-tau181 is highly hopeful, heavily driven by its recent 2025 FDA clearance as a primary care screening tool. The scientific, medical, and investor communities view it as a monumental shift that democratizes Alzheimer's diagnostics and removes the bottleneck of expensive PET scans. However, patient and caregiver communities express more mixed feelings, grappling with the psychological weight of early diagnosis and confusion over direct-to-consumer availability. While the evidence strongly supports its use to rule out amyloid pathology, public discourse often oversimplifies it as a definitive standalone 'Alzheimer's test'.",
+  "communities": [
+    {
+      "community": "Patients & Caregivers (Reddit r/dementia, r/Alzheimers)",
+      "sentiment": "mixed",
+      "themes": [
+        "Anxiety about getting tested without highly accessible or affordable cures",
+        "Confusion over Quest Diagnostics direct-to-consumer marketing vs clinical value",
+        "Relief at potentially avoiding invasive spinal taps or expensive PET scans"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/dementia/comments/15hh1et/quest_alzheimers_test/",
+        "https://www.reddit.com/r/Alzheimers/comments/ixv42w/alzheimers_blood_test/"
+      ]
+    },
+    {
+      "community": "Scientific Community (Alzforum)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Validation of the 2020 predictive models into clinical reality",
+        "Debates over p-tau181 vs p-tau217 sensitivity and specificity",
+        "Utility in tracking longitudinal disease progression in drug trials"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/research-news/plasma-p-tau181-predicts-monitors-alzheimers-progression",
+        "https://www.alzforum.org/news/research-news/elevated-blood-p-tau181-p-tau217-not-unique-alzheimers-disease"
+      ]
+    },
+    {
+      "community": "Retail Investors & Industry",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Massive total addressable market for primary care diagnostics",
+        "Roche's FDA clearance as a major market catalyst",
+        "Synergy with new anti-amyloid therapies requiring screening pipelines"
+      ],
+      "example_urls": [
+        "https://diagnostics.roche.com/us/en/news-listing/2025/fda-cleared-ptau181-alzheimers-blood-test.html"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Roche Diagnostics (Press Release)",
+      "tone": "positive",
+      "date": "2025-01",
+      "url": "https://diagnostics.roche.com/us/en/news-listing/2025/fda-cleared-ptau181-alzheimers-blood-test.html"
+    },
+    {
+      "outlet": "Everyday Health",
+      "tone": "positive",
+      "date": "2025-01",
+      "url": "https://www.everydayhealth.com/neurological-disorders/new-blood-test-to-rule-out-alzheimers-gets-fda-clearance/"
+    }
+  ],
+  "hype_vs_evidence": "The hype surrounding the p-tau181 blood test correctly identifies its potential to revolutionize clinical triage by moving initial screening to primary care. However, public perception often runs ahead of the evidence by framing the test as a definitive, standalone diagnostic for Alzheimer's dementia. The original 2020 Karikari paper and subsequent FDA clearances emphasize its high negative predictive value—meaning it is excellent for *ruling out* amyloid pathology—but positive results still require clinical cognitive assessment and confirmatory testing. Furthermore, consumer hype sometimes ignores the nuance that elevated plasma p-tau can occur in other conditions or normal aging without inevitably leading to rapid clinical decline.",
+  "misinformation_flags": [
+    "The blood test provides a 100% definitive diagnosis of clinical Alzheimer's disease on its own.",
+    "A positive p-tau181 test means a patient will inevitably and rapidly develop dementia."
+  ],
+  "searches_run": [
+    "site:reddit.com p-tau181 OR ptau181 alzheimer",
+    "site:alzforum.org p-tau181",
+    "p-tau181 blood test alzheimer news",
+    "site:reddit.com/r/dementia blood test",
+    "\"blood test\" alzheimer site:reddit.com"
+  ]
+}

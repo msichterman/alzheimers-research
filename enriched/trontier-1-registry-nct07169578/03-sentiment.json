@@ -1,0 +1,66 @@
+{
+  "overall": "hopeful",
+  "summary": "Public sentiment around Roche's Trontinemab is predominantly hopeful, driven by its novel 'brain shuttle' mechanism designed to cross the blood-brain barrier more efficiently. Among patient and caregiver communities, there is cautious optimism for a treatment that might offer faster results and potentially fewer ARIA (amyloid-related imaging abnormalities) side effects than current therapies like Leqembi. The scientific and investor communities are particularly enthusiastic about the TfR1 transport technology, seeing it as a significant differentiator in the crowded anti-amyloid space. However, many remain grounded, recognizing that the Phase 3 trial is still recruiting and definitive cognitive benefits are yet to be proven. Overall, the drug is viewed as a promising next-generation amyloid clearer, though access, infusion burden, and ultimate clinical efficacy remain top concerns.",
+  "communities": [
+    {
+      "community": "r/Alzheimers and r/dementia (Patients & Caregivers)",
+      "sentiment": "hopeful",
+      "themes": [
+        "Hope for lower ARIA risk compared to current drugs",
+        "Frustration with ongoing infusion burdens",
+        "Desire for faster-acting treatments"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/search/?q=trontinemab"
+      ]
+    },
+    {
+      "community": "Alzforum & Science Media (Scientists)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Validation of TfR1 transport mechanism",
+        "Rapid amyloid clearance rates",
+        "Comparing ARIA incidence to lecanemab and donanemab"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/research-news/brain-shuttle-speeds-amyloid-clearance"
+      ]
+    },
+    {
+      "community": "Retail Investors (r/biotech, Roche followers)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Differentiation from Biogen and Lilly therapies",
+        "Market potential of Brain Shuttle technology",
+        "Phase 3 timeline and recruitment expectations"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/biotech/search/?q=trontinemab"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Fierce Biotech",
+      "tone": "positive",
+      "date": "2025-09",
+      "url": "https://www.fiercebiotech.com/biotech/roche-pushes-brain-shuttle-alzheimers-drug-trontinemab-phase-3"
+    },
+    {
+      "outlet": "Reuters",
+      "tone": "neutral",
+      "date": "2025-10",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/roche-alzheimers-drug-trontinemab-enters-late-stage-trials"
+    }
+  ],
+  "hype_vs_evidence": "Public perception occasionally frames Trontinemab as a guaranteed breakthrough that will eliminate ARIA risks entirely, running ahead of current clinical evidence. While early-phase data showed rapid amyloid plaque clearance and a potentially favorable safety profile compared to first-generation antibodies, the drug is not risk-free, and Phase 3 is required to confirm safety at a larger scale. Furthermore, some lay discussions conflate rapid plaque clearance with immediate cognitive improvement, whereas the trial must still definitively prove that this clearance translates to a statistically significant slowing of clinical decline on the CDR-SB.",
+  "misinformation_flags": [
+    "Claims that Trontinemab completely eliminates the risk of ARIA (brain bleeding or swelling).",
+    "Confusion suggesting Trontinemab is an oral medication (it remains an intravenous infusion)."
+  ],
+  "searches_run": [
+    "site:reddit.com trontinemab",
+    "trontinemab roche alzheimer's news",
+    "site:alzforum.org trontinemab"
+  ]
+}

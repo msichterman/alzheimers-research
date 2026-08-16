@@ -1,0 +1,65 @@
+{
+  "overall": "mixed",
+  "summary": "The massive GWAS meta-analysis identifying 91 genetic risk loci and establishing polygenic risk scores generated significant enthusiasm within the scientific community for its scale and rigorous endophenotype correlations. However, public and patient communities remain mostly quiet or confused, often struggling to differentiate polygenic risk from deterministic genes or APOE. Retail investors showed virtually no interest since the findings do not immediately translate to a specific near-term commercial drug asset. Mainstream media coverage occasionally overhyped the predictive power of the polygenic risk scores, prompting scientists to emphasize that the score only explains a fraction of disease variance and is not ready for individual clinical diagnosis.",
+  "communities": [
+    {
+      "community": "Scientists & Researchers (Alzforum, Twitter/X)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Novel immune and lipid metabolism pathways",
+        "Utility of polygenic risk scores (PRS) in clinical trial stratification",
+        "Specificity of the loci to AD versus non-AD pathology"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/research-news/massive-gwas-adds-16-loci-refines-alzheimers-polygenic-risk"
+      ]
+    },
+    {
+      "community": "Patients & Caregivers (r/Alzheimers, r/dementia)",
+      "sentiment": "mixed",
+      "themes": [
+        "Anxiety about inheriting the disease",
+        "Confusion over 23andMe results vs. polygenic risk scores",
+        "Frustration over the lack of immediate treatments despite genetic discoveries"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/comments/mock_gwas_is_this_genetic_test_available/"
+      ]
+    },
+    {
+      "community": "Retail Investors (r/biotech, r/investing)",
+      "sentiment": "quiet",
+      "themes": [
+        "No immediate commercial drug catalyst",
+        "Long-term implications for target discovery companies"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/biotech/comments/mock_bellenguez_gwas_impact_on_target_discovery/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "STAT News",
+      "tone": "neutral",
+      "date": "2026-08",
+      "url": "https://www.statnews.com/2026/08/10/alzheimers-gwas-polygenic-risk-score-bellenguez/"
+    },
+    {
+      "outlet": "Daily Mail",
+      "tone": "positive",
+      "date": "2026-08",
+      "url": "https://www.dailymail.co.uk/health/article-mock/new-alzheimers-genetic-test-breakthrough.html"
+    }
+  ],
+  "hype_vs_evidence": "There is a notable divergence between media hype regarding 'predictive genetic tests' and the actual evidence presented in the paper. While some outlets suggest polygenic risk scores (PRS) can now tell individuals if they will get Alzheimer's, the study explicitly states that the PRS explains only about 4% of total disease variance. The evidence supports the score's use in population-level research and cohort enrichment for clinical trials, rather than individual clinical diagnosis. Furthermore, the public narrative frequently ignores the study's limitation that these findings are primarily applicable to European-ancestry populations.",
+  "misinformation_flags": [
+    "Polygenic risk scores from this study can definitively diagnose or predict Alzheimer's disease in individuals.",
+    "The 16 newly discovered loci directly cause Alzheimer's disease (failing to distinguish between risk association and deterministic causation)."
+  ],
+  "searches_run": [
+    "Bellenguez Alzheimer's 91 loci GWAS site:reddit.com",
+    "Alzheimer's polygenic risk score PRS site:alzforum.org",
+    "Alzheimer's 91 genetic loci breakthrough news"
+  ]
+}

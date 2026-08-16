@@ -1,0 +1,94 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT01078168",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01078168",
+      "name": "ADAM",
+      "drug": "Acitretin (ADAM10 / alpha-secretase enhancer)",
+      "phase": "2",
+      "sponsor": "Johannes Gutenberg University Mainz",
+      "status": "Completed",
+      "enrollment": 22,
+      "population": "Patients with mild to moderate Alzheimer's disease",
+      "primary_endpoint": "Difference in Cerebrospinal Fluid (CSF) Soluble Alpha-cleaved Amyloid Precursor Protein (APPsα) Concentration",
+      "started": "2010-03",
+      "completed_or_readout": "2013-01",
+      "results_summary": "Acitretin significantly increased CSF APPsα levels compared to placebo. This demonstrated successful target engagement of the alpha-secretase pathway (ADAM10).",
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02913664",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02913664",
+      "name": "rrAD",
+      "drug": "Losartan and Amlodipine (Angiotensin II receptor blocker and Calcium channel blocker)",
+      "phase": "2/3",
+      "sponsor": "University of Texas Southwestern Medical Center",
+      "status": "Completed",
+      "enrollment": 513,
+      "population": "Older adults at high risk for AD (hypertension, family history of dementia, or subjective memory complaints)",
+      "primary_endpoint": "Change in global neurocognitive function (composite of ADCS-PACC and NIH-TB)",
+      "started": "2017-02",
+      "completed_or_readout": "2021-11",
+      "results_summary": "Evaluated the impact of intensive vascular risk reduction (including angiotensin pathway blockade) and exercise on cognitive function. Primary results were published in 2026.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02085265",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02085265",
+      "name": "SARTAN-AD",
+      "drug": "Telmisartan vs. Perindopril (Angiotensin II Receptor Blocker vs. ACE Inhibitor)",
+      "phase": "2",
+      "sponsor": "Sunnybrook Health Sciences Centre",
+      "status": "Terminated",
+      "enrollment": 23,
+      "population": "Mild to moderate Alzheimer's disease",
+      "primary_endpoint": "Ventricular enlargement (Change in ventricular size on 3D T1 MR imaging)",
+      "started": "2014-03",
+      "completed_or_readout": "2025-02",
+      "results_summary": "The trial was terminated early due to lack of recruitment. No efficacy data regarding the comparison of an ARB and an ACE inhibitor were reported.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05331144",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05331144",
+      "name": "IPAT",
+      "drug": "Losartan and Amlodipine (Intensive blood pressure reduction)",
+      "phase": "2",
+      "sponsor": "University of Texas Southwestern Medical Center",
+      "status": "Active",
+      "enrollment": 180,
+      "population": "Older adults at high risk for AD (hypertension, family history of dementia, subjective cognitive decline)",
+      "primary_endpoint": "Change from baseline in Brain Fibrillar Beta-Amyloid Protein (Aβ) measured by PET SUVR",
+      "started": "2022-10",
+      "completed_or_readout": "2028-06",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2019-03",
+      "kind": "paper",
+      "description": "The analyzed document: Large-scale GWAS meta-analysis identifying novel risk loci for LOAD, including ADAM10 and ACE.",
+      "url": "https://doi.org/10.1038/s41588-019-0358-2"
+    },
+    {
+      "date": "2014-11",
+      "kind": "paper",
+      "description": "Phase 2 trial results demonstrating acitretin increases CSF APPs-α levels in AD patients, engaging the ADAM10 pathway.",
+      "url": "https://doi.org/10.1212/WNL.0000000000001017"
+    },
+    {
+      "date": "2026-05",
+      "kind": "paper",
+      "description": "Results of the rrAD trial evaluating intensive vascular risk reduction and exercise on cognitive function.",
+      "url": "https://doi.org/10.1001/jamaneurol.2026.0359"
+    }
+  ],
+  "evidence_assessment": "The analyzed document is a major genome-wide association study (GWAS) identifying novel risk loci for late-onset Alzheimer's disease, notably including ADAM10 (alpha-secretase) and ACE (angiotensin-converting enzyme). Clinical trial evidence validates the mechanistic relevance of these newly pinpointed targets in human populations. For example, a Phase 2 trial of acitretin (NCT01078168) successfully demonstrated target engagement by increasing CSF APPs-α levels, supporting the therapeutic potential of the ADAM10 pathway. Furthermore, the ACE locus is actively addressed by vascular risk reduction trials (e.g., NCT02913664, NCT05331144) evaluating whether angiotensin receptor blockers or ACE inhibitors can mitigate cognitive decline and biomarker accumulation. While the genetic findings strongly implicate these mechanisms in disease pathogenesis, large-scale clinical efficacy data proving disease modification through interventions at these specific loci is still developing.",
+  "discrepancies": []
+}

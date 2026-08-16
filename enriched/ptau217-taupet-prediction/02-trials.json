@@ -1,0 +1,90 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT01208675",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01208675",
+      "name": "BioFINDER-1",
+      "drug": "None (Observational)",
+      "phase": "n/a",
+      "sponsor": "Skane University Hospital",
+      "status": "Completed",
+      "enrollment": 1150,
+      "population": "Mild cognitive impairment and cognitively healthy elderly subjects",
+      "primary_endpoint": "Time to conversion to clinically probable AD in subjects with normal vs abnormal biomarkers",
+      "started": "2010-09",
+      "completed_or_readout": "2024-12",
+      "results_summary": "The cohort established foundational evidence on the temporal evolution of Alzheimer's biomarkers, validating the utility of CSF/plasma markers and PET imaging to predict cognitive decline in predementia populations.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03174938",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03174938",
+      "name": "BioFINDER-2",
+      "drug": "None (Observational)",
+      "phase": "n/a",
+      "sponsor": "Skane University Hospital",
+      "status": "Recruiting",
+      "enrollment": 2950,
+      "population": "Cognitively healthy individuals, SCD/MCI, AD dementia, and other dementias",
+      "primary_endpoint": "Clinical diagnosis and Change in Clinical Dementia Rating-Sum of Boxes (CDR-SB)",
+      "started": "2017-05",
+      "completed_or_readout": "2036-12",
+      "results_summary": "Ongoing prospective cohort. Baseline and early longitudinal data from this cohort were used in the reported document to simulate and validate the two-step screening approach for future preclinical AD trials.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05026866",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05026866",
+      "name": "TRAILBLAZER-ALZ 3",
+      "drug": "Donanemab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Active, not recruiting",
+      "enrollment": 2996,
+      "population": "Cognitively unimpaired participants with preclinical Alzheimer's disease (intact cognition but P-tau results consistent with amyloid pathology)",
+      "primary_endpoint": "Time to Clinical Progression of Composite Endpoint as Measured by Clinical Dementia Rating (CDR)",
+      "started": "2021-08",
+      "completed_or_readout": "2027-11",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04468659",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04468659",
+      "name": "AHEAD 3-45",
+      "drug": "Lecanemab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "status": "Active, not recruiting",
+      "enrollment": 1400,
+      "population": "Cognitively unimpaired individuals with Preclinical and Early Preclinical Alzheimer's Disease (elevated or intermediate amyloid)",
+      "primary_endpoint": "Change From Baseline in Preclinical Alzheimer Cognitive Composite 5 (PACC5) Score",
+      "started": "2020-07",
+      "completed_or_readout": "2028-12",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2025-09",
+      "kind": "paper",
+      "description": "Baseline data publication from TRAILBLAZER-ALZ 3 demonstrating the real-world implementation of p-tau screening in a Phase 3 preclinical AD trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40955720/"
+    },
+    {
+      "date": "2026-04",
+      "kind": "paper",
+      "description": "Prospective cohort study from the BioFINDER group evaluating plasma tau biomarkers for Alzheimer's diagnosis and stratification.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41864233/"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence supporting the use of plasma p-tau217 and tau-PET for prognostic enrichment in Alzheimer's disease trials is robust and is actively shaping current Phase 3 designs. The BioFINDER 1 and 2 observational cohorts have repeatedly validated the predictive accuracy of these biomarkers for cognitive decline, particularly using composite endpoints like mPACC5. This two-step sequential screening hypothesis forms the foundation of modern preclinical interventional trials aimed at reducing screen failure rates and sample sizes. For instance, the fully enrolled TRAILBLAZER-ALZ 3 trial of donanemab explicitly utilizes blood p-tau screening to identify cognitively unimpaired individuals with underlying amyloid pathology. Similarly, the AHEAD 3-45 trial of lecanemab targets asymptomatic individuals with biomarker-confirmed pathology and evaluates decline using the PACC5 endpoint, directly mirroring the document's simulated outcome measures. While the document presents this screening method as a simulation, major ongoing clinical programs have already heavily integrated these blood-based biomarker prescreening strategies into their protocols.",
+  "discrepancies": [
+    "The document presents the two-step screening approach (blood p-tau followed by advanced imaging) as a simulation for future trial optimization, but registry records show this paradigm is already actively utilized in major ongoing Phase 3 preclinical AD trials (e.g., TRAILBLAZER-ALZ 3)."
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "fact_check": [
+    {
+      "fact": "High-dose aducanumab difference from placebo on CDR-SB at Week 78 was 0.110 (p=0.2250)",
+      "status": "corrected",
+      "note": "Checked against the source document's MMRM analyses. The 0.110 difference belongs to the low-dose group. The high-dose group difference was 0.03 (p=0.8330), reflecting an even clearer lack of efficacy."
+    },
+    {
+      "fact": "ARIA-E occurred in 195/558 high-dose participants vs 16/540 placebo participants",
+      "status": "verified",
+      "note": "Matches the 'Amyloid related imaging abnormality-oedema/effusion' adverse event counts in the registry data."
+    },
+    {
+      "fact": "ARIA-H occurred in 102/558 high-dose vs 34/540 placebo",
+      "status": "verified",
+      "note": "Matches the 'Amyloid related imaging abnormality-microhaemorrhages and haemosiderin deposits' adverse event counts in the registry data."
+    }
+  ],
+  "research_page": {
+    "slug": "aducanumab-engage-registry",
+    "title": "Aducanumab in early Alzheimer's disease (ENGAGE)",
+    "description": "A Phase 3 registry record for aducanumab showing trial termination for futility, lack of clinical benefit, and elevated rates of brain swelling.",
+    "tags": [
+      "trial-registry",
+      "amyloid",
+      "immunotherapy",
+      "aducanumab",
+      "aria"
+    ],
+    "source_line_md": "**Source**: [ClinicalTrials.gov, 2021](https://clinicaltrials.gov/study/NCT02477800)",
+    "authors_line_md": "Biogen",
+    "takeaway_md": "The Phase 3 ENGAGE trial demonstrated that aducanumab failed to slow cognitive decline in early Alzheimer's disease. The study was halted prematurely for futility and showed a substantial increase in brain swelling and bleeding (ARIA) among treated participants.",
+    "key_findings_md": [
+      "High-dose aducanumab showed no significant benefit on the primary CDR-SB endpoint compared to placebo (difference of 0.03, p=0.8330) at Week 78 ([NCT02477800](https://clinicaltrials.gov/study/NCT02477800)).",
+      "Brain swelling (ARIA-E) occurred in 35% (195/558) of high-dose participants versus 3% (16/540) on placebo ([NCT02477800](https://clinicaltrials.gov/study/NCT02477800)).",
+      "Microhemorrhages (ARIA-H) occurred in 18% (102/558) of high-dose participants versus 6% (34/540) on placebo ([NCT02477800](https://clinicaltrials.gov/study/NCT02477800))."
+    ],
+    "methods_md": "A Phase 3, multicenter, randomized, double-blind, placebo-controlled trial enrolling 1,653 adults (aged 50-85) with mild cognitive impairment or mild AD and confirmed amyloid pathology. Participants received monthly intravenous infusions of low-dose aducanumab, high-dose aducanumab, or placebo for 78 weeks ([NCT02477800](https://clinicaltrials.gov/study/NCT02477800)).",
+    "trial_evidence_md": "ENGAGE constitutes half of the pivotal Phase 3 program for aducanumab alongside its identically designed sister trial, [EMERGE](/trials/aducanumab-emerge-nct02484547). While a controversial post-hoc analysis of EMERGE suggested a high-dose benefit, ENGAGE definitively failed to show efficacy. This unresolvable discrepancy drove immense scientific controversy surrounding the drug's 2021 accelerated FDA approval, leading Biogen to ultimately discontinue the franchise and terminate the confirmatory ENVISION trial in 2024.",
+    "sentiment_md": "Public and professional sentiment regarding aducanumab is overwhelmingly negative. Scientists criticized the post-hoc data mining used to justify regulatory approval despite the ENGAGE futility declaration. Caregiver and patient communities expressed profound skepticism, balancing desperation for treatments against the severe risks of ARIA. Today, the drug is widely viewed as a cautionary tale in drug development.",
+    "caveats_md": [
+      "Because the study was halted prematurely, the final 78-week dataset is truncated, meaning long-term outcomes rely on a smaller subset of participants who completed the trial before termination.",
+      "The severe mismatch in efficacy results between this trial and the identically designed EMERGE trial fundamentally complicates the interpretation of the drug's true clinical effect."
+    ],
+    "relates_to_md": [
+      "[EMERGE trial](/trials/aducanumab-emerge-nct02484547) — Identically designed sister Phase 3 trial that yielded conflicting post-hoc results.",
+      "[Aducanumab ARIA analysis](/research/papers/aria-aducanumab-emerge-engage) — Deep dive into the imaging abnormalities observed in these Phase 3 studies.",
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — The underlying biological theory tested by this amyloid-clearing antibody."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "aducanumab-engage-nct02477800",
+      "title": "ENGAGE (Aducanumab Phase 3)",
+      "description": "A Phase 3 trial of aducanumab in early Alzheimer's disease, terminated early for futility.",
+      "badge": "Terminated",
+      "tags": [
+        "trial",
+        "phase-3",
+        "aducanumab",
+        "amyloid"
+      ],
+      "registry_md": "[NCT02477800](https://clinicaltrials.gov/study/NCT02477800)",
+      "drug": "Aducanumab (amyloid-beta targeting antibody)",
+      "phase": "3",
+      "sponsor": "Biogen",
+      "population": "Adults aged 50-85 with MCI due to AD or mild AD, positive amyloid PET scan",
+      "primary_endpoint": "Change From Baseline in Clinical Dementia Rating Sum of Boxes (CDR-SB) Score at Week 78",
+      "started": "2015-08",
+      "readout": "2019-08",
+      "why_md": "ENGAGE tested whether clearing amyloid plaques with aducanumab could slow cognitive decline in early Alzheimer's disease. Its failure to show clinical benefit, contrasted against conflicting data from its sister trial, sparked major controversy over the [amyloid hypothesis](/research/amyloid-hypothesis).",
+      "status_log_md": [
+        "**2015-08-13** — Trial begins enrollment ([ClinicalTrials.gov](https://clinicaltrials.gov/study/NCT02477800)).",
+        "**2019-03-21** — Biogen halts the trial early following an independent futility analysis.",
+        "**2021-09-02** — Final results posted to registry, confirming lack of efficacy."
+      ],
+      "results_md": "The trial was terminated for futility. Final data demonstrated that high-dose aducanumab failed to significantly slow clinical decline on the CDR-SB compared to placebo (difference of 0.03, p=0.8330). Treated participants experienced sharply elevated rates of ARIA-E and ARIA-H."
+    },
+    {
+      "slug": "aducanumab-emerge-nct02484547",
+      "title": "EMERGE (Aducanumab Phase 3)",
+      "description": "A Phase 3 trial of aducanumab in early Alzheimer's disease that reported a conflicting positive post-hoc result after early termination.",
+      "badge": "Terminated",
+      "tags": [
+        "trial",
+        "phase-3",
+        "aducanumab",
+        "amyloid"
+      ],
+      "registry_md": "[NCT02484547](https://clinicaltrials.gov/study/NCT02484547)",
+      "drug": "Aducanumab (amyloid-beta targeting antibody)",
+      "phase": "3",
+      "sponsor": "Biogen",
+      "population": "Adults aged 50-85 with MCI due to AD or mild AD, positive amyloid PET scan",
+      "primary_endpoint": "Change From Baseline in Clinical Dementia Rating Sum of Boxes (CDR-SB) Score at Week 78",
+      "started": "2015-09",
+      "readout": "2019-08",
+      "why_md": "EMERGE was identical in design to [ENGAGE](/trials/aducanumab-engage-nct02477800). After being halted for futility, a controversial post-hoc analysis found a high-dose benefit, which served as the primary clinical basis for the drug's 2021 FDA accelerated approval.",
+      "status_log_md": [
+        "**2015-09-01** — Trial begins enrollment.",
+        "**2019-03-21** — Trial halted early for futility alongside ENGAGE.",
+        "**2019-10-22** — Biogen reverses course, claiming a new post-hoc analysis shows significant high-dose benefit."
+      ],
+      "results_md": "Though halted for futility, a later analysis showed the high-dose group achieved a statistically significant slowing of decline on the CDR-SB (difference of -0.39, p=0.0120), directly conflicting with the sister ENGAGE trial."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2019-03",
+      "title": "2019-03 — Aducanumab Phase 3 trials halted for futility",
+      "body_md": "Biogen terminates the [ENGAGE](/trials/aducanumab-engage-nct02477800) and EMERGE trials early after an independent data monitoring committee determines the drug is unlikely to show clinical benefit."
+    },
+    {
+      "section": "Disease-modifying era",
+      "date": "2024-02",
+      "title": "2024-02 — Biogen discontinues aducanumab",
+      "body_md": "Following severe commercial failure, safety concerns, and lack of definitive efficacy in trials like [ENGAGE](/trials/aducanumab-engage-nct02477800), Biogen permanently abandons the aducanumab franchise and terminates its confirmatory studies."
+    }
+  ],
+  "notes_for_editor": [
+    "The ClinicalTrials.gov JSON API output for NCT02477800 labeled the high-dose MMRM analysis vaguely ('Difference from late start group'). I verified that the 0.03 difference belongs to the high-dose group and corrected the analyst's claim accordingly."
+  ]
+}

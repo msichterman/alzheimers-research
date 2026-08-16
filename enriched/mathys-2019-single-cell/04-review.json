@@ -1,0 +1,66 @@
+{
+  "fact_check": [
+    {
+      "fact": "The study profiled 80,660 single-nucleus transcriptomes from 48 individuals (24 AD-pathology, 24 no-pathology).",
+      "status": "verified",
+      "note": "Checked against the paper's abstract and methods section detailing the ROSMAP cohort selection."
+    },
+    {
+      "fact": "Neurons showed massive downregulation (75% in Excitatory, 95% in Inhibitory neurons).",
+      "status": "verified",
+      "note": "Confirmed in the paper's section on systematic differential expression analysis."
+    },
+    {
+      "fact": "PU-AD Phase 2 trial (NCT04311515) enrolled 4 patients and terminated.",
+      "status": "verified",
+      "note": "Validated against the public registry data for NCT04311515 provided by the clinical-trials researcher."
+    }
+  ],
+  "research_page": {
+    "slug": "mathys-single-cell-transcriptomics-2019",
+    "title": "Single-cell transcriptomic analysis of Alzheimer’s disease",
+    "description": "A foundational map of 80,660 single-nucleus transcriptomes from the prefrontal cortex detailing cell-specific and sex-specific responses to Alzheimer's pathology.",
+    "tags": [
+      "paper",
+      "transcriptomics",
+      "amyloid",
+      "genetics",
+      "inflammation",
+      "tau",
+      "sex-differences"
+    ],
+    "source_line_md": "**Source**: [Nature, 2019](https://doi.org/10.1038/s41586-019-1195-2) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/31042697)",
+    "authors_line_md": "Hansruedi Mathys et al.",
+    "takeaway_md": "This landmark basic-science study provides a high-resolution map of the aging human prefrontal cortex, revealing that Alzheimer's pathology triggers profound, highly cell-type-specific transcriptional repression in neurons early in the disease. As pathology advances, this cell-specific response shifts into a universal, cross-cell upregulation of stress and protein-folding genes. The data also uncover striking sex-based differences, showing that neurons and oligodendrocytes in female brains exhibit fundamentally different transcriptional shifts compared to males despite similar cognitive decline.",
+    "key_findings_md": [
+      "Early Alzheimer's pathology induces massive transcriptional downregulation in neurons, representing 75% of differentially expressed genes in excitatory neurons and 95% in inhibitory neurons ([Nature, 2019](https://doi.org/10.1038/s41586-019-1195-2)).",
+      "Myelination-related genes (e.g., *LINGO1*) are recurrently perturbed across multiple major cell types, indicating that myelin disruption plays a central role in early disease progression ([Nature, 2019](https://doi.org/10.1038/s41586-019-1195-2)).",
+      "Late-stage pathology is characterized by a shared, cell-agnostic upregulation of stress response and protein-folding genes, including *HSP90* ([Nature, 2019](https://doi.org/10.1038/s41586-019-1195-2)).",
+      "Female cells are overrepresented in pathology-associated cellular subpopulations, and they demonstrate a distinct global downregulation in neurons that is absent or muted in males ([Nature, 2019](https://doi.org/10.1038/s41586-019-1195-2))."
+    ],
+    "methods_md": "Post-mortem single-nucleus RNA-sequencing (snRNA-seq) analyzing 80,660 cells from the prefrontal cortex of 48 older adults from the ROSMAP cohort (24 with Alzheimer's pathology, 24 with no pathology) ([Nature, 2019](https://doi.org/10.1038/s41586-019-1195-2)).",
+    "trial_evidence_md": "As a foundational basic science study, this document does not report clinical trial data. However, clinical translation of its highlighted transcriptomic targets has struggled to gain traction. For instance, attempts to therapeutically inhibit the upregulated *HSP90* stress network using the small molecule PU-AD stalled entirely when Phase 1 ([NCT03935568](https://clinicaltrials.gov/study/NCT03935568)) and Phase 2 ([NCT04311515](https://clinicaltrials.gov/study/NCT04311515)) trials were prematurely terminated without publishing results. Current clinical evaluation of these pathways relies primarily on diagnostic imaging tracers in observational cohorts ([NCT07380204](https://clinicaltrials.gov/study/NCT07380204)).",
+    "sentiment_md": "Public reception is virtually non-existent among patients and retail investors, as the study focuses on foundational biology rather than near-term therapeutics. Conversely, within the scientific community, it is highly celebrated as a landmark reference dataset that mapped cell-type specific vulnerabilities and sex differences in unprecedented detail ([Alzforum](https://www.alzforum.org/news/research-news/stunning-detail-single-cell-studies-chart-genomic-architecture-ad)).",
+    "caveats_md": [
+      "Post-mortem sequencing captures only a single terminal snapshot, making it impossible to establish causality—these transcriptional shifts could be driving the pathology, or they could represent the brain's defensive response to it.",
+      "The discovery of distinct sex-specific differences is a major finding, but it is based on thin strata of only 12 men and 12 women per pathology group, which warrants caution until replicated in larger cohorts.",
+      "It remains unclear if the changes in cellular subpopulations reflect active transcriptional switching by surviving cells, or simply the selective death of highly vulnerable cell types."
+    ],
+    "relates_to_md": [
+      "[Biomarkers](/research/biomarkers) — The cell-specific transcriptional signatures identified here serve as a foundational blueprint for discovering novel fluid biomarkers.",
+      "[Research](/research) — The dataset remains a critical public resource for ongoing therapeutic target discovery and understanding sexual dimorphism in neurodegeneration."
+    ]
+  },
+  "trial_pages": [],
+  "timeline_entries": [
+    {
+      "section": "Foundations",
+      "date": "2019-05",
+      "title": "2019-05 — First major single-cell transcriptomic map of the Alzheimer's brain published",
+      "body_md": "A landmark [study of 80,660 single-nucleus transcriptomes](/research/papers/mathys-single-cell-transcriptomics-2019) from the human prefrontal cortex revealed profound cell-type-specific and sex-specific transcriptional responses to Alzheimer's pathology."
+    }
+  ],
+  "notes_for_editor": [
+    "No trial pages were generated for the PU-AD trials (NCT04311515, NCT03935568) as they were prematurely terminated with minimal enrollment, zero results, and are only peripheral context to this basic science paper. They are adequately linked within the trial_evidence_md paragraph."
+  ]
+}

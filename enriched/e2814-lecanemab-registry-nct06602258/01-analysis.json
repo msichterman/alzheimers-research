@@ -1,0 +1,61 @@
+{
+  "kind": "other",
+  "title": "A Phase 2, Placebo-Controlled, Double-Blind, Parallel-Group, Dose-Finding Study to Evaluate Safety, Tolerability, and Biomarker Efficacy of E2814 With Concurrent Lecanemab Treatment in Subjects With Early Alzheimer's Disease",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2024-09",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "tau",
+    "amyloid",
+    "biomarkers",
+    "immunotherapy",
+    "e2814",
+    "lecanemab"
+  ],
+  "themes": [
+    "Phase 2 clinical trial",
+    "Combination therapy",
+    "Anti-tau and anti-amyloid",
+    "Early Alzheimer's disease"
+  ],
+  "one_line": "A Phase 2 clinical trial registry evaluating the dose response, safety, and biomarker efficacy of the anti-tau drug E2814 administered concurrently with lecanemab in early Alzheimer's disease.",
+  "summary": "This document is a ClinicalTrials.gov registry record (NCT06602258) for a Phase 2, quadruple-blind, placebo-controlled trial sponsored by Eisai Inc. The study investigates the concurrent use of intravenous E2814 (an anti-tau agent, tested at four dose levels) and subcutaneous lecanemab in participants aged 50 to 80 with mild cognitive impairment or mild dementia due to Alzheimer's disease. The primary outcome is the change from baseline in CSF MTBR-tau-243 at 6 months. Secondary outcomes include Tau PET, CDR-SB, and safety measures assessed over 24 to 27 months. The trial enrolled 105 participants and is currently active but not recruiting, with primary completion expected in December 2026.",
+  "key_claims": [
+    {
+      "claim": "E2814 administered concurrently with lecanemab has a dose-dependent effect on CSF MTBR-tau-243 at 6 months in participants with early Alzheimer's disease.",
+      "evidence": "This is the primary hypothesis of the trial; no results have been posted or analyzed yet.",
+      "strength": "not-supported",
+      "location": "Brief summary"
+    }
+  ],
+  "methods": {
+    "design": "Phase 2, Placebo-Controlled, Double-Blind (Quadruple Masking), Parallel-Group, Dose-Finding",
+    "n": 105,
+    "population": "Male or female participants aged 50-80 with early Alzheimer's disease (MCI due to AD-intermediate likelihood or mild AD dementia), MMSE 22-30",
+    "duration": "Up to 27 months",
+    "registration": "NCT06602258"
+  },
+  "funding_and_conflicts": "Lead sponsor: Eisai Inc. No investigator conflicts of interest are stated in this registry extract.",
+  "limitations": [
+    "This is a clinical trial registry record, not a published paper; no efficacy or safety results are available.",
+    "Study is restricted to patients who can undergo multiple CSF collections and lack contraindications for MRI scanning."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 10,
+    "issues": []
+  },
+  "search_verification": []
+}

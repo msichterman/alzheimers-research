@@ -5,5 +5,29 @@
     "model": "google/gemini-3.1-pro-preview",
     "turns": 1,
     "cost_usd": 0
+  },
+  "02-trials": {
+    "source_sha256": "c2a722144cf2352170fb06f8fcacbdaef0d346b76cad70f469368d9fb5f17203",
+    "completed_at": "2026-08-14T16:53:34.746Z",
+    "model": "google/gemini-3.1-pro-preview",
+    "turns": 25,
+    "cost_usd": 0,
+    "session_id": "ses_ffed171d0ffenfTmzWEPHwX3f8"
+  },
+  "03-sentiment": {
+    "source_sha256": "c2a722144cf2352170fb06f8fcacbdaef0d346b76cad70f469368d9fb5f17203",
+    "completed_at": "2026-08-14T16:55:30.423Z",
+    "model": "google/gemini-3.1-pro-preview",
+    "turns": 12,
+    "cost_usd": 0,
+    "session_id": "ses_ffece6451ffe1dRddIvJ0ecgCI"
+  },
+  "04-review": {
+    "source_sha256": "c2a722144cf2352170fb06f8fcacbdaef0d346b76cad70f469368d9fb5f17203",
+    "completed_at": "2026-08-14T16:56:23.274Z",
+    "model": "google/gemini-3.1-pro-preview",
+    "turns": 1,
+    "cost_usd": 0,
+    "session_id": "ses_ffeccb04dffepmuvozi2YyzNbp"
   }
 }

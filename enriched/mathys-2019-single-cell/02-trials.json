@@ -1,0 +1,67 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT07380204",
+      "registry_url": "https://clinicaltrials.gov/study/NCT07380204",
+      "name": null,
+      "drug": "[11C]HSP990 (HSP90 PET Radioligand)",
+      "phase": "n/a",
+      "sponsor": "Universitaire Ziekenhuizen KU Leuven",
+      "status": "Recruiting",
+      "enrollment": 48,
+      "population": "Healthy controls, and patients with Parkinson's disease, Alzheimer's disease, or Amyotrophic Lateral Sclerosis (ALS).",
+      "primary_endpoint": "Quantification of HSP90 in the human brain in vivo",
+      "started": "2024-09",
+      "completed_or_readout": "2027-12",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04311515",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04311515",
+      "name": null,
+      "drug": "PU-AD (Epichaperome/HSP90 inhibitor)",
+      "phase": "2",
+      "sponsor": "Samus Therapeutics, Inc.",
+      "status": "Terminated",
+      "enrollment": 4,
+      "population": "Patients aged 55 to 80 years with mild Alzheimer's disease dementia and positive Tau PET imaging.",
+      "primary_endpoint": "Target engagement and pharmacological effects via Fluorodeoxyglucose (FDG) PET imaging",
+      "started": "2020-06",
+      "completed_or_readout": "2020-09",
+      "results_summary": "The trial was terminated prematurely by the sponsor after enrolling only 4 participants. No safety or efficacy results were posted.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03935568",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03935568",
+      "name": null,
+      "drug": "PU-AD (Epichaperome/HSP90 inhibitor)",
+      "phase": "1",
+      "sponsor": "Samus Therapeutics, Inc.",
+      "status": "Terminated",
+      "enrollment": 40,
+      "population": "Healthy male and female volunteers aged 18 and older.",
+      "primary_endpoint": "Safety and tolerability of single and multiple ascending doses",
+      "started": "2019-06",
+      "completed_or_readout": "2019-12",
+      "results_summary": "The trial was terminated prematurely. No pharmacokinetic, safety, or tolerability data have been published.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2020-01-16",
+      "kind": "paper",
+      "description": "Preclinical study establishing that the epichaperome (the HSP90 stress response network) mediates toxic hippocampal stress in Alzheimer's disease models and can be targeted by PU-AD.",
+      "url": "https://doi.org/10.1038/s41467-019-14082-5"
+    }
+  ],
+  "evidence_assessment": "The Mathys et al. (2019) document is a foundational basic-science single-nucleus transcriptomic study and does not report clinical trial data. Its central claims emphasize early-stage myelination deficits and a shared, cross-cell upregulation of stress response genes (such as HSP90) in late-stage Alzheimer's pathology. While these transcriptomic signatures are highly influential in preclinical research, clinical evidence translating these specific pathways into human therapeutics remains exceptionally sparse. Attempts to therapeutically target the upregulated HSP90/epichaperome stress network were initiated via the small-molecule inhibitor PU-AD, but Phase 1 and Phase 2 clinical trials (NCT04311515, NCT03935568) were terminated prematurely with zero published results. Ongoing clinical activity relies strictly on diagnostic biomarker research, such as observational imaging trials utilizing [11C]HSP990 PET tracers (NCT07380204) to quantify neurodegenerative HSP90 levels in vivo.",
+  "discrepancies": [
+    "The analyzed document highlights transcriptomic targets like myelination modulators (LINGO1) and stress responders (HSP90), but the clinical record shows that therapeutic programs against these specific mechanisms in Alzheimer's have either not advanced to human trials or have stalled completely in early development."
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT05686044",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05686044",
+      "name": null,
+      "drug": "buntanetap (translational inhibitor of APP, Tau, and alpha-synuclein)",
+      "phase": "2/3",
+      "sponsor": "Annovis Bio Inc.",
+      "status": "Completed",
+      "enrollment": 351,
+      "population": "Mild to moderate Alzheimer's disease",
+      "primary_endpoint": "Change From Baseline to Week 12 in ADAS-Cog11",
+      "started": "2023-04",
+      "completed_or_readout": "2024-02",
+      "results_summary": "This 12-week dose-ranging study evaluated buntanetap in mild-to-moderate AD. Results posted on the registry show completion of the short-term primary endpoint evaluation, with the sponsor reporting safety and statistically significant cognitive improvements on the ADAS-Cog11 scale.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03823404",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03823404",
+      "name": "GAIN",
+      "drug": "atuzaginstat / COR388 (gingipain inhibitor)",
+      "phase": "2/3",
+      "sponsor": "Cortexyme Inc.",
+      "status": "Completed",
+      "enrollment": 643,
+      "population": "Mild to moderate Alzheimer's disease",
+      "primary_endpoint": "Alzheimer's Disease Assessment Scale-Cognitive Subscale 11 (ADAS-Cog 11)",
+      "started": "2019-03",
+      "completed_or_readout": "2022-01",
+      "results_summary": "The GAIN trial failed to meet its co-primary endpoints of cognitive and functional improvement in the overall AD population. The FDA subsequently placed a clinical hold on the atuzaginstat IND due to hepatic toxicity, halting its development in Alzheimer's.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT07757204",
+      "registry_url": "https://clinicaltrials.gov/study/NCT07757204",
+      "name": "ANVS-26001",
+      "drug": "buntanetap (translational inhibitor of APP, Tau, and alpha-synuclein)",
+      "phase": "2/3",
+      "sponsor": "Annovis Bio Inc.",
+      "status": "Unknown",
+      "enrollment": 400,
+      "population": "Alzheimer's Dementia patients who participated in a prior buntanetap clinical trial",
+      "primary_endpoint": "Safety of buntanetap over 24 months",
+      "started": "2026-09",
+      "completed_or_readout": "2030-05",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2026-01",
+      "kind": "paper",
+      "description": "Buntanetap treatment in mild to moderate Alzheimer's disease: phase 2/3 study (Fang C. et al.)",
+      "url": "https://doi.org/10.1038/s44400-026-00073-z"
+    },
+    {
+      "date": "2020-01",
+      "kind": "paper",
+      "description": "Porphyromonas gingivalis and Alzheimer disease: Recent findings and potential therapies (Ryder M.I.)",
+      "url": "https://doi.org/10.1002/JPER.20-0104"
+    },
+    {
+      "date": "2024-02",
+      "kind": "registry-results",
+      "description": "Registry-posted results for the 12-week Phase 2/3 trial of buntanetap in mild to moderate AD",
+      "url": "https://clinicaltrials.gov/study/NCT05686044"
+    },
+    {
+      "date": "2022-01",
+      "kind": "registry-results",
+      "description": "Registry-posted results for the GAIN Phase 2/3 trial of atuzaginstat for P. gingivalis in AD",
+      "url": "https://clinicaltrials.gov/study/NCT03823404"
+    }
+  ],
+  "evidence_assessment": "Because the analyzed text is a repository README focused on document provenance, it does not make direct clinical claims itself; however, it anchors its examples on two significant clinical interventions. The evidence for buntanetap (NCT05686044) is currently limited by the atypically short 12-week duration of its Phase 2/3 trial, which is widely considered insufficient to establish long-term disease modification in Alzheimer's disease, necessitating the newly planned long-term extension trials. Meanwhile, the clinical hypothesis targeting the P. gingivalis pathogen suffered a definitive setback when the most advanced candidate, atuzaginstat (COR388), failed its co-primary endpoints in the Phase 2/3 GAIN trial (NCT03823404) and was placed on clinical hold due to hepatic toxicity.",
+  "discrepancies": [
+    "The document is a repository README and does not present direct clinical discrepancies. It refers to the Buntanetap trial accurately according to the sponsor's clinicaltrials.gov registration (NCT05686044) as a 'phase 2/3 study', though a 12-week trial duration is notably incongruous with standard Phase 3 Alzheimer's disease-modifying endpoints, which typically span 12 to 18 months."
+  ]
+}

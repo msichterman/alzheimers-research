@@ -1,0 +1,58 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment regarding the new biomarker-driven Alzheimer's criteria is highly polarized and largely fraught with confusion. While there is broad technological optimism about the accessibility of blood-based biomarkers like p-tau217 compared to invasive lumbar punctures, premature clinical rollout is causing significant distress. Asymptomatic patients are receiving positive biomarker scores from general practitioners and experiencing high anxiety while waiting months for specialist interpretation. Clinical practitioners remain pragmatic and skeptical, noting that biomarkers cannot replace cognitive testing for assessing daily impairment or differential diagnoses. Meanwhile, mainstream media coverage has turned critical, highlighting the massive pharmaceutical conflicts of interest among the criteria's authors and warning of profit-driven 'diagnostic creep.'",
+  "communities": [
+    {
+      "community": "r/Alzheimers (Patients & Caregivers)",
+      "sentiment": "negative",
+      "themes": [
+        "Anxiety and panic from asymptomatic individuals receiving positive biomarker scores",
+        "Confusion over interpreting blood test results without immediate specialist access",
+        "Attempts to 'reverse' biomarker positivity through lifestyle changes and unproven supplements"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/comments/1o3ibyo/dad_just_got_a_ptau217_test_what_does_it_mean/",
+        "https://www.reddit.com/r/Alzheimers/comments/1u9k90k/ptau217_result/",
+        "https://www.reddit.com/r/Alzheimers/comments/1vcktvt/ptau217_went_from_056_positive_for_amyloid_to_013/"
+      ]
+    },
+    {
+      "community": "r/Neuropsychology (Clinical Practitioners)",
+      "sentiment": "skeptical",
+      "themes": [
+        "Biomarkers alone cannot determine the level of cognitive impairment or daily care needs",
+        "Cost and accessibility make the new criteria difficult to implement broadly in public healthcare",
+        "Cognitive profiles are still required for the differential diagnosis of mixed dementias"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Neuropsychology/comments/1dzlaaq/revised_alzheimers_criteria/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "The New York Times",
+      "tone": "critical",
+      "date": "2026-08",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNLXhSbk9YekNXb3NDZFZnNnRYazY0Sm16V1hwd2xVVmp3LWpQN0h4Rl9nWUhUMURraDdLazlnSFduWkNsTTZGVVdiemlnQXFFSUNvbjNwLWpON0I1TktXUVoya0w2S054UFVwdTdncWE1X0sxUmZoRU9sYkdZU0VybVNEek0yczAyOU9xWnc5U2JaVGtwSHc?oc=5"
+    },
+    {
+      "outlet": "CNN",
+      "tone": "critical",
+      "date": "2024-07",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE80SVdTdEV5UkdTSEhMZFRfdTZkUVp3VUlUTE44eGlmYlhWZ3EtNVhVdUV4TWxvQjVveHRya244Y3lqWE5NZHZXWEVQMkNmYmZsbUVQWkVnemRmamJBUk1reW1TcXBqbVdsNjBYQTNUSjlwUEpDeHVLTA?oc=5"
+    }
+  ],
+  "hype_vs_evidence": "The public heavily conflates a positive biological biomarker (like a high p-tau217 plasma ratio) with an immediate diagnosis of clinical Alzheimer's dementia, leading to severe anxiety. While the new criteria redefine AD purely as a biological construct, the guidelines explicitly advise against using these tests on cognitively unimpaired people outside of research—a nuance completely lost in early clinical adoption. Additionally, the hype surrounding early testing is met with deep skepticism in evidence-based communities due to the criteria authors' extensive financial ties to pharmaceutical companies that profit from expanded diagnostic testing.",
+  "misinformation_flags": [
+    "Belief that an abnormal p-tau217 score in an asymptomatic individual guarantees imminent clinical dementia.",
+    "Claims that amyloid pathology and positive p-tau217 scores can be definitively reversed using lifestyle changes, diet, and over-the-counter supplements like Lithium orotate."
+  ],
+  "searches_run": [
+    "site:reddit.com \"Alzheimer's Association\" diagnostic criteria 2024",
+    "site:reddit.com p-tau217 alzheimer's",
+    "alzheimer's association criteria biomarker (Google News RSS)",
+    "p-tau217 alzheimer blood test (Google News RSS)",
+    "Alzheimer's criteria conflict of interest (Google News RSS)"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "overall": "negative",
+  "summary": "Public sentiment regarding Biogen's BIIB092 (gosuranemab) and the TANGO trial is overwhelmingly negative where discussed, though the topic is largely ignored across mainstream caregiver and retail investor platforms. The Phase 2 futility announcement in June 2021 was heavily eclipsed by the controversial FDA approval of Biogen’s other Alzheimer's drug, aducanumab (Aduhelm), which occurred during the exact same month. Consequently, retail investors and patients mostly ignored gosuranemab, except for scattered criticisms labeling the company \"snake oil salesmen.\" In contrast, the scientific community engaged in deep, critical post-mortems of the trial on platforms like Alzforum, noting with concern that the highest dose group actually showed accelerated cognitive decline on the ADAS-Cog13 metric compared to placebo.",
+  "communities": [
+    {
+      "community": "Science media & researchers (Alzforum)",
+      "sentiment": "negative",
+      "themes": [
+        "Accelerated cognitive decline on ADAS-Cog13 at highest dose",
+        "Failure of N-terminal tau targeting mechanisms",
+        "Disease-stage specific tau effects"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/conference-coverage/more-tau-antibodies-bid-adieu-semorinemab-keeps-foot-door"
+      ]
+    },
+    {
+      "community": "General public & longevity enthusiasts (r/longevity)",
+      "sentiment": "negative",
+      "themes": [
+        "Anger at Biogen's broader business practices and profiteering",
+        "Distinguishing gosuranemab from aducanumab"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/longevity/comments/o4ee9u/biogen_shelves_gosuranemab_after_negative/"
+      ]
+    },
+    {
+      "community": "Caregivers & retail investors (r/Alzheimers, r/stocks)",
+      "sentiment": "quiet",
+      "themes": [
+        "Overshadowed by the Aduhelm (aducanumab) news cycle",
+        "General apathy towards early-stage non-amyloid trial failures"
+      ],
+      "example_urls": []
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Alzforum",
+      "tone": "critical",
+      "date": "2021-11",
+      "url": "https://www.alzforum.org/news/conference-coverage/more-tau-antibodies-bid-adieu-semorinemab-keeps-foot-door"
+    },
+    {
+      "outlet": "Pharmaphorum",
+      "tone": "neutral",
+      "date": "2021-06",
+      "url": "https://pharmaphorum.com/news/biogen-abandons-tau-antibody-for-alzheimers-after-phase-2-miss"
+    },
+    {
+      "outlet": "NeurologyLive",
+      "tone": "neutral",
+      "date": "2021-06",
+      "url": "https://www.neurologylive.com/view/tau-gosuranemab-fails-efficacy-phase-2-tango-study-alzheimer-mci"
+    }
+  ],
+  "hype_vs_evidence": "There is absolutely no public hype surrounding BIIB092, which aligns with the clinical evidence of its futility. However, the evidence actually points to a slightly worse outcome than mere futility: scientific discussions noted that the highest dose group experienced statistically significant accelerated decline on the ADAS-Cog13 measure compared to placebo. Public perception largely missed this nuance, viewing the trial merely as a standard 'lack of efficacy' failure rather than a potentially harmful intervention. The broader public discourse was entirely consumed by Biogen's aducanumab controversy, allowing gosuranemab's failure to quietly fade from mainstream view.",
+  "misinformation_flags": [],
+  "searches_run": [
+    "site:reddit.com gosuranemab OR BIIB092 alzheimer",
+    "gosuranemab alzheimer news",
+    "gosuranemab OR BIIB092 site:alzforum.org",
+    "gosuranemab TANGO failed site:alzforum.org",
+    "gosuranemab OR BIIB092 site:reddit.com/r/stocks OR site:reddit.com/r/investing",
+    "\"gosuranemab\" OR \"BIIB092\" site:reddit.com/r/Alzheimers"
+  ]
+}

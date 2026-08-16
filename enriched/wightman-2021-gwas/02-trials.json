@@ -1,0 +1,91 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT04592874",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04592874",
+      "name": "INVOKE-2",
+      "drug": "AL002 (TREM2 agonistic monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Alector Inc.",
+      "status": "Completed",
+      "enrollment": 356,
+      "population": "Participants with early Alzheimer's disease",
+      "primary_endpoint": "Disease Progression as Measured by the Clinical Dementia Rating - Sum of Boxes (CDR-SB) Score",
+      "started": "2021-01",
+      "completed_or_readout": "2024-09",
+      "results_summary": "The trial demonstrated sustained target engagement but failed to meet its primary endpoint, showing no significant difference from placebo in the change from baseline in the CDR-SB score at week 96.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03635047",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03635047",
+      "name": null,
+      "drug": "AL002 (TREM2 agonistic monoclonal antibody)",
+      "phase": "1",
+      "sponsor": "Alector Inc.",
+      "status": "Completed",
+      "enrollment": 69,
+      "population": "Healthy volunteers (SAD cohort) and participants with mild to moderate Alzheimer's disease (MD cohort)",
+      "primary_endpoint": "Evaluation of safety and tolerability of AL002 measured by number of subjects with adverse events and Dose Limiting Adverse Event (DLAEs)",
+      "started": "2018-11",
+      "completed_or_readout": "2020-11",
+      "results_summary": "The trial showed AL002 was safe, tolerable, and achieved target engagement in the central nervous system, reducing soluble TREM2 and increasing inflammatory biomarkers in CSF.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05450549",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05450549",
+      "name": null,
+      "drug": "DNL919 (Brain-penetrant ATV:TREM2 antibody)",
+      "phase": "1",
+      "sponsor": "Denali Therapeutics Inc.",
+      "status": "Completed",
+      "enrollment": 47,
+      "population": "Healthy participants aged 18 to 55 years",
+      "primary_endpoint": "Safety: Incidence, severity, and seriousness of treatment-emergent adverse events (TEAEs)",
+      "started": "2022-07",
+      "completed_or_readout": "2023-06",
+      "results_summary": "Phase 1 safety and pharmacokinetic evaluation completed. Results have not been formally published.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04374136",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04374136",
+      "name": "INFRONT-3",
+      "drug": "Latozinemab / AL001 (anti-sortilin antibody to elevate progranulin)",
+      "phase": "3",
+      "sponsor": "Alector Inc.",
+      "status": "Terminated",
+      "enrollment": 119,
+      "population": "Participants with Frontotemporal Dementia due to a progranulin gene mutation (FTD-GRN) or at-risk mutation carriers",
+      "primary_endpoint": "Disease progression as measured by the Clinical Dementia Rating plus National Alzheimer's Coordinating Center Frontotemporal Lobar Degeneration Sum of Boxes (CDR plus NACC FTLD-SB)",
+      "started": "2020-07",
+      "completed_or_readout": "2026-01",
+      "results_summary": "The trial was terminated because it failed to meet the clinical co-primary endpoint of slowing FTD-GRN progression compared to placebo.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2026-05",
+      "kind": "paper",
+      "description": "Phase 2 trial results for AL002 (TREM2 agonist) showing failure to meet the primary clinical endpoint in early Alzheimer's disease.",
+      "url": "https://doi.org/10.1038/s41591-026-04273-1"
+    },
+    {
+      "date": "2024-10",
+      "kind": "paper",
+      "description": "Phase 1 trial results for AL002 showing safety, tolerability, and successful target engagement of TREM2 in the CNS.",
+      "url": "https://doi.org/10.1186/s13195-024-01599-1"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence does not currently support the therapeutic translation of the GWAS findings implicating microglia, immune processes, and progranulin (GRN) in late-onset Alzheimer's disease (LOAD). The most advanced clinical test of the microglial hypothesis in AD—Alector's TREM2 agonistic antibody, AL002—failed its Phase 2 trial (INVOKE-2) in 2024, demonstrating target engagement but no clinical benefit on the CDR-SB score. Other TREM2-targeted programs like Denali's DNL919 remain in early stages without published efficacy data. Furthermore, while the document identifies GRN and TMEM106B as independent risk loci for LOAD, clinical development targeting progranulin has been entirely restricted to frontotemporal dementia (FTD-GRN), where the leading asset latozinemab (AL001) was recently terminated in Phase 3 due to lack of efficacy. This highlights a significant translational gap between the genetic associations identified in the GWAS and successful disease-modifying therapies.",
+  "discrepancies": [
+    "The document strongly implicates microglia and immune cells as central drivers of LOAD pathogenesis, providing a genetic rationale for targets like TREM2. However, the Phase 2 clinical trial of the TREM2 agonist AL002 failed to demonstrate any clinical benefit in early AD patients.",
+    "The document highlights GRN (progranulin) and TMEM106B as novel independent risk loci for Alzheimer's disease, but the clinical trial registry shows no active development of GRN or TMEM106B targeted therapies for Alzheimer's disease; current progranulin-elevating drugs like latozinemab have been tested exclusively in FTD (and recently failed in Phase 3)."
+  ]
+}

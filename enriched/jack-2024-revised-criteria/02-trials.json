@@ -1,0 +1,109 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT03887455",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03887455",
+      "name": "Clarity AD",
+      "drug": "Lecanemab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "status": "Active, not recruiting",
+      "enrollment": 1906,
+      "population": "Participants with early Alzheimer's disease/mild cognitive impairment",
+      "primary_endpoint": "Change from Baseline in the Clinical Dementia Rating-Sum of Boxes (CDR-SB) at 18 Months",
+      "started": "2019-03",
+      "completed_or_readout": "2022-11",
+      "results_summary": "Lecanemab significantly reduced amyloid burden and resulted in a 27% slower clinical decline on the CDR-SB over 18 months compared to placebo, validating the therapeutic relevance of amyloid removal in early AD.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04437511",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04437511",
+      "name": "TRAILBLAZER-ALZ 2",
+      "drug": "Donanemab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Active, not recruiting",
+      "enrollment": 1736,
+      "population": "Participants with early symptomatic Alzheimer's disease and specific PET scan criteria",
+      "primary_endpoint": "Change From Baseline on the Integrated Alzheimer's Disease Rating Scale (iADRS)",
+      "started": "2020-06",
+      "completed_or_readout": "2023-07",
+      "results_summary": "Donanemab significantly slowed cognitive and functional decline (by 35% on iADRS) in early symptomatic AD patients. The trial successfully utilized tau PET staging, demonstrating the practical utility of the biological staging proposed in the criteria.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02420756",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02420756",
+      "name": "IDEAS",
+      "drug": "Amyloid PET",
+      "phase": "n/a",
+      "sponsor": "American College of Radiology",
+      "status": "Completed",
+      "enrollment": 18488,
+      "population": "Medicare beneficiaries with MCI or dementia of uncertain etiology",
+      "primary_endpoint": "≥ 30% change between intended and actual patient management within 90 days",
+      "started": "2016-02",
+      "completed_or_readout": "2017-12",
+      "results_summary": "Amyloid PET imaging significantly altered patient management in over 60% of cases, demonstrating the clinical utility of Core 1 biomarkers in diagnostically uncertain populations.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02854033",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02854033",
+      "name": "ADNI3",
+      "drug": "Biomarkers",
+      "phase": "n/a",
+      "sponsor": "University of Southern California",
+      "status": "Completed",
+      "enrollment": 1141,
+      "population": "Cognitively normal, MCI, and mild AD dementia participants",
+      "primary_endpoint": "Rate of change in cognition and biomarker correlations over 5 years",
+      "started": "2016-12",
+      "completed_or_readout": "2024-05",
+      "results_summary": "Validated the temporal sequencing of Alzheimer's biomarkers and supported the accuracy of biofluid markers against PET and autopsy gold standards, forming the foundational evidence base for staging.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2022-11-29",
+      "kind": "paper",
+      "description": "Clarity AD primary results publication in NEJM",
+      "url": "https://doi.org/10.1056/NEJMoa2212948"
+    },
+    {
+      "date": "2023-07-17",
+      "kind": "paper",
+      "description": "TRAILBLAZER-ALZ 2 primary results publication in JAMA",
+      "url": "https://doi.org/10.1001/jama.2023.13239"
+    },
+    {
+      "date": "2023-07-06",
+      "kind": "regulatory",
+      "description": "FDA grants traditional approval to Leqembi (lecanemab)",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-converts-novel-alzheimers-disease-treatment-traditional-approval"
+    },
+    {
+      "date": "2024-07-02",
+      "kind": "regulatory",
+      "description": "FDA approves Kisunla (donanemab) for early symptomatic Alzheimer's disease",
+      "url": "https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-treatment-adults-alzheimers-disease"
+    },
+    {
+      "date": "2024-01-22",
+      "kind": "paper",
+      "description": "Diagnostic Accuracy of a Plasma Phosphorylated Tau 217 Immunoassay for Alzheimer Disease Pathology",
+      "url": "https://doi.org/10.1001/jamaneurol.2023.5319"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence heavily supports the biological framework proposed by the workgroup, though real-world application currently faces regulatory and infrastructural hurdles. Large Phase 3 trials (Clarity AD and TRAILBLAZER-ALZ 2) definitively demonstrated that identifying and removing Core 1/2 biomarkers (amyloid and tau) yields clinical benefit, fundamentally shifting the paradigm toward biomarker-defined staging. Additionally, major observational cohorts (ADNI, BioFINDER) have repeatedly validated the high concordance of blood-based markers like p-tau217 with PET and autopsy standards. However, the document's criteria reflect a strong industry-driven push to streamline diagnosis and widen the addressable market for these therapies, moving faster than current FDA clearances for standalone blood diagnostics.",
+  "discrepancies": [
+    "The document endorses highly accurate blood-based biomarkers (e.g., p-tau217) as standalone diagnostic tests for AD, but no standalone plasma assay has received full FDA clearance for this purpose yet (they currently act primarily as LDTs or triaging tools).",
+    "The criteria push a purely biological definition and staging of AD that includes asymptomatic individuals, but current FDA labels for approved anti-amyloid therapies strictly limit their use to patients actively exhibiting clinical symptoms (MCI or mild dementia)."
+  ]
+}

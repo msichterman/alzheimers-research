@@ -1,0 +1,85 @@
+{
+  "kind": "other",
+  "title": "LEQEMBI (lecanemab-irmb) Prescribing Information",
+  "authors": [],
+  "first_author": null,
+  "venue": "U.S. Food and Drug Administration",
+  "published": "2023-07",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": "© 2023 Eisai Inc. and Biogen",
+  "license": {
+    "name": "all rights reserved",
+    "url": null,
+    "reuse": "quote-and-summarize",
+    "evidence": "© 2023 Eisai Inc. and Biogen"
+  },
+  "tags": [
+    "amyloid",
+    "immunotherapy",
+    "lecanemab",
+    "aria",
+    "fda-label"
+  ],
+  "themes": [
+    "Amyloid Related Imaging Abnormalities (ARIA)",
+    "ApoE ε4 genetic risk factor",
+    "Alzheimer's disease treatment",
+    "Clinical efficacy and clinical decline",
+    "Dosing and administration"
+  ],
+  "one_line": "The FDA prescribing information for LEQEMBI (lecanemab-irmb) outlines its indication for early Alzheimer's disease alongside severe boxed warnings regarding Amyloid Related Imaging Abnormalities (ARIA).",
+  "summary": "This document is the official FDA-approved prescribing information for LEQEMBI (lecanemab-irmb), a monoclonal antibody directed against aggregated forms of beta amyloid. It is indicated for patients with mild cognitive impairment or mild dementia associated with Alzheimer's disease. The label includes a prominent Boxed Warning for Amyloid Related Imaging Abnormalities (ARIA), including edema (ARIA-E) and hemosiderin deposition (ARIA-H), which can be severe and rarely fatal. Crucially, the label notes that ApoE ε4 homozygotes are at a significantly higher risk for ARIA and should be tested prior to treatment. Efficacy is supported by two clinical studies demonstrating significant reductions in brain amyloid beta plaque and a moderate slowing of clinical decline on the CDR-SB scale over 18 months. Strict guidelines for routine MRI monitoring and dose interruptions based on radiographic and clinical ARIA severity are mandated.",
+  "key_claims": [
+    {
+      "claim": "LEQEMBI reduces clinical decline on the global cognitive and functional scale compared to placebo.",
+      "evidence": "Study 2 showed an adjusted mean change from baseline at 18 months in CDR-SB of -0.45 (-27%) with p<0.0001.",
+      "strength": "strong",
+      "location": "14 CLINICAL STUDIES / Study 2 / Table 8"
+    },
+    {
+      "claim": "LEQEMBI reduces amyloid beta plaque levels in the brain in a dose- and time-dependent manner.",
+      "evidence": "Study 1 showed a -0.310 SUVR difference from placebo (p<0.001) at Week 79; Study 2 showed continuous reductions from Week 13 through Week 79.",
+      "strength": "strong",
+      "location": "12.2 Pharmacodynamics / Table 7"
+    },
+    {
+      "claim": "ApoE ε4 homozygotes have a markedly higher incidence of ARIA compared to heterozygotes and noncarriers.",
+      "evidence": "Study 2 incidence of ARIA was 45% in ApoE ε4 homozygotes vs 19% in heterozygotes and 13% in noncarriers. Severe radiographic ARIA-H was 13.5% in homozygotes vs 1.1% in noncarriers.",
+      "strength": "strong",
+      "location": "5.1 Amyloid Related Imaging Abnormalities"
+    },
+    {
+      "claim": "ApoE ε4 homozygotes did not show a treatment effect on the primary endpoint (CDR-SB).",
+      "evidence": "Exploratory subgroup analysis of ApoE ε4 homozygotes (15% of the trial population) showed no treatment effect on the primary endpoint, CDR-SB, compared to placebo.",
+      "strength": "weak",
+      "location": "14 CLINICAL STUDIES / Study 2"
+    }
+  ],
+  "methods": {
+    "design": "double-blind, placebo-controlled, parallel-group, randomized studies",
+    "n": 2651,
+    "population": "patients with mild cognitive impairment or mild dementia stage of Alzheimer's disease and confirmed amyloid pathology",
+    "duration": "18 months (79 weeks in Study 1; 18 months in Study 2)",
+    "registration": "NCT01767311, NCT03887455"
+  },
+  "funding_and_conflicts": "Manufactured by Eisai Inc. and copyrighted by Eisai Inc. and Biogen. As a sponsor-authored FDA label, conflicts of interest are inherent.",
+  "limitations": [
+    "Assays used to measure anti-lecanemab-irmb antibodies are subject to interference by serum lecanemab concentrations, potentially underestimating the incidence of neutralizing antibody formation.",
+    "Exploratory subgroup analysis of ApoE ε4 homozygotes showed no primary treatment effect, limiting confidence in efficacy for the highest-risk subgroup."
+  ],
+  "red_flags": [
+    "ApoE ε4 homozygotes represent a subpopulation that faces roughly double the risk of ARIA (45%) and a vastly higher risk of severe microhemorrhages (13.5%), yet the exploratory analysis states that a treatment effect was not observed on the primary clinical endpoint (CDR-SB) for this exact group.",
+    "Patients taking LEQEMBI with an anticoagulant had an intracerebral hemorrhage incidence of 2.5% compared to none on placebo, highlighting severe bleeding risks with standard comorbidities."
+  ],
+  "parse_quality": {
+    "score": 4,
+    "issues": [
+      "Significant OCR garbling in headers and subheaders (e.g., 'ApoE omozygotes ε4 H', 'myloid Related', 'Intudy 2', 'elated Rea Infusion-R ctions').",
+      "Artifactual page headers ('This label may not be the latest approved by FDA') are inappropriately spliced into the middle of continuous sentences and tables.",
+      "Tables (e.g., Table 1, Table 2, Table 8) are heavily mangled, with columns collapsed and rows misaligned, rendering data parsing difficult."
+    ]
+  },
+  "search_verification": []
+}

@@ -1,0 +1,79 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT01208675",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01208675",
+      "name": "The Swedish BioFINDER Study",
+      "drug": "Biomarker observational study",
+      "phase": "n/a",
+      "sponsor": "Skane University Hospital",
+      "status": "Completed",
+      "enrollment": 1150,
+      "population": "Mild cognitive impairment patients and cognitively healthy elderly subjects",
+      "primary_endpoint": "Time to conversion to clinically probable AD with normal and abnormal biomarkers (CSF, blood, MRI, PET)",
+      "started": "2010-09",
+      "completed_or_readout": "2024-12",
+      "results_summary": "The cohort has yielded extensive validation for blood and CSF biomarkers in Alzheimer's disease. The interim analysis reported in the document showed plasma p-tau217 increases longitudinally in early AD, correlating with cognitive decline and brain atrophy.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03174938",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03174938",
+      "name": "BioFINDER 2",
+      "drug": "Biomarker observational study",
+      "phase": "n/a",
+      "sponsor": "Skane University Hospital",
+      "status": "Recruiting",
+      "enrollment": 2950,
+      "population": "Cognitively healthy individuals, subjective cognitive decline, MCI, AD dementia, and other dementias",
+      "primary_endpoint": "Clinical diagnosis according to consensus group decision and change in CDR-SB",
+      "started": "2017-05",
+      "completed_or_readout": "2036-12",
+      "results_summary": "Ongoing prospective cohort validating novel tau PET tracers, CSF, and blood biomarkers (including p-tau217) across the full spectrum of neurodegenerative diseases.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT06120361",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06120361",
+      "name": "ADetect",
+      "drug": "Biomarker diagnostic study",
+      "phase": "n/a",
+      "sponsor": "Skane University Hospital",
+      "status": "Recruiting",
+      "enrollment": 1200,
+      "population": "Patients in primary care seeking medical help for cognitive symptoms",
+      "primary_endpoint": "Presence of brain AD pathology as determined by CSF AD biomarkers (Ab42/Ab40 and p-tau217)",
+      "started": "2020-01",
+      "completed_or_readout": "2028-12",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2020-11",
+      "kind": "paper",
+      "description": "Original peer-reviewed publication from the analyzed document.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33068398/"
+    },
+    {
+      "date": "2020-08-25",
+      "kind": "paper",
+      "description": "Landmark cross-sectional validation showing high discriminative accuracy of plasma p-tau217 for Alzheimer's disease versus other neurodegenerative diseases across three cohorts.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32722745/"
+    },
+    {
+      "date": "2026-08-01",
+      "kind": "paper",
+      "description": "JAMA Neurology publication discussing the clinical performance variability of the FDA-cleared Lumipulse P-Tau217/Aβ42 plasma ratio test.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42223932/"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence supporting plasma p-tau217 as a diagnostic and prognostic biomarker for Alzheimer's disease is exceptionally strong. Initial observational cohorts, notably the Swedish BioFINDER study (NCT01208675), provided robust evidence that p-tau217 levels increase longitudinally during preclinical and prodromal AD and correlate closely with objective cognitive decline and brain atrophy. Subsequent cross-sectional and longitudinal replications across independent and diverse cohorts have confirmed its high discriminative accuracy, often outperforming other blood and imaging markers. The biomarker's clinical utility is further validated by recent regulatory milestones, including FDA clearance for commercial p-tau217/Aβ42 ratio diagnostic testing, which paves the way for its implementation in clinical practice and integration as a key endpoint in therapeutic clinical trials.",
+  "discrepancies": [
+    "The document reports analyzing 150 cognitively unimpaired participants and 100 patients with mild cognitive impairment followed for a median of 4.3 years. The registry for the Swedish BioFINDER Study (NCT01208675) indicates a total enrollment of 1150 subjects with a 10-year follow-up timeframe. This indicates the document presents an interim or subcohort analysis, rather than a contradiction."
+  ]
+}

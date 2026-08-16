@@ -33,6 +33,7 @@ export default defineConfig({
   github: { owner: "msichterman", repo: "alzheimers-research" },
   navigation: {
     tabs: [
+      { label: "For Families", path: "/journey/newly-diagnosed", icon: "heart" },
       { label: "Research", path: "/research", icon: "book-open" },
       { label: "Trials", path: "/trials", icon: "flask-conical" },
       { label: "Timeline", path: "/timeline", icon: "calendar" },
@@ -80,6 +81,14 @@ export default defineConfig({
         facets: ["stance"],
         frontmatter: {
           stance: z.enum(["mainstream", "contested", "emerging"]).optional(),
+        },
+      },
+      "consumer-guide": {
+        facets: ["stage", "audience"],
+        frontmatter: {
+          stage: z.string().optional(),
+          audience: z.string().optional(),
+          url: z.string().optional(),
         },
       },
     },

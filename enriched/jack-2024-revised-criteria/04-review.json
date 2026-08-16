@@ -1,0 +1,111 @@
+{
+  "fact_check": [
+    {
+      "fact": "95% of symptomatic individuals with moderate/frequent neuritic plaques meet criteria for intermediate/high AD neuropathologic change.",
+      "status": "verified",
+      "note": "Checked against the paper (DIAGNOSIS / Rationale for diagnosis of AD by Core 1 biomarkers); specifically, 4390/4637 in the NACC autopsy database."
+    },
+    {
+      "fact": "Select plasma assays demonstrate >90% accuracy compared to amyloid PET or CSF reference standards.",
+      "status": "verified",
+      "note": "Checked against the paper (Anchoring Core 1 biomarkers for AD diagnosis to reference standards)."
+    },
+    {
+      "fact": "Nearly all authors report employment, stock options, or consulting fees from major pharmaceutical companies.",
+      "status": "verified",
+      "note": "Checked against the paper's extensive Conflict of Interest Statement."
+    }
+  ],
+  "research_page": {
+    "slug": "aa-revised-diagnostic-criteria-2024",
+    "title": "Revised criteria for diagnosis and staging of Alzheimer's disease (AA Workgroup, 2024)",
+    "description": "The Alzheimer's Association updates its diagnostic criteria, defining Alzheimer's purely as a biological process using biomarkers and introducing independent biological and clinical staging.",
+    "tags": [
+      "paper",
+      "guidelines",
+      "biomarkers",
+      "diagnosis",
+      "staging",
+      "amyloid"
+    ],
+    "source_line_md": "**Source**: [Alzheimer's & Dementia, 2024](https://doi.org/10.1002/alz.13859) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/38934362)",
+    "authors_line_md": "Jack Jr. et al. — Alzheimer's Association Workgroup",
+    "takeaway_md": "The 2024 Alzheimer's Association criteria fundamentally shift the definition of Alzheimer's disease from a clinical syndrome to a biological process. The framework establishes that an abnormal 'Core 1' biomarker (amyloid PET, specific CSF ratios, or highly accurate plasma p-tau) is sufficient for diagnosis, and proposes independent scales for biological disease severity and clinical symptoms.",
+    "key_findings_md": [
+      "An abnormal Core 1 biomarker is sufficient to establish a biological diagnosis of Alzheimer's, as 95% of symptomatic individuals with moderate/frequent neuritic plaques have intermediate/high neuropathologic change (paper, DIAGNOSIS).",
+      "Highly accurate blood-based biomarkers (BBMs), particularly p-tau217, that achieve >90% accuracy against reference standards can serve as standalone diagnostic tests (paper, Anchoring Core 1 biomarkers).",
+      "Biological severity is staged from A to D based on the sequential progression of amyloid and tau biomarkers, independent of the 6-stage clinical severity scale (paper, BIOLOGICAL DISEASE STAGING)."
+    ],
+    "methods_md": "Workgroup consensus and criteria formulation by the Alzheimer's Association, updating the 2018 NIA-AA research framework to incorporate new evidence on blood-based biomarkers and the approval of anti-amyloid therapies.",
+    "trial_evidence_md": "These criteria reflect a paradigm shift validated by recent Phase 3 trials like [Clarity AD](https://clinicaltrials.gov/study/NCT03887455) (lecanemab) and [TRAILBLAZER-ALZ 2](https://clinicaltrials.gov/study/NCT04437511) (donanemab), which demonstrated that targeting biological markers yields clinical benefit. The guidelines lean heavily on observational cohorts like [ADNI3](/trials/adni3-nct02854033) and utility studies like [IDEAS](/trials/ideas-amyloid-pet-nct02420756) to establish the sequence and clinical validity of biomarkers. Notably, while the document endorses highly accurate blood-based biomarkers as standalone tests, no standalone plasma assay has yet received full FDA clearance for this purpose.",
+    "sentiment_md": "Public perception is highly polarized. While there is broad optimism about accessible blood tests, the shift toward biological diagnosis in asymptomatic patients has sparked severe anxiety and confusion, leading some to seek unproven lifestyle interventions to \"reverse\" biomarker positivity. Clinicians express skepticism about diagnosing patients without comprehensive cognitive profiles, and media coverage has sharply criticized the profound pharmaceutical conflicts of interest among the workgroup authors.",
+    "caveats_md": [
+      "The guidelines explicitly recommend against diagnostic testing in cognitively unimpaired individuals outside of research, but early clinical adoption risks widespread misapplication and patient distress.",
+      "These advanced biomarker testing frameworks are currently difficult to operationalize outside of major medical institutions or high-income countries.",
+      "There remains a mismatch between this biological staging model, which includes asymptomatic individuals, and current FDA labels for anti-amyloid therapies that restrict use to symptomatic patients."
+    ],
+    "relates_to_md": [
+      "[Biomarkers](/research/biomarkers) — Formalizes the role of Core 1 and Core 2 biomarkers in modern Alzheimer's diagnosis and staging.",
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Cements the amyloid-centric view by defining the disease biologically via amyloid and tau pathology."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "ideas-amyloid-pet-nct02420756",
+      "title": "IDEAS Study",
+      "description": "Clinical utility of amyloid PET imaging in Medicare beneficiaries with cognitive impairment.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "biomarker",
+        "pet"
+      ],
+      "registry_md": "[NCT02420756](https://clinicaltrials.gov/study/NCT02420756)",
+      "drug": "Amyloid PET",
+      "phase": "n/a",
+      "sponsor": "American College of Radiology",
+      "population": "Medicare beneficiaries with MCI or dementia of uncertain etiology",
+      "primary_endpoint": "≥ 30% change between intended and actual patient management within 90 days",
+      "started": "2016-02",
+      "readout": "2017-12",
+      "why_md": "Evaluates whether access to amyloid PET imaging significantly alters clinical management and health outcomes in diagnostically uncertain cases, providing crucial real-world utility data for [biomarkers](/research/biomarkers).",
+      "status_log_md": [
+        "**2017-12-01** — Primary completion of the IDEAS study."
+      ],
+      "results_md": "Amyloid PET imaging significantly altered patient management in over 60% of cases, demonstrating the clinical utility of Core 1 biomarkers in diagnostically uncertain populations."
+    },
+    {
+      "slug": "adni3-nct02854033",
+      "title": "ADNI3",
+      "description": "Observational study validating the temporal sequencing of Alzheimer's biomarkers.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "observational",
+        "biomarkers"
+      ],
+      "registry_md": "[NCT02854033](https://clinicaltrials.gov/study/NCT02854033)",
+      "drug": "Biomarkers",
+      "phase": "n/a",
+      "sponsor": "University of Southern California",
+      "population": "Cognitively normal, MCI, and mild AD dementia participants",
+      "primary_endpoint": "Rate of change in cognition and biomarker correlations over 5 years",
+      "started": "2016-12",
+      "readout": "2024-05",
+      "why_md": "Serves as a foundational observational cohort to track the natural history of Alzheimer's disease, establishing how clinical, imaging, and fluid [biomarkers](/research/biomarkers) change over time.",
+      "status_log_md": [
+        "**2024-05-01** — Primary completion of ADNI3."
+      ],
+      "results_md": "ADNI3 validated the temporal sequencing of Alzheimer's biomarkers and supported the accuracy of biofluid markers against PET and autopsy gold standards, heavily informing the 2024 Alzheimer's Association diagnostic criteria."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2024-06",
+      "title": "2024-06 — Alzheimer's Association revises diagnostic criteria",
+      "body_md": "The Alzheimer's Association officially updates its guidelines to define Alzheimer's disease purely by biological biomarkers rather than clinical symptoms, publishing the [revised diagnostic and staging criteria](/research/papers/aa-revised-diagnostic-criteria-2024)."
+    }
+  ],
+  "notes_for_editor": []
+}

@@ -1,0 +1,68 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT06120361",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06120361",
+      "name": "ADetect",
+      "drug": "Plasma p-tau217 and Ab42/Ab40 assays (Diagnostic Test)",
+      "phase": "n/a",
+      "sponsor": "Skane University Hospital",
+      "status": "Recruiting",
+      "enrollment": 1200,
+      "population": "Patients aged 40 and older in primary care seeking medical help due to mild cognitive symptoms (SCD, MCI, or mild dementia)",
+      "primary_endpoint": "Presence of brain AD pathology as determined by CSF AD biomarkers (CSF Ab42/Ab40 and p-tau217)",
+      "started": "2020-01",
+      "completed_or_readout": "2028-12",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT07717567",
+      "registry_url": "https://clinicaltrials.gov/study/NCT07717567",
+      "name": "BLAD",
+      "drug": "Annual blood draw for plasma biomarker measurement (Diagnostic Procedure using Fujirebio Lumipulse)",
+      "phase": "n/a",
+      "sponsor": "IRCCS San Raffaele",
+      "status": "Recruiting",
+      "enrollment": 2000,
+      "population": "Adult patients (>= 40 years) attending a Cognitive Disorders and Dementia Center with subjective or objective cognitive complaints of suspected neurodegenerative origin",
+      "primary_endpoint": "Time to clinical progression to all-cause dementia in patients with Mild Cognitive Impairment (MCI) at baseline",
+      "started": "2023-09",
+      "completed_or_readout": "2032-06",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT06896201",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06896201",
+      "name": "Comfortage-P4",
+      "drug": "Blood Exams, Fluid Biomarkers (using Lumipulse G assays for amyloidopathy and tauopathy)",
+      "phase": "n/a",
+      "sponsor": "Fondazione Policlinico Universitario Agostino Gemelli IRCCS",
+      "status": "Unknown",
+      "enrollment": 200,
+      "population": "Individuals aged 50-85 with subjective cognitive decline (SCD) or mild cognitive impairment (MCI)",
+      "primary_endpoint": "Changes in cognitive performance and quality of life through cognitive scales after 2-year intervention",
+      "started": "2025-09",
+      "completed_or_readout": "2027-03",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2025-05-16",
+      "kind": "regulatory",
+      "description": "FDA 510(k) Substantial Equivalence Clearance (K242706) for Fujirebio's Lumipulse G pTau217/ß-Amyloid 1-42 Plasma Ratio",
+      "url": null
+    }
+  ],
+  "evidence_assessment": "The document establishes strong regulatory confirmation that Fujirebio's Lumipulse G pTau217/ß-Amyloid 1-42 Plasma Ratio assay is substantially equivalent to legally marketed predicate devices for amyloid pathology assessment. However, as an administrative 510(k) metadata record, it lacks primary clinical performance characteristics, such as sensitivity, specificity, and predictive value against standard amyloid PET or CSF benchmarks. To understand the true clinical and diagnostic utility of such plasma biomarker assays, one must look to large, prospective observational studies. Ongoing cohort trials like the Swedish BioFINDER Primary Care Study (ADetect) and the BLAD study in Italy are actively investigating the real-world accuracy and prognostic power of these blood-based biomarkers. Until the complete clinical validation dataset from the 510(k) submission or peer-reviewed readouts from these major trials are available, the test's diagnostic validity is technically cleared but remains contextually dependent on forthcoming real-world evidence.",
+  "discrepancies": [
+    "The document claims FDA clearance based on 'Substantially Equivalent' status, but because this is an administrative metadata record for an in vitro diagnostic (IVD), there is no registered clinical trial under K242706 on ClinicalTrials.gov that directly matches the clearance.",
+    "The document asserts the device evaluates amyloid pathology, but fails to provide the clinical validation statistics (AUC, sensitivity, specificity) required to independently evaluate its diagnostic performance."
+  ]
+}

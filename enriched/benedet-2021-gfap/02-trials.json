@@ -1,0 +1,57 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT02485730",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02485730",
+      "name": "ALFA Cohort",
+      "drug": "N/A (Biomarker)",
+      "phase": "n/a",
+      "sponsor": "Barcelonabeta Brain Research Center, Pasqual Maragall Foundation",
+      "status": "Active",
+      "enrollment": 419,
+      "population": "Cognitively healthy adults aged 45-64 who are first-degree descendants of an Alzheimer's patient",
+      "primary_endpoint": "Change from preclinical phase of AD to Mild Cognitive Impairment",
+      "started": "2016-10",
+      "completed_or_readout": "2025-12",
+      "results_summary": "No aggregate clinical results have been posted to the registry, though the cohort has generated extensive peer-reviewed data confirming early preclinical biomarker profiles (including GFAP and p-tau changes) prior to cognitive decline.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT06582199",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06582199",
+      "name": "BioCogBank-AD",
+      "drug": "N/A (Biomarker)",
+      "phase": "n/a",
+      "sponsor": "Assistance Publique - Hôpitaux de Paris",
+      "status": "Recruiting",
+      "enrollment": 244,
+      "population": "Adults aged 50-90 with mild cognitive impairment or early dementia due to AD (confirmed by abnormal CSF amyloid and tau)",
+      "primary_endpoint": "Mean levels of new blood biomarkers assessing biological resilience",
+      "started": "2024-10",
+      "completed_or_readout": "2027-09",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2021-10",
+      "kind": "paper",
+      "description": "Primary publication of the analyzed document in JAMA Neurology demonstrating plasma GFAP's utility across the AD continuum.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34661615/"
+    },
+    {
+      "date": "2026-08",
+      "kind": "paper",
+      "description": "Recent comprehensive review confirming the widespread adoption of plasma GFAP as an accessible biomarker linked specifically to amyloid-associated neuroinflammation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42560134/"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence base for the document's central claim is strong, grounded in the robust methodology of three well-established, independent observational cohorts (TRIAD, ALFA+, and BioCogBank). The ALFA+ study (NCT02485730) is a registered, prospective cohort precisely focused on the early preclinical identification period, aligning with the document's emphasis on detecting early amyloid-related astrogliosis. Furthermore, a prospective validation cohort for BioCogBank-AD (NCT06582199) is actively recruiting, ensuring these blood-based markers translate into clinical utility. While the cross-sectional nature of this specific analysis cannot definitively prove longitudinal within-subject disease tracking, the large sample size (N=871) and strong effect sizes successfully position plasma GFAP as a highly sensitive and accessible proxy for early Aβ pathology compared to CSF GFAP.",
+  "discrepancies": [
+    "The parsed document analysis states that funding and conflicts of interest are 'none stated', but observational cohorts of this scale are heavily funded; the ClinicalTrials.gov record for the ALFA cohort (NCT02485730) explicitly lists Obra Social La Caixa as a collaborator, and standard publications from this leading author group traditionally carry extensive industry disclosures.",
+    "While the document makes claims regarding the entire Alzheimer's continuum, the registry confirms the ALFA+ cohort (NCT02485730) strictly enrolled cognitively healthy individuals (preclinical); the later symptomatic stages were captured purely by combining it with the TRIAD and BioCogBank cohorts."
+  ]
+}

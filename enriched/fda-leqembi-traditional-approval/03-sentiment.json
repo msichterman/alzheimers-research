@@ -1,0 +1,63 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment around Leqembi is highly mixed, balancing breakthrough excitement with harsh clinical realities. Patients and caregivers feel a desperate hope, not wanting to leave any options on the table. However, they are increasingly burdened by the bi-weekly infusion logistics and terrified by severe ARIA side effects, leading to high distress. They frequently express disappointment when cognitive decline inevitably continues, realizing the drug is not a cure. Meanwhile, the biotech and investor communities show skepticism regarding commercial viability, noting sluggish sales forecasts, widespread 'therapeutic nihilism' among prescribers, and severe reimbursement hurdles internationally.",
+  "communities": [
+    {
+      "community": "Patients and Caregivers (r/Alzheimers, r/dementia)",
+      "sentiment": "mixed",
+      "themes": [
+        "Fear and trauma surrounding severe ARIA side effects",
+        "Logistical burden of bi-weekly infusions and constant MRI monitoring",
+        "Disappointment that cognitive decline continues despite treatment",
+        "Desperate hope and fear of 'leaving anything on the table'"
+      ],
+      "example_urls": [
+        "https://old.reddit.com/r/alzheimers/search?q=leqembi&restrict_sr=on"
+      ]
+    },
+    {
+      "community": "Biotech Professionals & Investors (r/biotech, r/stocks)",
+      "sentiment": "skeptical",
+      "themes": [
+        "Therapeutic nihilism and hesitation among prescribing doctors",
+        "Poor health economics and rejection by European regulators (EMA/NICE)",
+        "Sluggish initial sales and slashed commercial forecasts",
+        "Viewed as an industry catalyst for M&A despite low individual profitability"
+      ],
+      "example_urls": [
+        "https://old.reddit.com/r/biotech/search?q=leqembi&restrict_sr=on",
+        "https://old.reddit.com/r/stocks/search?q=leqembi&restrict_sr=on"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "CNBC",
+      "tone": "positive",
+      "date": "2024-04",
+      "url": "https://www.cnbc.com/2024/04/24/biogen-biib-earnings-q1-2024-.html"
+    },
+    {
+      "outlet": "Endpoints News",
+      "tone": "critical",
+      "date": null,
+      "url": "https://endpts.com/eisai-slashes-leqembi-sales-forecast-by-almost-100m/"
+    },
+    {
+      "outlet": "FiercePharma",
+      "tone": "critical",
+      "date": null,
+      "url": "https://www.fiercepharma.com/marketing/leqembi-launch-hamstrung-physicians-therapeutic-nihilism"
+    }
+  ],
+  "hype_vs_evidence": "Early market and media hype often framed Leqembi as a monumental breakthrough, leading some patients to expect an improvement or reversal of their Alzheimer's symptoms. In reality, the CLARITY AD trial only demonstrated a modest slowing of clinical decline over 18 months, meaning patients continue to worsen noticeably. This divergence causes significant disillusionment among caregivers when they observe ongoing deterioration despite rigorous treatment. Additionally, while the FDA verified clinical benefit, the severe presentation of ARIA (brain bleeding and swelling) has proven far more clinically and emotionally distressing in the real world than top-line trial summaries suggested, creating a stark contrast between pharmaceutical optimism and patient reality.",
+  "misinformation_flags": [
+    "Claims that Leqembi can improve or reverse Alzheimer's symptoms, rather than just modestly slowing decline."
+  ],
+  "searches_run": [
+    "site:reddit.com leqembi OR lecanemab",
+    "https://old.reddit.com/r/alzheimers/search?q=leqembi&restrict_sr=on",
+    "https://old.reddit.com/r/biotech/search?q=leqembi&restrict_sr=on",
+    "https://old.reddit.com/r/stocks/search?q=leqembi&restrict_sr=on"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT04437511",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04437511",
+      "name": "TRAILBLAZER-ALZ 2",
+      "drug": "Donanemab (anti-amyloid beta monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Active",
+      "enrollment": 1736,
+      "population": "Participants 60 to 85 years old with early symptomatic Alzheimer's disease (prodromal AD and mild dementia due to AD) and positive amyloid and tau PET scans",
+      "primary_endpoint": "Change From Baseline on the Integrated Alzheimer's Disease Rating Scale (iADRS) (Overall Population)",
+      "started": "2020-06",
+      "completed_or_readout": "2028-11",
+      "results_summary": "Donanemab significantly slowed clinical decline on the iADRS by 2.92 points compared to placebo at week 76, and profoundly reduced brain amyloid plaque deposition. Treatment was associated with significantly higher incidences of ARIA-E and ARIA-H compared to placebo.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03367403",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03367403",
+      "name": "TRAILBLAZER-ALZ",
+      "drug": "Donanemab (anti-amyloid beta monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Completed",
+      "enrollment": 272,
+      "population": "Participants with early symptomatic Alzheimer's disease",
+      "primary_endpoint": "Change From Baseline in the Integrated Alzheimer's Disease Rating Scale (iADRS) Score",
+      "started": "2017-12",
+      "completed_or_readout": "2021-09",
+      "results_summary": "Donanemab slowed cognitive and functional decline on the iADRS score and resulted in rapid amyloid plaque clearance compared to placebo, establishing clinical proof-of-concept.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05108922",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05108922",
+      "name": "TRAILBLAZER-ALZ 4",
+      "drug": "Donanemab vs Aducanumab",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Completed",
+      "enrollment": 148,
+      "population": "Participants with early symptomatic Alzheimer's disease",
+      "primary_endpoint": "Percentage of Participants Who Reach Complete Amyloid Plaque Clearance on Florbetapir F18 Positron Emission Tomography (PET) Scan (Superiority) on Donanemab Versus Aducanumab",
+      "started": "2021-11",
+      "completed_or_readout": "2023-09",
+      "results_summary": "Donanemab demonstrated superior brain amyloid plaque clearance at 6 months compared to aducanumab.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05026866",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05026866",
+      "name": "TRAILBLAZER-ALZ 3",
+      "drug": "Donanemab (anti-amyloid beta monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Active",
+      "enrollment": 2996,
+      "population": "Participants with preclinical Alzheimer's disease (normal cognition but evidence of amyloid pathology)",
+      "primary_endpoint": "Time to Clinical Progression of Composite Endpoint as Measured by Clinical Dementia Rating (CDR)",
+      "started": "2021-08",
+      "completed_or_readout": "2027-11",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05508789",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05508789",
+      "name": "TRAILBLAZER-ALZ 5",
+      "drug": "Donanemab (anti-amyloid beta monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Active",
+      "enrollment": 1500,
+      "population": "Participants with early symptomatic Alzheimer's disease",
+      "primary_endpoint": "Change from Baseline on the Integrated Alzheimer's Disease Rating Scale (iADRS)",
+      "started": "2022-10",
+      "completed_or_readout": "2028-07",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2024-07-02",
+      "kind": "regulatory",
+      "description": "FDA approves Kisunla (donanemab-azbt) for the treatment of early symptomatic Alzheimer's disease.",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761259"
+    },
+    {
+      "date": "2023-07-17",
+      "kind": "paper",
+      "description": "Sims et al., JAMA: Donanemab in Early Symptomatic Alzheimer Disease: The TRAILBLAZER-ALZ 2 Randomized Clinical Trial.",
+      "url": "https://doi.org/10.1001/jama.2023.13239"
+    },
+    {
+      "date": "2021-03-13",
+      "kind": "paper",
+      "description": "Mintun et al., NEJM: Donanemab in Early Alzheimer's Disease (TRAILBLAZER-ALZ Phase 2 results).",
+      "url": "https://doi.org/10.1056/NEJMoa2100708"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence for donanemab in early symptomatic Alzheimer's disease is highly robust. The central claim that donanemab slows clinical decline and clears amyloid plaque is supported by two well-powered, multi-center trials: the Phase 2 TRAILBLAZER-ALZ proof-of-concept and the pivotal Phase 3 TRAILBLAZER-ALZ 2 trial. Both trials successfully met their primary clinical endpoints using the iADRS metric, while showing profound reductions in brain amyloid. These reproducible, statistically significant results culminated in the FDA approval of donanemab (marketed as Kisunla) in July 2024. The safety profile consistently demonstrates a known class-effect risk of Amyloid Related Imaging Abnormalities (ARIA), requiring clinical monitoring but not negating the demonstrated therapeutic benefit.",
+  "discrepancies": [
+    "No discrepancies found; the document accurately summarizes the methodology, enrolled population (n=1,736), primary endpoint (iADRS change), and topline efficacy and safety (ARIA rates) reported in the ClinicalTrials.gov record and the peer-reviewed TRAILBLAZER-ALZ 2 publication."
+  ]
+}

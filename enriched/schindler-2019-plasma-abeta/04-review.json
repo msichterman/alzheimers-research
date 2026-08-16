@@ -1,0 +1,118 @@
+{
+  "fact_check": [
+    {
+      "fact": "158 mostly cognitively normal participants",
+      "status": "verified",
+      "note": "Matches the methods section of the abstract."
+    },
+    {
+      "fact": "ROC AUC of 0.88 for PET status and 0.85 for CSF p-tau181/Aβ42",
+      "status": "verified",
+      "note": "Matches the results section of the abstract."
+    },
+    {
+      "fact": "AUC of 0.94 when combined with age and APOE ε4 status",
+      "status": "verified",
+      "note": "Matches the results section of the abstract."
+    },
+    {
+      "fact": "15-fold greater risk of conversion for PET-negative individuals with plasma Aβ42/Aβ40 <0.1218",
+      "status": "verified",
+      "note": "Matches the results section of the abstract (p = 0.01)."
+    }
+  ],
+  "research_page": {
+    "slug": "plasma-abeta42-40-schindler-2019",
+    "title": "High-precision plasma Aβ42/40 for predicting brain amyloidosis (2019)",
+    "description": "A high-precision mass-spectrometry blood test for Aβ42/Aβ40 accurately predicts current brain amyloidosis and risk of future conversion.",
+    "tags": [
+      "paper",
+      "biomarkers",
+      "plasma-abeta",
+      "blood-test",
+      "prevention"
+    ],
+    "source_line_md": "**Source**: [Neurology, 2019](https://doi.org/10.1212/WNL.0000000000008081) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/31371569/)",
+    "authors_line_md": "Schindler SE, et al.",
+    "takeaway_md": "Plasma Aβ42/Aβ40 measured via high-precision mass spectrometry strongly predicts amyloid PET status, especially when combined with age and APOE4 status. Cognitively normal individuals with a negative PET scan but a positive blood test have a 15-fold higher risk of turning PET-positive in the future.",
+    "key_findings_md": [
+      "Plasma Aβ42/Aβ40 correlated strongly with amyloid PET status (AUC 0.88) and CSF p-tau181/Aβ42 (AUC 0.85) (Neurology).",
+      "Combining the plasma assay with age and APOE ε4 status yielded an AUC of 0.94 for predicting amyloid PET status (Neurology).",
+      "Participants with a negative baseline amyloid PET scan but a positive plasma Aβ42/Aβ40 ratio (<0.1218) showed a 15-fold greater risk of converting to PET-positive (p=0.01) (Neurology)."
+    ],
+    "methods_md": "Observational cohort study (Class II evidence) analyzing plasma and CSF samples from 158 mostly cognitively normal individuals, collected within 18 months of an amyloid PET scan.",
+    "trial_evidence_md": "This foundational study led directly to the commercial PrecivityAD test. The assay's accuracy was prospectively validated in the community-based [SEABIRD trial](/trials/seabird-nct03899844). Its real-world clinical utility was subsequently established in the [QUIP I](/trials/quip-i-nct05477056) study, which demonstrated that access to these blood biomarker results significantly alters physician diagnostic decision-making and patient management.",
+    "sentiment_md": "The medical and patient communities view plasma amyloid tests highly optimistically as accessible, minimally invasive alternatives to spinal taps and PET scans. However, hype outpaces evidence in the general public, where patients often incorrectly assume a positive amyloid blood test equates to a definitive and immediate diagnosis of clinical Alzheimer's dementia.",
+    "caveats_md": [
+      "The 15-fold increased risk for PET conversion relies on a longitudinal subset of initially PET-negative participants, suggesting a small sample size for that specific finding.",
+      "The assay measures the probability of amyloid pathology, not clinical dementia; a positive result in a cognitively normal individual does not guarantee symptom progression."
+    ],
+    "relates_to_md": [
+      "[Biomarkers](/research/biomarkers) — Introduces a pivotal blood-based assay for detecting amyloid pathology.",
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Strengthens the model that amyloid accumulation precedes cognitive decline by identifying future PET conversion."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "seabird-nct03899844",
+      "title": "SEABIRD",
+      "description": "Community-based validation of the PrecivityAD plasma Aβ42/40 assay in older adults.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "biomarker",
+        "blood-test",
+        "validation"
+      ],
+      "registry_md": "[NCT03899844](https://clinicaltrials.gov/study/NCT03899844)",
+      "drug": "PrecivityAD (plasma Aβ42/40 assay)",
+      "phase": "N/A",
+      "sponsor": "Washington University School of Medicine",
+      "population": "Cognitively normal and impaired older adults (≥60 years) recruited from the community",
+      "primary_endpoint": "Plasma amyloid-beta 42/40 ratio and its AUC in predicting amyloid PET status",
+      "started": "2019-04",
+      "readout": "2024-01",
+      "why_md": "Validates the high-precision plasma Aβ42/40 assay from [Schindler et al. 2019](/research/papers/plasma-abeta42-40-schindler-2019) in a broad, community-based setting to ensure its diagnostic accuracy translates outside of specialized academic memory clinics.",
+      "status_log_md": [
+        "**2019-04** — Trial begins",
+        "**2024-01** — Completed"
+      ],
+      "results_md": "Confirmed that a decreased blood plasma Aβ42/40 ratio accurately predicts amyloid PET positivity across a diverse community-based older adult population."
+    },
+    {
+      "slug": "quip-i-nct05477056",
+      "title": "QUIP I",
+      "description": "Clinical utility study evaluating the impact of the PrecivityAD blood test on patient management.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "biomarker",
+        "clinical-utility"
+      ],
+      "registry_md": "[NCT05477056](https://clinicaltrials.gov/study/NCT05477056)",
+      "drug": "PrecivityAD (plasma Aβ42/40 assay)",
+      "phase": "N/A",
+      "sponsor": "C2N Diagnostics",
+      "population": "Memory specialists and their patients (>60 years) presenting with mild cognitive impairment",
+      "primary_endpoint": "Evaluate patient selection and changes in clinical management plans",
+      "started": "2021-03",
+      "readout": "2022-10",
+      "why_md": "Assesses whether providing physicians with PrecivityAD blood test results significantly alters diagnostic confidence and management strategies for patients evaluated for cognitive impairment.",
+      "status_log_md": [
+        "**2021-03** — Trial begins",
+        "**2022-10** — Completed",
+        "**2023-08-07** — Results published showing altered patient management ([PubMed](https://pubmed.ncbi.nlm.nih.gov/37550958/))"
+      ],
+      "results_md": "Demonstrated that access to the PrecivityAD blood biomarker test significantly impacted clinical evaluation, altering diagnostic decision-making and downstream patient management."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Biomarkers & Diagnostics",
+      "date": "2019-08",
+      "title": "2019-08 — Plasma Aβ42/40 predicts brain amyloidosis",
+      "body_md": "A high-precision mass-spectrometry blood test is shown to accurately predict amyloid PET status and future conversion in cognitively normal individuals, supported by [Schindler et al. 2019](/research/papers/plasma-abeta42-40-schindler-2019)."
+    }
+  ],
+  "notes_for_editor": []
+}

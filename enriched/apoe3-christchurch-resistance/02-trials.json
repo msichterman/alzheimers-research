@@ -1,0 +1,88 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT01998841",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01998841",
+      "name": "API ADAD",
+      "drug": "Crenezumab (anti-amyloid-beta monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Genentech, Inc.",
+      "status": "Completed",
+      "enrollment": 252,
+      "population": "Preclinical PSEN1 E280A mutation carriers and non-carriers from the Colombian kindred",
+      "primary_endpoint": "Annualized Rate of Change in the API ADAD Composite Cognitive Test Total Score",
+      "started": "2013-12",
+      "completed_or_readout": "2022-03",
+      "results_summary": "The trial failed to meet its primary endpoint (p=0.43). Crenezumab did not significantly slow cognitive decline or delay the onset of Alzheimer's disease compared to placebo in preclinical PSEN1 E280A mutation carriers.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03977584",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03977584",
+      "name": "API ADAD Tau PET Substudy",
+      "drug": "Crenezumab (anti-amyloid-beta monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Hoffmann-La Roche",
+      "status": "Completed",
+      "enrollment": 114,
+      "population": "Subgroup of preclinical PSEN1 E280A mutation carriers and non-carriers enrolled in the main API ADAD study",
+      "primary_endpoint": "Annualized Rate of Change in Tau Burden (SUVR)",
+      "started": "2019-06",
+      "completed_or_readout": "2022-04",
+      "results_summary": "Crenezumab did not significantly reduce the annualized rate of tau burden accumulation compared to placebo in mutation carriers (p=0.1953).",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03634007",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03634007",
+      "name": "LX1001-01",
+      "drug": "LX1001 / AAVrh.10hAPOE2 (APOE2-delivering gene therapy)",
+      "phase": "1/2",
+      "sponsor": "Lexeo Therapeutics",
+      "status": "Completed",
+      "enrollment": 15,
+      "population": "APOE4 homozygotes with mild cognitive impairment or mild to moderate dementia due to Alzheimer's disease",
+      "primary_endpoint": "Proportion of participants with treatment-emergent adverse events and serious adverse events",
+      "started": "2019-11",
+      "completed_or_readout": "2024-11",
+      "results_summary": "The study completed its primary follow-up in late 2024 assessing the safety and tolerability of intrathecal administration of AAVrh.10hAPOE2 to alter APOE protein isoforms in the CSF. Efficacy and safety tracking continues in the long-term extension.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05400330",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05400330",
+      "name": "LEADLTFU (LX1001-02)",
+      "drug": "LX1001 / AAVrh.10hAPOE2 (APOE2-delivering gene therapy)",
+      "phase": "1",
+      "sponsor": "Lexeo Therapeutics",
+      "status": "Active",
+      "enrollment": 10,
+      "population": "APOE4 homozygotes previously administered LX1001 in the parent study",
+      "primary_endpoint": "Incidence of treatment emergent adverse events and serious adverse events",
+      "started": "2023-05",
+      "completed_or_readout": "2028-11",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2024-03-15",
+      "kind": "registry-results",
+      "description": "Posted results for the API ADAD Colombia trial (NCT01998841) showing failure of crenezumab to meet primary cognitive endpoints.",
+      "url": "https://clinicaltrials.gov/study/NCT01998841"
+    },
+    {
+      "date": "2023-05",
+      "kind": "paper",
+      "description": "Baseline data publication from the Alzheimer's Prevention Initiative Autosomal-Dominant Alzheimer's Disease Trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36373344/"
+    }
+  ],
+  "evidence_assessment": "The document presents an extraordinary, highly documented N-of-1 case study from the API ADAD Colombian kindred, demonstrating that a homozygous APOE3 Christchurch mutation delayed Alzheimer's symptom onset by three decades despite profound amyloid accumulation. The clinical evidence for this specific protective mechanism relies heavily on this natural experiment and subsequent mechanistic validations, as no direct APOE3ch-mimicking therapeutic has yet entered late-stage clinical trials. However, the context is critical: the broader API ADAD trial testing the anti-amyloid antibody crenezumab in this same kindred ultimately failed to slow cognitive decline or tau accumulation. This juxtaposition strongly supports the document's hypothesis that targeting amyloid alone may be insufficient without addressing tau propagation, and that APOE-tau mechanisms represent a highly promising therapeutic avenue. Clinical attempts to modify APOE isoforms directly, such as Lexeo's APOE2 gene therapy (LX1001), remain in early-phase testing to establish safety and target engagement.",
+  "discrepancies": []
+}

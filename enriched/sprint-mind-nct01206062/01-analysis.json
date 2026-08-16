@@ -1,0 +1,75 @@
+{
+  "kind": "other",
+  "title": "Systolic Blood Pressure Intervention Trial",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2021-01",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "prevention",
+    "hypertension",
+    "cardiovascular",
+    "sprint"
+  ],
+  "themes": [
+    "Intensive blood pressure targets",
+    "Cardiovascular event reduction",
+    "Cognitive impairment and dementia",
+    "White matter lesion volume",
+    "Adverse events of antihypertensive therapy"
+  ],
+  "one_line": "The SPRINT trial showed that an intensive systolic blood pressure target of <120 mm Hg significantly reduced cardiovascular events and all-cause mortality compared to a standard target of <140 mm Hg in high-risk adults without diabetes.",
+  "summary": "The Systolic Blood Pressure Intervention Trial (SPRINT) was a large, 2-arm, multicenter, randomized clinical trial (NCT01206062) involving 9,361 adults aged 50 and older with elevated cardiovascular risk. It compared an intensive systolic blood pressure (SBP) goal of <120 mm Hg with a standard goal of <140 mm Hg. The National Institutes of Health stopped the blood pressure intervention early after observing significantly lower rates of the primary composite cardiovascular outcome (myocardial infarction, acute coronary syndrome, stroke, heart failure, or cardiovascular death) and all-cause mortality in the intensive-treatment group. However, the intensive target was associated with a higher incidence of several serious and non-serious adverse events, including hypotension, syncope, electrolyte abnormalities, and acute kidney injury. Secondary analyses on cognitive outcomes showed a non-significant trend toward reduced all-cause dementia in the intensive control arm. Follow-up for cognitive and kidney outcomes continued through a post-intervention phase.",
+  "key_claims": [
+    {
+      "claim": "Intensive SBP control (<120 mm Hg) significantly reduces the risk of major cardiovascular events compared to standard SBP control (<140 mm Hg).",
+      "evidence": "Primary composite outcome occurred in 243 participants in the intensive group versus 319 in the standard group (HR 0.75, 95% CI 0.64 to 0.89, p<0.001).",
+      "strength": "strong",
+      "location": "Posted results / PRIMARY"
+    },
+    {
+      "claim": "Intensive SBP control significantly lowers all-cause mortality compared to standard SBP control.",
+      "evidence": "All-cause mortality occurred in 155 participants in the intensive group versus 210 in the standard group (HR 0.73, 95% CI 0.60 to 0.90, p=0.003).",
+      "strength": "strong",
+      "location": "Posted results / SECONDARY"
+    },
+    {
+      "claim": "Intensive SBP control does not significantly reduce the incidence of all-cause dementia compared to standard control.",
+      "evidence": "Dementia occurred in 149 participants in the intensive arm versus 176 in the standard arm (HR 0.83, 95% CI 0.67 to 1.04, p=0.10).",
+      "strength": "moderate",
+      "location": "Posted results / SECONDARY"
+    }
+  ],
+  "methods": {
+    "design": "Multicenter, 2-arm, randomized, single-masked interventional clinical trial",
+    "n": 9361,
+    "population": "Adults >= 50 years with SBP 130-180 mm Hg and at least one additional cardiovascular risk factor; excluding patients with diabetes or prior stroke.",
+    "duration": "Up to 6 years (intervention stopped early, follow-up continued)",
+    "registration": "NCT01206062"
+  },
+  "funding_and_conflicts": "Funded by National Heart, Lung, and Blood Institute (NHLBI) with collaborators NIA, NIDDK, NINDS, and Wake Forest University Health Sciences. None stated regarding conflicts of interest in this registry record.",
+  "limitations": [
+    "Patients with diabetes mellitus and prior stroke were explicitly excluded, limiting generalizability to these high-risk populations.",
+    "Masking was only single-blind, meaning participants and treating clinicians were likely aware of the treatment arm, which could influence blood pressure measurement or adverse event reporting.",
+    "Analysis of Small Vessel Cerebral Ischemic Disease utilized a complex non-linear transformation (inverse hyperbolic sine), complicating the clinical interpretation of the absolute change in lesion volume."
+  ],
+  "red_flags": [
+    "The blood pressure intervention was stopped earlier than planned due to 'significant preliminary results', a practice which can overestimate treatment benefits and truncate crucial long-term safety data."
+  ],
+  "parse_quality": {
+    "score": 10,
+    "issues": []
+  },
+  "search_verification": []
+}

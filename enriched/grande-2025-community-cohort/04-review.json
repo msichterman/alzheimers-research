@@ -1,0 +1,95 @@
+{
+  "fact_check": [
+    {
+      "fact": "n=2148 participants in the final analytical sample",
+      "status": "verified",
+      "note": "Checked against the 'Baseline sample characteristics' section of the source document."
+    },
+    {
+      "fact": "Follow-up for up to 16 years (median 10.2 years)",
+      "status": "verified",
+      "note": "Checked against the Abstract and Results sections."
+    },
+    {
+      "fact": "Negative predictive value (NPV) exceeded 90% for all single biomarkers",
+      "status": "verified",
+      "note": "Checked against Table 3 in the source document."
+    },
+    {
+      "fact": "Combining p-tau217 and NfL yielded a PPV of 43.1% for all-cause dementia",
+      "status": "verified",
+      "note": "Checked against the 'Combination of biomarkers' section of the source document."
+    },
+    {
+      "fact": "Blood amyloid β42/40 ratio and total tau are not strongly associated with incident dementia",
+      "status": "verified",
+      "note": "Checked against Table 2; P for trend values were not statistically significant."
+    }
+  ],
+  "research_page": {
+    "slug": "grande-blood-biomarkers-community-2025",
+    "title": "Blood-based biomarkers for incident dementia in the community (Grande et al., 2025)",
+    "description": "A 16-year longitudinal study evaluating six Alzheimer's blood biomarkers in a community cohort, finding high negative predictive value but low positive predictive value for predicting dementia.",
+    "tags": [
+      "paper",
+      "biomarkers",
+      "epidemiology",
+      "p-tau217",
+      "nfl",
+      "gfap"
+    ],
+    "source_line_md": "**Source**: [Nature Medicine, 2025](https://doi.org/10.1038/s41591-025-03605-x) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/40140622)",
+    "authors_line_md": "Grande et al. — Karolinska Institutet",
+    "takeaway_md": "In asymptomatic, community-dwelling older adults, elevated blood biomarkers (p-tau217, p-tau181, NfL, GFAP) are highly effective at ruling out impending dementia over the next decade. However, their low positive predictive value (33–43%) means they generate too many false positives to be used as standalone screening tools for the general public.",
+    "key_findings_md": [
+      "Elevated baseline p-tau181, p-tau217, NfL, and GFAP predicted 10-year all-cause and AD dementia with high negative predictive values (>90%) but low positive predictive values (e.g., 33.3% for p-tau217) (paper, Table 3).",
+      "Combining p-tau217 with NfL improved the positive predictive value for all-cause dementia to 43.1%, while combining p-tau217 with GFAP improved it to 23.5% for AD dementia (paper, Results).",
+      "Blood Aβ42/40 ratio and total tau were not strongly associated with incident dementia in this community cohort, a finding the authors attribute to peripheral production of these proteins diluting the brain-specific signal (paper, Table 2)."
+    ],
+    "methods_md": "Prospective population-based longitudinal cohort study (SNAC-K) of 2,148 dementia-free older adults (aged ≥60) in Sweden. Participants were followed for up to 16 years (median 10.2 years).",
+    "trial_evidence_md": "The epidemiological finding that these tests are better for ruling out dementia than diagnosing it aligns with current clinical guidance. Observational screening registries like Bio-Hermes ([NCT04733989](https://clinicaltrials.gov/study/NCT04733989)) demonstrate that blood biomarkers are best utilized as triage tools to determine who requires confirmatory PET or CSF testing. The field is actively shifting toward validating these markers in asymptomatic primary care populations—as seen in the upcoming [DIV-AD trial](/trials/div-ad-nct07521722). A key discrepancy in the Grande et al. study, however, is its reliance on purely clinical diagnoses of dementia; modern validation trials require biological confirmation of amyloid/tau pathology.",
+    "sentiment_md": "Public perception of these tests is highly polarized and occasionally misinformed. On platforms like Reddit, longevity and general health communities enthusiastically view tests like p-tau217 as a '15-year early warning system' ready for mass screening. In contrast, media reports and clinical discussions highlight the distress caused by false positives, noting that many asymptomatic people—and patients with unrelated cognitive issues like long COVID—mistakenly believe a positive blood test guarantees an Alzheimer's diagnosis.",
+    "caveats_md": [
+      "Dementia diagnoses were made clinically without PET or CSF biomarker confirmation, risking misclassification of the underlying pathology.",
+      "The biomarker cut-offs used to calculate predictive accuracy were optimized on a training subset but not validated in an independent, external cohort.",
+      "Biomarkers were measured in serum rather than plasma, which may negatively affect the stability and measurement accuracy of amyloid β."
+    ],
+    "relates_to_md": [
+      "[Biomarkers](/research/biomarkers) — Evaluates the real-world predictive value of leading blood-based Alzheimer's biomarkers.",
+      "[DIV-AD](/trials/div-ad-nct07521722) — A related upcoming observational trial evaluating blood biomarkers in a diverse primary care population."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "div-ad-nct07521722",
+      "title": "DIV-AD",
+      "description": "An observational study evaluating plasma Alzheimer's biomarkers in cognitively unimpaired adults from diverse ethnic groups in primary care.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "biomarkers",
+        "observational",
+        "screening"
+      ],
+      "registry_md": "[NCT07521722](https://clinicaltrials.gov/study/NCT07521722)",
+      "drug": "Blood-based biomarkers (p-tau, Abeta, GFAP, NfL)",
+      "phase": "Observational",
+      "sponsor": "Barcelonabeta Brain Research Center, Pasqual Maragall Foundation",
+      "population": "Cognitively unimpaired adults aged 50-75 from diverse ethnic groups in primary care",
+      "primary_endpoint": "Plasma levels of Alzheimer's disease blood-based biomarkers across ethnic groups",
+      "started": "2026-04",
+      "readout": "2027-04",
+      "why_md": "As blood-based [biomarkers](/research/biomarkers) show high sensitivity for ruling out Alzheimer's pathology, they must be validated outside specialized memory clinics. This trial assesses how these biomarkers perform in asymptomatic, diverse populations in standard primary care settings.",
+      "status_log_md": [
+        "**2026-04-01** — Trial slated to begin (per [registry](https://clinicaltrials.gov/study/NCT07521722))"
+      ],
+      "results_md": null
+    }
+  ],
+  "timeline_entries": [],
+  "notes_for_editor": [
+    "Created a new trial page for DIV-AD (NCT07521722) as it directly answers the call for diverse, primary-care validation mentioned in the paper.",
+    "DIV-AD is listed as 'Not Yet Recruiting' in the registry; mapped to the 'Active' badge as per the allowed schema enum.",
+    "No new timeline entries were added, as this epidemiological study confirms known biomarker dynamics rather than serving as a major historical milestone."
+  ]
+}

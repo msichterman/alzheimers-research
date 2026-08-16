@@ -1,0 +1,276 @@
+{
+  "kind": "research-paper",
+  "title": "Two Phase 3 Trials of Bapineuzumab in Mild-to-Moderate Alzheimer’s Disease",
+  "authors": [
+    {
+      "name": "Salloway, Stephen",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Sperling, Reisa",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Fox, Nick C.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Blennow, Kaj",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Klunk, William",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Raskind, Murray",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Sabbagh, Marwan",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Honig, Lawrence S.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Porsteinsson, Anton P.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Ferris, Steven",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Reichert, Marcel",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Ketter, Nzeera",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Nejadnik, Bijan",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Guenzler, Volkmar",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Miloslavsky, Maja",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Wang, Daniel",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Lu, Yuan",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Lull, Julia",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Tudor, Iulia Cristina",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Liu, Enchi",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Grundman, Michael",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Yuen, Eric",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Black, Ronald",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Brashear, H. Robert",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Salloway, Stephen",
+  "venue": "The New England journal of medicine",
+  "published": "2014",
+  "doi": "10.1056/NEJMoa1304839",
+  "doi_url": "https://doi.org/10.1056/NEJMoa1304839",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/24450891",
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law."
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "tau",
+    "immunotherapy",
+    "biomarkers",
+    "bapineuzumab",
+    "aria",
+    "monoclonal-antibody"
+  ],
+  "themes": [
+    "Bapineuzumab efficacy in mild-to-moderate Alzheimer's disease",
+    "Amyloid-related imaging abnormalities (ARIA) safety risks",
+    "APOE e4 carrier vs noncarrier biomarker differences",
+    "Biomarker modification without clinical benefit"
+  ],
+  "one_line": "In two phase 3 trials, the anti-amyloid monoclonal antibody bapineuzumab failed to improve clinical outcomes in mild-to-moderate Alzheimer's disease, despite engaging biomarker targets in APOE ε4 carriers.",
+  "summary": "This document reports the findings of two parallel Phase 3, double-blind, randomized, placebo-controlled trials evaluating bapineuzumab in patients with mild-to-moderate Alzheimer's disease. The trials separated patients based on APOE ε4 allele status, enrolling 1,121 carriers and 1,331 noncarriers. Participants received intravenous bapineuzumab or a placebo every 13 weeks for 78 weeks. No significant differences were observed between bapineuzumab and placebo groups on the primary clinical endpoints, the ADAS-cog11 and DAD scores, in either trial. While bapineuzumab stabilized brain amyloid burden and reduced cerebrospinal fluid phospho-tau concentrations in APOE ε4 carriers, these biomarker improvements did not translate into clinical efficacy. Furthermore, bapineuzumab administration resulted in dose-dependent amyloid-related imaging abnormalities with edema (ARIA-E), necessitating the premature discontinuation of the highest studied dose.",
+  "key_claims": [
+    {
+      "claim": "Bapineuzumab does not significantly improve clinical outcomes in patients with mild-to-moderate Alzheimer's disease.",
+      "evidence": "At week 78, between-group differences in ADAS-cog11 and DAD scores were -0.2 (P=0.80) and -1.2 (P=0.34) in carriers; noncarrier differences were similarly non-significant across doses.",
+      "strength": "strong",
+      "location": "Abstract / RESULTS (EFFICACY)"
+    },
+    {
+      "claim": "Bapineuzumab increases the risk of amyloid-related imaging abnormalities with edema (ARIA-E).",
+      "evidence": "ARIA-E occurred in 15.3% of bapineuzumab-treated carriers (27.3% in APOE ε4 homozygotes) and up to 14.2% in noncarriers at the highest dose, compared to 0.2% in placebo.",
+      "strength": "strong",
+      "location": "RESULTS / SAFETY"
+    },
+    {
+      "claim": "Bapineuzumab modifies disease biomarkers in APOE ε4 carriers.",
+      "evidence": "By week 71, CSF phospho-tau significantly decreased in carriers on bapineuzumab compared to placebo (difference of -6.75 pg/ml; P=0.005), and PIB-PET showed stabilized amyloid accumulation (difference of -0.101 SUVR; P=0.004).",
+      "strength": "strong",
+      "location": "RESULTS / KEY BIOMARKER OUTCOMES"
+    }
+  ],
+  "methods": {
+    "design": "Double-blind, randomized, placebo-controlled, parallel-group Phase 3 trials",
+    "n": 2452,
+    "population": "Patients aged 50 to 88 with mild-to-moderate Alzheimer's disease (MMSE 16-26)",
+    "duration": "78 weeks (infusions every 13 weeks)",
+    "registration": "NCT00575055, NCT00574132"
+  },
+  "funding_and_conflicts": "Funded by Janssen Alzheimer Immunotherapy and Pfizer; specific conflicts of interest for authors are stated as available at NEJM.org but not explicitly listed in the text.",
+  "limitations": [
+    "The 2.0-mg/kg bapineuzumab dose was discontinued early due to high rates of ARIA-E, severely limiting the evaluation of higher-dose efficacy.",
+    "Small sample sizes in the PIB-PET and CSF phospho-tau substudies limited the statistical power of the biomarker analyses, especially for noncarriers.",
+    "36.1% of APOE ε4 noncarriers did not reach the threshold for amyloid positivity at baseline, indicating a significant portion of this cohort may not have had Alzheimer's disease."
+  ],
+  "red_flags": [
+    "More than a third (36.1%) of the noncarrier population tested negative for baseline amyloid pathology, casting serious doubt on the accuracy of clinical Alzheimer's diagnoses in this group and severely confounding the noncarrier efficacy data.",
+    "The authors highlight prespecified sub-analyses using an alternative MMSE threshold (≥20) to find a marginal p<0.05 difference in DAD scores for noncarriers, which risks presenting a spun interpretation of otherwise uniformly negative primary results."
+  ],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "Table, section, and figure references were stripped during conversion, leaving empty parentheses or broken sentences like '( and )' or 'shown in in the .'",
+      "Minor spacing artifacts such as run-on brackets and lost super/subscripts."
+    ]
+  },
+  "search_verification": [
+    "Relied on explicitly stated PMID (24450891) and DOI (10.1056/NEJMoa1304839) to verify publication year as 2014 without performing a live web search, as these identifiers are definitive."
+  ]
+}

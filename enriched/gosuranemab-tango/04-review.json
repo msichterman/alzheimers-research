@@ -1,0 +1,101 @@
+{
+  "fact_check": [
+    {
+      "fact": "The primary endpoint of the TANGO trial was safety and tolerability.",
+      "status": "verified",
+      "note": "Checked against NCT03352557 and the paper's methods section. Although the paper's title leads with 'efficacy', efficacy endpoints were strictly secondary and exploratory."
+    },
+    {
+      "fact": "High-dose gosuranemab reduced CSF unbound N-terminal tau by 92.6%.",
+      "status": "verified",
+      "note": "Checked against the source document (Results: Exploratory endpoints / Figure 3)."
+    },
+    {
+      "fact": "High-dose gosuranemab performed significantly worse than placebo on the ADAS-Cog13 at week 78 (P = 0.0378).",
+      "status": "verified",
+      "note": "Checked against the source document (Results: Exploratory endpoints / Extended Data Fig. 1)."
+    },
+    {
+      "fact": "Gosuranemab is currently advancing to Phase 3 trials.",
+      "status": "disputed",
+      "note": "Checked against public sentiment analysis and clinical trial registries. The drug's program was permanently terminated; media claims conflate it with Biogen's active tau drug, diranersen (BIIB080)."
+    }
+  ],
+  "research_page": {
+    "slug": "gosuranemab-tango",
+    "title": "TANGO: Gosuranemab in early Alzheimer's (Phase 2)",
+    "description": "A Phase 2 trial of the anti-tau antibody gosuranemab showed robust target engagement but completely failed to slow clinical or cognitive decline.",
+    "tags": [
+      "paper",
+      "trial",
+      "tau",
+      "immunotherapy",
+      "biomarkers",
+      "gosuranemab",
+      "monoclonal-antibody"
+    ],
+    "source_line_md": "**Source**: [Nature Aging, 2023](https://doi.org/10.1038/s43587-023-00523-w) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/38012285)",
+    "authors_line_md": "M.S. et al. — Biogen",
+    "takeaway_md": "Gosuranemab robustly cleared unbound N-terminal tau from the cerebrospinal fluid but failed to slow clinical, functional, or cognitive decline over 78 weeks. The drug also failed to reduce pathological tau accumulation on PET imaging, demonstrating that targeting this specific extracellular tau fragment is an ineffective strategy for treating Alzheimer's disease.",
+    "key_findings_md": [
+      "Gosuranemab met its primary safety endpoints and was generally well tolerated, with low rates of severe adverse events and study withdrawal (paper, Table 3).",
+      "Target engagement was robust, achieving up to a 92.6% reduction in CSF unbound N-terminal tau in the high-dose group compared to placebo (paper, Figure 3).",
+      "The drug failed its secondary efficacy endpoints, showing no separation from placebo on CDR-SB scores at 78 weeks (adjusted mean change of 1.85 for both the high-dose and placebo groups) (paper, Figure 2).",
+      "Tau PET imaging showed no significant treatment effect on cerebral tau accumulation across any Braak stage composite regions (paper, Figure 4)."
+    ],
+    "methods_md": "TANGO was a randomized, double-blind, placebo-controlled Phase 2 trial enrolling 654 adults (aged 50-80) with mild cognitive impairment due to AD or mild AD dementia. Participants received varying intravenous doses of gosuranemab or placebo for a 78-week controlled period. The trial is registered as NCT03352557.",
+    "trial_evidence_md": "TANGO ([NCT03352557](/trials/gosuranemab-nct03352557)) serves as the definitive efficacy failure for gosuranemab in Alzheimer's disease. While the paper's title emphasizes efficacy, registry data confirms the primary endpoint was strictly safety and tolerability. This failure in Alzheimer's, coupled with an earlier Phase 2 miss in Progressive Supranuclear Palsy ([NCT03068468](https://clinicaltrials.gov/study/NCT03068468)), led Biogen to terminate the entire gosuranemab development program.",
+    "sentiment_md": "Public interest in gosuranemab has been effectively dead since the trial's failure in 2021. However, recent misinformation from low-tier news aggregators has generated false hype claiming the drug is advancing to Phase 3. These reports mistakenly attribute the recent trial progress of another Biogen tau therapy, diranersen (BIIB080), to the discontinued gosuranemab program.",
+    "caveats_md": [
+      "Successfully clearing extracellular N-terminal tau did not translate to reducing pathological brain tau on PET scans, suggesting this specific mechanism misses the tau species actually driving the disease.",
+      "The highest dose of the drug was associated with a statistically significant worsening of ADAS-Cog13 scores and an increase in ventricular volume at 78 weeks, hinting at potential detrimental effects alongside the lack of efficacy.",
+      "The trial's long-term extension was abruptly aborted due to lack of efficacy, meaning patient trajectories and safety outcomes beyond 78 weeks will remain permanently unknown."
+    ],
+    "relates_to_md": [
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Explores a different target (tau) that is hypothesized to act downstream of amyloid accumulation.",
+      "[Biomarkers](/research/biomarkers) — Demonstrates a stark disconnect between moving a fluid biomarker (CSF unbound tau) and altering clinical outcomes or PET imaging."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "gosuranemab-nct03352557",
+      "title": "TANGO (Gosuranemab Phase 2)",
+      "description": "Phase 2 trial of the anti-tau monoclonal antibody gosuranemab in participants with early Alzheimer's disease.",
+      "badge": "Terminated",
+      "tags": [
+        "trial",
+        "tau",
+        "gosuranemab",
+        "phase-2"
+      ],
+      "registry_md": "[NCT03352557](https://clinicaltrials.gov/study/NCT03352557)",
+      "drug": "Gosuranemab (anti-N-terminal tau monoclonal antibody)",
+      "phase": "Phase 2",
+      "sponsor": "Biogen",
+      "population": "Adults aged 50-80 with MCI due to AD or mild AD dementia (N=654)",
+      "primary_endpoint": "Percentage of Participants With Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+      "started": "2018-05",
+      "readout": "2021-08",
+      "why_md": "This trial tested whether clearing extracellular N-terminal tau with gosuranemab could slow disease progression in early Alzheimer's. It established that targeting this specific tau fragment successfully changes fluid biomarkers but does not confer clinical benefits.",
+      "status_log_md": [
+        "**2018-05-01** — Trial begins.",
+        "**2021-06-01** — Biogen announces the trial failed to meet efficacy endpoints and terminates the long-term extension.",
+        "**2021-08-01** — Trial officially concluded.",
+        "**2023-11-27** — [Full results published](/research/papers/gosuranemab-tango) in Nature Aging."
+      ],
+      "results_md": "The trial met its primary safety and tolerability endpoints and successfully reduced unbound N-terminal tau in the CSF. However, it failed all secondary and exploratory clinical efficacy endpoints, showing no significant difference from placebo on CDR-SB scores or tau PET accumulation, leading to the termination of the gosuranemab program."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2021-06",
+      "title": "2021-06 — Gosuranemab program terminated",
+      "body_md": "Following the definitive failure of the Phase 2 [TANGO trial](/research/papers/gosuranemab-tango) to slow cognitive decline, Biogen officially terminates development of the anti-tau antibody gosuranemab."
+    }
+  ],
+  "notes_for_editor": [
+    "The publication title heavily implies the trial was designed to test efficacy ('...study of efficacy and safety...'), but registry data confirms efficacy was only a secondary endpoint. We emphasized this boundary in the fact check and trial evidence sections.",
+    "The timeline entry for gosuranemab's termination uses the 2021-06 announcement date surfaced by the sentiment analysis (via Reddit and Alzforum), rather than the formal 2021-08 trial completion date."
+  ]
+}

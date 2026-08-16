@@ -1,0 +1,102 @@
+{
+  "fact_check": [
+    {
+      "fact": "Change in PACC score at 240 weeks was −1.43 in solanezumab group and −1.13 in placebo group (P = 0.26).",
+      "status": "verified",
+      "note": "Matches the RESULTS section of the source document perfectly."
+    },
+    {
+      "fact": "Amyloid levels increased by 11.6 centiloids with solanezumab and 19.3 centiloids with placebo.",
+      "status": "verified",
+      "note": "Checked against the RESULTS / TRIAL END POINTS section."
+    },
+    {
+      "fact": "ARIA-E occurred in less than 1% of participants in each group.",
+      "status": "verified",
+      "note": "Checked against RESULTS / SAFETY (1 case in treatment, 2 in placebo)."
+    },
+    {
+      "fact": "Solanezumab dose was quadrupled from 400 mg to 1600 mg after 970 participants enrolled.",
+      "status": "verified",
+      "note": "Checked against METHODS / TRIAL DESIGN."
+    },
+    {
+      "fact": "36% of participants progressed to a global CDR score > 0.",
+      "status": "disputed",
+      "note": "The discussion mentions 36%, but the strict results section explicitly states 'Across both groups, 33.4% of the participants had progression of the global CDR score at 240 weeks.' The 33.4% figure should be preferred for rigorous reporting."
+    }
+  ],
+  "research_page": {
+    "slug": "solanezumab-a4-prevention",
+    "title": "Trial of Solanezumab in Preclinical Alzheimer’s Disease",
+    "description": "A Phase 3 trial showing that targeting monomeric amyloid with solanezumab does not slow cognitive decline in preclinical Alzheimer's disease.",
+    "tags": [
+      "paper",
+      "trial",
+      "amyloid",
+      "prevention",
+      "immunotherapy",
+      "solanezumab"
+    ],
+    "source_line_md": "**Source**: [The New England Journal of Medicine, 2023](https://doi.org/10.1056/NEJMoa2305032) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/37458272)",
+    "authors_line_md": "Reisa A. Sperling et al. — A4 Study Team",
+    "takeaway_md": "Solanezumab, an antibody targeting monomeric amyloid, failed to slow cognitive decline in older adults with preclinical Alzheimer's disease over 4.5 years. The drug slightly slowed new amyloid accumulation but could not clear existing plaques, confirming that targeting amyloid monomers does not provide clinical benefit.",
+    "key_findings_md": [
+      "Solanezumab did not slow cognitive decline; the treatment group actually showed a numerically greater decline than placebo (PACC score change −1.43 vs. −1.13, P=0.26) ([paper, RESULTS](https://doi.org/10.1056/NEJMoa2305032)).",
+      "Brain amyloid levels continued to increase in both groups, though slightly less with solanezumab (+11.6 centiloids) than placebo (+19.3 centiloids).",
+      "ARIA with edema (ARIA-E) occurred in less than 1% of participants in both groups, distinguishing it from plaque-clearing antibodies."
+    ],
+    "methods_md": "Phase 3 randomized, double-blind, placebo-controlled trial (A4). Enrolled 1,169 cognitively unimpaired adults (ages 65 to 85) with elevated brain amyloid on PET scans. Participants received intravenous solanezumab or placebo every 4 weeks for 240 weeks. Registered as [NCT02008357](https://clinicaltrials.gov/study/NCT02008357).",
+    "trial_evidence_md": "The A4 trial ([NCT02008357](/trials/solanezumab-a4-nct02008357)) represents the definitive clinical failure of solanezumab. It follows a string of negative results across the disease continuum, including mild-to-moderate AD (EXPEDITION 1 and 2), mild AD (EXPEDITION 3), and dominantly inherited AD (DIAN-TU). Together, these findings led to the complete discontinuation of solanezumab for Alzheimer's disease.",
+    "sentiment_md": "Public and market sentiment regarding solanezumab is quiet, as the drug's failure was widely expected following previous trial misses. Within the scientific community, the A4 study is viewed constructively as definitive proof that targeting monomeric amyloid is an ineffective mechanism, thereby validating the field's pivot toward plaque-clearing therapies.",
+    "caveats_md": [
+      "The trial was severely disrupted midway through by both a drastic protocol change (quadrupling the drug dose) and the COVID-19 pandemic, which forced researchers to change how time and visits were analyzed in their statistical models.",
+      "The participant population lacked racial and ethnic diversity and was highly educated, which limits how reliably these findings generalize to the broader aging population."
+    ],
+    "relates_to_md": [
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Demonstrates that targeting monomeric amyloid, as opposed to aggregated plaques or oligomers, does not confer clinical benefit.",
+      "[Biomarkers](/research/biomarkers) — Reinforces that simply slowing amyloid accumulation without clearing it below baseline does not alter disease trajectory."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "solanezumab-a4-nct02008357",
+      "title": "A4: Solanezumab in Preclinical AD",
+      "description": "A Phase 3 prevention trial evaluating solanezumab in cognitively unimpaired older adults with elevated brain amyloid.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "phase-3",
+        "prevention",
+        "solanezumab"
+      ],
+      "registry_md": "[NCT02008357](https://clinicaltrials.gov/study/NCT02008357)",
+      "drug": "Solanezumab (monomeric amyloid-targeting monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company / NIH",
+      "population": "Cognitively unimpaired persons aged 65-85 with elevated brain amyloid",
+      "primary_endpoint": "Change from baseline in Preclinical Alzheimer Cognitive Composite (PACC) score",
+      "started": "2014-02",
+      "readout": "2022-12",
+      "why_md": "The A4 trial was designed to test whether early intervention with a monomer-targeting antibody could prevent disease progression. By testing solanezumab in individuals with elevated amyloid but no cognitive impairment, it aimed to answer whether stopping amyloid accumulation before symptoms arise is sufficient to delay Alzheimer's.",
+      "status_log_md": [
+        "**2014-02-01** — Trial begins enrollment.",
+        "**2017-06-01** — Protocol amended to quadruple the solanezumab dose from 400 mg to 1600 mg based on external trial data.",
+        "**2022-12-01** — Trial completes clinical phase.",
+        "**2023-07-17** — Primary results published in NEJM showing no clinical benefit ([Sperling et al., 2023](/research/papers/solanezumab-a4-prevention))."
+      ],
+      "results_md": "Solanezumab failed to slow cognitive decline over 240 weeks (mean PACC score change -1.43 vs -1.13 for placebo, p=0.26). Amyloid continued to accumulate in both groups, though slightly less in the treatment arm. The trial confirmed that targeting monomeric amyloid in preclinical stages does not provide clinical benefit."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2023-07",
+      "title": "2023-07 — Solanezumab fails A4 trial in preclinical Alzheimer's",
+      "body_md": "Results published from the A4 study definitively demonstrated that targeting monomeric amyloid with solanezumab does not slow cognitive decline, ending the drug's clinical development. Details in [Trial of Solanezumab in Preclinical Alzheimer’s Disease](/research/papers/solanezumab-a4-prevention)."
+    }
+  ],
+  "notes_for_editor": [
+    "The source text mentions 'progression of the global CDR score to more than 0 in 36% of the participants' in the Discussion, but strictly reports 33.4% in the Results section. I have flagged this in the fact check and used 33.4% as the analytically rigorous figure."
+  ]
+}

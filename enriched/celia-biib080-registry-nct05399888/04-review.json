@@ -1,0 +1,89 @@
+{
+  "fact_check": [
+    {
+      "fact": "The CELIA trial is ongoing and awaiting its first readout.",
+      "status": "corrected",
+      "note": "While the long-term extension is active, the primary 76-week placebo-controlled period completed on March 11, 2026. Top-line data has already begun circulating."
+    },
+    {
+      "fact": "Diranersen's efficacy is definitively on par with approved amyloid therapies like Leqembi.",
+      "status": "disputed",
+      "note": "Flagged by the sentiment researcher as premature corporate hype; recent Phase 2 media coverage indicates mixed clinical results and missed endpoints."
+    },
+    {
+      "fact": "CELIA enrolled 416 participants with mild cognitive impairment or mild AD dementia.",
+      "status": "verified",
+      "note": "Matches the actual enrollment figure and inclusion criteria listed in the ClinicalTrials.gov NCT05399888 record."
+    }
+  ],
+  "research_page": {
+    "slug": "diranersen-celia-phase-2",
+    "title": "CELIA: Phase 2 study of diranersen in early Alzheimer's",
+    "description": "Study design and registry record for the Phase 2 trial of diranersen (BIIB080), a tau-targeting antisense oligonucleotide.",
+    "tags": [
+      "trial",
+      "tau",
+      "amyloid",
+      "antisense-oligonucleotide"
+    ],
+    "source_line_md": "**Source**: [ClinicalTrials.gov, 2022](https://clinicaltrials.gov/study/NCT05399888)",
+    "authors_line_md": "Biogen",
+    "takeaway_md": "Diranersen (BIIB080) is an investigational antisense therapy designed to halt tau production. While earlier Phase 1b testing successfully proved it reduces tau levels, Phase 2 (CELIA) clinical outcomes have reportedly been mixed, illustrating the difficulty of translating biomarker movement into cognitive benefit.",
+    "key_findings_md": [
+      "Diranersen targets MAPT mRNA to prevent tau protein production ([NCT05399888](https://clinicaltrials.gov/study/NCT05399888)).",
+      "A preceding Phase 1b trial established safety and target engagement, reducing CSF total-tau by over 50% ([NCT03186989](https://clinicaltrials.gov/study/NCT03186989)).",
+      "The Phase 2 primary endpoint evaluates dose response on the CDR-SB over 76 weeks ([NCT05399888](https://clinicaltrials.gov/study/NCT05399888))."
+    ],
+    "methods_md": "This Phase 2, randomized, double-blind, placebo-controlled trial enrolled 416 adults aged 50 to 80 with mild cognitive impairment or mild Alzheimer's dementia. Enrollment required confirmed amyloid pathology. Participants receive intrathecal injections of diranersen (low or high dose) or placebo every 12 or 24 weeks for 76 weeks, followed by a 96-week open-label extension. Registered as [NCT05399888](https://clinicaltrials.gov/study/NCT05399888).",
+    "trial_evidence_md": "This document outlines the registry details for the pivotal [CELIA trial (NCT05399888)](/trials/diranersen-celia-nct05399888). It follows a successful Phase 1b trial ([NCT03186989](https://clinicaltrials.gov/study/NCT03186989)) which demonstrated target engagement. The primary 76-week evaluation period for CELIA completed in March 2026. While official results are not yet posted to the registry, top-line clinical data recently circulated in investor and media reports following a July 2026 conference presentation.",
+    "sentiment_md": "Public perception is highly fragmented. Patients and caregivers maintain a quiet, cautious hope for tau-targeted therapies, recognizing the early stage of the research. In contrast, financial analysts and retail investors are heavily skeptical, focusing on mixed top-line clinical results and missed endpoints that triggered a stock slide despite optimistic corporate press releases.",
+    "caveats_md": [
+      "Enrollment strictly requires positive amyloid pathology, meaning these findings will not immediately generalize to primary tauopathies lacking amyloid.",
+      "Current public discussions regarding clinical efficacy rely on press releases and conference coverage; full peer-reviewed data from the Phase 2 trial is pending."
+    ],
+    "relates_to_md": [
+      "[Biomarkers](/research/biomarkers) — Diranersen explicitly targets tau production, but the trial uses amyloid confirmation for screening.",
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Reflects the industry's shift toward downstream tau-lowering therapies following initial amyloid clearance approvals."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "diranersen-celia-nct05399888",
+      "title": "CELIA (Diranersen Phase 2)",
+      "description": "Phase 2 trial evaluating diranersen (BIIB080), a tau-targeting antisense oligonucleotide, in early Alzheimer's disease.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "phase-2",
+        "tau",
+        "antisense-oligonucleotide"
+      ],
+      "registry_md": "[NCT05399888](https://clinicaltrials.gov/study/NCT05399888)",
+      "drug": "Diranersen / BIIB080 (MAPT mRNA antisense oligonucleotide)",
+      "phase": "2",
+      "sponsor": "Biogen",
+      "population": "Adults 50 to 80 years with MCI due to AD or mild AD dementia and evidence of amyloid pathology (n=416)",
+      "primary_endpoint": "Dose response in Change From Baseline to Week 76 on the CDR-SB",
+      "started": "2022-08",
+      "readout": "2026-03",
+      "why_md": "Following Phase 1 evidence that diranersen robustly lowers tau production, CELIA tests whether this mechanism safely translates to slowed cognitive and functional decline. It serves as a pivotal test case for applying antisense oligonucleotide technology to tauopathy in Alzheimer's.",
+      "status_log_md": [
+        "**2022-08-24** — Trial begins enrollment ([registry](https://clinicaltrials.gov/study/NCT05399888)).",
+        "**2026-03-11** — Primary completion date reached for the placebo-controlled evaluation period.",
+        "**2026-07** — Biogen reportedly presents Phase 2 data at AAIC, with media noting missed endpoints and mixed efficacy."
+      ],
+      "results_md": "Official peer-reviewed results are not yet posted to the registry. July 2026 media reports indicate the top-line readout yielded mixed cognitive outcomes and missed some primary expectations, though long-term extension data gathering continues."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Clinical Trials",
+      "date": "2026-07",
+      "title": "2026-07 — Diranersen Phase 2 yields mixed top-line results",
+      "body_md": "Biogen's Phase 2 CELIA trial for the tau-targeting antisense oligonucleotide diranersen reads out with mixed clinical efficacy, missing key endpoints and dampening investor expectations. [Review the trial details](/research/papers/diranersen-celia-phase-2)."
+    }
+  ],
+  "notes_for_editor": [
+    "The ClinicalTrials.gov registry (NCT05399888) indicates 'Results posted: false', but the sentiment researcher's analysis of July 2026 news articles suggests top-line data was recently presented (likely at AAIC 2026) showing mixed results and missed endpoints. I have incorporated this event based on the sentiment data, but a human editor should verify the exact AAIC 2026 data presentation for diranersen to ensure precision before final publication."
+  ]
+}

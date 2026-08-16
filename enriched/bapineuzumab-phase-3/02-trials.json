@@ -1,0 +1,111 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT00575055",
+      "registry_url": "https://clinicaltrials.gov/study/NCT00575055",
+      "name": "Bapineuzumab 302 (ApoE4 Carrier)",
+      "drug": "Bapineuzumab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "JANSSEN Alzheimer Immunotherapy Research & Development, LLC",
+      "status": "Completed",
+      "enrollment": 1121,
+      "population": "Patients aged 50-88 with probable Alzheimer's disease, MMSE 16-26",
+      "primary_endpoint": "Cognitive and Functional (ADAS-cog11 and DAD)",
+      "started": "2007-12",
+      "completed_or_readout": "2012-04",
+      "results_summary": "Bapineuzumab did not significantly improve clinical outcomes (ADAS-cog11, DAD) compared to placebo. It reduced CSF phospho-tau and stabilized brain amyloid, but caused dose-dependent amyloid-related imaging abnormalities (ARIA-E).",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT00574132",
+      "registry_url": "https://clinicaltrials.gov/study/NCT00574132",
+      "name": "Bapineuzumab 301 (ApoE4 Non-Carrier)",
+      "drug": "Bapineuzumab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "JANSSEN Alzheimer Immunotherapy Research & Development, LLC",
+      "status": "Completed",
+      "enrollment": 1331,
+      "population": "Patients aged 50-88 with probable Alzheimer's disease, MMSE 16-26",
+      "primary_endpoint": "Cognitive and Functional (ADAS-cog11 and DAD)",
+      "started": "2007-12",
+      "completed_or_readout": "2012-06",
+      "results_summary": "Bapineuzumab failed to show significant differences compared to placebo on the primary endpoints. The study subsequently revealed that 36.1% of enrolled noncarriers were amyloid negative at baseline.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT00676143",
+      "registry_url": "https://clinicaltrials.gov/study/NCT00676143",
+      "name": "Bapineuzumab 3001 (Global ApoE4 Carrier)",
+      "drug": "Bapineuzumab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Pfizer",
+      "status": "Terminated",
+      "enrollment": 1100,
+      "population": "Mild to moderate Alzheimer's disease (ApoE4 carriers)",
+      "primary_endpoint": "ADAS-cog11 and DAD",
+      "started": "2008-01",
+      "completed_or_readout": "2012-11",
+      "results_summary": "Trial was terminated in August 2012 due to the lack of clinical benefit observed in the North American Phase 3 trials. Peer-reviewed results confirmed the lack of efficacy on primary endpoints.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT00667810",
+      "registry_url": "https://clinicaltrials.gov/study/NCT00667810",
+      "name": "Bapineuzumab 3000 (Global ApoE4 Non-Carrier)",
+      "drug": "Bapineuzumab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Pfizer",
+      "status": "Terminated",
+      "enrollment": 901,
+      "population": "Mild to moderate Alzheimer's disease (ApoE4 non-carriers)",
+      "primary_endpoint": "ADAS-cog11 and DAD",
+      "started": "2008-06",
+      "completed_or_readout": "2013-08",
+      "results_summary": "Terminated in August 2012 alongside NCT00676143 due to failure of the North American trials. Did not show clinical benefit in preserving cognitive or functional performance.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT00112073",
+      "registry_url": "https://clinicaltrials.gov/study/NCT00112073",
+      "name": "Bapineuzumab 201 (Multiple Ascending Dose)",
+      "drug": "Bapineuzumab (anti-amyloid monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "JANSSEN Alzheimer Immunotherapy Research & Development, LLC",
+      "status": "Completed",
+      "enrollment": 234,
+      "population": "Mild to moderate Alzheimer's disease",
+      "primary_endpoint": "Safety assessments",
+      "started": "2005-04",
+      "completed_or_readout": "2008-12",
+      "results_summary": "No significant differences were found on primary efficacy analysis, though exploratory analyses hinted at benefit in APOE ε4 noncarriers, leading to the bifurcated Phase 3 design. Characterized vasogenic edema (ARIA-E) risks.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2014-01-23",
+      "kind": "paper",
+      "description": "Primary publication of the North American Phase 3 bapineuzumab trials showing lack of clinical efficacy (Salloway et al., NEJM).",
+      "url": "https://doi.org/10.1056/NEJMoa1304839"
+    },
+    {
+      "date": "2009-12-15",
+      "kind": "paper",
+      "description": "Phase 2 multiple ascending dose trial results detailing vasogenic edema side effects and a lack of primary clinical benefit (Salloway et al., Neurology).",
+      "url": "https://doi.org/10.1212/WNL.0b013e3181c67808"
+    },
+    {
+      "date": "2016-05-12",
+      "kind": "paper",
+      "description": "Results from the terminated global Phase 3 trials confirming lack of clinical efficacy for bapineuzumab (Vandenberghe et al., Alzheimers Res Ther).",
+      "url": "https://doi.org/10.1186/s13195-016-0189-7"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence robustly and unequivocally demonstrates that bapineuzumab fails to provide clinical benefit for mild-to-moderate Alzheimer's disease. The drug's failure was verified across four large, independent Phase 3 trials (two in North America and two globally) that separated patients by APOE ε4 carrier status. While biomarker data in carriers confirmed central target engagement—including reduced CSF phospho-tau and stabilized brain amyloid—these pharmacodynamic effects did not translate into cognitive or functional improvements on the ADAS-cog11 or DAD scales. Due to this consistent lack of efficacy and dose-limiting safety concerns, most notably a high incidence of ARIA-E, the entire intravenous bapineuzumab development program was terminated in 2012.",
+  "discrepancies": []
+}

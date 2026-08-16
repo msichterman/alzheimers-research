@@ -1,0 +1,118 @@
+{
+  "fact_check": [
+    {
+      "fact": "ARIA-E occurred in 21.6%, 23.4%, and 22.0% of participants across AL002 arms versus 1.1% in the placebo arm",
+      "status": "verified",
+      "note": "Calculated from registry adverse events: Dose 1 (21/97 = 21.6%), Dose 2 (22/94 = 23.4%), Dose 3 (17/77 = 22.1%), Placebo (1/88 = 1.1%)."
+    },
+    {
+      "fact": "ARIA-H occurred in 28.8%, 29.7%, and 27.2% of AL002 participants versus 4.5% in the placebo arm",
+      "status": "verified",
+      "note": "Calculated from registry adverse events: Dose 1 (28/97 = 28.9%), Dose 2 (28/94 = 29.8%), Dose 3 (21/77 = 27.3%), Placebo (4/88 = 4.5%). Minor rounding differences, but substantially accurate."
+    },
+    {
+      "fact": "Trial enrolled 356 participants",
+      "status": "disputed",
+      "note": "The ClinicalTrials.gov registry explicitly lists '356 (ACTUAL)'. However, the trials researcher noted the 2026 Nature Medicine publication reported 381 randomized. Both numbers exist in the source record."
+    }
+  ],
+  "research_page": {
+    "slug": "al002-invoke-2-phase-2",
+    "title": "AL002 in early AD (INVOKE-2 phase 2)",
+    "description": "A phase 2 trial of the TREM2-activating antibody AL002 failed to slow cognitive decline and increased ARIA risk in early Alzheimer's disease.",
+    "tags": [
+      "paper",
+      "trial-results",
+      "al002",
+      "trem2",
+      "immunotherapy"
+    ],
+    "source_line_md": "**Source**: [ClinicalTrials.gov, 2025](https://clinicaltrials.gov/study/NCT04592874) · [Nature Medicine, 2026](https://doi.org/10.1038/s41591-026-04273-1)",
+    "authors_line_md": "Alector Inc. (Sponsor)",
+    "takeaway_md": "AL002, a TREM2-activating monoclonal antibody, failed to slow cognitive or functional decline over 96 weeks in patients with early Alzheimer's disease. The drug also caused dose-dependent increases in amyloid-related imaging abnormalities (ARIA), severely challenging the hypothesis that targeting microglia via TREM2 could provide a safer or more effective alternative to plaque-clearing antibodies.",
+    "key_findings_md": [
+      "Failed to meet the primary endpoint of CDR-SB change at 96 weeks across all three doses (p>0.63 for all treatment arms vs. placebo) ([ClinicalTrials.gov](https://clinicaltrials.gov/study/NCT04592874)).",
+      "Missed all secondary cognitive and functional endpoints, showing no statistically significant differences on MMSE, RBANS, ADAS-Cog13, ADCS-ADL-MCI, and ADCOMS ([ClinicalTrials.gov](https://clinicaltrials.gov/study/NCT04592874)).",
+      "Significantly increased the risk of ARIA-E (21–23% across AL002 doses vs. 1.1% for placebo) and ARIA-H (27–29% across doses vs. 4.5% for placebo) ([ClinicalTrials.gov](https://clinicaltrials.gov/study/NCT04592874))."
+    ],
+    "methods_md": "Phase 2 randomized, double-blind, placebo-controlled, multicenter study evaluating three doses of intravenous AL002 versus placebo. The trial enrolled 356 adults aged 50-85 with early Alzheimer's disease and confirmed brain amyloidosis for a 96-week treatment period ([NCT04592874](https://clinicaltrials.gov/study/NCT04592874)).",
+    "trial_evidence_md": "The decisive failure of the INVOKE-2 trial led to the early termination of its open-label extension ([NCT05744401](https://clinicaltrials.gov/study/NCT05744401)). These results contradict the safety and target engagement signals from the Phase 1 trial ([NCT03635047](https://clinicaltrials.gov/study/NCT03635047)), marking a significant setback for the clinical development of AL002 and the broader TREM2 microglial hypothesis.",
+    "sentiment_md": "Public and scientific sentiment is highly negative following the readout. The trial failure caused a sharp stock decline and a 17% workforce reduction at Alector ([BioSpace](https://www.biospace.com/drug-development/alectors-abbvie-partnered-alzheimers-program-fails-phase-ii-triggering-a-17-layoff)). Researchers are now debating whether TREM2 is an invalid target or simply tested too late in the disease process, while patient communities remain mostly unaware of the drug, focusing instead on approved anti-amyloid therapies.",
+    "caveats_md": [
+      "APOE4 homozygotes were excluded from the trial, meaning the drug's safety profile (particularly ARIA risk) in the highest-risk genetic group remains unknown.",
+      "This page reflects top-line registry data; biomarker outcomes (e.g., CSF or PET changes) that might explain the biological effect of the drug require consulting the peer-reviewed publication.",
+      "There is a numerical discrepancy in participant counts between the registry (356 enrolled) and the subsequent journal publication (381 randomized)."
+    ],
+    "relates_to_md": [
+      "[AL002](/agents) — the TREM2 investigational drug evaluated in this trial.",
+      "[INVOKE-2](/trials/al002-invoke-2-nct04592874) — the phase 2 trial providing the data."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "al002-invoke-2-nct04592874",
+      "title": "INVOKE-2: AL002 in early AD",
+      "description": "Phase 2 evaluation of the TREM2 antibody AL002 in early Alzheimer's disease.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "al002",
+        "trem2",
+        "phase-2",
+        "immunotherapy"
+      ],
+      "registry_md": "[NCT04592874](https://clinicaltrials.gov/study/NCT04592874)",
+      "drug": "AL002 (TREM2 agonistic monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Alector Inc.",
+      "population": "Adults aged 50-85 with early Alzheimer's disease and confirmed brain amyloidosis (excluding APOE4 homozygotes).",
+      "primary_endpoint": "Change from baseline in CDR-SB at up to 96 weeks.",
+      "started": "2021-01",
+      "readout": "2024-08",
+      "why_md": "INVOKE-2 was designed to test whether stimulating microglia via the TREM2 receptor could slow Alzheimer's disease progression, testing a prominent alternative to direct anti-amyloid therapies.",
+      "status_log_md": [
+        "**2021-01-22** — Trial started ([ClinicalTrials.gov](https://clinicaltrials.gov/study/NCT04592874)).",
+        "**2024-08-19** — Primary completion date reached ([ClinicalTrials.gov](https://clinicaltrials.gov/study/NCT04592874))."
+      ],
+      "results_md": "The trial failed to meet its primary and secondary endpoints at 96 weeks, showing no significant slowing of cognitive decline compared to placebo. Treatment was also associated with a significant dose-dependent increase in ARIA-E and ARIA-H."
+    },
+    {
+      "slug": "al002-ole-nct05744401",
+      "title": "AL002 Open-Label Extension",
+      "description": "Open-label extension study for participants who completed the INVOKE-2 trial.",
+      "badge": "Terminated",
+      "tags": [
+        "trial",
+        "al002",
+        "trem2",
+        "phase-2",
+        "ole"
+      ],
+      "registry_md": "[NCT05744401](https://clinicaltrials.gov/study/NCT05744401)",
+      "drug": "AL002 (TREM2 agonistic monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Alector Inc.",
+      "population": "Participants who completed the 96-week treatment period in the parent INVOKE-2 study.",
+      "primary_endpoint": "Safety and tolerability (TEAEs).",
+      "started": "2023-01",
+      "readout": "2025-01",
+      "why_md": "This extension study intended to provide long-term safety and efficacy data for AL002 following the 96-week parent trial.",
+      "status_log_md": [
+        "**2023-01** — Trial started ([ClinicalTrials.gov](https://clinicaltrials.gov/study/NCT05744401)).",
+        "**2025-01** — Trial terminated early due to negative efficacy and safety results from the parent INVOKE-2 trial ([ClinicalTrials.gov](https://clinicaltrials.gov/study/NCT05744401))."
+      ],
+      "results_md": "The study was terminated early; no evidence of long-term benefit was observed, and it was stopped in response to the parent trial's failure."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2024-08",
+      "title": "2024-08 — AL002 Phase 2 trial (INVOKE-2) completes with negative results",
+      "body_md": "Alector's TREM2-targeted antibody AL002 failed to meet its primary and secondary endpoints in early Alzheimer's disease while significantly increasing ARIA rates, severely denting the microglial hypothesis. [Review the trial data](/research/papers/al002-invoke-2-phase-2)"
+    }
+  ],
+  "notes_for_editor": [
+    "The registry extract reports 356 enrolled participants, but the subsequent May 2026 Nature Medicine paper reportedly states 381 randomized. We used the 356 figure to align directly with the registry source document, but this discrepancy should be reconciled via the paper's CONSORT diagram."
+  ]
+}

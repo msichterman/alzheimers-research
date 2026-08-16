@@ -1,0 +1,78 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment surrounding donanemab is deeply polarized, reflecting a mix of desperate hope and intense scrutiny. Retail investors and mainstream headlines celebrate the drug as a blockbuster breakthrough that marks a new era in Alzheimer's treatment. Patients and caregivers are cautiously hopeful for more time but express anxieties about severe side effects and Medicare coverage. Meanwhile, scientists and investigative journalists maintain a highly skeptical or measured stance, pointing to the modest clinical benefits weighed against serious safety risks like ARIA (brain bleeding and swelling) and alleged conflicts of interest in the FDA approval process.",
+  "communities": [
+    {
+      "community": "Patients & Caregivers (r/dementia, r/Alzheimers)",
+      "sentiment": "hopeful",
+      "themes": [
+        "Desire for any extra time or slowed progression",
+        "Anxiety over severe side effects like ARIA (brain swelling/bleeds)",
+        "Logistical concerns regarding MRI monitoring and Medicare coverage"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/dementia/comments/1dcum01/donanemab/",
+        "https://www.reddit.com/r/Alzheimers/comments/1bhl5bl/lecanemab_is_now_supposedly_covered_by_medicare/"
+      ]
+    },
+    {
+      "community": "Retail Investors (r/investing, r/biotech, r/stocks)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Eli Lilly (LLY) stock rallies and massive market potential",
+        "Superiority of donanemab's plaque-clearing over competitors like Leqembi",
+        "FDA breakthrough status and long-term revenue pipelines"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/investing/comments/kv332t/eli_lilly_up_20_after_donanemab_shows_clinical/",
+        "https://www.reddit.com/r/biotech/comments/1aej3im/is_neuroscience_that_hard_to_break_into_biotech/"
+      ]
+    },
+    {
+      "community": "Scientists & Medical Professionals (Alzforum, r/medicine)",
+      "sentiment": "mixed",
+      "themes": [
+        "Effective amyloid clearance but only modest clinical slowing",
+        "High rates of ARIA necessitating modified titration and strict monitoring",
+        "Debate over the clinical meaningfulness of the iADRS score changes"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/conference-coverage/donanemab-small-tweak-titration-big-gain-safety",
+        "https://www.reddit.com/r/medicine/comments/10gxlsc/what_do_you_think_about_donanemab/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "FDA / Mainstream Press",
+      "tone": "positive",
+      "date": "2024-07",
+      "url": "https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-treatment-adults-alzheimers-disease"
+    },
+    {
+      "outlet": "The BMJ",
+      "tone": "critical",
+      "date": "2024-09",
+      "url": "https://www.bmj.com/content/386/bmj.q2010"
+    },
+    {
+      "outlet": "SciTechDaily",
+      "tone": "critical",
+      "date": "2024-10",
+      "url": "https://scitechdaily.com/critical-flaws-new-alzheimers-drug-could-actually-be-a-safety-risk/"
+    }
+  ],
+  "hype_vs_evidence": "Public hype often portrays donanemab as a 'cure' or a drug that restores memory, whereas clinical trial evidence (TRAILBLAZER-ALZ 2) strictly shows it only slows the rate of clinical decline by roughly 4 to 7 months over an 18-month period in early-stage patients. Investors focus heavily on the dramatic 86-Centiloid reduction in amyloid plaques, assuming this directly translates to vast clinical success. However, the medical and scientific communities highlight that this biomarker success comes at the cost of a markedly high incidence of ARIA (edema and microhemorrhages), a reality often minimized in investor pitches and generalized news.",
+  "misinformation_flags": [
+    "Donanemab cures Alzheimer's disease or restores lost cognitive function (it only modestly slows decline).",
+    "Donanemab is safe for all Alzheimer's patients (it is only tested in early symptomatic stages and carries significant risks of fatal brain swelling/bleeding)."
+  ],
+  "searches_run": [
+    "site:reddit.com/r/dementia donanemab",
+    "site:reddit.com/r/Alzheimers donanemab",
+    "donanemab site:alzforum.org",
+    "donanemab lilly stock site:reddit.com",
+    "donanemab safety efficacy scientists alzforum",
+    "donanemab ARIA deaths controversy"
+  ]
+}

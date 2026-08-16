@@ -1,0 +1,113 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT02477800",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02477800",
+      "name": "ENGAGE",
+      "drug": "Aducanumab (BIIB037)",
+      "phase": "3",
+      "sponsor": "Biogen",
+      "status": "Terminated",
+      "enrollment": 1653,
+      "population": "Subjects With Early Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline in Clinical Dementia Rating Sum of Boxes (CDR-SB) Score at Week 78",
+      "started": "2015-08",
+      "completed_or_readout": "2019-08",
+      "results_summary": "Terminated early for futility. Failed to meet the primary clinical endpoint (CDR-SB) and secondary cognitive/functional measures, demonstrating no significant clinical benefit.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02484547",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02484547",
+      "name": "EMERGE",
+      "drug": "Aducanumab (BIIB037)",
+      "phase": "3",
+      "sponsor": "Biogen",
+      "status": "Terminated",
+      "enrollment": 1643,
+      "population": "Subjects With Early Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline in Clinical Dementia Rating Scale - Sum of Boxes (CDR-SB) Score at Week 78",
+      "started": "2015-09",
+      "completed_or_readout": "2019-08",
+      "results_summary": "Halted for futility alongside ENGAGE. However, Biogen subsequently conducted a highly controversial post-hoc analysis claiming a statistically significant clinical benefit in the high-dose subset.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01677572",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01677572",
+      "name": "PRIME",
+      "drug": "Aducanumab (BIIB037)",
+      "phase": "1",
+      "sponsor": "Biogen",
+      "status": "Terminated",
+      "enrollment": 197,
+      "population": "Subjects With Prodromal or Mild Alzheimer's Disease",
+      "primary_endpoint": "Number of Participants with Adverse Events",
+      "started": "2012-10",
+      "completed_or_readout": "2019-07",
+      "results_summary": "Established target engagement and demonstrated dose-dependent amyloid-beta clearance, while also defining the significant risk of amyloid-related imaging abnormalities (ARIA).",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04241068",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04241068",
+      "name": "EMBARK",
+      "drug": "Aducanumab (BIIB037)",
+      "phase": "3",
+      "sponsor": "Biogen",
+      "status": "Terminated",
+      "enrollment": 1696,
+      "population": "Subjects With Alzheimer's Disease Who Had Previously Participated in the Aducanumab Studies",
+      "primary_endpoint": "Core Treatment Period: Number of Participants With Treatment-Emergent Adverse Events (TEAEs) and Serious TEAEs",
+      "started": "2020-03",
+      "completed_or_readout": "2024-07",
+      "results_summary": "An open-label re-dosing and safety study for participants of prior aducanumab trials. Terminated when Biogen discontinued the aducanumab clinical program entirely.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05310071",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05310071",
+      "name": "ENVISION",
+      "drug": "Aducanumab (BIIB037)",
+      "phase": "3",
+      "sponsor": "Biogen",
+      "status": "Terminated",
+      "enrollment": 1027,
+      "population": "Participants With Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline in Clinical Dementia Rating Scale - Sum of Boxes (CDR-SB) Score at Week 78",
+      "started": "2022-06",
+      "completed_or_readout": "2024-08",
+      "results_summary": "Post-market confirmatory trial mandated by the FDA following accelerated approval. Terminated prematurely due to Biogen discontinuing commercialization of the drug.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2022-05",
+      "kind": "paper",
+      "description": "Primary clinical readout of the two Phase 3 studies (EMERGE and ENGAGE) showing divergent results between the two trials.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35542991/"
+    },
+    {
+      "date": "2022-01-01",
+      "kind": "paper",
+      "description": "Integrated safety data analysis characterizing the high incidence of ARIA-E (35.2%) and ARIA-H in the EMERGE and ENGAGE trials.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34807243/"
+    },
+    {
+      "date": "2021-12",
+      "kind": "regulatory",
+      "description": "European Medicines Agency (EMA) refusal of marketing authorization for Aduhelm (aducanumab) due to unconvincing efficacy and significant ARIA safety risks.",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/aduhelm"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence regarding aducanumab's efficacy is exceptionally weak and historically controversial, primarily stemming from the divergent outcomes of its two pivotal Phase 3 trials, ENGAGE and EMERGE. Both trials were initially halted for futility. While the document accurately details ENGAGE's failure to meet its endpoints, it omits that Biogen subsequently conducted a highly contested post-hoc analysis of EMERGE to claim a slight clinical benefit. This secondary analysis led to an unprecedented FDA accelerated approval that circumvented the nearly unanimous rejection by FDA advisory committees. Ultimately, the lack of robust replication, pervasive safety risks (ARIA), and severe commercial backlash prompted the EMA to refuse authorization, and Biogen to entirely discontinue the drug and terminate all ongoing clinical trials (EMBARK, ENVISION) by 2024.",
+  "discrepancies": [
+    "There are no major empirical discrepancies between the document and the specific NCT02477800 registry record; the document accurately states the trial was terminated early for futility and showed no significant clinical benefit. However, by treating ENGAGE in isolation, the document lacks the crucial clinical context that its sister trial (EMERGE, NCT02484547) was used via post-hoc analysis to controversially secure FDA accelerated approval before the program was ultimately discontinued."
+  ]
+}

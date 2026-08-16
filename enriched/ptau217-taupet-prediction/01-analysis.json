@@ -1,0 +1,116 @@
+{
+  "kind": "research-paper",
+  "title": "Plasma p-tau217 and tau-PET predict future cognitive decline among cognitively unimpaired individuals: implications for clinical trials",
+  "authors": [
+    {
+      "name": "Ossenkoppele, Rik",
+      "affiliation": null,
+      "orcid": null,
+      "email": "r.ossenkoppele@amsterdamumc.nl",
+      "corresponding": true,
+      "conflicts": "R.O. has received research support from Avid Radiopharmaceuticals, Janssen Research & Development, Roche, Quanterix and Optina Diagnostics. He has given lectures in symposia sponsored by GE Healthcare, received speaker fees from Springer and serves on advisory boards and/or steering committees for Asceneuron, Bristol Myers Squibb and Biogen."
+    },
+    {
+      "name": "Salvadó, Gemma",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "G.S. has received speaker fees from Springer and Adium."
+    },
+    {
+      "name": "Hansson, Oskar",
+      "affiliation": null,
+      "orcid": null,
+      "email": "oskar.hansson@med.lu.se",
+      "corresponding": true,
+      "conflicts": "O.H. has acquired research support (for the institution) from Avid Radiopharmaceuticals, Biogen, C2N Diagnostics, Eli Lilly, Eisai, Fujirebio, GE Healthcare and Roche. In the past 2 years, he has received consultancy and/or speaker fees from AC Immune, ALZpath, BioArctic, Biogen, Bristol Meyers Squibb, Cerveau, Eisai, Eli Lilly, Fujirebio, Merck, Novartis, Novo Nordisk, Roche, Sanofi and Siemens."
+    },
+    {
+      "name": "Villeneuve, Sylvia",
+      "affiliation": "PREVENT-AD Research Group",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Ossenkoppele, Rik",
+  "venue": "Nature Aging",
+  "published": "2025",
+  "doi": "10.1038/s43587-025-00835-z",
+  "doi_url": "https://doi.org/10.1038/s43587-025-00835-z",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40155777",
+  "copyright": null,
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "reuse": "redistribute",
+    "evidence": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made."
+  },
+  "tags": [
+    "paper",
+    "biomarkers",
+    "tau",
+    "amyloid",
+    "prevention",
+    "clinical-trials",
+    "screening",
+    "p-tau217"
+  ],
+  "themes": [
+    "Prognostic value of tau biomarkers",
+    "Clinical trial screening optimization",
+    "Preclinical Alzheimer's disease",
+    "Comparing biofluid and imaging biomarkers"
+  ],
+  "one_line": "Plasma p-tau217 and tau-PET demonstrate comparable prognostic accuracy for cognitive decline in cognitively unimpaired individuals, and their sequential use can significantly improve screening efficiency for preclinical Alzheimer's trials.",
+  "summary": "This multicenter study evaluated the prognostic value of plasma p-tau217 and tau-PET in predicting future cognitive decline and progression to mild cognitive impairment among 1,474 cognitively unimpaired individuals. The researchers found that both biomarkers exhibited similar predictive performance when analyzed individually. However, combining both modalities significantly improved prognostic accuracy compared to using either biomarker alone. To optimize clinical trial recruitment, the authors simulated a two-step screening approach starting with plasma p-tau217 followed by tau-PET only for individuals with elevated plasma levels. This sequential method reduced the required sample size and tau-PET scans by up to 94%, offering a highly cost-effective strategy for enriching preclinical Alzheimer's disease trials with participants at high risk of near-term cognitive decline.",
+  "key_claims": [
+    {
+      "claim": "Plasma p-tau217 and tau-PET are equally strong individual predictors of cognitive decline and MCI progression in cognitively unimpaired populations.",
+      "evidence": "Similar R^2 values for mPACC5 decline (R^2_PET = 0.34 vs R^2_plasma = 0.33) and similar hazard ratios for MCI progression (HR_PET = 1.61 vs HR_plasma = 1.57).",
+      "strength": "strong",
+      "location": "Abstract / Prediction of future decline in cognitive function / Figure 1"
+    },
+    {
+      "claim": "Combining plasma p-tau217 and tau-PET provides superior prognostic accuracy compared to single-biomarker models.",
+      "evidence": "Combined models explained more variance in mPACC5 decline (R^2 = 0.35, P < 0.01) and showed improved Akaike information criterion model fit for MCI progression.",
+      "strength": "strong",
+      "location": "Prediction of future decline in cognitive function / Figure 1 / Figure 2"
+    },
+    {
+      "claim": "A sequential two-step screening approach significantly reduces the number of participants and PET scans required for preclinical AD trials.",
+      "evidence": "Using plasma p-tau217 followed by tau-PET reduced the required trial sample size by up to 94% and projected costs by over 96% compared to a liberal screening approach.",
+      "strength": "strong",
+      "location": "A two-step approach to reduce the sample size in clinical trials / Figure 3 / Figure 4"
+    }
+  ],
+  "methods": {
+    "design": "Retrospective multicohort head-to-head comparison study",
+    "n": 1474,
+    "population": "Cognitively unimpaired individuals from nine cohorts; mean age 69.3 ± 10.2 years, 27.7% amyloid-beta positive",
+    "duration": "3.8 ± 1.8 years follow-up",
+    "registration": "NCT01208675, NCT03174938"
+  },
+  "funding_and_conflicts": "Funding from NIA, ERC, Alzheimer's Association, GHR Foundation, Swedish Research Council, KAW, and others. Extensive conflicts declared including research support, speaker fees, and advisory board memberships for Avid, Roche, Biogen, Lilly, Eisai, and others.",
+  "limitations": [
+    "Lack of uniform predefined cutoffs across all cohorts, necessitating the use of continuous z-scores or quartiles.",
+    "Residual heterogeneity from using different amyloid-PET and tau-PET tracers, and different p-tau217 assays across the nine cohorts.",
+    "Potential disadvantage for tau-PET due to local analysis versus centralized analysis for plasma p-tau217.",
+    "Study population is enriched for AD risk factors (e.g., 37% APOE ε4 carriers), potentially introducing selection bias and limiting generalizability."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 7,
+    "issues": [
+      "Complete author list is missing from the header, making full attribution impossible without external verification.",
+      "Table 1 is missing column headers in the markdown conversion.",
+      "Formatting issues with subscript/superscript text, resulting in artifacts like 'Aβ 42 / 40 '."
+    ]
+  },
+  "search_verification": [
+    "Document completely omitted the primary author block; only authors explicitly named in the abstract, equal contribution statement, and contributor info were extracted.",
+    "Verified PMCID 12092243 and DOI 10.1038/s43587-025-00835-z internally based on standard identifier formats."
+  ]
+}

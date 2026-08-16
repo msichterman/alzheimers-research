@@ -1,0 +1,297 @@
+{
+  "kind": "review",
+  "title": "Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission",
+  "authors": [
+    {
+      "name": "Livingston, Gill",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Huntley, Jonathan",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Liu, Kathy Y",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Costafreda, Sergi G",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Selbæk, Geir",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Alladi, Suvarna",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Ames, David",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Banerjee, Sube",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Burns, Alistair",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Brayne, Carol",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Fox, Nick C",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Ferri, Cleusa P",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Gitlin, Laura N",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Howard, Robert",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Kales, Helen C",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Kivimäki, Mika",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Larson, Eric B",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Nakasujja, Noeline",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Rockwood, Kenneth",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Samus, Quincy",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Shirai, Kokoro",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Singh-Manoux, Archana",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Schneider, Lon S",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Walsh, Sebastian",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Yao, Yao",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Sommerlad, Andrew",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Mukadam, Naaheed",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Livingston, Gill",
+  "venue": "The Lancet",
+  "published": "2024-08",
+  "doi": "10.1016/s0140-6736(24)01296-0",
+  "doi_url": "https://doi.org/10.1016/s0140-6736(24)01296-0",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39096926/",
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "review",
+    "epidemiology",
+    "prevention",
+    "modifiable-risk-factors",
+    "population-attributable-fraction",
+    "non-pharmacological"
+  ],
+  "themes": [
+    "Dementia risk factors",
+    "Population attributable fraction",
+    "Activity programmes for dementia",
+    "Non-pharmacological interventions"
+  ],
+  "one_line": "The 2024 Lancet Commission report identifies 14 modifiable risk factors accounting for 45% of global dementia cases and reviews non-pharmacological interventions.",
+  "summary": "This excerpt from the 2024 Lancet Commission report presents an updated epidemiological model of potentially modifiable risk factors for dementia. It outlines 14 factors across early, mid, and late life—including less education, hearing loss, high LDL cholesterol, depression, traumatic brain injury, and social isolation—which together carry a weighted population attributable fraction of 45%. The document also summarizes evidence from randomized controlled trials of non-pharmacological activity programs. Interventions like the Tailored Activity Program (TAP) and WHELD improved quality of life and reduced behavioral symptoms, whereas purely physical exercise programs generally did not improve cognition or activities of daily living.",
+  "key_claims": [
+    {
+      "claim": "Fourteen modifiable risk factors account for 45% of worldwide dementia cases.",
+      "evidence": "Table 1 calculates a weighted Population Attributable Fraction of 45.3% (rounded to 45%) across 14 factors, accounting for communality.",
+      "strength": "strong",
+      "location": "Table 1"
+    },
+    {
+      "claim": "Hearing loss and high LDL cholesterol are the highest midlife contributors to dementia risk.",
+      "evidence": "Both factors have a weighted Population Attributable Fraction (PAF) of 7% in the overall population model.",
+      "strength": "strong",
+      "location": "Table 1"
+    },
+    {
+      "claim": "Tailored activity and well-being programs improve outcomes for people with dementia, whereas purely physical exercise interventions generally do not.",
+      "evidence": "WHELD and TAP RCTs showed reduced agitation and improved quality of life, while physical exercise RCTs (DAPA, Sanders, Harwood) showed no effect on cognition, endurance, or activities of daily living.",
+      "strength": "moderate",
+      "location": "Table 2"
+    }
+  ],
+  "methods": {
+    "design": "Systematic review and epidemiological modelling",
+    "n": 37000,
+    "population": "Global population for risk modeling; people with dementia and their carers for RCTs",
+    "duration": null,
+    "registration": null
+  },
+  "funding_and_conflicts": "none stated",
+  "limitations": [
+    "Prevalence data for some factors, such as high LDL cholesterol, are extrapolated from specific regional cohorts (e.g., the Norwegian HUNT study) rather than global data.",
+    "The excerpt lacks methodology detailing how communality (overlap) between the 14 risk factors was calculated to derive the weighted PAF.",
+    "Exercise RCTs (Lamb, Sanders, Harwood) showed no cognitive or functional effects, highlighting limitations of standalone physical interventions."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "Citation numbers are merged directly into data cells without spaces (e.g., '259 1.6, 1.3-2.0' and '71 59.0' in Table 1).",
+      "Subheadings in Table 1 (Early Life, Midlife, Late Life) are in the same column as the risk factors, leading to empty data cells in those rows.",
+      "Some text in Table 2 is wrapping into incorrect columns (e.g., 'with dementia' in the Target population column rather than Interventions)."
+    ]
+  },
+  "search_verification": [
+    "Queried Crossref API for 'Lancet Commission 2024 dementia prevention' to retrieve full title, authors list, DOI (10.1016/s0140-6736(24)01296-0), and publication date.",
+    "Queried PubMed E-utilities to resolve the DOI to PMID 39096926 and construct the PubMed URL."
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT04592874",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04592874",
+      "name": "INVOKE-2",
+      "drug": "AL002 (TREM2 agonistic antibody)",
+      "phase": "2",
+      "sponsor": "Alector Inc.",
+      "status": "Completed",
+      "enrollment": 356,
+      "population": "Early Alzheimer's Disease",
+      "primary_endpoint": "Disease Progression as Measured by the Clinical Dementia Rating - Sum of Boxes (CDR-SB) Score",
+      "started": "2021-01",
+      "completed_or_readout": "2024-09",
+      "results_summary": "The study failed to meet its primary endpoint of slowing disease progression on the CDR-SB, and there were no treatment effects favoring AL002 on any secondary clinical and functional endpoints.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05744401",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05744401",
+      "name": null,
+      "drug": "AL002 (TREM2 agonistic antibody)",
+      "phase": "2",
+      "sponsor": "Alector Inc.",
+      "status": "Terminated",
+      "enrollment": 197,
+      "population": "Participants with Early Alzheimer's Disease from the INVOKE-2 parent study",
+      "primary_endpoint": "Safety and Tolerability (TEAEs, SAEs, etc.)",
+      "started": "2023-01",
+      "completed_or_readout": "2025-02",
+      "results_summary": "The extension trial was terminated early because the parent study (INVOKE-2) failed to meet its primary and secondary efficacy endpoints.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03635047",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03635047",
+      "name": "INFRONT",
+      "drug": "AL002 (TREM2 agonistic antibody)",
+      "phase": "1",
+      "sponsor": "Alector Inc.",
+      "status": "Completed",
+      "enrollment": 69,
+      "population": "Healthy volunteers and participants with mild to moderate Alzheimer's disease",
+      "primary_endpoint": "Safety, tolerability, incidence of AEs",
+      "started": "2018-11",
+      "completed_or_readout": "2020-11",
+      "results_summary": "Demonstrated proof-of-mechanism by safely engaging TREM2 and reducing sTREM2 levels in the CSF, supporting advancement to Phase 2.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05450549",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05450549",
+      "name": null,
+      "drug": "DNL919 / TAK-920 (ATV:TREM2 antibody)",
+      "phase": "1",
+      "sponsor": "Denali Therapeutics",
+      "status": "Completed",
+      "enrollment": 47,
+      "population": "Healthy Participants",
+      "primary_endpoint": "Incidence, severity, and seriousness of treatment-emergent adverse events (TEAEs)",
+      "started": "2022-07",
+      "completed_or_readout": "2023-06",
+      "results_summary": "Evaluated safety, tolerability, PK, and PD of single ascending doses in healthy volunteers. Advancements to later symptomatic AD stages have not yet been posted.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2025-10-29",
+      "kind": "registry-results",
+      "description": "ClinicalTrials.gov results posted for Phase 2 INVOKE-2 trial of AL002 confirming lack of efficacy across endpoints",
+      "url": "https://clinicaltrials.gov/study/NCT04592874"
+    },
+    {
+      "date": "2026-02-06",
+      "kind": "registry-results",
+      "description": "ClinicalTrials.gov update for AL002 Extension confirming termination due to parent study failure",
+      "url": "https://clinicaltrials.gov/study/NCT05744401"
+    }
+  ],
+  "evidence_assessment": "The document provides robust exome sequencing evidence validating the role of rare damaging variants in genes tied to lipid metabolism (ATP8B4, ABCA1, ABCA7) and microglial function (TREM2) in driving Alzheimer's disease risk. However, translating these genetically validated targets into disease-modifying therapies has proven highly challenging. The most advanced therapeutic strategy based on these pathways—TREM2 agonism—suffered a major clinical setback when the Phase 2 INVOKE-2 trial of AL002 failed to meet primary and secondary efficacy endpoints in early AD, leading to the termination of its open-label extension. While the genetic validation of microglial and lipid pathways remains strong, current clinical data highlights a profound discrepancy between genetic risk association and therapeutic tractability in symptomatic patients.",
+  "discrepancies": [
+    "The document reinforces microglial function and TREM2 as critical targets for Alzheimer's disease based on genetic risk, but the foremost clinical candidate targeting TREM2 (AL002) failed to show any clinical or functional benefit in a Phase 2 trial of early AD patients, highlighting a gap between genetic risk validation and therapeutic efficacy."
+  ]
+}

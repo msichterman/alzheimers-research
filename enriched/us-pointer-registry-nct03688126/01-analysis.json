@@ -1,0 +1,51 @@
+{
+  "kind": "other",
+  "title": "U.S. Study to Protect Brain Health Through Lifestyle Intervention to Reduce Risk",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2018-09",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "prevention",
+    "lifestyle-intervention",
+    "us-pointer"
+  ],
+  "themes": [
+    "Multidomain lifestyle interventions",
+    "Cognitive decline prevention",
+    "FINGER study adaptation",
+    "Diet and physical activity"
+  ],
+  "one_line": "The U.S. POINTER study is a 2-year randomized clinical trial evaluating whether a structured multidomain lifestyle intervention can protect cognitive function in older adults at risk for cognitive decline.",
+  "summary": "This document is a ClinicalTrials.gov registry record for U.S. POINTER (NCT03688126), a completed interventional trial targeting cognitive decline in aging populations. Adapting the successful Finnish FINGER study model for an American demographic, the study investigates whether intensive lifestyle changes can protect memory and cognition. The trial compares a structured lifestyle intervention encompassing diet, physical and cognitive exercise, and cardiometabolic risk management against a self-guided lifestyle program. It enrolled 2,000 sedentary older adults aged 60 to 79 who had low MIND diet scores and an elevated risk for cognitive decline but no baseline cognitive impairment. The primary outcome measure assesses the slope of a global cognitive function composite score over the 2-year study duration.",
+  "key_claims": [],
+  "methods": {
+    "design": "Randomized, triple-masked, interventional clinical trial",
+    "n": 2000,
+    "population": "Sedentary adults aged 60-79 with low MIND diet scores, elevated risk for cognitive decline, and no baseline cognitive impairment",
+    "duration": "2 years",
+    "registration": "NCT03688126"
+  },
+  "funding_and_conflicts": "Lead sponsor: Wake Forest University Health Sciences; Collaborator: Alzheimer's Association. No conflicts stated.",
+  "limitations": [
+    "This is a trial registry record outlining the protocol and study design, not a peer-reviewed publication containing results.",
+    "Study results are marked as not posted."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 10,
+    "issues": []
+  },
+  "search_verification": []
+}

@@ -1,0 +1,78 @@
+{
+  "fact_check": [
+    {
+      "fact": "Study 301 enrolled 1,795 patients",
+      "status": "corrected",
+      "note": "The FDA press release cites 1,795 patients, representing the primary analysis cohort. ClinicalTrials.gov (NCT03887455) reports a final total enrollment of 1,906."
+    },
+    {
+      "fact": "Leqembi is the first amyloid beta-directed antibody converted from accelerated to traditional approval",
+      "status": "verified",
+      "note": "Checked against historical FDA actions; earlier amyloid antibodies like aducanumab received accelerated approval but were not converted to traditional approval."
+    }
+  ],
+  "research_page": {
+    "slug": "fda-leqembi-traditional-approval-2023",
+    "title": "FDA traditional approval of Leqembi (lecanemab)",
+    "description": "The FDA converted Leqembi from accelerated to traditional approval based on Phase 3 CLARITY AD data showing a modest slowing of clinical decline.",
+    "tags": [
+      "regulatory",
+      "fda-approval",
+      "amyloid",
+      "lecanemab",
+      "immunotherapy"
+    ],
+    "source_line_md": "**Source**: [U.S. Food and Drug Administration, 2023](https://www.fda.gov/news-events/press-announcements/fda-converts-novel-alzheimers-disease-treatment-traditional-approval)",
+    "authors_line_md": "U.S. Food and Drug Administration",
+    "takeaway_md": "On July 6, 2023, the FDA granted traditional approval to Leqembi (lecanemab) for early Alzheimer's disease, making it the first anti-amyloid antibody to achieve full approval. The label includes a boxed warning for ARIA and recommends pre-treatment ApoE ε4 genetic testing.",
+    "key_findings_md": [
+      "Phase 3 data showed a statistically significant reduction in clinical decline over 18 months on the CDR-SB compared to placebo (FDA press release).",
+      "The drug carries a boxed warning for amyloid-related imaging abnormalities (ARIA), which can present as severe or fatal brain swelling and hemorrhage (FDA press release).",
+      "ApoE ε4 homozygotes face a higher risk of symptomatic and severe ARIA, prompting a recommendation for genetic testing prior to initiation (FDA press release)."
+    ],
+    "methods_md": "The approval relies on the Phase 3 CLARITY AD trial (Study 301), a multicenter, randomized, double-blind, placebo-controlled study spanning 18 months. The primary cohort included 1,795 patients with mild cognitive impairment or mild Alzheimer's disease dementia with confirmed amyloid pathology.",
+    "trial_evidence_md": "This regulatory action was driven by the Phase 3 [CLARITY AD](/trials/clarity-ad-nct03887455) trial (NCT03887455), which successfully confirmed the clinical benefit previously signaled in Phase 2. Note that while the FDA cites a cohort of 1,795, registry data indicates a final total enrollment of 1,906. Ongoing trials like [AHEAD 3-45](/trials/ahead-3-45) are currently evaluating the drug in earlier, preclinical stages.",
+    "sentiment_md": "Public and patient sentiment is highly mixed. While patient communities often view Leqembi with desperate hope, they report high distress over the grueling bi-weekly infusion schedule, the severe risks of ARIA, and the reality that decline continues despite treatment. Meanwhile, the biotech and investor communities remain skeptical of its commercial viability due to sluggish uptake, high costs, and widespread 'therapeutic nihilism' among prescribers.",
+    "caveats_md": [
+      "Efficacy and safety data is strictly limited to patients with mild cognitive impairment or mild dementia; there is no evidence supporting initiation at earlier or later disease stages (FDA press release).",
+      "Concurrent use of anticoagulant medications increases the risk of intracerebral hemorrhages (FDA press release)."
+    ],
+    "relates_to_md": [
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Leqembi targets amyloid beta, serving as a pivotal validation that amyloid clearance can translate to clinical benefit.",
+      "[Lecanemab Phase 2b proof-of-concept](/research/papers/lecanemab-phase-2b) — The prior study that established the foundation for the confirmatory CLARITY AD trial.",
+      "[AHEAD 3-45](/trials/ahead-3-45) — An ongoing related trial testing lecanemab in preclinical populations."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "clarity-ad-nct03887455",
+      "title": "CLARITY AD",
+      "description": "Phase 3 confirmatory trial of lecanemab in early Alzheimer's disease.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "lecanemab",
+        "amyloid",
+        "phase-3"
+      ],
+      "registry_md": "[NCT03887455](https://clinicaltrials.gov/study/NCT03887455)",
+      "drug": "Lecanemab (anti-amyloid beta antibody)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "population": "Participants 50 to 90 years of age with early Alzheimer's disease (mild cognitive impairment or mild dementia) and evidence of amyloid",
+      "primary_endpoint": "Change from baseline in the CDR-SB at 18 months",
+      "started": "2019-03",
+      "readout": "2029-06",
+      "why_md": "This trial was designed to verify the clinical benefit of lecanemab following its accelerated approval. It serves as the definitive test of whether clearing amyloid plaques with this specific antibody meaningfully slows cognitive decline in early Alzheimer's disease.",
+      "status_log_md": [
+        "**2023-07-06** — FDA grants traditional approval based on 18-month primary endpoint data ([FDA](/research/papers/fda-leqembi-traditional-approval-2023))",
+        "**2023-01-05** — Primary results published in NEJM showing a 27% slowing of decline on the CDR-SB ([NEJM](https://doi.org/10.1056/NEJMoa2212948))"
+      ],
+      "results_md": "The trial met its primary endpoint, showing lecanemab reduced cognitive and functional decline by 27% compared to placebo on the CDR-SB (-0.45 difference) at 18 months. ARIA-E occurred in 12.6% of patients, with higher incidence in APOE ε4 homozygotes, resulting in an FDA boxed warning."
+    }
+  ],
+  "timeline_entries": [],
+  "notes_for_editor": [
+    "No timeline entry was generated for this document because '2023-07 — Lecanemab full FDA approval' is already on the existing timeline."
+  ]
+}

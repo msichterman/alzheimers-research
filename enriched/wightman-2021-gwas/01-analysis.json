@@ -1,0 +1,566 @@
+{
+  "kind": "research-paper",
+  "title": "A genome-wide association study with 1,126,563 individuals identifies new risk loci for Alzheimer’s disease",
+  "authors": [
+    {
+      "name": "Wightman, Douglas P.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Jansen, Iris E.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Savage, Jeanne E.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Shadrin, Alexey A.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Bahrami, Shahram",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Holland, Dominic",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Rongve, Arvid",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Børte, Sigrid",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Winsvold, Bendik S.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Drange, Ole Kristian",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Martinsen, Amy E.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Skogholt, Anne Heidi",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Willer, Cristen",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Bråthen, Geir",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Bosnes, Ingunn",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Nielsen, Jonas Bille",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "employed by Regeneron Pharmaceuticals, Inc."
+    },
+    {
+      "name": "Fritsche, Lars G.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Thomas, Laurent F.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Pedersen, Linda M.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Gabrielsen, Maiken E.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Johnsen, Marianne Bakke",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Meisingset, Tore Wergeland",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "received speaker’s honorarium from Roche."
+    },
+    {
+      "name": "Zhou, Wei",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Proitsi, Petroula",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Hodges, Angela",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Dobson, Richard",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Velayudhan, Latha",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Heilbron, Karl",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Auton, Adam",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Sealock, Julia M.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Davis, Lea K.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Pedersen, Nancy L.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Reynolds, Chandra A.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Karlsson, Ida K.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Magnusson, Sigurdur",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Stefansson, Hreinn",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Thordardottir, Steinunn",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Jonsson, Palmi V.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Snaedal, Jon",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Zettergren, Anna",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Skoog, Ingmar",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Kern, Silke",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Waern, Margda",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Zetterberg, Henrik",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "served at scientific advisory boards for Denali, Roche Diagnostics, Wave, Samumed, Siemens Healthineers, Pinteon Therapeutics and CogRx, has given lectures in symposia sponsored by Fujirebio, Alzecure and Biogen, and is a co-founder of Brain Biomarker Solutions in Gothenburg AB (BBS)"
+    },
+    {
+      "name": "Blennow, Kaj",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "served as a consultant, at advisory boards, or at data monitoring committees for Abcam, Axon, Biogen, JOMDD/Shimadzu. Julius Clinical, Lilly, MagQu, Novartis, Roche Diagnostics, and Siemens Healthineers, and is a co-founder of Brain Biomarker Solutions in Gothenburg AB (BBS)"
+    },
+    {
+      "name": "Stordal, Eystein",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Hveem, Kristian",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Zwart, John-Anker",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Athanasiu, Lavinia",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Selnes, Per",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Saltvedt, Ingvild",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Sando, Sigrid B.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Ulstein, Ingun",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Djurovic, Srdjan",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Fladby, Tormod",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Aarsland, Dag",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Selbæk, Geir",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Ripke, Stephan",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Stefansson, Kari",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Andreassen, Ole A.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "consultant to HealthLytix, and received speaker’s honorarium from Lundbeck and Sunovion"
+    },
+    {
+      "name": "Posthuma, Danielle",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Wightman, Douglas P.",
+  "venue": "Nature genetics",
+  "published": "2021",
+  "doi": "10.1038/s41588-021-00921-z",
+  "doi_url": "https://doi.org/10.1038/s41588-021-00921-z",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/34493870",
+  "copyright": "Copyright law applies. Available for text mining and fair use.",
+  "license": {
+    "name": "all rights reserved",
+    "url": null,
+    "reuse": "quote-and-summarize",
+    "evidence": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law."
+  },
+  "tags": [
+    "paper",
+    "genetics",
+    "inflammation",
+    "gwas",
+    "microglia",
+    "late-onset-ad"
+  ],
+  "themes": [
+    "Genome-wide association study",
+    "Microglia and immune cell involvement",
+    "Protein catabolism",
+    "Late-onset Alzheimer's risk loci"
+  ],
+  "one_line": "A genome-wide association study meta-analysis of over 1.1 million individuals identified 38 risk loci for late-onset Alzheimer's disease, highlighting the significant role of microglia and immune processes.",
+  "summary": "This study presents a genome-wide association study (GWAS) meta-analysis for late-onset Alzheimer’s disease (LOAD) incorporating 1,126,563 individuals. By combining clinical cases and proxy cases based on parental history, the authors increased statistical power to detect risk variants. They identified 38 independent genomic risk loci, seven of which were previously unreported for LOAD, mapping to genes such as TNIP1, HAVCR2, and LILRA5. Functional follow-up utilizing gene-set and cell-type enrichment analyses robustly implicated microglia, immune cells, and protein catabolism in LOAD pathogenesis. Colocalization and fine-mapping efforts further prioritized specific candidate genes within these loci, including TMEM106B and GRN, which were previously linked primarily to frontotemporal dementia. The findings underscore the oligogenic to polygenic architecture of LOAD and highlight the immune system as a central driver of the disease.",
+  "key_claims": [
+    {
+      "claim": "Seven novel genomic loci are significantly associated with late-onset Alzheimer's disease risk.",
+      "evidence": "The meta-analysis identified 3,915 significant variants across 38 independent loci, out of which seven loci have not shown associations with LOAD in previous GWAS.",
+      "strength": "strong",
+      "location": "Results / Genome-wide inferences"
+    },
+    {
+      "claim": "Microglia and immune cells are highly enriched for LOAD-associated gene expression.",
+      "evidence": "Microglia was the only significant cell type in all six independent scRNA-seq datasets analyzed; MAGMA tissue specificity analysis significantly implicated the spleen.",
+      "strength": "strong",
+      "location": "Results / Tissue type, cell type, and gene set enrichment"
+    },
+    {
+      "claim": "Genes previously associated primarily with frontotemporal dementia, such as TMEM106B and GRN, also contribute directly to LOAD risk.",
+      "evidence": "Lead variants in locus 12 (TMEM106B) and locus 28 (GRN/FAM171A2) colocalized with brain eQTLs independently of proxy phenotype data.",
+      "strength": "moderate",
+      "location": "Results / Gene prioritization"
+    }
+  ],
+  "methods": {
+    "design": "Genome-wide association study (GWAS) meta-analysis",
+    "n": 1126563,
+    "population": "Individuals primarily of European descent (90,338 cases/46,613 proxy cases; 1,036,225 controls/318,246 proxy controls)",
+    "duration": null,
+    "registration": null
+  },
+  "funding_and_conflicts": "Funded by Research Council of Norway, EU JPND, NIH/NIA, European Research Council, Medical Research Council, Alzheimer’s Research UK, Wellcome Trust, BMBF, French National Foundation on Alzheimer’s disease, NHLBI, Icelandic Heart Association, Erasmus Medical Center, and Alzheimer’s Association. Conflicts declared by Henrik Zetterberg, Kaj Blennow, Ole A. Andreassen, Jonas Bille Nielsen, and Tore Wergeland Meisingset (SABs, consulting, or employment in biopharma). All other authors declare no competing interests.",
+  "limitations": [
+    "Applicability is limited to non-European populations as the primary cohorts and reference panels were heavily European.",
+    "The use of parental-history proxy cases (e.g., from UK Biobank) may introduce phenotype misclassification since they are not medically verified.",
+    "Statistical fine-mapping required an external reference panel (UKB) that may not perfectly capture the linkage disequilibrium structure of all included cohorts, especially non-European individuals.",
+    "Inability to distinguish true causal variants from variants in linkage disequilibrium limits the definitive identification of causal genes."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 9,
+    "issues": [
+      "Missing or stripped inline citation/reference brackets replaced with empty parentheses '()'",
+      "Minor spacing artifacts before commas (e.g. 'Europeans ,')"
+    ]
+  },
+  "search_verification": []
+}

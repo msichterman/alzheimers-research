@@ -1,0 +1,116 @@
+{
+  "fact_check": [
+    {
+      "fact": "Trial enrollment was 1,840 participants",
+      "status": "verified",
+      "note": "Source document (Mutable fields, Enrollment)"
+    },
+    {
+      "fact": "Trial completed in January 2026",
+      "status": "verified",
+      "note": "Source document (Mutable fields, Completion: 2026-01-30)"
+    },
+    {
+      "fact": "No results were posted on the clinical trial registry",
+      "status": "verified",
+      "note": "Source document (Registry identity, Results posted: false)"
+    },
+    {
+      "fact": "Trial failed its primary endpoint at week 104",
+      "status": "verified",
+      "note": "Clinical-trials researcher (related evidence, PubMed ID 42261705)"
+    }
+  ],
+  "research_page": {
+    "slug": "evoke-plus-semaglutide-phase-3",
+    "title": "EVOKE Plus: Oral semaglutide in early Alzheimer's disease (Phase 3)",
+    "description": "A Phase 3 registry record for oral semaglutide in early Alzheimer's disease, which ultimately failed to meet its primary cognitive endpoint.",
+    "tags": [
+      "trial",
+      "semaglutide",
+      "glp-1",
+      "amyloid"
+    ],
+    "source_line_md": "**Source**: [ClinicalTrials.gov, 2021](https://clinicaltrials.gov/study/NCT04777409)",
+    "authors_line_md": "Novo Nordisk A/S",
+    "takeaway_md": "Oral semaglutide failed to slow cognitive decline in early Alzheimer's disease. The Phase 3 EVOKE Plus trial missed its primary clinical endpoint at week 104, ending the drug's prospects as a symptomatic treatment.",
+    "key_findings_md": [
+      "Enrolled 1,840 adults with early Alzheimer's disease to test up to 14 mg of daily oral semaglutide ([NCT04777409](https://clinicaltrials.gov/study/NCT04777409)).",
+      "Failed to show a significant difference from placebo in CDR-SB scores at week 104 ([PubMed](https://pubmed.ncbi.nlm.nih.gov/42261705/))."
+    ],
+    "methods_md": "A Phase 3, randomized, quadruple-masked, placebo-controlled trial. It enrolled 1,840 adults aged 55-85 with mild cognitive impairment or mild dementia of the Alzheimer's type and confirmed amyloid positivity. Participants received up to 14 mg of oral semaglutide daily, with the main phase lasting 104 weeks ([NCT04777409](https://clinicaltrials.gov/study/NCT04777409)).",
+    "trial_evidence_md": "The clinical evidence base for treating early Alzheimer's disease with oral semaglutide is definitively negative. Both EVOKE Plus and its sister trial, EVOKE, failed to meet their primary efficacy endpoint of slowing cognitive decline measured by the CDR-SB at week 104. The sponsor declared the program a failure, a conclusion corroborated by peer-reviewed literature ([Lancet](https://pubmed.ncbi.nlm.nih.gov/42594906/)).",
+    "sentiment_md": "Public perception is highly polarized. Retail investors reacted negatively, causing significant stock drops following the top-line trial failures ([Forbes](https://www.forbes.com/sites/siladityaray/2025/11/24/novo-nordisk-stock-plummets-after-ozempic-makers-alzheimers-drug-trial-fails/)). Conversely, patients and caregivers often maintain hope, conflating the drug's well-established metabolic benefits with dementia protection. Scientific discourse has shifted from symptomatic treatment to debating the drug's potential for early prevention.",
+    "caveats_md": [
+      "This document summarizes the clinical trial registry record, meaning formal data tables and complete statistical analyses must be accessed via the subsequent peer-reviewed publications."
+    ],
+    "relates_to_md": [
+      "[EVOKE Plus](/trials/evoke-plus-nct04777409) — The registry record described by this document.",
+      "[EVOKE](/trials/evoke-nct04777396) — The identical sister trial that also failed to meet its primary endpoint."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "evoke-plus-nct04777409",
+      "title": "EVOKE Plus",
+      "description": "Phase 3 trial evaluating once-daily oral semaglutide in early Alzheimer's disease.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "phase-3",
+        "semaglutide",
+        "glp-1"
+      ],
+      "registry_md": "[NCT04777409](https://clinicaltrials.gov/study/NCT04777409)",
+      "drug": "semaglutide (GLP-1 receptor agonist)",
+      "phase": "3",
+      "sponsor": "Novo Nordisk A/S",
+      "population": "Early Alzheimer's Disease",
+      "primary_endpoint": "Change in the Clinical Dementia Rating - Sum of Boxes (CDR-SB) score",
+      "started": "2021-05",
+      "readout": "2026-01",
+      "why_md": "This trial investigated whether treating metabolic dysfunction and potential neuroinflammation with a GLP-1 receptor agonist could slow cognitive decline in patients with early symptomatic Alzheimer's disease.",
+      "status_log_md": [
+        "**2021-05-18** — Trial begins enrollment ([NCT04777409](https://clinicaltrials.gov/study/NCT04777409)).",
+        "**2025-11-24** — Top-line readout indicates the trial failed to meet its primary endpoints, triggering a stock drop ([Forbes](https://www.forbes.com/sites/siladityaray/2025/11/24/novo-nordisk-stock-plummets-after-ozempic-makers-alzheimers-drug-trial-fails/)).",
+        "**2026-01-30** — Trial officially completes ([NCT04777409](https://clinicaltrials.gov/study/NCT04777409)).",
+        "**2026-06-09** — Peer-reviewed publication confirms the trial failed its primary endpoint at week 104 ([PubMed](https://pubmed.ncbi.nlm.nih.gov/42261705/))."
+      ],
+      "results_md": "The trial failed to meet its primary endpoint, showing no significant difference from placebo in CDR-SB scores at week 104."
+    },
+    {
+      "slug": "evoke-nct04777396",
+      "title": "EVOKE",
+      "description": "Sister Phase 3 trial evaluating once-daily oral semaglutide in early Alzheimer's disease.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "phase-3",
+        "semaglutide",
+        "glp-1"
+      ],
+      "registry_md": "[NCT04777396](https://clinicaltrials.gov/study/NCT04777396)",
+      "drug": "semaglutide (GLP-1 receptor agonist)",
+      "phase": "3",
+      "sponsor": "Novo Nordisk A/S",
+      "population": "Early Alzheimer's Disease",
+      "primary_endpoint": "Change in the Clinical Dementia Rating - Sum of Boxes (CDR-SB) score",
+      "started": "2021-05",
+      "readout": "2026-01",
+      "why_md": "As a sister trial to EVOKE Plus, this study sought to replicate findings on whether oral semaglutide could slow cognitive decline in patients with early symptomatic Alzheimer's disease.",
+      "status_log_md": [
+        "**2026-06-09** — Peer-reviewed publication confirms the trial failed its primary endpoint at week 104 ([PubMed](https://pubmed.ncbi.nlm.nih.gov/42261705/))."
+      ],
+      "results_md": "Like EVOKE Plus, the trial failed to meet its primary endpoint (CDR-SB) at week 104 and was declared a failure by the sponsor."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2025-11",
+      "title": "2025-11 — Phase 3 EVOKE trials for semaglutide fail",
+      "body_md": "The Phase 3 EVOKE and EVOKE Plus programs report missing their primary endpoints, failing to show that oral semaglutide slows cognitive decline in early Alzheimer's disease. [Read more](/research/papers/evoke-plus-semaglutide-phase-3)"
+    }
+  ],
+  "notes_for_editor": []
+}

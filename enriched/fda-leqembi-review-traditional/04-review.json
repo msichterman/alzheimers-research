@@ -1,0 +1,107 @@
+{
+  "fact_check": [
+    {
+      "fact": "Study 301 enrolled 1,906 participants.",
+      "status": "corrected",
+      "note": "ClinicalTrials.gov lists 1,906 enrolled, but the FDA review is based on the 1,795 randomized participants. We use 1,795 for the final content."
+    },
+    {
+      "fact": "ARIA-E occurred in 33% of ApoE ε4 homozygotes.",
+      "status": "verified",
+      "note": "Checked against FDA Review Table 21, which confirms ARIA-E occurred in 33% (46/141) of treated homozygotes."
+    },
+    {
+      "fact": "Lecanemab preserves 5.3 months of time relative to placebo.",
+      "status": "disputed",
+      "note": "The FDA statistical reviewer challenged the assumption of linearity over time, stating a quadratic model fits the data better than a linear one."
+    },
+    {
+      "fact": "Intracerebral hemorrhage in 2.5% of patients on anticoagulants.",
+      "status": "verified",
+      "note": "Checked against FDA Review Table 29, which reports a 2.5% (2/79) incidence in patients taking lecanemab with an anticoagulant."
+    }
+  ],
+  "research_page": {
+    "slug": "lecanemab-fda-approval-package",
+    "title": "FDA Approval Package: Leqembi (lecanemab-irmb)",
+    "description": "FDA review and traditional approval of lecanemab for early Alzheimer's disease, verifying clinical benefit while detailing severe ARIA risks in ApoE ε4 homozygotes.",
+    "tags": [
+      "review",
+      "trial",
+      "lecanemab",
+      "amyloid",
+      "aria",
+      "fda-approval"
+    ],
+    "source_line_md": "**Source**: Center for Drug Evaluation and Research, FDA, 2023",
+    "authors_line_md": "Buracchio, T. J., et al. — Office of Neuroscience, FDA",
+    "takeaway_md": "The FDA granted traditional approval to lecanemab based on the Phase 3 CLARITY-AD trial, which demonstrated a 27% slowing of clinical decline over 18 months. However, the approval carries a Boxed Warning for ARIA and intracerebral hemorrhage, emphasizing that ApoE ε4 homozygotes face substantially higher risks.",
+    "key_findings_md": [
+      "Lecanemab reduced clinical decline by 27% on the CDR-SB compared to placebo at 18 months (treatment difference -0.451; p=0.00005) (FDA Review, Table 6).",
+      "Brain amyloid plaque levels decreased significantly, dropping by 59.1 Centiloids relative to placebo at week 79 (FDA Review, Table 11).",
+      "ARIA-E occurred in 33% of ApoE ε4 homozygotes on lecanemab, compared to 11% of heterozygotes and 5% of noncarriers (FDA Review, Table 21).",
+      "Intracerebral hemorrhage occurred in 2.5% of patients taking lecanemab with an anticoagulant, compared to 0% of those on placebo (FDA Review, Table 29)."
+    ],
+    "methods_md": "Traditional approval was based primarily on Study 301 (CLARITY-AD, NCT03887455), an 18-month Phase 3 randomized, double-blind, placebo-controlled trial. The FDA evaluated 1,795 patients aged 50 to 90 with mild cognitive impairment or mild dementia due to Alzheimer’s disease and confirmed amyloid pathology.",
+    "trial_evidence_md": "Lecanemab's traditional approval is anchored by the Phase 3 CLARITY-AD trial ([NCT03887455](/trials/clarity-ad-nct03887455)), which met its primary clinical endpoint and corroborated biomarker findings from the earlier Study 201 ([NCT01767311](https://clinicaltrials.gov/study/NCT01767311)). The FDA reviewed the 1,795 randomized participants from CLARITY-AD, noting robust efficacy but delineating severe safety risks concentrated in ApoE ε4 homozygotes and patients on anticoagulants.",
+    "sentiment_md": "Public perception of lecanemab is highly divided. Caregivers express hope and a willingness to accept severe side effects, while the medical community voices frustration over the heavy diagnostic and MRI monitoring burdens required (Reddit). The scientific consensus remains highly skeptical of the drug's use in ApoE ε4 homozygotes due to high hemorrhage risks and minimal observed clinical benefit, frequently correcting the public misconception that the drug is a cure (Alzforum).",
+    "caveats_md": [
+      "Exploratory analyses showed no clinical benefit on the primary endpoint for ApoE ε4 homozygotes, despite this group bearing the highest risk for severe ARIA and intracerebral hemorrhage (FDA Review, Section 1).",
+      "The FDA statistical reviewer challenged the sponsor's claim that lecanemab preserves 5.3 months of time, noting a quadratic model fits the data better than a linear one (FDA Review, Section 6).",
+      "Fatal intracerebral hemorrhages occurred in the open-label extension, particularly in patients with underlying cerebral amyloid angiopathy (CAA) or concurrent use of anticoagulants (FDA Review, Section 7).",
+      "Black/African American patients were under-represented in the clinical trials compared to the general U.S. Alzheimer's population (FDA Review, Section 1)."
+    ],
+    "relates_to_md": [
+      "[AHEAD 3-45](/trials/ahead-3-45) — Ongoing Phase 3 trial investigating lecanemab in preclinical Alzheimer's disease.",
+      "[Lecanemab Phase 2b](/research/papers/lecanemab-phase-2b) — The prior proof-of-concept trial that led to accelerated approval.",
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Lecanemab's mechanism targets aggregated forms of amyloid beta."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "clarity-ad-nct03887455",
+      "title": "CLARITY-AD / Study 301",
+      "description": "Phase 3 trial of lecanemab in patients with early Alzheimer's disease and confirmed amyloid pathology.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "lecanemab",
+        "phase-3",
+        "amyloid"
+      ],
+      "registry_md": "[NCT03887455](https://clinicaltrials.gov/study/NCT03887455)",
+      "drug": "Lecanemab (anti-Aβ protofibril antibody)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "population": "Participants with early Alzheimer's disease (MCI or mild dementia) with confirmed amyloid pathology",
+      "primary_endpoint": "Change from Baseline in the Clinical Dementia Rating-Sum of Boxes (CDR-SB) at 18 Months",
+      "started": "2019-03",
+      "readout": "2029-06",
+      "why_md": "This pivotal Phase 3 trial was designed to verify the clinical benefit of lecanemab following its accelerated approval. It provides the definitive efficacy and safety data—especially regarding ARIA risks in ApoE ε4 carriers—required for FDA traditional approval.",
+      "status_log_md": [
+        "**2019-03-01** — Trial begins enrollment (NCT03887455).",
+        "**2023-01-01** — Primary 18-month clinical outcomes published in NEJM.",
+        "**2023-07-06** — Data forms the basis for lecanemab's FDA traditional approval."
+      ],
+      "results_md": "Lecanemab reduced clinical decline by 27% on the CDR-SB compared to placebo at 18 months. However, the trial revealed significantly elevated risks of ARIA and intracerebral hemorrhage, particularly in ApoE ε4 homozygotes and patients taking concomitant anticoagulants."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2019-03",
+      "title": "2019-03 — CLARITY-AD trial begins",
+      "body_md": "Eisai initiates the pivotal Phase 3 CLARITY-AD trial to evaluate lecanemab in early Alzheimer's disease. [FDA Approval Package](/research/papers/lecanemab-fda-approval-package)"
+    },
+    {
+      "section": "Disease-modifying era",
+      "date": "2023-01",
+      "title": "2023-01 — CLARITY-AD results published",
+      "body_md": "The 18-month clinical outcomes from the Phase 3 CLARITY-AD trial are published, demonstrating a 27% slowing of clinical decline alongside significant ARIA risks. [FDA Approval Package](/research/papers/lecanemab-fda-approval-package)"
+    }
+  ],
+  "notes_for_editor": [
+    "The full FDA approval of Lecanemab (2023-07) was already present on the timeline, so it was not duplicated. We added the CLARITY-AD trial start (2019-03) and results publication (2023-01) as they are distinct and important milestones.",
+    "The FDA document reports 1,795 participants for CLARITY-AD, which represents the randomized cohort, whereas ClinicalTrials.gov lists 1,906. We used 1,795 in the summary to match the FDA's analysis set."
+  ]
+}

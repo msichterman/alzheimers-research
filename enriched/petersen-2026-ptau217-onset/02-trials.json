@@ -1,0 +1,97 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT02854033",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02854033",
+      "name": "ADNI3",
+      "drug": "Observational (Biomarkers/Imaging)",
+      "phase": "n/a",
+      "sponsor": "University of Southern California",
+      "status": "Completed",
+      "enrollment": 1141,
+      "population": "Cognitively normal, mild cognitive impairment, and dementia participants",
+      "primary_endpoint": "Rate of change in cognition as measured by the Alzheimer's Disease Assessment Scale-Cognitive (ADAS-Cog13)",
+      "started": "2016-12",
+      "completed_or_readout": "2024-05",
+      "results_summary": "An observational study characterizing longitudinal cognitive and biomarker changes across the Alzheimer's disease spectrum; provided foundational retrospective data for the document's predictive models.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05617014",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05617014",
+      "name": "ADNI4",
+      "drug": "Observational (Biomarkers/Imaging)",
+      "phase": "n/a",
+      "sponsor": "University of Southern California",
+      "status": "Enrolling by invitation",
+      "enrollment": 1500,
+      "population": "Cognitively normal, mild cognitive impairment, and dementia participants",
+      "primary_endpoint": "Rate of enrollment of Underrepresented Populations (URPs)",
+      "started": "2023-06",
+      "completed_or_readout": "2027-07",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05026866",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05026866",
+      "name": "TRAILBLAZER-ALZ 3",
+      "drug": "Donanemab (Anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Active, not recruiting",
+      "enrollment": 2996,
+      "population": "Preclinical Alzheimer's Disease (cognitively unimpaired with evidence of amyloid pathology via p-tau)",
+      "primary_endpoint": "Time to Clinical Progression of Composite Endpoint as Measured by Clinical Dementia Rating (CDR)",
+      "started": "2021-08",
+      "completed_or_readout": "2027-11",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04468659",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04468659",
+      "name": "AHEAD 3-45",
+      "drug": "Lecanemab (Anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "status": "Active, not recruiting",
+      "enrollment": 1400,
+      "population": "Preclinical Alzheimer's Disease and Elevated Amyloid",
+      "primary_endpoint": "Change From Baseline in Preclinical Alzheimer Cognitive Composite 5 (PACC5) Score at Week 216",
+      "started": "2020-07",
+      "completed_or_readout": "2028-12",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2026-08",
+      "kind": "paper",
+      "description": "Nature Medicine publication of the primary p-tau217 clock models algorithm.",
+      "url": "https://doi.org/10.1038/s41591-026-04206-y"
+    },
+    {
+      "date": "2025-09",
+      "kind": "paper",
+      "description": "Screening and baseline data from the TRAILBLAZER-ALZ 3 trial validating the clinical use of p-tau screening for preclinical AD enrichment.",
+      "url": "https://doi.org/10.1002/alz.70662"
+    },
+    {
+      "date": "2023-04",
+      "kind": "paper",
+      "description": "Design paper of the AHEAD 3-45 prevention trial for Alzheimer's disease.",
+      "url": "https://doi.org/10.1002/alz.12748"
+    }
+  ],
+  "evidence_assessment": "The central claim that plasma p-tau217 clock models can prospectively estimate the onset of symptomatic Alzheimer's disease is supported by strong retrospective, observational data from the ADNI and Knight ADRC cohorts. However, no prospective, interventional clinical trial has yet validated the temporal accuracy of this specific algorithm for individual patient prognosis. The broader scientific premise of using plasma p-tau217 to identify high-risk pre-symptomatic patients is fundamentally sound, evidenced by its active implementation as an enrollment enrichment tool in massive Phase 3 secondary prevention trials like TRAILBLAZER-ALZ 3 (donanemab) and AHEAD 3-45 (lecanemab). Despite this foundational validity, the model's practical utility for specifically optimizing clinical trial enrollment is questionable. The substantial 3.0 to 3.7-year margin of error limits researchers' ability to guarantee that an enriched cohort will actually progress within the active timeline of a standard study, and its reliance on historical, predominantly non-Hispanic White ADNI cohorts necessitates caution until ongoing, diversity-focused efforts like ADNI4 are completed.",
+  "discrepancies": [
+    "The document claims the clock model could 'significantly improve clinical trial efficiency by enriching cohorts' to progress within the trial's timeframe. However, with a median absolute error of 3.0 to 3.7 years, the error band is almost as wide as the total duration of typical Phase 3 prevention trials (e.g., AHEAD 3-45 spans ~4.1 years, TRAILBLAZER-ALZ 3 spans ~6.4 years), making it mathematically unreliable to guarantee disease onset within such a narrow trial window.",
+    "The document explicitly categorizes the C2N diagnostic assay as an 'immunoassay' when highlighting the model's generalizability across testing platforms, whereas C2N Diagnostics' core validated technology for measuring the precise %p-tau217 biomarker relies on high-resolution liquid chromatography-mass spectrometry (LC-MS/MS)."
+  ]
+}

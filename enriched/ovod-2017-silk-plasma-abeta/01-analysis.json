@@ -1,0 +1,193 @@
+{
+  "kind": "research-paper",
+  "title": "Amyloid beta concentrations and stable isotope labeling kinetics of human plasma specific to CNS amyloidosis",
+  "authors": [
+    {
+      "name": "Ovod, V.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Ramsey, K.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Mawuenyega, K.G.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Bollinger, J.G.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Hicks, T.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Schneider, T.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Sullivan, M.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Paumier, K.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Holtzman, DM",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Morris, JC",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Benzinger, T",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Fagan, AM",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Patterson, B.W.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Bateman, R.J.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Ovod, V.",
+  "venue": "Alzheimer's & dementia : the journal of the Alzheimer's Association",
+  "published": "2017",
+  "doi": "10.1016/j.jalz.2017.06.2266",
+  "doi_url": "https://doi.org/10.1016/j.jalz.2017.06.2266",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/28734653",
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "quote-and-summarize",
+    "evidence": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law."
+  },
+  "tags": [
+    "paper",
+    "amyloid",
+    "biomarkers",
+    "plasma-biomarkers",
+    "silk-kinetics",
+    "abeta-ratio"
+  ],
+  "themes": [
+    "Plasma Aβ kinetics",
+    "Blood-brain Aβ transport",
+    "Stable Isotope Labeling Kinetics (SILK)",
+    "Aβ42/Aβ40 ratio as diagnostic biomarker",
+    "Early detection of Alzheimer's pathology"
+  ],
+  "one_line": "Plasma Aβ42/Aβ40 turnover kinetics and concentrations mirror CNS amyloid alterations, suggesting their potential as a highly accurate blood-based screening test for Alzheimer's disease.",
+  "summary": "This prospective study adapted Stable Isotope Labeling Kinetics (SILK) to evaluate the turnover kinetics and concentrations of Aβ38, Aβ40, and Aβ42 in the blood plasma of 41 older adults. Participants were categorized by CNS amyloidosis status using PIB-PET imaging or CSF Aβ biomarkers. The researchers discovered that plasma Aβ isoforms have a much faster half-life (approximately 3 hours) compared to previously reported CSF kinetics (approximately 9 hours). Notably, amyloid-positive individuals exhibited faster fractional turnover of Aβ42 and significantly lower Aβ42/Aβ40 concentration ratios compared to amyloid-negative participants. A receiver operating characteristic (ROC) analysis of absolute plasma Aβ42/Aβ40 concentration ratios demonstrated strong diagnostic accuracy (AUC = 0.8865) for detecting CNS amyloidosis. These findings support a direct brain-to-blood Aβ transport mechanism and indicate that high-precision plasma Aβ assays could serve as a minimally invasive clinical screening tool.",
+  "key_claims": [
+    {
+      "claim": "Aβ isoforms have a half-life of approximately three hours in human plasma, demonstrating faster turnover kinetics than in CSF.",
+      "evidence": "SILK time courses measuring isotopic enrichment ratios over 24 hours.",
+      "strength": "strong",
+      "location": "RESULTS / Plasma SILK for Aβ38, Aβ40, and Aβ42"
+    },
+    {
+      "claim": "Amyloid-positive individuals have faster soluble Aβ42 turnover kinetics relative to Aβ40 in plasma compared to amyloid-negative individuals.",
+      "evidence": "A drop after hour 12 in the SILK Aβ42/Aβ40 isotopic enrichment ratio in the amyloid-positive group.",
+      "strength": "strong",
+      "location": "RESULTS / Plasma SILK for Aβ38, Aβ40, and Aβ42"
+    },
+    {
+      "claim": "Plasma Aβ42/Aβ40 concentration ratios are significantly lower in the presence of CNS amyloidosis and possess high diagnostic accuracy.",
+      "evidence": "An average 14.3% decrease in the Aβ42/Aβ40 ratio in the amyloid-positive group; ROC analysis yielding an AUC of 0.8865.",
+      "strength": "moderate",
+      "location": "RESULTS / Absolute Aβ concentrations in human plasma"
+    }
+  ],
+  "methods": {
+    "design": "prospective study",
+    "n": 41,
+    "population": "Participants over age 60; 23 amyloid negative and 18 amyloid positive. Average age 76.2 years.",
+    "duration": "24 hours of hourly blood sampling following bolus or oral labeling",
+    "registration": null
+  },
+  "funding_and_conflicts": "Funded by Alzheimer’s Association Zenith Award Grant (#3856-80569), NIH R01NS065667, Metlife Foundation, P50AG05681, P01AG03991, UL1 RR024992, P30DK056341, P41RR000954. Conflicts: none stated.",
+  "limitations": [
+    "Relatively small population size (n=41).",
+    "Measurement of PIB-PET scan or CSF Aβ42/Aβ40 concentrations was obtained prior to plasma assessment.",
+    "Requires external validation in a larger cohort."
+  ],
+  "red_flags": [
+    "Temporal gap limitation: Ground truth biomarker testing (PIB-PET) occurred 'up to several years' prior to plasma sampling for some participants, risking misclassification if status converted during the delay.",
+    "Missing data artifacts: Multiple empty parentheticals '()' appear where figure and table references were lost during PDF-to-Markdown conversion."
+  ],
+  "parse_quality": {
+    "score": 7,
+    "issues": [
+      "Stripped figure/citation reference numbers, leaving empty brackets like '()'.",
+      "Loss of subscript/superscript formatting in isotope chemical formulas (e.g., '13 C 6 -leucine', '12 C 14 N-Aβ38') which introduces minor spacing artifacts."
+    ]
+  },
+  "search_verification": []
+}

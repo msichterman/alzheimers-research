@@ -1,0 +1,105 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT06120361",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06120361",
+      "name": "BioFINDER - Primary Care",
+      "drug": "PrecivityAD2 / APS2 (Diagnostic Test)",
+      "phase": "n/a",
+      "sponsor": "Skane University Hospital",
+      "status": "Recruiting",
+      "enrollment": 1200,
+      "population": "Patients seeking medical care due to mild cognitive symptoms in primary care units.",
+      "primary_endpoint": "Presence of brain AD pathology as determined by CSF AD biomarkers",
+      "started": "2020-01",
+      "completed_or_readout": "2028-12",
+      "results_summary": "The published JAMA 2024 readout showed the APS2 algorithm (combining p-tau217 ratio and Abeta42/40 ratio) had 88-92% diagnostic accuracy in the primary care cohort, significantly outperforming standard clinical evaluation.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03174938",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03174938",
+      "name": "BioFINDER 2",
+      "drug": "Biomarkers including p-tau217 / Abeta42 (Diagnostic Test)",
+      "phase": "n/a",
+      "sponsor": "Skane University Hospital",
+      "status": "Recruiting",
+      "enrollment": 2950,
+      "population": "Healthy individuals, SCD/MCI, AD dementia, and other dementias evaluated in memory clinics (secondary care).",
+      "primary_endpoint": "Clinical diagnosis according to consensus group decision blinded to the diagnostic test",
+      "started": "2017-05",
+      "completed_or_readout": "2036-12",
+      "results_summary": "The JAMA 2024 readout demonstrated that APS2 testing had around 91% diagnostic accuracy in the secondary care cohort, significantly outperforming standard evaluation by dementia specialists.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT07399171",
+      "registry_url": "https://clinicaltrials.gov/study/NCT07399171",
+      "name": "HT-4253-APOE-002",
+      "drug": "HT-4253 (NLRP3 inhibitor)",
+      "phase": "2",
+      "sponsor": "Halia Therapeutics, Inc.",
+      "status": "Recruiting",
+      "enrollment": 112,
+      "population": "APOE4 carriers aged 50-75 with a positive PrecivityAD2 APS2 score (high risk).",
+      "primary_endpoint": "Proportion of participants demonstrating improvement in amyloid risk profile (transitioning to lower APS2 score)",
+      "started": "2026-05",
+      "completed_or_readout": "2028-02",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT07041450",
+      "registry_url": "https://clinicaltrials.gov/study/NCT07041450",
+      "name": "BBM-01-2025",
+      "drug": "PrecivityAD2 / MoCA Cognition",
+      "phase": "n/a",
+      "sponsor": "MoCA Clinic and Institute",
+      "status": "Recruiting",
+      "enrollment": 500,
+      "population": "Patients referred to the MoCA Clinic with cognitive impairment or complaints.",
+      "primary_endpoint": "Time to diagnosis (eligible vs not eligible for anti-amyloid medication)",
+      "started": "2025-03",
+      "completed_or_readout": "2025-12",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT06856681",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06856681",
+      "name": "ADELAIDE",
+      "drug": "PrecivityAD2",
+      "phase": "n/a",
+      "sponsor": "C2N Diagnostics",
+      "status": "Terminated",
+      "enrollment": 0,
+      "population": "Patients presenting with symptoms of mild cognitive impairment with suspected AD pathology.",
+      "primary_endpoint": "Time to achieve >=90% Diagnostic Confidence for AD or Non-AD",
+      "started": null,
+      "completed_or_readout": null,
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2024-10-15",
+      "kind": "paper",
+      "description": "JAMA publication of the BioFINDER primary and secondary care cohorts demonstrating superior diagnostic accuracy of APS2 and %p-tau217.",
+      "url": "https://doi.org/10.1001/jama.2024.13855"
+    },
+    {
+      "date": "2025-10-01",
+      "kind": "company",
+      "description": "C2N Diagnostics submits PrecivityAD2 blood test for US FDA regulatory approval.",
+      "url": "https://c2n.com/news-releases/c2n-submits-us-fda-regulatory-filing-for-its-alzheimers-disease-blood-test"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence supporting the use of the APS2 blood biomarker (and p-tau217 percentage) for Alzheimer's diagnosis is exceptionally strong, driven largely by the robust, prospective Swedish BioFINDER cohorts. The BioFINDER-Primary Care (NCT06120361) and BioFINDER 2 (NCT03174938) studies successfully demonstrated that these blood tests achieve approximately 90% diagnostic accuracy, drastically outperforming standard evaluations by both primary care physicians and dementia specialists. The widespread acceptance of this test is further evidenced by its integration as a screening and efficacy endpoint in therapeutic trials (e.g., NCT07399171 for Halia Therapeutics) and diagnostic workflow trials (NCT07041450). While C2N Diagnostics withdrew its own US health-services study (ADELAIDE; NCT06856681) prior to enrollment, they have submitted the PrecivityAD2 test for FDA approval. Collectively, the high positive and negative predictive values reported in multiple care settings solidify APS2 as a practice-changing diagnostic tool.",
+  "discrepancies": []
+}

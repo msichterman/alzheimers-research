@@ -1,0 +1,49 @@
+{
+  "kind": "other",
+  "title": "A Randomised Double-blind Placebo-controlled Clinical Trial Investigating the Effect and Safety of Oral Semaglutide in Subjects With Early Alzheimer´s Disease (EVOKE)",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2021-03",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "semaglutide"
+  ],
+  "themes": [
+    "Phase 3 clinical trial",
+    "Oral semaglutide",
+    "Early Alzheimer's disease",
+    "Cognitive decline"
+  ],
+  "one_line": "The EVOKE trial is a phase 3, randomized, double-blind, placebo-controlled study evaluating the safety and efficacy of oral semaglutide in patients with early Alzheimer's disease.",
+  "summary": "This document is a ClinicalTrials.gov registry record for the EVOKE trial (NCT04777396). It outlines a phase 3 interventional study investigating the use of oral semaglutide, escalated to 14 mg once daily, in 1,840 participants aged 55 to 85. Eligible subjects have mild cognitive impairment or mild dementia of the Alzheimer's type and confirmed amyloid positivity. The trial spans up to 173 weeks, with the primary outcome measuring the change in the Clinical Dementia Rating - Sum of Boxes (CDR-SB) score from baseline to week 104. The trial is sponsored by Novo Nordisk and is marked as completed, though results are not yet posted.",
+  "key_claims": [],
+  "methods": {
+    "design": "Randomized, quadruple-blind, placebo-controlled, parallel-assignment",
+    "n": 1840,
+    "population": "Adults aged 55-85 with mild cognitive impairment or mild dementia of the Alzheimer's type and confirmed amyloid positivity",
+    "duration": "173 weeks",
+    "registration": "NCT04777396"
+  },
+  "funding_and_conflicts": "Lead sponsor is Novo Nordisk A/S. No individual author conflicts are stated.",
+  "limitations": [
+    "This is a trial registry record without results, so no outcomes or data are available to evaluate."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 10,
+    "issues": []
+  },
+  "search_verification": []
+}

@@ -1,0 +1,86 @@
+{
+  "kind": "other",
+  "title": "Safety and Efficacy Study of Gantenerumab in Participants With Early Alzheimer's Disease (AD)",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2024",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "immunotherapy",
+    "biomarkers",
+    "gantenerumab"
+  ],
+  "themes": [
+    "Gantenerumab efficacy",
+    "Amyloid clearance",
+    "ARIA safety profile",
+    "Biomarker changes",
+    "Failed primary endpoint"
+  ],
+  "one_line": "A Phase 3 trial of gantenerumab in early Alzheimer's disease was terminated after showing significant reduction in amyloid plaques and CSF biomarkers but failing to demonstrate a statistically significant slowing of clinical decline on the CDR-SB.",
+  "summary": "This Phase III randomized, double-blind, placebo-controlled trial (NCT03443973) evaluated the safety and efficacy of subcutaneous gantenerumab in 975 patients with early Alzheimer's disease. Over 116 weeks, participants received either gantenerumab with gradual up-titration or a matching placebo. Gantenerumab successfully reduced amyloid burden as measured by PET (-56.46 centiloids difference from placebo) and positively altered CSF biomarkers including pTau-181, tTau, neurogranin, and NFL. Despite these robust biomarker changes, the drug did not meet its primary clinical efficacy endpoint. The adjusted mean difference on the Clinical Dementia Rating-Sum of Boxes (CDR-SB) at week 116 was -0.19, which failed to reach statistical significance (p=0.2998). While some secondary clinical endpoints like ADAS-Cog13 and FAQ showed nominal numerical advantages, overall clinical benefit was insufficient. Gantenerumab treatment also resulted in higher rates of ARIA-E and ARIA-H compared to placebo. Consequently, Hoffmann-La Roche terminated the trial and development of gantenerumab for early Alzheimer's disease.",
+  "key_claims": [
+    {
+      "claim": "Gantenerumab failed to significantly slow clinical decline on the primary cognitive endpoint.",
+      "evidence": "Adjusted mean difference on CDR-SB at Week 116 was -0.19 (95% CI -0.55 to 0.17), p=0.2998.",
+      "strength": "strong",
+      "location": "PRIMARY: DBT Period: Change From Baseline to Week 116 in Global Outcome, as Measured by CDR-SB"
+    },
+    {
+      "claim": "Gantenerumab significantly reduced brain amyloid load.",
+      "evidence": "Difference in adjusted means for amyloid PET was -56.46 centiloids (95% CI -64.36 to -48.56), p<0.0001.",
+      "strength": "strong",
+      "location": "SECONDARY: Change From Baseline to Week 116 in Brain Amyloid Load as Measured by Amyloid Positron Emission Tomography (PET) Scan"
+    },
+    {
+      "claim": "Gantenerumab improved multiple downstream CSF biomarkers of Alzheimer's disease.",
+      "evidence": "Percent difference in geometric means compared to placebo: NFL -13.2% (p=0.014), Neurogranin -14.4% (p<0.001), tTau -17.8% (p<0.001), pTau-181 -21.0% (p<0.001).",
+      "strength": "strong",
+      "location": "SECONDARY: DBT Period: Percent Change From Baseline to Week 116 in Cerebrospinal Fluid (CSF) Marker of Disease"
+    },
+    {
+      "claim": "Gantenerumab did not significantly alter regional brain tau load as measured by PET.",
+      "evidence": "Differences in adjusted means for tau PET across temporal, medial temporal, frontal, and parietal regions ranged from 0.00 to 0.01 (all p>0.05).",
+      "strength": "strong",
+      "location": "SECONDARY: Change From Baseline to Week 116 in Brain Tau Load, as Measured by Tau PET Scan"
+    },
+    {
+      "claim": "Gantenerumab treatment increased the incidence of amyloid-related imaging abnormalities (ARIA).",
+      "evidence": "ARIA-E occurred in 128 gantenerumab vs 18 placebo participants; ARIA-H occurred in 109 gantenerumab vs 57 placebo participants.",
+      "strength": "strong",
+      "location": "SECONDARY: DBT Period: Number of Participants With ARIA-E / ARIA-H Confirmed by MRI"
+    }
+  ],
+  "methods": {
+    "design": "Phase III, Multicenter, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group",
+    "n": 975,
+    "population": "Patients aged 50-90 with prodromal to mild Alzheimer's disease, MMSE ≥ 22, CDR-GS 0.5 or 1.0, and evidence of beta-amyloid pathology.",
+    "duration": "116 weeks (DBT period)",
+    "registration": "NCT03443973"
+  },
+  "funding_and_conflicts": "Hoffmann-La Roche (Lead sponsor). No specific author conflicts of interest are stated in this registry record.",
+  "limitations": [
+    "The trial was terminated early following a pre-planned analysis of safety and efficacy in the Graduate I & II programs.",
+    "Tau PET analysis was conducted at a pooled level with another study (WN29922), meaning the specific results shown represent the combined population rather than just this trial."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 10,
+    "issues": [
+      "Document is a well-formatted API extraction of a ClinicalTrials.gov record, lacking the usual PDF-to-Markdown artifacts."
+    ]
+  },
+  "search_verification": []
+}

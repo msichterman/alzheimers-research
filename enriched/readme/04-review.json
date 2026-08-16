@@ -1,0 +1,91 @@
+{
+  "fact_check": [
+    {
+      "fact": "Documents are only kept in the repository if their licenses permit redistribution.",
+      "status": "verified",
+      "note": "Checked against paragraph 2 of the source document."
+    },
+    {
+      "fact": "The P. gingivalis review by M.I. Ryder was published in the Journal of Periodontology in 2020.",
+      "status": "verified",
+      "note": "Checked against the source document table."
+    },
+    {
+      "fact": "Buntanetap Phase 2/3 trial lasted 12 weeks.",
+      "status": "unverified",
+      "note": "Stated by the clinical-trials researcher, but this duration is not mentioned in the source document text itself. It is presumably pulled from registry data."
+    },
+    {
+      "fact": "GAIN trial enrollment was 643.",
+      "status": "unverified",
+      "note": "Stated by the trials researcher; the source document contains no clinical data or enrollment numbers."
+    }
+  ],
+  "research_page": {
+    "slug": "repository-sources-readme",
+    "title": "Repository Source Documents README",
+    "description": "An administrative document detailing the provenance, licensing, and processing of source materials in the knowledge base.",
+    "tags": [
+      "provenance",
+      "licensing",
+      "repository-management"
+    ],
+    "source_line_md": "**Source**: Knowledge Base Repository (2026)",
+    "authors_line_md": "Knowledge Base Maintainers",
+    "takeaway_md": "Source documents are stored in the repository only if their licenses (e.g., CC BY) permit redistribution. Non-redistributable files must be processed locally to generate parsed Markdown.",
+    "key_findings_md": [
+      "Documents with restrictive licenses are excluded from the repository (Source document, Paragraph 2).",
+      "Full author credits, affiliations, and conflicts are extracted into separate JSON analysis files rather than stored in the raw Markdown (Source document, Paragraph 3)."
+    ],
+    "methods_md": "Not applicable; this is an administrative repository README rather than a clinical study.",
+    "trial_evidence_md": "This document contains no clinical evidence. It references the [buntanetap Phase 2/3 study](/research/papers/buntanetap-phase-2-3-ad) and a [P. gingivalis review](/research/papers/p-gingivalis-cor388-alzheimers) purely as examples of Open Access licensing.",
+    "sentiment_md": "While the document itself generates no public sentiment, the referenced clinical hypotheses (buntanetap and P. gingivalis) exhibit stark community divides. Retail investors show high enthusiasm for buntanetap, whereas popular science discussions often overstate the certainty of the gum disease hypothesis.",
+    "caveats_md": [
+      "This is an administrative repository file that was processed by the ingestion pipeline; it presents no scientific or clinical findings."
+    ],
+    "relates_to_md": [
+      "[Attribution and licensing](/attribution) — The core policy dictating the handling of these documents.",
+      "[Authors](/research/authors) — The destination index for extracted credit data.",
+      "[Buntanetap in mild-to-moderate AD (phase 2/3)](/research/papers/buntanetap-phase-2-3-ad) — Example paper referenced in the table.",
+      "[P. gingivalis and gingipain inhibition in AD](/research/papers/p-gingivalis-cor388-alzheimers) — Example paper referenced in the table."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "anvs-26001-nct07757204",
+      "title": "ANVS-26001 (Buntanetap extension)",
+      "description": "A 24-month Phase 2/3 safety extension study of buntanetap in Alzheimer's patients who participated in a prior trial.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "buntanetap",
+        "extension"
+      ],
+      "registry_md": "[NCT07757204](https://clinicaltrials.gov/study/NCT07757204)",
+      "drug": "buntanetap (translational inhibitor of APP, Tau, and alpha-synuclein)",
+      "phase": "Phase 2/3",
+      "sponsor": "Annovis Bio Inc.",
+      "population": "Alzheimer's Dementia patients who participated in a prior buntanetap clinical trial",
+      "primary_endpoint": "Safety of buntanetap over 24 months",
+      "started": "2026-09",
+      "readout": "2030-05",
+      "why_md": "Evaluates the long-term (24-month) safety of buntanetap. This addresses a major limitation of the prior [12-week Phase 2/3 study](/trials/buntanetap-nct05686044), which was widely considered too short to establish long-term disease modification.",
+      "status_log_md": [
+        "**2026-09-01** — Trial expected to begin enrollment."
+      ],
+      "results_md": null
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Next-generation targets",
+      "date": "2026-09",
+      "title": "2026-09 — ANVS-26001 long-term buntanetap safety trial expected to begin",
+      "body_md": "A 24-month Phase 2/3 extension trial for buntanetap initiates to gather long-term safety data following its initial 12-week study. Linked to [ANVS-26001](/trials/anvs-26001-nct07757204)."
+    }
+  ],
+  "notes_for_editor": [
+    "The source document processed here is the repository's own administrative README file, not a scientific paper. The pipeline likely ingested 'README.md' from the sources directory by mistake.",
+    "The clinical and sentiment researchers successfully pulled relevant external context based on the example papers listed in the README's table, leading to the creation of the ANVS-26001 trial page. However, you may want to delete the main 'Repository Source Documents' research page and add an exclusion rule to the ingestion pipeline to ignore repository management files."
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "kind": "research-paper",
+  "title": "Single-cell multiregion dissection of Alzheimer’s disease",
+  "authors": [
+    {
+      "name": "Mathys, Hansruedi",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "None declared"
+    },
+    {
+      "name": "Boix, Carles A.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "None declared"
+    },
+    {
+      "name": "Akay, Leyla Anne",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "None declared"
+    },
+    {
+      "name": "Xia, Ziting",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "None declared"
+    },
+    {
+      "name": "Davila-Velderrain, Jose",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "None declared"
+    },
+    {
+      "name": "Ng, Ayesha P.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "None declared"
+    },
+    {
+      "name": "Jiang, Xueqiao",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "None declared"
+    },
+    {
+      "name": "Abdelhady, Ghada",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "None declared"
+    },
+    {
+      "name": "Galani, Kyriaki",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "None declared"
+    },
+    {
+      "name": "Mantero, Julio",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "None declared"
+    },
+    {
+      "name": "Band, Neil",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "None declared"
+    },
+    {
+      "name": "James, Benjamin T.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "None declared"
+    },
+    {
+      "name": "Babu, Sudhagar",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "None declared"
+    },
+    {
+      "name": "Galiana-Melendez, Fabiola",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "None declared"
+    },
+    {
+      "name": "Louderback, Kate",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "None declared"
+    },
+    {
+      "name": "Prokopenko, Dmitry",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "None declared"
+    },
+    {
+      "name": "Tanzi, Rudolph E.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "None declared"
+    },
+    {
+      "name": "Bennett, David A.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "None declared"
+    },
+    {
+      "name": "Tsai, Li-Huei",
+      "affiliation": null,
+      "orcid": null,
+      "email": "lhtsai@mit.edu",
+      "corresponding": true,
+      "conflicts": "None declared"
+    },
+    {
+      "name": "Kellis, Manolis",
+      "affiliation": null,
+      "orcid": null,
+      "email": "manoli@mit.edu",
+      "corresponding": true,
+      "conflicts": "None declared"
+    }
+  ],
+  "first_author": "Mathys, Hansruedi",
+  "venue": "Nature",
+  "published": "2024",
+  "doi": "10.1038/s41586-024-07606-7",
+  "doi_url": "https://doi.org/10.1038/s41586-024-07606-7",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39048816",
+  "copyright": null,
+  "license": {
+    "name": "CC BY 4.0",
+    "url": null,
+    "reuse": "redistribute",
+    "evidence": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made."
+  },
+  "tags": [
+    "paper",
+    "amyloid",
+    "tau",
+    "single-cell-transcriptomics",
+    "cognitive-resilience",
+    "reelin-signaling"
+  ],
+  "themes": [
+    "Single-cell transcriptomic atlas of the aged human brain across six regions",
+    "Region-specific excitatory and inhibitory neuronal vulnerability in Alzheimer's disease",
+    "Reelin signaling pathway involvement in excitatory neuronal vulnerability",
+    "Astrocyte choline metabolism and polyamine biosynthesis in cognitive resilience",
+    "Glial energy metabolism and glycolysis upregulated in response to diffuse amyloid plaques"
+  ],
+  "one_line": "A single-cell transcriptomic atlas of six brain regions reveals region-specific cellular vulnerability linked to Reelin signaling and identifies astrocyte choline metabolism as a driver of cognitive resilience in Alzheimer's disease.",
+  "summary": "This study presents a single-nucleus RNA sequencing atlas of 1.3 million cells from six brain regions across 48 aged individuals with and without Alzheimer's disease. The researchers identified 76 cell types, noting significant regional diversity, including a unique inhibitory interneuron population in the thalamus. They discovered that specific excitatory neuron subtypes in the entorhinal cortex and hippocampus are highly vulnerable and depleted in AD, a vulnerability strongly associated with Reelin signaling pathways. The study mapped distinct gene expression modules corresponding to tau tangles and amyloid plaques, showing that diffuse plaques trigger a robust upregulation of glycolysis in glial cells. Additionally, the authors demonstrated that specific metabolic pathways in astrocytes, notably choline metabolism and polyamine biosynthesis, are strongly correlated with cognitive resilience to AD pathology.",
+  "key_claims": [
+    {
+      "claim": "Reelin-expressing excitatory neurons in the entorhinal cortex are selectively vulnerable and depleted in Alzheimer's disease.",
+      "evidence": "snRNA-seq reveals EC-specific RELN+ neurons have significantly lower abundance (OR=0.38-0.66) in AD cases, validated via RNAscope in human tissue and immunohistochemistry in App-KI and Tau(P301S) mouse models.",
+      "strength": "strong",
+      "location": "Vulnerable neuronal subtypes in AD / Fig. 3"
+    },
+    {
+      "claim": "Astrocyte choline metabolism and polyamine biosynthesis pathways are associated with cognitive resilience to AD pathology.",
+      "evidence": "Differential expression in the PFC of cognitively resilient individuals shows positive associations with GPCPD1, GPX3, and ODC1, and negative associations with PNPLA6 and CHDH, which was validated via RNAscope.",
+      "strength": "moderate",
+      "location": "Astrocytes and cognitive resilience / Fig. 5"
+    },
+    {
+      "claim": "Glial cells upregulate glycolysis pathways in response to diffuse amyloid-beta plaque burden.",
+      "evidence": "Gene modules for glycolysis were enriched among diffuse plaque DEGs in microglia and astrocytes; RNAscope confirmed upregulation of ADCY8 and PFKP transcripts in AQP4+ astrocytes.",
+      "strength": "moderate",
+      "location": "Pathology-specific expression changes / Fig. 4"
+    }
+  ],
+  "methods": {
+    "design": "Cross-sectional post-mortem single-nucleus RNA sequencing (snRNA-seq)",
+    "n": 48,
+    "population": "Aged human brain donors from the ROSMAP cohort (26 with pathologic AD, 22 without AD)",
+    "duration": null,
+    "registration": null
+  },
+  "funding_and_conflicts": "Supported by NIH grants (RF1 AG062377, RF1 AG054321, RO1 AG054012, etc.), Cure Alzheimer’s Fund, JBP Foundation, Belfer Family Foundation, and Swiss National Science Foundation. The authors declare no competing interests.",
+  "limitations": [
+    "Isotropic fractionation and read depth cut-offs may bias cell recovery based on nuclear content",
+    "Nuclear RNA profiling may not fully capture microglial states or localized transcriptomic changes",
+    "Pathology burden associations are based on per-sample averages rather than the exact spatial context of each cell"
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "Author byline missing from the document header, necessitating Crossref API retrieval",
+      "Figure legends are inline with the main text and lack distinct formatting",
+      "Some formatting anomalies with spacing and special characters"
+    ]
+  },
+  "search_verification": [
+    "Queried Crossref API for DOI 10.1038/s41586-024-07606-7 to retrieve the full author list since it was omitted from the parsed document header."
+  ]
+}

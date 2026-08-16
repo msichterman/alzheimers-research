@@ -1,0 +1,207 @@
+{
+  "kind": "research-paper",
+  "title": "Randomized Phase II Study of the Safety and Efficacy of Semorinemab in Participants With Mild-to-Moderate Alzheimer Disease: Lauriet",
+  "authors": [
+    {
+      "name": "Monteiro, Cecilia",
+      "affiliation": "Genentech, Inc., South San Francisco, CA",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Employee of Genentech, Inc. and shareholder in F. Hoffmann La Roche, Ltd."
+    },
+    {
+      "name": "Toth, Balazs",
+      "affiliation": "Genentech, Inc., South San Francisco, CA",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Employee of Genentech, Inc. and shareholder in F. Hoffmann La Roche, Ltd."
+    },
+    {
+      "name": "Brunstein, Flavia",
+      "affiliation": "Genentech, Inc., South San Francisco, CA",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Employee of Genentech, Inc. and shareholder in F. Hoffmann La Roche, Ltd."
+    },
+    {
+      "name": "Bobbala, Ashwini",
+      "affiliation": "Genentech, Inc., South San Francisco, CA",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Employee of Genentech, Inc. and shareholder in F. Hoffmann La Roche, Ltd."
+    },
+    {
+      "name": "Datta, Seema",
+      "affiliation": "Genentech, Inc., South San Francisco, CA",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Employee of Genentech, Inc. and shareholder in F. Hoffmann La Roche, Ltd."
+    },
+    {
+      "name": "Ceniceros, Ryan",
+      "affiliation": "Genentech, Inc., South San Francisco, CA",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Employee of Genentech, Inc. and shareholder in F. Hoffmann La Roche, Ltd."
+    },
+    {
+      "name": "Sanabria Bohorquez, Sandra M.",
+      "affiliation": "Genentech, Inc., South San Francisco, CA",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Employee of Genentech, Inc. and shareholder in F. Hoffmann La Roche, Ltd."
+    },
+    {
+      "name": "Anania, Veronica G.",
+      "affiliation": "Genentech, Inc., South San Francisco, CA",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Employee of Genentech, Inc. and shareholder in F. Hoffmann La Roche, Ltd."
+    },
+    {
+      "name": "Wildsmith, Kristin R.",
+      "affiliation": "Genentech, Inc., South San Francisco, CA",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Employee of Genentech, Inc. and shareholder in F. Hoffmann La Roche, Ltd."
+    },
+    {
+      "name": "Schauer, Stephen P.",
+      "affiliation": "Genentech, Inc., South San Francisco, CA",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Employee of Genentech, Inc. and shareholder in F. Hoffmann La Roche, Ltd."
+    },
+    {
+      "name": "Lee, Julie",
+      "affiliation": "Genentech, Inc., South San Francisco, CA",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Employee of Genentech, Inc. and shareholder in F. Hoffmann La Roche, Ltd."
+    },
+    {
+      "name": "Dolton, Michael J.",
+      "affiliation": "Genentech, Inc., South San Francisco, CA",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Employee of Genentech, Inc. and shareholder in F. Hoffmann La Roche, Ltd."
+    },
+    {
+      "name": "Ramakrishnan, Vidya",
+      "affiliation": "Genentech, Inc., South San Francisco, CA",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Employee of Genentech, Inc. and shareholder in F. Hoffmann La Roche, Ltd."
+    },
+    {
+      "name": "Abramzon, Daniel",
+      "affiliation": "Genentech, Inc., South San Francisco, CA",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Employee of Genentech, Inc. and shareholder in F. Hoffmann La Roche, Ltd."
+    },
+    {
+      "name": "Teng, Edmond",
+      "affiliation": "Genentech, Inc., South San Francisco, CA",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Employee of Genentech, Inc. and shareholder in F. Hoffmann La Roche, Ltd."
+    }
+  ],
+  "first_author": "Monteiro, Cecilia",
+  "venue": "Neurology",
+  "published": null,
+  "doi": "10.1212/WNL.0000000000207663",
+  "doi_url": "https://doi.org/10.1212/WNL.0000000000207663",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/37643887/",
+  "copyright": null,
+  "license": {
+    "name": "CC BY-NC-ND 4.0",
+    "url": null,
+    "reuse": "redistribute",
+    "evidence": "This is an open access article distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives License 4.0 (CC BY-NC-ND) , which permits downloading and sharing the work provided it is properly cited. The work cannot be changed in any way or used commercially without permission from the journal."
+  },
+  "tags": [
+    "paper",
+    "trial",
+    "tau",
+    "immunotherapy",
+    "biomarkers",
+    "semorinemab",
+    "monoclonal-antibody",
+    "mild-to-moderate-ad"
+  ],
+  "themes": [
+    "Tau immunotherapy in AD",
+    "N-terminal tau targeting",
+    "Cognitive vs functional outcomes",
+    "Mild-to-moderate Alzheimer's disease"
+  ],
+  "one_line": "In a Phase 2 trial of mild-to-moderate Alzheimer's disease, the anti-tau monoclonal antibody semorinemab significantly slowed cognitive decline on the ADAS-Cog11, but failed to show any benefit on functional or global clinical measures.",
+  "summary": "The Lauriet study was a phase 2, randomized, double-blind, placebo-controlled trial evaluating the safety and efficacy of the anti-tau monoclonal antibody semorinemab in 272 participants with mild-to-moderate Alzheimer's disease. Participants received 4,500 mg of intravenous semorinemab or a placebo every four weeks for up to 60 weeks. At week 49, the semorinemab group showed a significant 42.2% reduction in cognitive decline as measured by the ADAS-Cog11 compared to the placebo group. However, the trial failed to meet its other coprimary endpoint (the ADCS-ADL functional scale) and showed no treatment effect on secondary global and cognitive measures like the CDR-SB or MMSE. While semorinemab demonstrated target engagement by elevating plasma tau and reducing CSF tau, it did not alter the rate of tau accumulation on PET imaging or cerebral atrophy on MRI. The antibody was well tolerated with a safety profile consistent with prior trials, raising the possibility that N-terminal tau therapies may have a narrow cognitive benefit in later disease stages despite failing to prevent functional decline.",
+  "key_claims": [
+    {
+      "claim": "Semorinemab significantly reduces cognitive decline in mild-to-moderate Alzheimer's disease compared to placebo.",
+      "evidence": "A 42.2% reduction in decline on the ADAS-Cog11 at week 49 (treatment difference of −2.89 points, 95% CI −4.56 to −1.21, p = 0.0008).",
+      "strength": "moderate",
+      "location": "Abstract / Results / Table 2"
+    },
+    {
+      "claim": "Semorinemab does not slow functional or global clinical decline in mild-to-moderate AD.",
+      "evidence": "No statistically significant differences between semorinemab and placebo on the ADCS-ADL (difference −0.83 points, p = 0.52), CDR-SB (difference 0.26, p = 0.35), or MMSE (difference 0.27, p = 0.53).",
+      "strength": "strong",
+      "location": "Abstract / Results / Table 2"
+    },
+    {
+      "claim": "Semorinemab engages peripheral and central tau targets.",
+      "evidence": ">20-fold increase in plasma total tau and ptau217; significant reductions in CSF total tau, ptau181, and ptau217 in the semorinemab arm compared to placebo.",
+      "strength": "strong",
+      "location": "Results / Figure 3"
+    },
+    {
+      "claim": "Semorinemab does not alter the accumulation of tau pathology or the rate of cerebral atrophy.",
+      "evidence": "No treatment difference in the annualized rate of change in whole cortical gray [18F]GTP1 tau PET SUVR or in whole brain, cerebral cortex, and hippocampal volumes measured by MRI.",
+      "strength": "strong",
+      "location": "Results / Table 2"
+    }
+  ],
+  "methods": {
+    "design": "Multicenter, randomized, double-blind, placebo-controlled, parallel-group, phase 2 trial",
+    "n": 272,
+    "population": "Adults aged 50–85 with probable mild-to-moderate AD dementia (MMSE 16-21) and confirmed amyloid pathology",
+    "duration": "48 or 60 weeks (double-blind treatment) with optional 96-week open-label extension",
+    "registration": "NCT03828747"
+  },
+  "funding_and_conflicts": "Supported by Genentech, Inc. All authors are employees of Genentech, Inc. and shareholders in F. Hoffmann La Roche, Ltd.",
+  "limitations": [
+    "The COVID-19 pandemic caused missed doses and remote/missed clinical assessments, which may have unknown effects despite preplanned sensitivity analyses.",
+    "Relatively small sample size and lack of racial and ethnic diversity in the study cohort.",
+    "Post hoc analyses showed the primary cognitive benefit was driven primarily by a single item (word recognition) within the memory domain of the ADAS-Cog11, which may represent a false-positive result."
+  ],
+  "red_flags": [
+    "Divergent results on the coprimary endpoints (positive for ADAS-Cog11, entirely negative for ADCS-ADL) combined with negative secondary endpoints (MMSE, CDR-SB) strongly suggest the primary cognitive finding may be a statistical artifact rather than a robust disease-modifying effect."
+  ],
+  "parse_quality": {
+    "score": 9,
+    "issues": [
+      "Tables possess trailing empty columns resulting from conversion artifacts.",
+      "Minor spacing artifacts within inline text."
+    ]
+  },
+  "search_verification": []
+}

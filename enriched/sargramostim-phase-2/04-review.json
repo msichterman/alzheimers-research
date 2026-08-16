@@ -1,0 +1,117 @@
+{
+  "fact_check": [
+    {
+      "fact": "0 drug-related serious adverse events",
+      "status": "verified",
+      "note": "The registry lists 1 SAE (Myocardial Infarction) in the sargramostim group, but the paper specifies 'drug-related', meaning investigators deemed the event unrelated to treatment."
+    },
+    {
+      "fact": "Significant baseline imbalance in MMSE scores",
+      "status": "verified",
+      "note": "Checked against Table 1; placebo group started at 20.75 compared to 17.10 for the sargramostim group."
+    },
+    {
+      "fact": "ADAS-Cog13 worsening at 45-day follow-up",
+      "status": "verified",
+      "note": "Checked against Figure 3 and Results text; sargramostim group significantly worsened (p=0.0009) compared to baseline at FU1."
+    }
+  ],
+  "research_page": {
+    "slug": "sargramostim-phase-2-ad",
+    "title": "Sargramostim (GM-CSF) in mild-to-moderate AD (Phase II)",
+    "description": "A 3-week Phase II trial of the innate immune modulator sargramostim showed safety and immune activation, but cognitive claims are confounded by severe baseline imbalances.",
+    "tags": [
+      "paper",
+      "trial",
+      "immunotherapy",
+      "sargramostim",
+      "inflammation",
+      "innate-immunity"
+    ],
+    "source_line_md": "**Source**: [Alzheimer's & Dementia : Translational Research & Clinical Interventions, 2021](https://doi.org/10.1002/trc2.12158) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/33778150)",
+    "authors_line_md": "Potter et al. — University of Colorado",
+    "takeaway_md": "Sargramostim (GM-CSF) proved safe over a 3-week treatment period and successfully activated the innate immune system. However, claims of cognitive improvement are highly questionable due to a severe baseline imbalance between groups, a very small sample size (N=40), and worsening scores on the standard ADAS-Cog13 assessment.",
+    "key_findings_md": [
+      "Sargramostim met its primary safety endpoint over 3 weeks of treatment, with no drug-related serious adverse events or ARIA (paper, RESULTS).",
+      "Treatment significantly increased innate immune cells, including monocytes, lymphocytes, and neutrophils (paper, Figure 1).",
+      "MMSE scores improved by 1.45 units from baseline at end-of-treatment, but the sargramostim group started with significantly worse baseline scores (17.10) than placebo (20.75) (paper, Table 1).",
+      "Plasma biomarkers showed a 10% increase in Aβ40 and a 24% reduction in total tau compared to placebo (paper, Figure 4).",
+      "Standard cognitive measures (ADAS-Cog13) showed no benefit at the end of treatment and statistically worsened 45 days later (paper, Figure 3)."
+    ],
+    "methods_md": "Randomized, double-blind, placebo-controlled phase II trial (N=40 analyzed) in adults with mild-to-moderate Alzheimer's disease (MMSE 10-26). Participants received subcutaneous sargramostim or placebo 5 days/week for 3 weeks, with follow-ups at 45 and 90 days. Registered as NCT01409915.",
+    "trial_evidence_md": "This paper reports results from a single, underpowered Phase 2 trial ([NCT01409915](/trials/sargramostim-nct01409915)). While the document reports no drug-related serious adverse events, the registry notes one myocardial infarction in the treatment group (likely deemed unrelated). The cognitive findings are heavily compromised by the baseline imbalances confirmed in the registry. An ongoing 24-week Phase 2 trial ([NCT04902703](/trials/sargramostim-nct04902703)) is attempting to replicate these preliminary results, following the termination of an earlier Sanofi-sponsored MCI trial ([NCT02667496](https://clinicaltrials.gov/study/NCT02667496)).",
+    "sentiment_md": "Public perception is sharply divided. While university press releases and general media celebrated the drug as a repurposed cancer treatment that improves memory, the scientific community (e.g., Alzforum) remains highly skeptical. Researchers point to the tiny sample size, the short duration, the baseline cognitive imbalances, and the worsening of standard cognitive endpoints at follow-up. A minor fringe community has also shown unsafe curiosity about off-label use for cognitive enhancement.",
+    "caveats_md": [
+      "A severe baseline imbalance (placebo MMSE 20.75 vs sargramostim 17.10) confounds all cognitive efficacy claims; adjusting for this baseline erased the statistical significance of the end-of-treatment MMSE benefit.",
+      "The 3-week treatment period is exceptionally short for an Alzheimer's disease trial, making any lasting cognitive or biomarker claims highly speculative.",
+      "Promotional materials selectively emphasize the positive MMSE results while omitting the failure and subsequent significant worsening of the gold-standard ADAS-Cog13 metric."
+    ],
+    "relates_to_md": [
+      "[NCT01409915](/trials/sargramostim-nct01409915) — Trial reported in this document",
+      "[NCT04902703](/trials/sargramostim-nct04902703) — Ongoing Phase 2 trial attempting to replicate these findings"
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "sargramostim-nct01409915",
+      "title": "Sargramostim Phase 2 (NCT01409915)",
+      "description": "Short-term Phase 2 trial of Sargramostim (GM-CSF) in adults with mild-to-moderate Alzheimer's disease.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "sargramostim",
+        "immunotherapy",
+        "innate-immunity"
+      ],
+      "registry_md": "[NCT01409915](https://clinicaltrials.gov/study/NCT01409915)",
+      "drug": "Sargramostim (GM-CSF)",
+      "phase": "2",
+      "sponsor": "University of Colorado, Denver",
+      "population": "Adults 55-85 years old with mild-to-moderate Alzheimer's disease (MMSE 10-26) and elevated cortical amyloid",
+      "primary_endpoint": "Adverse Events (AEs) by Body System",
+      "started": "2011-03",
+      "readout": "2019-12",
+      "why_md": "This pilot trial tested whether short-term innate immune system stimulation via sargramostim could safely improve symptoms and biomarkers in established Alzheimer's disease.",
+      "status_log_md": [
+        "**2011-03-01** — Trial begins.",
+        "**2019-12-01** — Trial completed.",
+        "**2021-03-24** — [Phase II results published](/research/papers/sargramostim-phase-2-ad) showing safety but severely confounded cognitive outcomes."
+      ],
+      "results_md": "Sargramostim was safe over 3 weeks of treatment. While exploratory MMSE scores improved, the sargramostim group started with significantly worse baseline scores. The standard ADAS-Cog13 assessment worsened compared to placebo at follow-up."
+    },
+    {
+      "slug": "sargramostim-nct04902703",
+      "title": "Sargramostim Phase 2 (NCT04902703)",
+      "description": "Ongoing 24-week trial of Sargramostim (GM-CSF) in mild or moderate Alzheimer's disease.",
+      "badge": "Recruiting",
+      "tags": [
+        "trial",
+        "sargramostim",
+        "immunotherapy",
+        "innate-immunity"
+      ],
+      "registry_md": "[NCT04902703](https://clinicaltrials.gov/study/NCT04902703)",
+      "drug": "Sargramostim (GM-CSF)",
+      "phase": "2",
+      "sponsor": "University of Colorado, Denver",
+      "population": "Adults 60-85 years old with probable mild or moderate Alzheimer's disease and positive amyloid biomarkers",
+      "primary_endpoint": "Safety as measured by number of Adverse Events (AEs) by body system",
+      "started": "2022-06",
+      "readout": "2026-11",
+      "why_md": "This trial attempts to replicate and extend the findings of the earlier [NCT01409915](/trials/sargramostim-nct01409915) pilot, utilizing a longer 24-week treatment period to assess longer-term safety and efficacy.",
+      "status_log_md": [
+        "**2022-06-01** — Trial begins."
+      ],
+      "results_md": null
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Alternative mechanisms",
+      "date": "2021-03",
+      "title": "2021-03 — Sargramostim Phase II results published",
+      "body_md": "A 3-week pilot trial of the innate immune modulator sargramostim (GM-CSF) shows safety and immune activation, but highly confounded cognitive results due to severe baseline imbalances. Read the [full analysis](/research/papers/sargramostim-phase-2-ad)."
+    }
+  ],
+  "notes_for_editor": []
+}

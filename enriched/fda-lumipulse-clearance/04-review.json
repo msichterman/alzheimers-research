@@ -1,0 +1,50 @@
+{
+  "fact_check": [
+    {
+      "fact": "91.7% positive agreement and 97.3% negative agreement in 499 patients",
+      "status": "verified",
+      "note": "Matches the FDA press release exactly and closely aligns with the 91.8% positive predictive value reported in the 2026 peer-reviewed publication of the dataset."
+    },
+    {
+      "fact": "Indeterminate result rate of less than 20%",
+      "status": "verified",
+      "note": "Matches the FDA press release and is confirmed as precisely 19.6% in the published dataset."
+    }
+  ],
+  "research_page": {
+    "slug": "fda-clearance-lumipulse-blood-test",
+    "title": "FDA Clearance of Lumipulse pTau217/Aβ42 Blood Test",
+    "description": "The FDA cleared the first blood-based diagnostic test for Alzheimer's disease, detecting amyloid pathology via plasma pTau217 and Aβ42 ratios.",
+    "tags": [
+      "press-release",
+      "biomarkers",
+      "blood-test",
+      "fda-clearance"
+    ],
+    "source_line_md": "**Source**: U.S. Food and Drug Administration, 2025",
+    "authors_line_md": "U.S. Food and Drug Administration",
+    "takeaway_md": "In May 2025, the FDA cleared the first blood test to aid in Alzheimer's disease diagnostics: the Fujirebio Lumipulse G pTau217/ß-Amyloid 1-42 Plasma Ratio. While highly accurate compared to PET and CSF benchmarks, it is not a standalone diagnostic and yields indeterminate results in roughly one-fifth of patients.",
+    "key_findings_md": [
+      "Demonstrated 91.7% positive agreement and 97.3% negative agreement with PET or CSF amyloid tests in a 499-patient cohort (FDA press release).",
+      "Reduces reliance on costly PET scans and invasive lumbar punctures by detecting the presence of brain amyloid plaques via a routine blood draw (FDA press release)."
+    ],
+    "methods_md": "Retrospective multi-center clinical validation study analyzing 499 plasma samples from cognitively impaired adults aged 55 and older. Plasma ratio results were compared directly against established amyloid PET scans or CSF assays.",
+    "trial_evidence_md": "The FDA clearance is supported by a retrospective pooled validation of 499 samples drawn from observational cohorts and clinical trials, including [POLARIS-AD](https://clinicaltrials.gov/study/NCT05531526), [Bio-Hermes](https://clinicaltrials.gov/study/NCT04733989), and [BioFINDER-2](https://clinicaltrials.gov/study/NCT03174938). A peer-reviewed analysis of this dataset was [published in July 2026](https://pubmed.ncbi.nlm.nih.gov/42418465/), confirming a 91.8% positive predictive value and 19.6% indeterminate rate, effectively matching the FDA's reported figures.",
+    "sentiment_md": "Public and patient response is highly hopeful regarding lower out-of-pocket costs and reduced invasiveness, though online caregiver communities express frustration over insurance coverage hurdles and the anxiety of indeterminate results. The scientific community views the clearance as a major milestone but warns against off-label use due to age-related biomarker confounders in amyloid-negative individuals.",
+    "caveats_md": [
+      "Almost one in five patients (~20%) will receive an indeterminate result, requiring them to undergo traditional PET or CSF testing anyway.",
+      "Clearance is strictly for symptomatic adults aged 55 and older; it is not authorized for asymptomatic screening and must be interpreted alongside other clinical evaluations.",
+      "The summary data lacks demographic breakdowns, leaving it unclear if diagnostic accuracy holds across diverse populations and varying comorbidities."
+    ],
+    "relates_to_md": [
+      "[Biomarkers](/research/biomarkers) — Details the broader clinical shift toward blood-based pTau and amyloid ratios in AD diagnostics.",
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Contextualizes the underlying brain pathology this test is designed to detect."
+    ]
+  },
+  "trial_pages": [],
+  "timeline_entries": [],
+  "notes_for_editor": [
+    "The timeline event for this clearance ('2025-05 — First blood test cleared') already exists in the system, so no new timeline entry was generated to prevent duplication.",
+    "POLARIS-AD, Bio-Hermes, and BioFINDER-2 were kept as external clinicaltrials.gov links rather than generating new trial pages, as they merely provided context samples for the assay validation rather than being central to the document."
+  ]
+}

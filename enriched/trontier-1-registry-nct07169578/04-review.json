@@ -1,0 +1,120 @@
+{
+  "fact_check": [
+    {
+      "fact": "Trontinemab directly targets tau pathology",
+      "status": "corrected",
+      "note": "Analyst tags implied direct tau targeting. Checked against clinical trial data: Trontinemab is an anti-amyloid/TfR1 brain shuttle. It reduces downstream tau biomarkers but does not target tau directly."
+    },
+    {
+      "fact": "Inclusion criteria requires an RBANS DMI score of '85 or order'",
+      "status": "verified",
+      "note": "Verified against the source document. This is a typographical error in the official registry record for '85 or under'."
+    },
+    {
+      "fact": "Trontinemab completely eliminates the risk of ARIA",
+      "status": "corrected",
+      "note": "Public sentiment flagged this misinformation. Phase 1/2 Brainshuttle AD data showed an ARIA-E rate of ~1%—exceptionally low compared to first-generation monoclonals, but not zero."
+    },
+    {
+      "fact": "Trontinemab is an oral medication",
+      "status": "corrected",
+      "note": "Source document explicitly lists the intervention as 'intravenous (IV) trontinemab'."
+    }
+  ],
+  "research_page": {
+    "slug": "trontinemab-trontier-1",
+    "title": "TRONTIER 1: Trontinemab Phase 3 in Early AD",
+    "description": "A global Phase 3 trial evaluating the efficacy and safety of Roche's TfR1-mediated brain-shuttle anti-amyloid antibody in early Alzheimer's disease.",
+    "tags": [
+      "trial",
+      "amyloid",
+      "immunotherapy",
+      "trontinemab",
+      "phase-3"
+    ],
+    "source_line_md": "**Source**: [ClinicalTrials.gov, 2025](https://clinicaltrials.gov/study/NCT07169578)",
+    "authors_line_md": "Hoffmann-La Roche",
+    "takeaway_md": "Trontinemab is entering Phase 3 testing following highly promising Phase 1/2 biomarker data. Its transferrin receptor 1 (TfR1) 'brain shuttle' design aims to cross the blood-brain barrier more efficiently, rapidly clearing amyloid plaques while maintaining an exceptionally low rate of ARIA.",
+    "key_findings_md": [
+      "The trial aims to enroll 800 participants to measure clinical efficacy via the CDR-SB at Week 72 (Source document).",
+      "Prior Phase 1/2 data (Brainshuttle AD) demonstrated over 90% amyloid negativity by 6 months at 3.6 mg/kg, alongside normalization of downstream tau biomarkers (Alzforum).",
+      "Phase 1/2 testing showed an ARIA-E rate of approximately 1%, suggesting the brain-shuttle mechanism successfully enhances target engagement while minimizing vascular toxicity (Alzforum)."
+    ],
+    "methods_md": "This Phase 3, multicenter, randomized, double-blind, placebo-controlled trial will enroll approximately 800 participants aged 50 to 90 with early symptomatic Alzheimer's disease (MCI to mild dementia). Participants must have amyloid pathology confirmed by PET or CSF. The primary treatment period spans 72 weeks with intravenous dosing.",
+    "trial_evidence_md": "TRONTIER 1 ([NCT07169578](/trials/trontinemab-nct07169578)) and its sister trial TRONTIER 2 are the pivotal Phase 3 efficacy studies for trontinemab. They build upon the Phase 1/2 [Brainshuttle AD](/trials/brainshuttle-ad-nct04639050) trial, which validated the TfR1 transport mechanism by demonstrating rapid amyloid clearance and normalization of downstream tau biomarkers. Note that while trontinemab lowers downstream tau, it is an amyloid-targeting drug, resolving a discrepancy in early database tagging.",
+    "sentiment_md": "Public and scientific sentiment is highly enthusiastic, driven by the drug's novel transport mechanism and the prospect of rapid plaque clearance with lower ARIA risk than first-generation therapies like lecanemab and donanemab. However, patient communities note the ongoing burden of intravenous infusions, and experts caution that the promising biomarker changes must still translate to definitive cognitive benefits in Phase 3.",
+    "caveats_md": [
+      "The Phase 3 study is currently recruiting; clinical efficacy on cognitive endpoints has not yet been demonstrated.",
+      "Long-term safety, particularly monitoring for anemia observed in earlier trials, requires confirmation in this larger cohort.",
+      "The registry record contains a minor typo in the inclusion criteria, requiring an RBANS DMI score of '85 or order' rather than '85 or under'."
+    ],
+    "relates_to_md": [
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Trontinemab represents a next-generation approach to clearing amyloid-beta by actively crossing the blood-brain barrier.",
+      "[Biomarkers](/research/biomarkers) — Trontinemab incorporates fluid biomarkers (p-tau217, GFAP) as secondary endpoints to track downstream disease modification.",
+      "[TRONTIER 1 (NCT07169578)](/trials/trontinemab-nct07169578) — The primary clinical trial record."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "trontinemab-nct07169578",
+      "title": "TRONTIER 1",
+      "description": "Phase 3 trial evaluating intravenous trontinemab against placebo in early symptomatic Alzheimer's disease.",
+      "badge": "Recruiting",
+      "tags": [
+        "trial",
+        "trontinemab",
+        "phase-3",
+        "amyloid"
+      ],
+      "registry_md": "[NCT07169578](https://clinicaltrials.gov/study/NCT07169578)",
+      "drug": "Trontinemab (anti-amyloid/TfR1 brain shuttle)",
+      "phase": "3",
+      "sponsor": "Hoffmann-La Roche",
+      "population": "Individuals aged 50 to 90 years with early symptomatic Alzheimer's disease (MCI to mild dementia)",
+      "primary_endpoint": "Change from baseline to Week 72 in Clinical Dementia Rating, Sum of Boxes (CDR-SB)",
+      "started": "2025-09",
+      "readout": "2028-06 expected",
+      "why_md": "TRONTIER 1 is designed to confirm whether the rapid and profound amyloid clearance seen with trontinemab's 'brain shuttle' delivery system translates into slowed cognitive decline. It aims to establish efficacy and long-term safety for the drug as a next-generation anti-amyloid therapy.",
+      "status_log_md": [
+        "**2025-09-12** — Trial posted to ClinicalTrials.gov.",
+        "**2025-09-17** — Trial started recruiting."
+      ],
+      "results_md": null
+    },
+    {
+      "slug": "brainshuttle-ad-nct04639050",
+      "title": "Brainshuttle AD",
+      "description": "Phase 2 trial establishing the safety and biomarker efficacy of trontinemab.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "trontinemab",
+        "phase-2",
+        "amyloid"
+      ],
+      "registry_md": "[NCT04639050](https://clinicaltrials.gov/study/NCT04639050)",
+      "drug": "Trontinemab (anti-amyloid/TfR1 brain shuttle)",
+      "phase": "2",
+      "sponsor": "Hoffmann-La Roche",
+      "population": "Prodromal or Mild to Moderate Alzheimer's Disease",
+      "primary_endpoint": "Percentage of Participants With Adverse Events (AEs)",
+      "started": "2021-03",
+      "readout": "2027-07 expected",
+      "why_md": "Brainshuttle AD serves as the pivotal proof-of-concept for the TfR1 transport mechanism, tracking whether improved blood-brain barrier penetration leads to better target engagement and fewer vascular side effects (ARIA).",
+      "status_log_md": [
+        "**2021-03-01** — Trial begins.",
+        "**2025-08-21** — Phase 1/2 results reported at AAIC 2025 showing rapid amyloid clearance and ~1% ARIA-E rate."
+      ],
+      "results_md": "Phase 1/2 data demonstrated rapid and profound amyloid clearance, with over 90% of participants becoming amyloid-negative by 6 months at 3.6 mg/kg. This was accompanied by normalization of downstream tau and neurodegenerative biomarkers, with an ARIA-E rate of approximately 1%."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2025-09",
+      "title": "2025-09 — Trontinemab TRONTIER 1 Phase 3 trial begins",
+      "body_md": "Roche initiates the first of two pivotal Phase 3 trials for its TfR1-mediated 'brain shuttle' anti-amyloid antibody, trontinemab, following promising Phase 1/2 biomarker data demonstrating rapid plaque clearance and low ARIA rates. [Read more](/research/papers/trontinemab-trontier-1)"
+    }
+  ],
+  "notes_for_editor": []
+}

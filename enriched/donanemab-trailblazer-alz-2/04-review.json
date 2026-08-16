@@ -1,0 +1,110 @@
+{
+  "fact_check": [
+    {
+      "fact": "iADRS score change difference was 3.25 at 76 weeks in the low/medium tau population.",
+      "status": "verified",
+      "note": "Checked against the JAMA abstract Results section."
+    },
+    {
+      "fact": "CDR-SB score decline was slowed by 0.67 points versus placebo in the low/medium tau population.",
+      "status": "verified",
+      "note": "Checked against the JAMA abstract Results section."
+    },
+    {
+      "fact": "ARIA-E occurred in 24.0% of the donanemab group.",
+      "status": "verified",
+      "note": "Checked against the JAMA abstract Results section."
+    },
+    {
+      "fact": "Three deaths in the donanemab group were treatment-related.",
+      "status": "verified",
+      "note": "Checked against the JAMA abstract Results section."
+    },
+    {
+      "fact": "Donanemab reduces cognitive decline by 50-60%.",
+      "status": "disputed",
+      "note": "Checked against the JAMA abstract; the iADRS (-6.02 vs -9.27) and CDR-SB (1.20 vs 1.88) scores reflect roughly a 35% slowing of clinical decline in the low/medium tau population, not 50-60%."
+    },
+    {
+      "fact": "Donanemab halts or reverses Alzheimer's disease.",
+      "status": "disputed",
+      "note": "Checked against the JAMA abstract; donanemab significantly slowed clinical progression, but did not halt or reverse impairment."
+    }
+  ],
+  "research_page": {
+    "slug": "donanemab-trailblazer-alz-2",
+    "title": "Donanemab in Early Symptomatic AD (TRAILBLAZER-ALZ 2)",
+    "description": "Phase 3 trial results demonstrating donanemab significantly slows clinical progression in early Alzheimer's but carries notable ARIA risks.",
+    "tags": [
+      "paper",
+      "trial",
+      "amyloid",
+      "tau",
+      "immunotherapy",
+      "donanemab",
+      "monoclonal-antibody"
+    ],
+    "source_line_md": "**Source**: [JAMA, 2023](https://doi.org/10.1001/jama.2023.13239) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/37459141/)",
+    "authors_line_md": "Sims et al.",
+    "takeaway_md": "Donanemab significantly slowed clinical progression in patients with early symptomatic Alzheimer's disease over 76 weeks, meeting all primary and secondary cognitive endpoints. However, treatment was associated with a 24% incidence of ARIA-E and three treatment-related deaths, highlighting a severe safety profile that requires careful monitoring.",
+    "key_findings_md": [
+      "Slowed iADRS decline by 3.25 points versus placebo in the low/medium tau population (paper, Abstract)",
+      "Slowed CDR-SB decline by 0.67 points versus placebo in the low/medium tau population (paper, Abstract)",
+      "ARIA-E occurred in 24.0% of donanemab patients, with 52 cases being symptomatic (paper, Abstract)",
+      "Three deaths in the donanemab group and one in the placebo group were considered treatment-related (paper, Abstract)"
+    ],
+    "methods_md": "Multicenter, randomized, double-blind, placebo-controlled 18-month phase 3 trial (NCT04437511). Enrolled 1,736 participants with early symptomatic Alzheimer's disease (mild cognitive impairment or mild dementia) confirmed by amyloid and tau PET imaging. Patients received donanemab or placebo intravenously every 4 weeks for up to 72 weeks.",
+    "trial_evidence_md": "This document reports the pivotal Phase 3 results for [TRAILBLAZER-ALZ 2](/trials/trailblazer-alz-2), confirming the proof-of-concept established in the Phase 2 TRAILBLAZER-ALZ trial. These robust results demonstrating significant amyloid clearance and cognitive benefit formed the clinical basis for the FDA's July 2024 approval of donanemab (Kisunla). The clinical program remains expansive, with ongoing trials like [TRAILBLAZER-ALZ 3](/trials/trailblazer-alz-3) investigating efficacy in preclinical populations.",
+    "sentiment_md": "Public sentiment is predominantly hopeful but cautious. The scientific community views this as strong validation for amyloid immunotherapy while heavily prioritizing research on managing ARIA risks through dosing adjustments. Patient groups are optimistic about the prospect of finite dosing but express anxiety over brain bleeding risks and Medicare coverage. Notably, retail investor interest in these results is heavily eclipsed by the financial hype surrounding Eli Lilly's GLP-1 weight-loss medications.",
+    "caveats_md": [
+      "High attrition rate: 24% of randomized participants did not complete the trial (1,320 out of 1,736 completed), which could skew long-term outcome interpretations.",
+      "The trial utilized a finite dosing strategy (stopping treatment once dose completion criteria were met), meaning the durability of clinical benefit beyond the 18-month trial horizon remains unproven."
+    ],
+    "relates_to_md": [
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Primary mechanism of action involves clearing amyloid beta plaques",
+      "[Biomarkers](/research/biomarkers) — Relied heavily on amyloid and tau PET imaging for strict participant selection and subgroup analysis",
+      "[TRAILBLAZER-ALZ 3](/trials/trailblazer-alz-3) — Related Phase 3 program targeting preclinical Alzheimer's disease"
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "trailblazer-alz-2",
+      "title": "TRAILBLAZER-ALZ 2",
+      "description": "Phase 3 trial evaluating donanemab in patients with early symptomatic Alzheimer's disease.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "donanemab",
+        "amyloid",
+        "phase-3"
+      ],
+      "registry_md": "[NCT04437511](https://clinicaltrials.gov/study/NCT04437511)",
+      "drug": "donanemab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "population": "Participants With Early Alzheimer's Disease (n=1736)",
+      "primary_endpoint": "Change From Baseline on the Integrated Alzheimer's Disease Rating Scale (iADRS)",
+      "started": "2020-06",
+      "readout": "2023-04",
+      "why_md": "This pivotal trial sought to confirm whether donanemab's amyloid-clearing ability, demonstrated in Phase 2, translates to a definitive slowing of cognitive and functional decline in early Alzheimer's disease. It ultimately secured FDA approval for the drug.",
+      "status_log_md": [
+        "**2020-06-01** — Trial begins enrollment ([NCT04437511](https://clinicaltrials.gov/study/NCT04437511))",
+        "**2023-04-01** — Trial completed primary readout",
+        "**2023-07-17** — Full Phase 3 results published in JAMA ([DOI](https://doi.org/10.1001/jama.2023.13239))"
+      ],
+      "results_md": "Donanemab significantly slowed clinical progression on the iADRS and CDR-SB compared to placebo at 76 weeks in both low/medium tau and combined populations. However, treatment was associated with a 24% incidence of ARIA-E and three treatment-related deaths."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2023-07",
+      "title": "2023-07 — TRAILBLAZER-ALZ 2 Phase 3 results published",
+      "body_md": "Donanemab demonstrated significant slowing of clinical decline alongside notable ARIA risks in the [TRAILBLAZER-ALZ 2 Phase 3 results](/research/papers/donanemab-trailblazer-alz-2)."
+    }
+  ],
+  "notes_for_editor": [
+    "The 2024-07 FDA approval of donanemab was already present on the global timeline, so it was excluded from new timeline entries to avoid duplication.",
+    "The source document was only an abstract; a full-text review is necessary to comprehensively assess conflict of interest disclosures and complete safety breakdowns."
+  ]
+}

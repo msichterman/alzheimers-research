@@ -1,0 +1,73 @@
+{
+  "overall": "hopeful",
+  "summary": "Public and professional sentiment towards blood-based biomarkers like p-tau217 is highly optimistic, though slightly divided by the practical realities of a clinical rollout. Clinical neurologists are already enthusiastically substituting lumbar punctures and PET scans with p-tau217 tests for prescribing new anti-amyloid therapies like Kisunla and Leqembi. Meanwhile, the mainstream media and general public are intensely focused on the test's potential to predict Alzheimer's decades before symptoms appear. This predictive hype has led to patient demand that outpaces clinical guidelines, causing confusion and distress in primary care settings when asymptomatic patients receive concerning biomarker results. Caregivers display mixed feelings, expressing hope for accurate early diagnoses but frustration when dismissed by physicians not yet utilizing these modern tools.",
+  "communities": [
+    {
+      "community": "r/neurology (Clinical Neurologists)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Replacing lumbar punctures and PET scans entirely in practice",
+        "Successful insurance coverage for Kisunla/Leqembi using only p-tau217",
+        "Streamlining clinical workflows and managing ARIA risks"
+      ],
+      "example_urls": [
+        "https://old.reddit.com/r/neurology/comments/1vc4g13/complexity_of_managing_kisunla_leqembi_in_general/"
+      ]
+    },
+    {
+      "community": "r/dementia (Patients & Caregivers)",
+      "sentiment": "mixed",
+      "themes": [
+        "Desperation for accurate early diagnosis after physician dismissals",
+        "Confusion about specific biomarker meanings and secondary symptoms like Capgras",
+        "Seeking actionable lifestyle or supplement interventions based on tau levels"
+      ],
+      "example_urls": [
+        "https://old.reddit.com/r/dementia/comments/1vhlm12/elevate_ptau_levels/"
+      ]
+    },
+    {
+      "community": "r/science and Longevity enthusiasts",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Focus on predicting Alzheimer's 15-25 years early",
+        "Rejoicing over the end of painful cerebrospinal fluid (CSF) taps",
+        "Interest in 'biological clocks' based on p-tau217 accumulation"
+      ],
+      "example_urls": [
+        "https://old.reddit.com/r/science/comments/169pq8r/new_blood_test_gives_very_high_accuracy_to_screen/",
+        "https://old.reddit.com/r/HubermanLab/comments/1nbzf6h/simple_blood_test_detects_alzheimers_1520_years/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "The New York Times",
+      "tone": "critical",
+      "date": "2026-08",
+      "url": "https://news.google.com/search?q=p-tau217+Alzheimer"
+    },
+    {
+      "outlet": "Science | AAAS",
+      "tone": "neutral",
+      "date": "2026-03",
+      "url": "https://news.google.com/search?q=p-tau217+Alzheimer"
+    },
+    {
+      "outlet": "MedPage Today",
+      "tone": "positive",
+      "date": "2026-07",
+      "url": "https://news.google.com/search?q=p-tau217+Alzheimer"
+    }
+  ],
+  "hype_vs_evidence": "There is a significant divergence between public hype and the established clinical evidence regarding disease prediction. The reviewed literature emphasizes using p-tau217 primarily for confirming pathology in symptomatic patients and prescreening for clinical trials. However, media coverage and general public discourse are heavily fixated on the test's predictive capabilities—specifically framing it as a way to detect Alzheimer's 15 to 25 years before cognitive decline. This is creating premature demand for asymptomatic screening, leading to the exact 'confusion and distress' the scientific community warns about regarding unstandardized use in broad, unimpaired populations.",
+  "misinformation_flags": [
+    "The assumption that a positive p-tau217 test in an asymptomatic, unimpaired person is a definitive guarantee they will rapidly develop clinical Alzheimer's dementia.",
+    "Promoting the blood test results as a prompt for immediate, unproven alternative therapies (e.g., high-dose lithium supplements or specialized diets) to 'cure' or reverse the tau levels without clinical oversight."
+  ],
+  "searches_run": [
+    "https://old.reddit.com/search?q=p-tau217+OR+ALZpath&sort=new",
+    "https://old.reddit.com/search?q=p-tau217+Alzheimers&sort=relevance",
+    "https://news.google.com/search?q=p-tau217+Alzheimer"
+  ]
+}

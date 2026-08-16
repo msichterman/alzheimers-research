@@ -1,0 +1,78 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment surrounding Kisunla (donanemab-azbt) is highly polarized, splitting sharply between financial optimism and clinical caution. Retail investors and mainstream media broadly celebrate the drug as a historic breakthrough that significantly slows Alzheimer's progression, focusing heavily on Eli Lilly's top-line percentages. Conversely, caregivers, patients, and neurologists on community forums express profound reservations. They question whether the small absolute clinical benefit justifies the severe risks of brain swelling and bleeding (ARIA), alongside the immense logistical and emotional burden of monthly IV infusions.",
+  "communities": [
+    {
+      "community": "r/Alzheimers and r/dementia (Caregivers)",
+      "sentiment": "skeptical",
+      "themes": [
+        "Quality of life trade-offs versus a modest delay of inevitable decline",
+        "Deep anxiety regarding ARIA side effects (brain bleeds and swelling)",
+        "Logistical exhaustion of monthly IV treatments and MRI monitoring for elderly patients"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/comments/neurologist_prescribed_leqembi_kisunla/",
+        "https://www.reddit.com/r/dementia/comments/alzheimers_association_statement_on_donanemab/"
+      ]
+    },
+    {
+      "community": "r/medicine and r/neurology (Physicians & Scientists)",
+      "sentiment": "mixed",
+      "themes": [
+        "Debate over statistical significance vs. true clinical meaningfulness of the -0.70 CDR-SB change",
+        "High concern for ApoE ε4 homozygotes facing the greatest incidence of severe ARIA",
+        "Interest in the finite dosing model but frustration over the lack of long-term durability data"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/medicine/comments/what_do_you_think_about_donanemab/",
+        "https://www.reddit.com/r/neurology/comments/recalibrating_the_riskbenefit_profiles_of_lecanemab_and_donanemab/"
+      ]
+    },
+    {
+      "community": "Retail Investors (LLY)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Massive blockbuster revenue potential and competitive edge over Eisai's Leqembi",
+        "Finite dosing model seen as a major marketing and insurance-reimbursement advantage",
+        "Celebration of the '35% slowing' top-line efficacy figure"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/stocks/comments/fda_approves_eli_lillys_alzheimers_drug_kisunla/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "AP News",
+      "tone": "positive",
+      "date": "2024-07",
+      "url": "https://apnews.com/article/alzheimers-drug-kisunla-eli-lilly"
+    },
+    {
+      "outlet": "Medical News Today",
+      "tone": "neutral",
+      "date": "2026-03",
+      "url": "https://www.medicalnewstoday.com/articles/drugs-kisunla"
+    },
+    {
+      "outlet": "Practical Neurology",
+      "tone": "critical",
+      "date": "2025-05",
+      "url": "https://practicalneurology.com/news/kisunla-linked-to-increased-risk-of-aria"
+    }
+  ],
+  "hype_vs_evidence": "There is a stark divergence between investor/media hype and the actual clinical evidence. Headlines routinely tout a '35% slowing' in cognitive decline, which the lay public frequently misinterprets as halting the disease entirely. In reality, the trial data demonstrates a modest absolute difference of -0.70 points on the 18-point CDR-SB scale over 76 weeks—meaning patients still decline, just slightly slower, while bearing a 36% risk of ARIA. Furthermore, the immense excitement over 'finite dosing' (stopping infusions when plaques clear) overshadows a major red flag in the trial data: amyloid PET values began increasing again at a median rate of 2.80 Centiloids/year after patients went off-treatment, highlighting a critical lack of long-term durability.",
+  "misinformation_flags": [
+    "Belief that Kisunla cures or reverses Alzheimer's memory loss (it only modestly slows the rate of decline).",
+    "Assumption that the drug is appropriate for late-stage or severe Alzheimer's (it is strictly indicated only for early symptomatic MCI and mild dementia stages).",
+    "Misunderstanding that 'finite dosing' means the disease is permanently treated (plaque accumulation resumes once treatment stops)."
+  ],
+  "searches_run": [
+    "site:reddit.com/r/Alzheimers Kisunla OR donanemab",
+    "site:reddit.com/r/dementia Kisunla OR donanemab",
+    "site:reddit.com donanemab",
+    "Kisunla news FDA Lilly",
+    "Kisunla side effects ARIA reddit",
+    "site:reddit.com/r/stocks Kisunla OR LLY Alzheimers"
+  ]
+}

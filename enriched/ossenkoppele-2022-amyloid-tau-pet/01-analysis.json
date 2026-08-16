@@ -1,0 +1,275 @@
+{
+  "kind": "research-paper",
+  "title": "Amyloid and tau PET-positive cognitively unimpaired individuals are at high risk for future cognitive decline",
+  "authors": [
+    {
+      "name": "Rik Ossenkoppele",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "gave a lecture in a symposium sponsored by GE Healthcare (fee paid to the institution)"
+    },
+    {
+      "name": "Alexa Pichet Binette",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "none"
+    },
+    {
+      "name": "Colin Groot",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "none"
+    },
+    {
+      "name": "Ruben Smith",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "none"
+    },
+    {
+      "name": "Olof Strandberg",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "none"
+    },
+    {
+      "name": "Sebastian Palmqvist",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "served on scientific advisory boards and/or given lectures in symposia sponsored by Biogen, Eli Lilly, Geras Solutions and Roche"
+    },
+    {
+      "name": "Erik Stomrud",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "none"
+    },
+    {
+      "name": "Pontus Tideman",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "none"
+    },
+    {
+      "name": "Tomas Ohlsson",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "none"
+    },
+    {
+      "name": "Jonas Jögi",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "none"
+    },
+    {
+      "name": "Keith Johnson",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "none"
+    },
+    {
+      "name": "Reisa Sperling",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "none"
+    },
+    {
+      "name": "Vincent Dore",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "none"
+    },
+    {
+      "name": "Colin L. Masters",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "none"
+    },
+    {
+      "name": "Christopher Rowe",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "scientific advisor to Cerveau Technologies, Prothena, Roche and has received research grants (paid to the institution) from Biogen, Eisai and Cerveau Technologies"
+    },
+    {
+      "name": "Denise Visser",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "none"
+    },
+    {
+      "name": "Bart N. M. van Berckel",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "none"
+    },
+    {
+      "name": "Wiesje M. van der Flier",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "performed contract research for Biogen and Boehringer Ingelheim, invited speaker at Boehringer Ingelheim, Biogen, Danone, Eisai, WebMD Neurology and Springer Healthcare, consultant to Oxford Health Policy Forum, Roche and Biogen"
+    },
+    {
+      "name": "Suzanne Baker",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "none"
+    },
+    {
+      "name": "William J. Jagust",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "consults for Eli Lilly, Eisai, Bioclinica and Prothena"
+    },
+    {
+      "name": "Heather J. Wiste",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "none"
+    },
+    {
+      "name": "Ronald C. Petersen",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "consulted for Roche, Merck, Biogen, Eisai, Genentech and Nestle and receives research funding from the National Institutes of Health"
+    },
+    {
+      "name": "Clifford R. Jack",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "serves on an independent data monitoring board for Roche, has served as a speaker for Eisai and consulted for Biogen"
+    },
+    {
+      "name": "Oskar Hansson",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "acquired research support from ADx, AVID Radiopharmaceuticals, Biogen, Eli Lilly, Eisai, Fujirebio, GE Healthcare, Pfizer and Roche; received consultancy/speaker fees from AC Immune, Amylyx Pharmaceuticals, ALZpath, BioArctic, Biogen, Cerveau Technologies, Fujirebio, Genentech, Novartis, Roche and Siemens"
+    }
+  ],
+  "first_author": "Rik Ossenkoppele",
+  "venue": "Nature Medicine",
+  "published": "2022",
+  "doi": "10.1038/s41591-022-02049-x",
+  "doi_url": "https://doi.org/10.1038/s41591-022-02049-x",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/36357681",
+  "copyright": null,
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "reuse": "redistribute",
+    "evidence": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format"
+  },
+  "tags": [
+    "paper",
+    "amyloid",
+    "tau",
+    "biomarkers",
+    "pet-imaging",
+    "preclinical-ad",
+    "cognitive-decline"
+  ],
+  "themes": [
+    "Preclinical Alzheimer's disease",
+    "Amyloid and tau PET biomarkers",
+    "Prediction of cognitive decline",
+    "Clinical progression to MCI and dementia"
+  ],
+  "one_line": "Cognitively unimpaired individuals with both amyloid and tau PET positivity—especially those with tau pathology in the neocortex—are at significantly higher risk for short-term clinical progression to MCI and all-cause dementia than biomarker-negative individuals.",
+  "summary": "This large multicenter longitudinal study evaluated 1,325 cognitively unimpaired individuals to determine if the combined presence of amyloid-β and tau pathology (measured via PET) predicts short-term cognitive decline. Participants were classified into biomarker profile groups: A-T-, A+T-, A+T MTL+ (tau in the medial temporal lobe only), and A+T NEO-T+ (tau in the temporal neocortex). Over an average follow-up of 41.8 months, the A+T NEO-T+ and A+T MTL+ groups showed a substantially increased risk of progressing to mild cognitive impairment (MCI) and all-cause dementia compared to the A-T- reference group. Furthermore, tau-positive groups exhibited significantly faster longitudinal global cognitive decline than both A-T- and A+T- individuals. The findings support the NIA-AA criteria defining A+T+ individuals as having 'preclinical Alzheimer's disease', emphasizing that combined amyloid and tau positivity indicates advanced pathological changes and a highly elevated risk of short-term clinical progression rather than merely being a risk factor.",
+  "key_claims": [
+    {
+      "claim": "Cognitively unimpaired individuals with amyloid and tau PET positivity have a substantially increased risk of progressing to MCI.",
+      "evidence": "Cox proportional-hazards models showed a hazard ratio of 19.2 (95% CI 10.9–33.7) for the A+T NEO-T+ group and 14.6 (95% CI 8.1–26.4) for the A+T MTL+ group compared to the A-T- group.",
+      "strength": "strong",
+      "location": "Abstract / Results (Clinical progression to MCI)"
+    },
+    {
+      "claim": "Tau positivity in the neocortex carries an exceptionally high risk for short-term progression to all-cause dementia.",
+      "evidence": "Cox proportional-hazards models showed a hazard ratio of 41.3 (95% CI 16.7–101.9, P < 0.001) for progression to all-cause dementia in the A+T NEO-T+ group versus the A-T- group.",
+      "strength": "strong",
+      "location": "Results (Clinical progression to all-cause dementia) / Fig 2"
+    },
+    {
+      "claim": "Individuals with both amyloid and tau pathology decline cognitively faster than those with amyloid pathology alone.",
+      "evidence": "Linear mixed-effect models for the mPACC5 composite score indicated that A+T NEO-T+ and A+T MTL+ groups progressed significantly faster than the A+T- group.",
+      "strength": "strong",
+      "location": "Results (Cognitive trajectories) / Fig 3"
+    }
+  ],
+  "methods": {
+    "design": "Multicenter longitudinal observational cohort study",
+    "n": 1325,
+    "population": "Cognitively unimpaired individuals from 7 cohorts (MCSA, BioFINDER-1, BioFINDER-2, BACS, HABS, AIBL, ADC)",
+    "duration": "41.8 ± 18.9 months",
+    "registration": null
+  },
+  "funding_and_conflicts": "Funded by NIH, Alzheimer's Association, GHR Foundation, European Research Council, Swedish Research Council, Knut and Alice Wallenberg Foundation, and others. Multiple authors (O.H., R.O., S.P., W.J.J., C.R., R.C.P., C.R.J., W.F.) declared extensive consulting fees, speaker fees, and research support from pharmaceutical companies including Biogen, Roche, Eisai, Eli Lilly, and others; other authors declared no competing interests.",
+  "limitations": [
+    "Inherent challenges due to the multicenter study design, including data pooling, harmonization, different amyloid and tau PET tracers, and dissimilarities in PET acquisition protocols.",
+    "Different neuropsychological tests were used as mPACC5 subcomponents across cohorts.",
+    "Relatively low number of clinical events, particularly for progression to dementia.",
+    "Potential consent/volunteer bias (lower study participation among individuals at risk) and informative censoring (drop out when experiencing symptoms).",
+    "Study design only allowed establishing relative risk rather than lifetime risk, and did not control for the competing risk of death in survival analyses."
+  ],
+  "red_flags": [
+    "The A-T+ group was excluded from the main analyses (relegated to extended data) because it was 'considerably smaller' (n=34). While justified by statistical power, excluding isolated tau positivity prevents a full factorial evaluation of tau's impact independent of amyloid."
+  ],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "Missing figure references due to PDF-to-Markdown stripping (e.g., '(Fig. )' instead of '(Fig. 1)')",
+      "Missing table references (e.g., '(see Table and Supplementary Table)')",
+      "Missing citation numbers (e.g., 'pathogenesis , an important distinction', 'criteria , while the IWG')"
+    ]
+  },
+  "search_verification": []
+}

@@ -1,0 +1,72 @@
+{
+  "fact_check": [
+    {
+      "fact": "2 out of 8 participants in the 3000 mg cohort and 1 out of 4 in the 4500 mg cohort implies at least 12 participants in the trial.",
+      "status": "corrected",
+      "note": "The trial only enrolled 8 participants total. Cohort A used intra-patient dose escalation (750 mg up to 4500 mg), meaning the same participants were counted in multiple dose tiers as they escalated. The denominators (7, 8, 4) reflect how many participants reached each specific dose level during the study."
+    },
+    {
+      "fact": "E2814 administration resulted in -381 change in MTBR-tau243, -422.60 for p-tau217, and -606.64 for p-tau181 at Day 757.",
+      "status": "verified",
+      "note": "Checked against the posted secondary outcome measures in the registry data."
+    }
+  ],
+  "research_page": {
+    "slug": "etalanetug-phase-1b-2-diad",
+    "title": "Etalanetug (E2814) in dominantly inherited Alzheimer's disease (Phase 1b/2)",
+    "description": "An open-label Phase 1b/2 trial evaluating safety and target engagement of the anti-tau antibody etalanetug in eight people with dominantly inherited Alzheimer's disease.",
+    "tags": [
+      "trial",
+      "tau",
+      "immunotherapy",
+      "diad"
+    ],
+    "source_line_md": "**Source**: [ClinicalTrials.gov, 2025](https://clinicaltrials.gov/study/NCT04971733)",
+    "authors_line_md": "Eisai Inc.",
+    "takeaway_md": "Etalanetug demonstrated strong target engagement by substantially reducing CSF tau biomarkers in a very small study. However, severe adverse events emerged at higher doses, underscoring the need for safety validation in larger ongoing trials.",
+    "key_findings_md": [
+      "Substantial reductions in CSF tau biomarkers at Day 757, including MTBR-tau243 (-381), p-tau181 (-606.64), and p-tau217 (-422.60) ([registry data](https://clinicaltrials.gov/study/NCT04971733)).",
+      "Serious adverse events occurred at higher dose levels, including cerebral venous sinus thrombosis and seizure in the 3000 mg group ([registry data](https://clinicaltrials.gov/study/NCT04971733))."
+    ],
+    "methods_md": "Open-label Phase 1b/2 trial enrolling 8 adults with mild to moderate cognitive impairment due to dominantly inherited Alzheimer's disease (NCT04971733). Participants received intravenous etalanetug with intra-patient dose escalation up to 4500 mg over 120 weeks.",
+    "trial_evidence_md": "This Phase 1b/2 trial ([NCT04971733](/trials/e2814-nct04971733)) provides early biomarker validation following a Phase 1 healthy volunteer study ([NCT04231513](https://clinicaltrials.gov/study/NCT04231513)). Because of the extremely small sample size and lack of placebo control, clinical efficacy cannot be established here. Etalanetug is currently being evaluated in larger controlled trials, including the DIAN-TU Phase 2/3 platform trial ([NCT05269394](https://clinicaltrials.gov/study/NCT05269394)) and a Phase 2 study in early Alzheimer's disease ([NCT06602258](https://clinicaltrials.gov/study/NCT06602258)).",
+    "sentiment_md": "Scientific discussion reflects cautious optimism. Experts are encouraged by robust biomarker responses but heavily emphasize the risks of severe adverse events and the limitations of an n=8 sample. The broader patient and caregiver communities remain largely unaware of this early-stage asset.",
+    "caveats_md": [
+      "The extremely small sample size (n=8) limits statistical power and prevents definitive conclusions regarding the drug's safety profile.",
+      "The open-label design lacks a placebo control, making it difficult to confidently attribute specific outcomes directly to the intervention."
+    ],
+    "relates_to_md": [
+      "[Biomarkers](/research/biomarkers) — Evaluates novel tau biomarkers including MTBR-tau243."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "e2814-nct04971733",
+      "title": "E2814 Phase 1b/2 in DIAD",
+      "description": "Open-label safety and target engagement study of etalanetug in 8 participants with dominantly inherited Alzheimer's disease.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "tau",
+        "diad"
+      ],
+      "registry_md": "[NCT04971733](https://clinicaltrials.gov/study/NCT04971733)",
+      "drug": "Etalanetug (anti-tau monoclonal antibody)",
+      "phase": "1/2",
+      "sponsor": "Eisai Inc.",
+      "population": "Adults with mild to moderate cognitive impairment due to dominantly inherited Alzheimer's disease",
+      "primary_endpoint": "Number of participants with TEAEs/SAEs and change from baseline in CSF MTBR-tau",
+      "started": "2021-06",
+      "readout": "2024-05",
+      "why_md": "This trial was designed to establish basic safety, tolerability, and biomarker target engagement for etalanetug in a patient population before proceeding to larger efficacy studies.",
+      "status_log_md": [
+        "**2021-06-28** — Trial begins.",
+        "**2024-05-24** — Trial completed.",
+        "**2025-06-10** — Results posted to [ClinicalTrials.gov](https://clinicaltrials.gov/study/NCT04971733)."
+      ],
+      "results_md": "Etalanetug demonstrated target engagement with dose-dependent reductions in CSF tau biomarkers (MTBR-tau, p-tau181, p-tau217). Treatment-emergent adverse events were observed across dose groups, including serious adverse events at the 3000 mg and 4500 mg dose levels, in a small cohort of 8 participants."
+    }
+  ],
+  "timeline_entries": [],
+  "notes_for_editor": []
+}

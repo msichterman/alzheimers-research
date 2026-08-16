@@ -1,0 +1,62 @@
+{
+  "fact_check": [
+    {
+      "fact": "Plasma p-tau levels are increased ≈250% to 600% in AD dementia compared to other neurodegenerative diseases",
+      "status": "verified",
+      "note": "Matches the source document text exactly under the 'Plasma phosphorylated tau' section."
+    },
+    {
+      "fact": "Plasma Aβ42/Aβ40 shows an 8%–15% reduction in Aβ-positive individuals compared to 40%–60% in CSF",
+      "status": "verified",
+      "note": "Confirmed in the source document under the 'Plasma Aβ42/Aβ40' section."
+    },
+    {
+      "fact": "Blood tests are currently approved and recommended as standalone diagnostic tools for Alzheimer's in primary care",
+      "status": "disputed",
+      "note": "The source explicitly states BBMs should not yet be used as stand-alone diagnostic AD markers, nor are they recommended for primary care use."
+    }
+  ],
+  "research_page": {
+    "slug": "alz-association-blood-biomarkers-guidelines-2022",
+    "title": "Alzheimer's Association appropriate use recommendations for blood biomarkers",
+    "description": "Expert consensus guidelines endorsing the cautious use of blood-based biomarkers for pre-screening in clinical trials and specialized memory clinics.",
+    "tags": [
+      "guidelines",
+      "biomarkers",
+      "blood-based-markers",
+      "amyloid",
+      "tau"
+    ],
+    "source_line_md": "**Source**: [Alzheimer's & Dementia, 2022](https://doi.org/10.1002/alz.12756) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/35908251)",
+    "authors_line_md": "Hansson et al. — Alzheimer's Association",
+    "takeaway_md": "The Alzheimer's Association recommends using blood-based biomarkers (BBMs) as pre-screening tools in clinical trials and cautiously introducing them in specialized memory clinics. Positive blood tests currently require confirmation via CSF or PET. The guidelines explicitly advise against using BBMs as standalone diagnostics or deploying them in primary care until further real-world validation is completed.",
+    "key_findings_md": [
+      "Plasma p-tau levels (particularly p-tau217) increase by 250% to 600% in AD dementia compared to other neurodegenerative diseases, offering diagnostic performance similar to CSF and PET (paper).",
+      "Plasma Aβ42/Aβ40 exhibits a small fold change between amyloid-positive and negative individuals (8%–15% reduction) compared to CSF (40%–60% reduction), necessitating strict analytical protocols (paper).",
+      "Using blood-based biomarkers as pre-screeners significantly reduces the cost and time of clinical trial recruitment, as demonstrated by early adoption in [AHEAD 3-45](/trials/ahead-3-45) and [TRAILBLAZER-ALZ 3](/trials/trailblazer-alz-3)."
+    ],
+    "methods_md": "Systematic review and expert consensus guidelines evaluating the analytical robustness and clinical performance of plasma biomarkers (Aβ42/Aβ40, p-tau, NfL, GFAP) for Alzheimer's disease.",
+    "trial_evidence_md": "Clinical trial practices strongly align with these recommendations. Phase 3 trials such as [AHEAD 3-45](/trials/ahead-3-45) and [TRAILBLAZER-ALZ 3](/trials/trailblazer-alz-3) successfully implemented plasma Aβ42/Aβ40 and p-tau217 assays to pre-screen asymptomatic individuals, validating the utility of BBMs for trial enrichment while still requiring confirmatory PET scans for ultimate enrollment.",
+    "sentiment_md": "Public perception, particularly among retail investors and mainstream media, is highly enthusiastic about the accessibility and cost-reduction potential of blood tests. However, this optimism often fuels the misconception that these tests are ready for standalone diagnostic use in primary care, contrasting sharply with the cautious, specialized rollout recommended by clinical experts.",
+    "caveats_md": [
+      "Biomarker assays currently lack globally certified reference materials, meaning diagnostic cut-offs remain highly assay-specific.",
+      "Extensive validation in diverse, representative real-world populations, particularly in primary care settings, has not yet been established.",
+      "The influence of potential confounding factors like ethnicity, BMI, and kidney function on blood biomarker concentrations is not fully understood and requires large-scale evaluation."
+    ],
+    "relates_to_md": [
+      "[Biomarkers](/research/biomarkers) — Focuses on the clinical implementation and limitations of blood-based testing.",
+      "[AHEAD 3-45](/trials/ahead-3-45) — Cited in the guidelines as a primary example of successful plasma Aβ42/Aβ40 pre-screening.",
+      "[TRAILBLAZER-ALZ 3](/trials/trailblazer-alz-3) — Cited in the guidelines for its use of plasma p-tau217 to pre-screen asymptomatic participants."
+    ]
+  },
+  "trial_pages": [],
+  "timeline_entries": [
+    {
+      "section": "Diagnostics",
+      "date": "2022-08",
+      "title": "2022-08 — Alzheimer's Association issues first blood biomarker guidelines",
+      "body_md": "The Alzheimer's Association publishes [appropriate use recommendations](/research/papers/alz-association-blood-biomarkers-guidelines-2022) for blood-based biomarkers, endorsing their use in trial pre-screening and specialized clinics while strictly advising against primary care use."
+    }
+  ],
+  "notes_for_editor": []
+}

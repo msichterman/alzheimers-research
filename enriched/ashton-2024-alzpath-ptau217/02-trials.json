@@ -1,0 +1,56 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT02008357",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02008357",
+      "name": "A4 Study",
+      "drug": "Solanezumab",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Completed",
+      "enrollment": 1169,
+      "population": "Cognitively normal older adults with preclinical Alzheimer's disease (amyloid positive on PET)",
+      "primary_endpoint": "Change from baseline to week 240 in the Preclinical Alzheimer Cognitive Composite (PACC) score",
+      "started": "2014-02",
+      "completed_or_readout": "2023-07",
+      "results_summary": "The trial failed to meet its primary endpoint; solanezumab did not slow cognitive decline compared to placebo. Blood samples collected during screening were retrospectively analyzed to validate biomarkers like p-tau217.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03174938",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03174938",
+      "name": "BioFINDER-2",
+      "drug": "Diagnostic Test: Elecsys / Lumipulse (Abeta42, Ttau, Ptau)",
+      "phase": "n/a",
+      "sponsor": "Skane University Hospital",
+      "status": "Recruiting",
+      "enrollment": 2950,
+      "population": "Cognitively healthy adults, individuals with subjective cognitive decline, mild cognitive impairment, AD dementia, and other dementias",
+      "primary_endpoint": "Clinical diagnosis according to consensus group decision blinded to the diagnostic test",
+      "started": "2017-05",
+      "completed_or_readout": "2036-12",
+      "results_summary": "As an ongoing observational cohort, formal completion is years away, but multiple interim analyses have robustly demonstrated plasma p-tau217's high accuracy in detecting amyloid and tau pathology.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2023-09-21",
+      "kind": "paper",
+      "description": "Primary results of the Phase 3 A4 Study showing solanezumab failed to slow cognitive decline in preclinical AD.",
+      "url": "https://doi.org/10.1056/NEJMoa2305032"
+    },
+    {
+      "date": "2026-04-01",
+      "kind": "paper",
+      "description": "Prospective cohort study from BioFINDER integrating plasma p-tau217 for AD diagnosis and stratification.",
+      "url": "https://doi.org/10.1016/S1474-4422(26)00029-3"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence strongly supports the document's central claim regarding the high diagnostic accuracy of plasma p-tau217. Observational cohorts like BioFINDER-2 have robustly replicated its superiority over other plasma markers for identifying Alzheimer's pathology. However, prospective interventional trials evaluating p-tau217 as a standalone diagnostic endpoint for primary care implementation remain sparse, leaving a gap between retrospective validation and real-world utility. Furthermore, a major contextual discrepancy exists in how the A4 trial is framed: the document uses its retrospective screening data to model cost reductions, but A4 itself was a failed Phase 3 therapeutic trial for solanezumab, not a diagnostic trial. Finally, the heavy financial conflicts of interest among the authors—including patents and equity in the discussed diagnostic tools—necessitate cautious interpretation of their highly optimistic timelines for clinical rollout.",
+  "discrepancies": [
+    "The document cites the A4 trial to model how blood tests reduce confirmatory PET/CSF prescreening requirements. However, the registry record (NCT02008357) shows A4 was a therapeutic trial for an anti-amyloid drug (solanezumab) that failed its primary cognitive endpoint, not a prospective trial evaluating biomarkers. The document relies entirely on retrospective analysis of A4's screening cohort to validate the biomarker utility."
+  ]
+}

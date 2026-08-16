@@ -1,0 +1,148 @@
+{
+  "kind": "review",
+  "title": "Alzheimer's disease drug development pipeline: 2026",
+  "authors": [
+    {
+      "name": "Jeffrey L. Cummings",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "provided consultation to Acadia, Acumen, ALZpath, AnnovisBio, Artery, Axsome, Biogen, Bristol‐Myers Squib, Eisai, Fosun, GAP Foundation, Hummingbird Diagnostics, IGC, Janssen, Julius Clinical, Kinoxis, Lilly, LSP/eqt, Merck, MoCA Cognition, Novo Nordisk, NSC Therapeutics, Otsuka, ReMYND, Roche, Scottish Brain Sciences, Signant Health, Simcere, sinaptica, and T‐Neuropharmaceutical, assessment, and investment companies"
+    },
+    {
+      "name": "Yadi Zhou",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "declare no competing interests"
+    },
+    {
+      "name": "Yuxin Yang",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Kate Zhong",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "CEO of CNS Innovations"
+    },
+    {
+      "name": "Jorge Fonseca",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "declare no competing interests"
+    },
+    {
+      "name": "Amanda Leisgang Osse",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "declare no competing interests"
+    },
+    {
+      "name": "Feixiong Cheng",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Jeffrey L. Cummings",
+  "venue": "Alzheimer's & Dementia : Translational Research & Clinical Interventions",
+  "published": "2026",
+  "doi": "10.1002/trc2.70251",
+  "doi_url": "https://doi.org/10.1002/trc2.70251",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42095064",
+  "copyright": null,
+  "license": {
+    "name": "CC BY-NC-ND 4.0",
+    "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "reuse": "redistribute",
+    "evidence": "This is an open access article under the terms of the http://creativecommons.org/licenses/by-nc-nd/4.0/ License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made."
+  },
+  "tags": [
+    "review",
+    "trial",
+    "amyloid",
+    "tau",
+    "inflammation",
+    "biomarkers",
+    "drug-pipeline",
+    "disease-modifying",
+    "repurposing"
+  ],
+  "themes": [
+    "Alzheimer's disease drug development pipeline",
+    "Disease-targeted therapies (DTTs)",
+    "Symptom-targeted therapies (STTs)",
+    "Drug repurposing trends",
+    "Biomarkers in clinical trials",
+    "Trial sponsorship and globalization"
+  ],
+  "one_line": "An annual review of the Alzheimer's disease drug development pipeline for 2026 reveals 158 drugs in 192 clinical trials, heavily focused on disease-modifying therapies, repurposed agents, and biomarker-driven trial designs.",
+  "summary": "This report provides a comprehensive overview of the Alzheimer's disease (AD) drug development pipeline as of January 1, 2026, using data extracted from clinicaltrials.gov. The authors identified 192 active clinical trials assessing 158 drugs across Phases 1, 2, and 3. Disease-targeted therapies (DTTs) make up 73% of the candidate drugs, aiming to alter disease progression, while the remainder target cognitive enhancement or neuropsychiatric symptoms. The pipeline exhibits significant mechanism diversity, prominently targeting neurotransmitter receptors, inflammation/immune processes, amyloid, and tau. Repurposed agents represent a substantial 35% of the drugs in development, driven largely by non-industry sponsors in Phase 2 trials. Additionally, the integration of biomarkers for participant eligibility and outcome measures has become a standard, featuring in the majority of active trials.",
+  "key_claims": [
+    {
+      "claim": "The Alzheimer's disease drug development pipeline is growing robustly and targeting a diverse array of disease processes.",
+      "evidence": "192 clinical trials are assessing 158 drugs, representing approximately a 40% increase in both agents and trials over the decade from 2017 to 2026.",
+      "strength": "strong",
+      "location": "RESULTS / Overview; DISCUSSION"
+    },
+    {
+      "claim": "Disease-modifying treatments dominate the current therapeutic landscape for Alzheimer's.",
+      "evidence": "116 agents (73% of the drugs in development) are disease-targeted therapies (DTTs), split between small molecules (53%) and biologics (47%).",
+      "strength": "strong",
+      "location": "RESULTS / Overview"
+    },
+    {
+      "claim": "Biomarkers are highly integrated into modern Alzheimer's clinical trials.",
+      "evidence": "87% of Phase 3, 89% of Phase 2, and 67% of Phase 1 trials include a biomarker for at least one context of use, with 50% using them for eligibility and 27% as a primary outcome.",
+      "strength": "strong",
+      "location": "RESULTS / Biomarkers in trials"
+    },
+    {
+      "claim": "Drug repurposing plays a critical role in AD therapeutic development, particularly for non-industry sponsors.",
+      "evidence": "Repurposed agents account for 35% of pipeline drugs; non-industry sponsors are advancing 32 repurposed agents compared to 11 novel ones in Phase 2.",
+      "strength": "strong",
+      "location": "RESULTS / Repurposed agents; DISCUSSION"
+    }
+  ],
+  "methods": {
+    "design": "Systematic registry review / pipeline analysis",
+    "n": 192,
+    "population": "Alzheimer's continuum (Preclinical, MCI, Mild, Moderate, Severe)",
+    "duration": null,
+    "registration": null
+  },
+  "funding_and_conflicts": "Supported by NIGMS, NIA, NINDS, Alzheimer's Association, ADDF, and various endowments. Jeffrey L. Cummings declares extensive consulting/investment conflicts with dozens of biopharma companies; Kate Zhong is CEO of CNS Innovations. Yadi Zhou, Jorge Fonseca, and Amanda Leisgang Osse declare no conflicts. Yuxin Yang and Feixiong Cheng have no explicitly declared conflicts in the COI statement.",
+  "limitations": [
+    "Relies entirely on clinicaltrials.gov, which may omit trials conducted exclusively outside North America that are unregistered on the US platform.",
+    "Data entry irregularities or missing updates on clinicaltrials.gov could compromise accuracy.",
+    "Classification of therapies as DTT or STT can be ambiguous and relies partly on subjective interpretation of stated therapeutic intent."
+  ],
+  "red_flags": [
+    "Authors Yuxin Yang and Feixiong Cheng are notably absent from the explicit Conflict of Interest statement.",
+    "Treats clinicaltrials.gov entries at face value without systematically verifying against peer-reviewed publications or assessing for outcome reporting bias."
+  ],
+  "parse_quality": {
+    "score": 9,
+    "issues": [
+      "Minor spacing artifacts from PDF conversion (e.g., 'clinicaltrials.gov .', 'Aß' ligature inconsistently rendering as 'Aβ' and 'Aß', 'sphingosine ‐1‐phospaste')"
+    ]
+  },
+  "search_verification": [
+    "Trusted the provided PMC, PMID (42095064), and DOI (10.1002/trc2.70251) identifiers printed in the document header as per instructions."
+  ]
+}

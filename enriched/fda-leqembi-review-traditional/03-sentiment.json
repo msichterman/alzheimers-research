@@ -1,0 +1,82 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment around Leqembi is complex and divided. Caregivers and patients express guarded hope, often willing to pursue the drug despite daunting side effects and logistical hurdles, though some are deterred by the high risks for ApoE4 homozygotes. Neurologists view the drug as a meaningful tool but are frustrated by the significant administrative, diagnostic, and MRI monitoring burdens required for treatment. Meanwhile, retail investors are reacting cautiously; although Leqembi sales are growing, they have not immediately offset broader corporate financial challenges for its makers. In the scientific community, the focus is squarely on mitigating ARIA risks—particularly confirming the lack of benefit for ApoE4 homozygotes—and managing long-term maintenance dosing to prevent disease rebound upon cessation.",
+  "communities": [
+    {
+      "community": "Caregivers and Patients (r/Alzheimers, r/dementia)",
+      "sentiment": "hopeful",
+      "themes": [
+        "Managing distressing side effects like confusion and feeling unwell post-infusion",
+        "Weighing ARIA risks for APOE4 carriers against the desire to try anything",
+        "Exploring extreme logistical options like medical tourism to access the drug"
+      ],
+      "example_urls": [
+        "https://old.reddit.com/r/Alzheimers/comments/1vfts0t/to_leqembi_or_not/",
+        "https://old.reddit.com/r/Alzheimers/comments/1v9u0io/leqembi_side_effectscrying/"
+      ]
+    },
+    {
+      "community": "Medical Professionals (r/neurology)",
+      "sentiment": "mixed",
+      "themes": [
+        "Belief in the drug's efficacy for non-homozygote patients",
+        "Immense frustration with insurance requirements and out-of-pocket costs for PET/CSF testing",
+        "Logistical burdens of strict surveillance MRI scheduling"
+      ],
+      "example_urls": [
+        "https://old.reddit.com/r/neurology/comments/1vc4g13/complexity_of_managing_kisunla_leqembi_in_general/"
+      ]
+    },
+    {
+      "community": "Retail Investors (r/Wiseek, r/EU_Economics)",
+      "sentiment": "mixed",
+      "themes": [
+        "Tracking steady quarter-over-quarter Leqembi sales growth",
+        "Disappointment in broader company profitability and slashed guidance",
+        "Monitoring the rollout and uptake of the subcutaneous injection formulation"
+      ],
+      "example_urls": [
+        "https://old.reddit.com/r/Wiseek/comments/1v9rr3m/biib_biogen_slashes_2026_profit_outlook_despite/"
+      ]
+    },
+    {
+      "community": "Scientists and Researchers (Alzforum)",
+      "sentiment": "skeptical",
+      "themes": [
+        "Reanalysis showing ApoE4 homozygotes derive virtually no benefit from the drug",
+        "Real-world ARIA rates echoing trial data, leading clinics to exclude homozygotes",
+        "Necessity of long-term maintenance dosing due to rapid rebound of cognitive decline after stopping"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/conference-coverage/leqembi-clinic-so-far-aria-echoes-trials",
+        "https://www.alzforum.org/news/conference-coverage/leqembi-case-long-term-dosing"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "FDA Drug Safety Communications",
+      "tone": "neutral",
+      "date": "2025-08",
+      "url": "https://www.fda.gov/drugs/drug-safety-communications/fda-recommend-additional-earlier-mri-monitoring-patients-alzheimers-disease-taking-leqembi-lecanemab"
+    },
+    {
+      "outlet": "ALZFORUM",
+      "tone": "neutral",
+      "date": "2025-04",
+      "url": "https://www.alzforum.org/news/community-news/european-commission-greenlights-leqembi-last"
+    }
+  ],
+  "hype_vs_evidence": "While initial media coverage and patient desperation frame Leqembi as a major breakthrough, real-world implementation is heavily constrained by the severe evidence of ARIA risks and heavy diagnostic bottlenecks. Public hope sometimes overestimates the drug's capabilities, leading to medical tourism for patients who might not even qualify or are unaware of the strict MRI monitoring required. Crucially, while some patients are eager to try the drug regardless of genetic status, the scientific consensus increasingly aligns with the FDA review's red flag: ApoE4 homozygotes face severe hemorrhage risks with questionable or entirely absent clinical benefit.",
+  "misinformation_flags": [
+    "Leqembi is a cure for Alzheimer's disease (it only slows progression)",
+    "Leqembi can be used for moderate or advanced/late-stage Alzheimer's (it is only indicated for early symptomatic stages)",
+    "ApoE4 homozygotes experience the same clinical benefits as other patients despite the higher risks"
+  ],
+  "searches_run": [
+    "site:reddit.com/r/dementia OR site:reddit.com/r/Alzheimers leqembi OR lecanemab",
+    "site:reddit.com/r/neuro OR site:reddit.com/r/science leqembi OR lecanemab",
+    "site:alzforum.org lecanemab OR leqembi",
+    "leqembi OR lecanemab news approval safety ARIA -site:reddit.com"
+  ]
+}

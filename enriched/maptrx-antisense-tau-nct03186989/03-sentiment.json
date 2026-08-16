@@ -1,0 +1,62 @@
+{
+  "overall": "mixed",
+  "summary": "Public perception of IONIS-MAPTRx (now known as diranersen or BIIB080) is currently a complex mix of high anticipation and pragmatic caution. As the leading candidate testing the tau hypothesis, patient and caregiver communities view it as the most critical pipeline drug beyond current anti-amyloid therapies. However, recent 2026 Phase 2 (CELIA) readouts have bifurcated sentiment across the web. While the drug successfully demonstrated robust reductions in brain tau pathology, reports indicate it missed its primary clinical endpoint. Consequently, retail investors and biotech observers are heavily debating Biogen's decision to push the drug forward, balancing the promising cognitive signals against regulatory and commercial risks. Media coverage remains balanced, highlighting the milestone of lowering tau while raising questions about ultimate efficacy and the burden of intrathecal administration.",
+  "communities": [
+    {
+      "community": "r/Alzheimers (Patients & Caregivers)",
+      "sentiment": "hopeful",
+      "themes": [
+        "Next big hope after amyloid drugs",
+        "Validation of the tau hypothesis",
+        "Concerns regarding spinal injections"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/comments/1sd8u5f/what_to_do_now/",
+        "https://www.reddit.com/r/Alzheimers/comments/1rjzzdg/mom_68_yrs_old_67_ptau17_levels/"
+      ]
+    },
+    {
+      "community": "Retail Investors & Biotech Watchers (r/StockTitan, SeekingAlpha)",
+      "sentiment": "mixed",
+      "themes": [
+        "Phase 2 primary endpoint miss",
+        "Significant biomarker (tau) reduction",
+        "Biogen's pipeline risk"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/StockTitan/comments/1tcut5e/ions_ionis_partner_biogen_announces_topline/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Yahoo Finance",
+      "tone": "neutral",
+      "date": "2026-05",
+      "url": "https://finance.yahoo.com/sectors/healthcare/articles/topline-results-phase-2-celia-105900900.html"
+    },
+    {
+      "outlet": "MedPath Trial",
+      "tone": "positive",
+      "date": "2026-05",
+      "url": "https://trial.medpath.com/news/biogen-s-tau-targeting-alzheimer-s-drug-shows-promise-despite-missing-primary-endpoint-in-phase-2-study"
+    },
+    {
+      "outlet": "PharmaLive",
+      "tone": "critical",
+      "date": "2026-02",
+      "url": "https://www.pharmalive.com/biogens-much-anticipated-tau-readout-in-alzheimers-will-spur-more-questions/"
+    }
+  ],
+  "hype_vs_evidence": "Public hope heavily frames diranersen (BIIB080) as a superior alternative to amyloid drugs, anchoring on its proven ability to lower tau protein. The evidence from Phase 1 confirmed target engagement and safety, and recent Phase 2 data successfully confirmed tau reduction, but the actual clinical cognitive benefits appear statistically precarious after missing the primary endpoint. There is a distinct divergence between retail and patient hype—which often treats any biomarker drop as a definitive victory—and the rigorous evidence required for broad clinical success. Additionally, the public discourse frequently overlooks or underestimates the practical burden of regular intrathecal (spinal) injections required for this antisense oligonucleotide therapy.",
+  "misinformation_flags": [
+    "Overstatements characterizing the Phase 2 CELIA trial as an unqualified success, omitting that the drug missed its primary clinical endpoint.",
+    "Occasional claims framing BIIB080 as a permanent 'gene therapy' cure, rather than a transient antisense oligonucleotide treatment requiring ongoing spinal injections."
+  ],
+  "searches_run": [
+    "site:reddit.com \"BIIB080\" OR \"IONIS-MAPTRx\"",
+    "subreddit:Alzheimers (\"BIIB080\" OR \"IONIS-MAPTRx\" OR \"Ionis\")",
+    "BIIB080 alzheimer reddit",
+    "\"BIIB080\" OR \"IONIS-MAPTRx\" alzheimer site:fiercebiotech.com OR site:statnews.com OR site:reuters.com"
+  ]
+}

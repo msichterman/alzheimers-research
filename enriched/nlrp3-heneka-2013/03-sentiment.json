@@ -1,0 +1,81 @@
+{
+  "overall": "hopeful",
+  "summary": "Public sentiment regarding the NLRP3 inflammasome in Alzheimer's disease is highly polarized by community awareness. Scientists, pharmaceutical companies, and biotech investors are extremely enthusiastic, treating NLRP3 as a central therapeutic target with massive acquisitions and clinical trials currently underway. Simultaneously, the biohacking and wellness communities have co-opted the hypothesis to promote supplements and ketogenic diets as DIY neuroinflammation treatments. Conversely, patient and caregiver communities remain completely quiet on the topic, as the science is highly mechanistic and has not yet resulted in an accessible, approved Alzheimer's treatment.",
+  "communities": [
+    {
+      "community": "Retail Investors and Biotech Sector",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Big pharma M&A activity (e.g., Eli Lilly, Roche)",
+        "NLRP3 as a 'master switch' for neuroinflammation",
+        "Progression of novel brain-penetrant inhibitors into clinical trials"
+      ],
+      "example_urls": [
+        "https://markets.financialcontent.com/stocks/article/marketminute-2026-1-15-eli-lillys-12-billion-acquisition-of-ventyx-biosciences-bridging-the-gap-between-weight-loss-and-chronic-inflammation",
+        "https://pharmaphorum.com/news/roche-bulks-up-in-inflammation-with-e380m-inflazome-acquisition"
+      ]
+    },
+    {
+      "community": "Biohackers and Supplement Enthusiasts (e.g. r/NooTopics, r/ketoscience)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Lion's Mane (Hericium erinaceus) for NLRP3 inhibition",
+        "Beta-hydroxybutyrate (BHB) and ketogenic diets to stop inflammasome activation",
+        "Plant extracts like rosemary (carnosic acid) and extra-virgin olive oil"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/MushroomSupplements/comments/qivo3q/key_mechanisms_and_potential_implications_of/",
+        "https://www.reddit.com/r/ketoscience/comments/17sbn2e/impact_of_fasting_and_ketogenic_interventions_on/"
+      ]
+    },
+    {
+      "community": "Scientists and Researchers (e.g. Alzforum)",
+      "sentiment": "hopeful",
+      "themes": [
+        "Microglial M2 phenotype shifting",
+        "Role of genetic risk factors (like INPP5D) in inflammasome activation",
+        "Biomarkers and structural mechanisms of the NLRP3 complex"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/research-news/alzheimers-microglial-risk-gene-inpp5d-revs-inflammasome",
+        "https://www.alzforum.org/papers/nlrp3-activated-alzheimers-disease-and-contributes-pathology-appps1-mice"
+      ]
+    },
+    {
+      "community": "Patients and Caregivers (e.g. r/Alzheimers, r/dementia)",
+      "sentiment": "quiet",
+      "themes": [
+        "Lack of awareness of preclinical pathways",
+        "Focus entirely on caregiving, symptom management, and approved therapies"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "FinancialContent",
+      "tone": "positive",
+      "date": "2026-01",
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-1-15-eli-lillys-12-billion-acquisition-of-ventyx-biosciences-bridging-the-gap-between-weight-loss-and-chronic-inflammation"
+    },
+    {
+      "outlet": "Roche Media Releases",
+      "tone": "positive",
+      "date": "2026-07",
+      "url": "https://www.roche.com/media/releases/med-cor-2026-07-07"
+    }
+  ],
+  "hype_vs_evidence": "Perception in the financial and biohacking spaces frequently outpaces the actual clinical evidence. While Heneka et al. generated strong preclinical (mouse model) evidence for the role of the NLRP3 inflammasome, human clinical efficacy for Alzheimer's disease is still unproven, with most pharmacological inhibitors currently in early-to-mid phase clinical testing. In the biohacking community, preclinical findings are inappropriately extrapolated to claim that supplements like Lion's Mane or dietary interventions like fasting act as proven Alzheimer's therapies by inhibiting NLRP3 in humans.",
+  "misinformation_flags": [
+    "Unproven claims that dietary supplements (Lion's Mane, rosemary) and the ketogenic diet are established human therapies for Alzheimer's disease via NLRP3 inflammasome inhibition."
+  ],
+  "searches_run": [
+    "site:reddit.com NLRP3 Alzheimer",
+    "NLRP3 inflammasome Alzheimer news",
+    "site:alzforum.org NLRP3 Alzheimer",
+    "site:reddit.com/r/dementia inflammasome OR NLRP3",
+    "NLRP3 inhibitor Alzheimer stock symbol OR Phase"
+  ]
+}

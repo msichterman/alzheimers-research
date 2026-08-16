@@ -1,0 +1,57 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT07157735",
+      "registry_url": "https://clinicaltrials.gov/study/NCT07157735",
+      "name": null,
+      "drug": "Dapansutrile (NLRP3 inflammasome inhibitor)",
+      "phase": "2",
+      "sponsor": "Cambridge University Hospitals NHS Foundation Trust",
+      "status": "Recruiting",
+      "enrollment": 36,
+      "population": "People With Parkinson's Disease",
+      "primary_endpoint": "Number of adverse events (AEs) recorded during the 6-month double-blind period",
+      "started": "2026-02",
+      "completed_or_readout": "2028-06",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT06556173",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06556173",
+      "name": null,
+      "drug": "VTX3232 (Brain-penetrant NLRP3 inhibitor)",
+      "phase": "2",
+      "sponsor": "Zomagen Biosciences Ltd.",
+      "status": "Completed",
+      "enrollment": 11,
+      "population": "Idiopathic Parkinson Disease",
+      "primary_endpoint": "Adverse Event (AE) / Serious Adverse Event (SAE) Incidence Rate and Severity through study completion",
+      "started": "2024-08",
+      "completed_or_readout": "2025-04",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2026-02",
+      "kind": "paper",
+      "description": "Comprehensive review confirming that despite preclinical success, NLRP3 inhibitors have not yet entered Alzheimer's clinical trials due to historic blood-brain barrier penetration and selectivity challenges.",
+      "url": "https://doi.org/10.1007/s10787-025-02092-3"
+    },
+    {
+      "date": "2025-10",
+      "kind": "paper",
+      "description": "Results published showing anti-neuroinflammatory effects of the brain-penetrant NLRP3 inhibitor NT-0796 in subjects with Parkinson's Disease, demonstrating clinical viability of the target in a related neurodegenerative condition.",
+      "url": "https://doi.org/10.1002/mds.30307"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence directly supporting pharmacological NLRP3 inhibition in Alzheimer's disease (AD) is currently non-existent. While the 2013 Heneka et al. paper was foundational in demonstrating that NLRP3 genetic ablation protects against AD pathology in APP/PS1 mice, this mechanism has not yet translated into human efficacy trials for AD. As of 2026, there are no registered clinical trials on ClinicalTrials.gov testing targeted NLRP3 inhibitors (such as Dapansutrile, Inzomelid, or VTX3232) in Alzheimer's or Mild Cognitive Impairment patients. The overarching hypothesis has, however, advanced into trials for other neurodegenerative diseases, with newer brain-penetrant NLRP3 inhibitors currently undergoing Phase 2 trials for Parkinson's disease. The persistent lack of AD-specific trials is largely attributed by recent literature to historical challenges in developing compounds with sufficient blood-brain barrier penetration and safety profiles for chronic use in elderly populations.",
+  "discrepancies": [
+    "The document established the pathological role of NLRP3 in Alzheimer's using mouse models and human tissue samples, but no clinical trials for pharmacological NLRP3 inhibitors in Alzheimer's exist as of 2026 to validate therapeutic efficacy.",
+    "A few ClinicalTrials.gov records (e.g., NCT06181513, NCT03918616) mention NLRP3 in the context of Alzheimer's, but these only measure NLRP3 as an exploratory inflammatory biomarker for non-targeted interventions (like probiotics or generic care) rather than testing actual NLRP3 inhibitors."
+  ]
+}

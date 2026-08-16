@@ -1,0 +1,123 @@
+{
+  "fact_check": [
+    {
+      "fact": "Enrollment of 1260 participants",
+      "status": "corrected",
+      "note": "The ClinicalTrials.gov source document estimates enrollment at 1,200. The 1,260 figure comes from the final published Lancet paper, not the registry itself."
+    },
+    {
+      "fact": "No empirical data or results are posted on the ClinicalTrials.gov registry",
+      "status": "verified",
+      "note": "Verified against source document ('Results posted: false' and status 'UNKNOWN')."
+    },
+    {
+      "fact": "Primary completion date of December 2013",
+      "status": "verified",
+      "note": "Verified against source document."
+    }
+  ],
+  "research_page": {
+    "slug": "finger-lifestyle-intervention-protocol",
+    "title": "FINGER Trial Protocol: Multi-domain lifestyle intervention",
+    "description": "Registry protocol for the landmark FINGER trial testing a 2-year multi-domain lifestyle intervention to prevent cognitive decline.",
+    "tags": [
+      "trial-registry",
+      "prevention",
+      "lifestyle-intervention",
+      "finger"
+    ],
+    "source_line_md": "**Source**: [ClinicalTrials.gov, 2010](https://clinicaltrials.gov/study/NCT01041989)",
+    "authors_line_md": "Finnish Institute for Health and Welfare",
+    "takeaway_md": "The FINGER trial protocol established the framework for testing whether a combination of nutritional guidance, exercise, cognitive training, and vascular risk monitoring can prevent cognitive decline. While this registry record lacks data, the protocol laid the foundation for landmark peer-reviewed findings demonstrating the efficacy of multi-domain lifestyle interventions in at-risk older adults.",
+    "key_findings_md": [
+      "The registry record outlines a 2-year intervention comparing multi-domain lifestyle counseling to standard health counseling (ClinicalTrials.gov).",
+      "The primary prespecified endpoint was cognitive impairment measured by a Neuropsychological Test Battery (NTB), Stroop, and Trail Making tests (ClinicalTrials.gov).",
+      "Although the registry indicates 'Results posted: false', subsequent peer-reviewed publications reported significant cognitive benefits (Clinical-trials researcher)."
+    ],
+    "methods_md": "Interventional, randomized, single-blind trial aiming to enroll 1,200 older adults (aged 60-77) with an elevated dementia risk (Dementia Risk Score >= 6) and specific cognitive deficits. The primary intervention phase lasted 2 years. Registered as NCT01041989.",
+    "trial_evidence_md": "The FINGER protocol represents a foundational proof-of-concept in dementia prevention. Although the ClinicalTrials.gov record is poorly maintained (listed as 'Unknown' status with no results posted), the [FINGER trial](/trials/finger-nct01041989) was successfully completed and read out in 2015, showing that multi-domain interventions significantly preserve cognitive function. This success spawned the World-Wide FINGERS network and directly inspired replication studies like the [US-POINTER trial](/trials/us-pointer-nct03688126).",
+    "sentiment_md": "Public sentiment regarding the FINGER protocol and lifestyle interventions is predominantly hopeful, particularly in tech and science communities that emphasize actionable, non-pharmacological prevention. However, media hype often oversimplifies the evidence, conflating the modest slowing of cognitive decline in asymptomatic, at-risk individuals with a 'cure' for established Alzheimer's disease. Caregiver communities remain notably quiet on the protocol, often expressing exhaustion over unsolicited lifestyle advice for patients who are already severely impaired.",
+    "caveats_md": [
+      "This document is a prospective registry protocol, not a peer-reviewed paper, and contains no empirical results or data.",
+      "The clinical registry record is officially abandoned or poorly maintained, showing an 'Unknown' status despite the trial completing its primary phase in 2013.",
+      "Public discourse frequently loses the vital nuance that this intervention aims to slow cognitive decline in 'at-risk' populations, not reverse established clinical dementia."
+    ],
+    "relates_to_md": [
+      "[US-POINTER Trial](/trials/us-pointer-nct03688126) — A major US-based replication and adaptation of the FINGER lifestyle intervention protocol.",
+      "[MET-FINGER Trial](https://clinicaltrials.gov/study/NCT05109169) — An ongoing study investigating the combination of the FINGER lifestyle protocol with pharmacological treatment (metformin)."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "finger-nct01041989",
+      "title": "FINGER",
+      "description": "A 2-year multi-domain lifestyle intervention to prevent cognitive impairment in at-risk older adults.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "lifestyle-intervention",
+        "prevention",
+        "completed"
+      ],
+      "registry_md": "[NCT01041989](https://clinicaltrials.gov/study/NCT01041989)",
+      "drug": "Multi-domain lifestyle intervention (nutrition, exercise, cognitive training, vascular monitoring)",
+      "phase": "n/a",
+      "sponsor": "Finnish Institute for Health and Welfare",
+      "population": "Adults aged 60-77 years with elevated dementia risk (CAIDE score >= 6) and cognition at or slightly below average for age",
+      "primary_endpoint": "Cognitive impairment assessed with a Neuropsychological Test Battery (NTB), and Stroop and Trail Making tests over 2 years",
+      "started": "2009-09",
+      "readout": "2013-12",
+      "why_md": "The FINGER trial was designed to answer whether a comprehensive, multi-domain lifestyle intervention could prevent or delay cognitive decline in older adults at elevated risk for dementia. It serves as a foundational proof-of-concept for non-pharmacological [prevention](/research) strategies.",
+      "status_log_md": [
+        "**2009-09** — Trial begins enrollment.",
+        "**2013-12** — Primary completion date reached.",
+        "**2015-06-06** — Primary 2-year results published in [The Lancet](https://doi.org/10.1016/S0140-6736(15)60461-5), demonstrating significant cognitive benefits."
+      ],
+      "results_md": "At 2 years, the multidomain intervention significantly improved cognitive functioning compared to the control group (between-group difference in NTB total Z score change of 0.022 per year, p=0.030), establishing the efficacy of combination lifestyle modifications."
+    },
+    {
+      "slug": "us-pointer-nct03688126",
+      "title": "US-POINTER",
+      "description": "A 2-year structured multi-domain lifestyle intervention for older adults at risk of cognitive decline.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "lifestyle-intervention",
+        "prevention",
+        "completed"
+      ],
+      "registry_md": "[NCT03688126](https://clinicaltrials.gov/study/NCT03688126)",
+      "drug": "Structured multi-domain lifestyle intervention",
+      "phase": "n/a",
+      "sponsor": "Wake Forest University Health Sciences",
+      "population": "Adults aged 60-79 years at risk of cognitive decline with a sedentary lifestyle and suboptimal diet",
+      "primary_endpoint": "Global cognitive function composite score",
+      "started": "2019-01",
+      "readout": "2025-05",
+      "why_md": "US-POINTER tests whether the successful lifestyle interventions pioneered by the [FINGER trial](/trials/finger-nct01041989) can be adapted and replicated in a diverse American population, answering whether structured lifestyle coaching outperforms self-guided approaches.",
+      "status_log_md": [
+        "**2019-01** — Trial begins enrollment.",
+        "**2025-05** — Trial completes.",
+        "**2025-08-26** — Primary results published in [JAMA](https://doi.org/10.1001/jama.2025.12923), confirming structured lifestyle interventions improve global cognition."
+      ],
+      "results_md": "A structured multidomain intervention produced a statistically significant, greater improvement in global cognition over 2 years compared to an unstructured, self-guided intervention (difference of 0.029 SD/year, p=0.008)."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Prevention interventions",
+      "date": "2015-06",
+      "title": "2015-06 — FINGER trial demonstrates lifestyle intervention slows cognitive decline",
+      "body_md": "Primary results from the [FINGER trial](/trials/finger-nct01041989) are published in The Lancet, providing landmark proof-of-concept that a multi-domain lifestyle intervention can preserve cognitive function in at-risk older adults."
+    },
+    {
+      "section": "Prevention interventions",
+      "date": "2025-08",
+      "title": "2025-08 — US-POINTER trial replicates FINGER lifestyle benefits",
+      "body_md": "The [US-POINTER trial](/trials/us-pointer-nct03688126) publishes results in JAMA, confirming that structured lifestyle interventions improve global cognition in a diverse American population, successfully replicating the FINGER model."
+    }
+  ],
+  "notes_for_editor": [
+    "The ClinicalTrials.gov record for NCT01041989 is officially marked 'Unknown' status with 'Results posted: false', but it is a highly famous completed trial (published in The Lancet in 2015). I have manually overridden the trial badge to 'Completed' to reflect reality, but noted the poor registry maintenance in the fact check and caveats."
+  ]
+}

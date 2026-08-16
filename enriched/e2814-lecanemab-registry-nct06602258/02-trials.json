@@ -1,0 +1,88 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT06602258",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06602258",
+      "name": "E2814-G000-202",
+      "drug": "Etalanetug + Lecanemab (anti-tau MTBR + anti-amyloid)",
+      "phase": "2",
+      "sponsor": "Eisai Inc.",
+      "status": "Active",
+      "enrollment": 105,
+      "population": "Early Alzheimer's disease (MCI or mild dementia)",
+      "primary_endpoint": "Change From Baseline in CSF MTBR-tau-243 at 6 Months",
+      "started": "2024-09",
+      "completed_or_readout": "2026-12",
+      "results_summary": null,
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05269394",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05269394",
+      "name": "DIAN-TU Tau",
+      "drug": "Etalanetug + Lecanemab (anti-tau MTBR + anti-amyloid)",
+      "phase": "2",
+      "sponsor": "Washington University School of Medicine",
+      "status": "Active",
+      "enrollment": 197,
+      "population": "Dominantly Inherited Alzheimer's Disease (DIAD)",
+      "primary_endpoint": "Change from Week 24 to Week 104 and Week 208 in tau PET in the Symptomatic Population",
+      "started": "2021-12",
+      "completed_or_readout": "2028-04",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04971733",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04971733",
+      "name": "Study 103",
+      "drug": "Etalanetug (anti-tau MTBR)",
+      "phase": "1",
+      "sponsor": "Eisai Inc.",
+      "status": "Completed",
+      "enrollment": 8,
+      "population": "Mild to moderate cognitive impairment due to Dominantly Inherited Alzheimer's Disease",
+      "primary_endpoint": "Number of Participants With Treatment-emergent Adverse Events (TEAEs) and Serious TEAEs",
+      "started": "2021-06",
+      "completed_or_readout": "2024-05",
+      "results_summary": "Etalanetug was well-tolerated and reduced CSF ptau217 by up to 57.9% and MTBR-tau243 by up to 71.6% at 108 weeks, with stabilization of tau PET signals.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04231513",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04231513",
+      "name": null,
+      "drug": "Etalanetug (anti-tau MTBR)",
+      "phase": "1",
+      "sponsor": "Eisai Inc.",
+      "status": "Completed",
+      "enrollment": 72,
+      "population": "Healthy Volunteers",
+      "primary_endpoint": "Number of Participants With Treatment-emergent Adverse Events (TEAEs) and Serious Adverse Events (SAEs)",
+      "started": "2019-12",
+      "completed_or_readout": "2023-03",
+      "results_summary": "Etalanetug presented an adequate safety and immunogenicity profile and saturated MTBR-tau binding in the CSF in a dose-dependent manner.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2026-04",
+      "kind": "paper",
+      "description": "Phase 1b/2 results showing etalanetug engages tau targets and is safe in symptomatic DIAD patients",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41964075/"
+    },
+    {
+      "date": "2025-07",
+      "kind": "paper",
+      "description": "Phase 1 First-in-Human study results demonstrating etalanetug safety and target engagement in healthy subjects",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40673737/"
+    }
+  ],
+  "evidence_assessment": "Clinical evidence for the anti-tau monoclonal antibody etalanetug (E2814) is currently limited to Phase 1 data, which has demonstrated an adequate safety profile and robust target engagement in both healthy volunteers and participants with dominantly inherited Alzheimer's disease (DIAD). Early open-label data from a DIAD cohort showed etalanetug robustly reduced CSF MTBR-tau243 by up to 71.6% and ptau217 by 57.9%, alongside stabilization of tau PET signals over 108 weeks. The safety and efficacy of combining etalanetug with the FDA-approved anti-amyloid drug lecanemab, which the analyzed document focuses on, are currently being evaluated in this Phase 2 trial (NCT06602258) and in the parallel DIAN-TU tau platform trial (NCT05269394). Because no results from these dual-therapy combination trials have been published yet, the central claim that etalanetug with lecanemab provides dose-dependent biomarker efficacy remains a clinical hypothesis awaiting validation.",
+  "discrepancies": []
+}

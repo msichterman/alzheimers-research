@@ -1,0 +1,62 @@
+{
+  "fact_check": [
+    {
+      "fact": "91 genome-wide significant risk loci identified, including 16 novel loci",
+      "status": "verified",
+      "note": "Checked against Abstract and Main text."
+    },
+    {
+      "fact": "56 of the 91 risk loci are specifically associated with clinically diagnosed Alzheimer's disease",
+      "status": "verified",
+      "note": "Checked against Abstract; confirmed via the 'no-biobank' sensitivity meta-analysis."
+    },
+    {
+      "fact": "Polygenic risk score explains ~4% of total disease variance",
+      "status": "verified",
+      "note": "Checked against Main text (Nagelkerke’s pseudo-R-squared was 3.98% for Braak stage and 4.37% for CERAD score)."
+    },
+    {
+      "fact": "Tenth decile of the polygenic risk score correlates with a twofold increased risk of Braak stage >4",
+      "status": "verified",
+      "note": "Checked against Abstract and Main text (2.05-fold increased risk, 95% CI 1.47–2.85)."
+    }
+  ],
+  "research_page": {
+    "slug": "bellenguez-gwas-91-loci",
+    "title": "GWAS meta-analysis identifying 91 ADRD risk loci",
+    "description": "A massive European-ancestry meta-analysis identifying 91 genetic risk loci for Alzheimer's disease and deriving a highly specific polygenic risk score.",
+    "tags": [
+      "paper",
+      "genetics",
+      "gwas",
+      "biomarkers",
+      "polygenic-risk-score"
+    ],
+    "source_line_md": "**Source**: [Nature Genetics, 2026](https://doi.org/10.1038/s41588-026-02583-1) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/42237039)",
+    "authors_line_md": "Bellenguez et al.",
+    "takeaway_md": "This genome-wide association study of nearly one million individuals identified 91 genetic risk loci for Alzheimer's disease and related dementias. It established a polygenic risk score that successfully discriminates risk for Alzheimer's-specific neuropathology, though it explains only a small fraction of total disease variance.",
+    "key_findings_md": [
+      "Identified 91 genome-wide significant risk loci for ADRD, including 16 novel loci (paper, Abstract).",
+      "Confirmed that 56 of these loci are specifically associated with clinically diagnosed Alzheimer's disease in a sensitivity analysis (paper, Main).",
+      "Developed a polygenic risk score (excluding APOE) that correlates with Braak neurofibrillary tangles and neuritic amyloid plaques, but not with cerebrovascular or non-AD pathologies like Lewy bodies (paper, Main).",
+      "Individuals in the highest decile of the polygenic risk score had roughly a twofold increased risk of severe Braak stage and neuritic plaques at death compared to the median (paper, Main)."
+    ],
+    "methods_md": "Consensus meta-analysis of genome-wide association studies (GWAS) involving 128,681 cases or proxy cases and 849,833 controls of European ancestry. The study combined data from three major consortia, UK Biobank, and FinnGen, using stepwise conditional analyses and polygenic risk scoring against neuropathology endophenotypes.",
+    "trial_evidence_md": "This study provides foundational epidemiological and genetic architecture evidence rather than interventional trial data. The identified loci and polygenic risk scores offer tools for future therapeutic target discovery and patient stratification in clinical trials, but do not directly evaluate any specific drug or intervention.",
+    "sentiment_md": "The scientific community reacted enthusiastically to the scale and specificity of the findings, particularly the ability to correlate polygenic risk scores with discrete neuropathologies. However, mainstream media occasionally overhyped the study as a predictive diagnostic test, causing confusion among patients and caregivers, despite scientists emphasizing that the score is not intended for individual clinical diagnosis.",
+    "caveats_md": [
+      "The study population is predominantly of European ancestry, meaning the validated loci and resulting polygenic risk scores may not safely translate to other global populations.",
+      "Because the polygenic risk score explains less than 5% of disease variance, it is suitable for population-level research and trial enrichment, but insufficient for individual clinical prediction.",
+      "Relying on proxy cases (diagnoses based on family history) and biobank records introduced slight phenotypic biases, highlighting the necessity of strict clinical cohorts for precise endophenotype mapping."
+    ],
+    "relates_to_md": [
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — The genetic findings reinforce amyloid, tau, lipid metabolism, and immune pathway involvement.",
+      "[Biomarkers](/research/biomarkers) — Polygenic risk scores offer a potential non-invasive tool to stratify and enrich clinical trial populations."
+    ]
+  },
+  "trial_pages": [],
+  "timeline_entries": [],
+  "notes_for_editor": [
+    "The funding details supplement was missing from the provided source text, limiting full transparency on study sponsorship, though individual author conflicts of interest were extensively documented."
+  ]
+}

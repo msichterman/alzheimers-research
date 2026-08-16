@@ -1,0 +1,124 @@
+{
+  "fact_check": [
+    {
+      "fact": "The GWAS meta-analysis included 111,326 cases and 677,663 controls.",
+      "status": "verified",
+      "note": "Matches the numbers in the source document's Abstract and Main sections."
+    },
+    {
+      "fact": "The study identified 75 independent Alzheimer's risk loci, 42 of which were novel.",
+      "status": "verified",
+      "note": "Matches the source document Abstract and Results (Table 1 and Table 2)."
+    },
+    {
+      "fact": "The TREM2 agonizing antibody AL002 failed the Phase 2 INVOKE-2 trial in 2024.",
+      "status": "verified",
+      "note": "Checked against clinical trials researcher registry data; the parent trial failed and the OLE was subsequently terminated."
+    }
+  ],
+  "research_page": {
+    "slug": "eadb-gwas-75-loci",
+    "title": "75 risk loci and genetic risk score for Alzheimer's disease (EADB GWAS)",
+    "description": "A massive GWAS meta-analysis identifies 75 risk loci for Alzheimer's, implicating microglia and TNF-alpha, and constructs a highly predictive genetic risk score.",
+    "tags": [
+      "paper",
+      "genetics",
+      "amyloid",
+      "tau",
+      "inflammation",
+      "gwas",
+      "polygenic-risk-score",
+      "microglia"
+    ],
+    "source_line_md": "**Source**: [Nature Genetics, 2022](https://doi.org/10.1038/s41588-022-01024-z) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/35379992)",
+    "authors_line_md": "Bellenguez et al. — European Alzheimer & Dementia Biobank (EADB)",
+    "takeaway_md": "This two-stage GWAS meta-analysis of over 780,000 individuals identified 75 risk loci for Alzheimer's disease, including 42 novel regions. The genetic data strongly implicates microglia, the TNF-alpha pathway, and the LUBAC complex in disease pathogenesis. A polygenic risk score based on these findings effectively predicts progression from mild cognitive impairment to Alzheimer's disease independently of APOE status.",
+    "key_findings_md": [
+      "75 independent risk loci were associated with AD, 42 of which were newly discovered ([paper, Table 1/2](https://doi.org/10.1038/s41588-022-01024-z)).",
+      "Single-cell enrichment analysis demonstrated a highly significant association between AD risk and microglial gene expression (P = 1.7 × 10^-8).",
+      "Gene prioritization highlighted the TNF-alpha signaling pathway and the linear ubiquitin chain assembly complex (LUBAC) via genes like SHARPIN, RBCK1, and OTULIN.",
+      "A novel genetic risk score (GRS) increased AD risk by 1.6- to 1.9-fold from the lowest to highest decile, predicting disease progression independently of age and APOE status."
+    ],
+    "methods_md": "Two-stage Genome-Wide Association Study (GWAS) meta-analysis evaluating 111,326 clinically diagnosed and 'proxy' AD cases against 677,663 controls of European ancestry. The study utilized a longitudinal follow-up of up to 10 years for prospective cohort analysis to validate the genetic risk score.",
+    "trial_evidence_md": "While this genetic study strongly links microglia and the TNF-alpha pathway to Alzheimer's risk, clinical trials directly targeting these mechanisms have yet to succeed. The TREM2 agonizing antibody AL002 recently failed the Phase 2 [INVOKE-2](/trials/al002-invoke-2) trial, terminating its open-label extension. Similarly, trials evaluating TNF-alpha inhibitors like etanercept and pegipanermin ([XPro1595-AD-02](/trials/pegipanermin-xpro1595-ad-02)) have either failed to show cognitive benefit or faced development hurdles, suggesting these genetic risk pathways may be difficult to modulate therapeutically once disease is established.",
+    "sentiment_md": "Scientific communities and media outlets responded enthusiastically to the scale of the findings and the predictive power of the new genetic risk score. However, patient communities exhibit anxiety around genetic determinism, with some mistakenly interpreting consumer DNA data mapped to these 75 loci as a definitive Alzheimer's diagnosis rather than a probabilistic risk factor.",
+    "caveats_md": [
+      "The study cohorts included 'proxy-ADD' cases defined merely by family history questionnaires, introducing phenotypic heterogeneity compared to clinical or pathological diagnoses.",
+      "The genetic risk score was constructed and validated predominantly in European-ancestry populations, severely limiting its predictive accuracy for other ancestries."
+    ],
+    "relates_to_md": [
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — pathway enrichment analysis confirmed the strong involvement of amyloid and tau pathways.",
+      "[Biomarkers](/research/biomarkers) — the study introduces a powerful genetic risk score for predicting disease onset and progression."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "al002-invoke-2",
+      "title": "INVOKE-2",
+      "description": "AL002 in participants with early Alzheimer's disease (Phase 2).",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "microglia",
+        "trem2",
+        "inflammation"
+      ],
+      "registry_md": "[NCT04592874](https://clinicaltrials.gov/study/NCT04592874)",
+      "drug": "AL002 (TREM2 agonizing antibody)",
+      "phase": "2",
+      "sponsor": "Alector Inc.",
+      "population": "Participants with early Alzheimer's disease",
+      "primary_endpoint": "Disease Progression as Measured by the Clinical Dementia Rating - Sum of Boxes (CDR-SB) Score",
+      "started": "2021-01",
+      "readout": "2024-08",
+      "why_md": "This trial tests whether stimulating microglia via the TREM2 receptor can slow Alzheimer's disease progression, a therapeutic hypothesis strongly supported by [GWAS genetic discoveries](/research/papers/eadb-gwas-75-loci).",
+      "status_log_md": [
+        "**2021-01-01** — Trial started.",
+        "**2024-08-01** — Trial completed; failed to meet primary and secondary efficacy endpoints.",
+        "**2025-01-31** — Open-label extension (INVOKE-2 OLE) terminated due to failure of the parent trial."
+      ],
+      "results_md": "The trial failed to meet its primary endpoint (change in CDR-SB) and showed no treatment effects favoring AL002 on any secondary clinical or functional endpoints, leading to the termination of the open-label extension program."
+    },
+    {
+      "slug": "pegipanermin-xpro1595-ad-02",
+      "title": "XPro1595-AD-02",
+      "description": "Pegipanermin (XPro1595) in patients with early Alzheimer's disease and biomarkers of inflammation (Phase 2).",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "tnf-alpha",
+        "inflammation"
+      ],
+      "registry_md": "[NCT05318976](https://clinicaltrials.gov/study/NCT05318976)",
+      "drug": "Pegipanermin / XPro1595 (soluble TNF inhibitor)",
+      "phase": "2",
+      "sponsor": "Inmune Bio, Inc.",
+      "population": "Patients with early Alzheimer's disease and biomarkers of inflammation",
+      "primary_endpoint": "Change in Early and Mild Alzheimer's Cognitive Composite (EMACC)",
+      "started": "2022-02",
+      "readout": "2025-05",
+      "why_md": "Tests whether selectively inhibiting soluble TNF-alpha can reduce neuroinflammation and slow cognitive decline, translating [genetic risk associations of the TNF-alpha pathway](/research/papers/eadb-gwas-75-loci) into a targeted therapy.",
+      "status_log_md": [
+        "**2022-02-01** — Trial started.",
+        "**2024-07-01** — Open-label extension terminated early due to sponsor resource allocation.",
+        "**2025-05-01** — Trial completed."
+      ],
+      "results_md": "The trial completed, but the lack of positive efficacy data, coupled with the early termination of its open-label extension study, leaves the clinical viability of pegipanermin highly uncertain."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Genetics & Biomarkers",
+      "date": "2022-04",
+      "title": "2022-04 — GWAS meta-analysis identifies 75 Alzheimer's risk loci",
+      "body_md": "The European Alzheimer & Dementia Biobank published a massive [GWAS meta-analysis](/research/papers/eadb-gwas-75-loci) of over 780,000 individuals, doubling the known genetic risk loci to 75 and strongly implicating microglia and the TNF-alpha pathway."
+    },
+    {
+      "section": "Clinical Trials",
+      "date": "2024-08",
+      "title": "2024-08 — TREM2 agonist AL002 fails Phase 2 INVOKE-2 trial",
+      "body_md": "Alector's [INVOKE-2 trial](/trials/al002-invoke-2) evaluating the TREM2 agonizing antibody AL002 missed all primary and secondary endpoints, dampening hopes for microglial stimulation as a late-stage therapeutic strategy."
+    }
+  ],
+  "notes_for_editor": []
+}

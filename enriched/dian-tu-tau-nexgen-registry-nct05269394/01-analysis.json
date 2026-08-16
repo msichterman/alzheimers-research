@@ -1,0 +1,63 @@
+{
+  "kind": "other",
+  "title": "Dominantly Inherited Alzheimer Network Trial: An Opportunity to Prevent Dementia. A Study of Potential Disease Modifying Treatments in Individuals With a Type of Early Onset Alzheimer's Disease Caused by a Genetic Mutation (DIAN-TU)",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2022-03",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "tau",
+    "immunotherapy",
+    "genetics",
+    "biomarkers",
+    "e2814",
+    "lecanemab",
+    "dian-tu"
+  ],
+  "themes": [
+    "Dominantly Inherited Alzheimer's Disease (DIAD)",
+    "Platform clinical trials",
+    "Combination disease-modifying therapy",
+    "Anti-tau monoclonal antibodies",
+    "Anti-amyloid background therapy"
+  ],
+  "one_line": "A Phase II/III platform trial (DIAN-TU) evaluating the anti-tau antibody E2814 in combination with the anti-amyloid drug lecanemab for individuals with dominantly inherited Alzheimer's disease mutations.",
+  "summary": "This document is a ClinicalTrials.gov registry record for NCT05269394, detailing the DIAN-TU Phase II/III platform trial. The study evaluates a combination treatment strategy for individuals with dominantly inherited Alzheimer's disease (DIAD) mutations who are within 10 years of their expected cognitive symptom onset. Participants are administered the anti-tau antibody E2814 alongside the anti-amyloid monoclonal antibody lecanemab. The study includes both symptomatic and asymptomatic cohorts to assess safety, tolerability, biomarker changes, and cognitive efficacy. The primary endpoint measures the change in tau spread via tau PET imaging over 208 weeks in the symptomatic population. Secondary endpoints monitor clinical dementia rating (CDR-SB), cognitive composite scores, and fluid biomarkers including CSF ptau217/total tau and neurofilament light chain (NfL).",
+  "key_claims": [
+    {
+      "claim": "Therapeutic intervention with an antibody (E2814) that binds to the MTBR region of tau, in combination with an amyloid removal background therapy (lecanemab), may prevent initiation or slow down neurodegeneration in DIAD.",
+      "evidence": "Hypothesized mechanism based on previous trials and tau biology; no results are presented as the trial is currently active and not yet completed (results posted: false).",
+      "strength": "not-supported",
+      "location": "Detailed description"
+    }
+  ],
+  "methods": {
+    "design": "Multicenter Randomized, Double-Blind, Placebo-Controlled Platform Trial",
+    "n": 197,
+    "population": "Individuals aged 18-80 with a known Alzheimer's disease-causing genetic mutation, within -10 to +10 years of predicted or actual symptom onset.",
+    "duration": "Up to 208 weeks",
+    "registration": "NCT05269394"
+  },
+  "funding_and_conflicts": "Funded by Washington University School of Medicine (Lead sponsor), Alzheimer's Association, National Institute on Aging (NIA), Accelerating Medicines Partnership (AMP), and Eisai Inc. No conflicts of interest are stated in the registry extract.",
+  "limitations": [
+    "This is a clinical trial registry record, not a completed study; it contains no results, outcome data, or statistical findings to evaluate."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 10,
+    "issues": []
+  },
+  "search_verification": []
+}

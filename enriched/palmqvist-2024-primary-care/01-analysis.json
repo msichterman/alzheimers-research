@@ -1,0 +1,204 @@
+{
+  "kind": "research-paper",
+  "title": "Blood Biomarkers to Detect Alzheimer Disease in Primary Care and Secondary Care",
+  "authors": [
+    {
+      "name": "Palmqvist, Sebastian",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Tideman, Pontus",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Mattsson-Carlgren, Niklas",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Schindler, Suzanne E.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Smith, Ruben",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Ossenkoppele, Rik",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Calling, Susanna",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "West, Tim",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Monane, Mark",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Verghese, Philip B.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Braunstein, Joel B.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Blennow, Kaj",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Janelidze, Shorena",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Stomrud, Erik",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Salvadó, Gemma",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Hansson, Oskar",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Palmqvist, Sebastian",
+  "venue": "JAMA",
+  "published": "2024",
+  "doi": "10.1001/jama.2024.13855",
+  "doi_url": "https://doi.org/10.1001/jama.2024.13855",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39068545",
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "paper",
+    "biomarkers",
+    "amyloid",
+    "tau",
+    "blood-test",
+    "primary-care",
+    "diagnostic-accuracy"
+  ],
+  "themes": [
+    "Blood biomarkers for Alzheimer's disease",
+    "Diagnostic accuracy in primary and secondary care",
+    "Amyloid probability score 2 (APS2)",
+    "Plasma p-tau217",
+    "Clinical evaluation vs biomarker testing"
+  ],
+  "one_line": "A prospective study demonstrating that the APS2 blood test and p-tau217 percentage alone provide significantly higher diagnostic accuracy for Alzheimer's disease than standard clinical evaluation in both primary and secondary care.",
+  "summary": "This study prospectively evaluated the diagnostic accuracy of a clinically available Alzheimer's disease blood test (APS2) and the percentage of p-tau217 in 1213 patients with cognitive symptoms. The cohort included individuals evaluated in both primary and secondary care settings in Sweden. The APS2 algorithm combines the ratio of plasma phosphorylated tau 217 (p-tau217) to non-p-tau217 with the amyloid-beta 42/40 ratio. Results indicated that both the APS2 and the p-tau217 percentage alone achieved a high diagnostic accuracy of 88% to 92% for Alzheimer's disease pathology. In stark contrast, standard clinical evaluation yielded a diagnostic accuracy of only 61% for primary care physicians and 73% for dementia specialists. The findings suggest that utilizing these blood biomarkers could substantially enhance diagnostic precision for Alzheimer's disease in standard clinical practice.",
+  "key_claims": [
+    {
+      "claim": "The APS2 blood test has high diagnostic accuracy (88-92%) for identifying Alzheimer's disease in both primary and secondary care.",
+      "evidence": "In the primary care cohort, AUC was 0.96-0.97, PPV 88-91%, NPV 90-92%. In the secondary care cohort, AUC was 0.96-0.97, PPV 88-91%, NPV 87-91%.",
+      "strength": "strong",
+      "location": "Abstract / Results"
+    },
+    {
+      "claim": "Primary care physicians and dementia specialists have significantly lower diagnostic accuracy using standard clinical evaluation compared to the APS2 blood test.",
+      "evidence": "Primary care physicians had 61% diagnostic accuracy and dementia specialists had 73% diagnostic accuracy, compared to 91% using the APS2.",
+      "strength": "strong",
+      "location": "Abstract / Results"
+    },
+    {
+      "claim": "The percentage of p-tau217 alone provides diagnostic accuracy equivalent to the combined APS2 score.",
+      "evidence": "In the overall population, diagnostic accuracy using APS2 was 90% (95% CI, 88%-92%), which was not statistically different from using the percentage of p-tau217 alone (90% [95% CI, 88%-91%]).",
+      "strength": "strong",
+      "location": "Abstract / Results"
+    }
+  ],
+  "methods": {
+    "design": "Prospective cohort study",
+    "n": 1213,
+    "population": "Patients undergoing clinical evaluation due to cognitive symptoms in primary and secondary care in Sweden (mean age 74.2 years, 48% women).",
+    "duration": "February 2020 to January 2024",
+    "registration": null
+  },
+  "funding_and_conflicts": "none stated",
+  "limitations": [
+    "Only the abstract is provided in this text, meaning detailed methodological limitations, demographic diversity, and conflict of interest declarations are absent."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 10,
+    "issues": [
+      "The source text is a clean, structured abstract but lacks the full manuscript body."
+    ]
+  },
+  "search_verification": []
+}

@@ -1,0 +1,68 @@
+{
+  "kind": "other",
+  "title": "A Study to Evaluate the Efficacy and Safety of Semorinemab in Patients With Prodromal to Mild Alzheimer's Disease",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2022-03-16",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "tau",
+    "immunotherapy",
+    "semorinemab",
+    "monoclonal-antibody"
+  ],
+  "themes": [
+    "Anti-tau immunotherapy",
+    "Clinical trial futility",
+    "Prodromal to mild Alzheimer's disease"
+  ],
+  "one_line": "A phase II trial of the anti-tau monoclonal antibody semorinemab was terminated early after showing no clinical efficacy in patients with prodromal to mild Alzheimer's disease.",
+  "summary": "This phase II, randomized, double-blind, placebo-controlled trial evaluated the efficacy and safety of semorinemab (MTAU9937A), an anti-tau monoclonal antibody, in 457 patients with prodromal to mild Alzheimer's disease. Participants were randomized to receive one of three doses of intravenous semorinemab or placebo. The primary efficacy endpoint was the change from baseline on the Clinical Dementia Rating-Sum of Boxes (CDR-SB) at 73 weeks. The trial was terminated during its open-label extension period due to futility, as analyses of the blinded placebo-controlled portion showed no evidence of clinical efficacy or modulation of tau PET signal accumulation. Specifically, there was no statistically significant difference in CDR-SB decline between the placebo group and any of the three semorinemab dose groups. The drug demonstrated an acceptable safety profile with adverse event rates comparable across treatment and placebo arms.",
+  "key_claims": [
+    {
+      "claim": "Semorinemab did not demonstrate clinical efficacy or slow cognitive decline compared to placebo.",
+      "evidence": "Change from baseline on the CDR-SB at 73 weeks showed no significant differences: Placebo (2.19), Dose 1 (2.36, p=0.6147), Dose 2 (2.36, p=0.5778), and Dose 3 (2.41, p=0.5136).",
+      "strength": "strong",
+      "location": "Posted results / PRIMARY: Change From Baseline on the CDR-SB"
+    },
+    {
+      "claim": "Semorinemab did not improve secondary cognitive or functional outcomes.",
+      "evidence": "No statistically significant differences (p > 0.05) were observed across any dose group versus placebo on the RBANS, ADAS-Cog-13, Amsterdam iADL, or ADCS-ADL secondary endpoints.",
+      "strength": "strong",
+      "location": "Posted results / SECONDARY sections (RBANS, ADAS-Cog-13, iADL, ADCS-ADL)"
+    }
+  ],
+  "methods": {
+    "design": "Phase II, multicenter, randomized, double-blind, placebo-controlled, parallel-group",
+    "n": 457,
+    "population": "Patients aged 50-80 with prodromal to mild Alzheimer's disease, MMSE >= 20, and positive amyloid assessment",
+    "duration": "73 weeks (double-blind) + 96-week optional open-label extension (terminated early)",
+    "registration": "NCT03289143"
+  },
+  "funding_and_conflicts": "Lead sponsor: Genentech, Inc. No author conflicts of interest stated in the registry record.",
+  "limitations": [
+    "The study was terminated early for futility, truncating the open-label extension period.",
+    "The document is a raw clinical trial registry output, lacking the detailed statistical context and peer review of a formal publication."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 9,
+    "issues": [
+      "Adverse event listings are flattened into highly repetitive text lines rather than structured tables, though the underlying data remains fully intact."
+    ]
+  },
+  "search_verification": [
+    "Document contains no DOI or PubMed ID natively; parsed strictly from provided ClinicalTrials.gov registry text."
+  ]
+}

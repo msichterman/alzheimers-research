@@ -1,0 +1,259 @@
+{
+  "kind": "research-paper",
+  "title": "Discriminative Accuracy of Plasma Phospho-tau217 for Alzheimer Disease vs Other Neurodegenerative Disorders",
+  "authors": [
+    {
+      "name": "Palmqvist, Sebastian",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Janelidze, Shorena",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Quiroz, Yakeel T.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Zetterberg, Henrik",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Lopera, Francisco",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Stomrud, Erik",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Su, Yi",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Chen, Yinghua",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Serrano, Geidy E.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Leuzy, Antoine",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Mattsson-Carlgren, Niklas",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Strandberg, Olof",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Smith, Ruben",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Villegas, Andres",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Sepulveda-Falla, Diego",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Chai, Xiyun",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Proctor, Nicholas K.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Beach, Thomas G.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Blennow, Kaj",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Dage, Jeffrey L.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Reiman, Eric M.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Hansson, Oskar",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Palmqvist, Sebastian",
+  "venue": "JAMA",
+  "published": "2020",
+  "doi": "10.1001/jama.2020.12134",
+  "doi_url": "https://doi.org/10.1001/jama.2020.12134",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/32722745",
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "paper",
+    "tau",
+    "biomarkers",
+    "p-tau217",
+    "blood-test",
+    "diagnostic-accuracy"
+  ],
+  "themes": [
+    "Plasma biomarkers for Alzheimer's disease",
+    "Diagnostic accuracy of P-tau217",
+    "Differentiation from other neurodegenerative diseases",
+    "Early detection in familial Alzheimer's disease"
+  ],
+  "one_line": "Plasma P-tau217 is a highly accurate blood biomarker capable of distinguishing Alzheimer's disease from other neurodegenerative disorders and identifying pathology decades before symptom onset.",
+  "summary": "This cross-sectional study evaluated the diagnostic accuracy of plasma P-tau217 for Alzheimer's disease across three diverse cohorts totaling 1,402 participants. The groups included an Arizona-based neuropathology cohort, the Swedish BioFINDER-2 clinical cohort, and a Colombian autosomal-dominant AD kindred (PSEN1 E280A). The study found that plasma P-tau217 accurately discriminated Alzheimer's disease from other neurodegenerative diseases with high accuracy (AUCs ranging from 0.89 to 0.96). This performance was significantly better than other plasma biomarkers like P-tau181 and NfL, as well as MRI measures, and was statistically comparable to established CSF and PET biomarkers. Additionally, plasma P-tau217 levels were significantly elevated in familial mutation carriers roughly 20 years before the estimated onset of mild cognitive impairment.",
+  "key_claims": [
+    {
+      "claim": "Plasma P-tau217 differentiates neuropathologically defined Alzheimer's disease from non-AD with significantly higher accuracy than plasma P-tau181 and NfL.",
+      "evidence": "In cohort 1, the AUC was 0.89 (95% CI, 0.81-0.97) for P-tau217, compared to an AUC range of 0.50-0.72 for P-tau181 and NfL (P < .05).",
+      "strength": "strong",
+      "location": "Results"
+    },
+    {
+      "claim": "Plasma P-tau217 discriminates clinical AD dementia from other neurodegenerative diseases better than MRI and other plasma markers, and comparably to CSF and PET measures.",
+      "evidence": "In cohort 2, the AUC was 0.96 for P-tau217 versus 0.50-0.81 for plasma P-tau181, NfL, and MRI (P < .001); there was no significant difference compared with CSF P-tau217, CSF P-tau181, and tau-PET (AUC range, 0.90-0.99; P > .15).",
+      "strength": "strong",
+      "location": "Results"
+    },
+    {
+      "claim": "Plasma P-tau217 levels are elevated decades before the onset of cognitive symptoms in familial Alzheimer's disease.",
+      "evidence": "In cohort 3 (PSEN1 E280A carriers), P-tau217 levels were significantly greater among mutation carriers from approximately 25 years of age and older, which is 20 years prior to estimated onset of MCI.",
+      "strength": "strong",
+      "location": "Results"
+    },
+    {
+      "claim": "Plasma P-tau217 levels correlate with tau tangles only in the presence of β-amyloid plaques.",
+      "evidence": "In cohort 1, plasma P-tau217 correlated with tau tangles in participants with β-amyloid plaques (Spearman ρ = 0.64; P < .001) but not in those without plaques (Spearman ρ = 0.15; P = .33).",
+      "strength": "moderate",
+      "location": "Results"
+    }
+  ],
+  "methods": {
+    "design": "cross-sectional study",
+    "n": 1402,
+    "population": "Three cohorts: an Arizona neuropathology cohort (n=81), the Swedish BioFINDER-2 clinical cohort (n=699), and a Colombian autosomal-dominant AD kindred (n=622).",
+    "duration": null,
+    "registration": null
+  },
+  "funding_and_conflicts": "none stated",
+  "limitations": [
+    "Findings require validation in unselected and diverse populations.",
+    "The plasma P-tau217 assay needs further optimization to determine its potential role in clinical care.",
+    "The cross-sectional study design limits inferences regarding longitudinal changes."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 9,
+    "issues": [
+      "Missing front-matter metadata entirely (affiliations, corresponding author, emails).",
+      "Funding and conflict of interest sections were not captured in the provided text."
+    ]
+  },
+  "search_verification": []
+}

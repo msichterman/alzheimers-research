@@ -1,0 +1,81 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment regarding masitinib for Alzheimer's disease is highly polarized, split largely between overly enthusiastic retail investors and a cautious, skeptical scientific community. Biotech enthusiasts and long-hauler communities on platforms like Reddit often amplify company press releases, framing the drug as a near-miraculous, broad-spectrum treatment with no downsides. Conversely, the scientific community (e.g., Alzforum) and informed patient cohorts (such as MCAS forums) are quick to point out the drug's troubled regulatory history in Europe and its known side-effect profile. Meanwhile, organic discussion on dedicated Alzheimer's caregiver forums is virtually non-existent, suggesting the drug has not yet penetrated mainstream patient awareness compared to approved anti-amyloid therapies.",
+  "communities": [
+    {
+      "community": "Retail investors and biotech enthusiasts (r/longevity, r/biotech, r/covidlonghaulers)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Halted cognitive decline",
+        "Broad-spectrum miracle drug for multiple conditions (ALS, MS, COVID)",
+        "Claims of almost no negative side effects"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/longevity/comments/khfd32/positive_phase_2_results_claimed_for_masitinib_in/",
+        "https://www.reddit.com/r/biotech/comments/16mpdpl/do_you_know_about_ab_science_masitinib_als_sep/"
+      ]
+    },
+    {
+      "community": "Mast Cell Activation Syndrome (MCAS) patients (r/MCAS)",
+      "sentiment": "skeptical",
+      "themes": [
+        "Regulatory rejections in the EU for mastocytosis",
+        "Doubt regarding regulatory approval despite the interesting mechanism of action"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/MCAS/comments/100kcqb/anyone_in_this_trial/"
+      ]
+    },
+    {
+      "community": "Scientific community (Alzforum)",
+      "sentiment": "mixed",
+      "themes": [
+        "Need for biomarker data in confirmatory Phase 3 trials",
+        "Higher rates of gastrointestinal disorders and edema compared to placebo",
+        "Caution around effect size claims given methodological limitations"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/therapeutics/masitinib",
+        "https://www.alzforum.org/news/research-news/positive-phase-2-results-claimed-masitinib-alzheimers"
+      ]
+    },
+    {
+      "community": "Alzheimer's caregiver forums",
+      "sentiment": "quiet",
+      "themes": [
+        "Lack of organic discussion",
+        "Low patient awareness compared to approved therapies like lecanemab"
+      ],
+      "example_urls": []
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "BioSpace (AB Science Press Release)",
+      "tone": "positive",
+      "date": "2025-06",
+      "url": "https://www.biospace.com/press-releases/ab-science-new-peer-reviewed-data-provide-strong-evidence-supporting-masitinib-potential-for-the-treatment-of-alzheimers-disease"
+    },
+    {
+      "outlet": "Alzforum News",
+      "tone": "neutral",
+      "date": null,
+      "url": "https://www.alzforum.org/news/research-news/positive-phase-2-results-claimed-masitinib-alzheimers"
+    }
+  ],
+  "hype_vs_evidence": "Public hype in investor and biotech communities significantly outpaces the clinical evidence. While company press releases and social media posts tout the drug as halting cognitive decline with minimal downsides, they ignore the failure of the 6.0 mg/kg/day dose arm entirely. The circulating claims of 'almost no negative effects' directly contradict the trial data, which showed a 34.5% dropout rate in the treatment arm and documented adverse events like gastrointestinal disorders and edema. Furthermore, public perception fails to account for the trial's methodological red flags, such as mid-trial protocol amendments and the total lack of fluid or imaging biomarker confirmation.",
+  "misinformation_flags": [
+    "Claims on Reddit that masitinib has 'almost no negative effects', which ignores the high 34.5% premature discontinuation rate and documented gastrointestinal/edema adverse events.",
+    "Framing the AB09004 trial as an unqualified success by solely focusing on the 4.5 mg/kg/day arm while omitting the failure of the higher 6.0 mg/kg/day dose arm."
+  ],
+  "searches_run": [
+    "site:reddit.com masitinib alzheimer",
+    "site:alzforum.org masitinib",
+    "masitinib AB Science Alzheimer news",
+    "masitinib alzheimer forum",
+    "masitinib AB Science stock Yahoo Finance OR Seeking Alpha",
+    "site:alzforum.org/news masitinib",
+    "masitinib side effects forum alzheimer",
+    "AB09004 masitinib alzheimer forum"
+  ]
+}

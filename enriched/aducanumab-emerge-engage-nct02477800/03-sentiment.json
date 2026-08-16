@@ -1,0 +1,78 @@
+{
+  "overall": "skeptical",
+  "summary": "Public sentiment surrounding aducanumab (Aduhelm) is predominantly skeptical and highly polarized. While some patients and caregivers in dementia communities maintain a desperate hope for any disease-modifying treatment, they are increasingly wary of the drug's safety profile and the negative press it has received. The scientific and regulatory communities are overwhelmingly critical, focusing on the FDA's controversial accelerated approval despite the negative futility analysis of the Phase 3 ENGAGE trial. Retail investors and market watchers have also soured on the drug due to poor commercial rollout, pricing issues, and restricted Medicare (CMS) coverage. Overall, the drug is widely viewed as a regulatory failure rather than a medical breakthrough.",
+  "communities": [
+    {
+      "community": "r/Alzheimers and r/dementia (Patients & Caregivers)",
+      "sentiment": "mixed",
+      "themes": [
+        "Desperate need for treatments",
+        "Confusion over conflicting doctor recommendations",
+        "Fear of ARIA side effects",
+        "Insurance and cost barriers"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/dementia/comments/re3kwx/anyone_have_experience_with_aduhelm_aducanumab/",
+        "https://www.reddit.com/r/Alzheimers/comments/oewsdb/aducanumab_aduhelm/"
+      ]
+    },
+    {
+      "community": "r/investing (Retail Investors & Market Watchers)",
+      "sentiment": "negative",
+      "themes": [
+        "Poor commercial performance",
+        "CMS coverage restrictions",
+        "Pricing pushback from ICER",
+        "Follow-up study risks"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/investing/comments/nufdp4/biogen_biib_drug_aduhelm_aducanumab_approved_by/"
+      ]
+    },
+    {
+      "community": "r/RegulatoryClinWriting & r/IndustrialPharmacy (Science/Medical Professionals)",
+      "sentiment": "negative",
+      "themes": [
+        "FDA accelerated approval controversy",
+        "Statistical manipulation and p-hacking",
+        "Advisory committee resignations",
+        "High ARIA rates vs lack of clinical benefit"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/RegulatoryClinWriting/comments/ys4hyv/fdas_accelerated_approval_pathway_different/",
+        "https://www.reddit.com/r/IndustrialPharmacy/comments/nuof4a/fda_approves_alzheimers_drug_aducanumab_aduhelm/",
+        "https://www.reddit.com/r/negativeutilitarians/comments/14bnw3f/in_defense_of_aducanumab_the_controversial_new/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "STAT News",
+      "tone": "positive",
+      "date": "2021-06",
+      "url": "https://www.statnews.com/2021/06/07/fda-aducanumab-approval-paves-way-momentous-alzheimers-breakthroughs/"
+    },
+    {
+      "outlet": "Neurology Advisor",
+      "tone": "critical",
+      "date": null,
+      "url": "https://www.neurologyadvisor.com/features/aducanumab-controversy-accelerated-fda-approval-agency-distrust/"
+    },
+    {
+      "outlet": "New England Journal of Medicine",
+      "tone": "critical",
+      "date": null,
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp2110468"
+    }
+  ],
+  "hype_vs_evidence": "Initial public perception, fueled by manufacturer PR surrounding the FDA approval, framed aducanumab as a groundbreaking disease-modifying cure. However, this hype directly contradicts the Phase 3 221AD301 (ENGAGE) trial data, which was terminated early for futility and showed no statistically significant difference from placebo on primary (CDR-SB) or secondary cognitive measures. Furthermore, while the public hoped for a safe intervention, the evidence demonstrated a severe safety profile, with 35% of high-dose patients experiencing amyloid-related imaging abnormalities (ARIA-E), revealing a massive gap between the drug's marketed promise and its actual clinical utility.",
+  "misinformation_flags": [
+    "Aducanumab reverses Alzheimer's symptoms or significantly slows cognitive decline (contradicts the ENGAGE futility analysis showing no significant difference from placebo).",
+    "The drug is broadly safe for all Alzheimer's patients without major side effects (ignores the 35% incidence of ARIA-E in high-dose groups compared to 3% in placebo)."
+  ],
+  "searches_run": [
+    "site:reddit.com aducanumab OR aduhelm alzheimer",
+    "site:reddit.com BIIB aduhelm",
+    "aducanumab FDA approval statnews"
+  ]
+}

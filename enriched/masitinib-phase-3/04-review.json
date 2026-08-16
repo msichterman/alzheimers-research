@@ -1,0 +1,121 @@
+{
+  "fact_check": [
+    {
+      "fact": "Masitinib 4.5 mg/kg/day showed an ADAS-Cog between-group difference of -2.15 (p < 0.001)",
+      "status": "verified",
+      "note": "Checked against the source document Abstract and Table 2."
+    },
+    {
+      "fact": "Titrated 6.0 mg/kg/day dose failed to show significant treatment effect",
+      "status": "verified",
+      "note": "Checked against the source document Primary efficacy analysis; ADAS-cog p=0.483, ADCS-ADL p=0.807."
+    },
+    {
+      "fact": "Treatment arm had a 34.5% premature discontinuation rate compared to 14.6% in placebo",
+      "status": "verified",
+      "note": "Checked against the source document Patients section detailing discontinuation before week 24."
+    },
+    {
+      "fact": "Primary outcome measures were altered via late protocol amendment",
+      "status": "verified",
+      "note": "Checked against the source document Methods; protocol version 10.0 in December 2017 separated co-primary endpoints into multiple independent primary endpoints."
+    },
+    {
+      "fact": "Total trial enrollment of 718 participants",
+      "status": "disputed",
+      "note": "The paper explicitly calculates 718 randomized patients across all arms, while the clinical registry records 721. Carried 718 forward as the analyzed population."
+    }
+  ],
+  "research_page": {
+    "slug": "masitinib-phase-3-ab09004",
+    "title": "Masitinib in mild-to-moderate AD (Phase 3)",
+    "description": "A Phase 3 trial of the tyrosine kinase inhibitor masitinib reported cognitive benefit at 4.5 mg/kg/day but failed at a higher dose, amid methodological controversies.",
+    "tags": [
+      "paper",
+      "trial",
+      "masitinib",
+      "small-molecule",
+      "inflammation"
+    ],
+    "source_line_md": "**Source**: [Alzheimer's Research & Therapy, 2023](https://doi.org/10.1186/s13195-023-01169-x) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/36849969)",
+    "authors_line_md": "Dubois et al. — AB Science",
+    "takeaway_md": "Masitinib at 4.5 mg/kg/day demonstrated a statistically significant slowing of cognitive decline on the ADAS-Cog in mild-to-moderate Alzheimer's disease. However, the trial's evidence is highly uncertain due to a late protocol amendment lowering the bar for success, severe patient dropout rates in the active arm, and the failure of a higher 6.0 mg/kg/day dose. A confirmatory Phase 3 trial is underway to address these methodological weaknesses.",
+    "key_findings_md": [
+      "Patients receiving 4.5 mg/kg/day masitinib showed significantly less cognitive decline than placebo on the ADAS-Cog (-2.15 point difference, p<0.001) (paper, Table 2).",
+      "The 4.5 mg/kg/day arm missed the required 2.5% alpha significance level for functional improvement on the ADCS-ADL (1.82 point difference, p=0.038) (paper, Table 2).",
+      "A separate, titrated 6.0 mg/kg/day dose arm failed to show significant benefit on either cognitive or functional measures (paper, Table 2)."
+    ],
+    "methods_md": "Randomized, double-blind, placebo-controlled Phase 3 trial (NCT01872598) spanning 24 weeks. The trial enrolled 718 patients aged 50 and older with mild-to-moderate probable Alzheimer's disease (MMSE 12–25) treated with standard-of-care cholinesterase inhibitors or memantine.",
+    "trial_evidence_md": "This document reports the principal findings of the Phase 3 [AB09004](/trials/masitinib-ab09004) trial. Due to shifting endpoints and a lack of biomarker confirmation, the clinical evidence for masitinib remains weak. The sponsor has initiated a confirmatory Phase 3 trial ([AB21004](/trials/masitinib-ab21004)) restricted to mild Alzheimer's patients with confirmed amyloid/tau biomarkers to substantiate the drug's efficacy.",
+    "sentiment_md": "Public perception of masitinib is highly polarized. Retail investors and biotech enthusiasts frequently hype the drug on social media as a broad-spectrum treatment that halts cognitive decline with minimal side effects. In contrast, the scientific community and informed patient groups note its high dropout rates, lack of biomarker data, and past regulatory struggles in Europe for other indications.",
+    "caveats_md": [
+      "Efficacy was declared based solely on the ADAS-Cog cognitive scale; the drug failed to produce a statistically significant functional benefit on the ADCS-ADL.",
+      "Changing the statistical bar for success late in the trial (after 81% of patients reached 24 weeks) significantly weakens the reliability of the positive result.",
+      "Trial dropouts were substantially higher in the active treatment arm (34.5% vs 14.6%), meaning the positive results heavily rely on statistical imputation for missing patient data.",
+      "The trial enrolled patients based on clinical symptoms without confirming amyloid or tau pathology, raising the possibility that some participants did not actually have Alzheimer's disease."
+    ],
+    "relates_to_md": [
+      "[AB09004](/trials/masitinib-ab09004) — The primary Phase 3 trial reported in this document.",
+      "[AB21004](/trials/masitinib-ab21004) — The subsequent confirmatory Phase 3 trial requiring biomarker verification."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "masitinib-ab09004",
+      "title": "Masitinib Phase 3 in mild-to-moderate AD (AB09004)",
+      "description": "Phase 3 trial evaluating the tyrosine kinase inhibitor masitinib in patients with mild-to-moderate Alzheimer's disease without required biomarker confirmation.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "masitinib",
+        "phase-3",
+        "small-molecule"
+      ],
+      "registry_md": "[NCT01872598](https://clinicaltrials.gov/study/NCT01872598)",
+      "drug": "Masitinib (tyrosine kinase inhibitor)",
+      "phase": "3",
+      "sponsor": "AB Science",
+      "population": "Patients aged ≥50 years with mild to moderate Alzheimer's disease (MMSE 12-25) treated with standard of care",
+      "primary_endpoint": "Change in ADCS-ADL and ADAS-Cog at 24 weeks",
+      "started": "2012-01",
+      "readout": "2020-12",
+      "why_md": "This trial evaluated whether modulating the neuroimmune system (specifically mast cells and microglia) with masitinib could slow cognitive and functional decline in symptomatic Alzheimer's disease.",
+      "status_log_md": [
+        "**2023-02-28** — Phase 3 trial results published in [Alzheimer's Research & Therapy](/research/papers/masitinib-phase-3-ab09004), reporting significant cognitive benefit at 4.5 mg/kg/day but failing at 6.0 mg/kg/day."
+      ],
+      "results_md": "The trial reported a significant cognitive benefit on the ADAS-Cog for the 4.5 mg/kg/day arm, but missed significance for the functional ADCS-ADL endpoint. A higher 6.0 mg/kg/day escalating dose failed to show efficacy. Findings are heavily complicated by a high dropout rate (34.5%) and a late protocol amendment separating the originally designated co-primary endpoints."
+    },
+    {
+      "slug": "masitinib-ab21004",
+      "title": "Masitinib confirmatory Phase 3 in mild AD (AB21004)",
+      "description": "Confirmatory Phase 3 trial of masitinib in mild Alzheimer's disease requiring positive amyloid/tau biomarker confirmation.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "masitinib",
+        "phase-3",
+        "small-molecule"
+      ],
+      "registry_md": "[NCT05564169](https://clinicaltrials.gov/study/NCT05564169)",
+      "drug": "Masitinib (tyrosine kinase inhibitor)",
+      "phase": "3",
+      "sponsor": "AB Science",
+      "population": "Patients with mild Alzheimer's disease (MMSE 21-25) with a positive amyloid/tau biomarker profile",
+      "primary_endpoint": "Absolute change from baseline in iADRS score at week 24",
+      "started": "2026-06",
+      "readout": "2028-12",
+      "why_md": "Following mixed and methodologically complicated results in the [AB09004](/trials/masitinib-ab09004) trial, this study serves as a rigorous confirmatory trial requiring biological confirmation of Alzheimer's disease pathology.",
+      "status_log_md": [],
+      "results_md": null
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2023-02",
+      "title": "2023-02 — Masitinib Phase 3 trial reports mixed results",
+      "body_md": "AB Science published results from a Phase 3 trial of [masitinib](/research/papers/masitinib-phase-3-ab09004), showing cognitive benefit at a lower dose but failing at a higher dose amid methodological controversies."
+    }
+  ],
+  "notes_for_editor": []
+}

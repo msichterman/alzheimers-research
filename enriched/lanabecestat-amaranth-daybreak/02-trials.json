@@ -1,0 +1,94 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT02245737",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02245737",
+      "name": "AMARANTH",
+      "drug": "Lanabecestat",
+      "phase": "2/3",
+      "sponsor": "AstraZeneca",
+      "status": "Terminated",
+      "enrollment": 2218,
+      "population": "Early Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline on the 13-item Alzheimer's Disease Assessment Scale - Cognitive Subscale (ADAS-Cog13)",
+      "started": "2014-09",
+      "completed_or_readout": "2018-10",
+      "results_summary": "Terminated early for futility. The drug failed to show cognitive or functional benefit compared to placebo despite reducing amyloid biomarkers.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02783573",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02783573",
+      "name": "DAYBREAK-ALZ",
+      "drug": "Lanabecestat",
+      "phase": "3",
+      "sponsor": "AstraZeneca",
+      "status": "Terminated",
+      "enrollment": 1722,
+      "population": "Mild Alzheimer's Disease Dementia",
+      "primary_endpoint": "Change From Baseline in Alzheimer´s Disease Assessment Scale- Cognitive Subscale (ADAS-Cog13) Score",
+      "started": "2016-07",
+      "completed_or_readout": "2018-09",
+      "results_summary": "Terminated early for futility alongside AMARANTH. No significant slowing of cognitive decline was observed, while adverse events were elevated.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02972658",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02972658",
+      "name": null,
+      "drug": "Lanabecestat",
+      "phase": "3",
+      "sponsor": "AstraZeneca",
+      "status": "Terminated",
+      "enrollment": 421,
+      "population": "Early Alzheimer's Disease Dementia (rollover participants from AMARANTH)",
+      "primary_endpoint": "Change From Baseline Analysis on the 13-item Alzheimer's Disease Assessment Scale - Cognitive Subscale (ADAS-Cog13)",
+      "started": "2017-03",
+      "completed_or_readout": "2018-10",
+      "results_summary": "Terminated early alongside the parent trials after an independent data monitoring committee recommended halting the program for futility.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01739647",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01739647",
+      "name": null,
+      "drug": "AZD3293 (Lanabecestat)",
+      "phase": "1",
+      "sponsor": "AstraZeneca",
+      "status": "Completed",
+      "enrollment": 72,
+      "population": "Healthy Subjects",
+      "primary_endpoint": "Adverse event monitoring.",
+      "started": "2012-12",
+      "completed_or_readout": "2013-05",
+      "results_summary": "First-in-human study assessing single-dose safety, tolerability, and pharmacokinetics of AZD3293 in healthy volunteers.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2019-12-01",
+      "kind": "paper",
+      "description": "Primary publication detailing the efficacy and safety results of the terminated AMARANTH and DAYBREAK-ALZ trials.",
+      "url": "https://doi.org/10.1001/jamaneurol.2019.3988"
+    },
+    {
+      "date": "2018-10",
+      "kind": "registry-results",
+      "description": "Posted results for the AMARANTH trial confirming termination and primary endpoint failure.",
+      "url": "https://clinicaltrials.gov/study/NCT02245737"
+    },
+    {
+      "date": "2018-09",
+      "kind": "registry-results",
+      "description": "Posted results for the DAYBREAK-ALZ trial confirming termination and primary endpoint failure.",
+      "url": "https://clinicaltrials.gov/study/NCT02783573"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence robustly supports the document's central claims regarding lanabecestat's failure as a disease-modifying treatment in early and mild Alzheimer's disease. ClinicalTrials.gov records confirm that the pivotal Phase 2/3 AMARANTH and Phase 3 DAYBREAK-ALZ trials were both terminated for futility in 2018, which consequently halted the entire clinical program including the extension study NCT02972658. The published data conclusively demonstrate that despite achieving target engagement through significant reductions in CSF Aβ, the drug failed to yield cognitive or functional benefits. The finding of increased psychiatric adverse events and hippocampal volume loss further reinforces the broader scientific consensus that BACE1 inhibition at this disease stage entails unacceptable off-target toxicities without corresponding clinical efficacy.",
+  "discrepancies": []
+}

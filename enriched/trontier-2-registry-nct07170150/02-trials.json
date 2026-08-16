@@ -1,0 +1,90 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT07170150",
+      "registry_url": "https://clinicaltrials.gov/study/NCT07170150",
+      "name": "TRONTIER 2",
+      "drug": "Trontinemab (TfR-mediated anti-amyloid antibody)",
+      "phase": "3",
+      "sponsor": "Hoffmann-La Roche",
+      "status": "Recruiting",
+      "enrollment": 800,
+      "population": "Early symptomatic Alzheimer's disease (MCI to mild dementia due to AD)",
+      "primary_endpoint": "Change from baseline to Week 72 in Clinical Dementia Rating, Sum of Boxes (CDR-SB)",
+      "started": "2025-11",
+      "completed_or_readout": "2028-06",
+      "results_summary": null,
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT07169578",
+      "registry_url": "https://clinicaltrials.gov/study/NCT07169578",
+      "name": "TRONTIER 1",
+      "drug": "Trontinemab (TfR-mediated anti-amyloid antibody)",
+      "phase": "3",
+      "sponsor": "Hoffmann-La Roche",
+      "status": "Recruiting",
+      "enrollment": 800,
+      "population": "Early symptomatic Alzheimer's disease (MCI to mild dementia due to AD)",
+      "primary_endpoint": "Change from baseline to Week 72 in Clinical Dementia Rating, Sum of Boxes (CDR-SB)",
+      "started": "2025-09",
+      "completed_or_readout": "2028-06",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT07717411",
+      "registry_url": "https://clinicaltrials.gov/study/NCT07717411",
+      "name": "PrevenTRON",
+      "drug": "Trontinemab (TfR-mediated anti-amyloid antibody)",
+      "phase": "3",
+      "sponsor": "Hoffmann-La Roche",
+      "status": "Unknown",
+      "enrollment": 1600,
+      "population": "Cognitively unimpaired individuals at risk for progression to symptomatic Alzheimer's disease",
+      "primary_endpoint": "Time to Progression, defined as confirmed Clinical Dementia Rating - Global Score (CDR-GS) > 0",
+      "started": "2026-11",
+      "completed_or_readout": "2032-09",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04639050",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04639050",
+      "name": "Brainshuttle AD",
+      "drug": "Trontinemab (TfR-mediated anti-amyloid antibody)",
+      "phase": "2",
+      "sponsor": "Hoffmann-La Roche",
+      "status": "Active",
+      "enrollment": 241,
+      "population": "Prodromal or mild to moderate Alzheimer's disease",
+      "primary_endpoint": "Percentage of participants with adverse events (AEs) and change from baseline in brain amyloid load",
+      "started": "2021-03",
+      "completed_or_readout": "2027-07",
+      "results_summary": null,
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2023-10-12",
+      "kind": "paper",
+      "description": "Preclinical assessment and dose projections for trontinemab delivery to non-human primate brains.",
+      "url": "https://doi.org/10.1080/19420862.2023.2261509"
+    },
+    {
+      "date": "2025-06-26",
+      "kind": "paper",
+      "description": "Translational minimal physiologically based pharmacokinetic modeling for transferrin receptor-mediated brain delivery of antibodies like trontinemab.",
+      "url": "https://doi.org/10.1080/19420862.2025.2515414"
+    }
+  ],
+  "evidence_assessment": "Trontinemab (RO7126209) is an investigational transferrin receptor-binding Brain Shuttle antibody designed to enhance central nervous system penetration of the anti-amyloid therapy gantenerumab. The clinical evidence base currently centers on an ongoing Phase 1/2 multiple ascending dose study (Brainshuttle AD, NCT04639050), which has not yet yielded peer-reviewed final results in the literature or on the registry. However, the sponsor has initiated a massive late-stage clinical program comprising three Phase 3 trials: TRONTIER 1 and TRONTIER 2 in early symptomatic AD, and PrevenTRON in preclinical AD, aiming to enroll a combined 3,200 patients. This rapid progression into a broad Phase 3 program strongly implies that interim Phase 1/2 biomarker data showed robust target engagement (e.g., profound amyloid plaque clearance) sufficient to justify substantial investment.",
+  "discrepancies": [
+    "No substantive discrepancies were found. The document accurately reflects the registry record for NCT07170150, including trial size, patient population, primary endpoint, and timelines. The only minor variance is the document's reference to 'baseline MMSE' whereas the registry strictly specifies a 'screening MMSE score >= 22'."
+  ]
+}

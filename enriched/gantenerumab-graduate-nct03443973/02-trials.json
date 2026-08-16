@@ -1,0 +1,88 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT03443973",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03443973",
+      "name": "GRADUATE II",
+      "drug": "gantenerumab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Hoffmann-La Roche",
+      "status": "Terminated",
+      "enrollment": 975,
+      "population": "Alzheimer Disease",
+      "primary_endpoint": "DBT Period: Change From Baseline to Week 116 in Global Outcome, as Measured by CDR-SB",
+      "started": "2018-08",
+      "completed_or_readout": "2022-09",
+      "results_summary": "Gantenerumab reduced brain amyloid burden and improved downstream biomarkers but failed to demonstrate a statistically significant slowing of clinical decline on the CDR-SB, prompting trial termination.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03444870",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03444870",
+      "name": "GRADUATE I",
+      "drug": "gantenerumab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Hoffmann-La Roche",
+      "status": "Terminated",
+      "enrollment": 1053,
+      "population": "Alzheimer Disease",
+      "primary_endpoint": "DBT Period: Change From Baseline to Week 116 in Global Outcome, as Measured by CDR-SB",
+      "started": "2018-06",
+      "completed_or_readout": "2022-12",
+      "results_summary": "A parallel Phase 3 sister trial to GRADUATE II (referred to internally as WN29922). It similarly failed to meet its primary clinical endpoint despite effectively clearing amyloid, leading Roche to halt the clinical development program.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01224106",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01224106",
+      "name": "SCarlet RoAD",
+      "drug": "gantenerumab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Hoffmann-La Roche",
+      "status": "Completed",
+      "enrollment": 799,
+      "population": "Alzheimer's Disease",
+      "primary_endpoint": "Mean Change From Baseline in Clinical Dementia Rating Scale Sum of Boxes (CDR-SOB) Total Score at Week 104",
+      "started": "2010-11",
+      "completed_or_readout": "2020-09",
+      "results_summary": "An earlier Phase 3 trial in prodromal AD that was halted for futility in 2014. Post-hoc evidence of dose-dependent amyloid clearance informed the higher-dosing strategy used in the later GRADUATE trials.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02051608",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02051608",
+      "name": "Marguerite RoAD",
+      "drug": "gantenerumab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Hoffmann-La Roche",
+      "status": "Completed",
+      "enrollment": 389,
+      "population": "Alzheimer's Disease",
+      "primary_endpoint": "Part 2: Percentage of Participants With Adverse Events (AEs) or Serious Adverse Events (SAEs)",
+      "started": "2014-03",
+      "completed_or_readout": "2021-04",
+      "results_summary": "An earlier Phase 3 trial in mild AD that was halted early for futility alongside SCarlet RoAD, and was subsequently converted into an open-label extension to test higher doses of the antibody.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2022-11-14",
+      "kind": "company",
+      "description": "Roche press release announcing topline Phase III results: gantenerumab failed to meet its primary endpoints in GRADUATE I and II.",
+      "url": "https://www.roche.com/media/releases/med-cor-2022-11-14"
+    },
+    {
+      "date": "2023-11-16",
+      "kind": "paper",
+      "description": "Primary peer-reviewed publication of the Phase 3 GRADUATE I and II trial results in NEJM.",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2304430"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence regarding gantenerumab in early Alzheimer's disease is robust, well-powered, and definitively negative for clinical efficacy. The Phase 3 GRADUATE I and II trials conclusively demonstrated that while subcutaneous gantenerumab successfully clears brain amyloid plaques and improves downstream fluid biomarkers, these biological changes do not translate into a statistically significant slowing of cognitive or functional decline. The primary endpoint (CDR-SB) was not met in either large-scale cohort, confirming earlier futility signals seen in the SCarlet RoAD and Marguerite RoAD trials. Consequently, Roche permanently terminated the gantenerumab clinical development program, fully corroborating the document's central claims.",
+  "discrepancies": []
+}

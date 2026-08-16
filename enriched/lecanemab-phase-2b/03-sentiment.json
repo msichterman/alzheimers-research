@@ -1,0 +1,77 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment around lecanemab (Leqembi) is deeply mixed, reflecting a tension between the desperation for Alzheimer's treatments and the drug's severe safety risks. Patients and caregivers express cautious hope, viewing the drug as a way to buy time despite grueling infusion reactions and the looming threat of brain swelling. Meanwhile, investors focus heavily on commercial viability, reacting positively to high patient retention rates but remaining highly sensitive to any new ARIA safety signals that could threaten adoption. In the scientific community, sentiment leans skeptical; while researchers acknowledge the drug successfully clears amyloid and statistically slows decline, intense debate continues over whether a 27% slowing of decline is clinically meaningful enough to justify the fatal risks of ARIA and observed brain shrinkage. Mainstream media coverage amplifies these dual narratives, celebrating regulatory approvals while aggressively spotlighting patient deaths.",
+  "communities": [
+    {
+      "community": "Patients and Caregivers (r/Alzheimers)",
+      "sentiment": "hopeful",
+      "themes": [
+        "Severe initial infusion reactions (chills, muscle aches)",
+        "Hope for maintaining cognitive baseline and buying time",
+        "Anxiety over ARIA (brain bleeding and swelling)",
+        "Logistical burden of biweekly infusions and frequent MRIs"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/comments/1o8vtmj/anyone_currently_on_lecanemab/",
+        "https://www.reddit.com/r/Alzheimers/comments/1cr0vc2/leqembilecanemab/"
+      ]
+    },
+    {
+      "community": "Retail Investors (Biogen/Eisai)",
+      "sentiment": "mixed",
+      "themes": [
+        "High patient retention rates driving commercial success",
+        "Stock price sensitivity to adverse safety data and ARIA incidence",
+        "Anticipation of a subcutaneous formulation to boost adoption"
+      ],
+      "example_urls": [
+        "https://www.investing.com/news/company-news/lecanemab-shows-67-patient-retention-at-24-months-in-us-study-93CH-4573344",
+        "https://www.stocktitan.net/news/BIIB/leqembi-real-world-leader-study-presented-at-aaic-2026-finds-over-75-xe4kust4d0ny.html"
+      ]
+    },
+    {
+      "community": "Scientific and Medical Community (Alzforum)",
+      "sentiment": "skeptical",
+      "themes": [
+        "Modest clinical benefit compared to successful amyloid clearance",
+        "Serious concerns over fatal ARIA cases and brain shrinkage (ventricular expansion)",
+        "Debate over real-world clinical capacity and safety monitoring"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/research-news/brain-woman-who-died-leqembi-shows-worst-case-scenario",
+        "https://www.alzforum.org/news/research-news/rising-leqembi-prescriptions-are-straining-clinic-capacity"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Bloomberg",
+      "tone": "critical",
+      "date": "2025-03",
+      "url": "https://www.bloomberg.com/news/features/2025-03-31/deaths-linked-to-alzheimer-s-drug-leqembi-spur-concerns-over-who-gets-it"
+    },
+    {
+      "outlet": "Reuters",
+      "tone": "neutral",
+      "date": "2025-08",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/fda-recommends-more-monitoring-alzheimers-patients-eisai-biogens-drug-leqembi-2025-08-28/"
+    },
+    {
+      "outlet": "The New York Times",
+      "tone": "positive",
+      "date": "2023-07",
+      "url": "https://www.nytimes.com/2023/07/06/health/alzheimers-leqembi-medicare.html"
+    }
+  ],
+  "hype_vs_evidence": "While some patients and retail investors hype lecanemab as a breakthrough that can halt or reverse Alzheimer's, the clinical evidence demonstrates only a modest ~27% slowing of cognitive decline over 18 months, which may be imperceptible to many families. Public perception sometimes underestimates the severity of Amyloid-Related Imaging Abnormalities (ARIA), whereas real-world evidence and trial data show a significant risk of brain edema and hemorrhage, particularly in APOE4 carriers. Furthermore, the scientific community is highly concerned about MRI-observed brain shrinkage (ventricular expansion) associated with the drug, a risk that is largely absent from mainstream caregiver discussions.",
+  "misinformation_flags": [
+    "Claims that lecanemab can reverse or completely cure Alzheimer's disease, rather than just modestly slowing decline.",
+    "Misunderstanding of genetic risks, with some patients unaware that carrying the APOE4 allele significantly increases the risk of severe and potentially fatal ARIA."
+  ],
+  "searches_run": [
+    "site:reddit.com lecanemab alzheimers",
+    "lecanemab eisai stock investor sentiment OR ARIA",
+    "site:alzforum.org lecanemab ARIA efficacy",
+    "lecanemab OR Leqembi news NYT OR Reuters OR Bloomberg"
+  ]
+}

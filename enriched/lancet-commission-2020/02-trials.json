@@ -1,0 +1,120 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT01041989",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01041989",
+      "name": "FINGER",
+      "drug": "Lifestyle counseling (multidomain intervention)",
+      "phase": "n/a",
+      "sponsor": "Finnish Institute for Health and Welfare",
+      "status": "Active",
+      "enrollment": 1200,
+      "population": "Adults 60-77 years with increased dementia risk score",
+      "primary_endpoint": "Cognitive impairment assessed with a Neuropsychological Test Battery",
+      "started": "2009-09",
+      "completed_or_readout": "2013-12",
+      "results_summary": "The 2-year multidomain lifestyle intervention significantly improved overall cognitive performance (measured by NTB z-score) compared to standard counseling. Extended follow-up for hard dementia incidence is ongoing.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT00672685",
+      "registry_url": "https://clinicaltrials.gov/study/NCT00672685",
+      "name": "MAPT",
+      "drug": "Omega-3 and/or multidomain lifestyle intervention",
+      "phase": "n/a",
+      "sponsor": "University Hospital, Toulouse",
+      "status": "Completed",
+      "enrollment": 1680,
+      "population": "Frail elderly subjects aged 70 years and older",
+      "primary_endpoint": "Change in cognitive function at 36 months (composite score)",
+      "started": "2008-05",
+      "completed_or_readout": "2014-04",
+      "results_summary": "The multidomain intervention (with or without omega-3 fatty acids) failed to significantly slow cognitive decline over 3 years compared to placebo in frail older adults.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03688126",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03688126",
+      "name": "U.S. POINTER",
+      "drug": "Structured vs. Self-Guided Lifestyle Intervention",
+      "phase": "n/a",
+      "sponsor": "Wake Forest University Health Sciences",
+      "status": "Completed",
+      "enrollment": 2000,
+      "population": "Sedentary older adults (60-79) with suboptimal diet and increased risk for cognitive decline",
+      "primary_endpoint": "Global cognitive function composite score",
+      "started": "2019-01",
+      "completed_or_readout": "2025-05",
+      "results_summary": "Aimed to replicate the FINGER trial in a diverse US population. Completed in 2025, with results evaluating structured versus self-guided lifestyle interventions.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01206062",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01206062",
+      "name": "SPRINT MIND",
+      "drug": "Intensive antihypertensive therapy",
+      "phase": "3",
+      "sponsor": "National Heart, Lung, and Blood Institute (NHLBI)",
+      "status": "Completed",
+      "enrollment": 9361,
+      "population": "Adults >= 50 years with hypertension and increased cardiovascular risk",
+      "primary_endpoint": "Incidence of probable dementia",
+      "started": "2010-10",
+      "completed_or_readout": "2019-02",
+      "results_summary": "Intensive blood pressure lowering significantly reduced the incidence of mild cognitive impairment (MCI). However, it did not significantly reduce the primary cognitive endpoint of probable dementia.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02008357",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02008357",
+      "name": "A4 Study",
+      "drug": "Solanezumab (anti-amyloid antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Completed",
+      "enrollment": 1169,
+      "population": "Cognitively normal older adults with evidence of brain amyloid",
+      "primary_endpoint": "Change in Preclinical Alzheimer Cognitive Composite (PACC) score",
+      "started": "2014-02",
+      "completed_or_readout": "2023-12",
+      "results_summary": "Solanezumab did not significantly slow cognitive decline or reduce the risk of progression to symptomatic Alzheimer's disease in asymptomatic, amyloid-positive individuals over 4.5 years.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2015-06",
+      "kind": "paper",
+      "description": "FINGER 2-year multidomain intervention results demonstrating modest but significant improvement in cognitive test scores.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25771249/"
+    },
+    {
+      "date": "2017-05",
+      "kind": "paper",
+      "description": "MAPT 3-year randomized trial showing lack of significant effect of multidomain intervention on cognitive function in frail elderly adults.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28359749/"
+    },
+    {
+      "date": "2019-02-12",
+      "kind": "paper",
+      "description": "SPRINT MIND results showing intensive BP control reduced MCI but not probable dementia.",
+      "url": "https://doi.org/10.1001/jama.2018.21442"
+    },
+    {
+      "date": "2023-09-21",
+      "kind": "paper",
+      "description": "A4 study (solanezumab) in preclinical Alzheimer's disease confirming that amyloid positivity alone is not a sufficient target to prevent progression over 4.5 years.",
+      "url": "https://doi.org/10.1056/NEJMoa2305032"
+    }
+  ],
+  "evidence_assessment": "The clinical trial evidence partially supports but often falls short of the robust claims made by epidemiological modeling in the Lancet Commission report. While the Commission estimates that up to 40% of dementias could be prevented by modifying 12 risk factors, large prospective randomized controlled trials of multidomain lifestyle interventions (like MAPT) have struggled to demonstrate significant reductions in cognitive decline. Even the landmark FINGER trial showed only modest improvements in cognitive test z-scores, with its true impact on actual dementia incidence still undergoing long-term follow-up. Furthermore, intensive pharmacological modification of key risk factors, such as blood pressure in the SPRINT MIND trial, successfully reduced mild cognitive impairment but failed to significantly reduce the incidence of probable dementia. Conversely, the Commission's skepticism regarding the predictive power of amyloid biomarkers in asymptomatic individuals is strongly validated by the clinical failure of secondary prevention trials like the A4 study.",
+  "discrepancies": [
+    "The document's headline claim that modifying 12 risk factors might prevent up to 40% of dementias relies on Population Attributable Fractions (PAF) assuming full causality and eradication of risk factors. However, prospective interventional trials (e.g., MAPT, PreDIVA, and SPRINT MIND) have largely failed to demonstrate significant reductions in actual dementia incidence, achieving only modest or null effects on intermediate cognitive endpoints.",
+    "While the Lancet model structurally treats these factors as highly modifiable vectors to prevent disease onset, real-world randomized multidomain interventions have struggled to prove that lifestyle alterations reliably bend the trajectory of dementia pathology in aging populations to the extent epidemiological models predict."
+  ]
+}

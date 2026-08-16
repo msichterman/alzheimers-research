@@ -1,0 +1,62 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT06122415",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06122415",
+      "name": "Validate (The Swedish BioFINDER - Memory Clinic Study)",
+      "drug": "Plasma p-tau217 Lumipulse (Diagnostic immunoassay)",
+      "phase": "n/a",
+      "sponsor": "Skane University Hospital",
+      "status": "Recruiting",
+      "enrollment": 1200,
+      "population": "Patients with cognitive symptoms (subjective cognitive decline, mild cognitive impairment or dementia) at a secondary memory clinic.",
+      "primary_endpoint": "Brain AD pathology as determined by CSF AD biomarkers (CSF Ab42/Ab40 and p-tau217)",
+      "started": "2022-12",
+      "completed_or_readout": "2026-12",
+      "results_summary": "No official registry results yet. The document reports early cross-sectional readouts from this cohort showing high diagnostic accuracy (89-91%) for plasma p-tau217 to detect AD pathology in secondary care, supporting its utility in clinical routines.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT06120361",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06120361",
+      "name": "ADetect (The Swedish BioFINDER - Primary Care Study)",
+      "drug": "Plasma p-tau217 Lumipulse (Diagnostic immunoassay)",
+      "phase": "n/a",
+      "sponsor": "Skane University Hospital",
+      "status": "Recruiting",
+      "enrollment": 1200,
+      "population": "Patients seeking medical care due to mild cognitive symptoms in primary care units.",
+      "primary_endpoint": "Presence of brain AD pathology as determined by CSF AD biomarkers (CSF Ab42/Ab40 and p-tau217)",
+      "started": "2020-01",
+      "completed_or_readout": "2028-12",
+      "results_summary": "No official registry results yet. The document reports early cross-sectional readouts showing 85% accuracy in primary care, which dropped in older patients (≥80 years) and was slightly lower than the mass spectrometry benchmark.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2025-04-09",
+      "kind": "paper",
+      "description": "Publication of the cross-sectional diagnostic accuracy results of Lumipulse p-tau217 in primary and secondary care cohorts (the analyzed document).",
+      "url": "https://doi.org/10.1038/s41591-025-03622-w"
+    },
+    {
+      "date": "2025-12-17",
+      "kind": "paper",
+      "description": "Publication discussing the late-2025 FDA approval of the Lumipulse G pTau217/β-amyloid 1-42 plasma ratio test as an accessible diagnostic aid.",
+      "url": "https://doi.org/10.1097/ms9.0000000000004609"
+    },
+    {
+      "date": "2024-03-16",
+      "kind": "paper",
+      "description": "Clinical validation of the C2N PrecivityAD2 mass spectrometry blood test, serving as the benchmark comparator in the document.",
+      "url": "https://doi.org/10.1002/alz.13764"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence for plasma p-tau217 as an Alzheimer's diagnostic biomarker is highly robust. The fully automated Lumipulse immunoassay has demonstrated high diagnostic accuracy across multiple prospective cohorts, achieving 89-91% accuracy in secondary care and culminating in the FDA approval of its plasma ratio test in 2025. Although its single-cutoff accuracy slightly drops in older primary care populations (83-87%) compared to more expensive mass spectrometry assays like PrecivityAD2, a two-cutoff approach recovers positive predictive values above 90% at the cost of an intermediate 'gray' zone. Overall, the biomarker provides a scalable, non-invasive alternative to CSF sampling and PET scans for triaging suspected Alzheimer's cases in both primary and secondary care.",
+  "discrepancies": [
+    "The document lists NCT06122415 and NCT06120361 under 'registration' which could imply these are completed studies, but the registry records for both BioFINDER cohorts list them as currently 'Recruiting' with expected completions in 2026 and 2028; the published paper represents an interim cross-sectional readout of participants enrolled to date rather than final longitudinal trial results."
+  ]
+}

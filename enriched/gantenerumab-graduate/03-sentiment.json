@@ -1,0 +1,76 @@
+{
+  "overall": "skeptical",
+  "summary": "The public sentiment surrounding Gantenerumab is predominantly skeptical following the clear failure of the Phase 3 GRADUATE trials to slow cognitive decline. While the scientific community acknowledges its ability to engage the target and improve certain fluid biomarkers, researchers recognize the drug fell short clinically due to insufficient plaque clearance. Consequently, scientific hope has pivoted toward Gantenerumab's successor, Trontinemab, which uses a brain-shuttle technology to improve delivery. Retail investors view the drug as a significant disappointment that damaged Roche's stock and yielded the Alzheimer's market to competitors. Meanwhile, patients and caregivers express deep frustration, citing the drug's failure to improve memory and voicing significant distrust over the risks of brain swelling (ARIA).",
+  "communities": [
+    {
+      "community": "Science & Medical Community (Alzforum, r/science)",
+      "sentiment": "mixed",
+      "themes": [
+        "Failed to slow cognitive decline despite moving some fluid biomarkers",
+        "Did not clear amyloid fast or deep enough to achieve clinical benefit",
+        "Focus is pivoting to the next-generation brain-shuttle drug Trontinemab",
+        "Demonstrated some symptom delay in familial AD, but is not a cure"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/therapeutics/gantenerumab",
+        "https://www.alzforum.org/news/research-news/gantenerumab-falls-short-phase-3-0"
+      ]
+    },
+    {
+      "community": "Retail Investors & Markets",
+      "sentiment": "negative",
+      "themes": [
+        "Disappointing Phase 3 results caused Roche stock to drop 3-5%",
+        "Viewed as a major setback yielding the Alzheimer's market to competitors like Biogen and Eli Lilly",
+        "Considered a sunk cost with investor focus shifting to other pipeline assets"
+      ],
+      "example_urls": [
+        "https://www.biopharmadive.com/news/roche-gantenerumab-trial-failure-alzheimers/636450/",
+        "https://www.xtb.com/cy/market-analysis/news-and-research/roche-plunges-as-new-alzheimers-drug-delivers-disappointing-results"
+      ]
+    },
+    {
+      "community": "Patients & Caregivers (r/Alzheimers, r/dementia)",
+      "sentiment": "skeptical",
+      "themes": [
+        "Frustration that clearing amyloid did not translate to memory improvement",
+        "Using the failure to validate broad skepticism of the amyloid hypothesis",
+        "Distrust of drugmakers regarding the safety and underreporting of ARIA (brain swelling)"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/dementia/comments/1jfrlim/the_stupidity_of_alzheimers_disease_research/",
+        "https://www.reddit.com/r/Alzheimers/comments/1ga8gi5/nyt_article_what_drugmakers_did_not_tell/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Fierce Biotech",
+      "tone": "critical",
+      "date": "2022-11",
+      "url": "https://www.fiercebiotech.com/biotech/roches-anti-amyloid-antibody-gantenerumab-fails-phase-3-alzheimers-trials"
+    },
+    {
+      "outlet": "BioPharma Dive",
+      "tone": "critical",
+      "date": "2022-11",
+      "url": "https://www.biopharmadive.com/news/roche-gantenerumab-trial-failure-alzheimers/636450/"
+    },
+    {
+      "outlet": "Alzforum",
+      "tone": "neutral",
+      "date": "2022-11",
+      "url": "https://www.alzforum.org/news/research-news/gantenerumab-falls-short-phase-3-0"
+    }
+  ],
+  "hype_vs_evidence": "Public perception accurately reflects the drug's clinical failure, but diverges sharply in interpreting the cause. While frustrated patients and lay observers often view Gantenerumab's failure as proof that the entire amyloid hypothesis is flawed, researchers view it as a dosing and delivery issue since only ~27% of patients reached amyloid negativity. Additionally, some optimistic headlines hype the drug as 'preventing' Alzheimer's based on the DIAN-TU trials, ignoring that it only delayed symptoms in a rare genetic subgroup and failed completely in the broader sporadic AD population.",
+  "misinformation_flags": [
+    "Claims that Gantenerumab 'prevents' Alzheimer's disease, overgeneralizing results from a rare familial subgroup to the broader sporadic population."
+  ],
+  "searches_run": [
+    "site:reddit.com gantenerumab",
+    "gantenerumab alzforum",
+    "gantenerumab investors stock roche",
+    "gantenerumab alzheimers news"
+  ]
+}

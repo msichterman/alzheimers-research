@@ -1,0 +1,68 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment surrounding Leqembi is deeply mixed, reflecting a tension between the hope of slowing Alzheimer's progression and the stark reality of severe side effects. While the initial FDA approval generated significant enthusiasm for the first genuinely disease-modifying treatment, that optimism has been tempered by real-world reports of severe ARIA (brain swelling and bleeding), particularly in ApoE ε4 homozygotes. Patients and caregivers are increasingly vocal about the high costs, logistical hurdles of constant monitoring, and the terrifying prospect of sudden ICU admissions. The scientific and medical communities share this caution, focusing on the need for better risk management, which has contributed to a slower-than-expected clinical rollout.",
+  "communities": [
+    {
+      "community": "r/Alzheimers and r/dementia (Patients & Caregivers)",
+      "sentiment": "mixed",
+      "themes": [
+        "Fear of ARIA-E and ARIA-H (brain bleeding/swelling) leading to ICU admission or death",
+        "Debate over quality of life (extending mild vs. severe stages of the disease)",
+        "Frustration with the strict screening requirements (frequent MRIs, PET scans, lumbar punctures) and high financial costs"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/comments/1cr0vc2/leqembilecanemab/",
+        "https://www.reddit.com/r/Alzheimers/comments/18lf8ix/leqembi_and_two_copies_of_apoe4/"
+      ]
+    },
+    {
+      "community": "Alzforum (Scientific & Medical Community)",
+      "sentiment": "skeptical",
+      "themes": [
+        "Need for better ARIA management and more stringent baseline screening for patients on blood thinners",
+        "Observations that ApoE4 homozygotes bear disproportionate risks, with some clinics and international regulators actively excluding them",
+        "Logistical challenges in clinical deployment and monitoring"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/conference-coverage/two-new-deaths-leqembi-highlight-need-better-manage-aria",
+        "https://www.alzforum.org/news/research-news/brain-woman-who-died-leqembi-shows-worst-case-scenario"
+      ]
+    },
+    {
+      "community": "Retail Investors (e.g., r/AlphaCognition, r/ATHX)",
+      "sentiment": "negative",
+      "themes": [
+        "Disappointment over slow rollout and low initial prescription rates compared to market projections",
+        "Concerns regarding Medicare coverage limitations and out-of-pocket costs reducing addressable market",
+        "Logistical bottlenecks for neurology clinics severely limiting revenue growth"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/AlphaCognition/comments/1b0c7bl/neurologists_report_frustration_with_efficacy_and/",
+        "https://www.reddit.com/r/ATHX/comments/14sncsh/alzheimers_drug_leqembi_which_costs_26500/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Alzforum",
+      "tone": "critical",
+      "date": "2024-08",
+      "url": "https://www.alzforum.org/news/conference-coverage/two-new-deaths-leqembi-highlight-need-better-manage-aria"
+    },
+    {
+      "outlet": "Alzforum",
+      "tone": "neutral",
+      "date": "2025-04",
+      "url": "https://www.alzforum.org/news/community-news/european-commission-greenlights-leqembi-last"
+    }
+  ],
+  "hype_vs_evidence": "There is a notable divergence between the initial 'miracle drug' hype and the grounded clinical evidence regarding Leqembi's actual benefits and risks. While public hope often centers on a 'cure' or restoring lost memory, the evidence demonstrates only a modest 27% slowing of clinical decline over 18 months, not a reversal. Furthermore, early marketing hype largely overshadowed the severe risk of intracerebral hemorrhage and ARIA, particularly in ApoE ε4 homozygotes, a danger that the FDA and scientists now emphasize heavily but which still shocks caregivers when it occurs in the real world.",
+  "misinformation_flags": [
+    "The misconception that Leqembi can restore lost memories or completely halt Alzheimer's disease progression, rather than just modestly slowing cognitive decline.",
+    "The belief that the drug is relatively harmless for early-stage patients, ignoring the genetically-linked (ApoE4) risk of severe and sometimes fatal brain bleeds."
+  ],
+  "searches_run": [
+    "site:reddit.com Leqembi alzheimers",
+    "site:alzforum.org leqembi aria apoe4"
+  ]
+}

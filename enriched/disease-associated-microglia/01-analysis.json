@@ -1,0 +1,186 @@
+{
+  "kind": "research-paper",
+  "title": "A Unique Microglia Type Associated with Restricting Development of Alzheimer's Disease",
+  "authors": [
+    {
+      "name": "Keren-Shaul, Hadas",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Spinrad, Amit",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Weiner, Assaf",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Matcovitch-Natan, Orit",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Dvir-Szternfeld, Raz",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Ulland, Tyler K.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "David, Eyal",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Baruch, Kuti",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Lara-Astaiso, David",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Toth, Beata",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Itzkovitz, S",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Colonna, M",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Schwartz, M",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Amit, I",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Keren-Shaul, Hadas",
+  "venue": "Cell",
+  "published": "2017-06",
+  "doi": "10.1016/j.cell.2017.05.018",
+  "doi_url": "https://doi.org/10.1016/j.cell.2017.05.018",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/28602351/",
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": "taverne"
+  },
+  "tags": [
+    "paper",
+    "amyloid",
+    "inflammation",
+    "genetics",
+    "microglia",
+    "single-cell-rna-seq",
+    "trem2"
+  ],
+  "themes": [
+    "Microglia heterogeneity",
+    "Disease-associated microglia (DAM)",
+    "TREM2-dependent activation",
+    "Aβ phagocytosis",
+    "Neurodegeneration restriction"
+  ],
+  "one_line": "Single-cell RNA sequencing reveals a unique, TREM2-dependent microglia state (DAM) that colocalizes with Aβ plaques and has the potential to restrict Alzheimer's disease progression.",
+  "summary": "This study comprehensively maps immune populations in wild-type and Alzheimer's disease transgenic (Tg-AD) mouse brains using single-cell transcriptional sorting. The authors describe a novel microglia subset termed disease-associated microglia (DAM), which exhibit specific markers, spatial localization, and pathways. Immunohistochemical analysis demonstrates that DAM contain intracellular, phagocytosed Aβ particles and cluster around plaques in both mouse and human brains. Activation of the DAM profile is revealed to be a two-step process: an initial Trem2-independent downregulation of microglia checkpoints, followed by a Trem2-dependent activation program. The authors suggest that this unique microglial phenotype has the potential to restrict neurodegeneration, carrying significant implications for AD therapeutic strategies.",
+  "key_claims": [
+    {
+      "claim": "A novel disease-associated microglia (DAM) type exists in Alzheimer's disease models that colocalizes with and phagocytoses Aβ plaques.",
+      "evidence": "Transcriptional single-cell sorting of immune populations in WT and Tg-AD mouse brains, supported by immunohistochemical staining of mouse and human brain slices showing DAM with intracellular/phagocytic Aβ particles.",
+      "strength": "strong",
+      "location": "Abstract"
+    },
+    {
+      "claim": "The activation of the DAM program occurs via a Trem2-dependent, two-step process.",
+      "evidence": "Single-cell analysis of DAM in Tg-AD mice compared to Trem2-knockout (Trem2−/−) Tg-AD mice, showing that initial checkpoint downregulation is Trem2-independent, while full activation requires Trem2.",
+      "strength": "strong",
+      "location": "Abstract"
+    }
+  ],
+  "methods": {
+    "design": "Single-cell RNA sequencing and immunohistochemistry",
+    "n": null,
+    "population": "Wild-type mice, Tg-AD mice, Trem2−/− Tg-AD mice, and human brain slices",
+    "duration": null,
+    "registration": null
+  },
+  "funding_and_conflicts": "none stated",
+  "limitations": [
+    "The abstract does not outline methodological limitations.",
+    "The mechanistic description of the two-step DAM activation relies exclusively on transgenic mouse models, necessitating caution regarding full translation to human Alzheimer's disease pathophysiology."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "The document is an abbreviated metadata record from a repository rather than the full-text article.",
+      "The author list is inconsistent, presenting the first 10 authors with full names in the header and all 14 authors with initials in the citation block."
+    ]
+  },
+  "search_verification": [
+    "Used EuropePMC REST API to look up DOI:10.1016/j.cell.2017.05.018 and retrieved PMID: 28602351 to confirm the PubMed URL."
+  ]
+}

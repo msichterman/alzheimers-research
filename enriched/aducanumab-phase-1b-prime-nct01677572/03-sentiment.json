@@ -1,0 +1,78 @@
+{
+  "overall": "negative",
+  "summary": "Public sentiment around Aducanumab (Aduhelm) is overwhelmingly negative and skeptical, reflecting its legacy as one of the most controversial FDA approvals in history. While patients and caregivers initially exhibited desperate hope for a disease-modifying treatment, this quickly gave way to anger over high costs, severe side effects like brain bleeding (ARIA), and a lack of proven cognitive benefits. Retail investors and science journalists view the drug as a cautionary tale of regulatory capture, poor clinical efficacy, and premature commercialization. Today, it is largely remembered for its discontinuation in 2024 and the profound distrust it sowed between regulators, patients, and the scientific community.",
+  "communities": [
+    {
+      "community": "Caregivers & Patients (r/Alzheimers, r/dementia)",
+      "sentiment": "skeptical",
+      "themes": [
+        "Anger over FDA corruption and Alzheimer's Association lobbying",
+        "Fear of ARIA side effects (brain bleeds and swelling)",
+        "Desperation for any disease-modifying treatment",
+        "Confusion regarding the drug's efficacy and ultimate discontinuation"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/comments/scnme8/aduhelm_the_alzheimers_association_and_corruption/",
+        "https://www.reddit.com/r/dementia/comments/re3kwx/anyone_have_experience_with_aduhelm_aducanumab/"
+      ]
+    },
+    {
+      "community": "Retail Investors (r/investing)",
+      "sentiment": "skeptical",
+      "themes": [
+        "FDA approval standard controversies",
+        "BIIB stock volatility and collapse post-launch",
+        "Implications for future biotech investments and CMS coverage"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/investing/comments/o03zw4/did_fda_err_in_approving_biogens_aducanumab_drug/",
+        "https://www.reddit.com/r/investing/comments/nufdp4/biogen_biib_drug_aduhelm_aducanumab_approved_by/"
+      ]
+    },
+    {
+      "community": "Science Media & Watchdogs",
+      "sentiment": "negative",
+      "themes": [
+        "Lack of robust efficacy data",
+        "Accelerated FDA approval against advisory committee advice",
+        "Policy reforms sparked by the controversy"
+      ],
+      "example_urls": [
+        "https://www.statnews.com/category/the-aduhelm-files/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10937179/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "STAT News",
+      "tone": "critical",
+      "date": null,
+      "url": "https://www.statnews.com/category/the-aduhelm-files/"
+    },
+    {
+      "outlet": "Neurology Advisor",
+      "tone": "critical",
+      "date": null,
+      "url": "https://www.neurologyadvisor.com/features/aducanumab-controversy-accelerated-fda-approval-agency-distrust/"
+    },
+    {
+      "outlet": "Alzheimer's Association",
+      "tone": "positive",
+      "date": null,
+      "url": "https://www.alz.org/alzheimers-dementia/treatments/aducanumab"
+    }
+  ],
+  "hype_vs_evidence": "When initially approved in 2021, intense hype was fueled by Biogen and patient advocacy groups framing Aduhelm as a landmark, disease-modifying breakthrough for Alzheimer's patients. However, this perception radically diverged from the actual clinical evidence, which showed that the Phase 3 trials were halted for futility and yielded highly contradictory data regarding cognitive benefits. Public perception eventually caught up to the evidence as independent scientists pushed back, Medicare restricted coverage citing the unproven clinical benefit, and severe ARIA side effects became widely known. The gap between the drug's marketing and its clinical reality ultimately forced Biogen to abandon and discontinue the drug in early 2024.",
+  "misinformation_flags": [
+    "Claims that Aducanumab reliably slows cognitive decline (Phase 3 trials were contradictory and halted for futility; efficacy was never conclusively proven)",
+    "Belief that Aduhelm is currently an available treatment option (Biogen discontinued the drug and surrendered its license in 2024)"
+  ],
+  "searches_run": [
+    "site:reddit.com/r/Alzheimers aduhelm",
+    "site:reddit.com/r/dementia aduhelm",
+    "site:reddit.com/r/investing biogen aducanumab",
+    "aducanumab controversy statnews",
+    "aducanumab alzforum site:alzforum.org"
+  ]
+}

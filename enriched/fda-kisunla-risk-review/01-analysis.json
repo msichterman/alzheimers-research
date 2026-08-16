@@ -1,0 +1,110 @@
+{
+  "kind": "other",
+  "title": "RISK ASSESSMENT and RISK MITIGATION REVIEW(S): Donanemab-azbt (Kisunla)",
+  "authors": [
+    {
+      "name": "Darling, Carla C.",
+      "affiliation": "Division of Risk Management (DRM), Office of Medication Error Prevention and Risk Management (OMEPRM), Office of Surveillance and Epidemiology (OSE), Center for Drug Evaluation and Research (CDER)",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Sheppard, Jacqueline E.",
+      "affiliation": "Division of Risk Management (DRM), Office of Medication Error Prevention and Risk Management (OMEPRM), Office of Surveillance and Epidemiology (OSE), Center for Drug Evaluation and Research (CDER)",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "LaCivita, Cynthia L.",
+      "affiliation": "Division of Risk Management (DRM), Office of Medication Error Prevention and Risk Management (OMEPRM), Office of Surveillance and Epidemiology (OSE), Center for Drug Evaluation and Research (CDER)",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Darling, Carla C.",
+  "venue": "Center for Drug Evaluation and Research",
+  "published": "2024-06",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "amyloid",
+    "immunotherapy",
+    "donanemab",
+    "fda-review",
+    "rems"
+  ],
+  "themes": [
+    "Regulatory risk assessment",
+    "Amyloid Related Imaging Abnormalities (ARIA)",
+    "Risk Evaluation and Mitigation Strategy (REMS)",
+    "Anti-amyloid monoclonal antibody safety"
+  ],
+  "one_line": "An FDA safety review concluded that donanemab (Kisunla) does not require a REMS program, as its risks of ARIA and hemorrhage can be adequately managed through labeling and post-market pharmacovigilance.",
+  "summary": "This FDA Division of Risk Management (DRM) review evaluates the need for a Risk Evaluation and Mitigation Strategy (REMS) for donanemab-azbt (Kisunla), an anti-amyloid beta monoclonal antibody for Alzheimer's disease. Based on Phase 3 data (Study AACI), donanemab significantly slows clinical decline. However, it carries serious risks including hypersensitivity, infusion-related reactions, and Amyloid Related Imaging Abnormalities (ARIA) with potential for fatal intracerebral hemorrhages. Because prescribers are likely familiar with ARIA management from similar approved drugs like aducanumab and lecanemab, the FDA determined a REMS is not required. Instead, risks will be mitigated through a boxed warning, routine pharmacovigilance, and medication guides.",
+  "key_claims": [
+    {
+      "claim": "Donanemab provides a clinically meaningful reduction in clinical decline for early Alzheimer's disease patients.",
+      "evidence": "Study AACI showed a statistically significant reduction in iADRS (-22.3%, p<0.001) and CDR-SB (-29%, p<0.001) at 76 weeks in the overall population.",
+      "strength": "strong",
+      "location": "Section 4. Benefit Assessment"
+    },
+    {
+      "claim": "Donanemab treatment increases the risk of ARIA-E and ARIA-H, which can lead to fatal intracerebral hemorrhage.",
+      "evidence": "In study AACI, ARIA occurred in 36% of donanemab patients vs 14% on placebo; 5 fatal cases related to ARIA were identified in the safety pool.",
+      "strength": "strong",
+      "location": "Section 5.2.1. Amyloid Related Imaging Abnormalities (ARIA)"
+    },
+    {
+      "claim": "The risk of ARIA is significantly higher in ApoE ε4 carriers.",
+      "evidence": "Severe radiographic ARIA-H occurred in 22% of ApoE ε4 homozygotes treated with donanemab, compared to 8% of heterozygotes and 4% of noncarriers.",
+      "strength": "strong",
+      "location": "Section 5.2.1. ARIA in ApoE ε4 carriers"
+    },
+    {
+      "claim": "A formal REMS is not necessary for donanemab approval.",
+      "evidence": "The safety profile is comparable to previously approved anti-amyloid therapies (aducanumab, lecanemab) that also lack REMS, and memory disorder specialists are likely already familiar with required ARIA monitoring.",
+      "strength": "strong",
+      "location": "Section 8. Discussion of Need for a REMS"
+    }
+  ],
+  "methods": {
+    "design": "Regulatory risk assessment of Phase 2 and 3 randomized controlled trials",
+    "n": 2802,
+    "population": "Patients with early symptomatic Alzheimer's disease (mild cognitive impairment and mild dementia)",
+    "duration": "76 weeks (placebo-controlled period)",
+    "registration": "NCT04437511"
+  },
+  "funding_and_conflicts": "none stated",
+  "limitations": [
+    "The safety population studied was relatively healthy with mild AD, potentially underestimating risks in older patients or those with advanced comorbidities.",
+    "ARIA-H was captured as an MRI finding rather than a graded adverse event in the protocols, likely resulting in under-recording.",
+    "Limited exposure to non-aspirin antithrombotic medications prevents definitive conclusions about the risk of intracerebral hemorrhage with concomitant use."
+  ],
+  "red_flags": [
+    "Significant safety uncertainties remain regarding the administration of donanemab in patients on concomitant medications that increase bleeding risk or following treatment with tissue plasminogen activator (tPA) for stroke."
+  ],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "Minor table formatting artifacts at the end of the document",
+      "Interleaved page footers and headers appearing in text bodies (e.g., 'Signature Page 1 of 1')"
+    ]
+  },
+  "search_verification": [
+    "Recognized document as an internal FDA regulatory review (BLA 761248); DOI and PubMed URLs do not exist for this type of government publication, hence marked null."
+  ]
+}

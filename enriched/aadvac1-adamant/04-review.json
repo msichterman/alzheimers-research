@@ -1,0 +1,125 @@
+{
+  "fact_check": [
+    {
+      "fact": "196 patients randomized 3:2 (AADvac1 n=117, placebo n=79)",
+      "status": "verified",
+      "note": "Matches source document abstract exactly (117 + 79 = 196)."
+    },
+    {
+      "fact": "Serious adverse events observed in 17.1% of AADvac1-treated individuals vs 24.1% placebo",
+      "status": "verified",
+      "note": "Matches source document."
+    },
+    {
+      "fact": "Adverse events observed in 84.6% of AADvac1-treated individuals and 81.0% of placebo-treated individuals",
+      "status": "verified",
+      "note": "Matches source document."
+    },
+    {
+      "fact": "Clinical Dementia Rating-Sum of the Boxes scale adjusted mean point difference -0.360 (95% CI -1.306, 0.589)",
+      "status": "verified",
+      "note": "Matches source document."
+    }
+  ],
+  "research_page": {
+    "slug": "aadvac1-adamant-phase-2",
+    "title": "AADvac1 in mild Alzheimer's disease (ADAMANT Phase 2)",
+    "description": "A 24-month Phase 2 trial showing the active tau vaccine AADvac1 is safe and immunogenic but lacks significant clinical efficacy in the overall unstratified mild AD population.",
+    "tags": [
+      "paper",
+      "trial",
+      "tau",
+      "immunotherapy",
+      "aadvac1",
+      "vaccine",
+      "phase-2"
+    ],
+    "source_line_md": "**Source**: [Nature Aging, 2021](https://doi.org/10.1038/s43587-021-00070-2) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/37117834/)",
+    "authors_line_md": "Novak et al. — Axon Neuroscience SE",
+    "takeaway_md": "The active tau vaccine AADvac1 successfully induced high levels of IgG antibodies and proved safe over 24 months of treatment. However, it failed to significantly slow cognitive or functional decline in the broad mild Alzheimer's disease population. Subsequent development for this vaccine has shifted entirely to biomarker-stratified platform trials.",
+    "key_findings_md": [
+      "AADvac1 was safe and well tolerated, with serious adverse events occurring in 17.1% of treated patients versus 24.1% on placebo (paper, Abstract).",
+      "The vaccine induced high levels of IgG antibodies against tau (paper, Abstract).",
+      "No significant cognitive benefit was observed in the overall cohort, with a Clinical Dementia Rating-Sum of Boxes (CDR-SB) adjusted mean difference of -0.360 (95% CI -1.306, 0.589) compared to placebo (paper, Abstract).",
+      "No significant functional benefit was found, with a custom cognitive battery adjusted mean z-score difference of 0.0008 (95% CI -0.169, 0.172) (paper, Abstract)."
+    ],
+    "methods_md": "This was a 24-month double-blind, parallel-arm, randomized Phase 2 multicenter placebo-controlled trial (EudraCT 2015-000630-30). It evaluated 196 patients with mild Alzheimer's disease dementia, randomized 3:2 to receive eleven 40 μg doses of AADvac1 (n=117) or placebo (n=79).",
+    "trial_evidence_md": "ADAMANT ([NCT02579252](/trials/aadvac1-adamant-nct02579252)) confirmed the safety and immunogenicity profile established in earlier Phase 1 trials (NCT01850238, NCT02031198). Following the failure to meet secondary clinical endpoints in this broad Phase 2 population, the clinical program pivoted. AADvac1 is now being evaluated in biomarker-stratified platform trials, including the Alzheimer's Tau Platform ([NCT07167966](/trials/atp-regimen-a-nct07167966)) and a PSP platform trial.",
+    "sentiment_md": "Public perception is mixed. Longevity and patient communities often express hope based on company messaging highlighting exploratory subgroup signals and proof-of-mechanism biomarker data. Conversely, the scientific and medical communities remain skeptical due to the trial missing its secondary cognitive endpoints and the sponsor's reliance on post hoc analyses to frame the vaccine as potentially efficacious.",
+    "caveats_md": [
+      "The available source document is a metadata scrape of the abstract, limiting deep methodological review of dropout rates or specific post hoc calculations.",
+      "Narratives suggesting AADvac1 slows disease progression rely entirely on exploratory and post hoc subgroup analyses, which generate hypotheses rather than provide conclusive evidence."
+    ],
+    "relates_to_md": [
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — AADvac1 represents an alternative disease-modifying approach targeting tau pathology rather than amyloid-beta.",
+      "[Biomarkers](/research/biomarkers) — The failure of the broad cohort in ADAMANT underscores the modern necessity of using biomarkers for trial stratification."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "aadvac1-adamant-nct02579252",
+      "title": "ADAMANT (AADvac1 Phase 2)",
+      "description": "Phase 2 trial evaluating the safety and efficacy of the AADvac1 active tau vaccine in mild Alzheimer's disease.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "phase-2",
+        "aadvac1",
+        "tau",
+        "vaccine"
+      ],
+      "registry_md": "[NCT02579252](https://clinicaltrials.gov/study/NCT02579252)",
+      "drug": "AADvac1 (active tau immunotherapy)",
+      "phase": "2",
+      "sponsor": "Axon Neuroscience SE",
+      "population": "Patients with mild Alzheimer's disease",
+      "primary_endpoint": "Safety (all-case treatment-emergent adverse events except local reactions)",
+      "started": "2016-03",
+      "readout": "2019-06",
+      "why_md": "This trial sought to establish whether targeting pathological tau via an active vaccine could slow cognitive decline in Alzheimer's disease. While it proved the mechanism is safe and immunogenic, the lack of broad clinical efficacy forced a pivot toward strictly biomarker-stratified testing in future programs.",
+      "status_log_md": [
+        "**2016-03-01** — Trial begins enrollment.",
+        "**2019-06-01** — Trial completed.",
+        "**2021-06-01** — Phase 2 results published in Nature Aging."
+      ],
+      "results_md": "The trial met its primary safety endpoint, showing the vaccine was well-tolerated and highly immunogenic. However, it failed to demonstrate significant cognitive or functional improvement in the overall unstratified patient population."
+    },
+    {
+      "slug": "atp-regimen-a-nct07167966",
+      "title": "Alzheimer's Tau Platform: Regimen A",
+      "description": "Phase 2 platform trial evaluating AADvac1, with or without donanemab, in biomarker-selected early Alzheimer's disease.",
+      "badge": "Recruiting",
+      "tags": [
+        "trial",
+        "phase-2",
+        "aadvac1",
+        "donanemab",
+        "platform"
+      ],
+      "registry_md": "[NCT07167966](https://clinicaltrials.gov/study/NCT07167966)",
+      "drug": "AADvac1 +/- Donanemab",
+      "phase": "2",
+      "sponsor": "Paul S. Aisen",
+      "population": "Adults aged 50-80 with late preclinical or early prodromal Alzheimer's disease",
+      "primary_endpoint": "Reduction of brain tau deposition as measured by tau PET",
+      "started": "2026-11",
+      "readout": "2028-08",
+      "why_md": "Following the failure of AADvac1 to show efficacy in a broad population, this platform trial evaluates the vaccine in a strictly defined biomarker-stratified cohort. It also tests combination therapy with an anti-amyloid agent (donanemab) to see if addressing both pathologies simultaneously yields better outcomes.",
+      "status_log_md": [
+        "**2026-11-01** — Anticipated trial start date."
+      ],
+      "results_md": null
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2021-06",
+      "title": "2021-06 — ADAMANT Phase 2 trial publishes results",
+      "body_md": "Results from the [ADAMANT Phase 2 trial](/research/papers/aadvac1-adamant-phase-2) show the active tau vaccine AADvac1 is safe but fails to significantly slow cognitive decline in a broad mild Alzheimer's population."
+    }
+  ],
+  "notes_for_editor": [
+    "Only the abstract of the Nature Aging paper was available in the source data. Consider locating the full PDF for a deeper review of dropout rates and the specific post hoc calculations frequently cited by the sponsor."
+  ]
+}

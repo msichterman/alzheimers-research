@@ -1,0 +1,65 @@
+{
+  "fact_check": [
+    {
+      "fact": "192 trials assessing 158 drugs",
+      "status": "verified",
+      "note": "Checked against the Abstract and Results sections of the source document."
+    },
+    {
+      "fact": "73% of pipeline drugs are disease-targeted therapies (DTTs)",
+      "status": "verified",
+      "note": "Checked against the Results / Overview section of the source document."
+    },
+    {
+      "fact": "EVOKE trial failure in early 2026",
+      "status": "verified",
+      "note": "Not present in the source document (which uses a Jan 1, 2026 index date), but confirmed by the clinical researcher's evidence mapping of subsequent 2026 readouts."
+    },
+    {
+      "fact": "Missing conflict of interest disclosures for Yuxin Yang and Feixiong Cheng",
+      "status": "verified",
+      "note": "Checked against the CONFLICT OF INTEREST STATEMENT in the source document; neither author is explicitly mentioned, despite Cheng being listed in the funding acknowledgments."
+    }
+  ],
+  "research_page": {
+    "slug": "cummings-pipeline-2026",
+    "title": "Alzheimer's drug development pipeline: 2026",
+    "description": "An annual review of the Alzheimer's pipeline identifying 158 drugs across 192 trials, emphasizing disease-modifying therapies and biomarker integration.",
+    "tags": [
+      "review",
+      "drug-pipeline",
+      "amyloid",
+      "tau",
+      "inflammation",
+      "repurposing"
+    ],
+    "source_line_md": "**Source**: [Alzheimer's & Dementia : Translational Research & Clinical Interventions, 2026](https://doi.org/10.1002/trc2.70251) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/42095064)",
+    "authors_line_md": "Jeffrey L. Cummings et al.",
+    "takeaway_md": "The 2026 pipeline is dominated by disease-modifying therapies and heavily integrates biomarkers for trial eligibility. While the review highlights a large volume of repurposed agents in Phase 2, this optimism must be balanced against high-profile Phase 3 failures of repurposed drugs that occurred shortly after this snapshot.",
+    "key_findings_md": [
+      "The pipeline includes 158 candidate drugs in 192 active trials, a 40% increase over the past decade (paper, Abstract).",
+      "Disease-targeted therapies (DTTs) comprise 73% of the pipeline, evenly split between small molecules and biologics (paper, Results).",
+      "Biomarkers are now standard practice, featuring in 87% of Phase 3 and 89% of Phase 2 trials for eligibility or outcome tracking (paper, Results).",
+      "Repurposed drugs represent 35% of the pipeline, primarily driven by non-industry sponsors in earlier clinical phases (paper, Results)."
+    ],
+    "methods_md": "Systematic review of the clinicaltrials.gov registry to identify active interventional trials for Alzheimer's disease across all phases and disease stages, indexed as of January 1, 2026.",
+    "trial_evidence_md": "As an annual pipeline review, this document maps the landscape rather than reporting new efficacy data. It underscores the clinical shift toward disease-modifying treatments following the successes of anti-amyloid biologics. However, the clinical evidence context reveals that the large \"repurposed\" pipeline segment is highly vulnerable, as demonstrated by the failure of semaglutide in the Phase 3 EVOKE trials shortly after this review was published.",
+    "sentiment_md": "Public perception of the pipeline is deeply polarized. Mainstream media and institutions frequently frame the pipeline's growth and recent approvals as historic breakthroughs. In contrast, patient and retail investor communities exhibit profound skepticism, weighed down by the high costs, intensive safety monitoring requirements for ARIA, and the ultimately modest clinical benefits of currently approved therapies.",
+    "caveats_md": [
+      "The pipeline snapshot is static as of January 1, 2026; major trial readouts occurring later in the year render some of its optimism—particularly around repurposed drugs—outdated.",
+      "The analysis relies exclusively on clinicaltrials.gov, meaning trials conducted solely outside North America may be omitted if they are not registered on the US platform.",
+      "Classifying therapies as disease-modifying versus symptomatic relies on the sponsors' stated therapeutic intent rather than proven mechanistic outcomes."
+    ],
+    "relates_to_md": [
+      "[Biomarkers](/research/biomarkers) — Provides hard data on the near-universal adoption of biomarkers in modern late-stage trials.",
+      "[Research](/research) — Serves as the definitive macro-level snapshot of the field's focus, mechanisms, and funding distribution for 2026."
+    ]
+  },
+  "trial_pages": [],
+  "timeline_entries": [],
+  "notes_for_editor": [
+    "No central trials required individual pages since all identified trials were context-only.",
+    "Because this document is an annual landscape review rather than a milestone event itself, no new timeline entries were generated.",
+    "The missing COI disclosure for two authors is logged in the fact check and will automatically render in the publisher's Critical Review block."
+  ]
+}

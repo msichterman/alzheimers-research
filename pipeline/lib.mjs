@@ -1,6 +1,7 @@
 import { createHash } from "node:crypto";
 import { spawn } from "node:child_process";
 import {
+  appendFileSync,
   existsSync,
   mkdirSync,
   readFileSync,
@@ -161,8 +162,34 @@ function claudePrint(prompt, { id, stage, logPath }) {
       reject(new Error(`${stage} timed out after ${STAGE_TIMEOUT_MS / 60000} min`));
     }, STAGE_TIMEOUT_MS);
 
-    child.stdout.on("data", (chunk) => (stdout += chunk));
-    child.stderr.on("data", (chunk) => (stderr += chunk));
+    if (logPath) {
+      ensureDir(dirname(logPath));
+      writeFileSync(logPath, `--- args ---\n${args.join(" ")}\n--- stdout ---\n`);
+    }
+
+    child.stdout.on("data", (chunk) => {
+      stdout += chunk;
+      if (logPath) {
+        appendFileSync(logPath, chunk);
+      }
+      // Print brief tool_use / progress to console
+      const chunkStr = chunk.toString();
+      for (const line of chunkStr.split("\n")) {
+        if (!line.trim()) continue;
+        try {
+          const ev = JSON.parse(line);
+          if (ev.type === "tool_use" && ev.part?.tool) {
+            log(id, `${stage}: tool call -> ${ev.part.tool} (${ev.part.state?.title || ev.part.callID || ""})`);
+          }
+        } catch {}
+      }
+    });
+    child.stderr.on("data", (chunk) => {
+      stderr += chunk;
+      if (logPath) {
+        appendFileSync(logPath, chunk);
+      }
+    });
     child.on("error", (error) => {
       clearTimeout(timer);
       reject(error);

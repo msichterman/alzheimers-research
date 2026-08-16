@@ -1,0 +1,68 @@
+{
+  "overall": "negative",
+  "summary": "Public sentiment regarding verubecestat is overwhelmingly negative and retrospective, viewing it as a definitive failure in Alzheimer's drug development. During its early clinical phases, there was notable enthusiasm that its potent ability to clear amyloid plaques would translate to a cure. However, following the early termination of the EPOCH and APECS trials due to futility, discourse swiftly shifted to skepticism and disappointment. Today, the drug is primarily referenced in scientific and medical communities as a cautionary tale about the limitations of the amyloid cascade hypothesis and the specific toxicities of BACE inhibitors. Caregiver and retail investor chatter is currently quiet, as the drug was abandoned years ago.",
+  "communities": [
+    {
+      "community": "r/science and r/medicine",
+      "sentiment": "skeptical",
+      "themes": [
+        "Failure of the amyloid hypothesis",
+        "Disconnect between biomarker success and clinical outcomes",
+        "Trial futility and early termination"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/science/comments/7xdbvr/merck_discontinues_phase_3_trial_of_verubecestat/",
+        "https://www.reddit.com/r/medicine/comments/7xdf8q/merck_discontinues_verubecestat_bace_inhibitor/"
+      ]
+    },
+    {
+      "community": "r/longevity",
+      "sentiment": "negative",
+      "themes": [
+        "Patients declining faster on the drug than on placebo",
+        "Disappointment in amyloid-targeting therapies"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/longevity/comments/bc8cl6/results_from_verubecestat_apecs_trial_published/"
+      ]
+    },
+    {
+      "community": "Alzforum (Scientists and Researchers)",
+      "sentiment": "negative",
+      "themes": [
+        "BACE1 inhibitor class effects (toxicity and cognitive worsening)",
+        "Prophylactic vs. therapeutic timing of intervention"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/therapeutics/verubecestat"
+      ]
+    },
+    {
+      "community": "r/Nootropics",
+      "sentiment": "mixed",
+      "themes": [
+        "Early hype about plaque clearance (historical)"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Nootropics/comments/5aw9vx/alzheimers_top_news_mercks_early_development_of/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Merck Press Release (Corporate)",
+      "tone": "neutral",
+      "date": "2017-02",
+      "url": "https://www.merck.com/news/merck-announces-epoch-study-of-verubecestat-for-the-treatment-of-people-with-mild-to-moderate-alzheimers-disease-to-stop-for-lack-of-efficacy/"
+    }
+  ],
+  "hype_vs_evidence": "During early development, the public and investors hyped verubecestat because phase 1/2 data showed massive reductions in Aβ levels, which many assumed would inevitably halt Alzheimer's progression. The EPOCH trial evidence shattered this assumption, proving that successful target engagement and plaque clearance did not improve cognitive (ADAS-cog) or functional (ADCS-ADL) outcomes in mild-to-moderate patients. Furthermore, the clinical evidence revealed unanticipated harms such as accelerated cognitive decline, falls, sleep disturbances, and suicidal ideation, forcing public perception to fully accept the drug's failure.",
+  "misinformation_flags": [
+    "Outdated claims circulating in older historical forum posts asserting that clearing amyloid plaques with BACE inhibitors inherently cures or reverses Alzheimer's symptoms."
+  ],
+  "searches_run": [
+    "\"verubecestat\" site:reddit.com",
+    "\"verubecestat\" alzforum",
+    "\"verubecestat\" OR \"MK-8931\" caregiver"
+  ]
+}

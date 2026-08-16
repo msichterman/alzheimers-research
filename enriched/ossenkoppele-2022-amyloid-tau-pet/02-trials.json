@@ -1,0 +1,107 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT01208675",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01208675",
+      "name": "BioFINDER-1",
+      "drug": "none (observational)",
+      "phase": "n/a",
+      "sponsor": "Skane University Hospital",
+      "status": "Completed",
+      "enrollment": 1150,
+      "population": "Cognitively healthy elderly subjects and patients with mild cognitive impairment",
+      "primary_endpoint": "Time to conversion to clinically probable AD with normal and abnormal biomarkers",
+      "started": "2010-09",
+      "completed_or_readout": "2024-12",
+      "results_summary": "Generated extensive longitudinal data establishing the predictive validity of cerebrospinal fluid and PET biomarkers for tracking Alzheimer's disease progression, forming the foundation of the cohorts analyzed in the reviewed document.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03174938",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03174938",
+      "name": "BioFINDER-2",
+      "drug": "none (observational)",
+      "phase": "n/a",
+      "sponsor": "Skane University Hospital",
+      "status": "Recruiting",
+      "enrollment": 2950,
+      "population": "Cognitively healthy individuals, SCD, MCI, AD dementia, and other dementias",
+      "primary_endpoint": "Clinical diagnosis according to consensus group decision blinded to diagnostic test; Change in CDR-SB",
+      "started": "2017-05",
+      "completed_or_readout": "2036-12",
+      "results_summary": "Ongoing longitudinal cohort study extending BioFINDER-1 with next-generation tau PET and blood-based biomarkers to refine predictive risk models for cognitive decline.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02008357",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02008357",
+      "name": "A4 Study",
+      "drug": "Solanezumab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Completed",
+      "enrollment": 1169,
+      "population": "Preclinical Alzheimer's Disease (Cognitively normal with elevated amyloid)",
+      "primary_endpoint": "Change From Baseline of the Preclinical Alzheimer Cognitive Composite (PACC) Score",
+      "started": "2014-02",
+      "completed_or_readout": "2023-06",
+      "results_summary": "The study failed its primary endpoint; solanezumab did not slow cognitive decline or reduce the risk of progression to symptomatic AD compared to placebo. It also failed to significantly clear amyloid plaques.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04468659",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04468659",
+      "name": "AHEAD 3-45",
+      "drug": "Lecanemab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "status": "Active",
+      "enrollment": 1400,
+      "population": "Preclinical and Early Preclinical Alzheimer's Disease (cognitively unimpaired with intermediate or elevated amyloid)",
+      "primary_endpoint": "Change From Baseline in Preclinical Alzheimer Cognitive Composite 5 (PACC5) Score at Week 216",
+      "started": "2020-07",
+      "completed_or_readout": "2031-01",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05026866",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05026866",
+      "name": "TRAILBLAZER-ALZ 3",
+      "drug": "Donanemab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Active",
+      "enrollment": 2996,
+      "population": "Preclinical Alzheimer's Disease (cognitively unimpaired with biomarkers consistent with amyloid pathology)",
+      "primary_endpoint": "Time to Clinical Progression of Composite Endpoint as Measured by Clinical Dementia Rating (CDR)",
+      "started": "2021-08",
+      "completed_or_readout": "2027-11",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2022-11-10",
+      "kind": "paper",
+      "description": "Nature Medicine publication: Amyloid and tau PET-positive cognitively unimpaired individuals are at high risk for future cognitive decline (the analyzed document).",
+      "url": "https://doi.org/10.1038/s41591-022-02049-x"
+    },
+    {
+      "date": "2023-09-21",
+      "kind": "paper",
+      "description": "NEJM publication: Trial of Solanezumab in Preclinical Alzheimer's Disease (A4 study readout showing failure to halt cognitive decline).",
+      "url": "https://doi.org/10.1056/NEJMoa2305032"
+    }
+  ],
+  "evidence_assessment": "The document provides strong observational evidence supporting the NIA-AA's biological definition of 'preclinical AD', demonstrating across multiple massive, well-characterized cohorts (such as BioFINDER-1 and BioFINDER-2) that amyloid and tau PET positivity strongly predicts short-term cognitive decline in unimpaired individuals. The risk is exceptionally high when tau spreads to the neocortex, validating these biomarkers as robust predictors of clinical progression to MCI and dementia. However, interventional evidence in this specific preclinical population remains mixed and currently unproven. The first major Phase 3 secondary prevention trial in preclinical AD (the A4 study) failed to prevent cognitive decline with solanezumab, largely attributed to the antibody's inability to adequately clear existing amyloid plaques. The field is currently awaiting readouts from massive ongoing Phase 3 trials utilizing newer, highly potent plaque-clearing therapies (AHEAD 3-45 evaluating lecanemab and TRAILBLAZER-ALZ 3 evaluating donanemab) to definitively test whether early intervention in this biologically defined high-risk group can halt disease progression before symptom onset.",
+  "discrepancies": [
+    "The document's implication that defining the A+T+ unimpaired group as having 'preclinical Alzheimer's disease' constitutes an actionable medical state must be carefully contextualized: while the predictive value of these biomarkers for progression is observationally validated by the registry data, the only completed Phase 3 trial targeting this specific preclinical population to date (A4 Study) failed to alter clinical progression."
+  ]
+}

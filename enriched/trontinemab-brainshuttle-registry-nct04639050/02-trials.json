@@ -1,0 +1,105 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT04639050",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04639050",
+      "name": "Brainshuttle AD",
+      "drug": "Trontinemab / RO7126209 (anti-amyloid Brainshuttle targeting transferrin receptor 1)",
+      "phase": "2",
+      "sponsor": "Hoffmann-La Roche",
+      "status": "Active",
+      "enrollment": 241,
+      "population": "Adults aged 50-85 with prodromal or mild to moderate Alzheimer's disease and positive amyloid PET scans",
+      "primary_endpoint": "Percentage of participants with adverse events; Change from baseline in brain amyloid load (Part 3)",
+      "started": "2021-03",
+      "completed_or_readout": "2027-07",
+      "results_summary": "Interim analyses showed highly rapid and robust dose-dependent amyloid plaque depletion (with the majority of participants becoming amyloid negative by 28 weeks at higher doses), alongside significant improvements in downstream CSF biomarkers (tau and neurogranin) and a very low incidence of ARIA.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT07169578",
+      "registry_url": "https://clinicaltrials.gov/study/NCT07169578",
+      "name": "TRONTIER 1",
+      "drug": "Trontinemab (anti-amyloid Brainshuttle)",
+      "phase": "3",
+      "sponsor": "Hoffmann-La Roche",
+      "status": "Recruiting",
+      "enrollment": 800,
+      "population": "Participants with early symptomatic Alzheimer's disease (MCI to mild dementia due to AD)",
+      "primary_endpoint": "Change from baseline to Week 72 in Clinical Dementia Rating, Sum of Boxes (CDR-SB)",
+      "started": "2025-09",
+      "completed_or_readout": "2028-06",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT07170150",
+      "registry_url": "https://clinicaltrials.gov/study/NCT07170150",
+      "name": "TRONTIER 2",
+      "drug": "Trontinemab (anti-amyloid Brainshuttle)",
+      "phase": "3",
+      "sponsor": "Hoffmann-La Roche",
+      "status": "Recruiting",
+      "enrollment": 800,
+      "population": "Participants with early symptomatic Alzheimer's disease (MCI to mild dementia due to AD)",
+      "primary_endpoint": "Change from baseline to Week 72 in Clinical Dementia Rating, Sum of Boxes (CDR-SB)",
+      "started": "2025-11",
+      "completed_or_readout": "2028-06",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT07717411",
+      "registry_url": "https://clinicaltrials.gov/study/NCT07717411",
+      "name": "PrevenTRON",
+      "drug": "Trontinemab (anti-amyloid Brainshuttle)",
+      "phase": "3",
+      "sponsor": "Hoffmann-La Roche",
+      "status": "Unknown",
+      "enrollment": 1600,
+      "population": "Cognitively unimpaired individuals at risk for progression to symptomatic Alzheimer's disease",
+      "primary_endpoint": "Time to Progression, defined as confirmed Clinical Dementia Rating - Global Score (CDR-GS) > 0",
+      "started": "2026-11",
+      "completed_or_readout": "2032-09",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04023994",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04023994",
+      "name": null,
+      "drug": "RO7126209 (anti-amyloid Brainshuttle)",
+      "phase": "1",
+      "sponsor": "Hoffmann-La Roche",
+      "status": "Completed",
+      "enrollment": 36,
+      "population": "Healthy Participants",
+      "primary_endpoint": "Percentage of Participants With Adverse Events (AEs)",
+      "started": "2019-08",
+      "completed_or_readout": "2020-07",
+      "results_summary": null,
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2025-12",
+      "kind": "paper",
+      "description": "Abstract presenting updated safety and efficacy data from the dose-expansion part of NCT04639050, showing rapid amyloid depletion and low ARIA incidence.",
+      "url": "https://doi.org/10.1002/alz70859_104293"
+    },
+    {
+      "date": "2025-12",
+      "kind": "paper",
+      "description": "Abstract detailing interim biomarker results from NCT04639050 demonstrating downstream effects on CSF tau and neurogranin accompanying profound amyloid reduction.",
+      "url": "https://doi.org/10.1002/alz70859_104288"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence supporting the central claims of the document regarding trontinemab's (RO7126209) safety, tolerability, and pharmacodynamics is robust and highly promising. While the document represents an early trial registry for the ongoing Phase Ib/IIa Brainshuttle AD study, subsequent interim data readouts have demonstrated remarkably rapid, profound dose-dependent amyloid clearance accompanied by a uniquely low incidence of ARIA compared to first-generation monoclonals. These encouraging early signals have strongly validated Roche's blood-brain barrier transport technology (Brainshuttle). Consequently, the clinical program has undergone rapid acceleration, moving directly into three large-scale Phase 3 pivotal trials (TRONTIER 1, TRONTIER 2, and PrevenTRON) targeting both early symptomatic and preclinical populations before the Phase II trial has even fully completed.",
+  "discrepancies": []
+}

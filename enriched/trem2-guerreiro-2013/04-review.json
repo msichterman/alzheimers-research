@@ -1,0 +1,95 @@
+{
+  "fact_check": [
+    {
+      "fact": "The TREM2 R47H variant confers an odds ratio of 5.05 for Alzheimer's disease.",
+      "status": "verified",
+      "note": "Checked against the RESULTS section (odds ratio, 5.05; 95% CI, 2.77 to 9.16; P = 9.0×10^-9)."
+    },
+    {
+      "fact": "TREM2 exon 2 variants were found in 22 of 1092 Alzheimer's patients versus 5 of 1107 controls.",
+      "status": "verified",
+      "note": "Checked against the Abstract and RESULTS sections of the source document."
+    },
+    {
+      "fact": "The AL002 Phase 2 trial (INVOKE-2) failed to meet its primary endpoint of slowing disease progression as measured by CDR-SB.",
+      "status": "verified",
+      "note": "Checked against the clinical-trials researcher output and registry summary."
+    }
+  ],
+  "research_page": {
+    "slug": "trem2-variants-guerreiro-2013",
+    "title": "TREM2 Variants in Alzheimer's Disease (Guerreiro et al., 2013)",
+    "description": "This foundational study identifies heterozygous rare loss-of-function variants in the TREM2 gene as strong genetic risk factors for Alzheimer's disease.",
+    "tags": [
+      "paper",
+      "genetics",
+      "trem2",
+      "microglia",
+      "inflammation"
+    ],
+    "source_line_md": "**Source**: [The New England journal of medicine, 2013](https://doi.org/10.1056/NEJMoa1211851) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/23150934)",
+    "authors_line_md": "Guerreiro et al.",
+    "takeaway_md": "This landmark 2013 study established rare loss-of-function variants in the TREM2 gene—most notably R47H—as major genetic risk factors for late-onset Alzheimer's disease. It demonstrated that TREM2 expression increases and localizes to microglia surrounding amyloid plaques, cementing the role of neuroinflammation in disease pathology.",
+    "key_findings_md": [
+      "The R47H variant confers roughly a five-fold increased risk of Alzheimer's disease (odds ratio 5.05) (paper, RESULTS).",
+      "Variants in TREM2 exon 2 were significantly more frequent in Alzheimer's patients (22 of 1092) than in controls (5 of 1107) (paper, Abstract).",
+      "In transgenic mouse models, Trem2 expression increased as amyloid accumulated and localized specifically to microglia around amyloid plaques (paper, RESULTS)."
+    ],
+    "methods_md": "Case-control genetic association study using exome and genome sequencing of 1,092 Alzheimer's patients and 1,107 controls. Findings were replicated via meta-analysis of GWAS data and direct genotyping in an independent cohort of 1,887 cases and 4,061 controls. The researchers also analyzed TREM2 mRNA expression in human brains and a transgenic mouse model.",
+    "trial_evidence_md": "While this paper validated TREM2 as a major genetic risk factor, translating this into therapy has proven difficult. Alector's TREM2-activating antibody AL002 showed target engagement in Phase 1 but failed to slow cognitive decline in the Phase 2 [INVOKE-2](/trials/al002-invoke-2-nct04592874) trial for early Alzheimer's. This disparity suggests that targeting a lifelong genetic risk factor may not be an effective therapeutic strategy once clinical symptoms begin.",
+    "sentiment_md": "Public perception is divided by community. Scientists and biotech investors initially viewed TREM2 as a highly promising 'beyond amyloid' target, though recent trial failures have tempered enthusiasm. Meanwhile, awareness of TREM2 remains virtually nonexistent among patients and caregivers, who focus largely on daily disease management and approved therapies.",
+    "caveats_md": [
+      "Identifying a lifelong genetic risk factor does not guarantee that pharmacologically modulating the target later in life will alter the disease trajectory.",
+      "Microglial activation is highly dynamic; therapies that boost the immune response might be protective early on but risk driving harmful neuroinflammation during later disease stages."
+    ],
+    "relates_to_md": [
+      "[Biomarkers](/research/biomarkers) — sTREM2 is heavily studied as a cerebrospinal fluid biomarker reflecting microglial activation.",
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — TREM2 interacts directly with amyloid pathology by directing microglial responses to plaques.",
+      "[INVOKE-2 (AL002)](/trials/al002-invoke-2-nct04592874) — The pivotal Phase 2 trial of a TREM2 agonist inspired by these genetic findings."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "al002-invoke-2-nct04592874",
+      "title": "INVOKE-2 (AL002)",
+      "description": "Phase 2 trial evaluating the TREM2 agonistic antibody AL002 in participants with early Alzheimer's disease.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "phase-2",
+        "trem2",
+        "al002",
+        "inflammation"
+      ],
+      "registry_md": "[NCT04592874](https://clinicaltrials.gov/study/NCT04592874)",
+      "drug": "AL002 (TREM2 agonistic antibody)",
+      "phase": "Phase 2",
+      "sponsor": "Alector Inc.",
+      "population": "Participants with Early Alzheimer's Disease (n=356)",
+      "primary_endpoint": "Disease Progression as Measured by the Clinical Dementia Rating - Sum of Boxes (CDR-SB) Score",
+      "started": "2021-01",
+      "readout": "2024-09",
+      "why_md": "This trial tests whether activating TREM2—a microglial receptor genetically linked to Alzheimer's risk—can safely slow clinical decline. It represents a major attempt to translate genetic discoveries about TREM2 variants into a disease-modifying therapy.",
+      "status_log_md": [
+        "**2024-09** — Trial completed, missing its primary endpoint.",
+        "**2021-01** — Trial started."
+      ],
+      "results_md": "The study did not meet its primary endpoint, showing no significant difference from baseline in CDR-SB scores compared to placebo at week 96. Although AL002 demonstrated sustained target engagement, it also caused an increased frequency of amyloid-related imaging abnormalities (ARIA)."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Foundations",
+      "date": "2013",
+      "title": "2013 — TREM2 variants linked to increased Alzheimer's risk",
+      "body_md": "A landmark [study](/research/papers/trem2-variants-guerreiro-2013) identifies the TREM2 R47H variant as a major genetic risk factor, cementing the role of microglial inflammation in Alzheimer's disease."
+    },
+    {
+      "section": "Disease-modifying era",
+      "date": "2024-09",
+      "title": "2024-09 — AL002 (TREM2 agonist) fails Phase 2 trial",
+      "body_md": "Alector's [INVOKE-2](/trials/al002-invoke-2-nct04592874) trial fails to slow cognitive decline in early Alzheimer's, challenging the therapeutic viability of activating TREM2 after symptom onset."
+    }
+  ],
+  "notes_for_editor": []
+}

@@ -1,0 +1,107 @@
+{
+  "fact_check": [
+    {
+      "fact": "The combined odds ratio for Alzheimer's disease risk with the TREM2 rs75932628-T mutation is 2.90.",
+      "status": "verified",
+      "note": "Checked against the source document (RESULTS / REPLICATION SERIES)."
+    },
+    {
+      "fact": "The TREM2 variant had a frequency of 0.46% in controls 85 years of age or older.",
+      "status": "verified",
+      "note": "Checked against the source document (RESULTS)."
+    },
+    {
+      "fact": "AL002 Phase 2 (INVOKE-2) trial completed in August 2024 and subsequently failed its primary endpoint.",
+      "status": "verified",
+      "note": "Checked against clinical-trials researcher output and registry data."
+    },
+    {
+      "fact": "Sanofi acquired Vigil Neuroscience for its oral small-molecule TREM2 agonist VG-3927 in August 2026.",
+      "status": "verified",
+      "note": "Checked against public-sentiment researcher output."
+    }
+  ],
+  "research_page": {
+    "slug": "trem2-r47h-alzheimers-risk",
+    "title": "TREM2 R47H Variant and Alzheimer's Risk",
+    "description": "Discovery of the TREM2 R47H mutation as a significant genetic risk factor for late-onset Alzheimer's disease, with an effect size comparable to ApoE ε4.",
+    "tags": [
+      "paper",
+      "genetics",
+      "trem2",
+      "inflammation"
+    ],
+    "source_line_md": "**Source**: [The New England journal of medicine, 2013](https://doi.org/10.1056/NEJMoa1211103) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/23150908)",
+    "authors_line_md": "Jonsson et al. — deCODE Genetics",
+    "takeaway_md": "The rare TREM2 R47H missense mutation nearly triples the risk of late-onset Alzheimer's disease, conferring a risk level comparable to the ApoE ε4 allele. This foundational 2013 genetic discovery established microglial inflammation as a core disease pathway and sparked the development of TREM2-targeted therapies.",
+    "key_findings_md": [
+      "The TREM2 R47H mutation (rs75932628-T) increases Alzheimer's risk with a combined odds ratio of 2.90 across international cohorts (paper, RESULTS).",
+      "The risk effect is comparable to the ApoE ε4 allele, which showed an odds ratio of 3.08 in the same comparison group of elderly controls (paper, RESULTS).",
+      "Mutation carriers had an average age of onset 3.18 years earlier than non-carriers in the Icelandic cohort (paper, RESULTS).",
+      "Cognitively intact elderly carriers between 80 and 100 years old showed poorer cognitive function than non-carriers (paper, RESULTS)."
+    ],
+    "methods_md": "Case-control genetic association study. Researchers sequenced 2,261 Icelanders, identified functional variants, and imputed them into 3,550 Alzheimer's cases and over 111,000 controls. Findings were replicated in cohorts from the US, Norway, the Netherlands, and Germany.",
+    "trial_evidence_md": "The discovery of the TREM2 variant generated the hypothesis that pharmacological activation of TREM2 could clear amyloid plaques. However, clinical translation has proven difficult. Alector's TREM2 agonistic antibody (AL002) failed its Phase 2 [INVOKE-2](/trials/invoke-2-al002) trial in 2024, showing no clinical benefit on the CDR-SB over placebo and causing ARIA-like MRI changes. Despite this setback for antibodies, the industry has pivoted toward small-molecule TREM2 agonists like Vigil Neuroscience's VG-3927, which have recently completed Phase 1 safety testing to determine if better brain penetration can overcome the mechanism's initial clinical failures.",
+    "sentiment_md": "Public and investor sentiment regarding TREM2 therapies is highly polarized. Initial excitement cooled significantly following the high-profile failure of AL002, leading to skepticism among researchers about antibody-based microglial modulation. However, investor enthusiasm has recently pivoted to small molecules following [Sanofi's August 2026 buyout](https://pharmaphorum.com/news/sanofi-makes-alzheimers-play-vigil-takeover) of Vigil Neuroscience, shifting the narrative from a failed target to a failed delivery mechanism. The patient community remains largely quiet and fatigued by Phase 2 failures.",
+    "caveats_md": [
+      "The TREM2 R47H variant is extremely rare (0.46% frequency in elderly controls), meaning it accounts for only a tiny fraction of overall Alzheimer's cases despite its high individual risk.",
+      "Researchers found no distinct clinical features—such as unique radiographic signs or differing rates of disease progression—to distinguish TREM2 mutation carriers from non-carriers.",
+      "The variant's effect on lowering the age of disease onset was not statistically significant in the isolated Icelandic cohort due to the variant's rarity and resulting high standard error."
+    ],
+    "relates_to_md": [
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — TREM2 is hypothesized to mediate the microglial response to amyloid plaque formation.",
+      "[Biomarkers](/research/biomarkers) — Soluble TREM2 is now heavily researched as an inflammatory fluid biomarker."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "invoke-2-al002",
+      "title": "INVOKE-2 (AL002)",
+      "description": "Phase 2 trial of Alector's TREM2 agonistic antibody AL002 in early Alzheimer's disease.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "trem2",
+        "antibody",
+        "al002"
+      ],
+      "registry_md": "[NCT04592874](https://clinicaltrials.gov/study/NCT04592874)",
+      "drug": "AL002 (TREM2 agonistic antibody)",
+      "phase": "2",
+      "sponsor": "Alector Inc.",
+      "population": "Participants With Early Alzheimer's Disease",
+      "primary_endpoint": "Disease progression on CDR-SB",
+      "started": "2021-01",
+      "readout": "2024-08",
+      "why_md": "This trial tested whether pharmacological activation of TREM2 with a monoclonal antibody could slow disease progression, acting on the genetic insight that TREM2 loss-of-function increases Alzheimer's risk. It served as the first major clinical test of the TREM2 hypothesis in humans.",
+      "status_log_md": [
+        "**2021-01** — Trial begins enrollment.",
+        "**2024-08** — Trial completes; fails to meet primary CDR-SB endpoint.",
+        "**2025-01** — Open-label extension (NCT05744401) terminated due to parent study failure.",
+        "**2026-05** — [Results published](https://pubmed.ncbi.nlm.nih.gov/41787076/) detailing lack of clinical improvement and ARIA-like side effects."
+      ],
+      "results_md": "AL002 failed to show clinical improvement over placebo on the primary CDR-SB endpoint, despite demonstrating target engagement in the brain. The drug also caused MRI changes resembling ARIA. The failure led to the termination of the drug's open-label extension study."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Foundations",
+      "date": "2013",
+      "title": "2013 — TREM2 R47H variant linked to Alzheimer's risk",
+      "body_md": "A genetic sequencing study of Icelanders discovers that a rare missense mutation in the TREM2 gene triples the risk of late-onset Alzheimer's disease, highlighting the role of microglial inflammation in the disease process ([Jonsson et al.](/research/papers/trem2-r47h-alzheimers-risk))."
+    },
+    {
+      "section": "Disease-modifying era",
+      "date": "2024-08",
+      "title": "2024-08 — AL002 (TREM2 agonist) Phase 2 trial fails",
+      "body_md": "Alector's TREM2 agonistic antibody AL002 fails its Phase 2 [INVOKE-2](/trials/invoke-2-al002) trial, missing primary clinical endpoints and casting doubt on antibody-based TREM2 modulation."
+    },
+    {
+      "section": "Disease-modifying era",
+      "date": "2026-08",
+      "title": "2026-08 — Sanofi acquires Vigil Neuroscience",
+      "body_md": "Sanofi acquires Vigil Neuroscience and its Phase 1 oral small-molecule TREM2 agonist VG-3927, pivoting industry focus toward small molecules for microglial targets."
+    }
+  ],
+  "notes_for_editor": []
+}

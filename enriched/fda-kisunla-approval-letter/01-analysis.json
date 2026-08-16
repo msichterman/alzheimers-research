@@ -1,0 +1,77 @@
+{
+  "kind": "other",
+  "title": "BLA 761248 Approval Letter (Kisunla)",
+  "authors": [
+    {
+      "name": "Teresa J Buracchio",
+      "affiliation": "Office of Neuroscience, Center for Drug Evaluation and Research, U.S. Food and Drug Administration",
+      "orcid": null,
+      "email": null,
+      "corresponding": true,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Teresa J Buracchio",
+  "venue": "U.S. Food and Drug Administration",
+  "published": "2024-07",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "amyloid",
+    "donanemab",
+    "kisunla",
+    "fda-approval"
+  ],
+  "themes": [
+    "Postmarketing requirements",
+    "Pharmacovigilance",
+    "Amyloid Related Imaging Abnormalities (ARIA)",
+    "ApoE e4 genotype testing",
+    "Safety monitoring"
+  ],
+  "one_line": "The FDA's approval letter for Kisunla (donanemab) outlines mandatory postmarketing studies and enhanced pharmacovigilance for ARIA and cerebral hemorrhage.",
+  "summary": "This document is the official FDA approval letter for Kisunla (donanemab) under Biologics License Application (BLA) 761248 for the treatment of Alzheimer's disease. While granting approval, the FDA outlines strict postmarketing requirements (PMRs) and commitments (PMCs) to ensure ongoing safety monitoring. Key regulatory requirements include enhanced pharmacovigilance for amyloid-related imaging abnormalities (ARIA) and large cerebral hemorrhages. The FDA mandates the establishment of a prospective observational registry and a retrospective cohort study using claims data to track real-world safety, particularly in high-risk patients. Additionally, the manufacturer is required to conduct a randomized controlled trial to evaluate maintenance dosing and to validate an in vitro diagnostic test for the ApoE ε4 allele to help identify patients at increased risk for ARIA.",
+  "key_claims": [
+    {
+      "claim": "Routine postmarketing adverse event reporting is insufficient to monitor the risks of ARIA and intracerebral hemorrhage greater than 1 cm in patients taking Kisunla.",
+      "evidence": "FDA determination under Section 505(o)(3) of the FDCA, leading to the requirement of active registry (4605-1) and retrospective cohort (4605-2) studies.",
+      "strength": "strong",
+      "location": "POSTMARKETING REQUIREMENTS UNDER 505(o)"
+    },
+    {
+      "claim": "An FDA-cleared in vitro diagnostic device is necessary to accurately detect ApoE ε4 alleles for identifying patients at increased risk of ARIA if treated with Kisunla.",
+      "evidence": "Mandated as a postmarketing commitment (4605-4) requiring analytical validation testing to establish and support product labeling.",
+      "strength": "strong",
+      "location": "POSTMARKETING COMMITMENTS NOT SUBJECT TO THE REPORTING REQUIREMENTS UNDER SECTION 506B"
+    }
+  ],
+  "methods": {
+    "design": null,
+    "n": null,
+    "population": "Adult Alzheimer's disease patients",
+    "duration": null,
+    "registration": null
+  },
+  "funding_and_conflicts": "none stated",
+  "limitations": [
+    "The document is a regulatory approval letter and does not present primary clinical trial efficacy or safety data."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "Missing page 1 of the document",
+      "Contains FDA redaction artifacts (e.g., '(b) (b) (4)')",
+      "Footnotes are inline with the main text rather than separated at the bottom of the page"
+    ]
+  },
+  "search_verification": []
+}

@@ -1,0 +1,108 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT04437511",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04437511",
+      "name": "TRAILBLAZER-ALZ 2",
+      "drug": "Donanemab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Active",
+      "enrollment": 1736,
+      "population": "Participants with early symptomatic Alzheimer's disease with biomarker-confirmed amyloid and tau pathology",
+      "primary_endpoint": "Change From Baseline on the Integrated Alzheimer's Disease Rating Scale (iADRS)",
+      "started": "2020-06",
+      "completed_or_readout": "2023-04",
+      "results_summary": "Donanemab significantly slowed clinical decline at 76 weeks compared to placebo in patients with early symptomatic AD and amyloid/tau pathology.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03887455",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03887455",
+      "name": "Clarity AD",
+      "drug": "Lecanemab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "status": "Active",
+      "enrollment": 1906,
+      "population": "Participants with early Alzheimer's disease (mild cognitive impairment or mild dementia) with confirmed amyloid pathology",
+      "primary_endpoint": "Change from Baseline in the CDR-SB at 18 Months",
+      "started": "2019-03",
+      "completed_or_readout": "2029-06",
+      "results_summary": "Lecanemab reduced markers of amyloid and resulted in moderately less decline on measures of cognition and function than placebo at 18 months.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02008357",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02008357",
+      "name": "A4 Study",
+      "drug": "Solanezumab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Completed",
+      "enrollment": 1169,
+      "population": "Clinically normal older individuals with evidence of elevated amyloid (preclinical AD)",
+      "primary_endpoint": "Change From Baseline of the Preclinical Alzheimer Cognitive Composite (PACC) Score",
+      "started": "2014-02",
+      "completed_or_readout": "2022-12",
+      "results_summary": "Solanezumab did not slow cognitive decline in preclinical Alzheimer's disease compared to placebo.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02854033",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02854033",
+      "name": "ADNI3",
+      "drug": "n/a (Observational)",
+      "phase": "n/a",
+      "sponsor": "University of Southern California",
+      "status": "Completed",
+      "enrollment": 1141,
+      "population": "Normal older individuals, MCI, and Alzheimer's disease dementia patients",
+      "primary_endpoint": "Bio-specimen and imaging biomarker collection",
+      "started": "2016-12",
+      "completed_or_readout": "2024-05",
+      "results_summary": "Provided the foundational observational data and biomarker validation that underpins the AT(N) framework across the disease continuum.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2023-01-05",
+      "kind": "paper",
+      "description": "Lecanemab in Early Alzheimer's Disease (Clarity AD results)",
+      "url": "https://doi.org/10.1056/NEJMoa2212948"
+    },
+    {
+      "date": "2023-08-08",
+      "kind": "paper",
+      "description": "Donanemab in Early Symptomatic Alzheimer Disease: The TRAILBLAZER-ALZ 2 Randomized Clinical Trial",
+      "url": "https://doi.org/10.1001/jama.2023.13239"
+    },
+    {
+      "date": "2023-09-21",
+      "kind": "paper",
+      "description": "Trial of Solanezumab in Preclinical Alzheimer's Disease (A4 Study results)",
+      "url": "https://doi.org/10.1056/NEJMoa2305032"
+    },
+    {
+      "date": "2023-07-06",
+      "kind": "regulatory",
+      "description": "FDA Converts Novel Alzheimer's Disease Treatment to Traditional Approval (Leqembi/Lecanemab)",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-converts-novel-alzheimers-disease-treatment-traditional-approval"
+    },
+    {
+      "date": "2024-07-02",
+      "kind": "regulatory",
+      "description": "FDA Approves Treatment for Adults with Alzheimer's Disease (Kisunla/Donanemab)",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-treatment-adults-alzheimers-disease"
+    }
+  ],
+  "evidence_assessment": "The 2018 NIA-AA research framework proposed defining AD biologically rather than purely clinically, which fundamentally transformed Alzheimer's clinical trial design. This biological AT(N) definition became the strict inclusion criterion for modern anti-amyloid therapies. In Phase 3 trials like Clarity AD (lecanemab) and TRAILBLAZER-ALZ 2 (donanemab), selectively enrolling biologically-confirmed AD patients (amyloid and tau positive) led to highly significant slowing of clinical decline, validating the utility of the AT(N) framework for interventional research. Conversely, biomarker-defined preclinical trials like the A4 study (solanezumab) failed to show cognitive benefit, indicating that biomarker presence alone does not guarantee a specific drug's success. Ultimately, the FDA's recent approvals of lecanemab and donanemab cemented the biological framework's role in the AD paradigm, confirming the document's central claim that a biological definition enables the development of disease-modifying therapies.",
+  "discrepancies": [
+    "The document explicitly warns that the biological framework is designed strictly for observational and interventional research and is 'premature for routine clinical practice.' However, the subsequent FDA approvals of lecanemab and donanemab—which require confirmation of amyloid pathology for prescription—have effectively forced this biological framework into routine clinical practice, contrary to the authors' 2018 caveat."
+  ]
+}

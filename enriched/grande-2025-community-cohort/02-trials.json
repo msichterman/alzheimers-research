@@ -1,0 +1,67 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT07521722",
+      "registry_url": "https://clinicaltrials.gov/study/NCT07521722",
+      "name": "DIV-AD",
+      "drug": "Blood-based biomarkers (p-tau, Abeta, GFAP, NfL)",
+      "phase": "n/a",
+      "sponsor": "Barcelonabeta Brain Research Center, Pasqual Maragall Foundation",
+      "status": "Not Yet Recruiting",
+      "enrollment": 250,
+      "population": "Cognitively unimpaired adults aged 50-75 from diverse ethnic groups in primary care",
+      "primary_endpoint": "Plasma levels of Alzheimer's disease blood-based biomarkers across ethnic groups",
+      "started": "2026-04",
+      "completed_or_readout": "2027-04",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04733989",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04733989",
+      "name": "Bio-Hermes-001",
+      "drug": "Blood-based biomarkers (Abeta, p-tau, NfL)",
+      "phase": "n/a",
+      "sponsor": "GAP Innovations, PBC",
+      "status": "Completed",
+      "enrollment": 1002,
+      "population": "Adults 60-85 screened for Preclinical AD, Prodromal AD, or Mild Dementia AD",
+      "primary_endpoint": "Measurement of blood-based biomarker levels vs amyloid PET",
+      "started": "2021-04",
+      "completed_or_readout": "2022-11",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT06584357",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06584357",
+      "name": "Bio-Hermes-002",
+      "drug": "Blood-based and digital biomarkers",
+      "phase": "n/a",
+      "sponsor": "GAP Innovations, PBC",
+      "status": "Recruiting",
+      "enrollment": 1200,
+      "population": "Cognitively normal, MCI, or mild-to-moderate AD dementia aged 60-90",
+      "primary_endpoint": "Blood biomarkers predicting tau and amyloid brain pathology measured by PET",
+      "started": "2024-09",
+      "completed_or_readout": "2028-07",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2026-01",
+      "kind": "paper",
+      "description": "Biomarkers in patients with clinical signs of MCI or mild AD but without amyloid deposits on PET: Results from Bio-Hermes Study participants (Mohs RC et al., Alzheimers Dement)",
+      "url": "https://doi.org/10.1002/alz.71085"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence supports the document's central claim that blood-based biomarkers (such as p-tau217, p-tau181, GFAP, and NfL) are highly sensitive for detecting or ruling out future AD pathology, but lack the positive predictive value required to serve as standalone diagnostics in asymptomatic community populations. Observational screening registries like Bio-Hermes (NCT04733989) similarly show that blood biomarkers are best utilized as triage tools to determine who requires confirmatory PET or CSF testing. The initiation of the DIV-AD study (NCT07521722) in primary care reflects the field's shift toward evaluating these biomarkers in diverse, real-world, asymptomatic cohorts exactly as this paper advocates. The document's finding that combining p-tau217 with NfL or GFAP modestly improves positive predictive value aligns with the broader consensus that multi-marker panels will be necessary for reliable community screening.",
+  "discrepancies": [
+    "The document evaluated biomarkers against purely clinical definitions of incident dementia without neuroimaging or CSF confirmation, whereas major prospective validation trials (like Bio-Hermes) require PET or CSF confirmation of amyloid/tau pathology to define true Alzheimer's disease."
+  ]
+}

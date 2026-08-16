@@ -1,0 +1,212 @@
+{
+  "kind": "review",
+  "title": "Dementia prevention, intervention, and care: 2020 report of the Lancet Commission",
+  "authors": [
+    {
+      "name": "AS",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "grants from Wellcome Trust (200163/Z/15/Z), outside the submitted work."
+    },
+    {
+      "name": "DA",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "grants from Eli Lilly, during the conduct of the study."
+    },
+    {
+      "name": "CBa",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "grants and personal fees from Aca-dia and Lundbeck; and personal fees from Roche, Otsuka, Biogen, Eli Lilly, and Pfizer, outside the sub-mitted work."
+    },
+    {
+      "name": "SB",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "grants and personal fees from AbbVie, personal fees and non-financial sup-port from Eli Lilly, and personal fees from Eleusis, Daval International, Boehringer Ingelheim, Axovant Sciences, Lundbeck, and Nutricia, outside the submitted work; and he has been employed by the Department of Health for England."
+    },
+    {
+      "name": "NF",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "non-financial support from Eli Lilly, outside the submitted work."
+    },
+    {
+      "name": "LNG",
+      "affiliation": "Johns Hopkins University, Baltimore, MD, USA, Drexel University, Philadelphia, PA, USA, and Thomas Jefferson University, Philadelphia, PA, USA",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "entitled to receive royalties from fees associated with online training for the tailored activity program"
+    },
+    {
+      "name": "RH",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "grants from Department of Health, NIHR HTA Programme, outside the submitted work; and he is a Scientific Trustee of the charity Alzheimer's Research UK."
+    },
+    {
+      "name": "MK",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "grants from the UK Medical Research Council (S011676, R024227), NordForsk (the Nordic Programme on Health and Welfare, 75021) and the Academy of Finland (311492), outside the submitted work."
+    },
+    {
+      "name": "EBL",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "other (royalties) from UpToDate, outside the submitted work."
+    },
+    {
+      "name": "KRo",
+      "affiliation": "DGI Clinical; Canadian Consortium on Neurodegeneration in Aging",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "personal fees from Clinical Cardio Day-Cape Breton University, Sydney, NS, Canada, CRUIGM-Montreal, Jackson Laboratory, Bar Harbor, MA, USA (speaker fees), MouseAge, Rome, Italy (speaker fees), Lundbeck, Frontemporal Dementia Study-Group, SunLife Insurance, Japan, outside the submitted work. He is a President and Chief Science Officer of DGI Clinical..."
+    },
+    {
+      "name": "LSS",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "grants and personal fees from Eli Lilly, Merck, and Roche/Genentech; personal fees from Avraham, Boehringer Ingelheim, Neurim, Neuronix, Cognition, Eisai, Takeda, vTv, and Abbott; and grants from Biogen, Novartis, Biohaven, and Washington University DIAN-TU, outside the submitted work."
+    },
+    {
+      "name": "GL",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "no conflict of interests"
+    },
+    {
+      "name": "JH",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "no conflict of interests"
+    },
+    {
+      "name": "NM",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "no conflict of interests"
+    }
+  ],
+  "first_author": "GL",
+  "venue": "Lancet (London, England)",
+  "published": "2020",
+  "doi": "10.1016/S0140-6736(20)30367-6",
+  "doi_url": "https://doi.org/10.1016/S0140-6736(20)30367-6",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/32738937/",
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": "Elsevier hereby grants permission to make all its COVID-19-related research that is available on the COVID-19 resource centre - including thi"
+  },
+  "tags": [
+    "review",
+    "prevention",
+    "epidemiology",
+    "biomarkers",
+    "amyloid",
+    "tau",
+    "modifiable-risk-factors",
+    "public-health",
+    "life-course"
+  ],
+  "themes": [
+    "Modifiable risk factors for dementia",
+    "Life-course prevention model",
+    "Dementia care and interventions",
+    "Biomarkers in Alzheimer's disease diagnosis",
+    "Impact of COVID-19 on dementia patients"
+  ],
+  "one_line": "The 2020 Lancet Commission report identifies 12 potentially modifiable risk factors accounting for around 40% of global dementias and provides recommendations for life-course prevention, intervention, and care.",
+  "summary": "This 2020 Lancet Commission report updates the 2017 life-course model of dementia prevention by adding three new modifiable risk factors: excessive alcohol consumption, traumatic brain injury, and air pollution. Together with the previously identified nine factors (less education, hypertension, hearing impairment, smoking, obesity, depression, physical inactivity, diabetes, and low social contact), these 12 factors account for approximately 40% of global dementia cases. The report emphasizes that prevention interventions can be beneficial at any life stage and have profound policy implications, particularly in low- and middle-income countries. Additionally, it evaluates the utility of amyloid and tau biomarkers, noting they indicate risk but do not guarantee progression to Alzheimer's in cognitively normal individuals. The commission also comprehensively addresses holistic post-diagnostic care, non-pharmacological management of neuropsychiatric symptoms, the severe vulnerability of dementia patients to COVID-19, and the critical importance of supporting family carers.",
+  "key_claims": [
+    {
+      "claim": "Modifying 12 risk factors might prevent or delay up to 40% of dementias.",
+      "evidence": "PAF calculations utilizing relative risks and communality modeling showing a weighted PAF of 40%.",
+      "strength": "moderate",
+      "location": "Executive summary / Total PAF calculation / Figure 7"
+    },
+    {
+      "claim": "Excessive alcohol consumption (>21 units/week) increases the risk of dementia.",
+      "evidence": "Meta-analysis of three longitudinal cohort studies showing a relative risk of 1.18 (95% Cl 1.06–1.31) and a weighted PAF of 0.8%.",
+      "strength": "moderate",
+      "location": "Specific potentially modifiable risk factors for dementia / Alcohol"
+    },
+    {
+      "claim": "Traumatic brain injury (TBI) of any severity is a risk factor for all-cause dementia.",
+      "evidence": "Pooled RR of 1.84 (95% CI 1.54–2.20) derived from a meta-analysis combining four new and four previous population-based cohort studies.",
+      "strength": "moderate",
+      "location": "Specific potentially modifiable risk factors for dementia / TBI"
+    },
+    {
+      "claim": "Air pollution (PM2.5 and NO2) exposure increases incident dementia risk.",
+      "evidence": "Observational cohort study from Canada reporting RR 1.09 (1.07–1.11) for the highest vs. lowest exposure quartiles with a weighted PAF of 2.3%.",
+      "strength": "weak",
+      "location": "Specific potentially modifiable risk factors for dementia / Pollution"
+    },
+    {
+      "claim": "Amyloid and tau biomarkers indicate Alzheimer's risk but do not reliably predict progression in cognitively normal individuals over a clinically relevant timeframe.",
+      "evidence": "An 8-year prospective follow-up where over 80% of 266 PET amyloid-positive, cognitively normal volunteers did not develop cognitive impairment.",
+      "strength": "strong",
+      "location": "Biomarkers and detection of Alzheimer's disease"
+    }
+  ],
+  "methods": {
+    "design": "Systematic review and meta-analysis",
+    "n": null,
+    "population": "Global populations, predominantly from high-income countries",
+    "duration": "Life-course",
+    "registration": null
+  },
+  "funding_and_conflicts": "Funded by University College London (UCL), the Alzheimer's Society, UK, the Economic and Social Research Council, and Alzheimer's Research UK. Multiple authors declared personal fees, grants, and royalties from pharmaceutical and healthcare organizations; remaining authors declared no conflicts.",
+  "limitations": [
+    "Most global research on risk factors stems from high-income countries (HIC), under-representing data from low- and middle-income countries (LMIC).",
+    "Calculations assume a causal relationship between risk factors and dementia based predominantly on observational and cohort data.",
+    "PAF communality calculations relied on a single UK database, and TBI communality was imputed from the mean of other factors due to missing joint data.",
+    "Air pollution PAF is based on a single study from a low-pollution geographic area, which likely underestimates the global impact."
+  ],
+  "red_flags": [
+    "Assumes causality for Population Attributable Fraction (PAF) estimates relying heavily on observational cohort data.",
+    "Methodological assumption: Used an imputed mean to calculate TBI communality because no single dataset measured TBI alongside the other 11 factors."
+  ],
+  "parse_quality": {
+    "score": 6,
+    "issues": [
+      "The complete author byline is entirely missing from the document header, necessitating extracting author initials from contributor/conflict sections.",
+      "License text string is abruptly truncated ('including thi').",
+      "Formatting of data tables is slightly disrupted, complicating tabular data interpretation (e.g., Table 1 and Table 2 structures)."
+    ]
+  },
+  "search_verification": [
+    "Skipped web search: Both DOI (10.1016/S0140-6736(20)30367-6) and PMID (32738937) were explicitly stated in the document header."
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "overall": "negative",
+  "summary": "Public sentiment regarding lanabecestat is overwhelmingly negative and currently quiet, reflecting the drug's early termination for futility in 2018. Within the medical and scientific communities, the drug is frequently cited as a textbook example of the failure of BACE inhibitors, highlighting that amyloid reduction does not automatically equate to cognitive benefit in symptomatic patients. Retail investors and market commentators immediately wrote the drug off following the discontinuation announcements by Eli Lilly and AstraZeneca. Patient and caregiver communities are virtually silent on lanabecestat today, having shifted their focus toward newer, FDA-approved anti-amyloid therapies like lecanemab.",
+  "communities": [
+    {
+      "community": "r/medicine and scientific subreddits",
+      "sentiment": "negative",
+      "themes": [
+        "Adding to the graveyard of failed BACE inhibitors",
+        "Skepticism toward the broader amyloid hypothesis",
+        "Grouping with other failed anti-amyloid agents like semagacestat and bapineuzumab"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/medicine/comments/8qjexv/lilly_astrazeneca_halt_lanabecestat_azd3293_phase/"
+      ]
+    },
+    {
+      "community": "Alzforum (Scientists & Researchers)",
+      "sentiment": "negative",
+      "themes": [
+        "Clear target engagement (amyloid reduction) with zero clinical benefit",
+        "Unexpected off-target toxicities including psychiatric adverse events",
+        "Confirmation that BACE inhibition fails in symptomatic AD"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/research-news/scratch-lanabecestat-bace-inhibitor-doesnt-work-symptomatic-ad-either",
+        "https://www.alzforum.org/news/research-news/new-data-past-bace-inhibitor-trials-shed-light-side-effects"
+      ]
+    },
+    {
+      "community": "Retail Investors (Lilly / AstraZeneca)",
+      "sentiment": "negative",
+      "themes": [
+        "Discontinuation of Phase 3 clinical trials",
+        "Sunk R&D costs",
+        "Financial impact of the Independent Data Monitoring Committee's futility recommendation"
+      ],
+      "example_urls": [
+        "https://www.marketscreener.com/quote/stock/ASTRAZENECA-PLC-4000930/news/AstraZeneca-Update-on-Phase-III-clinical-trials-of-lanabecestat-for-Alzheimer-s-disease-26752232/"
+      ]
+    },
+    {
+      "community": "Patient and Caregiver Forums",
+      "sentiment": "quiet",
+      "themes": [
+        "Lack of active discussion",
+        "Focus on approved treatments (e.g., Leqembi/lecanemab) rather than discontinued historical trials"
+      ],
+      "example_urls": []
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Alzforum",
+      "tone": "critical",
+      "date": null,
+      "url": "https://www.alzforum.org/news/research-news/scratch-lanabecestat-bace-inhibitor-doesnt-work-symptomatic-ad-either"
+    },
+    {
+      "outlet": "MarketScreener",
+      "tone": "neutral",
+      "date": null,
+      "url": "https://www.marketscreener.com/quote/stock/ASTRAZENECA-PLC-4000930/news/AstraZeneca-Update-on-Phase-III-clinical-trials-of-lanabecestat-for-Alzheimer-s-disease-26752232/"
+    }
+  ],
+  "hype_vs_evidence": "Perception perfectly aligns with the clinical evidence in this case. There is no active hype or retail investor push attempting to revive lanabecestat, as both the scientific community and the public recognize that the phase 3 trials definitively failed to slow cognitive decline. While the drug was highly effective at its mechanical goal—drastically reducing CSF amyloid levels and amyloid PET burden—scientists correctly perceive this as evidence that BACE1 inhibition is futile (and potentially toxic) in patients who already have symptomatic Alzheimer's. Any initial optimism prior to the trials' termination has been completely replaced by an understanding of the drug's clinical failure.",
+  "misinformation_flags": [],
+  "searches_run": [
+    "site:reddit.com lanabecestat",
+    "site:alzforum.org lanabecestat",
+    "lanabecestat stock (AstraZeneca OR Lilly)",
+    "lanabecestat alzheimers (patients OR caregivers OR trial)"
+  ]
+}

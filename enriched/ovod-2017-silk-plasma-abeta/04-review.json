@@ -1,0 +1,91 @@
+{
+  "fact_check": [
+    {
+      "fact": "The study population size was 41 participants.",
+      "status": "verified",
+      "note": "Verified against the document's Methods section. The clinical registry (NCT02021682) reports 58 enrolled, indicating this paper analyzes a 41-patient subset of the total trial population."
+    },
+    {
+      "fact": "Receiver operating characteristic (ROC) analysis yielded an AUC of 0.8865.",
+      "status": "verified",
+      "note": "Verified in the document's Results section under 'Absolute Aβ concentrations in human plasma'."
+    },
+    {
+      "fact": "Plasma Aβ isoforms have a half-life of approximately 3 hours compared to 9 hours in CSF.",
+      "status": "verified",
+      "note": "Verified in the document's Results section under 'Plasma SILK for Aβ38, Aβ40, and Aβ42'."
+    },
+    {
+      "fact": "Plasma Aβ42/Aβ40 ratios decreased by 14.3% on average in amyloid-positive individuals.",
+      "status": "verified",
+      "note": "Verified in the document's Results section detailing concentration ratios."
+    }
+  ],
+  "research_page": {
+    "slug": "plasma-abeta-kinetics-ovod-2017",
+    "title": "Plasma Aβ concentrations and kinetics (Ovod et al., 2017)",
+    "description": "Foundational study demonstrating that plasma Aβ42/Aβ40 ratios and turnover kinetics can accurately detect central nervous system amyloidosis.",
+    "tags": [
+      "paper",
+      "biomarkers",
+      "plasma-biomarkers",
+      "amyloid"
+    ],
+    "source_line_md": "**Source**: [Alzheimer's & Dementia, 2017](https://doi.org/10.1016/j.jalz.2017.06.2266) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/28734653)",
+    "authors_line_md": "Ovod, V. et al. — Washington University School of Medicine",
+    "takeaway_md": "This prospective study establishes that the ratio of Aβ42 to Aβ40 in blood plasma is significantly lower in individuals with brain amyloidosis. Utilizing precise mass spectrometry, the plasma assay achieved high diagnostic accuracy (AUC = 0.8865), providing the technological foundation for commercial clinical blood tests like PrecivityAD.",
+    "key_findings_md": [
+      "Plasma Aβ isoforms turn over rapidly with a half-life of approximately 3 hours, compared to the previously established ~9-hour half-life in cerebrospinal fluid (paper, Results).",
+      "The plasma Aβ42/Aβ40 concentration ratio was an average of 14.3% lower in amyloid-positive participants compared to those without amyloidosis (paper, Results).",
+      "A receiver operating characteristic (ROC) analysis of the absolute plasma Aβ42/Aβ40 ratio demonstrated strong diagnostic accuracy for central nervous system amyloidosis with an AUC of 0.8865 (paper, Results)."
+    ],
+    "methods_md": "Prospective study of 41 participants over age 60 (23 amyloid negative, 18 amyloid positive). Researchers utilized a Stable Isotope Labeling Kinetics (SILK) protocol with hourly blood sampling over 24 hours. Plasma results were anchored against prior PIB-PET imaging or CSF Aβ markers.",
+    "trial_evidence_md": "This study reports foundational findings from [NCT02021682](/trials/cns-plasma-abeta-kinetics-nct02021682), which ultimately enrolled 58 participants. The high-precision mass-spectrometry approach pioneered here formed the basis for the commercial PrecivityAD test. The clinical utility of this diagnostic approach was later validated in real-world settings by the QUIP I trial ([NCT05477056](https://clinicaltrials.gov/study/NCT05477056)).",
+    "sentiment_md": "Public and media sentiment is highly enthusiastic about the transition from invasive lumbar punctures and expensive PET scans to accessible blood tests. However, patient communities express significant confusion regarding how to interpret complex ratio cutoffs and Amyloid Probability Scores, occasionally overestimating the test's ability to definitively predict the clinical onset of dementia.",
+    "caveats_md": [
+      "The initial sample size was small (N=41), serving as a proof-of-concept that required the subsequent large-scale, multi-cohort validations that followed in later years.",
+      "For some participants, ground-truth amyloid status was determined via PET scan up to several years prior to the blood draw. This temporal gap introduces the possibility that some individuals characterized as 'false positives' on the blood test had actually developed amyloidosis in the interim."
+    ],
+    "relates_to_md": [
+      "[Biomarkers](/research/biomarkers) — Advances the shift from CSF and PET to highly accurate blood-based amyloid detection.",
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Supports a direct brain-to-blood transport mechanism for Aβ clearance."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "cns-plasma-abeta-kinetics-nct02021682",
+      "title": "CNS and Plasma Amyloid-Beta Kinetics in AD",
+      "description": "Diagnostic method study measuring plasma Aβ turnover kinetics in older adults with known amyloid status.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "biomarkers",
+        "diagnostic"
+      ],
+      "registry_md": "[NCT02021682](https://clinicaltrials.gov/study/NCT02021682)",
+      "drug": "Stable Isotope Labeling Kinetics (SILK) / Plasma Aβ",
+      "phase": "n/a",
+      "sponsor": "Washington University School of Medicine",
+      "population": "Adults age 60 and older with known amyloid status",
+      "primary_endpoint": "Analysis of SILK blood and CSF Aβ isoforms",
+      "started": "2013-12",
+      "readout": "2017-07",
+      "why_md": "This study aimed to determine if the amyloid-beta turnover kinetics and concentration changes previously observed in the central nervous system could be accurately detected in blood plasma. It provided foundational evidence validating the accuracy of blood-based Alzheimer's screening using mass spectrometry.",
+      "status_log_md": [
+        "**2013-12-01** — Trial begins enrollment.",
+        "**2017-07-01** — Trial completed.",
+        "**2017-07-19** — Primary findings demonstrating high diagnostic accuracy of plasma Aβ42/Aβ40 published in [Alzheimer's & Dementia](/research/papers/plasma-abeta-kinetics-ovod-2017)."
+      ],
+      "results_md": "The study confirmed that plasma Aβ turnover kinetics are significantly faster than in CSF. It demonstrated that the Aβ42/Aβ40 ratio reliably drops in amyloid-positive patients, validating high-precision plasma Aβ ratios as an accurate screening mechanism for CNS amyloidosis."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Biomarkers & Diagnostics",
+      "date": "2017-07",
+      "title": "2017-07 — Plasma Aβ42/Aβ40 ratio validated for detecting CNS amyloidosis",
+      "body_md": "Ovod et al. publish foundational data demonstrating that precise mass-spectrometry measurements of the plasma Aβ42/Aβ40 ratio strongly correlate with brain amyloid plaques, paving the way for highly accurate commercial blood tests. Read the [Ovod 2017 paper](/research/papers/plasma-abeta-kinetics-ovod-2017)."
+    }
+  ],
+  "notes_for_editor": []
+}

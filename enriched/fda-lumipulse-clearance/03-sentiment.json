@@ -1,0 +1,71 @@
+{
+  "overall": "hopeful",
+  "summary": "Public sentiment surrounding the FDA clearance of Fujirebio's Lumipulse blood test is generally hopeful but grounded by practical challenges. Patients and caregivers are eager for a cheaper, less invasive alternative to PET scans and lumbar punctures, but many are currently dealing with insurance coverage hurdles and the reality of indeterminate test results. The scientific community remains engaged in validating the assay, noting some concerns about age-related confounders. Meanwhile, market commentators and retail investors view the clearance as a major catalyst for broader Alzheimer's diagnostics.",
+  "communities": [
+    {
+      "community": "r/Alzheimers (Patients & Caregivers)",
+      "sentiment": "mixed",
+      "themes": [
+        "Excitement over lower out-of-pocket costs ($300) compared to PET scans",
+        "Confusion over Medicare and insurance coverage",
+        "Frustration and anxiety over borderline or indeterminate test results"
+      ],
+      "example_urls": [
+        "https://old.reddit.com/r/Alzheimers/comments/1ogneuq/ad_patient_here_my_story_to_diagnosis_very_long/",
+        "https://old.reddit.com/r/Alzheimers/comments/1ro1d8o/does_medicare_cover_the_blood_test/"
+      ]
+    },
+    {
+      "community": "Scientific and Medical Researchers (PubMed)",
+      "sentiment": "skeptical",
+      "themes": [
+        "Validation of the p-tau217/Aβ42 ratio in symptomatic patients",
+        "Warnings about age-related p-tau217 increases causing interpretation issues in amyloid-negative individuals"
+      ],
+      "example_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42530129/",
+        "https://pubmed.ncbi.nlm.nih.gov/42441927/"
+      ]
+    },
+    {
+      "community": "Retail Investors and Market Observers (r/MarketFluxHub)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Viewed as a major milestone for less invasive diagnostic alternatives",
+        "Potential to reshape the diagnostic pipeline for Alzheimer's"
+      ],
+      "example_urls": [
+        "https://old.reddit.com/r/MarketFluxHub/comments/1kp39i0/the_daily_market_flux_your_complete_market/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "STAT News",
+      "tone": "positive",
+      "date": "2025-05",
+      "url": "https://www.statnews.com/2025/05/16/alzheimers-fujirebio-fda-approval/"
+    },
+    {
+      "outlet": "New York Times",
+      "tone": "positive",
+      "date": "2026-07",
+      "url": "https://www.nytimes.com/2026/07/15/well/mind/alzheimers-disease-blood-tests-symptoms.html"
+    },
+    {
+      "outlet": "Nature",
+      "tone": "neutral",
+      "date": "2026-05",
+      "url": "https://www.nature.com/articles/s41591-026-04206-y"
+    }
+  ],
+  "hype_vs_evidence": "There is a slight divergence between public enthusiasm for an accessible 'blood test for Alzheimer's' and the nuanced clinical reality. While investors and mainstream media heavily promote the test as a breakthrough alternative to PET scans, the clinical data and patient experiences confirm a high rate (nearly 20%) of indeterminate results. Furthermore, scientific literature indicates that age-related biomarker increases could confound results in older, amyloid-negative individuals, underscoring the FDA's mandate that this cannot be used as a standalone diagnostic.",
+  "misinformation_flags": [],
+  "searches_run": [
+    "https://old.reddit.com/r/Alzheimers/search?q=Lumipulse&restrict_sr=on",
+    "https://old.reddit.com/search?q=Lumipulse+stock&restrict_sr=off",
+    "https://hn.algolia.com/api/v1/search?query=Fujirebio",
+    "https://hn.algolia.com/api/v1/search?query=pTau217",
+    "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Lumipulse+pTau217"
+  ]
+}

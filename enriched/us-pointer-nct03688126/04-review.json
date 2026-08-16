@@ -1,0 +1,88 @@
+{
+  "fact_check": [
+    {
+      "fact": "Trial reached primary completion in May 2025",
+      "status": "verified",
+      "note": "Matches ClinicalTrials.gov record (2025-05-16)."
+    },
+    {
+      "fact": "No study results are available to evaluate",
+      "status": "corrected",
+      "note": "While unposted on the registry, peer-reviewed results were published in JAMA in August 2025."
+    },
+    {
+      "fact": "Trial enrolled 2,000 participants",
+      "status": "verified",
+      "note": "Matches registry (2000 ACTUAL)."
+    },
+    {
+      "fact": "Age range of participants is 60-79",
+      "status": "verified",
+      "note": "Matches registry eligibility criteria."
+    }
+  ],
+  "research_page": {
+    "slug": "us-pointer-lifestyle-intervention",
+    "title": "U.S. POINTER: Lifestyle intervention for cognitive decline",
+    "description": "A 2-year randomized trial showing structured multidomain lifestyle interventions protect cognition in at-risk older adults.",
+    "tags": [
+      "trial",
+      "lifestyle-intervention",
+      "prevention"
+    ],
+    "source_line_md": "**Source**: [JAMA, 2025](https://doi.org/10.1001/jama.2025.12923) · [ClinicalTrials.gov](https://clinicaltrials.gov/study/NCT03688126)",
+    "authors_line_md": "U.S. POINTER Study Team — Wake Forest University Health Sciences",
+    "takeaway_md": "In a cohort of sedentary older adults at risk for cognitive decline, a structured multidomain lifestyle intervention—encompassing diet, exercise, and cognitive stimulation—provided significantly greater protection of global cognition than a self-guided program. These results successfully replicate and adapt the foundational European FINGER study findings for an American population.",
+    "key_findings_md": [
+      "The structured lifestyle intervention group demonstrated a statistically significantly greater benefit on global cognition over two years compared to the self-guided group (trials researcher, JAMA 2025)."
+    ],
+    "methods_md": "A 24-month randomized, triple-masked interventional trial (NCT03688126) enrolling 2,000 sedentary adults aged 60-79. Participants had a low MIND diet score and elevated risk for cognitive decline, but no existing cognitive impairment. They were assigned to either structured or self-guided lifestyle modifications.",
+    "trial_evidence_md": "The U.S. POINTER trial ([NCT03688126](/trials/us-pointer-nct03688126)) published its primary results in August 2025, meeting its primary endpoint for global cognition. This builds on the foundational [FINGER trial](https://clinicaltrials.gov/study/NCT01041989), which first established the preventative efficacy of multidomain lifestyle counseling in 2015. While the registry record itself remains unpopulated with results, the peer-reviewed evidence confirms the trial's success.",
+    "sentiment_md": "Public sentiment is highly hopeful, with communities focused on Alzheimer's care, longevity, and genetic risk (e.g., APOE4) embracing the findings as actionable, non-pharmacological risk reduction. Media coverage has been positive and accurately framed the trial as a prevention strategy, avoiding exaggerated 'cure' narratives.",
+    "caveats_md": [
+      "The trial excluded individuals with a history of major depression, severe cardiovascular disease, and those using insulin, so the findings may not generalize to populations with these common comorbidities.",
+      "The structured intervention required a two-year commitment to intensive diet, exercise, and cognitive activities, which may be challenging to sustain outside a clinical trial setting."
+    ],
+    "relates_to_md": [
+      "[Next Steps After an Alzheimer's Diagnosis](/journey/newly-diagnosed) — Actionable lifestyle strategies are often a key part of post-diagnosis planning.",
+      "[Research](/research) — Adds robust non-pharmacological evidence to the broader Alzheimer's research landscape."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "us-pointer-nct03688126",
+      "title": "U.S. POINTER",
+      "description": "Structured vs. self-guided lifestyle intervention in 2,000 sedentary adults aged 60-79 at elevated risk for cognitive decline.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "lifestyle-intervention",
+        "prevention"
+      ],
+      "registry_md": "[NCT03688126](https://clinicaltrials.gov/study/NCT03688126)",
+      "drug": "Multidomain Lifestyle Intervention",
+      "phase": "n/a",
+      "sponsor": "Wake Forest University Health Sciences",
+      "population": "Sedentary adults aged 60-79 with a low MIND diet score, elevated risk for cognitive decline, and no cognitive impairment",
+      "primary_endpoint": "Global cognitive function composite score",
+      "started": "2019-01",
+      "readout": "2025-05",
+      "why_md": "Tests whether a 2-year intensive lifestyle intervention encompassing diet, physical and cognitive exercise, and social stimulation can protect cognitive function in older adults at increased risk for cognitive decline. It aims to adapt the successful European FINGER study to a diverse American population.",
+      "status_log_md": [
+        "**2019-01-08** — Trial started.",
+        "**2025-05-16** — Trial reached primary completion.",
+        "**2025-08-26** — Positive results published in [JAMA](https://doi.org/10.1001/jama.2025.12923)."
+      ],
+      "results_md": "Results published in August 2025 demonstrated that the structured multidomain lifestyle intervention group had a statistically significantly greater benefit on global cognition compared to the unstructured, self-guided intervention group."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Prevention and lifestyle",
+      "date": "2025-08",
+      "title": "2025-08 — U.S. POINTER results show lifestyle modifications protect cognition",
+      "body_md": "The U.S. POINTER trial demonstrated that a structured multidomain lifestyle intervention provided significantly greater cognitive benefit than a self-guided approach, replicating the foundational FINGER study in an American cohort. ([U.S. POINTER](/research/papers/us-pointer-lifestyle-intervention))"
+    }
+  ],
+  "notes_for_editor": []
+}

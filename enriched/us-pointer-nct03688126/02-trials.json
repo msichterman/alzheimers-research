@@ -1,0 +1,56 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT03688126",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03688126",
+      "name": "POINTER",
+      "drug": "Structured vs Self-Guided Lifestyle Intervention",
+      "phase": "n/a",
+      "sponsor": "Wake Forest University Health Sciences",
+      "status": "Completed",
+      "enrollment": 2000,
+      "population": "Sedentary adults aged 60-79 with a low MIND diet score, elevated risk for cognitive decline, and no cognitive impairment",
+      "primary_endpoint": "Global cognitive function composite score",
+      "started": "2019-01",
+      "completed_or_readout": "2025-05",
+      "results_summary": "Results published in JAMA (August 2025) demonstrated that the structured multidomain lifestyle intervention group had a statistically significantly greater benefit on global cognition compared to the unstructured, self-guided intervention group.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01041989",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01041989",
+      "name": "FINGER",
+      "drug": "Multidomain lifestyle counseling",
+      "phase": "n/a",
+      "sponsor": "Finnish Institute for Health and Welfare",
+      "status": "Unknown",
+      "enrollment": 1200,
+      "population": "Adults aged 60-77 years at increased dementia risk",
+      "primary_endpoint": "Cognitive impairment assessed with a Neuropsychological Test Battery, and Stroop and Trail Making tests",
+      "started": "2009-09",
+      "completed_or_readout": "2013-12",
+      "results_summary": "Results published in The Lancet (2015) showed that a 2-year multidomain intervention of diet, exercise, cognitive training, and vascular risk monitoring improved or maintained cognitive functioning in at-risk elderly individuals.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2025-08-26",
+      "kind": "paper",
+      "description": "JAMA peer-reviewed publication of the U.S. POINTER trial results showing cognitive benefits of structured lifestyle interventions.",
+      "url": "https://doi.org/10.1001/jama.2025.12923"
+    },
+    {
+      "date": "2015-06-06",
+      "kind": "paper",
+      "description": "Lancet publication of the foundational FINGER trial results demonstrating that a multidomain lifestyle intervention prevents cognitive decline.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25771249/"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence supporting intensive, structured lifestyle interventions to protect cognitive function is strong and validated by multiple large-scale randomized trials. The U.S. POINTER trial successfully met its primary endpoint, with a 2025 JAMA publication reporting that a structured multidomain intervention provided a statistically significantly greater benefit on global cognition than an unstructured self-guided approach. This success effectively replicates and culturally adapts the foundational findings of the Finnish FINGER study (NCT01041989), which first established the preventative efficacy of combined diet, physical and cognitive exercise, and vascular monitoring. Together, these trials provide robust clinical validation that structured lifestyle modifications are an effective, non-pharmacological strategy for mitigating cognitive decline in at-risk older adults.",
+  "discrepancies": [
+    "The document states no study results are available to evaluate because they are not posted in the registry record. While the 'Results' tab on ClinicalTrials.gov remains unpopulated, the trial's final primary results were actually already published in a peer-reviewed JAMA article in August 2025."
+  ]
+}

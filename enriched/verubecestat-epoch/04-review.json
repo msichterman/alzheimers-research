@@ -1,0 +1,88 @@
+{
+  "fact_check": [
+    {
+      "fact": "1,958 patients randomized",
+      "status": "verified",
+      "note": "Matched source document. The registry lists 2,211 enrolled, which accounts for patients screened but not randomized."
+    },
+    {
+      "fact": "Terminated early for futility at 50 months",
+      "status": "verified",
+      "note": "Matched source document Abstract and Results sections."
+    },
+    {
+      "fact": "Aβ-40 and Aβ-42 reduced by over 60%",
+      "status": "verified",
+      "note": "Matched source document (Aβ-40 reduced by 71.1-80.6%; Aβ-42 by 62.7-76.4%)."
+    }
+  ],
+  "research_page": {
+    "slug": "verubecestat-epoch",
+    "title": "Verubecestat in mild-to-moderate AD (EPOCH)",
+    "description": "A pivotal Phase 2/3 trial of the BACE-1 inhibitor verubecestat that was terminated early for futility, showing no clinical benefit despite lowering amyloid.",
+    "tags": [
+      "paper",
+      "trial",
+      "amyloid",
+      "verubecestat",
+      "bace-1-inhibitor"
+    ],
+    "source_line_md": "**Source**: [The New England Journal of Medicine, 2018](https://doi.org/10.1056/NEJMoa1706441) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/29719179/)",
+    "authors_line_md": "Michael F. Egan et al. — Merck",
+    "takeaway_md": "The BACE-1 inhibitor verubecestat effectively reduced amyloid-beta production but failed to slow cognitive or functional decline in a large, rigorous trial of mild-to-moderate Alzheimer's disease. The study was terminated early for futility and highlighted significant adverse events associated with the drug. This high-quality evidence contributed heavily to the abandonment of the BACE-1 inhibitor class for symptomatic Alzheimer's.",
+    "key_findings_md": [
+      "The trial was terminated early for futility at 50 months, finding no significant difference in cognitive (ADAS-cog) or functional (ADCS-ADL) decline between verubecestat and placebo (paper, Abstract).",
+      "Verubecestat successfully reduced cerebrospinal fluid Aβ-40 and Aβ-42 by over 60% and modestly lowered brain amyloid load (paper, RESULTS / BIOMARKERS).",
+      "Patients on verubecestat experienced higher rates of adverse events, including falls, sleep disturbances, weight loss, suicidal ideation, and hair color changes (paper, RESULTS / SAFETY)."
+    ],
+    "methods_md": "Randomized, double-blind, placebo-controlled, 78-week Phase 2/3 trial evaluating verubecestat (12 mg or 40 mg daily) versus placebo. The study randomized 1,958 patients aged 55 to 85 with mild-to-moderate Alzheimer's disease and was registered as NCT01739348.",
+    "trial_evidence_md": "This document reports on the pivotal EPOCH trial ([NCT01739348](https://clinicaltrials.gov/study/NCT01739348)), which conclusively demonstrated the drug's futility in a mild-to-moderate population. (Note: The registry lists 2,211 enrolled patients versus the paper's 1,958 randomized, reflecting standard screen failures). A subsequent Phase 3 trial in prodromal patients, APECS ([NCT01953601](https://clinicaltrials.gov/study/NCT01953601)), was also terminated early for futility, leading to the complete abandonment of the verubecestat clinical program.",
+    "sentiment_md": "Public and scientific perception of verubecestat shifted from early hype over its potent plaque-clearing ability to profound disappointment following its trial failures. Today, the drug is primarily discussed in scientific forums (like Alzforum and r/science) as a definitive cautionary tale about the disconnect between amyloid clearance and clinical benefit, as well as the specific toxicities and cognitive worsening associated with the BACE inhibitor class.",
+    "caveats_md": [
+      "The trial did not mandate amyloid biomarker confirmation for enrollment; although a substudy suggested roughly 90% positivity, a small portion of the cohort likely had non-amyloid dementia.",
+      "BACE-1 inhibitors like verubecestat have since demonstrated class-wide toxicities and cognitive worsening, meaning the adverse events may have masked any potential neuroprotective benefits of amyloid reduction."
+    ],
+    "relates_to_md": [
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — The clinical failure of verubecestat despite successful target engagement posed a major challenge to the amyloid cascade hypothesis.",
+      "[Randomized Trial of Verubecestat for Prodromal Alzheimer’s Disease](/research/papers/verubecestat-apecs) — The related Phase 3 APECS trial in earlier-stage patients, which also failed."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "verubecestat-nct01739348",
+      "title": "EPOCH: Verubecestat in mild-to-moderate AD",
+      "description": "A Phase 2/3 trial evaluating the BACE-1 inhibitor verubecestat in mild-to-moderate Alzheimer's disease, terminated early for futility.",
+      "badge": "Terminated",
+      "tags": [
+        "trial",
+        "bace-1-inhibitor",
+        "amyloid",
+        "verubecestat"
+      ],
+      "registry_md": "[NCT01739348](https://clinicaltrials.gov/study/NCT01739348)",
+      "drug": "Verubecestat (BACE-1 inhibitor)",
+      "phase": "2/3",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "population": "Mild to Moderate Alzheimer's Disease",
+      "primary_endpoint": "Change from baseline in ADAS-Cog and ADCS-ADL scores at week 78",
+      "started": "2012-11",
+      "readout": "2017-04",
+      "why_md": "This trial tested whether blocking the production of amyloid-beta via BACE-1 inhibition could slow clinical decline in mild-to-moderate Alzheimer's disease. Its high-profile failure raised significant questions about the [amyloid hypothesis](/research/amyloid-hypothesis) and the timing of therapeutic intervention.",
+      "status_log_md": [
+        "**2017-02-15** — Trial terminated early for futility following an independent data monitoring committee recommendation."
+      ],
+      "results_md": "The trial found no significant differences in cognitive or functional decline between verubecestat and placebo after 78 weeks. While verubecestat effectively reduced cerebrospinal fluid amyloid-beta, it was associated with higher rates of adverse events, including falls, rash, sleep disturbances, suicidal ideation, and weight loss."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2017-02",
+      "title": "2017-02 — Verubecestat EPOCH trial terminated for futility",
+      "body_md": "Merck halts its Phase 2/3 EPOCH trial of the BACE-1 inhibitor verubecestat in mild-to-moderate Alzheimer's after an independent committee finds no chance of clinical benefit, marking a major setback for the BACE inhibitor class. [Read the EPOCH results](/research/papers/verubecestat-epoch)."
+    }
+  ],
+  "notes_for_editor": [
+    "The registry lists 2,211 enrolled patients while the paper reports 1,958 randomized; this has been noted in the trial_evidence_md section to explain the discrepancy."
+  ]
+}

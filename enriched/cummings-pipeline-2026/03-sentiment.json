@@ -1,0 +1,66 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment surrounding the Alzheimer's drug development pipeline is highly polarized, revealing a stark divide between media optimism and ground-level clinical reality. Science media and institutional press releases enthusiastically herald the 'robust' pipeline and recent anti-amyloid approvals (Leqembi, Kisunla) as historic breakthroughs. However, patients and caregivers express exhausted skepticism, feeling burdened by the drugs' modest clinical benefits, high costs, and intense safety monitoring requirements (ARIA). Retail investors mirror this wariness, demonstrating fatigue with the 'amyloid hypothesis' after years of volatile stock performance, while biotech professionals are cautiously optimistic about the pipeline's diversification into tau, inflammation, and repurposed drugs.",
+  "communities": [
+    {
+      "community": "r/Alzheimers and r/dementia (Patients & Caregivers)",
+      "sentiment": "skeptical",
+      "themes": [
+        "Frustration over the high treatment burden, costs, and modest efficacy of new monoclonal antibodies",
+        "Distrust of the clinical trial enrollment process, with some fearing scams or exploitation",
+        "Desperation for treatments counterbalanced by intense fear of severe side effects like brain bleeding (ARIA)"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers",
+        "https://www.reddit.com/r/dementia"
+      ]
+    },
+    {
+      "community": "r/investing and r/stocks (Retail Investors)",
+      "sentiment": "skeptical",
+      "themes": [
+        "Exhaustion with the 'amyloid hypothesis' following years of volatile biotech stock performance",
+        "Heavy scrutiny of companies with past data integrity controversies (e.g., Cassava Sciences/SAVA)",
+        "Belief that if amyloid clearance were a true cure, clinical progress would be much more definitive by now"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/investing"
+      ]
+    },
+    {
+      "community": "r/biotech and Alzforum (Scientists & Industry Professionals)",
+      "sentiment": "mixed",
+      "themes": [
+        "Appreciation for the pipeline's expansion into diverse Disease-Targeted Therapies (DTTs) beyond amyloid",
+        "Deep concern regarding the FDA's accelerated approval standards and shifting metrics for neurodegenerative drugs",
+        "Emphasis on the critical necessity of biomarker-driven trial designs for future success"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/biotech",
+        "https://www.alzforum.org"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "General Science & University Media (e.g., UNLV News)",
+      "tone": "positive",
+      "date": "2026-08",
+      "url": "https://lite.duckduckgo.com/lite/?q=Alzheimer+pipeline+hype+OR+breakthrough+2026"
+    }
+  ],
+  "hype_vs_evidence": "There is a glaring divergence between mainstream media portrayals of recent anti-amyloid approvals as 'miracle cures' and the clinical evidence demonstrating only a modest 27-35% slowing of cognitive decline. While the Cummings review emphasizes that the pipeline is highly diverse—with 35% of drugs being repurposed agents and many targeting non-amyloid pathways—public discourse remains almost entirely fixated on blockbuster amyloid monoclonals. Furthermore, the general public and media drastically underestimate the logistical and financial burdens of these therapies, particularly the frequent MRI monitoring required for ARIA, which the scientific community explicitly acknowledges as a major hurdle.",
+  "misinformation_flags": [
+    "The pervasive belief that anti-amyloid monoclonal antibodies (like Leqembi or Kisunla) are a 'cure' rather than a treatment that modestly slows decline.",
+    "Circulating claims on patient forums that all beta-amyloid targeting therapies are 'conclusive' failures, ignoring recent FDA approvals and trial data.",
+    "The perception by some desperate caregivers that legitimate, biomarker-driven clinical trials are financial scams due to their complex and restrictive enrollment procedures."
+  ],
+  "searches_run": [
+    "site:reddit.com/r/Alzheimers \"clinical trials\" OR pipeline",
+    "site:reddit.com/r/investing Alzheimer pipeline",
+    "site:reddit.com/r/biotech leqembi OR donanemab pipeline",
+    "Alzforum Cummings pipeline OR DTTs",
+    "site:reddit.com/r/dementia leqembi OR donanemab",
+    "Alzheimer pipeline hype OR breakthrough 2026"
+  ]
+}

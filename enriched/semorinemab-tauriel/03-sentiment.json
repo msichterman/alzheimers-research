@@ -1,0 +1,59 @@
+{
+  "overall": "quiet",
+  "summary": "Public sentiment surrounding semorinemab is overwhelmingly quiet, largely because the drug failed to show clinical efficacy in its Phase 2 Tauriel trial and its clinical development was officially discontinued by Genentech/Roche in February 2024. Among Alzheimer's patients, caregivers, and retail investors, there is virtually no ongoing discussion, hype, or footprint. In contrast, the scientific and medical communities discuss semorinemab frequently but critically. They view it as a pivotal case study of an anti-tau immunotherapy that successfully engaged its biological target (lowering CSF tau biomarkers) but completely failed to slow cognitive or clinical decline.",
+  "communities": [
+    {
+      "community": "Scientific and Medical Community (e.g., Alzforum, r/longevity)",
+      "sentiment": "skeptical",
+      "themes": [
+        "Biomarker target engagement without clinical benefit",
+        "Questioning the viability of N-terminal anti-tau antibodies",
+        "Disconnect between CSF proteomics and cognitive outcomes"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/therapeutics/semorinemab",
+        "https://www.reddit.com/r/longevity/comments/vgxk1i/in_a_phase_2_trial_of_semorinemab_in_people_who/"
+      ]
+    },
+    {
+      "community": "Patients and Caregivers (e.g., r/Alzheimers)",
+      "sentiment": "quiet",
+      "themes": [
+        "Lack of awareness of semorinemab",
+        "General discussion limited to tau biomarkers in diagnostics rather than failed treatments",
+        "Focus firmly on approved amyloid-clearing drugs"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/comments/1drqhoy/understanding_amyloid_beta_4240_ratio/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "JAMA Neurology",
+      "tone": "neutral",
+      "date": "2022-06",
+      "url": "https://jamanetwork.com/journals/jamaneurology/fullarticle/2793069"
+    },
+    {
+      "outlet": "Translational Neurodegeneration",
+      "tone": "critical",
+      "date": "2024-05",
+      "url": "https://academic.oup.com/brain/article/149/1/150/8152362"
+    },
+    {
+      "outlet": "Alzforum",
+      "tone": "critical",
+      "date": null,
+      "url": "https://www.alzforum.org/therapeutics/semorinemab"
+    }
+  ],
+  "hype_vs_evidence": "Because semorinemab definitively failed its primary clinical endpoints and its development program was formally halted, there is no prevailing hype to contradict the evidence. Public perception—to the extent it exists at all—perfectly aligns with the trial data: the drug does not work to slow Alzheimer's disease progression. The scientific community has appropriately digested this failure, using the clear evidence of tau target engagement without clinical improvement to challenge and recalibrate future hypotheses regarding anti-tau immunotherapies.",
+  "misinformation_flags": [],
+  "searches_run": [
+    "site:reddit.com semorinemab",
+    "\"semorinemab\" alzheimer",
+    "semorinemab reddit OR stock",
+    "site:reddit.com/r/alzheimers tau"
+  ]
+}

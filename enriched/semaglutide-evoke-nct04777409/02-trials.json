@@ -1,0 +1,73 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT04777409",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04777409",
+      "name": "EVOKE Plus",
+      "drug": "semaglutide (GLP-1 receptor agonist)",
+      "phase": "3",
+      "sponsor": "Novo Nordisk A/S",
+      "status": "Completed",
+      "enrollment": 1840,
+      "population": "Early Alzheimer's Disease",
+      "primary_endpoint": "Change in the Clinical Dementia Rating - Sum of Boxes (CDR-SB) score",
+      "started": "2021-05",
+      "completed_or_readout": "2026-01",
+      "results_summary": "The intermediate readout at week 104 showed no significant difference from placebo in CDR-SB scores. The trial failed its primary endpoint, leading the sponsor to declare the trial a failure.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04777396",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04777396",
+      "name": "EVOKE",
+      "drug": "semaglutide (GLP-1 receptor agonist)",
+      "phase": "3",
+      "sponsor": "Novo Nordisk A/S",
+      "status": "Completed",
+      "enrollment": 1840,
+      "population": "Early Alzheimer's Disease",
+      "primary_endpoint": "Change in the Clinical Dementia Rating - Sum of Boxes (CDR-SB) score",
+      "started": "2021-05",
+      "completed_or_readout": "2026-01",
+      "results_summary": "Like EVOKE Plus, the trial failed to meet its primary endpoint (CDR-SB) at week 104. The trial was declared a failure by the sponsor.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05891496",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05891496",
+      "name": null,
+      "drug": "semaglutide (GLP-1 receptor agonist)",
+      "phase": "3",
+      "sponsor": "Novo Nordisk A/S",
+      "status": "Completed",
+      "enrollment": 23,
+      "population": "Alzheimer's Disease",
+      "primary_endpoint": "Change in Gene Expression Assessed by Single-cell Ribonucleic Acid Sequencing (scRNAseq)",
+      "started": "2023-06",
+      "completed_or_readout": "2025-09",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2026-06-09",
+      "kind": "paper",
+      "description": "Paper in J Alzheimers Dis detailing the clinical failure of EVOKE and EVOKE+ at week 104, despite suggesting minor trends at later timepoints.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42261705/"
+    },
+    {
+      "date": "2026-08-15",
+      "kind": "paper",
+      "description": "Lancet letter confirming the failure of semaglutide as a treatment in Alzheimer's disease while discussing prevention frameworks.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42594906/"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence base for the use of oral semaglutide to treat early Alzheimer's disease is definitively negative based on the Phase 3 program. The EVOKE (NCT04777396) and EVOKE Plus (NCT04777409) sister trials, which enrolled roughly 3,680 combined participants, both failed to meet their primary efficacy endpoint of slowing cognitive decline as measured by the CDR-SB at week 104. Consequently, the sponsor declared the treatment program a failure. While some independent academic analyses of secondary later-timepoint data (weeks 130 and 156) suggested potential minor trends, these were not sufficient to salvage the drug's prospect as a disease-modifying therapy for active AD.",
+  "discrepancies": [
+    "The document correctly notes that the registry indicates the trial completed in January 2026 and that no results are formally posted on ClinicalTrials.gov. However, it misses the crucial broader context that the trial's top-line readout was heavily publicized as negative in early-to-mid 2026, and the program was broadly declared a failure in the peer-reviewed medical literature."
+  ]
+}

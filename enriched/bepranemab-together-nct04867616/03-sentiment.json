@@ -1,0 +1,73 @@
+{
+  "overall": "mixed",
+  "summary": "Public and media sentiment regarding bepranemab is largely defined by its recent Phase 2 clinical failure and the subsequent loss of its major pharma partner, Roche. While the drug successfully slowed tau accumulation in the brain, this biomarker success did not translate into broader cognitive or functional benefits for the overall patient cohort. Consequently, biotech media and pharma investors view the drug with heavy skepticism, focusing heavily on the terminated $2 billion licensing deal. Nevertheless, some scientific optimism remains for specific subpopulations, particularly those with low baseline tau and no APOE4 mutations, where a signal of clinical benefit was observed. Mainstream patient and caregiver communities are currently quiet about the drug, largely because its development setbacks have kept it out of the broader public eye.",
+  "communities": [
+    {
+      "community": "patients and caregivers (Reddit, forums)",
+      "sentiment": "quiet",
+      "themes": [
+        "Lack of awareness",
+        "No active discussion"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/"
+      ]
+    },
+    {
+      "community": "science and biotech media",
+      "sentiment": "mixed",
+      "themes": [
+        "Failed clinical endpoint",
+        "Biomarker success (lowered tau)",
+        "Potential in specific subgroups"
+      ],
+      "example_urls": [
+        "https://www.nature.com/articles/d41573-024-00180-7",
+        "https://www.alzforum.org/news/conference-coverage/finally-therapeutic-antibodies-start-reduce-tangles"
+      ]
+    },
+    {
+      "community": "retail investors and pharma analysts",
+      "sentiment": "negative",
+      "themes": [
+        "Roche partnership termination",
+        "Failed Phase 2 results"
+      ],
+      "example_urls": [
+        "https://www.fiercebiotech.com/biotech/ucbs-tau-drug-flunks-phase-2-alzheimers-trial-days-after-roches-exit-120m-bet",
+        "https://www.thepharmaletter.com/ucb-reveals-roche-deal-on-bepranemab-terminated"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Nature",
+      "tone": "critical",
+      "date": "2024-11",
+      "url": "https://www.nature.com/articles/d41573-024-00180-7"
+    },
+    {
+      "outlet": "Fierce Biotech",
+      "tone": "critical",
+      "date": "2024-10",
+      "url": "https://www.fiercebiotech.com/biotech/ucbs-tau-drug-flunks-phase-2-alzheimers-trial-days-after-roches-exit-120m-bet"
+    },
+    {
+      "outlet": "Alzforum",
+      "tone": "neutral",
+      "date": "2024-11",
+      "url": "https://www.alzforum.org/news/conference-coverage/finally-therapeutic-antibodies-start-reduce-tangles"
+    }
+  ],
+  "hype_vs_evidence": "There is no significant public hype surrounding bepranemab, meaning broad perception closely matches the disappointing clinical evidence. The scientific and investment communities accurately reflect the complex Phase 2 trial results: a clear success in target engagement and tau reduction, but a failure in primary clinical efficacy endpoints for the overall cohort. Because the drug stumbled in mid-stage trials and lost its high-profile partnership with Roche, it never reached the level of mainstream hype seen with approved anti-amyloid therapies. This lack of broad consumer discussion prevents any meaningful divergence between false public hope and scientific reality.",
+  "misinformation_flags": [],
+  "searches_run": [
+    "site:reddit.com bepranemab OR UCB0107",
+    "bepranemab alzheimer news",
+    "bepranemab stock OR investors",
+    "bepranemab caregiver OR forum",
+    "bepranemab site:alzforum.org",
+    "bepranemab rosch deal stock",
+    "bepranemab tau failure alzheimer"
+  ]
+}

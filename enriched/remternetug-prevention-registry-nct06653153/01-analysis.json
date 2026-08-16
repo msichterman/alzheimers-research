@@ -1,0 +1,54 @@
+{
+  "kind": "other",
+  "title": "A Study of Remternetug (LY3372993) in Early Alzheimer's Disease (TRAILRUNNER-ALZ 3)",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2024-10",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "immunotherapy",
+    "prevention",
+    "remternetug",
+    "ly3372993"
+  ],
+  "themes": [
+    "Phase 3 clinical trial",
+    "Anti-amyloid immunotherapy",
+    "Early Alzheimer's disease",
+    "Subcutaneous drug administration",
+    "Delaying cognitive decline"
+  ],
+  "one_line": "A Phase 3, randomized, double-blind trial evaluating the efficacy of subcutaneous remternetug compared to placebo in delaying cognitive and functional decline in 1,400 participants with early Alzheimer's disease.",
+  "summary": "This document is a ClinicalTrials.gov registry record for TRAILRUNNER-ALZ 3 (NCT06653153), a Phase 3 study sponsored by Eli Lilly. The trial investigates remternetug (LY3372993), a passive anti-amyloid immunotherapy administered subcutaneously, versus a placebo. It aims to enroll an estimated 1,400 participants aged 55 to 80 who have early Alzheimer's disease, defined by P-tau positivity consistent with amyloid pathology but minimal to no current cognitive or functional impairment. The primary outcome is the time to clinically meaningful progression measured by the Clinical Dementia Rating (CDR) scale over a timeframe of up to 255 weeks. The study started in October 2024 and has an estimated completion date of October 2030. No results have been posted yet.",
+  "key_claims": [],
+  "methods": {
+    "design": "Interventional, randomized, double-blind, placebo-controlled",
+    "n": 1400,
+    "population": "Adults aged 55-80 with early Alzheimer's disease, P-tau biomarker consistency for amyloid, and no to minimal cognitive/functional impairment.",
+    "duration": "Up to 255 weeks",
+    "registration": "NCT06653153"
+  },
+  "funding_and_conflicts": "Lead sponsor: Eli Lilly and Company. No individual investigator conflicts are stated in this registry extract.",
+  "limitations": [
+    "This is a clinical trial registration record, not a peer-reviewed research paper containing study results.",
+    "The current status is 'ACTIVE_NOT_RECRUITING' but clinical efficacy and safety results are not yet available."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 10,
+    "issues": []
+  },
+  "search_verification": []
+}

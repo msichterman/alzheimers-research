@@ -1,0 +1,69 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT04111666",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04111666",
+      "name": "AL101-1",
+      "drug": "AL101 / GSK4527226 (Progranulin-elevating monoclonal antibody)",
+      "phase": "1",
+      "sponsor": "Alector Inc.",
+      "status": "Completed",
+      "enrollment": 88,
+      "population": "Healthy volunteers",
+      "primary_endpoint": "Evaluation of safety and tolerability of AL101 measured by number of subjects with adverse events and Dose Limiting Adverse Events (DLAEs)",
+      "started": "2019-12",
+      "completed_or_readout": "2022-06",
+      "results_summary": "This Phase 1 first-in-human study demonstrated safety and tolerability of intravenous and subcutaneous administration of the progranulin-elevating antibody, supporting its continued development for Alzheimer's disease.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT06079190",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06079190",
+      "name": "PROGRESS-AD",
+      "drug": "GSK4527226 / AL101 (Progranulin-elevating monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "GlaxoSmithKline",
+      "status": "Active",
+      "enrollment": 367,
+      "population": "Participants with early Alzheimer's disease (MCI due to AD and mild AD dementia) with amyloid positivity",
+      "primary_endpoint": "Change from Baseline in Clinical Dementia Rating - Sum of Boxes (CDR-SB) Score for Dose 1 vs Placebo Across Weeks 52, 64 and 76",
+      "started": "2023-10",
+      "completed_or_readout": "2026-09",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT07105709",
+      "registry_url": "https://clinicaltrials.gov/study/NCT07105709",
+      "name": null,
+      "drug": "GSK4527226 / AL101 (Progranulin-elevating monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "GlaxoSmithKline",
+      "status": "Recruiting",
+      "enrollment": 220,
+      "population": "Participants with early Alzheimer's disease who completed the parent PROGRESS-AD study",
+      "primary_endpoint": "Number of Participants with Treatment Emergent Adverse Events (AEs) during the OLE",
+      "started": "2025-08",
+      "completed_or_readout": "2028-09",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2025-07-25",
+      "kind": "paper",
+      "description": "Development of AL101 (GSK4527226), a progranulin-elevating monoclonal antibody, as a potential treatment for Alzheimer's disease",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40713730"
+    }
+  ],
+  "evidence_assessment": "The clinical value of this document lies in its genetic validation of established Alzheimer's targets rather than in reporting interventional trials. While the study claims to identify two novel risk loci (TRANK1 and VWA5B2), the evidence for these is extremely weak due to their failure to replicate in independent cohorts and sub-significant performance in the main multi-ancestry model; neither locus currently has associated clinical trials. Conversely, the document's successful fine-mapping of the GRN (progranulin) locus provides strong, high-resolution mechanistic backing for major ongoing clinical programs, notably Alector and GSK's AL101/GSK4527226 which is actively undergoing Phase 2 testing. Finally, the study offers moderate clinical utility by demonstrating that polygenic risk scores built on multi-ancestry data significantly outperform single-ancestry baselines in admixed populations.",
+  "discrepancies": [
+    "The document frames TRANK1 and VWA5B2 as 'novel' Alzheimer's risk loci, but its own data acknowledges they failed to replicate in an independent East Asian cohort (with VWA5B2 even showing an opposite effect direction) and fell short of genome-wide significance in the primary MR-MEGA model.",
+    "Despite the title emphasizing a 'multi-ancestry' analysis, the underlying dataset is approximately 85% European descent, meaning a substantial Eurocentric bias still limits the broader generalizability of the findings.",
+    "Nearly half of the total case cohort (46,828 out of 101,061 cases) were 'proxy' cases based purely on having a parent with Alzheimer's or dementia, introducing significant phenotypic dilution compared to rigidly diagnosed clinical trial cohorts."
+  ]
+}

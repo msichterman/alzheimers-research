@@ -1,0 +1,52 @@
+{
+  "kind": "other",
+  "title": "A Study of Remternetug (LY3372993) in Participants With Alzheimer's Disease (TRAILRUNNER-ALZ 1)",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2022-07",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "immunotherapy",
+    "remternetug",
+    "ly3372993"
+  ],
+  "themes": [
+    "Anti-amyloid immunotherapy",
+    "Phase 3 clinical trial",
+    "Amyloid plaque clearance",
+    "Subcutaneous and intravenous administration",
+    "Early symptomatic Alzheimer's disease"
+  ],
+  "one_line": "ClinicalTrials.gov registry record for TRAILRUNNER-ALZ 1, a Phase 3 study evaluating the safety and efficacy of remternetug (IV and SC) for amyloid clearance in early symptomatic Alzheimer's disease.",
+  "summary": "This document is a clinical trial registry record for TRAILRUNNER-ALZ 1 (NCT05463731), an interventional Phase 3 study sponsored by Eli Lilly and Company. The trial evaluates remternetug (LY3372993), an anti-amyloid immunotherapy, in 1,667 participants aged 60 to 85 with early symptomatic Alzheimer's disease. The primary outcome measures the percentage of participants achieving amyloid plaque clearance on PET scans at 52 weeks. The study compares intravenous and subcutaneous administration of the drug against a placebo and includes an open-label addendum safety cohort. The overall status is completed as of May 2026, though study results have not yet been posted.",
+  "key_claims": [],
+  "methods": {
+    "design": "Phase 3, randomized, double-masked, placebo-controlled interventional trial with open-label addendum",
+    "n": 1667,
+    "population": "Adults aged 60-85 with gradual and progressive change in cognitive function, MMSE 20-30, and positive amyloid PET scan",
+    "duration": "52-week double-blind treatment period, followed by up to 76 weeks extension period",
+    "registration": "NCT05463731"
+  },
+  "funding_and_conflicts": "Lead sponsor is Eli Lilly and Company. No individual author conflicts of interest are stated in the registry record.",
+  "limitations": [
+    "Document is a clinical trial registry record containing only study design and metadata, without results or statistical analyses to evaluate."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 10,
+    "issues": []
+  },
+  "search_verification": []
+}

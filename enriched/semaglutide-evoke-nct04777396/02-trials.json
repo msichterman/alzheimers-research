@@ -1,0 +1,108 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT04777396",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04777396",
+      "name": "EVOKE",
+      "drug": "Semaglutide (GLP-1 receptor agonist)",
+      "phase": "3",
+      "sponsor": "Novo Nordisk A/S",
+      "status": "Completed",
+      "enrollment": 1840,
+      "population": "Adults aged 55-85 with mild cognitive impairment or mild dementia of the Alzheimer's type and confirmed amyloid positivity",
+      "primary_endpoint": "Change in the Clinical Dementia Rating - Sum of Boxes (CDR-SB) score from baseline to week 104",
+      "started": "2021-05",
+      "completed_or_readout": "2026-03",
+      "results_summary": "Oral semaglutide was not efficacious in slowing clinical progression. Mean changes in CDR-SB score from baseline to week 104 showed no significant difference compared to placebo (treatment difference -0.08, p=0.57). The trial was discontinued due to negative clinical outcome.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04777409",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04777409",
+      "name": "EVOKE Plus",
+      "drug": "Semaglutide (GLP-1 receptor agonist)",
+      "phase": "3",
+      "sponsor": "Novo Nordisk A/S",
+      "status": "Completed",
+      "enrollment": 1840,
+      "population": "Adults aged 55-85 with mild cognitive impairment or mild dementia due to Alzheimer's disease and confirmed amyloid positivity, including individuals with significant small vessel pathology",
+      "primary_endpoint": "Change in the Clinical Dementia Rating - Sum of Boxes (CDR-SB) score from baseline to week 104",
+      "started": "2021-05",
+      "completed_or_readout": "2026-03",
+      "results_summary": "Oral semaglutide failed to demonstrate efficacy in slowing clinical progression. There was no significant difference in CDR-SB score changes compared to placebo (treatment difference 0.10, p=0.46). The trial was discontinued alongside the EVOKE study.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05891496",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05891496",
+      "name": null,
+      "drug": "Semaglutide (GLP-1 receptor agonist)",
+      "phase": "3",
+      "sponsor": "Novo Nordisk A/S",
+      "status": "Completed",
+      "enrollment": 23,
+      "population": "Participants with Alzheimer's disease",
+      "primary_endpoint": "Effects of semaglutide on central and peripheral inflammation",
+      "started": "2023-06",
+      "completed_or_readout": "2026-02",
+      "results_summary": "Registry results have been posted following study completion. This was likely an exploratory or mechanistic sub-study evaluating inflammatory biomarkers, curtailed alongside the broader program.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01843075",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01843075",
+      "name": "ELAD",
+      "drug": "Liraglutide (GLP-1 receptor agonist)",
+      "phase": "2",
+      "sponsor": "Imperial College London",
+      "status": "Unknown",
+      "enrollment": 204,
+      "population": "Mild to moderate Alzheimer's disease syndrome with no diabetes",
+      "primary_endpoint": "Change in cerebral glucose metabolic rate",
+      "started": "2014-01",
+      "completed_or_readout": "2025-12",
+      "results_summary": "Liraglutide showed no significant differences in the primary outcome of cerebral glucose metabolism compared to placebo. It also failed to demonstrate significant differences in clinical scales like ADCS-ADL or CDR-SB.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT07677865",
+      "registry_url": "https://clinicaltrials.gov/study/NCT07677865",
+      "name": "GLP1-AD-TTE",
+      "drug": "GLP-1 Receptor Agonists",
+      "phase": "n/a",
+      "sponsor": "West China Hospital",
+      "status": "Completed",
+      "enrollment": null,
+      "population": "Target trial emulation using real-world data across five continents",
+      "primary_endpoint": "Alzheimer's Disease Onset vs Progression",
+      "started": "2007-01",
+      "completed_or_readout": "2026-06",
+      "results_summary": "Observational target trial emulation designed to explore the discrepancy between real-world evidence showing GLP-1s lower Alzheimer's risk and the negative randomized trials evaluating them as a progression-halting treatment.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2026-03-19",
+      "kind": "paper",
+      "description": "Primary readout of EVOKE and EVOKE+ phase 3 trials in The Lancet, showing negative clinical outcomes.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41865758/"
+    },
+    {
+      "date": "2025-12-01",
+      "kind": "paper",
+      "description": "Primary readout of the ELAD phase 2b trial of liraglutide in Nature Medicine.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41326666/"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence does not support the efficacy of oral semaglutide for the treatment of early Alzheimer's disease. The Phase 3 EVOKE and EVOKE+ trials comprehensively failed to demonstrate any significant clinical benefit over placebo in slowing cognitive decline, as measured by the CDR-SB over 104 weeks. Consequently, Novo Nordisk discontinued the clinical development program for this indication. This lack of efficacy is consistent with the Phase 2b ELAD trial evaluating liraglutide, another GLP-1 receptor agonist, which similarly failed to demonstrate a significant effect on cerebral glucose metabolism or overall clinical dementia rating scales. While observational data suggests GLP-1 receptor agonists may play a role in preventing the onset of Alzheimer's disease, the randomized trial record confirms they are ineffective at halting disease progression once symptoms have manifested.",
+  "discrepancies": [
+    "The document states that the EVOKE trial has no outcomes or data available yet, but peer-reviewed results were actually published in The Lancet in March 2026 demonstrating the trial failed and was discontinued.",
+    "The document lists the EVOKE trial enrollment strictly as 1,840 participants based on the registry, while the published manuscript reports 1,855 participants were ultimately randomized in EVOKE."
+  ]
+}

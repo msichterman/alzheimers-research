@@ -1,0 +1,72 @@
+{
+  "kind": "press-release",
+  "title": "FDA Converts Novel Alzheimer’s Disease Treatment to Traditional Approval | FDA",
+  "authors": [],
+  "first_author": null,
+  "venue": "U.S. Food and Drug Administration",
+  "published": "2023-07",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "immunotherapy",
+    "leqembi",
+    "lecanemab",
+    "fda-approval"
+  ],
+  "themes": [
+    "Traditional FDA approval of Leqembi",
+    "Verification of clinical benefit in early Alzheimer's",
+    "ARIA risk and boxed warning",
+    "ApoE ε4 allele testing recommendation"
+  ],
+  "one_line": "The FDA granted traditional approval to the amyloid beta-directed antibody Leqembi (lecanemab-irmb) based on verified clinical benefit in the Phase 3 CLARITY AD trial.",
+  "summary": "On July 6, 2023, the U.S. Food and Drug Administration converted Leqembi (lecanemab-irmb) from an accelerated approval to a traditional approval. This decision was supported by the Phase 3 Study 301 (CLARITY AD) confirmatory trial, which demonstrated a statistically significant reduction in cognitive and functional decline over 18 months. The trial enrolled 1,795 patients with mild cognitive impairment or the mild dementia stage of Alzheimer's disease. The FDA included a boxed warning regarding amyloid-related imaging abnormalities (ARIA), a potentially severe and life-threatening side effect. The agency also recommends ApoE ε4 testing prior to treatment initiation due to a higher incidence of ARIA in homozygous patients, and advises caution when using the drug alongside anticoagulant medications.",
+  "key_claims": [
+    {
+      "claim": "Leqembi demonstrates a statistically significant and clinically meaningful reduction in cognitive decline over 18 months.",
+      "evidence": "Results from Study 301 showing reduction of decline on the Clinical Dementia Rating Scale Sum of Boxes score and secondary endpoints compared to placebo.",
+      "strength": "strong",
+      "location": "Paragraph 5"
+    },
+    {
+      "claim": "Leqembi causes amyloid-related imaging abnormalities (ARIA), which can be severe or life-threatening.",
+      "evidence": "Clinical safety data showing ARIA presentation as brain swelling and hemorrhages, resulting in an FDA boxed warning.",
+      "strength": "strong",
+      "location": "Paragraph 7"
+    },
+    {
+      "claim": "Patients who are homozygous for the ApoE ε4 allele have a higher incidence of symptomatic, serious, and severe ARIA.",
+      "evidence": "Incidence comparisons in clinical trials between ApoE ε4 homozygotes, heterozygotes, and noncarriers.",
+      "strength": "strong",
+      "location": "Paragraph 8"
+    }
+  ],
+  "methods": {
+    "design": "multicenter, randomized, double-blind, placebo-controlled, parallel-group study",
+    "n": 1795,
+    "population": "patients with mild cognitive impairment or mild dementia stage of disease and confirmed presence of amyloid beta pathology",
+    "duration": "18 months",
+    "registration": null
+  },
+  "funding_and_conflicts": "none stated",
+  "limitations": [
+    "No safety or effectiveness data on initiating treatment at earlier or later stages of Alzheimer’s disease than were studied.",
+    "Increased risk of intracerebral hemorrhages in patients concurrently taking anticoagulant medication."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 10,
+    "issues": []
+  },
+  "search_verification": []
+}

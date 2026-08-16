@@ -1,0 +1,88 @@
+{
+  "fact_check": [
+    {
+      "fact": "Trial enrollment is 197 participants.",
+      "status": "verified",
+      "note": "Checked against the 'Enrollment' field in the ClinicalTrials.gov registry extract."
+    },
+    {
+      "fact": "Primary endpoint measures tau spread via tau PET at Week 104 and Week 208.",
+      "status": "verified",
+      "note": "Checked against the 'Primary outcome measures' section in the source document."
+    },
+    {
+      "fact": "Phase 1b E2814 monotherapy reduced CSF ptau217 by 57.9%.",
+      "status": "unverified",
+      "note": "This specific statistical claim from the clinical-trials researcher does not appear in the provided registry extract. It is noted as background context but omitted from the final page content to ensure strict adherence to the source."
+    }
+  ],
+  "research_page": {
+    "slug": "dian-tu-e2814-lecanemab-protocol",
+    "title": "DIAN-TU Protocol: E2814 and Lecanemab in DIAD",
+    "description": "A Phase 2/3 platform trial protocol evaluating the anti-tau antibody E2814 combined with lecanemab in dominantly inherited Alzheimer's disease.",
+    "tags": [
+      "trial-protocol",
+      "amyloid",
+      "tau",
+      "immunotherapy",
+      "genetics"
+    ],
+    "source_line_md": "**Source**: [ClinicalTrials.gov, 2022](https://clinicaltrials.gov/study/NCT05269394)",
+    "authors_line_md": "Washington University School of Medicine",
+    "takeaway_md": "The DIAN-TU platform trial is testing a combination therapy strategy—the anti-MTBR tau antibody E2814 alongside the anti-amyloid drug lecanemab. The study hypothesizes that this dual approach may prevent or slow neurodegeneration in individuals with dominantly inherited Alzheimer's disease (DIAD), though no clinical efficacy results are yet available.",
+    "key_findings_md": [
+      "This is an active registry record; no trial results or cognitive efficacy data have been reported (source document).",
+      "Symptomatic participants receive lecanemab immediately, with E2814 or placebo added at week 24 in a blinded fashion.",
+      "Asymptomatic participants start E2814 or placebo immediately, with open-label lecanemab added at week 52.",
+      "The primary endpoint measures tau spread via tau PET at weeks 104 and 208 in symptomatic participants."
+    ],
+    "methods_md": "Multicenter, randomized, double-blind, placebo-controlled platform trial. Enrolled 197 individuals (aged 18-80) with a known Alzheimer's disease-causing genetic mutation who are within 10 years of their predicted or actual cognitive symptom onset. The trial duration is up to 208 weeks (registered as NCT05269394).",
+    "trial_evidence_md": "This record details the active E2814/lecanemab arm of the DIAN-TU platform ([NCT05269394](https://clinicaltrials.gov/study/NCT05269394)). Prior cohorts in the master protocol (NCT01760005) testing gantenerumab and solanezumab failed to meet their primary cognitive endpoints. Phase 1b data for E2814 (NCT04971733) indicated preliminary target engagement and tolerability, supporting its advancement into this combination efficacy trial.",
+    "sentiment_md": "Public perception among patients and families affected by DIAD is highly hopeful, with many viewing the combined amyloid and tau approach as a logical defense against the disease. However, there is a tendency in patient communities to prematurely interpret theoretical mechanisms or early biomarker signals as guaranteed clinical protection.",
+    "caveats_md": [
+      "The source document is purely a registry record providing study design, without any clinical efficacy or safety data.",
+      "The hypothesized benefit of combining anti-amyloid and anti-tau therapies remains theoretical until Phase 3 cognitive outcomes are published."
+    ],
+    "relates_to_md": [
+      "[DIAN-TU (E2814 + Lecanemab)](/trials/dian-tu-e2814) — The primary Phase 2/3 trial evaluating this combination.",
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Lecanemab targets amyloid clearance, forming the background therapy for this trial.",
+      "[Biomarkers](/research/biomarkers) — The trial heavily relies on tau PET and fluid biomarkers (NfL, ptau217, MTBR-tau) for its primary and secondary endpoints."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "dian-tu-e2814",
+      "title": "DIAN-TU (E2814 + Lecanemab)",
+      "description": "Phase 2/3 evaluation of E2814 and lecanemab in dominantly inherited Alzheimer's disease.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "phase-2-3",
+        "diad",
+        "combination"
+      ],
+      "registry_md": "[NCT05269394](https://clinicaltrials.gov/study/NCT05269394)",
+      "drug": "E2814 (anti-MTBR tau) + Lecanemab (anti-amyloid)",
+      "phase": "2/3",
+      "sponsor": "Washington University School of Medicine",
+      "population": "Individuals aged 18-80 with a known AD-causing mutation, within 10 years of predicted or actual symptom onset",
+      "primary_endpoint": "Change from Week 24 to Week 104 and Week 208 in tau PET in the Symptomatic Population",
+      "started": "2021-12",
+      "readout": "2028-04",
+      "why_md": "This arm of the DIAN-TU platform tests whether adding an anti-tau therapy (E2814) to a background anti-amyloid therapy (lecanemab) provides superior clinical and biomarker benefits in [dominantly inherited Alzheimer's disease](/research).",
+      "status_log_md": [
+        "**2021-12-22** — Trial start date ([ClinicalTrials.gov](https://clinicaltrials.gov/study/NCT05269394))"
+      ],
+      "results_md": null
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Combination therapies",
+      "date": "2021-12",
+      "title": "2021-12 — DIAN-TU combination arm (E2814 + lecanemab) begins",
+      "body_md": "The Phase 2/3 platform trial [DIAN-TU](/research/papers/dian-tu-e2814-lecanemab-protocol) begins evaluating the anti-MTBR tau antibody E2814 alongside lecanemab in individuals with dominantly inherited Alzheimer's disease."
+    }
+  ],
+  "notes_for_editor": []
+}

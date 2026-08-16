@@ -1,0 +1,136 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT02579252",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02579252",
+      "name": "ADAMANT",
+      "drug": "AADvac1 (active tau immunotherapy)",
+      "phase": "2",
+      "sponsor": "Axon Neuroscience SE",
+      "status": "Completed",
+      "enrollment": 208,
+      "population": "Patients with mild Alzheimer's disease",
+      "primary_endpoint": "Safety (all-case treatment-emergent adverse events except local reactions)",
+      "started": "2016-03",
+      "completed_or_readout": "2019-06",
+      "results_summary": "The vaccine was safe and highly immunogenic, fulfilling its primary endpoint. However, it failed to produce significant cognitive or functional improvements in the overall unstratified study population.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01850238",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01850238",
+      "name": null,
+      "drug": "AADvac1 (active tau immunotherapy)",
+      "phase": "1",
+      "sponsor": "Axon Neuroscience SE",
+      "status": "Completed",
+      "enrollment": 30,
+      "population": "Patients with mild-to-moderate Alzheimer's disease",
+      "primary_endpoint": "Tolerability and safety profile of AADvac1 in patients with mild-to-moderate Alzheimer's disease",
+      "started": "2013-05",
+      "completed_or_readout": "2015-03",
+      "results_summary": "Demonstrated that AADvac1 was safe, well-tolerated, and highly immunogenic in patients with mild-to-moderate Alzheimer's disease.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02031198",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02031198",
+      "name": "FUNDAMANT",
+      "drug": "AADvac1 (active tau immunotherapy)",
+      "phase": "1",
+      "sponsor": "Axon Neuroscience SE",
+      "status": "Completed",
+      "enrollment": 25,
+      "population": "Patients with mild-to-moderate Alzheimer's disease (Phase 1 follow-up)",
+      "primary_endpoint": "Tolerability and safety profile of AADvac1 in patients with mild-to-moderate Alzheimer's disease",
+      "started": "2014-01",
+      "completed_or_readout": "2016-08",
+      "results_summary": "An 18-month follow-up that confirmed long-term safety and persistent immunogenicity of the vaccine.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03174886",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03174886",
+      "name": null,
+      "drug": "AADvac1 (active tau immunotherapy)",
+      "phase": "1",
+      "sponsor": "Axon Neuroscience SE",
+      "status": "Unknown",
+      "enrollment": 33,
+      "population": "Patients with Non Fluent Primary Progressive Aphasia (nfPPA)",
+      "primary_endpoint": "Incidence of Treatment-Emergent Adverse Events [Safety and Tolerability]",
+      "started": "2017-07",
+      "completed_or_readout": "2020-11",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT07167966",
+      "registry_url": "https://clinicaltrials.gov/study/NCT07167966",
+      "name": "Alzheimer's Tau Platform: Regimen A",
+      "drug": "AADvac1 (active tau immunotherapy) +/- Donanemab",
+      "phase": "2",
+      "sponsor": "Paul S. Aisen",
+      "status": "Recruiting",
+      "enrollment": 450,
+      "population": "Adults aged 50-80 with late preclinical or early prodromal Alzheimer's disease",
+      "primary_endpoint": "Reduction of brain tau deposition as measured by tau positron emission tomography (PET)",
+      "started": "2026-11",
+      "completed_or_readout": "2028-08",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT07217665",
+      "registry_url": "https://clinicaltrials.gov/study/NCT07217665",
+      "name": "PSP Clinical Trial Platform: Regimen A",
+      "drug": "AADvac1 (active tau immunotherapy)",
+      "phase": "2",
+      "sponsor": "Adam Boxer",
+      "status": "Recruiting",
+      "enrollment": 146,
+      "population": "Participants with Progressive Supranuclear Palsy (PSP)",
+      "primary_endpoint": "Disease progression",
+      "started": "2026-07",
+      "completed_or_readout": "2030-09",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2017-02",
+      "kind": "paper",
+      "description": "Phase 1 safety and immunogenicity trial results published in Lancet Neurology",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27955995/"
+    },
+    {
+      "date": "2018-10",
+      "kind": "paper",
+      "description": "FUNDAMANT Phase 1 follow-up study results published in Alzheimer's Research & Therapy",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30355322/"
+    },
+    {
+      "date": "2024-01",
+      "kind": "paper",
+      "description": "Post hoc analysis of the ADAMANT trial showing potential efficacy in patients with confirmed amyloid and tau pathology",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38101301/"
+    },
+    {
+      "date": "2024-11",
+      "kind": "paper",
+      "description": "Post hoc analysis of the ADAMANT trial focusing on the plasma p-tau217 positive subgroup",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39580468/"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence for AADvac1 demonstrates a robust safety and immunogenicity profile across Phase 1 and Phase 2 trials, successfully meeting the primary safety endpoint in the Phase 2 ADAMANT study. However, the vaccine failed to show statistically significant cognitive or functional efficacy in the broader, unstratified mild Alzheimer's disease population. Later post hoc and exploratory analyses published in 2024 revealed potential clinical and biomarker signals in subgroups with confirmed amyloid and tau pathology (such as p-tau217 positive patients). Based on these subgroup findings, the clinical development program has pivoted away from unselected populations; AADvac1 is currently being evaluated in newly launched biomarker-stratified Phase 2 platform trials (the Alzheimer's Tau Platform and the PSP Clinical Trial Platform) running from 2026 onward.",
+  "discrepancies": [
+    "No significant discrepancies were found. The document notes that cognitive endpoints failed in the overall population but suggests subgroup promise, which aligns with the subsequent trial history where the drug moved into biomarker-stratified platform trials (e.g., Alzheimer's Tau Platform) rather than advancing to a broad unstratified Phase 3 program."
+  ]
+}

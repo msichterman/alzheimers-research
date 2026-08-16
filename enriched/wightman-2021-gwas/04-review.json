@@ -1,0 +1,94 @@
+{
+  "fact_check": [
+    {
+      "fact": "The GWAS meta-analysis included 1,126,563 individuals and identified 38 loci, 7 of which were novel.",
+      "status": "verified",
+      "note": "Checked against source document abstract and results."
+    },
+    {
+      "fact": "Phase 2 clinical trial of AL002 (INVOKE-2) failed to meet its primary endpoint on the CDR-SB score.",
+      "status": "verified",
+      "note": "Checked against clinical-trials researcher output (NCT04592874)."
+    },
+    {
+      "fact": "TMEM106B and GRN were previously associated primarily with frontotemporal dementia.",
+      "status": "verified",
+      "note": "Checked against source document results (Gene prioritization section)."
+    }
+  ],
+  "research_page": {
+    "slug": "wightman-gwas-alzheimers-2021",
+    "title": "GWAS of 1.1 million individuals identifies new Alzheimer's risk loci",
+    "description": "A genome-wide association study of over a million individuals identifies 38 genetic risk loci for late-onset Alzheimer's, highlighting microglia and immune pathways.",
+    "tags": [
+      "paper",
+      "genetics",
+      "gwas",
+      "microglia",
+      "inflammation"
+    ],
+    "source_line_md": "**Source**: [Nature Genetics, 2021](https://doi.org/10.1038/s41588-021-00921-z) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/34493870)",
+    "authors_line_md": "Wightman et al.",
+    "takeaway_md": "This meta-analysis provides robust genetic evidence that microglia and immune dysfunction drive late-onset Alzheimer's disease. It identified 38 independent risk loci, including seven previously unreported regions. However, translating these polygenic modifiers into successful clinical therapies remains a significant hurdle.",
+    "key_findings_md": [
+      "Identified 38 independent genomic risk loci for late-onset Alzheimer's disease, including seven newly discovered regions (paper, Results).",
+      "Demonstrated that Alzheimer's-associated gene expression is highly enriched in microglia and immune cells, supporting a neuroinflammatory mechanism (paper, Results).",
+      "Linked genes previously associated primarily with frontotemporal dementia, such as *TMEM106B* and *GRN*, directly to late-onset Alzheimer's risk (paper, Results)."
+    ],
+    "methods_md": "Genome-wide association study (GWAS) meta-analysis of 1,126,563 individuals. The cohort included clinical cases, proxy cases based on parental history, and controls. The population was primarily of European descent.",
+    "trial_evidence_md": "While this genetic data strongly implicates microglial pathways, clinical translation has proven difficult. The most advanced test of this hypothesis—[Alector's TREM2 agonist AL002](/trials/al002-invoke-2-nct04592874)—demonstrated target engagement but failed to show clinical benefit in its Phase 2 trial. Similarly, programs targeting the newly implicated progranulin (*GRN*) pathway have struggled, with the leading drug for frontotemporal dementia recently terminating in Phase 3.",
+    "sentiment_md": "Public perception is sharply divided by community. Scientific audiences praise the unprecedented sample size and the definitive validation of the microglial hypothesis. Conversely, patient and caregiver communities exhibit 'treatment fatigue' regarding new genetic discoveries. They express frustration over the lack of immediate therapies and frequently confuse these subtle, polygenic risk modifiers with deterministic, early-onset genes.",
+    "caveats_md": [
+      "The inclusion of 'proxy cases' based solely on parental history of Alzheimer's introduces potential phenotype misclassification, as these individuals are not medically verified.",
+      "The study cohorts and reference panels were overwhelmingly of European descent, limiting the applicability of the genetic findings to other global populations.",
+      "Statistical fine-mapping cannot definitively pinpoint causal genes due to linkage disequilibrium, meaning experimental validation is still required for the identified loci."
+    ],
+    "relates_to_md": [
+      "[Biomarkers](/research/biomarkers) — Genetic profiling and polygenic risk scoring.",
+      "[Research](/research) — Broader context for neuroinflammation and genetic targets."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "al002-invoke-2-nct04592874",
+      "title": "INVOKE-2 (AL002 Phase 2)",
+      "description": "Phase 2 trial of TREM2 agonistic antibody AL002 in early Alzheimer's disease.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "microglia",
+        "trem2",
+        "inflammation"
+      ],
+      "registry_md": "[NCT04592874](https://clinicaltrials.gov/study/NCT04592874)",
+      "drug": "AL002 (TREM2 agonistic monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Alector Inc.",
+      "population": "Participants with early Alzheimer's disease",
+      "primary_endpoint": "Disease Progression as Measured by the Clinical Dementia Rating - Sum of Boxes (CDR-SB) Score",
+      "started": "2021-01",
+      "readout": "2024-09",
+      "why_md": "This trial tested whether stimulating microglia via the TREM2 receptor could slow Alzheimer's progression. It served as a pivotal clinical test of the neuroinflammation hypothesis supported by massive [genetic studies](/research/papers/wightman-gwas-alzheimers-2021).",
+      "status_log_md": [
+        "**2024-09-01** — Trial completes and reads out negative, missing its primary endpoint (registry data).",
+        "**2021-01-01** — Trial begins enrollment (registry data)."
+      ],
+      "results_md": "Despite demonstrating sustained target engagement in the central nervous system, AL002 failed to meet its primary endpoint. The drug showed no significant difference from placebo in the change from baseline on the CDR-SB score at week 96."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Genetics & Biomarkers",
+      "date": "2021-09",
+      "title": "2021-09 — GWAS of 1.1 million individuals identifies new Alzheimer's loci",
+      "body_md": "A massive genetic study strongly implicates microglia and immune dysfunction in Alzheimer's pathogenesis. [Wightman et al.](/research/papers/wightman-gwas-alzheimers-2021)"
+    },
+    {
+      "section": "Clinical Trials",
+      "date": "2024-09",
+      "title": "2024-09 — TREM2 agonist AL002 fails in Phase 2",
+      "body_md": "A pivotal test of the microglial hypothesis misses its primary clinical endpoint in early Alzheimer's disease. [INVOKE-2](/trials/al002-invoke-2-nct04592874)"
+    }
+  ],
+  "notes_for_editor": []
+}
