@@ -18,7 +18,10 @@ export const ENRICHED_DIR = join(ROOT, "enriched");
 export const DOCS_DIR = join(ROOT, "docs");
 export const PROMPTS_DIR = join(ROOT, "pipeline", "prompts");
 
-export const MODEL = process.env.PIPELINE_MODEL || "google/gemini-3.1-pro-preview";
+// Vertex, not the `google` provider: OpenCode's Gemini OAuth lane needs the
+// Gemini for Google Cloud API, which is off on flamel-os. Vertex runs on the
+// same project through ADC and is already configured in ~/.config/opencode.
+export const MODEL = process.env.PIPELINE_MODEL || "google-vertex/gemini-3.1-pro-preview";
 export const MAX_TURNS = Number(process.env.PIPELINE_MAX_TURNS || 60);
 export const STAGE_TIMEOUT_MS = Number(
   process.env.PIPELINE_TIMEOUT_MS || 15 * 60 * 1000,
@@ -186,7 +189,9 @@ function claudePrint(prompt, { id, stage, logPath }) {
             resultText += event.part.text;
           } else if (event.type === "step_finish") {
             turns++;
-            if (event.cost) totalCost += event.cost;
+            // OpenCode carries the step cost on the part, not the event.
+            const cost = event.part?.cost ?? event.cost;
+            if (cost) totalCost += cost;
           }
         } catch (err) {
           // Ignore parse errors on individual lines

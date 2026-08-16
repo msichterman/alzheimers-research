@@ -18,7 +18,7 @@ const CORPUS_DIR = join(ROOT, "pipeline", "corpus");
 const LEADS = join(CORPUS_DIR, "leads.json");
 
 if (!GEMINI_AVAILABLE) {
-  log(null, "GOOGLE_AI_API_KEY not set — skipping grounded resolution assist");
+  log(null, "no Vertex credentials (run: gcloud auth application-default login) — skipping grounded resolution assist");
   process.exit(0);
 }
 

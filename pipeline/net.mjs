@@ -31,7 +31,7 @@ const MIN_GAP_MS = {
  * twenty independent extractions into a twenty-times-longer queue for no reason.
  */
 const MAX_PARALLEL = {
-  "generativelanguage.googleapis.com": 6,
+  "aiplatform.googleapis.com": 6,
   "www.ebi.ac.uk": 3,
   "api.crossref.org": 3,
   "clinicaltrials.gov": 3,

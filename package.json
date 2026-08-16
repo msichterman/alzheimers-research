@@ -12,6 +12,11 @@
     "audit:agents": "blume audit",
     "validate:links": "blume validate",
     "eval": "blume eval",
+    "eval:graph": "node pipeline/eval-graphrag.mjs",
+    "eval:gemini": "node pipeline/eval-gemini-gauntlet.mjs",
+    "eval:benchmark": "node pipeline/eval-mcp-gemini.mjs",
+    "eval:local": "node pipeline/eval-local-server.mjs",
+    "build:graph": "node pipeline/build-graph.mjs",
     "discover": "node pipeline/discover.mjs",
     "ingest": "node pipeline/ingest.mjs",
     "parse": "node pipeline/parse.mjs",
@@ -28,6 +33,7 @@
   "dependencies": {
     "@firecrawl/anydoc": "^0.1.8",
     "blume": "^1.4.3",
+    "yaml": "^2.9.0",
     "zod": "^4.4.3"
   },
   "devDependencies": {
@@ -35,6 +41,9 @@
     "wrangler": "^4.122.0"
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["esbuild", "workerd"]
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "workerd"
+    ]
   }
 }

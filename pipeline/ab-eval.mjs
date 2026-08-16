@@ -31,7 +31,7 @@ const CORPUS_DIR = join(ROOT, "pipeline", "corpus");
 const ROUNDS = join(CORPUS_DIR, "rounds.json");
 
 if (!GEMINI_AVAILABLE) {
-  log(null, "GOOGLE_AI_API_KEY not set — cannot run the blind A/B");
+  log(null, "no Vertex credentials (run: gcloud auth application-default login) — cannot run the blind A/B");
   process.exit(1);
 }
 

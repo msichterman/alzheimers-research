@@ -29,7 +29,7 @@ import { ENRICHED_DIR, RAW_DIR, ROOT, log, mapLimit, readJson, writeJson } from 
 const CORPUS_DIR = join(ROOT, "pipeline", "corpus");
 
 if (!GEMINI_AVAILABLE) {
-  log(null, "GOOGLE_AI_API_KEY not set — cannot run the independent critic");
+  log(null, "no Vertex credentials (run: gcloud auth application-default login) — cannot run the independent critic");
   process.exit(1);
 }
 
