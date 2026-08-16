@@ -1,0 +1,137 @@
+---
+title: "Single-cell multiregion dissection of Alzheimer's disease (Mathys et al.)"
+description: "A single-cell transcriptomic atlas of six brain regions reveals region-specific cellular vulnerability linked to Reelin signaling and identifies astrocyte choline metabolism as a driver of cognitive resilience."
+type: paper
+date: 2024-01-01
+year: "2024"
+sidebar:
+  order: -202401
+doi: "10.1038/s41586-024-07606-7"
+license: "CC BY 4.0"
+firstAuthor: "Mathys, Hansruedi"
+authors:
+  - name: "Mathys, Hansruedi"
+  - name: "Boix, Carles A."
+  - name: "Akay, Leyla Anne"
+  - name: "Xia, Ziting"
+  - name: "Davila-Velderrain, Jose"
+  - name: "Ng, Ayesha P."
+  - name: "Jiang, Xueqiao"
+  - name: "Abdelhady, Ghada"
+  - name: "Galani, Kyriaki"
+  - name: "Mantero, Julio"
+  - name: "Band, Neil"
+  - name: "James, Benjamin T."
+  - name: "Babu, Sudhagar"
+  - name: "Galiana-Melendez, Fabiola"
+  - name: "Louderback, Kate"
+  - name: "Prokopenko, Dmitry"
+  - name: "Tanzi, Rudolph E."
+  - name: "Bennett, David A."
+  - name: "Tsai, Li-Huei"
+    email: "lhtsai@mit.edu"
+    corresponding: true
+  - name: "Kellis, Manolis"
+    email: "manoli@mit.edu"
+    corresponding: true
+search:
+  tags: [paper, single-cell-transcriptomics, amyloid, tau, cognitive-resilience, reelin-signaling]
+---
+**Source**: [Nature, 2024](https://doi.org/10.1038/s41586-024-07606-7) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/39048816)
+**Authors**: Mathys et al. — MIT, Rush Alzheimer's Disease Center
+
+## Takeaway
+
+This post-mortem single-cell atlas maps 1.3 million cells across six brain regions to identify how Alzheimer's pathology affects specific cell types. It reveals that Reelin-expressing excitatory neurons are uniquely vulnerable to the disease, while astrocyte choline and polyamine metabolism correlate with cognitive resilience. These findings provide foundational, non-amyloid mechanistic targets for future therapies.
+
+## Key findings
+
+- Reelin-expressing excitatory neurons in the entorhinal cortex are significantly depleted in Alzheimer's disease, highlighting a specific cellular vulnerability (paper, Fig. 3).
+- Astrocyte choline metabolism and polyamine biosynthesis pathways are strongly associated with preserved cognitive function despite high Alzheimer's pathology (paper, Fig. 5).
+- Glial cells, including astrocytes and microglia, markedly upregulate glycolysis pathways in response to diffuse amyloid-beta plaque burden (paper, Fig. 4).
+
+## Methods in brief
+
+Cross-sectional post-mortem single-nucleus RNA sequencing (snRNA-seq) of 1.3 million cells from 48 aged individuals (26 with pathologic AD, 22 without) from the ROSMAP cohort across six distinct brain regions.
+
+## Trial evidence
+
+This is a foundational transcriptomics study, not an interventional trial, so it reports no clinical results. However, its identified resilience pathways are being explored in related clinical programs. Choline donors like citicoline have completed early-phase testing ([NCT05200208](https://clinicaltrials.gov/study/NCT05200208), [NCT06029894](https://clinicaltrials.gov/study/NCT06029894)), and the polyamine spermidine is actively recruiting for cognitive decline ([NCT07383311](https://clinicaltrials.gov/study/NCT07383311)). No active interventional trials are currently targeting the Reelin signaling pathway.
+
+## Public sentiment
+
+Public and scientific observers are hopeful about the identification of non-amyloid targets like Reelin and astrocyte metabolism. However, discussions often inappropriately extrapolate these foundational findings into premature lifestyle advice, with some lay audiences incorrectly assuming that specific diets can easily mimic these resilience mechanisms or that systemic Reelin supplementation would be a safe, immediate therapy without acknowledging severe cardiovascular risks.
+
+## Caveats
+
+- Because the data comes from post-mortem brain tissue, the study identifies correlations between gene expression and disease state but cannot prove that these cellular changes cause Alzheimer's or that reversing them would halt the disease.
+- The use of single-nucleus RNA sequencing (rather than whole-cell) might miss important localized transcripts, particularly in microglia where cytoplasm-heavy states are critical.
+- Cellular vulnerability is correlated with broad regional pathology averages, meaning the exact spatial relationship between a dying cell and a nearby amyloid plaque or tau tangle is inferred rather than directly observed.
+
+## Critical review
+
+*Cross-examination record extracted by the pipeline's critic, trials, and sentiment agents, plus the reviewer's fact check. Full structured outputs: `enriched/mathys-2024-multiregion/`.*
+
+### Funding & conflicts
+
+Supported by NIH grants (RF1 AG062377, RF1 AG054321, RO1 AG054012, etc.), Cure Alzheimer’s Fund, JBP Foundation, Belfer Family Foundation, and Swiss National Science Foundation. The authors declare no competing interests.
+
+### Claims assessed
+
+| Claim | Evidence strength | Where |
+| --- | --- | --- |
+| Reelin-expressing excitatory neurons in the entorhinal cortex are selectively vulnerable and depleted in Alzheimer's disease. | strong | Vulnerable neuronal subtypes in AD / Fig. 3 |
+| Astrocyte choline metabolism and polyamine biosynthesis pathways are associated with cognitive resilience to AD pathology. | moderate | Astrocytes and cognitive resilience / Fig. 5 |
+| Glial cells upregulate glycolysis pathways in response to diffuse amyloid-beta plaque burden. | moderate | Pathology-specific expression changes / Fig. 4 |
+
+### Cross-examination
+
+4 facts verified against the source document and trial registries. Flagged items:
+
+- **Registry cross-check** — The document is a basic science transcriptomics study and does not report an interventional clinical trial; thus, there are no direct discrepancies with trial registries.
+- **Registry cross-check** — While the paper highlights Reelin signaling as a major vulnerability pathway for excitatory neurons, the clinical record shows no active trials targeting this mechanism, indicating it remains strictly in the preclinical/observational phase.
+- **Misinformation watch** — Alzheimer's is simply 'Type 3 Diabetes' and can be cured entirely by cutting carbohydrates or adopting specific plant-based diets.
+- **Misinformation watch** — Systemic Reelin supplementation is a safe, immediate pathway to cognitive resilience without systemic side effects.
+- **Misinformation watch** — Assertions that general behavioral changes (like socializing or exercise) directly map to the Reelin expression changes observed in this specific post-mortem study.
+
+## Relates to
+
+- [Biomarkers](/research/biomarkers) — Identifies novel cellular resilience pathways that could eventually inform new biomarker development.
+- [Amyloid hypothesis](/research/amyloid-hypothesis) — Maps how glial energy metabolism (glycolysis) responds specifically to diffuse amyloid plaques.
+
+## Attribution
+
+**Cite the original work:** Mathys, Hansruedi et al. Single-cell multiregion dissection of Alzheimer’s disease. *Nature* 2024. doi:10.1038/s41586-024-07606-7 — [DOI](https://doi.org/10.1038/s41586-024-07606-7) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/39048816)
+
+**Licence:** CC BY 4.0
+
+**Changes made:** this page is a summary with critical commentary written by the [research pipeline](https://github.com/msichterman/alzheimers-research/blob/main/PIPELINE.md) from `sources/mathys-2024-multiregion.xml` (parsed 2026-08-13). It is not the original text, and any wording here is the pipeline's unless quoted.
+
+| Author | Affiliation | Contact | Declared conflicts |
+| --- | --- | --- | --- |
+| Mathys, Hansruedi | — | — | None declared |
+| Boix, Carles A. | — | — | None declared |
+| Akay, Leyla Anne | — | — | None declared |
+| Xia, Ziting | — | — | None declared |
+| Davila-Velderrain, Jose | — | — | None declared |
+| Ng, Ayesha P. | — | — | None declared |
+| Jiang, Xueqiao | — | — | None declared |
+| Abdelhady, Ghada | — | — | None declared |
+| Galani, Kyriaki | — | — | None declared |
+| Mantero, Julio | — | — | None declared |
+| Band, Neil | — | — | None declared |
+| James, Benjamin T. | — | — | None declared |
+| Babu, Sudhagar | — | — | None declared |
+| Galiana-Melendez, Fabiola | — | — | None declared |
+| Louderback, Kate | — | — | None declared |
+| Prokopenko, Dmitry | — | — | None declared |
+| Tanzi, Rudolph E. | — | — | None declared |
+| Bennett, David A. | — | — | None declared |
+| Tsai, Li-Huei ✉️ | — | [lhtsai@mit.edu](mailto:lhtsai@mit.edu) | None declared |
+| Kellis, Manolis ✉️ | — | [manoli@mit.edu](mailto:manoli@mit.edu) | None declared |
+
+*✉️ corresponding author. Affiliations and contact details are reproduced as published in the source document.*
+
+---
+
+*Pipeline-generated from `sources/mathys-2024-multiregion.xml` (parsed 2026-08-13), then agent-reviewed. Edit freely — republishing overwrites.*

@@ -14,5 +14,21 @@
     "turns": 9,
     "cost_usd": 0.7922906,
     "session_id": "ses_ff5d18230ffe2XSbK7FfJxDnW6"
+  },
+  "03-sentiment": {
+    "source_sha256": "5360c6411ed867792c17f8c16d1a59646728fd8147e76f0754b62b0399015113",
+    "completed_at": "2026-08-16T22:49:08.394Z",
+    "model": "google-vertex/gemini-3.1-pro-preview",
+    "turns": 19,
+    "cost_usd": 0.7876668000000001,
+    "session_id": "ses_ff344fb95ffeg7rmA42sRWduCm"
+  },
+  "04-review": {
+    "source_sha256": "5360c6411ed867792c17f8c16d1a59646728fd8147e76f0754b62b0399015113",
+    "completed_at": "2026-08-16T22:51:04.241Z",
+    "model": "google-vertex/gemini-3.1-pro-preview",
+    "turns": 1,
+    "cost_usd": 0.255056,
+    "session_id": "ses_ff33bcc04ffeUD6pas879Flj4T"
   }
 }

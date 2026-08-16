@@ -1,0 +1,120 @@
+{
+  "fact_check": [
+    {
+      "fact": "Single-cutoff accuracies of 89-91% in secondary care and 85% in primary care.",
+      "status": "verified",
+      "note": "Checked against Abstract and Results (Accuracy of plasma p-tau217)."
+    },
+    {
+      "fact": "Accuracy significantly drops to 83% in patients aged 80 and above.",
+      "status": "verified",
+      "note": "Confirmed in Results (Effects of demographic factors and comorbidities)."
+    },
+    {
+      "fact": "A two-cutoff approach improves accuracy to 92-94% but classifies 12-17% of participants into an intermediate zone.",
+      "status": "verified",
+      "note": "Confirmed in Abstract and Results."
+    },
+    {
+      "fact": "87 primary care participants had AD pathology defined by amyloid PET instead of the primary CSF reference standard.",
+      "status": "verified",
+      "note": "Confirmed in Methods (Outcomes). A sensitivity analysis excluding them confirmed the main findings."
+    },
+    {
+      "fact": "FDA approval of the Lumipulse plasma ratio test occurred in late 2025.",
+      "status": "verified",
+      "note": "Verified against the clinical-trials researcher's notes and historical context, though other existing site pages flag a subsequent Class 2 Recall for the Lumipulse G pTau217/Aβ1-42 Plasma Ratio test in February 2026."
+    }
+  ],
+  "research_page": {
+    "slug": "plasma-ptau217-lumipulse-primary-care-2025",
+    "title": "Plasma p-tau217 (Lumipulse) for Alzheimer's diagnosis in primary and secondary care",
+    "description": "A fully automated plasma p-tau217 immunoassay demonstrates high diagnostic accuracy for Alzheimer's pathology, though older patients may require a two-cutoff approach.",
+    "tags": [
+      "paper",
+      "biomarkers",
+      "amyloid",
+      "tau",
+      "plasma-p-tau217",
+      "diagnostics",
+      "immunoassay"
+    ],
+    "source_line_md": "**Source**: [Nature Medicine, 2025](https://doi.org/10.1038/s41591-025-03622-w) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/40205199)",
+    "authors_line_md": "Sebastian Palmqvist et al. — Skåne University Hospital / Lund University",
+    "takeaway_md": "The fully automated Lumipulse plasma p-tau217 test accurately detects Alzheimer's pathology in secondary (89-91%) and primary (85%) care settings. However, lower accuracy in patients over 80 necessitates a two-cutoff approach, leaving up to 17% of patients in an intermediate zone requiring confirmatory testing.",
+    "key_findings_md": [
+      "Demonstrated single-cutoff accuracies of 89–91% in secondary care and 85% in primary care ([paper, Abstract](https://doi.org/10.1038/s41591-025-03622-w)).",
+      "Diagnostic accuracy significantly declined in older patients, dropping to 83% for those aged 80 and above, while remaining unaffected by chronic kidney disease or cognitive stage ([paper, Results](https://doi.org/10.1038/s41591-025-03622-w)).",
+      "Implementing a two-cutoff approach improved overall accuracy to 92–94% but classified 12–17% of participants into an intermediate zone requiring further testing ([paper, Abstract](https://doi.org/10.1038/s41591-025-03622-w)).",
+      "Using the p-tau217:Aβ42 ratio did not improve overall accuracy but reduced the number of intermediate results to 7–10% ([paper, Results](https://doi.org/10.1038/s41591-025-03622-w))."
+    ],
+    "methods_md": "Retrospective cross-sectional analysis of 1,767 participants with cognitive symptoms (subjective cognitive decline, mild cognitive impairment, or dementia) across four secondary care cohorts and one primary care cohort. The study pooled data collected between April 2017 and November 2023, drawing from observational registries including [BioFINDER-Memory Clinic](/trials/validate-biofinder-memory-clinic-nct06122415) and [BioFINDER-Primary Care](/trials/biofinder-primary-care-nct06120361).",
+    "trial_evidence_md": "This paper reports interim cross-sectional diagnostic accuracy from two ongoing prospective observational cohorts: [BioFINDER-Memory Clinic](/trials/validate-biofinder-memory-clinic-nct06122415) (NCT06122415) and [BioFINDER-Primary Care](/trials/biofinder-primary-care-nct06120361) (NCT06120361). Both studies are actively recruiting to evaluate the real-world utility of blood-based biomarkers. As noted by the analyst, this represents an interim evaluation of enrolled participants rather than final longitudinal trial results.",
+    "sentiment_md": "Mainstream media coverage is highly enthusiastic, framing the test as a revolutionary and accessible tool for democratizing Alzheimer's diagnosis in primary care. However, the medical community and science-literate public express more cautious optimism, noting that the required two-cutoff system and intermediate results mean the test cannot entirely replace PET scans or lumbar punctures, particularly for patients over 80.",
+    "caveats_md": [
+      "The study population was exclusively European, requiring further validation of the cutoffs in diverse global cohorts.",
+      "The automated Lumipulse assay performed slightly worse than mass spectrometry-based methods in primary care and older populations."
+    ],
+    "relates_to_md": [
+      "[BioFINDER-Primary Care](/trials/biofinder-primary-care-nct06120361) — The primary care cohort analyzed in this study.",
+      "[Blood biomarkers for Alzheimer's disease](/research/papers/blood-biomarkers-clinical-practice-hansson-2023) — Context on the clinical implementation of blood-based biomarkers.",
+      "[Biomarkers](/research/biomarkers) — General overview of Alzheimer's disease biomarkers and diagnostic tools."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "validate-biofinder-memory-clinic-nct06122415",
+      "title": "Validate (The Swedish BioFINDER - Memory Clinic Study)",
+      "description": "Observational study evaluating the Lumipulse plasma p-tau217 immunoassay in secondary memory clinic patients.",
+      "badge": "Recruiting",
+      "tags": [
+        "trial",
+        "observational",
+        "biomarker",
+        "diagnostics"
+      ],
+      "registry_md": "[NCT06122415](https://clinicaltrials.gov/study/NCT06122415)",
+      "drug": "Plasma p-tau217 (Lumipulse)",
+      "phase": "Observational",
+      "sponsor": "Skåne University Hospital",
+      "population": "Patients with cognitive symptoms in a secondary memory clinic",
+      "primary_endpoint": "Brain AD pathology determined by CSF AD biomarkers",
+      "started": "2022-12",
+      "readout": "2026-12",
+      "why_md": "Validates the real-world diagnostic accuracy of fully automated [blood biomarkers](/research/biomarkers) like plasma p-tau217 in specialized secondary care settings, aiming to streamline Alzheimer's diagnosis.",
+      "status_log_md": [
+        "**2025-04-09** — Interim cross-sectional data published in [Nature Medicine](/research/papers/plasma-ptau217-lumipulse-primary-care-2025) demonstrating 89-91% diagnostic accuracy."
+      ],
+      "results_md": "An interim cross-sectional readout published in [2025](/research/papers/plasma-ptau217-lumipulse-primary-care-2025) showed that the Lumipulse p-tau217 assay achieved 89-91% accuracy for detecting Alzheimer's pathology in secondary care, though older age groups required a two-cutoff approach to maintain optimal predictive values."
+    },
+    {
+      "slug": "biofinder-primary-care-nct06120361",
+      "title": "ADetect (The Swedish BioFINDER - Primary Care Study)",
+      "description": "Observational study evaluating the Lumipulse plasma p-tau217 immunoassay in primary care patients with cognitive symptoms.",
+      "badge": "Recruiting",
+      "tags": [
+        "trial",
+        "observational",
+        "biomarker",
+        "primary-care"
+      ],
+      "registry_md": "[NCT06120361](https://clinicaltrials.gov/study/NCT06120361)",
+      "drug": "Plasma p-tau217 (Lumipulse)",
+      "phase": "Observational",
+      "sponsor": "Skåne University Hospital",
+      "population": "Patients seeking medical care for mild cognitive symptoms in primary care units",
+      "primary_endpoint": "Presence of brain AD pathology determined by CSF AD biomarkers",
+      "started": "2020-01",
+      "readout": "2028-12",
+      "why_md": "Assesses whether [blood biomarkers](/research/biomarkers) can accurately diagnose Alzheimer's disease in unspecialized primary care settings, potentially democratizing access to early diagnosis and treatment.",
+      "status_log_md": [
+        "**2025-04-09** — Interim cross-sectional results published in [Nature Medicine](/research/papers/plasma-ptau217-lumipulse-primary-care-2025) indicating 85% accuracy in primary care."
+      ],
+      "results_md": "Interim cross-sectional data from [2025](/research/papers/plasma-ptau217-lumipulse-primary-care-2025) showed an 85% diagnostic accuracy in primary care using a single cutoff. Accuracy dropped to 83% in patients aged 80 and above, highlighting the need for a two-cutoff approach in this demographic that leaves a subset of patients in an intermediate diagnostic zone."
+    }
+  ],
+  "timeline_entries": [],
+  "notes_for_editor": [
+    "The clinical trials researcher mentioned FDA approval of the Lumipulse plasma ratio test in late 2025, which provides context for this 2025 paper. However, existing site routes (e.g., /research/papers/fda-recall-lumipulse-plasma-ratio) indicate a Class 2 Recall for the Lumipulse G pTau217/Abeta1-42 Plasma Ratio test in February 2026. This page focuses on the original Nature Medicine cross-sectional data, but the site's broader narrative should link these events carefully."
+  ]
+}

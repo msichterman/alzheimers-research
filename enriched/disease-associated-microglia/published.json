@@ -1,0 +1,17 @@
+{
+  "published_at": "2026-08-16T22:50:29.337Z",
+  "files": [
+    "docs/research/papers/disease-associated-microglia-cell-2017.mdx",
+    "docs/trials/al002-invoke-2-nct04592874.mdx"
+  ],
+  "timeline": [
+    {
+      "title": "2017-06 — Discovery of Disease-Associated Microglia (DAM)",
+      "action": "skipped (already present)"
+    },
+    {
+      "title": "2024-08 — First TREM2 agonist fails in Phase 2",
+      "action": "skipped (already present)"
+    }
+  ]
+}

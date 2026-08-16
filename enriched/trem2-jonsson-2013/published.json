@@ -1,0 +1,21 @@
+{
+  "published_at": "2026-08-16T22:50:29.440Z",
+  "files": [
+    "docs/research/papers/trem2-r47h-alzheimers-risk.mdx",
+    "docs/trials/invoke-2-al002.mdx"
+  ],
+  "timeline": [
+    {
+      "title": "2013 — TREM2 R47H variant linked to Alzheimer's risk",
+      "action": "skipped (already present)"
+    },
+    {
+      "title": "2024-08 — AL002 (TREM2 agonist) Phase 2 trial fails",
+      "action": "skipped (already present)"
+    },
+    {
+      "title": "2026-08 — Sanofi acquires Vigil Neuroscience",
+      "action": "skipped (already present)"
+    }
+  ]
+}

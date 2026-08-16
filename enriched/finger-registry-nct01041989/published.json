@@ -1,0 +1,18 @@
+{
+  "published_at": "2026-08-16T22:50:29.353Z",
+  "files": [
+    "docs/research/papers/finger-trial-nct01041989.mdx",
+    "docs/trials/finger-nct01041989.mdx",
+    "docs/trials/us-pointer-nct03688126.mdx"
+  ],
+  "timeline": [
+    {
+      "title": "2015-06 — FINGER trial primary results read out",
+      "action": "skipped (already present)"
+    },
+    {
+      "title": "2025-08 — US POINTER trial results read out",
+      "action": "skipped (already present)"
+    }
+  ]
+}

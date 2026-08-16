@@ -272,10 +272,12 @@ export function yamlString(value) {
   return `"${String(value).replace(/\\/g, "\\\\").replace(/"/g, '\\"')}"`;
 }
 
-/** Keep agent-authored Markdown safe inside MDX: escape bare braces, strip HTML comments. */
+/** Keep agent-authored Markdown safe inside MDX: escape bare braces, strip HTML comments, escape math <. */
 export function mdxSafe(markdown) {
   return String(markdown)
     .replace(/<!--[\s\S]*?-->/g, "")
     .replace(/([{}])/g, "\\$1")
+    .replace(/<(?=[\s\d=])/g, "&lt;")
+    .replace(/<(?![a-zA-Z/])/g, "&lt;")
     .trim();
 }

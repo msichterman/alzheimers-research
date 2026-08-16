@@ -1,0 +1,19 @@
+{
+  "published_at": "2026-08-16T22:50:29.343Z",
+  "files": [
+    "docs/research/papers/aducanumab-emerge-registry-results.mdx",
+    "docs/trials/emerge-nct02484547.mdx",
+    "docs/trials/engage-nct02477800.mdx",
+    "docs/trials/envision-nct05310071.mdx"
+  ],
+  "timeline": [
+    {
+      "title": "2019-08 — EMERGE and ENGAGE trials terminated",
+      "action": "skipped (already present)"
+    },
+    {
+      "title": "2024-08 — Aducanumab program discontinued",
+      "action": "skipped (already present)"
+    }
+  ]
+}

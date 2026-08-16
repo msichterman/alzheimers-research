@@ -1,0 +1,89 @@
+{
+  "overall": "hopeful",
+  "summary": "Public sentiment surrounding the p-tau217 Alzheimer's blood test is overwhelmingly hopeful but marked by distinct variations in focus across communities. Mainstream media portrays the test as a revolutionary, accessible diagnostic tool that will immediately transform primary care. However, medical professionals and science-literate communities express a more cautious optimism, scrutinizing the test's lower accuracy in older demographics and the logistical challenge of 'intermediate' results. There is also underlying apprehension regarding the heavy financial conflicts of interest among key researchers and diagnostic companies.",
+  "communities": [
+    {
+      "community": "Mainstream Media & General Public",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Revolutionary 'simple blood test' for Alzheimer's diagnosis",
+        "Democratization of diagnosis beyond specialist memory clinics",
+        "Hope for earlier intervention and proactive wellness management"
+      ],
+      "example_urls": [
+        "https://www.cnn.com/2024/07/28/health/alzheimer-blood-test-p-tau-217-wellness/index.html",
+        "https://www.nytimes.com/2026/07/15/well/mind/alzheimers-disease-blood-tests-symptoms.html"
+      ]
+    },
+    {
+      "community": "Science & Tech Enthusiasts (Hacker News)",
+      "sentiment": "mixed",
+      "themes": [
+        "Skepticism about real-world clinical implementation versus controlled study accuracy",
+        "Concerns about testing cost, insurance coverage, and scaling automation",
+        "Personal anecdotes of family members struggling with current diagnostic pathways"
+      ],
+      "example_urls": [
+        "https://news.ycombinator.com/item?id=41094571",
+        "https://news.ycombinator.com/item?id=23997891"
+      ]
+    },
+    {
+      "community": "Medical & Academic Community",
+      "sentiment": "hopeful",
+      "themes": [
+        "Validation of automated immunoassays against gold-standard mass spectrometry",
+        "Need for nuanced two-cutoff clinical guidelines, particularly for patients aged 80+",
+        "Debate over the heavy involvement and financial conflicts of diagnostic companies"
+      ],
+      "example_urls": [
+        "https://jamanetwork.com/journals/jama/fullarticle/2821669",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11351463/"
+      ]
+    },
+    {
+      "community": "Retail Investors & Patient Forums (e.g. Reddit)",
+      "sentiment": "quiet",
+      "themes": [
+        "Current anti-bot protections limited direct deep-search access to specific retail and caregiver chatter for this precise window, rendering real-time granular sentiment unindexed."
+      ],
+      "example_urls": []
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "CNN",
+      "tone": "positive",
+      "date": "2024-07",
+      "url": "https://www.cnn.com/2024/07/28/health/alzheimer-blood-test-p-tau-217-wellness/index.html"
+    },
+    {
+      "outlet": "The New York Times",
+      "tone": "positive",
+      "date": "2026-07",
+      "url": "https://www.nytimes.com/2026/07/15/well/mind/alzheimers-disease-blood-tests-symptoms.html"
+    },
+    {
+      "outlet": "Medical Xpress",
+      "tone": "positive",
+      "date": "2026-02",
+      "url": "https://medicalxpress.com/news/2026-02-blood-boosts-alzheimer-diagnosis-accuracy.html"
+    },
+    {
+      "outlet": "The Scientist",
+      "tone": "neutral",
+      "date": "2024-12",
+      "url": "https://www.the-scientist.com/news-opinion/first-alzheimers-blood-test-rolled-out-for-clinical-use-in-us-68117"
+    }
+  ],
+  "hype_vs_evidence": "The media often hypes the p-tau217 test as a simple, definitive yes/no answer for Alzheimer's that can be easily and universally administered by any GP. However, the study evidence demonstrates that in primary care settings, accuracy is slightly lower (85%) and significantly drops for patients over 80 (83%). Implementing the necessary two-cutoff approach to maintain accuracy means up to 17% of patients will fall into an 'intermediate' zone, requiring the very same expensive PET scans or spinal taps the blood test is meant to replace.",
+  "misinformation_flags": [
+    "The blood test is a 100% definitive replacement for all PET scans and lumbar punctures (false: up to 17% of cases fall in an intermediate zone requiring traditional confirmation).",
+    "The test can predict Alzheimer's in healthy, completely asymptomatic people (unproven in this study: the trial strictly enrolled participants who already had cognitive symptoms)."
+  ],
+  "searches_run": [
+    "curl -s https://hn.algolia.com/api/v1/search?query=alzheimer+blood+test",
+    "curl -s https://hn.algolia.com/api/v1/search?query=p-tau217",
+    "python3 urllib.request to www.reddit.com/search.json?q=p-tau217+blood+test"
+  ]
+}

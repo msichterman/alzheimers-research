@@ -1,0 +1,18 @@
+{
+  "published_at": "2026-08-16T22:50:29.332Z",
+  "files": [
+    "docs/research/papers/psen1-apoe3ch-transcriptomics-2024.mdx",
+    "docs/trials/api-adad-colombia-crenezumab.mdx",
+    "docs/trials/api-2-donanemab-nivegacetor.mdx"
+  ],
+  "timeline": [
+    {
+      "title": "2022-03 — API ADAD Colombia trial misses primary endpoint",
+      "action": "skipped (already present)"
+    },
+    {
+      "title": "2024-02 — Distinct transcriptomic profile of PSEN1-E280A published",
+      "action": "skipped (already present)"
+    }
+  ]
+}

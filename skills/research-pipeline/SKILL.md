@@ -57,7 +57,22 @@ search:
   tags: [paper, buntanetap]
 ```
 
+```yaml
+# docs/journey/<slug>.mdx
+type: consumer-guide
+stage: newly-diagnosed # newly-diagnosed | general-knowledge
+audience: family, patients
+title: Next Steps After Diagnosis
+description: Practical legal, financial, medical, and emotional guidance for families.
+```
+
 Topic pages use `type: topic` with `stance: mainstream | contested | emerging`. Templates live in `templates/`.
+
+## Graph and Verification
+
+- **`pnpm build:graph`** regenerates `dist/graph.json` connecting trials, drugs, and papers.
+- **`pnpm check`** runs `blume doctor` and link validation.
+- **`blume audit`** checks structured data, headings, and agent-readability surfaces.
 
 ## Rules
 

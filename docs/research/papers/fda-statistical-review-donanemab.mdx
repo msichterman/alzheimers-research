@@ -1,0 +1,126 @@
+---
+title: "FDA Statistical Review of Kisunla (donanemab)"
+description: "FDA statistical review highlights modest clinical benefit of donanemab accompanied by significant missing data and mortality concerns."
+type: paper
+date: 2024-05-01
+year: "2024"
+sidebar:
+  order: -202405
+license: "unknown"
+firstAuthor: "Li, Ping"
+authors:
+  - name: "Li, Ping"
+    affiliation: "Division of Analytics and Informatics (DAI)"
+  - name: "Zhao, Fengyu"
+    affiliation: "Division of Biometrics VII (DBVII)"
+  - name: "Zhao, Yueqin"
+    affiliation: "Division of Biometrics VII (DBVII)"
+  - name: "Soukup, Matthew J."
+    affiliation: "Division of Biometrics VII (DBVII)"
+  - name: "Tran, Thanh V."
+    affiliation: "Division of Biometrics I (DBI)"
+  - name: "Wang, Xiaofeng"
+  - name: "Lawrence, John P."
+  - name: "Hung, Hsien Ming J."
+  - name: "Massie, Tristan S."
+    affiliation: "Division of Biometrics I"
+search:
+  tags: [fda-review, donanemab, amyloid, clinical-trial, missing-data]
+---
+**Source**: [Center for Drug Evaluation and Research, FDA, 2024](https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761248)
+**Authors**: Li et al. — Division of Analytics and Informatics (DAI), FDA
+
+## Takeaway
+
+Donanemab demonstrates profound amyloid clearance and statistically significant but modest slowing of clinical decline on the iADRS and CDR-SB. However, the FDA's internal review underscores that high trial dropout rates (27% on drug) and missing vital status data make the primary clinical results highly sensitive to missing data assumptions, alongside a potential safety signal of increased mortality risk.
+
+## Key findings
+
+- Reduced amyloid plaque burden by -86.4 centiloids in the overall population at 76 weeks (Table 7).
+- Slowed cognitive decline by 2.9 points on the iADRS and -0.7 points on the CDR-SB in the overall population at 76 weeks (Table 4, Table 7).
+- Trial dropout rates were significantly higher in the donanemab arm (27%) compared to placebo (20%) (Section 3.2.3).
+- Mortality assessment found an estimated risk difference of 1.0% for death at week 76 for donanemab versus placebo (Addendum Section 6).
+- Tipping point analyses showed the CDR-SB benefit vanishes if dropouts worsened by just 0.5 points (Table 6).
+
+## Methods in brief
+
+Phase 3 (TRAILBLAZER-ALZ 2, N=1736) and Phase 2 (TRAILBLAZER-ALZ, N=272) multicenter, randomized, double-blind, placebo-controlled trials evaluating donanemab over 76 weeks in patients with early symptomatic Alzheimer's disease with confirmed amyloid and tau pathology.
+
+## Trial evidence
+
+The FDA statistical review evaluated BLA 761248 for donanemab based on the Phase 3 [TRAILBLAZER-ALZ 2](/trials/trailblazer-alz-2) and Phase 2 [TRAILBLAZER-ALZ](/trials/trailblazer-alz) trials. While publications frame the efficacy outcomes as robust, this review highlights significant discrepancies. The FDA explicitly advised against using iADRS as the primary endpoint in Phase 3, and tipping point analyses reveal the CDR-SB results are highly fragile due to missing data. Additionally, an elevated risk of mortality (1.0% risk difference) was noted, which is often underemphasized in public trial readouts.
+
+## Public sentiment
+
+Public sentiment is deeply divided. Financial and investor communities enthusiastically focus on market potential and the drug's 'stop-dosing' regimen. In contrast, scientific and medical researchers echo FDA concerns over missing data, dropout rates, and the clinical meaningfulness of small score changes. Patients express a mix of hope and anxiety over strict eligibility and ARIA risks.
+
+## Caveats
+
+- The 27% dropout rate in the donanemab arm severely compromises data integrity; tipping point analyses show the primary clinical benefit vanishes under very mild missing-data assumptions.
+- The sponsor proceeded with iADRS as the primary endpoint against explicit FDA advice, introducing regulatory disagreement into the trial's core design.
+- The sponsor assumed death was non-informative and treated post-mortem measurements as missing, potentially biasing results and obscuring the 1.0% mortality risk difference.
+
+## Critical review
+
+*Cross-examination record extracted by the pipeline's critic, trials, and sentiment agents, plus the reviewer's fact check. Full structured outputs: `enriched/fda-kisunla-statistical-review/`.*
+
+### Funding & conflicts
+
+none stated
+
+### Bias & spin flags
+
+- Sponsor proceeded with iADRS as the primary endpoint against explicit FDA advice
+- Sponsor assumed death was not informative and treated measurements after death as missing rather than an unfavorable outcome
+- Protocol allowed study discontinuation for intercurrent events, which contradicted the intent of the treatment policy estimand
+- Disproportionately high dropout due to adverse events in the donanemab arm (30.5% vs 7.2% in Phase 2, and 13% vs 4% in Phase 3)
+
+### Claims assessed
+
+| Claim | Evidence strength | Where |
+| --- | --- | --- |
+| Donanemab statistically significantly slows cognitive and functional decline in early Alzheimer's disease compared to placebo. | moderate | Table 4, Table 7 |
+| Donanemab demonstrates a dramatic reduction in brain amyloid plaque. | strong | Table 7, Figure 11 |
+| There is a potential safety signal of increased mortality risk associated with donanemab. | moderate | Section 6 Summary and Conclusions (Addendum), Table 5A |
+| The primary clinical efficacy results (CDR-SB) are highly sensitive to missing data assumptions. | strong | Section 5.1 Statistical Issues, Table 5, Table 6 |
+
+### Cross-examination
+
+6 facts verified against the source document and trial registries. Flagged items:
+
+- **Registry cross-check** — While primary peer-reviewed publications (e.g., JAMA 2023) frame the primary iADRS and CDR-SB efficacy outcomes as highly resilient and definitive, the FDA statistical review highlights that these results are actually fragile and highly sensitive to missing data assumptions when dropout rates are factored in via tipping point analyses.
+- **Registry cross-check** — The FDA document explicitly notes a 1.0% risk difference for death in the donanemab arm (failing to rule out increased harm of up to 2.3%), a notable mortality signal that is generally underemphasized in the public trial readouts compared to ARIA discussions.
+- **Registry cross-check** — The review reveals that the sponsor utilized the iADRS score as the primary endpoint in Phase 3 against explicit FDA advice, highlighting a regulatory disagreement that is not visible from the trial registry or published papers.
+- **Misinformation watch** — Kisunla cures Alzheimer's disease or reverses cognitive decline (it only modestly slows the rate of decline in early-stage patients).
+- **Misinformation watch** — Once amyloid plaques are cleared and dosing stops, the disease stops progressing entirely.
+
+## Relates to
+
+- [TRAILBLAZER-ALZ 2](/trials/trailblazer-alz-2) — The pivotal Phase 3 trial forming the basis of this review.
+- [Amyloid hypothesis](/research/amyloid-hypothesis) — Evaluates an anti-amyloid monoclonal antibody.
+
+## Attribution
+
+**Cite the original work:** Li, Ping et al. STATISTICAL REVIEW AND EVALUATION: Kisunla (donanemab) BLA 761248. *Center for Drug Evaluation and Research, FDA* 2024-05.
+
+**Licence:** unknown — reuse terms unconfirmed; quote sparingly and link the original.
+
+**Changes made:** this page is a summary with critical commentary written by the [research pipeline](https://github.com/msichterman/alzheimers-research/blob/main/PIPELINE.md) from `sources/fda-kisunla-statistical-review.pdf` (parsed 2026-08-13). It is not the original text, and any wording here is the pipeline's unless quoted.
+
+| Author | Affiliation | Contact | Declared conflicts |
+| --- | --- | --- | --- |
+| Li, Ping | Division of Analytics and Informatics (DAI) | — | — |
+| Zhao, Fengyu | Division of Biometrics VII (DBVII) | — | — |
+| Zhao, Yueqin | Division of Biometrics VII (DBVII) | — | — |
+| Soukup, Matthew J. | Division of Biometrics VII (DBVII) | — | — |
+| Tran, Thanh V. | Division of Biometrics I (DBI) | — | — |
+| Wang, Xiaofeng | — | — | — |
+| Lawrence, John P. | — | — | — |
+| Hung, Hsien Ming J. | — | — | — |
+| Massie, Tristan S. | Division of Biometrics I | — | — |
+
+*✉️ corresponding author. Affiliations and contact details are reproduced as published in the source document.*
+
+---
+
+*Pipeline-generated from `sources/fda-kisunla-statistical-review.pdf` (parsed 2026-08-13), then agent-reviewed. Edit freely — republishing overwrites.*

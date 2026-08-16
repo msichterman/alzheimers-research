@@ -1,0 +1,18 @@
+{
+  "published_at": "2026-08-16T22:50:29.324Z",
+  "files": [
+    "docs/research/papers/eadb-gwas-75-loci.mdx",
+    "docs/trials/al002-invoke-2.mdx",
+    "docs/trials/pegipanermin-xpro1595-ad-02.mdx"
+  ],
+  "timeline": [
+    {
+      "title": "2022-04 — GWAS meta-analysis identifies 75 Alzheimer's risk loci",
+      "action": "skipped (already present)"
+    },
+    {
+      "title": "2024-08 — TREM2 agonist AL002 fails Phase 2 INVOKE-2 trial",
+      "action": "skipped (already present)"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "published_at": "2026-08-16T22:50:29.381Z",
+  "files": [
+    "docs/research/papers/lecanemab-phase-2b.mdx",
+    "docs/trials/lecanemab-nct01767311.mdx",
+    "docs/trials/lecanemab-clarity-ad-nct03887455.mdx"
+  ],
+  "timeline": [
+    {
+      "title": "2012-12 — Lecanemab Phase 2b trial begins",
+      "action": "skipped (already present)"
+    },
+    {
+      "title": "2019-03 — Clarity AD trial begins",
+      "action": "skipped (already present)"
+    },
+    {
+      "title": "2021-04 — Lecanemab Phase 2b results published",
+      "action": "skipped (already present)"
+    }
+  ]
+}

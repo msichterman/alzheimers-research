@@ -1,0 +1,116 @@
+---
+title: "The Centiloid Project: Standardizing Quantitative Amyloid Plaque Estimation by PET"
+description: "Introduces a standardized 0-100 scale (Centiloids) for amyloid PET imaging to enable direct comparison across different tracers and centers."
+type: paper
+date: 2015-01-01
+year: "2015"
+sidebar:
+  order: -201501
+doi: "10.1016/j.jalz.2014.07.003"
+license: "unknown"
+firstAuthor: "Klunk, William E."
+authors:
+  - name: "Klunk, William E."
+  - name: "Koeppe, Robert A."
+  - name: "Price, Julie C."
+  - name: "Benzinger, Tammie"
+  - name: "Devous, Michael D."
+  - name: "Jagust, William"
+  - name: "Johnson, Keith"
+  - name: "Mathis, Chester A."
+  - name: "Minhas, Davneet"
+  - name: "Pontecorvo, Michael J."
+  - name: "Rowe, Christopher C."
+  - name: "Skovronsky, Daniel"
+  - name: "Mintun, Mark"
+search:
+  tags: [paper, amyloid, biomarkers, pet-imaging, centiloid, standardization]
+---
+**Source**: [Alzheimer's & Dementia, 2015](https://doi.org/10.1016/j.jalz.2014.07.003) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/25443857)
+**Authors**: Klunk et al. — University of Pittsburgh / Avid Radiopharmaceuticals (Eli Lilly)
+
+## Takeaway
+
+The Centiloid scale provides a universal 0-100 metric for amyloid PET scans, anchoring 0 to young, healthy brains and 100 to typical Alzheimer's disease. This standard allows clinical trials and researchers to compare plaque clearance directly, regardless of the specific radiotracer or imaging hardware used.
+
+## Key findings
+
+- Anchored a 0-100 scale using young controls (≤45 years) for 0 and typical mild-to-moderate AD patients for 100 (paper, Section 1.3.2).
+- Identified the whole cerebellum as the optimal standard reference region due to its low signal variance in healthy controls (paper, Section 1.3.1).
+- Demonstrated that different tracers and analysis methods can be reliably scaled to Centiloids, achieving a 0.991 correlation with standard PiB methods in a validation subset (paper, Section 2.5).
+
+## Methods in brief
+
+Retrospective methodological study analyzing 125 subjects: 34 young controls (≤45 years), 47 typical mild-to-moderate AD patients, and 44 additional subjects for region-of-interest definition. The project developed a standard Level-1 baseline method using PiB-PET and a Level-2 calibration process for non-standard tracers.
+
+## Trial evidence
+
+The Centiloid scale has become the foundational metric for measuring amyloid clearance in modern Phase 3 clinical trials. Pivotal trials like CLARITY AD (lecanemab) and [TRAILBLAZER-ALZ 2](/trials/trailblazer-alz-2-nct04437511) have utilized Centiloids not just as secondary endpoints, but to define strict threshold criteria for clinical outcomes and stopping patient dosing (e.g., &lt;11 Centiloids for clearance).
+
+## Public sentiment
+
+The scientific and clinical research communities enthusiastically treat Centiloids as the definitive common language for amyloid quantification. However, this metric remains almost entirely absent from public and patient discourse, where conversations focus firmly on top-line cognitive benefits and drug brand names.
+
+## Caveats
+
+- The scale's anchor points were established using cross-sectional data, meaning longitudinal performance across different reference regions requires further validation.
+- The standardization method does not completely account for variance caused by substantial differences in scanner hardware, reconstruction algorithms, or attenuation correction protocols across imaging sites.
+- Applying Centiloid scaling to small, specific brain regions (like the precuneus) rather than the global cortex can distort the numerical meaning of the 0-100 scale.
+
+## Critical review
+
+*Cross-examination record extracted by the pipeline's critic, trials, and sentiment agents, plus the reviewer's fact check. Full structured outputs: `enriched/centiloid-project/`.*
+
+### Funding & conflicts
+
+Supported by NIA grants R37 AG025516, P01 AG025204, P50 AG005133, R01 AG034570, P01 AG026276, U19 AG032438. Klunk and Mathis are PiB co-inventors with financial interest in a GE Healthcare license agreement. Jagust, Rowe, Benzinger, and Devous report grants/consulting for pharma (Genentech, Roche, Bayer-Schering, Avid, Piramal, Navidea, GE). Pontecorvo, Skovronsky, and Mintun are Avid Radiopharmaceuticals (Eli Lilly) employees. Others report no conflicts.
+
+### Bias & spin flags
+
+- Two AD subjects with low PiB retention were statistically excluded as outliers (Q1-1.5xIQR) to define the 100-anchor; while methodologically transparent, trimming the bottom range artificially restricts 'typical AD' variance.
+
+### Claims assessed
+
+| Claim | Evidence strength | Where |
+| --- | --- | --- |
+| Amyloid PET data from different analysis methods and tracers can be reliably standardized to a 0-100 scale. | strong | Section 2.5 Examples of Level-2 Analyses |
+| The Whole Cerebellum (WC) is the optimal reference region for global amyloid standardization. | moderate | Section 1.3.1 Choice of the Standard Reference Region |
+
+### Cross-examination
+
+All 3 checked facts verified against the source document and trial registries; no registry discrepancies or misinformation flags.
+
+## Relates to
+
+- [Biomarkers](/research/biomarkers) — Establishes the universal reporting standard for amyloid PET imaging.
+- [Amyloid hypothesis](/research/amyloid-hypothesis) — Provides the exact metric used to quantify amyloid clearance in modern trials.
+
+## Attribution
+
+**Cite the original work:** Klunk, William E. et al. The Centiloid Project: Standardizing Quantitative Amyloid Plaque Estimation by PET. *Alzheimer's & dementia : the journal of the Alzheimer's Association* 2015-01. doi:10.1016/j.jalz.2014.07.003 — [DOI](https://doi.org/10.1016/j.jalz.2014.07.003) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/25443857)
+
+**Licence:** unknown — reuse terms unconfirmed; quote sparingly and link the original.
+
+**Changes made:** this page is a summary with critical commentary written by the [research pipeline](https://github.com/msichterman/alzheimers-research/blob/main/PIPELINE.md) from `sources/centiloid-project.xml` (parsed 2026-08-13). It is not the original text, and any wording here is the pipeline's unless quoted.
+
+| Author | Affiliation | Contact | Declared conflicts |
+| --- | --- | --- | --- |
+| Klunk, William E. | — | — | co-inventor of PiB, financial interest in GE Healthcare license agreement |
+| Koeppe, Robert A. | — | — | no conflicts with this work |
+| Price, Julie C. | — | — | no conflicts with this work |
+| Benzinger, Tammie | — | — | research grants for imaging in dementia from Avid Radiopharmaceuticals |
+| Devous, Michael D. | — | — | grants from Avid Radiopharmaceuticals, and has served as a consultant for Eli Lilly, Piramal, Navidea, and GE Healthcare |
+| Jagust, William | — | — | consultant to Genentech, Synarc, and F. Hoffman LaRoche |
+| Johnson, Keith | — | — | no conflicts with this work |
+| Mathis, Chester A. | — | — | co-inventor of PiB, financial interest in GE Healthcare license agreement |
+| Minhas, Davneet | — | — | no conflicts with this work |
+| Pontecorvo, Michael J. | — | — | employee of Avid Radiopharmaceuticals, a wholly owned subsidiary of Eli Lilly and Company |
+| Rowe, Christopher C. | — | — | research grants for imaging in dementia from Bayer-Schering Pharma, Avid Radiopharmaceuticals, GE Healthcare, Piramal and Astra Zeneca. He has been a consultant and conference speaker for Bayer Schering Pharma and GE Healthcare. |
+| Skovronsky, Daniel | — | — | employee of Avid Radiopharmaceuticals, a wholly owned subsidiary of Eli Lilly and Company |
+| Mintun, Mark | — | — | employee of Avid Radiopharmaceuticals, a wholly owned subsidiary of Eli Lilly and Company |
+
+*✉️ corresponding author. Affiliations and contact details are reproduced as published in the source document.*
+
+---
+
+*Pipeline-generated from `sources/centiloid-project.xml` (parsed 2026-08-13), then agent-reviewed. Edit freely — republishing overwrites.*

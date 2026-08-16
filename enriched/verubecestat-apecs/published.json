@@ -1,0 +1,18 @@
+{
+  "published_at": "2026-08-16T22:50:29.457Z",
+  "files": [
+    "docs/research/papers/verubecestat-apecs.mdx",
+    "docs/trials/verubecestat-apecs.mdx",
+    "docs/trials/verubecestat-epoch.mdx"
+  ],
+  "timeline": [
+    {
+      "title": "2018-02 — APECS trial of verubecestat terminated for futility",
+      "action": "skipped (already present)"
+    },
+    {
+      "title": "2017-02 — EPOCH trial of verubecestat terminated for futility",
+      "action": "skipped (already present)"
+    }
+  ]
+}
