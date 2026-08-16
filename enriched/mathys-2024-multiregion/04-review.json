@@ -1,0 +1,60 @@
+{
+  "fact_check": [
+    {
+      "fact": "1.3 million cells from 48 individuals across six brain regions were analyzed.",
+      "status": "verified",
+      "note": "Checked against the abstract and 'A multiregion atlas of AD' section in the source document."
+    },
+    {
+      "fact": "Reelin-expressing excitatory neurons in the entorhinal cortex are vulnerable and depleted in Alzheimer's disease.",
+      "status": "verified",
+      "note": "Checked against the 'Vulnerable neuronal subtypes in AD' section and Figure 3."
+    },
+    {
+      "fact": "Astrocyte choline metabolism and polyamine biosynthesis pathways are associated with cognitive resilience.",
+      "status": "verified",
+      "note": "Checked against the 'Astrocytes and cognitive resilience' section and Figure 5."
+    },
+    {
+      "fact": "Glial cells upregulate glycolysis in response to diffuse amyloid-beta plaques.",
+      "status": "verified",
+      "note": "Checked against the 'Pathology-specific expression changes' section."
+    }
+  ],
+  "research_page": {
+    "slug": "single-cell-multiregion-atlas-mathys-2024",
+    "title": "Single-cell multiregion dissection of Alzheimer's disease (Mathys et al.)",
+    "description": "A single-cell transcriptomic atlas of six brain regions reveals region-specific cellular vulnerability linked to Reelin signaling and identifies astrocyte choline metabolism as a driver of cognitive resilience.",
+    "tags": [
+      "paper",
+      "single-cell-transcriptomics",
+      "amyloid",
+      "tau",
+      "cognitive-resilience",
+      "reelin-signaling"
+    ],
+    "source_line_md": "**Source**: [Nature, 2024](https://doi.org/10.1038/s41586-024-07606-7) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/39048816)",
+    "authors_line_md": "Mathys et al. — MIT, Rush Alzheimer's Disease Center",
+    "takeaway_md": "This post-mortem single-cell atlas maps 1.3 million cells across six brain regions to identify how Alzheimer's pathology affects specific cell types. It reveals that Reelin-expressing excitatory neurons are uniquely vulnerable to the disease, while astrocyte choline and polyamine metabolism correlate with cognitive resilience. These findings provide foundational, non-amyloid mechanistic targets for future therapies.",
+    "key_findings_md": [
+      "Reelin-expressing excitatory neurons in the entorhinal cortex are significantly depleted in Alzheimer's disease, highlighting a specific cellular vulnerability (paper, Fig. 3).",
+      "Astrocyte choline metabolism and polyamine biosynthesis pathways are strongly associated with preserved cognitive function despite high Alzheimer's pathology (paper, Fig. 5).",
+      "Glial cells, including astrocytes and microglia, markedly upregulate glycolysis pathways in response to diffuse amyloid-beta plaque burden (paper, Fig. 4)."
+    ],
+    "methods_md": "Cross-sectional post-mortem single-nucleus RNA sequencing (snRNA-seq) of 1.3 million cells from 48 aged individuals (26 with pathologic AD, 22 without) from the ROSMAP cohort across six distinct brain regions.",
+    "trial_evidence_md": "This is a foundational transcriptomics study, not an interventional trial, so it reports no clinical results. However, its identified resilience pathways are being explored in related clinical programs. Choline donors like citicoline have completed early-phase testing ([NCT05200208](https://clinicaltrials.gov/study/NCT05200208), [NCT06029894](https://clinicaltrials.gov/study/NCT06029894)), and the polyamine spermidine is actively recruiting for cognitive decline ([NCT07383311](https://clinicaltrials.gov/study/NCT07383311)). No active interventional trials are currently targeting the Reelin signaling pathway.",
+    "sentiment_md": "Public and scientific observers are hopeful about the identification of non-amyloid targets like Reelin and astrocyte metabolism. However, discussions often inappropriately extrapolate these foundational findings into premature lifestyle advice, with some lay audiences incorrectly assuming that specific diets can easily mimic these resilience mechanisms or that systemic Reelin supplementation would be a safe, immediate therapy without acknowledging severe cardiovascular risks.",
+    "caveats_md": [
+      "Because the data comes from post-mortem brain tissue, the study identifies correlations between gene expression and disease state but cannot prove that these cellular changes cause Alzheimer's or that reversing them would halt the disease.",
+      "The use of single-nucleus RNA sequencing (rather than whole-cell) might miss important localized transcripts, particularly in microglia where cytoplasm-heavy states are critical.",
+      "Cellular vulnerability is correlated with broad regional pathology averages, meaning the exact spatial relationship between a dying cell and a nearby amyloid plaque or tau tangle is inferred rather than directly observed."
+    ],
+    "relates_to_md": [
+      "[Biomarkers](/research/biomarkers) — Identifies novel cellular resilience pathways that could eventually inform new biomarker development.",
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Maps how glial energy metabolism (glycolysis) responds specifically to diffuse amyloid plaques."
+    ]
+  },
+  "trial_pages": [],
+  "timeline_entries": [],
+  "notes_for_editor": []
+}
