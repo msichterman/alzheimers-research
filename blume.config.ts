@@ -33,7 +33,7 @@ export default defineConfig({
   github: { owner: "msichterman", repo: "alzheimers-research" },
   navigation: {
     tabs: [
-      { label: "For Families", path: "/journey", icon: "heart" },
+      { label: "For Families & Patients", path: "/journey", icon: "heart" },
       { label: "Research", path: "/research", icon: "book-open" },
       { label: "Trials", path: "/trials", icon: "flask-conical" },
       { label: "Timeline", path: "/timeline", icon: "calendar" },

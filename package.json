@@ -45,5 +45,14 @@
       "esbuild",
       "workerd"
     ]
-  }
+  },
+  "version": "1.0.0",
+  "description": "A working knowledge base for Alzheimer's disease research, built with [Blume](https://github.com/haydenbleasel/blume): consolidated paper notes, a clinical trial tracker, and a timeline of the field.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
