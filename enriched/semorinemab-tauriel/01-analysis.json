@@ -1,0 +1,205 @@
+{
+  "kind": "research-paper",
+  "title": "Safety and Efficacy of Semorinemab in Individuals With Prodromal to Mild Alzheimer Disease",
+  "authors": [
+    {
+      "name": "Edmond Teng",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Paul T. Manser",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Karen Pickthorn",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Flavia Brunstein",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Mira Blendstrup",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Sandra Sanabria Bohorquez",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Kristin R. Wildsmith",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Bali Toth",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Michael Dolton",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Vidya Ramakrishnan",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Ashwini Bobbala",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Sietske A. M. Sikkes",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Michael Ward",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Reina N. Fuji",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Geoffrey A. Kerchner",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Edmond Teng",
+  "venue": "JAMA Neurology",
+  "published": "2022",
+  "doi": "10.1001/jamaneurol.2022.1375",
+  "doi_url": "https://doi.org/10.1001/jamaneurol.2022.1375",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/35696185/",
+  "copyright": null,
+  "license": {
+    "name": "CC BY-NC-ND 4.0",
+    "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "reuse": "redistribute",
+    "evidence": "This is an open access article distributed under the terms of the CC-BY-NC-ND License."
+  },
+  "tags": [
+    "paper",
+    "trial",
+    "tau",
+    "immunotherapy",
+    "biomarkers",
+    "semorinemab",
+    "monoclonal-antibody"
+  ],
+  "themes": [
+    "Phase 2 clinical trial",
+    "Anti-tau immunotherapy",
+    "Prodromal to mild Alzheimer disease",
+    "Clinical efficacy failure",
+    "Biomarker target engagement"
+  ],
+  "one_line": "In a phase 2 randomized clinical trial, the anti-tau monoclonal antibody semorinemab was safe and well-tolerated but failed to slow clinical decline or cerebral tau accumulation in patients with prodromal to mild Alzheimer disease.",
+  "summary": "The Tauriel study was a phase 2, randomized, double-blind, placebo-controlled clinical trial investigating the safety and efficacy of semorinemab, an N-terminal anti-tau monoclonal antibody, in individuals with prodromal to mild Alzheimer disease. A total of 457 participants were randomized to receive either placebo or varying doses of semorinemab (1500 mg, 4500 mg, or 8100 mg) for a 73-week blinded period. The primary endpoint, change from baseline on the Clinical Dementia Rating-Sum of Boxes (CDR-SB) score, showed no significant difference between the semorinemab arms and the placebo arm. Secondary clinical endpoints and tau PET imaging similarly demonstrated no reduction in disease progression or cerebral tau accumulation. While biomarker analysis showed dose-dependent increases in plasma total tau and some reduction in CSF tau indices—suggesting peripheral target engagement—this did not translate to clinical efficacy. The study concluded that semorinemab had an acceptable safety profile but did not slow Alzheimer disease progression.",
+  "key_claims": [
+    {
+      "claim": "Semorinemab does not slow the rate of clinical decline in prodromal to mild Alzheimer disease.",
+      "evidence": "Similar increases on the CDR-SB score were seen in placebo (Δ = 2.19) and all semorinemab arms (Δ = 2.36 to 2.41) over 73 weeks, with no differences on secondary measures like ADAS-Cog-13 or ADCS-ADL.",
+      "strength": "strong",
+      "location": "Abstract / Results (Efficacy)"
+    },
+    {
+      "claim": "Semorinemab does not slow the accumulation of cerebral tau pathology.",
+      "evidence": "Similar increases in [18F]GTP1 tau PET standardized uptake value ratios (SUVR) were seen across the placebo and all 3 semorinemab arms throughout the study.",
+      "strength": "strong",
+      "location": "Abstract / Results (Neuroimaging Biomarkers)"
+    },
+    {
+      "claim": "Semorinemab exhibits an acceptable and well-tolerated safety profile.",
+      "evidence": "Overall proportions of participants experiencing adverse events were balanced between placebo (93.1%) and semorinemab (88.8% to 94.7%) arms, with low discontinuation rates due to AEs.",
+      "strength": "strong",
+      "location": "Abstract / Results (Adverse Events)"
+    },
+    {
+      "claim": "Semorinemab successfully engages tau targets in the periphery and central nervous system.",
+      "evidence": "Dose-dependent increases in plasma total tau and significant modest declines relative to placebo in CSF tTau and pTau181 were observed.",
+      "strength": "moderate",
+      "location": "Results (Plasma and CSF Tau Indices)"
+    }
+  ],
+  "methods": {
+    "design": "Phase 2 randomized, double-blind, placebo-controlled, parallel-group clinical trial",
+    "n": 457,
+    "population": "Individuals aged 50 to 80 years with prodromal to mild Alzheimer disease, MMSE scores 20-30, and confirmed β-amyloid pathology",
+    "duration": "73 weeks",
+    "registration": "NCT03289143"
+  },
+  "funding_and_conflicts": "none stated",
+  "limitations": [
+    "The COVID-19 pandemic led to missed doses and reliance on remote clinical assessments for some participants.",
+    "Small sample size for longitudinal CSF data limited the power of post hoc tau biomarker analyses.",
+    "The study population had limited racial and ethnic diversity (91.9% White), restricting the generalizability of the findings."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 9,
+    "issues": [
+      "Minor spacing artifacts around isotope names in brackets (e.g., '[ 18 F]GTP1')",
+      "Metadata block containing author affiliations, contact info, and conflict of interest disclosures was entirely stripped during conversion"
+    ]
+  },
+  "search_verification": []
+}

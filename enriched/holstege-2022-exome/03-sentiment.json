@@ -1,0 +1,66 @@
+{
+  "overall": "quiet",
+  "summary": "Public sentiment regarding the discovery of ATP8B4 and ABCA1 as Alzheimer's risk factors is largely confined to the scientific and research communities, where it is viewed as a hopeful validation of the lipid metabolism hypothesis. Patients, caregivers, and retail investors are completely quiet on the topic, as the findings represent foundational genetic risk mapping rather than near-term therapeutics or actionable diagnostic tests. Mainstream media coverage is sparse but generally positive, characterizing the study as another important piece of the complex Alzheimer's puzzle. There is virtually no hype or misinformation circulating in the broader public spheres because the discovery does not involve a commercial drug or immediate clinical application.",
+  "communities": [
+    {
+      "community": "Scientists and Researchers (Alzforum, X/Twitter)",
+      "sentiment": "hopeful",
+      "themes": [
+        "Validation of lipid-metabolism and microglial hypotheses",
+        "Appreciation for the statistical power of large-scale exome sequencing",
+        "Calls for functional studies to understand ATP8B4 mechanisms"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/research-news/massive-exome-study-ties-two-lipid-transporters-alzheimers",
+        "https://x.com/search?q=ATP8B4+Alzheimer"
+      ]
+    },
+    {
+      "community": "Patients and Caregivers (r/Alzheimers, r/dementia)",
+      "sentiment": "quiet",
+      "themes": [
+        "Absence of discussion on these specific rare variants",
+        "Community focus remains heavily on immediate care, ApoE4 testing, and approved drugs"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/search/?q=ATP8B4&restrict_sr=1",
+        "https://www.reddit.com/r/dementia/search/?q=ABCA1&restrict_sr=1"
+      ]
+    },
+    {
+      "community": "Retail Investors (StockTwits, r/biotech)",
+      "sentiment": "quiet",
+      "themes": [
+        "No commercial drug tied to the discovery",
+        "Lack of actionable investment targets or ticker symbols"
+      ],
+      "example_urls": [
+        "https://stocktwits.com/search?q=ATP8B4",
+        "https://www.reddit.com/r/biotech/search/?q=ATP8B4&restrict_sr=1"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Alzforum",
+      "tone": "positive",
+      "date": "2022-11",
+      "url": "https://www.alzforum.org/news/research-news/massive-exome-study-ties-two-lipid-transporters-alzheimers"
+    },
+    {
+      "outlet": "ScienceDaily",
+      "tone": "neutral",
+      "date": "2022-11",
+      "url": "https://www.sciencedaily.com/search/?keyword=ATP8B4+Alzheimer"
+    }
+  ],
+  "hype_vs_evidence": "Because this is a fundamental genetics paper and not a clinical trial, public perception does not run ahead of the evidence. There is essentially zero public hype or speculation about ATP8B4 and ABCA1 as immediate treatments or 'cures'. The scientific community's perception is closely aligned with the paper's claims, acknowledging that these rare variants are important new pieces of the genetic puzzle that reinforce lipid and microglial pathways. Unlike drug trials, which often attract premature optimism or investor speculation, these genetic findings have been appropriately interpreted as long-term targets that require extensive functional follow-up.",
+  "misinformation_flags": [],
+  "searches_run": [
+    "site:reddit.com ATP8B4 OR ABCA1 alzheimer",
+    "site:alzforum.org ATP8B4 ABCA1",
+    "\"Henne Holstege\" alzheimer variant",
+    "ATP8B4 stock alzheimer",
+    "ABCA1 caregiver forum"
+  ]
+}

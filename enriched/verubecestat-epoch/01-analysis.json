@@ -1,0 +1,200 @@
+{
+  "kind": "research-paper",
+  "title": "Randomized Trial of Verubecestat for Mild-to-Moderate Alzheimer’s Disease",
+  "authors": [
+    {
+      "name": "Michael F. Egan",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "James Kost",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Pierre N. Tariot",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Paul S. Aisen",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Jeffrey L. Cummings",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Bruno Vellas",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Cyrille Sur",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Yuki Mukai",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Tiffini Voss",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Christine Furtek",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Erin Mahoney",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Lyn Harper Mozley",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Rik Vandenberghe",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Yi Mo",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "David Michelson",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Michael F. Egan",
+  "venue": "The New England journal of medicine",
+  "published": "2018-05",
+  "doi": "10.1056/NEJMoa1706441",
+  "doi_url": "https://doi.org/10.1056/NEJMoa1706441",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/29719179/",
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "quote-and-summarize",
+    "evidence": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law."
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "small-molecule",
+    "verubecestat",
+    "bace-1-inhibitor",
+    "futility"
+  ],
+  "themes": [
+    "BACE-1 inhibition in Alzheimer's disease",
+    "Clinical trial futility",
+    "Amyloid hypothesis challenge",
+    "Drug safety and adverse events"
+  ],
+  "one_line": "A randomized trial of the BACE-1 inhibitor verubecestat in patients with mild-to-moderate Alzheimer's disease was terminated early due to futility, failing to reduce cognitive or functional decline despite lowering cerebrospinal fluid amyloid-beta levels.",
+  "summary": "This document reports the findings of a 78-week, randomized, double-blind, placebo-controlled trial evaluating verubecestat, an oral BACE-1 inhibitor, in 1,958 patients with mild-to-moderate Alzheimer's disease. Patients received either 12 mg or 40 mg of verubecestat daily or a matching placebo. The trial was terminated early for futility 50 months after onset. Results indicated no significant differences between the verubecestat and placebo groups in the coprimary outcomes of cognitive (ADAS-cog) and functional (ADCS-ADL) decline. While the drug successfully lowered Aβ levels in the cerebrospinal fluid and modestly reduced brain amyloid load, it was associated with an increased incidence of adverse events, including falls, rash, sleep disturbances, suicidal ideation, and weight loss. The findings suggest that targeting amyloid production with a BACE-1 inhibitor may not be effective once mild-to-moderate clinical symptoms of Alzheimer's disease have emerged.",
+  "key_claims": [
+    {
+      "claim": "Verubecestat does not reduce cognitive or functional decline in patients with mild-to-moderate Alzheimer's disease.",
+      "evidence": "The estimated mean change from baseline to week 78 in the ADAS-cog score was 7.9 in the 12-mg group, 8.0 in the 40-mg group, and 7.7 in the placebo group (P=0.63 and P=0.46). The ADCS-ADL score changes were -8.4, -8.2, and -8.9 respectively (P=0.49 and P=0.32).",
+      "strength": "strong",
+      "location": "RESULTS / CLINICAL OUTCOMES"
+    },
+    {
+      "claim": "Verubecestat successfully reduces Aβ production and modestly reduces brain amyloid load.",
+      "evidence": "Cerebrospinal fluid concentrations of Aβ-40 were reduced by 71.1-80.6%, and Aβ-42 by 62.7-76.4%. The mean standardized uptake value ratio for PET amyloid load in the 40-mg group decreased from 0.87 at baseline to 0.83 at week 78.",
+      "strength": "strong",
+      "location": "RESULTS / BIOMARKERS"
+    },
+    {
+      "claim": "Verubecestat is associated with higher rates of adverse events compared to placebo.",
+      "evidence": "Adverse events leading to discontinuation occurred in 9.4% (40-mg), 8.3% (12-mg), and 5.8% (placebo) of patients. Higher rates of falls, rash, sleep disturbance, decreased weight, and suicidal ideation were observed in treatment groups compared to placebo.",
+      "strength": "strong",
+      "location": "RESULTS / SAFETY"
+    }
+  ],
+  "methods": {
+    "design": "Randomized, double-blind, placebo-controlled, parallel-group, 78-week trial",
+    "n": 1958,
+    "population": "Patients aged 55 to 85 years with a clinical diagnosis of mild-to-moderate Alzheimer's disease and an MMSE score of 15 to 26",
+    "duration": "78 weeks (terminated early at 50 months)",
+    "registration": "NCT01739348"
+  },
+  "funding_and_conflicts": "Funded by Merck. Conflicts of interest are stated to be available in disclosure forms at NEJM.org but are not detailed in the text.",
+  "limitations": [
+    "Lack of requirement for the presence of an amyloid biomarker at screening, potentially allowing inclusion of patients with nonamyloid-related dementia.",
+    "Uncontrolled selection of patients for the biomarker substudies, which may have introduced bias."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 7,
+    "issues": [
+      "Spacing artifacts around Greek letters and hyphens (e.g., 'A β', 'β -site')",
+      "Missing table and figure references that were stripped during conversion, leaving empty formatting brackets like '(, and in the )'",
+      "Incomplete ClinicalTrials.gov registration number in the raw text"
+    ]
+  },
+  "search_verification": [
+    "Queried CrossRef API to confirm publication date (May 2018) based on DOI 10.1056/NEJMoa1706441.",
+    "Queried PubMed API (PMID 29719179) to retrieve the ClinicalTrials.gov NCT number (NCT01739348) that was missing from the parsed text."
+  ]
+}

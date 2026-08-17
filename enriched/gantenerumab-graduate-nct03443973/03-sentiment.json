@@ -1,0 +1,72 @@
+{
+  "overall": "skeptical",
+  "summary": "Public sentiment surrounding gantenerumab is predominantly skeptical and disappointed following the failure of its Phase 3 GRADUATE trials. Patients and caregivers express deep burnout over the recurring 'false hope' cycle of amyloid-targeting therapies, often grouping gantenerumab's clinical failure with other historical drug disappointments in the space. Retail investors and market watchers view the drug as a sunk cost, shifting their focus toward Roche's brain-shuttle successor, trontinemab, and successful competitor drugs. Within the scientific and medical communities, discussions are more cautious; researchers heavily debate why robust amyloid clearance and positive biomarker changes failed to translate into meaningful cognitive benefits.",
+  "communities": [
+    {
+      "community": "Patients and Caregivers (e.g., r/dementia)",
+      "sentiment": "negative",
+      "themes": [
+        "Frustration with failed clinical trials",
+        "Treatment burnout and 'false hope'",
+        "Distrust of the amyloid hypothesis"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/dementia/comments/1197r3/new_alzheimers_trial_with_solanezumab/"
+      ]
+    },
+    {
+      "community": "Retail Investors and Pharma watchers (e.g., r/IndustrialPharmacy, r/longevity)",
+      "sentiment": "skeptical",
+      "themes": [
+        "Pipeline pivot to Trontinemab",
+        "Sunk cost for Roche",
+        "Comparisons to other anti-amyloid competitors"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/IndustrialPharmacy/comments/17wud3v/gantenerumab_does_not_slow_clinical_decline_in/",
+        "https://www.reddit.com/r/longevity/comments/oa7ppk/a_trial_of_gantenerumab_or_solanezumab_in/"
+      ]
+    },
+    {
+      "community": "Scientific and Medical Community",
+      "sentiment": "mixed",
+      "themes": [
+        "Disconnect between biomarker success and clinical failure",
+        "ARIA safety profiles compared to benefit",
+        "Need for improved drug delivery mechanisms"
+      ],
+      "example_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/41416248/",
+        "https://pubmed.ncbi.nlm.nih.gov/29037101",
+        "https://pubmed.ncbi.nlm.nih.gov/29221491"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "The New York Times",
+      "tone": "critical",
+      "date": "2020-02",
+      "url": "https://www.nytimes.com/2020/02/10/health/alzheimers-amyloid-drug.html"
+    },
+    {
+      "outlet": "Alzheimer's Research UK",
+      "tone": "neutral",
+      "date": null,
+      "url": "https://www.alzheimersresearchuk.org/news/potential-alzheimers-treatment-trontinemab-hits-the-news-how-does-it-work-and-is-it-available/"
+    }
+  ],
+  "hype_vs_evidence": "Prior to the trial results, there was moderate public hype that gantenerumab's subcutaneous delivery could offer a more convenient, at-home alternative to intravenous amyloid therapies. Following the clinical failure, public perception quickly crashed, with many laypeople declaring the amyloid hypothesis completely dead. This broad public dismissal outpaces the actual scientific evidence; the trial data explicitly proved that the drug successfully modified underlying disease biology by clearing amyloid and lowering tau, demonstrating that the mechanism functioned correctly even though the clinical benefit fell short of statistical significance.",
+  "misinformation_flags": [
+    "Claiming gantenerumab failed because it didn't clear amyloid (it significantly reduced amyloid and improved CSF biomarkers, but failed its clinical endpoint).",
+    "Conflating the clinical failure of gantenerumab as definitive proof that all amyloid-targeting drugs are ineffective, ignoring recent approvals of other monoclonal antibodies."
+  ],
+  "searches_run": [
+    "gantenerumab alzheimers site:reddit.com",
+    "gantenerumab roche failure news",
+    "\"gantenerumab\" alzforum",
+    "gantenerumab caregiver forum",
+    "PubMed search for 'gantenerumab failure'",
+    "Wikipedia external links API for 'Gantenerumab'"
+  ]
+}

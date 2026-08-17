@@ -1,0 +1,77 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT03367403",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03367403",
+      "name": "TRAILBLAZER-ALZ",
+      "drug": "Donanemab (anti-amyloid monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Completed",
+      "enrollment": 272,
+      "population": "Early symptomatic Alzheimer's disease",
+      "primary_endpoint": "Change From Baseline in the Integrated Alzheimer's Disease Rating Scale (iADRS) Score",
+      "started": "2017-12",
+      "completed_or_readout": "2020-12",
+      "results_summary": "Donanemab significantly slowed cognitive and functional decline. The trial utilized the Centiloid scale to measure target engagement, demonstrating a massive reduction in amyloid plaque with an average clearance of 84 Centiloids at 76 weeks.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04437511",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04437511",
+      "name": "TRAILBLAZER-ALZ 2",
+      "drug": "Donanemab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Active, not recruiting",
+      "enrollment": 1736,
+      "population": "Early symptomatic Alzheimer's disease",
+      "primary_endpoint": "Change From Baseline on the Integrated Alzheimer's Disease Rating Scale (iADRS)",
+      "started": "2020-06",
+      "completed_or_readout": "2023-04",
+      "results_summary": "Phase 3 results confirmed that donanemab significantly slowed clinical progression. The trial uniquely validated the Centiloid scale's clinical utility by using Centiloid thresholds (<24.1 and <11) to define amyloid clearance and safely guide the cessation of patient dosing.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03887455",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03887455",
+      "name": "CLARITY AD",
+      "drug": "Lecanemab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "status": "Active, not recruiting",
+      "enrollment": 1906,
+      "population": "Early Alzheimer's disease",
+      "primary_endpoint": "Core Study: Change from Baseline in the CDR-SB at 18 Months",
+      "started": "2019-03",
+      "completed_or_readout": "2022-11",
+      "results_summary": "Lecanemab significantly reduced clinical decline on the CDR-SB by 27% at 18 months. As a key secondary endpoint, it demonstrated a mean reduction of 59.1 Centiloids in amyloid burden, directly linking Centiloid reduction to cognitive benefit.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2021-05-06",
+      "kind": "paper",
+      "description": "Donanemab in Early Alzheimer's Disease (TRAILBLAZER-ALZ Phase 2 results)",
+      "url": "https://doi.org/10.1056/NEJMoa2100708"
+    },
+    {
+      "date": "2023-01-05",
+      "kind": "paper",
+      "description": "Lecanemab in Early Alzheimer's Disease (CLARITY AD Phase 3 results)",
+      "url": "https://doi.org/10.1056/NEJMoa2212948"
+    },
+    {
+      "date": "2023-08-08",
+      "kind": "paper",
+      "description": "Donanemab in Early Symptomatic Alzheimer Disease (TRAILBLAZER-ALZ 2 Phase 3 results)",
+      "url": "https://doi.org/10.1001/jama.2023.13239"
+    }
+  ],
+  "evidence_assessment": "The methodology presented in this document—creating a 0-100 standardization scale (Centiloids) for amyloid PET imaging—has become a foundational and rigorously validated standard in Alzheimer's clinical trials. While the document itself reports only a retrospective methodological validation of the scale, subsequent global Phase 3 trials (e.g., CLARITY AD for lecanemab and TRAILBLAZER-ALZ 2 for donanemab) successfully operationalized this scale to quantify amyloid reduction across diverse clinical centers and varying F-18 tracers. The Centiloid scale proved robust enough to not only serve as a key biomarker endpoint for FDA approvals but also to determine patient trial eligibility and guide treatment cessation based on absolute plaque thresholds. The strong clinical correlations observed between Centiloid reduction and slowed cognitive decline in these landmark trials provide overwhelming real-world validation of the document's central claim that amyloid PET data can be reliably and universally standardized.",
+  "discrepancies": []
+}

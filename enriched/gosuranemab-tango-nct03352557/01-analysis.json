@@ -1,0 +1,73 @@
+{
+  "kind": "other",
+  "title": "Phase 2 Study of BIIB092 in Participants With Early Alzheimer's Disease",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2022",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "tau",
+    "immunotherapy",
+    "biib092",
+    "gosuranemab",
+    "tango"
+  ],
+  "themes": [
+    "Phase 2 clinical trial",
+    "BIIB092 / Gosuranemab",
+    "Mild cognitive impairment (MCI)",
+    "Alzheimer's disease",
+    "Trial termination for futility",
+    "Safety and efficacy"
+  ],
+  "one_line": "The Phase 2 study of the intravenous antibody BIIB092 in early Alzheimer's disease was terminated early due to a lack of efficacy compared to placebo.",
+  "summary": "This document is a ClinicalTrials.gov registry results report for NCT03352557 (the TANGO study), a Phase 2, randomized, quadruple-blind, placebo-controlled clinical trial. The study evaluated the safety, tolerability, and efficacy of varying doses of the investigational drug BIIB092 (gosuranemab) in 654 participants with mild cognitive impairment due to Alzheimer's disease or mild Alzheimer's disease. The primary outcome measures focused on the incidence of adverse events (AEs) and serious adverse events (SAEs) over a 78-week placebo-controlled period and a subsequent long-term extension. Secondary efficacy outcomes were measured using the Clinical Dementia Rating Scale - Sum of Boxes (CDR-SB). The study was prematurely terminated due to a lack of efficacy at the end of the placebo-controlled period, as BIIB092 failed to slow clinical decline compared to placebo. Safety profiles and adverse event rates were generally comparable between the treatment and placebo arms.",
+  "key_claims": [
+    {
+      "claim": "BIIB092 lacks efficacy in slowing cognitive and functional impairment in early Alzheimer's disease.",
+      "evidence": "The trial was officially terminated based on lack of efficacy. The change from baseline at Week 78 on the CDR-SB was 1.71 for the placebo group, and ranged from 1.76 to 2.23 for the BIIB092 treatment groups, indicating no clinical benefit.",
+      "strength": "strong",
+      "location": "Mutable fields / SECONDARY: PC Period: Change From Baseline Over Time at Week 78"
+    },
+    {
+      "claim": "BIIB092 has an adverse event profile similar to placebo.",
+      "evidence": "During the placebo-controlled period, the percentage of participants with adverse events ranged from 82.8% to 88.7% for BIIB092 doses compared to 84.6% for placebo. Serious adverse events ranged from 10.3% to 12.3% for BIIB092 compared to 12.1% for placebo.",
+      "strength": "strong",
+      "location": "PRIMARY: PC Period: Percentage of Participants With Adverse Events (AEs) and Serious Adverse Events (SAEs)"
+    }
+  ],
+  "methods": {
+    "design": "Randomized, Double-Blind, Placebo-Controlled, Parallel-Group",
+    "n": 654,
+    "population": "Adults aged 50-80 with a gradual and progressive change in memory function, meeting criteria for MCI due to AD or mild AD (MMSE 22-30), with confirmed amyloid beta positivity.",
+    "duration": "78-week placebo-controlled period, followed by an intended long-term extension up to Week 173.",
+    "registration": "NCT03352557"
+  },
+  "funding_and_conflicts": "Lead sponsor: Biogen. No individual author conflicts are stated in the registry record.",
+  "limitations": [
+    "The document is a top-line clinical registry summary, lacking detailed statistical analyses, p-values, or discussion sections typically found in peer-reviewed literature.",
+    "The study's early termination for futility truncated the planned long-term extension data collection."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 9,
+    "issues": [
+      "Document is a structured API extraction rather than a narrative text, resulting in repetitive boilerplate descriptions for outcome measures."
+    ]
+  },
+  "search_verification": [
+    "Cross-referenced NCT03352557 and file name to confirm that BIIB092 is the anti-tau monoclonal antibody gosuranemab, developed by Biogen."
+  ]
+}

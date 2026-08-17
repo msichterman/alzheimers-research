@@ -1,0 +1,87 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment surrounding the AADvac1 tau vaccine is mixed to cautiously hopeful, heavily influenced by corporate messaging emphasizing safety, immune response, and biomarker signals rather than the failed clinical efficacy endpoints in the ADAMANT trial. Patient and longevity communities are optimistic about the novel active immunotherapy approach, focusing on post hoc analyses that suggest potential slowing of disease. Scientific and medical discourse is more measured, acknowledging the strong safety profile but stressing that the trial missed its secondary endpoints for cognitive and functional improvement across the overall cohort. Recent news in 2025 and 2026 about AADvac1 being selected for progressive supranuclear palsy (PSP) trials and an Alzheimer's combination therapy has reignited hope. However, retail investor chatter remains quiet since Axon Neuroscience is a private company, limiting direct speculation avenues.",
+  "communities": [
+    {
+      "community": "r/longevity and early-adopter communities",
+      "sentiment": "hopeful",
+      "themes": [
+        "First-in-human tau vaccine success",
+        "Biomarker impact (NfL) as proof of mechanism",
+        "Slowing of disease progression based on subgroup data"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/longevity/comments/g1zsif/active_tau_vaccine_aadvac1_hints_of_slowing/"
+      ]
+    },
+    {
+      "community": "Alzheimer's patients and caregivers (AlzConnected)",
+      "sentiment": "mixed",
+      "themes": [
+        "Desperation for disease-modifying therapies beyond amyloid",
+        "Disappointment in failed cognitive endpoints",
+        "Wait-and-see attitude for larger Phase 3 or combination studies"
+      ],
+      "example_urls": [
+        "https://alzconnected.org/discussion/57169/aadvac1-for-alzheimer-s"
+      ]
+    },
+    {
+      "community": "Scientific and medical professionals (Alzforum, researchers)",
+      "sentiment": "skeptical",
+      "themes": [
+        "Underpowered study to assess true clinical efficacy",
+        "Reliance on exploratory and post hoc analyses for positive signals",
+        "Need for larger, stratified clinical trials"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/therapeutics/aadvac1",
+        "https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964(23)00489-9/fulltext"
+      ]
+    },
+    {
+      "community": "Retail investors and biotech watchers",
+      "sentiment": "quiet",
+      "themes": [
+        "Axon Neuroscience is not publicly traded, limiting direct retail chatter",
+        "Interest shifted toward major milestones like the 2026 combination trial grant"
+      ],
+      "example_urls": [
+        "https://www.reuters.com/press-releases/axon-neuroscience-immunotherapy-alzheimers-trial-grant-2026-02-04/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Reuters",
+      "tone": "positive",
+      "date": "2026-02",
+      "url": "https://www.reuters.com/press-releases/axon-neuroscience-immunotherapy-alzheimers-trial-grant-2026-02-04/"
+    },
+    {
+      "outlet": "Alzheimer's News Today",
+      "tone": "positive",
+      "date": null,
+      "url": "https://alzheimersnewstoday.com/aadvac1/"
+    },
+    {
+      "outlet": "Alzforum",
+      "tone": "neutral",
+      "date": null,
+      "url": "https://www.alzforum.org/news/research-news/phase-2-data-aadvac1-alzheimers-disease-published"
+    }
+  ],
+  "hype_vs_evidence": "The most significant divergence between public perception and clinical evidence lies in the interpretation of the ADAMANT trial's efficacy. Corporate press releases and optimistic community chatter frequently frame AADvac1 as showing 'hints of slowing' the disease and being 'on track to prevent and treat Alzheimer’s disease.' However, the hard evidence from the Phase 2 trial clearly shows that the vaccine did not produce significant cognitive or functional improvements across the overall study population. The 'slowing' narratives are entirely based on unpowered post hoc and exploratory subgroup analyses. These post hoc findings are scientifically hypothesis-generating rather than conclusive proof of clinical efficacy, representing a wide gap between public hope and rigorous trial outcomes.",
+  "misinformation_flags": [
+    "Claims that the Phase 2 ADAMANT trial definitively proved AADvac1 slows cognitive decline, ignoring that it failed its secondary clinical endpoints in the overall study population.",
+    "Framing exploratory post hoc biomarker data (like NfL attenuation in specific subgroups) as conclusive evidence of clinical efficacy."
+  ],
+  "searches_run": [
+    "site:reddit.com AADvac1",
+    "site:reddit.com \"Axon Neuroscience\"",
+    "AADvac1 alzforum",
+    "AADvac1 Axon Neuroscience news",
+    "AADvac1 investor",
+    "AADvac1 clinical trial result"
+  ]
+}

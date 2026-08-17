@@ -1,0 +1,80 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment surrounding amyloid-targeting Alzheimer's drugs is starkly divided across different communities. Patients and caregivers display desperate optimism and hope, often viewing the drugs as monumental breakthroughs despite access and cost hurdles. The scientific and biotech communities are far more cautious or outright skeptical, focusing on the poor risk-to-benefit ratio, high incidence of brain swelling (ARIA), and the questionable validity of the amyloid cascade hypothesis. Mainstream media alternates between hyping 'miracle' treatments and reporting critically on regulatory rejections and safety concerns. Ultimately, the intense public desire for a cure creates a persistent gap between the drugs' perceived transformative potential and their actual, mathematically trivial clinical benefits.",
+  "communities": [
+    {
+      "community": "r/Alzheimers and r/dementia (Patients & Caregivers)",
+      "sentiment": "hopeful",
+      "themes": [
+        "Desperation for access and Medicare coverage",
+        "Viewing the drugs as a 'huge win' or disease-modifying breakthrough",
+        "Minimization or misunderstanding of ARIA risks"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/comments/xq1pfe/lecanemab_win/",
+        "https://www.reddit.com/r/Alzheimers/comments/1bhl5bl/lecanemab_is_now_supposedly_covered_by_medicare/",
+        "https://old.reddit.com/r/Alzheimers/comments/1uow4l8/leqembi_induced_aria/"
+      ]
+    },
+    {
+      "community": "r/biotech and r/investing (Retail Investors & Industry)",
+      "sentiment": "skeptical",
+      "themes": [
+        "Debating the FDA's controversial approval process",
+        "Focusing on the gap between low clinical efficacy and high commercial valuation",
+        "Significant safety concerns overshadowing modest clinical data"
+      ],
+      "example_urls": [
+        "https://old.reddit.com/r/biotech/comments/107kn3i/fda_approves_biogens_alzheimers_drug_lecanemab/",
+        "https://old.reddit.com/r/investing/comments/o03zw4/did_fda_err_in_approving_biogens_aducanumab_drug/"
+      ]
+    },
+    {
+      "community": "Alzforum (Scientists & Researchers)",
+      "sentiment": "mixed",
+      "themes": [
+        "Disconnect between plaque clearance and actual cognitive improvement",
+        "Nuanced discussion on the severity of asymptomatic vs. symptomatic ARIA",
+        "Ongoing debate about the validity of the amyloid cascade hypothesis"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/conference-coverage/questions-questions-donanemab-lecanemab",
+        "https://www.alzforum.org/news/conference-coverage/fully-loaded-secondary-prevention-studies-lecanemab-donanemab"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "The Independent",
+      "tone": "critical",
+      "date": "2024-07",
+      "url": "https://www.independent.co.uk/life-style/health-and-families/alzheimers-disease-drugs-lecanemab-donanemab-why-b2776580.html"
+    },
+    {
+      "outlet": "News-Medical",
+      "tone": "positive",
+      "date": "2025-09",
+      "url": "https://www.news-medical.net/news/20250924/Review-shows-lecanemab-and-donanemab-slow-decline-and-explains-who-should-get-them.aspx"
+    },
+    {
+      "outlet": "NAN For Caregivers",
+      "tone": "positive",
+      "date": null,
+      "url": "https://nanforcaregivers.com/resources-blog/alzheimers-infusion-drug-therapy-guide"
+    }
+  ],
+  "hype_vs_evidence": "The public broadly perceives monoclonal antibodies like lecanemab and donanemab as transformative breakthroughs that can halt Alzheimer's. In reality, the Cochrane review demonstrates their clinical benefits are practically trivial, with cognitive improvements falling well below established thresholds of clinical significance. While patients and media often brush off ARIA (brain swelling and microhemorrhages) as a manageable or mostly asymptomatic risk, evidence shows a staggering tenfold increase in ARIA risk compared to placebo, creating a highly unfavorable benefit-to-risk profile that contradicts the hype.",
+  "misinformation_flags": [
+    "Claims that the drugs are a 'cure' or halt the progression of Alzheimer's entirely.",
+    "The misconception that ARIA (brain swelling/bleeding) side effects are universally asymptomatic or trivial.",
+    "The belief that clearing amyloid plaques directly and robustly restores cognitive function."
+  ],
+  "searches_run": [
+    "site:reddit.com/r/Alzheimers lecanemab OR donanemab",
+    "site:reddit.com/r/dementia lecanemab OR donanemab",
+    "site:reddit.com/r/biotech lecanemab",
+    "site:reddit.com/r/investing biogen alzheimers",
+    "site:alzforum.org lecanemab OR donanemab",
+    "lecanemab donanemab miracle OR breakthrough news"
+  ]
+}

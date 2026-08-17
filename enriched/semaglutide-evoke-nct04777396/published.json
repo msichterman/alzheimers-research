@@ -1,0 +1,14 @@
+{
+  "published_at": "2026-08-16T22:50:29.412Z",
+  "files": [
+    "docs/research/papers/evoke-semaglutide-phase-3.mdx",
+    "docs/trials/evoke-nct04777396.mdx",
+    "docs/trials/evoke-plus-nct04777409.mdx"
+  ],
+  "timeline": [
+    {
+      "title": "2026-03 — EVOKE Phase 3 trial of semaglutide fails",
+      "action": "skipped (already present)"
+    }
+  ]
+}

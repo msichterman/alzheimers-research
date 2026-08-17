@@ -1,0 +1,9 @@
+{
+  "id": "us-pointer",
+  "source": "sources/us-pointer.xml",
+  "sha256": "825a9c8b7eb685d437e09fa4e562287f64c81a1dd4bdb745637abdbeec54d5b2",
+  "bytes": 32197,
+  "chars": 5295,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:11.326Z"
+}

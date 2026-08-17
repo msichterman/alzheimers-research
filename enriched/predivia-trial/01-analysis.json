@@ -1,0 +1,112 @@
+{
+  "kind": "research-paper",
+  "title": "Effectiveness of a 6-year multidomain vascular care intervention to prevent dementia (preDIVA): a cluster-randomised controlled trial.",
+  "authors": [
+    {
+      "name": "Moll van Charante, Eric P",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Richard, Edo",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Eurelings, Lisa S",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "van Dalen, Jan-Willem",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Ligthart, Suzanne A",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Moll van Charante, Eric P",
+  "venue": "Lancet",
+  "published": "2016",
+  "doi": "10.1016/S0140-6736(16)30950-3",
+  "doi_url": "https://doi.org/10.1016/S0140-6736(16)30950-3",
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "CC BY-NC-ND 4.0",
+    "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "reuse": "quote-and-summarize",
+    "evidence": "Except where otherwised noted, this item's license is described as Attribution-NonCommercial-NoDerivatives 4.0 International"
+  },
+  "tags": [
+    "trial",
+    "prevention",
+    "cardiovascular-risk",
+    "multidomain-intervention"
+  ],
+  "themes": [
+    "Dementia prevention",
+    "Vascular risk factors",
+    "Multidomain intervention",
+    "Primary care",
+    "Cluster-randomized trial"
+  ],
+  "one_line": "A 6-year nurse-led multidomain vascular care intervention in older adults did not significantly reduce the incidence of all-cause dementia compared to usual care.",
+  "summary": "The preDIVA trial was an open-label, cluster-randomized controlled trial assessing whether a multidomain intervention targeting cardiovascular risk factors could prevent dementia in community-dwelling older adults. Conducted across 116 general practices in the Netherlands, the study included 3,526 participants aged 70-78 years. Practices were assigned to either a 6-year nurse-led cardiovascular intervention or standard care. Over a median follow-up of 6.7 years, dementia incidence was 7% in both the intervention and control groups, showing no significant difference. Secondary outcomes such as disability scores, incident cardiovascular disease, and mortality also did not differ. The authors propose that the lack of effect might stem from the participants' modest baseline cardiovascular risks and the already high standard of usual care in the Netherlands.",
+  "key_claims": [
+    {
+      "claim": "A nurse-led, multidomain intervention targeting cardiovascular risk factors does not reduce the incidence of all-cause dementia in an unselected population of older people.",
+      "evidence": "Dementia developed in 121 (7%) of 1853 participants in the intervention group and in 112 (7%) of 1601 participants in the control group (hazard ratio [HR] 0.92, 95% CI 0.71-1.19; p=0.54).",
+      "strength": "strong",
+      "location": "Abstract (FINDINGS and INTERPRETATION)"
+    },
+    {
+      "claim": "The intervention does not significantly reduce incident cardiovascular disease or mortality.",
+      "evidence": "Mortality HR 0.98 (95% CI 0.80-1.18; p=0.81); Incident cardiovascular disease HR 1.06 (95% CI 0.86-1.31; p=0.57).",
+      "strength": "strong",
+      "location": "Abstract (FINDINGS)"
+    }
+  ],
+  "methods": {
+    "design": "open-label, cluster-randomised controlled trial",
+    "n": 3526,
+    "population": "community-dwelling individuals aged 70-78 years in the Netherlands",
+    "duration": "6 years (median follow-up 6.7 years)",
+    "registration": "ISRCTN29711771"
+  },
+  "funding_and_conflicts": "Funded by the Dutch Ministry of Health, Welfare and Sport; Dutch Innovation Fund of Collaborative Health Insurances; and Netherlands Organisation for Health Research and Development. Conflicts of interest: none stated.",
+  "limitations": [
+    "Possible ceiling effect due to the already high standards of usual vascular care in the Netherlands.",
+    "Modest baseline cardiovascular risks in the unselected population may have diluted any potential benefits of the intervention.",
+    "The full text of the article is missing from the provided document, severely limiting critique of the methodology beyond the abstract."
+  ],
+  "red_flags": [
+    "The document provided consists solely of repository metadata and the abstract; the main body of the paper, including detailed methods, results, and discussions, was not included in the extraction."
+  ],
+  "parse_quality": {
+    "score": 4,
+    "issues": [
+      "The full text of the article is completely missing; only metadata and the abstract were successfully extracted.",
+      "Author affiliations and contact information are absent from the provided text."
+    ]
+  },
+  "search_verification": []
+}

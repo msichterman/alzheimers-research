@@ -1,0 +1,496 @@
+{
+  "document_kind": "journal_article",
+  "title": {
+    "value": "Plasma phospho-tau217 for Alzheimer's disease diagnosis in primary and secondary care using a fully automated platform",
+    "quote": "Plasma phospho-tau217 for Alzheimer’s disease diagnosis in primary and secondary care using a fully automated platform",
+    "location": "Title line, top of document"
+  },
+  "authors": [
+    { "name": "Sebastian Palmqvist", "affiliation": null, "orcid": null, "corresponding": true },
+    { "name": "Noëlle Warmenhoven", "affiliation": null, "orcid": null, "corresponding": false },
+    { "name": "Federica Anastasi", "affiliation": null, "orcid": null, "corresponding": false },
+    { "name": "Nicholas J. Ashton", "affiliation": null, "orcid": null, "corresponding": false },
+    { "name": "Marc Suárez-Calvet", "affiliation": null, "orcid": null, "corresponding": false },
+    { "name": "Oskar Hansson", "affiliation": null, "orcid": null, "corresponding": true }
+  ],
+  "study": {
+    "design": {
+      "value": "Multi-cohort diagnostic accuracy validation of plasma p-tau217 using predefined biomarker cutoffs established in one secondary care cohort (Malmö) and then applied to four independent out-of-sample cohorts, four in secondary care and one in primary care",
+      "quote": "we evaluated plasma phospho-tau217 (p-tau217) using predefined biomarker cutoffs. The study included 1,767 participants with cognitive symptoms from 4 independent secondary care cohorts in Malmö",
+      "location": "Abstract"
+    },
+    "phase": { "value": null, "quote": null, "location": null },
+    "n": {
+      "value": 1767,
+      "quote": "Overall, 1,767 patients with cognitive symptoms were enrolled ( n = 1,219 in secondary care; n = 548 in primary care).",
+      "location": "Results, Participants and biomarker characteristics"
+    },
+    "n_description": {
+      "value": "patients with cognitive symptoms enrolled across the five cohorts (1,219 in secondary care, 548 in primary care)",
+      "quote": "Overall, 1,767 patients with cognitive symptoms were enrolled ( n = 1,219 in secondary care; n = 548 in primary care).",
+      "location": "Results, Participants and biomarker characteristics"
+    },
+    "population": {
+      "value": "1,767 patients with cognitive symptoms (subjective cognitive decline, mild cognitive impairment or dementia) recruited while undergoing a memory investigation in clinical practice. CARE SETTING: 1,219 from four secondary care specialist memory clinics / outpatient neurodegenerative clinics — Memory Clinic of Skåne University Hospital (Malmö, Sweden, n=337), Memory Clinic of Sahlgrenska University Hospital (Gothenburg, Sweden, n=165), Cognitive and Behavioural Neurology Unit (Barcelona, Spain, n=487) and the outpatient neurodegenerative clinic of Brescia University Hospital (Italy, n=230); and 548 from a primary care cohort recruited from 19 primary care units in the south of Sweden, where patients sought medical help in primary care for cognitive symptoms. REFERENCE STANDARD: AD pathology defined by the CSF Aβ42:p-tau181 ratio measured with the FDA-approved Lumipulse assay (cutoff <11.94), or a positive [18F]flutemetamol PET visual read for the 87 primary care participants who could not undergo lumbar puncture.",
+      "quote": "Overall, 1,767 patients with cognitive symptoms were enrolled ( n = 1,219 in secondary care; n = 548 in primary care).",
+      "location": "Results, Participants and biomarker characteristics; Methods, Participants; Methods, Outcomes"
+    },
+    "followup": { "value": null, "quote": null, "location": null },
+    "intervention": { "value": null, "quote": null, "location": null },
+    "comparator": {
+      "value": "Comparator index tests: the plasma p-tau217:Aβ42 (Lumipulse) ratio and a mass-spectrometry-based method for plasma %p-tau217 (p-tau217:np-tau217 × 100), both compared against Lumipulse plasma p-tau217 as secondary analyses",
+      "quote": "As secondary analyses, we compared the performance of plasma p-tau217 with that of the p-tau217:Aβ42 (Lumipulse) ratio currently under FDA evaluation and a high-performing MS-based method for plasma %p-tau217",
+      "location": "Main, final paragraph of introduction"
+    },
+    "biomarker_confirmation": {
+      "value": "AD pathology determined by the CSF Aβ42:p-tau181 ratio on the FDA-approved Lumipulse assay with a cutoff of <11.94 derived by Gaussian mixture modelling; for 87 primary care participants unable to undergo lumbar puncture, a positive visual read of [18F]flutemetamol PET",
+      "quote": "The primary outcome was the presence of AD pathology, which was determined by the CSF Aβ42:p-tau181 ratio analyzed using the FDA-approved Lumipulse assays",
+      "location": "Methods, Outcomes"
+    },
+    "nct_ids": ["NCT06122415", "NCT06120361"],
+    "cohorts": [
+      "BioFINDER-Memory Clinic study (Malmö cohort)",
+      "H70 Clinical Studies (Gothenburg cohort)",
+      "BIODEGMAR study (Barcelona cohort)",
+      "Life-BIO cohort (Brescia cohort)",
+      "BioFINDER-Primary Care study (primary care cohort, Sweden)"
+    ]
+  },
+  "outcomes": [
+    {
+      "name": "Accuracy of plasma p-tau217 (Lumipulse) for AD pathology, single cutoff >0.27 pg/ml, Malmö secondary care cohort (cutoff derivation cohort)",
+      "tier": "primary",
+      "prespecified": "no",
+      "prespecification_evidence": "A single plasma cutoff was established in the Malmö cohort at 90% specificity",
+      "met": "not_applicable",
+      "effect_estimate": "accuracy 89% at single cutoff >0.27 pg ml−1 (established at 90% specificity in this same cohort)",
+      "confidence_interval": "95% confidence interval (CI), 86–93%",
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "A single plasma cutoff was established in the Malmö cohort at 90% specificity (>0.27 pg ml −1 ), yielding an accuracy of 89% (95% confidence interval (CI), 86–93%) in the same cohort.",
+      "location": "Results, Accuracy of plasma p-tau217 (Lumipulse)"
+    },
+    {
+      "name": "Accuracy of plasma p-tau217 (Lumipulse), single cutoff, Gothenburg secondary care cohort (independent out-of-sample validation)",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "In the present study, we evaluated plasma phospho-tau217 (p-tau217) using predefined biomarker cutoffs.",
+      "met": "not_applicable",
+      "effect_estimate": "accuracy 91% at single cutoff >0.27 pg ml−1",
+      "confidence_interval": "95% CI = 86–95%",
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "Applying the cutoff to out-of-sample secondary care participants, the accuracy was 91% (95% CI = 86–95%) in Gothenburg, 89% (95% CI = 86–92%) in Barcelona and 89% (95% CI = 85–93%) in Brescia.",
+      "location": "Results, Accuracy of plasma p-tau217 (Lumipulse)"
+    },
+    {
+      "name": "Accuracy of plasma p-tau217 (Lumipulse), single cutoff, Barcelona secondary care cohort (independent out-of-sample validation)",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "In the present study, we evaluated plasma phospho-tau217 (p-tau217) using predefined biomarker cutoffs.",
+      "met": "not_applicable",
+      "effect_estimate": "accuracy 89% at single cutoff >0.27 pg ml−1",
+      "confidence_interval": "95% CI = 86–92%",
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "Applying the cutoff to out-of-sample secondary care participants, the accuracy was 91% (95% CI = 86–95%) in Gothenburg, 89% (95% CI = 86–92%) in Barcelona and 89% (95% CI = 85–93%) in Brescia.",
+      "location": "Results, Accuracy of plasma p-tau217 (Lumipulse)"
+    },
+    {
+      "name": "Accuracy of plasma p-tau217 (Lumipulse), single cutoff, Brescia secondary care cohort (independent out-of-sample validation)",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "In the present study, we evaluated plasma phospho-tau217 (p-tau217) using predefined biomarker cutoffs.",
+      "met": "not_applicable",
+      "effect_estimate": "accuracy 89% at single cutoff >0.27 pg ml−1",
+      "confidence_interval": "95% CI = 85–93%",
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "Applying the cutoff to out-of-sample secondary care participants, the accuracy was 91% (95% CI = 86–95%) in Gothenburg, 89% (95% CI = 86–92%) in Barcelona and 89% (95% CI = 85–93%) in Brescia.",
+      "location": "Results, Accuracy of plasma p-tau217 (Lumipulse)"
+    },
+    {
+      "name": "Accuracy of plasma p-tau217 (Lumipulse), single cutoff, PRIMARY CARE cohort (Sweden)",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "In the present study, we evaluated plasma phospho-tau217 (p-tau217) using predefined biomarker cutoffs.",
+      "met": "not_applicable",
+      "effect_estimate": "accuracy 85% at single cutoff >0.27 pg ml−1; significantly lower than in secondary care",
+      "confidence_interval": "95% CI = 82–88%",
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "In primary care (Sweden), the accuracy was 85% (95% CI = 82–88%) (Fig. ), which was significantly lower than in secondary care (Supplementary Table ).",
+      "location": "Results, Accuracy of plasma p-tau217 (Lumipulse)"
+    },
+    {
+      "name": "AUC of plasma p-tau217 (Lumipulse) for AD pathology across the five cohorts",
+      "tier": "primary",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "AUCs ranged from 0.93 to 0.96 across cohorts (AUC is independent of cutoff)",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "and areas under the receiver operating characteristic (ROC) curves (AUCs) ranged from 0.93 to 0.96 across cohorts (Fig. ).",
+      "location": "Results, Participants and biomarker characteristics"
+    },
+    {
+      "name": "Secondary care summary performance of plasma p-tau217 (single cutoff): accuracy, PPV and NPV",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "In the present study, we evaluated plasma phospho-tau217 (p-tau217) using predefined biomarker cutoffs.",
+      "met": "not_applicable",
+      "effect_estimate": "accuracies 89–91%, positive predictive values 89–95%, negative predictive values 77–90% in secondary care",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "In secondary care, the accuracies were 89–91%, the positive predictive values 89–95% and the negative predictive values 77–90%.",
+      "location": "Abstract"
+    },
+    {
+      "name": "Primary care summary performance of plasma p-tau217 (single cutoff): accuracy, PPV and NPV",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "In the present study, we evaluated plasma phospho-tau217 (p-tau217) using predefined biomarker cutoffs.",
+      "met": "not_applicable",
+      "effect_estimate": "accuracy 85%, positive predictive value 82%, negative predictive value 88% in primary care",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "In primary care, the accuracy was 85%, the positive predictive values 82% and the negative predictive values 88%.",
+      "location": "Abstract"
+    },
+    {
+      "name": "Accuracy of plasma p-tau217 (Lumipulse), two-cutoff approach (<0.22 and >0.34 pg/ml), Malmö cohort (cutoff derivation cohort)",
+      "tier": "primary",
+      "prespecified": "no",
+      "prespecification_evidence": "The two cutoffs were established at 95% sensitivity and 95% specificity in the Malmö cohort (upper cutoff >0.34 pg ml −1 , lower cutoff <0.22 pg ml −1 ).",
+      "met": "not_applicable",
+      "effect_estimate": "accuracy 93% with 17% of participants in the intermediate zone and excluded from the accuracy calculation",
+      "confidence_interval": "95% CI = 90–96%",
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "They yielded an accuracy of 93% (95% CI = 90–96%) in the same cohort with 17% in the intermediate zone (that is, between the upper and lower cutoffs and not included when calculating the accuracy).",
+      "location": "Results, Accuracy of plasma p-tau217 (Lumipulse)"
+    },
+    {
+      "name": "Accuracy of plasma p-tau217 (Lumipulse), two-cutoff approach, out-of-sample secondary care cohorts (Gothenburg, Barcelona, Brescia)",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "In the present study, we evaluated plasma phospho-tau217 (p-tau217) using predefined biomarker cutoffs.",
+      "met": "not_applicable",
+      "effect_estimate": "accuracy 94% Gothenburg, 94% Barcelona, 92% Brescia, with 12–14% in the intermediate zone",
+      "confidence_interval": "95% CI = 90–98% (Gothenburg), 95% CI = 92–96% (Barcelona), 95% CI = 88–96% (Brescia)",
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "Applying these two cutoffs to out-of-sample cohorts resulted in an accuracy of 94% (95% CI = 90–98%) in Gothenburg, 94% (95% CI = 92–96%) in Barcelona and 92% (95% CI = 88–96%) in Brescia",
+      "location": "Results, Accuracy of plasma p-tau217 (Lumipulse)"
+    },
+    {
+      "name": "Accuracy of plasma p-tau217 (Lumipulse), two-cutoff approach, PRIMARY CARE cohort (Sweden)",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "In the present study, we evaluated plasma phospho-tau217 (p-tau217) using predefined biomarker cutoffs.",
+      "met": "not_applicable",
+      "effect_estimate": "accuracy 92% with 16% of participants in the intermediate zone",
+      "confidence_interval": "95% CI = 89–94%",
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "In primary care (Sweden), the accuracy was 92% (95% CI = 89–94%) with 16% in the intermediate zone.",
+      "location": "Results, Accuracy of plasma p-tau217 (Lumipulse)"
+    },
+    {
+      "name": "PPV and NPV using the two-cutoff approach across cohorts (including the reduced NPV in Brescia)",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "In the present study, we evaluated plasma phospho-tau217 (p-tau217) using predefined biomarker cutoffs.",
+      "met": "not_applicable",
+      "effect_estimate": "all PPVs and NPVs ≥90% except NPV in Brescia 84%, reduced because of a high AD pathology prevalence (71%)",
+      "confidence_interval": "95% CI = 75–92% (Brescia NPV)",
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "Using these two cutoffs, all positive predictive values (PPVs) and negative predictive values (NPVs) were ≥90%, except for the NPV in Brescia (84%, 95% CI = 75–92%)",
+      "location": "Results, Accuracy of plasma p-tau217 (Lumipulse)"
+    },
+    {
+      "name": "Accuracy of plasma p-tau217 (Lumipulse) by age group, single cutoff, pooled cohorts — participants aged 73–80 years",
+      "tier": "subgroup",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "accuracy 87% in participants aged 73–80 years, significantly lower than in those aged <73 years",
+      "confidence_interval": "95% CI = 85–90%",
+      "p_value": "P = 0.046",
+      "multiplicity_controlled": "no",
+      "quote": "the accuracy was significantly lower in participants aged between 73 and 80 years (87%, 95% CI = 85–90%, P = 0.046)",
+      "location": "Results, Effects of demographic factors and comorbidities"
+    },
+    {
+      "name": "Accuracy of plasma p-tau217 (Lumipulse) by age group, single cutoff, pooled cohorts — participants aged ≥80 years versus <73 years",
+      "tier": "subgroup",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "accuracy 83% in participants aged ≥80 years versus 91% in those aged <73 years",
+      "confidence_interval": "95% CI = 79–88% (≥80 years); 95% CI = 88–92% (<73 years)",
+      "p_value": "P = 0.003",
+      "multiplicity_controlled": "no",
+      "quote": "and aged ≥80 years (83%, 95% CI = 79–88%, P = 0.003) compared with those aged <73 years (91%, 95% CI = 88–92%).",
+      "location": "Results, Effects of demographic factors and comorbidities"
+    },
+    {
+      "name": "Accuracy and AUC of plasma p-tau217 (Lumipulse) across cognitive stages (SCD, MCI, dementia)",
+      "tier": "subgroup",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "accuracies 86–89% using one cutoff and 92–94% using two cutoffs, with no significant differences across cognitive stages",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "Accuracies ranged between 86% and 89% using one cutoff and 92% and 94% using two cutoffs (Fig. ).",
+      "location": "Results, Accuracy across disease stages"
+    },
+    {
+      "name": "Accuracy of the plasma p-tau217:Aβ42 (Lumipulse) ratio versus p-tau217, two-cutoff approach, primary care",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "As secondary analyses, we compared the performance of plasma p-tau217 with that of the p-tau217:Aβ42 (Lumipulse) ratio currently under FDA evaluation",
+      "met": "not_applicable",
+      "effect_estimate": "accuracy of p-tau217:Aβ42 significantly worse than p-tau217 in primary care using the two-cutoff approach",
+      "confidence_interval": null,
+      "p_value": "P = 0.014",
+      "multiplicity_controlled": "no",
+      "quote": "Using the two-cutoff approach, the accuracy of p-tau217:Aβ42 was significantly worse in primary care (Fig. ; P = 0.014).",
+      "location": "Results, Comparison of plasma p-tau217 and the p-tau217:Aβ42 ratio"
+    },
+    {
+      "name": "Proportion of intermediate results, plasma p-tau217:Aβ42 versus p-tau217, two-cutoff approach",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "As secondary analyses, we compared the performance of plasma p-tau217 with that of the p-tau217:Aβ42 (Lumipulse) ratio currently under FDA evaluation",
+      "met": "not_applicable",
+      "effect_estimate": "intermediate results reduced from 15–16% to 7–10% in both primary and secondary care",
+      "confidence_interval": null,
+      "p_value": "both P < 0.001",
+      "multiplicity_controlled": "no",
+      "quote": "However, p-tau217:Aβ42 reduced the number of participants with intermediate results in both primary and secondary care from 15–16% to 7–10% (Fig. ; both P < 0.001).",
+      "location": "Results, Comparison of plasma p-tau217 and the p-tau217:Aβ42 ratio"
+    },
+    {
+      "name": "MS-based %p-tau217 accuracy and AUC in the PRIMARY CARE cohort, single cutoff",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "As secondary analyses, we compared the performance of plasma p-tau217 with that of the p-tau217:Aβ42 (Lumipulse) ratio currently under FDA evaluation and a high-performing MS-based method for plasma %p-tau217",
+      "met": "not_applicable",
+      "effect_estimate": "MS-based %p-tau217 accuracy 90% and AUC 0.96, significantly higher than Lumipulse p-tau217 in primary care",
+      "confidence_interval": "95% CI = 87–92 (accuracy); 95% CI = 0.94–0.97 (AUC)",
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "In the primary care cohort, MS-based %p-tau217 had a significantly higher accuracy (90%, 95% CI = 87–92) and AUC (0.96, 95% CI = 0.94–0.97) than Lumipulse p-tau217",
+      "location": "Results, Comparison of Lumipulse and MS-based assays"
+    },
+    {
+      "name": "Lumipulse p-tau217 accuracy and AUC in the PRIMARY CARE cohort, single cutoff (MS comparison subsample)",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "As secondary analyses, we compared the performance of plasma p-tau217 with that of the p-tau217:Aβ42 (Lumipulse) ratio currently under FDA evaluation and a high-performing MS-based method for plasma %p-tau217",
+      "met": "not_applicable",
+      "effect_estimate": "Lumipulse p-tau217 accuracy 85% and AUC 0.92 in primary care, both significantly lower than MS-based %p-tau217",
+      "confidence_interval": "95% CI = 82–88 (accuracy); 95% CI = 0.90–0.95 (AUC)",
+      "p_value": "P = 0.003 (accuracy); P = 0.006 (AUC)",
+      "multiplicity_controlled": "no",
+      "quote": "Lumipulse p-tau217 (accuracy = 85%, 95% CI = 82–88, P = 0.003; AUC = 0.92, 95% CI = 0.90–0.95, P = 0.006) and MS-based p-tau217",
+      "location": "Results, Comparison of Lumipulse and MS-based assays"
+    },
+    {
+      "name": "MS-based p-tau217 accuracy and AUC in the PRIMARY CARE cohort, single cutoff",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "As secondary analyses, we compared the performance of plasma p-tau217 with that of the p-tau217:Aβ42 (Lumipulse) ratio currently under FDA evaluation and a high-performing MS-based method for plasma %p-tau217",
+      "met": "not_applicable",
+      "effect_estimate": "MS-based p-tau217 accuracy 85% and AUC 0.94 in primary care, both significantly lower than MS-based %p-tau217",
+      "confidence_interval": "95% CI = 82–88% (accuracy); 95% CI = 0.92–0.96 (AUC)",
+      "p_value": "P < 0.001 (accuracy); P = 0.025 (AUC)",
+      "multiplicity_controlled": "no",
+      "quote": "and MS-based p-tau217 (accuracy = 85%, 95% CI = 82–88%, P < 0.001; AUC = 0.94, 95% CI = 0.92–0.96, P = 0.025) when using the single cutoff approach.",
+      "location": "Results, Comparison of Lumipulse and MS-based assays"
+    },
+    {
+      "name": "Lumipulse p-tau217 versus MS-based assays in SECONDARY care, single and two-cutoff approaches",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "As secondary analyses, we compared the performance of plasma p-tau217 with that of the p-tau217:Aβ42 (Lumipulse) ratio currently under FDA evaluation and a high-performing MS-based method for plasma %p-tau217",
+      "met": "not_applicable",
+      "effect_estimate": "no significant differences in AUCs or accuracies between Lumipulse p-tau217 and MS-based p-tau217 or %p-tau217 in secondary care",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "No significant differences in AUCs or accuracies were found between the Lumipulse p-tau217 and MS-based p-tau217 or %p-tau217 assays in secondary care using either the single or the two-cutoff approaches (Fig. ).",
+      "location": "Results, Comparison of Lumipulse and MS-based assays"
+    },
+    {
+      "name": "Accuracy of Lumipulse p-tau217 versus MS-based %p-tau217 across age groups, MS subsample (n = 1132)",
+      "tier": "subgroup",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "Lumipulse p-tau217 lower accuracy in older participants; MS-based %p-tau217 89% in all age groups with no differences between age categories",
+      "confidence_interval": null,
+      "p_value": "all P < 0.012",
+      "multiplicity_controlled": "no",
+      "quote": "Lumipulse p-tau217 demonstrated lower accuracy in the older participants in this subsample (all P < 0.012), whereas no differences between age categories were observed for MS-based %p-tau217 (89% in all age groups).",
+      "location": "Results, Impact of patient characteristics and stage on assay accuracy"
+    },
+    {
+      "name": "Estimated cost savings of Lumipulse plasma p-tau217 two-cutoff approach versus CSF testing and amyloid PET",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "savings of up to 60% compared with CSF testing alone and up to 81% compared with amyloid PET imaging alone",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "we estimated savings of up to 60% compared with CSF testing alone and up to 81% compared with amyloid PET imaging alone, when implementing a two-cutoff approach with Lumipulse p-tau217.",
+      "location": "Results, Cost-effectiveness analysis of plasma p-tau217 (Lumipulse)"
+    }
+  ],
+  "primary_endpoint_status": {
+    "status": "not_applicable",
+    "explanation": "The document's primary outcome is the reference standard against which the plasma test was measured (AD pathology defined by CSF Aβ42:p-tau181) rather than a prespecified success threshold, so there is no primary endpoint that can be declared met or not met; the paper instead reports diagnostic accuracy figures and notes only an externally 'suggested requirement of ≥90% accuracy' that the single-cutoff approach did not reach in primary care (85%).",
+    "quote": "The primary outcome was the presence of AD pathology, which was determined by the CSF Aβ42:p-tau181 ratio analyzed using the FDA-approved Lumipulse assays"
+  },
+  "multiplicity": {
+    "approach": "None — the document states results were not corrected for multiple comparisons; AUCs were compared using DeLong statistics and accuracies/PPVs/NPVs with a bootstrap hypothesis test",
+    "quote": "Differences between AUCs were assessed using DeLong statistics. Results were not corrected for multiple comparisons.",
+    "location": "Fig. 2 caption (and repeated in Figs. 1, 3–5 and Extended Data Fig. captions)"
+  },
+  "safety": {
+    "harms": [],
+    "apoe_stratification_reported": false,
+    "serious_adverse_events": { "value": null, "quote": null, "location": null },
+    "deaths": { "value": null, "quote": null, "location": null },
+    "discontinuations": { "value": null, "quote": null, "location": null }
+  },
+  "funding": [
+    "The BioFINDER group was supported by the National Institute of Aging (grant no. R01AG083740 to O.H., S.P., R.O. and S.J.), Alzheimer’s Association (grant nos. SG-23-1061717 and ZEN24-1069572 to O.H.), GHR Foundation (O.H. and S.P.), European Research Council (ERC, grant no. ADG-101096455 to O.H.), Swedish Research Council",
+    "the Knut and Alice Wallenberg Foundation (grant no. 2022-0231 to O.H.), the European Union’s (EU’s) Horizon Europe research and innovation program under grant agreement no. 101053962 (to O.H.)",
+    "the Swedish Alzheimer Foundation, the Swedish Brain Foundation, the family Rönström’s Foundation, the Berg Family Foundation, the Parkinson Foundation of Sweden, the Cure Alzheimer’s fund, the Skåne University Hospital Foundation and the Swedish Federal Government under the ALF-agreement",
+    "The precursor of [ 18 F]flutemetamol was sponsored by GE Healthcare.",
+    "Open access funding provided by Lund University.",
+    "Italian and Spanish funders including Instituto de Salud Carlos III, 'la Caixa' Foundation, Airalzh Foundation, the Italian Ministry of University and Research (PRIN COCOON, PRIN 2021 RePlast), H2020 IMI IDEA-FAST and the Italian Ministry of Health",
+    "The funders had no role in the design and conduct of the study, collection, management, analysis and interpretation of the data, preparation, review or approval of the paper and decision to submit the paper for publication."
+  ],
+  "conflicts": [
+    "O.H. is an employee of Eli Lilly and Lund University and previously acquired research support (for Lund University) from AVID Radiopharmaceuticals, Biogen, C2N Diagnostics, Eli Lilly, Eisai, Fujirebio, GE Healthcare and Roche; in the past 2 years received consultancy or speaker's fees from ALZpath, BioArctic, Biogen, Bristol Meyer Squibb, Eisai, Eli Lilly, Fujirebio, Merck, Novartis, Novo Nordisk, Roche, Sanofi and Siemens",
+    "S.P. acquired research support (for the institution) from Avid and ADDF through ki elements and received consultancy or speaker fees from BioArtic, Biogen, Eisai, Eli Lilly, Novo Nordisk and Roche",
+    "All C2N coauthors are salaried employees or consultants with cash and/or equity compensation from C2N Diagnostics. C2N Diagnostics performed the MS analyses blinded to any biomarker or clinical data and had no role in the statistical analysis or results.",
+    "K.B. served as a consultant and was on advisory boards for Acumen, ALZpath, AriBio, BioArctic, Biogen, Eisai, Lilly, Moleac Pte. Ltd, Novartis, Ono Pharma, Prothena, Roche Diagnostics and Siemens Healthineers, and has given lectures for AC Immune, Biogen, Celdara Medical, Eisai and Roche Diagnostics",
+    "H.Z. served on scientific advisory boards and/or as a consultant for numerous companies including ALZpath, Denali, Eisai, Roche and Siemens Healthineers, has given lectures in symposia sponsored by Alzecure, Biogen, Cellectricon, Fujirebio, Lilly, Novo Nordisk and Roche, and is a co-founder of Brain Biomarker Solutions in Gothenburg AB",
+    "M.S.-C. received consultancy or speaker's fees (paid to the institution) from Almirall, Eli Lilly, Novo Nordisk and Roche Diagnostics; in-kind support for research (to the institution) was received from ADx Neurosciences, Alamar Biosciences, ALZpath, Avid Radiopharmaceuticals, Eli Lilly, Fujirebio, Janssen Research & Development, Meso Scale Discovery and Roche Diagnostics",
+    "N.J.A. received consultancy or speaker fees from BioArtic, Biogen, Lilly, Quanterix and Alamar Biosciences",
+    "R.O. received research funding or support from, among others, Avid Radiopharmaceuticals, Janssen Research & Development, Roche, Quanterix and Optina Diagnostics, and has given lectures in symposia sponsored by GE Healthcare"
+  ],
+  "limitations": [
+    "The present study has some limitations. First, our study included only European cohorts, necessitating further validation in clinical cohorts from other regions worldwide.",
+    "Second, the slightly lower performance compared with %p-tau217 in primary care settings and among older age groups highlights the need for further investigation.",
+    "Given the suggested requirement of ≥90% accuracy for BBMs in the diagnosis of AD , a two-cutoff approach for the Lumipulse p-tau217 assay might be necessary for its use as a stand-alone test for AD pathology, especially in primary care and across different age groups and cognitive stages",
+    "A two-cutoff approach might be necessary to optimize performance across diverse settings and subpopulations.",
+    "Accuracy was lower in participants aged ≥80 years (83%), but was unaffected by chronic kidney disease, diabetes, sex, APOE genotype or cognitive stage.",
+    "In primary care (Sweden), the accuracy was 85% (95% CI = 82–88%) (Fig. ), which was significantly lower than in secondary care (Supplementary Table ).",
+    "However, percentage p-tau217 had higher accuracy in primary care and was unaffected by age.",
+    "Using a two-cutoff approach, accuracies increased to 92–94% in secondary and primary care, excluding 12–17% with intermediate results.",
+    "In the two-cutoff approach, participants with an intermediate test result were not considered when calculating the accuracy, PPVs and NPVs, but have instead been specified in the figures.",
+    "This calculation assumes that 14.7% of patients fall into the intermediate group (the total proportion in the present study) and require further testing (Supplementary Table ).",
+    "However, in older individuals and those with CKD, the percentage of individuals with intermediate p-tau217 results increased to 19–20% (Fig. ).",
+    "Differences between AUCs were assessed using DeLong statistics. Results were not corrected for multiple comparisons.",
+    "Lumipulse plasma assays have not previously been validated with predefined cutoffs and have been examined only in single-center studies"
+  ],
+  "risk_of_bias": [
+    {
+      "domain": "cutoff derivation and overfitting",
+      "judgement": "The single and two-cutoff thresholds were both derived in the Malmö cohort, so the Malmö accuracy figures (89% single cutoff, 93% two cutoffs) are in-sample derivation results and are not independent validation.",
+      "quote": "A single plasma cutoff was established in the Malmö cohort at 90% specificity (>0.27 pg ml −1 ), yielding an accuracy of 89% (95% confidence interval (CI), 86–93%) in the same cohort."
+    },
+    {
+      "domain": "spectrum / selection — age exclusion in one validation cohort",
+      "judgement": "The Barcelona cohort, one of the four secondary care validation cohorts, excluded participants aged 80 years or older, the very group in which the assay's accuracy was found to be lowest.",
+      "quote": "The exclusion criteria were: (1) age ≥80 years; (2) contraindication for lumbar puncture; or (3) disagreement with study procedures."
+    },
+    {
+      "domain": "reference standard incorporation / mixed reference standard",
+      "judgement": "AD pathology was defined by CSF Aβ42:p-tau181 for most participants but by amyloid PET visual read for 87 primary care participants who could not undergo lumbar puncture; the reference standard therefore differs within the primary care cohort.",
+      "quote": "For participants who could not undergo lumbar puncture in the BioFINDER-Primary Care study ( n = 87), AD pathology was determined based on a positive visual read of [ 18 F]flutemetamol PET."
+    },
+    {
+      "domain": "sponsor / manufacturer involvement in comparator measurement",
+      "judgement": "The mass-spectrometry comparator assays were run by C2N Diagnostics, whose employees are coauthors, although the document states the analyses were blinded and C2N had no role in the statistical analysis.",
+      "quote": "All C2N coauthors are salaried employees or consultants with cash and/or equity compensation from C2N Diagnostics. C2N Diagnostics performed the MS analyses blinded to any biomarker or clinical data and had no role in the statistical analysis or results."
+    },
+    {
+      "domain": "multiplicity",
+      "judgement": "Many pairwise comparisons across cohorts, subgroups, cognitive stages and assays were performed and the document states explicitly that no correction for multiple comparisons was applied.",
+      "quote": "Differences between AUCs were assessed using DeLong statistics. Results were not corrected for multiple comparisons."
+    }
+  ],
+  "disagreements": [
+    {
+      "question": "Is a single predefined cutoff for the fully automated Lumipulse plasma p-tau217 assay sufficient for stand-alone diagnostic use?",
+      "position": "No — the document concludes that a two-cutoff approach, which leaves 12–17% of patients with intermediate results requiring further testing, might be necessary for stand-alone use, particularly in primary care, across age groups and across cognitive stages.",
+      "attributed_to": "Palmqvist and colleagues (this document)",
+      "quote": "a two-cutoff approach for the Lumipulse p-tau217 assay might be necessary for its use as a stand-alone test for AD pathology, especially in primary care and across different age groups and cognitive stages"
+    },
+    {
+      "question": "Does chronic kidney disease compromise the accuracy of plasma p-tau217?",
+      "position": "This document reports that, contrary to prior work showing comorbidities affect blood-based biomarkers, accuracy of Lumipulse p-tau217 was not affected by CKD, although CKD did increase the proportion of intermediate results.",
+      "attributed_to": "Palmqvist and colleagues (this document), against prior reports that comorbidities impact BBMs",
+      "quote": "Comorbidities, especially CKD, are known to impact BBMs , . Notably, in our study the accuracy of Lumipulse p-tau217 was not affected by CKD."
+    },
+    {
+      "question": "Does the plasma p-tau217:Aβ42 ratio improve diagnostic accuracy over p-tau217 alone?",
+      "position": "No — the ratio did not improve accuracy (and was significantly worse in primary care with two cutoffs), but it did reduce the proportion of intermediate results and raised NPV at the cost of PPV.",
+      "attributed_to": "Palmqvist and colleagues (this document)",
+      "quote": "Using the plasma p-tau217:Aβ42 ratio did not improve accuracy but reduced intermediate test results (≤10%)."
+    },
+    {
+      "question": "Is the fully automated immunoassay equivalent to mass-spectrometry-based %p-tau217?",
+      "position": "Equivalent in secondary care, but inferior in primary care and in older participants, where MS-based %p-tau217 had higher accuracy and was unaffected by age.",
+      "attributed_to": "Palmqvist and colleagues (this document)",
+      "quote": "Compared with a high-performing mass-spectrometry-based assay for percentage p-tau217, accuracies were comparable in secondary care. However, percentage p-tau217 had higher accuracy in primary care and was unaffected by age."
+    }
+  ],
+  "linked_objects": [
+    {
+      "relation": "registry_record",
+      "identifier": "NCT06122415",
+      "note": "BioFINDER-Memory Clinic study, the Malmö secondary care cohort in which the cutoffs were established"
+    },
+    {
+      "relation": "registry_record",
+      "identifier": "NCT06120361",
+      "note": "BioFINDER-Primary Care study, the Swedish primary care cohort"
+    }
+  ],
+  "trial_status_observation": null,
+  "unlocatable_fields": [
+    "study.phase",
+    "study.followup",
+    "study.intervention",
+    "safety.harms",
+    "safety.serious_adverse_events",
+    "safety.deaths",
+    "safety.discontinuations",
+    "trial_status_observation",
+    "authors[].affiliation",
+    "authors[].orcid",
+    "outcomes[].confidence_interval (for AUC range, abstract summary accuracies/PPVs/NPVs, cognitive-stage accuracies and cost-savings estimate)",
+    "outcomes[].p_value (for the cohort-level accuracy comparisons reported without a p-value)"
+  ],
+  "_meta": {
+    "model": "claude (builder subagent)",
+    "extracted_at": "2026-08-13T00:00:00Z",
+    "source": "raw/palmqvist-2025-automated-platform/document.md"
+  }
+}

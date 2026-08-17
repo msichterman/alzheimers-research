@@ -1,0 +1,391 @@
+{
+  "id": "cochrane-anti-amyloid-2026",
+  "checked_at": "2026-08-13T16:30:57.922Z",
+  "builder_model": "claude (builder subagent)",
+  "critic_model": "gemini-3.1-pro-preview",
+  "fields_compared": 23,
+  "disagreements": 7,
+  "conflicts": 7,
+  "coverage_gaps": 0,
+  "agreement_rate": 0.696,
+  "passed": false,
+  "needs_adjudication": true,
+  "disagreement_rows": [
+    {
+      "field": "study.comparator",
+      "builder": "placebo (all 17 included studies used placebo as the comparison)",
+      "critic": "placebo or no treatment",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.followup",
+      "builder": "studies lasted 18 to 27 months; results analysed at 12, 18, 24 and above 24 months, with the main analyses reported at 18 months",
+      "critic": "at least 12 months",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].name",
+      "builder": "Cognitive function assessed with the ADAS‐Cog scale at 18 months",
+      "critic": "cognitive function as measured by the ADAS‐Cog (Alzheimer's Disease Assessment Scale‐Cognitive) scale",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[ARIA-E].reported",
+      "builder": "reported",
+      "critic": "absent",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[ARIA-H].reported",
+      "builder": "reported",
+      "critic": "absent",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[symptomatic ARIA].counts",
+      "builder": "amyloid‐beta‐targeting monoclonal antibodies versus placebo (pooled): ARD 29 more per 1000 (RR 52.49) | amyloid‐beta‐targeting monoclonal antibodies versus placebo (pooled): ARD 4 more per 1000 (RR 3.00)",
+      "critic": "placebo: 1 per 1000 | amyloid‐beta‐targeting monoclonal antibodies: 30 per 1000 | placebo: 2 per 1000 | amyloid‐beta‐targeting monoclonal antibodies: 7 per 1000",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[death].reported",
+      "builder": "reported",
+      "critic": "absent",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    }
+  ],
+  "conflict_rows": [
+    {
+      "field": "study.comparator",
+      "builder": "placebo (all 17 included studies used placebo as the comparison)",
+      "critic": "placebo or no treatment",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.followup",
+      "builder": "studies lasted 18 to 27 months; results analysed at 12, 18, 24 and above 24 months, with the main analyses reported at 18 months",
+      "critic": "at least 12 months",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].name",
+      "builder": "Cognitive function assessed with the ADAS‐Cog scale at 18 months",
+      "critic": "cognitive function as measured by the ADAS‐Cog (Alzheimer's Disease Assessment Scale‐Cognitive) scale",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[ARIA-E].reported",
+      "builder": "reported",
+      "critic": "absent",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[ARIA-H].reported",
+      "builder": "reported",
+      "critic": "absent",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[symptomatic ARIA].counts",
+      "builder": "amyloid‐beta‐targeting monoclonal antibodies versus placebo (pooled): ARD 29 more per 1000 (RR 52.49) | amyloid‐beta‐targeting monoclonal antibodies versus placebo (pooled): ARD 4 more per 1000 (RR 3.00)",
+      "critic": "placebo: 1 per 1000 | amyloid‐beta‐targeting monoclonal antibodies: 30 per 1000 | placebo: 2 per 1000 | amyloid‐beta‐targeting monoclonal antibodies: 7 per 1000",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[death].reported",
+      "builder": "reported",
+      "critic": "absent",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    }
+  ],
+  "builder_values_not_found_in_document": [],
+  "critic_values_not_found_in_document": [],
+  "all_rows": [
+    {
+      "field": "study.design",
+      "builder": "Cochrane systematic review with pairwise random‐effects meta‐analysis of randomised controlled trials, using inverse‐variance pooling, RoB 2 for risk of bias and GRADE for certainty of evidence",
+      "critic": "systematic review",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.n",
+      "builder": 20342,
+      "critic": 20342,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.population",
+      "builder": "adults with mild cognitive impairment or mild dementia due to Alzheimer's disease; seven studies enrolled only mild dementia, one only mild cognitive impairment, the rest mixed populations; mean age 70 to 74 years",
+      "critic": "people with mild cognitive impairment or mild dementia due to Alzheimer’s disease",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.comparator",
+      "builder": "placebo (all 17 included studies used placebo as the comparison)",
+      "critic": "placebo or no treatment",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.followup",
+      "builder": "studies lasted 18 to 27 months; results analysed at 12, 18, 24 and above 24 months, with the main analyses reported at 18 months",
+      "critic": "at least 12 months",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.intervention",
+      "builder": "seven amyloid‐beta‐targeting monoclonal antibodies pooled at class level: aducanumab (3 studies), bapineuzumab (4), crenezumab (2), donanemab (1), gantenerumab (4), lecanemab (1), solanezumab (2); only the highest assessed dose was used when a trial had multiple dose arms",
+      "critic": "amyloid‐beta‐targeting monoclonal antibodies aducanumab, bapineuzumab, crenezumab, donanemab, gantenerumab, lecanemab, ponezumab, remternetug, and solanezumab",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.phase",
+      "builder": "the review pooled phase‐3 randomised controlled trials",
+      "critic": "phase-3",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "primary_endpoint_status.status",
+      "builder": "not_met",
+      "critic": "not_met",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "multiplicity.approach",
+      "builder": "none stated — the review describes no adjustment for multiple comparisons; it states only that subgroup analyses were interpreted cautiously using a formal test for subgroup interactions",
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[primary].name",
+      "builder": "Cognitive function assessed with the ADAS‐Cog scale at 18 months",
+      "critic": "cognitive function as measured by the ADAS‐Cog (Alzheimer's Disease Assessment Scale‐Cognitive) scale",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].met",
+      "builder": "not_met",
+      "critic": "not_met",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "SMD −0.11 (13 studies, 9895 participants; moderate‐certainty evidence; absolute equivalent a reduction of 0.85 points on ADAS‐Cog)",
+      "critic": "SMD −0.11",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": "95% CI −0.16 to −0.06",
+      "critic": "95% CI −0.16 to −0.06",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].p_value",
+      "builder": null,
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].multiplicity_controlled",
+      "builder": "unclear",
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[ARIA-E].reported",
+      "builder": "reported",
+      "critic": "absent",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[ARIA-H].reported",
+      "builder": "reported",
+      "critic": "absent",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[symptomatic ARIA].reported",
+      "builder": "reported",
+      "critic": "reported",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[symptomatic ARIA].counts",
+      "builder": "amyloid‐beta‐targeting monoclonal antibodies versus placebo (pooled): ARD 29 more per 1000 (RR 52.49) | amyloid‐beta‐targeting monoclonal antibodies versus placebo (pooled): ARD 4 more per 1000 (RR 3.00)",
+      "critic": "placebo: 1 per 1000 | amyloid‐beta‐targeting monoclonal antibodies: 30 per 1000 | placebo: 2 per 1000 | amyloid‐beta‐targeting monoclonal antibodies: 7 per 1000",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[macrohemorrhage].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[death].reported",
+      "builder": "reported",
+      "critic": "absent",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.apoe_stratification_reported",
+      "builder": false,
+      "critic": false,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    }
+  ]
+}

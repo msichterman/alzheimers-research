@@ -1,0 +1,1953 @@
+{
+  "_comment": [
+    "Work order, not evidence. Derived from the acquisition manifest.",
+    "`title`, `authors`, `year`, `type` are SEARCH HINTS used to find the primary document.",
+    "`manifest_claims` is QUARANTINED: it is read only by the manifest-vs-source discrepancy",
+    "checker and must never be copied into a corpus record. Every published field comes from",
+    "the retrieved primary document. `candidates` are unverified identifiers; each one is",
+    "resolved live before use and a non-resolving identifier becomes a finding, not a record."
+  ],
+  "clusters": {
+    "amyloid-antibody": "Anti-amyloid monoclonal antibodies",
+    "bace": "BACE inhibitors and secretase modulation",
+    "tau": "Tau-targeting therapeutics",
+    "trem2-neuroinflammation": "TREM2, microglia and neuroinflammation",
+    "genetics": "Human genetics and single-cell genomics",
+    "biomarkers": "Fluid and imaging biomarkers",
+    "prevention": "Prevention and risk-reduction trials",
+    "regulatory": "Regulatory decisions and post-market actions",
+    "conceptual": "Conceptual, framework and pipeline reviews"
+  },
+  "targets": [
+    {
+      "id": "lecanemab-clarity-ad",
+      "rank": 1,
+      "cluster": "amyloid-antibody",
+      "type": "rct",
+      "title": "Lecanemab in Early Alzheimer's Disease",
+      "authors": "van Dyck CH et al.",
+      "year": "2023",
+      "candidates": {
+        "doi": "10.1056/NEJMoa2212948",
+        "nct": [
+          "NCT03887455"
+        ],
+        "url": "https://digitalcommons.wustl.edu/oa_4/2191"
+      },
+      "manifest_claims": {
+        "n": 1795,
+        "outcome": "Less decline than placebo on CDR-SB at 18 months"
+      },
+      "lead_provenance": {
+        "source": "grounded search, verified against Crossref before use",
+        "doi_verified_title": "Lecanemab in Early Alzheimer’s Disease",
+        "title_similarity": 1,
+        "rejected_urls": []
+      }
+    },
+    {
+      "id": "clarity-ad-registry",
+      "rank": 1.1,
+      "cluster": "amyloid-antibody",
+      "type": "registry",
+      "title": "CLARITY AD registry record (NCT03887455)",
+      "authors": null,
+      "year": null,
+      "candidates": {
+        "nct": [
+          "NCT03887455"
+        ]
+      },
+      "manifest_claims": {}
+    },
+    {
+      "id": "donanemab-trailblazer-alz-2",
+      "rank": 2,
+      "cluster": "amyloid-antibody",
+      "type": "rct",
+      "title": "Donanemab in Early Symptomatic Alzheimer Disease: the TRAILBLAZER-ALZ 2 Randomized Clinical Trial",
+      "authors": "Sims JR et al.",
+      "year": "2023",
+      "candidates": {
+        "nct": [
+          "NCT04437511"
+        ]
+      },
+      "manifest_claims": {
+        "n": 1736,
+        "outcome": "Significantly slowed integrated cognitive/functional decline at 76 weeks"
+      }
+    },
+    {
+      "id": "trailblazer-alz-2-registry",
+      "rank": 2.1,
+      "cluster": "amyloid-antibody",
+      "type": "registry",
+      "title": "TRAILBLAZER-ALZ 2 registry record with posted results (NCT04437511)",
+      "authors": null,
+      "year": null,
+      "candidates": {
+        "nct": [
+          "NCT04437511"
+        ]
+      },
+      "manifest_claims": {}
+    },
+    {
+      "id": "lecanemab-phase-2b",
+      "rank": 3,
+      "cluster": "amyloid-antibody",
+      "type": "rct",
+      "title": "A randomized, double-blind, phase 2b proof-of-concept clinical trial in early Alzheimer's disease with lecanemab, an anti-Abeta protofibril antibody",
+      "authors": "Swanson CJ et al.",
+      "year": "2021",
+      "candidates": {
+        "doi": "10.1186/s13195-021-00813-8",
+        "url": "https://alzres.biomedcentral.com/counter/pdf/10.1186/s13195-021-00813-8",
+        "nct": [
+          "NCT01767311"
+        ]
+      },
+      "manifest_claims": {
+        "n": 856,
+        "outcome": "Prespecified 12-month Bayesian primary criterion was not met"
+      }
+    },
+    {
+      "id": "donanemab-trailblazer-alz-phase-2",
+      "rank": 4,
+      "cluster": "amyloid-antibody",
+      "type": "rct",
+      "title": "Donanemab in Early Alzheimer's Disease",
+      "authors": "Mintun MA et al.",
+      "year": "2021",
+      "candidates": {
+        "doi": "10.1056/NEJMoa2100708",
+        "nct": [
+          "NCT03367403"
+        ]
+      },
+      "manifest_claims": {
+        "n": 257,
+        "outcome": "Met the iADRS primary endpoint"
+      }
+    },
+    {
+      "id": "aducanumab-emerge-engage",
+      "rank": 5,
+      "cluster": "amyloid-antibody",
+      "type": "rct",
+      "title": "Two Randomized Phase 3 Studies of Aducanumab in Early Alzheimer's Disease",
+      "authors": "Budd Haeberlein S et al.",
+      "year": "2022",
+      "candidates": {
+        "nct": [
+          "NCT02484547",
+          "NCT02477800"
+        ]
+      },
+      "manifest_claims": {
+        "n": 3285,
+        "outcome": "Discordant trials after futility stopping"
+      }
+    },
+    {
+      "id": "emerge-registry",
+      "rank": 5.1,
+      "cluster": "amyloid-antibody",
+      "type": "registry",
+      "title": "EMERGE registry record (NCT02484547)",
+      "authors": null,
+      "year": null,
+      "candidates": {
+        "nct": [
+          "NCT02484547"
+        ]
+      },
+      "manifest_claims": {}
+    },
+    {
+      "id": "engage-registry",
+      "rank": 5.2,
+      "cluster": "amyloid-antibody",
+      "type": "registry",
+      "title": "ENGAGE registry record (NCT02477800)",
+      "authors": null,
+      "year": null,
+      "candidates": {
+        "nct": [
+          "NCT02477800"
+        ]
+      },
+      "manifest_claims": {}
+    },
+    {
+      "id": "aducanumab-phase-1b-prime",
+      "rank": 6,
+      "cluster": "amyloid-antibody",
+      "type": "rct",
+      "title": "The antibody aducanumab reduces Abeta plaques in Alzheimer's disease",
+      "authors": "Sevigny J et al.",
+      "year": "2016",
+      "candidates": {
+        "nct": [
+          "NCT01677572"
+        ],
+        "doi": "10.1038/nature19323"
+      },
+      "manifest_claims": {
+        "n": 165,
+        "outcome": "Dose- and time-dependent amyloid-PET reduction"
+      },
+      "lead_provenance": {
+        "source": "grounded search, verified against Crossref before use",
+        "doi_verified_title": "The antibody aducanumab reduces Aβ plaques in Alzheimer’s disease",
+        "title_similarity": 1,
+        "rejected_urls": []
+      }
+    },
+    {
+      "id": "gantenerumab-graduate",
+      "rank": 7,
+      "cluster": "amyloid-antibody",
+      "type": "rct",
+      "title": "Two Phase 3 Trials of Gantenerumab in Early Alzheimer's Disease",
+      "authors": "Bateman RJ et al.",
+      "year": "2023",
+      "candidates": {
+        "doi": "10.1056/NEJMoa2304430",
+        "nct": [
+          "NCT03444870",
+          "NCT03443973"
+        ]
+      },
+      "manifest_claims": {
+        "n": 1965,
+        "outcome": "Lowered amyloid but did not significantly slow clinical decline at week 116"
+      }
+    },
+    {
+      "id": "solanezumab-a4-prevention",
+      "rank": 8,
+      "cluster": "amyloid-antibody",
+      "type": "rct",
+      "title": "Trial of Solanezumab in Preclinical Alzheimer's Disease",
+      "authors": "Sperling RA et al.",
+      "year": "2023",
+      "candidates": {
+        "doi": "10.1056/NEJMoa2305032",
+        "nct": [
+          "NCT02008357"
+        ]
+      },
+      "manifest_claims": {
+        "n": 1169,
+        "outcome": "Did not slow cognitive decline"
+      }
+    },
+    {
+      "id": "solanezumab-expedition",
+      "rank": 9,
+      "cluster": "amyloid-antibody",
+      "type": "rct",
+      "title": "Phase 3 Trials of Solanezumab for Mild-to-Moderate Alzheimer's Disease",
+      "authors": "Doody RS et al.",
+      "year": "2014",
+      "candidates": {
+        "doi": "10.1056/NEJMoa1312889"
+      },
+      "manifest_claims": {
+        "n": 2052,
+        "outcome": "Neither pivotal trial met its primary efficacy endpoint"
+      }
+    },
+    {
+      "id": "bapineuzumab-phase-3",
+      "rank": 10,
+      "cluster": "amyloid-antibody",
+      "type": "rct",
+      "title": "Two Phase 3 Trials of Bapineuzumab in Mild-to-Moderate Alzheimer's Disease",
+      "authors": "Salloway S et al.",
+      "year": "2014",
+      "candidates": {
+        "doi": "10.1056/NEJMoa1304839"
+      },
+      "manifest_claims": {
+        "n": 2452,
+        "outcome": "No clinical benefit despite biomarker effects"
+      }
+    },
+    {
+      "id": "verubecestat-epoch",
+      "rank": 11,
+      "cluster": "bace",
+      "type": "rct",
+      "title": "Randomized Trial of Verubecestat for Mild-to-Moderate Alzheimer's Disease",
+      "authors": "Egan MF et al.",
+      "year": "2018",
+      "candidates": {
+        "pmcid": "PMC6776074",
+        "nct": [
+          "NCT01739348"
+        ]
+      },
+      "manifest_claims": {
+        "n": 1958,
+        "outcome": "BACE1 inhibition failed to improve cognition/function"
+      }
+    },
+    {
+      "id": "verubecestat-apecs",
+      "rank": 12,
+      "cluster": "bace",
+      "type": "rct",
+      "title": "Randomized Trial of Verubecestat for Prodromal Alzheimer's Disease",
+      "authors": "Egan MF et al.",
+      "year": "2019",
+      "candidates": {
+        "doi": "10.1056/NEJMoa1812840",
+        "nct": [
+          "NCT01953601"
+        ]
+      },
+      "manifest_claims": {
+        "n": 1451,
+        "outcome": "No benefit; some clinical measures favored placebo"
+      }
+    },
+    {
+      "id": "lanabecestat-amaranth-daybreak",
+      "rank": 13,
+      "cluster": "bace",
+      "type": "rct",
+      "title": "Efficacy and Safety of Lanabecestat for Treatment of Early and Mild Alzheimer Disease: The AMARANTH and DAYBREAK-ALZ Randomized Clinical Trials",
+      "authors": "Wessels AM et al.",
+      "year": "2020",
+      "candidates": {
+        "pmcid": "PMC6902191"
+      },
+      "manifest_claims": {
+        "n": 3940,
+        "outcome": "Trials stopped for futility"
+      }
+    },
+    {
+      "id": "semaglutide-evoke",
+      "rank": 14,
+      "cluster": "amyloid-antibody",
+      "type": "rct",
+      "title": "Oral semaglutide in early Alzheimer's disease: EVOKE and EVOKE+",
+      "authors": "Cummings JL et al.",
+      "year": "2026",
+      "candidates": {
+        "nct": [
+          "NCT04777396",
+          "NCT04777409"
+        ]
+      },
+      "manifest_claims": {
+        "n": 3808,
+        "outcome": "Did not demonstrate superiority on the primary CDR-SB endpoint"
+      }
+    },
+    {
+      "id": "trontinemab-brainshuttle-registry",
+      "rank": 15,
+      "cluster": "amyloid-antibody",
+      "type": "registry",
+      "title": "Brainshuttle AD: trontinemab multiple-ascending-dose study",
+      "authors": null,
+      "year": null,
+      "candidates": {
+        "nct": [
+          "NCT04639050"
+        ]
+      },
+      "manifest_claims": {
+        "outcome": "Tests transferrin-receptor delivery of an anti-Abeta antibody"
+      }
+    },
+    {
+      "id": "trontier-1-registry",
+      "rank": 16,
+      "cluster": "amyloid-antibody",
+      "type": "registry",
+      "title": "TRONTIER study of trontinemab in early symptomatic AD",
+      "authors": null,
+      "year": null,
+      "candidates": {
+        "nct": [
+          "NCT07169578"
+        ]
+      },
+      "manifest_claims": {
+        "outcome": "Phase 3 efficacy/safety test"
+      }
+    },
+    {
+      "id": "trontier-2-registry",
+      "rank": 17,
+      "cluster": "amyloid-antibody",
+      "type": "registry",
+      "title": "Second TRONTIER Phase 3 trontinemab study",
+      "authors": null,
+      "year": null,
+      "candidates": {
+        "nct": [
+          "NCT07170150"
+        ]
+      },
+      "manifest_claims": {
+        "outcome": "Confirmatory efficacy/safety study"
+      }
+    },
+    {
+      "id": "trailrunner-alz-1-registry",
+      "rank": 18,
+      "cluster": "amyloid-antibody",
+      "type": "registry",
+      "title": "TRAILRUNNER-ALZ 1: remternetug in early AD",
+      "authors": null,
+      "year": null,
+      "candidates": {
+        "nct": [
+          "NCT05463731"
+        ]
+      },
+      "manifest_claims": {
+        "outcome": "Tests efficacy/safety of remternetug"
+      }
+    },
+    {
+      "id": "remternetug-prevention-registry",
+      "rank": 19,
+      "cluster": "amyloid-antibody",
+      "type": "registry",
+      "title": "Remternetug in preclinical/early Alzheimer's disease",
+      "authors": null,
+      "year": null,
+      "candidates": {
+        "nct": [
+          "NCT06653153"
+        ]
+      },
+      "manifest_claims": {
+        "outcome": "Endpoint is time to development or worsening of AD-related impairment"
+      }
+    },
+    {
+      "id": "sabirnetug-intercept-ad",
+      "rank": 20,
+      "cluster": "amyloid-antibody",
+      "type": "rct",
+      "title": "INTERCEPT-AD: a Phase 1 randomized trial of sabirnetug (ACU193) in early Alzheimer's disease",
+      "authors": "Siemers E et al.",
+      "year": "2025",
+      "candidates": {
+        "pmid": "39800458"
+      },
+      "manifest_claims": {
+        "n": 65,
+        "outcome": "Safety, pharmacokinetics and target engagement"
+      }
+    },
+    {
+      "id": "altitude-ad-registry",
+      "rank": 21,
+      "cluster": "amyloid-antibody",
+      "type": "registry",
+      "title": "ALTITUDE-AD: sabirnetug in early AD",
+      "authors": null,
+      "year": null,
+      "candidates": {
+        "nct": [
+          "NCT06335173"
+        ]
+      },
+      "manifest_claims": {
+        "n": 540,
+        "outcome": "Tests whether monthly sabirnetug slows decline"
+      }
+    },
+    {
+      "id": "cochrane-anti-amyloid-2026",
+      "rank": 22,
+      "cluster": "amyloid-antibody",
+      "type": "systematic-review",
+      "title": "Amyloid-beta-targeting monoclonal antibodies for people with mild cognitive impairment or Alzheimer dementia",
+      "authors": "Cochrane",
+      "year": "2026",
+      "candidates": {
+        "doi": "10.1002/14651858.CD016297"
+      },
+      "manifest_claims": {
+        "n": 20342,
+        "trials": 17,
+        "outcome": "Plaque lowering not clinically meaningful at the class level"
+      }
+    },
+    {
+      "id": "aria-aducanumab-emerge-engage",
+      "rank": 23,
+      "cluster": "amyloid-antibody",
+      "type": "safety-analysis",
+      "title": "Amyloid-Related Imaging Abnormalities in 2 Phase 3 Studies Evaluating Aducanumab in Patients With Early Alzheimer Disease",
+      "authors": "Salloway S et al.",
+      "year": "2022",
+      "candidates": {},
+      "manifest_claims": {
+        "outcome": "Defines ARIA incidence, timing and APOE-related risk"
+      }
+    },
+    {
+      "id": "fda-leqembi-traditional-approval",
+      "rank": 24,
+      "cluster": "regulatory",
+      "type": "regulatory",
+      "title": "FDA converts novel Alzheimer's disease treatment to traditional approval (Leqembi)",
+      "authors": "U.S. Food and Drug Administration",
+      "year": "2023",
+      "candidates": {
+        "url": "https://www.fda.gov/news-events/press-announcements/fda-converts-novel-alzheimers-disease-treatment-traditional-approval"
+      },
+      "manifest_claims": {
+        "outcome": "FDA concluded confirmatory Study 301 verified clinical benefit"
+      }
+    },
+    {
+      "id": "fda-leqembi-approval-letter-traditional",
+      "rank": 24.1,
+      "cluster": "regulatory",
+      "type": "regulatory",
+      "title": "FDA approval letter for Leqembi (lecanemab-irmb), BLA 761269 supplement 1 (traditional approval)",
+      "authors": "U.S. Food and Drug Administration",
+      "year": "2023",
+      "candidates": {
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/761269Orig1s001ltr.pdf"
+      },
+      "manifest_claims": {}
+    },
+    {
+      "id": "fda-leqembi-review-traditional",
+      "rank": 24.2,
+      "cluster": "regulatory",
+      "type": "regulatory",
+      "title": "FDA multidisciplinary review for Leqembi (lecanemab-irmb), BLA 761269 supplement 1",
+      "authors": "U.S. Food and Drug Administration",
+      "year": "2024",
+      "candidates": {
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/761269Orig1s001.pdf"
+      },
+      "manifest_claims": {}
+    },
+    {
+      "id": "fda-leqembi-label-traditional",
+      "rank": 24.3,
+      "cluster": "regulatory",
+      "type": "regulatory",
+      "title": "Leqembi (lecanemab-irmb) prescribing information, 2023 traditional approval",
+      "authors": "U.S. Food and Drug Administration",
+      "year": "2023",
+      "candidates": {
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/761269Orig1s001lbl.pdf"
+      },
+      "manifest_claims": {}
+    },
+    {
+      "id": "fda-leqembi-summary-review-accelerated",
+      "rank": 24.4,
+      "cluster": "regulatory",
+      "type": "regulatory",
+      "title": "FDA summary review for Leqembi (lecanemab-irmb), BLA 761269 original accelerated approval",
+      "authors": "U.S. Food and Drug Administration",
+      "year": "2023",
+      "candidates": {
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/summary_review/2023/761269Orig1s000SumR.pdf"
+      },
+      "manifest_claims": {}
+    },
+    {
+      "id": "fda-leqembi-label-current",
+      "rank": 24.5,
+      "cluster": "regulatory",
+      "type": "regulatory",
+      "title": "Leqembi (lecanemab-irmb) current prescribing information",
+      "authors": "U.S. Food and Drug Administration",
+      "year": "2026",
+      "candidates": {
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761269s011lbl.pdf"
+      },
+      "manifest_claims": {}
+    },
+    {
+      "id": "fda-kisunla-approval-letter",
+      "rank": 25,
+      "cluster": "regulatory",
+      "type": "regulatory",
+      "title": "FDA approval letter for Kisunla (donanemab-azbt)",
+      "authors": "U.S. Food and Drug Administration",
+      "year": "2024",
+      "candidates": {
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/761248Orig1s000ltr.pdf"
+      },
+      "manifest_claims": {
+        "outcome": "FDA approved donanemab"
+      }
+    },
+    {
+      "id": "fda-kisunla-statistical-review",
+      "rank": 25.1,
+      "cluster": "regulatory",
+      "type": "regulatory",
+      "title": "FDA statistical review for Kisunla (donanemab-azbt), BLA 761248",
+      "authors": "U.S. Food and Drug Administration",
+      "year": "2024",
+      "candidates": {
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/761248Orig1s000StatR.pdf"
+      },
+      "manifest_claims": {
+        "outcome": "Detailed review of efficacy analyses"
+      }
+    },
+    {
+      "id": "fda-kisunla-risk-review",
+      "rank": 25.2,
+      "cluster": "regulatory",
+      "type": "regulatory",
+      "title": "FDA risk-management review for Kisunla (donanemab-azbt), BLA 761248",
+      "authors": "U.S. Food and Drug Administration",
+      "year": "2024",
+      "candidates": {
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/761248Orig1s000RiskR.pdf"
+      },
+      "manifest_claims": {
+        "outcome": "Benefit-risk and ARIA risk management"
+      }
+    },
+    {
+      "id": "fda-kisunla-label",
+      "rank": 25.3,
+      "cluster": "regulatory",
+      "type": "regulatory",
+      "title": "Kisunla (donanemab-azbt) prescribing information",
+      "authors": "U.S. Food and Drug Administration",
+      "year": "2024",
+      "candidates": {
+        "url": "https://www.fda.gov/media/180803/download"
+      },
+      "manifest_claims": {
+        "outcome": "Label including ARIA boxed warning and APOE considerations"
+      }
+    },
+    {
+      "id": "ema-leqembi-epar",
+      "rank": 26,
+      "cluster": "regulatory",
+      "type": "regulatory",
+      "title": "EMA Leqembi (lecanemab) European public assessment report",
+      "authors": "European Medicines Agency",
+      "year": "2025",
+      "candidates": {
+        "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/leqembi"
+      },
+      "manifest_claims": {
+        "outcome": "European assessment of efficacy, eligibility and ARIA risk"
+      }
+    },
+    {
+      "id": "ema-kisunla-epar",
+      "rank": 27,
+      "cluster": "regulatory",
+      "type": "regulatory",
+      "title": "EMA Kisunla (donanemab) public assessment report",
+      "authors": "European Medicines Agency",
+      "year": "2025",
+      "candidates": {
+        "url": "https://www.ema.europa.eu/en/documents/assessment-report/kisunla-epar-public-assessment-report_en.pdf"
+      },
+      "manifest_claims": {
+        "outcome": "Detailed European scientific assessment including re-examination history"
+      }
+    },
+    {
+      "id": "maptrx-antisense-tau",
+      "rank": 28,
+      "cluster": "tau",
+      "type": "rct",
+      "title": "Tau-targeting antisense oligonucleotide MAPTRx in mild Alzheimer's disease",
+      "authors": "Mummery CJ et al.",
+      "year": "2023",
+      "candidates": {
+        "pmid": "37095250",
+        "nct": [
+          "NCT03186989"
+        ]
+      },
+      "manifest_claims": {
+        "n": 46,
+        "outcome": "Lowered CSF tau in a dose-dependent fashion"
+      }
+    },
+    {
+      "id": "celia-biib080-registry",
+      "rank": 29,
+      "cluster": "tau",
+      "type": "registry",
+      "title": "CELIA: diranersen (BIIB080) Phase 2",
+      "authors": null,
+      "year": null,
+      "candidates": {
+        "nct": [
+          "NCT05399888"
+        ]
+      },
+      "manifest_claims": {
+        "n": 416,
+        "outcome": "Dose-response primary goal was not met"
+      }
+    },
+    {
+      "id": "aadvac1-adamant",
+      "rank": 30,
+      "cluster": "tau",
+      "type": "rct",
+      "title": "ADAMANT: a placebo-controlled randomized phase 2 study of AADvac1, an active immunotherapy against pathological tau in Alzheimer's disease",
+      "authors": "Novak P et al.",
+      "year": "2021",
+      "candidates": {
+        "pmid": "37117834",
+        "doi": "10.1038/s43587-021-00070-2"
+      },
+      "manifest_claims": {
+        "n": 196,
+        "outcome": "Generated antibody responses; clinical efficacy not established overall"
+      },
+      "lead_provenance": {
+        "source": "grounded search, verified against Crossref before use",
+        "doi_verified_title": "ADAMANT: a placebo-controlled randomized phase 2 study of AADvac1, an active immunotherapy against pathological tau in Alzheimer’s disease",
+        "title_similarity": 1,
+        "rejected_urls": []
+      }
+    },
+    {
+      "id": "semorinemab-tauriel",
+      "rank": 31,
+      "cluster": "tau",
+      "type": "rct",
+      "title": "Safety and Efficacy of Semorinemab in Individuals With Prodromal to Mild Alzheimer Disease: TAURIEL",
+      "authors": "Teng E et al.",
+      "year": "2022",
+      "candidates": {
+        "pmcid": "PMC9194753",
+        "nct": [
+          "NCT03289143"
+        ]
+      },
+      "manifest_claims": {
+        "n": 457,
+        "outcome": "Failed primary and secondary clinical efficacy endpoints"
+      }
+    },
+    {
+      "id": "semorinemab-lauriet",
+      "rank": 32,
+      "cluster": "tau",
+      "type": "rct",
+      "title": "Randomized phase II trial of the anti-tau antibody semorinemab in mild-to-moderate Alzheimer's disease (LAURIET)",
+      "authors": "Monteiro C et al.",
+      "year": "2023",
+      "candidates": {
+        "pmid": "37643887"
+      },
+      "manifest_claims": {
+        "n": 272,
+        "outcome": "Signal on ADAS-Cog11 but no corresponding functional benefit"
+      }
+    },
+    {
+      "id": "gosuranemab-tango",
+      "rank": 33,
+      "cluster": "tau",
+      "type": "rct",
+      "title": "TANGO: a placebo-controlled randomized phase 2 study of efficacy and safety of the anti-tau monoclonal antibody gosuranemab in early Alzheimer's disease",
+      "authors": "Shulman M et al.",
+      "year": "2023",
+      "candidates": {
+        "pmid": "38012285",
+        "nct": [
+          "NCT03352557"
+        ]
+      },
+      "manifest_claims": {
+        "n": 654,
+        "outcome": "Target engagement without clinical benefit"
+      }
+    },
+    {
+      "id": "tilavonemab-early-ad",
+      "rank": 34,
+      "cluster": "tau",
+      "type": "rct",
+      "title": "Tilavonemab in early Alzheimer's disease: results from a phase 2, randomised, double-blind study",
+      "authors": "Florian H et al.",
+      "year": "2023",
+      "candidates": {
+        "pmid": "36730056"
+      },
+      "manifest_claims": {
+        "n": 450,
+        "outcome": "Did not demonstrate clinical efficacy"
+      }
+    },
+    {
+      "id": "bepranemab-together",
+      "rank": 35,
+      "cluster": "tau",
+      "type": "rct",
+      "title": "Bepranemab TOGETHER Phase 2 study in prodromal to mild Alzheimer's disease",
+      "authors": null,
+      "year": "2025",
+      "candidates": {
+        "nct": [
+          "NCT04867616"
+        ],
+        "doi": "10.1002/alz70859_099279",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12739807/"
+      },
+      "manifest_claims": {
+        "n": 466,
+        "outcome": "Primary clinical endpoint was not met; tau-PET accumulation reduced"
+      },
+      "lead_provenance": {
+        "source": "grounded search, verified against Crossref before use",
+        "doi_verified_title": "Tau positron emission tomography results from TOGETHER, a double‐blind, placebo‐controlled Phase II study of bepranemab in prodromal–mild Alzheimer’s disease",
+        "title_similarity": 1,
+        "rejected_urls": []
+      }
+    },
+    {
+      "id": "dian-tu-tau-nexgen-registry",
+      "rank": 36,
+      "cluster": "tau",
+      "type": "registry",
+      "title": "DIAN-TU Tau NexGen: E2814",
+      "authors": null,
+      "year": null,
+      "candidates": {
+        "nct": [
+          "NCT05269394"
+        ]
+      },
+      "manifest_claims": {
+        "outcome": "Tests anti-tau E2814 in mutation carriers"
+      }
+    },
+    {
+      "id": "e2814-lecanemab-registry",
+      "rank": 37,
+      "cluster": "tau",
+      "type": "registry",
+      "title": "E2814 with concurrent lecanemab",
+      "authors": null,
+      "year": null,
+      "candidates": {
+        "nct": [
+          "NCT06602258"
+        ]
+      },
+      "manifest_claims": {
+        "outcome": "Dose-response of E2814 on tau biomarkers during concurrent lecanemab"
+      }
+    },
+    {
+      "id": "e2814-diad-registry",
+      "rank": 38,
+      "cluster": "tau",
+      "type": "registry",
+      "title": "E2814 safety and target engagement in dominantly inherited AD",
+      "authors": null,
+      "year": null,
+      "candidates": {
+        "nct": [
+          "NCT04971733"
+        ]
+      },
+      "manifest_claims": {
+        "outcome": "Safety, tolerability and target engagement"
+      }
+    },
+    {
+      "id": "al002-invoke-2",
+      "rank": 39,
+      "cluster": "trem2-neuroinflammation",
+      "type": "rct",
+      "title": "The TREM2 agonistic antibody AL002 in early Alzheimer's disease",
+      "authors": "Mummery CJ et al.",
+      "year": "2026",
+      "candidates": {
+        "pmid": "41787076",
+        "doi": "10.1038/s41591-026-04273-1"
+      },
+      "manifest_claims": {
+        "n": 381,
+        "outcome": "First large TREM2-agonist RCT was negative; ARIA emerged as a safety observation"
+      },
+      "lead_provenance": {
+        "source": "grounded search, verified against Crossref before use",
+        "doi_verified_title": "The TREM2 agonistic antibody AL002 in early Alzheimer’s disease: a phase 2 randomized trial",
+        "title_similarity": 1,
+        "rejected_urls": []
+      }
+    },
+    {
+      "id": "invoke-2-registry",
+      "rank": 40,
+      "cluster": "trem2-neuroinflammation",
+      "type": "registry",
+      "title": "INVOKE-2: AL002 registry record",
+      "authors": null,
+      "year": null,
+      "candidates": {
+        "nct": [
+          "NCT04592874"
+        ]
+      },
+      "manifest_claims": {
+        "n": 381,
+        "outcome": "Protocol-defined endpoints and status"
+      }
+    },
+    {
+      "id": "sargramostim-phase-2",
+      "rank": 41,
+      "cluster": "trem2-neuroinflammation",
+      "type": "rct",
+      "title": "Safety and efficacy of sargramostim (GM-CSF) in the treatment of Alzheimer's disease",
+      "authors": "Potter H et al.",
+      "year": "2021",
+      "candidates": {
+        "pmcid": "PMC7988877"
+      },
+      "manifest_claims": {
+        "n": 40,
+        "outcome": "Innate immune effects and exploratory cognitive signals"
+      }
+    },
+    {
+      "id": "masitinib-phase-3",
+      "rank": 42,
+      "cluster": "trem2-neuroinflammation",
+      "type": "rct",
+      "title": "Masitinib for mild-to-moderate Alzheimer's disease",
+      "authors": "Dubois B et al.",
+      "year": "2023",
+      "candidates": {
+        "pmcid": "PMC9972756",
+        "correction_doi": "10.1186/s13195-023-01230-9"
+      },
+      "manifest_claims": {
+        "outcome": "Reported benefit at 4.5 mg/kg/day; confirmatory testing required"
+      }
+    },
+    {
+      "id": "trem2-jonsson-2013",
+      "rank": 43,
+      "cluster": "genetics",
+      "type": "genetics",
+      "title": "Variant of TREM2 Associated with the Risk of Alzheimer's Disease",
+      "authors": "Jonsson T et al.",
+      "year": "2013",
+      "candidates": {
+        "doi": "10.1056/NEJMoa1211103"
+      },
+      "manifest_claims": {
+        "outcome": "Rare TREM2 variants implicated in AD risk"
+      }
+    },
+    {
+      "id": "trem2-guerreiro-2013",
+      "rank": 44,
+      "cluster": "genetics",
+      "type": "genetics",
+      "title": "TREM2 Variants in Alzheimer's Disease",
+      "authors": "Guerreiro R et al.",
+      "year": "2013",
+      "candidates": {
+        "doi": "10.1056/NEJMoa1211851"
+      },
+      "manifest_claims": {
+        "outcome": "Independent replication linking rare TREM2 variants to AD risk"
+      }
+    },
+    {
+      "id": "disease-associated-microglia",
+      "rank": 45,
+      "cluster": "trem2-neuroinflammation",
+      "type": "mechanistic",
+      "title": "A Unique Microglia Type Associated with Restricting Development of Alzheimer's Disease",
+      "authors": "Keren-Shaul H et al.",
+      "year": "2017",
+      "candidates": {
+        "pmid": "28602351"
+      },
+      "manifest_claims": {
+        "outcome": "Described disease-associated microglia and a TREM2-linked activation program"
+      }
+    },
+    {
+      "id": "trem2-apoe-microglia",
+      "rank": 46,
+      "cluster": "trem2-neuroinflammation",
+      "type": "mechanistic",
+      "title": "The TREM2-APOE Pathway Drives the Transcriptional Phenotype of Dysfunctional Microglia in Neurodegenerative Diseases",
+      "authors": "Krasemann S et al.",
+      "year": "2017",
+      "candidates": {},
+      "manifest_claims": {
+        "outcome": "Defines a TREM2-APOE transcriptional pathway"
+      }
+    },
+    {
+      "id": "mathys-2019-single-cell",
+      "rank": 47,
+      "cluster": "genetics",
+      "type": "genomics",
+      "title": "Single-cell transcriptomic analysis of Alzheimer's disease",
+      "authors": "Mathys H et al.",
+      "year": "2019",
+      "candidates": {
+        "pmid": "31042697"
+      },
+      "manifest_claims": {
+        "n": 48,
+        "nuclei": 80660,
+        "outcome": "Cell-type-specific AD-associated transcriptional programs"
+      }
+    },
+    {
+      "id": "mathys-2024-multiregion",
+      "rank": 48,
+      "cluster": "genetics",
+      "type": "genomics",
+      "title": "Single-cell multiregion dissection of Alzheimer's disease",
+      "authors": "Mathys H et al.",
+      "year": "2024",
+      "candidates": {
+        "url": "https://www.nature.com/articles/s41586-024-07606-7"
+      },
+      "manifest_claims": {
+        "outcome": "Maps regional and cell-type-specific vulnerability"
+      }
+    },
+    {
+      "id": "single-cell-cognitive-resilience",
+      "rank": 49,
+      "cluster": "genetics",
+      "type": "genomics",
+      "title": "Single-cell atlas reveals correlates of high cognitive function, dementia, and resilience to Alzheimer's disease pathology",
+      "authors": "Mathys H et al.",
+      "year": "2023",
+      "candidates": {},
+      "manifest_claims": {
+        "outcome": "Links cellular states to cognition, pathology and resilience"
+      }
+    },
+    {
+      "id": "bellenguez-2022-gwas",
+      "rank": 50,
+      "cluster": "genetics",
+      "type": "gwas",
+      "title": "New insights into the genetic etiology of Alzheimer's disease and related dementias",
+      "authors": "Bellenguez C et al.",
+      "year": "2022",
+      "candidates": {
+        "url": "https://www.nature.com/articles/s41588-022-01024-z"
+      },
+      "manifest_claims": {
+        "loci": 75,
+        "outcome": "Identified 75 loci, 42 then-new"
+      }
+    },
+    {
+      "id": "wightman-2021-gwas",
+      "rank": 51,
+      "cluster": "genetics",
+      "type": "gwas",
+      "title": "A genome-wide association study with 1,126,563 individuals identifies new risk loci for Alzheimer's disease",
+      "authors": "Wightman DP et al.",
+      "year": "2021",
+      "candidates": {},
+      "manifest_claims": {
+        "n": 1126563,
+        "outcome": "Expanded risk-locus discovery"
+      }
+    },
+    {
+      "id": "kunkle-2019-gwas",
+      "rank": 52,
+      "cluster": "genetics",
+      "type": "gwas",
+      "title": "Genetic meta-analysis of diagnosed Alzheimer's disease identifies new risk loci and implicates Abeta, tau, immunity and lipid processing",
+      "authors": "Kunkle BW et al.",
+      "year": "2019",
+      "candidates": {
+        "doi": "10.1038/s41588-019-0358-2",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6463297/"
+      },
+      "manifest_claims": {
+        "outcome": "Connected common genetic risk to amyloid, tau, immune and lipid pathways"
+      },
+      "lead_provenance": {
+        "source": "grounded search, verified against Crossref before use",
+        "doi_verified_title": "Genetic meta-analysis of diagnosed Alzheimer’s disease identifies new risk loci and implicates Aβ, tau, immunity and lipid processing",
+        "title_similarity": 1,
+        "rejected_urls": []
+      }
+    },
+    {
+      "id": "consensus-gwas-2026",
+      "rank": 53,
+      "cluster": "genetics",
+      "type": "gwas",
+      "title": "Consensus meta-analysis of genome-wide association studies for Alzheimer's disease and related dementias",
+      "authors": null,
+      "year": "2026",
+      "candidates": {
+        "url": "https://www.nature.com/articles/s41588-026-02583-1"
+      },
+      "manifest_claims": {
+        "loci": 91,
+        "outcome": "Identified 91 loci including 16 newly reported"
+      }
+    },
+    {
+      "id": "lake-2023-multiancestry",
+      "rank": 54,
+      "cluster": "genetics",
+      "type": "gwas",
+      "title": "Multi-ancestry meta-analysis and fine-mapping in Alzheimer's disease",
+      "authors": "Lake J et al.",
+      "year": "2023",
+      "candidates": {
+        "url": "https://www.nature.com/articles/s41380-023-02089-w"
+      },
+      "manifest_claims": {
+        "outcome": "Addresses European-ancestry limitation of most AD GWAS"
+      }
+    },
+    {
+      "id": "holstege-2022-exome",
+      "rank": 55,
+      "cluster": "genetics",
+      "type": "exome",
+      "title": "Exome sequencing identifies rare damaging variants in ATP8B4 and ABCA1 as risk factors for Alzheimer's disease",
+      "authors": "Holstege H et al.",
+      "year": "2022",
+      "candidates": {
+        "url": "https://www.nature.com/articles/s41588-022-01208-7"
+      },
+      "manifest_claims": {
+        "outcome": "Extends rare-variant evidence beyond TREM2/SORL1/ABCA7"
+      }
+    },
+    {
+      "id": "shade-2024-neuropathology-gwas",
+      "rank": 56,
+      "cluster": "genetics",
+      "type": "gwas",
+      "title": "GWAS of multiple neuropathology endophenotypes identifies new risk loci and provides insights into the genetic risk of dementia",
+      "authors": "Shade LMP et al.",
+      "year": "2024",
+      "candidates": {
+        "doi": "10.1038/s41588-024-01939-9",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11549054/"
+      },
+      "manifest_claims": {
+        "n": 7804,
+        "outcome": "Pathology-specific loci distinguishing clinical dementia from mixed pathologies"
+      },
+      "lead_provenance": {
+        "source": "grounded search, verified against Crossref before use",
+        "doi_verified_title": "GWAS of multiple neuropathology endophenotypes identifies new risk loci and provides insights into the genetic risk of dementia",
+        "title_similarity": 1,
+        "rejected_urls": []
+      }
+    },
+    {
+      "id": "apoe3-christchurch-resistance",
+      "rank": 57,
+      "cluster": "genetics",
+      "type": "case-study",
+      "title": "Resistance to autosomal dominant Alzheimer's disease in an APOE3 Christchurch homozygote: a case report",
+      "authors": "Arboleda-Velasquez JF et al.",
+      "year": "2019",
+      "candidates": {
+        "pmid": "31686034"
+      },
+      "manifest_claims": {
+        "n": 1,
+        "outcome": "High amyloid burden with resistance to expected progression"
+      }
+    },
+    {
+      "id": "christchurch-snrnaseq",
+      "rank": 58,
+      "cluster": "genetics",
+      "type": "mechanistic",
+      "title": "Single-nucleus RNA sequencing demonstrates an autosomal dominant Alzheimer's disease profile and possible mechanisms of disease protection",
+      "authors": "Almeida MC et al.",
+      "year": "2024",
+      "candidates": {
+        "pmid": "38417436"
+      },
+      "manifest_claims": {
+        "outcome": "Candidate pathways associated with protection, including LRP1-related changes"
+      }
+    },
+    {
+      "id": "apoe-r136s-protection",
+      "rank": 59,
+      "cluster": "genetics",
+      "type": "mechanistic",
+      "title": "The APOE-R136S mutation protects against APOE4-driven Tau pathology, neurodegeneration and neuroinflammation",
+      "authors": "Nelson MR et al.",
+      "year": "2023",
+      "candidates": {
+        "pmid": "37957317"
+      },
+      "manifest_claims": {
+        "outcome": "Experimental support for a protective Christchurch mechanism"
+      }
+    },
+    {
+      "id": "app-a673t-protection",
+      "rank": 60,
+      "cluster": "genetics",
+      "type": "genetics",
+      "title": "A mutation in APP protects against Alzheimer's disease and age-related cognitive decline",
+      "authors": "Jonsson T et al.",
+      "year": "2012",
+      "candidates": {
+        "pmid": "22801501",
+        "doi": "10.1038/nature11283"
+      },
+      "manifest_claims": {
+        "outcome": "APP A673T associated with protection from AD"
+      },
+      "lead_provenance": {
+        "source": "grounded search, verified against Crossref before use",
+        "doi_verified_title": "A mutation in APP protects against Alzheimer’s disease and age-related cognitive decline",
+        "title_similarity": 1,
+        "rejected_urls": []
+      }
+    },
+    {
+      "id": "app-a673t-mechanism",
+      "rank": 61,
+      "cluster": "genetics",
+      "type": "mechanistic",
+      "title": "Molecular mechanisms of Alzheimer disease protection by the A673T allele of amyloid precursor protein",
+      "authors": "Maloney JA et al.",
+      "year": "2014",
+      "candidates": {
+        "pmid": "25253696",
+        "doi": "10.1074/jbc.m114.589069",
+        "pmcid": "PMC4223305",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4223305/"
+      },
+      "manifest_claims": {
+        "outcome": "A673T reduced amyloidogenic APP processing"
+      },
+      "lead_provenance": {
+        "source": "grounded search, verified against Crossref before use",
+        "doi_verified_title": "Molecular Mechanisms of Alzheimer Disease Protection by the A673T Allele of Amyloid Precursor Protein",
+        "title_similarity": 1,
+        "rejected_urls": []
+      }
+    },
+    {
+      "id": "asc-specks-cross-seed",
+      "rank": 62,
+      "cluster": "trem2-neuroinflammation",
+      "type": "mechanistic",
+      "title": "Microglia-derived ASC specks cross-seed amyloid-beta in Alzheimer's disease",
+      "authors": "Venegas C et al.",
+      "year": "2017",
+      "candidates": {},
+      "manifest_claims": {
+        "outcome": "Links inflammasome-derived ASC specks to Abeta aggregation"
+      }
+    },
+    {
+      "id": "nlrp3-tau-pathology",
+      "rank": 63,
+      "cluster": "trem2-neuroinflammation",
+      "type": "mechanistic",
+      "title": "NLRP3 inflammasome activation drives tau pathology",
+      "authors": "Ising C et al.",
+      "year": "2019",
+      "candidates": {},
+      "manifest_claims": {
+        "outcome": "Causal experimental link between innate inflammatory signaling and tau pathology"
+      }
+    },
+    {
+      "id": "nlrp3-heneka-2013",
+      "rank": 64,
+      "cluster": "trem2-neuroinflammation",
+      "type": "mechanistic",
+      "title": "NLRP3 is activated in Alzheimer's disease and contributes to pathology in APP/PS1 mice",
+      "authors": "Heneka MT et al.",
+      "year": "2013",
+      "candidates": {
+        "doi": "10.1038/nature11729",
+        "pmid": "23254930",
+        "pmcid": "PMC3812809",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3812809/"
+      },
+      "manifest_claims": {
+        "outcome": "Inflammasome signaling contributed causally to pathology in the model"
+      },
+      "lead_provenance": {
+        "source": "grounded search, verified against Crossref before use",
+        "doi_verified_title": "NLRP3 is activated in Alzheimer’s disease and contributes to pathology in APP/PS1 mice",
+        "title_similarity": 1,
+        "rejected_urls": []
+      }
+    },
+    {
+      "id": "plasma-ptau217-discriminative-accuracy",
+      "rank": 65,
+      "cluster": "biomarkers",
+      "type": "diagnostic",
+      "title": "Discriminative Accuracy of Plasma Phospho-tau217 for Alzheimer Disease vs Other Neurodegenerative Disorders",
+      "authors": "Palmqvist S et al.",
+      "year": "2020",
+      "candidates": {
+        "pmcid": "PMC7388060"
+      },
+      "manifest_claims": {
+        "n": 1402,
+        "outcome": "Plasma p-tau217 strongly discriminated AD"
+      }
+    },
+    {
+      "id": "karikari-2020-ptau181",
+      "rank": 66,
+      "cluster": "biomarkers",
+      "type": "diagnostic",
+      "title": "Blood phosphorylated tau 181 as a biomarker for Alzheimer's disease: a diagnostic performance and prediction modelling study using data from four prospective cohorts",
+      "authors": "Karikari TK et al.",
+      "year": "2020",
+      "candidates": {},
+      "manifest_claims": {
+        "cohorts": 4,
+        "outcome": "Strong performance of plasma p-tau181 across the AD continuum"
+      }
+    },
+    {
+      "id": "janelidze-2020-ptau181",
+      "rank": 67,
+      "cluster": "biomarkers",
+      "type": "diagnostic",
+      "title": "Plasma P-tau181 in Alzheimer's disease: relationship to other biomarkers, differential diagnosis, neuropathology and longitudinal progression to Alzheimer's dementia",
+      "authors": "Janelidze S et al.",
+      "year": "2020",
+      "candidates": {
+        "doi": "10.1038/s41591-020-0755-1"
+      },
+      "manifest_claims": {
+        "outcome": "AD-specific increases and association with pathology/progression"
+      },
+      "lead_provenance": {
+        "source": "grounded search, verified against Crossref before use",
+        "doi_verified_title": "Plasma P-tau181 in Alzheimer’s disease: relationship to other biomarkers, differential diagnosis, neuropathology and longitudinal progression to Alzheimer’s dementia",
+        "title_similarity": 1,
+        "rejected_urls": []
+      }
+    },
+    {
+      "id": "mattsson-carlgren-2020-ptau217",
+      "rank": 68,
+      "cluster": "biomarkers",
+      "type": "diagnostic",
+      "title": "Longitudinal plasma p-tau217 is increased in early stages of Alzheimer's disease",
+      "authors": "Mattsson-Carlgren N et al.",
+      "year": "2020",
+      "candidates": {},
+      "manifest_claims": {
+        "n": 250,
+        "outcome": "p-tau217 rose early and tracked disease progression"
+      }
+    },
+    {
+      "id": "palmqvist-2024-primary-care",
+      "rank": 69,
+      "cluster": "biomarkers",
+      "type": "diagnostic",
+      "title": "Blood Biomarkers to Detect Alzheimer Disease in Primary Care and Secondary Care",
+      "authors": "Palmqvist S et al.",
+      "year": "2024",
+      "candidates": {
+        "pmid": "39068545",
+        "pmcid": "PMC11284636"
+      },
+      "manifest_claims": {
+        "n": 1213,
+        "outcome": "Blood algorithm outperformed unaided routine clinical assessment"
+      }
+    },
+    {
+      "id": "palmqvist-2025-automated-platform",
+      "rank": 70,
+      "cluster": "biomarkers",
+      "type": "diagnostic",
+      "title": "Plasma phospho-tau217 for Alzheimer's disease diagnosis in primary and secondary care using a fully automated platform",
+      "authors": "Palmqvist S et al.",
+      "year": "2025",
+      "candidates": {
+        "url": "https://www.nature.com/articles/s41591-025-03622-w"
+      },
+      "manifest_claims": {
+        "outcome": "Tests p-tau217 on an automated laboratory platform"
+      }
+    },
+    {
+      "id": "petersen-2026-ptau217-onset",
+      "rank": 71,
+      "cluster": "biomarkers",
+      "type": "prognostic",
+      "title": "Predicting onset of symptomatic Alzheimer's disease with plasma p-tau217",
+      "authors": "Petersen RC et al.",
+      "year": "2026",
+      "candidates": {
+        "url": "https://www.nature.com/articles/s41591-026-04206-y"
+      },
+      "manifest_claims": {
+        "outcome": "Evaluates whether p-tau217 can predict transition to symptomatic AD"
+      }
+    },
+    {
+      "id": "grande-2025-community-cohort",
+      "rank": 72,
+      "cluster": "biomarkers",
+      "type": "prognostic",
+      "title": "Blood-based biomarkers of Alzheimer's disease and incident dementia in a community population",
+      "authors": "Grande G et al.",
+      "year": "2025",
+      "candidates": {
+        "url": "https://www.nature.com/articles/s41591-025-03605-x"
+      },
+      "manifest_claims": {
+        "outcome": "p-tau181, p-tau217, NfL and GFAP predicted incident dementia"
+      }
+    },
+    {
+      "id": "fda-lumipulse-clearance",
+      "rank": 73,
+      "cluster": "regulatory",
+      "type": "regulatory",
+      "title": "FDA clears first blood test used in diagnosing Alzheimer's disease (Lumipulse G pTau217/beta-Amyloid 1-42 Plasma Ratio)",
+      "authors": "U.S. Food and Drug Administration",
+      "year": "2025",
+      "candidates": {
+        "url": "https://www.fda.gov/news-events/press-announcements/fda-clears-first-blood-test-used-diagnosing-alzheimers-disease"
+      },
+      "manifest_claims": {
+        "n": 499,
+        "outcome": "91.7% agreement of positive results; not intended as standalone screening"
+      }
+    },
+    {
+      "id": "fda-lumipulse-510k-decision",
+      "rank": 74,
+      "cluster": "regulatory",
+      "type": "regulatory",
+      "title": "FDA 510(k) decision summary K242706, Lumipulse G pTau217/beta-Amyloid 1-42 Plasma Ratio",
+      "authors": "U.S. Food and Drug Administration",
+      "year": "2025",
+      "candidates": {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242706",
+        "alt_url": "https://www.fda.gov/media/186860/download"
+      },
+      "manifest_claims": {
+        "n": 499,
+        "outcome": "Technical decision record behind the clearance"
+      }
+    },
+    {
+      "id": "fda-lumipulse-recall",
+      "rank": 75,
+      "cluster": "regulatory",
+      "type": "regulatory",
+      "title": "FDA Class II recall / product correction for Lumipulse plasma ratio lots",
+      "authors": "U.S. Food and Drug Administration",
+      "year": "2026",
+      "candidates": {
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=217945"
+      },
+      "manifest_claims": {
+        "outcome": "Lots recalled over falsely elevated positive/indeterminate ratios"
+      }
+    },
+    {
+      "id": "jack-2024-revised-criteria",
+      "rank": 76,
+      "cluster": "conceptual",
+      "type": "consensus",
+      "title": "Revised criteria for diagnosis and staging of Alzheimer's disease: Alzheimer's Association Workgroup",
+      "authors": "Jack CR Jr et al.",
+      "year": "2024",
+      "candidates": {
+        "pmid": "38934362"
+      },
+      "manifest_claims": {
+        "outcome": "Updates biomarker-based biological diagnosis and staging"
+      }
+    },
+    {
+      "id": "nia-aa-research-framework-2018",
+      "rank": 77,
+      "cluster": "conceptual",
+      "type": "consensus",
+      "title": "NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease",
+      "authors": "Jack CR Jr et al.",
+      "year": "2018",
+      "candidates": {
+        "pmcid": "PMC5958625"
+      },
+      "manifest_claims": {
+        "outcome": "Introduced the AT(N) research framework"
+      }
+    },
+    {
+      "id": "centiloid-project",
+      "rank": 78,
+      "cluster": "biomarkers",
+      "type": "methods",
+      "title": "The Centiloid Project: standardizing quantitative amyloid plaque estimation by PET",
+      "authors": "Klunk WE et al.",
+      "year": "2015",
+      "candidates": {
+        "pmid": "25443857"
+      },
+      "manifest_claims": {
+        "outcome": "Defined the Centiloid scale"
+      }
+    },
+    {
+      "id": "ossenkoppele-2022-amyloid-tau-pet",
+      "rank": 79,
+      "cluster": "biomarkers",
+      "type": "prognostic",
+      "title": "Amyloid and tau PET-positive cognitively unimpaired individuals are at high risk for future cognitive decline",
+      "authors": "Ossenkoppele R et al.",
+      "year": "2022",
+      "candidates": {
+        "url": "https://www.nature.com/articles/s41591-022-02049-x"
+      },
+      "manifest_claims": {
+        "outcome": "Combined amyloid/tau PET positivity strongly enriched subsequent decline"
+      }
+    },
+    {
+      "id": "tau-pet-vs-phospho-tau",
+      "rank": 80,
+      "cluster": "biomarkers",
+      "type": "prognostic",
+      "title": "Tau-PET is superior to phospho-tau when predicting cognitive decline in symptomatic AD patients",
+      "authors": "Smith R et al.",
+      "year": null,
+      "candidates": {
+        "pmcid": "PMC10264552"
+      },
+      "manifest_claims": {
+        "outcome": "Tau PET outperformed phospho-tau measures for predicting decline"
+      }
+    },
+    {
+      "id": "ptau217-taupet-prediction",
+      "rank": 81,
+      "cluster": "biomarkers",
+      "type": "prognostic",
+      "title": "Plasma p-tau217 and tau-PET predict future cognitive decline",
+      "authors": null,
+      "year": "2025",
+      "candidates": {
+        "pmcid": "PMC12092243"
+      },
+      "manifest_claims": {
+        "outcome": "Complementary prognostic information from blood testing and tau imaging"
+      }
+    },
+    {
+      "id": "ashton-2024-alzpath-ptau217",
+      "rank": 82,
+      "cluster": "biomarkers",
+      "type": "diagnostic",
+      "title": "Diagnostic Accuracy of a Plasma Phosphorylated Tau 217 Immunoassay for Alzheimer Disease Pathology",
+      "authors": "Ashton NJ et al.",
+      "year": "2024",
+      "candidates": {
+        "pmcid": "PMC10979350"
+      },
+      "manifest_claims": {
+        "n": 786,
+        "outcome": "High discrimination of amyloid/tau pathology"
+      }
+    },
+    {
+      "id": "schindler-2019-plasma-abeta",
+      "rank": 83,
+      "cluster": "biomarkers",
+      "type": "diagnostic",
+      "title": "High-precision plasma beta-amyloid 42/40 predicts current and future brain amyloidosis",
+      "authors": "Schindler SE et al.",
+      "year": "2019",
+      "candidates": {
+        "doi": "10.1212/wnl.0000000000008081",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6946467/"
+      },
+      "manifest_claims": {
+        "n": 158,
+        "outcome": "Mass-spectrometry Abeta42/40 predicted amyloid-PET status"
+      },
+      "lead_provenance": {
+        "source": "grounded search, verified against Crossref before use",
+        "doi_verified_title": "High-precision plasma β-amyloid 42/40 predicts current and future brain amyloidosis",
+        "title_similarity": 1,
+        "rejected_urls": []
+      }
+    },
+    {
+      "id": "nakamura-2018-plasma-amyloid",
+      "rank": 84,
+      "cluster": "biomarkers",
+      "type": "diagnostic",
+      "title": "High performance plasma amyloid-beta biomarkers for Alzheimer's disease",
+      "authors": "Nakamura A et al.",
+      "year": "2018",
+      "candidates": {
+        "doi": "10.1038/nature25456"
+      },
+      "manifest_claims": {
+        "n": 373,
+        "outcome": "Plasma Abeta composite predicted brain amyloid burden"
+      },
+      "lead_provenance": {
+        "source": "grounded search, verified against Crossref before use",
+        "doi_verified_title": "High performance plasma amyloid-β biomarkers for Alzheimer’s disease",
+        "title_similarity": 1,
+        "rejected_urls": []
+      }
+    },
+    {
+      "id": "ovod-2017-silk-plasma-abeta",
+      "rank": 85,
+      "cluster": "biomarkers",
+      "type": "methods",
+      "title": "Amyloid beta concentrations and stable isotope labeling kinetics of human plasma specific to central nervous system amyloidosis",
+      "authors": "Ovod V et al.",
+      "year": "2017",
+      "candidates": {},
+      "manifest_claims": {
+        "outcome": "High-precision mass-spectrometry approaches to plasma Abeta"
+      }
+    },
+    {
+      "id": "benedet-2021-gfap",
+      "rank": 86,
+      "cluster": "biomarkers",
+      "type": "diagnostic",
+      "title": "Differences Between Plasma and Cerebrospinal Fluid Glial Fibrillary Acidic Protein Levels Across the Alzheimer Disease Continuum",
+      "authors": "Benedet AL et al.",
+      "year": "2021",
+      "candidates": {},
+      "manifest_claims": {
+        "outcome": "GFAP associated with amyloid pathology and astrocytic activation"
+      }
+    },
+    {
+      "id": "pereira-2021-gfap",
+      "rank": 87,
+      "cluster": "biomarkers",
+      "type": "diagnostic",
+      "title": "Plasma GFAP is an early marker of amyloid-beta but not tau pathology in Alzheimer's disease",
+      "authors": "Pereira JB et al.",
+      "year": "2021",
+      "candidates": {},
+      "manifest_claims": {
+        "outcome": "GFAP as an early astroglial response marker"
+      }
+    },
+    {
+      "id": "aa-blood-biomarker-recommendations",
+      "rank": 88,
+      "cluster": "biomarkers",
+      "type": "consensus",
+      "title": "The Alzheimer's Association appropriate use recommendations for blood biomarkers in Alzheimer's disease",
+      "authors": "Hansson O et al.",
+      "year": "2022",
+      "candidates": {},
+      "manifest_claims": {
+        "outcome": "Defines appropriate research/clinical roles and cautions"
+      }
+    },
+    {
+      "id": "hansson-blood-biomarkers-review",
+      "rank": 89,
+      "cluster": "biomarkers",
+      "type": "review",
+      "title": "Blood biomarkers for Alzheimer's disease in clinical practice and trials",
+      "authors": "Hansson O et al.",
+      "year": "2023",
+      "candidates": {},
+      "manifest_claims": {
+        "outcome": "Synthesis of p-tau217, p-tau181, amyloid ratios, GFAP and NfL"
+      }
+    },
+    {
+      "id": "us-pointer",
+      "rank": 90,
+      "cluster": "prevention",
+      "type": "rct",
+      "title": "Structured vs Self-Guided Multidomain Lifestyle Interventions for Global Cognitive Function: The U.S. POINTER Randomized Clinical Trial",
+      "authors": "Baker LD et al.",
+      "year": "2025",
+      "candidates": {
+        "pmid": "40720610",
+        "nct": [
+          "NCT03688126"
+        ]
+      },
+      "manifest_claims": {
+        "n": 2111,
+        "outcome": "Structured intervention produced greater improvement; no untreated arm"
+      }
+    },
+    {
+      "id": "us-pointer-registry",
+      "rank": 90.1,
+      "cluster": "prevention",
+      "type": "registry",
+      "title": "U.S. POINTER registry record (NCT03688126)",
+      "authors": null,
+      "year": null,
+      "candidates": {
+        "nct": [
+          "NCT03688126"
+        ]
+      },
+      "manifest_claims": {}
+    },
+    {
+      "id": "finger-trial",
+      "rank": 91,
+      "cluster": "prevention",
+      "type": "rct",
+      "title": "A 2 year multidomain intervention of diet, exercise, cognitive training, and vascular risk monitoring versus control to prevent cognitive decline in at-risk elderly people (FINGER): a randomised controlled trial",
+      "authors": "Ngandu T et al.",
+      "year": "2015",
+      "candidates": {
+        "nct": [
+          "NCT01041989"
+        ]
+      },
+      "manifest_claims": {
+        "n": 1260,
+        "outcome": "Multidomain intervention improved/maintained cognition relative to control"
+      }
+    },
+    {
+      "id": "finger-registry",
+      "rank": 91.1,
+      "cluster": "prevention",
+      "type": "registry",
+      "title": "FINGER registry record (NCT01041989)",
+      "authors": null,
+      "year": null,
+      "candidates": {
+        "nct": [
+          "NCT01041989"
+        ]
+      },
+      "manifest_claims": {}
+    },
+    {
+      "id": "sprint-mind",
+      "rank": 92,
+      "cluster": "prevention",
+      "type": "rct",
+      "title": "Effect of Intensive vs Standard Blood Pressure Control on Probable Dementia: A Randomized Clinical Trial (SPRINT MIND)",
+      "authors": "Williamson JD et al.",
+      "year": "2019",
+      "candidates": {
+        "nct": [
+          "NCT01206062"
+        ]
+      },
+      "manifest_claims": {
+        "n": 9361,
+        "outcome": "Probable-dementia reduction did not reach statistical significance; MCI significantly reduced"
+      }
+    },
+    {
+      "id": "sprint-mind-registry",
+      "rank": 92.1,
+      "cluster": "prevention",
+      "type": "registry",
+      "title": "SPRINT MIND registry record with posted results (NCT01206062)",
+      "authors": null,
+      "year": null,
+      "candidates": {
+        "nct": [
+          "NCT01206062"
+        ]
+      },
+      "manifest_claims": {}
+    },
+    {
+      "id": "mapt-trial",
+      "rank": 93,
+      "cluster": "prevention",
+      "type": "rct",
+      "title": "Effect of long-term omega 3 polyunsaturated fatty acid supplementation with or without multidomain intervention on cognitive function in elderly adults with memory complaints (MAPT)",
+      "authors": "Andrieu S et al.",
+      "year": "2017",
+      "candidates": {
+        "pmid": "28359749",
+        "doi": "10.1016/s1474-4422(17)30040-6"
+      },
+      "manifest_claims": {
+        "n": 1680,
+        "outcome": "No significant cognitive benefit on the primary outcome"
+      },
+      "lead_provenance": {
+        "source": "grounded search, verified against Crossref before use",
+        "doi_verified_title": "Effect of long-term omega 3 polyunsaturated fatty acid supplementation with or without multidomain intervention on cognitive function in elderly adults with memory complaints (MAPT): a randomised, placebo-controlled trial",
+        "title_similarity": 1,
+        "rejected_urls": []
+      }
+    },
+    {
+      "id": "predivia-trial",
+      "rank": 94,
+      "cluster": "prevention",
+      "type": "rct",
+      "title": "Effectiveness of a 6-year multidomain vascular care intervention to prevent dementia (preDIVA): a cluster-randomised controlled trial",
+      "authors": "Moll van Charante EP et al.",
+      "year": "2016",
+      "candidates": {
+        "pmid": "27474376"
+      },
+      "manifest_claims": {
+        "n": 3526,
+        "outcome": "No significant reduction in dementia incidence overall"
+      }
+    },
+    {
+      "id": "lancet-commission-2024",
+      "rank": 95,
+      "cluster": "prevention",
+      "type": "evidence-synthesis",
+      "title": "Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission",
+      "authors": "Livingston G et al.",
+      "year": "2024",
+      "candidates": {
+        "doi": "10.1016/s0140-6736(24)01296-0",
+        "url": "https://www.thelancet.com/action/showPdf?pii=S0140-6736(24)01296-0"
+      },
+      "manifest_claims": {
+        "risk_factors": 14,
+        "outcome": "Roughly 45% of dementia cases potentially preventable or delayable"
+      },
+      "lead_provenance": {
+        "source": "grounded search, verified against Crossref before use",
+        "doi_verified_title": "Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission",
+        "title_similarity": 1,
+        "rejected_urls": []
+      }
+    },
+    {
+      "id": "lancet-commission-2020",
+      "rank": 96,
+      "cluster": "prevention",
+      "type": "evidence-synthesis",
+      "title": "Dementia prevention, intervention, and care: 2020 report of the Lancet Commission",
+      "authors": "Livingston G et al.",
+      "year": "2020",
+      "candidates": {
+        "pmid": "32738937"
+      },
+      "manifest_claims": {
+        "risk_factors": 12,
+        "outcome": "Twelve modifiable risk factors"
+      }
+    },
+    {
+      "id": "mendes-2025-network-meta-analysis",
+      "rank": 97,
+      "cluster": "prevention",
+      "type": "systematic-review",
+      "title": "Single-domain and multidomain lifestyle interventions for prevention of cognitive decline: systematic review and network meta-analysis",
+      "authors": "Mendes AJ et al.",
+      "year": "2025",
+      "candidates": {},
+      "manifest_claims": {
+        "outcome": "Compares relative efficacy of preventive lifestyle components"
+      }
+    },
+    {
+      "id": "cummings-pipeline-2026",
+      "rank": 98,
+      "cluster": "conceptual",
+      "type": "review",
+      "title": "Alzheimer's disease drug development pipeline: 2026",
+      "authors": "Cummings JL et al.",
+      "year": "2026",
+      "candidates": {
+        "doi": "10.1002/trc2.70251"
+      },
+      "manifest_claims": {
+        "trials": 192,
+        "drugs": 158,
+        "outcome": "Maps the current clinical pipeline"
+      }
+    },
+    {
+      "id": "karran-de-strooper-amyloid-hypothesis",
+      "rank": 99,
+      "cluster": "conceptual",
+      "type": "review",
+      "title": "The amyloid hypothesis in Alzheimer disease: new insights from new therapeutics",
+      "authors": "Karran E, De Strooper B",
+      "year": "2022",
+      "candidates": {
+        "doi": "10.1038/s41573-022-00391-w",
+        "pmid": "35177833"
+      },
+      "manifest_claims": {
+        "outcome": "Reassesses amyloid biology in light of genetics and therapeutic experiments"
+      },
+      "lead_provenance": {
+        "source": "grounded search, verified against Crossref before use",
+        "doi_verified_title": "The amyloid hypothesis in Alzheimer disease: new insights from new therapeutics",
+        "title_similarity": 1,
+        "rejected_urls": []
+      }
+    },
+    {
+      "id": "probabilistic-model-amyloid",
+      "rank": 100,
+      "cluster": "conceptual",
+      "type": "review",
+      "title": "The probabilistic model of Alzheimer disease: the amyloid hypothesis revised",
+      "authors": "Frisoni GB et al.",
+      "year": "2022",
+      "candidates": {},
+      "manifest_claims": {
+        "outcome": "Frames amyloid as a probabilistic causal component"
+      }
+    }
+  ]
+}

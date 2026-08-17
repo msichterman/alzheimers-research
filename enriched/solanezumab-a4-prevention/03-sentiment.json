@@ -1,0 +1,70 @@
+{
+  "overall": "quiet",
+  "summary": "Public and scientific sentiment regarding solanezumab is definitively quiet or skeptical, primarily because the A4 study unequivocally failed to slow cognitive decline in preclinical Alzheimer's disease. Most retail investor and patient communities have moved on to newer, successful anti-amyloid therapies like donanemab and lecanemab, leaving solanezumab largely unmentioned today. Science media and researchers view the trial not as a tragedy, but as a definitive learning opportunity. It proved that targeting monomeric amyloid is the wrong approach, validating the shift toward targeting aggregated plaques or oligomers instead.",
+  "communities": [
+    {
+      "community": "Science media and researchers",
+      "sentiment": "negative",
+      "themes": [
+        "Definitive failure of targeting monomeric amyloid",
+        "Lessons learned for future clinical trials",
+        "End of the road for solanezumab"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/therapeutics/solanezumab",
+        "https://karger.com/dem/article/49/4/334/103520/Lessons-Learnt-from-the-Second-Generation-of-Anti"
+      ]
+    },
+    {
+      "community": "Patients and Caregivers (r/Alzheimers, r/dementia)",
+      "sentiment": "quiet",
+      "themes": [
+        "Focus on practical caregiving advice rather than this drug",
+        "Little to no recent discussion of solanezumab prevention trials"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/comments/sd6yiu/help_for_a_loved_one/",
+        "https://www.reddit.com/r/dementia/comments/1197r3/new_alzheimers_trial_with_solanezumab/"
+      ]
+    },
+    {
+      "community": "Biotech and Retail Investors (r/biotech, r/investing)",
+      "sentiment": "quiet",
+      "themes": [
+        "Failure was mostly priced in long ago",
+        "Lilly has successfully moved on to other drugs like Donanemab and GLP-1s"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/biotech/comments/11n8rcs/lilly_reaches_end_of_the_road_with_longstudied/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "BioPharma Dive",
+      "tone": "neutral",
+      "date": "2023-03",
+      "url": "https://www.biopharmadive.com/news/lilly-solanezumab-alzheimer-a4-amyloid-study-failure/644567/"
+    },
+    {
+      "outlet": "Neurology Live",
+      "tone": "critical",
+      "date": "2023-07",
+      "url": "https://www.neurologylive.com/view/solanezumab-fails-phase-3-a4-study-preclinical-alzheimer-disease"
+    }
+  ],
+  "hype_vs_evidence": "There is practically no hype surrounding solanezumab, which aligns perfectly with the negative evidence from the A4 study. Public perception has accurately absorbed the trial's failure, and there is no widespread circulating belief that this specific drug works. Some general amyloid-skeptics occasionally use solanezumab's failure to dismiss all amyloid therapies, whereas the scientific community understands the nuance that solanezumab failed specifically because it targeted monomeric rather than aggregated amyloid.",
+  "misinformation_flags": [
+    "Generalization by some amyloid skeptics that solanezumab's failure proves all anti-amyloid therapies are ineffective, ignoring the differences between monomeric and plaque-binding mechanisms."
+  ],
+  "searches_run": [
+    "site:reddit.com solanezumab A4 OR \"Eli Lilly\" alzheimers",
+    "site:alzforum.org solanezumab A4",
+    "solanezumab A4 study failure news",
+    "site:reddit.com/r/Alzheimers solanezumab",
+    "site:reddit.com/r/dementia solanezumab",
+    "site:reddit.com/r/investing OR site:reddit.com/r/stocks solanezumab",
+    "solanezumab \"monomeric\" AND \"amyloid\" site:alzforum.org",
+    "solanezumab A4 study \"lessons\""
+  ]
+}

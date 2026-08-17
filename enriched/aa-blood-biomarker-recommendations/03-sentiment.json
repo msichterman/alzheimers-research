@@ -1,0 +1,74 @@
+{
+  "overall": "hopeful",
+  "summary": "Public sentiment regarding Alzheimer's blood tests is predominantly hopeful but layered with ethical anxiety and oversimplification. Mainstream media and retail investors are highly enthusiastic about the accessibility and cost-reduction these tests promise, frequently framing them as standalone diagnostic miracles. In contrast, patient and caregiver communities exhibit a more complex mix of relief and trepidation, weighing the value of early detection against the current lack of highly effective, curative treatments. Meanwhile, scientific and clinical discourse closely mirrors the document's cautious optimism. This group focuses on specialized clinical use and trial screening rather than an immediate, widespread primary care rollout.",
+  "communities": [
+    {
+      "community": "Patients & Caregivers (r/Alzheimers, r/dementia)",
+      "sentiment": "mixed",
+      "themes": [
+        "Anxiety about early detection without robust cures",
+        "Desire for early warning to plan finances and care",
+        "Confusion about test availability and insurance coverage"
+      ],
+      "example_urls": [
+        "https://reddit.com/r/Alzheimers/comments/1kp5pco/_/msvhvig",
+        "https://reddit.com/r/dementia/comments/1kq0tfa/_/mt3sxsr"
+      ]
+    },
+    {
+      "community": "Retail Investors & Tech Enthusiasts (r/thewallstreet, Hacker News)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Market disruption of costly PET scans",
+        "Accelerated drug trials for Leqembi and Kisunla",
+        "Scale and economic impact of FDA approvals"
+      ],
+      "example_urls": [
+        "https://reddit.com/r/thewallstreet/comments/1kod3n6/_/mspeobc",
+        "https://news.ycombinator.com/item?id=41094571"
+      ]
+    },
+    {
+      "community": "Science & Medicine Observers (Hacker News)",
+      "sentiment": "hopeful",
+      "themes": [
+        "High accuracy of p-tau217 clocks",
+        "Need for rigorous false-positive control",
+        "Integration with existing diagnostic pathways"
+      ],
+      "example_urls": [
+        "https://news.ycombinator.com/item?id=47510883",
+        "https://news.ycombinator.com/item?id=48922882"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "CNN",
+      "tone": "positive",
+      "date": "2024-07",
+      "url": "https://www.cnn.com/2024/07/28/health/alzheimer-blood-test-p-tau-217-wellness/index.html"
+    },
+    {
+      "outlet": "Bloomberg",
+      "tone": "positive",
+      "date": "2025-05",
+      "url": "https://www.bloomberg.com/news/articles/2025-05-16/fda-approves-first-blood-test-to-diagnose-alzheimer-s-disease"
+    },
+    {
+      "outlet": "The New York Times",
+      "tone": "neutral",
+      "date": "2026-07",
+      "url": "https://www.nytimes.com/2026/07/15/well/mind/alzheimers-disease-blood-tests-symptoms.html"
+    }
+  ],
+  "hype_vs_evidence": "Public perception significantly overestimates the clinical readiness of blood-based biomarkers for standalone primary care diagnosis. While media headlines and retail investors often frame these blood tests as definitive, accessible replacements for PET scans, the Alzheimer's Association explicitly limits their recommended use to pre-screening in clinical trials or within specialized memory clinics. The evidence mandates confirmatory testing (CSF or PET) after a positive blood test. This critical nuance is frequently lost in public discourse, which often falsely assumes the blood test alone equates to a final diagnosis.",
+  "misinformation_flags": [
+    "Blood tests are currently approved and recommended as standalone diagnostic tools for Alzheimer's in primary care settings.",
+    "A blood test alone is sufficient to definitively diagnose Alzheimer's and prescribe anti-amyloid therapies like Leqembi or Kisunla without PET or CSF confirmation."
+  ],
+  "searches_run": [
+    "Hacker News API (Algolia): 'alzheimer blood test', 'p-tau217'",
+    "Reddit API (PullPush): 'blood test alzheimer', 'alzheimer blood test stock'"
+  ]
+}

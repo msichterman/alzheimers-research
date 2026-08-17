@@ -1,0 +1,73 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT04795466",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04795466",
+      "name": null,
+      "drug": "Canakinumab (IL-1β inhibitor)",
+      "phase": "2",
+      "sponsor": "Novartis Pharmaceuticals",
+      "status": "Terminated",
+      "enrollment": 34,
+      "population": "Participants with Mild Cognitive Impairment or Mild Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline in Cognition as Measured by the Neuropsychological Test Battery (NTB) Z-scores",
+      "started": "2021-10",
+      "completed_or_readout": "2024-03",
+      "results_summary": "The trial was terminated early by the sponsor. Posted results showed no statistically significant difference in cognitive change between canakinumab (N=10) and placebo (N=16); the least squares mean difference in NTB total z-score at Day 171 was 0.069 (p=0.6386).",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT06181513",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06181513",
+      "name": null,
+      "drug": "Probiotic Blend Capsule (microbiome modulation)",
+      "phase": "1",
+      "sponsor": "University of Nicosia",
+      "status": "Recruiting",
+      "enrollment": 40,
+      "population": "Adults ≥65 years with Mild Alzheimer's Disease (MMSE 19-23)",
+      "primary_endpoint": "Level of inflammatory markers (including NLRP3 and IL-1β)",
+      "started": "2022-12",
+      "completed_or_readout": "2025-07",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03918616",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03918616",
+      "name": "NeuroInfiam",
+      "drug": "Observational (no drug)",
+      "phase": "n/a",
+      "sponsor": "University of Pisa",
+      "status": "Completed",
+      "enrollment": 50,
+      "population": "Patients with newly-diagnosed Parkinson disease or Alzheimer disease",
+      "primary_endpoint": "Change from baseline in P2X7R-inflammasome activity and IL-1β",
+      "started": "2017-02",
+      "completed_or_readout": "2018-12",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2020-11",
+      "kind": "paper",
+      "description": "Preclinical study showing the NLRP3 inflammasome inhibitor dapansutrile (OLT1177) rescues cognitive impairment in a mouse model of Alzheimer's disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33257576/"
+    },
+    {
+      "date": "2024-03",
+      "kind": "registry-results",
+      "description": "Novartis posted results for NCT04795466 showing termination and lack of significant cognitive improvement with the IL-1β inhibitor canakinumab in early AD.",
+      "url": "https://clinicaltrials.gov/study/NCT04795466?tab=results"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence record for the document's central claim—that NLRP3 inflammasome activation is a viable therapeutic target for Alzheimer's disease—remains profoundly weak. Despite strong mechanistic validation in preclinical models, no direct NLRP3 inhibitor (e.g., dapansutrile, inzomelid, NT-0796) has successfully advanced into clinical efficacy trials for Alzheimer's or frontotemporal dementia as of 2026. Furthermore, the only major clinical trial attempting to block the downstream effector of this pathway in early AD (canakinumab targeting IL-1β, NCT04795466) was terminated early by the sponsor and failed to show a statistically significant cognitive benefit versus placebo. Thus, the hypothesis relies entirely on animal models and biomarker correlations without any successful human clinical translation.",
+  "discrepancies": [
+    "The document strongly positions the NLRP3 inflammasome as a prime therapeutic target for Alzheimer's disease and tauopathies, yet no direct NLRP3 inhibitors have advanced into AD clinical trials, and the only trial targeting the downstream effector IL-1β (canakinumab) was terminated early due to lack of efficacy."
+  ]
+}

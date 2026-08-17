@@ -1,0 +1,86 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT04437511",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04437511",
+      "name": "TRAILBLAZER-ALZ 2 (AACI)",
+      "drug": "Donanemab",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Active",
+      "enrollment": 1736,
+      "population": "Early symptomatic Alzheimer disease with amyloid and tau pathology",
+      "primary_endpoint": "Change From Baseline on the Integrated Alzheimer's Disease Rating Scale (iADRS)",
+      "started": "2020-06",
+      "completed_or_readout": "2023-04",
+      "results_summary": "Donanemab significantly slowed clinical progression at 76 weeks in both low/medium tau and combined pathology populations compared to placebo, accompanied by high rates of ARIA-E (24%) and infusion reactions.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03367403",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03367403",
+      "name": "TRAILBLAZER-ALZ (AACG)",
+      "drug": "Donanemab",
+      "phase": "2",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Completed",
+      "enrollment": 272,
+      "population": "Early Symptomatic Alzheimer's Disease with amyloid and tau pathology",
+      "primary_endpoint": "Change From Baseline in the Integrated Alzheimer's Disease Rating Scale (iADRS)",
+      "started": "2017-12",
+      "completed_or_readout": "2020-12",
+      "results_summary": "Demonstrated that donanemab reduced amyloid plaques and slowed cognitive and functional decline on the iADRS compared to placebo, establishing the initial efficacy signal.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05738486",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05738486",
+      "name": "TRAILBLAZER-ALZ 6 (AACQ)",
+      "drug": "Donanemab",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Active",
+      "enrollment": 1175,
+      "population": "Adults With Early Alzheimer's Disease",
+      "primary_endpoint": "Percentage of Participants With Any Occurrence of Amyloid-Related Imaging Abnormality-Edema/Effusion (ARIA-E)",
+      "started": "2023-02",
+      "completed_or_readout": "2024-05",
+      "results_summary": "Showed that an enhanced, modified dose titration regimen reduced the relative risk of ARIA-E while maintaining amyloid reduction compared to the standard dosing regimen.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2024-07-02",
+      "kind": "regulatory",
+      "description": "FDA approval of Kisunla (donanemab-azbt) for early symptomatic Alzheimer's disease.",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/761248Orig1s000ltr.pdf"
+    },
+    {
+      "date": "2023-08-08",
+      "kind": "paper",
+      "description": "JAMA publication of Phase 3 TRAILBLAZER-ALZ 2 primary results.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37459141/"
+    },
+    {
+      "date": "2025-04",
+      "kind": "paper",
+      "description": "Alzheimer's & Dementia publication of TRAILBLAZER-ALZ 6 modified titration results.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40172303/"
+    },
+    {
+      "date": "2021-05-06",
+      "kind": "paper",
+      "description": "NEJM publication of Phase 2 TRAILBLAZER-ALZ primary results.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33720637/"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence for donanemab (Kisunla) is robust but reveals a narrow therapeutic index with substantial safety trade-offs. The pivotal Phase 3 trial (TRAILBLAZER-ALZ 2) successfully met its primary clinical endpoints, replicating the Phase 2 efficacy signal by demonstrating a statistically significant slowing of cognitive and functional decline (iADRS and CDR-SB). However, absolute clinical effect sizes were modest, and treatment is complicated by a high incidence of potentially severe amyloid-related imaging abnormalities (ARIA), which contributed to mortality and trial discontinuation. The recent TRAILBLAZER-ALZ 6 data supports using a modified titration regimen to mitigate these ARIA risks. The EMA's unique decision to restrict the indication to exclude APOE-ε4 homozygotes directly reflects the strong correlation between this genotype and severe ARIA, prioritizing safety over broader availability.",
+  "discrepancies": [
+    "The document cites AACI-PC study efficacy outcomes specifically for the 'APOE4 non-carrier/heterozygote population', whereas the primary Phase 3 TRAILBLAZER-ALZ 2 registry results and JAMA publication report primary efficacy stratified by 'low/medium tau' and 'combined tau' populations; the APOE4-restricted analysis appears to be a post-hoc subgroup analysis prioritized by the EMA to establish a positive benefit-risk profile.",
+    "The document claims the primary endpoint was changed from CDR-SB to iADRS while the pivotal Phase 3 study was already ongoing. However, ClinicalTrials.gov shows iADRS was the designated primary outcome measure upon the trial's initial public posting in June 2020, suggesting any protocol amendment changing the endpoint occurred before registry registration."
+  ]
+}

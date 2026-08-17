@@ -1,0 +1,68 @@
+{
+  "overall": "hopeful",
+  "summary": "Public sentiment surrounding diranersen (BIIB080 / MAPT Rx) is generally hopeful, largely driven by enthusiasm from scientists and investors over its novel tau-silencing mechanism. Retail investors and pharmaceutical media are bullish, treating the drug as the next major Alzheimer's milestone following Leqembi. The scientific community is cautiously optimistic about the robust target engagement demonstrated in early trials, though they are leaning heavily on exploratory data after recent Phase 2 primary endpoint misses. Conversely, the patient and caregiver communities remain largely quiet, indicating the drug has not yet reached mainstream awareness outside of longevity and neuroscience niches.",
+  "communities": [
+    {
+      "community": "Science media and researchers (e.g., Alzforum, ADDF)",
+      "sentiment": "hopeful",
+      "themes": [
+        "Strong target engagement and tau reduction",
+        "Enthusiasm for antisense oligonucleotide (ASO) mechanisms",
+        "Reliance on exploratory cognitive data to maintain momentum"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/research-news/paper-alert-tau-antisense-oligonucleotide-biib080-hits-its-target",
+        "https://www.alzdiscovery.org/news-room/announcements/diranersen-results-at-aaic-provide-first-evidence-that-targeting-tau-may-slow-cognitive-decline-signaling-momentum-toward-addressing-the-full-pathobiology-of-alzheimers"
+      ]
+    },
+    {
+      "community": "Retail investors and pharma news",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "FDA Fast Track designation as a major catalyst",
+        "Framed as the logical successor to amyloid therapies like Leqembi",
+        "Focus on commercial potential rather than clinical nuances"
+      ],
+      "example_urls": [
+        "https://investors.biogen.com/news-releases/news-release-details/biogens-investigational-tau-targeting-therapy-biib080-receives",
+        "https://alzheimersweekly.com/biogen-targets-alzheimers-tau/"
+      ]
+    },
+    {
+      "community": "Patients and caregivers (e.g., r/Alzheimers, r/dementia)",
+      "sentiment": "quiet",
+      "themes": [
+        "Lack of widespread awareness regarding early-phase tau trials",
+        "Occasional discussions isolated to adjacent longevity or CTE forums regarding gene-silencing"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/CTE/comments/13wzkk5/how_silencing_genes_could_treat_alzheimers_biogen/",
+        "https://www.reddit.com/r/longevity/comments/12ijxnq/biogenioniss_tau_aso_biib080_dropped_participants/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Alzheimer's Association",
+      "tone": "positive",
+      "date": "2026-07",
+      "url": "https://www.alz.org/news/2026/phase-2-results-celia-clinical-trial-tau-targeting-therapy-diranersen"
+    },
+    {
+      "outlet": "Alzheimer's Weekly",
+      "tone": "positive",
+      "date": "2025-04",
+      "url": "https://alzheimersweekly.com/biogen-targets-alzheimers-tau/"
+    }
+  ],
+  "hype_vs_evidence": "Public and media perception currently outpaces the hard clinical evidence. Press releases and news outlets heavily emphasize that diranersen is a breakthrough capable of removing toxic tau tangles and slowing cognitive decline. However, this narrative relies on secondary and exploratory analyses from the recent 2026 Phase 2 CELIA trial, which actually failed to meet its primary cognitive dose-response endpoint. Additionally, the media largely ignores the Phase 1b trial's concerning signal of increased ventricular volume (pseudoatrophy), focusing entirely on the successful biomarker reductions.",
+  "misinformation_flags": [
+    "Statements claiming diranersen has definitively proven to slow cognitive decline, obscuring the fact that the Phase 2 trial missed its primary clinical endpoint and benefits were only inferred from exploratory analyses."
+  ],
+  "searches_run": [
+    "\"BIIB080\" site:reddit.com OR \"MAPT Rx\" site:reddit.com",
+    "BIIB080 alzforum",
+    "BIIB080 biogen ionis stock",
+    "diranersen AAIC 2026 alzheimer"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "maptrx-antisense-tau",
+  "prepared_at": "2026-08-13T16:55:51.042Z",
+  "instructions": "Two independent extractions of the same retrieved document disagree on these fields. For each conflict, decide against the document which reading is correct — or that both are, or neither is. You are not told which pipeline produced which reading, and you must not guess.",
+  "conflicts": [
+    {
+      "conflict_id": "maptrx-antisense-tau#0",
+      "field": "study.population",
+      "reading_a": "mild AD, defined by a CDR Overall Global Score of 1 or Global Score of 0.5 with a Memory Score of 1, Mini-Mental State Examination score (MMSE ) of 20–27 inclusive",
+      "reading_b": "Adults aged 50–74 years with mild AD, defined by CDR Overall Global Score of 1 or Global Score of 0.5 with a Memory Score of 1, MMSE 20–27 inclusive, a CSF pattern of low Aβ42 and elevated t-tau and p-tau, and a diagnosis of probable AD by NIA-AA criteria",
+      "note": null
+    },
+    {
+      "conflict_id": "maptrx-antisense-tau#1",
+      "field": "study.intervention",
+      "reading_a": "MAPT Rx (ISIS 814907/BIIB080), a tau-targeting antisense oligonucleotide, given as intrathecal bolus injections: 10 mg, 30 mg or 60 mg monthly (four doses each) or 115 mg quarterly (two doses)",
+      "reading_b": "intrathecal bolus administrations of MAPT Rx or placebo every 4 or 12 weeks",
+      "note": null
+    },
+    {
+      "conflict_id": "maptrx-antisense-tau#2",
+      "field": "outcomes[primary].effect_estimate",
+      "reading_a": null,
+      "reading_b": "Adverse events in 94% of MAPT Rx-treated participants versus 75% of placebo-treated participants; all mild (88%) or moderate (12%); no serious adverse events in MAPT Rx-treated participants",
+      "note": "One reading found nothing here. Decide whether the document actually states this; 'neither' is correct if it does not."
+    },
+    {
+      "conflict_id": "maptrx-antisense-tau#3",
+      "field": "outcomes[primary].confidence_interval",
+      "reading_a": null,
+      "reading_b": null,
+      "note": "One reading found nothing here. Decide whether the document actually states this; 'neither' is correct if it does not."
+    }
+  ]
+}

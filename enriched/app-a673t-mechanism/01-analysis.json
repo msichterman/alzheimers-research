@@ -1,0 +1,171 @@
+{
+  "kind": "research-paper",
+  "title": "Molecular Mechanisms of Alzheimer Disease Protection by the A673T Allele of Amyloid Precursor Protein",
+  "authors": [
+    {
+      "name": "Maloney, Janice A.",
+      "affiliation": "Departments of Neuroscience, Genentech, Inc.",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Bainbridge, Travis",
+      "affiliation": "Protein Chemistry, Genentech, Inc.",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Gustafson, Amy",
+      "affiliation": "Biochemical and Cellular Pharmacology, Genentech, Inc.",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Zhang, Shuo",
+      "affiliation": "Departments of Neuroscience, Genentech, Inc.",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Kyauk, Roxanne",
+      "affiliation": "Departments of Neuroscience, Genentech, Inc.",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Steiner, Pascal",
+      "affiliation": "Departments of Neuroscience, Genentech, Inc.",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "van der Brug, Marcel",
+      "affiliation": "ITGR Diagnostics Discovery, Genentech, Inc.",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Liu, Yichin",
+      "affiliation": "Biochemical and Cellular Pharmacology, Genentech, Inc.",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Ernst, James A.",
+      "affiliation": "Departments of Neuroscience and Protein Chemistry, Genentech, Inc.",
+      "orcid": null,
+      "email": "jernst@gene.com",
+      "corresponding": true,
+      "conflicts": null
+    },
+    {
+      "name": "Watts, Ryan J.",
+      "affiliation": "Departments of Neuroscience, Genentech, Inc.",
+      "orcid": null,
+      "email": "rwatts@gene.com",
+      "corresponding": true,
+      "conflicts": null
+    },
+    {
+      "name": "Atwal, Jasvinder K.",
+      "affiliation": "Departments of Neuroscience, Genentech, Inc.",
+      "orcid": null,
+      "email": "jatwal@gene.com",
+      "corresponding": true,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Maloney, Janice A.",
+  "venue": "The Journal of Biological Chemistry",
+  "published": "2014-11",
+  "doi": "10.1074/jbc.M114.589069",
+  "doi_url": "https://doi.org/10.1074/jbc.M114.589069",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/25253696",
+  "copyright": "© 2014 by The American Society for Biochemistry and Molecular Biology, Inc.",
+  "license": {
+    "name": "all rights reserved",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": "© 2014 by The American Society for Biochemistry and Molecular Biology, Inc."
+  },
+  "tags": [
+    "paper",
+    "amyloid",
+    "genetics",
+    "bace1",
+    "a673t",
+    "aggregation"
+  ],
+  "themes": [
+    "Protective APP A673T mutation",
+    "BACE1 cleavage kinetics",
+    "Aβ aggregation reduction",
+    "Alzheimer's disease genetics"
+  ],
+  "one_line": "The protective A673T mutation in APP reduces Alzheimer's risk by decreasing BACE1 cleavage and altering Aβ(1-42) aggregation kinetics.",
+  "summary": "The A673T substitution in the amyloid precursor protein (APP) was recently identified as a protective mutation against Alzheimer's disease. This paper investigates the biochemical mechanisms underlying this protection. The authors demonstrate that the A673T variant significantly reduces the cleavage of APP by BACE1, primarily by decreasing the catalytic turnover rate (Vmax) without affecting substrate affinity (Km). Additionally, the mutant A2T Aβ(1-42) peptides exhibit reduced aggregation compared to wild-type Aβ(1-42), an effect that persists as a trend in physiologically relevant mixtures. This reduction in both the amyloidogenic processing of APP and the subsequent aggregation of Aβ peptides suggests a dual mechanism by which the A673T allele confers its protective effect.",
+  "key_claims": [
+    {
+      "claim": "A673T APP shows reduced cleavage by BACE1.",
+      "evidence": "Reduced cleavage was confirmed in transfected mouse primary neurons and isogenic human induced pluripotent stem cell-derived neurons.",
+      "strength": "strong",
+      "location": "Abstract"
+    },
+    {
+      "claim": "The A673T substitution modulates the catalytic turnover rate (Vmax) of APP by BACE1 without affecting substrate affinity (Km).",
+      "evidence": "Demonstrated using a biochemical approach to evaluate Vmax and Km parameters.",
+      "strength": "strong",
+      "location": "Abstract"
+    },
+    {
+      "claim": "The A2T substitution reduces the aggregation of Aβ(1-42) peptides.",
+      "evidence": "Reduced aggregation observed for Aβ(1-42) but not Aβ(1-40); a trend toward slowed kinetics was retained in a 1:9 physiological mixture.",
+      "strength": "moderate",
+      "location": "Abstract"
+    },
+    {
+      "claim": "Microglial uptake of mutant Aβ(1-42) correlates with its aggregation level.",
+      "evidence": "Microglial uptake assays demonstrating correlated levels.",
+      "strength": "moderate",
+      "location": "Abstract"
+    }
+  ],
+  "methods": {
+    "design": "In vitro biochemical and cell-based assays",
+    "n": null,
+    "population": "Transfected mouse primary neurons and isogenic human induced pluripotent stem cell-derived neurons",
+    "duration": null,
+    "registration": null
+  },
+  "funding_and_conflicts": "None stated in the provided text, but all authors are affiliated with Genentech, Inc.",
+  "limitations": [
+    "The source document provided for review only contained the abstract, preventing a thorough evaluation of the study's full methodology, statistical rigor, and figures.",
+    "The findings are based entirely on in vitro and cell culture models, which may not capture the full biological context of the protective effects in vivo."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 9,
+    "issues": [
+      "The Markdown document omits crucial front matter including author affiliations, corresponding author contact details, and the copyright statement."
+    ]
+  },
+  "search_verification": [
+    "Queried PubMed API (via E-utilities) for PMID 25253696 to recover corresponding author emails, full author affiliations, exact publication dates, and the publisher's copyright statement, which were absent from the raw Markdown snippet."
+  ]
+}

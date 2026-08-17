@@ -1,0 +1,95 @@
+{
+  "fact_check": [
+    {
+      "fact": "Donanemab slows clinical decline on the iADRS by LS Mean change difference of 2.92 (95% CI 1.508 to 4.331) at Week 76.",
+      "status": "verified",
+      "note": "Checked against PRIMARY: Change From Baseline on the Integrated Alzheimer's Disease Rating Scale (iADRS) (Overall Population)."
+    },
+    {
+      "fact": "Donanemab reduces brain amyloid plaque deposition by -86.37 centiloids (95% CI -88.87 to -83.87).",
+      "status": "verified",
+      "note": "Checked against SECONDARY: Change From Baseline in Brain Amyloid Plaque Deposition."
+    },
+    {
+      "fact": "ARIA-E occurred in 200/853 participants on donanemab vs 17/874 on placebo.",
+      "status": "verified",
+      "note": "Checked against Adverse events > Other adverse events > Amyloid related imaging abnormality-oedema/effusion."
+    },
+    {
+      "fact": "ARIA-H occurred in 166/853 participants on donanemab vs 65/874 on placebo.",
+      "status": "verified",
+      "note": "Checked against Adverse events > Other adverse events > Amyloid related imaging abnormality-microhaemorrhages and haemosiderin deposits."
+    }
+  ],
+  "research_page": {
+    "slug": "donanemab-trailblazer-alz-2",
+    "title": "Donanemab in early symptomatic Alzheimer's disease (TRAILBLAZER-ALZ 2)",
+    "description": "Phase 3 registry results showing donanemab effectively clears brain amyloid plaques and slows clinical decline, but significantly increases ARIA risks.",
+    "tags": [
+      "trial",
+      "amyloid",
+      "tau",
+      "immunotherapy",
+      "donanemab"
+    ],
+    "source_line_md": "**Source**: [ClinicalTrials.gov, 2025](https://clinicaltrials.gov/study/NCT04437511)",
+    "authors_line_md": "Eli Lilly and Company",
+    "takeaway_md": "Donanemab (Kisunla) effectively clears brain amyloid plaques and demonstrates a statistically significant slowing of clinical decline in early symptomatic Alzheimer's disease. However, treatment requires strict MRI monitoring due to high incidences of amyloid-related imaging abnormalities (ARIA).",
+    "key_findings_md": [
+      "Slowed clinical decline on the iADRS by 2.92 points compared to placebo at Week 76 in the overall population (ClinicalTrials.gov).",
+      "Reduced brain amyloid plaque deposition by 86.37 centiloids compared to placebo (ClinicalTrials.gov).",
+      "Caused ARIA-E (edema/effusion) in 23.4% (200/853) of patients on donanemab compared to 1.9% (17/874) on placebo (ClinicalTrials.gov).",
+      "Caused ARIA-H (microhemorrhages) in 19.5% (166/853) of patients on donanemab compared to 7.4% (65/874) on placebo (ClinicalTrials.gov)."
+    ],
+    "methods_md": "A Phase 3, double-blind, placebo-controlled, randomized trial (N=1,736) evaluating patients aged 60 to 85 with early symptomatic Alzheimer's disease. Participants had progressive memory change for at least 6 months and met specific flortaucipir (tau) and florbetapir (amyloid) PET scan criteria. The main double-blind evaluation period lasted 76 weeks.",
+    "trial_evidence_md": "This registry report covers the pivotal Phase 3 [TRAILBLAZER-ALZ 2](/trials/donanemab-nct04437511) trial, which replicated the earlier Phase 2 [TRAILBLAZER-ALZ](https://clinicaltrials.gov/study/NCT03367403) efficacy results. The robust biological and clinical efficacy demonstrated here formed the primary evidence base for the FDA's July 2024 approval of Kisunla.",
+    "sentiment_md": "Public perception is deeply divided. Financial and general media outlets broadly celebrate the drug as a historic therapeutic breakthrough. In contrast, patient and medical communities express caution, heavily weighing the logistical burdens of regular MRIs and the safety anxieties surrounding ARIA against the modest 2.9-point clinical benefit on the iADRS scale.",
+    "caveats_md": [
+      "Strict enrollment requirements based on specific tau and amyloid PET scan profiles may limit the generalizability of these findings to broader, real-world clinical populations.",
+      "While statistically significant, the slowing of decline represents a relatively modest clinical effect size, requiring caregivers to weigh the subtle cognitive benefits against the high burden of treatment and monitoring."
+    ],
+    "relates_to_md": [
+      "[TRAILBLAZER-ALZ 3](/trials/trailblazer-alz-3) — An ongoing Phase 3 trial evaluating donanemab in preclinical Alzheimer's disease.",
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — The substantial reduction in amyloid plaques coupled with clinical slowing provides strong biological validation for this therapeutic target.",
+      "[Biomarkers](/research/biomarkers) — Trial eligibility and outcome measurements relied heavily on advanced tau and amyloid PET imaging."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "donanemab-nct04437511",
+      "title": "TRAILBLAZER-ALZ 2",
+      "description": "Pivotal Phase 3 trial evaluating donanemab in patients with early symptomatic Alzheimer's disease.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "donanemab",
+        "phase-3",
+        "amyloid"
+      ],
+      "registry_md": "[NCT04437511](https://clinicaltrials.gov/study/NCT04437511)",
+      "drug": "Donanemab (amyloid-targeting immunotherapy)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "population": "Participants aged 60 to 85 with early symptomatic Alzheimer's disease",
+      "primary_endpoint": "Change From Baseline on the Integrated Alzheimer's Disease Rating Scale (iADRS) (Overall Population)",
+      "started": "2020-06",
+      "readout": "2023-04",
+      "why_md": "This trial was designed to definitively test whether clearing amyloid plaques with donanemab safely and effectively slows clinical decline in early Alzheimer's disease. It served as the primary clinical basis for the FDA approval of Kisunla.",
+      "status_log_md": [
+        "**2020-06-19** — Trial begins enrollment ([ClinicalTrials.gov](https://clinicaltrials.gov/study/NCT04437511))",
+        "**2023-04-14** — Primary completion date reached ([ClinicalTrials.gov](https://clinicaltrials.gov/study/NCT04437511))",
+        "**2024-07-02** — FDA approves Kisunla for early symptomatic Alzheimer's disease based on trial data ([FDA](https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761248))"
+      ],
+      "results_md": "Donanemab significantly slowed clinical decline on the iADRS by 2.92 points and dramatically reduced brain amyloid plaques by 86.37 centiloids compared to placebo. However, the treatment increased the incidence of amyloid-related imaging abnormalities, specifically ARIA-E and ARIA-H."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2023-04",
+      "title": "2023-04 — Donanemab TRAILBLAZER-ALZ 2 trial reads out",
+      "body_md": "The pivotal Phase 3 [TRAILBLAZER-ALZ 2](/research/papers/donanemab-trailblazer-alz-2) trial reaches its primary completion, demonstrating that donanemab significantly clears amyloid plaques and slows clinical decline."
+    }
+  ],
+  "notes_for_editor": []
+}

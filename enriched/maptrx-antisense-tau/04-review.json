@@ -1,0 +1,123 @@
+{
+  "fact_check": [
+    {
+      "fact": "MAPT Rx caused >50% mean reduction in CSF total tau from baseline at 24 weeks post-treatment in the 60 mg and 115 mg groups.",
+      "status": "verified",
+      "note": "Matches paper abstract and Figure 3 results."
+    },
+    {
+      "fact": "MAPT Rx treatment caused greater increases in ventricular volume compared to placebo (0.5-0.7% vs 0.2%).",
+      "status": "verified",
+      "note": "Matches paper Extended Data Table 2."
+    },
+    {
+      "fact": "The Phase 2 CELIA trial (diranersen) failed its primary cognitive dose-response endpoint in 2026.",
+      "status": "disputed",
+      "note": "The sentiment researcher reports a primary endpoint miss covered in July 2026 media, while the trials researcher lists the results as pending/null. Relies on external 2026 AAIC readouts needing human confirmation."
+    }
+  ],
+  "research_page": {
+    "slug": "maptrx-antisense-tau",
+    "title": "MAPT Rx (BIIB080) in mild AD (Phase 1b)",
+    "description": "A Phase 1b trial demonstrating that the tau-targeting antisense oligonucleotide MAPT Rx is well-tolerated and substantially reduces CSF tau levels.",
+    "tags": [
+      "paper",
+      "trial",
+      "tau",
+      "antisense-oligonucleotide",
+      "biomarkers"
+    ],
+    "source_line_md": "**Source**: [Nature Medicine, 2023](https://doi.org/10.1038/s41591-023-02326-3) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/37095250)",
+    "authors_line_md": "Catherine J. Mummery et al. — Ionis Pharmaceuticals and Biogen",
+    "takeaway_md": "MAPT Rx (BIIB080) successfully engaged its target in a Phase 1b trial, reducing CSF total tau and p-tau181 by over 50% at higher doses in patients with mild Alzheimer's disease. The drug was generally well-tolerated, providing foundational proof-of-concept for tau-silencing therapies, though an exploratory signal of increased ventricular volume requires ongoing monitoring.",
+    "key_findings_md": [
+      "Higher doses of MAPT Rx (60 mg monthly, 115 mg quarterly) reduced CSF total tau by more than 50% from baseline at 24 weeks post-treatment (paper, Abstract).",
+      "The drug was well-tolerated; 94% of treated patients reported adverse events compared to 75% on placebo, with all treated events being mild or moderate (paper, Table 2).",
+      "The most common adverse event was post-lumbar puncture headache, and no serious adverse events occurred in the treated group (paper, Primary endpoint of safety).",
+      "Treated groups exhibited a slightly greater mean increase in ventricular volume at 6 months (0.5-0.7%) compared to the placebo group (0.2%) (paper, Extended Data Table 2)."
+    ],
+    "methods_md": "Phase 1b randomized, double-blind, placebo-controlled, multiple-ascending dose trial. Enrolled 46 adults aged 50-74 with mild Alzheimer's disease. Participants received intrathecal administrations of MAPT Rx or placebo over a 13-week treatment period, followed by a 23-week post-treatment monitoring phase ([NCT03186989](/trials/mapt-rx-nct03186989)).",
+    "trial_evidence_md": "This Phase 1b study ([NCT03186989](/trials/mapt-rx-nct03186989)) provides the primary clinical proof-of-concept for target engagement via antisense-mediated tau suppression. A larger Phase 2 trial ([CELIA](/trials/diranersen-celia-nct05399888)) was launched to assess clinical cognitive efficacy, though 2026 reports indicate conflicting accounts on whether it met its primary cognitive endpoints.",
+    "sentiment_md": "Public perception is largely optimistic, heavily driven by enthusiasm from scientists and biotech investors over the novel gene-silencing mechanism and robust biomarker data. However, media narratives frequently blur the lines between successful biomarker reductions and unproven clinical cognitive benefits, while patient community awareness remains notably low.",
+    "caveats_md": [
+      "The trial was small (N=46), brief (13 weeks of active treatment), and enrolled an exclusively white population, significantly limiting generalizability.",
+      "Treated patients showed a slightly accelerated increase in ventricular volume relative to placebo, a potential sign of 'pseudoatrophy' or neurodegeneration that requires careful longitudinal tracking in larger cohorts."
+    ],
+    "relates_to_md": [
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Represents a major non-amyloid, tau-centric approach to disease modification.",
+      "[Biomarkers](/research/biomarkers) — Heavily reliant on CSF tau and p-tau readouts to prove CNS target engagement."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "mapt-rx-nct03186989",
+      "title": "IONIS-MAPTRx Phase 1b",
+      "description": "Phase 1b multiple-ascending dose trial of MAPT Rx (BIIB080) in mild Alzheimer's disease.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "phase-1",
+        "tau",
+        "antisense"
+      ],
+      "registry_md": "[NCT03186989](https://clinicaltrials.gov/study/NCT03186989)",
+      "drug": "MAPT Rx / BIIB080 (tau-targeting antisense oligonucleotide)",
+      "phase": "1b",
+      "sponsor": "Ionis Pharmaceuticals / Biogen",
+      "population": "Mild Alzheimer's Disease",
+      "primary_endpoint": "Number of Participants With Adverse Events That Are Related to Treatment",
+      "started": "2017-10",
+      "readout": "2022-05",
+      "why_md": "This early-stage trial answers whether an antisense oligonucleotide can safely engage its target and suppress tau production in the human central nervous system. It laid the foundation for advancing [tau-lowering therapies](/research/papers/maptrx-antisense-tau) into larger clinical efficacy studies.",
+      "status_log_md": [
+        "**2017-10-01** — Trial begins enrolling patients.",
+        "**2022-05-01** — Trial completes.",
+        "**2023-04-24** — Results published in Nature Medicine, confirming safety and robust dose-dependent tau reduction."
+      ],
+      "results_md": "The trial met its primary safety endpoint with mostly mild-to-moderate adverse events (primarily post-lumbar puncture headaches). It demonstrated strong proof-of-concept by reducing CSF total tau and p-tau181 by over 50% in the highest dose cohorts."
+    },
+    {
+      "slug": "diranersen-celia-nct05399888",
+      "title": "CELIA (Diranersen Phase 2)",
+      "description": "Phase 2 clinical trial evaluating diranersen (BIIB080) in mild cognitive impairment or mild AD dementia.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "phase-2",
+        "tau",
+        "diranersen"
+      ],
+      "registry_md": "[NCT05399888](https://clinicaltrials.gov/study/NCT05399888)",
+      "drug": "Diranersen / BIIB080 (tau-targeting antisense oligonucleotide)",
+      "phase": "2",
+      "sponsor": "Biogen",
+      "population": "Mild Cognitive Impairment or Mild AD Dementia (50-80 years)",
+      "primary_endpoint": "Dose response in Change From Baseline to Week 76 on the CDR-SB",
+      "started": "2022-08",
+      "readout": "2026-07",
+      "why_md": "Designed to answer whether the robust tau biomarker reductions achieved by diranersen in Phase 1 translate into a meaningful slowing of cognitive decline on the CDR-SB scale.",
+      "status_log_md": [
+        "**2022-08-01** — Trial begins.",
+        "**2026-07-01** — Phase 2 data presented at AAIC; media reports indicate a miss on the primary cognitive endpoint despite continued target engagement."
+      ],
+      "results_md": "As of mid-2026, media coverage from AAIC indicates the trial failed to meet its primary cognitive dose-response endpoint, though it successfully continued to demonstrate biomarker target engagement. Official registry updates are pending."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Tau Therapeutics",
+      "date": "2023-04",
+      "title": "2023-04 — First evidence of tau reduction via ASO",
+      "body_md": "Results from a Phase 1b trial of MAPT Rx (BIIB080) demonstrate that an intrathecally administered antisense oligonucleotide can safely and robustly lower CSF tau levels in humans. See [MAPT Rx Phase 1b](/research/papers/maptrx-antisense-tau)."
+    },
+    {
+      "section": "Tau Therapeutics",
+      "date": "2026-07",
+      "title": "2026-07 — CELIA Phase 2 misses primary endpoint",
+      "body_md": "Diranersen (BIIB080) reportedly misses its primary cognitive endpoint (CDR-SB) in the Phase 2 [CELIA trial](/trials/diranersen-celia-nct05399888), though biomarker target engagement remains strong."
+    }
+  ],
+  "notes_for_editor": [
+    "Major discrepancy found regarding the Phase 2 CELIA (NCT05399888) trial results. The clinical-trials researcher reported results as pending/null with a March 2026 completion date. Conversely, the sentiment researcher referenced July 2026 media coverage (likely from AAIC) indicating the trial missed its primary cognitive endpoint. I have constructed the CELIA trial page and timeline entry reflecting the likely July 2026 AAIC readout based on the sentiment data, but this requires final human confirmation before publishing."
+  ]
+}

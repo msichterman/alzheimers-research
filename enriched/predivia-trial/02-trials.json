@@ -1,0 +1,77 @@
+{
+  "trials": [
+    {
+      "nct_id": "ISRCTN29711771",
+      "registry_url": "https://www.isrctn.com/ISRCTN29711771",
+      "name": "preDIVA",
+      "drug": "Nurse-led multidomain vascular care intervention",
+      "phase": "n/a",
+      "sponsor": "Academic Medical Centre, Amsterdam",
+      "status": "Completed",
+      "enrollment": 3526,
+      "population": "Community-dwelling older individuals aged 70-78 years in the Netherlands.",
+      "primary_endpoint": "Cumulative incidence of dementia and disability score (Academic Medical Center Linear Disability Score [ALDS]) at 6 years of follow-up.",
+      "started": "2006-06",
+      "completed_or_readout": "2016-08",
+      "results_summary": "Dementia developed in 7% of participants in both the intervention and control groups (HR 0.92, p=0.54). The intervention did not result in a significantly reduced incidence of all-cause dementia or improved disability scores compared to usual care.",
+      "relation_to_document": "reported-here",
+      "verified": "secondary-source"
+    },
+    {
+      "nct_id": "NCT01041989",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01041989",
+      "name": "FINGER",
+      "drug": "Multi-domain lifestyle counseling (diet, exercise, cognitive training, vascular risk monitoring)",
+      "phase": "n/a",
+      "sponsor": "Finnish Institute for Health and Welfare",
+      "status": "Unknown",
+      "enrollment": 1200,
+      "population": "Adults aged 60-77 years at an increased risk of dementia based on the Cardiovascular Risk Factors, Aging and Dementia (CAIDE) risk score.",
+      "primary_endpoint": "Cognitive impairment assessed with a Neuropsychological Test Battery, and Stroop and Trail Making tests.",
+      "started": "2009-09",
+      "completed_or_readout": "2013-12",
+      "results_summary": "The multidomain intervention demonstrated a modest but significant beneficial effect on overall cognitive performance compared to standard health counseling over 2 years.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT00672685",
+      "registry_url": "https://clinicaltrials.gov/study/NCT00672685",
+      "name": "MAPT",
+      "drug": "Omega-3 Fatty Acids and/or Multi-domain Intervention (nutrition, physical activity, and cognitive training)",
+      "phase": "n/a",
+      "sponsor": "University Hospital, Toulouse",
+      "status": "Completed",
+      "enrollment": 1680,
+      "population": "Adults 70 years or older with frailty criteria (subjective memory complaint, limitation in one instrumental activity of daily living, or slow walking speed) and MMSE >= 24.",
+      "primary_endpoint": "Change in cognitive function at 36 months determined by a composite score.",
+      "started": "2008-05",
+      "completed_or_readout": "2017-03",
+      "results_summary": "The intervention did not demonstrate a significant effect on cognitive decline for the primary endpoint compared to placebo/usual care, although some exploratory subgroup analyses suggested potential cognitive benefits in more vulnerable populations.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2016-08",
+      "kind": "paper",
+      "description": "Primary results of the preDIVA trial published in the Lancet showing no significant effect on all-cause dementia incidence.",
+      "url": "https://doi.org/10.1016/S0140-6736(16)30950-3"
+    },
+    {
+      "date": "2015-06",
+      "kind": "paper",
+      "description": "Primary results of the FINGER trial published in the Lancet demonstrating a modest cognitive benefit from a multidomain lifestyle intervention in an at-risk cohort.",
+      "url": "https://doi.org/10.1016/S0140-6736(15)60461-5"
+    },
+    {
+      "date": "2017-03",
+      "kind": "paper",
+      "description": "Primary results of the MAPT trial published in Lancet Neurology showing no significant effect of a multidomain intervention on cognitive decline.",
+      "url": "https://doi.org/10.1016/s1474-4422(17)30040-6"
+    }
+  ],
+  "evidence_assessment": "The preDIVA trial robustly tested a 6-year nurse-led, multidomain vascular care intervention for dementia prevention in unselected older adults but failed to demonstrate a significant reduction in dementia incidence or cardiovascular disease. This negative finding contrasts with the FINGER trial (NCT01041989), which demonstrated cognitive benefits from a similar multidomain lifestyle intervention when specifically deployed in an at-risk cohort. Another prominent study, the MAPT trial (NCT00672685), similarly showed no significant primary cognitive benefit from multidomain interventions in a frail older population, although it suggested potential utility in targeted subgroups. Overall, the clinical evidence record indicates that while multidomain interventions can modestly improve cognition in specifically selected at-risk populations, broad deployment in unselected primary care populations with already high standards of usual care does not yield significant clinical dementia prevention outcomes. The provided document accurately reflects these findings.",
+  "discrepancies": []
+}

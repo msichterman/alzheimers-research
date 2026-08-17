@@ -1,0 +1,96 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT03174938",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03174938",
+      "name": "BioFINDER 2",
+      "drug": "Diagnostic Biomarker (Plasma P-tau217)",
+      "phase": "n/a",
+      "sponsor": "Skane University Hospital",
+      "status": "Recruiting",
+      "enrollment": 2950,
+      "population": "Cognitively healthy individuals, subjective cognitive decline, MCI, Alzheimer's dementia, and other dementias",
+      "primary_endpoint": "Clinical diagnosis",
+      "started": "2017-05",
+      "completed_or_readout": "2036-12",
+      "results_summary": "This is an ongoing, long-term observational cohort. The Palmqvist 2020 paper reported cross-sectional baseline data from this registry, showing that plasma P-tau217 could distinguish Alzheimer's from other neurodegenerative diseases with 96% accuracy.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01998841",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01998841",
+      "name": "API ADAD (GN28352)",
+      "drug": "Crenezumab (anti-amyloid)",
+      "phase": "2",
+      "sponsor": "Genentech, Inc.",
+      "status": "Completed",
+      "enrollment": 252,
+      "population": "Preclinical PSEN1 E280A mutation carriers and non-carriers (Colombian kindred)",
+      "primary_endpoint": "Period A: Annualized Rate of Change in the Autosomal-Dominant Alzheimer's Disease (API ADAD) Composite Cognitive Test Total Score",
+      "started": "2013-12",
+      "completed_or_readout": "2023-08",
+      "results_summary": "The main therapeutic trial failed to show significant clinical benefit of crenezumab on cognitive decline. However, the foundational observational registry for this kindred was utilized in the Palmqvist 2020 biomarker study to establish that p-tau217 elevates up to 20 years before mild cognitive impairment onset.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT07140744",
+      "registry_url": "https://clinicaltrials.gov/study/NCT07140744",
+      "name": "Lilly P-tau217 Clinical Impact Study",
+      "drug": "Diagnostic Test (P-tau217 blood biomarker)",
+      "phase": "n/a",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Recruiting",
+      "enrollment": 7000,
+      "population": "Patients presenting with cognitive complaints in primary care",
+      "primary_endpoint": "Difference in Proportion of Participants Between the Primary Care Physician (PCP) Tested Group and the PCP Control Group with at Least 1 Management Action",
+      "started": "2025-08",
+      "completed_or_readout": "2027-10",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01208675",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01208675",
+      "name": "BioFINDER-1",
+      "drug": "Diagnostic Biomarkers",
+      "phase": "n/a",
+      "sponsor": "Skane University Hospital",
+      "status": "Completed",
+      "enrollment": 1150,
+      "population": "Healthy elderly, MCI, and dementia patients",
+      "primary_endpoint": "Time to conversion to clinically probable AD in MCI subjects or healthy elderly subjects with normal and abnormal biomarkers (CSF, blood, MRI, PET)",
+      "started": "2010-09",
+      "completed_or_readout": "2024-12",
+      "results_summary": "Established the foundational cohort and methodology for validating CSF and PET biomarkers, paving the way for the BioFINDER 2 cohort which evaluated novel blood biomarkers like p-tau217.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2020-07-28",
+      "kind": "paper",
+      "description": "Original JAMA publication demonstrating the high accuracy of plasma P-tau217 (the analyzed document).",
+      "url": "https://doi.org/10.1001/jama.2020.12134"
+    },
+    {
+      "date": "2024-01-22",
+      "kind": "paper",
+      "description": "Major validation study (Ashton et al., JAMA Neurol) showing a commercial ALZpath p-tau217 assay has ultra-high accuracy for AD pathology, supporting broad clinical use.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38253139/"
+    },
+    {
+      "date": "2024-03-15",
+      "kind": "registry-results",
+      "description": "Results posted for the API ADAD tau-PET longitudinal sub-study (NCT03977584) tracking tau burden in the PSEN1 E280A cohort.",
+      "url": "https://clinicaltrials.gov/study/NCT03977584"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence supporting plasma P-tau217 as an accurate diagnostic biomarker for Alzheimer's disease is exceptionally strong. Since this foundational 2020 publication, the findings have been robustly replicated in numerous independent, large-scale cohorts using various commercial assays (e.g., Lilly, ALZpath, C2N Diagnostics). The biomarker consistently demonstrates ultra-high accuracy (AUCs >0.90) for detecting brain amyloid and tau pathology, distinguishing AD from other neurodegenerative diseases, and performing comparably to more invasive CSF and PET imaging measures. Consequently, plasma P-tau217 testing has transitioned from the research stage into broad real-world clinical practice as a Laboratory Developed Test (LDT), and is routinely utilized to screen participants for anti-amyloid therapy clinical trials.",
+  "discrepancies": [
+    "The document mentions evaluating a Colombian autosomal-dominant AD kindred (PSEN1 E280A) cohort of 622 participants. While this group belongs to the Alzheimer's Prevention Initiative (API), the formal API ADAD therapeutic trial (NCT01998841) for this specific mutation only enrolled 252 participants; the 2020 biomarker paper draws from the broader observational family registry rather than exclusively from the clinical trial subjects."
+  ]
+}

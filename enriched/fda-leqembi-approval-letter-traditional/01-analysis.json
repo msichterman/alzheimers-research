@@ -1,0 +1,91 @@
+{
+  "kind": "other",
+  "title": "BLA 761269/S-001 GENERAL ADVICE CORRECTION OF POSTMARKETING REQUIREMENT (PMR) AND POSTMARKETING COMMITMENT (PMC) SET/NUMBERS",
+  "authors": [
+    {
+      "name": "Yasuda, Sally U.",
+      "affiliation": "Division of Neurology 1, Office of Neuroscience, Office of New Drugs, Center for Drug Evaluation and Research, U.S. Food and Drug Administration",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Buracchio, Teresa J.",
+      "affiliation": "Office of Neuroscience, Center for Drug Evaluation and Research, U.S. Food and Drug Administration",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Yasuda, Sally U.",
+  "venue": "U.S. Food and Drug Administration",
+  "published": "2023-08",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "amyloid",
+    "immunotherapy",
+    "fda-approval",
+    "lecanemab",
+    "aria-risk"
+  ],
+  "themes": [
+    "FDA postmarketing requirements",
+    "ARIA risk in ApoE ε4 homozygotes",
+    "Intracerebral hemorrhage risk",
+    "Pharmacovigilance monitoring",
+    "Leqembi clinical benefit verification"
+  ],
+  "one_line": "The FDA confirms Leqembi's clinical benefit while mandating extensive postmarketing studies to monitor severe ARIA and intracerebral hemorrhage risks, particularly in ApoE ε4 homozygotes.",
+  "summary": "This document contains an FDA supplement approval letter for Leqembi (lecanemab-irmb) and a subsequent general advice letter correcting the tracking numbers for its postmarketing requirements. The approval letter confirms that Study 301 verified the drug's clinical benefit, officially granting it traditional approval. Crucially, the FDA outlines new safety information revealing an increased risk of severe amyloid-related imaging abnormalities (ARIA) in ApoE ε4 homozygotes and intracerebral hemorrhages in patients with preexisting risk factors. To address these concerns, the FDA mandates a comprehensive set of postmarketing requirements (PMRs) and commitments (PMCs). Eisai must conduct a prospective observational registry study and execute a retrospective cohort study using claims data to track real-world clinical safety outcomes. The FDA also mandates a randomized clinical trial featuring ApoE ε4 homozygotes to further characterize safety profiles in this vulnerable population. Furthermore, the agency requires the analytical validation of an in vitro diagnostic device to accurately identify ApoE ε4 alleles prior to treatment. Finally, strict biannual pharmacovigilance reporting is mandated to continuously monitor ARIA events, intracerebral hemorrhages, and infusion reactions.",
+  "key_claims": [
+    {
+      "claim": "Leqembi increases the risk of symptomatic, serious, and severe radiographic ARIA in ApoE ε4 homozygotes compared to heterozygotes and noncarriers.",
+      "evidence": "FDA citation of new clinical trial data indicating increased ARIA risk specific to ApoE ε4 homozygotes.",
+      "strength": "strong",
+      "location": "POSTMARKETING REQUIREMENTS UNDER 505(o)"
+    },
+    {
+      "claim": "Leqembi increases the risk of intracerebral hemorrhage >1 cm in patients with risk factors such as cerebral amyloid angiopathy (CAA) and anticoagulant use.",
+      "evidence": "FDA citation of new clinical trial data showing intracerebral hemorrhage >1 cm in patients taking Leqembi who have preexisting bleeding risk factors.",
+      "strength": "strong",
+      "location": "POSTMARKETING REQUIREMENTS UNDER 505(o)"
+    },
+    {
+      "claim": "Study BAN2401-G000-301 successfully verified the clinical benefit of Leqembi.",
+      "evidence": "FDA review and approval of the final clinical study report for Study 301, fulfilling PMR 4384-1.",
+      "strength": "strong",
+      "location": "FULFILLMENT OF POSTMARKETING REQUIREMENT"
+    }
+  ],
+  "methods": {
+    "design": null,
+    "n": null,
+    "population": "Alzheimer's disease patients treated with lecanemab-irmb",
+    "duration": "Postmarketing reporting scheduled through 2036",
+    "registration": null
+  },
+  "funding_and_conflicts": "none stated",
+  "limitations": [
+    "The document asserts new safety information based on clinical trial data but does not provide the primary data, event rates, or statistical analyses within the text itself."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "Page numbers and headers are interspersed throughout the text.",
+      "A bulleted list of data points under 'REQUESTED PHARMACOVIGILANCE' was incorrectly parsed into a broken markdown table."
+    ]
+  },
+  "search_verification": []
+}

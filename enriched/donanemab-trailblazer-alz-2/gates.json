@@ -1,0 +1,41 @@
+{
+  "id": "donanemab-trailblazer-alz-2",
+  "cluster": "amyloid-antibody",
+  "checked_at": "2026-08-13T17:02:32.912Z",
+  "passed": false,
+  "text_sufficiency": {
+    "level": "abstract-only",
+    "chars": 5106,
+    "sections": [
+      "result",
+      "outcome",
+      "participants"
+    ]
+  },
+  "evidence_completeness": "full-text-oa",
+  "failures": [
+    {
+      "gate": "file",
+      "detail": "extracted text is abstract-only (5106 chars, sections: result/outcome/participants) — not sufficient for an evidence record"
+    },
+    {
+      "gate": "evidence",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing)"
+    },
+    {
+      "gate": "fidelity",
+      "detail": "no independent critic pass (enriched/<id>/07-fidelity.json missing)"
+    },
+    {
+      "gate": "critical-review",
+      "detail": "no record to review"
+    }
+  ],
+  "warnings": [
+    {
+      "gate": "identity",
+      "detail": "metadata sources disagree on the title: \"Donanemab in Early Symptomatic Alzheimer Disease: The TRAILB\" vs \"Donanemab in Early Symptomatic Alzheimer Disease\" vs \"Donanemab in Early Symptomatic Alzheimer Disease: The TRAILB\""
+    }
+  ],
+  "manifest_discrepancies": []
+}

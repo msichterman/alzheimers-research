@@ -1,0 +1,167 @@
+{
+  "extracted_by": "gemini-3.1-pro-preview",
+  "extracted_at": "2026-08-13T16:54:52.134Z",
+  "independent": true,
+  "saw_builder_output": false,
+  "source": "raw/consensus-gwas-2026/document.md",
+  "source_sha256": "2cc7ff6a6a4a99ef68691833a2c0d1e7a7c5628b5ba7a0bf2e71da497984a55a",
+  "truncated": false,
+  "tokens": {
+    "in": 20509,
+    "out": 1593
+  },
+  "record": {
+    "document_kind": "journal_article",
+    "title": {
+      "value": "Consensus meta-analysis of genome-wide association studies for Alzheimer’s disease and related dementias",
+      "quote": "Consensus meta-analysis of genome-wide association studies for Alzheimer’s disease and related dementias",
+      "location": "Title"
+    },
+    "study": {
+      "design": {
+        "value": "meta-analysis of European-ancestry genome-wide association studies",
+        "quote": "we performed a meta-analysis of European-ancestry genome-wide association studies",
+        "location": "Abstract"
+      },
+      "n": {
+        "value": 978514,
+        "quote": "128,681 cases or proxy cases of ADRD and 849,833 (proxy) controls",
+        "location": "Abstract"
+      },
+      "population": {
+        "value": "European-ancestry samples, the UK Biobank (UKBB) and FinnGen",
+        "quote": "European-ancestry samples, the UK Biobank (UKBB) and FinnGen",
+        "location": "Main, paragraph 1"
+      },
+      "biomarker_confirmation": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "cohorts": [
+        "UK Biobank",
+        "FinnGen",
+        "deCODE",
+        "HUNT",
+        "ACT",
+        "ADC/NACC",
+        "ROSMAP1",
+        "CSDC",
+        "EADB",
+        "IGAP",
+        "PGC-ALZ",
+        "NIA-LOAD",
+        "Framingham Heart Study",
+        "ADGC",
+        "Bonn",
+        "CHARGE",
+        "EADI",
+        "GERAD",
+        "GR@ACE/DEGESCO"
+      ],
+      "comparator": {
+        "value": "controls and proxy controls",
+        "quote": "614,267 controls and 235,566 proxy controls",
+        "location": "Main, paragraph 2"
+      },
+      "followup": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "intervention": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "n_description": {
+        "value": "cases or proxy cases of ADRD and (proxy) controls",
+        "quote": "128,681 cases or proxy cases of ADRD and 849,833 (proxy) controls",
+        "location": "Abstract"
+      },
+      "nct_ids": [],
+      "phase": {
+        "value": null,
+        "quote": null,
+        "location": null
+      }
+    },
+    "outcomes": [
+      {
+        "name": "genome-wide significant (GWS) loci",
+        "tier": "primary",
+        "prespecified": "yes",
+        "met": "met",
+        "quote": "We identified 91 genome-wide significant (GWS) loci ( P ≤ 5 × 10 −8 , defined as ‘tier 1’)",
+        "location": "Main, paragraph 2",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": "yes",
+        "p_value": "P ≤ 5 × 10 −8",
+        "prespecification_evidence": null
+      }
+    ],
+    "primary_endpoint_status": {
+      "status": "met",
+      "quote": "We identified 91 genetic loci associated with ADRD risk, of which 16 are new and 56 are specifically detected in clinically diagnosed AD cases.",
+      "explanation": "The meta-analysis successfully identified 91 genetic loci associated with ADRD risk."
+    },
+    "safety": {
+      "harms": [],
+      "apoe_stratification_reported": false,
+      "deaths": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "discontinuations": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "serious_adverse_events": {
+        "value": null,
+        "quote": null,
+        "location": null
+      }
+    },
+    "unlocatable_fields": [
+      "biomarker_confirmation",
+      "followup",
+      "intervention",
+      "phase",
+      "deaths",
+      "discontinuations",
+      "serious_adverse_events"
+    ],
+    "authors": [
+      {
+        "name": "Céline Bellenguez",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      }
+    ],
+    "conflicts": [
+      "A. Squassina received speaker fees from Johnson & Johnson.",
+      "L.M.-P. reported personal fees from Biogen for consulting activities outside this work.",
+      "H.Z. has served on scientific advisory boards and/or as a consultant for AbbVie, Acumen, Alector, Alzinova, ALZPath, Amylyx, Annexon, Apellis, Artery Therapeutics, AZTherapies, Cognito Therapeutics, CogRx, Denali, Eisai, LabCorp, Merry Life, Nervgen, Novo Nordisk, Optoceutics, Passage Bio, Pinteon Therapeutics, Prothena, Red Abbey Labs, reMYND, Roche, Samumed, Siemens Healthineers, Triplet Therapeutics and Wave"
+    ],
+    "disagreements": [],
+    "funding": [
+      "UK Dementia Research Institute, which receives its funding from DRI, supported by the UK Medical Research Council, Alzheimer’s Society and Alzheimer’s Research UK",
+      "MRC, Wellcome Trust, the Dolby Family Fund and the National Institute for Health Research University College London Hospitals Biomedical Research Centre"
+    ],
+    "limitations": [
+      "Genetic correlation with ADRD could not be reliably assessed for most of the 11 neuropathology endophenotypes (NPEs) examined, due to limited study sample sizes and/or low heritability of these traits",
+      "Such results are difficult to interpret, considering the limited statistical power of NPE GWASs to detect variants with small effects on ADRD risk."
+    ],
+    "linked_objects": [],
+    "multiplicity": {
+      "approach": "Bonferroni correction",
+      "location": "Methods, Rare-variant analysis",
+      "quote": "We considered a significance threshold of P < 9.8 × 10 −4 , corresponding to a Bonferroni correction for 51 tests."
+    },
+    "risk_of_bias": []
+  }
+}

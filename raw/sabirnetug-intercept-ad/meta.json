@@ -1,0 +1,9 @@
+{
+  "id": "sabirnetug-intercept-ad",
+  "source": "sources/sabirnetug-intercept-ad.xml",
+  "sha256": "e534fda9f9f882417d9a491538e53493645f1f70ea5b45a88c436db8449a49f6",
+  "bytes": 115293,
+  "chars": 44921,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:11.264Z"
+}

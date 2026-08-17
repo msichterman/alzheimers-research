@@ -1,0 +1,82 @@
+{
+  "overall": "negative",
+  "summary": "Public sentiment toward aducanumab is overwhelmingly negative, reflecting its trajectory from a highly controversial FDA approval to its ultimate discontinuation in 2024. While initial announcements generated brief hope, caregiver forums quickly became dominated by concerns over severe side effects like brain swelling and bleeding (ARIA) and lack of scientific backing. The scientific community remained deeply skeptical throughout, heavily criticizing Biogen's post-hoc analyses after the ENGAGE trial's original futility declaration. Retail investors initially traded on the volatility but largely soured on the amyloid hypothesis as the drug failed to gain clinical or commercial traction. Today, the drug is primarily discussed as a cautionary tale in Alzheimer's drug development rather than a viable treatment option.",
+  "communities": [
+    {
+      "community": "r/Alzheimers (Patients & Caregivers)",
+      "sentiment": "skeptical",
+      "themes": [
+        "Fear of ARIA side effects (brain bleeds and swelling)",
+        "Frustration over trial failures and lack of scientific backing",
+        "Balancing desperation for treatments against severe safety risks"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/comments/oewsdb/aducanumab_aduhelm/",
+        "https://www.reddit.com/r/Alzheimers/comments/akgar7/aducanumab_phase_3_trial/"
+      ]
+    },
+    {
+      "community": "Alzforum (Scientists & Researchers)",
+      "sentiment": "negative",
+      "themes": [
+        "Criticism of post-hoc data mining following the ENGAGE futility declaration",
+        "Outrage over FDA approval despite unanimous advisory committee rejection",
+        "Doubt regarding the clinical meaningfulness of amyloid clearance alone"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/research-news/reports-my-death-are-greatly-exaggerated-signed-aducanumab",
+        "https://www.alzforum.org/news/community-news/advisory-committee-again-urges-fda-vote-no-aducanumab"
+      ]
+    },
+    {
+      "community": "r/investing (Retail Investors)",
+      "sentiment": "negative",
+      "themes": [
+        "Stock volatility and trying to time the 'dip' after trial failures",
+        "Skepticism of the amyloid hypothesis as a viable commercial mechanism",
+        "Pivoting investments to competing Alzheimer's biotech stocks"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/investing/comments/b4ip2b/biogen_inc_thoughts_on_biibs_dip/",
+        "https://www.reddit.com/r/investing/comments/9tvr55/biogen_what_do_you_think_about_biib_and_5_year/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Alzheimer's Association",
+      "tone": "neutral",
+      "date": "2024-01",
+      "url": "https://www.alz.org/news/2024/biogens-decision-discontinue-alzheimers-drug"
+    },
+    {
+      "outlet": "The BMJ",
+      "tone": "critical",
+      "date": "2024-02",
+      "url": "https://www.bmj.com/content/384/bmj.q281"
+    },
+    {
+      "outlet": "Medscape",
+      "tone": "critical",
+      "date": "2024-02",
+      "url": "https://www.medscape.com/viewarticle/biogens-abandonment-controversial-alzheimers-drug-no-2024a10002aq"
+    },
+    {
+      "outlet": "Psychiatric Times",
+      "tone": "neutral",
+      "date": "2024-02",
+      "url": "https://www.psychiatrictimes.com/view/biogen-discontinues-aducanumab-for-alzheimer-disease"
+    }
+  ],
+  "hype_vs_evidence": "Initially, corporate press releases and mainstream media generated massive hype by billing aducanumab as a historic, disease-modifying breakthrough. However, the underlying evidence from the ENGAGE trial clearly demonstrated futility in slowing cognitive decline, alongside high rates of dangerous amyloid-related imaging abnormalities (ARIA). The scientific community heavily pushed back against the hype, warning that the post-hoc data mining used to justify approval did not match the clinical reality. Over time, public perception fully aligned with the evidence as Medicare restricted coverage and physicians largely refused to prescribe the drug. The 2024 discontinuation of aducanumab represents the final collapse of its initial hype, validating early critics who warned the drug lacked proven efficacy.",
+  "misinformation_flags": [
+    "Early narratives circulating online that aducanumab was a 'cure' or a definitively effective treatment, ignoring the actual futility analysis of the ENGAGE trial.",
+    "Retail investor speculation that the drug's ultimate FDA approval equated to proven clinical efficacy, despite independent advisory committees universally voting against it due to poor data."
+  ],
+  "searches_run": [
+    "aducanumab site:reddit.com/r/Alzheimers",
+    "aducanumab engage trial futility site:alzforum.org",
+    "aducanumab biogen BIIB site:reddit.com/r/investing",
+    "aducanumab news 2024"
+  ]
+}

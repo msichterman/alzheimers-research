@@ -1,0 +1,874 @@
+{
+  "document_kind": "journal_article",
+  "title": {
+    "value": "A randomized, double-blind, phase 2b proof-of-concept clinical trial in early Alzheimer’s disease with lecanemab, an anti-Aβ protofibril antibody",
+    "quote": "A randomized, double-blind, phase 2b proof-of-concept clinical trial in early Alzheimer’s disease with lecanemab, an anti-Aβ protofibril antibody",
+    "location": "Title"
+  },
+  "authors": [
+    {
+      "name": "Chad J. Swanson"
+    },
+    {
+      "name": "Yong Zhang"
+    },
+    {
+      "name": "Shobha Dhadda"
+    },
+    {
+      "name": "Jinping Wang"
+    },
+    {
+      "name": "June Kaplow"
+    },
+    {
+      "name": "Robert Y. K. Lai"
+    },
+    {
+      "name": "Lars Lannfelt"
+    },
+    {
+      "name": "Heather Bradley"
+    },
+    {
+      "name": "Martin Rabe"
+    },
+    {
+      "name": "Akihiko Koyama"
+    },
+    {
+      "name": "Larisa Reyderman"
+    },
+    {
+      "name": "Donald A. Berry"
+    },
+    {
+      "name": "Scott Berry"
+    },
+    {
+      "name": "Robert Gordon"
+    },
+    {
+      "name": "Lynn D. Kramer"
+    },
+    {
+      "name": "Jeffrey L. Cummings"
+    }
+  ],
+  "study": {
+    "design": {
+      "value": "18-month, multicenter, double-blind, placebo-controlled Bayesian design clinical trial employing response adaptive randomization across placebo and five lecanemab arms",
+      "quote": "Study 201 ( NCT01767311 ) was an 18-month, multicenter, double-blind, placebo-controlled Bayesian design clinical trial employing response adaptive randomization across placebo and five lecanemab arms (2.5 mg/kg biweekly, 5 mg/kg monthly, 5 mg/kg biweekly, 10 mg/kg monthly, 10 mg/kg biweekly)",
+      "location": "Methods, Design, paragraph 1"
+    },
+    "phase": {
+      "value": "phase 2b proof-of-concept, dose-ranging efficacy study",
+      "quote": "a phase 2b proof-of-concept, dose-ranging efficacy study using a novel Bayesian adaptive design was initiated to assess the effects of lecanemab in subjects with mild cognitive impairment due to AD and mild AD dementia",
+      "location": "Introduction, paragraph 4"
+    },
+    "n": {
+      "value": 854,
+      "quote": "A total of 856 subjects were randomized and 854 were treated (lecanemab, 609; placebo, 245) between December 2012 and November 2017 at 117 sites across North America",
+      "location": "Results, paragraph 1"
+    },
+    "n_description": {
+      "value": "854 randomized subjects were treated (lecanemab, 609; placebo, 245); 856 subjects were randomized in total",
+      "quote": "A total of 856 subjects were randomized and 854 were treated (lecanemab, 609; placebo, 245) between December 2012 and November 2017 at 117 sites across North America",
+      "location": "Results, paragraph 1"
+    },
+    "population": {
+      "value": "Subjects with early Alzheimer's disease in 2 subgroups — mild cognitive impairment due to AD or mild AD dementia — all confirmed amyloid positive by amyloid PET or CSF Aβ1–42, with objective episodic memory impairment on WMS-IV LMII and MMSE ≥22 at screening and baseline",
+      "quote": "Participants comprised 2 subgroups: mild cognitive impairment due to AD or mild AD dementia. All subjects were confirmed amyloid positive via amyloid positron emission tomography (PET) or cerebrospinal fluid (CSF) Aβ 1–42 for eligibility.",
+      "location": "Methods, Subjects"
+    },
+    "followup": {
+      "value": "18 months of treatment",
+      "quote": "Understanding the importance of 18-month data in the context of AD clinical trials assessing slowing of disease progression, all randomized subjects were to complete the full 18 months of treatment.",
+      "location": "Introduction, paragraph 5"
+    },
+    "intervention": {
+      "value": "Lecanemab (BAN2401) in five arms: 2.5 mg/kg biweekly, 5 mg/kg monthly, 5 mg/kg biweekly, 10 mg/kg monthly, 10 mg/kg biweekly",
+      "quote": "across placebo and five lecanemab arms (2.5 mg/kg biweekly, 5 mg/kg monthly, 5 mg/kg biweekly, 10 mg/kg monthly, 10 mg/kg biweekly) to assess safety and efficacy in subjects with early Alzheimer’s disease",
+      "location": "Methods, Design, paragraph 1"
+    },
+    "comparator": {
+      "value": "Placebo, given as biweekly infusions to maintain the blind",
+      "quote": "To maintain the blind, all subjects received biweekly infusions of either placebo or lecanemab.",
+      "location": "Methods, Design, paragraph 1"
+    },
+    "biomarker_confirmation": {
+      "value": "Amyloid positivity confirmed via amyloid PET or CSF Aβ1–42",
+      "quote": "All subjects were confirmed amyloid positive via amyloid positron emission tomography (PET) or cerebrospinal fluid (CSF) Aβ 1–42 for eligibility.",
+      "location": "Methods, Subjects"
+    },
+    "nct_ids": [
+      "NCT01767311"
+    ],
+    "cohorts": [
+      "BAN2401-G000-201 (Study 201)"
+    ]
+  },
+  "outcomes": [
+    {
+      "name": "Bayesian analysis of 12-month change from baseline on the Alzheimer’s Disease Composite Score (ADCOMS) for the ED90 dose (10 mg/kg biweekly)",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "The primary endpoint was met if the Bayesian analysis, when all subjects completed 12 months of treatment, met the threshold of an 80% probability that the ED90 dose achieved at least 25% less clinical decline compared to placebo on ADCOMS.",
+      "met": "not_met",
+      "effect_estimate": "64% probability of being better than placebo with 25% less decline on ADCOMS at 12 months (threshold was 80%)",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "the 10 mg/kg biweekly (ED90) dose had a 64% probability of being better than placebo with 25% less decline on ADCOMS at 12 months, missing the pre-specified 80% probability threshold for the primary outcome",
+      "location": "Results, Efficacy, paragraph 1"
+    },
+    {
+      "name": "Bayesian analysis of ADCOMS at 18 months, lecanemab 10 mg/kg biweekly vs placebo",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Prespecified Bayesian analysis at 18 months determined that the lecanemab 10 mg/kg biweekly dose had a 76% probability of being better than placebo by 25% less decline on ADCOMS",
+      "met": "not_met",
+      "effect_estimate": "76% probability of being better than placebo by 25% less decline; 27% less decline with 97.7% probability of being superior to placebo by any magnitude",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "Despite 10 mg/kg biweekly not having achieved the threshold needed for superiority over placebo by at least 25%, additional prespecified Bayesian analyses indicated a 97.6% and 97.7% probability of being superior to placebo by any magnitude at both 12 and 18 months, respectively.",
+      "location": "Results, Efficacy, paragraph 1"
+    },
+    {
+      "name": "Change from baseline at 18 months in brain amyloid by PET Standard Uptake Value ratio (SUVr), lecanemab 10 mg/kg biweekly vs placebo",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Bayesian and conventional (frequentist) statistical analyses were prospectively defined prior to study start for key secondary endpoints (change from baseline for the treatment groups compared to placebo at 18 months for PET SUVr, ADCOMS, ADAS-Cog14, CDR-SB, vMRI, and CSF biomarkers).",
+      "met": "met",
+      "effect_estimate": "LS mean change from baseline −0.306 for 10 mg/kg biweekly (placebo 0.004); LS mean difference from placebo −0.310",
+      "confidence_interval": null,
+      "p_value": "P < 0.001 for all doses (nominal)",
+      "multiplicity_controlled": "no",
+      "quote": "The respective LS mean differences from placebo for the individual lecanemab treatment groups were −0.099, −0.136, −0.201, −0.229, and −0.310 ( P < 0.001 for all doses).",
+      "location": "Results, Efficacy, paragraph 2"
+    },
+    {
+      "name": "ADCOMS change from baseline at 18 months, frequentist MMRM, lecanemab 10 mg/kg biweekly vs placebo",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Bayesian and conventional (frequentist) statistical analyses were prospectively defined prior to study start for key secondary endpoints (change from baseline for the treatment groups compared to placebo at 18 months for PET SUVr, ADCOMS, ADAS-Cog14, CDR-SB, vMRI, and CSF biomarkers).",
+      "met": "met",
+      "effect_estimate": "30% less clinical decline compared to placebo at 10 mg/kg biweekly; 15% less decline at 10 mg/kg monthly",
+      "confidence_interval": null,
+      "p_value": "P =0.034 (nominal)",
+      "multiplicity_controlled": "no",
+      "quote": "lecanemab showed dose-dependent reduction in change from baseline on ADCOMS over 18 months (Figure S), with 30% ( P =0.034) less clinical decline compared to placebo at 10 mg/kg biweekly and 15% ( P = 0.23) less decline at the intermediate dose of 10 mg/kg monthly",
+      "location": "Results, Efficacy, paragraph 3"
+    },
+    {
+      "name": "CDR-SB change from baseline at 18 months, frequentist MMRM, lecanemab 10 mg/kg biweekly vs placebo",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Bayesian and conventional (frequentist) statistical analyses were prospectively defined prior to study start for key secondary endpoints (change from baseline for the treatment groups compared to placebo at 18 months for PET SUVr, ADCOMS, ADAS-Cog14, CDR-SB, vMRI, and CSF biomarkers).",
+      "met": "not_met",
+      "effect_estimate": "26% less decline at 10 mg/kg biweekly; 17% less decline at 10 mg/kg monthly",
+      "confidence_interval": null,
+      "p_value": "P =0.125 (nominal); did not reach nominal significance",
+      "multiplicity_controlled": "no",
+      "quote": "Lecanemab reduced clinical decline on CDR-SB, with 26% less decline ( P =0.125) at 10 mg/kg biweekly and 17% ( P =0.255) with 10 mg/kg monthly, compared to placebo, but these differences did not reach nominal significance",
+      "location": "Results, Efficacy, paragraph 3"
+    },
+    {
+      "name": "ADAS-Cog14 change from baseline at 18 months, frequentist MMRM, lecanemab 10 mg/kg biweekly vs placebo",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Bayesian and conventional (frequentist) statistical analyses were prospectively defined prior to study start for key secondary endpoints (change from baseline for the treatment groups compared to placebo at 18 months for PET SUVr, ADCOMS, ADAS-Cog14, CDR-SB, vMRI, and CSF biomarkers).",
+      "met": "met",
+      "effect_estimate": "47% less decline compared to placebo at 10 mg/kg biweekly; 6% at 10 mg/kg monthly",
+      "confidence_interval": null,
+      "p_value": "P =0.017 (nominal)",
+      "multiplicity_controlled": "no",
+      "quote": "Lecanemab at 10 mg/kg biweekly reduced clinical decline on ADAS-Cog14 (Fig. c) over 18 months, with 47% ( P =0.017) less decline compared to placebo.",
+      "location": "Results, Efficacy, paragraph 3"
+    },
+    {
+      "name": "Bayesian analysis of CDR-SB at 18 months, lecanemab 10 mg/kg biweekly vs placebo",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Bayesian and conventional (frequentist) statistical analyses were prospectively defined prior to study start for key secondary endpoints (change from baseline for the treatment groups compared to placebo at 18 months for PET SUVr, ADCOMS, ADAS-Cog14, CDR-SB, vMRI, and CSF biomarkers).",
+      "met": "not_applicable",
+      "effect_estimate": "33% reduction of clinical decline vs placebo, with 96.4% probability to be superior to placebo",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "at 18 months compared to placebo for 10 mg/kg biweekly on ADCOMS (27%; with 97.7% probability to be superior to placebo), CDR-SB (33%; with 96.4% probability to be superior to placebo)",
+      "location": "Results, Efficacy, paragraph 3"
+    },
+    {
+      "name": "Bayesian analysis of ADAS-Cog14 at 18 months, lecanemab 10 mg/kg biweekly vs placebo",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Bayesian and conventional (frequentist) statistical analyses were prospectively defined prior to study start for key secondary endpoints (change from baseline for the treatment groups compared to placebo at 18 months for PET SUVr, ADCOMS, ADAS-Cog14, CDR-SB, vMRI, and CSF biomarkers).",
+      "met": "not_applicable",
+      "effect_estimate": "56% reduction of clinical decline vs placebo, with 98.8% probability to be superior to placebo",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "CDR-SB (33%; with 96.4% probability to be superior to placebo), and ADAS-Cog14 (56%, with 98.8% probability to be superior to placebo) were similar to the results from the corresponding frequentist analyses",
+      "location": "Results, Efficacy, paragraph 3"
+    },
+    {
+      "name": "Total hippocampal volume by volumetric MRI at 18 months, lecanemab 10 mg/kg biweekly vs placebo",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Bayesian and conventional (frequentist) statistical analyses were prospectively defined prior to study start for key secondary endpoints (change from baseline for the treatment groups compared to placebo at 18 months for PET SUVr, ADCOMS, ADAS-Cog14, CDR-SB, vMRI, and CSF biomarkers).",
+      "met": "not_met",
+      "effect_estimate": "7.56% increased volume decline at 10 mg/kg biweekly compared to placebo (greater hippocampal volume reduction on treatment)",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "Marginally greater total hippocampal volume reduction (7.56% increased volume decline) was observed at 10 mg/kg biweekly compared to placebo without nominal significance",
+      "location": "Results, Efficacy, paragraph 4"
+    },
+    {
+      "name": "Whole brain volume and total ventricular volume by volumetric MRI",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "increased volume decline in the treatment groups compared to the placebo group",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "Whole brain volume and ventricular volume results reflect increased volume decline in the treatment groups compared to the placebo group (Table S-S; Figure SB-C).",
+      "location": "Results, Efficacy, paragraph 4"
+    },
+    {
+      "name": "CSF Aβ (1–42) change at 18 months, combined lecanemab 10 mg/kg groups vs placebo",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Subjects from the 10 mg/kg biweekly and monthly doses were pooled in the CSF substudy biomarker analyses to increase the sample size.",
+      "met": "met",
+      "effect_estimate": "LS mean difference from placebo 205.6",
+      "confidence_interval": null,
+      "p_value": "P < 0.001 (nominal)",
+      "multiplicity_controlled": "no",
+      "quote": "The LS mean difference at 18 months of the combined lecanemab 10 mg/kg treatment groups from placebo was 205.6 ( P < 0.001), 18.8 ( P = 0.670), and − 12.3 ( P = 0.013) for Aβ (1–42), t-tau, and p-tau, respectively.",
+      "location": "Results, Efficacy, paragraph 6"
+    },
+    {
+      "name": "CSF total tau (t-tau) change at 18 months, combined lecanemab 10 mg/kg groups vs placebo",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Subjects from the 10 mg/kg biweekly and monthly doses were pooled in the CSF substudy biomarker analyses to increase the sample size.",
+      "met": "not_met",
+      "effect_estimate": "LS mean difference from placebo 18.8",
+      "confidence_interval": null,
+      "p_value": "P = 0.670 (nominal)",
+      "multiplicity_controlled": "no",
+      "quote": "CSF biomarker analyses in the pooled 10 mg/kg dose arms showed an increase in CSF Aβ42 and decrease in p-tau relative to placebo, whereas inconsistent results were noted at 12 months and 18 months for total tau",
+      "location": "Results, Efficacy, paragraph 6"
+    },
+    {
+      "name": "CSF phosphorylated tau (p-tau) change at 18 months, combined lecanemab 10 mg/kg groups vs placebo",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Subjects from the 10 mg/kg biweekly and monthly doses were pooled in the CSF substudy biomarker analyses to increase the sample size.",
+      "met": "met",
+      "effect_estimate": "LS mean difference from placebo − 12.3",
+      "confidence_interval": null,
+      "p_value": "P = 0.013 (nominal)",
+      "multiplicity_controlled": "no",
+      "quote": "18.8 ( P = 0.670), and − 12.3 ( P = 0.013) for Aβ (1–42), t-tau, and p-tau, respectively. These findings were supported by post-hoc analysis of CSF neurogranin and NfL",
+      "location": "Results, Efficacy, paragraph 6"
+    },
+    {
+      "name": "Amyloid PET binary (visual read) conversion from amyloid positive to amyloid negative, lecanemab 10 mg/kg biweekly vs placebo",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "81% of subjects on lecanemab 10 mg/kg biweekly converted to amyloid negative vs 22% on placebo",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "a substantially larger proportion of subjects on lecanemab 10 mg/kg biweekly converted (by visual read) to amyloid negative (81%) compared to placebo (22%",
+      "location": "Discussion, paragraph 2"
+    },
+    {
+      "name": "Combined lecanemab 10 mg/kg dose groups (biweekly and monthly) vs placebo at 18 months on ADCOMS, ADAS-Cog14 and CDR-SB (sensitivity analysis for ApoE4 imbalance)",
+      "tier": "post_hoc",
+      "prespecified": "unclear",
+      "prespecification_evidence": "As a post hoc sensitivity analysis to address the imbalance in ApoE4 carriers introduced by the change in allocation rules in response to regulatory input, we analyzed the combined 10 mg/kg dose groups (biweekly and monthly). The analysis for combining both of the 10 mg/kg dose groups was pre-specified",
+      "met": "not_applicable",
+      "effect_estimate": "20% less decline on ADCOMS, 22% on ADAS-Cog14, 20% on CDR-SB; LS mean difference in amyloid PET SUVr −0.253",
+      "confidence_interval": null,
+      "p_value": "P =0.053 (ADCOMS), P =0.154 (ADAS-Cog14), P =0.119 (CDR-SB), P < 0.001 (PET SUVr); all nominal",
+      "multiplicity_controlled": "no",
+      "quote": "at 18 months, lecanemab in the combined 10 mg/kg dose groups decreased clinical decline by 20% on ADCOMS ( P =0.053; Table S), 22% on ADAS-Cog14 ( P =0.154; Table S), and 20% on CDR-SB ( P =0.119; Table S) versus placebo",
+      "location": "Results, Efficacy, paragraph 5"
+    },
+    {
+      "name": "Efficacy at 18 months on ADCOMS, CDR-SB and ADAS-Cog14 within the mild cognitive impairment due to AD (MCI) and mild AD dementia clinical subgroups",
+      "tier": "subgroup",
+      "prespecified": "yes",
+      "prespecification_evidence": "An evaluation of the efficacy of lecanemab compared to placebo at 18 months for ADCOMS, CDR-SB, and ADAS-Cog14 within the mild cognitive impairment due to AD (MCI) and mild AD dementia clinical subgroups was also a key secondary endpoint.",
+      "met": "not_applicable",
+      "effect_estimate": "generally consistent between subgroups but limited and difficult to interpret due to small sample size",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "Data between the mild AD dementia and the MCI subgroups within the study population were generally consistent but limited and difficult to interpret due to small sample size (Tables S, S, S).",
+      "location": "Results, Efficacy, paragraph 3"
+    },
+    {
+      "name": "Bayesian sensitivity analysis of lecanemab 10 mg/kg biweekly effect in ApoE4 carriers versus ApoE4 non-carriers",
+      "tier": "subgroup",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "greater reductions of cognitive decline in ApoE4 positive subjects versus ApoE4-negative subjects compared to placebo",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "Lecanemab at 10 mg/kg biweekly showed greater reductions of cognitive decline in ApoE4 positive subjects versus ApoE4-negative subjects compared to placebo (Table S).",
+      "location": "Results, Efficacy, paragraph 5"
+    },
+    {
+      "name": "CSF neurogranin and neurofilament light chain (NfL)",
+      "tier": "post_hoc",
+      "prespecified": "no",
+      "prespecification_evidence": "We included the post hoc analysis of CSF neurogranin and NfL that were not prospectively defined as secondary endpoints in this study.",
+      "met": "not_applicable",
+      "effect_estimate": "Both these measures showed changes consistent with a treatment effect",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "These findings were supported by post-hoc analysis of CSF neurogranin and NfL, which were conducted to further evaluate the impact of lecanemab on downstream pathophysiology of AD (Figure SA-B).",
+      "location": "Results, Efficacy, paragraph 6"
+    }
+  ],
+  "primary_endpoint_status": {
+    "status": "not_met",
+    "explanation": "The 12-month Bayesian ADCOMS analysis for the ED90 dose (10 mg/kg biweekly) produced a 64% probability of being at least 25% better than placebo, below the prespecified 80% threshold, and the document states the primary endpoint was not met.",
+    "quote": "missing the pre-specified 80% probability threshold for the primary outcome (Table ). As such, the primary endpoint was not met."
+  },
+  "multiplicity": {
+    "approach": "No multiplicity correction for frequentist key secondary analyses (all p-values nominal); Bayesian analyses stated not to require multiplicity adjustment",
+    "quote": "Bayesian analyses did not require adjustment for multiplicity by nature of the Bayesian approach. Conventional analyses were performed using a mixed effects model with repeated measures (MMRM) comparing placebo to active arms. All listed p -values for key secondary endpoints using conventional statistics are nominal, and no correction was applied for multiplicity.",
+    "location": "Methods, Statistical analyses, paragraph 2"
+  },
+  "safety": {
+    "harms": [
+      {
+        "name": "ARIA-E",
+        "arm": "placebo",
+        "count": "2",
+        "denominator": "245",
+        "percentage": "0.8",
+        "apoe_stratum": null,
+        "quote": "ARIA-E 2 (0.8) 1 (1.9) 1 (2.0) 3 (3.3) 25 (9.9) 16 (9.9) ApoE4-positive ( n = 436)",
+        "location": "Table 3"
+      },
+      {
+        "name": "ARIA-E",
+        "arm": "lecanemab 2.5 mg/kg biweekly",
+        "count": "1",
+        "denominator": "52",
+        "percentage": "1.9",
+        "apoe_stratum": null,
+        "quote": "ARIA-E (0.8% for placebo, 1.9% for 2.5 mg/kg biweekly, 2.0% for 5 mg/kg monthly, 3.3% for 5 mg/kg biweekly, 9.9% for 10 mg/kg monthly, and 9.9% for 10 mg/kg biweekly)",
+        "location": "Results, Safety, paragraph 1 and Table 3"
+      },
+      {
+        "name": "ARIA-E",
+        "arm": "lecanemab 5 mg/kg monthly",
+        "count": "1",
+        "denominator": "51",
+        "percentage": "2.0",
+        "apoe_stratum": null,
+        "quote": "ARIA-E (0.8% for placebo, 1.9% for 2.5 mg/kg biweekly, 2.0% for 5 mg/kg monthly, 3.3% for 5 mg/kg biweekly, 9.9% for 10 mg/kg monthly, and 9.9% for 10 mg/kg biweekly)",
+        "location": "Results, Safety, paragraph 1 and Table 3"
+      },
+      {
+        "name": "ARIA-E",
+        "arm": "lecanemab 5 mg/kg biweekly",
+        "count": "3",
+        "denominator": "92",
+        "percentage": "3.3",
+        "apoe_stratum": null,
+        "quote": "ARIA-E (0.8% for placebo, 1.9% for 2.5 mg/kg biweekly, 2.0% for 5 mg/kg monthly, 3.3% for 5 mg/kg biweekly, 9.9% for 10 mg/kg monthly, and 9.9% for 10 mg/kg biweekly)",
+        "location": "Results, Safety, paragraph 1 and Table 3"
+      },
+      {
+        "name": "ARIA-E",
+        "arm": "lecanemab 10 mg/kg monthly",
+        "count": "25",
+        "denominator": "253",
+        "percentage": "9.9",
+        "apoe_stratum": null,
+        "quote": "ARIA-E 2 (0.8) 1 (1.9) 1 (2.0) 3 (3.3) 25 (9.9) 16 (9.9) ApoE4-positive ( n = 436)",
+        "location": "Table 3"
+      },
+      {
+        "name": "ARIA-E",
+        "arm": "lecanemab 10 mg/kg biweekly",
+        "count": "16",
+        "denominator": "161",
+        "percentage": "9.9",
+        "apoe_stratum": null,
+        "quote": "ARIA-E 2 (0.8) 1 (1.9) 1 (2.0) 3 (3.3) 25 (9.9) 16 (9.9) ApoE4-positive ( n = 436)",
+        "location": "Table 3"
+      },
+      {
+        "name": "ARIA-E",
+        "arm": "placebo",
+        "count": "2",
+        "denominator": "ApoE4-positive ( n = 436) across all groups; per-arm ApoE4-positive denominator not printed",
+        "percentage": "1.1",
+        "apoe_stratum": "ApoE4-positive",
+        "quote": "ApoE4-positive ( n = 436) 2 (1.1) 1 (2.6) 1 (2.5) 3 (3.6) 23 (10.2) 7 (14.3) ApoE4-negative( n = 112) 0 0 0 0 2 (7.1) 9 (8.0)",
+        "location": "Table 3"
+      },
+      {
+        "name": "ARIA-E",
+        "arm": "lecanemab 2.5 mg/kg biweekly",
+        "count": "1",
+        "denominator": "ApoE4-positive ( n = 436) across all groups; per-arm ApoE4-positive denominator not printed",
+        "percentage": "2.6",
+        "apoe_stratum": "ApoE4-positive",
+        "quote": "ApoE4-positive ( n = 436) 2 (1.1) 1 (2.6) 1 (2.5) 3 (3.6) 23 (10.2) 7 (14.3) ApoE4-negative( n = 112) 0 0 0 0 2 (7.1) 9 (8.0)",
+        "location": "Table 3"
+      },
+      {
+        "name": "ARIA-E",
+        "arm": "lecanemab 5 mg/kg monthly",
+        "count": "1",
+        "denominator": "ApoE4-positive ( n = 436) across all groups; per-arm ApoE4-positive denominator not printed",
+        "percentage": "2.5",
+        "apoe_stratum": "ApoE4-positive",
+        "quote": "ApoE4-positive ( n = 436) 2 (1.1) 1 (2.6) 1 (2.5) 3 (3.6) 23 (10.2) 7 (14.3) ApoE4-negative( n = 112) 0 0 0 0 2 (7.1) 9 (8.0)",
+        "location": "Table 3"
+      },
+      {
+        "name": "ARIA-E",
+        "arm": "lecanemab 5 mg/kg biweekly",
+        "count": "3",
+        "denominator": "ApoE4-positive ( n = 436) across all groups; per-arm ApoE4-positive denominator not printed",
+        "percentage": "3.6",
+        "apoe_stratum": "ApoE4-positive",
+        "quote": "ApoE4-positive ( n = 436) 2 (1.1) 1 (2.6) 1 (2.5) 3 (3.6) 23 (10.2) 7 (14.3) ApoE4-negative( n = 112) 0 0 0 0 2 (7.1) 9 (8.0)",
+        "location": "Table 3"
+      },
+      {
+        "name": "ARIA-E",
+        "arm": "lecanemab 10 mg/kg monthly",
+        "count": "23",
+        "denominator": "ApoE4-positive ( n = 436) across all groups; per-arm ApoE4-positive denominator not printed",
+        "percentage": "10.2",
+        "apoe_stratum": "ApoE4-positive",
+        "quote": "ApoE4-positive ( n = 436) 2 (1.1) 1 (2.6) 1 (2.5) 3 (3.6) 23 (10.2) 7 (14.3) ApoE4-negative( n = 112) 0 0 0 0 2 (7.1) 9 (8.0)",
+        "location": "Table 3"
+      },
+      {
+        "name": "ARIA-E",
+        "arm": "lecanemab 10 mg/kg biweekly",
+        "count": "7",
+        "denominator": "ApoE4-positive ( n = 436) across all groups; per-arm ApoE4-positive denominator not printed",
+        "percentage": "14.3",
+        "apoe_stratum": "ApoE4-positive",
+        "quote": "ApoE4-positive ( n = 436) 2 (1.1) 1 (2.6) 1 (2.5) 3 (3.6) 23 (10.2) 7 (14.3) ApoE4-negative( n = 112) 0 0 0 0 2 (7.1) 9 (8.0)",
+        "location": "Table 3"
+      },
+      {
+        "name": "ARIA-E",
+        "arm": "lecanemab 10 mg/kg monthly",
+        "count": "2",
+        "denominator": "ApoE4-negative( n = 112) across all groups; per-arm ApoE4-negative denominator not printed",
+        "percentage": "7.1",
+        "apoe_stratum": "ApoE4-negative",
+        "quote": "ApoE4-negative( n = 112) 0 0 0 0 2 (7.1) 9 (8.0)",
+        "location": "Table 3"
+      },
+      {
+        "name": "ARIA-E",
+        "arm": "lecanemab 10 mg/kg biweekly",
+        "count": "9",
+        "denominator": "ApoE4-negative( n = 112) across all groups; per-arm ApoE4-negative denominator not printed",
+        "percentage": "8.0",
+        "apoe_stratum": "ApoE4-negative",
+        "quote": "ApoE4-negative( n = 112) 0 0 0 0 2 (7.1) 9 (8.0)",
+        "location": "Table 3"
+      },
+      {
+        "name": "ARIA-E (total cases, and share occurring in ApoE4-positive subjects)",
+        "arm": "placebo and all lecanemab arms",
+        "count": "48 total ARIA-E cases (2 placebo; 46 lecanemab), of which 37 were in ApoE4+ subjects",
+        "denominator": "854 treated subjects (placebo 245; lecanemab 609)",
+        "percentage": null,
+        "apoe_stratum": "ApoE4+",
+        "quote": "Thirty-seven of the total 48 ARIA-E cases (2 for placebo; 46 for lecanemab) were in ApoE4+ subjects.",
+        "location": "Results, Safety, paragraph 1"
+      },
+      {
+        "name": "symptomatic ARIA-E",
+        "arm": "lecanemab (all arms combined)",
+        "count": "5",
+        "denominator": "46 lecanemab ARIA-E cases",
+        "percentage": "11%",
+        "apoe_stratum": null,
+        "quote": "There were 5 cases of symptomatic ARIA-E (lecanemab: 5/46 [11%]), which generally consisted of headache, visual disturbances, or confusion.",
+        "location": "Results, Safety, paragraph 1"
+      },
+      {
+        "name": "symptomatic ARIA-E (radiologic severity by dose)",
+        "arm": "lecanemab 2.5 mg/kg biweekly, 10 mg/kg monthly, 10 mg/kg biweekly",
+        "count": "one severe at 2.5 mg/kg biweekly; one mild at 10 mg/kg monthly; one moderate and two severe at 10 mg/kg biweekly",
+        "denominator": "5 symptomatic ARIA-E cases",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "Radiologic severity for symptomatic cases were one severe at 2.5 mg/kg biweekly; one mild at 10 mg/kg monthly; one moderate at 10 mg/kg biweekly; and two severe at 10 mg/kg biweekly.",
+        "location": "Results, Safety, paragraph 1"
+      },
+      {
+        "name": "ARIA-H (new cerebral microhemorrhages, cerebral macrohemorrhages, and superficial siderosis)",
+        "arm": "placebo",
+        "count": "13",
+        "denominator": "245",
+        "percentage": "5.3%",
+        "apoe_stratum": null,
+        "quote": "were observed in 13 (5.3%) subjects in the placebo group ( N = 245) compared to 65 (10.7%) subjects in the lecanemab groups ( N = 609)",
+        "location": "Results, Safety, paragraph 2"
+      },
+      {
+        "name": "ARIA-H (new cerebral microhemorrhages, cerebral macrohemorrhages, and superficial siderosis)",
+        "arm": "lecanemab groups (all arms combined)",
+        "count": "65",
+        "denominator": "609",
+        "percentage": "10.7%",
+        "apoe_stratum": null,
+        "quote": "were observed in 13 (5.3%) subjects in the placebo group ( N = 245) compared to 65 (10.7%) subjects in the lecanemab groups ( N = 609)",
+        "location": "Results, Safety, paragraph 2"
+      },
+      {
+        "name": "ARIA-H",
+        "arm": "lecanemab 2.5 mg/kg biweekly",
+        "count": "2",
+        "denominator": "52",
+        "percentage": "3.8%",
+        "apoe_stratum": null,
+        "quote": "(2 [3.8%], 7 [13.7%], 17 [18.5%], 28 [11.1%], and 11 [6.8%] subjects in the 2.5 mg/kg biweekly, 5 mg/kg monthly, 5 mg/kg biweekly, 10 mg/kg monthly, and 10 mg/kg biweekly groups, respectively)",
+        "location": "Results, Safety, paragraph 2"
+      },
+      {
+        "name": "ARIA-H",
+        "arm": "lecanemab 5 mg/kg monthly",
+        "count": "7",
+        "denominator": "51",
+        "percentage": "13.7%",
+        "apoe_stratum": null,
+        "quote": "(2 [3.8%], 7 [13.7%], 17 [18.5%], 28 [11.1%], and 11 [6.8%] subjects in the 2.5 mg/kg biweekly, 5 mg/kg monthly, 5 mg/kg biweekly, 10 mg/kg monthly, and 10 mg/kg biweekly groups, respectively)",
+        "location": "Results, Safety, paragraph 2"
+      },
+      {
+        "name": "ARIA-H",
+        "arm": "lecanemab 5 mg/kg biweekly",
+        "count": "17",
+        "denominator": "92",
+        "percentage": "18.5%",
+        "apoe_stratum": null,
+        "quote": "(2 [3.8%], 7 [13.7%], 17 [18.5%], 28 [11.1%], and 11 [6.8%] subjects in the 2.5 mg/kg biweekly, 5 mg/kg monthly, 5 mg/kg biweekly, 10 mg/kg monthly, and 10 mg/kg biweekly groups, respectively)",
+        "location": "Results, Safety, paragraph 2"
+      },
+      {
+        "name": "ARIA-H",
+        "arm": "lecanemab 10 mg/kg monthly",
+        "count": "28",
+        "denominator": "253",
+        "percentage": "11.1%",
+        "apoe_stratum": null,
+        "quote": "(2 [3.8%], 7 [13.7%], 17 [18.5%], 28 [11.1%], and 11 [6.8%] subjects in the 2.5 mg/kg biweekly, 5 mg/kg monthly, 5 mg/kg biweekly, 10 mg/kg monthly, and 10 mg/kg biweekly groups, respectively)",
+        "location": "Results, Safety, paragraph 2"
+      },
+      {
+        "name": "ARIA-H",
+        "arm": "lecanemab 10 mg/kg biweekly",
+        "count": "11",
+        "denominator": "161",
+        "percentage": "6.8%",
+        "apoe_stratum": null,
+        "quote": "(2 [3.8%], 7 [13.7%], 17 [18.5%], 28 [11.1%], and 11 [6.8%] subjects in the 2.5 mg/kg biweekly, 5 mg/kg monthly, 5 mg/kg biweekly, 10 mg/kg monthly, and 10 mg/kg biweekly groups, respectively)",
+        "location": "Results, Safety, paragraph 2"
+      },
+      {
+        "name": "ARIA-H",
+        "arm": "lecanemab (all arms combined)",
+        "count": "57",
+        "denominator": "436",
+        "percentage": "13.1%",
+        "apoe_stratum": "ApoE4 carriers",
+        "quote": "the incidence of ARIA-H on lecanemab was higher in ApoE4 carriers ( N = 436) (57 [13.1%] subjects) than in ApoE4 non-carriers ( N = 173) (8 [4.6%] subjects)",
+        "location": "Results, Safety, paragraph 2"
+      },
+      {
+        "name": "ARIA-H",
+        "arm": "lecanemab (all arms combined)",
+        "count": "8",
+        "denominator": "173",
+        "percentage": "4.6%",
+        "apoe_stratum": "ApoE4 non-carriers",
+        "quote": "the incidence of ARIA-H on lecanemab was higher in ApoE4 carriers ( N = 436) (57 [13.1%] subjects) than in ApoE4 non-carriers ( N = 173) (8 [4.6%] subjects)",
+        "location": "Results, Safety, paragraph 2"
+      },
+      {
+        "name": "ARIA-H occurring concurrently with or after onset of ARIA-E",
+        "arm": "placebo",
+        "count": "1",
+        "denominator": "245",
+        "percentage": "0.4%",
+        "apoe_stratum": null,
+        "quote": "ARIA-H occurred concurrently with ARIA-E, or after the onset of ARIA–E in 1 (0.4%) subject in the placebo group; 1 (2.0%), 1 (1.1%), 13 (5.1%), and 7 (4.3%) subjects",
+        "location": "Results, Safety, paragraph 2"
+      },
+      {
+        "name": "ARIA-H occurring concurrently with or after onset of ARIA-E",
+        "arm": "lecanemab treatment groups overall",
+        "count": "22",
+        "denominator": "609",
+        "percentage": "3.6%",
+        "apoe_stratum": null,
+        "quote": "and in 22 (3.6%) subjects in the lecanemab treatment groups overall. There were no symptomatic cases of ARIA-H in Study 201.",
+        "location": "Results, Safety, paragraph 2"
+      },
+      {
+        "name": "symptomatic ARIA-H",
+        "arm": "all arms (placebo and lecanemab)",
+        "count": "0",
+        "denominator": "854 treated subjects",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "There were no symptomatic cases of ARIA-H in Study 201.",
+        "location": "Results, Safety, paragraph 2"
+      },
+      {
+        "name": "death",
+        "arm": "placebo",
+        "count": "2",
+        "denominator": "245",
+        "percentage": "0.8",
+        "apoe_stratum": null,
+        "quote": "Deaths 2 (0.8) 2 (3.8) 0 1 (1.1) 2 (0.8) 0 AE leading to discontinuation 15 (6.1) 7 (13.5) 4 (7.8) 10 (10.9) 47 (18.6) 24 (14.9)",
+        "location": "Table 3"
+      },
+      {
+        "name": "death",
+        "arm": "lecanemab 2.5 mg/kg biweekly",
+        "count": "2",
+        "denominator": "52",
+        "percentage": "3.8",
+        "apoe_stratum": null,
+        "quote": "Deaths 2 (0.8) 2 (3.8) 0 1 (1.1) 2 (0.8) 0 AE leading to discontinuation 15 (6.1) 7 (13.5) 4 (7.8) 10 (10.9) 47 (18.6) 24 (14.9)",
+        "location": "Table 3"
+      },
+      {
+        "name": "death",
+        "arm": "lecanemab 5 mg/kg monthly",
+        "count": "0",
+        "denominator": "51",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "Deaths 2 (0.8) 2 (3.8) 0 1 (1.1) 2 (0.8) 0 AE leading to discontinuation 15 (6.1) 7 (13.5) 4 (7.8) 10 (10.9) 47 (18.6) 24 (14.9)",
+        "location": "Table 3"
+      },
+      {
+        "name": "death",
+        "arm": "lecanemab 5 mg/kg biweekly",
+        "count": "1",
+        "denominator": "92",
+        "percentage": "1.1",
+        "apoe_stratum": null,
+        "quote": "Deaths 2 (0.8) 2 (3.8) 0 1 (1.1) 2 (0.8) 0 AE leading to discontinuation 15 (6.1) 7 (13.5) 4 (7.8) 10 (10.9) 47 (18.6) 24 (14.9)",
+        "location": "Table 3"
+      },
+      {
+        "name": "death",
+        "arm": "lecanemab 10 mg/kg monthly",
+        "count": "2",
+        "denominator": "253",
+        "percentage": "0.8",
+        "apoe_stratum": null,
+        "quote": "Deaths 2 (0.8) 2 (3.8) 0 1 (1.1) 2 (0.8) 0 AE leading to discontinuation 15 (6.1) 7 (13.5) 4 (7.8) 10 (10.9) 47 (18.6) 24 (14.9)",
+        "location": "Table 3"
+      },
+      {
+        "name": "death",
+        "arm": "lecanemab 10 mg/kg biweekly",
+        "count": "0",
+        "denominator": "161",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "Deaths 2 (0.8) 2 (3.8) 0 1 (1.1) 2 (0.8) 0 AE leading to discontinuation 15 (6.1) 7 (13.5) 4 (7.8) 10 (10.9) 47 (18.6) 24 (14.9)",
+        "location": "Table 3"
+      },
+      {
+        "name": "infusion reaction (treatment-emergent adverse event)",
+        "arm": "placebo",
+        "count": null,
+        "denominator": "245",
+        "percentage": "3.3%",
+        "apoe_stratum": null,
+        "quote": "The most common treatment-emergent adverse events were infusion reaction (3.3% for placebo, 5.8% for 2.5 mg/kg biweekly, 7.8% for 5 mg/kg monthly, 12.0% for 5 mg/kg biweekly, 22.9% for 10 mg/kg monthly, and 19.9% for 10 mg/kg biweekly)",
+        "location": "Results, Safety, paragraph 1"
+      },
+      {
+        "name": "infusion reaction (treatment-emergent adverse event)",
+        "arm": "lecanemab 10 mg/kg monthly",
+        "count": null,
+        "denominator": "253",
+        "percentage": "22.9%",
+        "apoe_stratum": null,
+        "quote": "The most common treatment-emergent adverse events were infusion reaction (3.3% for placebo, 5.8% for 2.5 mg/kg biweekly, 7.8% for 5 mg/kg monthly, 12.0% for 5 mg/kg biweekly, 22.9% for 10 mg/kg monthly, and 19.9% for 10 mg/kg biweekly)",
+        "location": "Results, Safety, paragraph 1"
+      },
+      {
+        "name": "infusion reaction (treatment-emergent adverse event)",
+        "arm": "lecanemab 10 mg/kg biweekly",
+        "count": null,
+        "denominator": "161",
+        "percentage": "19.9%",
+        "apoe_stratum": null,
+        "quote": "The most common treatment-emergent adverse events were infusion reaction (3.3% for placebo, 5.8% for 2.5 mg/kg biweekly, 7.8% for 5 mg/kg monthly, 12.0% for 5 mg/kg biweekly, 22.9% for 10 mg/kg monthly, and 19.9% for 10 mg/kg biweekly)",
+        "location": "Results, Safety, paragraph 1"
+      }
+    ],
+    "apoe_stratification_reported": true,
+    "serious_adverse_events": {
+      "value": "Serious adverse events: placebo 43 (17.6%); 2.5 mg/kg biweekly 10 (19.2%); 5 mg/kg monthly 4 (7.8%); 5 mg/kg biweekly 16 (17.4%); 10 mg/kg monthly 31 (12.3%); 10 mg/kg biweekly 25 (15.5%). All symptomatic ARIA-E cases except the 2.5 mg/kg biweekly case were considered serious adverse events.",
+      "quote": "Serious adverse event 43 (17.6) 10 (19.2) 4 (7.8) 16 (17.4) 31 (12.3) 25 (15.5) Deaths 2 (0.8) 2 (3.8) 0 1 (1.1) 2 (0.8) 0",
+      "location": "Table 3"
+    },
+    "deaths": {
+      "value": "Deaths: placebo 2 (0.8%); 2.5 mg/kg biweekly 2 (3.8%); 5 mg/kg monthly 0; 5 mg/kg biweekly 1 (1.1%); 10 mg/kg monthly 2 (0.8%); 10 mg/kg biweekly 0",
+      "quote": "Deaths 2 (0.8) 2 (3.8) 0 1 (1.1) 2 (0.8) 0 AE leading to discontinuation 15 (6.1) 7 (13.5) 4 (7.8) 10 (10.9) 47 (18.6) 24 (14.9)",
+      "location": "Table 3"
+    },
+    "discontinuations": {
+      "value": "Discontinuations occurred in 23.7% for placebo and 36.0% for lecanemab-treated subjects; 48 subjects discontinued due to ARIA-E per protocol (46 lecanemab, 2 placebo) and 25 due to the Regulatory Authority request for ApoE4 carriers on 10 mg/kg biweekly for less than 6 months",
+      "quote": "Discontinuations occurred in 23.7% for placebo- and 36.0% for lecanemab-treated subjects. Lecanemab discontinuations were largely driven by ARIA-E events, which resulted in discontinuation per protocol ( N = 48, 46 lecanemab",
+      "location": "Results, paragraph 3"
+    }
+  },
+  "funding": [
+    "This study was funded by Eisai Inc.",
+    "This trial was funded by Eisai Inc. Authors from Eisai Inc. had input into the study design; in the collection, analysis, and interpretation of data; in the writing of the report; and in the decision to submit the paper for publication.",
+    "The authors acknowledge JD Cox, PhD, and Mayville Medical Communications for editorial support, funded by Eisai Inc."
+  ],
+  "conflicts": [
+    "CJS, YZ, SD, JW, JK, RYKL, HB, MR, AK, LR, RG, and LDK are employees of Eisai.",
+    "LL is an employee of BioArctic.",
+    "DAB and SB are employees of Berry Consultants.",
+    "JLC provided consultation to the following pharmaceutical companies: Acadia, Accera, Actinogen, ADAMAS, Alkahest, Allergan, Alzheon, Avanir, Axovant, Axsome, BiOasis Technologies, Biogen, Eisai, Genentech, Grifols, Kyowa, Lilly, Lundbeck, Merck, Nutricia, Otsuka, QR Pharma, Resverlogix, Roche, Samus, Servier, Suven, Takeda, Toyoma, and United Neuroscience companies.",
+    "JLC is supported by NIGMS grant P20GM109025; NINDS grant U01NS093334; NIA grant R01AG053798; and NIA grant P20AG068053."
+  ],
+  "limitations": [
+    "Most notably, a small number of symptomatic ARIA-E cases at 10 mg/kg biweekly prompted one Regulatory Authority to request that subsequent ApoE4+ subjects (approximately 70% of the overall study population) not be randomized to the 10 mg/kg biweekly dose.",
+    "An additional component to the request required that all ApoE4+ subjects on 10 mg/kg biweekly who were on study but who had not yet reached 6 months of treatment be immediately discontinued ( N = 25 subjects).",
+    "Implementation of these actions led to early (initiated between 300 and 350 randomized participants) and significant changes to the study design that resulted in a marked imbalance in the number of ApoE4+ subjects on 10 mg/kg biweekly (30% ApoE4+ subjects).",
+    "The constraints in this analysis were specifically associated with the ED90 dose and therefore could have had an impact on the ability to interpret the results.",
+    "Data between the mild AD dementia and the MCI subgroups within the study population were generally consistent but limited and difficult to interpret due to small sample size",
+    "There was no sample size analysis for the CSF substudy and results for biomarker analyses are presented descriptively.",
+    "The 10 mg/kg biweekly group, despite being limited in size and ApoE4+ balance, showed nominally significant differences versus placebo on ADCOMS and ADAS-Cog14 at 18 months of treatment.",
+    "None of the other dose groups differed from placebo most likely due to the relatively small sample size allocated to these sub-optimal doses by the Bayesian adaptive randomization algorithm."
+  ],
+  "risk_of_bias": [
+    {
+      "domain": "sponsor analysis",
+      "judgement": "The trial was funded by Eisai Inc., authors from Eisai had input into design, data collection, analysis, interpretation, report writing and the decision to publish, and most authors are Eisai, BioArctic or Berry Consultants employees.",
+      "quote": "This trial was funded by Eisai Inc. Authors from Eisai Inc. had input into the study design; in the collection, analysis, and interpretation of data; in the writing of the report; and in the decision to submit the paper for publication."
+    },
+    {
+      "domain": "attrition",
+      "judgement": "Differential discontinuation between arms (23.7% placebo vs 36.0% lecanemab), largely driven by protocol-mandated discontinuation for ARIA-E and by the regulatory-imposed discontinuation of ApoE4 carriers on 10 mg/kg biweekly.",
+      "quote": "Discontinuations occurred in 23.7% for placebo- and 36.0% for lecanemab-treated subjects."
+    },
+    {
+      "domain": "unblinding via ARIA",
+      "judgement": "All subjects with MRI-detected ARIA-E were discontinued immediately per protocol regardless of severity or symptoms, a treatment-related event that removed subjects from active treatment.",
+      "quote": "All subjects with ARIA-E as assessed by MRI were discontinued immediately per protocol, regardless of radiologic severity or symptomatic status."
+    },
+    {
+      "domain": "baseline imbalance (ApoE4 status)",
+      "judgement": "The ED90 dose group (10 mg/kg biweekly) had a markedly lower proportion of ApoE4 carriers (30%) than all other groups (71-91%) because of the mid-study regulatory randomization restriction.",
+      "quote": "the lecanemab 10 mg/kg biweekly group had fewer subjects compared to 10 mg/kg monthly with a lower percentage of ApoE4 carriers (30%) relative to all other treatment groups (placebo 71%; 2.5 mg/kg biweekly 73%; 5 mg/kg monthly 77%; 5 mg/kg biweekly 91%; 10 mg/kg monthly 89%)"
+    },
+    {
+      "domain": "baseline imbalance (sex)",
+      "judgement": "More male subjects in the lecanemab group relative to placebo (54% vs 42%).",
+      "quote": "with the exception of more male subjects in the lecanemab group relative to placebo (54% vs 42%; Table )"
+    },
+    {
+      "domain": "multiplicity / nominal p-values",
+      "judgement": "All key secondary frequentist p-values are nominal with no multiplicity correction, and the document states all reported p values are nominal because the primary endpoint was not met.",
+      "quote": "All reported p values are considered nominal because the primary endpoint was not met."
+    },
+    {
+      "domain": "mid-study design change",
+      "judgement": "The randomization design was altered between 300 and 350 randomized subjects at a regulator's request, splitting the randomization probability vector by ApoE4 carrier status.",
+      "quote": "However, before the interim analysis of 350 subjects, Health Authorities restricted randomization around ApoE4 carrier status, whereby ApoE4 carriers (hetero- or homozygous) were not to be randomized to the 10 mg/kg biweekly dose going forward."
+    }
+  ],
+  "disagreements": [
+    {
+      "question": "Does a trial whose 12-month primary endpoint was not met nevertheless establish proof of concept for lecanemab?",
+      "position": "The document concludes that proof of concept was supported by prespecified key secondary endpoint analyses despite the primary endpoint not being met.",
+      "attributed_to": "The study authors (Eisai Inc. and co-authors of this article)",
+      "quote": "Proof of concept was supported through prespecified key secondary endpoint analyses, where lecanemab treatment resulted in a dose dependent and consistent reduction in clinical decline relative to placebo across a number of clinical endpoints according to Bayesian and frequentist approaches."
+    },
+    {
+      "question": "Was the Regulatory Authority's restriction of the 10 mg/kg biweekly dose in ApoE4 carriers appropriate?",
+      "position": "The document argues the restriction was based on limited early experience and that subsequent understanding of ARIA-E has reframed its management, noting the full 10 mg/kg biweekly dose is now used in ApoE4 carriers in the open-label extension and Clarity AD.",
+      "attributed_to": "The study authors (Eisai Inc. and co-authors of this article), in contrast to the regulatory authority that imposed the restriction",
+      "quote": "The assessment of early ARIA-E cases that led to Study 201 design changes were determined based on limited experience and understanding of lecanemab at the time of trial initiation. Additional experience since that time, both with lecanemab and other anti-amyloid monoclonal antibodies, has reframed the understanding and management of ARIA-E."
+    },
+    {
+      "question": "What explains the increased brain volume loss observed on lecanemab treatment?",
+      "position": "The document states the volumetric MRI findings are consistent with reports for other amyloid-targeting agents, that the reasons are unclear, and that the long-term implications are unknown.",
+      "attributed_to": "The study authors of this article",
+      "quote": "While these effects are generally consistent with literature reports for other amyloid-targeting agents [–], the reasons for these observations are unclear, but may be related to antibody profile and Aβ clearance, as has been suggested previously []."
+    },
+    {
+      "question": "Why did this trial detect clinical differences where most other disease-modifying agents did not?",
+      "position": "The document attributes it to confirmed amyloid pathology in all subjects, lecanemab's selectivity for soluble aggregated Aβ, the Bayesian adaptive design and use of ADCOMS.",
+      "attributed_to": "The study authors of this article",
+      "quote": "Most previously published studies using other putative disease-modifying agents for AD did not show appreciable clinical efficacy in phase 3 [, ]. In this study, it is considered that several features helped to optimize the detection of clinical differences in a relatively slowly progressing early Alzheimer’s disease population."
+    }
+  ],
+  "linked_objects": [
+    {
+      "relation": "registry_record",
+      "identifier": "NCT01767311",
+      "note": "ClinicalTrials.gov registration for BAN2401-G000-201 (Study 201) named in the document's trial registration statement"
+    }
+  ],
+  "trial_status_observation": {
+    "status": null,
+    "enrollment": null,
+    "phase": null,
+    "observed_at": null,
+    "source": null
+  },
+  "unlocatable_fields": [
+    "authors[].affiliation",
+    "authors[].orcid",
+    "authors[].corresponding",
+    "outcomes[*].confidence_interval",
+    "outcomes[primary].p_value",
+    "safety.harms[macrohemorrhage]",
+    "trial_status_observation.status",
+    "trial_status_observation.enrollment",
+    "trial_status_observation.phase",
+    "trial_status_observation.observed_at",
+    "trial_status_observation.source"
+  ],
+  "_meta": {
+    "model": "claude (builder subagent)",
+    "extracted_at": "2026-08-13T16:19:10.636Z",
+    "source": "raw/lecanemab-phase-2b/document.md"
+  }
+}

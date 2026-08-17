@@ -1,0 +1,79 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT03887455",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03887455",
+      "name": "Clarity AD",
+      "drug": "Lecanemab (anti-amyloid beta antibody)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "enrollment": 1906,
+      "population": "Participants 50 to 90 years of age with early Alzheimer's disease (mild cognitive impairment or mild dementia) and evidence of amyloid on PET or CSF testing",
+      "primary_endpoint": "Core Study: Change from Baseline in the CDR-SB at 18 Months",
+      "started": "2019-03",
+      "completed_or_readout": "2029-06",
+      "results_summary": "Lecanemab significantly reduced cognitive and functional decline compared to placebo on the CDR-SB (-0.45 difference, a 27% slowing of decline) at 18 months. ARIA-E occurred in 12.6% of patients, with higher incidence in APOE ε4 homozygotes.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01767311",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01767311",
+      "name": "Study 201",
+      "drug": "Lecanemab (BAN2401)",
+      "phase": "2",
+      "sponsor": "Eisai Inc.",
+      "status": "COMPLETED",
+      "enrollment": 856,
+      "population": "Participants with mild cognitive impairment due to Alzheimer's disease and mild Alzheimer's disease dementia",
+      "primary_endpoint": "Core Study Phase: Change From Baseline in Alzheimer's Disease Composite Score (ADCOMS) at Month 12",
+      "started": "2012-12",
+      "completed_or_readout": "2024-12",
+      "results_summary": "The study did not meet its primary endpoint at 12 months, but 18-month prespecified analyses showed significant reductions in brain amyloid and a consistent reduction of clinical decline across multiple endpoints at the highest dose.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04468659",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04468659",
+      "name": "AHEAD 3-45",
+      "drug": "Lecanemab (anti-amyloid beta antibody)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "enrollment": 1400,
+      "population": "Participants with preclinical Alzheimer's disease and elevated or intermediate amyloid levels",
+      "primary_endpoint": "A45 Trial: Change From Baseline in Preclinical Alzheimer Cognitive Composite 5 (PACC5) Score at Week 216",
+      "started": "2020-07",
+      "completed_or_readout": "2028-12",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2023-01-05",
+      "kind": "paper",
+      "description": "Phase 3 CLARITY AD trial results published in the New England Journal of Medicine.",
+      "url": "https://doi.org/10.1056/NEJMoa2212948"
+    },
+    {
+      "date": "2021-04-17",
+      "kind": "paper",
+      "description": "Phase 2b Study 201 results published in Alzheimer's Research & Therapy.",
+      "url": "https://doi.org/10.1186/s13195-021-00813-8"
+    },
+    {
+      "date": "2023-07-06",
+      "kind": "regulatory",
+      "description": "FDA converts Leqembi (lecanemab-irmb) to traditional approval based on CLARITY AD.",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-converts-novel-alzheimers-disease-treatment-traditional-approval"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence for Leqembi (lecanemab) is robust and strongly supports the claims made in the FDA press release. The Phase 3 CLARITY AD trial successfully verified the clinical and biomarker signals observed in the earlier Phase 2b study, providing a highly significant reduction in cognitive decline as measured by the CDR-SB primary endpoint. The safety profile, specifically the risk of ARIA and its increased severity in APOE ε4 homozygotes, is well-documented in both the Phase 3 publication and the FDA label. The transition from accelerated to traditional approval reflects high confidence in the established clinical benefit for early Alzheimer's disease.",
+  "discrepancies": [
+    "The FDA press release claims an enrollment of 1,795 patients for the CLARITY AD study, which matches the primary NEJM publication cohort, but the ClinicalTrials.gov registry (NCT03887455) currently reports an updated total enrollment of 1,906 patients."
+  ]
+}

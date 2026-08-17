@@ -1,0 +1,107 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT02880956",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02880956",
+      "name": null,
+      "drug": "tilavonemab (anti-tau monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "AbbVie",
+      "status": "Completed",
+      "enrollment": 453,
+      "population": "Patients with early Alzheimer's disease",
+      "primary_endpoint": "Change From Baseline Over Time in CDR-SB Score",
+      "started": "2017-01",
+      "completed_or_readout": "2021-03",
+      "results_summary": "The trial met its target engagement biomarker goals but failed its primary efficacy endpoint. There was no significant difference between tilavonemab and placebo in slowing clinical decline on the CDR-SB across any dose.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03712787",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03712787",
+      "name": null,
+      "drug": "tilavonemab (anti-tau monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "AbbVie",
+      "status": "Terminated",
+      "enrollment": 364,
+      "population": "Patients with early Alzheimer's disease who completed NCT02880956",
+      "primary_endpoint": "Number of Participants With Treatment Emergent Adverse Events (TEAEs)",
+      "started": "2019-03",
+      "completed_or_readout": "2021-09",
+      "results_summary": "The extension study was terminated early following the negative efficacy findings of the parent Phase 2 Alzheimer's disease trial.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02985879",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02985879",
+      "name": null,
+      "drug": "tilavonemab (anti-tau monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "AbbVie",
+      "status": "Terminated",
+      "enrollment": 378,
+      "population": "Patients with Progressive Supranuclear Palsy (PSP)",
+      "primary_endpoint": "Change From Baseline to Week 52 in Progressive Supranuclear Palsy Rating Scale (PSPRS) Total Score",
+      "started": "2016-12",
+      "completed_or_readout": "2019-11",
+      "results_summary": "The trial was terminated early after an interim analysis indicated futility. Tilavonemab was well tolerated but failed to show efficacy on the primary PSPRS clinical endpoint compared to placebo.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03391765",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03391765",
+      "name": null,
+      "drug": "tilavonemab (anti-tau monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "AbbVie",
+      "status": "Terminated",
+      "enrollment": 142,
+      "population": "Patients with Progressive Supranuclear Palsy (PSP)",
+      "primary_endpoint": "Change in Progressive Supranuclear Palsy Rating Scale (PSPRS) Total Score From Baseline to Week 52",
+      "started": "2018-01",
+      "completed_or_readout": "2019-12",
+      "results_summary": "The extension study was terminated early due to lack of efficacy in the parent Phase 2 PSP trial.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02494024",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02494024",
+      "name": "C2N-8E12-WW-104",
+      "drug": "C2N-8E12 / tilavonemab (anti-tau monoclonal antibody)",
+      "phase": "1",
+      "sponsor": "C2N Diagnostics",
+      "status": "Completed",
+      "enrollment": 32,
+      "population": "Subjects With Progressive Supranuclear Palsy (PSP)",
+      "primary_endpoint": "Safety and tolerability, as measured by adverse events and clinical abnormalities",
+      "started": "2015-07",
+      "completed_or_readout": "2016-08",
+      "results_summary": "Single ascending doses were well tolerated, establishing safety to progress into multi-dose Phase 2 trials.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2021-03",
+      "kind": "paper",
+      "description": "Publication of the Phase 2 readout in progressive supranuclear palsy confirming clinical futility of tilavonemab despite an acceptable safety profile.",
+      "url": "https://doi.org/10.1016/S1474-4422(20)30489-0"
+    },
+    {
+      "date": "2023-09-01",
+      "kind": "paper",
+      "description": "Systems pharmacology modeling analysis exploring the clinical failure of anti-tau antibodies including tilavonemab, pointing to target engagement not translating to downstream slowing of neurodegeneration.",
+      "url": "https://doi.org/10.1038/s41598-023-41382-0"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence robustly demonstrates that tilavonemab (ABBV-8E12) lacks therapeutic efficacy in slowing clinical or cognitive decline. In the Phase 2 early Alzheimer's disease trial (NCT02880956), despite clear biomarker evidence of target engagement (reductions in CSF free tau and increases in plasma total tau), there was no significant improvement on the primary endpoint (CDR-SB) or secondary clinical measures. This failure pattern mirrored a parallel Phase 2 trial for progressive supranuclear palsy (PSP) that was terminated early for futility. Consequently, AbbVie has terminated all associated extension studies for both indications, solidifying the conclusion that targeting the N-terminus of tau with tilavonemab is not a viable disease-modifying strategy.",
+  "discrepancies": [
+    "None. The document accurately reflects the clinical registry and publication record, which confirm the drug successfully engaged its target but completely failed on all primary and secondary efficacy endpoints."
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "fact_check": [
+    {
+      "fact": "Total sample size of 854 participants vs 856 in registry",
+      "status": "verified",
+      "note": "Checked against source document: 856 subjects were randomized and 854 were treated, explaining the minor discrepancy with the registry's enrollment count."
+    },
+    {
+      "fact": "The study successfully achieved clinical proof-of-concept",
+      "status": "disputed",
+      "note": "Checked against registry and methods: the trial definitively missed its sole primary endpoint (12-month ADCOMS). The 'proof-of-concept' designation is a post-hoc author conclusion based entirely on secondary 18-month analyses."
+    }
+  ],
+  "research_page": {
+    "slug": "lecanemab-phase-2b",
+    "title": "Lecanemab in early Alzheimer's disease (Phase 2b)",
+    "description": "A Phase 2b adaptive trial of lecanemab that missed its primary 12-month clinical endpoint but demonstrated robust amyloid clearance and signals of slowed clinical decline at 18 months.",
+    "tags": [
+      "paper",
+      "trial",
+      "amyloid",
+      "immunotherapy",
+      "biomarkers",
+      "lecanemab"
+    ],
+    "source_line_md": "**Source**: [Alzheimer's Research & Therapy, 2021](https://doi.org/10.1186/s13195-021-00813-8) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/33865446)",
+    "authors_line_md": "Swanson et al. — Eisai Inc.",
+    "takeaway_md": "This Phase 2b trial technically failed its primary 12-month clinical endpoint. However, secondary analyses at 18 months found that lecanemab (10 mg/kg biweekly) robustly cleared brain amyloid and slowed clinical decline by 27-47%. These secondary signals successfully predicted the drug's Phase 3 success, despite extreme confounding from a mid-trial regulatory change that removed APOE4 carriers from the highest dose group.",
+    "key_findings_md": [
+      "The trial missed its primary 12-month Bayesian efficacy endpoint, achieving a 64% probability of 25% less decline on ADCOMS instead of the required 80% (paper, Table 2).",
+      "At 18 months, the 10 mg/kg biweekly dose reduced brain amyloid by −0.310 SUVr units, with 81% of subjects converting to amyloid-negative (paper, Figure 3).",
+      "Frequentist secondary analyses at 18 months showed 30% less decline on ADCOMS, 47% on ADAS-Cog14, and 26% on CDR-SB compared to placebo (paper, Figure 4).",
+      "ARIA-E occurred in 9.9% of subjects at the highest dose, with incidence rising to 14.3% among APOE4 carriers (paper, Table 3)."
+    ],
+    "methods_md": "An 18-month, double-blind, placebo-controlled Bayesian adaptive trial (NCT01767311) of 854 treated subjects with early Alzheimer's disease (mild cognitive impairment and mild AD dementia) and confirmed amyloid pathology.",
+    "trial_evidence_md": "This trial ([NCT01767311](/trials/lecanemab-nct01767311)) served as the pivotal Phase 2b proof-of-concept for lecanemab. Although it missed its formal primary endpoint, the 18-month secondary findings were vindicated by the much larger Phase 3 [Clarity AD](/trials/clarity-ad-nct03887455) study. Clarity AD met its primary clinical endpoint, leading to lecanemab's traditional FDA approval in July 2023.",
+    "sentiment_md": "Public sentiment is deeply mixed. Caregivers on forums express cautious hope for buying time but voice high anxiety over grueling infusions and the threat of brain swelling (ARIA). Investors focus tightly on commercial adoption rates and safety signals. Meanwhile, the scientific community remains skeptical, debating whether a ~27% slowing of decline clinically justifies the fatal risks of ARIA and the observed brain shrinkage.",
+    "caveats_md": [
+      "A regulatory order mid-trial forced the exclusion of all APOE4 carriers from the highest dose group, creating a severe genetic imbalance (only 30% APOE4 carriers vs ~70% in other arms) that makes direct comparison with other cohorts extremely difficult.",
+      "The paper's conclusions heavily emphasize secondary 18-month outcomes to claim 'proof-of-concept' success, masking the definitive failure of the pre-specified 12-month primary endpoint.",
+      "All statistical significance markers for the secondary clinical endpoints (ADCOMS, ADAS-Cog14, CDR-SB) are nominal and lack any correction for multiple testing."
+    ],
+    "relates_to_md": [
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Lecanemab's subsequent Phase 3 success is a central pillar supporting the hypothesis that clearing amyloid protofibrils slows disease progression.",
+      "[AHEAD 3-45](/trials/ahead-3-45) — The ongoing Phase 3 prevention trial evaluating lecanemab in preclinical Alzheimer's disease."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "lecanemab-nct01767311",
+      "title": "Lecanemab Phase 2b (BAN2401-G000-201)",
+      "description": "Adaptive Phase 2b trial of lecanemab in subjects with early Alzheimer's disease.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "phase-2",
+        "lecanemab",
+        "amyloid"
+      ],
+      "registry_md": "[NCT01767311](https://clinicaltrials.gov/study/NCT01767311)",
+      "drug": "Lecanemab (anti-Aβ protofibril antibody)",
+      "phase": "Phase 2",
+      "sponsor": "Eisai Inc.",
+      "population": "Subjects With Early Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline in ADCOMS at Month 12",
+      "started": "2012-12",
+      "readout": "2021-04",
+      "why_md": "This trial tested whether clearing soluble amyloid protofibrils with lecanemab could slow cognitive decline in early AD, employing a Bayesian adaptive design to identify an optimal dose for Phase 3.",
+      "status_log_md": [
+        "**2012-12-01** — Trial begins.",
+        "**2021-04-17** — [Phase 2b results published](/research/papers/lecanemab-phase-2b), missing 12-month primary endpoint but showing 18-month secondary benefit."
+      ],
+      "results_md": "The trial failed its 12-month primary Bayesian endpoint but demonstrated robust amyloid clearance and dose-dependent slowing of clinical decline at 18 months, supporting progression to Phase 3."
+    },
+    {
+      "slug": "clarity-ad-nct03887455",
+      "title": "Clarity AD (Lecanemab Phase 3)",
+      "description": "Pivotal Phase 3 trial of lecanemab in participants with early Alzheimer's disease.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "phase-3",
+        "lecanemab",
+        "amyloid"
+      ],
+      "registry_md": "[NCT03887455](https://clinicaltrials.gov/study/NCT03887455)",
+      "drug": "Lecanemab (anti-Aβ protofibril antibody)",
+      "phase": "Phase 3",
+      "sponsor": "Eisai Inc.",
+      "population": "Participants With Early Alzheimer's Disease",
+      "primary_endpoint": "Change from Baseline in the CDR-SB at 18 Months",
+      "started": "2019-03",
+      "readout": "2023-01",
+      "why_md": "Designed to definitively confirm the clinical benefit and safety of lecanemab observed in Phase 2b, serving as the pivotal trial for full FDA approval.",
+      "status_log_md": [
+        "**2019-03-01** — Trial begins.",
+        "**2023-01-05** — Pivotal Phase 3 results published, meeting primary endpoint.",
+        "**2023-01-06** — [FDA grants accelerated approval](https://www.fda.gov/news-events/press-announcements/fda-grants-accelerated-approval-alzheimers-disease-treatment)."
+      ],
+      "results_md": "The trial successfully met its primary endpoint, demonstrating a 27% slowing of clinical decline on the CDR-SB at 18 months alongside significant amyloid reduction. These results led to traditional FDA approval in July 2023."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2021-04",
+      "title": "2021-04 — Lecanemab Phase 2b results published",
+      "body_md": "A [Phase 2b trial of lecanemab](/research/papers/lecanemab-phase-2b) missed its 12-month primary endpoint but showed robust amyloid clearance and signals of clinical benefit at 18 months, enabling its Phase 3 program."
+    },
+    {
+      "section": "Disease-modifying era",
+      "date": "2023-01",
+      "title": "2023-01 — Lecanemab receives accelerated FDA approval",
+      "body_md": "The FDA granted accelerated approval to lecanemab (Leqembi) based on its ability to rapidly clear brain amyloid, prior to its full approval in July 2023."
+    }
+  ],
+  "notes_for_editor": []
+}

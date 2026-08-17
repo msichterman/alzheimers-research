@@ -1,0 +1,79 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT05399888",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05399888",
+      "name": "CELIA",
+      "drug": "diranersen (BIIB080)",
+      "phase": "2",
+      "sponsor": "Biogen",
+      "status": "Active",
+      "enrollment": 416,
+      "population": "Adults 50 to 80 years with mild cognitive impairment due to AD or mild AD dementia and evidence of amyloid pathology",
+      "primary_endpoint": "Dose response in Change From Baseline to Week 76 on the CDR-SB",
+      "started": "2022-08",
+      "completed_or_readout": "2026-03",
+      "results_summary": null,
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03186989",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03186989",
+      "name": null,
+      "drug": "IONIS-MAPTRx / diranersen (tau-targeting antisense oligonucleotide)",
+      "phase": "1",
+      "sponsor": "Ionis Pharmaceuticals, Inc.",
+      "status": "Completed",
+      "enrollment": 46,
+      "population": "Patients with Mild Alzheimer's Disease",
+      "primary_endpoint": "Part 1: Number of Participants With Adverse Events That Are Related to Treatment With ISIS 814907",
+      "started": "2017-10",
+      "completed_or_readout": "2022-05",
+      "results_summary": "Demonstrated that multiple ascending doses of the drug were safe and well-tolerated with no serious adverse events. It also established robust target engagement, showing dose-dependent reductions of CSF total-tau greater than 50% at the highest doses 24 weeks post-treatment.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT06454721",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06454721",
+      "name": null,
+      "drug": "diranersen (BIIB080)",
+      "phase": "1",
+      "sponsor": "Biogen",
+      "status": "Completed",
+      "enrollment": 5,
+      "population": "Healthy Adults",
+      "primary_endpoint": "CNS Biodistribution of [89Zr]Zr-DFO-Diranersen Assessed as the Percentage of Dose Taken up by Each Region of Interest (ROI)",
+      "started": "2025-01",
+      "completed_or_readout": "2026-03",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2023-06",
+      "kind": "paper",
+      "description": "Primary Phase 1b trial results showing safety and target engagement (tau reduction) of MAPTRx in mild AD.",
+      "url": "https://doi.org/10.1038/s41591-023-02326-3"
+    },
+    {
+      "date": "2023-12",
+      "kind": "paper",
+      "description": "Exploratory tau biomarker results from the multiple ascending-dose study of BIIB080.",
+      "url": "https://doi.org/10.1001/jamaneurol.2023.3861"
+    },
+    {
+      "date": "2026-02",
+      "kind": "paper",
+      "description": "Exploratory analyses of clinical outcomes from the BIIB080 Phase 1b study.",
+      "url": "https://doi.org/10.1038/s43587-025-01031-9"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence for diranersen (BIIB080) is currently anchored by a completed Phase 1b trial (NCT03186989) which demonstrated that the drug is safe, well-tolerated, and successfully engages its target, achieving a >50% dose-dependent reduction in CSF total-tau levels. The document correctly outlines the design of the Phase 2 CELIA trial (NCT05399888), which is assessing clinical efficacy (CDR-SB) in early Alzheimer's disease. While CELIA is technically still active due to its ongoing long-term extension period, the primary placebo-controlled evaluation period reached its actual completion date in March 2026. Because clinical efficacy outcomes have not yet been published, diranersen's ability to meaningfully slow cognitive decline remains an open question pending the upcoming CELIA readouts.",
+  "discrepancies": [
+    "The document describes the Phase 2 CELIA trial as an 'ongoing' study and correctly notes there are no results posted, but misses a critical timeline detail: the primary completion date for the 76-week placebo-controlled efficacy period has already passed (March 11, 2026), suggesting top-line clinical results should be imminent."
+  ]
+}

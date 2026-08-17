@@ -1,0 +1,273 @@
+{
+  "kind": "research-paper",
+  "title": "Plasma phospho-tau181 as a biomarker for Alzheimer’s disease: development and validation of a prediction model using data from four prospective cohorts",
+  "authors": [
+    {
+      "name": "Thomas K. Karikari",
+      "affiliation": "Department of Psychiatry and Neurochemistry, Institute of Neuroscience and Physiology, The Sahlgrenska Academy, University of Gothenburg",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Tharick A. Pascoal",
+      "affiliation": "Translational Neuroimaging Laboratory, The McGill University Research Centre for Studies in Aging; Montreal Neurological Institute",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Nicholas J. Ashton",
+      "affiliation": "Department of Psychiatry and Neurochemistry, Institute of Neuroscience and Physiology, The Sahlgrenska Academy, University of Gothenburg; Wallenberg Centre for Molecular and Translational Medicine; King’s College London, Institute of Psychiatry, Psychology & Neuroscience, Maurice Wohl Clinical Neuroscience Institute, London, UK; NIHR Biomedical Research Centre for Mental Health & Biomedical Research Unit for Dementia at South London & Maudsley NHS Foundation, London, UK",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Shorena Janelidze",
+      "affiliation": "Clinical Memory Research Unit, Department of Clinical Sciences, Lund University, Lund, Sweden",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Andréa Lessa Benedet",
+      "affiliation": "Translational Neuroimaging Laboratory, The McGill University Research Centre for Studies in Aging",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Juan Lantero Rodriguez",
+      "affiliation": "Department of Psychiatry and Neurochemistry, Institute of Neuroscience and Physiology, The Sahlgrenska Academy, University of Gothenburg",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Mira Chamoun",
+      "affiliation": "Translational Neuroimaging Laboratory, The McGill University Research Centre for Studies in Aging",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Melissa Savard",
+      "affiliation": "Translational Neuroimaging Laboratory, The McGill University Research Centre for Studies in Aging",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Min Su Kang",
+      "affiliation": "Translational Neuroimaging Laboratory, The McGill University Research Centre for Studies in Aging; Montreal Neurological Institute",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Joseph Therriault",
+      "affiliation": "Translational Neuroimaging Laboratory, The McGill University Research Centre for Studies in Aging",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Michael Schöll",
+      "affiliation": "Department of Psychiatry and Neurochemistry, Institute of Neuroscience and Physiology, The Sahlgrenska Academy, University of Gothenburg; Wallenberg Centre for Molecular and Translational Medicine",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Gassan Massarweh",
+      "affiliation": "Montreal Neurological Institute",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Jean-Paul Soucy",
+      "affiliation": "Montreal Neurological Institute",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Kina Höglund",
+      "affiliation": "Department of Psychiatry and Neurochemistry, Institute of Neuroscience and Physiology, The Sahlgrenska Academy, University of Gothenburg; Clinical Neurochemistry Laboratory, Sahlgrenska University Hospital, Mölndal, Sweden",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Gunnar Brinkmalm",
+      "affiliation": "Department of Psychiatry and Neurochemistry, Institute of Neuroscience and Physiology, The Sahlgrenska Academy, University of Gothenburg",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Niklas Mattsson",
+      "affiliation": "Clinical Memory Research Unit, Department of Clinical Sciences, Lund University, Lund, Sweden; Wallenberg Center for Molecular Medicine, Lund University, Lund, Sweden; Department of Neurology, Skåne University Hospital, Lund University, Lund, Sweden",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Sebastian Palmqvist",
+      "affiliation": "Clinical Memory Research Unit, Department of Clinical Sciences, Lund University, Lund, Sweden",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Serge Gauthier",
+      "affiliation": "Montreal Neurological Institute",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Erik Stomrud",
+      "affiliation": "Clinical Memory Research Unit, Department of Clinical Sciences, Lund University, Lund, Sweden",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Henrik Zetterberg",
+      "affiliation": "Department of Psychiatry and Neurochemistry, Institute of Neuroscience and Physiology, The Sahlgrenska Academy, University of Gothenburg; Clinical Neurochemistry Laboratory, Sahlgrenska University Hospital, Mölndal, Sweden; Department of Neurodegenerative Disease, UCL Institute of Neurology, London, UK; UK Dementia Research Institute at UCL, London, UK",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "served at scientific advisory boards for Wave, Samumed, CogRx and Roche Diagnostics and has given open lectures for Alzecure. co-founder of Brain Biomarker Solutions in Gothenburg AB"
+    },
+    {
+      "name": "Oskar Hansson",
+      "affiliation": "Clinical Memory Research Unit, Department of Clinical Sciences, Lund University, Lund, Sweden; Memory Clinic, Skåne University Hospital, Malmö, Sweden",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "acquired research support (for the institution) from Roche, Pfizer, GE Healthcare, Biogen, AVID Radiopharmaceuticals and Euroimmun. received consultancy/speaker fees (paid to the institution) from Biogen and Roche"
+    },
+    {
+      "name": "Pedro Rosa-Neto",
+      "affiliation": "Translational Neuroimaging Laboratory, The McGill University Research Centre for Studies in Aging; Montreal Neurological Institute",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Kaj Blennow",
+      "affiliation": "Department of Psychiatry and Neurochemistry, Institute of Neuroscience and Physiology, The Sahlgrenska Academy, University of Gothenburg; Clinical Neurochemistry Laboratory, Sahlgrenska University Hospital, Mölndal, Sweden",
+      "orcid": null,
+      "email": "kaj.blennow@neuro.gu.se",
+      "corresponding": true,
+      "conflicts": "served as a consultant or at advisory boards for Axon, Biogen, CogRx, Lilly, MagQu, Novartis and Roche Diagnostics. co-founder of Brain Biomarker Solutions in Gothenburg AB"
+    }
+  ],
+  "first_author": "Thomas K. Karikari",
+  "venue": "The Lancet Neurology",
+  "published": "2020-05",
+  "doi": "10.1016/s1474-4422(20)30071-5",
+  "doi_url": "https://doi.org/10.1016/s1474-4422(20)30071-5",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/32333900/",
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "paper",
+    "amyloid",
+    "tau",
+    "biomarkers",
+    "plasma-ptau181",
+    "diagnostic-model",
+    "prospective-cohorts"
+  ],
+  "themes": [
+    "Blood-based biomarker for Alzheimer's disease",
+    "Diagnostic accuracy of plasma p-tau181",
+    "Differentiation from other neurodegenerative diseases",
+    "Predicting longitudinal cognitive decline and atrophy"
+  ],
+  "one_line": "An ultrasensitive blood immunoassay for plasma p-tau181 accurately distinguishes Alzheimer's disease from other neurodegenerative disorders and predicts tau and amyloid pathology.",
+  "summary": "The researchers developed and validated an ultrasensitive blood immunoassay for p-tau181, evaluating it across four prospective clinic-based cohorts (discovery, two validation, and primary-care) totaling 1,131 participants. They demonstrated that plasma p-tau181 levels progressively increase along the Alzheimer's disease continuum, accurately differentiating AD dementia from cognitively unimpaired elderly and those with other neurodegenerative diseases. The biomarker was strongly associated with PET-measured cerebral tau and amyloid-β pathologies. Furthermore, baseline plasma p-tau181 levels predicted one-year cognitive decline and hippocampal atrophy. The assay outperformed traditional risk factors like age and APOE ε4, suggesting it could serve as a scalable and highly accessible first-line screening test for Alzheimer's disease in both specialized and primary care settings.",
+  "key_claims": [
+    {
+      "claim": "Plasma p-tau181 levels gradually increase across the Alzheimer's disease continuum.",
+      "evidence": "Levels rose stepwise from Aβ-negative young/CU individuals to Aβ-positive CU/MCI and AD dementia (P<0.0001).",
+      "strength": "strong",
+      "location": "Findings / Figure 1C, 1E"
+    },
+    {
+      "claim": "Plasma p-tau181 accurately differentiates Alzheimer's disease from other neurodegenerative disorders.",
+      "evidence": "Achieved AUCs between 82.76% and 100% when distinguishing AD from FTD, vascular dementia, PSP/CBS, and PD/MSA.",
+      "strength": "strong",
+      "location": "Findings / Figure 1D, 1F"
+    },
+    {
+      "claim": "Plasma p-tau181 is a highly accurate predictor of in vivo tau and Aβ PET positivity.",
+      "evidence": "Predicted tau PET (AUC=82.37-93.11%) and Aβ PET (AUC=76.14-88.09%) pathologies, outperforming age and APOE ε4 carriage.",
+      "strength": "strong",
+      "location": "Findings / Figure 3"
+    },
+    {
+      "claim": "Plasma p-tau181 is associated with one-year cognitive decline and hippocampal atrophy.",
+      "evidence": "Baseline levels significantly correlated with one-year worsening in MMSE scores (P=0.0015) and reduction in hippocampus gray matter density (P=0.01).",
+      "strength": "moderate",
+      "location": "Findings / Figure 4"
+    }
+  ],
+  "methods": {
+    "design": "Prospective cohort study with cross-sectional and longitudinal elements",
+    "n": 1131,
+    "population": "Cognitively unimpaired young and elderly adults, MCI, Alzheimer's disease dementia, and other neurodegenerative diseases across four independent cohorts",
+    "duration": "Cross-sectional analysis with a 1-year longitudinal follow-up subset",
+    "registration": null
+  },
+  "funding_and_conflicts": "Funded by Alzheimer Drug Discovery Foundation, European Research Council, Swedish Research Council, and others. HZ and KB declared conflicts as consultants/advisors for pharmaceutical companies and co-founders of Brain Biomarker Solutions in Gothenburg AB. OH declared research support and consultancy fees from Biogen, Roche, etc. Other authors declared no conflicts.",
+  "limitations": [
+    "Longitudinal analysis was restricted to a small subset (n=88) of one cohort.",
+    "Primary-care cohort lacked PET or CSF biomarker confirmation for AD diagnosis, resulting in diagnostic overlap with MCI.",
+    "Potential cohort effects due to the multi-centric design and different PET ligands used between TRIAD and BioFINDER-2."
+  ],
+  "red_flags": [
+    "The overlap in plasma p-tau181 between MCI and AD in the primary-care cohort is post-hoc rationalized as being driven by MCI patients already having AD phenotypes, without biomarker proof in that cohort."
+  ],
+  "parse_quality": {
+    "score": 7,
+    "issues": [
+      "Mangled tables with run-together columns (e.g., '5/18 (27·8%) 10/20 (52·6%)').",
+      "Missing formatting boundaries leading to messy table headers and interlaced rows.",
+      "Some section headers missing line breaks."
+    ]
+  },
+  "search_verification": [
+    "Queried CrossRef API and PubMed to verify the venue (The Lancet Neurology), publication date (May 2020), DOI (10.1016/s1474-4422(20)30071-5), and PubMed ID (32333900). Noted slight title variation in the final published version."
+  ]
+}

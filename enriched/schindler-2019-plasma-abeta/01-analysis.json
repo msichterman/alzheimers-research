@@ -1,0 +1,172 @@
+{
+  "kind": "research-paper",
+  "title": "High-precision plasma β-amyloid 42/40 predicts current and future brain amyloidosis",
+  "authors": [
+    {
+      "name": "Schindler, Suzanne E.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Bollinger, James G.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Ovod, Vitaliy",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Mawuenyega, Kwasi G.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Li, Yan",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Gordon, Brian A.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Holtzman, David M.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Morris, John C.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Benzinger, Tammie L.S.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Xiong, Chengjie",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Fagan, Anne M.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Bateman, Randall J.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Schindler, Suzanne E.",
+  "venue": "Neurology",
+  "published": "2019",
+  "doi": "10.1212/WNL.0000000000008081",
+  "doi_url": "https://doi.org/10.1212/WNL.0000000000008081",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/31371569/",
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "paper",
+    "amyloid",
+    "biomarkers",
+    "prevention",
+    "plasma-abeta",
+    "mass-spectrometry",
+    "blood-test"
+  ],
+  "themes": [
+    "Plasma Aβ42/Aβ40 biomarker accuracy",
+    "Brain amyloidosis diagnosis",
+    "Predicting amyloid PET conversion",
+    "Alzheimer disease screening"
+  ],
+  "one_line": "Plasma Aβ42/Aβ40 measured via a high-precision assay accurately diagnoses current brain amyloidosis and, particularly when combined with age and APOE ε4 status, strongly predicts future conversion to amyloid PET positivity in cognitively normal individuals.",
+  "summary": "This study evaluated the diagnostic accuracy of plasma β-amyloid (Aβ) 42/40 for detecting brain amyloidosis using high-precision immunoprecipitation and liquid chromatography-mass spectrometry. Researchers analyzed plasma and CSF samples from 158 primarily cognitively normal participants, collected within 18 months of an amyloid PET scan. Results indicated a high correspondence between plasma Aβ42/Aβ40 and both amyloid PET status (AUC 0.88) and CSF p-tau181/Aβ42 (AUC 0.85). Incorporating age and APOE ε4 status alongside the plasma biomarker yielded an even stronger predictive model for amyloid PET positivity (AUC 0.94). Furthermore, baseline cognitively normal individuals with a negative amyloid PET scan but a positive plasma Aβ42/Aβ40 ratio (<0.1218) demonstrated a 15-fold greater risk of subsequently converting to an amyloid PET-positive status. The authors conclude that plasma Aβ42/Aβ40 is an effective, accessible screening tool for brain amyloidosis, positioning it as a highly valuable prescreening measure for Alzheimer's disease prevention trials.",
+  "key_claims": [
+    {
+      "claim": "Plasma Aβ42/Aβ40 highly corresponds with amyloid PET status and CSF p-tau181/Aβ42.",
+      "evidence": "ROC AUC of 0.88 (95% CI 0.82–0.93) for PET status; AUC of 0.85 (95% CI 0.79–0.92) for CSF p-tau181/Aβ42.",
+      "strength": "strong",
+      "location": "Results"
+    },
+    {
+      "claim": "Combining plasma Aβ42/Aβ40 with age and APOE ε4 status produces very high correspondence with amyloid PET.",
+      "evidence": "ROC AUC of 0.94 (95% CI 0.90–0.97).",
+      "strength": "strong",
+      "location": "Results"
+    },
+    {
+      "claim": "A positive plasma Aβ42/Aβ40 test in individuals with a currently negative amyloid PET scan strongly predicts future conversion to PET-positivity.",
+      "evidence": "15-fold greater risk of conversion (p = 0.01) for those with plasma Aβ42/Aβ40 <0.1218 compared to those with negative plasma results.",
+      "strength": "strong",
+      "location": "Results"
+    }
+  ],
+  "methods": {
+    "design": "cohort study (Class II evidence)",
+    "n": 158,
+    "population": "mostly cognitively normal individuals",
+    "duration": "samples collected within 18 months of an amyloid PET scan",
+    "registration": null
+  },
+  "funding_and_conflicts": "none stated",
+  "limitations": [
+    "Document is truncated to the abstract only, lacking full methodological details, detailed demographics, and comprehensive limitations.",
+    "The 15-fold conversion risk is derived from an unspecified subset of the 158 participants who were initially PET-negative, suggesting the longitudinal sample size may be small."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 9,
+    "issues": [
+      "The source text is incomplete, consisting only of the title, authors, identifiers, and abstract. No body text, affiliations, or metadata sections are present."
+    ]
+  },
+  "search_verification": []
+}

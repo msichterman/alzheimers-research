@@ -1,0 +1,76 @@
+{
+  "overall": "negative",
+  "summary": "Public sentiment surrounding aducanumab (Aduhelm) is overwhelmingly skeptical and negative, serving as a cautionary tale of pharmaceutical overreach. While patients and caregivers initially experienced a brief wave of hope, this rapidly dissolved into deep medical mistrust due to exorbitant costs, confusing efficacy data, and high rates of severe side effects like ARIA. The scientific and medical communities strongly opposed the drug’s approval, viewing the post-hoc data mining of a terminated futility trial as statistically invalid. Investors, who initially drove up Biogen's stock on the FDA approval, eventually soured on the drug following its commercial failure and ultimate discontinuation. By 2026, the drug is largely remembered across all communities as a profound regulatory failure rather than a medical breakthrough.",
+  "communities": [
+    {
+      "community": "r/Alzheimers and Caregiver Forums",
+      "sentiment": "skeptical",
+      "themes": [
+        "High risk of brain swelling and bleeding (ARIA)",
+        "Exorbitant cost and lack of Medicare coverage",
+        "Erosion of trust in the medical system and the FDA"
+      ],
+      "example_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/41561789"
+      ]
+    },
+    {
+      "community": "Scientific and Medical Community",
+      "sentiment": "negative",
+      "themes": [
+        "Post-hoc data mining of a failed trial",
+        "FDA ignoring its own advisory committee",
+        "Weak evidence of clinical benefit despite amyloid clearing"
+      ],
+      "example_urls": [
+        "https://blogs.sciencemag.org/pipeline/archives/2021/06/08/the-aducanumab-approval",
+        "https://astralcodexten.substack.com/p/adumbrations-of-aducanumab"
+      ]
+    },
+    {
+      "community": "Retail Investors (Biogen / BIIB)",
+      "sentiment": "negative",
+      "themes": [
+        "Massive commercial failure after initial hype",
+        "CMS refusing broad insurance coverage",
+        "Drug abandonment and subsequent company layoffs"
+      ],
+      "example_urls": [
+        "https://news.ycombinator.com/item?id=39207475",
+        "https://news.ycombinator.com/item?id=29625066"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Science Magazine (In the Pipeline)",
+      "tone": "critical",
+      "date": "2021-06",
+      "url": "https://blogs.sciencemag.org/pipeline/archives/2021/06/08/the-aducanumab-approval"
+    },
+    {
+      "outlet": "Reuters",
+      "tone": "neutral",
+      "date": "2021-06",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/us-fda-set-rule-controversial-biogen-alzheimers-drug-2021-06-07/"
+    },
+    {
+      "outlet": "BBC",
+      "tone": "critical",
+      "date": "2021-12",
+      "url": "https://www.bbc.co.uk/news/health-59699907"
+    }
+  ],
+  "hype_vs_evidence": "Public hype initially positioned aducanumab as a highly effective treatment for Alzheimer's disease, fueled by corporate press releases emphasizing amyloid clearance as a victory. However, this heavily diverged from the actual trial evidence, which showed only a marginal -0.39 difference on the CDR-SB scale—a change that is clinically imperceptible to most families. Furthermore, the public perception of the drug's safety was initially overly optimistic until the high rates of brain swelling and bleeding (ARIA) became widely reported. Ultimately, the clinical reality of a trial initially terminated for futility caught up with the early marketing hype, resulting in the drug being pulled from the market.",
+  "misinformation_flags": [
+    "Claims that Aducanumab reverses memory loss or restores cognitive function, when trial data only claimed a slight statistical slowing of clinical decline.",
+    "Claims that the drug was proven safe and unconditionally approved, ignoring the 33.5% incidence of ARIA-E in the high-dose group and the FDA advisory committee's near-unanimous rejection."
+  ],
+  "searches_run": [
+    "https://html.duckduckgo.com/html/?q=site:reddit.com+aducanumab+alzheimers",
+    "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=aducanumab+controversy&utf8=&format=json",
+    "https://hn.algolia.com/api/v1/search?query=aducanumab&hitsPerPage=10",
+    "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=aducanumab+controversy&retmode=json&retmax=5",
+    "https://hn.algolia.com/api/v1/search?query=biogen+aduhelm&hitsPerPage=10"
+  ]
+}

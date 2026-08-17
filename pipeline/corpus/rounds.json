@@ -1,0 +1,189 @@
+{
+  "rounds": [
+    {
+      "round": 1,
+      "started_at": "2026-08-13T16:59:20.720Z",
+      "focus": "baseline after wave 1: amyloid-antibody, BACE, tau, genetics, regulatory, prevention partially extracted",
+      "cluster": "all",
+      "model": "gemini-3.1-pro-preview",
+      "questions_run": 13,
+      "corpus_wins": 6,
+      "ab_verdicts": [
+        {
+          "question_id": "lecanemab-phase2b-primary",
+          "cluster": "amyloid-antibody",
+          "required": true,
+          "question": "Did lecanemab's Phase 2b study meet its prespecified primary criterion? State the criterion, the threshold, and the result.",
+          "winner": "primary-sources",
+          "margin": "narrow",
+          "reasoning": "Answer B correctly defines the ED90 dose as a modeled parameter rather than assuming it was fixed as 10 mg/kg biweekly from the start, which better reflects the adaptive Bayesian design of the trial. Both answers accurately report the criterion, threshold, and result.",
+          "largest_gap": "Answer A fails to define what the ED90 dose actually means in the context of the trial's adaptive design, instead just equating it to the 10 mg/kg biweekly dose in the criterion section.",
+          "errors_in_corpus_answer": [],
+          "records_in_scope": 5
+        },
+        {
+          "question_id": "amyloid-class-consistency",
+          "cluster": "amyloid-antibody",
+          "required": true,
+          "question": "Has amyloid lowering produced consistent clinical benefit across the anti-amyloid antibody class? Answer with the evidence from across the class, not from the successful trials alone.",
+          "winner": "corpus",
+          "margin": "clear",
+          "reasoning": "Answer A provides a more comprehensive and balanced view by including the missed prespecified secondary endpoint (CDR-SB) for Lecanemab, whereas Answer B cherry-picks only the successful secondary endpoints. Answer A also captures the rationalizations from the Gantenerumab and Solanezumab authors, better reflecting the genuine disagreements in the field. Finally, Answer B hallucinates a future publication year (2026) for the Cochrane review.",
+          "largest_gap": "Omits the missed prespecified secondary endpoint (CDR-SB) for Lecanemab Study 201, softening the trial's failure by only highlighting the successful secondary endpoints.",
+          "errors_in_corpus_answer": [],
+          "records_in_scope": 5
+        },
+        {
+          "question_id": "sprint-mind-dementia",
+          "cluster": "prevention",
+          "required": true,
+          "question": "Did SPRINT MIND reduce dementia? Be precise about which endpoint was reduced and which was not, and about statistical significance.",
+          "winner": "primary-sources",
+          "margin": "decisive",
+          "reasoning": "Answer B successfully locates and extracts the specific event rates, hazard ratios, and confidence intervals for the SPRINT MIND trial's endpoints from the source material. Answer A completely fails to find this information, incorrectly stating that the corpus lacks it.",
+          "largest_gap": "Failing to find and report the specific SPRINT MIND trial results (event rates, hazard ratios, and confidence intervals) that were available in the text.",
+          "errors_in_corpus_answer": [
+            "Incorrectly claims the provided material lacks information on the SPRINT MIND trial's endpoints and results."
+          ],
+          "records_in_scope": 1
+        },
+        {
+          "question_id": "us-pointer-control-arm",
+          "cluster": "prevention",
+          "required": true,
+          "question": "Did U.S. POINTER have an untreated control arm? Describe what each arm received and what that means for interpreting the result.",
+          "winner": "primary-sources",
+          "margin": "narrow",
+          "reasoning": "Both answers correctly state that the provided material lacks information to answer the question. Answer B is slightly better because it directly addresses the specific parts of the prompt, such as 'what that means for interpreting the results', whereas Answer A paraphrases this to 'its results'.",
+          "largest_gap": "Answer A slightly paraphrases the prompt's question about interpreting results into 'its results', which loses a tiny bit of the nuance of the original question.",
+          "errors_in_corpus_answer": [],
+          "records_in_scope": 1
+        },
+        {
+          "question_id": "cochrane-vs-regulators",
+          "cluster": "amyloid-antibody",
+          "required": true,
+          "question": "What does the 2026 Cochrane pooled analysis of anti-amyloid antibodies conclude, and how does that differ from what FDA and EMA concluded? Attribute each position to its source.",
+          "winner": "primary-sources",
+          "margin": "clear",
+          "reasoning": "Answer A explicitly details the negative and failed programs (gantenerumab, solanezumab, and lecanemab's Phase 2b) and plainly states that they missed their primary endpoints, directly satisfying two of the core evaluation criteria. Answer B omits these specific failed trials and makes a broader, less precise statement about endpoints being 'missed clinically.'",
+          "largest_gap": "Answer B fails to mention the specific negative and failed trials (such as gantenerumab and solanezumab) and their missed primary endpoints.",
+          "errors_in_corpus_answer": [
+            "States that the EMA approved aducanumab, which is incorrect (the EMA rejected it and the application was withdrawn)."
+          ],
+          "records_in_scope": 5
+        },
+        {
+          "question_id": "lumipulse-clearance-status",
+          "cluster": "regulatory",
+          "required": true,
+          "question": "Does the FDA clearance of the Lumipulse plasma pTau217/beta-amyloid 1-42 ratio still stand unqualified? Include any post-market action and what it affected.",
+          "winner": "corpus",
+          "margin": "narrow",
+          "reasoning": "Both models correctly admit that the provided documents do not contain the answer to the prompt. Answer B is slightly better because it identifies and provides the closest related information from the text (the FDA's caution regarding p-tau217 bioanalysis) while maintaining that it does not directly answer the question.",
+          "largest_gap": "Answer A stops at stating the information is missing without offering the closely related context about p-tau217 bioanalysis uncertainties found in the text.",
+          "errors_in_corpus_answer": [],
+          "records_in_scope": 2
+        },
+        {
+          "question_id": "bace-programme-outcome",
+          "cluster": "bace",
+          "required": false,
+          "question": "What happened when BACE inhibition was tested in Alzheimer's disease, and did treating earlier rescue the mechanism? Include any evidence of harm.",
+          "winner": "primary-sources",
+          "margin": "clear",
+          "reasoning": "Answer A is factually accurate and correctly distinguishes between prespecified and exploratory endpoints. Answer B contains factual errors, including misattributing data between the two trials and incorrectly elevating an exploratory endpoint to a prespecified secondary outcome.",
+          "largest_gap": "Answer B needs to correctly identify progression to dementia as an exploratory endpoint rather than a prespecified secondary outcome, and ensure specific trial data (like hippocampal volume changes) is attributed to the correct trial.",
+          "errors_in_corpus_answer": [
+            "Claims progression to Alzheimer's dementia in the APECS trial was a prespecified secondary outcome, when it was actually an exploratory endpoint.",
+            "Incorrectly attributes the hippocampal volume reduction percentages from the EPOCH trial (6.5% to 6.7% vs 6.1%) to the APECS trial."
+          ],
+          "records_in_scope": 2
+        },
+        {
+          "question_id": "anti-tau-antibody-class",
+          "cluster": "tau",
+          "required": false,
+          "question": "What have anti-tau antibody trials in Alzheimer's disease shown about the relationship between target engagement and clinical benefit?",
+          "winner": "corpus",
+          "margin": "clear",
+          "reasoning": "Answer A explicitly addresses the differing interpretations among investigators regarding the disconnect between target engagement and clinical benefit, fulfilling the criterion to present genuine attributed disagreement. It is also more precise in identifying which target engagement results were derived from post hoc analyses (e.g., Tauriel's CSF tau declines).",
+          "largest_gap": "Answer B fails to include the differing perspectives and hypotheses from investigators on why target engagement did not translate to clinical benefit, missing an opportunity to present attributed disagreements.",
+          "errors_in_corpus_answer": [],
+          "records_in_scope": 5
+        },
+        {
+          "question_id": "gwas-independence",
+          "cluster": "genetics",
+          "required": false,
+          "question": "How many independent replications support the current Alzheimer's genetic risk loci, and what limits their generalisability?",
+          "winner": "corpus",
+          "margin": "clear",
+          "reasoning": "Answer B explicitly highlights and attributes a genuine disagreement between the sources regarding the use of proxy cases, directly satisfying the prompt's criteria. It also provides a more comprehensive look at failed replications by including the four previously reported loci that failed to replicate in the 2026 GWAS.",
+          "largest_gap": "Answer A resolves the differing views on proxy cases into a single negative limitation, missing the explicit disagreement where Bellenguez defended their use as adding power without losing biological relevance.",
+          "errors_in_corpus_answer": [],
+          "records_in_scope": 3
+        },
+        {
+          "question_id": "ptau217-clinical-readiness",
+          "cluster": "biomarkers",
+          "required": false,
+          "question": "Is plasma p-tau217 ready to diagnose Alzheimer's disease on its own in routine primary care? Distinguish research performance from approved clinical use.",
+          "winner": "primary-sources",
+          "margin": "narrow",
+          "reasoning": "Both answers correctly identify that the provided text does not contain the answer and accurately describe the actual contents of the document (the Centiloid Project). Answer B is slightly better because it explicitly references the specific constraints of the prompt (research performance vs. approved clinical use) when explaining what is missing.",
+          "largest_gap": "It does not explicitly state that the text lacks information on research performance versus approved clinical use, which was a specific constraint in the prompt.",
+          "errors_in_corpus_answer": [],
+          "records_in_scope": 1
+        },
+        {
+          "question_id": "aria-apoe-risk",
+          "cluster": "amyloid-antibody",
+          "required": false,
+          "question": "How does APOE e4 genotype affect the risk of ARIA with anti-amyloid antibodies, and what does that mean for who gets treated?",
+          "winner": "corpus",
+          "margin": "decisive",
+          "reasoning": "Answer B explicitly follows all the specific instructions provided in the prompt. It correctly identifies the prespecified versus post-hoc nature of the aducanumab safety analysis, plainly states when primary endpoints were missed, includes the failed solanezumab trial, and frames the lecanemab dosing restriction as an attributed disagreement between the regulator and the sponsor.",
+          "largest_gap": "Answer A fails to distinguish the aducanumab safety analysis as a secondary/integrated analysis, omits the failed solanezumab trial, and softens the explicit disagreement between the regulatory authority and the study authors regarding lecanemab dosing.",
+          "errors_in_corpus_answer": [],
+          "records_in_scope": 5
+        },
+        {
+          "question_id": "prevention-trial-record",
+          "cluster": "prevention",
+          "required": false,
+          "question": "What does the randomized evidence actually show about multidomain lifestyle intervention preventing dementia?",
+          "winner": "primary-sources",
+          "margin": "decisive",
+          "reasoning": "Answer B correctly extracts the specific randomized trial data (FINGER and HATICE) from the text, carefully separating main findings from subgroup analyses. Answer A completely misses this information, falsely claiming the corpus does not report the specific results of these trials.",
+          "largest_gap": "Falsely claiming the text does not contain the results of the randomized trials, thereby missing the detailed findings of the FINGER and HATICE trials.",
+          "errors_in_corpus_answer": [
+            "Falsely claims the corpus does not report the specific results, endpoints, or data from multidomain lifestyle intervention trials."
+          ],
+          "records_in_scope": 1
+        },
+        {
+          "question_id": "negative-trial-recall",
+          "cluster": "amyloid-antibody",
+          "required": false,
+          "question": "Which anti-amyloid antibody programmes failed to show clinical benefit, and what was the reported result in each?",
+          "winner": "corpus",
+          "margin": "narrow",
+          "reasoning": "Both answers excellently address the prompt by clearly stating missed primary endpoints, admitting when specific numerical data is missing from the source text, and covering failed programmes. However, Answer B does a superior job of explicitly framing and attributing genuine disagreements (especially between the Cochrane authors and regulatory agencies), and it avoids Answer A's hallucinated publication date.",
+          "largest_gap": "Answer A hallucinates a future publication year (2026) for the Cochrane review and misses the explicit disagreement between the Cochrane authors and regulatory agencies (FDA, EMA, MHRA) regarding the benefit-to-risk balance.",
+          "errors_in_corpus_answer": [],
+          "records_in_scope": 5
+        }
+      ],
+      "next_builder_tasks": [
+        "[amyloid-antibody] Answer A fails to define what the ED90 dose actually means in the context of the trial's adaptive design, instead just equating it to the 10 mg/kg biweekly dose in the criterion section.",
+        "[prevention] Failing to find and report the specific SPRINT MIND trial results (event rates, hazard ratios, and confidence intervals) that were available in the text.",
+        "[prevention] Answer A slightly paraphrases the prompt's question about interpreting results into 'its results', which loses a tiny bit of the nuance of the original question.",
+        "[amyloid-antibody] Answer B fails to mention the specific negative and failed trials (such as gantenerumab and solanezumab) and their missed primary endpoints.",
+        "[bace] Answer B needs to correctly identify progression to dementia as an exploratory endpoint rather than a prespecified secondary outcome, and ensure specific trial data (like hippocampal volume changes) is attributed to the correct trial.",
+        "[biomarkers] It does not explicitly state that the text lacks information on research performance versus approved clinical use, which was a specific constraint in the prompt.",
+        "[prevention] Falsely claiming the text does not contain the results of the randomized trials, thereby missing the detailed findings of the FINGER and HATICE trials."
+      ]
+    }
+  ]
+}

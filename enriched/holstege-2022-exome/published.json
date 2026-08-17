@@ -1,0 +1,17 @@
+{
+  "published_at": "2026-08-16T22:50:29.361Z",
+  "files": [
+    "docs/research/papers/atp8b4-abca1-exome-sequencing-ad.mdx",
+    "docs/trials/invoke-2-nct04592874.mdx"
+  ],
+  "timeline": [
+    {
+      "title": "2022-11 — Large-scale exome sequencing links ATP8B4 and ABCA1 to Alzheimer's risk",
+      "action": "skipped (already present)"
+    },
+    {
+      "title": "2024-09 — TREM2 agonist AL002 fails Phase 2 INVOKE-2 trial",
+      "action": "skipped (already present)"
+    }
+  ]
+}

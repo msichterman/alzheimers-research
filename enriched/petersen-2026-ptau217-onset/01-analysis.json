@@ -1,0 +1,326 @@
+{
+  "kind": "research-paper",
+  "title": "Predicting onset of symptomatic Alzheimerʼs disease with plasma p-tau217 clocks",
+  "authors": [
+    {
+      "name": "Petersen, Kellen K.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "consultant for Eli Lilly and Company"
+    },
+    {
+      "name": "Milà-Alomà, Marta",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "nothing to disclose"
+    },
+    {
+      "name": "Li, Yan",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "co-inventor of the technology ‘Novel Tau isoforms to predict onset of symptoms and dementia in Alzheimer’s disease’, which is in the process of licensing by C2N Diagnostics"
+    },
+    {
+      "name": "Du, Lianlian",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Xiong, Chengjie",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "nothing to disclose"
+    },
+    {
+      "name": "Tosun, Duygu",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "nothing to disclose"
+    },
+    {
+      "name": "Saef, Benjamin",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "nothing to disclose"
+    },
+    {
+      "name": "Saad, Ziad S.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "employed by Johnson & Johnson Innovative Medicine and may receive salary and stock for their employment"
+    },
+    {
+      "name": "Du-Cuny, Lei",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "employed by AbbVie Deutschland GmbH & Co. KG"
+    },
+    {
+      "name": "Coomaraswamy, Janaky",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "receive salary and company stock as compensation for their employment with Takeda Pharmaceutical Company"
+    },
+    {
+      "name": "Mordashova, Yulia",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "employed by AbbVie Deutschland GmbH & Co. KG"
+    },
+    {
+      "name": "Rubel, Carrie E.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "employees of and may own stock in Biogen"
+    },
+    {
+      "name": "Meyers, Emily A.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "employed by the Alzheimer’s Association"
+    },
+    {
+      "name": "Shaw, Leslie M.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "receives funding from the NIA for ADNI4 and from the NIA for the University of Pennsylvania ADRC P30 for the Biomarker Core"
+    },
+    {
+      "name": "Dage, Jeffrey L.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "inventor on patents or patent applications of Eli Lilly and Company... served or is serving as a consultant or on advisory boards for Eisai, AbbVie, Genotix Biotechnologies Inc., Gates Ventures, Gate Neurosciences, Dolby Family Ventures, Karuna Therapeutics, AlzPath Inc., Cognito Therapeutics, Inc., Prevail Therapeutics, Neurogen Biomarking, Spear Bio, the University of Kentucky, Rush University, Tymora and Quanterix... received research support from ADx Neurosciences, Fujirebio, Roche Diagnostics and Eli Lilly... received speaker fees from Eli Lilly and LabCorp... founder of and advisor to Monument Biosciences... has stock or stock options in Eli Lilly, Genotix Biotechnologies, AlzPath Inc., Neurogen Biomarking and Monument Biosciences"
+    },
+    {
+      "name": "Ashton, Nicholas J.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "received speaking fees from Eli Lilly, Biogen, Quanterix and Alamar Biosciences"
+    },
+    {
+      "name": "Zetterberg, Henrik",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "served on scientific advisory boards and/or as a consultant for AbbVie, Acumen, Alector, Alzinova, ALZpath, Amylyx, Annexon, Apellis, Artery Therapeutics, AZTherapies, Cognito Therapeutics, CogRx, Denali, Eisai, LabCorp, Merry Life, Nervgen, Novo Nordisk, Optoceutics, Passage Bio, Pinteon Therapeutics, Prothena, Red Abbey Labs, reMYND, Roche, Samumed, Siemens Healthineers, Triplet Therapeutics and Wave; has given lectures sponsored by Alzecure, BioArctic, Biogen, Cellectricon, Fujirebio, Eli Lilly, Novo Nordisk, Roche and WebMD; and is a co-founder of Brain Biomarker Solutions in Gothenburg AB (BBS)"
+    },
+    {
+      "name": "Ferber, Kyle",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "employees of and may own stock in Biogen"
+    },
+    {
+      "name": "Triana-Baltzer, Gallen",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "employed by Johnson & Johnson Innovative Medicine and may receive salary and stock for their employment"
+    },
+    {
+      "name": "Baratta, Michael",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "receive salary and company stock as compensation for their employment with Takeda Pharmaceutical Company"
+    },
+    {
+      "name": "Rosenbaugh, Erin G.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "nothing to disclose"
+    },
+    {
+      "name": "Cruchaga, Carlos",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "received research support from GlaxoSmithKline and Eisai... member of the scientific advisory board of Circular Genomics and owns stocks... member of the scientific advisory board of Admit and has served on the scientific advisory boards of GlaxoSmithKline and Novo Nordisk"
+    },
+    {
+      "name": "McDade, Eric",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "participated in speaker engagements for Eisai, Neurology Live and Projects in Knowledge-Kaplan... advisory board roles, consulting and data safety monitoring board (DSMB) relationships with Eli Lilly, Alnylam, Alector, Alzamend, Sanofi, AstraZeneca, F. Hoffmann-La Roche, Grifols and Merck"
+    },
+    {
+      "name": "Holtzman, David M.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "equity ownership interest in C2N Diagnostics... receive income from C2N Diagnostics for serving on the scientific advisory board... on the scientific advisory board of Genentech, Denali, Cajal Neurosciences, Acta Pharmaceuticals and Switch and consults for Alnylam, Pfizer and Roche"
+    },
+    {
+      "name": "Morris, John C.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "nothing to disclose"
+    },
+    {
+      "name": "Sabandal, J. Martin",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "nothing to disclose"
+    },
+    {
+      "name": "Bateman, Randall J.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "equity ownership interest in C2N Diagnostics... receive income from C2N Diagnostics for serving on the scientific advisory board... co-inventor on US patent applications... unpaid scientific advisory board member of Roche and Biogen and receives research funding from Avid Radiopharmaceuticals, Janssen, Roche/Genentech, Eli Lilly, Eisai, Biogen, AbbVie, Bristol Myers Squibb and Novartis"
+    },
+    {
+      "name": "Bannon, Anthony W.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "receives salary and company stock as compensation for his employment with AbbVie"
+    },
+    {
+      "name": "Potter, William Z.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "stockholder in Merck & Co... Co-Chair Emeritus for the FNIH Biomarkers Consortium Neuroscience Steering Committee... consultant for Karuna, Neurocrine, Neumarker and Vaaji and receives grant support from the NIA along with stock options from Praxis Bioresearch"
+    },
+    {
+      "name": "Schindler, Suzanne E.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "served on scientific advisory boards on biomarker testing and education for Eisai and Novo Nordisk and has received speaking fees... from Eisai, Eli Lilly, Novo Nordisk, Medscape and PeerView... provided unpaid scientific advising to Eisai, Johnson & Johnson Innovative Medicine, Eli Lilly, Biogen, Acumen, Cognito Therapeutics and Danaher"
+    }
+  ],
+  "first_author": "Petersen, Kellen K.",
+  "venue": "Nature Medicine",
+  "published": "2026",
+  "doi": "10.1038/s41591-026-04206-y",
+  "doi_url": "https://doi.org/10.1038/s41591-026-04206-y",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41714746",
+  "copyright": null,
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "reuse": "redistribute",
+    "evidence": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were m"
+  },
+  "tags": [
+    "paper",
+    "biomarkers",
+    "tau",
+    "amyloid",
+    "p-tau217",
+    "clock-models",
+    "prognosis"
+  ],
+  "themes": [
+    "Plasma p-tau217 as a predictive biomarker",
+    "Estimating Alzheimer's symptom onset time",
+    "Temporal integration of rate accumulation (TIRA)",
+    "Age-dependent disease progression",
+    "Biomarker clock models"
+  ],
+  "one_line": "Plasma %p-tau217 clock models can estimate the time until Alzheimer's disease symptom onset in cognitively unimpaired individuals with a 3-4 year margin of error.",
+  "summary": "This study developed biological clock models using longitudinal plasma %p-tau217 measurements from the Knight ADRC and ADNI cohorts to estimate the age of Alzheimer's disease (AD) symptom onset in cognitively unimpaired individuals. The authors identified an interval of consistent biomarker change and applied Temporal Integration of Rate Accumulation (TIRA) and Sampled Iterative Local Approximation (SILA) methodologies to align individualized trajectories. They found a moderate-to-strong association between the estimated age at %p-tau217 positivity and the age at AD symptom onset, showing a median absolute error of 3.0 to 3.7 years. Notably, the data revealed that older individuals developed AD symptoms much sooner after reaching biomarker positivity than younger individuals. The clock modeling approach also generalized successfully to other p-tau217 and p-tau217/Aβ42 immunoassays. While the 3-to-4-year error margin limits definitive individual prognostic utility, the models could significantly improve clinical trial efficiency by enriching cohorts with individuals highly likely to develop symptoms within the trial's timeframe.",
+  "key_claims": [
+    {
+      "claim": "Plasma %p-tau217 clock models can estimate the age of AD symptom onset in cognitively unimpaired individuals.",
+      "evidence": "The estimated age at plasma %p-tau217 positivity was associated with the age at onset of AD symptoms (adjusted R2 of 0.337−0.612) with a median absolute error of 3.0−3.7 years.",
+      "strength": "moderate",
+      "location": "Abstract / Results (Predicting the age of AD symptom onset)"
+    },
+    {
+      "claim": "The time interval from %p-tau217 biomarker positivity to the onset of AD symptoms is markedly shorter in older individuals.",
+      "evidence": "Participants who became plasma %p-tau217 positive at age 60 had a median time until symptom onset of 20.5 years, whereas participants who became positive at age 80 had a median time until symptom onset of only 11.4 years.",
+      "strength": "strong",
+      "location": "Results (Modeling the probability of developing symptomatic AD)"
+    },
+    {
+      "claim": "The clock modeling approach generalizes across different commercially available plasma p-tau217 and p-tau217/Aβ42 assays.",
+      "evidence": "Similar predictive clock models were successfully constructed with data from one Fujirebio Lumipulse p-tau217/Aβ42 immunoassay and four other plasma p-tau217 immunoassays (C2N, Janssen, ALZpath, Fujirebio).",
+      "strength": "moderate",
+      "location": "Results (Development of additional plasma clocks)"
+    }
+  ],
+  "methods": {
+    "design": "Retrospective longitudinal cohort study",
+    "n": 603,
+    "population": "Community-dwelling older adults (cognitively unimpaired and impaired) from the Knight ADRC (n=258) and ADNI (n=345) cohorts.",
+    "duration": "Median follow-up interval of 6.5 years (Knight ADRC) and 4.5 years (ADNI)",
+    "registration": null
+  },
+  "funding_and_conflicts": "Funded by the FNIH Biomarkers Consortium, NIA, ADNI, DOD, and multiple pharmaceutical/diagnostic companies (AbbVie, Alzheimer’s Association, Biogen, Janssen, Takeda). Significant conflicts of interest exist: numerous authors are employees, stock owners, patent inventors, or advisory board members for companies deeply involved in Alzheimer's diagnostics and therapeutics (including C2N Diagnostics, Eli Lilly, Biogen, Takeda, Johnson & Johnson, and AbbVie).",
+  "limitations": [
+    "Clock models can only be utilized for %p-tau217 values strictly within the interval of consistent change (1.06% to 10.45%), limiting applicability for very high or low values.",
+    "The median absolute error of 3-4 years limits the model's utility for individual clinical decision-making.",
+    "The study cohorts were largely non-Hispanic White, potentially limiting generalizability across diverse populations.",
+    "Participant dropout or death was not explicitly modeled, which may introduce survival bias by underestimating decline among the most vulnerable individuals."
+  ],
+  "red_flags": [
+    "Heavy financial and patent involvement from diagnostic companies (e.g., C2N Diagnostics) and pharmaceutical companies whose products are being evaluated.",
+    "Post-hoc derivation of the 'interval of consistent change' (variance below the 90th percentile) to restrict data could introduce overfitting or limit real-world predictive validity."
+  ],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "Truncated Creative Commons license text ('indicate if changes were m').",
+      "Missing figure and table contents (only references and captions remain).",
+      "Loss of proper formatting for some mathematical terms and subscripts (e.g., 'adjusted R 2', 'Aβ42/40')."
+    ]
+  },
+  "search_verification": [
+    "Checked PubMed ID 41714746 and DOI 10.1038/s41591-026-04206-y against provided text; confirmed match."
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT04931459",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04931459",
+      "name": "INTERCEPT-AD",
+      "drug": "sabirnetug (ACU193)",
+      "phase": "1",
+      "sponsor": "Acumen Pharmaceuticals",
+      "status": "Completed",
+      "enrollment": 65,
+      "population": "Adults aged 55 to 90 years with mild cognitive impairment (MCI) or mild dementia due to Alzheimer's disease",
+      "primary_endpoint": "Incidence of treatment-related adverse events and clinically significant changes in labs, ECGs, suicidality (C-SSRS), and brain MRI (ARIA)",
+      "started": "2021-06",
+      "completed_or_readout": "2023-06",
+      "results_summary": "Peer-reviewed results reported the drug was generally well-tolerated with a 10.4% rate of ARIA-E and demonstrated dose-dependent central target engagement of amyloid-beta oligomers.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT06335173",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06335173",
+      "name": "ALTITUDE-AD",
+      "drug": "sabirnetug",
+      "phase": "2",
+      "sponsor": "Acumen Pharmaceuticals",
+      "status": "Active",
+      "enrollment": 542,
+      "population": "Adults aged 50 to 90 years with early Alzheimer's disease and evidence of cerebral amyloid accumulation",
+      "primary_endpoint": "Change from Baseline in Integrated Alzheimer's Disease Rating Scale (iADRS) Score",
+      "started": "2024-02",
+      "completed_or_readout": "2026-10",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT06511570",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06511570",
+      "name": "ACU193-102",
+      "drug": "sabirnetug + rHuPH20 (Subcutaneous)",
+      "phase": "1",
+      "sponsor": "Acumen Pharmaceuticals",
+      "status": "Completed",
+      "enrollment": 28,
+      "population": "Healthy participants aged 50 years and older",
+      "primary_endpoint": "Pharmacokinetics including Cmax, Tmax, and various AUC measures",
+      "started": "2024-06",
+      "completed_or_readout": "2024-09",
+      "results_summary": "Topline company results from March 2025 indicated the subcutaneous formulation was well-tolerated in healthy volunteers.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2025-01-01",
+      "kind": "paper",
+      "description": "Peer-reviewed publication of the Phase 1 INTERCEPT-AD study results.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39800458/"
+    },
+    {
+      "date": "2022-10-24",
+      "kind": "regulatory",
+      "description": "FDA granted Fast Track designation for sabirnetug in early Alzheimer's disease.",
+      "url": "https://www.globenewswire.com/news-release/2022/10/24/2539885/0/en/Acumen-s-ACU193-an-Anti-Amyloid-Beta-Oligomer-Antibody-Granted-FDA-Fast-Track-Designation-for-Alzheimer-s-Disease.html"
+    },
+    {
+      "date": "2025-03-19",
+      "kind": "company",
+      "description": "Acumen Pharmaceuticals announced positive topline results for the Phase 1 subcutaneous study.",
+      "url": "https://investors.acumenpharm.com/news-releases/news-release-details/acumen-pharmaceuticals-announces-topline-results-phase-1-study"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence for sabirnetug currently relies entirely on the completed Phase 1 INTERCEPT-AD trial, which successfully verified its initial safety profile and target engagement but was fundamentally underpowered to test clinical efficacy. Claims regarding amyloid plaque reduction in this document constitute weak evidence, as PET imaging was an unregistered, exploratory endpoint for a drug not primarily designed to clear plaques. Similarly, the conclusion that APOE ε4 homozygotes are protected from ARIA-E is statistically unreliable due to the minuscule subsample size (n=6). Robust evidence evaluating the drug's true clinical efficacy, disease-modifying potential, and long-term safety profile hinges entirely on the fully enrolled Phase 2 ALTITUDE-AD trial, which is expected to read out in late 2026.",
+  "discrepancies": [
+    "The document emphasizes an unexpected 20-25% amyloid plaque reduction on PET scans, but amyloid PET was not listed as a primary, secondary, or even exploratory endpoint in the ClinicalTrials.gov record for NCT04931459, indicating it was an unregistered or post-hoc analysis.",
+    "The document mentions exploratory cognitive assessments for the Phase 1 study, but no cognitive efficacy endpoints were pre-specified in the NCT04931459 registry record.",
+    "The document reports publication in 2024, but the official PubMed record shows an Epub date of January 1, 2025."
+  ]
+}

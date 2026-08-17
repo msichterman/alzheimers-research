@@ -1,0 +1,357 @@
+{
+  "extracted_by": "gemini-3.1-pro-preview",
+  "extracted_at": "2026-08-13T16:27:39.163Z",
+  "independent": true,
+  "saw_builder_output": false,
+  "source": "raw/solanezumab-a4-prevention/document.md",
+  "source_sha256": "d5097797d9b1927570d567dfe099ecb95597d90f7e169b4c5c354b50023dfcc1",
+  "truncated": false,
+  "tokens": {
+    "in": 5761,
+    "out": 3765
+  },
+  "record": {
+    "document_kind": "journal_article",
+    "title": {
+      "value": "Trial of Solanezumab in Preclinical Alzheimer’s Disease",
+      "quote": "Trial of Solanezumab in Preclinical Alzheimer’s Disease",
+      "location": "Title"
+    },
+    "study": {
+      "design": {
+        "value": "phase 3 trial",
+        "quote": "We tested solanezumab, which targets monomeric amyloid, in a phase 3 trial involving persons with preclinical Alzheimer’s disease.",
+        "location": "Abstract, METHODS"
+      },
+      "n": {
+        "value": 1169,
+        "quote": "A total of 1169 persons underwent randomization",
+        "location": "Abstract, RESULTS"
+      },
+      "population": {
+        "value": "Persons 65 to 85 years of age with a global Clinical Dementia Rating score of 0 (range, 0 to 3, with 0 indicating no cognitive impairment and 3 severe dementia), a score on the Mini–Mental State Examination of 25 or more (range, 0 to 30, with lower scores indicating poorer cognition), and elevated brain amyloid levels on 18 F-florbetapir positron-emission tomography (PET)",
+        "quote": "Persons 65 to 85 years of age with a global Clinical Dementia Rating score of 0 (range, 0 to 3, with 0 indicating no cognitive impairment and 3 severe dementia), a score on the Mini–Mental State Examination of 25 or more (range, 0 to 30, with lower scores indicating poorer cognition), and elevated brain amyloid levels on 18 F-florbetapir positron-emission tomography (PET) were enrolled.",
+        "location": "Abstract, METHODS"
+      },
+      "biomarker_confirmation": {
+        "value": "elevated brain amyloid levels on 18 F-florbetapir positron-emission tomography (PET)",
+        "quote": "elevated brain amyloid levels on 18 F-florbetapir positron-emission tomography (PET)",
+        "location": "Abstract, METHODS"
+      },
+      "cohorts": [
+        "A4"
+      ],
+      "comparator": {
+        "value": "placebo",
+        "quote": "Participants were randomly assigned in a 1:1 ratio to receive solanezumab at a dose of up to 1600 mg intravenously every 4 weeks or placebo.",
+        "location": "Abstract, METHODS"
+      },
+      "followup": {
+        "value": "240 weeks",
+        "quote": "over a period of 240 weeks.",
+        "location": "Abstract, METHODS"
+      },
+      "intervention": {
+        "value": "solanezumab at a dose of up to 1600 mg intravenously every 4 weeks",
+        "quote": "solanezumab at a dose of up to 1600 mg intravenously every 4 weeks",
+        "location": "Abstract, METHODS"
+      },
+      "n_description": {
+        "value": "underwent randomization",
+        "quote": "A total of 1169 persons underwent randomization",
+        "location": "Abstract, RESULTS"
+      },
+      "nct_ids": [
+        "NCT02008357"
+      ],
+      "phase": {
+        "value": "phase 3",
+        "quote": "in a phase 3 trial",
+        "location": "Abstract, METHODS"
+      }
+    },
+    "outcomes": [
+      {
+        "name": "change in the Preclinical Alzheimer Cognitive Composite (PACC) score",
+        "tier": "primary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "At 240 weeks, the mean change in PACC score was −1.43 in the solanezumab group and −1.13 in the placebo group (difference, −0.30; 95% confidence interval, −0.82 to 0.22; P = 0.26).",
+        "location": "Abstract, RESULTS",
+        "confidence_interval": "95% CI, −0.82 to 0.22",
+        "effect_estimate": "−0.30",
+        "multiplicity_controlled": "yes",
+        "p_value": "P = 0.26",
+        "prespecification_evidence": "The primary efficacy end point was the change in the Preclinical Alzheimer Cognitive Composite (PACC) score at 4.5 years."
+      },
+      {
+        "name": "change in the Cognitive Function Index (CFI) score",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "Because the between-group difference in the primary end point failed to reach significance, the graphical testing scheme did not allow claims of significance for subsequent end points",
+        "location": "RESULTS, TRIAL END POINTS",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": "yes",
+        "p_value": null,
+        "prespecification_evidence": "The first secondary end point in the graphical testing scheme described below was the change in the Cognitive Function Index (CFI) score"
+      },
+      {
+        "name": "score on the Alzheimer’s Disease Cooperative Study Activities of Daily Living (ADL) Prevention Questionnaire",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "Because the between-group difference in the primary end point failed to reach significance, the graphical testing scheme did not allow claims of significance for subsequent end points",
+        "location": "RESULTS, TRIAL END POINTS",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": "yes",
+        "p_value": null,
+        "prespecification_evidence": "Additional secondary end points include the score on the Alzheimer’s Disease Cooperative Study Activities of Daily Living (ADL) Prevention Questionnaire"
+      },
+      {
+        "name": "CDR–Sum of Boxes (CDR-SB) score",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "Because the between-group difference in the primary end point failed to reach significance, the graphical testing scheme did not allow claims of significance for subsequent end points",
+        "location": "RESULTS, TRIAL END POINTS",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": "yes",
+        "p_value": null,
+        "prespecification_evidence": "Additional secondary end points include the score on the Alzheimer’s Disease Cooperative Study Activities of Daily Living (ADL) Prevention Questionnaire, which was assessed by the partner (range, 0 to 45, with higher scores indicating more difficulty); the CDR–Sum of Boxes (CDR-SB) score"
+      },
+      {
+        "name": "progression of the global CDR score to a nonzero score indicating mild cognitive impairment or dementia",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "Because the between-group difference in the primary end point failed to reach significance, the graphical testing scheme did not allow claims of significance for subsequent end points",
+        "location": "RESULTS, TRIAL END POINTS",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": "yes",
+        "p_value": null,
+        "prespecification_evidence": "Additional secondary end points include... progression of the global CDR score to a nonzero score indicating mild cognitive impairment or dementia."
+      }
+    ],
+    "primary_endpoint_status": {
+      "status": "not_met",
+      "quote": "At 240 weeks, the mean change in PACC score was −1.43 in the solanezumab group and −1.13 in the placebo group (difference, −0.30; 95% confidence interval, −0.82 to 0.22; P = 0.26).",
+      "explanation": "The change in PACC score did not significantly differ between the solanezumab and placebo groups."
+    },
+    "safety": {
+      "harms": [
+        {
+          "name": "amyloidrelated imaging abnormalities (ARIA) with edema",
+          "arm": "solanezumab",
+          "quote": "One case of amyloidrelated imaging abnormalities (ARIA) with edema was reported in the solanezumab group",
+          "location": "RESULTS, SAFETY",
+          "apoe_stratum": null,
+          "count": "1",
+          "denominator": null,
+          "percentage": null
+        },
+        {
+          "name": "amyloidrelated imaging abnormalities (ARIA) with edema",
+          "arm": "placebo",
+          "quote": "and two cases were reported in the placebo group.",
+          "location": "RESULTS, SAFETY",
+          "apoe_stratum": null,
+          "count": "2",
+          "denominator": null,
+          "percentage": null
+        },
+        {
+          "name": "ARIA with microhemorrhage or hemosiderosis",
+          "arm": "solanezumab",
+          "quote": "ARIA with microhemorrhage or hemosiderosis occurred in 29.2% of the participants in the solanezumab group",
+          "location": "RESULTS, SAFETY",
+          "apoe_stratum": null,
+          "count": null,
+          "denominator": null,
+          "percentage": "29.2%"
+        },
+        {
+          "name": "ARIA with microhemorrhage or hemosiderosis",
+          "arm": "placebo",
+          "quote": "and 32.8% of those in the placebo group.",
+          "location": "RESULTS, SAFETY",
+          "apoe_stratum": null,
+          "count": null,
+          "denominator": null,
+          "percentage": "32.8%"
+        }
+      ],
+      "apoe_stratification_reported": false,
+      "deaths": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "discontinuations": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "serious_adverse_events": {
+        "value": "similar in the two groups in both type and incidence",
+        "quote": "Overall and serious adverse events were similar in the two groups in both type and incidence",
+        "location": "RESULTS, SAFETY"
+      }
+    },
+    "unlocatable_fields": [
+      "safety.deaths",
+      "safety.discontinuations",
+      "safety.harms.apoe_stratum",
+      "safety.harms.denominator",
+      "safety.harms.count",
+      "safety.harms.percentage",
+      "conflicts",
+      "disagreements",
+      "linked_objects",
+      "trial_status_observation"
+    ],
+    "authors": [
+      {
+        "name": "Reisa A. Sperling",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Michael C. Donohue",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Rema Raman",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Michael S. Rafii",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Keith Johnson",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Colin L. Masters",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Christopher H. van Dyck",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Takeshi Iwatsubo",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Gad A. Marshall",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Roy Yaari",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Michele Mancini",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Karen C. Holdridge",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Michael Case",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "John R. Sims",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Paul S. Aisen",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      }
+    ],
+    "conflicts": [],
+    "disagreements": [],
+    "funding": [
+      "National Institute on Aging of the National Institutes of Health (R01AG063689, U19AG010483, and U24AG057437)",
+      "Eli Lilly",
+      "Alzheimer’s Association",
+      "Accelerating Medicines Partnership through the Foundation for the National Institutes of Health",
+      "GHR Foundation",
+      "Davis Alzheimer Prevention Program",
+      "Yugilbar Foundation",
+      "anonymous foundation",
+      "additional private donors to Brigham and Women’s Hospital",
+      "Avid Radiopharmaceuticals",
+      "Cogstate",
+      "Albert Einstein College of Medicine",
+      "Foundation for Neurologic Diseases"
+    ],
+    "limitations": [
+      "Participants were not representative of older persons at risk for cognitive decline, and there were few Black participants.",
+      "Our trial was complicated by a midtrial dose increase.",
+      "The trial had widespread disruption of activities at the sites due to the Covid-19 pandemic."
+    ],
+    "linked_objects": [],
+    "multiplicity": {
+      "approach": "graphical testing scheme",
+      "location": "METHODS, STATISTICAL ANALYSIS",
+      "quote": "A graphical testing scheme to account for multiple comparisons of the primary and secondary end points (see the plan) was prespecified in February 2023, before unblinding, with the change in the PACC score as the primary end point followed by the secondary end points."
+    },
+    "risk_of_bias": [
+      {
+        "domain": "attrition",
+        "judgement": "High rate of missing final-visit observations",
+        "quote": "Final-visit PACC observations were missing for 30.6% of the participants in the solanezumab group and 28.4% of those in the placebo group."
+      },
+      {
+        "domain": "protocol change",
+        "judgement": "Mid-trial dose increase and extension of double-blind phase",
+        "quote": "the protocol was changed to adjust the dose to 1600 mg intravenously every 4 weeks in 2017, when approximately 970 participants had already been enrolled"
+      }
+    ],
+    "trial_status_observation": {
+      "status": null,
+      "observed_at": null,
+      "source": null,
+      "enrollment": null,
+      "phase": null
+    }
+  }
+}

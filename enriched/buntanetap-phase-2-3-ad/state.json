@@ -22,5 +22,13 @@
     "turns": 3,
     "cost_usd": 0.7544028,
     "session_id": "875c05ec-c164-4e1b-a1c2-f02987171066"
+  },
+  "03-sentiment": {
+    "source_sha256": "7e23078fbb0e94d1dccf49922c2e97942b29125fcb956cde15da04a371e4d805",
+    "completed_at": "2026-08-15T22:55:55.929Z",
+    "model": "google-vertex/gemini-3.1-pro-preview",
+    "turns": 16,
+    "cost_usd": 0.9883717999999999,
+    "session_id": "ses_ff860cfd9ffeCWh040tai5Lwmt"
   }
 }

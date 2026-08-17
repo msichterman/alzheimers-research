@@ -1,0 +1,63 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT01206062",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01206062",
+      "name": "SPRINT",
+      "drug": "Intensive blood pressure control (<120 mm Hg)",
+      "phase": "n/a",
+      "sponsor": "National Heart, Lung, and Blood Institute (NHLBI)",
+      "status": "Completed",
+      "enrollment": 9361,
+      "population": "Adults aged 50+ with SBP 130-180 mm Hg and at least one additional CVD risk factor, excluding those with diabetes or prior stroke.",
+      "primary_endpoint": "Number of Participants With First Occurrence of a Myocardial Infarction (MI), Acute Coronary Syndrome (ACS), Stroke, Heart Failure (HF), or CVD Death",
+      "started": "2010-10",
+      "completed_or_readout": "2019-03",
+      "results_summary": "The trial was stopped early due to significant benefit; intensive BP control (<120 mm Hg) resulted in significantly lower rates of fatal and nonfatal major cardiovascular events (HR 0.75) and all-cause mortality (HR 0.73) compared to standard control.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT00000620",
+      "registry_url": "https://clinicaltrials.gov/study/NCT00000620",
+      "name": "ACCORD",
+      "drug": "Intensive blood pressure control (<120 mm Hg)",
+      "phase": "3",
+      "sponsor": "National Heart, Lung, and Blood Institute (NHLBI)",
+      "status": "Completed",
+      "enrollment": 10251,
+      "population": "Adults with type 2 diabetes and high risk for cardiovascular disease.",
+      "primary_endpoint": "First Occurrence of a Major Cardiovascular Event (MCE); Specifically Nonfatal Heart Attack, Nonfatal Stroke, or Cardiovascular Death",
+      "started": "1999-09",
+      "completed_or_readout": "2012-12",
+      "results_summary": "In contrast to SPRINT, targeting a systolic blood pressure of less than 120 mm Hg in patients with type 2 diabetes did not significantly reduce the rate of fatal and nonfatal major cardiovascular events compared to standard control.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2015-11",
+      "kind": "paper",
+      "description": "SPRINT primary outcome results published in the New England Journal of Medicine.",
+      "url": "https://doi.org/10.1056/NEJMoa1511939"
+    },
+    {
+      "date": "2019-02",
+      "kind": "paper",
+      "description": "SPRINT-MIND secondary outcome results regarding all-cause dementia and cognitive impairment published in JAMA.",
+      "url": "https://doi.org/10.1001/jama.2018.21442"
+    },
+    {
+      "date": "2010-03",
+      "kind": "paper",
+      "description": "ACCORD BP arm results published in NEJM, showing no primary CV benefit in patients with diabetes, leading SPRINT to exclude them.",
+      "url": "https://doi.org/10.1056/NEJMoa1001286"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence supporting the central claims of the document is exceptionally strong, grounded in the landmark, federally-funded SPRINT randomized controlled trial. SPRINT definitively demonstrated that targeting a systolic blood pressure below 120 mm Hg significantly reduces major cardiovascular events and all-cause mortality in non-diabetic adults at high cardiovascular risk. The trial's early termination for robust efficacy reinforces these cardiovascular benefits, though it subsequently reduced the statistical power for slower-developing secondary endpoints like all-cause dementia, which showed a non-significant trend toward benefit in the SPRINT-MIND sub-study. The trial correctly established clear trade-offs, accurately identifying increased risks of hypotension, syncope, and acute kidney injury. The earlier ACCORD trial provides vital context, as it previously demonstrated that this specific robust cardiovascular benefit does not replicate in patients with diabetes, highlighting the critical specificity of the SPRINT study population.",
+  "discrepancies": [
+    "The document lists 'published' as '2010-09', but this date actually aligns with the trial's registration period (officially starting October 2010); the primary results were not published until November 2015.",
+    "The document correctly notes the intervention was stopped early after a median 3.3 years of follow-up (August 2015), but the registry's official trial completion date factoring in terminal follow-up operations is March 2019."
+  ]
+}

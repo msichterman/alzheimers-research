@@ -1,0 +1,103 @@
+{
+  "fact_check": [
+    {
+      "fact": "Study analyzed 32,558 individuals (16,036 Alzheimer's cases and 16,522 controls)",
+      "status": "verified",
+      "note": "Checked against source document abstract and methods section."
+    },
+    {
+      "fact": "Odds ratio of 1.5 (P = 3.0 × 10^-4) for ATP8B4 and 1.7 (P = 8.0 × 10^-3) for ABCA1",
+      "status": "verified",
+      "note": "Checked against Table 1 (Meta-analysis column) for LOF + REVEL ≥ 25 (ATP8B4) and LOF + REVEL ≥ 75 (ABCA1)."
+    },
+    {
+      "fact": "Median age of onset for SORL1 loss-of-function variant carriers is 62 years",
+      "status": "verified",
+      "note": "Checked against Table 3 (SORL1 LOF median age at onset row)."
+    },
+    {
+      "fact": "TREM2 clinical candidate AL002 Phase 2 failed to meet endpoints",
+      "status": "verified",
+      "note": "Checked against ClinicalTrials.gov registry results for NCT04592874."
+    }
+  ],
+  "research_page": {
+    "slug": "atp8b4-abca1-exome-sequencing-ad",
+    "title": "Rare variants in ATP8B4 and ABCA1 as AD risk factors",
+    "description": "A large-scale exome sequencing study identifies rare damaging variants in ATP8B4 and ABCA1 as new genetic risk factors for Alzheimer's disease.",
+    "tags": [
+      "paper",
+      "genetics",
+      "exome-sequencing",
+      "lipid-metabolism",
+      "microglia"
+    ],
+    "source_line_md": "**Source**: [Nature Genetics, 2022](https://doi.org/10.1038/s41588-022-01208-7) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/36411364)",
+    "authors_line_md": "Holstege et al. — Alzheimer Disease European Sequencing (ADES) consortium and Alzheimer’s Disease Sequencing Project (ADSP)",
+    "takeaway_md": "Rare, damaging genetic variants in *ATP8B4* and *ABCA1* significantly increase the risk of Alzheimer's disease. Variants with the largest effect sizes, primarily loss-of-function mutations, are strongly enriched in early-onset cases, reinforcing the critical role of lipid metabolism and microglial function in disease pathology.",
+    "key_findings_md": [
+      "Damaging variants in *ATP8B4* increase Alzheimer's risk (OR 1.5), as do variants in *ABCA1* (OR 1.7) (Table 1).",
+      "Loss-of-function variants in *SORL1*, *ADAM10*, *CLU*, and *ZCWPW1* are associated with the earliest median age of onset, with *SORL1* carriers showing a median onset of 62 years (Table 3).",
+      "Rare-variant burdens in *RIN3*, *CLU*, *ZCWPW1*, and *ACE* act independently of common GWAS sentinel variants, indicating these are likely the functional driver genes at those loci (Table 2)."
+    ],
+    "methods_md": "Multistage gene burden analysis using exome sequencing data from 32,558 individuals (16,036 Alzheimer's cases, including 4,060 early-onset, and 16,522 controls), primarily of European ancestry.",
+    "trial_evidence_md": "This foundational genetics research validates microglial function and lipid metabolism as key disease drivers, particularly through genes like *TREM2*. However, translating these genetic insights into therapies has proven difficult. The leading clinical candidate targeting *TREM2*, the agonistic antibody AL002, failed to show clinical or functional benefit in the [INVOKE-2](/trials/invoke-2-nct04592874) Phase 2 trial for early AD, highlighting a profound discrepancy between genetic risk association and clinical therapeutic tractability.",
+    "sentiment_md": "Public perception of these findings is largely limited to the scientific community, where the study is celebrated as robust validation of the lipid metabolism and microglial hypotheses. Patients, caregivers, and retail investors remain quiet on the topic, appropriately recognizing these findings as long-term foundational target discoveries rather than actionable near-term therapeutics.",
+    "caveats_md": [
+      "Because *APOE* status was a selection criterion for many underlying cohorts, the primary burden tests could not straightforwardly isolate the effect of these rare variants from *APOE4* dosage.",
+      "The study is underpowered for extremely rare variants (such as those in *ADAM10*), meaning some true genetic risk factors likely failed to reach exome-wide significance.",
+      "By focusing exclusively on coding variants in exome data, the impact of structural, copy number, and non-coding regulatory variations remains unknown."
+    ],
+    "relates_to_md": [
+      "[Biomarkers](/research/biomarkers) — Identifies new genetic markers that drive Alzheimer's disease risk.",
+      "[INVOKE-2](/trials/invoke-2-nct04592874) — A Phase 2 trial of a TREM2 agonist, testing a microglial pathway heavily validated by this genetic research."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "invoke-2-nct04592874",
+      "title": "INVOKE-2",
+      "description": "AL002 (TREM2 agonist) in early Alzheimer's disease.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "phase-2",
+        "trem2",
+        "al002",
+        "monoclonal-antibody"
+      ],
+      "registry_md": "[NCT04592874](https://clinicaltrials.gov/study/NCT04592874)",
+      "drug": "AL002 (TREM2 agonistic antibody)",
+      "phase": "Phase 2",
+      "sponsor": "Alector Inc.",
+      "population": "Early Alzheimer's Disease (n=356)",
+      "primary_endpoint": "Disease Progression (CDR-SB)",
+      "started": "2021-01",
+      "readout": "2024-09",
+      "why_md": "INVOKE-2 tested whether stimulating microglia through the TREM2 receptor—a target strongly validated by genetic risk studies—could slow disease progression in early Alzheimer's disease. It served as a critical test for translating microglial genetic risk into a therapeutic mechanism.",
+      "status_log_md": [
+        "**2021-01** — Trial begins.",
+        "**2024-09** — Trial completes; fails to meet primary and secondary efficacy endpoints.",
+        "**2025-10-29** — [Results posted to registry](https://clinicaltrials.gov/study/NCT04592874) confirming lack of efficacy across all endpoints."
+      ],
+      "results_md": "The study failed to meet its primary endpoint of slowing disease progression on the CDR-SB. It showed no treatment effects favoring AL002 on any secondary clinical or functional endpoints."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Foundations",
+      "date": "2022-11",
+      "title": "2022-11 — Large-scale exome sequencing links ATP8B4 and ABCA1 to Alzheimer's risk",
+      "body_md": "An analysis of over 32,000 exomes identified rare, damaging variants in lipid metabolism genes *ATP8B4* and *ABCA1* as significant risk factors, reinforcing the role of microglial function in the disease ([Holstege et al.](/research/papers/atp8b4-abca1-exome-sequencing-ad))."
+    },
+    {
+      "section": "Disease-modifying era",
+      "date": "2024-09",
+      "title": "2024-09 — TREM2 agonist AL002 fails Phase 2 INVOKE-2 trial",
+      "body_md": "Despite strong genetic validation for TREM2 as an Alzheimer's risk factor, Alector's TREM2-stimulating antibody AL002 failed to slow clinical decline in [INVOKE-2](/trials/invoke-2-nct04592874), highlighting the difficulty of translating genetic targets into therapeutics."
+    }
+  ],
+  "notes_for_editor": [
+    "The source document contains minor formatting artifacts from the PDF-to-Markdown conversion (e.g., truncated license text, leaked LaTeX code), but data extraction was unaffected."
+  ]
+}

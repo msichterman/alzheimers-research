@@ -1,0 +1,9 @@
+{
+  "id": "bellenguez-2022-gwas",
+  "source": "sources/bellenguez-2022-gwas.xml",
+  "sha256": "fd2d5a2be6ddb5a60c153ee63dd7d5f0645808b8a60a56a3ebddf3747200bdc0",
+  "bytes": 530685,
+  "chars": 94573,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:07.930Z"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "verubecestat-epoch-nct01739348",
+  "source": "sources/verubecestat-epoch-nct01739348.json",
+  "sha256": "5f2e005cc66bfb00263384e56161bb434108e3d3837d2a11dad0998e516f89b3",
+  "bytes": 384307,
+  "chars": 59477,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:11.335Z"
+}

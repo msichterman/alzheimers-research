@@ -1,0 +1,53 @@
+{
+  "fact_check": [
+    {
+      "fact": "Device Name: Lumipulse G pTau217/ß-Amyloid 1-42 Plasma Ratio",
+      "status": "verified",
+      "note": "Checked against the Device Name field in the provided FDA 510(k) database record."
+    },
+    {
+      "fact": "Decision: Substantially Equivalent on 05/16/2025",
+      "status": "verified",
+      "note": "Checked against the Decision and Decision Date fields in the FDA record."
+    },
+    {
+      "fact": "Device classification: Immunoassay Blood Test For Amyloid Pathology Assessment",
+      "status": "verified",
+      "note": "Checked against the Device Classification Name field in the FDA record."
+    }
+  ],
+  "research_page": {
+    "slug": "lumipulse-ptau217-amyloid-fda-clearance",
+    "title": "Lumipulse G pTau217/Aβ42 Plasma Ratio FDA Clearance",
+    "description": "FDA 510(k) administrative metadata record clearing Fujirebio's blood test for amyloid pathology assessment.",
+    "tags": [
+      "regulatory",
+      "biomarkers",
+      "blood-test",
+      "fda"
+    ],
+    "source_line_md": "**Source**: U.S. Food & Drug Administration, 2025",
+    "authors_line_md": "Fujirebio Diagnostics, Inc.",
+    "takeaway_md": "The FDA granted 510(k) clearance to Fujirebio's Lumipulse G pTau217/Aβ42 plasma ratio assay, marking it as substantially equivalent to existing amyloid pathology tests. This regulatory milestone establishes a pathway for blood-based Alzheimer's screening, though independent clinical validation metrics are not included in this administrative record.",
+    "key_findings_md": [
+      "The FDA issued a 'Substantially Equivalent' (SESE) decision for the device on May 16, 2025 (FDA metadata).",
+      "The assay is classified under Product Code SET: Immunoassay Blood Test For Amyloid Pathology Assessment (FDA metadata)."
+    ],
+    "methods_md": "Administrative review of a traditional 510(k) premarket notification (submission K242706) by the FDA.",
+    "trial_evidence_md": "This document contains no primary clinical data. The real-world predictive value of this and similar plasma biomarker assays is being evaluated in ongoing prospective cohort studies, such as the Swedish ADetect trial and the Italian BLAD trial. There is currently no registered trial on ClinicalTrials.gov directly linked to the K242706 submission.",
+    "sentiment_md": "Public perception is polarized. The medical and investment communities view this accessible screening tool as a major breakthrough. Conversely, patient and caregiver groups express confusion and anxiety over test interpretation, frequently misinterpreting the presence of a pathological biomarker as a definitive, immediate clinical diagnosis of dementia.",
+    "caveats_md": [
+      "This document is a regulatory cover sheet; clinicians must look to the forthcoming decision summary or peer-reviewed literature for the test's false positive and false negative rates to evaluate its true diagnostic utility."
+    ],
+    "relates_to_md": [
+      "[Biomarkers](/research/biomarkers) — Context for blood-based Alzheimer's diagnostic development.",
+      "[Timeline](/timeline) — The primary backing document for the May 2025 first blood test clearance milestone."
+    ]
+  },
+  "trial_pages": [],
+  "timeline_entries": [],
+  "notes_for_editor": [
+    "No standalone trial pages were generated because ADetect, BLAD, and Comfortage-P4 are context/observational trials, adhering to the standard that only central trials get full pages.",
+    "No timeline entry was generated because the '2025-05 — First blood test cleared' milestone is already present on the timeline."
+  ]
+}

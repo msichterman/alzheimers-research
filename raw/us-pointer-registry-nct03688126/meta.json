@@ -1,0 +1,9 @@
+{
+  "id": "us-pointer-registry-nct03688126",
+  "source": "sources/us-pointer-registry-nct03688126.json",
+  "sha256": "bf8c471206a8e57a9fd74f173eb240e38b661644342b332250cb1e01167ec2d8",
+  "bytes": 24069,
+  "chars": 15163,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T17:02:18.938Z"
+}

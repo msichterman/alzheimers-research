@@ -1,0 +1,184 @@
+{
+  "kind": "review",
+  "title": "The probabilistic model of Alzheimer disease: the amyloid hypothesis revised",
+  "authors": [
+    {
+      "name": "Frisoni, Giovanni B.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "received grants from Avid Radiopharmaceuticals, Biogen, GE International, Guerbert, IXICO, Merz Pharma, Nestlé, Novartis, Eisai, Piramal, Roche, Siemens, Teva Pharmaceutical Industries and Vifor Pharma. He has received personal fees from AstraZeneca, Avid Radiopharmaceuticals, Biogen, Roche, Diadem, Neurodiem, Elan Pharmaceuticals, GE International, Lundbeck, Pfizer and TauRx Therapeutics."
+    },
+    {
+      "name": "Altomare, Daniele",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "declare no competing interests"
+    },
+    {
+      "name": "Thal, Dietmar Rudolf",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "speaker honoraria from Novartis Pharma Basel (Switzerland) and Biogen (USA), has received travel reimbursement from GE Healthcare (UK), and UCB (Belgium) and has collaborated with GE Healthcare (UK), Novartis Pharma Basel (Switzerland), Probiodrug (Germany) and Janssen Pharmaceuticals (Belgium)."
+    },
+    {
+      "name": "Ribaldi, Federica",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "declare no competing interests"
+    },
+    {
+      "name": "van der Kant, Rik",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "declare no competing interests"
+    },
+    {
+      "name": "Ossenkoppele, Rik",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "declare no competing interests"
+    },
+    {
+      "name": "Blennow, Kaj",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "served as a consultant, on advisory boards or on data monitoring committees for Abcam, Axon, Biogen, Shimadzu, Julius Clinical, Lilly, MagQu, Novartis, Roche Diagnostics and Siemens Healthineers, and is a co-founder of Brain Biomarker Solutions in Gothenburg AB"
+    },
+    {
+      "name": "Cummings, Jeffrey",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "acted as a consultant for Acadia, Actinogen, Alkahest, Alzheon, Annovis, Avanir, Axsome, Biogen, Cassava, Cerecin, Cerevel, Cortexyme, Cytox, EIP Pharma, Eisai, Foresight, GemVax, Genentech, Green Valley, Grifols, Karuna, Merck, Novo Nordisk, Otsuka, Resverlogix, Roche, Samumed, Samus, Signant Health, Suven and United Neuroscience. J.C. also has stock options in ADAMAS, AnnovisBio, MedAvante and BiOasis, and owns the copyright of the Neuropsychiatric Inventory."
+    },
+    {
+      "name": "van Duijn, Cornelia",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "declare no competing interests"
+    },
+    {
+      "name": "Nilsson, Peter M.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "declare no competing interests"
+    },
+    {
+      "name": "Dietrich, Pierre-Yves",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "declare no competing interests"
+    },
+    {
+      "name": "Scheltens, Philip",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "received consultancy fees (paid to Amsterdam UMC) from AC Immune, Brainstorm Cell, EIP, ImmunoBrain Checkpoint, Genentech, Novartis, and Novo Noridisk. He is a principal investigator on studies with AC Immune, FUJIFILM Toyama, UCB, and Vivoryon. He is a part-time employee of Life Sciences Partners Amsterdam."
+    },
+    {
+      "name": "Dubois, Bruno",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "received research funding (paid to the institution) from Merck-Avenir Foundation and Roche and consultancy fees from Biogen, Neurodiem, Green Valley, Cytox and Brainstorm. He is a principal investigator on clinical trials with Eisai, Genentech, Novartis, Biogen and Roche."
+    }
+  ],
+  "first_author": "Frisoni, Giovanni B.",
+  "venue": "Nature reviews. Neuroscience",
+  "published": "2021-11",
+  "doi": "10.1038/s41583-021-00533-w",
+  "doi_url": "https://doi.org/10.1038/s41583-021-00533-w",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/34815562",
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law."
+  },
+  "tags": [
+    "review",
+    "amyloid",
+    "tau",
+    "genetics",
+    "apoe",
+    "disease-modifiers",
+    "probabilistic-model"
+  ],
+  "themes": [
+    "Critique of the deterministic amyloid hypothesis",
+    "Probabilistic modeling of Alzheimer's disease",
+    "Role of APOE e4 in AD pathogenesis",
+    "Influence of stochastic and environmental factors",
+    "Implications for clinical taxonomy and drug development"
+  ],
+  "one_line": "The authors propose shifting from a deterministic amyloid hypothesis to a probabilistic model of Alzheimer's disease, stratifying risk and presentation across autosomal dominant, APOE ε4-related, and APOE ε4-unrelated sporadic variants.",
+  "summary": "This perspective challenges the traditional deterministic amyloid hypothesis, which posits a rigid causal chain from amyloid-beta accumulation to tau deposition and neurodegeneration. Citing the poor clinical efficacy of anti-amyloid therapies and evidence like the temporal disconnect between amyloid and tau deposition, the authors propose a probabilistic model. In this framework, Alzheimer's disease is categorized into three variants: autosomal dominant AD, APOE ε4-related sporadic AD, and APOE ε4-unrelated sporadic AD. Each variant features decreasing penetrance of the amyloid cascade and an increasing influence of stochastic elements, such as non-APOE genetic factors, environmental exposures, and lifestyle. This model accommodates the observed neuropathological and clinical heterogeneity in AD and suggests that future research, drug development, and clinical taxonomy should heavily stratify by APOE genotype.",
+  "key_claims": [
+    {
+      "claim": "The deterministic amyloid hypothesis fails to account for the full clinical and neuropathological spectrum of sporadic AD.",
+      "evidence": "Isolated amyloidosis with tauopathy severe enough to justify dementia (Braak V/VI) without co-morbidities occurs in less than 20% of cases; tau positivity often occurs without amyloid; and A+T+ cognitive decline rates over 5-14 years are relatively low.",
+      "strength": "strong",
+      "location": "Evidence against / Reports of tau positivity in the absence of amyloid / The rarity of A+T+ Braak stage V/VI cases"
+    },
+    {
+      "claim": "AD can be conceptually modeled into three variants with varying degrees of penetrance of the amyloid cascade.",
+      "evidence": "Autosomal dominant AD has nearly 100% penetrance but still exhibits 28% variance in dementia onset. APOE ε4-related AD displays distinct topographical pathology, amnesic profiles, and high lifetime risks (up to 95% for ε4/ε4) modulated by other genes. APOE ε4-unrelated AD accounts for 30-40% of amyloid-positive cases, typically with onset in the 80s, heavily influenced by over 60 other genes and lifestyle factors.",
+      "strength": "moderate",
+      "location": "The probabilistic model of AD"
+    },
+    {
+      "claim": "Anti-amyloid therapies have largely failed to halt cognitive decline despite successfully clearing amyloid plaques.",
+      "evidence": "DIAN-TU trial showed target engagement without cognitive benefit; EMERGE showed only a 22% reduction in decline for aducanumab, and ENGAGE showed no effect. Lecanemab slowed cognitive decline by 47%, implying that over 50% of progression remains independent of Aβ.",
+      "strength": "strong",
+      "location": "Evidence against / The extent of the clinical effects of anti-Aβ drugs is uncertain"
+    }
+  ],
+  "methods": {
+    "design": null,
+    "n": null,
+    "population": null,
+    "duration": null,
+    "registration": null
+  },
+  "funding_and_conflicts": "Funded by the Swiss National Science Foundation, EU-EFPIA Innovative Medicines Initiatives, and others. Extensive conflicts of interest declared by most authors, including consulting, speaker fees, and research funding from pharmaceutical companies (Biogen, Roche, Novartis, Eisai, Genentech, etc.).",
+  "limitations": [
+    "The probabilistic constructs of 'resistance' and 'resilience' have eluded direct observation and remain largely theoretical.",
+    "Lack of extensive clinicopathological data on rare, highly penetrant AD risk genes (e.g., TREM2) limits their current utility in subclassifying variants."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 9,
+    "issues": [
+      "Affiliation and contact details were completely stripped from the document during conversion.",
+      "Some citation brackets are improperly formatted or empty due to reference stripping (e.g., '(REFS - ; )' and '(; )')."
+    ]
+  },
+  "search_verification": [
+    "Queried Crossref API for DOI 10.1038/s41583-021-00533-w to confirm publication date: found 2021-11-23."
+  ]
+}

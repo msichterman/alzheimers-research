@@ -1,0 +1,9 @@
+{
+  "id": "aadvac1-adamant",
+  "source": "sources/aadvac1-adamant.html",
+  "sha256": "25f30a7659c3674c81c1d10ece5297470b0733faa1f5584419258f80b7210d6e",
+  "bytes": 69208,
+  "chars": 14005,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:05:02.655Z"
+}

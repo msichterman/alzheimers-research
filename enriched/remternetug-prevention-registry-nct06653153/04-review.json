@@ -1,0 +1,99 @@
+{
+  "fact_check": [
+    {
+      "fact": "1,400 participants",
+      "status": "verified",
+      "note": "Matches the '1400 (ESTIMATED)' enrollment field in the source registry."
+    },
+    {
+      "fact": "Participants aged 55 to 80 with minimal to no cognitive impairment",
+      "status": "verified",
+      "note": "Matches the inclusion criteria and age limits in the source registry."
+    },
+    {
+      "fact": "Duration of up to 255 weeks",
+      "status": "verified",
+      "note": "Matches the primary and secondary outcome measure time frames."
+    },
+    {
+      "fact": "Estimated completion date of October 2030",
+      "status": "verified",
+      "note": "Matches the 'Completion: 2030-10' field in the source registry."
+    },
+    {
+      "fact": "High ARIA rates (up to 41% in early data)",
+      "status": "unverified",
+      "note": "Not present in the source document. This is external context provided by the sentiment researcher based on prior remternetug/donanemab trial data."
+    }
+  ],
+  "research_page": {
+    "slug": "remternetug-trailrunner-alz-3",
+    "title": "Remternetug in early Alzheimer's (TRAILRUNNER-ALZ 3)",
+    "description": "A Phase 3 trial registry protocol evaluating the subcutaneous anti-amyloid immunotherapy remternetug for delaying clinical progression in early Alzheimer's disease.",
+    "tags": [
+      "trial-registry",
+      "amyloid",
+      "immunotherapy",
+      "remternetug",
+      "phase-3"
+    ],
+    "source_line_md": "**Source**: [ClinicalTrials.gov, 2024](https://clinicaltrials.gov/study/NCT06653153)",
+    "authors_line_md": "Eli Lilly and Company",
+    "takeaway_md": "TRAILRUNNER-ALZ 3 is a large, multi-year Phase 3 trial testing whether subcutaneous remternetug can delay clinical progression in early Alzheimer's disease. With a primary completion timeline extending to 2030, it aims to establish long-term efficacy and safety for this next-generation administration route.",
+    "key_findings_md": [
+      "The trial targets individuals aged 55-80 with biomarker-confirmed amyloid pathology but minimal to no current cognitive impairment (source: Eligibility).",
+      "The primary endpoint evaluates the time to clinically meaningful progression on the Clinical Dementia Rating (CDR) scale over up to 255 weeks (source: Primary outcome measures).",
+      "Participants are randomized to receive either subcutaneous remternetug or a placebo (source: Arms and Interventions)."
+    ],
+    "methods_md": "This is a Phase 3, randomized, double-blind, placebo-controlled trial enrolling an estimated 1,400 adults aged 55 to 80. Participants must have P-tau levels consistent with amyloid pathology but minimal cognitive and functional impairment. The study spans up to 255 weeks to evaluate time to clinical progression.",
+    "trial_evidence_md": "This trial evaluates the long-term clinical efficacy of remternetug, following the earlier [TRAILRUNNER-ALZ 1](https://clinicaltrials.gov/study/NCT05463731) trial, which focused on amyloid clearance and self-administration feasibility. It serves as a pivotal study to confirm whether subcutaneous delivery provides sustained disease modification and delays cognitive decline.",
+    "sentiment_md": "Public sentiment is highly optimistic, driven by patient and caregiver hopes that a subcutaneous injection will eliminate the burden of IV infusions and enable simple at-home treatment. Retail investors also view this delivery method as a competitive advantage for Eli Lilly. However, mainstream biotech media remains cautious, pointing to high ARIA (brain swelling) rates in earlier anti-amyloid data that complicate the vision of unmonitored at-home use.",
+    "caveats_md": [
+      "This document outlines study design and protocols for a trial that recently began; it does not contain clinical results.",
+      "Despite public hopes for near-term availability, this specific Phase 3 trial is not scheduled to complete until October 2030.",
+      "Enthusiasm for casual at-home administration may outpace reality if the drug requires rigorous MRI monitoring for ARIA, similar to other anti-amyloid therapies."
+    ],
+    "relates_to_md": [
+      "[TRAILRUNNER-ALZ 3](/trials/remternetug-nct06653153) — The clinical trial tracking page.",
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — The underlying biological mechanism being targeted."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "remternetug-nct06653153",
+      "title": "TRAILRUNNER-ALZ 3",
+      "description": "Phase 3 trial evaluating subcutaneous remternetug versus placebo in early Alzheimer's disease.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "phase-3",
+        "amyloid",
+        "remternetug"
+      ],
+      "registry_md": "[NCT06653153](https://clinicaltrials.gov/study/NCT06653153)",
+      "drug": "remternetug (anti-amyloid immunotherapy)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "population": "Adults aged 55-80 with P-tau consistency for amyloid and minimal cognitive impairment (n=1400)",
+      "primary_endpoint": "Time to Clinically Meaningful Progression as Measured by Clinical Dementia Rate Scale (CDR)",
+      "started": "2024-10",
+      "readout": "2030-10",
+      "why_md": "This trial seeks to determine if subcutaneous administration of remternetug can delay cognitive and functional decline over a prolonged period (up to 255 weeks). It addresses the need for less burdensome administration routes in anti-amyloid therapy while measuring long-term disease modification.",
+      "status_log_md": [
+        "**2024-10-24** — Study start date (first participant enrolled)."
+      ],
+      "results_md": null
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2024-10",
+      "title": "2024-10 — TRAILRUNNER-ALZ 3 trial begins",
+      "body_md": "Eli Lilly launches a Phase 3 trial evaluating subcutaneous remternetug in 1,400 participants with early Alzheimer's disease to measure time to clinical progression over 255 weeks. [Read more](/research/papers/remternetug-trailrunner-alz-3)"
+    }
+  ],
+  "notes_for_editor": [
+    "The sentiment researcher cited an ARIA rate of up to 41% from 'early data.' This is not present in the NCT06653153 registry document. I retained references to ARIA in the sentiment and caveats sections as a general known risk of anti-amyloids to contextualize the hype around 'at-home administration,' but the specific 41% figure requires external verification."
+  ]
+}

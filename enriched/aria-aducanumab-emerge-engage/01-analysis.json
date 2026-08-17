@@ -1,0 +1,199 @@
+{
+  "kind": "research-paper",
+  "title": "Amyloid-Related Imaging Abnormalities in 2 Phase 3 Studies Evaluating Aducanumab in Patients With Early Alzheimer Disease",
+  "authors": [
+    {
+      "name": "Salloway, Stephen",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Chalkias, Spyros",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Barkhof, Frederik",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Burkett, Patrick",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Barakos, Jerome",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Purcell, Derk",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Suhy, Joyce",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Forrestal, Fiona",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Tian, Ying",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Umans, Kimberly",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Wang, Guanfang",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Singhal, Priya",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Budd Haeberlein, Samantha",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Smirnakis, Karen",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Salloway, Stephen",
+  "venue": "JAMA Neurology",
+  "published": "2021",
+  "doi": "10.1001/jamaneurol.2021.4161",
+  "doi_url": "https://doi.org/10.1001/jamaneurol.2021.4161",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/34807243",
+  "copyright": null,
+  "license": {
+    "name": "CC BY-NC-ND 4.0",
+    "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "reuse": "redistribute",
+    "evidence": "This is an open access article distributed under the terms of the CC-BY-NC-ND License."
+  },
+  "tags": [
+    "paper",
+    "trial",
+    "amyloid",
+    "immunotherapy",
+    "aria",
+    "aducanumab",
+    "adverse-events"
+  ],
+  "themes": [
+    "Aducanumab safety profile",
+    "Amyloid-related imaging abnormalities (ARIA)",
+    "ApoE e4 risk factors",
+    "ARIA-E symptom frequency"
+  ],
+  "one_line": "In the EMERGE and ENGAGE phase 3 trials, 41.3% of patients receiving high-dose aducanumab developed amyloid-related imaging abnormalities (ARIA), which were mostly asymptomatic and resolved radiographically.",
+  "summary": "This document reports a secondary analysis of ARIA incidence from the EMERGE and ENGAGE phase 3 randomized clinical trials evaluating aducanumab for early Alzheimer's disease. Among participants receiving the highest dose (10 mg/kg), 41.3% experienced ARIA, with ARIA-edema (ARIA-E) being the most common finding (35.2%). The incidence of ARIA-E was highest during early treatment and among ApoE ε4 carriers. While the majority of ARIA-E cases were asymptomatic and resolved radiographically within 16 weeks, roughly 26% of those with ARIA-E experienced symptoms such as headache, confusion, or dizziness. The findings suggest that while ARIA is a frequent adverse event associated with high-dose aducanumab, it can typically be managed with routine MRI monitoring and targeted dose suspensions.",
+  "key_claims": [
+    {
+      "claim": "High-dose aducanumab (10 mg/kg) frequently causes ARIA-E, primarily early in the treatment course.",
+      "evidence": "362 of 1029 patients (35.2%) in the 10-mg/kg group experienced ARIA-E; 72.7% of initial events occurred within the first 8 doses.",
+      "strength": "strong",
+      "location": "Results / Table 1"
+    },
+    {
+      "claim": "ApoE ε4 carrier status is a significant risk factor for developing ARIA-E.",
+      "evidence": "Incidence of ARIA-E was 43.0% in ApoE ε4 carriers compared to 20.3% in noncarriers in the 10-mg/kg group (Hazard Ratio 2.5).",
+      "strength": "strong",
+      "location": "Results / Table 1"
+    },
+    {
+      "claim": "The vast majority of ARIA-E cases are radiographically transient and asymptomatic.",
+      "evidence": "98.2% of events resolved radiographically (82.8% within 16 weeks), and 74% of patients with ARIA-E remained asymptomatic.",
+      "strength": "strong",
+      "location": "Results / Table 3"
+    },
+    {
+      "claim": "ARIA-H (microhemorrhages and superficial siderosis) occurs more frequently in patients who also experience ARIA-E.",
+      "evidence": "Incidence of brain microhemorrhages was 40.3% in patients with ARIA-E versus 7.6% in those without ARIA-E in the 10-mg/kg group.",
+      "strength": "strong",
+      "location": "Results / Table 1"
+    }
+  ],
+  "methods": {
+    "design": "Secondary analysis of two double-blind, placebo-controlled, parallel-group, phase 3 randomized clinical trials",
+    "n": 3285,
+    "population": "Adults aged 50 to 85 years with mild cognitive impairment due to Alzheimer disease or mild Alzheimer disease dementia, with confirmed amyloid pathology",
+    "duration": "76 weeks (placebo-controlled period)",
+    "registration": "NCT02484547, NCT02477800"
+  },
+  "funding_and_conflicts": "none stated",
+  "limitations": [
+    "The trials were terminated early by the sponsor, leading to incomplete dosing courses for approximately 45% of the total participants, which could impact the long-term observation of adverse events.",
+    "The global phase 3 study populations lacked racial and ethnic diversity.",
+    "The study only evaluated patients with mild cognitive impairment or mild dementia; safety profiles in other disease stages remain unknown."
+  ],
+  "red_flags": [
+    "The manuscript mentions in the Introduction that 'key assumptions on which the futility decision was based were not valid' to justify the subsequent analysis, which frames the early termination as a statistical error rather than a clinical failure, presenting a form of narrative spin in a safety paper.",
+    "The provided text lacks a conflict of interest or funding declaration section, which is critical given the controversial regulatory history of aducanumab."
+  ],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "Citation reference numbers were stripped during conversion, leaving empty trailing prepositions (e.g., 'eFigure 1B in ', 'eTable 2 in ').",
+      "Missing end-of-document matter (Conflicts of Interest, Funding, References) in the provided Markdown extract."
+    ]
+  },
+  "search_verification": []
+}

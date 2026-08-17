@@ -1,0 +1,264 @@
+{
+  "kind": "research-paper",
+  "title": "The APOE-R136S mutation protects against APOE4-driven Tau pathology, neurodegeneration and neuroinflammation",
+  "authors": [
+    {
+      "name": "Nelson, Maxine R.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Liu, Peng",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Agrawal, Ayushi",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Yip, Oscar",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Blumenfeld, Jessica",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Traglia, Michela",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Kim, Min Joo",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Koutsodendris, Nicole",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Rao, Antara",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Grone, Brian",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Hao, Yanxia",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Yoon, Seo Yeon",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Xu, Qin",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "works part time at GABAeron, Inc."
+    },
+    {
+      "name": "De Leon, Samuel",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Choenyi, Tenzing",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Thomas, Reuben",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Lopera, Francisco",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Quiroz, Yakeel T.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Arboleda-Velasquez, Joseph F.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "co-inventor on a patent application describing methods and compositions for the treatment of Alzheimer’s disease via APOE Christchurch"
+    },
+    {
+      "name": "Reiman, Eric M.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Mahley, Robert W.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "involved in establishing and managing GABAeron, Inc."
+    },
+    {
+      "name": "Huang, Yadong",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "involved in establishing and managing GABAeron, Inc."
+    }
+  ],
+  "first_author": "Nelson, Maxine R.",
+  "venue": "Nature Neuroscience",
+  "published": "2023",
+  "doi": "10.1038/s41593-023-01480-8",
+  "doi_url": "https://doi.org/10.1038/s41593-023-01480-8",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/37957317",
+  "copyright": null,
+  "license": {
+    "name": "CC BY 4.0",
+    "url": null,
+    "reuse": "redistribute",
+    "evidence": "This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made."
+  },
+  "tags": [
+    "paper",
+    "tau",
+    "inflammation",
+    "genetics",
+    "apoe4",
+    "r136s-mutation",
+    "animal-model"
+  ],
+  "themes": [
+    "APOE4-driven Tau pathology",
+    "R136S protective mutation",
+    "Neurodegeneration rescue",
+    "HSPG-mediated Tau uptake",
+    "Transcriptomic shifts in glia"
+  ],
+  "one_line": "The APOE-R136S (Christchurch) mutation protects against APOE4-driven Tau pathology, neurodegeneration, and neuroinflammation in a gene dose-dependent manner.",
+  "summary": "This study investigates whether the rare APOE-R136S (Christchurch) mutation, known to protect against early-onset Alzheimer's disease, also mitigates the detrimental effects of the APOE4 allele in late-onset AD models. Using human APOE4 knock-in tauopathy mice and human iPSC-derived neurons, the researchers discovered that the homozygous R136S mutation fully rescued APOE4-driven Tau pathology, neurodegeneration, and neuroinflammation. The heterozygous mutation provided partial protection against neurodegeneration and neuroinflammation but did not reduce Tau pathology. Mechanistically, the R136S mutation impaired HSPG-mediated neuronal Tau uptake, blunting p-Tau accumulation. Single-nucleus RNA sequencing revealed that the mutation dose-dependently enriched disease-protective glial populations while diminishing disease-associated astrocytes, microglia, and oligodendrocytes.",
+  "key_claims": [
+    {
+      "claim": "The homozygous APOE-R136S mutation rescues APOE4-driven Tau pathology, neurodegeneration, and neuroinflammation.",
+      "evidence": "PS19-E4-S/S mice showed significantly reduced AT8+ p-Tau coverage compared to PS19-E4 mice, full rescue of hippocampal and lateral ventricle volumes, and significant reductions in GFAP+, S100β+, Iba1+, and CD68+ glial cells.",
+      "strength": "strong",
+      "location": "Results / Figures 1, 4, 5"
+    },
+    {
+      "claim": "The heterozygous APOE-R136S mutation provides partial protection against neurodegeneration and neuroinflammation but not Tau pathology.",
+      "evidence": "PS19-E4-R/S mice maintained ~90% type 3/4 p-Tau staining but still exhibited partially rescued hippocampal atrophy and significant, dose-dependent reductions in astrocytosis and microgliosis compared to PS19-E4.",
+      "strength": "strong",
+      "location": "Results / Figures 1, 4, 5"
+    },
+    {
+      "claim": "The R136S mutation protects against p-Tau accumulation by reducing Tau uptake via the HSPG pathway.",
+      "evidence": "E4-S/S human neurons exhibited a ~50% reduction in Tau-488 uptake compared to E4 neurons. Heparin treatment (blocking HSPGs) reduced p-Tau levels in E4 neurons by ~25% but did not significantly alter them in E4-S/S neurons.",
+      "strength": "moderate",
+      "location": "Results / Figure 3"
+    },
+    {
+      "claim": "The APOE4-R136S mutation shifts cell transcriptomics by increasing disease-protective glia and diminishing disease-associated cells.",
+      "evidence": "snRNA-seq on 175,080 nuclei demonstrated that E4-S/S enriched homeostatic astrocytes (cluster 3) and microglia (clusters 2, 11) while essentially eliminating disease-associated oligodendrocytes (cluster 9), astrocytes (clusters 5, 7), and microglia (cluster 8).",
+      "strength": "strong",
+      "location": "Results / Figures 6, 7, 8"
+    }
+  ],
+  "methods": {
+    "design": "In vivo study using human APOE4 knock-in tauopathy mice (PS19-E) combined with CRISPR-edited human iPSC-derived neuron models.",
+    "n": "snRNA-seq: 175,080 nuclei from 15 mice; histology/volumetric analyses used n=20-31 mice per group.",
+    "population": "PS19-E4, PS19-E3, PS19-E4-S/S, and PS19-E4-R/S mice (C57BL/6 background) and isogenic hiPSC lines derived from an APOE4/4 AD patient.",
+    "duration": "Mice evaluated at 6 and 10 months of age.",
+    "registration": null
+  },
+  "funding_and_conflicts": "Funded by NIH (R01AG071697, RF1AG076647, P01AG073082, F31AG074690, F31AG074672, P3 AG072980, 1RF1AG059751), Open Philanthropy and Good Ventures. Conflicts: Y. Huang, R.W.M., and Q.X. are involved with GABAeron, Inc. J.F.A.-V. is a co-inventor on a related patent application. Other authors declare no competing financial interests.",
+  "limitations": [
+    "The models lack extensive Aβ pathology, meaning the study does not address whether APOE-R136S protects against Aβ-mediated inflammatory and neurodegenerative effects.",
+    "The study evaluates the R136S mutation entirely within the APOE4 allele background, whereas the original protected patient had the mutation on an APOE3 background; protection in an APOE3 context remains to be studied."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 7,
+    "issues": [
+      "The document header (author list and affiliations) was entirely stripped during PDF-to-Markdown conversion.",
+      "Run-together punctuation and whitespace artifacts exist throughout the text (e.g., '– .', ',, .').",
+      "Several figure callouts lack numbering due to parsing errors (e.g., 'Fig. ' instead of 'Fig. 1').",
+      "Minor OCR formatting artifacts exist in unit symbols (e.g., '1.5 Å~ IQR')."
+    ]
+  },
+  "search_verification": [
+    "Queried the CrossRef API for the provided DOI (10.1038/s41593-023-01480-8) to reconstruct the full author list since the byline was stripped from the parsed Markdown document."
+  ]
+}

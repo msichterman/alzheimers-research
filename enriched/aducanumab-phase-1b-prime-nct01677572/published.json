@@ -1,0 +1,23 @@
+{
+  "published_at": "2026-08-16T22:50:29.311Z",
+  "files": [
+    "docs/research/papers/aducanumab-prime-registry.mdx",
+    "docs/trials/aducanumab-prime-nct01677572.mdx",
+    "docs/trials/engage-nct02477800.mdx",
+    "docs/trials/emerge-nct02484547.mdx"
+  ],
+  "timeline": [
+    {
+      "title": "2012-10 — PRIME trial begins",
+      "action": "skipped (already present)"
+    },
+    {
+      "title": "2019-03 — Aducanumab Phase 3 trials halted for futility",
+      "action": "skipped (already present)"
+    },
+    {
+      "title": "2024-01 — Biogen discontinues Aduhelm",
+      "action": "skipped (already present)"
+    }
+  ]
+}

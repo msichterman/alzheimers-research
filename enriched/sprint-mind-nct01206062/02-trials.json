@@ -1,0 +1,43 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT01206062",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01206062",
+      "name": "SPRINT",
+      "drug": "Intensive blood pressure management (Systolic BP target < 120 mm Hg)",
+      "phase": "n/a",
+      "sponsor": "National Heart, Lung, and Blood Institute (NHLBI)",
+      "status": "Completed",
+      "enrollment": 9361,
+      "population": "Adults aged 50 years or older with hypertension (SBP 130-180 mm Hg) and at least one additional cardiovascular risk factor, excluding those with diabetes or prior stroke.",
+      "primary_endpoint": "First Occurrence of a Myocardial Infarction (MI), Acute Coronary Syndrome (ACS), Stroke, Heart Failure (HF), or CVD Death",
+      "started": "2010-10",
+      "completed_or_readout": "2019-03",
+      "results_summary": "The intervention phase was stopped early (August 2015) after intensive BP control demonstrated a significant reduction in the primary composite cardiovascular outcome (HR 0.75) and all-cause mortality (HR 0.73). The SPRINT-MIND cognitive substudy showed intensive control significantly reduced the combined risk of mild cognitive impairment and probable dementia, though the reduction in probable dementia alone did not reach statistical significance (HR 0.83, p=0.10), potentially due to the early termination.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2015-11-26",
+      "kind": "paper",
+      "description": "Primary SPRINT trial results demonstrating a significant reduction in cardiovascular events and mortality in the intensive-treatment group.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26551272/"
+    },
+    {
+      "date": "2019-02-12",
+      "kind": "paper",
+      "description": "SPRINT-MIND substudy results reporting on probable dementia and mild cognitive impairment outcomes.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30688979/"
+    },
+    {
+      "date": "2017-12-04",
+      "kind": "registry-results",
+      "description": "First posted trial results on ClinicalTrials.gov (last updated January 2021).",
+      "url": "https://clinicaltrials.gov/study/NCT01206062?tab=results"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence from the SPRINT trial is highly robust, supported by a large, randomized, multicenter design (N=9,361) funded by the NIH. The evidence for its primary cardiovascular and mortality outcomes is strong enough that the trial was halted early for benefit and has fundamentally shaped global hypertension guidelines. Regarding cognitive decline and Alzheimer's disease risk, the pre-specified SPRINT-MIND substudy provides the most rigorous evidence to date that managing a modifiable risk factor (blood pressure) positively impacts cognitive trajectories. Although the reduction in probable dementia alone was non-significant (p=0.10)—likely due to a loss of statistical power from early trial termination—the trial did demonstrate a significant reduction in the combined risk of mild cognitive impairment and dementia.",
+  "discrepancies": []
+}

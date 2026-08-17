@@ -1,0 +1,75 @@
+{
+  "overall": "negative",
+  "summary": "Public sentiment surrounding aducanumab (Aduhelm) is overwhelmingly negative across almost all communities, transitioning from early desperate hope to widespread condemnation. Caregivers and patients quickly became disillusioned by the high costs, restrictive Medicare coverage, and severe risks of ARIA (brain swelling and bleeding). The scientific and medical communities broadly view the drug's initial FDA approval as a regulatory failure and scandal, citing statistically manipulated data and lack of clinical cognitive benefit. Financial communities watched the drug become a commercial failure, culminating in Biogen abandoning it entirely in 2024.",
+  "communities": [
+    {
+      "community": "r/Alzheimers (patients and caregivers)",
+      "sentiment": "negative",
+      "themes": [
+        "Frustration with lack of cognitive improvement",
+        "Fear of severe side effects like brain bleeds (ARIA)",
+        "Anger over unjustified high costs and false hope"
+      ],
+      "example_urls": [
+        "https://old.reddit.com/r/Alzheimers/comments/rl15i3/call_for_the_accelerated_withdrawal_of_aducanumab/",
+        "https://old.reddit.com/r/Alzheimers/comments/oewsdb/aducanumab_aduhelm/"
+      ]
+    },
+    {
+      "community": "Scientific and medical professionals (Hacker News, Science blogs)",
+      "sentiment": "negative",
+      "themes": [
+        "Regulatory capture and FDA review bias",
+        "Statistical manipulation of EMERGE/ENGAGE trial data",
+        "Amyloid clearance not equating to cognitive rescue"
+      ],
+      "example_urls": [
+        "https://blogs.sciencemag.org/pipeline/archives/2021/07/02/the-underside-of-the-aducanumab-approval",
+        "https://astralcodexten.substack.com/p/adumbrations-of-aducanumab"
+      ]
+    },
+    {
+      "community": "Biotech investors and pharma industry",
+      "sentiment": "negative",
+      "themes": [
+        "Commercial failure and stalled sales",
+        "Medicare coverage restrictions (NCD)",
+        "Biogen abandoning the drug in 2024"
+      ],
+      "example_urls": [
+        "https://www.fiercepharma.com/pharma/facing-pushback-biogen-and-fda-agree-to-narrow-aduhelm-s-broad-label",
+        "https://endpts.com/biogen-slashes-aduhelm-price-in-half-foreshadows-significant-layoffs-as-sales-continue-to-stagnate/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Science Magazine",
+      "tone": "critical",
+      "date": "2021-07",
+      "url": "https://blogs.sciencemag.org/pipeline/archives/2021/07/02/the-underside-of-the-aducanumab-approval"
+    },
+    {
+      "outlet": "New York Times",
+      "tone": "neutral",
+      "date": "2024-01",
+      "url": "https://www.nytimes.com/2024/01/31/business/biogen-alzheimers-aduhelm.html"
+    },
+    {
+      "outlet": "Gizmodo",
+      "tone": "critical",
+      "date": "2024-01",
+      "url": "https://gizmodo.com/its-finally-over-for-aduhelm-the-sketchy-alzheimers-dr-1851217015"
+    }
+  ],
+  "hype_vs_evidence": "Early corporate and FDA messaging hyped aducanumab as a 'first-in-class' breakthrough that would finally treat the underlying cause of Alzheimer's. However, public and scientific perception quickly aligned with the grim reality of the trial data: clearing amyloid plaques did not produce a clinically meaningful halt to cognitive decline. The evidence showing a 41.3% rate of ARIA in high-dose patients underscored that the drug posed severe physical risks (brain swelling and microhemorrhages) that vastly outweighed its negligible benefits.",
+  "misinformation_flags": [
+    "The claim that aducanumab reverses or meaningfully halts Alzheimer's cognitive decline (it was only proven to reduce amyloid plaques).",
+    "The belief that FDA approval validated the drug's clinical efficacy (the FDA bypassed its own advisory committee's nearly unanimous rejection)."
+  ],
+  "searches_run": [
+    "https://hn.algolia.com/api/v1/search?query=aducanumab",
+    "https://hn.algolia.com/api/v1/search?query=aduhelm",
+    "https://old.reddit.com/r/Alzheimers/search?q=aducanumab&restrict_sr=on"
+  ]
+}

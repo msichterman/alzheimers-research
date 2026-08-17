@@ -1,0 +1,66 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment regarding the use of amyloid and tau PET scans to predict Alzheimer's in cognitively normal individuals is distinctly split between scientific enthusiasm and caregiver caution. The scientific community and general science enthusiasts view the Ossenkoppele et al. findings as a massive breakthrough that validates the biological definition of the disease and paves the way for early-intervention trials. Conversely, actual patients and caregivers in dementia forums express significant reservations. For families on the front lines, the psychological burden of receiving a preclinical diagnosis years in advance often outweighs the benefits. This caution is heavily driven by the current lack of highly accessible, curative treatments that would make early detection actionable.",
+  "communities": [
+    {
+      "community": "r/science and science enthusiasts",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Massive breakthrough in early detection",
+        "Enables targeted preventative clinical trials",
+        "Validates biological definition of Alzheimer's"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/science/comments/ysw6gy/alzheimers_disease_can_be_diagnosed_before/"
+      ]
+    },
+    {
+      "community": "Caregivers and families (r/dementia)",
+      "sentiment": "skeptical",
+      "themes": [
+        "Psychological burden of early diagnosis",
+        "Lack of actionable cures makes testing moot",
+        "Prioritizing quality of life over medicalization"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/dementia/comments/1u0nil8/anyone_had_amyloid_pet_scan_for_alzheimers/"
+      ]
+    },
+    {
+      "community": "Researchers and scientists (Alzforum)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Confirmation of amyloid-tau cascade hypothesis",
+        "Essential screening tool for future trial design",
+        "Superior predictive value of tau-PET"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/research-news/large-tau-pet-studies-confirm-tangles-foretell-decline",
+        "https://www.alzforum.org/news/research-news/tau-pet-and-p-tau217-equally-predictive-yet-complementary"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "EurekAlert! (AAAS)",
+      "tone": "positive",
+      "date": null,
+      "url": "https://www.eurekalert.org/news-releases/1098639"
+    },
+    {
+      "outlet": "Amsterdam UMC",
+      "tone": "positive",
+      "date": null,
+      "url": "https://www.amsterdamumc.org/en/spotlight/review-on-tau-biomarkers-in-alzheimers-disease"
+    }
+  ],
+  "hype_vs_evidence": "Media coverage and general science enthusiasm sometimes oversimplify these findings, framing PET scans as an immediate diagnostic tool that can 'diagnose' Alzheimer's decades before symptoms appear. However, the evidence in the paper establishes a group-level relative risk focused on short-term clinical progression (within ~3.5 years), rather than a deterministic lifetime prophecy for any single individual. The scientific reality is that these scans are currently optimized as enrichment tools for clinical trials. Public perception runs ahead of the evidence by assuming these predictive tests are ready and useful for routine preventative screening in the asymptomatic general public.",
+  "misinformation_flags": [
+    "The circulating claim that a positive amyloid and tau scan in a healthy person guarantees they will develop clinical dementia, ignoring that the study establishes relative risk over a short period and does not account for competing lifetime risks (such as dying of other causes)."
+  ],
+  "searches_run": [
+    "\"Amyloid and tau PET-positive cognitively unimpaired individuals are at high risk for future cognitive decline\" reddit",
+    "site:reddit.com/r/alzheimers \"pet scan\" predict OR preclinical OR tau",
+    "alzforum \"Amyloid and tau PET-positive cognitively unimpaired individuals\""
+  ]
+}

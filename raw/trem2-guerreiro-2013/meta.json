@@ -1,0 +1,9 @@
+{
+  "id": "trem2-guerreiro-2013",
+  "source": "sources/trem2-guerreiro-2013.xml",
+  "sha256": "391660104cc8d402bffff78f0b10449ee20d34fd4111a3fd0fd4f8c9f98ead92",
+  "bytes": 101893,
+  "chars": 21993,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:11.318Z"
+}

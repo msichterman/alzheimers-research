@@ -1,0 +1,430 @@
+{
+  "kind": "research-paper",
+  "title": "Resistance to autosomal dominant Alzheimer’s in an APOE3 -Christchurch homozygote: a case report",
+  "authors": [
+    {
+      "name": "Arboleda-Velasquez, Joseph F.",
+      "affiliation": null,
+      "orcid": null,
+      "email": "joseph_arboleda@meei.harvard.edu",
+      "corresponding": true,
+      "conflicts": null
+    },
+    {
+      "name": "Lopera, Francisco",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "O’Hare, Michael",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Delgado-Tirado, Santiago",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Marino, Claudia",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Chmielewska, Natalia",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Saez-Torres, Kahira L.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Amarnani, Dhanesh",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Schultz, Aaron P.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Sperling, Reisa A.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "has received personal compensation from AC Immune, Eisai, Roche, and Takeda, and research grant support from Eli Lilly and Janssen."
+    },
+    {
+      "name": "Leyton-Cifuentes, David",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Chen, Kewei",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Baena, Ana",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Aguillon, David",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Rios-Romenets, Silvia",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Giraldo, Margarita",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Guzmán-Vélez, Edmarie",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Norton, Daniel J.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Pardilla-Delgado, Enmanuelle",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Artola, Arabiye",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Sanchez, Justin S.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Acosta-Uribe, Juliana",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Lalli, Matthew",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Kosik, Kenneth S.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Huentelman, Matthew J.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Zetterberg, Henrik",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "has served at scientific advisory boards for Roche Diagnostics, Wave, Samumed and CogRx, has given lectures in symposia sponsored by Biogen and Alzecure, and is a co-founder of Brain Biomarker Solutions in Gothenburg AB"
+    },
+    {
+      "name": "Blennow, Kaj",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Reiman, Rebecca A.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Luo, Ji",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Chen, Yinghua",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Thiyyagura, Pradeep",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Su, Yi",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Jun, Gyungah R.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Naymik, Marcus",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Gai, Xiaowu",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Bootwalla, Moiz",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Ji, Jianling",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Shen, Lishuang",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Miller, John B.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Kim, Leo A.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Tariot, Pierre N.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "has received personal compensation for consulting, serving on scientific advisory boards, or other activities with AbbVie, AC Immune, Acadia, Auspex, Boehringer Ingelheim, Chase Pharmaceuticals, Corium, Eisai, GliaCure, INSYS Therapeutics, Pfizer, T3D, AstraZeneca, Avanir, Biogen, Eli Lilly, H. Lundbeck A/S, Merck and Company, and Roche; holds a provisional patent on “Biomarkers of Alzheimer’s Disease” at the University of Rochester; holds stock options in Adamas; received research support from AstraZeneca, Avanir, Biogen, Eli Lilly, H. Lundbeck A/S, Merck and Company, Roche, Amgen, Avid, Functional Neuromodulation, GE Healthcare, Genentech, Novartis, Takeda, Targacept, the National Institute on Aging, and the Arizona Department of Health Services."
+    },
+    {
+      "name": "Johnson, Keith A.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Reiman, Eric M.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Quiroz, Yakeel T.",
+      "affiliation": null,
+      "orcid": null,
+      "email": "yquiroz@mgh.harvard.edu",
+      "corresponding": true,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Arboleda-Velasquez, Joseph F.",
+  "venue": "Nature medicine",
+  "published": "2019",
+  "doi": "10.1038/s41591-019-0611-3",
+  "doi_url": "https://doi.org/10.1038/s41591-019-0611-3",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/31686034",
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": "http://www.nature.com/authors/editorial_policies/license.html#terms",
+    "reuse": "quote-and-summarize",
+    "evidence": "Users may view, print, copy, and download text and data-mine the content in such documents, for the purposes of academic research, subject always to the full Conditions of use: http://www.nature.com/authors/editorial_policies/license.html#terms"
+  },
+  "tags": [
+    "paper",
+    "genetics",
+    "amyloid",
+    "tau",
+    "biomarkers",
+    "apoe3-christchurch",
+    "psen1",
+    "case-report"
+  ],
+  "themes": [
+    "Autosomal dominant Alzheimer's disease (ADAD)",
+    "APOE3 Christchurch mutation",
+    "Amyloid aggregation without tau pathology",
+    "Delayed clinical onset of dementia",
+    "Resistance to Alzheimer's pathology"
+  ],
+  "one_line": "A patient carrying the early-onset Alzheimer's PSEN1 E280A mutation remained cognitively unimpaired for three decades longer than expected, likely due to a homozygous APOE3 Christchurch mutation that restricted tau pathology despite high amyloid burden.",
+  "summary": "This case report details a female patient from a large Colombian kindred who carries the PSEN1 E280A mutation, which typically causes early-onset autosomal dominant Alzheimer's disease. Remarkably, she did not develop mild cognitive impairment until her seventies, nearly three decades after the expected onset age. Genetic sequencing revealed that she was homozygous for the rare APOE3 Christchurch (R136S) mutation. Brain imaging demonstrated an unusually high amyloid burden, but notably limited tau tangle pathology and neurodegeneration compared to younger, cognitively unimpaired PSEN1 carriers. Additional in vitro experiments showed that the mutant APOE3ch protein exhibited impaired ability to promote amyloid-beta aggregation. These findings suggest that the APOE3 Christchurch mutation confers strong resistance to tauopathy and clinical Alzheimer's disease despite high amyloid accumulation, pointing to the APOE-heparin interaction as a potential therapeutic target.",
+  "key_claims": [
+    {
+      "claim": "The APOE3 Christchurch (R136S) homozygous mutation delayed clinical onset of Alzheimer's disease by three decades in a PSEN1 E280A carrier.",
+      "evidence": "Clinical assessment showing the patient did not develop MCI until her seventies despite the expected onset age of early forties; whole exome and genome sequencing identified two copies of the APOE3ch variant.",
+      "strength": "strong",
+      "location": "Abstract / Clinical assessments / Whole exome sequencing"
+    },
+    {
+      "claim": "The APOE3ch mutation restricts tau pathology and neurodegeneration despite heavy amyloid plaque burden.",
+      "evidence": "PiB PET imaging revealed unusually high brain amyloid levels, while FTP PET and structural MRI showed limited tau tangles and neurodegenerative measurements compared to younger PSEN1 E280A mutation carriers.",
+      "strength": "strong",
+      "location": "Abstract / MRI and PET imaging"
+    },
+    {
+      "claim": "The APOE3ch mutant protein reduces Aβ42 aggregation compared to wild-type APOE3.",
+      "evidence": "Thioflavin T fibrillation assays demonstrated a significantly lower rate of Aβ42 aggregation (p < 0.001) in the presence of ApoE3ch, and a split-luciferase complementation assay showed reduced oligomer formation.",
+      "strength": "moderate",
+      "location": "Amyloid aggregation studies / Extended Data Fig. 3"
+    }
+  ],
+  "methods": {
+    "design": "Case report with genetic, imaging, and in vitro analyses",
+    "n": 1,
+    "population": "A PSEN1 E280A mutation carrier homozygous for the APOE3 Christchurch mutation",
+    "duration": null,
+    "registration": null
+  },
+  "funding_and_conflicts": "Funded by NIH (multiple grants), Alzheimer's Association, Grimshaw-Gudewicz Charitable Foundation, Banner Alzheimer's Foundation, Nomis Foundation, Anonymous Foundation, and State of Arizona. Conflicts declared by P.N. Tariot, H. Zetterberg, and R.A. Sperling (consulting/grants with pharma). All other authors declare no competing financial interests.",
+  "limitations": [
+    "Findings are derived from a single unique patient, limiting absolute generalizability",
+    "In vitro amyloid aggregation assays may not perfectly mirror complex in vivo dynamics"
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "Figure, table, and reference numbers are occasionally missing in the text, resulting in empty parentheses (e.g., 'noted in .', 'hyperliproteinemia type III ()', 'Sanger sequencing ()')."
+    ]
+  },
+  "search_verification": []
+}

@@ -1,0 +1,17 @@
+{
+  "published_at": "2026-08-16T22:50:29.394Z",
+  "files": [
+    "docs/research/papers/ising-nlrp3-inflammasome-tau-2019.mdx",
+    "docs/trials/canakinumab-nct04795466.mdx"
+  ],
+  "timeline": [
+    {
+      "title": "2019-11 — Microglial NLRP3 inflammasome linked to tau pathology",
+      "action": "skipped (already present)"
+    },
+    {
+      "title": "2024-03 — Canakinumab Phase 2 trial terminated",
+      "action": "skipped (already present)"
+    }
+  ]
+}

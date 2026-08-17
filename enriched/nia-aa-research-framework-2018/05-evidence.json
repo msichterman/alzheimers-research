@@ -1,0 +1,509 @@
+{
+  "_meta": {
+    "model": "claude (builder subagent)",
+    "extracted_at": "2026-08-13T00:00:00Z",
+    "source": "raw/nia-aa-research-framework-2018/document.md"
+  },
+  "document_kind": "consensus_statement",
+  "title": {
+    "value": "NIA-AA Research Framework: Toward a biological definition of Alzheimer's disease",
+    "quote": "NIA-AA Research Framework: Toward a biological definition of Alzheimer’s disease\n**Authors:** Clifford R. Jack, David A. Bennett, Kaj Blennow",
+    "location": "Title and author line"
+  },
+  "authors": [
+    { "name": "Clifford R. Jack", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "David A. Bennett", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Kaj Blennow", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Maria C. Carrillo", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Billy Dunn", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Samantha Budd Haeberlein", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "David M. Holtzman", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "William Jagust", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Frank Jessen", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Jason Karlawish", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Enchi Liu", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Jose Luis Molinuevo", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Thomas Montine", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Creighton Phelps", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Katherine P. Rankin", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Christopher C. Rowe", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Philip Scheltens", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Eric Siemers", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Heather M. Snyder", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Reisa Sperling", "affiliation": null, "orcid": null, "corresponding": null }
+  ],
+  "study": {
+    "design": {
+      "value": "NIA-AA-commissioned work group document that unifies and updates the 2011 NIA-AA guidelines, explicitly labeled a 'research framework' rather than diagnostic criteria or guidelines; document_kind is consensus_statement because it is a convened work group's agreed conceptual scheme, not a study and not a systematic synthesis of a defined literature search",
+      "quote": "This unifying update is labeled a “research framework” because its intended use is for observational and interventional research, not routine clinical care.",
+      "location": "Abstract"
+    },
+    "phase": { "value": null, "quote": null, "location": null },
+    "n": { "value": null, "quote": null, "location": null },
+    "n_description": { "value": null, "quote": null, "location": null },
+    "population": {
+      "value": "Research participants in observational cohort studies and interventional trials — including individuals in the Alzheimer's continuum, individuals with normal AD biomarkers, and individuals with non-AD pathologic change",
+      "quote": "AD biomarker characterization will identify some research participants who have no AD biomarker abnormalities and some who likely have diseases other than AD.",
+      "location": "Section 1, Preamble"
+    },
+    "followup": { "value": null, "quote": null, "location": null },
+    "intervention": { "value": null, "quote": null, "location": null },
+    "comparator": { "value": null, "quote": null, "location": null },
+    "biomarker_confirmation": {
+      "value": "Biomarker evidence of both Aβ deposition and pathologic tau is required to apply the label 'Alzheimer's disease'; Aβ biomarker abnormality alone is labeled 'Alzheimer's pathologic change'",
+      "quote": "The term “Alzheimer’s disease” would be applied if biomarker evidence of both Aβ and pathologic tau was present (, , ).",
+      "location": "Section 6, Definition of AD"
+    },
+    "nct_ids": [],
+    "cohorts": []
+  },
+  "outcomes": [
+    {
+      "name": "Shift of the definition of AD in living people from a syndromal to a biological construct",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The diagnosis is not based on the clinical consequences of the disease (i.e., symptoms/signs) in this research framework, which shifts the definition of AD in living people from a syndromal to a biological construct.",
+      "location": "Abstract"
+    },
+    {
+      "name": "AT(N) biomarker classification system: grouping biomarkers by the pathologic process each measures",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Biomarkers are grouped into those of β amyloid deposition, pathologic tau, and neurodegeneration [AT(N)]. This ATN classification system groups different biomarkers (imaging and biofluids) by the pathologic process each measures.",
+      "location": "Abstract"
+    },
+    {
+      "name": "Membership of the A, T and (N) biomarker groups",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Biomarkers of Aβ plaques (labeled “A”) are cortical amyloid PET ligand binding [,] or low CSF Aβ 42 [–]. Biomarkers of fibrillar tau (labeled “T”) are elevated CSF phosphorylated tau (P-tau) and cortical tau PET ligand binding",
+      "location": "Section 5, AD biomarkers"
+    },
+    {
+      "name": "Definition of 'Alzheimer's pathologic change' (amyloid biomarker abnormality with normal tau biomarker)",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "An individual with biomarker evidence of Aβ deposition alone (abnormal amyloid PET scan or low CSF Aβ 42 or Aβ 42 /Aβ 40 ratio) with a normal pathologic tau biomarker would be assigned the label “Alzheimer’s pathologic change”",
+      "location": "Section 6, Definition of AD"
+    },
+    {
+      "name": "The 'Alzheimer's continuum' as an umbrella term covering Alzheimer's pathologic change and AD",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Alzheimer’s pathologic change and AD are not regarded as separate entities but earlier and later phases of the “Alzheimer’s continuum” (an umbrella term that includes both).",
+      "location": "Section 6, Definition of AD"
+    },
+    {
+      "name": "Eight AT(N) biomarker profiles and three biomarker categories",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "eight different AT(N) biomarker profiles; three biomarker categories",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The addition of a normal/abnormal cut point for each AT(N) biomarker group results in eight different AT(N) “biomarker profiles”",
+      "location": "Section 8, Biomarker profiles and categories"
+    },
+    {
+      "name": "Suspected non-Alzheimer's pathophysiology (SNAP): normal amyloid biomarker with abnormal T or (N)",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "This latter biomarker profile implies evidence of one or more neuropathologic processes other than AD [,,] and has been labeled “suspected non-Alzheimer’s pathophysiology” (or SNAP) [].",
+      "location": "Section 8, Biomarker profiles and categories"
+    },
+    {
+      "name": "Division of labour between biomarker classes: Aβ determines continuum membership, pathologic tau determines AD",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Aβ biomarkers determine whether or not an individual is in the Alzheimer’s continuum. Pathologic tau biomarkers determine if someone who is in the Alzheimer’s continuum has AD because both Aβ and tau are required for a neuropathologic diagnosis",
+      "location": "Section 7, Staging"
+    },
+    {
+      "name": "Neurodegeneration biomarkers and cognitive symptoms are used only to stage severity, not to define disease",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Neurodegenerative/neuronal injury biomarkers and cognitive symptoms, neither of which is specific for AD, are used only to stage severity not to define the presence of the Alzheimer’s continuum.",
+      "location": "Section 7, Staging"
+    },
+    {
+      "name": "'Biomarker profile' preferred over 'stage': AT(N) implies neither a specific order of events nor causality",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The AT(N) biomarker system does not imply a specific order of events nor does it imply causality.",
+      "location": "Section 8, Biomarker profiles and categories"
+    },
+    {
+      "name": "Alternatives to binary biomarker cut points: continuous measures and a two-cut-point three-range scheme (e.g. A2T1(N)0)",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "A three-range approach might also be useful where the three ranges are defined by two cut points, one lenient and the other more conservative [,,].",
+      "location": "Section 8.1, Alternatives to binary biomarker groups"
+    },
+    {
+      "name": "Syndromal categorical cognitive staging (cognitively unimpaired, MCI, dementia subdivided mild/moderate/severe)",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The syndromal cognitive staging scheme divides the cognitive continuum into three traditional categories—CU, MCI, and dementia, with dementia further subdivided into mild, moderate, and severe stages ().",
+      "location": "Section 10.1, Syndromal categorical cognitive staging"
+    },
+    {
+      "name": "Six-stage numeric clinical staging scheme applicable only to those in the Alzheimer's continuum",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Stage 3 describes cognitive impairment that is not severe enough to result in significant functional loss. Stages 4–6 describe progressively worse functional loss. The nature of decline or impairment in stages 2–6 may involve any cognitive domain(s)—not only memory.",
+      "location": "Section 10.4, Numeric clinical staging"
+    },
+    {
+      "name": "Shorthand a–d labels for the four Alzheimer's continuum biomarker profiles used in numeric staging",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "the four Alzheimer’s continuum biomarker profiles are labeled a-d: (a) A+T−(N)−; (b) A+T+(N)−; (c) A+T+(N)+; and (d) A+T−(N)+.",
+      "location": "Section 10.4, Numeric clinical staging"
+    },
+    {
+      "name": "Recommended terminology 'Alzheimer's clinical syndrome' for clinically ascertained syndromes without biomarkers",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "we strongly recommend that a clinically ascertained syndrome consistent with what has historically been labeled “probable or possible AD” be referred to as Alzheimer’s clinical syndrome , but not as AD or some modified form of AD",
+      "location": "Section 14, Clinical research without biomarkers"
+    },
+    {
+      "name": "Expandability of the scheme to ATX(N) as new biomarkers become available",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Conceptually, it might be useful to think of ATX(N), where X is an array of biomarkers of specific pathologic processes, which hopefully will become available in the future (TDP43, synuclein, etc.)",
+      "location": "Section 9.6, Flexibility to incorporate new biomarkers"
+    },
+    {
+      "name": "The framework is agnostic to whether Aβ and tau are causal in AD pathogenesis",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "This framework does not depend on A and T being causal in AD pathogenesis.",
+      "location": "Section 15, Hypothesis testing using the research framework"
+    },
+    {
+      "name": "More abnormal biomarker groups predict greater likelihood of and more rapid cognitive decline",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "These data firmly establish that more advanced disease defined by biomarkers predicts greater likelihood of and more rapid cognitive decline.",
+      "location": "Section 8, Biomarker profiles and categories"
+    },
+    {
+      "name": "Rate at which the clinical AD dementia phenotype fails to correspond to AD neuropathologic change",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "10% to 30% of individuals clinically diagnosed as AD dementia by experts do not display AD neuropathologic changes at autopsy",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "From 10% to 30% of individuals clinically diagnosed as AD dementia by experts do not display AD neuropathologic changes at autopsy [], and a similar proportion has normal amyloid PET or CSF Aβ 42 studies",
+      "location": "Section 4"
+    },
+    {
+      "name": "Error rate of using a clinical diagnosis of AD to ascertain absence of disease in the elderly",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "error rate exceeding 50% in the elderly; up to 60% of cognitively unimpaired individuals over age 80 have AD neuropathologic changes at autopsy or by biomarkers",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Thus, using a clinical diagnosis of “AD” to ascertain absence of disease is associated with an error rate exceeding 50% in the elderly.",
+      "location": "Section 14, Clinical research without biomarkers"
+    }
+  ],
+  "primary_endpoint_status": {
+    "status": "not_applicable",
+    "explanation": "This is an NIA-AA work group research framework that proposes definitions, biomarker classification and staging schemes; it has no prespecified primary endpoint to meet or miss.",
+    "quote": "This unifying update is labeled a “research framework” because its intended use is for observational and interventional research, not routine clinical care."
+  },
+  "multiplicity": {
+    "approach": "none stated",
+    "quote": null,
+    "location": null
+  },
+  "safety": {
+    "harms": [],
+    "apoe_stratification_reported": false,
+    "serious_adverse_events": { "value": null, "quote": null, "location": null },
+    "deaths": { "value": null, "quote": null, "location": null },
+    "discontinuations": { "value": null, "quote": null, "location": null }
+  },
+  "funding": [],
+  "conflicts": [],
+  "limitations": [
+    "The framework is explicitly not for clinical use: 'it is premature and inappropriate to use this research framework in general medical practice'",
+    "The authors acknowledge the framework has the potential to be misused",
+    "The framework should be examined in diverse populations; there are less data from diverse populations and it is premature to recommend that all such studies incorporate biomarkers",
+    "None of the biomarkers are as sensitive as direct examination of tissue at autopsy",
+    "A negative amyloid PET scan should not be equated with the complete absence of Aβ in the brain or even with absent or sparse neuritic plaques",
+    "The amount of pathologic tau that can be present in the brain below the in vivo tau PET detectable threshold is unknown, which matters for the distinction between Alzheimer's pathologic change and AD",
+    "The number of neurons or neuronal processes that must be lost to detect atrophy on MRI or hypometabolism on FDG PET is not known; for every biomarker there must be an in vivo limit of detection",
+    "(N) biomarkers are not specific for neurodegeneration due to AD, do not map onto neuropathologic findings used to diagnose AD, and the proportion of observed neurodegeneration attributable to AD versus comorbid conditions is unknown",
+    "First-generation tau PET ligands suffer from limitations, the most common being off-target binding",
+    "Validated biomarkers are not presently available for TDP43 and α-synuclein proteinopathies, micro infarcts, hippocampal sclerosis, and argyrophilic grains",
+    "Discordances between imaging and CSF biomarkers may occur, and the relationship between CSF Aβ42 and amyloid PET is L-shaped rather than linear",
+    "The vast majority of PET and CSF data come from selected participants recruited through tertiary care dementia centers, with limited data from population-based studies",
+    "Current biomarkers used in AD research are either expensive or invasive",
+    "Universal standards for imaging and CSF biomarker measures have not yet been established despite ongoing standardization initiatives",
+    "Age norming of biomarker cut points is controversial and the document does not presume to settle the debate",
+    "The committee avoided making specific recommendations for many implementation details, leaving cognitive batteries, cut points and quantification methods to individual research groups",
+    "The framework will need to be updated in the future to accommodate scientific advances"
+  ],
+  "risk_of_bias": [
+    {
+      "domain": "conflict of interest disclosure not present in the retrieved document",
+      "judgement": "The retrieved document does not contain the authors' conflict of interest statements; it points readers to an online location instead, so no declared conflicts could be extracted from this source even though several authors are identified elsewhere in the document only by name.",
+      "quote": "The authors’ conflict of interest statements can be viewed online at https://doi.org/10.1016/j.jalz.2018.02.018 . related to this article can be found at https://doi.org/10.1016/j.jalz.2018.02.018 ."
+    },
+    {
+      "domain": "representativeness of the evidence base underlying the framework",
+      "judgement": "The document states that most of the PET and CSF evidence supporting the framework comes from tertiary-care-recruited participants whose neuropathologic profile differs from community-based samples.",
+      "quote": "Another issue is that the vast majority of data from PET and CSF are from selected participants recruited through tertiary care dementia centers []."
+    },
+    {
+      "domain": "unvalidated framework awaiting confirmatory studies",
+      "judgement": "The document itself states the framework has not yet been validated and names the study types needed to establish convergent, divergent and criterion validity before adoption.",
+      "quote": "It is called a “research framework” because it needs to be thoroughly examined and modified if needed before being adopted into general clinical practice."
+    }
+  ],
+  "disagreements": [
+    {
+      "question": "Should a clinical syndrome (multidomain amnestic dementia) define Alzheimer's disease in living people?",
+      "position": "No — dementia is a syndrome, not a disease, and is neither sensitive nor specific for the neuropathologic changes that define AD.",
+      "attributed_to": "NIA-AA 2018 work group (this document), against those who would define AD by a specific syndrome",
+      "quote": "Our position, however, is that dementia is not a “disease” but rather is a syndrome composed of signs and symptoms that can be caused by multiple diseases, one of which is AD."
+    },
+    {
+      "question": "Can Alzheimer's disease be diagnosed in a living person who has no symptoms?",
+      "position": "Yes — the definitions of Alzheimer's pathologic change and AD are applied independently from clinical symptoms and function from presymptomatic through symptomatic phases.",
+      "attributed_to": "NIA-AA 2018 work group (this document)",
+      "quote": "These definitions are applied independently from clinical symptoms. They also meet our specifications to function equally well across the disease spectrum: from early-through late-life onset, from presymptomatic through symptomatic phases"
+    },
+    {
+      "question": "Is an abnormal amyloid biomarker alone sufficient to constitute Alzheimer's disease?",
+      "position": "No — the work group requires biomarker evidence of both Aβ and pathologic tau, because both Aβ and PHF tau deposits are required to fulfil neuropathologic criteria; amyloid alone is labeled Alzheimer's pathologic change.",
+      "attributed_to": "NIA-AA 2018 work group (this document), against the widely held view that amyloid biomarkers alone could serve as the defining signature",
+      "quote": "This suggests that abnormal β-amyloidosis biomarkers alone could serve as the defining signature of AD. However, both Aβ and paired helical filament (PHF) tau deposits are required to fulfill neuropathologic criteria for AD"
+    },
+    {
+      "question": "Should a diagnosis of AD in living persons require clinical findings in addition to biomarkers, as the 2014 IWG criteria did?",
+      "position": "No — the NIA-AA framework defines AD purely biologically; the document identifies the IWG 2014 requirement of both biomarker and clinical findings as the most significant difference between the two.",
+      "attributed_to": "NIA-AA 2018 work group (this document), contrasted with International Working Group (IWG) 2014 criteria",
+      "quote": "The most significant difference between the 2014 IWG criteria and the NIA-AA research framework is that, with the exception of genetically determined AD, the 2014 IWG diagnosis of AD in living persons required both biomarker and clinical findings"
+    },
+    {
+      "question": "Is CSF total tau a marker of AD-specific tau pathology or a nonspecific marker of neuronal injury?",
+      "position": "The work group places CSF T-tau in the nonspecific (N) neuronal injury group, explicitly disagreeing with IWG 2014, which treats elevated T-tau plus low Aβ42 as an AD-specific signature.",
+      "attributed_to": "NIA-AA 2018 work group (this document), against the IWG 2014 criteria",
+      "quote": "One difference though is that we regard CSF T-tau as a nonspecific marker of neuronal injury, while the IWG 2014 treats the combination of elevated T-tau and low Aβ 42 as a biomarker signature that is specific for AD."
+    },
+    {
+      "question": "Should asymptomatic biomarker-positive individuals be described as 'at risk for AD'?",
+      "position": "No — the framework holds that such individuals have AD and are at risk of subsequent cognitive decline, in contrast to IWG 2016 which labels them 'at risk for AD, asymptomatic A+/T+'.",
+      "attributed_to": "NIA-AA 2018 work group (this document), against IWG 2016 preclinical AD terminology",
+      "quote": "the NIA-AA research framework uses “at risk” in a much different connotation, referring to asymptomatic individuals with biomarker evidence of AD as having AD but being “at risk” of subsequent cognitive decline (as opposed to “at risk” for AD)."
+    },
+    {
+      "question": "How should an A−T+ profile be labeled?",
+      "position": "As suspected non-Alzheimer's pathologic change, not as 'at risk for AD, asymptomatic T+', in keeping with the NIA-AA pathologic definition of primary age-related tauopathy as not AD.",
+      "attributed_to": "NIA-AA 2018 work group (this document), against IWG 2016",
+      "quote": "We label the former Alzheimer’s pathologic change and the latter suspected non-Alzheimer’s pathologic change (in keeping with the NIA-AA pathologic definition of primary age-related tauopathy as not AD [,])."
+    },
+    {
+      "question": "Is it acceptable to call a clinically diagnosed amnestic dementia 'probable or possible AD'?",
+      "position": "No — labeling people 'AD' without biomarker evidence undermines the framework; the recommended term is 'Alzheimer's clinical syndrome'.",
+      "attributed_to": "NIA-AA 2018 work group (this document), against long-standing clinical practice and the 2011 criteria",
+      "quote": "Labeling individuals “AD” who do not have biomarker evidence of AD undermines the major theme of this framework."
+    },
+    {
+      "question": "Should this biological definition be used in routine clinical practice?",
+      "position": "No — the work group states it is premature and inappropriate to use the research framework in general medical practice.",
+      "attributed_to": "NIA-AA 2018 work group (this document)",
+      "quote": "we emphasize, first, it is premature and inappropriate to use this research framework in general medical practice."
+    },
+    {
+      "question": "Should genetic variants such as APOE ε4 form part of the definition or staging of AD?",
+      "position": "No — genetics is not formally included because gene variants indicate risk of developing pathologic change rather than measuring pathologic change itself.",
+      "attributed_to": "NIA-AA 2018 work group (this document)",
+      "quote": "For example, inheritance of an APOE ε4 allele neither defines the presence of Alzheimer’s pathologic change or AD nor indicates any particular stage of the disease."
+    },
+    {
+      "question": "Does defining AD by amyloid and tau deposits commit the framework to those deposits being causal?",
+      "position": "No — the work group states the deposits define AD as a unique disease entity whether or not they are causal, and the framework can host both causal and epiphenomenal disease models.",
+      "attributed_to": "NIA-AA 2018 work group (this document)",
+      "quote": "Although it is possible that β-amyloid plaques and neurofibrillary tau deposits are not causal in AD pathogenesis, it is these abnormal protein deposits that define AD as a unique neurodegenerative disease among different disorders that can lead to dementia."
+    },
+    {
+      "question": "What burden falls on disease models in which amyloid and tau are not causal?",
+      "position": "Such models must still provide a mechanistic explanation for the development of both diagnostic proteinopathies as well as neurodegeneration and clinical symptoms.",
+      "attributed_to": "NIA-AA 2018 work group (this document), addressed to proponents of non-amyloid-cascade models",
+      "quote": "disease models where A and T are not in the primary causal pathway must provide a mechanistic explanation for the development of both of these diagnostic proteinopathies , as well as neurodegeneration and clinical symptoms."
+    },
+    {
+      "question": "Should the nonspecific neurodegeneration (N) biomarker group be dropped for simplicity?",
+      "position": "No — the work group judges it inadvisable to eliminate (N) because combining it with an abnormal amyloid biomarker gives much more powerful prediction of future cognitive decline.",
+      "attributed_to": "NIA-AA 2018 work group (this document)",
+      "quote": "Thus, the (N) biomarker group provides important pathologic staging information; and for this reason, it seems inadvisable to eliminate this group of biomarkers from the AD research framework."
+    },
+    {
+      "question": "Should biomarker-based research become the template for all research into age-related cognitive impairment and dementia?",
+      "position": "No — the framework should not restrict hypothesis testing that does not use biomarkers, and research without biomarkers remains a vital enterprise.",
+      "attributed_to": "NIA-AA 2018 work group (this document)",
+      "quote": "this research framework should not be used to restrict alternative approaches to hypothesis testing that do not use biomarkers."
+    },
+    {
+      "question": "Can studies without biomarkers establish that a risk factor is a risk factor for Alzheimer's disease?",
+      "position": "No — such studies can establish associations with Alzheimer's clinical syndrome only; biologically based studies are needed to determine whether the association is with AD.",
+      "attributed_to": "NIA-AA 2018 work group (this document), against non-biomarker risk factor literature such as diabetes-and-AD studies",
+      "quote": "Thus, non-biomarker studies can establish robust and valid associations between risk factors and Alzheimer’s clinical syndrome, but the biologically based studies are needed to determine if these associations are with AD."
+    }
+  ],
+  "linked_objects": [
+    {
+      "relation": "published_version_of",
+      "identifier": "10.1016/j.jalz.2018.02.018",
+      "note": "DOI of this document as printed in the identifiers line (also pmid: 29653606, pmcid: PMC5958625); the conflict of interest statements are hosted at this DOI rather than in the retrieved text"
+    }
+  ],
+  "trial_status_observation": {
+    "status": null,
+    "enrollment": null,
+    "phase": null,
+    "observed_at": null,
+    "source": null
+  },
+  "unlocatable_fields": [
+    "authors[].affiliation",
+    "authors[].orcid",
+    "authors[].corresponding",
+    "study.phase",
+    "study.n",
+    "study.n_description",
+    "study.followup",
+    "study.intervention",
+    "study.comparator",
+    "study.nct_ids",
+    "study.cohorts",
+    "multiplicity.quote",
+    "multiplicity.location",
+    "safety.harms",
+    "safety.serious_adverse_events",
+    "safety.deaths",
+    "safety.discontinuations",
+    "funding",
+    "conflicts",
+    "trial_status_observation.status",
+    "trial_status_observation.enrollment",
+    "trial_status_observation.phase",
+    "trial_status_observation.observed_at",
+    "trial_status_observation.source"
+  ]
+}

@@ -1,0 +1,826 @@
+{
+  "extracted_by": "gemini-3.1-pro-preview",
+  "extracted_at": "2026-08-13T16:55:29.389Z",
+  "independent": true,
+  "saw_builder_output": false,
+  "source": "raw/holstege-2022-exome/document.md",
+  "source_sha256": "5fd6d7ae75039d98face9fb2d773f73c7f504d6fad0760c548652994e2248490",
+  "truncated": false,
+  "tokens": {
+    "in": 15265,
+    "out": 5613
+  },
+  "record": {
+    "document_kind": "journal_article",
+    "title": {
+      "value": "Exome sequencing identifies rare damaging variants in ATP8B4 and ABCA1 as risk factors for Alzheimer’s disease",
+      "quote": "Exome sequencing identifies rare damaging variants in ATP8B4 and ABCA1 as risk factors for Alzheimer’s disease",
+      "location": "Title"
+    },
+    "study": {
+      "design": {
+        "value": "Multistage gene burden analysis",
+        "quote": "Multistage gene burden analysis in exome sequencing data from 32,558 individuals",
+        "location": "Abstract"
+      },
+      "n": {
+        "value": 32558,
+        "quote": "32,558 individuals—16,036 AD cases and 16,522 controls",
+        "location": "Abstract"
+      },
+      "population": {
+        "value": "Alzheimer's disease cases and controls",
+        "quote": "16,036 AD cases and 16,522 controls",
+        "location": "Abstract"
+      },
+      "biomarker_confirmation": {
+        "value": "cerebrospinal fluid biomarkers or neuropathological examination",
+        "quote": "When possible, supportive evidence for an AD pathophysiological process was sought (including cerebrospinal fluid biomarkers) or the diagnosis was confirmed by neuropathological examination",
+        "location": "Methods, Sample processing, genotype calling and QC"
+      },
+      "cohorts": [
+        "ADES",
+        "ADSP",
+        "ADES-FR",
+        "AgeCoDe-UKBonn",
+        "Barcelona SPIN",
+        "AC-EMC",
+        "ERF",
+        "Rotterdam",
+        "ADC-Amsterdam",
+        "100-plus study",
+        "EMIF-90+",
+        "Control Brain Consortium",
+        "PERADES",
+        "StEP-AD",
+        "Knight-ADRC",
+        "UCSF/NYGC/UAB",
+        "UCL-DRC EOAD",
+        "ADNI"
+      ],
+      "comparator": {
+        "value": "controls",
+        "quote": "16,522 controls",
+        "location": "Abstract"
+      },
+      "followup": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "intervention": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "n_description": {
+        "value": "individuals",
+        "quote": "32,558 individuals—16,036 AD cases and 16,522 controls",
+        "location": "Abstract"
+      },
+      "nct_ids": [],
+      "phase": {
+        "value": null,
+        "quote": null,
+        "location": null
+      }
+    },
+    "outcomes": [
+      {
+        "name": "gene-based burden of rare damaging variants",
+        "tier": "primary",
+        "prespecified": "yes",
+        "met": "met",
+        "quote": "we observed a significant association of rare, predicted damaging variants in ATP8B4 and ABCA1 with AD risk",
+        "location": "Abstract",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": "yes",
+        "p_value": null,
+        "prespecification_evidence": "Using ordinal logistic regression, 31,204 burden tests were performed across 13,222 genes in stage 1"
+      }
+    ],
+    "primary_endpoint_status": {
+      "status": "met",
+      "quote": "we observed a significant association of rare, predicted damaging variants in ATP8B4 and ABCA1 with AD risk",
+      "explanation": "The study successfully identified significant associations between rare damaging variants in ATP8B4 and ABCA1 and Alzheimer's disease risk."
+    },
+    "safety": {
+      "harms": [],
+      "apoe_stratification_reported": false,
+      "deaths": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "discontinuations": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "serious_adverse_events": {
+        "value": null,
+        "quote": null,
+        "location": null
+      }
+    },
+    "unlocatable_fields": [
+      "followup",
+      "intervention",
+      "phase",
+      "deaths",
+      "discontinuations",
+      "serious_adverse_events",
+      "trial_status_observation.status",
+      "trial_status_observation.observed_at",
+      "trial_status_observation.source",
+      "trial_status_observation.enrollment",
+      "trial_status_observation.phase"
+    ],
+    "authors": [
+      {
+        "name": "Henne Holstege",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Marc Hulsman",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Camille Charbonnier",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Benjamin Grenier-Boley",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Olivier Quenez",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Detelina Grozeva",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Jeroen G. J. van Rooij",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Rebecca Sims",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Shahzad Ahmad",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Najaf Amin",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Penny J. Norsworthy",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Oriol Dols-Icardo",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Holger Hummerich",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Amit Kawalia",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Philippe Amouyel",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Gary W. Beecham",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Claudine Berr",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Joshua C. Bis",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Anne Boland",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Paola Bossù",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Femke Bouwman",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Jose Bras",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Dominique Campion",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "J. Nicholas Cochran",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Antonio Daniele",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Jean-François Dartigues",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Stéphanie Debette",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Jean-François Deleuze",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Nicola Denning",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Anita L. DeStefano",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Lindsay A. Farrer",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Maria Victoria Fernández",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Nick C. Fox",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Daniela Galimberti",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Emmanuelle Genin",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Johan J. P. Gille",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Yann Le Guen",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Rita Guerreiro",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Jonathan L. Haines",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Clive Holmes",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "M. Arfan Ikram",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "M. Kamran Ikram",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Iris E. Jansen",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Robert Kraaij",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Marc Lathrop",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Afina W. Lemstra",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Alberto Lleó",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Lauren Luckcuck",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Marcel M. A. M. Mannens",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Rachel Marshall",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Eden R. Martin",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Carlo Masullo",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Richard Mayeux",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Patrizia Mecocci",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Alun Meggy",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Merel O. Mol",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Kevin Morgan",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Richard M. Myers",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Benedetta Nacmias",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Adam C. Naj",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Valerio Napolioni",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Florence Pasquier",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Pau Pastor",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Margaret A. Pericak-Vance",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Rachel Raybould",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Richard Redon",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Marcel J. T. Reinders",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Anne-Claire Richard",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Steffi G. Riedel-Heller",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Fernando Rivadeneira",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Stéphane Rousseau",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Natalie S. Ryan",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Salha Saad",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Pascual Sanchez-Juan",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Gerard D. Schellenberg",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Philip Scheltens",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Jonathan M. Schott",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Davide Seripa",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Sudha Seshadri",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Daoud Sie",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Erik A. Sistermans",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Sandro Sorbi",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Resie van Spaendonk",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Gianfranco Spalletta",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Niccolo’ Tesi",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Betty Tijms",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "André G. Uitterlinden",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Sven J. van der Lee",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Pieter Jelle Visser",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Michael Wagner",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "David Wallon",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Li-San Wang",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Aline Zarea",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Jordi Clarimon",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "John C. van Swieten",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Michael D. Greicius",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Jennifer S. Yokoyama",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Carlos Cruchaga",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "John Hardy",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Alfredo Ramirez",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Simon Mead",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Wiesje M. van der Flier",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Cornelia M. van Duijn",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Julie Williams",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Gaël Nicolas",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Céline Bellenguez",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Jean-Charles Lambert",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      }
+    ],
+    "conflicts": [
+      "The authors declare no competing interests."
+    ],
+    "disagreements": [],
+    "funding": [
+      "Dutch Research Council (project name: 100-plus; project nos. 15318 and 17232)",
+      "ADES-FR",
+      "AgeCoDe-UKBonn",
+      "Barcelona SPIN",
+      "AC-EMC",
+      "ERF and Rotterdam",
+      "ADC-Amsterdam",
+      "100-plus study",
+      "EMIF-90+",
+      "Control Brain Consortium",
+      "PERADES",
+      "StEP-AD",
+      "Knight-ADRC",
+      "UCSF/NYGC/UAB",
+      "UCL-DRC EOAD",
+      "ADSP",
+      "Alzheimer’s Disease Neuroimaging Initiative (ADNI)"
+    ],
+    "limitations": [
+      "Larger datasets will be required to further confirm these signals.",
+      "the effect of structural variants such as copy number variants and repetitive sequences will need to be investigated in future analyses."
+    ],
+    "linked_objects": [],
+    "multiplicity": {
+      "approach": "Benjamini–Hochberg FDR and Holm–Bonferroni correction",
+      "location": "Main, paragraph 2 and 3",
+      "quote": "corrected for the 31,204 tests performed in stage 1 (Holm–Bonferroni)"
+    },
+    "risk_of_bias": [],
+    "trial_status_observation": {
+      "status": null,
+      "observed_at": null,
+      "source": null,
+      "enrollment": null,
+      "phase": null
+    }
+  }
+}

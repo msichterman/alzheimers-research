@@ -1,0 +1,67 @@
+{
+  "kind": "other",
+  "title": "221AD301 Phase 3 Study of Aducanumab (BIIB037) in Early Alzheimer's Disease",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2021-09",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "immunotherapy",
+    "aducanumab",
+    "aria",
+    "futility-analysis"
+  ],
+  "themes": [
+    "Aducanumab phase 3 efficacy",
+    "Early Alzheimer's disease treatment",
+    "Amyloid-related imaging abnormalities (ARIA)",
+    "Clinical Dementia Rating Sum of Boxes (CDR-SB)"
+  ],
+  "one_line": "A Phase 3 registry record for a trial of aducanumab in early Alzheimer's disease that was terminated early for futility, showing no significant cognitive benefit and elevated rates of ARIA.",
+  "summary": "This document is a ClinicalTrials.gov registry record for ENGAGE (NCT02477800), a Phase 3, multicenter, randomized, double-blind, placebo-controlled trial evaluating the efficacy and safety of aducanumab in patients with early Alzheimer's disease. The trial enrolled 1,653 participants and compared monthly intravenous infusions of low and high dose aducanumab against a placebo. The study was terminated early based on a futility analysis rather than safety concerns. Final posted results indicate that high-dose aducanumab did not demonstrate statistically significant superiority over placebo on the primary endpoint, the Clinical Dementia Rating Sum of Boxes (CDR-SB), at Week 78. Furthermore, adverse event data show substantially higher incidences of ARIA-E and ARIA-H in the aducanumab groups compared to the placebo group.",
+  "key_claims": [
+    {
+      "claim": "High-dose aducanumab did not significantly slow clinical decline on the CDR-SB compared to placebo at Week 78.",
+      "evidence": "Difference from Placebo 0.110 (95% CI -0.469 to 0.403), p=0.2250.",
+      "strength": "strong",
+      "location": "PRIMARY: Change From Baseline in Clinical Dementia Rating Sum of Boxes (CDR-SB) Score at Week 78"
+    },
+    {
+      "claim": "Aducanumab treatment is associated with increased rates of amyloid-related imaging abnormalities (ARIA-E and ARIA-H).",
+      "evidence": "ARIA-E occurred in 195/558 high-dose participants vs 16/540 placebo participants; ARIA-H occurred in 102/558 high-dose vs 34/540 placebo.",
+      "strength": "strong",
+      "location": "Adverse events > Other adverse events"
+    }
+  ],
+  "methods": {
+    "design": "Multicenter, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group",
+    "n": 1653,
+    "population": "Adults aged 50-85 with MCI due to AD or mild AD, positive amyloid PET scan, MMSE 24-30, and CDR-Global Score of 0.5",
+    "duration": "78 weeks (primary completion)",
+    "registration": "NCT02477800"
+  },
+  "funding_and_conflicts": "Lead sponsor: Biogen. No conflicts of interest explicitly declared in this clinical registry format.",
+  "limitations": [
+    "Study was terminated early based on a futility analysis, interrupting the planned longitudinal collection of data."
+  ],
+  "red_flags": [
+    "Terminated for futility, indicating the primary hypothesis was rejected during interim analysis."
+  ],
+  "parse_quality": {
+    "score": 10,
+    "issues": []
+  },
+  "search_verification": []
+}

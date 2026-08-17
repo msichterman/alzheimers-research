@@ -1,0 +1,87 @@
+{
+  "fact_check": [
+    {
+      "fact": "The publication year of the SPRINT MIND paper is 2018.",
+      "status": "corrected",
+      "note": "The document metadata lists 2018 (likely derived from the DOI suffix), but the official publication date in JAMA was February 12, 2019."
+    },
+    {
+      "fact": "Probable dementia is the primary endpoint of the trial.",
+      "status": "corrected",
+      "note": "Probable dementia was the primary cognitive endpoint for the SPRINT MIND sub-study, but it is officially listed as a secondary endpoint for the overall SPRINT trial (NCT01206062)."
+    },
+    {
+      "fact": "Intensive blood pressure control significantly reduces the risk of dementia.",
+      "status": "disputed",
+      "note": "The trial failed to show a statistically significant reduction in probable dementia (HR 0.83, 95% CI 0.67-1.04). It only demonstrated a significant reduction in mild cognitive impairment (MCI)."
+    }
+  ],
+  "research_page": {
+    "slug": "sprint-mind-blood-pressure-dementia",
+    "title": "SPRINT MIND: Intensive Blood Pressure Control and Dementia",
+    "description": "Intensive blood pressure control to <120 mm Hg did not significantly reduce probable dementia risk but did lower the incidence of mild cognitive impairment.",
+    "tags": [
+      "paper",
+      "trial",
+      "prevention",
+      "hypertension",
+      "blood-pressure"
+    ],
+    "source_line_md": "**Source**: [JAMA, 2019](https://doi.org/10.1001/jama.2018.21442) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/30688979)",
+    "authors_line_md": "Williamson JD et al. — National Heart, Lung, and Blood Institute (NHLBI)",
+    "takeaway_md": "Targeting a systolic blood pressure of <120 mm Hg does not significantly reduce the risk of probable dementia compared to a standard <140 mm Hg target. However, it does significantly reduce the risk of developing mild cognitive impairment (MCI). The trial was stopped early due to cardiovascular benefits, which likely left the long-term dementia endpoint statistically underpowered.",
+    "key_findings_md": [
+      "Probable dementia incidence was 7.2 vs 8.6 cases per 1000 person-years for intensive vs standard control, failing to reach statistical significance (HR 0.83, 95% CI 0.67-1.04) (paper, Results).",
+      "Mild cognitive impairment (MCI) risk was significantly reduced, with 14.6 vs 18.3 cases per 1000 person-years (HR 0.81, 95% CI 0.69-0.95) (paper, Results).",
+      "The composite outcome of MCI or probable dementia was significantly reduced (HR 0.85, 95% CI 0.74-0.97) (paper, Results)."
+    ],
+    "methods_md": "Randomized clinical trial involving 9,361 adults aged 50 years or older with hypertension but without diabetes or history of stroke. The median intervention period was 3.34 years, with a total median follow-up of 5.11 years ([NCT01206062](https://clinicaltrials.gov/study/NCT01206062)).",
+    "trial_evidence_md": "This paper reports the cognitive outcomes of the NIH-sponsored [SPRINT MIND trial](/trials/sprint-mind-nct01206062). The overarching trial was terminated early due to highly significant cardiovascular and mortality benefits in the intensive treatment group. This shortened follow-up resulted in fewer incident cases of dementia than initially projected, likely underpowering the study for its specific cognitive endpoint. While probable dementia was the primary focus of this sub-study, it was listed as a secondary outcome for the main SPRINT trial.",
+    "sentiment_md": "Public and clinical reception is sharply divided. Patients, caregivers, and longevity communities enthusiastically view the trial as an actionable lifestyle intervention for cognitive preservation, focusing heavily on the MCI reduction. Conversely, practicing physicians express widespread skepticism about real-world implementation. Clinicians caution that aggressive blood pressure targets (<120 mm Hg) in the elderly can lead to dangerous side effects like falls and hypotension.",
+    "caveats_md": [
+      "The trial's early termination at 3.3 years severely limited the statistical power needed to detect differences in long-term dementia incidence.",
+      "Aggressive blood pressure control in elderly populations carries significant practical risks, including falls and hypoperfusion, which may complicate clinical application for frail patients."
+    ],
+    "relates_to_md": [
+      "[Biomarkers](/research/biomarkers) — Vascular health and blood pressure are critical factors influencing brain health and cognitive preservation.",
+      "[Next Steps After an Alzheimer's Diagnosis](/journey/newly-diagnosed) — Managing cardiovascular risk factors is a common early intervention focus for patients."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "sprint-mind-nct01206062",
+      "title": "SPRINT MIND (NCT01206062)",
+      "description": "Intensive (<120 mm Hg) versus standard (<140 mm Hg) blood pressure control in adults over 50 with hypertension.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "prevention",
+        "hypertension"
+      ],
+      "registry_md": "[NCT01206062](https://clinicaltrials.gov/study/NCT01206062)",
+      "drug": "Intensive Blood Pressure Control",
+      "phase": "n/a",
+      "sponsor": "National Heart, Lung, and Blood Institute (NHLBI)",
+      "population": "Adults aged 50 years or older with hypertension but without diabetes or history of stroke",
+      "primary_endpoint": "Number of Participants With First Occurrence of a Myocardial Infarction (MI), Acute Coronary Syndrome (ACS), Stroke, Heart Failure (HF), or CVD Death",
+      "started": "2010-10",
+      "readout": "2016-07",
+      "why_md": "The SPRINT trial was designed to determine if intensive blood pressure control reduces cardiovascular events. The SPRINT MIND sub-study specifically investigated whether this aggressive management also reduces the incidence of probable dementia and mild cognitive impairment.",
+      "status_log_md": [
+        "**2010-10-01** — Trial begins enrollment.",
+        "**2015-08-20** — Trial stopped early for overwhelming benefit on primary cardiovascular and mortality outcomes.",
+        "**2019-02-12** — Cognitive outcomes published in [JAMA](/research/papers/sprint-mind-blood-pressure-dementia), showing a reduction in MCI but no significant reduction in probable dementia."
+      ],
+      "results_md": "The main trial was terminated early after demonstrating significant cardiovascular and mortality benefits. For the cognitive sub-study, intensive blood pressure control did not significantly reduce the primary cognitive outcome of probable dementia, but it did significantly lower the risk of developing mild cognitive impairment (MCI) and a composite of MCI or probable dementia."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Prevention and Lifestyle Interventions",
+      "date": "2019-02",
+      "title": "2019-02 — SPRINT MIND cognitive results published",
+      "body_md": "The [SPRINT MIND cognitive sub-study](/research/papers/sprint-mind-blood-pressure-dementia) reports that intensive blood pressure control significantly reduces the risk of mild cognitive impairment (MCI), though the trial was stopped too early to prove a reduction in probable dementia."
+    }
+  ],
+  "notes_for_editor": []
+}

@@ -1,0 +1,65 @@
+{
+  "kind": "other",
+  "title": "510(k) Premarket Notification: Lumipulse G pTau217/ß-Amyloid 1-42 Plasma Ratio",
+  "authors": [],
+  "first_author": null,
+  "venue": "U.S. Food & Drug Administration",
+  "published": "2025-05",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "biomarkers",
+    "amyloid",
+    "tau",
+    "fda-clearance",
+    "blood-test",
+    "in-vitro-diagnostic"
+  ],
+  "themes": [
+    "FDA regulatory clearance",
+    "Blood-based biomarkers for Alzheimer's",
+    "Plasma pTau217 and Aβ42 ratio",
+    "In vitro diagnostic devices"
+  ],
+  "one_line": "The FDA has granted 510(k) clearance to Fujirebio's Lumipulse G pTau217/ß-Amyloid 1-42 Plasma Ratio assay as a substantially equivalent immunoassay blood test for amyloid pathology assessment.",
+  "summary": "This document is an administrative record from the U.S. Food & Drug Administration (FDA) 510(k) Premarket Notification database. It documents the FDA review decision for a medical device submitted by Fujirebio Diagnostics, Inc. The device, named 'Lumipulse G pTau217/ß-Amyloid 1-42 Plasma Ratio', is classified under the Immunology specialty as an immunoassay blood test for amyloid pathology assessment (Product Code: SET). The FDA received the traditional 510(k) submission (K242706) on September 9, 2024, and issued a decision of 'Substantially Equivalent' (SESE) on May 16, 2025, clearing the assay for market use.",
+  "key_claims": [
+    {
+      "claim": "The Lumipulse G pTau217/ß-Amyloid 1-42 Plasma Ratio device is substantially equivalent to a legally marketed predicate device.",
+      "evidence": "FDA Decision recorded as 'Substantially Equivalent (SESE)' on 05/16/2025.",
+      "strength": "strong",
+      "location": "Decision section"
+    }
+  ],
+  "methods": {
+    "design": null,
+    "n": null,
+    "population": null,
+    "duration": null,
+    "registration": null
+  },
+  "funding_and_conflicts": "Submitted by applicant Fujirebio Diagnostics, Inc. No specific investigator conflicts stated.",
+  "limitations": [
+    "The document is a high-level regulatory clearance summary, lacking detailed methodology, performance metrics, and clinical validation data.",
+    "The decision summary documentation is not attached; only the metadata of the decision is provided."
+  ],
+  "red_flags": [
+    "Contains no primary scientific data or performance characteristics to evaluate."
+  ],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "Heavy presence of FDA website navigation boilerplate and common links.",
+      "Tabular data converted adequately but mixed with site structural text."
+    ]
+  },
+  "search_verification": []
+}

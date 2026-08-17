@@ -1,0 +1,34 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT01206062",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01206062",
+      "name": "SPRINT (SPRINT MIND)",
+      "drug": "Intensive vs Standard Blood Pressure Control (<120 mm Hg vs <140 mm Hg)",
+      "phase": "n/a",
+      "sponsor": "National Heart, Lung, and Blood Institute (NHLBI)",
+      "status": "Completed",
+      "enrollment": 9361,
+      "population": "Adults aged 50 years or older with hypertension but without diabetes or history of stroke",
+      "primary_endpoint": "Number of Participants With First Occurrence of a Myocardial Infarction (MI), Acute Coronary Syndrome (ACS), Stroke, Heart Failure (HF), or CVD Death",
+      "started": "2010-10",
+      "completed_or_readout": "2016-07",
+      "results_summary": "The main trial was terminated early due to highly significant cardiovascular and mortality benefits in the intensive treatment group. For the SPRINT MIND cognitive sub-study, intensive BP control did not significantly reduce the primary cognitive outcome of probable dementia, but significantly reduced the incidence of mild cognitive impairment (MCI) and a composite of MCI or probable dementia.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2019-02-12",
+      "kind": "paper",
+      "description": "Primary publication of the SPRINT MIND cognitive outcomes in JAMA.",
+      "url": "https://doi.org/10.1001/jama.2018.21442"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence for the SPRINT MIND trial is derived from a large, rigorous, NIH-sponsored randomized controlled trial (NCT01206062) involving 9,361 participants. The trial was prematurely terminated due to significant cardiovascular benefit in the intensive blood pressure control group, which resulted in a shorter follow-up period and fewer incident cases of dementia than projected. As a consequence, the study was underpowered for the specific cognitive endpoint of probable dementia, which showed a non-significant risk reduction. However, intensive blood pressure control achieved a statistically significant reduction in both mild cognitive impairment (MCI) and the composite endpoint of MCI or probable dementia. This landmark finding provides strong, replicable secondary evidence that intensive blood pressure management confers neurocognitive protection in at-risk older adults.",
+  "discrepancies": [
+    "The document refers to the 'primary cognitive outcome' being probable dementia, which is accurate for the SPRINT MIND sub-study report, but the official ClinicalTrials.gov registry lists 'All-cause Dementia' as a secondary outcome for the overarching SPRINT trial.",
+    "The document lists the publication year as 2018 (likely based on the DOI suffix), but the official publication date in JAMA was February 12, 2019."
+  ]
+}

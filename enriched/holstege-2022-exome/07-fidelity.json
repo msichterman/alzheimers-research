@@ -1,0 +1,361 @@
+{
+  "id": "holstege-2022-exome",
+  "checked_at": "2026-08-13T16:55:29.392Z",
+  "builder_model": "claude (builder subagent)",
+  "critic_model": "gemini-3.1-pro-preview",
+  "fields_compared": 24,
+  "disagreements": 6,
+  "conflicts": 4,
+  "coverage_gaps": 2,
+  "agreement_rate": 0.75,
+  "passed": false,
+  "needs_adjudication": true,
+  "disagreement_rows": [
+    {
+      "field": "study.population",
+      "builder": "Individuals of European ancestry only (non-European ancestry samples removed at QC), comprising AD cases diagnosed by NIA-AA or NINCDS-ADRDA criteria — 4,060 early-onset (age at onset ≤65 years) and 8,592 late-onset (age at onset >65 years) cases in stage 1 — and controls not diagnosed with AD; carriers of pathogenic PSEN1, PSEN2, APP or other Mendelian dementia variants and relatives up to the third degree were removed",
+      "critic": "Alzheimer's disease cases and controls",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].name",
+      "builder": "Exome-wide significant association of rare predicted damaging variants in ATP8B4 and ABCA1 with AD risk (new genes)",
+      "critic": "gene-based burden of rare damaging variants",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "ATP8B4 (LOF + REVEL ≥ 25) meta-analysis OR 1.5; ABCA1 (LOF + REVEL ≥ 75) meta-analysis OR 1.7",
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": "1.3–1.7 (ATP8B4); 1.4–2.1 (ABCA1)",
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Genes whose rare damaging variant burden was confirmed as associated with AD in the stage 1 + stage 2 meta-analysis].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": true
+    }
+  ],
+  "conflict_rows": [
+    {
+      "field": "study.population",
+      "builder": "Individuals of European ancestry only (non-European ancestry samples removed at QC), comprising AD cases diagnosed by NIA-AA or NINCDS-ADRDA criteria — 4,060 early-onset (age at onset ≤65 years) and 8,592 late-onset (age at onset >65 years) cases in stage 1 — and controls not diagnosed with AD; carriers of pathogenic PSEN1, PSEN2, APP or other Mendelian dementia variants and relatives up to the third degree were removed",
+      "critic": "Alzheimer's disease cases and controls",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].name",
+      "builder": "Exome-wide significant association of rare predicted damaging variants in ATP8B4 and ABCA1 with AD risk (new genes)",
+      "critic": "gene-based burden of rare damaging variants",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Genes whose rare damaging variant burden was confirmed as associated with AD in the stage 1 + stage 2 meta-analysis].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": true
+    }
+  ],
+  "builder_values_not_found_in_document": [],
+  "critic_values_not_found_in_document": [],
+  "all_rows": [
+    {
+      "field": "study.design",
+      "builder": "Multistage exome-wide gene-based rare-variant burden analysis (stage 1 discovery, independent stage 2 confirmation, fixed-effect meta-analysis, plus a merged mega-sample and a GWAS-locus-targeted burden analysis)",
+      "critic": "Multistage gene burden analysis",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.n",
+      "builder": 32558,
+      "critic": 32558,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.population",
+      "builder": "Individuals of European ancestry only (non-European ancestry samples removed at QC), comprising AD cases diagnosed by NIA-AA or NINCDS-ADRDA criteria — 4,060 early-onset (age at onset ≤65 years) and 8,592 late-onset (age at onset >65 years) cases in stage 1 — and controls not diagnosed with AD; carriers of pathogenic PSEN1, PSEN2, APP or other Mendelian dementia variants and relatives up to the third degree were removed",
+      "critic": "Alzheimer's disease cases and controls",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.comparator",
+      "builder": "Controls not diagnosed with AD (8,693 in stage 1 and 7,829 in stage 2; 16,522 in total), sequenced on the same paired-end Illumina platforms as cases",
+      "critic": "controls",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.followup",
+      "builder": null,
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "study.intervention",
+      "builder": null,
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "study.phase",
+      "builder": null,
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "primary_endpoint_status.status",
+      "builder": "met",
+      "critic": "met",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "multiplicity.approach",
+      "builder": "Benjamini–Hochberg FDR < 0.1 across the 31,204 stage 1 burden tests to select genes for confirmation; one-sided stage 2 testing in the direction observed in stage 1; family-wise Holm–Bonferroni correction (P < 0.05) across all 31,204 tests for the fixed-effect meta-analysis; a stricter Benjamini–Hochberg FDR < 0.05 for the GWAS-targeted analysis because it had no separate confirmation stage",
+      "critic": "Benjamini–Hochberg FDR and Holm–Bonferroni correction",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].name",
+      "builder": "Exome-wide significant association of rare predicted damaging variants in ATP8B4 and ABCA1 with AD risk (new genes)",
+      "critic": "gene-based burden of rare damaging variants",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].met",
+      "builder": "met",
+      "critic": "met",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "ATP8B4 (LOF + REVEL ≥ 25) meta-analysis OR 1.5; ABCA1 (LOF + REVEL ≥ 75) meta-analysis OR 1.7",
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": "1.3–1.7 (ATP8B4); 1.4–2.1 (ABCA1)",
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].p_value",
+      "builder": "9.6 × 10 −9 (ATP8B4, Holm–Bonferroni 3.0 × 10 −4); 2.6 × 10 −7 (ABCA1, Holm–Bonferroni 8.0 × 10 −3)",
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].multiplicity_controlled",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[ARIA-E].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[ARIA-H].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[symptomatic ARIA].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[macrohemorrhage].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[death].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.apoe_stratification_reported",
+      "builder": false,
+      "critic": false,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[Genes whose rare damaging variant burden was confirmed as associated with AD in the stage 1 + stage 2 meta-analysis].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Genes whose rare damaging variant burden was confirmed as associated with AD in the stage 1 + stage 2 meta-analysis].tier",
+      "builder": "primary",
+      "critic": "primary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ]
+}

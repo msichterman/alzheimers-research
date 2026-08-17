@@ -1,0 +1,56 @@
+{
+  "fact_check": [
+    {
+      "fact": "Plasma p-tau217 levels show a 300-700% increase in symptomatic AD vs an 8-15% drop in Aβ42/Aβ40.",
+      "status": "verified",
+      "note": "Verified against source document (section 'BBMs as diagnostic biomarkers in clinical practice')."
+    },
+    {
+      "fact": "A4 trial required over 4,000 PET scans to identify 1,169 participants.",
+      "status": "verified",
+      "note": "Verified against source document (section 'BBMs as prescreening biomarkers in clinical trials')."
+    },
+    {
+      "fact": "p-tau217-based diagnostic algorithm correctly classifies about 80% of MCI patients.",
+      "status": "verified",
+      "note": "Verified against source document (section 'BBMs as diagnostic biomarkers in clinical practice')."
+    }
+  ],
+  "research_page": {
+    "slug": "blood-biomarkers-clinical-practice-hansson-2023",
+    "title": "Blood biomarkers for Alzheimer's disease (Review)",
+    "description": "A comprehensive review of blood-based biomarkers, highlighting plasma p-tau217 as a robust tool for diagnosing Alzheimer's and streamlining clinical trials.",
+    "tags": [
+      "review",
+      "biomarkers",
+      "p-tau217",
+      "amyloid",
+      "blood-test"
+    ],
+    "source_line_md": "**Source**: [Nature aging, 2023](https://doi.org/10.1038/s43587-023-00403-3) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/37202517)",
+    "authors_line_md": "Hansson, Oskar et al.",
+    "takeaway_md": "Blood-based biomarkers, particularly plasma p-tau217, demonstrate exceptional diagnostic accuracy and robustness for Alzheimer's disease. They are poised to transform clinical trial recruitment by drastically reducing the need for PET and CSF screening, though prospective validation in primary care is required before widespread clinical implementation.",
+    "key_findings_md": [
+      "Plasma p-tau217 levels increase by 300–700% in symptomatic Alzheimer's, compared to a modest 8–15% drop in the Aβ42/Aβ40 ratio, providing superior diagnostic robustness (paper, BBMs as diagnostic biomarkers).",
+      "Diagnostic algorithms using plasma p-tau217 can correctly classify approximately 80% of patients with mild cognitive impairment without requiring confirmatory CSF or PET testing (paper, BBMs as diagnostic biomarkers).",
+      "Prescreening with high-performing blood biomarkers in preclinical trials could drastically reduce the number of PET scans required, as seen retrospectively in the A4 study which needed over 4,000 scans to find 1,169 eligible participants (paper, BBMs as prescreening biomarkers)."
+    ],
+    "methods_md": "Review, n/a, n/a, n/a, n/a — Narrative review evaluating the analytical robustness, diagnostic accuracy, and implementation readiness of blood-based biomarkers for Alzheimer's disease in clinical practice and trials.",
+    "trial_evidence_md": "This review synthesizes observational and retrospective trial data rather than reporting new prospective results. It highlights how blood tests could optimize screening in large prevention trials (such as the [A4 study](/research/papers/solanezumab-a4-prevention)). However, the authors' cost-reduction models rely on retrospective screening data from failed therapeutic trials, rather than prospective interventional biomarker trials.",
+    "sentiment_md": "Public and professional sentiment is highly optimistic but somewhat divided by practical realities. Clinical neurologists are enthusiastically adopting p-tau217 to streamline workflows and replace invasive tests, while media hype about predicting the disease decades in advance has driven premature demand for asymptomatic screening, leading to patient confusion.",
+    "caveats_md": [
+      "Real-world performance in primary care remains unproven, as current accuracy claims rely heavily on retrospective analyses of specialized memory clinic cohorts.",
+      "The authors' projected 2-4 year timeline for a clinical 'revolution' may be overly optimistic given the unresolved need for global assay standardization.",
+      "While models suggest blood tests will drastically cut clinical trial costs, these savings are currently extrapolated from the screening phases of past therapeutic trials rather than proven in prospective diagnostic studies."
+    ],
+    "relates_to_md": [
+      "[Biomarkers](/research/biomarkers) — Review of blood-based Alzheimer's diagnostic tools.",
+      "[Trial of Solanezumab in Preclinical Alzheimer’s Disease](/research/papers/solanezumab-a4-prevention) — The A4 study, whose screening data was used to model the cost-saving potential of blood biomarker prescreening."
+    ]
+  },
+  "trial_pages": [],
+  "timeline_entries": [],
+  "notes_for_editor": [
+    "Decided not to create separate trial pages for the A4 Study or BioFINDER-2, as this is a review paper and they are contextual. The A4 Study is linked via its existing paper page."
+  ]
+}

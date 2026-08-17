@@ -1,0 +1,9 @@
+{
+  "id": "trailrunner-alz-1-registry-nct05463731",
+  "source": "sources/trailrunner-alz-1-registry-nct05463731.json",
+  "sha256": "2c6fa0ea2c4e08b5c1de7c0f0fdd590b87356fdfc85a615a673de9c058b538e1",
+  "bytes": 23384,
+  "chars": 7106,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:11.311Z"
+}

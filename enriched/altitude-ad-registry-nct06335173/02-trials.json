@@ -1,0 +1,73 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT06335173",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06335173",
+      "name": "ALTITUDE-AD",
+      "drug": "sabirnetug (monoclonal antibody targeting amyloid-beta oligomers)",
+      "phase": "2",
+      "sponsor": "Acumen Pharmaceuticals",
+      "status": "Active",
+      "enrollment": 542,
+      "population": "Adults aged 50-90 with mild cognitive impairment (MCI) due to AD or probable AD",
+      "primary_endpoint": "Change from Baseline in Integrated Alzheimer's Disease Rating Scale (iADRS) Score",
+      "started": "2024-02",
+      "completed_or_readout": "2026-10",
+      "results_summary": null,
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04931459",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04931459",
+      "name": "INTERCEPT-AD",
+      "drug": "ACU193 / sabirnetug (monoclonal antibody targeting amyloid-beta oligomers)",
+      "phase": "1",
+      "sponsor": "Acumen Pharmaceuticals",
+      "status": "Completed",
+      "enrollment": 65,
+      "population": "Adults aged 55-90 with mild cognitive impairment (MCI) due to AD or mild AD",
+      "primary_endpoint": "Incidence and Nature of Treatment-Related Adverse Events (AE) or Serious Adverse Events (SAE)",
+      "started": "2021-06",
+      "completed_or_readout": "2023-06",
+      "results_summary": "Sabirnetug was generally well tolerated with dose-proportional exposure and central target engagement (binding to Aβ oligomers in CSF). Higher doses demonstrated a 20-25% reduction in amyloid plaques over three months, with mild-to-moderate ARIA-E occurring in 5 of 48 treated participants.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT06511570",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06511570",
+      "name": "ACU193-102",
+      "drug": "sabirnetug IV vs sabirnetug + rHuPH20 SC",
+      "phase": "1",
+      "sponsor": "Acumen Pharmaceuticals",
+      "status": "Completed",
+      "enrollment": 28,
+      "population": "Healthy participants aged 50 and older",
+      "primary_endpoint": "Estimate blood levels of sabirnetug (Cmax)",
+      "started": "2024-06",
+      "completed_or_readout": "2024-09",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2025-01",
+      "kind": "paper",
+      "description": "INTERCEPT-AD Phase 1 primary results published in the Journal of Prevention of Alzheimer's Disease.",
+      "url": "https://doi.org/10.1016/j.tjpad.2024.100005"
+    },
+    {
+      "date": "2025-04",
+      "kind": "paper",
+      "description": "Biofluid biomarker changes from the INTERCEPT-AD Phase 1 trial published in the Journal of Prevention of Alzheimer's Disease.",
+      "url": "https://doi.org/10.1016/j.tjpad.2025.100082"
+    }
+  ],
+  "evidence_assessment": "Sabirnetug (ACU193) is an investigational monoclonal antibody uniquely targeting amyloid-beta oligomers, currently being evaluated for clinical efficacy in early Alzheimer's disease in the Phase 2 ALTITUDE-AD trial (NCT06335173). The clinical evidence base relies entirely on the completed Phase 1 INTERCEPT-AD trial (NCT04931459), which established initial safety, pharmacokinetics, and evidence of central target engagement—including a modest reduction in amyloid plaques at higher doses over a short duration. However, because no Phase 2 or Phase 3 efficacy readouts are yet available, the clinical benefit of sabirnetug in slowing cognitive and functional decline remains strictly unproven. The Alzheimer's field awaits the readout of ALTITUDE-AD in late 2026 to determine if targeting Aβ oligomers selectively translates to meaningful clinical outcomes.",
+  "discrepancies": [
+    "No major discrepancies. The document correctly describes ALTITUDE-AD as an 'ongoing' Phase 2 trial of 542 participants; the registry provides slightly more precision, confirming that the study has reached its full actual enrollment of 542 and its status is now formally 'Active, not recruiting'."
+  ]
+}

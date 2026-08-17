@@ -1,0 +1,51 @@
+{
+  "id": "verubecestat-apecs",
+  "adjudicated_at": "2026-08-13T16:35:10Z",
+  "rulings": [
+    {
+      "conflict_id": "verubecestat-apecs#0",
+      "field": "study.population",
+      "verdict": "both",
+      "correct_value": "Patients aged 50 to 85 years with prodromal Alzheimer's disease — memory impairment (subjective memory decline for at least 1 year corroborated by an informant, RBANS Delayed Memory Index score of 85 or less) and elevated brain amyloid on PET, with MMSE 24 to 30, who did not meet criteria for dementia",
+      "quote": "Patients were eligible for enrollment in the trial if they were between 50 and 85 years of age and if they did not meet criteria for dementia , but had had a subjective decrease in memory for at least 1 year corroborated by an informant.",
+      "reasoning": "Both readings describe the same population at different resolution; every element of reading B (age 50 to 85, informant-corroborated 1-year memory decline, RBANS Delayed Memory Index of 85 or less, amyloid on PET, MMSE 24 to 30, no dementia) is stated in the Patients section, so it is the more precise supported value."
+    },
+    {
+      "conflict_id": "verubecestat-apecs#1",
+      "field": "study.intervention",
+      "verdict": "both",
+      "correct_value": "Oral verubecestat (a BACE-1 inhibitor) at 12 mg per day or 40 mg per day, once daily, administered as identical-appearing tablets",
+      "quote": "In part 1, patients were randomly assigned in a 1:1:1 ratio to receive, once daily, oral verubecestat at a dose of 12 mg, oral verubecestat at a dose of 40 mg, or oral placebo.",
+      "reasoning": "The two readings name the same two dose arms; the document additionally supports the once-daily schedule, the BACE-1 inhibitor identity, and 'All the assigned trial regimens were administered as identical-appearing tablets.', making reading A the fuller supported value."
+    },
+    {
+      "conflict_id": "verubecestat-apecs#2",
+      "field": "outcomes[Change from week 13 to week 104 in the CDR-SB score].tier",
+      "verdict": "b",
+      "correct_value": "secondary",
+      "quote": "There were seven secondary outcomes: the progression to the diagnosis of dementia due to Alzheimer’s disease; the change from week 13 to week 104 in the CDR-SB score;",
+      "reasoning": "The Outcomes section names the change from BASELINE to week 104 in CDR-SB as the single primary efficacy outcome and lists the change from WEEK 13 to week 104 in CDR-SB as the second of seven secondary outcomes."
+    },
+    {
+      "conflict_id": "verubecestat-apecs#3",
+      "field": "outcomes[primary].confidence_interval",
+      "verdict": "neither",
+      "correct_value": null,
+      "quote": "The model-based mean change score from baseline to week 104 in the CDR-SB score (the primary outcome) was 1.65 in the 12-mg group, 2.02 in the 40-mg group, and 1.58 in the placebo group (P = 0.67 for the comparison between the 12-mg group and the placebo group and P = 0.01 for the comparison between the 40-mg group and the placebo group, favoring the placebo group) ().",
+      "reasoning": "The primary CDR-SB result is given as three group mean changes and two P values, with no interval. The Statistical Analysis section says confidence intervals were estimated from the ANCOVA model, and 97.51% CIs are printed for the secondary hazard ratios (1.30; 1.01 to 1.68 and 1.38; 1.07 to 1.79), but no confidence interval value for the primary outcome is printed anywhere in this document."
+    },
+    {
+      "conflict_id": "verubecestat-apecs#4",
+      "field": "safety.harms[death].counts",
+      "verdict": "both",
+      "correct_value": "placebo group: 3 | 12-mg group: 3 | 40-mg group: 1",
+      "quote": "In part 1 of the trial, there were three deaths in the placebo group, three in the 12-mg group, and one in the 40-mg group (, and in the ).",
+      "reasoning": "The document reports deaths per arm with explicit counts, and both readings record exactly those numbers (3 placebo, 3 in the 12-mg group, 1 in the 40-mg group), differing only in wording and arm labels; reading B's labels match the document's own group names."
+    }
+  ],
+  "notes": [
+    "Conflict #2 turns entirely on the baseline-vs-week-13 anchor: 'The primary efficacy outcome was the change from baseline to week 104 in the Clinical Dementia Rating Scale–Sum of Boxes score'. A record holding two primary CDR-SB entries would be wrong; only the baseline-anchored one is primary.",
+    "For #0 and #1 the shorter readings are drawn from the abstract and are not incorrect, merely less specific; downstream consumers should not treat 'both' as a signal that the shorter phrasing is equally usable for eligibility or dosing detail.",
+    "Reading B for #0 uses the label 'prodromal Alzheimer's disease', which the document supports ('The diagnosis of prodromal Alzheimer’s disease was confirmed by independent review.')."
+  ]
+}

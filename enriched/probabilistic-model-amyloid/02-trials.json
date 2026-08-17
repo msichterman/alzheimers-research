@@ -1,0 +1,119 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT01760005",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01760005",
+      "name": "DIAN-TU-001",
+      "drug": "gantenerumab, solanezumab (anti-amyloid)",
+      "phase": "2/3",
+      "sponsor": "Washington University School of Medicine",
+      "status": "Active, not recruiting",
+      "enrollment": 490,
+      "population": "Individuals at risk for or with a type of early onset Alzheimer's disease caused by a genetic mutation",
+      "primary_endpoint": "Change from baseline in the DIAN-Multivariate Cognitive Endpoint (DIAN-MCE)",
+      "started": "2012-12",
+      "completed_or_readout": "2028-04",
+      "results_summary": "Neither gantenerumab nor solanezumab met the primary cognitive endpoint of slowing clinical decline, despite gantenerumab showing significant reductions in amyloid plaques.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02484547",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02484547",
+      "name": "EMERGE (221AD302)",
+      "drug": "aducanumab (anti-amyloid)",
+      "phase": "3",
+      "sponsor": "Biogen",
+      "status": "Terminated",
+      "enrollment": 1643,
+      "population": "Subjects with early Alzheimer's disease",
+      "primary_endpoint": "Change From Baseline in Clinical Dementia Rating Scale - Sum of Boxes (CDR-SB) Score at Week 78",
+      "started": "2015-09",
+      "completed_or_readout": "2019-08",
+      "results_summary": "The trial was terminated early for futility, but subsequent post-hoc analyses indicated a 22% reduction in clinical decline for the high-dose group on the CDR-SB.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02477800",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02477800",
+      "name": "ENGAGE (221AD301)",
+      "drug": "aducanumab (anti-amyloid)",
+      "phase": "3",
+      "sponsor": "Biogen",
+      "status": "Terminated",
+      "enrollment": 1653,
+      "population": "Subjects with early Alzheimer's disease",
+      "primary_endpoint": "Change From Baseline in Clinical Dementia Rating Sum of Boxes (CDR-SB) Score at Week 78",
+      "started": "2015-08",
+      "completed_or_readout": "2019-08",
+      "results_summary": "The trial was terminated early after a futility analysis and failed to show a significant treatment effect on cognitive decline, conflicting with the positive signal seen in EMERGE.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01767311",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01767311",
+      "name": "Study 201",
+      "drug": "lecanemab (anti-amyloid)",
+      "phase": "2",
+      "sponsor": "Eisai Inc.",
+      "status": "Completed",
+      "enrollment": 856,
+      "population": "Subjects with early Alzheimer's disease",
+      "primary_endpoint": "Change From Baseline in Alzheimer's Disease Composite Score (ADCOMS) at Month 12",
+      "started": "2012-12",
+      "completed_or_readout": "2024-12",
+      "results_summary": "The trial did not meet its primary 12-month ADCOMS endpoint, but at 18 months, the highest dose demonstrated robust amyloid clearance and a 47% reduction in clinical decline on ADCOMS.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03887455",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03887455",
+      "name": "Clarity AD",
+      "drug": "lecanemab (anti-amyloid)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "status": "Active, not recruiting",
+      "enrollment": 1906,
+      "population": "Participants with early Alzheimer's disease",
+      "primary_endpoint": "Change from Baseline in the CDR-SB at 18 Months",
+      "started": "2019-03",
+      "completed_or_readout": "2029-06",
+      "results_summary": "Met its primary endpoint by slowing cognitive decline by 27% on the CDR-SB over 18 months compared to placebo, alongside significant amyloid plaque clearance.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2021-06",
+      "kind": "paper",
+      "description": "Primary results of the DIAN-TU trial showing lack of cognitive benefit for gantenerumab and solanezumab.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34155411/"
+    },
+    {
+      "date": "2021-04",
+      "kind": "paper",
+      "description": "Results of the lecanemab Phase 2b trial (Study 201) demonstrating a 47% slowing of clinical decline at 18 months on ADCOMS.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33865446/"
+    },
+    {
+      "date": "2022-05",
+      "kind": "paper",
+      "description": "Primary publication of the Phase 3 EMERGE and ENGAGE trials for aducanumab.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35542991/"
+    },
+    {
+      "date": "2023-01",
+      "kind": "paper",
+      "description": "Primary publication of the Phase 3 Clarity AD trial for lecanemab showing a 27% reduction in cognitive decline.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36449413/"
+    }
+  ],
+  "evidence_assessment": "The clinical trial record strongly supports the document's central premise that the deterministic amyloid cascade hypothesis is insufficient to fully explain sporadic AD. Anti-amyloid therapies consistently show robust target engagement (amyloid clearance) but yield modest or inconsistent cognitive benefits. Aducanumab's ENGAGE trial failed entirely, while EMERGE showed only a 22% reduction in decline on the CDR-SB. The cited 47% reduction for lecanemab comes from a Phase 2b secondary endpoint, and the subsequent Phase 3 Clarity AD trial demonstrated a more modest 27% reduction. These findings corroborate the authors' argument that a substantial proportion of clinical progression in AD occurs independently of amyloid-beta, validating the need for a probabilistic model that accounts for compounding genetic and environmental factors.",
+  "discrepancies": [
+    "The document claims lecanemab slowed cognitive decline by 47%. This refers to the 18-month secondary endpoint of the Phase 2b trial (NCT01767311). The subsequent, fully powered Phase 3 Clarity AD trial (NCT03887455), which reported results after this paper was published, showed a more modest 27% reduction in decline. However, this discrepancy effectively strengthens the authors' broader conclusion that the majority of disease progression (over 70% in Phase 3) remains independent of Aβ."
+  ]
+}

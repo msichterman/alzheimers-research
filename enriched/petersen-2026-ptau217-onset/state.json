@@ -1,0 +1,18 @@
+{
+  "01-analysis": {
+    "source_sha256": "c1878da31954731e42687bd854aca9586b269e6dc8752d8e89a9d95caaa8a3e7",
+    "completed_at": "2026-08-16T11:12:45.829Z",
+    "model": "google-vertex/gemini-3.1-pro-preview",
+    "turns": 1,
+    "cost_usd": 0.224068,
+    "session_id": "ses_ff5bb1b87ffe2sVslO9u7AmmeS"
+  },
+  "02-trials": {
+    "source_sha256": "c1878da31954731e42687bd854aca9586b269e6dc8752d8e89a9d95caaa8a3e7",
+    "completed_at": "2026-08-16T11:17:48.555Z",
+    "model": "google-vertex/gemini-3.1-pro-preview",
+    "turns": 17,
+    "cost_usd": 1.2089505999999999,
+    "session_id": "ses_ff5b9cc12ffekKO3QCJxNkiws8"
+  }
+}

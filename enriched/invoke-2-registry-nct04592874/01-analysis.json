@@ -1,0 +1,70 @@
+{
+  "kind": "other",
+  "title": "A Phase 2 Randomized, Double-Blind, Placebo-Controlled, Multicenter Study to Evaluate the Efficacy and Safety of AL002 in Participants With Early Alzheimer's Disease",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2025-10",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "immunotherapy",
+    "al002"
+  ],
+  "themes": [
+    "Clinical trial results",
+    "AL002 efficacy and safety",
+    "Amyloid-related imaging abnormalities (ARIA)",
+    "Disease progression"
+  ],
+  "one_line": "Topline results from a phase 2 trial show that the investigational drug AL002 did not significantly slow cognitive or functional decline compared to placebo in early Alzheimer's disease and increased rates of ARIA.",
+  "summary": "This document contains the posted results for the NCT04592874 phase 2 clinical trial evaluating the safety and efficacy of the monoclonal antibody AL002 in 356 participants with early Alzheimer's disease. Participants were randomized to receive one of three intravenous AL002 doses or a placebo every four weeks for 96 weeks. Across all primary and secondary efficacy measures, including the CDR-SB, MMSE, RBANS, ADAS-Cog13, ADCS-ADL-MCI, and ADCOMS, there were no statistically significant differences between any AL002 dose group and the placebo group at week 96. Safety data revealed a notably higher incidence of amyloid-related imaging abnormalities (ARIA-E and ARIA-H) and infusion-related reactions in all AL002 treatment arms compared to the placebo group.",
+  "key_claims": [
+    {
+      "claim": "AL002 does not significantly slow disease progression compared to placebo in early Alzheimer's disease.",
+      "evidence": "Mean differences in CDR-SB at week 96 versus placebo were -0.17 (p=0.7975), -0.31 (p=0.6341), and 0.13 (p=0.8489) for AL002 doses 1, 2, and 3, respectively.",
+      "strength": "strong",
+      "location": "PRIMARY: Disease Progression as Measured by the Clinical Dementia Rating - Sum of Boxes (CDR-SB) Score"
+    },
+    {
+      "claim": "AL002 does not significantly improve secondary cognitive and functional endpoints compared to placebo.",
+      "evidence": "No statistically significant differences were observed across any of the dose groups for MMSE, RBANS, ADAS-Cog13, ADCS-ADL-MCI, and ADCOMS at week 96.",
+      "strength": "strong",
+      "location": "SECONDARY outcomes sections"
+    },
+    {
+      "claim": "AL002 is associated with increased rates of amyloid-related imaging abnormalities (ARIA) compared to placebo.",
+      "evidence": "ARIA-E occurred in 21.6%, 23.4%, and 22.0% of participants across AL002 arms versus 1.1% in the placebo arm; ARIA-H occurred in 28.8%, 29.7%, and 27.2% of AL002 participants versus 4.5% in the placebo arm.",
+      "strength": "strong",
+      "location": "Posted results > Adverse events > Other adverse events"
+    }
+  ],
+  "methods": {
+    "design": "Phase 2 randomized, double-blind, placebo-controlled, multicenter study",
+    "n": 356,
+    "population": "Adult participants aged 50-85 with early Alzheimer's disease and evidence of brain amyloidosis, excluding APOE e4/e4 homozygotes.",
+    "duration": "96 weeks",
+    "registration": "NCT04592874"
+  },
+  "funding_and_conflicts": "Lead sponsor: Alector Inc. No individual author conflicts are stated as this is a registry data extract.",
+  "limitations": [
+    "This is a registry data extract, lacking detailed discussion, qualitative analysis, or full subgroup evaluations typically found in peer-reviewed publications.",
+    "Biomarker outcomes (e.g., CSF or PET changes) that might explain the biological effect of the drug are not reported in this summary."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 10,
+    "issues": []
+  },
+  "search_verification": []
+}

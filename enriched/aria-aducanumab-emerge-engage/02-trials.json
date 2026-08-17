@@ -1,0 +1,102 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT02484547",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02484547",
+      "name": "EMERGE",
+      "drug": "Aducanumab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Biogen",
+      "status": "Terminated",
+      "enrollment": 1643,
+      "population": "Early Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline in Clinical Dementia Rating Scale - Sum of Boxes (CDR-SB) Score at Week 78",
+      "started": "2015-09",
+      "completed_or_readout": "2019-08",
+      "results_summary": "The study was terminated early for futility based on an independent pooled interim analysis. The sponsor later claimed post-hoc that the high-dose arm met the primary endpoint by significantly slowing clinical decline.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02477800",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02477800",
+      "name": "ENGAGE",
+      "drug": "Aducanumab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Biogen",
+      "status": "Terminated",
+      "enrollment": 1653,
+      "population": "Early Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline in Clinical Dementia Rating Sum of Boxes (CDR-SB) Score at Week 78",
+      "started": "2015-08",
+      "completed_or_readout": "2019-08",
+      "results_summary": "The study was terminated early for futility alongside EMERGE. Unlike EMERGE, post-hoc analysis showed the trial failed to meet its primary endpoint, yielding no significant clinical benefit.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01677572",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01677572",
+      "name": "PRIME",
+      "drug": "Aducanumab (anti-amyloid monoclonal antibody)",
+      "phase": "1",
+      "sponsor": "Biogen",
+      "status": "Terminated",
+      "enrollment": 197,
+      "population": "Prodromal or Mild Alzheimer's Disease",
+      "primary_endpoint": "Number of Participants with Adverse Events",
+      "started": "2012-10",
+      "completed_or_readout": "2019-07",
+      "results_summary": "Demonstrated dose-dependent reduction in amyloid beta plaques and established the initial safety profile, identifying ARIA as a primary dose-limiting adverse event.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04241068",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04241068",
+      "name": "EMBARK",
+      "drug": "Aducanumab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Biogen",
+      "status": "Terminated",
+      "enrollment": 1696,
+      "population": "Participants With Alzheimer's Disease Who Had Previously Participated in Aducanumab Studies",
+      "primary_endpoint": "Core Treatment Period: Number of Participants With Treatment-Emergent Adverse Events (TEAEs) and Serious TEAEs",
+      "started": "2020-03",
+      "completed_or_readout": "2024-07",
+      "results_summary": "An open-label redosing study for participants from previous aducanumab trials. The trial was formally terminated when Biogen discontinued aducanumab development entirely.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05310071",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05310071",
+      "name": "ENVISION",
+      "drug": "Aducanumab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Biogen",
+      "status": "Terminated",
+      "enrollment": 1027,
+      "population": "Early Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline in Clinical Dementia Rating Scale - Sum of Boxes (CDR-SB) Score at Week 78",
+      "started": "2022-06",
+      "completed_or_readout": "2024-08",
+      "results_summary": "A Phase 4 post-approval confirmatory trial required by the FDA's accelerated approval pathway. It was terminated early when Biogen halted the aducanumab program in January 2024 to reallocate resources to lecanemab.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2022-05",
+      "kind": "paper",
+      "description": "Primary efficacy publication for Phase 3 trials EMERGE and ENGAGE detailing the sponsor's post-hoc claims.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35542991/"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence for aducanumab's efficacy is highly disputed, as its two Phase 3 trials (EMERGE and ENGAGE) were prematurely terminated for futility. A subsequent post-hoc analysis by the sponsor claimed efficacy in EMERGE but failed in ENGAGE, leading to a controversial FDA accelerated approval against advisory committee advice. While the document accurately reflects the high incidence of ARIA-E (41.3% overall at the highest dose) found in the trials, it minimizes the clinical impact of these safety findings by framing the trials' futility termination as a statistical error based on 'invalid assumptions'. Ultimately, the lack of clear clinical benefit and heavily restricted Medicare coverage led Biogen to abandon the aducanumab program entirely in 2024, terminating the confirmatory ENVISION trial and rendering the drug a clinical failure.",
+  "discrepancies": [
+    "The document frames the early termination of the Phase 3 trials as a statistical error based on 'invalid assumptions', but the trials were formally halted for futility, and the conflicting post-hoc efficacy claims remain heavily contested by the broader scientific and regulatory community.",
+    "The document omits conflict of interest and funding declarations, masking the sponsor's direct involvement in post-hoc data mining after futility was initially declared."
+  ]
+}

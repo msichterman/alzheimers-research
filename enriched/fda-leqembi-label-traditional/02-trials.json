@@ -1,0 +1,79 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT03887455",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03887455",
+      "name": "CLARITY AD (Study 2)",
+      "drug": "Lecanemab (anti-amyloid beta monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "status": "Active",
+      "enrollment": 1906,
+      "population": "Participants With Early Alzheimer's Disease (mild cognitive impairment or mild dementia)",
+      "primary_endpoint": "Core Study: Change from Baseline in the CDR-SB at 18 Months",
+      "started": "2019-03",
+      "completed_or_readout": "2029-06",
+      "results_summary": "The trial met its primary endpoint, demonstrating that lecanemab reduced clinical decline by 27% on the CDR-SB compared to placebo at 18 months. It also significantly reduced brain amyloid beta plaque levels, though ARIA was a frequent and sometimes severe adverse event, especially in ApoE ε4 carriers.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01767311",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01767311",
+      "name": "Study 1",
+      "drug": "Lecanemab (anti-amyloid beta monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Eisai Inc.",
+      "status": "Completed",
+      "enrollment": 856,
+      "population": "Subjects With Early Alzheimer's Disease",
+      "primary_endpoint": "Core Study Phase: Change From Baseline in Alzheimer's Disease Composite Score (ADCOMS) at Month 12",
+      "started": "2012-12",
+      "completed_or_readout": "2024-12",
+      "results_summary": "The study missed its primary clinical endpoint (ADCOMS at 12 months), but demonstrated significant dose- and time-dependent clearance of amyloid plaque. Extended 18-month analyses showed a slowing of clinical decline at the highest dose, leading to Phase 3 advancement.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04468659",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04468659",
+      "name": "AHEAD 3-45",
+      "drug": "Lecanemab (anti-amyloid beta monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "status": "Active",
+      "enrollment": 1400,
+      "population": "Participants With Preclinical Alzheimer's Disease and Elevated Amyloid",
+      "primary_endpoint": "Change From Baseline in Preclinical Alzheimer Cognitive Composite 5 (PACC5) Score at Week 216",
+      "started": "2020-07",
+      "completed_or_readout": "2028-12",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2023-01-05",
+      "kind": "paper",
+      "description": "Phase 3 CLARITY AD trial results published in the New England Journal of Medicine.",
+      "url": "https://doi.org/10.1056/nejmoa2212948"
+    },
+    {
+      "date": "2021-04-17",
+      "kind": "paper",
+      "description": "Phase 2b proof-of-concept clinical trial results published in Alzheimer's Research & Therapy.",
+      "url": "https://doi.org/10.1186/s13195-021-00813-8"
+    },
+    {
+      "date": "2023-07-06",
+      "kind": "regulatory",
+      "description": "FDA converts lecanemab to traditional approval based on Phase 3 confirmatory data.",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-converts-novel-alzheimers-disease-treatment-traditional-approval"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence supporting LEQEMBI is anchored by the large, well-powered Phase 3 CLARITY AD trial (NCT03887455), which successfully met its primary endpoint by reducing clinical decline (CDR-SB) by 27% at 18 months compared to placebo. This Phase 3 success provided the confirmatory evidence required for traditional FDA approval, validating the biomarker (amyloid clearance) and secondary clinical signals observed in the earlier Phase 2b study (NCT01767311). However, the evidence strictly delineates a substantial risk profile regarding Amyloid Related Imaging Abnormalities (ARIA), heavily concentrated in ApoE ε4 carriers. Notably, the clinical record confirms that while the drug clears amyloid universally, ApoE ε4 homozygotes face the highest safety risks (e.g., severe microhemorrhages) alongside an exploratory signal suggesting minimal to no treatment effect on the primary clinical endpoint.",
+  "discrepancies": [
+    "The prescribing information highlights Study 1's (NCT01767311) success in clearing amyloid plaque (SUVR) and uses these biomarker results as supportive evidence, but omits that the trial technically missed its actual 12-month primary clinical endpoint (change in ADCOMS) according to the registry and published literature."
+  ]
+}

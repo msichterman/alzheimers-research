@@ -1,0 +1,128 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT03444870",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03444870",
+      "name": "GRADUATE I",
+      "drug": "Gantenerumab",
+      "phase": "3",
+      "sponsor": "Hoffmann-La Roche",
+      "status": "Terminated",
+      "enrollment": 1053,
+      "population": "Patients with early (prodromal to mild) Alzheimer's disease with evidence of amyloid pathology",
+      "primary_endpoint": "DBT Period: Change From Baseline to Week 116 in Global Outcome, as Measured by CDR-SB",
+      "started": "2018-06",
+      "completed_or_readout": "2022-12",
+      "results_summary": "The trial failed to meet its primary endpoint of significantly slowing clinical decline as measured by CDR-SB. Due to the lack of clinical efficacy, the development program was terminated.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03443973",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03443973",
+      "name": "GRADUATE II",
+      "drug": "Gantenerumab",
+      "phase": "3",
+      "sponsor": "Hoffmann-La Roche",
+      "status": "Terminated",
+      "enrollment": 975,
+      "population": "Participants With Early Alzheimer's Disease (AD)",
+      "primary_endpoint": "DBT Period: Change From Baseline to Week 116 in Global Outcome, as Measured by CDR-SB",
+      "started": "2018-08",
+      "completed_or_readout": "2022-09",
+      "results_summary": "As the sister trial to GRADUATE I, this study also failed to meet its primary clinical efficacy endpoint, directly contributing to the termination of the gantenerumab program.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01224106",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01224106",
+      "name": "SCarlet RoAD",
+      "drug": "Gantenerumab",
+      "phase": "3",
+      "sponsor": "Hoffmann-La Roche",
+      "status": "Completed",
+      "enrollment": 799,
+      "population": "Participants With Prodromal Alzheimer's Disease",
+      "primary_endpoint": "Mean Change From Baseline in Clinical Dementia Rating Scale Sum of Boxes (CDR-SOB) Total Score at Week 104 (Double-Blind Treatment Phase)",
+      "started": "2010-11",
+      "completed_or_readout": "2020-09",
+      "results_summary": "The trial was converted to an open-label extension after an initial futility analysis. Gantenerumab showed target engagement but failed to demonstrate significant clinical benefit.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02051608",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02051608",
+      "name": "Marguerite RoAD",
+      "drug": "Gantenerumab",
+      "phase": "3",
+      "sponsor": "Hoffmann-La Roche",
+      "status": "Completed",
+      "enrollment": 389,
+      "population": "Participants With Mild Alzheimer Disease",
+      "primary_endpoint": "Part 2: Percentage of Participants With Adverse Events (AEs) or Serious Adverse Events (SAEs)",
+      "started": "2014-03",
+      "completed_or_readout": "2021-04",
+      "results_summary": "This trial evaluated higher doses of gantenerumab and was later rolled into an open-label extension. Like SCarlet RoAD, it informed the subcutaneous dosing strategy for the GRADUATE program.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04374253",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04374253",
+      "name": "GRADUATE OLE",
+      "drug": "Gantenerumab",
+      "phase": "3",
+      "sponsor": "Hoffmann-La Roche",
+      "status": "Terminated",
+      "enrollment": 1382,
+      "population": "Participants With Alzheimer's Disease (AD)",
+      "primary_endpoint": "Number of Participants With at Least One Adverse Event (AE) and Serious Adverse Event (SAE)",
+      "started": "2021-01",
+      "completed_or_readout": "2023-03",
+      "results_summary": "The long-term open-label extension study was terminated early following the negative efficacy readouts from the pivotal GRADUATE I and II trials.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01760005",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01760005",
+      "name": "DIAN-TU-001",
+      "drug": "Gantenerumab and Solanezumab",
+      "phase": "2",
+      "sponsor": "Washington University School of Medicine",
+      "status": "Active, not recruiting",
+      "enrollment": 490,
+      "population": "Individuals at Risk for or With a Type of Early Onset Alzheimer's Disease Caused by a Genetic Mutation",
+      "primary_endpoint": "Assess cognitive efficacy in individuals with mutations causing dominantly inherited AD as measured by the change from baseline in the DIAN-Multivariate Cognitive Endpoint (DIAN-MCE)",
+      "started": "2012-12",
+      "completed_or_readout": "2028-04",
+      "results_summary": "The initial arms testing gantenerumab and solanezumab failed to meet the primary endpoint of slowing cognitive decline in dominantly inherited Alzheimer's disease.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2023-11-16",
+      "kind": "paper",
+      "description": "Publication of the Phase 3 GRADUATE I and II results confirming gantenerumab did not significantly slow clinical decline in early Alzheimer's disease.",
+      "url": "https://doi.org/10.1056/NEJMoa2304430"
+    },
+    {
+      "date": "2022-11-14",
+      "kind": "company",
+      "description": "Roche announced that the Phase III GRADUATE I and II studies did not meet their primary endpoints, leading to the termination of the gantenerumab program.",
+      "url": "https://www.roche.com/media/releases/med-cor-2022-11-14"
+    },
+    {
+      "date": "2021-06-21",
+      "kind": "paper",
+      "description": "DIAN-TU-001 trial results published in Nature Medicine, showing gantenerumab failed to slow cognitive decline in dominantly inherited Alzheimer's disease.",
+      "url": "https://doi.org/10.1038/s41591-021-01369-8"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence conclusively supports the document's central claim that gantenerumab failed to demonstrate significant clinical efficacy in early Alzheimer's disease. The pivotal Phase 3 GRADUATE I and II trials both failed to meet their primary clinical endpoints (slowing cognitive and functional decline on the CDR-SB), despite evidence of target engagement via reduction of brain amyloid plaques. This lack of clinical benefit is highly consistent with previous futility findings in earlier phases, including the SCarlet RoAD, Marguerite RoAD, and DIAN-TU trials. Due to these definitive negative readouts, the sponsor has terminated the entire gantenerumab clinical development program.",
+  "discrepancies": []
+}

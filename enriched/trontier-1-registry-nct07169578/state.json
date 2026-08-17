@@ -1,0 +1,34 @@
+{
+  "01-analysis": {
+    "source_sha256": "fad9bc7b2fc80c3da9905fc07f9f26fa7d07034110eb2610f89165fe1068635a",
+    "completed_at": "2026-08-16T18:06:44.834Z",
+    "model": "google-vertex/gemini-3.1-pro-preview",
+    "turns": 1,
+    "cost_usd": 0.138018,
+    "session_id": "ses_ff43f9f0bffeCG2Qf2TZX0ET7i"
+  },
+  "02-trials": {
+    "source_sha256": "fad9bc7b2fc80c3da9905fc07f9f26fa7d07034110eb2610f89165fe1068635a",
+    "completed_at": "2026-08-16T18:10:39.204Z",
+    "model": "google-vertex/gemini-3.1-pro-preview",
+    "turns": 16,
+    "cost_usd": 0.8088884000000002,
+    "session_id": "ses_ff43ec9b5ffeypZRi1EEqJY7wB"
+  },
+  "03-sentiment": {
+    "source_sha256": "fad9bc7b2fc80c3da9905fc07f9f26fa7d07034110eb2610f89165fe1068635a",
+    "completed_at": "2026-08-16T18:12:23.369Z",
+    "model": "google-vertex/gemini-3.1-pro-preview",
+    "turns": 1,
+    "cost_usd": 0.133156,
+    "session_id": "ses_ff43a9885ffen16zwKcShFEN8R"
+  },
+  "04-review": {
+    "source_sha256": "fad9bc7b2fc80c3da9905fc07f9f26fa7d07034110eb2610f89165fe1068635a",
+    "completed_at": "2026-08-16T18:13:37.447Z",
+    "model": "google-vertex/gemini-3.1-pro-preview",
+    "turns": 1,
+    "cost_usd": 0.170928,
+    "session_id": "ses_ff4399e66ffenRR3XhG6wXBek2"
+  }
+}

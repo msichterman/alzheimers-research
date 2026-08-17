@@ -1,0 +1,79 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment surrounding anti-amyloid Alzheimer's drugs and the broader amyloid hypothesis is highly polarized and fractured. Patients and caregivers display desperate hope mixed with deep anxiety about severe side effects like brain bleeding (ARIA) and the logistical burdens of treatment. The scientific and medical communities remain broadly skeptical, viewing the FDA's handling of Aduhelm as a regulatory scandal and debating whether the modest statistical gains of Lecanemab translate to meaningful clinical benefits for patients. This scientific pushback strongly aligns with the paper's critique of the deterministic amyloid model. Meanwhile, retail investors have moved from hype to disappointment as Aduhelm was fully discontinued and Lecanemab's early sales proved sluggish.",
+  "communities": [
+    {
+      "community": "Patients and Caregivers (e.g., r/Alzheimers, Mayo Clinic Connect)",
+      "sentiment": "hopeful",
+      "themes": [
+        "Desperation for any treatment that can slow the disease's progression",
+        "Anxiety regarding ARIA (brain bleeding and swelling) and the requirement for frequent MRI monitoring",
+        "Confusion over whether the drugs can reverse cognitive decline versus just slowing it"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/comments/1cj7ll5/leqembi_yay_or_nay/",
+        "https://connect.mayoclinic.org/discussion/leqembi/"
+      ]
+    },
+    {
+      "community": "Scientists and Medical Professionals (e.g., r/medicine, r/biology)",
+      "sentiment": "skeptical",
+      "themes": [
+        "Outrage over FDA approval processes and Biogen's initial Aduhelm trials",
+        "Belief that the deterministic amyloid hypothesis is either deeply flawed or an outright 'dead-end'",
+        "Debate over whether a 27% slowing of decline on the CDR-SOB scale is clinically meaningful in the real world"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/medicine/comments/nvstjc/controversy_erupts_over_aduhelm_for_alzheimers/",
+        "https://www.reddit.com/r/biology/comments/189te1h/where_do_we_stand_in_regards_to_the_amyloid/"
+      ]
+    },
+    {
+      "community": "Retail Investors and Biotech watchers (e.g., r/investing, r/biotech)",
+      "sentiment": "negative",
+      "themes": [
+        "Disappointment over the commercial failure and 2024 discontinuation of Aduhelm",
+        "Concerns about sluggish initial sales and scaleability of Lecanemab (Leqembi) for Eisai and Biogen",
+        "Loss of trust due to congressional investigations and lawsuits following the Biogen/FDA controversy"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/biotech/search/?q=aduhelm&restrict_sr=1",
+        "https://www.reddit.com/r/investing/search/?q=lecanemab&restrict_sr=1"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "STAT News",
+      "tone": "critical",
+      "date": "2022-12",
+      "url": "https://www.statnews.com/2022/12/29/rife-with-irregularities-congressional-investigation-reveals-fdas-approval-of-aduhelm-marked-by-secret-discussions-breaches-of-protocol/"
+    },
+    {
+      "outlet": "STAT News",
+      "tone": "critical",
+      "date": "2024-02",
+      "url": "https://www.statnews.com/2024/02/02/the-lessons-of-aduhelm-biogens-alzheimers-drug/"
+    }
+  ],
+  "hype_vs_evidence": "There is a stark divergence between public hope and the clinical evidence presented in both trials and probabilistic models. While desperate patients and families often hope these new drugs will restore memory or halt the disease entirely, the evidence cited by Frisoni et al. shows that anti-amyloids only modestly slow cognitive decline, leaving over half of the disease progression completely unaffected by amyloid clearance. Furthermore, the public and media narrative often treats Alzheimer's as a single deterministic pathway, ignoring the highly variable influence of genetics and environmental factors that the probabilistic model highlights.",
+  "misinformation_flags": [
+    "Belief that Lecanemab or Aduhelm can cure Alzheimer's or restore lost memory (they only modestly slow decline).",
+    "Claims that the entire amyloid hypothesis was based on 'faked data' (which inaccurately conflates the specific Sylvain Lesné Aβ*56 image manipulation scandal with all amyloid research)."
+  ],
+  "searches_run": [
+    "site:reddit.com/r/Alzheimers lecanemab OR aduhelm",
+    "site:reddit.com/r/dementia lecanemab OR aduhelm",
+    "site:reddit.com/r/investing BIIB OR ESALY lecanemab aduhelm",
+    "amyloid hypothesis alzheimer site:reddit.com/r/science OR site:reddit.com/r/neuro",
+    "amyloid hypothesis probablistic model frisoni",
+    "lecanemab reddit",
+    "aduhelm reddit",
+    "amyloid hypothesis reddit",
+    "lecanemab stock reddit investing",
+    "leqembi experiences reddit",
+    "statnews aduhelm approval controversy",
+    "amyloid hypothesis dead or alive science",
+    "lecanemab aria brain bleeding news"
+  ]
+}

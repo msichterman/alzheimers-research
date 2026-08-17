@@ -1,0 +1,42 @@
+{
+  "id": "lecanemab-phase-2b",
+  "prepared_at": "2026-08-13T16:55:51.042Z",
+  "instructions": "Two independent extractions of the same retrieved document disagree on these fields. For each conflict, decide against the document which reading is correct — or that both are, or neither is. You are not told which pipeline produced which reading, and you must not guess.",
+  "conflicts": [
+    {
+      "conflict_id": "lecanemab-phase-2b#0",
+      "field": "multiplicity.approach",
+      "reading_a": "No multiplicity correction for frequentist key secondary analyses (all p-values nominal); Bayesian analyses stated not to require multiplicity adjustment",
+      "reading_b": "none stated for Bayesian, no correction applied for frequentist",
+      "note": null
+    },
+    {
+      "conflict_id": "lecanemab-phase-2b#1",
+      "field": "outcomes[primary].multiplicity_controlled",
+      "reading_a": "yes",
+      "reading_b": "unclear",
+      "note": null
+    },
+    {
+      "conflict_id": "lecanemab-phase-2b#2",
+      "field": "safety.harms[macrohemorrhage].reported",
+      "reading_a": "reported",
+      "reading_b": "absent",
+      "note": null
+    },
+    {
+      "conflict_id": "lecanemab-phase-2b#3",
+      "field": "outcomes[primary].effect_estimate",
+      "reading_a": null,
+      "reading_b": "64% probability of being better than placebo with 25% less decline on ADCOMS at 12 months (threshold was 80%)",
+      "note": "One reading found nothing here. Decide whether the document actually states this; 'neither' is correct if it does not."
+    },
+    {
+      "conflict_id": "lecanemab-phase-2b#4",
+      "field": "outcomes[primary].confidence_interval",
+      "reading_a": null,
+      "reading_b": null,
+      "note": "One reading found nothing here. Decide whether the document actually states this; 'neither' is correct if it does not."
+    }
+  ]
+}

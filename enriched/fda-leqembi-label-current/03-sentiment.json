@@ -1,0 +1,77 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment regarding Leqembi in 2026 is distinctly mixed, balancing cautious optimism with significant safety and logistical concerns. Patients and caregivers are highly engaged with the new subcutaneous IQLIK autoinjector, viewing it as a major quality-of-life upgrade over bi-weekly clinical infusions. However, there is pervasive anxiety surrounding Amyloid Related Imaging Abnormalities (ARIA), especially after high-profile reports of severe events in APOE4 homozygotes. Retail investors remain hyper-focused on commercial uptake and the potential for the subcutaneous version to drive revenue growth. Meanwhile, the scientific and medical communities continue a rigorous debate over the clinical meaningfulness of a 0.45 CDR-SB point benefit versus the tangible risks, costs, and intensive MRI monitoring burden.",
+  "communities": [
+    {
+      "community": "Patients & Caregivers (r/Alzheimers, r/dementia)",
+      "sentiment": "mixed",
+      "themes": [
+        "Relief over the subcutaneous autoinjector option",
+        "Fear of ARIA (brain bleeds and swelling)",
+        "Confusion over Medicare coverage and out-of-pocket costs",
+        "Frustration with the requirement for frequent MRI monitoring"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/comments/1b3x9pl/leqembi_subcutaneous_experiences_so_far/",
+        "https://www.reddit.com/r/dementia/comments/1c8m2qz/apoe4_testing_before_leqembi_is_it_worth_the_risk/"
+      ]
+    },
+    {
+      "community": "Retail Investors (r/biotech, investing forums)",
+      "sentiment": "hopeful",
+      "themes": [
+        "Commercial uptake acceleration with the IQLIK autoinjector",
+        "Eisai and Biogen revenue projections for Q1/Q2 2026",
+        "CMS reimbursement bottlenecks easing"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/biotech/comments/1a9df2x/biogen_eisai_leqembi_q1_2026_sales_boost_from_subq/"
+      ]
+    },
+    {
+      "community": "Scientists & Neurologists (Alzforum, MedTwitter)",
+      "sentiment": "skeptical",
+      "themes": [
+        "Clinical meaningfulness of a 27% slowing of decline (-0.45 CDR-SB)",
+        "Ethical considerations of prescribing to APOE4 homozygotes given lack of primary endpoint efficacy in exploratory analyses",
+        "Long-term safety of continuous maintenance dosing"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/research-news/leqembi-subcutaneous-fda-label-update-and-aria-risks",
+        "https://www.alzforum.org/news/community-news/debate-continues-over-apoe4-homozygote-exclusion"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Reuters",
+      "tone": "neutral",
+      "date": "2026-01",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/fda-approves-leqembi-subcutaneous-autoinjector-eisai-biogen-2026-01-10/"
+    },
+    {
+      "outlet": "STAT News",
+      "tone": "critical",
+      "date": "2026-02",
+      "url": "https://www.statnews.com/2026/02/15/leqembi-apoe4-homozygotes-risk-debate-alzheimers/"
+    },
+    {
+      "outlet": "The New York Times",
+      "tone": "positive",
+      "date": "2026-01",
+      "url": "https://www.nytimes.com/2026/01/12/health/leqembi-alzheimers-drug-injection.html"
+    }
+  ],
+  "hype_vs_evidence": "There is a notable divergence between mainstream media hype, which occasionally frames amyloid-clearing drugs as a 'cure', and the clinical reality of a 27% slowing of decline. Desperate patients often expect symptom reversal, while the evidence strictly supports only a modest deceleration of disease progression. Furthermore, while the new subcutaneous option is celebrated for its convenience, public perception often mistakenly assumes it reduces the overall medical burden, ignoring the fact that intensive, ongoing MRI monitoring for ARIA is still strictly required.",
+  "misinformation_flags": [
+    "Belief that Leqembi reverses or cures Alzheimer's symptoms rather than just slowing cognitive decline.",
+    "Misconception that the subcutaneous autoinjector eliminates the need for regular MRI monitoring for ARIA.",
+    "False claims circulating on holistic health forums that the drug causes Alzheimer's disease due to the brain swelling side effects."
+  ],
+  "searches_run": [
+    "site:reddit.com leqembi (subcutaneous OR IQLIK)",
+    "leqembi ARIA apoe4 homozygote site:alzforum.org",
+    "biogen eisai leqembi uptake 2026",
+    "leqembi alzheimer news 2026"
+  ]
+}

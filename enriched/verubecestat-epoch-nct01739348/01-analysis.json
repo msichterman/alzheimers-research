@@ -1,0 +1,82 @@
+{
+  "kind": "other",
+  "title": "An Efficacy and Safety Trial of Verubecestat (MK-8931) in Mild to Moderate Alzheimer's Disease (P07738)",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2018-10",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "tau",
+    "biomarkers",
+    "small-molecule",
+    "verubecestat",
+    "bace-inhibitor"
+  ],
+  "themes": [
+    "BACE inhibition failure",
+    "Cognitive and functional outcomes",
+    "Hippocampal volume loss",
+    "Trial termination"
+  ],
+  "one_line": "The Phase 2/3 EPOCH trial of the BACE inhibitor verubecestat in mild-to-moderate Alzheimer's disease was terminated after failing to show clinical efficacy and revealing increased hippocampal atrophy.",
+  "summary": "This document contains the clinical trial registry results for NCT01739348 (EPOCH), a Phase 2/3, randomized, double-blind, placebo-controlled trial evaluating the BACE inhibitor verubecestat (MK-8931) in 2,211 participants with mild to moderate Alzheimer's disease. Sponsored by Merck Sharp & Dohme LLC, the trial consisted of a 78-week base study and a long-term extension, but was terminated early. The primary efficacy endpoints assessed changes from baseline in ADAS-Cog and ADCS-ADL scores at week 78. Results showed no statistically significant differences between the verubecestat (12 mg and 40 mg) and placebo groups for either cognitive or functional measures. Secondary endpoints, including CDR-SB and MMSE, also failed to demonstrate clinical benefit. Paradoxically, volumetric MRI data indicated that total hippocampal volume experienced a significantly greater percent decrease (increased atrophy) in participants treated with verubecestat compared to those receiving placebo. Additionally, the safety data showed increased reporting of several adverse events, including falls, weight decrease, and suicidal ideation among participants taking verubecestat.",
+  "key_claims": [
+    {
+      "claim": "Verubecestat does not significantly improve cognitive outcomes compared to placebo in mild to moderate Alzheimer's disease at 78 weeks.",
+      "evidence": "Difference in Least Squares Mean for ADAS-Cog was 0.2 (p=0.6287) and 0.4 (p=0.4625) for the treatment arms versus placebo.",
+      "strength": "strong",
+      "location": "PRIMARY: [Part I (Base Study)] Change From Baseline in the Alzheimer's Disease Assessment Scale-Cognitive Subscale (ADAS-Cog) Score"
+    },
+    {
+      "claim": "Verubecestat does not significantly improve activities of daily living compared to placebo in mild to moderate Alzheimer's disease at 78 weeks.",
+      "evidence": "Difference in Least Squares Means for ADCS-ADL was 0.5 (p=0.4925) and 0.7 (p=0.3221) for the treatment arms versus placebo.",
+      "strength": "strong",
+      "location": "PRIMARY: [Part I (Base Study)] Change From Baseline in Alzheimer's Disease Cooperative Study-Activities of Daily Living (ADCS-ADL) Score"
+    },
+    {
+      "claim": "Verubecestat treatment is associated with a significantly greater reduction in total hippocampal volume compared to placebo.",
+      "evidence": "Difference in Least Squares Means for percent change in Total Hippocampal Volume was -0.6% (p=0.0005) and -0.7% (p=0.0002) for the treatment arms versus placebo.",
+      "strength": "strong",
+      "location": "SECONDARY: [Part I (Base Study)] Percent Change From Baseline in Total Hippocampal Volume (THV)"
+    }
+  ],
+  "methods": {
+    "design": "Interventional, randomized, double-blind, placebo-controlled, parallel-group phase 2/3 trial",
+    "n": 2211,
+    "population": "Adults aged 55 to 85 years with mild to moderate Alzheimer's disease",
+    "duration": "78 weeks (Part I Base Study) with up to a 260-week extension (Part II)",
+    "registration": "NCT01739348"
+  },
+  "funding_and_conflicts": "Lead sponsor: Merck Sharp & Dohme LLC. No individual author conflicts are stated in the registry record.",
+  "limitations": [
+    "The trial was terminated.",
+    "Protocol modifications led to the exclusion of the first 200 enrolled participants and all participants receiving 60mg verubecestat from multiple primary and secondary efficacy analyses."
+  ],
+  "red_flags": [
+    "Treatment was associated with accelerated hippocampal volume loss (THV) despite the drug's intended neuroprotective mechanism.",
+    "Safety signals indicated higher rates of suicidal ideation (39/702 and 45/700 in treatment groups vs 24/705 in placebo) and increased incidences of falls.",
+    "The Markdown export separates raw values (e.g., 'value: 7.9') from their corresponding study arms, requiring readers to infer group assignments based on population exclusions."
+  ],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "Values in the posted results sections are provided in unlabeled bullet points (e.g., 'value: -8.4') which strips the direct labeling of which study arm each value maps to.",
+      "Loss of clear tabular structure for adverse events makes it difficult to read and compare the raw counts quickly."
+    ]
+  },
+  "search_verification": [
+    "Recognized the document as a direct data export from ClinicalTrials.gov. No external search was performed to append a DOI or PubMed ID since the document itself is intrinsically a registry record lacking these publication identifiers."
+  ]
+}

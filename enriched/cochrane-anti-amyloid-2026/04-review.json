@@ -1,0 +1,246 @@
+{
+  "fact_check": [
+    {
+      "fact": "Meta-analysis includes 17 phase-3 RCTs with 20,342 participants",
+      "status": "verified",
+      "note": "Checked against Abstract / Included studies section"
+    },
+    {
+      "fact": "ADAS-Cog SMD -0.11 (absolute reduction of 0.85 points)",
+      "status": "verified",
+      "note": "Checked against Summary of findings table 1"
+    },
+    {
+      "fact": "CDR-SB SMD -0.12 (absolute reduction of 0.29 points)",
+      "status": "verified",
+      "note": "Checked against Summary of findings table 1"
+    },
+    {
+      "fact": "ARIA E relative risk 10.02 (107 more events per 1000)",
+      "status": "verified",
+      "note": "Checked against Summary of findings table 1"
+    },
+    {
+      "fact": "No increase in overall mortality (RR 1.17) or SAEs (RR 1.04) at 18 months",
+      "status": "verified",
+      "note": "Checked against Summary of findings table 1"
+    }
+  ],
+  "research_page": {
+    "slug": "cochrane-anti-amyloid-2026",
+    "title": "Cochrane Review: Anti-amyloid mAbs in mild AD",
+    "description": "A 2026 systematic review of 17 phase 3 trials finding that anti-amyloid antibodies offer trivial cognitive benefits while significantly increasing ARIA risks.",
+    "tags": [
+      "review",
+      "amyloid",
+      "monoclonal-antibodies",
+      "mci",
+      "alzheimers-disease"
+    ],
+    "source_line_md": "**Source**: [The Cochrane Database of Systematic Reviews, 2026](https://doi.org/10.1002/14651858.CD016297) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/41985900)",
+    "authors_line_md": "Nonino, F. et al. — Cochrane Collaboration",
+    "takeaway_md": "Despite effectively clearing amyloid plaques, anti-amyloid monoclonal antibodies produce statistically significant but clinically trivial improvements in cognitive and functional decline. Given the tenfold increased risk of brain edema and bleeding, these therapies currently exhibit an unfavorable benefit-to-risk profile for early Alzheimer's disease.",
+    "key_findings_md": [
+      "Cognitive function (ADAS-Cog) showed a trivial standardized mean difference of -0.11 at 18 months, translating to a 0.85-point absolute benefit, well below the 2-4 point clinical significance threshold (paper, Summary of findings 1).",
+      "Dementia severity (CDR-SB) demonstrated a similarly negligible benefit with a 0.29-point absolute reduction at 18 months (paper, Summary of findings 1).",
+      "Risk of amyloid-related imaging abnormalities involving edema (ARIA-E) was ten times higher in treated patients, representing an absolute increase of 107 events per 1,000 participants (paper, Summary of findings 1).",
+      "No significant differences were observed in overall mortality or serious adverse events between treatment and placebo arms at 18 months (paper, Summary of findings 1)."
+    ],
+    "methods_md": "Systematic review and meta-analysis of 17 phase-3 randomized controlled trials evaluating 20,342 adults with mild cognitive impairment or mild dementia due to probable or possible Alzheimer's disease. Primary analyses evaluated outcomes after 18 months of treatment.",
+    "trial_evidence_md": "This review aggregates data across the entire class of anti-amyloid antibodies, anchoring the clinical evidence record. It includes pivotal successes like [Clarity AD](/trials/clarity-ad-nct03887455) and [TRAILBLAZER-ALZ 2](/trials/trailblazer-alz-2-nct04437511), as well as terminated programs such as [EMERGE](/trials/emerge-nct02484547)/[ENGAGE](/trials/engage-nct02477800) and [GRADUATE I](/trials/graduate-1-nct03444870). The pooled data robustly support that while recent trials met primary statistical endpoints, the absolute clinical differences remain consistently marginal across the class.",
+    "sentiment_md": "Public perception is starkly divided. Patient and caregiver communities on platforms like Reddit express desperate optimism, often interpreting these drugs as disease-modifying breakthroughs while minimizing ARIA risks. Conversely, researchers and the biotech community remain highly skeptical, highlighting the disconnect between biological plaque clearance and actual cognitive improvement, and questioning the drugs' commercial valuations given the severe risk-to-benefit profile.",
+    "caveats_md": [
+      "Most primary studies failed to cleanly separate symptomatic from asymptomatic ARIA, making the true clinical burden of brain swelling difficult to quantify.",
+      "Noticeable side effects like ARIA and infusion reactions likely caused functional unblinding in the trials, potentially biasing subjective cognitive assessments in favor of the treatment.",
+      "The 18-month primary follow-up across most trials is relatively short for a chronic, slowly progressing neurodegenerative disease.",
+      "Trial populations were overwhelmingly white (averaging 84%) and lacked socioeconomic diversity, limiting the generalizability of the findings to broader populations."
+    ],
+    "relates_to_md": [
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Challenges the core premise by showing plaque clearance does not yield proportionate cognitive benefits.",
+      "[Aducanumab EMERGE/ENGAGE](/research/papers/aria-aducanumab-emerge-engage) — Contextualizes the controversial aducanumab approvals within the broader class performance.",
+      "[Gantenerumab GRADUATE](/research/papers/gantenerumab-graduate) — Assesses data from these terminated programs in the meta-analysis.",
+      "[Solanezumab A4](/research/papers/solanezumab-a4-prevention) — Aggregates safety and efficacy data from solanezumab programs alongside modern equivalents."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "clarity-ad-nct03887455",
+      "title": "Clarity AD",
+      "description": "Phase 3 trial of lecanemab in early Alzheimer's disease.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "lecanemab",
+        "amyloid",
+        "phase-3"
+      ],
+      "registry_md": "[NCT03887455](https://clinicaltrials.gov/study/NCT03887455)",
+      "drug": "Lecanemab (anti-amyloid-beta monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "population": "Participants With Early Alzheimer's Disease",
+      "primary_endpoint": "Change from Baseline in the CDR-SB at 18 Months",
+      "started": "2019-03",
+      "readout": "2029-06",
+      "why_md": "Evaluates the clinical efficacy and safety of lecanemab in early AD. This trial's results are central to the debate over the [amyloid hypothesis](/research/amyloid-hypothesis).",
+      "status_log_md": [
+        "**2023-01-05** — Results published in NEJM showing statistically significant but numerically modest slowing of decline ([PubMed](https://pubmed.ncbi.nlm.nih.gov/36449413/))"
+      ],
+      "results_md": "Met primary endpoint with a modest reduction in clinical decline at 18 months, accompanied by notable incidence of ARIA."
+    },
+    {
+      "slug": "trailblazer-alz-2-nct04437511",
+      "title": "TRAILBLAZER-ALZ 2",
+      "description": "Phase 3 trial of donanemab in early Alzheimer's disease.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "donanemab",
+        "amyloid",
+        "phase-3"
+      ],
+      "registry_md": "[NCT04437511](https://clinicaltrials.gov/study/NCT04437511)",
+      "drug": "Donanemab (anti-amyloid-beta monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "population": "Participants With Early Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline on the iADRS",
+      "started": "2020-06",
+      "readout": "2028-11",
+      "why_md": "Assesses donanemab's ability to slow functional and cognitive decline in early AD, serving as a pivotal test for the anti-amyloid drug class.",
+      "status_log_md": [
+        "**2023-08-08** — Results published in JAMA demonstrating slowed clinical decline alongside substantial rates of ARIA ([PubMed](https://pubmed.ncbi.nlm.nih.gov/37459141/))"
+      ],
+      "results_md": "Demonstrated a slowing of clinical and functional decline at 18 months, alongside substantial rates of ARIA."
+    },
+    {
+      "slug": "emerge-nct02484547",
+      "title": "EMERGE",
+      "description": "Phase 3 trial of aducanumab in early Alzheimer's disease.",
+      "badge": "Terminated",
+      "tags": [
+        "trial",
+        "aducanumab",
+        "amyloid",
+        "phase-3"
+      ],
+      "registry_md": "[NCT02484547](https://clinicaltrials.gov/study/NCT02484547)",
+      "drug": "Aducanumab (anti-amyloid-beta monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Biogen",
+      "population": "Early Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline in CDR-SB Score at Week 78",
+      "started": "2015-09",
+      "readout": "2019-08",
+      "why_md": "One of two pivotal phase 3 trials evaluating aducanumab, central to its highly controversial FDA accelerated approval.",
+      "status_log_md": [
+        "**2019-08-01** — Trial halted early for futility, later resurrected via post-hoc analysis"
+      ],
+      "results_md": "Halted early for futility; later post-hoc analyses suggested marginal benefit in a high-dose subgroup, leading to controversial accelerated approval which was ultimately discontinued."
+    },
+    {
+      "slug": "engage-nct02477800",
+      "title": "ENGAGE",
+      "description": "Phase 3 trial of aducanumab in early Alzheimer's disease.",
+      "badge": "Terminated",
+      "tags": [
+        "trial",
+        "aducanumab",
+        "amyloid",
+        "phase-3"
+      ],
+      "registry_md": "[NCT02477800](https://clinicaltrials.gov/study/NCT02477800)",
+      "drug": "Aducanumab (anti-amyloid-beta monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Biogen",
+      "population": "Early Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline in CDR-SB Score at Week 78",
+      "started": "2015-08",
+      "readout": "2019-08",
+      "why_md": "Sister trial to EMERGE evaluating aducanumab. Failed to show efficacy, complicating the drug's regulatory path.",
+      "status_log_md": [
+        "**2019-08-01** — Trial halted early for futility"
+      ],
+      "results_md": "Failed to demonstrate a significant clinical benefit on the primary efficacy endpoint."
+    },
+    {
+      "slug": "graduate-1-nct03444870",
+      "title": "GRADUATE I",
+      "description": "Phase 3 trial of gantenerumab in early Alzheimer's disease.",
+      "badge": "Terminated",
+      "tags": [
+        "trial",
+        "gantenerumab",
+        "amyloid",
+        "phase-3"
+      ],
+      "registry_md": "[NCT03444870](https://clinicaltrials.gov/study/NCT03444870)",
+      "drug": "Gantenerumab (anti-amyloid-beta monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Hoffmann-La Roche",
+      "population": "Participants With Early Alzheimer's Disease (AD)",
+      "primary_endpoint": "Change From Baseline to Week 116 in Global Outcome (CDR-SB)",
+      "started": "2018-06",
+      "readout": "2023-02",
+      "why_md": "Tested the clinical efficacy of subcutaneous gantenerumab in early AD prior to the program's discontinuation.",
+      "status_log_md": [
+        "**2023-02-01** — Trial failed to meet primary endpoint"
+      ],
+      "results_md": "Failed to meet its primary endpoint of significantly slowing clinical decline, resulting in the termination of the drug's development program."
+    },
+    {
+      "slug": "graduate-2-nct03443973",
+      "title": "GRADUATE II",
+      "description": "Phase 3 trial of gantenerumab in early Alzheimer's disease.",
+      "badge": "Terminated",
+      "tags": [
+        "trial",
+        "gantenerumab",
+        "amyloid",
+        "phase-3"
+      ],
+      "registry_md": "[NCT03443973](https://clinicaltrials.gov/study/NCT03443973)",
+      "drug": "Gantenerumab (anti-amyloid-beta monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Hoffmann-La Roche",
+      "population": "Participants With Early Alzheimer's Disease (AD)",
+      "primary_endpoint": "Change From Baseline to Week 116 in Global Outcome (CDR-SB)",
+      "started": "2018-08",
+      "readout": "2022-11",
+      "why_md": "Sister trial to GRADUATE I testing subcutaneous gantenerumab.",
+      "status_log_md": [
+        "**2022-11-01** — Trial failed to meet primary endpoint"
+      ],
+      "results_md": "Failed to meet the primary efficacy endpoint, leading to discontinuation of the clinical program."
+    },
+    {
+      "slug": "expedition-3-nct01900665",
+      "title": "EXPEDITION 3",
+      "description": "Phase 3 trial of solanezumab in mild Alzheimer's disease.",
+      "badge": "Terminated",
+      "tags": [
+        "trial",
+        "solanezumab",
+        "amyloid",
+        "phase-3"
+      ],
+      "registry_md": "[NCT01900665](https://clinicaltrials.gov/study/NCT01900665)",
+      "drug": "Solanezumab (anti-amyloid-beta monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "population": "Progress of Mild Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline in ADAS-Cog14",
+      "started": "2013-07",
+      "readout": "2017-02",
+      "why_md": "Evaluated solanezumab in mild AD after earlier failures, testing whether targeting soluble amyloid monomers could slow disease progression.",
+      "status_log_md": [
+        "**2017-02-01** — Trial failed to meet primary endpoint"
+      ],
+      "results_md": "Failed to meet its primary endpoint; the drug did not significantly slow cognitive decline compared to placebo."
+    }
+  ],
+  "timeline_entries": [],
+  "notes_for_editor": [
+    "The systematic review highlights a severe lack of transparent reporting on symptomatic vs. asymptomatic ARIA in the underlying industry-funded trials. This gap in safety data might warrant a dedicated policy page or broader site warning regarding ARIA risks."
+  ]
+}

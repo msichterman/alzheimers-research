@@ -1,0 +1,57 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT03174938",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03174938",
+      "name": "BioFINDER2",
+      "drug": "Diagnostic Test (18F-Flutemetamol, [18F]-RO6958948, Elecsys/Lumipulse assays)",
+      "phase": "n/a",
+      "sponsor": "Skane University Hospital",
+      "status": "Recruiting",
+      "enrollment": 2950,
+      "population": "Cognitively healthy individuals (40-100 yrs), Subjective Cognitive Decline (SCD), Mild Cognitive Impairment (MCI), Alzheimer's disease dementia, and other dementias",
+      "primary_endpoint": "Clinical diagnosis according to consensus group decision blinded to the diagnostic test; Change in Clinical Dementia Rating-Sum of Boxes (CDR-SB)",
+      "started": "2017-05",
+      "completed_or_readout": "2036-12",
+      "results_summary": null,
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02854033",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02854033",
+      "name": "ADNI3",
+      "drug": "Diagnostic Test (PET, CSF, and blood biomarkers)",
+      "phase": "n/a",
+      "sponsor": "University of Southern California",
+      "status": "Completed",
+      "enrollment": 1141,
+      "population": "Cognitively normal (CN), mild cognitive impairment (MCI), and mild AD dementia participants",
+      "primary_endpoint": "Rate of change in cognition as measured by the Alzheimer's Disease Assessment Scale-Cognitive (ADAS-Cog13); Logical Memory Test I and II; Mini-Mental State Examinations (MMSE)",
+      "started": "2016-12",
+      "completed_or_readout": "2024-05",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2021-12",
+      "kind": "paper",
+      "description": "Benedet et al. published 'Differences Between Plasma and Cerebrospinal Fluid Glial Fibrillary Acidic Protein Levels Across the Alzheimer Disease Continuum' in JAMA Neurology, corroborating that plasma GFAP is an early marker of amyloid-β.",
+      "url": "https://doi.org/10.1001/jamaneurol.2021.4527"
+    },
+    {
+      "date": "2021-07",
+      "kind": "paper",
+      "description": "Publication of the core document analyzed (Pereira et al., Brain).",
+      "url": "https://doi.org/10.1093/brain/awab223"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence supporting plasma GFAP as an early marker of amyloid-β pathology in Alzheimer's disease is moderate to strong. It is primarily driven by well-designed, large-scale prospective observational diagnostic cohorts like BioFINDER-2 (NCT03174938) and supported by complementary cohorts like ADNI. Multiple independent publications have robustly replicated the finding that plasma GFAP increases early in the disease continuum and correlates tightly with amyloid-PET status, often outperforming CSF GFAP. However, the evidence remains observational; long-term longitudinal trajectories and absolute clinical utility in predicting therapeutic outcomes have yet to mature, as massive cohorts like BioFINDER-2 are still actively collecting multi-year follow-ups. Furthermore, the finding that GFAP is driven specifically by amyloid and not tau relies on statistical mediation models rather than direct mechanistic interventions.",
+  "discrepancies": [
+    "The document presents itself as an observational 'prospective cohort study', but ClinicalTrials.gov (NCT03174938) classifies BioFINDER-2 as an 'Interventional' diagnostic trial due to the prospective administration of specific PET tracers and in-vitro assays.",
+    "The document reports on a sample of 504 participants with approximately 1.8 years of follow-up, while the registry reveals the full BioFINDER-2 study is much larger (target enrollment 2,950) and ongoing until 2036; thus, the paper represents a cross-sectional and short-term interim analysis rather than the final protocol readout."
+  ]
+}

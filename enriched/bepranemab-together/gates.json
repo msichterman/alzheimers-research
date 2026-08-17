@@ -1,0 +1,35 @@
+{
+  "id": "bepranemab-together",
+  "cluster": "tau",
+  "checked_at": "2026-08-13T17:02:32.976Z",
+  "passed": false,
+  "text_sufficiency": {
+    "level": "abstract-only",
+    "chars": 3036,
+    "sections": [
+      "method",
+      "result"
+    ]
+  },
+  "evidence_completeness": "full-text-oa",
+  "failures": [
+    {
+      "gate": "file",
+      "detail": "extracted text is abstract-only (3036 chars, sections: method/result) — not sufficient for an evidence record"
+    },
+    {
+      "gate": "evidence",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing)"
+    },
+    {
+      "gate": "fidelity",
+      "detail": "no independent critic pass (enriched/<id>/07-fidelity.json missing)"
+    },
+    {
+      "gate": "critical-review",
+      "detail": "no record to review"
+    }
+  ],
+  "warnings": [],
+  "manifest_discrepancies": []
+}

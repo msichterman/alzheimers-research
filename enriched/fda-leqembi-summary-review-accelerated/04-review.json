@@ -1,0 +1,98 @@
+{
+  "fact_check": [
+    {
+      "fact": "64% probability of the 10 mg/kg biweekly regimen being superior to placebo by 25% on ADCOMS at Week 53.",
+      "status": "verified",
+      "note": "Matched against Section 1 (Benefit-Risk Assessment) and Section 6 of the FDA Summary Review."
+    },
+    {
+      "fact": "ARIA-E occurred in 10% of treated patients versus 1% on placebo.",
+      "status": "verified",
+      "note": "Checked against Table 5 in Section 7 of the FDA Summary Review."
+    },
+    {
+      "fact": "ARIA-E incidence was 50% (5 out of 10) in ApoE ε4 homozygotes.",
+      "status": "verified",
+      "note": "Matched against Section 7 (Amyloid-Relating Imaging Abnormalities) detailing ApoE ε4 carrier risks."
+    },
+    {
+      "fact": "The primary endpoint timepoint is Week 53 vs Month 12 discrepancy.",
+      "status": "verified",
+      "note": "The clinical registry uses Month 12; the FDA document strictly uses Week 53. These represent the same evaluation period."
+    }
+  ],
+  "research_page": {
+    "slug": "lecanemab-study-201-fda-review",
+    "title": "FDA Summary Review: Lecanemab Accelerated Approval (Study 201)",
+    "description": "The FDA granted accelerated approval to lecanemab based on its dose-dependent amyloid plaque reduction, despite missing its primary clinical efficacy endpoint in Phase 2b.",
+    "tags": [
+      "review",
+      "fda-approval",
+      "lecanemab",
+      "amyloid",
+      "aria"
+    ],
+    "source_line_md": "**Source**: Center for Drug Evaluation and Research, 2023",
+    "authors_line_md": "Ranjit B. Mani et al. — Center for Drug Evaluation and Research",
+    "takeaway_md": "Lecanemab received accelerated FDA approval based on robust, dose-dependent brain amyloid plaque clearance in the Phase 2b Study 201. The regulatory decision accepted plaque reduction as a surrogate for clinical benefit, overriding the trial's failure to meet its prespecified Bayesian success threshold on the primary cognitive endpoint.",
+    "key_findings_md": [
+      "Lecanemab (10 mg/kg biweekly) significantly reduced brain amyloid plaque by Week 79 compared to placebo (-0.31 SUVR; -73.5 Centiloids, p<0.001) (Section 6).",
+      "The primary clinical endpoint (ADCOMS at Week 53) achieved only a 64% probability of 25% superiority, missing the 80% prespecified Bayesian threshold for success (Section 6).",
+      "ARIA-E occurred in 10% of treated patients versus 1% on placebo, with incidence heavily influenced by ApoE ε4 carrier status (Section 7, Table 5).",
+      "ApoE ε4 homozygotes faced a 50% risk of ARIA-E (5 of 10 patients) compared to 5% in heterozygotes and 8% in non-carriers, though group sizes were exceptionally small (Section 7)."
+    ],
+    "methods_md": "Multicenter, randomized, double-blind, placebo-controlled Phase 2b trial (Study 201) enrolling 856 patients aged 50-90 with MCI due to AD or mild AD dementia. The placebo-controlled treatment period lasted 18 months (78 weeks), utilizing adaptive Bayesian randomization to allocate patients to placebo or one of five lecanemab dose regimens.",
+    "trial_evidence_md": "This FDA review relies exclusively on the Phase 2b Study 201 ([NCT01767311](/trials/lecanemab-nct01767311)), which failed its primary clinical endpoint but met its surrogate biomarker endpoint. Subsequent full traditional approval was granted in July 2023 following the readout of the confirmatory Phase 3 Clarity AD trial (NCT03887455), which demonstrated statistically significant clinical slowing.",
+    "sentiment_md": "Public perception is characterized by a mix of desperation for disease-modifying therapies and anxiety over ARIA side effects and logistical burdens. While the biotech community views the drug as a clear scientific validation of the amyloid hypothesis, consumer-facing media often overstates the clinical benefits, mistakenly characterizing the drug as reversing memory loss rather than modestly slowing decline.",
+    "caveats_md": [
+      "Safety estimates for ApoE ε4 carriers at the approved dose are inherently imprecise; early trial protocol amendments halted their randomization to the 10 mg/kg arm after ARIA risks became apparent.",
+      "The FDA's decision to accept amyloid clearance as a surrogate endpoint was heavily influenced by prior precedent set by aducanumab, overriding internal biostatistician concerns over the exploratory nature of the clinical data.",
+      "The approved label delegates the decision of when to stop treatment entirely to prescriber clinical judgment, acknowledging that the disease exists on a continuous spectrum without discrete boundaries."
+    ],
+    "relates_to_md": [
+      "[Lecanemab Phase 2b](/research/papers/lecanemab-phase-2b) — The peer-reviewed publication of the Phase 2b Study 201 data.",
+      "[Aducanumab ARIA Studies](/research/papers/aria-aducanumab-emerge-engage) — Context for the FDA's precedent in linking amyloid clearance to clinical benefit and ARIA risks.",
+      "[AHEAD 3-45](/trials/ahead-3-45) — The ongoing Phase 3 prevention trial evaluating lecanemab in preclinical AD."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "lecanemab-nct01767311",
+      "title": "Study 201",
+      "description": "Phase 2b adaptive-design trial of lecanemab in patients with MCI or mild Alzheimer's disease.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "lecanemab",
+        "phase-2",
+        "amyloid"
+      ],
+      "registry_md": "[NCT01767311](https://clinicaltrials.gov/study/NCT01767311)",
+      "drug": "Lecanemab (anti-amyloid monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Eisai Inc.",
+      "population": "Subjects with Mild Cognitive Impairment (MCI) due to Alzheimer's Disease and Mild Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline in Alzheimer's Disease Composite Score (ADCOMS) at Month 12",
+      "started": "2012-12",
+      "readout": "2024-12",
+      "why_md": "Study 201 was designed to determine the optimal dose of lecanemab and test its clinical efficacy using a Bayesian adaptive design. While it missed its primary clinical superiority threshold, the robust reduction in [amyloid](/research/amyloid-hypothesis) formed the basis for lecanemab's accelerated FDA approval.",
+      "status_log_md": [
+        "**2023-01-06** — FDA grants accelerated approval based on Study 201 biomarker results ([FDA Summary Review](/research/papers/lecanemab-study-201-fda-review)).",
+        "**2021-04-17** — Peer-reviewed results published for the Phase 2b trial ([Publication](/research/papers/lecanemab-phase-2b))."
+      ],
+      "results_md": "The trial missed its prespecified Bayesian success threshold on the primary clinical endpoint, achieving a 64% probability of 25% superiority versus the required 80%. However, lecanemab at 10 mg/kg biweekly caused a highly significant, time- and dose-dependent reduction in brain amyloid plaques, which the FDA accepted as a surrogate endpoint for clinical benefit."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2023-01",
+      "title": "2023-01 — FDA grants accelerated approval to lecanemab",
+      "body_md": "The FDA granted accelerated approval to lecanemab based on amyloid plaque clearance observed in the Phase 2b Study 201, despite the trial missing its primary clinical efficacy threshold ([FDA Summary Review](/research/papers/lecanemab-study-201-fda-review))."
+    }
+  ],
+  "notes_for_editor": [
+    "Clarity AD (Phase 3) is frequently referenced as 'Study 301' in the FDA review text. As it is fully documented elsewhere and classified as 'context' by the trials researcher, it was omitted from the trial pages array here but linked conceptually.",
+    "Be aware that the adverse event dataset presented in this review for ApoE ε4 carriers is fundamentally limited due to the mid-trial amendment that halted their randomization to the 10 mg/kg biweekly dose."
+  ]
+}

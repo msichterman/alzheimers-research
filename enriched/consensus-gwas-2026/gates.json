@@ -1,0 +1,26 @@
+{
+  "id": "consensus-gwas-2026",
+  "cluster": "genetics",
+  "checked_at": "2026-08-13T17:02:32.990Z",
+  "passed": false,
+  "text_sufficiency": {
+    "level": "full-text",
+    "chars": 72971,
+    "sections": [
+      "method"
+    ]
+  },
+  "evidence_completeness": "full-text-oa",
+  "failures": [
+    {
+      "gate": "fidelity",
+      "detail": "6 conflict(s) reached no adjudicator ruling: study.n (no adjudicator ruling for this conflict); study.population (no adjudicator ruling for this conflict); outcomes[primary].prespecified (no adjudicator ruling for this conflict)"
+    },
+    {
+      "gate": "fidelity",
+      "detail": "the two extractions disagree on whether the document reports: outcomes[primary].effect_estimate, outcomes[primary].confidence_interval"
+    }
+  ],
+  "warnings": [],
+  "manifest_discrepancies": []
+}

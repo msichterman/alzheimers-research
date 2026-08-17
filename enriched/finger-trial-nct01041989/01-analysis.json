@@ -1,0 +1,63 @@
+{
+  "kind": "other",
+  "title": "Finnish Geriatric Intervention Study to Prevent Cognitive Impairment and Disability",
+  "authors": [],
+  "first_author": "Not listed",
+  "venue": "ClinicalTrials.gov",
+  "published": "2010-01",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "prevention",
+    "lifestyle-intervention",
+    "finger-trial",
+    "cognitive-decline"
+  ],
+  "themes": [
+    "dementia prevention",
+    "multi-domain lifestyle intervention",
+    "vascular risk management",
+    "cognitive training",
+    "geriatric health"
+  ],
+  "one_line": "This ClinicalTrials.gov registry record outlines the protocol for the FINGER study, a 2-year multi-domain lifestyle intervention aiming to prevent cognitive decline in at-risk older adults.",
+  "summary": "This document is a ClinicalTrials.gov registry record for the Finnish Geriatric Intervention Study to Prevent Cognitive Impairment and Disability (FINGER). It details the protocol for a randomized, single-blind interventional trial targeting 1,200 older adults (aged 60-77) at an elevated risk of dementia. Participants in the experimental arm receive a 2-year multi-domain lifestyle intervention consisting of nutritional guidance, physical exercise, cognitive training, increased social activity, and vascular/metabolic risk monitoring, compared to standard health counseling in the control arm. The primary outcome is cognitive impairment measured by a Neuropsychological Test Battery (NTB), Stroop, and Trail Making tests after 2 years. Secondary outcomes include depressive symptoms, disability, quality of life, and metabolic biomarkers.",
+  "key_claims": [
+    {
+      "claim": "A multi-domain lifestyle intervention (nutrition, exercise, cognitive training, vascular risk management) will reduce cognitive impairment and subsequent dementia incidence in at-risk older adults.",
+      "evidence": "Stated solely as the study's underlying hypothesis; no empirical data or results are posted in this registry document.",
+      "strength": "not-supported",
+      "location": "Brief summary"
+    }
+  ],
+  "methods": {
+    "design": "Interventional, randomized, single-blind",
+    "n": 1200,
+    "population": "Adults aged 60-77 years with a Dementia Risk Score of 6 or more and specific cognitive deficits based on CERAD criteria",
+    "duration": "2 years (primary intervention) with extended follow-up",
+    "registration": "NCT01041989"
+  },
+  "funding_and_conflicts": "Lead sponsor: Finnish Institute for Health and Welfare. Collaborators: Academy of Finland, University of Helsinki, University of Eastern Finland, University of Oulu, Kuopio Research Institute of Exercise Medicine, Western University, Karolinska Institutet, Umeå University. No conflicts of interest are stated.",
+  "limitations": [
+    "This document is a clinical trial registry record, not a peer-reviewed publication; it contains no study results, data, or final conclusions."
+  ],
+  "red_flags": [
+    "The registry record shows 'Results posted: false' and an 'UNKNOWN' overall status as of August 2026, despite a primary completion date of December 2013, indicating poor registry maintenance or missing outcome reporting on ClinicalTrials.gov."
+  ],
+  "parse_quality": {
+    "score": 10,
+    "issues": []
+  },
+  "search_verification": [
+    "No search was performed for DOI or PubMed URLs as this is clearly a ClinicalTrials.gov API record rather than a published journal article."
+  ]
+}

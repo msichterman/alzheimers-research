@@ -1,0 +1,9 @@
+{
+  "id": "lecanemab-phase-2b",
+  "source": "sources/lecanemab-phase-2b.xml",
+  "sha256": "36a8c721ed1fd97e29b4475e279975eca58405724c500ed354a7e0b39eb631f6",
+  "bytes": 132009,
+  "chars": 55565,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:11.079Z"
+}

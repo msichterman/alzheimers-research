@@ -1,0 +1,38 @@
+{
+  "id": "gantenerumab-graduate",
+  "cluster": "amyloid-antibody",
+  "checked_at": "2026-08-13T17:02:32.916Z",
+  "passed": true,
+  "text_sufficiency": {
+    "level": "full-text",
+    "chars": 32425,
+    "sections": [
+      "method",
+      "result",
+      "discussion",
+      "statistical analysis",
+      "outcome"
+    ]
+  },
+  "evidence_completeness": "full-text-oa",
+  "failures": [],
+  "warnings": [
+    {
+      "gate": "fidelity",
+      "detail": "1 adjudicated ruling(s) could not be applied automatically and need a hand edit: outcomes[primary].name"
+    },
+    {
+      "gate": "cross-links",
+      "detail": "document names NCT00106899 but no resolved registry record is linked for it"
+    },
+    {
+      "gate": "cross-links",
+      "detail": "document names NCT01231971 but no resolved registry record is linked for it"
+    },
+    {
+      "gate": "cross-links",
+      "detail": "document names NCT01078636 but no resolved registry record is linked for it"
+    }
+  ],
+  "manifest_discrepancies": []
+}

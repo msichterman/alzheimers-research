@@ -1,0 +1,34 @@
+{
+  "id": "karikari-2020-ptau181",
+  "cluster": "biomarkers",
+  "checked_at": "2026-08-13T17:02:33.004Z",
+  "passed": false,
+  "text_sufficiency": {
+    "level": "full-text",
+    "chars": 66005,
+    "sections": [
+      "method",
+      "result",
+      "discussion",
+      "outcome",
+      "participants"
+    ]
+  },
+  "evidence_completeness": "accepted-manuscript",
+  "failures": [
+    {
+      "gate": "evidence",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing)"
+    },
+    {
+      "gate": "fidelity",
+      "detail": "no independent critic pass (enriched/<id>/07-fidelity.json missing)"
+    },
+    {
+      "gate": "critical-review",
+      "detail": "no record to review"
+    }
+  ],
+  "warnings": [],
+  "manifest_discrepancies": []
+}

@@ -1,0 +1,75 @@
+{
+  "overall": "hopeful",
+  "summary": "Public sentiment regarding remternetug is overwhelmingly hopeful, heavily driven by its subcutaneous delivery method. Patients and caregivers view it as a massive lifestyle improvement over existing IV-infused anti-amyloids, praising it as a 'next-generation' breakthrough that rapidly clears plaques. Retail investors are equally optimistic, viewing the drug as a competitive edge that will boost Eli Lilly's market dominance. However, mainstream biotech media strikes a more cautious tone. Journalists frequently highlight that early data showed high rates of ARIA (brain swelling), complicating the narrative of a simple, unmonitored at-home treatment.",
+  "communities": [
+    {
+      "community": "r/Alzheimers (Patients & Caregivers)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Subcutaneous/at-home administration",
+        "Rapid plaque clearance",
+        "Hope for younger mutation carriers"
+      ],
+      "example_urls": [
+        "https://old.reddit.com/r/Alzheimers/comments/1uv246q/alzheimers_treatments_under_trials/"
+      ]
+    },
+    {
+      "community": "Retail Investors (LLY)",
+      "sentiment": "hopeful",
+      "themes": [
+        "Market dominance over IV drugs",
+        "Stock price catalysts",
+        "Superior drug delivery"
+      ],
+      "example_urls": [
+        "https://www.tipranks.com/news/company-announcements/eli-lillys-remternetug-study-a-potential-game-changer-in-drug-delivery"
+      ]
+    },
+    {
+      "community": "Science & Biotech Media",
+      "sentiment": "mixed",
+      "themes": [
+        "High ARIA rates (41%)",
+        "Dose-dependent amyloid reduction",
+        "Prevention trial enrollment"
+      ],
+      "example_urls": [
+        "https://alzheimersweekly.com/remternetug-may-beat-kisunla-for-treating-alzheimers/",
+        "https://www.fiercebiotech.com/biotech/lilly-sneak-peek-next-gen-alzheimers-drug-shows-rapid-and-robust-amyloid-reduction-familiar"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Fierce Biotech",
+      "tone": "critical",
+      "date": null,
+      "url": "https://www.fiercebiotech.com/biotech/lilly-sneak-peek-next-gen-alzheimers-drug-shows-rapid-and-robust-amyloid-reduction-familiar"
+    },
+    {
+      "outlet": "Alzheimer's Weekly",
+      "tone": "positive",
+      "date": null,
+      "url": "https://alzheimersweekly.com/remternetug-may-beat-kisunla-for-treating-alzheimers/"
+    },
+    {
+      "outlet": "ALZFORUM",
+      "tone": "neutral",
+      "date": "2024-08",
+      "url": "https://www.alzforum.org/therapeutics/remternetug"
+    }
+  ],
+  "hype_vs_evidence": "Public hype significantly outpaces current evidence regarding the timeline and safety of at-home administration. Patient communities celebrate the subcutaneous injection as a pathway to casual self-administration and expect the drug on the market by 2027. However, clinical evidence highlights a high rate of ARIA (up to 41% in early data), which would necessitate strict clinical MRI monitoring rather than simple at-home use. Furthermore, while earlier trials are progressing, the pivotal TRAILRUNNER-ALZ 3 trial will not complete until late 2030, meaning broad approval and availability may take much longer than the public currently expects.",
+  "misinformation_flags": [
+    "Belief that subcutaneous delivery will immediately allow for casual at-home administration, ignoring the intensive MRI monitoring required for high ARIA rates.",
+    "Expectations that the drug will be broadly available by 2027, despite the Phase 3 TRAILRUNNER-ALZ 3 trial continuing until October 2030."
+  ],
+  "searches_run": [
+    "remternetug OR LY3372993 site:reddit.com",
+    "remternetug alzheimer news",
+    "remternetug forum OR patients OR caregiver",
+    "remternetug ARIA",
+    "remternetug stock LLY"
+  ]
+}

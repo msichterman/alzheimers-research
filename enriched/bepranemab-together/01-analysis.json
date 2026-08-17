@@ -1,0 +1,167 @@
+{
+  "kind": "research-paper",
+  "title": "Tau positron emission tomography results from TOGETHER, a double‐blind, placebo‐controlled Phase II study of bepranemab in prodromal–mild Alzheimer’s disease",
+  "authors": [
+    {
+      "name": "Maguire, Ralph P",
+      "affiliation": "UCB, Braine-l’Alleud, Walloon Brabant Belgium",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Byrnes, William",
+      "affiliation": "UCB, Raleigh, NC USA",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Barton, Matthew E",
+      "affiliation": "UCB, Raleigh, NC USA",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Mesa, Irene Rebollo",
+      "affiliation": "UCB, Madrid, Madrid provincia Spain",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Buchanan, Tim J",
+      "affiliation": "UCB, Braine-l’Alleud, Walloon Brabant Belgium",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Steen, Bart Van Den",
+      "affiliation": "UCB, Braine-l’Alleud, Walloon Brabant Belgium",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Tricht, Hans L.G Van",
+      "affiliation": "UCB, Braine-l’Alleud, Walloon Brabant Belgium",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Taiyari, Katie",
+      "affiliation": "UCB, Slough, Berkshire United Kingdom",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Famodimu, Omobola",
+      "affiliation": "UCB, Oakville, ON Canada",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Bloemers, Jos",
+      "affiliation": "UCB, Breda, North Brabant Netherlands",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Einstein, Steve",
+      "affiliation": "UCB (contracted via Steve Einstein Consulting Services, Lawrenceville, New Jersey, USA), Braine-l’Alleud, Walloon Brabant Belgium",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Ewen, Colin",
+      "affiliation": "UCB, Slough, Berkshire United Kingdom",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Maguire, Ralph P",
+  "venue": "Alzheimer's & Dementia",
+  "published": "2025-12",
+  "doi": "10.1002/alz70859_099279",
+  "doi_url": "https://doi.org/10.1002/alz70859_099279",
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "reuse": "redistribute",
+    "evidence": "This is an open access article under the terms of the http://creativecommons.org/licenses/by/4.0/ License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited."
+  },
+  "tags": [
+    "paper",
+    "trial",
+    "tau",
+    "amyloid",
+    "immunotherapy",
+    "bepranemab",
+    "pet-imaging",
+    "phase-2"
+  ],
+  "themes": [
+    "Anti-tau monoclonal antibodies",
+    "Disease-modifying therapies",
+    "Tau PET imaging",
+    "Clinical trial efficacy"
+  ],
+  "one_line": "The Phase II TOGETHER trial demonstrated that bepranemab, a mid-region tau-targeting antibody, slowed tau accumulation by 33–58% compared to placebo in patients with prodromal-to-mild Alzheimer's disease.",
+  "summary": "The TOGETHER trial (NCT04867616) is a Phase II, randomized, double-blind, placebo-controlled study evaluating bepranemab in patients with prodromal-to-mild Alzheimer's disease. Bepranemab is a humanized IgG4 monoclonal antibody targeting a mid-region epitope of tau. Over an 80-week treatment period, 466 participants received either 45 mg/kg or 90 mg/kg of intravenous bepranemab or a placebo every four weeks. Efficacy was assessed via tau PET imaging at baseline, Week 56, and Week 80. Initial analyses of the full trial population revealed that bepranemab slowed tau accumulation by 33–58% relative to placebo in whole cortical gray and jack temporal meta regions at Week 80. The abstract concludes that bepranemab is the first antibody targeting the tau mid-region to slow tau accumulation and provide clinical benefit.",
+  "key_claims": [
+    {
+      "claim": "Bepranemab slows tau accumulation in the brains of patients with prodromal to mild Alzheimer's disease.",
+      "evidence": "Tau accumulation slowed by 33–58% versus placebo across both bepranemab arms (90 mg/kg and 45 mg/kg) in the whole cortical gray and jack temporal meta regions at Week 80.",
+      "strength": "strong",
+      "location": "Results"
+    }
+  ],
+  "methods": {
+    "design": "Phase II participant- and investigator-blinded, randomized, placebo-controlled study",
+    "n": 466,
+    "population": "Prodromal-mild Alzheimer's disease (aged 50-80 years), cerebral amyloid beta presence (PET or CSF), global CDR score of 0.5, CDR-Memory Box score ≥0.5",
+    "duration": "80 weeks",
+    "registration": "NCT04867616"
+  },
+  "funding_and_conflicts": "none stated",
+  "limitations": [
+    "The abstract does not report explicit limitations.",
+    "Quantitative data for clinical outcomes are omitted entirely, with only biomarker (tau PET) outcomes presented to support the conclusion of clinical benefit."
+  ],
+  "red_flags": [
+    "Spin between results and conclusion: The abstract's conclusion states that the therapy 'demonstrated a clinical benefit,' but the results section only provides evidence for a biomarker endpoint (tau accumulation via PET imaging), citing previously presented external data in the background instead of offering primary data here."
+  ],
+  "parse_quality": {
+    "score": 6,
+    "issues": [
+      "The author byline and affiliations were entirely missing from the Markdown document.",
+      "Minor ligature and spacing artifacts are present (e.g., 'prodromal-mild', 'participant- and investigator-blinded')."
+    ]
+  },
+  "search_verification": [
+    "Queried Crossref API for DOI 10.1002/alz70859_099279 to retrieve the missing author list and confirm publication date (2025-12).",
+    "Queried PubMed E-Utilities using the DOI to verify if a PubMed record existed; no matching items were found, confirming a null PubMed URL."
+  ]
+}

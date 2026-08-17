@@ -1,0 +1,65 @@
+{
+  "overall": "hopeful",
+  "summary": "Public sentiment surrounding plasma amyloid blood tests, particularly Aβ42/40 ratios and C2N's PrecivityAD, is highly optimistic and driven by the appeal of a minimally invasive alternative to PET scans and lumbar punctures. The scientific and medical communities are enthusiastic about the test's ability to streamline clinical trials and improve primary care diagnostics, although experts actively debate its predictive timeline (the 'amyloid clock') and utility compared to emerging p-tau217 tests. Among patients and caregivers, there is relief at having easier access to answers, but this is tempered by anxiety regarding what a positive result means for cognitively normal individuals, as well as frustration over spotty insurance coverage. Retail investor sentiment is currently quiet due to C2N Diagnostics being privately held, though the biotech sector broadly tracks these biomarkers closely.",
+  "communities": [
+    {
+      "community": "Patients & Caregivers (r/Alzheimers, r/dementia)",
+      "sentiment": "mixed",
+      "themes": [
+        "Desire for definitive, accessible answers without invasive spinal taps",
+        "Anxiety regarding early-onset screening and the psychological burden of a positive test",
+        "Confusion over insurance coverage, cost, and doctor familiarity with the test"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/dementia/comments/1arzcjw/is_the_blood_test_for_alzheimers_covered_by/",
+        "https://www.reddit.com/r/dementia/comments/1ctiou9/dad_took_a_memory_test_today_from_doc_doc/"
+      ]
+    },
+    {
+      "community": "Scientific & Medical Community (Alzforum)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Replacing expensive PET scans for early clinical trial screening",
+        "The concept of the 'amyloid clock' to predict future symptom onset",
+        "Comparing the accuracy of plasma Aβ42/40 against p-tau217"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/research-news/plasma-p-tau217-amyloid-clock"
+      ]
+    },
+    {
+      "community": "Retail Investors",
+      "sentiment": "quiet",
+      "themes": [
+        "Lack of direct stock to trade (C2N Diagnostics is a private company)"
+      ],
+      "example_urls": []
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "BusinessWire",
+      "tone": "positive",
+      "date": "2026-07",
+      "url": "https://www.businesswire.com/news/home/20260709196435/en/Anthem-Establishes-Coverage-of-C2N-Diagnostics-PrecivityAD2-Blood-Test-for-Alzheimers-Disease-Evaluation"
+    },
+    {
+      "outlet": "Alzheimer's Association (AAIC)",
+      "tone": "positive",
+      "date": "2026-07",
+      "url": "https://aaic.alz.org/releases-2026/alzheimers-blood-test-accurate-diagnosis-pcp.asp"
+    }
+  ],
+  "hype_vs_evidence": "Media and patient perception often conflates a positive plasma amyloid test with an immediate, definitive diagnosis of clinical Alzheimer's dementia. In reality, the evidence (as detailed by Schindler et al.) demonstrates that the test measures brain amyloidosis and predicts a risk of future conversion to amyloid PET positivity in cognitively normal individuals—a pathological hallmark that can precede symptoms by years or decades. Furthermore, the public tends to assume blood tests offer binary 'yes/no' answers, whereas the underlying science uses a probability model (combining the Aβ42/40 ratio with age and APOE ε4 status) to assess risk. The hype runs ahead of the evidence by treating a risk factor and biomarker as an absolute crystal ball for the disease.",
+  "misinformation_flags": [
+    "A positive plasma Aβ42/40 blood test means a patient currently has clinical Alzheimer's disease.",
+    "The blood test is 100% accurate on its own and provides a binary diagnosis without needing clinical context."
+  ],
+  "searches_run": [
+    "site:reddit.com \"plasma\" amyloid blood test alzheimers",
+    "site:alzforum.org \"plasma\" amyloid blood test alzheimers",
+    "PrecivityAD blood test alzheimer news",
+    "\"C2N\" OR \"PrecivityAD\" stock reddit",
+    "site:reddit.com/r/dementia \"blood test\""
+  ]
+}

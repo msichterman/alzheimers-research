@@ -1,0 +1,63 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT01041989",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01041989",
+      "name": "FINGER",
+      "drug": "Multi-domain lifestyle counseling",
+      "phase": "n/a",
+      "sponsor": "Finnish Institute for Health and Welfare",
+      "status": "Unknown",
+      "enrollment": 1200,
+      "population": "Adults aged 60-77 at increased risk of dementia with mild cognitive changes",
+      "primary_endpoint": "Cognitive impairment assessed with a Neuropsychological Test Battery, and Stroop and Trail Making tests at 2 years",
+      "started": "2009-09",
+      "completed_or_readout": "2013-12",
+      "results_summary": "The 2-year multidomain intervention improved or maintained cognitive functioning compared to control, showing a significant between-group difference in the NTB total score. Secondary analyses suggested a relative reduction in estimated dementia risk.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03688126",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03688126",
+      "name": "US POINTER",
+      "drug": "Structured vs. Self-Guided Multidomain Lifestyle Intervention",
+      "phase": "n/a",
+      "sponsor": "Wake Forest University Health Sciences",
+      "status": "Completed",
+      "enrollment": 2000,
+      "population": "Sedentary older adults (60-79) with suboptimal diet and increased risk for cognitive decline",
+      "primary_endpoint": "Global cognitive function composite score at 2 years",
+      "started": "2019-01",
+      "completed_or_readout": "2025-05",
+      "results_summary": "Both intervention groups showed increased cognitive composite scores over time, but the structured intervention had a statistically significant greater benefit on global cognition compared to the self-guided intervention.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2015-06-06",
+      "kind": "paper",
+      "description": "Primary results of the FINGER trial published in The Lancet showing multidomain intervention improves/maintains cognitive functioning.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25771249/"
+    },
+    {
+      "date": "2021-08",
+      "kind": "paper",
+      "description": "FINGER secondary analysis published in JAD showing the intervention's effect on estimated dementia risk.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34151805/"
+    },
+    {
+      "date": "2025-08-26",
+      "kind": "paper",
+      "description": "Primary results of the US POINTER trial published in JAMA showing structured lifestyle interventions benefit global cognition.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40720610/"
+    }
+  ],
+  "evidence_assessment": "The FINGER trial provides landmark clinical evidence that a multi-domain lifestyle intervention can preserve cognitive function in at-risk older adults. While the original registry record (NCT01041989) was not updated with tabular results, the primary findings were peer-reviewed and published in The Lancet (2015), demonstrating a small but statistically significant benefit on comprehensive neuropsychological test scores. This proof-of-concept spurred a global replication network (WW-FINGERS), including the flagship US POINTER trial (NCT03688126) which recently published results in JAMA (2025) confirming that a structured lifestyle intervention provides greater cognitive benefits than unstructured guidance. Collectively, the evidence is strong that lifestyle interventions can slow cognitive decline, though long-term extended follow-ups are still ongoing to definitively prove a delay in the clinical onset of dementia.",
+  "discrepancies": [
+    "The document's key claim assessment notes the primary hypothesis is 'not-supported' because no results are posted directly on the ClinicalTrials.gov registry record. However, the trial's positive primary results were published in The Lancet in 2015, meaning the claim is indeed supported by robust peer-reviewed evidence despite the missing registry update.",
+    "The document lists the overall status as 'UNKNOWN', which accurately matches the registry API's 'last known status', but the primary intervention phase was actually completed in December 2013 and results are fully read out."
+  ]
+}

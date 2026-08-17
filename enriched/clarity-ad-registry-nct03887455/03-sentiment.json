@@ -1,0 +1,64 @@
+{
+  "overall": "mixed",
+  "summary": "The public discourse around lecanemab reflects a stark divide between media hype and the lived reality of patients and caregivers. While mainstream media often characterizes the drug as a 'momentous breakthrough' that targets the root cause of Alzheimer's, caregiver communities are far more cautious, grappling with the logistical hurdles of Medicare coverage, the necessity for early diagnosis, and terrifying real-world experiences with brain swelling and bleeding (ARIA). Meanwhile, healthcare providers and industry watchers focus on clinical capacity strains and ongoing debates over cost-effectiveness.",
+  "communities": [
+    {
+      "community": "Patient & Caregiver Forums (r/Alzheimers, r/dementia)",
+      "sentiment": "mixed",
+      "themes": [
+        "Fear of severe side effects like ARIA (brain swelling and bleeds)",
+        "Frustration with strict eligibility criteria (e.g., blood thinners exclusion) and Medicare hurdles",
+        "Tragedy of late diagnoses rendering patients ineligible"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/comments/1cr0vc2/leqembilecanemab/",
+        "https://www.reddit.com/r/Alzheimers/comments/17vfyoo/tomorrow_we_find_out_if_mom_moves_on_in_the/"
+      ]
+    },
+    {
+      "community": "Scientific & Medical Watchers (Alzforum, Hacker News)",
+      "sentiment": "mixed",
+      "themes": [
+        "Clinic capacity being strained by the complex rollout and infusion requirements",
+        "Debate over whether the modest cognitive benefit justifies the high cost and safety risks",
+        "Ongoing scrutiny of the amyloid cascade hypothesis"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/community-news/rising-leqembi-prescriptions-are-straining-clinic-capacity",
+        "https://news.ycombinator.com/item?id=47905984"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "BBC News",
+      "tone": "positive",
+      "date": "2022-11",
+      "url": "https://www.bbc.com/news/health-63749586"
+    },
+    {
+      "outlet": "CNBC",
+      "tone": "neutral",
+      "date": "2023-07",
+      "url": "https://www.cnbc.com/2023/07/08/leqembi-and-medicare-what-patients-and-doctors-should-know.html"
+    },
+    {
+      "outlet": "The Pharmaceutical Journal",
+      "tone": "critical",
+      "date": "2024-01",
+      "url": "https://doi.org/10.1211/pj.2024.1.327733"
+    }
+  ],
+  "hype_vs_evidence": "Media framing frequently portrays lecanemab as a 'momentous breakthrough' that addresses the 'root cause' of Alzheimer's, heavily implying a cure or dramatic reversal of the disease. In contrast, the trial protocol establishes it merely as a disease-modifying therapy intended to moderately slow the rate of clinical decline in early-stage patients. The public perception often minimizes the serious adverse events tracked in the trial (such as ARIA), leaving caregivers shocked when confronted with severe brain swelling or bleeding in real-world application.",
+  "misinformation_flags": [
+    "Claims that lecanemab is a 'cure' or reverses Alzheimer's disease.",
+    "Belief that lecanemab is suitable for late-stage or severe dementia, ignoring the strict early AD/MCI constraint."
+  ],
+  "searches_run": [
+    "site:reddit.com/r/Alzheimers lecanemab",
+    "site:reddit.com/r/dementia lecanemab",
+    "lecanemab investor sentiment biogen eisai",
+    "lecanemab alzforum",
+    "Hacker News Algolia API for 'lecanemab'"
+  ]
+}

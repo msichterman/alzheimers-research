@@ -1,0 +1,76 @@
+{
+  "overall": "hopeful",
+  "summary": "Public sentiment surrounding p-tau217 blood tests is overwhelmingly hopeful but slightly overextended. News media and investors are highly enthusiastic, framing the tests as revolutionary tools for early diagnosis and highlighting major financial investments in companies like ALZpath and C2N Diagnostics. Caregivers and patients are similarly hopeful about avoiding invasive spinal taps and clarifying cognitive decline to access new treatments, though some asymptomatic individuals express distress over predictive results without available preventative cures. Overall, the public largely treats the blood test as a finalized, standalone diagnostic tool, often missing the scientific nuance regarding the need for broader clinical context and analytical standardization.",
+  "communities": [
+    {
+      "community": "Caregivers and patient forums (e.g., Mayo Clinic Connect, apoe4.info)",
+      "sentiment": "mixed",
+      "themes": [
+        "Relief over avoiding invasive procedures like lumbar punctures or expensive PET scans",
+        "Seeking the test to clarify diagnoses and qualify for anti-amyloid infusion therapies",
+        "Anxiety and distress among asymptomatic individuals receiving early predictive positive results"
+      ],
+      "example_urls": [
+        "https://connect.mayoclinic.org/discussion/p-tau-217-plasma-test-for-alazheimers/",
+        "https://forums.apoe4.info/viewtopic.php?t=9380"
+      ]
+    },
+    {
+      "community": "Investors (Biotech and Diagnostics)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Strong market potential and scalability of non-invasive diagnostics",
+        "Major institutional investments, including $10M from Samsung Life Science Fund and $7M from ADDF",
+        "Strategic licensing deals between startups (ALZpath) and major diagnostics firms (Abbott)"
+      ],
+      "example_urls": [
+        "https://www.prnewswire.com/news-releases/alzpath-signs-global-licensing-agreement-with-abbott-to-advance-blood-based-alzheimers-disease-testing-302808974.html",
+        "https://www.koreabiomed.com/news/articleView.html?idxno=26907"
+      ]
+    },
+    {
+      "community": "Tech and science enthusiasts (Hacker News, r/science)",
+      "sentiment": "hopeful",
+      "themes": [
+        "Excitement over studies reporting 90% accuracy claims comparable to traditional methods",
+        "General optimism about the clinical rollout and early detection capabilities"
+      ],
+      "example_urls": [
+        "https://news.ycombinator.com/item?id=41094571",
+        "https://news.ycombinator.com/item?id=23997891"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "NIH Research Matters",
+      "tone": "positive",
+      "date": "2026-03",
+      "url": "https://www.nih.gov/news-events/nih-research-matters/blood-test-predicts-start-alzheimers-disease-symptoms"
+    },
+    {
+      "outlet": "Science Magazine",
+      "tone": "neutral",
+      "date": "2026-03",
+      "url": "https://www.science.org/content/article/alzheimer-s-blood-test-getting-popular-who-really-needs-it"
+    },
+    {
+      "outlet": "Medical Daily",
+      "tone": "positive",
+      "date": "2026-07",
+      "url": "https://www.medicaldaily.com/p-tau217-alzheimers-blood-test-predicts-cognitive-impairment-jama-2026-476200"
+    }
+  ],
+  "hype_vs_evidence": "Media headlines heavily emphasize the test's ability to predict Alzheimer's disease a decade early with up to 90% accuracy, creating a public perception that the test is a standalone, foolproof diagnostic tool. However, the scientific document emphasizes that p-tau217 should be used in conjunction with clinical evaluation, as cutoffs currently rely on retrospective batch-analyzed studies rather than prospective real-world primary care data. Furthermore, while investors and the public are rushing to capitalize on FDA clearances, the review warns that there is still a significant lack of analytical standardization and certified reference materials across different laboratories.",
+  "misinformation_flags": [
+    "The blood test is a standalone diagnostic tool that can definitively diagnose Alzheimer's without any other clinical context or cognitive assessments.",
+    "The test is currently intended for routine screening of healthy, asymptomatic individuals to see if they will develop Alzheimer's."
+  ],
+  "searches_run": [
+    "alzheimers blood test p-tau217 caregiver forum",
+    "ALZpath C2N stock investment alzheimers blood test",
+    "p-tau217 blood test reddit dementia",
+    "hn.algolia.com/api/v1/search?query=p-tau217",
+    "hn.algolia.com/api/v1/search?query=alzheimer+blood+test"
+  ]
+}

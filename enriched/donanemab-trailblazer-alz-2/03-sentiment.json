@@ -1,0 +1,77 @@
+{
+  "overall": "hopeful",
+  "summary": "Public sentiment surrounding donanemab (Kisunla) is predominantly hopeful, viewing the drug as a much-needed step forward in Alzheimer's treatment. Scientific communities treat the TRAILBLAZER-ALZ 2 results as strong validation for amyloid immunotherapy, though they remain heavily focused on managing the significant ARIA safety risks through dosing tweaks. Patient and caregiver communities express cautious optimism about the slowed cognitive decline and the potential for finite dosing, but worry about accessibility, Medicare coverage, and side effects. Conversely, the retail investor community is surprisingly quiet on the Alzheimer's front; discussions about Eli Lilly (LLY) are almost entirely eclipsed by the massive financial hype surrounding their GLP-1 weight-loss medications.",
+  "communities": [
+    {
+      "community": "r/Alzheimers & r/dementia (Patients & Caregivers)",
+      "sentiment": "hopeful",
+      "themes": [
+        "Excitement over finite dosing and retained benefits",
+        "Questions regarding Medicare coverage and rollout",
+        "Anxiety regarding ARIA and brain bleeding risks"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/comments/1bhl5bl/lecanemab_is_now_supposedly_covered_by_medicare/",
+        "https://www.reddit.com/r/Alzheimers/comments/1c2lgs4/ad_treatments_for_disease_prevention/"
+      ]
+    },
+    {
+      "community": "Alzforum (Scientific & Medical Community)",
+      "sentiment": "hopeful",
+      "themes": [
+        "Validation of amyloid plaque clearance as a viable disease-modifying strategy",
+        "Active research into mitigating ARIA-E via slower dose titration",
+        "Debate over baseline tau burden as an efficacy predictor"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/research-news/and-then-there-were-three-donanemab-phase-3-trial-positive",
+        "https://www.alzforum.org/news/conference-coverage/de-risking-donanemab-dosing-tweak-cuts-aria-steroids-not-so-much"
+      ]
+    },
+    {
+      "community": "r/stocks & Investor Forums",
+      "sentiment": "quiet",
+      "themes": [
+        "Complete overshadowing of the Alzheimer's pipeline by GLP-1 (weight-loss) drugs",
+        "Eli Lilly valuation discussed primarily through Mounjaro/Zepbound sales"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/stocks/comments/1dn5e2k/lly_up_potential/",
+        "https://www.reddit.com/r/stocks/comments/14708ku/is_anyone_else_looking_at_eli_lilly_lly/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "FDA.gov",
+      "tone": "neutral",
+      "date": "2024-07",
+      "url": "https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-treatment-adults-alzheimers-disease"
+    },
+    {
+      "outlet": "Alzheimer's Association",
+      "tone": "positive",
+      "date": "2024-07",
+      "url": "https://www.alz.org/news/2024/fda-approve-kisunla-donanemab-alzheimers-treatment"
+    },
+    {
+      "outlet": "JAMA Network",
+      "tone": "neutral",
+      "date": "2024-07",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2821722"
+    }
+  ],
+  "hype_vs_evidence": "Patient perception sometimes exaggerates the drug's efficacy, with some community members citing a 50-60% reduction in cognitive decline, which only applies to a very specific, earliest-stage patient subgroup (low/medium tau), while the broader cohort saw closer to 20-35% slowing. Furthermore, the narrative of 'stopping the drug once plaques are cleared' has fostered a belief that benefits are permanently retained, an assumption not yet fully supported by the limited 18-month trial horizon. Finally, mainstream consumer media coverage of the FDA approval often minimizes the severe ARIA-E safety signals (which caused three treatment-related deaths in the trial) in favor of 'breakthrough' milestone framing.",
+  "misinformation_flags": [
+    "Claims that donanemab halts or reverses Alzheimer's disease entirely, rather than just slowing the rate of clinical decline.",
+    "Applying the 50-60% slowed progression statistics globally to all Alzheimer's patients, ignoring that it is limited to a highly specific, early-symptomatic subset.",
+    "Assuming ARIA (brain swelling) is always asymptomatic or easily manageable, downplaying the fatal adverse events reported in the clinical trial."
+  ],
+  "searches_run": [
+    "site:reddit.com/r/dementia donanemab",
+    "site:reddit.com/r/Alzheimers donanemab",
+    "site:reddit.com/r/stocks donanemab lilly",
+    "site:alzforum.org donanemab TRAILBLAZER-ALZ 2 ARIA",
+    "donanemab kisunla FDA approval news 2024"
+  ]
+}

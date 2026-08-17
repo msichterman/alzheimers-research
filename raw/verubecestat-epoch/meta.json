@@ -1,0 +1,9 @@
+{
+  "id": "verubecestat-epoch",
+  "source": "sources/verubecestat-epoch.xml",
+  "sha256": "e6393c113917daecb43b5f9773dcddff574882bf863637adac5d821119766cc8",
+  "bytes": 110245,
+  "chars": 28288,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:11.338Z"
+}

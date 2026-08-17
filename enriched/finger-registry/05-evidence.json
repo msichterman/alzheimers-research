@@ -1,0 +1,252 @@
+{
+  "document_kind": "registry_record",
+  "title": {
+    "value": "Finnish Geriatric Intervention Study to Prevent Cognitive Impairment and Disability",
+    "quote": "**Official title:** Finnish Geriatric Intervention Study to Prevent Cognitive Impairment and Disability",
+    "location": "Document heading / Official title"
+  },
+  "authors": [],
+  "study": {
+    "design": {
+      "value": "Randomized, single-masked interventional study whose primary purpose is prevention",
+      "quote": "- **Study type:** INTERVENTIONAL\n\n- **Allocation:** RANDOMIZED\n\n- **Masking:** SINGLE\n\n- **Primary purpose:** PREVENTION",
+      "location": "Registry identity"
+    },
+    "phase": {
+      "value": "NA (as recorded in the mutable-fields block observed 2026-08-13T17:02:18.700Z)",
+      "quote": "- **Overall status:** UNKNOWN\n\n- **Phase:** NA\n\n- **Enrollment:** 1200 (ESTIMATED)\n\n- **Start date:** 2009-09",
+      "location": "Mutable fields — observed 2026-08-13T17:02:18.700Z from the ClinicalTrials.gov API v2"
+    },
+    "n": {
+      "value": 1200,
+      "quote": "- **Enrollment:** 1200 (ESTIMATED)\n\n- **Start date:** 2009-09\n\n- **Primary completion:** 2013-12\n\n- **Completion:** 2025-12",
+      "location": "Mutable fields — observed 2026-08-13T17:02:18.700Z from the ClinicalTrials.gov API v2"
+    },
+    "n_description": {
+      "value": "Registry-reported enrollment of 1200, flagged ESTIMATED (not ACTUAL), as observed on 2026-08-13T17:02:18.700Z from the ClinicalTrials.gov API v2. This is a registry enrollment figure, not a published analysis population.",
+      "quote": "- **Overall status:** UNKNOWN\n\n- **Phase:** NA\n\n- **Enrollment:** 1200 (ESTIMATED)",
+      "location": "Mutable fields — observed 2026-08-13T17:02:18.700Z from the ClinicalTrials.gov API v2"
+    },
+    "population": {
+      "value": "Persons aged 60-77 years at an increased dementia risk (dementia Risk Score 6 points or more and at least one CERAD criterion met), without dementia or substantial cognitive decline",
+      "quote": "aims to prevent cognitive impairment, dementia and disability in 60-77 year old persons at an increased dementia risk",
+      "location": "Brief summary; detail in Eligibility, Inclusion/Exclusion Criteria"
+    },
+    "followup": {
+      "value": "2-year intervention period, with an extended follow-up planned until at least 300 participants have developed dementia; all registered outcome time frames are 2 years",
+      "quote": "We hypothesize that the multi-domain intervention will reduce cognitive impairment in the study group compared to the control group during the initial 2-year intervention period",
+      "location": "Brief summary"
+    },
+    "intervention": {
+      "value": "Multi-domain lifestyle counseling: nutritional guidance, increased physical activity, cognitive training, increased social activity and intensive monitoring of vascular and metabolic risk factors",
+      "quote": "Multi-domain lifestyle counseling including nutritional guidance, increased physical activity, cognitive training, increased social activity and intensive monitoring of vascular and metabolic risk factors.",
+      "location": "Arms — Lifestyle counseling (EXPERIMENTAL)"
+    },
+    "comparator": {
+      "value": "Standard health counseling at baseline, registered as a NO_INTERVENTION arm",
+      "quote": "- **Standard health counseling at baseline** (NO_INTERVENTION): no description\n- **Lifestyle counseling** (EXPERIMENTAL): Multi-domain lifestyle counseling including nutritional guidance, increased physical activity, cognitive training, increased social activity and intensive monitoring of vascular and metabolic risk factors.",
+      "location": "Arms"
+    },
+    "biomarker_confirmation": {
+      "value": null,
+      "quote": null,
+      "location": null
+    },
+    "nct_ids": ["NCT01041989"],
+    "cohorts": []
+  },
+  "outcomes": [
+    {
+      "name": "Cognitive impairment assessed with a Neuropsychological Test Battery, and Stroop and Trail Making tests.",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "*Order and wording as registered. This is the prespecification baseline a publication is checked against.*",
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "1. **Cognitive impairment assessed with a Neuropsychological Test Battery, and Stroop and Trail Making tests.**\n- Time frame: 2 years",
+      "location": "Prespecified outcome measures → Primary outcome measures, item 1 (time frame: 2 years)"
+    },
+    {
+      "name": "Depressive symptoms will be assessed using the Zung depression scale.",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "*Order and wording as registered. This is the prespecification baseline a publication is checked against.*",
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "1. **Depressive symptoms will be assessed using the Zung depression scale.**\n- Time frame: 2 years",
+      "location": "Prespecified outcome measures → Secondary outcome measures, item 1 (time frame: 2 years)"
+    },
+    {
+      "name": "Disability will be assessed using the ADCS-ADL scale",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "*Order and wording as registered. This is the prespecification baseline a publication is checked against.*",
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "2. **Disability will be assessed using the ADCS-ADL scale**\n- Time frame: 2 years",
+      "location": "Prespecified outcome measures → Secondary outcome measures, item 2 (time frame: 2 years)"
+    },
+    {
+      "name": "Quality of Life will be assessed using the RAND-36 and 15D questionnaires.",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "*Order and wording as registered. This is the prespecification baseline a publication is checked against.*",
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "3. **Quality of Life will be assessed using the RAND-36 and 15D questionnaires.**\n- Time frame: 2 years",
+      "location": "Prespecified outcome measures → Secondary outcome measures, item 3 (time frame: 2 years)"
+    },
+    {
+      "name": "Utilization of health resources will be assessed using questionnaire and register data.",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "*Order and wording as registered. This is the prespecification baseline a publication is checked against.*",
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "4. **Utilization of health resources will be assessed using questionnaire and register data.**\n- Time frame: 2 years",
+      "location": "Prespecified outcome measures → Secondary outcome measures, item 4 (time frame: 2 years)"
+    },
+    {
+      "name": "Vascular and metabolic risk factors will be assessed with blood pressure and anthropometric measurements, and laboratory analyses of metabolic biomarkers.",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "*Order and wording as registered. This is the prespecification baseline a publication is checked against.*",
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "5. **Vascular and metabolic risk factors will be assessed with blood pressure and anthropometric measurements, and laboratory analyses of metabolic biomarkers.**\n- Time frame: 2 years",
+      "location": "Prespecified outcome measures → Secondary outcome measures, item 5 (time frame: 2 years)"
+    },
+    {
+      "name": "Vascular and metabolic morbidity and mortality will be assessed through questionnaire and register data.",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "*Order and wording as registered. This is the prespecification baseline a publication is checked against.*",
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "6. **Vascular and metabolic morbidity and mortality will be assessed through questionnaire and register data.**\n- Time frame: 2 years",
+      "location": "Prespecified outcome measures → Secondary outcome measures, item 6 (time frame: 2 years)"
+    },
+    {
+      "name": "Changes in dietary biomarker levels will be assessed through laboratory testing.",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "*Order and wording as registered. This is the prespecification baseline a publication is checked against.*",
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "7. **Changes in dietary biomarker levels will be assessed through laboratory testing.**\n- Time frame: 2 years",
+      "location": "Prespecified outcome measures → Secondary outcome measures, item 7 (time frame: 2 years)"
+    }
+  ],
+  "primary_endpoint_status": {
+    "status": "not_applicable",
+    "explanation": "This is a protocol-stage registry record with no posted results section — the record states 'Results posted: false' — so the registered primary outcome (cognitive impairment on the Neuropsychological Test Battery, Stroop and Trail Making tests at 2 years) has no result reported in this document.",
+    "quote": "- **Study type:** INTERVENTIONAL\n\n- **Allocation:** RANDOMIZED\n\n- **Masking:** SINGLE\n\n- **Primary purpose:** PREVENTION\n\n- **Results posted:** false"
+  },
+  "multiplicity": {
+    "approach": "none stated",
+    "quote": null,
+    "location": null
+  },
+  "safety": {
+    "harms": [],
+    "apoe_stratification_reported": false,
+    "serious_adverse_events": {
+      "value": null,
+      "quote": null,
+      "location": null
+    },
+    "deaths": {
+      "value": null,
+      "quote": null,
+      "location": null
+    },
+    "discontinuations": {
+      "value": null,
+      "quote": null,
+      "location": null
+    }
+  },
+  "funding": [
+    "Finnish Institute for Health and Welfare (lead sponsor as declared in the registry identity block)",
+    "Academy of Finland (collaborator)",
+    "University of Helsinki (collaborator)",
+    "University of Eastern Finland (collaborator)",
+    "University of Oulu (collaborator)",
+    "Kuopio Research Institute of Exercise Medicine (collaborator)",
+    "Western University, Canada (collaborator)",
+    "Karolinska Institutet (collaborator)",
+    "Umeå University (collaborator)"
+  ],
+  "conflicts": [],
+  "limitations": [],
+  "risk_of_bias": [
+    {
+      "domain": "masking",
+      "judgement": "The record registers masking as SINGLE for a multi-domain behavioural lifestyle intervention against a no-intervention control arm, so participants and intervention staff were not blinded to allocation.",
+      "quote": "- **Allocation:** RANDOMIZED\n\n- **Masking:** SINGLE\n\n- **Primary purpose:** PREVENTION"
+    },
+    {
+      "domain": "control condition",
+      "judgement": "The comparator is registered as a NO_INTERVENTION arm receiving standard health counseling at baseline, with no description given, so contact time differs substantially between arms.",
+      "quote": "- **Standard health counseling at baseline** (NO_INTERVENTION): no description"
+    },
+    {
+      "domain": "registry record currency",
+      "judgement": "As observed on 2026-08-13 the overall status was UNKNOWN and the enrollment figure was ESTIMATED rather than actual, so the registered enrollment may not reflect the number actually randomized.",
+      "quote": "- **Overall status:** UNKNOWN\n\n- **Phase:** NA\n\n- **Enrollment:** 1200 (ESTIMATED)"
+    }
+  ],
+  "disagreements": [],
+  "linked_objects": [],
+  "trial_status_observation": {
+    "status": "UNKNOWN",
+    "enrollment": "1200 (ESTIMATED)",
+    "phase": "NA",
+    "observed_at": "2026-08-13T17:02:18.700Z",
+    "source": "ClinicalTrials.gov API v2"
+  },
+  "unlocatable_fields": [
+    "authors (a registry record prints no author list)",
+    "study.biomarker_confirmation (the record states no biological/biomarker confirmation of disease for entry; eligibility is by dementia Risk Score and CERAD cognitive criteria)",
+    "study.cohorts (the record names no external cohort or dataset)",
+    "outcomes[*].effect_estimate (no results are posted; 'Results posted: false')",
+    "outcomes[*].confidence_interval (no results are posted)",
+    "outcomes[*].p_value (no results are posted)",
+    "multiplicity.quote (the record does not address multiple-comparison control)",
+    "safety.harms (the record contains no adverse-event data)",
+    "safety.serious_adverse_events",
+    "safety.deaths",
+    "safety.discontinuations",
+    "conflicts (the record declares none)",
+    "limitations (the record states none about itself)"
+  ],
+  "_meta": {
+    "model": "claude (builder subagent)",
+    "extracted_at": "2026-08-13T17:35:00Z",
+    "source": "raw/finger-registry-nct01041989/document.md"
+  }
+}

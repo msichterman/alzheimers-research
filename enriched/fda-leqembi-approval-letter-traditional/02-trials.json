@@ -1,0 +1,97 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT03887455",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03887455",
+      "name": "Clarity AD (Study BAN2401-G000-301)",
+      "drug": "lecanemab (anti-Aβ protofibril antibody)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "status": "Active, not recruiting",
+      "enrollment": 1906,
+      "population": "Early Alzheimer's Disease",
+      "primary_endpoint": "Core Study: Change from Baseline in the CDR-SB at 18 Months",
+      "started": "2019-03",
+      "completed_or_readout": "2029-06 (primary 18-month readout reported late 2022)",
+      "results_summary": "Lecanemab significantly reduced amyloid burden and slowed clinical decline on the CDR-SB by 27% at 18 months compared to placebo. However, it was associated with adverse events, including amyloid-related imaging abnormalities (ARIA), particularly in ApoE ε4 carriers.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01767311",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01767311",
+      "name": "Study 201",
+      "drug": "lecanemab (anti-Aβ protofibril antibody)",
+      "phase": "2",
+      "sponsor": "Eisai Inc.",
+      "status": "Completed",
+      "enrollment": 856,
+      "population": "Early Alzheimer's Disease",
+      "primary_endpoint": "Core Study Phase: Change From Baseline in Alzheimer's Disease Composite Score (ADCOMS) at Month 12",
+      "started": "2012-12",
+      "completed_or_readout": "2024-12",
+      "results_summary": "The 10 mg/kg biweekly dose resulted in extensive amyloid reduction and a slowing of clinical decline, providing proof-of-concept for the phase 3 trial. ARIA-E occurred in 9.9% of patients at the highest dose.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04468659",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04468659",
+      "name": "AHEAD 3-45",
+      "drug": "lecanemab (anti-Aβ protofibril antibody)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "status": "Active, not recruiting",
+      "enrollment": 1400,
+      "population": "Preclinical Alzheimer's Disease and Elevated/Intermediate Amyloid",
+      "primary_endpoint": "A45 Trial: Change From Baseline in Preclinical Alzheimer Cognitive Composite 5 (PACC5) Score at Week 216",
+      "started": "2020-07",
+      "completed_or_readout": "2028-12",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT06170268",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06170268",
+      "name": "ALZ-NET",
+      "drug": "FDA-approved Alzheimer's therapies (including lecanemab)",
+      "phase": "n/a",
+      "sponsor": "Alzheimer's Disease and Related Disorders Association, Inc",
+      "status": "Recruiting",
+      "enrollment": 20000,
+      "population": "Patients with Alzheimer's disease receiving FDA-approved therapies in routine clinical practice",
+      "primary_endpoint": "Evaluate whether FDA-approved treatments improve health outcomes (as measured by slowing of cognitive decline) over time in a real-world population in broad clinical settings.",
+      "started": "2022-10",
+      "completed_or_readout": null,
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2023-01-05",
+      "kind": "paper",
+      "description": "Publication of Clarity AD (Study 301) phase 3 results showing efficacy and ARIA safety risks of lecanemab in the New England Journal of Medicine.",
+      "url": "https://doi.org/10.1056/NEJMoa2212948"
+    },
+    {
+      "date": "2023-07-06",
+      "kind": "regulatory",
+      "description": "FDA grants traditional approval for Leqembi (lecanemab) for early Alzheimer's disease based on Study 301 results.",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-converts-novel-alzheimers-disease-treatment-traditional-approval"
+    },
+    {
+      "date": "2021-04-17",
+      "kind": "paper",
+      "description": "Publication of phase 2b proof-of-concept trial results (Study 201) for lecanemab in Alzheimer's Research & Therapy.",
+      "url": "https://doi.org/10.1186/s13195-021-00813-8"
+    }
+  ],
+  "evidence_assessment": "The document's claims regarding clinical benefit and safety risks rest on extremely strong clinical evidence derived from the Phase 3 Clarity AD study (NCT03887455). This pivotal trial successfully replicated earlier Phase 2 findings and achieved its primary endpoint of reducing clinical decline on the CDR-SB scale. The specific link between Leqembi and severe ARIA or intracerebral hemorrhage, particularly for ApoE ε4 homozygotes and those with preexisting bleeding risks, was distinctly established in the trial data and heavily discussed during peer review. As a result, the FDA appropriately transitioned the drug to traditional approval while concurrently requiring stringent postmarketing pharmacovigilance and observational registry programs to track real-world radiological events.",
+  "discrepancies": [
+    "While the FDA document mandates a randomized clinical trial featuring ApoE ε4 homozygotes, there is currently no standalone trial with this specific focus listed by Eisai on ClinicalTrials.gov.",
+    "The document's requirement for a PMR prospective observational registry study is likely being fulfilled through umbrella registries such as the Alzheimer's Association's ALZ-NET (NCT06170268), as Eisai does not appear to have an independent observational registry explicitly registered yet."
+  ]
+}

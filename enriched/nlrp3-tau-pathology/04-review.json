@@ -1,0 +1,95 @@
+{
+  "fact_check": [
+    {
+      "fact": "11-month-old Tau22 mice have elevated caspase-1 and ASC compared to 3-month-old mice.",
+      "status": "verified",
+      "note": "Checked against source document, 'NLRP3 inflammasome activity in FTD' section."
+    },
+    {
+      "fact": "Up to 73% of genes from clusters iv. and vi. are interferon-associated.",
+      "status": "verified",
+      "note": "Checked against source document, 'NLRP3 inflammasome activity in FTD' section."
+    },
+    {
+      "fact": "Canakinumab Phase 2 trial (NCT04795466) enrolled 34 participants.",
+      "status": "verified",
+      "note": "Checked against clinical-trials researcher output from registry data."
+    }
+  ],
+  "research_page": {
+    "slug": "ising-nlrp3-inflammasome-tau-2019",
+    "title": "NLRP3 inflammasome activation drives tau pathology (Nature, 2019)",
+    "description": "Preclinical study in mice demonstrating that microglial NLRP3 inflammasome activation links amyloid-beta accumulation to tau pathology.",
+    "tags": [
+      "paper",
+      "amyloid",
+      "tau",
+      "inflammation",
+      "nlrp3-inflammasome",
+      "microglia"
+    ],
+    "source_line_md": "**Source**: [Nature, 2019](https://doi.org/10.1038/s41586-019-1769-z) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/31748742/)",
+    "authors_line_md": "Christina Ising et al.",
+    "takeaway_md": "This foundational preclinical study demonstrates that the microglial NLRP3 inflammasome acts as a critical bridge between amyloid-beta accumulation and tau pathology in mice. However, despite strong mechanistic evidence in animal models, translating these neuroimmune findings into successful human Alzheimer's therapies has so far failed.",
+    "key_findings_md": [
+      "NLRP3 inflammasome markers are elevated in human frontotemporal dementia (FTD) brains and in 11-month-old Tau22 mice (paper, NLRP3 inflammasome activity in FTD).",
+      "Genetically deleting NLRP3 or ASC in Tau22 mice reduced tau hyperphosphorylation, aggregation, and rescued spatial memory deficits (paper, NLRP3 loss protects from tau pathology).",
+      "Tau monomers and oligomers directly trigger IL-1β secretion from primary microglia in an NLRP3-dependent manner (paper, NLRP3 regulates kinases and phosphatases).",
+      "Injecting amyloid-beta-containing brain homogenate successfully induced tau pathology in Tau22 mice, but failed to do so in mice lacking functional NLRP3 (paper, NLRP3 mediates Aβ-induced tau pathology)."
+    ],
+    "methods_md": "In vivo study using transgenic C57BL/6 mice (Tau22, Asc-/-, Nlrp3-/-) assessed at 3, 8, and 11 months of age, alongside in vitro primary murine cell cultures and post-mortem human FTD cortex sample analysis.",
+    "trial_evidence_md": "The hypothesis relies heavily on animal models and biomarker correlations without successful human clinical translation. No direct NLRP3 inhibitors have succeeded in Alzheimer's efficacy trials as of 2026. A related Phase 2 trial targeting the downstream effector IL-1β ([NCT04795466](/trials/canakinumab-nct04795466)) in early AD was terminated early by the sponsor due to a lack of efficacy.",
+    "sentiment_md": "Public perception is sharply divided by community. Health-optimization and longevity groups enthusiastically view NLRP3 as an actionable link between metabolism and neuroinflammation, sometimes incorrectly extrapolating that lifestyle interventions can treat AD directly via this pathway. Conversely, biotechnology retail investors express deep skepticism following high-profile trial failures and dissolved pharmaceutical partnerships in the immuno-neurology space.",
+    "caveats_md": [
+      "The translation gap is profound: mechanistic interventions proven to work in these transgenic mouse models have repeatedly failed to yield effective disease-modifying therapies in human trials.",
+      "The researchers utilized whole APP/PS1 brain homogenates for amyloid-beta injections rather than purified fibrils, which introduces other potentially confounding inflammatory brain factors into the model."
+    ],
+    "relates_to_md": [
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Positions microglial activation downstream of amyloid-beta and upstream of tau pathology.",
+      "[Biomarkers](/research/biomarkers) — Highlights inflammatory markers (caspase-1, IL-1β) associated with disease progression."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "canakinumab-nct04795466",
+      "title": "Canakinumab in Early Alzheimer's Disease (NCT04795466)",
+      "description": "Phase 2 trial of IL-1β inhibitor canakinumab in participants with mild cognitive impairment or mild Alzheimer's disease.",
+      "badge": "Terminated",
+      "tags": [
+        "trial",
+        "canakinumab",
+        "il-1beta",
+        "inflammation"
+      ],
+      "registry_md": "[NCT04795466](https://clinicaltrials.gov/study/NCT04795466)",
+      "drug": "Canakinumab (IL-1β inhibitor)",
+      "phase": "2",
+      "sponsor": "Novartis Pharmaceuticals",
+      "population": "Mild Cognitive Impairment or Mild Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline in Cognition (NTB Z-scores)",
+      "started": "2021-10",
+      "readout": "2024-03",
+      "why_md": "This trial tested whether inhibiting IL-1β, a downstream effector of the [NLRP3 inflammasome](/research/papers/ising-nlrp3-inflammasome-tau-2019), could slow cognitive decline in early Alzheimer's disease.",
+      "status_log_md": [
+        "**2021-10-01** — Trial begins enrollment.",
+        "**2024-03-01** — Trial is terminated early by the sponsor and results are posted showing a lack of efficacy ([ClinicalTrials.gov](https://clinicaltrials.gov/study/NCT04795466?tab=results))."
+      ],
+      "results_md": "The trial was terminated early by Novartis. Results showed no statistically significant difference in cognitive change between the 10 patients receiving canakinumab and the 16 receiving placebo (LS mean difference in NTB total z-score at Day 171 was 0.069, p=0.6386), failing to validate the therapeutic potential of IL-1β inhibition in this population."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2019-11",
+      "title": "2019-11 — Microglial NLRP3 inflammasome linked to tau pathology",
+      "body_md": "A foundational [Nature study](/research/papers/ising-nlrp3-inflammasome-tau-2019) demonstrates that the microglial NLRP3 inflammasome acts as a critical biological bridge between amyloid-beta accumulation and tau pathology in mice."
+    },
+    {
+      "section": "Disease-modifying era",
+      "date": "2024-03",
+      "title": "2024-03 — Canakinumab Phase 2 trial terminated",
+      "body_md": "Novartis posts results for the early-terminated [Phase 2 trial](/trials/canakinumab-nct04795466) of the IL-1β inhibitor canakinumab, showing no cognitive benefit in early Alzheimer's and casting doubt on translating the NLRP3/IL-1β hypothesis to humans."
+    }
+  ],
+  "notes_for_editor": []
+}

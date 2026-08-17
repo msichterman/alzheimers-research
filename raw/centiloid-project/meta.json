@@ -1,0 +1,9 @@
+{
+  "id": "centiloid-project",
+  "source": "sources/centiloid-project.xml",
+  "sha256": "db31e9cc8539350e25d4974d25344a9ad358f74c19e19ee94c209174c48a581a",
+  "bytes": 169186,
+  "chars": 65246,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:07.990Z"
+}

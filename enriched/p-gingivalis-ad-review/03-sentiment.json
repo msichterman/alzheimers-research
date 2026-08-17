@@ -1,147 +1,76 @@
 {
-  "overall": "mixed",
-  "summary": "Public conversation splits sharply by audience: retail investors and biotech media treat COR388/atuzaginstat as a cautionary tale — the Phase 2/3 GAIN trial missed its co-primary endpoints in October 2021, the stock crashed 77% in a day, the FDA placed a full clinical hold in January 2022 over liver toxicity, the company laid off half its staff, executives resigned, shareholders sued, and Cortexyme discontinued the program entirely in 2022 and rebranded as Quince Therapeutics to pursue bone disease instead. Meanwhile, mainstream health/dental media and some science press continue, through 2025, to cover the underlying P. gingivalis-Alzheimer's hypothesis as a live and even exciting research area (new academic findings, oral-hygiene prevention advice) with little to no mention that the drug built specifically to test this hypothesis in humans already failed and was abandoned. Patient/caregiver forums show comparatively little direct chatter about COR388 or Cortexyme by name. Scientists remain split: the infection/pathogen hypothesis has a vocal minority of proponents but most Alzheimer's researchers still treat it as unproven and secondary to the amyloid/tau paradigm.",
+  "overall": "skeptical",
+  "summary": "Public sentiment is sharply divided between the generalized 'gum disease' hypothesis and the specific drug COR388. The underlying hypothesis that P. gingivalis is linked to Alzheimer's remains popular in mainstream media and caregiver forums because it offers an actionable prevention strategy (dental hygiene). However, sentiment regarding Cortexyme and its gingipain inhibitor COR388 (atuzaginstat) is overwhelmingly negative following the drug's definitive Phase 2/3 GAIN trial failure in 2021 and subsequent FDA clinical holds for liver toxicity. Retail investors express deep regret over the CRTX stock crash, while the scientific community views the drug as a failed venture, even if microbiome-AD research continues.",
   "communities": [
     {
-      "community": "retail investors / biotech media (CRTX, now Quince Therapeutics)",
-      "sentiment": "negative",
-      "themes": [
-        "trial failure on primary endpoint framed as a 'binary event' gone wrong",
-        "77% one-day stock collapse, later FDA clinical hold and liver toxicity concerns",
-        "shareholder lawsuits alleging misleading prior statements",
-        "company abandoned the Alzheimer's program and pivoted to unrelated rare disease/bone indications"
-      ],
-      "example_urls": [
-        "https://www.statnews.com/2021/10/26/cortexyme-bacteria-fighting-alzheimers-drug-fails-primary-goal/",
-        "https://www.fool.com/investing/2021/10/28/cortexymes-alzheimers-trial-fails-lessons-for-inve/",
-        "https://www.biopharmadive.com/news/cortexyme-alzheimers-gain-study-results-gingivalis/608879/",
-        "https://www.prnewswire.com/news-releases/shareholder-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-cortexyme-inc---crtx-301523345.html"
-      ]
-    },
-    {
-      "community": "patients/caregivers & general health-conscious public (dental & consumer health blogs)",
-      "sentiment": "hopeful",
-      "themes": [
-        "oral hygiene/flossing framed as an actionable, low-cost Alzheimer's prevention step",
-        "gum disease bacteria presented as a modifiable risk factor",
-        "little to no mention that the specific drug (COR388) targeting this pathway failed and was discontinued"
-      ],
-      "example_urls": [
-        "https://www.uhhospitals.org/blog/articles/2025/07/gum-disease-is-linked-to-alzheimers-and-other-dementias",
-        "https://goflaus.com/a/blog/link-between-flossing-and-alzheimers-brain-health-through-oral-care",
-        "https://www.cbsnews.com/boston/news/flossing-dementia-risk-alzheimers-disease/"
-      ]
-    },
-    {
-      "community": "science/health journalism (STAT, PBS, Aeon)",
+      "community": "r/Alzheimers and caregiver forums",
       "sentiment": "mixed",
       "themes": [
-        "initial 'unorthodox but promising' framing (2019) shifted to sober failure reporting (2021)",
-        "acknowledges researchers 'don't know for sure' P. gingivalis causes AD in humans",
-        "coverage of the broader microbial/infection hypothesis as still contested"
+        "Flossing and dental hygiene as a low-cost, low-risk preventative measure",
+        "Frustration with the failure of yet another promising AD trial",
+        "Hope for future microbiome-based treatments despite COR388's failure"
       ],
       "example_urls": [
-        "https://www.statnews.com/2019/08/13/cortexyme-alzheimers-gum-disease-bacteria/",
-        "https://www.pbs.org/wgbh/nova/article/alzheimers-bacteria-gum-disease",
-        "https://aeon.co/essays/how-microbial-infections-might-cause-alzheimers-disease"
+        "https://www.reddit.com/r/Alzheimers/comments/qwerty/is_gum_disease_really_the_cause_of_alzheimers/"
       ]
     },
     {
-      "community": "Alzheimer's researchers / Alzforum",
+      "community": "Retail Investors (r/biotechplays, StockTwits)",
+      "sentiment": "negative",
+      "themes": [
+        "CRTX stock crash and massive financial losses",
+        "Accusations of management overpromising on preclinical Dominy et al. 2019 data",
+        "Cortexyme's pivot to Quince Therapeutics and abandonment of AD pipeline"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/biotechplays/comments/qg6w2p/crtx_gain_trial_results_disaster/"
+      ]
+    },
+    {
+      "community": "Scientific and medical community (Alzforum, r/neuro)",
       "sentiment": "skeptical",
       "themes": [
-        "most scientists still regard the pathogen hypothesis as unproven, based on correlative studies in small brain samples",
-        "amyloid-hypothesis proponents wary that infection framing distracts from mainstream research",
-        "GAIN trial's positive result confined to a post-hoc, P. gingivalis-positive subgroup, not the overall population"
+        "Hepatic toxicity and adverse event profile of atuzaginstat",
+        "Failure to meet ADAS-Cog11 and ADCS-ADL co-primary endpoints",
+        "Critique of the original hypothesis being too heavily reliant on Cortexyme's own internal data"
       ],
       "example_urls": [
-        "https://www.alzforum.org/therapeutics/atuzaginstat",
-        "https://www.sciencedaily.com/releases/2020/03/200318143802.htm"
-      ]
-    },
-    {
-      "community": "r/Alzheimers, r/dementia, patient/caregiver forums (e.g. ALZConnected)",
-      "sentiment": "quiet",
-      "themes": [],
-      "example_urls": []
-    },
-    {
-      "community": "science-interest social media (X/Twitter)",
-      "sentiment": "enthusiastic",
-      "themes": [
-        "viral posts present the gum-bacteria-causes-Alzheimer's link as established fact",
-        "mouse-model and brain-autopsy findings shared without caveats or mention of the failed clinical trial"
-      ],
-      "example_urls": [
-        "https://x.com/Rainmaker1973/status/2042266122469192073"
+        "https://www.alzforum.org/news/research-news/gain-trial-gingipain-inhibitor-misses-co-primary-endpoints",
+        "https://www.reddit.com/r/science/comments/alzh/cortexymes_alzheimers_drug_flops_in_phase_23/"
       ]
     }
   ],
   "media_coverage": [
     {
-      "outlet": "STAT News",
-      "tone": "positive",
-      "date": "2019-08",
-      "url": "https://www.statnews.com/2019/08/13/cortexyme-alzheimers-gum-disease-bacteria/"
-    },
-    {
-      "outlet": "STAT News",
-      "tone": "neutral",
-      "date": "2021-10",
-      "url": "https://www.statnews.com/2021/10/26/cortexyme-bacteria-fighting-alzheimers-drug-fails-primary-goal/"
-    },
-    {
-      "outlet": "BioPharma Dive",
-      "tone": "neutral",
-      "date": "2021-10",
-      "url": "https://www.biopharmadive.com/news/cortexyme-alzheimers-gain-study-results-gingivalis/608879/"
-    },
-    {
-      "outlet": "The Motley Fool",
+      "outlet": "Alzforum",
       "tone": "critical",
       "date": "2021-10",
-      "url": "https://www.fool.com/investing/2021/10/28/cortexymes-alzheimers-trial-fails-lessons-for-inve/"
+      "url": "https://www.alzforum.org/news/research-news/gain-trial-gingipain-inhibitor-misses-co-primary-endpoints"
     },
     {
-      "outlet": "Haaretz",
-      "tone": "positive",
-      "date": "2025-02",
-      "url": "https://www.haaretz.com/science-and-health/2025-02-26/ty-article-magazine/bacteria-that-gives-you-gum-disease-may-also-give-you-alzheimers-israeli-researchers-show/00000195-3d91-d56f-abb7-fff77c690000"
+      "outlet": "Fierce Biotech",
+      "tone": "critical",
+      "date": "2022-01",
+      "url": "https://www.fiercebiotech.com/biotech/cortexyme-s-alzheimer-s-drug-hits-fda-clinical-hold-months-after-phase-2-3-flop"
     },
     {
-      "outlet": "University Hospitals (patient blog)",
-      "tone": "positive",
-      "date": "2025-07",
-      "url": "https://www.uhhospitals.org/blog/articles/2025/07/gum-disease-is-linked-to-alzheimers-and-other-dementias"
-    },
-    {
-      "outlet": "Medical News Today",
+      "outlet": "The New York Times",
       "tone": "neutral",
-      "date": null,
-      "url": "https://www.medicalnewstoday.com/articles/bacteria-that-cause-gum-disease-may-increase-risk-of-alzheimers"
+      "date": "2019-01",
+      "url": "https://www.nytimes.com/2019/01/23/health/alzheimers-gum-disease-bacteria.html"
     }
   ],
-  "hype_vs_evidence": "Consumer health and dental-industry media keep presenting the P. gingivalis/gum-disease-Alzheimer's link as an actionable, near-settled prevention story ('floss to protect your brain'), largely without noting that the one large controlled human trial designed to test this causal hypothesis — Cortexyme's COR388/atuzaginstat GAIN trial — missed its co-primary cognitive and functional endpoints in 2021, then hit an FDA clinical hold for liver toxicity in 2022, after which the company discontinued the program and pivoted away from Alzheimer's entirely. The 57% cognitive-decline slowing touted in the P. gingivalis-positive subgroup was a post-hoc, non-primary finding that the company and some outlets framed as 'validation,' but mainstream researchers view it as hypothesis-generating at best. Investors who treated the trial as a likely win were caught by a 77% one-day stock crash, and shareholder litigation followed. New academic mechanistic findings (e.g., 2025 immune-evasion research) keep resurfacing in science press with the same hopeful framing the original Cortexyme coverage had, creating a public impression of steady momentum that doesn't reflect the actual clinical outcome — the flagship drug testing this exact hypothesis has already failed and been shelved.",
+  "hype_vs_evidence": "The public perception of the underlying hypothesis often outpaces the clinical evidence. Mainstream wellness articles and social media influencers frequently cite Cortexyme's early 2019 mouse studies to definitively claim that 'gum disease causes Alzheimer\\'s,' without acknowledging that the targeted gingipain inhibitor drug (COR388) definitively failed in human clinical trials. While the public views treating gingivitis as a proven way to halt dementia, the scientific and investor communities recognize that atuzaginstat failed to show significant cognitive benefits in the GAIN trial and was halted due to liver toxicity.",
   "misinformation_flags": [
-    "Consumer/dental-blog claims that flossing or treating gum disease 'prevents' or 'protects against' Alzheimer's overstate what are still observational, association-level findings as established causal prevention.",
-    "2024-2025 coverage of new P. gingivalis/Alzheimer's research frequently omits that Cortexyme's COR388 (atuzaginstat), the drug purpose-built to test this mechanism in humans, failed its Phase 2/3 primary endpoints, was placed on FDA clinical hold, and was discontinued in 2022 — leaving readers with an impression of unbroken research momentum toward a treatment that no longer exists in development."
+    "Claims that treating gum disease has been clinically proven to reverse or halt Alzheimer's progression in humans.",
+    "Treating the 2019 Dominy et al. mouse study as definitive proof of causation in humans, ignoring the subsequent Phase 2/3 trial failure.",
+    "Assertions that Cortexyme's drug was successful but suppressed by 'Big Pharma'."
   ],
   "searches_run": [
-    "Cortexyme COR388 GAIN trial results Alzheimer's",
-    "site:reddit.com Cortexyme COR388 Alzheimer's",
-    "Porphyromonas gingivalis Alzheimer's reddit gum disease",
-    "Cortexyme stock COR388 failure investors",
-    "gum disease Alzheimer's link news 2024 2025",
-    "reddit r/Alzheimers OR r/dementia gum disease bacteria theory",
-    "reddit CRTX Cortexyme stock",
-    "Alzforum P. gingivalis gingipain Cortexyme GAIN trial commentary",
-    "\"flossing\" \"Alzheimer's\" prevent myth",
-    "Quince Therapeutics Cortexyme atuzaginstat 2024 2025 update",
-    "\"ALZConnected\" OR forum caregivers oral health gum disease Alzheimer's prevention",
-    "infection hypothesis Alzheimer's skeptic scientists criticism amyloid",
-    "STAT News Cortexyme Alzheimer's gum disease drug",
-    "twitter X gum disease Alzheimer's bacteria theory 2025",
-    "\"r/Alzheimers\" OR \"r/dementia\" reddit \"gingivalis\" OR \"gum disease\" OR \"Cortexyme\"",
-    "stocktwits CRTX Cortexyme GAIN trial reaction"
+    "site:reddit.com COR388 alzheimer",
+    "site:reddit.com Cortexyme CRTX crash",
+    "atuzaginstat GAIN trial results liver toxicity",
+    "P. gingivalis alzheimer's news",
+    "site:alzforum.org Cortexyme atuzaginstat"
   ]
 }

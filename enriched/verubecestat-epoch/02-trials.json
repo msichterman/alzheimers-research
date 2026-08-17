@@ -1,0 +1,80 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT01739348",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01739348",
+      "name": "EPOCH",
+      "drug": "Verubecestat (BACE-1 inhibitor)",
+      "phase": "2/3",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "status": "Terminated",
+      "enrollment": 2211,
+      "population": "Mild to Moderate Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline in the Alzheimer's Disease Assessment Scale-Cognitive Subscale (ADAS-Cog) Score and Alzheimer's Disease Cooperative Study-Activities of Daily Living (ADCS-ADL) Score",
+      "started": "2012-11",
+      "completed_or_readout": "2017-04",
+      "results_summary": "The trial was terminated early for futility. Verubecestat failed to improve cognitive or functional decline compared to placebo despite significantly lowering cerebrospinal fluid Aβ levels, and was associated with increased adverse events.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01953601",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01953601",
+      "name": "APECS",
+      "drug": "Verubecestat (BACE-1 inhibitor)",
+      "phase": "3",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "status": "Terminated",
+      "enrollment": 1454,
+      "population": "Prodromal Alzheimer's Disease / Amnestic Mild Cognitive Impairment",
+      "primary_endpoint": "Least Squares Mean (LSM) Change From Baseline in Clinical Dementia Rating Sum of Boxes (CDR-SB) Score at Week 104",
+      "started": "2013-11",
+      "completed_or_readout": "2018-04",
+      "results_summary": "The trial was terminated early for futility, confirming the failure of verubecestat to slow cognitive or functional decline even when administered in an earlier (prodromal) disease stage.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01496170",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01496170",
+      "name": null,
+      "drug": "Verubecestat (BACE-1 inhibitor)",
+      "phase": "1",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "status": "Completed",
+      "enrollment": 32,
+      "population": "Alzheimer's Disease",
+      "primary_endpoint": "Mean population Inhibitory Concentration for 50% Effect (IC50) in cerebral spinal fluid (CSF) ß-amyloid peptide 40 (Aß40)",
+      "started": "2011-12",
+      "completed_or_readout": "2012-06",
+      "results_summary": "Demonstrated successful target engagement by reducing Aß40 in CSF, establishing the pharmacodynamic basis and initial safety profile for the subsequent larger efficacy trials.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2018-05",
+      "kind": "paper",
+      "description": "Primary publication of the EPOCH trial results (NCT01739348) in patients with mild-to-moderate Alzheimer's disease.",
+      "url": "https://doi.org/10.1056/NEJMoa1706441"
+    },
+    {
+      "date": "2019-04-11",
+      "kind": "paper",
+      "description": "Primary publication of the APECS trial results (NCT01953601) evaluating verubecestat in prodromal Alzheimer's disease.",
+      "url": "https://doi.org/10.1056/NEJMoa1812840"
+    },
+    {
+      "date": "2017-02-15",
+      "kind": "news",
+      "description": "BMJ news report on Merck terminating the verubecestat EPOCH trial for Alzheimer's disease due to an independent committee's futility recommendation.",
+      "url": "https://doi.org/10.1136/bmj.j845"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence strongly and conclusively supports the document's central claim regarding the failure of verubecestat in Alzheimer's disease. The reported pivotal Phase 2/3 EPOCH trial (NCT01739348) clearly demonstrated futility and a worse safety profile in mild-to-moderate patients. This finding was further validated by the failure of the related Phase 3 APECS trial (NCT01953601), which tested the drug in prodromal patients but was also terminated early for lack of efficacy. Together, these well-powered, rigorously designed trials prove that while the drug successfully engaged its target (lowering CSF Aβ), BACE-1 inhibition does not translate to clinical benefit at these disease stages. The entire clinical development program for verubecestat has consequently been abandoned.",
+  "discrepancies": [
+    "The document reports 1,958 patients, whereas the ClinicalTrials.gov registry lists 2,211 enrolled for NCT01739348 (likely representing total screened/enrolled vs. those ultimately randomized).",
+    "The document describes the trial simply as a 78-week trial, while the registry clarifies it was structured with a 78-week Part I (Base Study) and a long-term Part II (Extension Study) that was truncated by the early termination."
+  ]
+}

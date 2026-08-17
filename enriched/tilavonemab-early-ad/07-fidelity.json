@@ -1,0 +1,291 @@
+{
+  "id": "tilavonemab-early-ad",
+  "checked_at": "2026-08-13T16:55:18.075Z",
+  "builder_model": "claude (builder subagent)",
+  "critic_model": "gemini-3.1-pro-preview",
+  "fields_compared": 25,
+  "disagreements": 1,
+  "conflicts": 1,
+  "coverage_gaps": 0,
+  "agreement_rate": 0.96,
+  "passed": false,
+  "needs_adjudication": true,
+  "disagreement_rows": [
+    {
+      "field": "study.population",
+      "builder": "Adults aged 55–85 years meeting NIA-AA criteria for mild cognitive impairment or probable Alzheimer's disease, with a CDR global score of 0.5, MMSE 22–30, RBANS-Delayed Memory Index score of <=85, a positive amyloid PET scan and a Modified Hachinski Ischemic Scale score of <=4",
+      "critic": "adults aged 55–85 years who met the National Institute on Aging and the Alzheimer’s Association criteria for mild cognitive impairment or probable Alzheimer’s disease and had a Clinical Dementia Rating (CDR) global score of 0.5 at screening Visit 1, a Mini-Mental State Examination (MMSE) score of 22 to 30, inclusive, at screening Visit 1, and a Repeated Battery for the Assessment of Neuropsychological Status-Delayed Memory Index (RBANS-DMI) score of ≤85; a positive amyloid PET scan; a Modified Hachinski Ischemic Scale score of ≤4",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ],
+  "conflict_rows": [
+    {
+      "field": "study.population",
+      "builder": "Adults aged 55–85 years meeting NIA-AA criteria for mild cognitive impairment or probable Alzheimer's disease, with a CDR global score of 0.5, MMSE 22–30, RBANS-Delayed Memory Index score of <=85, a positive amyloid PET scan and a Modified Hachinski Ischemic Scale score of <=4",
+      "critic": "adults aged 55–85 years who met the National Institute on Aging and the Alzheimer’s Association criteria for mild cognitive impairment or probable Alzheimer’s disease and had a Clinical Dementia Rating (CDR) global score of 0.5 at screening Visit 1, a Mini-Mental State Examination (MMSE) score of 22 to 30, inclusive, at screening Visit 1, and a Repeated Battery for the Assessment of Neuropsychological Status-Delayed Memory Index (RBANS-DMI) score of ≤85; a positive amyloid PET scan; a Modified Hachinski Ischemic Scale score of ≤4",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ],
+  "builder_values_not_found_in_document": [],
+  "critic_values_not_found_in_document": [],
+  "all_rows": [
+    {
+      "field": "study.design",
+      "builder": "Phase 2, multiple-dose, randomized, double-blind, placebo-controlled study conducted at 60 sites in 11 countries",
+      "critic": "phase 2, multiple-dose, randomized, double-blind, placebo-controlled study",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.n",
+      "builder": 453,
+      "critic": 453,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.population",
+      "builder": "Adults aged 55–85 years meeting NIA-AA criteria for mild cognitive impairment or probable Alzheimer's disease, with a CDR global score of 0.5, MMSE 22–30, RBANS-Delayed Memory Index score of <=85, a positive amyloid PET scan and a Modified Hachinski Ischemic Scale score of <=4",
+      "critic": "adults aged 55–85 years who met the National Institute on Aging and the Alzheimer’s Association criteria for mild cognitive impairment or probable Alzheimer’s disease and had a Clinical Dementia Rating (CDR) global score of 0.5 at screening Visit 1, a Mini-Mental State Examination (MMSE) score of 22 to 30, inclusive, at screening Visit 1, and a Repeated Battery for the Assessment of Neuropsychological Status-Delayed Memory Index (RBANS-DMI) score of ≤85; a positive amyloid PET scan; a Modified Hachinski Ischemic Scale score of ≤4",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.comparator",
+      "builder": "Placebo (n = 116) administered by intravenous infusion every 4 weeks",
+      "critic": "placebo",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.followup",
+      "builder": "96-week double-blind treatment period, preceded by a 12-week screening period and followed by a 20-week follow-up after the last study drug administration",
+      "critic": "96-week",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.intervention",
+      "builder": "Tilavonemab 300 mg, 1000 mg or 2000 mg administered by intravenous infusion every 4 weeks",
+      "critic": "one of three tilavonemab doses (300 mg, 1000 mg, 2000 mg) ... administered via intravenous infusion every 4 weeks",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.phase",
+      "builder": "Phase 2",
+      "critic": "phase 2",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "primary_endpoint_status.status",
+      "builder": "not_met",
+      "critic": "not_met",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "multiplicity.approach",
+      "builder": "Bonferroni method to adjust multiplicity, with one-sided testing at the 2.5% significance level, in the powering and testing framework for the primary CDR-SB endpoint; the exploratory hippocampal volume comparisons are explicitly described as being without multiplicity adjustment, and the age subgroup analysis was adjusted for multiple comparisons across the three dose groups",
+      "critic": "Bonferroni method",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].name",
+      "builder": "Change from baseline to Week 96 in Clinical Dementia Rating-Sum of Boxes (CDR-SB) score",
+      "critic": "change from baseline to Week 96 in Clinical Dementia Rating-Sum of Boxes (CDR-SB) score",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].met",
+      "builder": "not_met",
+      "critic": "not_met",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "Least squares mean change from baseline versus placebo at Week 96: 300 mg (n = 85) −0.07; 1000 mg (n = 91) −0.06; 2000 mg (n = 81) 0.16 CDR-SB points",
+      "critic": "0.16",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": "300 mg: 95% CI: −0.83 to 0.69; 1000 mg: 95% CI: −0.81 to 0.68; 2000 mg: 95% CI: −0.60 to 0.93",
+      "critic": "95% CI: −0.60 to 0.93",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].p_value",
+      "builder": "all P ≥ 0.05 (Figure 2: 300 mg P = 0.848; 1000 mg P = 0.869; 2000 mg P = 0.679)",
+      "critic": "P ≥ 0.05",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].multiplicity_controlled",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[ARIA-E].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[ARIA-H].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[symptomatic ARIA].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[macrohemorrhage].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[death].reported",
+      "builder": "reported",
+      "critic": "reported",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[death].counts",
+      "builder": "placebo: 1 | tilavonemab 300 mg: 2 | tilavonemab 1000 mg: 2 | tilavonemab 2000 mg: 1 | all randomized and treated patients (tilavonemab and placebo): 6",
+      "critic": "Placebo: 1 | Tilavonemab 300 mg: 2 | Tilavonemab 1000 mg: 2 | Tilavonemab 2000 mg: 1",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.apoe_stratification_reported",
+      "builder": false,
+      "critic": false,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[Change from baseline to Week 96 in Clinical Dementia Rating-Sum of Boxes (CDR-SB) score].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change from baseline to Week 96 in Clinical Dementia Rating-Sum of Boxes (CDR-SB) score].tier",
+      "builder": "primary",
+      "critic": "primary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ]
+}

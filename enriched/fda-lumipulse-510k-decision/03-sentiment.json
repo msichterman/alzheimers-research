@@ -1,0 +1,69 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment surrounding the FDA clearance of Fujirebio's Lumipulse G pTau217/Aβ42 plasma assay is broadly mixed, balancing scientific optimism with patient anxiety. Science and medical communities celebrate the test as a major diagnostic milestone that makes screening far more accessible than PET scans or lumbar punctures. Retail investors have closely tracked the clearance as a strong market catalyst for the diagnostics and biotech sectors. However, patients and caregivers express significant confusion and distress over interpreting complex biomarker scores, often conflating amyloid pathology risk with an immediate clinical dementia diagnosis. Additionally, some public commenters display skepticism about the test's utility given the perceived lack of highly effective, widely accessible disease-modifying therapies.",
+  "communities": [
+    {
+      "community": "Patients & Caregivers (r/Alzheimers, r/dementia, r/AskDocs)",
+      "sentiment": "mixed",
+      "themes": [
+        "Anxiety over interpreting high biomarker numbers",
+        "Confusion about the need for follow-up PET scans",
+        "Fear of early-onset disease based on asymptomatic screening"
+      ],
+      "example_urls": [
+        "https://reddit.com/r/Alzheimers/comments/1j8r8xw/46_yo_male_with_ead/",
+        "https://reddit.com/r/dementia/comments/1jvgd9x/_/mmkv9b7/"
+      ]
+    },
+    {
+      "community": "Science & Medical Observers (r/genetics, Hacker News)",
+      "sentiment": "hopeful",
+      "themes": [
+        "Celebration of accessible, blood-based diagnostic tools",
+        "Debates regarding the efficacy of current pharmacological treatments",
+        "Comparisons of blood markers versus CSF reliability"
+      ],
+      "example_urls": [
+        "https://reddit.com/r/genetics/comments/1kpti1q/first_blood_test_for_alzheimers_diagnosis_cleared/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11351463/"
+      ]
+    },
+    {
+      "community": "Retail Investors (r/MarketFluxHub, r/Quantisnow)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Market opportunities for diagnostic companies",
+        "Tracking clinical trial screening progress using pTau217"
+      ],
+      "example_urls": [
+        "https://reddit.com/r/MarketFluxHub/comments/1kp39i0/the_daily_market_flux_your_complete_market/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "STAT News",
+      "tone": "positive",
+      "date": "2025-05",
+      "url": "https://www.statnews.com/2025/05/16/alzheimers-fujirebio-fda-approval/"
+    },
+    {
+      "outlet": "Nature",
+      "tone": "positive",
+      "date": "2026-05",
+      "url": "https://www.nature.com/articles/s41591-026-04206-y"
+    }
+  ],
+  "hype_vs_evidence": "Public perception heavily leans toward viewing the Lumipulse blood test as a definitive, standalone diagnostic tool for Alzheimer's disease. In reality, the FDA cleared it as an in vitro diagnostic for assessing amyloid pathology, which must be combined with cognitive evaluations and potentially confirmatory PET scans to form a diagnosis. There is also a notable gap between the excitement of accessible screening and the clinical reality that early detection currently offers limited therapeutic options. Many caregivers report panicking over high pTau217 numbers in asymptomatic individuals, misunderstanding that the test indicates pathological risk rather than imminent cognitive failure.",
+  "misinformation_flags": [
+    "A positive Lumipulse pTau217/Aβ42 blood test alone is sufficient to diagnose Alzheimer's disease without cognitive evaluation.",
+    "Blood biomarker values map identically to cerebrospinal fluid (CSF) values."
+  ],
+  "searches_run": [
+    "site:reddit.com Lumipulse Alzheimer's blood test",
+    "pTau217 blood test Alzheimer's news",
+    "Fujirebio Lumipulse",
+    "pTau217 blood test",
+    "Lumipulse FDA"
+  ]
+}

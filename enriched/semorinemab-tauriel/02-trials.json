@@ -1,0 +1,65 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT03289143",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03289143",
+      "name": "Tauriel",
+      "drug": "semorinemab (N-terminal anti-tau monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Genentech, Inc.",
+      "status": "Terminated",
+      "enrollment": 457,
+      "population": "Patients With Prodromal to Mild Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline on the CDR-SB",
+      "started": "2017-10",
+      "completed_or_readout": "2021-01",
+      "results_summary": "Failed to show any evidence of clinical efficacy or modulation of tau PET signal accumulation at any dose. The trial was terminated during the open-label extension period due to this lack of efficacy.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03828747",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03828747",
+      "name": "Lauriet",
+      "drug": "semorinemab (N-terminal anti-tau monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Genentech, Inc.",
+      "status": "Completed",
+      "enrollment": 272,
+      "population": "Patients With Moderate Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline to Last Visit of Double-Blind Treatment Period in Cognitive Function as Measured by the Alzheimer's Disease Assessment Scale, Cognitive Subscale, 11-Item Version (ADAS-Cog11)",
+      "started": "2019-01",
+      "completed_or_readout": "2021-07",
+      "results_summary": "The trial was formally negative on its coprimary endpoints. While it showed a significant slowing of cognitive decline on the ADAS-Cog11, it failed to demonstrate any benefit on the functional coprimary endpoint (ADCS-ADL) or secondary endpoints.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02820896",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02820896",
+      "name": null,
+      "drug": "RO7105705 / semorinemab",
+      "phase": "1",
+      "sponsor": "Genentech, Inc.",
+      "status": "Completed",
+      "enrollment": 74,
+      "population": "Healthy Participants and Participants With Mild-to-Moderate Alzheimer's Disease",
+      "primary_endpoint": "Number of Participants with Adverse Events",
+      "started": "2016-06",
+      "completed_or_readout": "2017-06",
+      "results_summary": "Established initial safety, tolerability, and pharmacokinetics of semorinemab to support progression to Phase 2 trials.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2023-08-29",
+      "kind": "paper",
+      "description": "Publication of the Phase 2 Lauriet trial results demonstrating semorinemab failed to slow functional decline in mild-to-moderate AD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37643887/"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence for the document's central claim—that semorinemab is safe but clinically ineffective at slowing Alzheimer's disease progression—is strong and definitive. The Phase 2 Tauriel trial failed completely on both primary cognitive/functional outcomes and secondary tau PET biomarkers, leading to the premature termination of its open-label extension. A parallel Phase 2 trial (Lauriet) in a mild-to-moderate population was also formally negative, missing its functional coprimary endpoint despite showing a modest cognitive signal. Genentech has subsequently discontinued clinical development of the drug.",
+  "discrepancies": []
+}

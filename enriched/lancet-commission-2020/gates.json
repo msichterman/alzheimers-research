@@ -1,0 +1,24 @@
+{
+  "id": "lancet-commission-2020",
+  "cluster": "prevention",
+  "checked_at": "2026-08-13T17:02:33.028Z",
+  "passed": false,
+  "text_sufficiency": {
+    "level": "full-text",
+    "chars": 129511,
+    "sections": []
+  },
+  "evidence_completeness": "full-text-oa",
+  "failures": [
+    {
+      "gate": "fidelity",
+      "detail": "8 conflict(s) reached no adjudicator ruling: study.population (no adjudicator ruling for this conflict); outcomes[primary].name (no adjudicator ruling for this conflict); outcomes[primary].met (no adjudicator ruling for this conflict)"
+    },
+    {
+      "gate": "fidelity",
+      "detail": "the two extractions disagree on whether the document reports: study.n"
+    }
+  ],
+  "warnings": [],
+  "manifest_discrepancies": []
+}

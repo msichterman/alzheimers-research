@@ -1,0 +1,9 @@
+{
+  "id": "lancet-commission-2024",
+  "source": "sources/lancet-commission-2024.pdf",
+  "sha256": "4c4b96385049365cfba429395bd779d625897161a42475a121bb9f58baa27d38",
+  "bytes": 144880,
+  "chars": 4132,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:11.069Z"
+}

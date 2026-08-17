@@ -1,0 +1,73 @@
+{
+  "overall": "hopeful",
+  "summary": "Public sentiment surrounding plasma Aβ42/Aβ40 blood tests is overwhelmingly hopeful, viewed as a revolutionary shift away from invasive lumbar punctures and expensive PET scans. News media and investors are highly enthusiastic about commercialization (like C2N's PrecivityAD and Quest's panels) and the potential to speed up clinical trials. Scientists agree on the test's robust performance, particularly when utilizing mass spectrometry over standard ELISAs, but debate the nuances of combining it with other markers like p-tau217. Meanwhile, patients and caregivers who are actually utilizing these tests express a mix of hope and significant confusion, often struggling to interpret complex ratio cutoffs and amyloid probability scores.",
+  "communities": [
+    {
+      "community": "Patients and Caregivers (r/Alzheimers, r/dementia)",
+      "sentiment": "mixed",
+      "themes": [
+        "Relief over avoiding invasive and expensive diagnostic procedures",
+        "Deep confusion regarding how to interpret Aβ42/Aβ40 ratios and Amyloid Probability Scores (APS)",
+        "Anxiety upon receiving high-probability results without clear guidance on disease timeline"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/comments/17wdz9l/our_amyloid_test_came_back_a_95_does_anyone_know/",
+        "https://www.reddit.com/r/Alzheimers/comments/1drqhoy/understanding_amyloid_beta_4240_ratio/",
+        "https://www.reddit.com/r/Alzheimers/comments/16vt9n1/the_new_quest_blood_panel/"
+      ]
+    },
+    {
+      "community": "Scientists and Clinicians (Alzforum)",
+      "sentiment": "hopeful",
+      "themes": [
+        "Praise for the accuracy of mass spec assays over traditional ELISAs",
+        "Ongoing debate about whether p-tau217 outperforms or should be combined with Aβ42/Aβ40",
+        "Caution that plasma amyloid variations are miniscule compared to CSF, requiring ultra-precise assays"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/research-news/side-side-test-8-blood-av-assays-mass-spec-shines",
+        "https://www.alzforum.org/news/conference-coverage/finally-blood-test-alzheimers"
+      ]
+    },
+    {
+      "community": "Retail Investors and Biotech Enthusiasts",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Excitement over FDA Fast Track/Breakthrough Device designations for C2N Diagnostics",
+        "Anticipation of widespread primary care adoption and massive total addressable market",
+        "Optimism for reduced costs and faster enrollment in future Alzheimer's drug clinical trials"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/StLouis/comments/1b8xpxp/st_louis_firm_with_blood_test_for_alzheimers/",
+        "https://www.reddit.com/r/longevity/comments/am8gnr/st_louisbased_c2n_announced_this_week_that_the/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "The New York Times",
+      "tone": "positive",
+      "date": "2026-08",
+      "url": "https://www.nytimes.com/2026/08/12/well/mind/alzheimers-disease-blood-tests-prediction.html"
+    },
+    {
+      "outlet": "Yahoo Health",
+      "tone": "neutral",
+      "date": "2026-08",
+      "url": "https://health.yahoo.com/conditions/neurological/alzheimers-disease/articles/alzheimer-blood-test-guide-2026-210000037.html"
+    }
+  ],
+  "hype_vs_evidence": "Public perception frequently conflates the detection of amyloid plaques with a definitive diagnosis of clinical Alzheimer's disease, failing to recognize that many amyloid-positive individuals never develop dementia. While Ovod et al. proved that plasma Aβ42/Aβ40 ratios accurately reflect CNS amyloidosis (AUC = 0.8865), media and public chatter sometimes exaggerate this into a test that can 'predict Alzheimer's 20 years in advance with certainty'. Furthermore, patients assume all blood tests on the market are identical in quality, despite evidence that mass spectrometry methods (like SILK-derived assays) significantly outperform standard immunoassays.",
+  "misinformation_flags": [
+    "A high score on an amyloid blood test (like a PrecivityAD APS of 95) means a patient has a 95% chance of developing dementia (it actually indicates a 95% probability of brain amyloid plaques, not clinical symptoms).",
+    "The blood test can predict Alzheimer's disease up to 20 years in advance with near 100% certainty.",
+    "All commercial Aβ42/Aβ40 blood tests utilize the same technology and offer identical accuracy."
+  ],
+  "searches_run": [
+    "site:reddit.com/r/dementia OR site:reddit.com/r/Alzheimers \"blood test\" amyloid",
+    "Alzheimer's \"blood test\" amyloid \"Aβ42/Aβ40\" news 2026",
+    "site:alzforum.org plasma \"Aβ42/Aβ40\" blood test",
+    "site:reddit.com PrecivityAD C2N blood test alzheimer's",
+    "site:reddit.com alzheimer stock blood test"
+  ]
+}

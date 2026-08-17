@@ -1,0 +1,262 @@
+{
+  "generated_at": "2026-08-13T16:49:39.859Z",
+  "report": [
+    {
+      "id": "lecanemab-clarity-ad",
+      "applied": true,
+      "doi": "10.1056/nejmoa2212948",
+      "crossref_title": "Lecanemab in Early Alzheimer’s Disease",
+      "similarity": 1,
+      "urls": [
+        "https://digitalcommons.wustl.edu/oa_4/2191"
+      ],
+      "rejected_urls": [],
+      "pmid": null,
+      "pmcid": null,
+      "nct": []
+    },
+    {
+      "id": "donanemab-trailblazer-alz-phase-2",
+      "applied": false,
+      "reason": "lead DOI (none) did not resolve at Crossref"
+    },
+    {
+      "id": "aducanumab-emerge-engage",
+      "applied": false,
+      "reason": "lead DOI (none) did not resolve at Crossref"
+    },
+    {
+      "id": "aducanumab-phase-1b-prime",
+      "applied": true,
+      "doi": "10.1038/nature19323",
+      "crossref_title": "The antibody aducanumab reduces Aβ plaques in Alzheimer’s disease",
+      "similarity": 1,
+      "urls": [],
+      "rejected_urls": [],
+      "pmid": null,
+      "pmcid": null,
+      "nct": []
+    },
+    {
+      "id": "solanezumab-expedition",
+      "applied": false,
+      "reason": "lead DOI (none) did not resolve at Crossref"
+    },
+    {
+      "id": "semaglutide-evoke",
+      "applied": false,
+      "reason": "lead DOI (none) did not resolve at Crossref"
+    },
+    {
+      "id": "ema-leqembi-epar",
+      "applied": false,
+      "reason": "lead DOI (none) did not resolve at Crossref"
+    },
+    {
+      "id": "aadvac1-adamant",
+      "applied": true,
+      "doi": "10.1038/s43587-021-00070-2",
+      "crossref_title": "ADAMANT: a placebo-controlled randomized phase 2 study of AADvac1, an active immunotherapy against pathological tau in Alzheimer’s disease",
+      "similarity": 1,
+      "urls": [],
+      "rejected_urls": [],
+      "pmid": null,
+      "pmcid": null,
+      "nct": []
+    },
+    {
+      "id": "bepranemab-together",
+      "applied": true,
+      "doi": "10.1002/alz70859_099279",
+      "crossref_title": "Tau positron emission tomography results from TOGETHER, a double‐blind, placebo‐controlled Phase II study of bepranemab in prodromal–mild Alzheimer’s disease",
+      "similarity": 1,
+      "urls": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12739807/",
+        "https://europepmc.org/article/PMC/PMC12739807"
+      ],
+      "rejected_urls": [],
+      "pmid": null,
+      "pmcid": null,
+      "nct": []
+    },
+    {
+      "id": "al002-invoke-2",
+      "applied": true,
+      "doi": "10.1038/s41591-026-04273-1",
+      "crossref_title": "The TREM2 agonistic antibody AL002 in early Alzheimer’s disease: a phase 2 randomized trial",
+      "similarity": 1,
+      "urls": [],
+      "rejected_urls": [],
+      "pmid": null,
+      "pmcid": null,
+      "nct": []
+    },
+    {
+      "id": "disease-associated-microglia",
+      "applied": false,
+      "reason": "lead DOI (none) did not resolve at Crossref"
+    },
+    {
+      "id": "kunkle-2019-gwas",
+      "applied": true,
+      "doi": "10.1038/s41588-019-0358-2",
+      "crossref_title": "Genetic meta-analysis of diagnosed Alzheimer’s disease identifies new risk loci and implicates Aβ, tau, immunity and lipid processing",
+      "similarity": 1,
+      "urls": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6463297/",
+        "https://europepmc.org/article/pmc/pmc6463297"
+      ],
+      "rejected_urls": [],
+      "pmid": null,
+      "pmcid": null,
+      "nct": []
+    },
+    {
+      "id": "shade-2024-neuropathology-gwas",
+      "applied": true,
+      "doi": "10.1038/s41588-024-01939-9",
+      "crossref_title": "GWAS of multiple neuropathology endophenotypes identifies new risk loci and provides insights into the genetic risk of dementia",
+      "similarity": 1,
+      "urls": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11549054/",
+        "https://europepmc.org/article/PMC/PMC11549054"
+      ],
+      "rejected_urls": [],
+      "pmid": null,
+      "pmcid": null,
+      "nct": []
+    },
+    {
+      "id": "app-a673t-protection",
+      "applied": true,
+      "doi": "10.1038/nature11283",
+      "crossref_title": "A mutation in APP protects against Alzheimer’s disease and age-related cognitive decline",
+      "similarity": 1,
+      "urls": [],
+      "rejected_urls": [],
+      "pmid": null,
+      "pmcid": null,
+      "nct": []
+    },
+    {
+      "id": "app-a673t-mechanism",
+      "applied": true,
+      "doi": "10.1074/jbc.m114.589069",
+      "crossref_title": "Molecular Mechanisms of Alzheimer Disease Protection by the A673T Allele of Amyloid Precursor Protein",
+      "similarity": 1,
+      "urls": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4223305/",
+        "https://europepmc.org/article/pmc/pmc4223305",
+        "https://doi.org/10.1074/jbc.M114.589069"
+      ],
+      "rejected_urls": [],
+      "pmid": "25253696",
+      "pmcid": "PMC4223305",
+      "nct": []
+    },
+    {
+      "id": "asc-specks-cross-seed",
+      "applied": false,
+      "reason": "lead DOI (none) did not resolve at Crossref"
+    },
+    {
+      "id": "nlrp3-heneka-2013",
+      "applied": true,
+      "doi": "10.1038/nature11729",
+      "crossref_title": "NLRP3 is activated in Alzheimer’s disease and contributes to pathology in APP/PS1 mice",
+      "similarity": 1,
+      "urls": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3812809/",
+        "https://europepmc.org/article/pmc/pmc3812809",
+        "https://hdl.handle.net/10993/61000"
+      ],
+      "rejected_urls": [],
+      "pmid": "23254930",
+      "pmcid": "PMC3812809",
+      "nct": []
+    },
+    {
+      "id": "janelidze-2020-ptau181",
+      "applied": true,
+      "doi": "10.1038/s41591-020-0755-1",
+      "crossref_title": "Plasma P-tau181 in Alzheimer’s disease: relationship to other biomarkers, differential diagnosis, neuropathology and longitudinal progression to Alzheimer’s dementia",
+      "similarity": 1,
+      "urls": [],
+      "rejected_urls": [],
+      "pmid": null,
+      "pmcid": null,
+      "nct": []
+    },
+    {
+      "id": "schindler-2019-plasma-abeta",
+      "applied": true,
+      "doi": "10.1212/wnl.0000000000008081",
+      "crossref_title": "High-precision plasma β-amyloid 42/40 predicts current and future brain amyloidosis",
+      "similarity": 1,
+      "urls": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6946467/",
+        "https://europepmc.org/article/pmc/pmc6946467"
+      ],
+      "rejected_urls": [],
+      "pmid": null,
+      "pmcid": null,
+      "nct": []
+    },
+    {
+      "id": "nakamura-2018-plasma-amyloid",
+      "applied": true,
+      "doi": "10.1038/nature25456",
+      "crossref_title": "High performance plasma amyloid-β biomarkers for Alzheimer’s disease",
+      "similarity": 1,
+      "urls": [],
+      "rejected_urls": [],
+      "pmid": null,
+      "pmcid": null,
+      "nct": []
+    },
+    {
+      "id": "mapt-trial",
+      "applied": true,
+      "doi": "10.1016/s1474-4422(17)30040-6",
+      "crossref_title": "Effect of long-term omega 3 polyunsaturated fatty acid supplementation with or without multidomain intervention on cognitive function in elderly adults with memory complaints (MAPT): a randomised, placebo-controlled trial",
+      "similarity": 1,
+      "urls": [],
+      "rejected_urls": [],
+      "pmid": null,
+      "pmcid": null,
+      "nct": []
+    },
+    {
+      "id": "lancet-commission-2024",
+      "applied": true,
+      "doi": "10.1016/s0140-6736(24)01296-0",
+      "crossref_title": "Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission",
+      "similarity": 1,
+      "urls": [
+        "https://www.thelancet.com/action/showPdf?pii=S0140-6736(24)01296-0",
+        "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)01296-0/fulltext"
+      ],
+      "rejected_urls": [],
+      "pmid": null,
+      "pmcid": null,
+      "nct": []
+    },
+    {
+      "id": "mendes-2025-network-meta-analysis",
+      "applied": false,
+      "reason": "lead DOI (none) did not resolve at Crossref"
+    },
+    {
+      "id": "karran-de-strooper-amyloid-hypothesis",
+      "applied": true,
+      "doi": "10.1038/s41573-022-00391-w",
+      "crossref_title": "The amyloid hypothesis in Alzheimer disease: new insights from new therapeutics",
+      "similarity": 1,
+      "urls": [],
+      "rejected_urls": [],
+      "pmid": "35177833",
+      "pmcid": null,
+      "nct": []
+    }
+  ]
+}

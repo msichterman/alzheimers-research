@@ -1,0 +1,95 @@
+{
+  "fact_check": [
+    {
+      "fact": "Trial enrolled 466 participants with prodromal to mild AD",
+      "status": "verified",
+      "note": "Checked against source document registry data (Enrollment: 466 ACTUAL)."
+    },
+    {
+      "fact": "Primary completion was May 2024, study completed August 2025",
+      "status": "verified",
+      "note": "Checked against source document (Primary completion: 2024-05-24, Completion: 2025-08-01)."
+    },
+    {
+      "fact": "Bepranemab slowed tau accumulation by 33-58% versus placebo on tau-PET",
+      "status": "unverified",
+      "note": "The source document is a registry record with no results posted. This claim relies entirely on the trials researcher's external context from December 2025 conference abstracts."
+    },
+    {
+      "fact": "Trial failed primary clinical endpoint and Roche terminated partnership",
+      "status": "unverified",
+      "note": "The source document contains no results or business updates. This relies on the sentiment and trials researchers' external reporting."
+    }
+  ],
+  "research_page": {
+    "slug": "bepranemab-together-phase-2",
+    "title": "Bepranemab TOGETHER trial in early AD (Phase 2)",
+    "description": "Registry record and early external readouts for a Phase 2 trial of the anti-tau antibody bepranemab in prodromal to mild Alzheimer's disease.",
+    "tags": [
+      "trial-registry",
+      "tau",
+      "immunotherapy",
+      "bepranemab"
+    ],
+    "source_line_md": "**Source**: [ClinicalTrials.gov, 2021](https://clinicaltrials.gov/study/NCT04867616)",
+    "authors_line_md": "UCB Biopharma SRL",
+    "takeaway_md": "The Phase 2 TOGETHER trial tested the anti-tau monoclonal antibody bepranemab in 466 patients with early Alzheimer's disease. While full peer-reviewed results are not yet in the registry, conference abstracts and media reports indicate the drug successfully slowed tau accumulation but missed its primary clinical efficacy endpoint (CDR-SB) in the overall cohort. This led to the termination of a major pharmaceutical partnership, leaving only a narrow window of optimism for specific subgroups.",
+    "key_findings_md": [
+      "Enrolled 466 adults aged 50 to 80 with prodromal to mild AD and confirmed amyloid accumulation (source document).",
+      "Slowed tau accumulation by 33-58% versus placebo on tau-PET, according to December 2025 conference abstracts (trials researcher).",
+      "Failed to demonstrate broad clinical efficacy on the primary CDR-SB endpoint in the overall cohort (sentiment and trials researchers).",
+      "Post-hoc exposure-response modeling suggested potential clinical benefit in a subpopulation of low-tau, APOE4 non-carriers (trials researcher)."
+    ],
+    "methods_md": "A Phase 2, quadruple-blind, placebo-controlled trial (NCT04867616) that randomized 466 participants to receive one of two doses of bepranemab or placebo. The double-blind treatment period lasted 80 weeks, followed by an open-label extension. The primary endpoint was the change in Clinical Dementia Rating Scale Sum of Boxes (CDR-SB) score at Week 80.",
+    "trial_evidence_md": "This document is the primary registry record for the pivotal [TOGETHER (NCT04867616)](/trials/bepranemab-nct04867616) trial. Although the registry itself contains no results, external abstracts indicate the trial demonstrated strong target engagement (lowering tau) but failed to show broad clinical efficacy. This aligns bepranemab with a growing list of anti-tau therapies that clear tangles without immediately translating to cognitive stabilization.",
+    "sentiment_md": "Public and investor sentiment is largely negative or highly skeptical following the trial's failure to meet its broad clinical endpoints. Biotech media focused heavily on partner Roche terminating its $2 billion licensing deal in late 2024. Mainstream patient communities remain largely unaware of the drug, though some scientific commentators maintain cautious optimism about the drug's clear ability to clear tau and its potential in low-tau subgroups.",
+    "caveats_md": [
+      "The source document is a trial registry record without posted results; all clinical outcome data currently relies on conference abstracts and external media reports.",
+      "The reported clinical benefits are derived from post-hoc modeling of a specific subpopulation (low-tau, APOE4 non-carriers), which carries a high risk of statistical noise and requires prospective validation."
+    ],
+    "relates_to_md": [
+      "[Biomarkers](/research/biomarkers) — demonstrates discordance between successful biomarker changes (tau-PET) and clinical outcomes (CDR-SB).",
+      "[TOGETHER trial](/trials/bepranemab-nct04867616) — the main trial record."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "bepranemab-nct04867616",
+      "title": "TOGETHER (Bepranemab Phase 2)",
+      "description": "Phase 2 trial of the anti-tau monoclonal antibody bepranemab in prodromal to mild Alzheimer's disease.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "tau",
+        "phase-2",
+        "bepranemab"
+      ],
+      "registry_md": "[NCT04867616](https://clinicaltrials.gov/study/NCT04867616)",
+      "drug": "bepranemab (anti-tau monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "UCB Biopharma SRL",
+      "population": "466 adults aged 50 to 80 with prodromal/mild cognitive impairment due to AD or mild AD, and evidence of cerebral amyloid.",
+      "primary_endpoint": "Change from Baseline to Week 80 in CDR-SB",
+      "started": "2021-06",
+      "readout": "2025-08",
+      "why_md": "This trial tested whether clearing tau tangles with bepranemab could slow cognitive decline in early Alzheimer's disease. It adds to the complex [Biomarkers](/research/biomarkers) picture by successfully engaging its target (reducing tau accumulation) without producing a broad clinical benefit.",
+      "status_log_md": [
+        "**2021-06-09** — Trial begins enrollment ([ClinicalTrials.gov](https://clinicaltrials.gov/study/NCT04867616)).",
+        "**2025-08-01** — Trial reaches overall completion ([ClinicalTrials.gov](https://clinicaltrials.gov/study/NCT04867616)).",
+        "**2025-12-01** — Conference abstracts report robust tau slowing (33-58%) but indicate a miss on the broad primary clinical endpoint, leading to reliance on subpopulation modeling for clinical benefit (external reports)."
+      ],
+      "results_md": "No results are currently posted to the official registry. External conference abstracts indicate that while bepranemab successfully slowed tau accumulation by 33-58% versus placebo, the trial did not demonstrate a clear clinical benefit (CDR-SB) in the broad patient cohort. Post-hoc modeling suggested potential benefits for a subgroup of low-tau, APOE4 non-carriers."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Clinical trials",
+      "date": "2025-12",
+      "title": "2025-12 — Bepranemab Phase 2 trial misses broad clinical endpoint",
+      "body_md": "The Phase 2 TOGETHER trial of the anti-tau antibody bepranemab showed robust tau clearance but failed to slow cognitive decline in its overall cohort, leading partner Roche to exit the program. [Read the analysis](/research/papers/bepranemab-together-phase-2)."
+    }
+  ],
+  "notes_for_editor": [
+    "The source document is purely a registry record without results, so the researchers' claims about the trial's clinical failure, the 33-58% tau reduction, and Roche's partnership exit were pulled from their external context. I have marked these as unverified against the immediate source text but included them with appropriate caveats."
+  ]
+}

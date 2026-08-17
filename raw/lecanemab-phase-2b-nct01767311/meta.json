@@ -1,0 +1,9 @@
+{
+  "id": "lecanemab-phase-2b-nct01767311",
+  "source": "sources/lecanemab-phase-2b-nct01767311.json",
+  "sha256": "6324396bb8433aebef359ddae447b7880705e2d64fccabf0372cbda1c783d217",
+  "bytes": 291215,
+  "chars": 65281,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:11.075Z"
+}

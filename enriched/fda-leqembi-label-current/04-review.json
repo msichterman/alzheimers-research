@@ -1,0 +1,87 @@
+{
+  "fact_check": [
+    {
+      "fact": "Study 2 (Clarity AD) enrolled 1,795 patients.",
+      "status": "verified",
+      "note": "Document explicitly states '1795 patients were enrolled and randomized'. The clinical-trials researcher's note of 1,906 refers to the total registry enrollment, while 1,795 is the analyzed population."
+    },
+    {
+      "fact": "Lecanemab slowed clinical decline by 27% (-0.45 CDR-SB).",
+      "status": "verified",
+      "note": "Checked against Section 14 (Table 10) of the prescribing information."
+    },
+    {
+      "fact": "ARIA occurred in 45% of ApoE4 homozygotes vs 13% in noncarriers.",
+      "status": "verified",
+      "note": "Checked against Section 5.1 (Incidence of ARIA)."
+    }
+  ],
+  "research_page": {
+    "slug": "leqembi-fda-label-2026",
+    "title": "LEQEMBI (lecanemab) Prescribing Information (Jan 2026)",
+    "description": "Official FDA prescribing information for lecanemab, including the 2026 addition of a subcutaneous autoinjector maintenance option.",
+    "tags": [
+      "fda-label",
+      "lecanemab",
+      "amyloid",
+      "immunotherapy"
+    ],
+    "source_line_md": "**Source**: [U.S. Food and Drug Administration (FDA), 2026](https://www.fda.gov/medwatch)",
+    "authors_line_md": "Eisai Inc. and Biogen",
+    "takeaway_md": "Lecanemab is an anti-amyloid monoclonal antibody approved for mild cognitive impairment or mild dementia stage Alzheimer's. It clears brain amyloid and slowed clinical decline by 27% on the CDR-SB over 18 months. The January 2026 label update adds a weekly subcutaneous maintenance autoinjector, though it retains strict boxed warnings for ARIA and requires ApoE4 testing.",
+    "key_findings_md": [
+      "Slowed clinical decline by 27% (-0.45 points) on the CDR-SB over 18 months compared to placebo (Section 14, Table 10).",
+      "Reduced amyloid beta plaque to less than 30 Centiloids in 67% of patients by week 79 (Section 12.2).",
+      "ARIA occurred in 21% of treated patients, with ApoE4 homozygotes facing a 45% incidence rate compared to 19% in heterozygotes and 13% in noncarriers (Section 5.1)."
+    ],
+    "methods_md": "Information based on two double-blind, placebo-controlled trials: Study 1 (Phase 2, N=856) and Study 2 (Phase 3, N=1795). Patients had mild cognitive impairment or mild dementia with confirmed amyloid pathology.",
+    "trial_evidence_md": "Lecanemab's efficacy is established by the pivotal Phase 3 Clarity AD trial ([NCT03887455](/trials/lecanemab-clarity-ad)) and the Phase 2b Study 201 ([NCT01767311](/research/papers/lecanemab-phase-2b)). Both trials demonstrated robust amyloid clearance and modest cognitive benefit. A minor discrepancy exists between the FDA label stating 1,795 randomized patients for Study 2 and the registry's 1,906 total enrollment, which simply reflects the modified intention-to-treat analysis population. The subcutaneous dosing option was evaluated separately in a Phase 1 bioequivalence study ([NCT05533801](https://clinicaltrials.gov/study/NCT05533801)) and open-label cohorts, rather than in the core 18-month placebo-controlled trials.",
+    "sentiment_md": "Public perception is divided. Patients and caregivers heavily favor the new subcutaneous IQLIK autoinjector for its convenience over bi-weekly IV infusions. However, clinicians continue to debate the clinical meaningfulness of a 0.45 CDR-SB benefit, and high-profile safety concerns regarding ARIA—particularly for APOE4 homozygotes—dominate scientific discussions. Misinformation also persists, with some public factions mistakenly believing the drug is a cure or that the subcutaneous option eliminates the need for intensive MRI monitoring.",
+    "caveats_md": [
+      "While the subcutaneous autoinjector offers convenience, its clinical efficacy relies on pharmacokinetic modeling and open-label extensions rather than long-term, placebo-controlled data.",
+      "Although lecanemab clears amyloid in ApoE4 homozygotes, exploratory analyses showed no significant clinical benefit on the primary endpoint for this highest-risk subgroup.",
+      "Use of antithrombotic or thrombolytic medications increases the risk of severe intracerebral hemorrhage."
+    ],
+    "relates_to_md": [
+      "[Lecanemab Phase 2b](/research/papers/lecanemab-phase-2b) — The proof-of-concept trial (Study 201) that informed the Phase 3 dosing strategy.",
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — The foundational theory that lecanemab targets by clearing amyloid plaques."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "lecanemab-clarity-ad",
+      "title": "Clarity AD (Lecanemab Phase 3)",
+      "description": "Pivotal Phase 3 trial evaluating lecanemab in early Alzheimer's disease with confirmed amyloid pathology.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "lecanemab",
+        "phase-3"
+      ],
+      "registry_md": "[NCT03887455](https://clinicaltrials.gov/study/NCT03887455)",
+      "drug": "Lecanemab (anti-Aβ protofibril antibody)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "population": "Early Alzheimer's disease (MCI or mild dementia) with confirmed amyloid pathology",
+      "primary_endpoint": "Change from baseline in CDR-SB at 18 months",
+      "started": "2019-03",
+      "readout": "2029-06",
+      "why_md": "Clarity AD serves as the pivotal confirmatory trial for lecanemab, testing whether clearing amyloid protofibrils translates to a measurable slowing of cognitive decline. It established the clinical dataset used for full FDA approval.",
+      "status_log_md": [
+        "**2023-01-05** — Phase 3 primary results published in NEJM showing a 27% slowing of clinical decline."
+      ],
+      "results_md": "Lecanemab met its primary endpoint, slowing cognitive and functional decline by 27% (-0.45 points on the CDR-SB) over 18 months. It significantly reduced amyloid burden, but increased the risk of Amyloid Related Imaging Abnormalities (ARIA), especially in APOE4 homozygotes."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2026-01",
+      "title": "2026-01 — FDA approves subcutaneous Leqembi autoinjector",
+      "body_md": "The FDA updated the [Leqembi prescribing information](/research/papers/leqembi-fda-label-2026) to include a weekly subcutaneous maintenance injection, offering a more convenient home-administered alternative to bi-weekly IV infusions."
+    }
+  ],
+  "notes_for_editor": [
+    "The clinical-trials researcher accurately caught the 1,906 vs 1,795 enrollment discrepancy for Study 2. I have added a note in the trial_evidence_md section clarifying that 1,795 reflects the modified intention-to-treat population analyzed for efficacy."
+  ]
+}

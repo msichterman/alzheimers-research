@@ -1,0 +1,705 @@
+{
+  "document_kind": "systematic_review",
+  "title": {
+    "value": "Amyloid‐beta‐targeting monoclonal antibodies for people with mild cognitive impairment or mild dementia due to Alzheimer’s disease",
+    "quote": "Amyloid‐beta‐targeting monoclonal antibodies for people with mild cognitive impairment or mild dementia due to Alzheimer’s disease",
+    "location": "Title line, top of document"
+  },
+  "authors": [
+    { "name": "F Nonino", "affiliation": null, "orcid": null, "corresponding": true },
+    { "name": "E Richard", "affiliation": null, "orcid": null, "corresponding": false },
+    { "name": "G Filippini", "affiliation": null, "orcid": null, "corresponding": false },
+    { "name": "S Minozzi", "affiliation": null, "orcid": null, "corresponding": false },
+    { "name": "C Del Giovane", "affiliation": null, "orcid": null, "corresponding": false },
+    { "name": "MC Bassi", "affiliation": null, "orcid": null, "corresponding": false },
+    { "name": "M Gonzalez‐Lorenzo", "affiliation": null, "orcid": null, "corresponding": false },
+    { "name": "C De Santis", "affiliation": null, "orcid": null, "corresponding": false },
+    { "name": "E Baldin", "affiliation": null, "orcid": null, "corresponding": false },
+    { "name": "L Vignatelli", "affiliation": null, "orcid": null, "corresponding": false },
+    { "name": "L Sambati", "affiliation": null, "orcid": null, "corresponding": false }
+  ],
+  "study": {
+    "design": {
+      "value": "Cochrane systematic review with pairwise random‐effects meta‐analysis of randomised controlled trials, using inverse‐variance pooling, RoB 2 for risk of bias and GRADE for certainty of evidence",
+      "quote": "We meta‐analysed results for each outcome within each comparison using the inverse variance method and the random‐effects model. We used GRADE to assess the certainty of evidence for each outcome as very low, low, moderate, or high.",
+      "location": "Abstract, Synthesis methods"
+    },
+    "phase": {
+      "value": "the review pooled phase‐3 randomised controlled trials",
+      "quote": "We found 17 eligible placebo‐controlled phase‐3 RCTs on therapy with amyloid‐beta‐targeting monoclonal antibodies in MCI or mild dementia due to AD.",
+      "location": "Discussion, Summary of main results, paragraph 1"
+    },
+    "n": {
+      "value": 20342,
+      "quote": "All 17 included studies were RCTs with parallel‐group randomisation. We did not find any cluster‐RCTs. The 17 studies included a total of 20,342 participants.",
+      "location": "Results, Included studies, Study designs and settings"
+    },
+    "n_description": {
+      "value": "the total number of participants in the 17 randomised controlled trials included in the review (pooled participant count across included studies, not the number contributing to any single meta‐analysis)",
+      "quote": "Overall, we included 17 studies with 20,342 participants. The mean age of participants in the studies ranged from 70 to 74 years.",
+      "location": "Abstract, Included studies"
+    },
+    "population": {
+      "value": "adults with mild cognitive impairment or mild dementia due to Alzheimer's disease; seven studies enrolled only mild dementia, one only mild cognitive impairment, the rest mixed populations; mean age 70 to 74 years",
+      "quote": "We included randomised controlled trials (RCTs) that lasted at least 12 months and compared amyloid‐beta‐targeting monoclonal antibodies with placebo or no treatment in people with mild cognitive impairment or mild dementia due to Alzheimer’s disease.",
+      "location": "Abstract, Eligibility criteria"
+    },
+    "followup": {
+      "value": "studies lasted 18 to 27 months; results analysed at 12, 18, 24 and above 24 months, with the main analyses reported at 18 months",
+      "quote": "Eleven studies lasted 18 months, four lasted 24 months, and two lasted more than 24 months.",
+      "location": "Abstract, Included studies"
+    },
+    "intervention": {
+      "value": "seven amyloid‐beta‐targeting monoclonal antibodies pooled at class level: aducanumab (3 studies), bapineuzumab (4), crenezumab (2), donanemab (1), gantenerumab (4), lecanemab (1), solanezumab (2); only the highest assessed dose was used when a trial had multiple dose arms",
+      "quote": "The 17 studies assessed seven different amyloid‐beta‐targeting monoclonal antibodies: aducanumab (n = 3), bapineuzumab (n = 4), crenezumab (n = 2), donanemab (n = 1), gantenerumab (n = 4), lecanemab (n = 1), and solanezumab (n = 2).",
+      "location": "Abstract, Included studies"
+    },
+    "comparator": {
+      "value": "placebo (all 17 included studies used placebo as the comparison)",
+      "quote": "All studies compared the active medication with a placebo group.",
+      "location": "Results, Included studies, Interventions and comparisons"
+    },
+    "biomarker_confirmation": {
+      "value": "biomarker confirmation was not an inclusion criterion of the review; individual studies varied — some required amyloid positivity by PET or CSF and others did not require it — and a sensitivity analysis was restricted to seven studies in which PET or CSF amyloid testing was abnormal",
+      "quote": "Including only participants in whom PET or CSF testing for amyloid was abnormal: sensitivity analysis of seven studies where PET or CSF testing revealed abnormal amyloid values showed estimates consistent with those in the primary analysis for all available outcomes",
+      "location": "Results, Sensitivity analysis, first bullet"
+    },
+    "nct_ids": [],
+    "cohorts": [
+      "3000 Non Carriers 2016",
+      "3001 Carriers 2016",
+      "Bapineuzumab‐301 2014",
+      "Bapineuzumab‐302 2014",
+      "CLARITY AD 2023",
+      "CREAD 2022",
+      "CREAD 2 2022",
+      "EMERGE 2022",
+      "ENGAGE 2022",
+      "ENVISION",
+      "EXPEDITION 3 2018",
+      "EXPEDITION ‐ EXPEDITION 2 2016",
+      "GRADUATE I 2023",
+      "GRADUATE II 2023",
+      "Marguerite RoAD 2024",
+      "SCarlet RoAD 2017",
+      "TRAILBLAZER‐ALZ 2 2023"
+    ]
+  },
+  "outcomes": [
+    {
+      "name": "Cognitive function assessed with the ADAS‐Cog scale at 18 months",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "We considered as critical outcomes the potential benefits and harms outlined in Table 1.",
+      "met": "not_met",
+      "effect_estimate": "SMD −0.11 (13 studies, 9895 participants; moderate‐certainty evidence; absolute equivalent a reduction of 0.85 points on ADAS‐Cog)",
+      "confidence_interval": "95% CI −0.16 to −0.06",
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The intervention probably results in little to no difference in cognitive function, as measured by the ADAS‐Cog scale, compared with placebo at 18 months (SMD −0.11, 95% CI −0.16 to −0.06; I² = 10%; 13 studies, 9895 participants; moderate‐certainty evidence; Analysis 1.1; )",
+      "location": "Results, Synthesis of results, Cognitive function, 18 months"
+    },
+    {
+      "name": "Dementia severity assessed with the CDR‐SB scale at 18 months",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Dementia severity | Change on the Clinical Dementia Rating Scale Sum of Boxes (CDR‐SB) [].",
+      "met": "not_met",
+      "effect_estimate": "SMD −0.12 (9 studies, 8053 participants; low‐certainty evidence; absolute equivalent a reduction of 0.29 points on CDR‐SB)",
+      "confidence_interval": "95% CI −0.24 to −0.00",
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The intervention may result in little to no difference in dementia severity, as measured by the CDR‐SB scale, compared with placebo at 18 months (SMD −0.12, 95% CI −0.24 to −0.00; I² = 67%; 9 studies, 8053 participants; low‐certainty evidence; Analysis 2.1; )",
+      "location": "Results, Synthesis of results, Dementia severity, 18 months"
+    },
+    {
+      "name": "Functional ability assessed with the ADCS‐ADL scale at 18 months",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "We considered as critical outcomes the potential benefits and harms outlined in Table 1.",
+      "met": "not_met",
+      "effect_estimate": "SMD 0.09 (3 studies, 3478 participants; moderate‐certainty evidence; absolute equivalent an increase of 1.32 points on ADCS‐ADL)",
+      "confidence_interval": "95% CI 0.03 to 0.16",
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The intervention probably results in little to no difference in functional ability, as measured by the ADCS‐ADL scale, compared with placebo at 18 months (SMD 0.09, 95% CI 0.03 to 0.16; I² = 0%; 3 studies, 3478 participants; moderate‐certainty evidence; Analysis 3.2; )",
+      "location": "Results, Synthesis of results, Functional ability, 18 months"
+    },
+    {
+      "name": "Functional ability assessed with the ADCS‐ADL‐MCI scale at 18 months",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "We considered as critical outcomes the potential benefits and harms outlined in Table 1.",
+      "met": "not_met",
+      "effect_estimate": "SMD 0.23 (4 studies, 2802 participants; low‐certainty evidence; absolute equivalent an increase of 1.90 points on ADCS‐ADL MCI)",
+      "confidence_interval": "95% CI 0.12 to 0.33",
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The intervention may result in a small improvement in functional ability, as measured by the ADCS‐ADL‐MCI scale, compared with placebo at 18 months (SMD 0.23, 95% CI 0.12 to 0.33; I² = 0%; 4 studies, 2802 participants; low‐certainty evidence; Analysis 3.5; )",
+      "location": "Results, Synthesis of results, Functional ability, 18 months"
+    },
+    {
+      "name": "Instrumental functional ability assessed with the ADCS‐iADL scale at 18 months",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "We considered as critical outcomes the potential benefits and harms outlined in Table 1.",
+      "met": "not_met",
+      "effect_estimate": "SMD 0.21 (one study, 1252 participants; low‐certainty evidence; absolute equivalent an increase of 1.75 points on ADCS‐iADL)",
+      "confidence_interval": "95% CI 0.10 to 0.32",
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The intervention may result in a small improvement in instrumental functional ability, as measured by the ADCS‐iADL scale, compared with placebo at 18 months, (SMD 0.21, 95% CI 0.10 to 0.32; I² = not applicable; one study, 1252 participants; low‐certainty evidence; Analysis 3.6; )",
+      "location": "Results, Synthesis of results, Functional ability, 18 months"
+    },
+    {
+      "name": "Any ARIA E (symptomatic or asymptomatic) at 18 months",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Amyloid‐related imaging abnormality (ARIA) | Number of participants presenting any ARIA E or any ARIA H",
+      "met": "not_applicable",
+      "effect_estimate": "RR 10.02; ARD 107 more events/1000 participants (11 studies, 13595 participants; moderate‐certainty evidence)",
+      "confidence_interval": "95% CI 7.49 to 13.41 (RR); ARD 95% CI 77 more to 148 more",
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The intervention probably results in a small increase in the absolute risk of ARIA E, compared with placebo at 18 months (RR 10.02, 95% CI 7.49 to 13.41; I² = 25%; ARD 107 more events/1000 participants, 95% CI 77 more to 148 more; 11 studies, 13595 participants; moderate‐certainty evidence; Analysis 4.2; )",
+      "location": "Results, Synthesis of results, Any ARIA E, 18 months"
+    },
+    {
+      "name": "Symptomatic ARIA E at 18 months",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Symptomatic ARIA‐E or ARIA H | Number of participants presenting with symptomatic ARIA E or ARIA H",
+      "met": "not_applicable",
+      "effect_estimate": "RR 52.49; ARD 29 more events/1000 participants (2 studies, 3522 participants; moderate‐certainty evidence)",
+      "confidence_interval": "95% CI 40.13 to 68.66 (RR); ARD 95% CI 22 more to 38 more",
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The intervention probably results in little to no difference in the absolute risk of symptomatic ARIA E, compared with placebo at 18 months (RR 52.49, 95% CI 40.13 to 68.66; I² = 0%; ARD 29 more events/1000 participants, 95% CI 22 more to 38 more; 2 studies, 3522 participants; moderate‐certainty evidence; Analysis 4.5; )",
+      "location": "Results, Synthesis of results, Symptomatic ARIA E, 18 months"
+    },
+    {
+      "name": "Any ARIA H (symptomatic or asymptomatic) at 18 months",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Amyloid‐related imaging abnormality (ARIA) | Number of participants presenting any ARIA E or any ARIA H",
+      "met": "not_applicable",
+      "effect_estimate": "not pooled because of heterogeneity (I² = 81%); individual studies: RR 2.31 (1727 participants), RR 1.91 (1795 participants), RR 0.85 (786 participants); 4308 participants (3 RCTs); moderate certainty",
+      "confidence_interval": "95% CI 1.90 to 2.80; 95% CI 1.49 to 2.46; 95% CI 0.47 to 1.52 (per individual study)",
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The three studies reporting this outcome showed very heterogeneous results (I 2 = 81% in the pooled analysis) [, , ]; therefore, we reported the results of each individual study: RR 2.31, 95% CI 1.90 to 2.80, 1727 participants []; RR 1.91, 95% CI 1.49 to 2.46, 1795 participants []; RR 0.85, 95% CI 0.47 to 1.52, 786 participants []",
+      "location": "Results, Synthesis of results, Any ARIA H, 18 months"
+    },
+    {
+      "name": "Symptomatic ARIA H at 18 months",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Symptomatic ARIA‐E or ARIA H | Number of participants presenting with symptomatic ARIA E or ARIA H",
+      "met": "not_applicable",
+      "effect_estimate": "RR 3.00; ARD 4 more events/1000 participants (1 study, 1795 participants; moderate‐certainty evidence)",
+      "confidence_interval": "95% CI 0.61 to 14.81 (RR); ARD 95% CI 1 fewer to 31 more",
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The intervention probably results in little or no difference in the absolute risk of symptomatic ARIA H, compared with placebo at 18 months (RR 3.00, 95% CI 0.61 to 14.81; I² = not applicable; ARD 4 more events/1000 participants, 95% CI 1 fewer to 31 more; 1 study, 1795 participants; moderate‐certainty evidence; Analysis 4.10; )",
+      "location": "Results, Synthesis of results, Symptomatic ARIA H, 18 months"
+    },
+    {
+      "name": "Serious adverse events at 18 months",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Serious adverse events (SAEs) | Number of participants with any (one or more) SAEs, defined according to the authors of the study",
+      "met": "not_applicable",
+      "effect_estimate": "RR 1.04; ARD 6 more events/1000 participants (9 studies, 11904 participants; high‐certainty evidence)",
+      "confidence_interval": "95% CI 0.94 to 1.16 (RR); ARD 95% CI 10 fewer to 26 more",
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The intervention results in little or no difference in the absolute risk of serious adverse events, compared with placebo at 18 months (RR 1.04, 95% CI 0.94 to 1.16; I² = 39%; ARD 6 more events/1000 participants, 95% CI 10 fewer to 26 more; 9 studies, 11904 participants; high‐certainty evidence; Analysis 5.1; )",
+      "location": "Results, Synthesis of results, Serious adverse events (SAEs), 18 months"
+    },
+    {
+      "name": "Any‐cause mortality at 18 months",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Mortality | Number of deaths by any cause",
+      "met": "not_applicable",
+      "effect_estimate": "RR 1.17; ARD 2 more events/1000 participants (7 studies, 9733 participants; high‐certainty evidence)",
+      "confidence_interval": "95% CI 0.74 to 1.86 (RR); ARD 95% CI 3 fewer to 11 more",
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The intervention results in little or no difference in the absolute risk of death, compared with placebo at 18 months (RR 1.17, 95% CI 0.74 to 1.86; I² = 32%; ARD 2 more events/1000 participants, 95% CI 3 fewer to 11 more; 7 studies, 9733 participants; high‐certainty evidence; Analysis 6.1; )",
+      "location": "Results, Synthesis of results, Mortality, 18 months"
+    },
+    {
+      "name": "Symptomatic brain haemorrhage",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Symptomatic brain haemorrhage | Number of participants with symptomatic brain haemorrhage",
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The number of participants with symptomatic brain haemorrhages was not reported.",
+      "location": "Results, Included studies, Critical outcomes (undesirable)"
+    },
+    {
+      "name": "Cognitive function assessed with the ADAS‐Cog scale at 24 months",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "We analysed data at 12, 18, 24, and over 24 months of treatment.",
+      "met": "not_met",
+      "effect_estimate": "SMD −0.21 (2 studies, 212 participants; very low‐certainty evidence)",
+      "confidence_interval": "95% CI −0.81 to 0.38",
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The intervention may result in slightly less decline in cognitive function, as measured by the ADAS‐Cog scale, compared with control at 24 months, but the evidence is very uncertain (SMD −0.21, 95% CI −0.81 to 0.38; I² = 68%; 2 studies, 212 participants; very low‐certainty evidence; Analysis 1.2)",
+      "location": "Results, Synthesis of results, Cognitive function, 24 months"
+    },
+    {
+      "name": "Cognitive function assessed with the ADAS‐Cog scale above 24 months",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "We analysed data at 12, 18, 24, and over 24 months of treatment.",
+      "met": "not_met",
+      "effect_estimate": "SMD −0.12 (2 studies, 1959 participants; low‐certainty evidence)",
+      "confidence_interval": "95% CI −0.21 to −0.03",
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The intervention may result in little to no difference in cognitive function, as measured by the ADAS‐Cog scale, compared with placebo beyond 24 months (SMD −0.12, 95% CI −0.21 to −0.03; I² = 0%; 2 studies, 1959 participants; low‐certainty evidence; Analysis 1.3)",
+      "location": "Results, Synthesis of results, Cognitive function, Above 24 months"
+    },
+    {
+      "name": "Dementia severity assessed with the CDR‐SB scale at 24 months",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "We analysed data at 12, 18, 24, and over 24 months of treatment.",
+      "met": "not_met",
+      "effect_estimate": "SMD 0.03 (2 studies, 220 participants; very low certainty evidence)",
+      "confidence_interval": "95% CI −0.96 to 1.02",
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The intervention may result in little to no effect on dementia severity, as measured by the CDR‐SB scale, compared with placebo at 24 months, but the evidence is very uncertain (SMD 0.03, 95% CI −0.96 to 1.02; I² = 0%; 2 studies, 220 participants; very low certainty evidence; Analysis 2.2)",
+      "location": "Results, Synthesis of results, Dementia severity, 24 months"
+    },
+    {
+      "name": "Dementia severity assessed with the CDR‐SB scale above 24 months",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "We analysed data at 12, 18, 24, and over 24 months of treatment.",
+      "met": "not_met",
+      "effect_estimate": "SMD −0.07 (2 studies, 1959 participants; moderate‐certainty evidence)",
+      "confidence_interval": "95% CI −0.16 to 0.02",
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The intervention probably results in little to no effect on dementia severity, as measured by the CDR‐SB scale, compared with placebo beyond 24 months (SMD −0.07, 95% CI −0.16 to 0.02; I² = 0%; 2 studies, 1959 participants; moderate‐certainty evidence; Analysis 2.3)",
+      "location": "Results, Synthesis of results, Dementia severity, Above 24 months"
+    },
+    {
+      "name": "Functional ability assessed with the ADCS‐ADL scale at 24 months",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "We analysed data at 12, 18, 24, and over 24 months of treatment.",
+      "met": "not_met",
+      "effect_estimate": "SMD 0.09 (2 studies, 221 participants; very low certainty evidence)",
+      "confidence_interval": "95% CI −3.83 to 4.00",
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The intervention may result in little to no difference in functional ability, as measured by the ADCS‐ADL scale, compared with placebo at 24 months, but the evidence is very uncertain (SMD 0.09, 95% CI −3.83 to 4.00; I² = 68%; 2 studies, 221 participants; very low certainty evidence; Analysis 3.3)",
+      "location": "Results, Synthesis of results, Functional ability, 24 months"
+    },
+    {
+      "name": "Functional ability assessed with the ADCS‐ADL scale above 24 months",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "We analysed data at 12, 18, 24, and over 24 months of treatment.",
+      "met": "not_met",
+      "effect_estimate": "SMD 0.07 (2 studies, 1972 participants; moderate‐certainty evidence)",
+      "confidence_interval": "95% CI −0.03 to 0.16",
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The intervention probably results in little to no difference in functional ability, as measured by the ADCS‐ADL scale, compared with placebo beyond 24 months (SMD 0.07, 95% CI −0.03 to 0.16; I² = 0%; 2 studies, 1972 participants; moderate‐certainty evidence; Analysis 3.4)",
+      "location": "Results, Synthesis of results, Functional ability, Above 24 months"
+    },
+    {
+      "name": "Any ARIA E at 24 months",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "We analysed data at 12, 18, 24, and over 24 months of treatment.",
+      "met": "not_applicable",
+      "effect_estimate": "RR 7.49; ARD 32 more events/1000 participants (4 studies, 2733 participants; moderate‐certainty evidence)",
+      "confidence_interval": "95% CI 2.98 to 18.84 (RR); ARD 95% CI 10 more to 89 more",
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The intervention probably results in little to no difference in the absolute risk of ARIA E, compared with placebo at 24 months (RR 7.49, 95% CI 2.98 to 18.84; I² = 12%; ARD 32 more events/1000 participants, 95% CI 10 more to 89 more; 4 studies, 2733 participants; moderate‐certainty evidence; Analysis 4.3; )",
+      "location": "Results, Synthesis of results, Any ARIA E, 24 months"
+    },
+    {
+      "name": "Any ARIA E above 24 months",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "We analysed data at 12, 18, 24, and over 24 months of treatment.",
+      "met": "not_applicable",
+      "effect_estimate": "RR 9.35; ARD 229 more events/1000 participants (2 studies, 1939 participants; low‐certainty evidence)",
+      "confidence_interval": "95% CI 4.52 to 19.36 (RR); ARD 95% CI 97 more to 505 more",
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The intervention may result in a large increase in the absolute risk of ARIA E, compared with placebo beyond 24 months (RR 9.35, 95% CI 4.52 to 19.36; I² = 66%; ARD 229 more events/1000 participants, 95% CI 97 more to 505 more; 2 studies, 1939 participants; low‐certainty evidence; Analysis 4.4; )",
+      "location": "Results, Synthesis of results, Any ARIA E, Above 24 months"
+    },
+    {
+      "name": "Symptomatic ARIA E above 24 months",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "We analysed data at 12, 18, 24, and over 24 months of treatment.",
+      "met": "not_applicable",
+      "effect_estimate": "RR 15.55; ARD 31 more events/1000 participants (2 studies, 1939 participants; low‐certainty evidence)",
+      "confidence_interval": "95% CI 4.33 to 55.80 (RR); ARD 95% CI 7 more to 116 more",
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The intervention may result in little to no difference in the absolute risk of symptomatic ARIA E, compared with placebo beyond 24 months (RR 15.55, 95% CI 4.33 to 55.80; I² = 0%; ARD 31 more events/1000 participants, 95% CI 7 more to 116 more; 2 studies, 1939 participants; low‐certainty evidence; Analysis 4.6; )",
+      "location": "Results, Synthesis of results, Symptomatic ARIA E, Above 24 months"
+    },
+    {
+      "name": "Any ARIA H at 24 months",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "We analysed data at 12, 18, 24, and over 24 months of treatment.",
+      "met": "not_applicable",
+      "effect_estimate": "RR 1.27; ARD 17 more events/1000 participants (2 studies, 913 participants; high‐certainty evidence)",
+      "confidence_interval": "95% CI 0.96 to 1.70 (RR); ARD 95% CI 2 fewer to 43 more",
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The intervention results in little or no difference in the absolute risk of ARIA‐H, compared with placebo at 24 months (RR 1.27, 95% CI 0.96 to 1.70; I² = 0%; ARD 17 more events/1000 participants, 95% CI 2 fewer to 43 more; 2 studies, 913 participants; high‐certainty evidence; Analysis 4.8)",
+      "location": "Results, Synthesis of results, Any ARIA H, 24 months"
+    },
+    {
+      "name": "Any ARIA H above 24 months",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "We analysed data at 12, 18, 24, and over 24 months of treatment.",
+      "met": "not_applicable",
+      "effect_estimate": "RR 1.86; ARD 105 more events/1000 participants (2 studies, 1939 participants; moderate‐certainty evidence)",
+      "confidence_interval": "95% CI 1.52 to 2.29 (RR); ARD 95% CI 64 more to 158 more",
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The intervention probably results in a small increase in the absolute risk of ARIA H, compared with placebo beyond 24 months (RR 1.86, 95% CI 1.52 to 2.29; I² = 0%; ARD 105 more events/1000 participants, 95% CI 64 more to 158 more; 2 studies, 1939 participants; moderate‐certainty evidence; Analysis 4.9; )",
+      "location": "Results, Synthesis of results, Any ARIA H, Above 24 months"
+    },
+    {
+      "name": "Serious adverse events at 24 months",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "We analysed data at 12, 18, 24, and over 24 months of treatment.",
+      "met": "not_applicable",
+      "effect_estimate": "RR 1.03; ARD 4 more events/1000 participants (4 studies, 2746 participants; high‐certainty evidence)",
+      "confidence_interval": "95% CI 0.85 to 1.25 (RR); ARD 95% CI 20 fewer to 34 more",
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The intervention results in little or no difference in the absolute risk of serious adverse events, compared with placebo at 24 months (RR 1.03, 95% CI 0.85 to 1.25; I² = 0%; ARD 4 more events/1000 participants, 95% CI 20 fewer to 34 more; 4 studies, 2746 participants; high‐certainty evidence; Analysis 5.2; )",
+      "location": "Results, Synthesis of results, Serious adverse events (SAEs), 24 months"
+    },
+    {
+      "name": "Serious adverse events above 24 months",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "We analysed data at 12, 18, 24, and over 24 months of treatment.",
+      "met": "not_applicable",
+      "effect_estimate": "RR 0.82; ARD 30 fewer events/1000 participants (2 studies, 1959 participants; moderate‐certainty evidence)",
+      "confidence_interval": "95% CI 0.67 to 1.02 (RR); ARD 95% CI 55 fewer to 3 more",
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The intervention probably results in little or no difference in the absolute risk of serious adverse events, compared with placebo beyond 24 months (RR 0.82, 95% CI 0.67 to 1.02; I² = 0%; ARD 30 fever events/1000 participants, 95% CI 55 fewer to 3 more; 2 studies, 1959 participants; moderate‐certainty evidence; Analysis 5.3; )",
+      "location": "Results, Synthesis of results, Serious adverse events (SAEs), Above 24 months"
+    },
+    {
+      "name": "Any‐cause mortality at 24 months",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "We analysed data at 12, 18, 24, and over 24 months of treatment.",
+      "met": "not_applicable",
+      "effect_estimate": "RR 1.05; ARD 1 more events/1000 participants (4 studies, 2746 participants; moderate‐certainty evidence)",
+      "confidence_interval": "95% CI 0.47 to 2.37 (RR); ARD 95% CI 6 fewer to 16 more",
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The intervention probably results in little or no difference in the absolute risk of death, compared with placebo at 24 months (RR 1.05, 95% CI 0.47 to 2.37; I² = 8%; ARD 1 more events/1000 participants, 95% CI 6 fever to 16 more; 4 studies, 2746 participants; moderate‐certainty evidence; Analysis 6.2; )",
+      "location": "Results, Synthesis of results, Mortality, 24 months"
+    },
+    {
+      "name": "Any‐cause mortality above 24 months",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "We analysed data at 12, 18, 24, and over 24 months of treatment.",
+      "met": "not_applicable",
+      "effect_estimate": "RR 0.70; ARD 4 fewer events/1000 participants (2 studies, 1959 participants; very low‐certainty evidence)",
+      "confidence_interval": "95% CI 0.13 to 3.88 (RR); ARD 95% CI 13 fewer to 42 more",
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The intervention may result in little or no difference in mortality, compared with placebo beyond 24 months, but the evidence is very uncertain (RR 0.70, 95% CI 0.13 to 3.88; I² = 73%; ARD 4 fever events/1000 participants, 95% CI 13 fewer to 42 more; 2 studies, 1959 participants; very low‐certainty evidence; Analysis 6.3; )",
+      "location": "Results, Synthesis of results, Mortality, Above 24 months"
+    },
+    {
+      "name": "Subgroup analysis by level of cognitive function: mild cognitive impairment versus mild dementia",
+      "tier": "subgroup",
+      "prespecified": "yes",
+      "prespecification_evidence": "We performed the following subgroup analyses for all critical and important outcomes with sufficient data.",
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Subgroup analysis did not show significant differences between groups in any of the available efficacy outcomes.",
+      "location": "Results, Subgroup analysis, People with mild cognitive impairment or mild dementia"
+    }
+  ],
+  "primary_endpoint_status": {
+    "status": "not_met",
+    "explanation": "The review's critical efficacy outcomes at 18 months (ADAS‐Cog SMD −0.11, CDR‐SB SMD −0.12, ADCS‐ADL SMD 0.09) were judged trivial and the corresponding absolute differences fall well below the minimal clinically important differences the review cites for these scales.",
+    "quote": "The differences in the main clinical outcome measures, including ADAS‐Cog (Alzheimer's Disease Assessment Scale‐Cognitive) and CDR‐SB (Clinical Dementia Rating Scale Sum of Boxes) scores, are well below the minimal clinically important difference (MCID) on these scales."
+  },
+  "multiplicity": {
+    "approach": "none stated — the review describes no adjustment for multiple comparisons; it states only that subgroup analyses were interpreted cautiously using a formal test for subgroup interactions",
+    "quote": null,
+    "location": null
+  },
+  "safety": {
+    "harms": [
+      {
+        "name": "ARIA-E (any ARIA E, symptomatic or asymptomatic) at 18 months",
+        "arm": "amyloid‐beta‐targeting monoclonal antibodies (pooled, highest assessed dose)",
+        "count": "119 per 1000 (anticipated absolute risk)",
+        "denominator": "13,595 participants in 11 studies",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "For every 1000 people using monoclonal antibodies, 119 developed brain swelling compared with only 12 of 1000 people using placebo (11 studies, 13,595 people)",
+        "location": "Plain language summary, Main results"
+      },
+      {
+        "name": "ARIA-E (any ARIA E, symptomatic or asymptomatic) at 18 months",
+        "arm": "placebo",
+        "count": "12 of 1000 (anticipated absolute risk)",
+        "denominator": "13,595 participants in 11 studies",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "For every 1000 people using monoclonal antibodies, 119 developed brain swelling compared with only 12 of 1000 people using placebo (11 studies, 13,595 people)",
+        "location": "Plain language summary, Main results"
+      },
+      {
+        "name": "symptomatic ARIA-E at 18 months",
+        "arm": "amyloid‐beta‐targeting monoclonal antibodies versus placebo (pooled)",
+        "count": "ARD 29 more per 1000 (RR 52.49)",
+        "denominator": "3522 participants in 2 studies",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "probably little to no difference in symptomatic ARIA E (ARD 29 more per 1000, 95% CI 22 more to 38 more; 2 studies, 3522 participants; moderate certainty)",
+        "location": "Abstract, Synthesis of results, Adverse events"
+      },
+      {
+        "name": "ARIA-H (any ARIA H, symptomatic or asymptomatic) at 18 months",
+        "arm": "amyloid‐beta‐targeting monoclonal antibodies versus placebo (pooled analysis not possible)",
+        "count": "not pooled; individual study risk ratios 2.31, 1.91 and 0.85",
+        "denominator": "4308 participants in 3 studies (1727, 1795 and 786 participants)",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "Three studies assessing any ARIA H showed heterogeneous results (I 2 = 81%), which prevented pooled analysis.",
+        "location": "Abstract, Synthesis of results, Adverse events"
+      },
+      {
+        "name": "symptomatic ARIA-H at 18 months",
+        "arm": "amyloid‐beta‐targeting monoclonal antibodies versus placebo (pooled)",
+        "count": "ARD 4 more per 1000 (RR 3.00)",
+        "denominator": "1795 participants in 1 study",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "symptomatic ARIA H (ARD 4 more per 1000, 95% CI 1 fewer to 31 more; 1 study, 1795 participants; moderate certainty)",
+        "location": "Abstract, Synthesis of results, Adverse events"
+      },
+      {
+        "name": "symptomatic brain haemorrhage",
+        "arm": "not applicable — no included study reported this outcome",
+        "count": null,
+        "denominator": null,
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "The number of participants with symptomatic brain haemorrhages was not reported.",
+        "location": "Results, Included studies, Critical outcomes (undesirable)"
+      },
+      {
+        "name": "serious adverse events at 18 months",
+        "arm": "amyloid‐beta‐targeting monoclonal antibodies versus placebo (pooled)",
+        "count": "ARD 6 more events per 1000 (RR 1.04)",
+        "denominator": "11,904 participants in 9 studies",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "At 18 months, amyloid‐beta‐targeting monoclonal antibodies do not increase serious adverse events (ARD 6 more events per 1000, 95% CI 10 fewer to 26 more; 9 studies, 11,904 participants; high certainty)",
+        "location": "Abstract, Synthesis of results, Adverse events"
+      },
+      {
+        "name": "death (any‐cause mortality) at 18 months",
+        "arm": "amyloid‐beta‐targeting monoclonal antibodies versus placebo (pooled)",
+        "count": "ARD 2 more events per 1000 (RR 1.17)",
+        "denominator": "9733 participants in 7 studies",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "or overall mortality (ARD 2 more events per 1000, 95% CI 3 fewer to 11 more; 7 studies, 9733 participants; high certainty)",
+        "location": "Abstract, Synthesis of results, Adverse events"
+      }
+    ],
+    "apoe_stratification_reported": false,
+    "serious_adverse_events": {
+      "value": "no increase at 18 months: RR 1.04 (95% CI 0.94 to 1.16), ARD 6 more events per 1000 (95% CI 10 fewer to 26 more), 9 studies, 11,904 participants, high certainty",
+      "quote": "At 18 months, amyloid‐beta‐targeting monoclonal antibodies do not increase serious adverse events (ARD 6 more events per 1000, 95% CI 10 fewer to 26 more; 9 studies, 11,904 participants; high certainty)",
+      "location": "Abstract, Synthesis of results, Adverse events"
+    },
+    "deaths": {
+      "value": "no increase in overall mortality at 18 months: ARD 2 more events per 1000 (95% CI 3 fewer to 11 more), 7 studies, 9733 participants, high certainty",
+      "quote": "or overall mortality (ARD 2 more events per 1000, 95% CI 3 fewer to 11 more; 7 studies, 9733 participants; high certainty)",
+      "location": "Abstract, Synthesis of results, Adverse events"
+    },
+    "discontinuations": {
+      "value": "treatment discontinuation at the end of the study was reported in 15 of the 17 included studies; the review reports the findings only in its supplementary analyses (Analysis 9.1 to 9.3) and gives no pooled estimate in the text",
+      "quote": "while treatment discontinuation at the end of the study was reported in 15 studies",
+      "location": "Results, Included studies, Important outcomes"
+    }
+  },
+  "funding": [
+    "This Cochrane review was funded in part by the Drug and Medical Devices Governance Area, Regione Emilia‐Romagna, Bologna, Italy.",
+    "The publication of this article was supported by \"Ricerca Corrente\" funding from the Italian Ministry of Health.",
+    "Internal sources: IRCCS Istituto delle Scienze Neurologiche di Bologna, Italy Salary provision; University of Modena and Reggio Emilia, Italy Salary provision; Azienda USL ‐ IRCCS di Reggio Emilia, Italy Salary provision",
+    "External sources: No sources of support provided",
+    "All 17 included studies were funded by the pharmaceutical industry (funding of the included trials, not of the review)"
+  ],
+  "conflicts": [
+    "ER and FN declare non‐financial interests, being unpaid consultants of the European Medicine Agency's Scientific Advisory Group Neurology (SAG‐N).",
+    "FN, EB, LV, and LS declare non‐financial interests by practising as neurologists within a public institution.",
+    "ER, FN, SM, CB, CDS, LS, EB, LV, GF, CDG, and MGL declare no commercial or non‐commercial conflicts of interest relevant to this review.",
+    "GF and FN are joint Co‐ordinating Editors of the Cochrane Multiple Sclerosis and Rare Diseases of the CNS. They are Senior Editors of the Cochrane Database of Systematic Reviews. They were not involved in the editorial process of the review."
+  ],
+  "limitations": [
+    "Both desirable outcomes and adverse events were inconsistently reported in the studies included in the review.",
+    "Most studies did not separate people with symptoms of brain swelling and microbleeds from those in whom these effects were only visible with a scan; only four studies reported symptomatic ARIA E and only one reported symptomatic ARIA H.",
+    "The results came from studies that did not last very long; only six of the 17 studies had follow‐up longer than 18 months, which limits knowledge of longer‐term benefits and harms.",
+    "External validity is limited: mean age of trial participants was 69.5 to 73.9 years whereas mean age of onset outside the experimental setting is reported to be over 80 years, and only an estimated 5% to 15% of the AD population would be eligible for treatment.",
+    "Notable heterogeneity among studies in efficacy outcomes and in the tools used to assess them, and variation in the timing of outcome assessment, hampering precise pooled estimates and generalisability.",
+    "Some concerns about risk of bias for efficacy outcomes due to functional unblinding, which may mean the true effect size is even smaller.",
+    "All included studies were funded by the pharmaceutical industry, which in most cases controlled analysis, interpretation of data and writing of the manuscript; sponsor‐related influence cannot be excluded.",
+    "In several trials the number of participants per participating centre was low, suggesting possible selection bias; most studies included predominantly white populations in Europe and North America.",
+    "Lack of extractable data on the education level of participants, and no study reported markers of socioeconomic status.",
+    "For most undesirable outcomes the certainty of evidence was downgraded by one or two levels for imprecision.",
+    "APOE ε4 subgroup analysis was planned but not performed because most included studies did not report APOE ε4 status.",
+    "Six ongoing studies were identified and the review's conclusions may change as new results become available.",
+    "We used the methods recommended by the Cochrane Handbook and did not identify any major limitation in the review process."
+  ],
+  "risk_of_bias": [
+    {
+      "domain": "randomisation process",
+      "judgement": "some concerns for four studies, because methods of random sequence generation or allocation concealment (or both) were not described",
+      "quote": "For four studies [, , , ], we evaluated the overall risk of bias as \"some concerns\" due to the randomisation process domain, as the methods for random sequence generation or allocation concealment (or both) were not described."
+    },
+    {
+      "domain": "measurement of the outcome — functional unblinding (efficacy outcomes)",
+      "judgement": "some concerns for all studies for the efficacy outcomes, because adverse effects were much more frequent in the treated arm and could cause functional unblinding; the certainty of efficacy outcomes was downgraded one level for risk of bias",
+      "quote": "for the efficacy outcomes, we judged the overall risk of bias as \"some concerns\" for all studies, due to bias in measurement of the outcomes, as adverse effects (i.e. infusion reaction) were much more frequent in the treated arm, which could lead to functional unblinding"
+    },
+    {
+      "domain": "measurement of the outcome — safety outcomes",
+      "judgement": "low risk of bias for ARIA E, ARIA H, serious adverse events and overall mortality, because MRI readers were blinded and the safety outcomes were objective",
+      "quote": "We judged the safety outcomes ARIA E and ARIA H to be at low risk of bias for measurement of the outcomes, as the radiologists who read the MRIs were blind to treatment assignment in all the studies."
+    },
+    {
+      "domain": "selection of the reported result",
+      "judgement": "some concerns for three studies, which did not provide a statistical analysis plan",
+      "quote": "For three studies [, , ], we evaluated the overall risk of bias as \"some concerns\" due to selection of the reported results, as they did not provide a statistical analysis plan."
+    },
+    {
+      "domain": "overall risk of bias by outcome",
+      "judgement": "low overall risk of bias for serious adverse events and mortality; some concerns for efficacy outcomes, mainly due to functional unblinding",
+      "quote": "We judged the overall risk of bias as low for the outcomes of serious adverse events and mortality. We had some concerns about the overall risk of bias for efficacy outcomes, mainly due to the risk of functional unblinding"
+    },
+    {
+      "domain": "high risk of bias studies / sensitivity analysis",
+      "judgement": "only one included study was at overall high risk of bias; excluding it gave pooled estimates consistent with the primary analysis",
+      "quote": "Excluding studies at an overall high risk of bias: only one study had an overall high risk of bias []. Sensitivity analysis after excluding this study showed pooled estimates that were consistent with the primary analysis for all outcomes"
+    },
+    {
+      "domain": "sponsor involvement / industry funding of included trials",
+      "judgement": "all included trials were industry funded, with sponsors controlling analysis, interpretation and writing in most cases; sponsor‐related influence on results, particularly regarding missing ARIA data, cannot be excluded",
+      "quote": "All included studies were funded by the pharmaceutical industry, which, in most cases, had control over crucial stages, such as the analysis and interpretation of data, and writing of the final manuscript."
+    },
+    {
+      "domain": "publication bias",
+      "judgement": "funnel plots for the two outcomes with at least 10 studies did not suggest significant publication bias on visual inspection",
+      "quote": "From our visual inspection of the plots, we did not consider them to suggest a significant risk of publication bias."
+    }
+  ],
+  "disagreements": [
+    {
+      "question": "Is successful removal of amyloid from the brain associated with clinically meaningful benefit in people with MCI or mild dementia due to Alzheimer's disease?",
+      "position": "The review authors conclude that successful amyloid removal does not appear to produce clinically meaningful effects, and that future research on disease‐modifying treatment should target other mechanisms of action.",
+      "attributed_to": "Cochrane review authors (Nonino and colleagues)",
+      "quote": "Successful removal of amyloid from the brain does not seem to be associated with clinically meaningful effects in people with mild cognitive impairment or mild dementia due to Alzheimer’s disease. Future research on disease‐modifying treatments for Alzheimer’s disease should focus on other mechanisms of action."
+    },
+    {
+      "question": "Are the observed differences on cognitive and functional scales clinically important?",
+      "position": "The review authors hold that the effects over 18 months are absent or consistently small and that the differences on ADAS‐Cog and CDR‐SB are well below the minimal clinically important difference for those scales.",
+      "attributed_to": "Cochrane review authors",
+      "quote": "The differences in the main clinical outcome measures, including ADAS‐Cog (Alzheimer's Disease Assessment Scale‐Cognitive) and CDR‐SB (Clinical Dementia Rating Scale Sum of Boxes) scores, are well below the minimal clinically important difference (MCID) on these scales."
+    },
+    {
+      "question": "Do amyloid‐beta‐targeting monoclonal antibodies offer a favourable benefit‐to‐risk balance, as implied by the regulatory approvals of aducanumab, donanemab and lecanemab?",
+      "position": "The review authors conclude that, given small effect sizes below the MCID, the high risk of ARIA and the resource burden, these antibodies do not offer a favourable benefit to risk balance — a position the review contrasts with the approvals granted by the FDA, EMA and MHRA while noting NICE, the Dutch Health Institute and IQWiG reached negative assessments.",
+      "attributed_to": "Cochrane review authors",
+      "quote": "Given the small effect sizes, with absolute differences well below the MCID, the high risk of ARIA, and the substantial resource burden required for their administration and monitoring, monoclonal antibodies against amyloid‐beta do not offer a favourable benefit to risk balance for patients with MCI or mild dementia due to AD."
+    },
+    {
+      "question": "Is the amyloid cascade hypothesis tenable as the main underlying mechanism of Alzheimer's disease?",
+      "position": "The review authors argue that the small‐to‐absent effects observed require the amyloid cascade hypothesis to be reconsidered as the main underlying mechanism of AD.",
+      "attributed_to": "Cochrane review authors",
+      "quote": "The small‐to‐absent effects of amyloid‐beta‐targeting monoclonal antibodies against placebo urge us to reconsider the amyloid cascade hypothesis as the main underlying mechanism of AD."
+    },
+    {
+      "question": "Could the reported efficacy of these drugs be inflated by functional unblinding?",
+      "position": "The review authors state there are concerns that the true effect size may be even smaller than reported because common apparent adverse reactions can unblind participants and investigators, and that this bias could attenuate the difference further towards the null.",
+      "attributed_to": "Cochrane review authors",
+      "quote": "There are some concerns that the true effect size may be even smaller because of functional unblinding due to common apparent adverse reactions."
+    },
+    {
+      "question": "Should further randomised trials of amyloid‐beta removal be conducted?",
+      "position": "The review authors judge that, given convincing evidence of the absence of a clinically meaningful effect together with the risk of cerebral oedema and microbleeds, future RCTs targeting amyloid‐beta removal are unlikely to provide clear benefit.",
+      "attributed_to": "Cochrane review authors",
+      "quote": "Given the convincing evidence of the absence of a clinically meaningful effect, in combination with a considerable risk of cerebral oedema and (micro)bleeds in the brain, from the 17 randomised controlled trials (RCTs) included in this review, it is unlikely that future RCTs targeting amyloid‐beta removal will provide clear benefit for people with AD."
+    }
+  ],
+  "linked_objects": [
+    {
+      "relation": "registry_record",
+      "identifier": "CRD420251114325",
+      "note": "PROSPERO registration of the review protocol (2025), as stated in the Registration section"
+    }
+  ],
+  "trial_status_observation": {
+    "status": null,
+    "enrollment": null,
+    "phase": null,
+    "observed_at": null,
+    "source": null
+  },
+  "unlocatable_fields": [
+    "study.nct_ids",
+    "authors[].affiliation",
+    "authors[].orcid",
+    "outcomes[].p_value",
+    "outcomes[].effect_estimate (symptomatic brain haemorrhage; subgroup analysis)",
+    "outcomes[].confidence_interval (symptomatic brain haemorrhage; subgroup analysis)",
+    "multiplicity.quote",
+    "multiplicity.location",
+    "safety.harms[macrohemorrhage]",
+    "safety.harms[].percentage",
+    "safety.harms[].apoe_stratum",
+    "trial_status_observation"
+  ],
+  "_meta": {
+    "model": "claude (builder subagent)",
+    "extracted_at": "2026-08-13T16:16:03Z",
+    "source": "raw/cochrane-anti-amyloid-2026/document.md"
+  }
+}

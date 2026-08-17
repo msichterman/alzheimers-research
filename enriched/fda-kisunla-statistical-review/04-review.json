@@ -1,0 +1,138 @@
+{
+  "fact_check": [
+    {
+      "fact": "iADRS change difference of 3.3 in intermediate tau and 2.9 in overall population at Week 76",
+      "status": "verified",
+      "note": "Checked against Table 4 in the FDA review."
+    },
+    {
+      "fact": "CDR-SB change difference of -0.7 in both intermediate tau and overall populations at Week 76",
+      "status": "verified",
+      "note": "Checked against Table 7 in the FDA review."
+    },
+    {
+      "fact": "Amyloid centiloid difference of -86.4 in overall population at Week 76",
+      "status": "verified",
+      "note": "Checked against Table 7 in the FDA review."
+    },
+    {
+      "fact": "Estimated risk difference of 1.0% for death at week 76",
+      "status": "verified",
+      "note": "Checked against Addendum Table 5A."
+    },
+    {
+      "fact": "Discontinuation rate of 27% in the donanemab arm vs 20% in placebo",
+      "status": "verified",
+      "note": "Checked against Section 3.2.3 and Figure 3."
+    },
+    {
+      "fact": "Tipping point analysis for CDR-SB became non-significant near delta pair (0, 0.5)",
+      "status": "verified",
+      "note": "Checked against Section 3.2.4.3.4 and Tables 5 and 6."
+    }
+  ],
+  "research_page": {
+    "slug": "fda-statistical-review-donanemab",
+    "title": "FDA Statistical Review of Kisunla (donanemab)",
+    "description": "FDA statistical review highlights modest clinical benefit of donanemab accompanied by significant missing data and mortality concerns.",
+    "tags": [
+      "fda-review",
+      "donanemab",
+      "amyloid",
+      "clinical-trial",
+      "missing-data"
+    ],
+    "source_line_md": "**Source**: [Center for Drug Evaluation and Research, FDA, 2024](https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761248)",
+    "authors_line_md": "Li et al. — Division of Analytics and Informatics (DAI), FDA",
+    "takeaway_md": "Donanemab demonstrates profound amyloid clearance and statistically significant but modest slowing of clinical decline on the iADRS and CDR-SB. However, the FDA's internal review underscores that high trial dropout rates (27% on drug) and missing vital status data make the primary clinical results highly sensitive to missing data assumptions, alongside a potential safety signal of increased mortality risk.",
+    "key_findings_md": [
+      "Reduced amyloid plaque burden by -86.4 centiloids in the overall population at 76 weeks (Table 7).",
+      "Slowed cognitive decline by 2.9 points on the iADRS and -0.7 points on the CDR-SB in the overall population at 76 weeks (Table 4, Table 7).",
+      "Trial dropout rates were significantly higher in the donanemab arm (27%) compared to placebo (20%) (Section 3.2.3).",
+      "Mortality assessment found an estimated risk difference of 1.0% for death at week 76 for donanemab versus placebo (Addendum Section 6).",
+      "Tipping point analyses showed the CDR-SB benefit vanishes if dropouts worsened by just 0.5 points (Table 6)."
+    ],
+    "methods_md": "Phase 3 (TRAILBLAZER-ALZ 2, N=1736) and Phase 2 (TRAILBLAZER-ALZ, N=272) multicenter, randomized, double-blind, placebo-controlled trials evaluating donanemab over 76 weeks in patients with early symptomatic Alzheimer's disease with confirmed amyloid and tau pathology.",
+    "trial_evidence_md": "The FDA statistical review evaluated BLA 761248 for donanemab based on the Phase 3 [TRAILBLAZER-ALZ 2](/trials/trailblazer-alz-2) and Phase 2 [TRAILBLAZER-ALZ](/trials/trailblazer-alz) trials. While publications frame the efficacy outcomes as robust, this review highlights significant discrepancies. The FDA explicitly advised against using iADRS as the primary endpoint in Phase 3, and tipping point analyses reveal the CDR-SB results are highly fragile due to missing data. Additionally, an elevated risk of mortality (1.0% risk difference) was noted, which is often underemphasized in public trial readouts.",
+    "sentiment_md": "Public sentiment is deeply divided. Financial and investor communities enthusiastically focus on market potential and the drug's 'stop-dosing' regimen. In contrast, scientific and medical researchers echo FDA concerns over missing data, dropout rates, and the clinical meaningfulness of small score changes. Patients express a mix of hope and anxiety over strict eligibility and ARIA risks.",
+    "caveats_md": [
+      "The 27% dropout rate in the donanemab arm severely compromises data integrity; tipping point analyses show the primary clinical benefit vanishes under very mild missing-data assumptions.",
+      "The sponsor proceeded with iADRS as the primary endpoint against explicit FDA advice, introducing regulatory disagreement into the trial's core design.",
+      "The sponsor assumed death was non-informative and treated post-mortem measurements as missing, potentially biasing results and obscuring the 1.0% mortality risk difference."
+    ],
+    "relates_to_md": [
+      "[TRAILBLAZER-ALZ 2](/trials/trailblazer-alz-2) — The pivotal Phase 3 trial forming the basis of this review.",
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Evaluates an anti-amyloid monoclonal antibody."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "trailblazer-alz-2",
+      "title": "TRAILBLAZER-ALZ 2",
+      "description": "Phase 3 trial evaluating donanemab in early symptomatic Alzheimer's disease.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "donanemab",
+        "amyloid",
+        "phase-3"
+      ],
+      "registry_md": "[NCT04437511](https://clinicaltrials.gov/study/NCT04437511)",
+      "drug": "Donanemab (Anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "population": "Early Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline on the iADRS",
+      "started": "2020-06",
+      "readout": "2028-11",
+      "why_md": "This pivotal trial tests whether deep amyloid plaque clearance with donanemab translates to slowed cognitive and functional decline in patients with early symptomatic Alzheimer's, utilizing a unique stop-dosing paradigm when amyloid is cleared.",
+      "status_log_md": [
+        "**2020-06-01** — Trial begins enrollment.",
+        "**2023-08-08** — Primary results published in JAMA showing slowed decline on iADRS and CDR-SB.",
+        "**2024-05-14** — FDA statistical review highlights efficacy alongside significant concerns over missing data and mortality imbalances."
+      ],
+      "results_md": "Donanemab significantly reduced amyloid plaque and modestly slowed decline on the iADRS and CDR-SB at 76 weeks. However, results were complicated by a 27% dropout rate in the treatment arm and a slight increase in mortality risk."
+    },
+    {
+      "slug": "trailblazer-alz",
+      "title": "TRAILBLAZER-ALZ",
+      "description": "Phase 2 proof-of-concept trial for donanemab in early symptomatic AD.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "donanemab",
+        "amyloid",
+        "phase-2"
+      ],
+      "registry_md": "[NCT03367403](https://clinicaltrials.gov/study/NCT03367403)",
+      "drug": "Donanemab (Anti-amyloid monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Eli Lilly and Company",
+      "population": "Early Symptomatic Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline in the iADRS Score",
+      "started": "2017-12",
+      "readout": "2021-09",
+      "why_md": "This Phase 2 trial evaluated the initial safety and efficacy of donanemab, establishing its profound amyloid-clearing capability and providing the first evidence of clinical slowing on the iADRS.",
+      "status_log_md": [
+        "**2017-12-18** — Trial begins enrollment.",
+        "**2021-05-06** — Primary results published in NEJM showing significant amyloid clearance and modest clinical slowing."
+      ],
+      "results_md": "Donanemab successfully reduced amyloid plaques and slowed decline on the iADRS by 3.2 points at 76 weeks compared to placebo, laying the groundwork for Phase 3."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Anti-amyloid approvals",
+      "date": "2020-06",
+      "title": "2020-06 — TRAILBLAZER-ALZ 2 begins",
+      "body_md": "Eli Lilly initiates the pivotal Phase 3 [TRAILBLAZER-ALZ 2](/trials/trailblazer-alz-2) trial for donanemab in early Alzheimer's disease."
+    },
+    {
+      "section": "Anti-amyloid approvals",
+      "date": "2023-08",
+      "title": "2023-08 — TRAILBLAZER-ALZ 2 results published",
+      "body_md": "Pivotal Phase 3 results for donanemab are published in JAMA, forming the basis for its eventual FDA approval despite [concerns over dropouts and missing data](/research/papers/fda-statistical-review-donanemab)."
+    }
+  ],
+  "notes_for_editor": []
+}

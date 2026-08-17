@@ -1,0 +1,123 @@
+{
+  "kind": "research-paper",
+  "title": "GWAS of multiple neuropathology endophenotypes identifies new risk loci and provides insights into the genetic risk of dementia",
+  "authors": [
+    {
+      "name": "Fardo, David W.",
+      "affiliation": null,
+      "orcid": null,
+      "email": "david.fardo@uky.edu",
+      "corresponding": true,
+      "conflicts": null
+    },
+    {
+      "name": "Ebbert, Mark T. W.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Nelson, Peter T.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Schneider, Julie A.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "personal fees from the Observational Study Monitoring Board Framingham, Observational Study Monitoring Board Discovery (National Institute of Neurological Disorders and Stroke) and Takeda Pharma"
+    },
+    {
+      "name": "Saykin, Andrew J.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "support from Avid Radiopharmaceuticals, a subsidiary of Eli Lilly (in kind contribution of positron emission tomography tracer precursor), and participated in Scientific Advisory Boards (Bayer Oncology, Eisai, Novo Nordisk and Siemens Medical Solutions) and an Observational Study Monitoring Board (MESA, NIH NHLBI)"
+    }
+  ],
+  "first_author": "unknown",
+  "venue": "Nature Genetics",
+  "published": "2024",
+  "doi": "10.1038/s41588-024-01939-9",
+  "doi_url": "https://doi.org/10.1038/s41588-024-01939-9",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39379761",
+  "copyright": null,
+  "license": {
+    "name": "CC BY-NC-ND 4.0",
+    "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "reuse": "quote-and-summarize",
+    "evidence": "Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the license"
+  },
+  "tags": [
+    "paper",
+    "genetics",
+    "biomarkers",
+    "amyloid",
+    "tau",
+    "gwas",
+    "neuropathology",
+    "cerebrovascular"
+  ],
+  "themes": [
+    "GWAS of Alzheimer's and related dementias using neuropathology endophenotypes",
+    "Discovery of novel risk loci APOC2, COL4A1, and LZTS1",
+    "Independent genetic effects of APOC2 on cerebral amyloid angiopathy",
+    "Genetic architectures differentiating Alzheimer's from non-AD neuropathologies",
+    "Colocalization of genetic risk variants with quantitative trait loci"
+  ],
+  "one_line": "A large-scale genome-wide association study of 11 neuropathology endophenotypes identified novel risk loci, including APOC2 for cerebral amyloid angiopathy, and elucidated the distinct genetic architectures of Alzheimer's and non-Alzheimer's brain pathologies.",
+  "summary": "The authors conducted genome-wide association studies (GWAS) on 11 ADRD-related neuropathology endophenotypes using autopsied participants from the NACC, ROSMAP, and ACT cohorts (n = 7,804). The meta-analysis identified seven independent significantly associated loci, including three novel loci: COL4A1 for atherosclerosis, LZTS1 for arteriolosclerosis, and APOC2 for cerebral amyloid angiopathy (CAA). Notably, the APOC2 association with CAA remained significant even after adjusting for APOE diplotypes, suggesting an independent genetic risk mechanism. Several known ADRD loci, such as TMEM106B and GRN, were associated exclusively with non-AD pathologies like hippocampal sclerosis and LATE-NC. Colocalization analyses linked several of these risk loci to expression and methylation quantitative trait loci, providing functional insights into disease pathogenesis. The findings underscore the value of using specific neuropathology endophenotypes to disentangle the complex, heterogeneous genetic risk factors underlying clinical dementia syndromes.",
+  "key_claims": [
+    {
+      "claim": "Three new genetic loci (COL4A1, LZTS1, and APOC2) are significantly associated with neuropathology endophenotypes.",
+      "evidence": "GWAS meta-analysis identified 7 genome-wide significant loci (P < 5 x 10^-8), including novel associations for LZTS1 (OR=0.44) with arteriolosclerosis, COL4A1 (OR=0.73) with atherosclerosis, and APOC2 (OR=0.81) with CAA.",
+      "strength": "strong",
+      "location": "Results / GWAS meta-analysis of NPEs / Table 2"
+    },
+    {
+      "claim": "The APOC2 locus is associated with CAA independently of the known APOE epsilon alleles.",
+      "evidence": "After adjusting for APOE diplotypes, the rs7247551 variant near APOC2 remained significantly associated with CAA (P = 8.0 x 10^-12) and this replicated in an independent Mayo Clinic Brain Bank cohort (P = 0.0012).",
+      "strength": "strong",
+      "location": "Results / New locus association within the APOE region"
+    },
+    {
+      "claim": "Known ADRD loci TMEM106B and GRN confer risk primarily through non-AD pathologies like hippocampal sclerosis and LATE-NC, rather than classic AD neuropathology.",
+      "evidence": "TMEM106B and GRN showed significant associations with hippocampal sclerosis (P=3.2 x 10^-13 and 3.2 x 10^-8) and LATE-NC, but no genome-wide significant association with neuritic amyloid plaques or Braak NFT stages.",
+      "strength": "moderate",
+      "location": "Results / Associations of clinical and proxy AD risk loci with NPE"
+    }
+  ],
+  "methods": {
+    "design": "Genome-wide association study (GWAS) meta-analysis",
+    "n": 7804,
+    "population": "Deceased participants from the NACC, ROSMAP, and ACT studies with both autopsy and genotype data",
+    "duration": null,
+    "registration": null
+  },
+  "funding_and_conflicts": "Funded by NIH/NIA (e.g., RF1AG082339, R56AG057191, P30 AG028383, R35GM138636, R01AG068331, U01AG058654, P01AG078116, K25AG055620, R01AG082730, R01LM012535, U19AG024904, U01AG068057, U01AG072177, U19AG074879, U24AG072122, P30AG072976), BrightFocus Foundation, and Alzheimer's Association. Conflicts declared: J.A.S. (fees from OSMB Framingham, OSMB Discovery, Takeda Pharma) and A.J.S. (support from Avid Radiopharmaceuticals, advisory boards for Bayer, Eisai, Novo Nordisk, Siemens). Other authors declared no competing interests.",
+  "limitations": [
+    "No genome-wide significant associations found for gross infarcts, microinfarcts, or Lewy body pathology, likely due to sample size or heterogeneity in grading.",
+    "Relatively small sample size for LATE-NC due to its more recent pathological classification.",
+    "Study population was restricted to participants of European descent due to sample size limitations, reducing generalizability to other ancestries."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "Missing primary author byline block at the beginning of the text",
+      "Missing figure numbers in some in-text citations (e.g., 'Fig. ')",
+      "Run-together text and missing spacing in the license statement"
+    ]
+  },
+  "search_verification": [
+    "Checked document text to confirm DOI (10.1038/s41588-024-01939-9) and PMID (39379761). Did not execute external web search tools to maintain the strict single-JSON output constraint."
+  ]
+}

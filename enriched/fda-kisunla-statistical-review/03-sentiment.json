@@ -1,0 +1,75 @@
+{
+  "overall": "mixed",
+  "summary": "The public sentiment regarding Eli Lilly's Kisunla (donanemab) is deeply divided across different communities. Retail investors and financial media exhibit high enthusiasm, focusing heavily on the drug's commercial potential and its convenient 'stop-dosing' regimen. In contrast, the scientific and medical communities harbor significant skepticism, echoing FDA reviewers' concerns regarding high dropout rates, missing data sensitivities, and the clinical meaningfulness of the slight improvements on the CDR-SB scale. Meanwhile, patients and caregivers display cautious hope tempered by frustration over strict early-stage eligibility criteria and fears of severe side effects like ARIA (brain swelling and bleeding) and mortality risks.",
+  "communities": [
+    {
+      "community": "investors and financial forums",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Market share capture against competitor Leqembi",
+        "The 'stop-dosing' regimen once plaques are cleared as a major commercial advantage",
+        "Eli Lilly (LLY) stock growth and financial projections"
+      ],
+      "example_urls": [
+        "https://www.cnbc.com/2023/05/03/alzheimers-eli-lilly-treatment-donanemab-slowed-disease-progression.html"
+      ]
+    },
+    {
+      "community": "scientific and medical researchers (Alzforum, PubMed)",
+      "sentiment": "skeptical",
+      "themes": [
+        "Clinical meaningfulness of minor iADRS/CDR-SB score improvements",
+        "High discontinuation rates (27% in treatment arm) compromising data integrity",
+        "Potential mortality imbalances and sensitivity to missing data assumptions"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/conference-coverage/donanemab-confirms-clearing-plaques-slows-decline-bit",
+        "https://pubmed.ncbi.nlm.nih.gov/42602524/"
+      ]
+    },
+    {
+      "community": "patients and caregivers (Drugs.com, support networks)",
+      "sentiment": "hopeful",
+      "themes": [
+        "Desperation for any treatment that slows cognitive decline",
+        "Anxiety regarding ARIA side effects and required MRI monitoring",
+        "Confusion and frustration over strict eligibility (only early symptomatic patients)"
+      ],
+      "example_urls": [
+        "https://www.drugs.com/kisunla.html"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "The New York Times",
+      "tone": "neutral",
+      "date": "2024-07",
+      "url": "https://www.nytimes.com/2024/07/02/health/alzheimers-treatment-kisunla-donanemab.html"
+    },
+    {
+      "outlet": "CNBC",
+      "tone": "positive",
+      "date": "2023-05",
+      "url": "https://www.cnbc.com/2023/05/03/alzheimers-eli-lilly-treatment-donanemab-slowed-disease-progression.html"
+    },
+    {
+      "outlet": "FDA Press Announcements",
+      "tone": "neutral",
+      "date": "2024-07",
+      "url": "https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-treatment-adults-alzheimers-disease"
+    }
+  ],
+  "hype_vs_evidence": "Public and investor hype frequently frames Kisunla as a major breakthrough that dramatically alters the course of Alzheimer's disease due to its highly effective clearance of amyloid plaques. However, FDA statistical reviews paint a much more modest and problematic picture regarding actual clinical efficacy. While plaque reduction is undeniable, the clinical benefit is moderate at best, and primary analyses of cognitive decline are highly sensitive to missing data assumptions stemming from a disproportionately high 27% dropout rate in the treatment arm. Excitement over the 'stop-dosing' feature often obscures the unresolved safety signals, including a 1.0% increased mortality risk difference and severe ARIA complications.",
+  "misinformation_flags": [
+    "Kisunla cures Alzheimer's disease or reverses cognitive decline (it only modestly slows the rate of decline in early-stage patients).",
+    "Once amyloid plaques are cleared and dosing stops, the disease stops progressing entirely."
+  ],
+  "searches_run": [
+    "site:reddit.com/r/Alzheimers donanemab OR Kisunla",
+    "site:reddit.com donanemab OR Kisunla \"death\" OR \"mortality\" OR \"dropout\"",
+    "site:reddit.com/r/investing OR site:reddit.com/r/biotech \"donanemab\" OR \"Kisunla\" OR \"LLY\"",
+    "donanemab OR Kisunla site:alzforum.org",
+    "Kisunla FDA approval news"
+  ]
+}

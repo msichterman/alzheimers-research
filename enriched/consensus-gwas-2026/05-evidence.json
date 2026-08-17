@@ -1,0 +1,447 @@
+{
+  "document_kind": "journal_article",
+  "title": {
+    "value": "Consensus meta-analysis of genome-wide association studies for Alzheimer’s disease and related dementias",
+    "quote": "# Consensus meta-analysis of genome-wide association studies for Alzheimer’s disease and related dementias",
+    "location": "Title line"
+  },
+  "authors": [
+    {
+      "name": "Céline Bellenguez",
+      "affiliation": null,
+      "orcid": null,
+      "corresponding": null
+    },
+    {
+      "name": "Jean-Charles Lambert",
+      "affiliation": null,
+      "orcid": null,
+      "corresponding": null
+    }
+  ],
+  "study": {
+    "design": {
+      "value": "Consensus fixed-effects meta-analysis of European-ancestry genome-wide association studies of Alzheimer's disease and related dementias, across the EADB, IGAP and PGC-ALZ consortia plus UK Biobank and FinnGen, with no-proxy and no-biobank sensitivity meta-analyses",
+      "quote": "To better characterize the genetic architecture underlying Alzheimer’s disease (AD) and related dementias (ADRD), we performed a meta-analysis of European-ancestry genome-wide association studies in 128,681 cases or proxy cases of ADRD and 849,833 (proxy) controls.",
+      "location": "Abstract"
+    },
+    "phase": {
+      "value": null,
+      "quote": null,
+      "location": null
+    },
+    "n": {
+      "value": 128681,
+      "quote": "we performed a meta-analysis of European-ancestry genome-wide association studies in 128,681 cases or proxy cases of ADRD and 849,833 (proxy) controls",
+      "location": "Abstract"
+    },
+    "n_description": {
+      "value": "Cases or proxy cases of ADRD (128,681), counted separately from the 849,833 (proxy) controls; the document breaks this down as 72,721 AD cases, 55,960 proxy ADRD cases, 614,267 controls and 235,566 proxy controls from 52 studies, corresponding to a rough effective sample size of 230,631",
+      "quote": "The meta-analysis included 72,721 AD cases, 55,960 proxy ADRD cases, 614,267 controls and 235,566 proxy controls from 52 studies, corresponding to a rough effective sample size of 230,631",
+      "location": "Main, paragraph 2"
+    },
+    "population": {
+      "value": "European-ancestry participants from 52 studies: clinically diagnosed AD cases, biobank cases identified by International Classification of Diseases codes, and proxy ADRD cases (individuals reporting at least one biological relative, parent or sibling, affected with dementia), plus controls and proxy controls",
+      "quote": "We analyzed genotyping data from European-ancestry samples across 52 studies—46 case–control or cohort studies, 2 family studies (NIA-LOAD and Framingham Heart Study (FHS)) and 4 large biobanks (UKBB, FinnGen, deCODE and HUNT).",
+      "location": "Methods, Samples"
+    },
+    "followup": {
+      "value": null,
+      "quote": null,
+      "location": null
+    },
+    "intervention": {
+      "value": null,
+      "quote": null,
+      "location": null
+    },
+    "comparator": {
+      "value": "Controls and proxy controls; in the UK Biobank, proxy status was based on reporting a biological relative affected with dementia",
+      "quote": "In the UKBB, proxy ADRD cases included participants who reported at least one biological relative (parent or siblings) affected with dementia, either at baseline or follow-up",
+      "location": "Methods, Samples"
+    },
+    "biomarker_confirmation": {
+      "value": null,
+      "quote": null,
+      "location": null
+    },
+    "nct_ids": [],
+    "cohorts": [
+      "International Genomics of Alzheimer’s Project (IGAP)",
+      "European Alzheimer and Dementia Biobank (EADB)",
+      "EADB-core",
+      "Psychiatric Genomics Consortium (PGC)—AD Working Group (PGC-ALZ)",
+      "UK Biobank (UKBB)",
+      "FinnGen",
+      "deCODE",
+      "HUNT",
+      "NIA-LOAD",
+      "Framingham Heart Study (FHS)",
+      "Adult Changes in Thought (ACT)",
+      "Alzheimer’s Disease Centers/National Alzheimer’s Coordinating Center (ADC/NACC)",
+      "ADGC",
+      "Bonn",
+      "CHARGE",
+      "EADI",
+      "GERAD",
+      "GR@ACE/DEGESCO",
+      "DemGene",
+      "Gothenburg",
+      "STSA",
+      "TwinGene",
+      "GenADA",
+      "ROSMAP1",
+      "CSDC",
+      "Alzheimer Disease European Sequencing (ADES)",
+      "Alzheimer’s Disease Sequencing Project (ADSP)",
+      "TOPMed reference panel",
+      "Haplotype Reference Consortium panel",
+      "1000 Genomes (European samples, v3 / Phase 3)",
+      "HapMap 3",
+      "GWAS Catalog (version e112_r2024-07-08)",
+      "PGS Catalog",
+      "NIAGADS",
+      "GSE168408_Human_Prefrontal_Cortex_level1_Adult and level2_Adult",
+      "PsychENCODE_Adult",
+      "DroNc_Human_Hippocampus",
+      "Allen_Human_MTG_level1 and Allen_Human_MTG_level2 (middle temporal gyrus)"
+    ]
+  },
+  "outcomes": [
+    {
+      "name": "Number of genome-wide significant (tier 1) loci associated with ADRD risk in the main meta-analysis",
+      "tier": "primary",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "met",
+      "effect_estimate": "91 tier 1 loci, of which 16 new in European-ancestry samples and 56 associated with clinically diagnosed AD",
+      "confidence_interval": null,
+      "p_value": "P ≤ 5 × 10 −8",
+      "multiplicity_controlled": "yes",
+      "quote": "In summary, this consensus meta-analysis identified 91 genetic loci associated with ADRD risk, including 16 new loci in European-ancestry samples, and 56 of the loci were associated with the risk of clinically diagnosed AD.",
+      "location": "Main, final paragraph"
+    },
+    {
+      "name": "Loci new in European-ancestry samples at the time of analysis",
+      "tier": "primary",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "met",
+      "effect_estimate": "16 new tier 1 loci (EIF4G3, PTPRC, MGAT5, PPP2R3A, ADGRL3, FAM193B, TMEM184A, DOCK4, IPMK, UBFD1, VMAC, VAV1, LRRC25, CEP89, LILRB1/LILRB4 and SRC)",
+      "confidence_interval": null,
+      "p_value": "P ≤ 5 × 10 −8",
+      "multiplicity_controlled": "yes",
+      "quote": "We identified 91 genetic loci associated with ADRD risk, of which 16 are new and 56 are specifically detected in clinically diagnosed AD cases.",
+      "location": "Abstract"
+    },
+    {
+      "name": "Tier 2 loci requiring further external validation",
+      "tier": "primary",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "18 loci, 15 of them new",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "We also provide a list of 18 loci (15 new) requiring further external validation.",
+      "location": "Abstract"
+    },
+    {
+      "name": "Robustness of tier 1 loci in the no-proxy and no-biobank sensitivity meta-analyses",
+      "tier": "primary",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "met",
+      "effect_estimate": "75 of 91 (82.4%) genome-wide significant without proxy cases; 56 of 91 (61.5%) without large biobanks",
+      "confidence_interval": null,
+      "p_value": "P ≤ 5 × 10 −8",
+      "multiplicity_controlled": "yes",
+      "quote": "Among the 91 tier 1 loci, 75 (82.4%) were GWS in the no-proxy meta-analysis, and 56 (61.5%) in the no-biobank meta-analysis focusing on clinically diagnosed AD cases",
+      "location": "Main, paragraph on diagnosis-quality sensitivity analyses"
+    },
+    {
+      "name": "Independent secondary association signals identified by stepwise conditional analysis",
+      "tier": "primary",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "met",
+      "effect_estimate": "25 independent secondary signals across 16 loci",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "yes",
+      "quote": "After the stepwise conditional analysis, we identified 25 independent secondary signals across 16 loci",
+      "location": "Main, paragraph 2"
+    },
+    {
+      "name": "Genome-wide significance criteria defining tier 1 versus tier 2 loci",
+      "tier": "primary",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": "P ≤ 5 × 10 −8 unconditional and P ≤ 1 × 10 −7 conditional for tier 1",
+      "multiplicity_controlled": "yes",
+      "quote": "Tier 1 loci are considered genuine GWS signals, with P ≤ 5 × 10 −8 in the unconditional analysis and P ≤ 1 × 10 −7 in conditional analyses within or across loci.",
+      "location": "Figure 1 caption"
+    },
+    {
+      "name": "Previously reported loci not replicated at genome-wide significance in this meta-analysis",
+      "tier": "primary",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_met",
+      "effect_estimate": "4 loci (HAVCR2, SLC2A4RG/LIME1, FOXF1 and NTN5) were not genome-wide significant",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "yes",
+      "quote": "four loci identified in the two previous largest ADRD GWAS meta-analyses on European-ancestry samples , ( HAVCR2 , SLC2A4RG / LIME1 , FOXF1 and NTN5) were not GWS in the EADB–IGAP–PGC meta-analysis",
+      "location": "Main, paragraph 2"
+    },
+    {
+      "name": "Loci losing significance after conditional analyses (classified tier 2)",
+      "tier": "primary",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_met",
+      "effect_estimate": "5 loci with P > 1 × 10 −7 after conditional analyses (SEC61G/EGFR, SPPL2A/USP8/USP50, KAT8/BCKDK known; TRIB1 and AXIN1 new)",
+      "confidence_interval": null,
+      "p_value": "P > 1 × 10 −7",
+      "multiplicity_controlled": "yes",
+      "quote": "in addition to the 91 tier 1 loci, we detected five loci in which significance decreased after conditional analyses ( P > 1 × 10 −7 ) performed either within or across loci",
+      "location": "Main, paragraph 2"
+    },
+    {
+      "name": "Gene-based rare-variant burden in SRC (ADES-ADSP sequencing data)",
+      "tier": "secondary",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "met",
+      "effect_estimate": "OR = 4.23",
+      "confidence_interval": "95% confidence interval (CI) = 2.04–8.79",
+      "p_value": "P = 1.06 × 10 −4",
+      "multiplicity_controlled": "yes",
+      "quote": "In the SRC gene, loss-of-function variants and missense variants with a REVEL score of >50 were jointly associated with AD risk (odds ratio (OR) = 4.23, 95% confidence interval (CI) = 2.04–8.79, P = 1.06 × 10 −4",
+      "location": "Main, paragraph on index variants and rare variants"
+    },
+    {
+      "name": "Cell-type enrichment of ADRD/AD association signals",
+      "tier": "secondary",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "met",
+      "effect_estimate": "Genes enriched for association signals were overexpressed in microglia across four datasets",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "genes enriched for ADRD or AD association signals in the main, no-proxy and no-biobank meta-analyses were overexpressed in microglia across four datasets spanning different brain regions",
+      "location": "Main, pathway/single-cell paragraph"
+    },
+    {
+      "name": "Genetic correlation of the no-proxy ADRD phenotype with other traits (APOE excluded)",
+      "tier": "secondary",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "met",
+      "effect_estimate": "Lewy body dementia r = 0.64; amyotrophic lateral sclerosis r = 0.29; Parkinson's disease r = 0.16; educational attainment r = −0.12",
+      "confidence_interval": "95% CI = 0.37–0.92 (Lewy body dementia); 0.18–0.40 (ALS)",
+      "p_value": "P ≤ 3.13 × 10 −3",
+      "multiplicity_controlled": "yes",
+      "quote": "the no-proxy ADRD phenotype was significantly ( P ≤ 3.13 × 10 −3 ) genetically correlated with Lewy body dementia ( r = 0.64, 95% CI = 0.37–0.92), amyotrophic lateral sclerosis ( r = 0.29, 95% CI = 0.18–0.40)",
+      "location": "Main, genetic correlation paragraph"
+    },
+    {
+      "name": "Association of the main ADRD polygenic score (excluding APOE) with neuropathology endophenotypes in ADC/NACC",
+      "tier": "secondary",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "met",
+      "effect_estimate": "Significantly associated with the three AD-related NPEs and with LATE-NC",
+      "confidence_interval": null,
+      "p_value": "P ≤ 2.27 × 10 −3",
+      "multiplicity_controlled": "yes",
+      "quote": "The main score was significantly associated ( P ≤ 2.27 × 10 −3 ) with the three AD-related NPEs and with LATE-NC in the ADC/NACC dataset",
+      "location": "Main, PGS paragraph"
+    },
+    {
+      "name": "Association of the ADRD polygenic scores with cerebrovascular neuropathology, hippocampal sclerosis and Lewy bodies",
+      "tier": "secondary",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_met",
+      "effect_estimate": "No significant association",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "yes",
+      "quote": "None of the scores was significantly associated with cerebrovascular NPEs, hippocampal sclerosis or Lewy bodies",
+      "location": "Main, PGS paragraph"
+    },
+    {
+      "name": "Risk of Braak stage >4 and moderate-to-severe neuritic amyloid plaque pathology at death by polygenic score decile (ADC/NACC)",
+      "tier": "secondary",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "met",
+      "effect_estimate": "Tenth decile: 2.05-fold increased risk for Braak stage >4 and 1.96-fold for moderate-to-severe neuritic plaques versus the median quintile; first decile: 0.47-fold and 0.43-fold",
+      "confidence_interval": "95% CI = 1.47–2.85 (Braak); 95% CI = 1.39–2.78 (CERAD)",
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "individuals in the tenth decile had a risk increased by 2.05-fold (95% CI = 1.47–2.85) and 1.96-fold (95% CI = 1.39–2.78) for Braak stage of >4 and moderate-to-severe neuritic amyloid plaque pathology at death, respectively",
+      "location": "Main, PGS paragraph"
+    },
+    {
+      "name": "Variance in neuropathology explained by the main polygenic score",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "Nagelkerke's pseudo-R2 of 3.98% for Braak stage and 4.37% for CERAD score",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "the variance explained by the score remained low—Nagelkerke’s pseudo- R -squared ( R 2 ) was 3.98% and 4.37% for Braak stage and CERAD score, respectively",
+      "location": "Main, PGS paragraph"
+    }
+  ],
+  "primary_endpoint_status": {
+    "status": "met",
+    "explanation": "The discovery analysis succeeded on its own terms: the consensus meta-analysis identified 91 tier 1 genome-wide significant loci for ADRD risk, 16 of them new in European-ancestry samples, with 56 detected among clinically diagnosed AD cases.",
+    "quote": "In summary, this consensus meta-analysis identified 91 genetic loci associated with ADRD risk, including 16 new loci in European-ancestry samples, and 56 of the loci were associated with the risk of clinically diagnosed AD."
+  },
+  "multiplicity": {
+    "approach": "Genome-wide significance threshold of P ≤ 5 × 10 −8 for tier 1 loci, with a further requirement of P ≤ 1 × 10 −7 in conditional analyses; secondary signals defined at P = 1 × 10 −5 by GCTA COJO stepwise conditional analysis; Bonferroni corrections applied for the rare-variant gene-based tests (P < 9.8 × 10 −4 for 51 tests), the polygenic score–neuropathology analyses (P < 2.27 × 10 −3 for 22 tests) and the genetic correlations (P < 3.13 × 10 −3 for 16 phenotypes)",
+    "quote": "An association was considered significant if the P value was <2.27 × 10 −3 , corresponding to a Bonferroni correction for 22 tests (11 NPEs analyzed in two studies).",
+    "location": "Methods, PGS analyses"
+  },
+  "safety": {
+    "harms": [],
+    "apoe_stratification_reported": false,
+    "serious_adverse_events": {
+      "value": null,
+      "quote": null,
+      "location": null
+    },
+    "deaths": {
+      "value": null,
+      "quote": null,
+      "location": null
+    },
+    "discontinuations": {
+      "value": null,
+      "quote": null,
+      "location": null
+    }
+  },
+  "funding": [],
+  "conflicts": [
+    "A. Squassina received speaker fees from Johnson & Johnson.",
+    "L.M.-P. reported personal fees from Biogen for consulting activities outside this work.",
+    "H.Z. has served on scientific advisory boards and/or as a consultant for AbbVie, Acumen, Alector, Alzinova, ALZPath, Amylyx, Annexon, Apellis, Artery Therapeutics, AZTherapies, Cognito Therapeutics, CogRx, Denali, Eisai, LabCorp, Merry Life, Nervgen, Novo Nordisk, Optoceutics, Passage Bio, Pinteon Therapeutics, Prothena, Red Abbey Labs, reMYND, Roche, Samumed, Siemens Healthineers, Triplet Therapeutics and Wave, and is a cofounder of Brain Biomarker Solutions in Gothenburg AB (BBS).",
+    "K.B. has served as a consultant and on advisory boards for AbbVie, AC Immune, ALZPath, AriBio, Beckman Coulter, BioArctic, Biogen, Eisai, Lilly, Moleac, Neurimmune, Novartis, Ono Pharma, Prothena, Quanterix, Roche Diagnostics, Sanofi and Siemens Healthineers, and is a cofounder of Brain Biomarker Solutions in Gothenburg AB (BBS).",
+    "G.S. has received honoraria for giving lectures at symposia sponsored by Eisai and Eli Lilly, and has served on advisory boards of Eisai, Eli Lilly and Roche.",
+    "J.C. is currently employed as a senior scientist at Takeda Pharmaceuticals; the company did not influence the study design, analyses or interpretation of the results presented in this study.",
+    "B.M.P. serves on the Steering Committee of the Yale Open Data Access Project, supported by Johnson & Johnson.",
+    "Numerous ADGC investigators declare consulting, advisory board, speaking, patent, stock and research-support relationships with companies including Biogen, Eisai, Eli Lilly, Roche/Genentech, Novartis, Janssen, Takeda, AbbVie, Cassava and others, as itemised in the Competing interests section.",
+    "Many listed authors 'have received grant funding from the NIH, including from the National Institute on Aging and others'; E.R. has received grant funding from the Canadian Institutes for Health Research.",
+    "The remaining authors declare no competing interests."
+  ],
+  "limitations": [
+    "Biobank and proxy phenotyping is less specific: 'This strategy increases the power to identify AD loci but also can blur the distinction between AD and non-AD dementia signals, as the AD phenotype definition is less specific in those samples.'",
+    "18 loci (15 new) are classified as tier 2 and require further external validation, either because significance fell after conditional analyses or because they were genome-wide significant only in sensitivity meta-analyses.",
+    "'Genetic correlation with ADRD could not be reliably assessed for most of the 11 neuropathology endophenotypes (NPEs) examined, due to limited study sample sizes and/or low heritability of these traits'",
+    "For the null PGS–Lewy body result, 'we cannot exclude other explanations, such as a lack of statistical power of the PGS analysis or misdiagnoses among AD and Lewy body dementia cases, impacting genetic correlation.'",
+    "'the variance explained by the score remained low'",
+    "'Such results are difficult to interpret, considering the limited statistical power of NPE GWASs to detect variants with small effects on ADRD risk.'",
+    "The whole analysis is restricted to European-ancestry samples, and ADGRL3 and TRIB1 are noted as having been identified in a recent multi-ancestry GWAS.",
+    "'Variants with positions of >80 Mb on chromosome 11 were inadvertently missing from the UKBB-diagnosed summary statistics, resulting in a minor loss of power (~6% effective sample size) in a small genomic region (~2%) for the no-proxy sensitivity analyses'",
+    "The ADES-ADSP rare-variant samples and the NPE GWAS samples overlap with the meta-analysis samples: 'These samples largely overlap with the ones included in the meta-analysis.'",
+    "'Further studies using larger numbers of well-characterized AD patients and neuropathological data will thus be required to more precisely delineate the impact of each of the loci on AD pathology versus other neuropathologies.'"
+  ],
+  "risk_of_bias": [
+    {
+      "domain": "Phenotype definition / diagnostic accuracy (proxy and ICD-code biobank cases)",
+      "judgement": "A substantial fraction of cases are proxy ADRD cases or biobank cases ascertained by ICD codes, which the document says blurs the AD versus non-AD dementia distinction; only 56 of 91 tier 1 loci remained genome-wide significant when biobanks were excluded.",
+      "quote": "This strategy increases the power to identify AD loci but also can blur the distinction between AD and non-AD dementia signals, as the AD phenotype definition is less specific in those samples."
+    },
+    {
+      "domain": "Inflation of unconditional association statistics",
+      "judgement": "Five loci lost significance after conditional analysis, which the document interprets as a slight inflation of the unconditional analysis, and they were downgraded to tier 2.",
+      "quote": "we detected five loci in which significance decreased after conditional analyses ( P > 1 × 10 −7 ) performed either within or across loci, suggesting a slight inflation of the unconditional analysis"
+    },
+    {
+      "domain": "Sample overlap between discovery and follow-up analyses",
+      "judgement": "The sequencing samples used for the rare-variant follow-up and the neuropathology GWAS samples largely overlap with the meta-analysis samples, so these are not independent replications.",
+      "quote": "These samples largely overlap with the ones included in the meta-analysis."
+    },
+    {
+      "domain": "Bias from proxy cases in genome-wide summary-statistic analyses",
+      "judgement": "The genetic correlation with educational attainment differed when using the main (proxy-including) statistics versus the no-proxy statistics, consistent with reported biases from proxy cases.",
+      "quote": "This is in accordance with previous reports of biases observed with genome-wide summary statistics of studies including proxy cases"
+    },
+    {
+      "domain": "Ancestry restriction / generalisability",
+      "judgement": "All samples are of European ancestry, so the locus set and the polygenic score are not established outside that ancestry group.",
+      "quote": "We analyzed genotyping data from European-ancestry samples across 52 studies"
+    }
+  ],
+  "disagreements": [
+    {
+      "question": "Are four loci reported by the two previous largest European-ancestry ADRD GWAS meta-analyses genuine?",
+      "position": "This document reports that HAVCR2, SLC2A4RG/LIME1, FOXF1 and NTN5 were not genome-wide significant in the EADB–IGAP–PGC consensus meta-analysis.",
+      "attributed_to": "Bellenguez et al. (consensus EADB–IGAP–PGC meta-analysis), this document",
+      "quote": "four loci identified in the two previous largest ADRD GWAS meta-analyses on European-ancestry samples , ( HAVCR2 , SLC2A4RG / LIME1 , FOXF1 and NTN5) were not GWS in the EADB–IGAP–PGC meta-analysis"
+    },
+    {
+      "question": "Do ADRD polygenic risk loci act mainly through AD pathology or through non-AD pathology?",
+      "position": "This document concludes that the polygenic scores, excluding APOE, were primarily associated with AD rather than non-AD pathology.",
+      "attributed_to": "Bellenguez et al., this document",
+      "quote": "the three PGSs, excluding APOE , were primarily associated with AD rather than non-AD pathology"
+    },
+    {
+      "question": "Should GWAS results based on proxy and biobank cases be taken at face value for AD?",
+      "position": "This document argues that sensitivity analysis in clinically diagnosed cases will become increasingly important as the proportion of proxy and biobank cases grows, and releases no-proxy and no-biobank summary statistics for that purpose.",
+      "attributed_to": "Bellenguez et al., this document",
+      "quote": "assessing the sensitivity of GWAS or GWAS secondary analyses (especially those based on genome-wide statistics ) in clinically diagnosed cases will become increasingly important as the proportion of proxy and biobank cases included in the GWAS increases"
+    },
+    {
+      "question": "How much confidence should be placed in the newly reported loci?",
+      "position": "This document explicitly separates 91 tier 1 loci from 18 tier 2 loci (15 new) that it says require further external validation, rather than reporting a single combined discovery count.",
+      "attributed_to": "Bellenguez et al., this document",
+      "quote": "We also provide a list of 18 loci (15 new) requiring further external validation."
+    }
+  ],
+  "linked_objects": [],
+  "trial_status_observation": {
+    "status": null,
+    "enrollment": null,
+    "phase": null,
+    "observed_at": null,
+    "source": null
+  },
+  "unlocatable_fields": [
+    "study.phase",
+    "study.followup",
+    "study.intervention",
+    "study.biomarker_confirmation",
+    "study.nct_ids",
+    "authors.affiliation",
+    "authors.orcid",
+    "authors.corresponding",
+    "funding",
+    "safety.harms",
+    "safety.serious_adverse_events",
+    "safety.deaths",
+    "safety.discontinuations",
+    "trial_status_observation.status",
+    "trial_status_observation.enrollment",
+    "trial_status_observation.phase",
+    "trial_status_observation.observed_at",
+    "trial_status_observation.source"
+  ],
+  "_meta": {
+    "model": "claude (builder subagent)",
+    "extracted_at": "2026-08-13T16:42:17Z",
+    "source": "raw/consensus-gwas-2026/document.md"
+  }
+}

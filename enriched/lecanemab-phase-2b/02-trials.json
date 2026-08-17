@@ -1,0 +1,103 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT01767311",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01767311",
+      "name": "BAN2401-G000-201",
+      "drug": "Lecanemab (anti-Aβ protofibril antibody)",
+      "phase": "2",
+      "sponsor": "Eisai Inc.",
+      "status": "Completed",
+      "enrollment": 856,
+      "population": "Subjects With Early Alzheimer's Disease",
+      "primary_endpoint": "Core Study Phase: Change From Baseline in Alzheimer's Disease Composite Score (ADCOMS) at Month 12",
+      "started": "2012-12",
+      "completed_or_readout": "2024-12",
+      "results_summary": "The trial failed to meet its primary Bayesian clinical endpoint at 12 months. However, secondary analyses at 18 months demonstrated significant dose-dependent reductions in brain amyloid and signals of clinical benefit, leading to the initiation of Phase 3.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03887455",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03887455",
+      "name": "Clarity AD",
+      "drug": "Lecanemab (anti-Aβ protofibril antibody)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "status": "Active",
+      "enrollment": 1906,
+      "population": "Participants With Early Alzheimer's Disease",
+      "primary_endpoint": "Core Study: Change from Baseline in the CDR-SB at 18 Months",
+      "started": "2019-03",
+      "completed_or_readout": "2029-06",
+      "results_summary": "Met the primary endpoint, reducing clinical decline on the CDR-SB by 27% compared to placebo at 18 months, alongside significant clearance of brain amyloid beta. These results successfully replicated the Phase 2b proof-of-concept findings and led to traditional FDA approval.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04468659",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04468659",
+      "name": "AHEAD 3-45",
+      "drug": "Lecanemab (anti-Aβ protofibril antibody)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "status": "Active",
+      "enrollment": 1400,
+      "population": "Participants With Preclinical Alzheimer's Disease and Elevated or Intermediate Amyloid",
+      "primary_endpoint": "Change From Baseline in Preclinical Alzheimer Cognitive Composite 5 (PACC5) Score and Amyloid PET SUVr at Week 216",
+      "started": "2020-07",
+      "completed_or_readout": "2028-12",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01230853",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01230853",
+      "name": null,
+      "drug": "Lecanemab (BAN2401, anti-Aβ protofibril antibody)",
+      "phase": "1",
+      "sponsor": "Eisai Inc.",
+      "status": "Completed",
+      "enrollment": 80,
+      "population": "Subjects with Mild to Moderate Alzheimer's Disease",
+      "primary_endpoint": "Safety and Tolerability of Single Ascending Dose (SAD)",
+      "started": "2010-08",
+      "completed_or_readout": "2012-10",
+      "results_summary": "Demonstrated acceptable safety, tolerability, and pharmacodynamics for single and multiple ascending doses, establishing safety parameters that supported Phase 2 development.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2021-04-17",
+      "kind": "paper",
+      "description": "Publication of the Phase 2b proof-of-concept trial analyzed in the document (BAN2401-G000-201).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33865446"
+    },
+    {
+      "date": "2023-01-05",
+      "kind": "paper",
+      "description": "Publication of the Phase 3 Clarity AD trial results showing lecanemab significantly slowed clinical decline.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36449413"
+    },
+    {
+      "date": "2023-01-06",
+      "kind": "regulatory",
+      "description": "FDA grants accelerated approval to Leqembi (lecanemab) based on biomarker endpoint (amyloid reduction) derived from the Phase 2b trial.",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-grants-accelerated-approval-alzheimers-disease-treatment"
+    },
+    {
+      "date": "2023-07-06",
+      "kind": "regulatory",
+      "description": "FDA grants traditional full approval to Leqembi (lecanemab) after the Phase 3 Clarity AD trial confirmed clinical benefit.",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-converts-novel-alzheimers-disease-treatment-traditional-approval"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence supporting lecanemab is strong and fully replicated in later-stage trials. While the Phase 2b trial (NCT01767311) analyzed in the document missed its primary 12-month clinical endpoint and suffered from severe genetic imbalance due to mid-trial regulatory changes, its secondary 18-month findings of robust amyloid clearance and nominal clinical benefit proved to be highly predictive. The subsequent 1,906-patient Phase 3 Clarity AD trial (NCT03887455) successfully met its primary endpoint, demonstrating a 27% reduction in clinical decline on the CDR-SB at 18 months alongside significant amyloid reduction. This robust Phase 3 replication fully vindicates the proof-of-concept claims made in the Phase 2b paper and led directly to traditional FDA approval in July 2023.",
+  "discrepancies": [
+    "The document reports a total sample size of 854 participants, whereas the ClinicalTrials.gov registry lists the final enrollment count as 856.",
+    "The document explicitly concludes that the Phase 2b study achieved 'proof-of-concept' based on secondary 18-month endpoints, whereas the registry confirms the singular pre-specified primary objective was the 12-month ADCOMS target, which the trial definitively failed."
+  ]
+}

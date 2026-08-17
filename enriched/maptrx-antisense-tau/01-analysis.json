@@ -1,0 +1,301 @@
+{
+  "kind": "research-paper",
+  "title": "Tau-targeting antisense oligonucleotide MAPT Rx in mild Alzheimer’s disease: a phase 1b, randomized, placebo-controlled trial",
+  "authors": [
+    {
+      "name": "Catherine J. Mummery",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "Reports advisory board membership for Roche, Lilly, Biogen and Ionis; research grants from Biogen; seminar chair for Biogen; chair of data safety monitoring board for AD trial led by Imperial College"
+    },
+    {
+      "name": "Anne Börjesson-Hanson",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "None"
+    },
+    {
+      "name": "Daniel J. Blackburn",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "None"
+    },
+    {
+      "name": "Everard G. B. Vijverberg",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "Reports consultancies from New Amsterdam Pharma, Treeway, ReMynd, Vivoryon, Biogen, Vigil Neuroscience, ImmunoBrain Checkpoint and Brainstorm Therapeutics. PI of studies with AC immune, CogRX therapeutics, New Amsterdam Pharma, Janssen, UCB, Roche, GreenValley, Vivoryon, ImmunoBrain, Alector and Alzheon and sub-I from DIAN-TU, Alzheon, Eli Lilly, Cortexyme, Biogen en Fuij Film Toyama."
+    },
+    {
+      "name": "Peter Paul De Deyn",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "None"
+    },
+    {
+      "name": "Simon Ducharme",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "Reports salary support from the Fonds de recherche du Québec – Santé; consultancies from Biogen, Wave Life Sciences, AZTherapies and Janssen Pharmaceuticals; advisory board membership and/or speaker fees from Eisai, Biogen, Sunovion, Innodem Neurosciences, HealthTech Connex and QurAlis; cofounder of AFX Medical Inc."
+    },
+    {
+      "name": "Michael Jonsson",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "Reports advisory board membership for Biogen Sweden AB and BioArctic AB"
+    },
+    {
+      "name": "Anja Schneider",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "None"
+    },
+    {
+      "name": "Juha O. Rinne",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "None"
+    },
+    {
+      "name": "Albert C. Ludolph",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "None"
+    },
+    {
+      "name": "Ralf Bodenschatz",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "None"
+    },
+    {
+      "name": "Laurence Mignon",
+      "affiliation": "Ionis",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "Employee of, and holds stock in, Ionis"
+    },
+    {
+      "name": "Candice Junge",
+      "affiliation": "Ionis",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "Employee of, and holds stock in, Ionis"
+    },
+    {
+      "name": "Roger M. Lane",
+      "affiliation": "Ionis",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "Employee of, and holds stock in, Ionis"
+    },
+    {
+      "name": "Holly Kordasiewicz",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "None"
+    },
+    {
+      "name": "Eric E. Swayze",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "None"
+    },
+    {
+      "name": "Bethany Fitzsimmons",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "None"
+    },
+    {
+      "name": "Katrina M. Moore",
+      "affiliation": "Ionis",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "Employee of, and holds stock in, Ionis"
+    },
+    {
+      "name": "Chris Yun",
+      "affiliation": "Ionis",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "Employee of, and holds stock in, Ionis"
+    },
+    {
+      "name": "Tiffany Baumann",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "None"
+    },
+    {
+      "name": "Dan Li",
+      "affiliation": "Ionis",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "Employee of, and holds stock in, Ionis"
+    },
+    {
+      "name": "Daniel A. Norris",
+      "affiliation": "Ionis",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "Employee of, and holds stock in, Ionis"
+    },
+    {
+      "name": "Rebecca Crean",
+      "affiliation": "Ionis",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "Employee of, and holds stock in, Ionis"
+    },
+    {
+      "name": "Danielle L. Graham",
+      "affiliation": "Biogen",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "Employee of, and holds stock in, Biogen"
+    },
+    {
+      "name": "Ellen Huang",
+      "affiliation": "Biogen",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "Employee of, and holds stock in, Biogen"
+    },
+    {
+      "name": "Elena Ratti",
+      "affiliation": "Biogen",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "Employee of, and holds stock in, Biogen"
+    },
+    {
+      "name": "C. Frank Bennett",
+      "affiliation": "Ionis",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "Employee of, and holds stock in, Ionis"
+    }
+  ],
+  "first_author": "Catherine J. Mummery",
+  "venue": "Nature Medicine",
+  "published": "2023",
+  "doi": "10.1038/s41591-023-02326-3",
+  "doi_url": "https://doi.org/10.1038/s41591-023-02326-3",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/37095250",
+  "copyright": null,
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "reuse": "redistribute",
+    "evidence": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made."
+  },
+  "tags": [
+    "paper",
+    "trial",
+    "tau",
+    "biomarkers",
+    "antisense-oligonucleotide",
+    "mapt-rx",
+    "biib080"
+  ],
+  "themes": [
+    "Antisense oligonucleotides",
+    "Tau reduction",
+    "Target engagement",
+    "Phase 1b clinical trial",
+    "Cerebrospinal fluid biomarkers"
+  ],
+  "one_line": "A phase 1b clinical trial demonstrated that the tau-targeting antisense oligonucleotide MAPT Rx was well-tolerated and significantly reduced cerebrospinal fluid tau levels in patients with mild Alzheimer's disease.",
+  "summary": "In a randomized, double-blind, placebo-controlled phase 1b trial, researchers evaluated the safety, pharmacokinetics, and target engagement of MAPT Rx, a tau-targeting antisense oligonucleotide (ASO), in 46 patients with mild Alzheimer's disease. Participants received intrathecal bolus administrations of MAPT Rx (10 mg, 30 mg, 60 mg monthly, or 115 mg quarterly) or placebo over a 13-week treatment period. The study found that MAPT Rx was generally well-tolerated, with adverse events being mostly mild to moderate, the most common being post-lumbar puncture headaches. Treatment resulted in dose-dependent decreases in cerebrospinal fluid (CSF) total tau and p-tau181 concentrations. Notably, mean reductions of greater than 50% from baseline were observed at 24 weeks post-last dose in the higher dose groups. The findings demonstrate proof-of-concept for antisense-mediated suppression of tau protein synthesis in the central nervous system.",
+  "key_claims": [
+    {
+      "claim": "MAPT Rx is well-tolerated and safe for administration in patients with mild Alzheimer's disease.",
+      "evidence": "Adverse events were reported in 94% of MAPT Rx-treated patients and 75% of placebo-treated patients; all were mild or moderate. No serious adverse events were reported in MAPT Rx-treated patients.",
+      "strength": "strong",
+      "location": "Primary endpoint of safety"
+    },
+    {
+      "claim": "MAPT Rx leads to a dose-dependent and sustained reduction in CSF total tau and p-tau181 levels.",
+      "evidence": "Mean percentage change from baseline in t-tau concentration at 8 weeks post-last dose was −30%, −40%, −49% and −42% in MAPT Rx 10 mg, 30 mg and 60 mg monthly and 115 mg quarterly groups, respectively; CSF t-tau continued to decline at 24 weeks post-last dose showing −56% and −51% mean percentage change from baseline in the 60 mg and 115 mg groups.",
+      "strength": "strong",
+      "location": "Exploratory endpoints / Concentration of t-tau in CSF / Figure 3"
+    },
+    {
+      "claim": "MAPT Rx treatment causes greater increases in ventricular volume compared to placebo.",
+      "evidence": "Mean change from baseline in ventricular volume (VV) as a percentage of total intracranial volume 6 months post-baseline was greater in the 10 mg, 30 mg, 60 mg and 115 mg MAPT Rx dose groups (0.5%, 0.7%, 0.7% and 0.6%, respectively) than that observed in the placebo group (0.2%).",
+      "strength": "moderate",
+      "location": "Exploratory endpoints / Extended Data Table 2"
+    }
+  ],
+  "methods": {
+    "design": "Randomized, double-blind, placebo-controlled, multiple-ascending dose phase 1b trial",
+    "n": 46,
+    "population": "Adults aged 50-74 with mild Alzheimer's disease (CDR 1 or 0.5 with Memory 1, MMSE 20-27)",
+    "duration": "13-week treatment period followed by a 23-week post-treatment period",
+    "registration": "NCT03186989"
+  },
+  "funding_and_conflicts": "Funded by Ionis Pharmaceuticals and Biogen. Multiple authors are employees of and hold stock in Ionis or Biogen. Several other authors report advisory board memberships, consultancies, and research grants from various pharmaceutical companies including Biogen, Roche, and Ionis.",
+  "limitations": [
+    "Small sample size (N=46) typical of Phase 1 trials.",
+    "Lack of diversity, as all study participants were white.",
+    "Relatively young patient population (mean age 66, almost half diagnosed before age 65), which may not perfectly represent typical late-onset AD.",
+    "Short duration (13-week treatment period) limits the ability to assess clinical efficacy or long-term safety."
+  ],
+  "red_flags": [
+    "Quantitative assessment of ventricular volume showed greater increases in MAPT Rx treatment groups compared to placebo (up to 0.7% vs 0.2%), which was discussed as potential 'pseudoatrophy' but warrants closer longitudinal monitoring."
+  ],
+  "parse_quality": {
+    "score": 9,
+    "issues": [
+      "Missing primary author affiliation blocks.",
+      "Minor character artifacts in Table 1 (e.g., 'λpg ml −1').",
+      "No explicit corresponding author information preserved."
+    ]
+  },
+  "search_verification": [
+    "The DOI (10.1038/s41591-023-02326-3) and PubMed ID (37095250) were explicitly provided in the document text and used directly as instructed without external web search."
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "overall": "skeptical",
+  "summary": "Public sentiment surrounding semorinemab is characterized by a brief surge of investor hype that quickly dissolved into scientific skepticism. The drug initially generated buzz and a significant stock rally for AC Immune when corporate press releases highlighted the Lauriet trial's isolated success on the ADAS-Cog11 cognitive endpoint. However, the scientific community and specialized media remained highly cautious, pointing out the drug's failure on functional measures and lack of biomarker disease modification. Patient and caregiver forums are completely quiet regarding the drug, likely because it is an obscure, ultimately discontinued phase 2 candidate. On general social media, the drug is rarely discussed and frequently confused with the anti-aging peptide sermorelin.",
+  "communities": [
+    {
+      "community": "Retail Investors (ACIU)",
+      "sentiment": "mixed",
+      "themes": [
+        "Brief stock rally based on cognitive signal",
+        "Subsequent disappointment after deeper analysis",
+        "Hopes for early tau-targeting blockbusters"
+      ],
+      "example_urls": [
+        "https://www.marketscreener.com/quote/stock/AC-IMMUNE-SA-31394898/news/AC-Immune-Shares-Rally-on-Renewed-Hope-for-Semorinemab-in-Alzheimer-s-36289375/",
+        "https://pharmaphorum.com/news/ac-immune-claims-half-a-win-for-tau-drug-in-alzheimers-trial"
+      ]
+    },
+    {
+      "community": "Scientific Community (Alzforum)",
+      "sentiment": "skeptical",
+      "themes": [
+        "Cognitive hit likely a statistical artifact",
+        "Failure to slow tau accumulation on PET",
+        "Debate over optimal tau antibody targets (N-terminal vs mid-region)"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/research-news/first-cognitive-signal-tau-immunotherapy-works",
+        "https://www.alzforum.org/news/conference-coverage/more-tau-antibodies-bid-adieu-semorinemab-keeps-foot-door"
+      ]
+    },
+    {
+      "community": "Patient and Caregiver Forums",
+      "sentiment": "quiet",
+      "themes": [
+        "No organic discussion of semorinemab",
+        "Focus on approved amyloid therapies rather than experimental tau failures"
+      ],
+      "example_urls": []
+    },
+    {
+      "community": "General Social Media (Reddit)",
+      "sentiment": "quiet",
+      "themes": [
+        "Name confusion with sermorelin peptide",
+        "Isolated mentions of earlier trial failures in longevity communities"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/longevity/comments/vgxk1i/in_a_phase_2_trial_of_semorinemab_in_people_who/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Pharmaphorum",
+      "tone": "neutral",
+      "date": "2021-09",
+      "url": "https://pharmaphorum.com/news/ac-immune-claims-half-a-win-for-tau-drug-in-alzheimers-trial"
+    },
+    {
+      "outlet": "Alzforum",
+      "tone": "critical",
+      "date": "2021-09",
+      "url": "https://www.alzforum.org/news/research-news/first-cognitive-signal-tau-immunotherapy-works"
+    },
+    {
+      "outlet": "MarketScreener",
+      "tone": "positive",
+      "date": "2021-09",
+      "url": "https://www.marketscreener.com/quote/stock/AC-IMMUNE-SA-31394898/news/AC-Immune-Shares-Rally-on-Renewed-Hope-for-Semorinemab-in-Alzheimer-s-36289375/"
+    }
+  ],
+  "hype_vs_evidence": "Perception temporarily diverged from evidence when corporate press releases emphasized the 'first positive cognitive results' for a tau antibody, triggering a nearly 60% spike in AC Immune's stock. Retail investors interpreted the ADAS-Cog11 hit as a major breakthrough, whereas the trial actually failed its functional co-primary endpoint and all secondary clinical endpoints. The scientific community correctly recognized that an isolated cognitive benefit without functional improvement or underlying biomarker changes was likely a statistical artifact. Ultimately, the evidence won out over the initial hype, leading Genentech to terminate the program and return rights to AC Immune.",
+  "misinformation_flags": [
+    "Claims that semorinemab is an effective disease-modifying treatment based solely on the isolated ADAS-Cog11 result, ignoring its failure to prevent functional decline or alter tau PET accumulation.",
+    "Lexical confusion on social media blending 'semorinemab' with 'sermorelin', a completely unrelated growth hormone-releasing peptide."
+  ],
+  "searches_run": [
+    "semorinemab site:reddit.com",
+    "semorinemab alzforum",
+    "semorinemab lauriet stock",
+    "semorinemab caregiver forum",
+    "semorinemab site:twitter.com",
+    "semorinemab \"AC Immune\" stock",
+    "semorinemab site:alzforum.org/news",
+    "Lauriet Alzheimer AC immune"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "kind": "other",
+  "title": "A Randomized, Double-Blind, Placebo-Controlled, Parallel-Group Study to Assess the Efficacy, Safety, and Tolerability of BIIB080 in Subjects With Mild Cognitive Impairment Due to Alzheimer's Disease or Mild Alzheimer's Disease Dementia",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2022-06",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "tau",
+    "amyloid",
+    "diranersen",
+    "antisense-oligonucleotide"
+  ],
+  "themes": [
+    "Antisense oligonucleotide therapies",
+    "Tau reduction",
+    "Intrathecal administration",
+    "Mild cognitive impairment (MCI)",
+    "Early Alzheimer's disease"
+  ],
+  "one_line": "A Phase 2 clinical trial registry record detailing an ongoing study of diranersen (BIIB080), an antisense oligonucleotide targeting tau mRNA, in patients with early Alzheimer's disease.",
+  "summary": "This document is a ClinicalTrials.gov registry export (NCT05399888) for an ongoing Phase 2 trial sponsored by Biogen. The trial investigates diranersen (BIIB080), an investigational antisense therapy designed to target MAPT mRNA and inhibit tau protein production. The study enrolled 416 participants aged 50 to 80 with mild cognitive impairment or mild dementia due to Alzheimer's disease, confirmed by amyloid pathology. Participants receive intrathecal injections of diranersen (low or high dose) or a placebo every 12 or 24 weeks during a 72-week placebo-controlled period, followed by a 96-week extension. The primary outcome measure evaluates the dose response in the change from baseline on the Clinical Dementia Rating-Sum of Boxes (CDR-SB) at Week 76.",
+  "key_claims": [],
+  "methods": {
+    "design": "Phase 2, randomized, double-blind, placebo-controlled, parallel-group",
+    "n": 416,
+    "population": "Adults aged 50 to 80 years with mild cognitive impairment due to AD or mild AD dementia (Stage 3 or 4) with objective memory impairment and evidence of amyloid pathology",
+    "duration": "76-week primary outcome period, up to 201 weeks total including extension",
+    "registration": "NCT05399888"
+  },
+  "funding_and_conflicts": "Lead sponsor: Biogen. No individual author conflicts of interest are stated in the registry record.",
+  "limitations": [
+    "As a clinical trial registry record with no results posted, this document contains only study design and prespecified endpoints, not empirical findings.",
+    "Enrollment requires positive amyloid pathology, meaning the results will not directly generalize to primary tauopathies."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 10,
+    "issues": []
+  },
+  "search_verification": [
+    "Verified via general knowledge that NCT05399888 corresponds to the BIIB080 (diranersen) CELIA study. No publications with primary clinical efficacy results exist yet for this specific phase 2 trial, aligning with the 'Results posted: false' status."
+  ]
+}

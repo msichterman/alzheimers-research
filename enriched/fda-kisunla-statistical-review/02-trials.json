@@ -1,0 +1,115 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT04437511",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04437511",
+      "name": "TRAILBLAZER-ALZ 2",
+      "drug": "Donanemab (Anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Active",
+      "enrollment": 1736,
+      "population": "Early Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline on the Integrated Alzheimer's Disease Rating Scale (iADRS)",
+      "started": "2020-06",
+      "completed_or_readout": "2028-11",
+      "results_summary": "Donanemab significantly slowed cognitive and functional decline (measured by iADRS and CDR-SB) and profoundly reduced amyloid plaque burden. The primary data led to FDA approval despite noted risks of ARIA and mortality.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03367403",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03367403",
+      "name": "TRAILBLAZER-ALZ",
+      "drug": "Donanemab (Anti-amyloid monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Completed",
+      "enrollment": 272,
+      "population": "Early Symptomatic Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline in the Integrated Alzheimer's Disease Rating Scale (iADRS) Score",
+      "started": "2017-12",
+      "completed_or_readout": "2021-09",
+      "results_summary": "Demonstrated significant early evidence of brain amyloid plaque clearance and modest slowing of clinical decline, establishing the foundation for Phase 3 evaluation.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05026866",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05026866",
+      "name": "TRAILBLAZER-ALZ 3",
+      "drug": "Donanemab (Anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Active",
+      "enrollment": 2996,
+      "population": "Preclinical Alzheimer's Disease",
+      "primary_endpoint": "Time to Clinical Progression of Composite Endpoint as Measured by Clinical Dementia Rating (CDR)",
+      "started": "2021-08",
+      "completed_or_readout": "2027-11",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05108922",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05108922",
+      "name": "TRAILBLAZER-ALZ 4",
+      "drug": "Donanemab (Anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Completed",
+      "enrollment": 148,
+      "population": "Early Symptomatic Alzheimer's Disease",
+      "primary_endpoint": "Percentage of Participants Who Reach Complete Amyloid Plaque Clearance on PET Scan (Superiority) on Donanemab Versus Aducanumab",
+      "started": "2021-11",
+      "completed_or_readout": "2023-09",
+      "results_summary": "Donanemab achieved superior rates of brain amyloid plaque clearance compared to aducanumab, successfully meeting its primary superiority endpoint.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05738486",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05738486",
+      "name": "TRAILBLAZER-ALZ 6",
+      "drug": "Donanemab (Anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Active",
+      "enrollment": 1175,
+      "population": "Adults With Early Alzheimer's Disease",
+      "primary_endpoint": "Percentage of Participants With Any Occurrence of Amyloid-Related Imaging Abnormality-Edema/Effusion (ARIA-E)",
+      "started": "2023-02",
+      "completed_or_readout": "2027-05",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2021-05-06",
+      "kind": "paper",
+      "description": "NEJM publication of Phase 2 TRAILBLAZER-ALZ efficacy results.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33720637/"
+    },
+    {
+      "date": "2023-08-08",
+      "kind": "paper",
+      "description": "JAMA publication of pivotal Phase 3 TRAILBLAZER-ALZ 2 clinical trial results.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37459141/"
+    },
+    {
+      "date": "2024-07-02",
+      "kind": "regulatory",
+      "description": "FDA grants traditional approval for Kisunla (donanemab-azbt) for early symptomatic Alzheimer's disease.",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761248"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence supporting donanemab is generally robust for its primary pharmacodynamic mechanism (near-complete amyloid plaque clearance) and has consistently demonstrated a statistically significant slowing of cognitive decline across multiple pivotal trials (TRAILBLAZER-ALZ and TRAILBLAZER-ALZ 2). These randomized, placebo-controlled studies were appropriately powered and their primary readouts directly led to the FDA approval of Kisunla in July 2024. However, the FDA's internal statistical review emphasizes the fragility of these clinical endpoints when subjected to tipping-point analyses, exacerbated by high trial dropout rates and missing mortality data. Despite these methodological and safety concerns—including prominent ARIA rates and a potential slight increase in mortality risk—the overall body of evidence establishes donanemab as a highly active, disease-modifying therapy for early Alzheimer's disease with a complex risk-benefit profile.",
+  "discrepancies": [
+    "While primary peer-reviewed publications (e.g., JAMA 2023) frame the primary iADRS and CDR-SB efficacy outcomes as highly resilient and definitive, the FDA statistical review highlights that these results are actually fragile and highly sensitive to missing data assumptions when dropout rates are factored in via tipping point analyses.",
+    "The FDA document explicitly notes a 1.0% risk difference for death in the donanemab arm (failing to rule out increased harm of up to 2.3%), a notable mortality signal that is generally underemphasized in the public trial readouts compared to ARIA discussions.",
+    "The review reveals that the sponsor utilized the iADRS score as the primary endpoint in Phase 3 against explicit FDA advice, highlighting a regulatory disagreement that is not visible from the trial registry or published papers."
+  ]
+}

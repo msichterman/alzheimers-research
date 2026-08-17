@@ -1,0 +1,131 @@
+{
+  "fact_check": [
+    {
+      "fact": "Autosomal dominant AD (PSEN1-E280A) is characterized by increased chaperone and autophagy gene expression compared to sporadic AD.",
+      "status": "verified",
+      "note": "Checked against source: Pseudobulk differential gene expression confirmed significant upregulation of autophagy genes and higher chaperone-mediated autophagy (CMA) scores in PSEN1-E280A cases."
+    },
+    {
+      "fact": "The APOE3-Christchurch homozygote protective profile is based on a large cohort of patients.",
+      "status": "corrected",
+      "note": "Checked against source: The analysis of the APOE3-Christchurch homozygous variant relies entirely on a single patient (n=1)."
+    },
+    {
+      "fact": "Heterozygotes for the APOE3-Christchurch variant activate the same protective transcriptomic network as the homozygote.",
+      "status": "disputed",
+      "note": "Checked against source: Heterozygotes without delayed disease onset lacked the astrocytic LRP1 upregulation and lipid synthesis changes seen in the homozygote."
+    },
+    {
+      "fact": "Astrocytes in the APOE3-Christchurch homozygote showed increased expression of LRP1, suggesting a mechanism for tau uptake.",
+      "status": "verified",
+      "note": "Checked against source: Astrocytes from the spared frontal cortex of the homozygote patient showed significant LRP1 upregulation, validated by immunofluorescence."
+    }
+  ],
+  "research_page": {
+    "slug": "psen1-apoe3ch-transcriptomics-2024",
+    "title": "Single-nucleus transcriptomics of PSEN1-E280A and APOE3-Christchurch (Almeida et al., 2024)",
+    "description": "SnRNA-seq reveals distinct autophagy signatures in autosomal dominant Alzheimer's and a unique astrocytic LRP1 profile in an APOE3-Christchurch homozygote.",
+    "tags": [
+      "paper",
+      "genetics",
+      "transcriptomics",
+      "amyloid",
+      "tau",
+      "apoe3-christchurch",
+      "autophagy"
+    ],
+    "source_line_md": "**Source**: [Neuron, 2024](https://doi.org/10.1016/j.neuron.2024.02.009) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/38417436)",
+    "authors_line_md": "Almeida et al. — University of California, Santa Barbara / Grupo de Neurociencias de Antioquia",
+    "takeaway_md": "Autosomal dominant Alzheimer's disease (PSEN1-E280A) is driven by distinct chaperone and autophagy transcriptomic signatures, contrasting with the microglia-driven profile of sporadic cases. Transcriptomic analysis of a single patient homozygous for the APOE3-Christchurch variant suggests a protective mechanism involving astrocytic LRP1 upregulation and tau uptake. While findings are highly detailed, mechanistic evidence for the protective variant is constrained by the n=1 sample size.",
+    "key_findings_md": [
+      "PSEN1-E280A cases showed significant upregulation of autophagy genes and a higher chaperone-mediated autophagy score compared to sporadic AD (paper, Results).",
+      "Sporadic AD cases exhibited a more pronounced Human Alzheimer Microglia (HAM) transcriptomic profile than PSEN1-E280A cases (paper, Results).",
+      "Astrocytes in the single APOE3-Christchurch homozygote patient demonstrated significant upregulation of LRP1 and lipid metabolism genes (paper, Results).",
+      "Excitatory neurons in the APOE3-Christchurch homozygote patient showed downregulated PSEN1 and upregulated FKBP1B, further suggesting cellular resilience to tau (paper, Results).",
+      "APOE3-Christchurch heterozygotes without delayed disease onset failed to exhibit the protective astrocytic transcriptomic profile seen in the homozygote (paper, Results)."
+    ],
+    "methods_md": "Post-mortem observational study using single-nucleus RNA sequencing, spatial transcriptomics, and immunofluorescence. The cohort utilized frontal cortex tissues from 27 donors: 10 PSEN1-E280A carriers, 8 sporadic AD cases, 8 non-AD controls, and 1 PSEN1-E280A/APOE3-Christchurch homozygote.",
+    "trial_evidence_md": "This document reports observational genetic data providing molecular context for the Colombian kindred previously evaluated in the [API ADAD Colombia Phase 2 Trial](/trials/api-adad-colombia-crenezumab), which failed to demonstrate clinical efficacy using crenezumab. A new registered trial, [API-2](/trials/api-2-donanemab-nivegacetor), targets this specific population's APP processing dysfunction using donanemab alongside nivegacetor (a gamma-secretase modulator). Currently, the APOE3-Christchurch findings remain mechanistic and have no direct clinical translation.",
+    "sentiment_md": "Public sentiment varies dramatically by audience. General science enthusiasts remain highly hopeful about the APOE3-Christchurch variant, frequently circulating [optimistic discussions on Reddit](https://old.reddit.com/r/science/comments/1dkdsa6/in_an_extended_family_with_an_inherited_form_of/) that wrongly assume broad protection for heterozygotes. Conversely, the scientific community is engaged in [nuanced debates on Alzforum](https://www.alzforum.org/news/research-news/apoe3-christchurch-clings-tightly-tau-averting-tangles) regarding astrocytic versus microglial tau uptake, while maintaining appropriate skepticism over conclusions drawn from a single homozygote sample.",
+    "caveats_md": [
+      "The APOE3-Christchurch homozygote analysis relies entirely on a single patient (n=1), increasing the risk of interpreting patient-specific biological variations as genotype-wide effects.",
+      "The hypothesis that astrocytic LRP1 upregulation prevents neuronal tau spread is based on correlative static colocalization images rather than functional mechanistic assays.",
+      "Transcriptomic profiles derived from end-stage post-mortem tissues may not capture early or dynamic disease progression accurately."
+    ],
+    "relates_to_md": [
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Details fundamental differences in amyloid-associated pathways between familial and sporadic AD.",
+      "[Biomarkers](/research/biomarkers) — Transcriptomic profiling reveals distinct cell-type specific markers for PSEN1-E280A."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "api-adad-colombia-crenezumab",
+      "title": "API ADAD Colombia Trial (Crenezumab)",
+      "description": "Phase 2 prevention trial of crenezumab in cognitively unimpaired PSEN1 E280A mutation carriers.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "amyloid",
+        "crenezumab",
+        "psen1",
+        "prevention"
+      ],
+      "registry_md": "[NCT01998841](https://clinicaltrials.gov/study/NCT01998841)",
+      "drug": "Crenezumab (anti-amyloid beta monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Genentech, Inc.",
+      "population": "Cognitively unimpaired carriers of the PSEN1 E280A mutation and non-carrier family members.",
+      "primary_endpoint": "Annualized Rate of Change in the API ADAD Composite Cognitive Test Total Score",
+      "started": "2013-12",
+      "readout": "2022-03",
+      "why_md": "This was the foundational prevention trial in the Colombian PSEN1 E280A kindred. It sought to determine if early intervention with the anti-amyloid antibody crenezumab could delay or prevent clinical Alzheimer's onset in patients with a highly penetrant genetic trajectory.",
+      "status_log_md": [
+        "**2026-02-01** — Final clinical results published showing no slowing of cognitive decline ([PubMed](https://pubmed.ncbi.nlm.nih.gov/41579901/)).",
+        "**2022-03-01** — Trial completed; failed to demonstrate significant clinical benefit."
+      ],
+      "results_md": "The trial failed to meet its primary and secondary endpoints. Crenezumab did not significantly slow cognitive decline or delay the onset of clinical Alzheimer's disease compared to placebo in PSEN1 E280A mutation carriers."
+    },
+    {
+      "slug": "api-2-donanemab-nivegacetor",
+      "title": "API-2 (Donanemab + Nivegacetor)",
+      "description": "Phase 2/3 trial evaluating donanemab alone and with nivegacetor in PSEN1 E280A mutation carriers.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "amyloid",
+        "donanemab",
+        "nivegacetor",
+        "gamma-secretase-modulator",
+        "psen1"
+      ],
+      "registry_md": "[NCT06996730](https://clinicaltrials.gov/study/NCT06996730)",
+      "drug": "Donanemab (anti-amyloid) and Nivegacetor / RG6289 (gamma-secretase modulator)",
+      "phase": "2/3",
+      "sponsor": "Banner Health",
+      "population": "PSEN1 E280A Mutation Carriers and Non-Carriers",
+      "primary_endpoint": "Change in amyloid load (centiloid PET) and maintenance of low levels of brain amyloid",
+      "started": "2026-01",
+      "readout": "2030-06",
+      "why_md": "API-2 tests whether combining an amyloid-clearing antibody (donanemab) with a gamma-secretase modulator (nivegacetor) can effectively alter the disease course in the PSEN1 E280A kindred. It builds upon previous monotherapy failures by targeting the underlying biological cascade specific to this mutation.",
+      "status_log_md": [
+        "**2026-01-01** — Trial registered and set to begin enrollment ([NCT06996730](https://clinicaltrials.gov/study/NCT06996730))."
+      ],
+      "results_md": null
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2022-03",
+      "title": "2022-03 — API ADAD Colombia trial misses primary endpoint",
+      "body_md": "The prevention trial testing crenezumab in the PSEN1-E280A Colombian kindred [failed to demonstrate clinical benefit](/trials/api-adad-colombia-crenezumab) or significantly slow cognitive decline."
+    },
+    {
+      "section": "Disease-modifying era",
+      "date": "2024-02",
+      "title": "2024-02 — Distinct transcriptomic profile of PSEN1-E280A published",
+      "body_md": "Single-nucleus RNA sequencing [revealed](/research/papers/psen1-apoe3ch-transcriptomics-2024) that the PSEN1-E280A mutation triggers unique chaperone and autophagy gene signatures distinct from sporadic Alzheimer's."
+    }
+  ],
+  "notes_for_editor": []
+}

@@ -1,0 +1,77 @@
+{
+  "kind": "other",
+  "title": "A Study of Donanemab (LY3002813) in Participants With Early Alzheimer's Disease (TRAILBLAZER-ALZ 2)",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2020-06",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "tau",
+    "immunotherapy",
+    "donanemab",
+    "aria"
+  ],
+  "themes": [
+    "Donanemab efficacy and safety",
+    "Amyloid plaque clearance",
+    "Clinical decline in early Alzheimer's",
+    "Amyloid Related Imaging Abnormalities (ARIA)"
+  ],
+  "one_line": "In the TRAILBLAZER-ALZ 2 Phase 3 trial, donanemab significantly slowed clinical decline and reduced brain amyloid plaque deposition in patients with early symptomatic Alzheimer's disease compared to placebo.",
+  "summary": "TRAILBLAZER-ALZ 2 (NCT04437511) is a Phase 3, double-blind, placebo-controlled trial evaluating the safety and efficacy of donanemab in early symptomatic Alzheimer's disease. The trial enrolled 1,736 participants aged 60-85 with evidence of brain amyloid and tau pathology. The primary endpoint, change from baseline on the Integrated Alzheimer's Disease Rating Scale (iADRS) at week 76, demonstrated that donanemab significantly slowed clinical decline compared to placebo in both the overall and intermediate tau populations. Donanemab also significantly reduced brain amyloid plaque deposition by week 76. However, treatment was associated with a markedly higher incidence of Amyloid Related Imaging Abnormalities (ARIA), including edema (ARIA-E) and microhemorrhages (ARIA-H), as well as infusion-related reactions. The data confirms the clinical and biomarker efficacy of donanemab while highlighting known safety risks associated with amyloid-targeting therapies.",
+  "key_claims": [
+    {
+      "claim": "Donanemab slows clinical decline in early Alzheimer's disease compared to placebo in the overall population.",
+      "evidence": "LS Mean change difference on iADRS (Final Values) 2.92 (95% CI 1.508 to 4.331), p=<0.001.",
+      "strength": "strong",
+      "location": "PRIMARY: Change From Baseline on the Integrated Alzheimer's Disease Rating Scale (iADRS) (Overall Population)"
+    },
+    {
+      "claim": "Donanemab significantly reduces brain amyloid plaque deposition.",
+      "evidence": "LS Mean change difference -86.37 Centiloids (95% CI -88.87 to -83.87), p=<0.0001.",
+      "strength": "strong",
+      "location": "SECONDARY: Change From Baseline in Brain Amyloid Plaque Deposition as Measured by Amyloid Positron Emission Tomography (PET) Scan"
+    },
+    {
+      "claim": "Donanemab treatment increases the risk of Amyloid Related Imaging Abnormalities (ARIA) and infusion-related reactions.",
+      "evidence": "ARIA-E reported in 200/853 donanemab participants vs 17/874 placebo; ARIA-H reported in 166/853 vs 65/874; infusion-related reactions in 73/853 vs 4/874.",
+      "strength": "strong",
+      "location": "Posted results > Other adverse events"
+    }
+  ],
+  "methods": {
+    "design": "Phase 3, double-blind, randomized, placebo-controlled trial",
+    "n": 1736,
+    "population": "Participants 60 to 85 years old with early symptomatic Alzheimer's disease (prodromal AD and mild dementia due to AD), with gradual progressive memory change for >=6 months, MMSE 20-28, and positive amyloid and tau PET scans.",
+    "duration": "76 weeks (main study period)",
+    "registration": "NCT04437511"
+  },
+  "funding_and_conflicts": "Lead sponsor: Eli Lilly and Company. No individual investigator conflicts of interest are stated in the registry extract.",
+  "limitations": [
+    "As a registry extract, the document lacks a comprehensive discussion of limitations typically found in peer-reviewed publications.",
+    "No demographic breakdown is provided in this summary to assess population diversity or generalizability."
+  ],
+  "red_flags": [
+    "Significant incidence of ARIA-E and ARIA-H in the treatment group compared to placebo.",
+    "Three deaths reported in the donanemab arm under 'General disorders' compared to one in placebo, though causality is not detailed in the raw data."
+  ],
+  "parse_quality": {
+    "score": 10,
+    "issues": []
+  },
+  "search_verification": [
+    "No identifiers to verify; the document is clearly identified as a ClinicalTrials.gov registry extract (NCT04437511)."
+  ]
+}

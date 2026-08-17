@@ -1,0 +1,219 @@
+{
+  "kind": "research-paper",
+  "title": "A randomized, double-blind, phase 2b proof-of-concept clinical trial in early Alzheimer’s disease with lecanemab, an anti-Aβ protofibril antibody",
+  "authors": [
+    {
+      "name": "Swanson, Chad J.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "employee of Eisai"
+    },
+    {
+      "name": "Zhang, Yong",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "employee of Eisai"
+    },
+    {
+      "name": "Dhadda, Shobha",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "employee of Eisai"
+    },
+    {
+      "name": "Wang, Jinping",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "employee of Eisai"
+    },
+    {
+      "name": "Kaplow, June",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "employee of Eisai"
+    },
+    {
+      "name": "Lai, Robert Y. K.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "employee of Eisai"
+    },
+    {
+      "name": "Lannfelt, Lars",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "employee of BioArctic"
+    },
+    {
+      "name": "Bradley, Heather",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "employee of Eisai"
+    },
+    {
+      "name": "Rabe, Martin",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "employee of Eisai"
+    },
+    {
+      "name": "Koyama, Akihiko",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "employee of Eisai"
+    },
+    {
+      "name": "Reyderman, Larisa",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "employee of Eisai"
+    },
+    {
+      "name": "Berry, Donald A.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "employee of Berry Consultants"
+    },
+    {
+      "name": "Berry, Scott",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "employee of Berry Consultants"
+    },
+    {
+      "name": "Gordon, Robert",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "employee of Eisai"
+    },
+    {
+      "name": "Kramer, Lynn D.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "employee of Eisai"
+    },
+    {
+      "name": "Cummings, Jeffrey L.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "provided consultation to Acadia, Accera, Actinogen, ADAMAS, Alkahest, Allergan, Alzheon, Avanir, Axovant, Axsome, BiOasis Technologies, Biogen, Eisai, Genentech, Grifols, Kyowa, Lilly, Lundbeck, Merck, Nutricia, Otsuka, QR Pharma, Resverlogix, Roche, Samus, Servier, Suven, Takeda, Toyoma, and United Neuroscience companies; supported by NIGMS grant P20GM109025; NINDS grant U01NS093334; NIA grant R01AG053798; and NIA grant P20AG068053"
+    }
+  ],
+  "first_author": "Swanson, Chad J.",
+  "venue": "Alzheimer's Research & Therapy",
+  "published": "2021",
+  "doi": "10.1186/s13195-021-00813-8",
+  "doi_url": "https://doi.org/10.1186/s13195-021-00813-8",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/33865446",
+  "copyright": null,
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "reuse": "redistribute",
+    "evidence": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format..."
+  },
+  "tags": [
+    "paper",
+    "trial",
+    "amyloid",
+    "immunotherapy",
+    "biomarkers",
+    "lecanemab",
+    "ban2401"
+  ],
+  "themes": [
+    "Lecanemab Phase 2b trial outcomes",
+    "Bayesian response-adaptive trial design",
+    "Amyloid beta protofibril clearance",
+    "ApoE4 genetics and ARIA-E risk"
+  ],
+  "one_line": "A Phase 2b adaptive trial of lecanemab in early Alzheimer's disease missed its primary 12-month clinical endpoint but demonstrated robust amyloid clearance and signals of slowed clinical decline at 18 months, despite confounding regulatory modifications mid-trial.",
+  "summary": "This document reports the findings of BAN2401-G000-201, an 18-month Phase 2b clinical trial evaluating lecanemab, an anti-Aβ protofibril antibody, in subjects with early Alzheimer’s disease. The trial utilized a Bayesian response-adaptive randomization design aimed at identifying the ED90 dose (determined to be 10 mg/kg biweekly). The trial missed its primary Bayesian endpoint at 12 months, which required an 80% probability of achieving ≥25% less clinical decline on the ADCOMS scale compared to placebo. Mid-study, regulatory authorities required that ApoE4 carriers be excluded from the 10 mg/kg biweekly dose arm due to ARIA-E risks, creating a severe genetic imbalance in the trial's primary efficacy group. Despite these limitations, 18-month prespecified secondary analyses indicated significant dose-dependent reductions in brain amyloid alongside consistent numerical reductions in clinical decline across ADCOMS, ADAS-Cog14, and CDR-SB. The authors conclude that these secondary findings support proof-of-concept for lecanemab, motivating the Phase 3 Clarity AD study.",
+  "key_claims": [
+    {
+      "claim": "Lecanemab at 10 mg/kg biweekly missed the primary 12-month clinical efficacy endpoint.",
+      "evidence": "Bayesian analysis showed a 64% probability to be better than placebo by 25% on ADCOMS, missing the prespecified 80% threshold.",
+      "strength": "strong",
+      "location": "Results (Abstract) / Table 2"
+    },
+    {
+      "claim": "Lecanemab induces dose-dependent, robust clearance of brain amyloid at 18 months.",
+      "evidence": "LS mean difference from placebo for 10 mg/kg biweekly was −0.310 SUVr units (P < 0.001); 81% of subjects on this dose converted to amyloid negative by visual read.",
+      "strength": "strong",
+      "location": "Results (Efficacy) / Figure 3"
+    },
+    {
+      "claim": "Lecanemab treatment reduces clinical decline at 18 months across multiple clinical assessments.",
+      "evidence": "Frequentist analyses showed 30% less decline on ADCOMS (P=0.034), 47% on ADAS-Cog14 (P=0.017), and 26% on CDR-SB (P=0.125) for the 10 mg/kg biweekly group compared to placebo.",
+      "strength": "moderate",
+      "location": "Results (Efficacy) / Figure 4"
+    },
+    {
+      "claim": "Lecanemab is well-tolerated with an acceptable ARIA-E profile.",
+      "evidence": "Overall ARIA-E incidence was 9.9% at the 10 mg/kg biweekly dose; 14.3% in ApoE4-positive subjects, with most cases being mild-to-moderate and asymptomatic.",
+      "strength": "strong",
+      "location": "Results (Safety) / Table 3"
+    }
+  ],
+  "methods": {
+    "design": "18-month, multicenter, double-blind, placebo-controlled Bayesian design clinical trial employing response adaptive randomization",
+    "n": 854,
+    "population": "Subjects with mild cognitive impairment due to Alzheimer’s disease and mild AD dementia with confirmed amyloid pathology",
+    "duration": "18 months",
+    "registration": "NCT01767311"
+  },
+  "funding_and_conflicts": "Funded by Eisai Inc. 12 authors are employees of Eisai; 1 is an employee of BioArctic; 2 are employees of Berry Consultants. Jeffrey L. Cummings declared extensive pharma consulting and NIH grants.",
+  "limitations": [
+    "A regulatory request mid-study excluded all subsequent ApoE4 carriers from the highest dose group (10 mg/kg biweekly) and discontinued those already on it for <6 months.",
+    "The 10 mg/kg biweekly efficacy group had a severe genetic imbalance (only 30% ApoE4 carriers vs ~70% in other arms), confounding interpretation of efficacy and safety.",
+    "Small sample sizes in suboptimal dose groups due to the adaptive randomization design penalizing non-ED90 allocations."
+  ],
+  "red_flags": [
+    "Abstract and conclusion exhibit 'spin': despite explicitly failing the primary endpoint at 12 months, the abstract's conclusions heavily emphasize the secondary 18-month outcomes to declare proof-of-concept success.",
+    "Contradictory text regarding methodology: an analysis combining both 10 mg/kg groups is described simultaneously as a 'post hoc sensitivity analysis' and as being 'pre-specified'.",
+    "Frequentist P-values are reported and emphasized for secondary endpoints (ADCOMS, ADAS-Cog14, CDR-SB) but are entirely nominal, with no correction for multiplicity, increasing the risk of Type I error."
+  ],
+  "parse_quality": {
+    "score": 6,
+    "issues": [
+      "Tables (e.g., Table 1, Table 3) have been completely flattened into running paragraph text, making quantitative data difficult to read and prone to extraction errors.",
+      "Missing or dropped symbols in the methods section (e.g., '.5%' and '.95%' appear instead of '< 5%' and '> 95%').",
+      "Some section headers are repeated redundantly (e.g., multiple 'Back matter' headers)."
+    ]
+  },
+  "search_verification": [
+    "Verified PubMed ID (33865446) and DOI (10.1186/s13195-021-00813-8), confirming the publication year as 2021 in Alzheimer's Research & Therapy."
+  ]
+}

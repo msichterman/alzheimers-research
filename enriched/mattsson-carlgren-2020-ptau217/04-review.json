@@ -1,0 +1,100 @@
+{
+  "fact_check": [
+    {
+      "fact": "150 cognitively unimpaired participants and 100 patients with mild cognitive impairment",
+      "status": "verified",
+      "note": "Checked against source Abstract and Materials section."
+    },
+    {
+      "fact": "Median follow-up of 4.3 years",
+      "status": "verified",
+      "note": "Checked against source Abstract."
+    },
+    {
+      "fact": "Plasma NfL did not show an AD-specific increase over time",
+      "status": "verified",
+      "note": "Checked against source Results; NfL increased slightly independent of Aβ status."
+    },
+    {
+      "fact": "109 participants per arm for 80% power in Aβ+ CU",
+      "status": "verified",
+      "note": "Checked against source Results power analysis."
+    },
+    {
+      "fact": "BioFINDER total enrollment of 1150 subjects",
+      "status": "verified",
+      "note": "Checked against clinical registry (NCT01208675); confirms the document's n=250 cohort is a sub-analysis of the broader study."
+    }
+  ],
+  "research_page": {
+    "slug": "ptau217-longitudinal-biofinder-2020",
+    "title": "Longitudinal plasma p-tau217 in early Alzheimer's disease",
+    "description": "Plasma p-tau217 levels increase longitudinally in early Alzheimer's disease and correlate with cognitive decline and brain atrophy.",
+    "tags": [
+      "paper",
+      "biomarkers",
+      "p-tau217",
+      "plasma-biomarkers",
+      "longitudinal-study"
+    ],
+    "source_line_md": "**Source**: [Brain, 2020](https://doi.org/10.1093/brain/awaa286) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/33068398/)",
+    "authors_line_md": "Mattsson-Carlgren et al. — Lund University",
+    "takeaway_md": "Plasma p-tau217 increases over time in preclinical and prodromal Alzheimer's disease, while remaining stable in individuals without amyloid pathology. This longitudinal tracking correlates strongly with both cognitive decline and brain atrophy, establishing p-tau217 as a reliable, minimally invasive biomarker for monitoring early disease progression.",
+    "key_findings_md": [
+      "Preclinical (Aβ+ cognitively unimpaired) and prodromal (Aβ+ MCI) patients showed accelerated p-tau217 increases compared to Aβ- controls (paper, Results).",
+      "P-tau217 remained stable in Aβ- participants and MCI patients who did not progress to AD dementia (paper, Results).",
+      "Longitudinal p-tau217 increases correlated significantly with worsening cognitive scores on both the MMSE and mPACC (paper, Figure 2).",
+      "Increases in p-tau217 correlated with accelerated thinning of the temporal cortex and hippocampal volume loss, particularly in cognitively unimpaired Aβ+ individuals (paper, Figure 3).",
+      "Plasma neurofilament light (NfL) showed a slight increase over time across all groups but exhibited no AD-specific trajectory (paper, Results)."
+    ],
+    "methods_md": "Prospective cohort study analyzing a 250-patient subgroup of the Swedish BioFINDER study ([NCT01208675](/trials/biofinder-nct01208675)). The study evaluated 150 cognitively unimpaired individuals and 100 with mild cognitive impairment over a median of 4.3 years.",
+    "trial_evidence_md": "This paper provides pivotal longitudinal validation for plasma p-tau217, drawing on a subcohort of the 1,150-subject Swedish BioFINDER study. It builds on previous cross-sectional evidence to demonstrate that p-tau217 tracks dynamically with disease progression. This foundational observational data has been critical for integrating p-tau217 into therapeutic clinical trials and commercial diagnostic assays.",
+    "sentiment_md": "Public sentiment surrounding p-tau217 blood tests is highly optimistic but accompanied by practical concerns. Patient and caregiver communities often express anxiety about predicting a disease with limited treatment options and report confusion navigating commercial test scores (e.g., [Reddit discussions on testing](https://www.reddit.com/r/Alzheimers/comments/17wdz9l/our_amyloid_test_came_back_a_95_does_anyone_know/)). Conversely, science enthusiasts and biotech investors view scalable blood tests as a revolutionary advancement poised to replace painful lumbar punctures and expensive PET scans.",
+    "caveats_md": [
+      "Subgroup sizes were relatively small (e.g., n=49 for Aβ+ mild cognitive impairment), which limited the statistical power to detect structural correlations like temporal cortex thinning in that group.",
+      "The cohort was restricted exclusively to the Swedish BioFINDER study, potentially limiting the generalizability of the findings across more diverse geographical and ethnic populations."
+    ],
+    "relates_to_md": [
+      "[Biomarkers](/research/biomarkers) — Validates plasma p-tau217 as a longitudinal marker of disease progression.",
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Demonstrates that tau pathology acceleration is closely linked to amyloid-beta positivity."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "biofinder-nct01208675",
+      "title": "The Swedish BioFINDER Study",
+      "description": "Observational biomarker study tracking clinical and pathological changes in mild cognitive impairment and cognitively healthy elderly subjects.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "observational",
+        "biomarkers",
+        "p-tau217"
+      ],
+      "registry_md": "[NCT01208675](https://clinicaltrials.gov/study/NCT01208675)",
+      "drug": "Biomarker observational study",
+      "phase": "n/a",
+      "sponsor": "Skane University Hospital",
+      "population": "Mild cognitive impairment patients and cognitively healthy elderly subjects",
+      "primary_endpoint": "Time to conversion to clinically probable AD with normal and abnormal biomarkers",
+      "started": "2010-09",
+      "readout": "2024-12",
+      "why_md": "BioFINDER is a landmark longitudinal cohort study designed to validate CSF, blood, and imaging biomarkers across the Alzheimer's disease spectrum. Its extensive data collection establishes how biomarkers like p-tau217 change over time and correlate with clinical decline, providing crucial foundations for diagnostic tools and therapeutic endpoints.",
+      "status_log_md": [
+        "**2010-09-01** — Trial begins.",
+        "**2020-11-01** — [Interim analysis](/research/papers/ptau217-longitudinal-biofinder-2020) published in *Brain* validates longitudinal tracking of plasma p-tau217 in early AD.",
+        "**2024-12-01** — Trial completed."
+      ],
+      "results_md": "The cohort has yielded extensive validation for blood and CSF biomarkers. Notably, interim analyses demonstrated that plasma p-tau217 increases longitudinally in early Alzheimer's disease, closely correlating with objective cognitive decline and brain atrophy."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Biomarkers & Diagnostics",
+      "date": "2020-11",
+      "title": "2020-11 — Plasma p-tau217 tracks Alzheimer's progression",
+      "body_md": "A [longitudinal analysis](/research/papers/ptau217-longitudinal-biofinder-2020) of the BioFINDER cohort demonstrates that plasma p-tau217 levels increase over time in early Alzheimer's disease, providing first-evidence validation of the assay as a minimally invasive tool for tracking disease progression."
+    }
+  ],
+  "notes_for_editor": []
+}

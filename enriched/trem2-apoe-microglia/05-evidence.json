@@ -1,0 +1,481 @@
+{
+  "document_kind": "journal_article",
+  "title": {
+    "value": "The TREM2-APOE pathway drives the transcriptional phenotype of dysfunctional microglia in neurodegenerative diseases",
+    "quote": "The TREM2-APOE pathway drives the transcriptional phenotype of dysfunctional microglia in neurodegenerative diseases",
+    "location": "Title line"
+  },
+  "authors": [
+    { "name": "Susanne Krasemann", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Charlotte Madore", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Ron Cialic", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Caroline Baufeld", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Narghes Calcagno", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Rachid El Fatimy", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Lien Beckers", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Elaine O’Loughlin", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Yang Xu", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Zain Fanek", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "David J. Greco", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Scott T. Smith", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "George Tweet", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Zachary Humulock", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Tobias Zrzavy", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Patricia Conde-Sanroman", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Mar Gacias", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Zhiping Weng", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Hao Chen", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Emily Tjon", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Fargol Mazaheri", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Kristin Hartmann", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Asaf Madi", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Jason Ulrich", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Markus Glatzel", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Anna Worthmann", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Joerg Heeren", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Bogdan Budnik", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Cynthia Lemere", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Tsuneya Ikezu", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Frank L. Heppner", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Vladimir Litvak", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "David M. Holtzman", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Hans Lassmann", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Howard L. Weiner", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Jordi Ochando", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Christian Haass", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Oleg Butovsky", "affiliation": null, "orcid": null, "corresponding": true }
+  ],
+  "study": {
+    "design": {
+      "value": "Preclinical mechanistic study: microglial transcriptome profiling (Nanostring, RNAseq), quantitative mass spectrometry, immunohistochemistry, genetic knockouts and ex vivo functional assays across mouse models of ALS, AD and MS, plus human post-mortem brain tissue",
+      "quote": "To investigate underlying common molecular mechanisms that regulate microglial dysfunction, we isolated microglia and analyzed transcriptomes during aging and disease progression in mouse models of ALS (SOD1 G93A , expressing human Cu,Zn superoxide dismutase mutation)",
+      "location": "Results, first paragraph"
+    },
+    "phase": {
+      "value": null,
+      "quote": null,
+      "location": null
+    },
+    "n": {
+      "value": null,
+      "quote": null,
+      "location": null
+    },
+    "n_description": {
+      "value": null,
+      "quote": null,
+      "location": null
+    },
+    "population": {
+      "value": "Model systems, not living human participants: mouse models of ALS (SOD1 G93A), Alzheimer's disease (APP-PS1; 5XFAD transcriptomes) and multiple sclerosis (EAE), knockout and conditional-knockout mice (Apoe−/−, Trem2−/−, miR-155−/−, Cx3cr1CreERT2:Apoefl/fl), primary mouse neuron cultures and ex vivo microglia/T-cell assays, together with post-mortem human AD cortex including heterozygous TREM2 R47H and R62H carriers",
+      "quote": "we isolated microglia and analyzed transcriptomes during aging and disease progression in mouse models of ALS (SOD1 G93A , expressing human Cu,Zn superoxide dismutase mutation), AD (APP-PS1, overexpressing mutated genes for human amyloid precursor protein and presenilin 1) and MS (experimental autoimmune encephalomyelitis; EAE)",
+      "location": "Results, first paragraph"
+    },
+    "followup": {
+      "value": "Mouse analysis timepoints included APP-PS1 at 9 and 24 months, APP-PS1:Trem2−/− at 4 months, SOD1:Trem2 mice at 115 days, 7 days post-facial nerve axotomy, and 3 h to 14 days after apoptotic-neuron injection",
+      "quote": "These mice were analyzed at 9 and 24 months, respectively. APP-PS1: Trem2 −/− , were generated by crossing APP-PS1 mice with Trem2 −/− mice. These mice were analyzed at 4 months of age.",
+      "location": "STAR*METHODS, Mice"
+    },
+    "intervention": {
+      "value": "Genetic deletion of Apoe (global and microglia-specific via tamoxifen-inducible Cx3cr1CreERT2:Apoefl/fl), Trem2 and miR-155; stereotactic injection of apoptotic neurons, recombinant APOE, LPS, Zymosan or E. coli particles; kainic acid injection; facial nerve axotomy",
+      "quote": "To assess an intrinsic role of APOE regulation in a cell-specific manner, we deleted Apoe in microglia using Cx3cr1 CreERT2 :Apoe fl/fl mice.",
+      "location": "Results, APOE regulates the transcriptional and post-transcriptional program"
+    },
+    "comparator": {
+      "value": "Wild-type and littermate control mice (Cx3cr1 wt:Apoe fl/fl), PBS/saline-injected brains, non-phagocytic microglia, and common-variant AD patients (AD-TREM2 WT) for the human tissue comparison",
+      "quote": "Recombination was induced in Cx3cr1 CreERT2 :Apoe fl/fl adult mice and Cx3cr1 wt :Apoe fl/fl littermates were used as controls.",
+      "location": "STAR*METHODS, Conditional genetic deletion of Apoe in microglia"
+    },
+    "biomarker_confirmation": {
+      "value": "For the human post-mortem specimens, age, gender, disease severity (Braak stage, estimated CDR) and APOE genotype were determined for each patient; TREM2 mutation status distinguished AD-TREM2 R47H and R62H carriers from common-variant AD",
+      "quote": "Beside age, gender and disease severity (Braak stage, estimated CDR), the APOE genotype was determined for each patient (see summary in ).",
+      "location": "STAR*METHODS, Human specimens"
+    },
+    "nct_ids": [],
+    "cohorts": [
+      "SOD1 G93A (B6.Cg-Tg(SOD1*G93A)1Gur/J) ALS mouse model",
+      "APP-PS1 AD mouse model",
+      "APP-PS1: Trem2 −/− mice",
+      "5XFAD: Trem2 −/− mice",
+      "SOD1: Trem2 −/− and SOD1: Trem2 +/− mice",
+      "Experimental autoimmune encephalomyelitis (EAE), MOG-induced and PLP-induced",
+      "NOD (chronic-relapsing) and C57BL/6J (acute) MOG-induced EAE models",
+      "Apoe −/− (B6.129P2-Apoe tm1Unc/J) mice",
+      "Trem2 −/− mice (provided by Dr. Marco Colonna)",
+      "miR-155 −/− (B6.Cg-Mir155tm1.1Rsky/J) mice",
+      "Cx3cr1 CreERT2 :Apoe fl/fl and Cx3cr1 wt :Apoe fl/fl mice",
+      "Cx3cr1:GFP +/− bone marrow chimera mice",
+      "Mfp2 −/− (lipid disorder) microglia transcriptomes",
+      "Mecp2 −/− (Rett syndrome) microglia transcriptomes",
+      "Human cortical specimens, Massachusetts Alzheimer Disease Research Center (MADRC; NIA P50 AG005134)",
+      "Human brain autopsies (AD and controls), Center for Brain Research, Medical University of Vienna",
+      "Human brain specimens (AD controls and AD Trem2-polymorphisms), Knight Alzheimer's Disease Research Center, Washington University",
+      "GEO datasets: GSE60670 (neuropathic pain), GSE71133 (chronic pain), GSE66211 (Mecp2 −/−), GSE66420 (Mfp2 −/−), GSE43366 (SOD1), GSE65067 (5xFAD), GSE55968 (brain irradiation), GSE62420 (aging)",
+      "GSE101689 (RNAseq and Nanostring data deposited by this study)",
+      "PeptideAtlas PASS01081 (protein data deposited by this study)"
+    ]
+  },
+  "outcomes": [
+    {
+      "name": "Loss of homeostatic microglial genes (cluster 1) during aging and disease progression in SOD1, APP-PS1 and EAE mice",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "68 homeostatic microglial genes lost, including P2ry12, Tmem119, Gpr34, Olfml3, Csf1r, Cx3Cr1, Tgfbr1 and Tgfb1",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Cluster 1 was associated with loss of 68 homeostatic microglial genes, including P2ry12, Tmem119, Gpr34, Jun, Olfml3, Csf1r, Hexb, Mertk, Rhob, Cx3Cr1, Tgfbr1 and Tgfb1",
+      "location": "Results, Reciprocal induction of APOE and suppression of TGFβ signaling"
+    },
+    {
+      "name": "Upregulation of inflammatory molecules (cluster 2), with Apoe among the most upregulated genes",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "28 inflammatory molecules upregulated including Spp1, Itgax, Axl, Lilrb4, Clec7a, Ccl2, Csf1 and Apoe",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Cluster 2 was associated with upregulation of 28 inflammatory molecules including Spp1, Itgax, Axl, Lilrb4, Clec7a, Ccl2, Csf1 and Apoe , of which Apoe was one of the most upregulated genes",
+      "location": "Results, Reciprocal induction of APOE and suppression of TGFβ signaling"
+    },
+    {
+      "name": "P2RY12 microglial marker in human AD cortex, diffuse versus neuritic plaques",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "P2RY12 preserved in Aβ diffuse plaques and lost in pNF+ neuritic plaques (human post-mortem AD brain)",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "P2RY12 + microglia were preserved in Aβ diffuse plaques and P2RY12 signal was lost in pNF + neuritic plaques ().",
+      "location": "Results, The MGnD-microglia subset is associated with neuritic Aβ-plaques"
+    },
+    {
+      "name": "Correlation of P2RY12+ microglia loss with axonal dystrophy versus Aβ deposition in human AD brain",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "Loss of P2RY12+ microglia correlated with axonal dystrophy but not with the extent of Aβ deposition; APOE expression increased in microglia near Aβ plaques",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Loss of P2RY12 + microglia correlated with axonal dystrophy, but not with the extent of Aβ deposition (). We found increased APOE expression in microglia in close proximity to Aβ-plaque ().",
+      "location": "Results, The MGnD-microglia subset is associated with neuritic Aβ-plaques"
+    },
+    {
+      "name": "Apoe induction in microglia after phagocytosis of injected apoptotic neurons (mouse cortex and hippocampus)",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "Apoe increased as early as 3 h post-injection, peaked at 16 h, with homeostatic P2ry12+Clec7a− microglia restored at 14 days",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Increased Apoe was detected as early as 3 h post-injection and peaked at 16 h post-injection (). Restoration of homeostatic P2ry12 + Clec7a − microglia occurred at 14 days post-injection ().",
+      "location": "Results, Phagocytosis of apoptotic neurons suppresses homeostatic microglia"
+    },
+    {
+      "name": "Quantitative mass spectrometry of phagocytic (MG-dNΦ) versus non-phagocytic (MG-nΦ) microglia",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "Apoe and Lgals3 increased; homeostatic proteins Rgs10 and Bin1 suppressed in phagocytic microglia",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Quantitative mass spectrometry of MG-dNΦ vs. MG-nΦ microglia showed increased Apoe and Lgals3 in MG-dNΦ microglia. In contrast, both Rgs10 and Bin1, two homeostatic microglial proteins (), were suppressed",
+      "location": "Results, Phagocytosis of apoptotic neurons suppresses homeostatic microglia"
+    },
+    {
+      "name": "Genes induced in wild-type phagocytic microglia that are repressed when Apoe is deleted",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "885 genes induced in WT MG-dNΦ microglia were repressed in Apoe−/− MG-dNΦ microglia",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Cluster 1 showed 885 genes induced in MG-dNΦ WT microglia which were repressed in Apoe −/− MG-dNΦ microglia.",
+      "location": "Results, APOE regulates the transcriptional and post-transcriptional program"
+    },
+    {
+      "name": "Homeostatic genes suppressed in wild-type phagocytic microglia that are restored when Apoe is deleted",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "1,220 suppressed genes restored in Apoe−/− MG-dNΦ microglia; 40 of the 68 genes commonly suppressed in disease were restored",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Clusters 2 and 3 showed 1,220 suppressed genes in WT MG-dNΦ which were restored in Apoe −/− MG-dNΦ microglia. Among 68 genes commonly suppressed in disease, 40 genes were restored in Apoe −/− phagocytic microglia",
+      "location": "Results, APOE regulates the transcriptional and post-transcriptional program"
+    },
+    {
+      "name": "Neuronal loss in the axotomized facial motor nucleus after global or microglia-conditional Apoe deletion",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "Reduced neuronal loss compared with WT or Cx3cr1 WT:Apoe fl/fl mice (no numeric estimate in the retrieved text)",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Global and conditional deletion of Apoe in microglia reduced neuronal loss as compared to WT or Cx3cr1 WT :Apoe fl/fl mice in the axotomized facial motor nucleus ( and ).",
+      "location": "Results, APOE regulates the transcriptional and post-transcriptional program"
+    },
+    {
+      "name": "miR-155 expression relative to the APOE pathway in phagocytic microglia",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "miR-155 suppressed in Apoe−/− phagocytic microglia while Apoe was unaffected in miR-155−/− microglia, placing miR-155 downstream of APOE",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "In MG-dNΦ microglia from Apoe −/− mice, miR-155 expression was suppressed (). In contrast, expression of Apoe was unaffected in miR-155 −/− MG-dNΦ microglia (). Thus, miR-155 expression was regulated downstream of the APOE pathway.",
+      "location": "Results, APOE regulates the transcriptional and post-transcriptional program"
+    },
+    {
+      "name": "Microglial phagocytosis of apoptotic neurons after blocking phosphatidylserine with Annexin V",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "phagocytosis reduced by 88%",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "We found blocking phosphatidylserine on apoptotic neurons with Annexin V protein (), reduced microglial phagocytosis by 88% ().",
+      "location": "Results, Genetic targeting of Trem2 suppresses the APOE pathway"
+    },
+    {
+      "name": "Homeostatic gene expression and Apoe/miR-155 in Trem2−/− phagocytic microglia",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "P2ry12, Gpr34, Tmem119, Tgfbr1 and Csf1r restored, while Apoe and miR-155 were suppressed, in Trem2−/− phagocytic microglia",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "We found that expression of homeostatic genes including P2ry12, Gpr34, Tmem119, Tgfbr1 and Csf1r , was restored in Trem2 −/− MG-dNΦ as compared to WT MG-dNΦ microglia (), whereas Apoe and miR-155 were suppressed in Trem2 −/− MG-dNΦ microglia",
+      "location": "Results, Genetic targeting of Trem2 suppresses the APOE pathway"
+    },
+    {
+      "name": "Microglial transcriptome of APP-PS1: Trem2 −/− mice (Nanostring profiling)",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "7 inflammatory molecules (Trem2, Axl, Clec7a, Csf1, Itgax, Cd34, Apoe) suppressed; of 108 restored genes, 54 were commonly suppressed homeostatic microglial genes",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Nanostring profiling of brain microglia from APP-PS1: Trem2 −/− mice showed suppression of 7 inflammatory molecules ( Trem2, Axl, Clec7a, Csf1, Itgax, Cd34 and Apoe), which were among the most upregulated genes in the common disease-associated signature ().",
+      "location": "Results, Genetic targeting of Trem2 suppresses the APOE pathway"
+    },
+    {
+      "name": "Aβ-plaque load in APP-PS1: Trem2 −/− mice",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "decreased Aβ-plaque load in APP-PS1: Trem2 −/− mice (no numeric estimate in the retrieved text)",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Consistent with previous findings (), the Aβ-plaque load was decreased in APP-PS1: Trem2 −/− mice ().",
+      "location": "Results, Genetic targeting of Trem2 suppresses the APOE pathway"
+    },
+    {
+      "name": "Gender-dependent TREM2 regulation of microglia in SOD1 mice (RNAseq)",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "279 commonly affected genes, 575 female-specific genes and 2,639 male-specific genes",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "We found 279 commonly affected genes (cluster 2) and gender-specific genes (575 genes in females, cluster 1 and 2,639 genes in males, cluster 3) ( and ).",
+      "location": "Results, Genetic targeting of Trem2 suppresses the APOE pathway"
+    },
+    {
+      "name": "Microglial distribution and TMEM119 intensity in human AD carriers of TREM2 R47H and R62H variants",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "Microglia more evenly distributed and not clustered around Aβ plaques; TMEM119 intensity significantly higher in both TREM2 mutation carriers",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "microglia were more evenly distributed within the cortex in AD-TREM2 in both types of mutations and did not cluster around Aβ plaques as in AD-TREM2 WT (). Moreover, TMEM119 intensity was significantly higher in both TREM2 mutation carriers",
+      "location": "Results, Genetic targeting of Trem2 suppresses the APOE pathway"
+    },
+    {
+      "name": "Tolerogenic function of microglia (ex vivo suppression of T cell proliferation) after recombinant APOE stimulation",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "recombinant Apoe abrogated the tolerogenic function of microglia and did not affect T cell proliferation in the absence of microglia",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Stimulation of microglia with recombinant Apoe (rApoe) abrogated tolerogenic function of microglia. rApoe did not affect T cell proliferation in the absence of microglia ().",
+      "location": "Results, Activation of the APOE pathway suppresses the tolerogenic function of microglia"
+    },
+    {
+      "name": "Tolerogenic function of Apoe−/− microglia at peak EAE",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "Apoe−/− spinal cord microglia at disease peak suppressed T cell proliferation, unlike WT-EAE microglia",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "We then induced EAE in WT and Apoe −/− mice and found that unlike WT-EAE microglia, Apoe −/− microglia from spinal cord at disease peak suppressed T cell proliferation ()",
+      "location": "Results, Activation of the APOE pathway suppresses the tolerogenic function of microglia"
+    }
+  ],
+  "primary_endpoint_status": {
+    "status": "not_applicable",
+    "explanation": "This is a mechanistic laboratory study in mouse models, cell assays and post-mortem human tissue with no prespecified clinical endpoint, so there is no primary endpoint to meet or miss.",
+    "quote": "Taken together, our work identifies the TREM2-APOE pathway as a major regulator of microglial functional phenotype in neurodegenerative diseases and serves as a novel target to restore homeostatic microglia."
+  },
+  "multiplicity": {
+    "approach": "No multiplicity-control scheme is described for the reported comparisons; the document states that 2-tailed unpaired Student's t tests or ANOVA multiple comparison tests were used, with a 1% FDR applied in the mass spectrometry analysis and a nominal P<0.001 threshold with 1,000 permutations for GSEA",
+    "quote": "Data are presented as mean ± s.e.m and 2-tailed Student’s t tests (unpaired) or ANOVA multiple comparison tests were used to assess statistical significance.",
+    "location": "STAR*METHODS, QUANTIFICATION AND STATISTICAL ANALYSIS"
+  },
+  "safety": {
+    "harms": [],
+    "apoe_stratification_reported": false,
+    "serious_adverse_events": { "value": null, "quote": null, "location": null },
+    "deaths": { "value": null, "quote": null, "location": null },
+    "discontinuations": { "value": null, "quote": null, "location": null }
+  },
+  "funding": [
+    "OB: NIH-NINDS (1R01NS088137), NIH-NIA (R01AG051812), National Multiple Sclerosis Society (5092A1), Amyotrophic Lateral Sclerosis Association (2087), Nancy Davis Foundation Faculty Award",
+    "HLW: DOD (AL120029) Thome Foundation, NIH-NIA (R01AG043975) NIH-NIA (R01AG040092)",
+    "CH: ERC (321366-Amyloid), DFG (EXC 1010 SyNergy), Cure Alzheimer’s Fund and MetLife Foundation Award",
+    "JH: DFG (SFB841); DMH: P50AG05681, P01-AG0399. CL: NIH-NIA (R01AG040092); TI: NIH-NIA (RF1AG054199-01); MG: DFG (GRK1459, SFB877); HL: Austrian Science Foundation Project (P27744-B27)"
+  ],
+  "conflicts": [
+    "Competing financial interests: CH: Roche advisor and collaborator. All other authors declare no conflict of interests."
+  ],
+  "limitations": [
+    "Data distribution was assumed to be normal, but this was not formally tested.",
+    "Neuronal apoptosis is a rare event in human AD ().",
+    "Although TREM2 polymorphisms are associated with a risk for late onset AD (), its role in neurodegenerative diseases is controversial.",
+    "We found that APOE ligand suppresses major transcription factors of homeostatic microglia. Future studies will determine whether the effect is TREM2-dependent.",
+    "MGnD microglia may also be protective and represent an initial response to neuronal injury.",
+    "This is a PDF file of an unedited manuscript that has been accepted for publication."
+  ],
+  "risk_of_bias": [
+    {
+      "domain": "species and system generalizability",
+      "judgement": "The central mechanistic manipulations (Apoe, Trem2 and miR-155 deletion, apoptotic-neuron injection, facial nerve axotomy) are performed in mice; the human component is post-mortem immunohistochemistry, so the causal claims rest on mouse and ex vivo systems",
+      "quote": "Targeting TREM2 signaling in the facial nerve axotomy (FNA) model also ameliorated neuronal loss in Trem2 −/− mice ()."
+    },
+    {
+      "domain": "small human sample for quantification",
+      "judgement": "Quantification of APOE signal in human microglia was based on 30 cells each from three AD subjects versus three controls",
+      "quote": "Selected area was 300 μm 2 and 30 cells were measured each (n = 3 AD subjects vs. n = 3 controls)."
+    },
+    {
+      "domain": "small animal group sizes",
+      "judgement": "Facial nerve axotomy experiments used n = 4–5 mice per group, and plaque-associated marker quantification used n = 5 mice per genotype",
+      "quote": "Unilateral facial nerve transection at the stylomastoid foramen was performed in WT, ApoE −/− , Trem2 −/− , and Cx3cr1 CreERT2 :ApoE fl/fl and Cx3cr1 wt :ApoE fl/fl (control) mice (n = 4–5/group)."
+    },
+    {
+      "domain": "untested distributional assumption in statistics",
+      "judgement": "Normality was assumed rather than tested before applying t tests and ANOVA across many transcriptomic and imaging comparisons",
+      "quote": "Data distribution was assumed to be normal, but this was not formally tested."
+    },
+    {
+      "domain": "document version",
+      "judgement": "The retrieved text is an accepted but unedited author manuscript, which the document itself warns may contain errors before final publication",
+      "quote": "This is a PDF file of an unedited manuscript that has been accepted for publication."
+    }
+  ],
+  "disagreements": [
+    {
+      "question": "Is APOE induction in disease-associated microglia TREM2-dependent?",
+      "position": "This document reports that genetic targeting of Trem2 suppresses the APOE pathway and restores homeostatic microglia in APP-PS1 and SOD1 mice, against a prior report that APOE induction is TREM2-independent in 5XFAD mice",
+      "attributed_to": "this document's authors, disagreeing with Keren-Shaul et al.",
+      "quote": "Keren-Shaul et al. reported that APOE induction is TREM2-independent in 5XFAD mice (), though Apoe expression in 5XFAD mice was moderately reduced in the previous study (). We found genetic targeting of Trem2 suppresses the APOE pathway"
+    },
+    {
+      "question": "Is TREM2 deficiency beneficial or harmful in Alzheimer's disease models?",
+      "position": "This document notes the field is contradictory (Wang et al. versus Jay et al.) and reports that targeting Trem2 in APP-PS1 mice at early stages restored homeostatic microglia with reduced Aβ plaques",
+      "attributed_to": "this document's authors, contrasting Wang et al. and Jay et al.",
+      "quote": "We found that genetic targeting of Trem2 in APP-PS1 mice at early stages restored homeostatic microglia associated with the reduction of Aβ plaques."
+    },
+    {
+      "question": "Is microglial APOE protective or detrimental in AD?",
+      "position": "This document concludes that microglial APOE may play a detrimental role in AD, forming an APOE-enriched microenvironment with plaques and dystrophic neurites",
+      "attributed_to": "this document's authors",
+      "quote": "Our results are consistent with a report that increased APOE in CSF is associated with cognitive decline (). Thus, microglial APOE may play a detrimental role in AD."
+    },
+    {
+      "question": "Does the MGnD phenotype correspond to classical M1 activation?",
+      "position": "This document argues the MG-dNΦ molecular signature is distinct from classical M1-induced microglia, because LPS/IFNγ suppressed Apoe and induced Egr1 in the opposite direction",
+      "attributed_to": "this document's authors",
+      "quote": "Thus, the MG-dNΦ molecular signature is distinct from classical M1-induced microglia."
+    },
+    {
+      "question": "Is there a sex difference in TREM2 regulation of microglia?",
+      "position": "This document reports TREM2 gender-dependent regulation of microglia in SOD1 mice and states this was not addressed by the prior studies it compares itself with",
+      "attributed_to": "this document's authors, relative to Wang et al. and Keren-Shaul et al.",
+      "quote": "We identified TREM2 gender-dependent regulation of microglia in SOD1 mice, which was not addressed by Wang et al. , and Keren-Shaul et al ."
+    }
+  ],
+  "linked_objects": [],
+  "trial_status_observation": {
+    "status": null,
+    "enrollment": null,
+    "phase": null,
+    "observed_at": null,
+    "source": null
+  },
+  "unlocatable_fields": [
+    "authors[].affiliation",
+    "authors[].orcid",
+    "study.phase",
+    "study.n",
+    "study.n_description",
+    "study.nct_ids",
+    "outcomes[].prespecification_evidence",
+    "outcomes[].confidence_interval",
+    "outcomes[].p_value",
+    "safety.harms",
+    "safety.serious_adverse_events",
+    "safety.deaths",
+    "safety.discontinuations",
+    "linked_objects",
+    "trial_status_observation.status",
+    "trial_status_observation.enrollment",
+    "trial_status_observation.phase",
+    "trial_status_observation.observed_at",
+    "trial_status_observation.source"
+  ],
+  "_meta": {
+    "model": "claude (builder subagent)",
+    "extracted_at": "2026-08-13T00:00:00Z",
+    "source": "raw/trem2-apoe-microglia/document.md"
+  }
+}

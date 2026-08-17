@@ -1,0 +1,202 @@
+{
+  "kind": "research-paper",
+  "title": "TANGO: a placebo-controlled randomized phase 2 study of efficacy and safety of the anti-tau monoclonal antibody gosuranemab in early Alzheimer’s disease",
+  "authors": [
+    {
+      "name": "M.S.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "employee and shareholder of Biogen"
+    },
+    {
+      "name": "J.K.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "employee and shareholder of Biogen"
+    },
+    {
+      "name": "J.O’G.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "employee and shareholder of Biogen"
+    },
+    {
+      "name": "E.H.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "employee and shareholder of Biogen"
+    },
+    {
+      "name": "J.C.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "employee and shareholder of Biogen"
+    },
+    {
+      "name": "D.G.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "employee and shareholder of Biogen"
+    },
+    {
+      "name": "Y.L.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "employee and shareholder of Biogen"
+    },
+    {
+      "name": "H.H.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "employee and shareholder of Biogen"
+    },
+    {
+      "name": "E.R.",
+      "affiliation": "Takeda Pharmaceuticals",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "former employee and shareholder of Biogen; current employee of Takeda Pharmaceuticals"
+    },
+    {
+      "name": "R.R.",
+      "affiliation": "Vigil Neuroscience",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "former employee and shareholder of Biogen; current employee of Vigil Neuroscience"
+    },
+    {
+      "name": "L.V.",
+      "affiliation": "Moderna",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "former employee and shareholder of Biogen; current employee of Moderna"
+    },
+    {
+      "name": "A.M.R.",
+      "affiliation": "AstraZeneca",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "former employee and shareholder of Biogen; current employee of AstraZeneca"
+    },
+    {
+      "name": "S.B.H.",
+      "affiliation": "Enigma Biomedical Group",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "former employee and shareholder of Biogen; current employee of the Enigma Biomedical Group"
+    },
+    {
+      "name": "S.S.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "none declared"
+    }
+  ],
+  "first_author": "M.S.",
+  "venue": "Nature Aging",
+  "published": "2023",
+  "doi": "10.1038/s43587-023-00523-w",
+  "doi_url": "https://doi.org/10.1038/s43587-023-00523-w",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/38012285",
+  "copyright": null,
+  "license": {
+    "name": "CC BY 4.0",
+    "url": null,
+    "reuse": "redistribute",
+    "evidence": "This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format"
+  },
+  "tags": [
+    "paper",
+    "trial",
+    "tau",
+    "immunotherapy",
+    "biomarkers",
+    "gosuranemab",
+    "monoclonal-antibody"
+  ],
+  "themes": [
+    "anti-tau monoclonal antibody",
+    "gosuranemab safety and efficacy",
+    "early Alzheimer's disease progression",
+    "CSF tau biomarkers",
+    "tau PET imaging"
+  ],
+  "one_line": "The anti-tau monoclonal antibody gosuranemab effectively engaged its target and was well tolerated, but it failed to slow cognitive and functional decline or reduce tau accumulation in patients with early Alzheimer's disease.",
+  "summary": "The TANGO study was a phase 2, randomized, double-blind, placebo-controlled trial evaluating the safety and efficacy of gosuranemab, a monoclonal antibody targeting N-terminal tau, in patients with mild cognitive impairment or mild Alzheimer's disease dementia. Over a 78-week placebo-controlled period, participants received varying doses of intravenous gosuranemab or placebo. Gosuranemab demonstrated an acceptable safety profile and robustly engaged its target, leading to significant, dose-dependent reductions in cerebrospinal fluid levels of unbound N-terminal tau. However, the study did not meet its secondary and exploratory efficacy endpoints; no dose resulted in a favorable separation from placebo on the Clinical Dementia Rating Scale Sum of Boxes (CDR-SB) or other cognitive assessments. Furthermore, tau PET imaging showed no significant treatment effect on cerebral tau accumulation in target brain regions. Consequently, the long-term extension phase of the trial was aborted due to lack of clinical efficacy.",
+  "key_claims": [
+    {
+      "claim": "Gosuranemab is safe and generally well tolerated in patients with early Alzheimer's disease.",
+      "evidence": "Incidence of serious adverse events was similar between groups (placebo 12.1% vs high-dose 11.7%), and drug withdrawal due to AEs was low (placebo 5.1% vs combined gosuranemab 3.2%).",
+      "strength": "strong",
+      "location": "Primary endpoint results for gosuranemab safety and tolerability / Table 3"
+    },
+    {
+      "claim": "Gosuranemab robustly engages its target, N-terminal tau.",
+      "evidence": "At week 76, all gosuranemab doses caused significant reductions in CSF unbound N-terminal tau (up to 92.6% reduction in high-dose group) compared to placebo (P < 0.0001).",
+      "strength": "strong",
+      "location": "Exploratory endpoints: CSF biomarkers / Fig. 3"
+    },
+    {
+      "claim": "Gosuranemab does not slow cognitive and functional impairment.",
+      "evidence": "At week 78, there was no significant difference from placebo in CDR-SB scores (adjusted mean change from baseline: placebo 1.85 vs high-dose 1.85).",
+      "strength": "strong",
+      "location": "Secondary endpoint results for cognitive and functional measurements (CDR-SB) / Fig. 2"
+    },
+    {
+      "claim": "Gosuranemab does not reduce the accumulation of pathological tau in the brain.",
+      "evidence": "No significant differences in tau PET SUVR across composite Braak stage regions I-VI were observed between gosuranemab and placebo groups over 78 weeks.",
+      "strength": "strong",
+      "location": "Exploratory endpoint: tau PET neuroimaging / Fig. 4"
+    }
+  ],
+  "methods": {
+    "design": "randomized, double-blind, placebo-controlled, parallel-group phase 2 study",
+    "n": 654,
+    "population": "adults aged 50-80 years with MCI due to AD or mild AD dementia with evidence of amyloid pathology",
+    "duration": "78 weeks (placebo-controlled period)",
+    "registration": "NCT03352557"
+  },
+  "funding_and_conflicts": "Sponsored and funded by Biogen Inc. Most authors declared conflicts as current or former employees and shareholders of Biogen; one author declared no competing interests.",
+  "limitations": [
+    "Impact of the COVID-19 pandemic resulting in protocol deviations, missed infusions, and remote assessments.",
+    "Early termination of the Long-Term Extension (LTE) period limited the collection of long-term safety and efficacy data.",
+    "Targeting N-terminal tau in CSF may not adequately capture the specific extracellular tau species responsible for transneuronal pathology propagation.",
+    "Intracellular pathological tau may be the primary driver of toxicity, which extracellular monoclonal antibodies like gosuranemab cannot reach."
+  ],
+  "red_flags": [
+    "In the exploratory endpoint ADAS-Cog13, the high-dose gosuranemab group performed statistically significantly worse than placebo at week 78 (P = 0.0378), which the authors downplay by referencing post hoc analysis from the aborted LTE period.",
+    "A statistically significant increase in lateral ventricular volume was observed in the high-dose group compared to placebo, but it is dismissed as having 'unclear clinical significance.'"
+  ],
+  "parse_quality": {
+    "score": 6,
+    "issues": [
+      "The standard author byline block is completely missing from the top of the document (authors are only listed as initials in the contributions/competing interests section)",
+      "Table headers are disjointed and split across rows (e.g., Table 1 and Table 2 group names)",
+      "Missing figure images, and references to figures are rendered empty (e.g., 'Fig. .')"
+    ]
+  },
+  "search_verification": []
+}

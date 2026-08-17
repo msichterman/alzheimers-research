@@ -1,0 +1,63 @@
+{
+  "fact_check": [
+    {
+      "fact": "Active caspase-1 expression is enhanced in human MCI and Alzheimer's disease brains.",
+      "status": "verified",
+      "note": "Verified against the Heneka et al. source abstract."
+    },
+    {
+      "fact": "Targeted pharmacological NLRP3 inhibitors are currently in Alzheimer's clinical trials.",
+      "status": "disputed",
+      "note": "Registry check confirms zero active trials for targeted NLRP3 inhibitors in AD as of 2026, though related trials exist for Parkinson's disease."
+    },
+    {
+      "fact": "Dietary supplements (like Lion's Mane) and ketogenic diets are proven Alzheimer's therapies via NLRP3 inhibition.",
+      "status": "disputed",
+      "note": "Flagged as community misinformation. These interventions lack human clinical validation for Alzheimer's disease prevention or treatment."
+    }
+  ],
+  "research_page": {
+    "slug": "nlrp3-alzheimers-heneka-2013",
+    "title": "NLRP3 inflammasome in APP/PS1 mice (Heneka et al., 2013)",
+    "description": "A foundational preclinical study demonstrating that NLRP3 inflammasome deficiency protects against Alzheimer's pathology in mice.",
+    "tags": [
+      "paper",
+      "inflammation",
+      "amyloid",
+      "animal-model",
+      "microglia",
+      "nlrp3"
+    ],
+    "source_line_md": "**Source**: [Nature, 2013](https://doi.org/10.1038/nature11729) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/23254930)",
+    "authors_line_md": "Michael T. Heneka et al.",
+    "takeaway_md": "This highly influential animal study demonstrated that knocking out the NLRP3 inflammasome or caspase-1 protects APP/PS1 mice from spatial memory loss and amyloid-beta deposition. It established NLRP3 as a major driver of neuroinflammation in Alzheimer's, though brain-penetrant inhibitors have struggled to reach human Alzheimer's trials.",
+    "key_findings_md": [
+      "Active caspase-1 (a marker of inflammasome activation) is highly elevated in human MCI and Alzheimer's disease brain tissue (paper, Abstract).",
+      "Genetically deleting NLRP3 or caspase-1 in APP/PS1 mice largely prevented spatial memory loss (paper, Abstract).",
+      "Inflammasome deficiency shifted microglia toward an anti-inflammatory, highly phagocytic 'M2' state, enhancing amyloid-beta clearance (paper, Abstract)."
+    ],
+    "methods_md": "Preclinical animal study using wild-type, APP/PS1, and NLRP3/caspase-1 knockout mice (C57/Bl6 background), alongside ex vivo analysis of human MCI and AD brain tissue. Cognitive function was measured via Morris Water Maze and object recognition tests.",
+    "trial_evidence_md": "Despite strong preclinical evidence establishing NLRP3 as a target, no pharmacological NLRP3 inhibitors are currently in Alzheimer's disease clinical trials as of 2026. Drug development has historically been limited by poor blood-brain barrier penetration and safety profiles. However, next-generation brain-penetrant inhibitors (such as VTX3232) are now advancing in [Phase 2 trials for Parkinson's disease](https://clinicaltrials.gov/study/NCT06556173).",
+    "sentiment_md": "NLRP3 is viewed with immense enthusiasm by the biotech and investment sectors, marked by major pharmaceutical acquisitions of inflammasome-focused startups. In the biohacking community, the pathway has been co-opted to prematurely market supplements and ketogenic diets as DIY neuroinflammation treatments. Patient and caregiver communities remain largely unaware, as the science remains mechanistic and unavailable in the clinic.",
+    "caveats_md": [
+      "Therapeutic efficacy in this study relies on genetic ablation in a transgenic mouse model, which does not perfectly mirror human sporadic Alzheimer's disease.",
+      "The foundational mechanisms described in 2013 have not yet successfully translated into clinical Alzheimer's therapies.",
+      "The available source text was limited to the abstract and methods summary, obscuring specific sample sizes and effect magnitudes."
+    ],
+    "relates_to_md": [
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — The study links amyloid-beta deposition to immune activation, suggesting amyloid drives pathology in part via the inflammasome."
+    ]
+  },
+  "trial_pages": [],
+  "timeline_entries": [
+    {
+      "section": "Foundations",
+      "date": "2013",
+      "title": "2013 — NLRP3 inflammasome linked to Alzheimer's pathology",
+      "body_md": "A foundational mouse study demonstrates that knocking out the NLRP3 inflammasome protects against memory loss and amyloid-beta deposition, sparking intense interest in neuroinflammation targets. [Read the paper](/research/papers/nlrp3-alzheimers-heneka-2013)."
+    }
+  ],
+  "notes_for_editor": [
+    "No trial pages were generated because the Dapansutrile and VTX3232 trials are strictly context/Parkinson's trials."
+  ]
+}

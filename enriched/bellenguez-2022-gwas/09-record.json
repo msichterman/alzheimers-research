@@ -1,0 +1,458 @@
+{
+  "id": "bellenguez-2022-gwas",
+  "built_at": "2026-08-13T16:59:45.843Z",
+  "derived_from": {
+    "builder": "enriched/<id>/05-evidence.json",
+    "independent_critic": "enriched/<id>/06-critique.json",
+    "fidelity_diff": "enriched/<id>/07-fidelity.json",
+    "adjudication": null
+  },
+  "conflicts_found": 5,
+  "conflicts_ruled": 0,
+  "conflicts_unresolved": 5,
+  "conflicts_needing_manual_apply": 0,
+  "adjudication_changelog": [],
+  "unresolved": [
+    {
+      "field": "study.n",
+      "reason": "no adjudicator ruling for this conflict"
+    },
+    {
+      "field": "primary_endpoint_status.status",
+      "reason": "no adjudicator ruling for this conflict"
+    },
+    {
+      "field": "multiplicity.approach",
+      "reason": "no adjudicator ruling for this conflict"
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "reason": "no adjudicator ruling for this conflict"
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "reason": "no adjudicator ruling for this conflict"
+    }
+  ],
+  "needs_manual_apply": [],
+  "record": {
+    "document_kind": "journal_article",
+    "title": {
+      "value": "New insights into the genetic etiology of Alzheimer’s disease and related dementias",
+      "quote": "# New insights into the genetic etiology of Alzheimer’s disease and related dementias",
+      "location": "Title line"
+    },
+    "authors": [
+      {
+        "name": "Céline Bellenguez",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": true
+      },
+      {
+        "name": "Jean-Charles Lambert",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": true
+      }
+    ],
+    "study": {
+      "design": {
+        "value": "Two-stage genome-wide association study (GWAS) meta-analysis of clinically diagnosed and 'proxy' Alzheimer's disease and related dementias",
+        "quote": "We performed a two-stage genome-wide association study totaling 111,326 clinically diagnosed/‘proxy’ AD cases and 677,663 controls.",
+        "location": "Abstract"
+      },
+      "phase": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "n": {
+        "value": 111326,
+        "quote": "We performed a two-stage genome-wide association study totaling 111,326 clinically diagnosed/‘proxy’ AD cases and 677,663 controls.",
+        "location": "Abstract"
+      },
+      "n_description": {
+        "value": "Clinically diagnosed and 'proxy' AD cases totalled across the two stages (111,326); the 677,663 controls are reported separately and are not included in this number",
+        "quote": "We performed a two-stage genome-wide association study totaling 111,326 clinically diagnosed/‘proxy’ AD cases and 677,663 controls.",
+        "location": "Abstract"
+      },
+      "population": {
+        "value": "Individuals of European ancestry: clinically diagnosed AD cases, UK Biobank proxy-AD and related dementia (proxy-ADD) cases defined by parental dementia questionnaire data, and controls; stage I comprised 39,106 clinically diagnosed AD cases, 46,828 proxy-ADD cases and 401,577 controls, with stage II adding 25,392 AD cases and 276,086 controls",
+        "quote": "All individuals included in stage I are of European ancestry; demographic data on these case–control studies are summarized in Supplementary Table",
+        "location": "Methods, Samples"
+      },
+      "followup": {
+        "value": "For the genetic risk score analyses, predictive indices were computed at 5 years for population-based cohorts and 3 years for MCI cohorts",
+        "quote": "that is 5 years for population-based cohorts and 3 years for MCI cohorts",
+        "location": "Methods, GRS analysis"
+      },
+      "intervention": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "comparator": {
+        "value": "Controls without dementia; in the UK Biobank, individuals who did not report dementia or any family history of dementia",
+        "quote": "In the UKBB, individuals who did not report dementia or any family history of dementia were used as controls; the analysis included 2,447 diagnosed cases, 46,828 proxy cases of dementia and 338,440 controls.",
+        "location": "Methods, Samples"
+      },
+      "biomarker_confirmation": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "nct_ids": [],
+      "cohorts": [
+        "EADB (European Alzheimer & Dementia Biobank)",
+        "UK Biobank (UKBB)",
+        "ADGC",
+        "CHARGE",
+        "FinnGen",
+        "GR@ACE",
+        "EADI",
+        "GERAD/PERADES",
+        "DemGene",
+        "Bonn",
+        "Rotterdam study (RS1, RS2)",
+        "CCHS study",
+        "NxC",
+        "DEGESCO",
+        "EADB Belgian cohort (lymphoblastoid cell lines)",
+        "EADB-TOPMed dataset",
+        "TOPMed reference panel",
+        "Haplotype Reference Consortium (HRC) panel",
+        "1000 Genomes",
+        "UK10K",
+        "HapMap 3",
+        "Allen Brain Atlas",
+        "AMP-AD",
+        "MayoRNAseq (TCX)",
+        "ROSMAP",
+        "MSBB",
+        "GTEx v8",
+        "MiGA",
+        "eQTLGen",
+        "eQTL Catalogue",
+        "Brain xQTL serve",
+        "Netherlands Brain Bank",
+        "3C (Three-City Study)",
+        "AgeCoDe (German study on aging cognition and dementia)",
+        "AMC (additional, independent memory clinic cohort from Fundacio ACE)",
+        "DCN (German Dementia Competence Network study)",
+        "FACE (Fundacio ACE memory clinic cohort)",
+        "FHS (Framingham Heart Study)",
+        "HAN (BALTAZAR multicenter prospective memory clinic study)",
+        "MAS (Sydney Memory and Ageing Study)",
+        "VITA (Vienna Transdanube Aging study)",
+        "UAN (memory clinic cohort from the Hospital Network Antwerp)",
+        "UHA (University of Halle memory clinic cohort)",
+        "ZIM (Heidelberg/Mannheim memory clinic sample)"
+      ]
+    },
+    "outcomes": [
+      {
+        "name": "Number of independent risk loci associated with Alzheimer's disease and related dementias (ADD) in the two-stage GWAS meta-analysis",
+        "tier": "primary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "met",
+        "effect_estimate": "75 risk loci",
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "yes",
+        "quote": "We identified 75 independent loci for ADD; 33 had been reported previously, and 42 correspond to new signals at the time of this analysis.",
+        "location": "Discussion, paragraph 1"
+      },
+      {
+        "name": "Number of loci new at the time of analysis",
+        "tier": "primary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "met",
+        "effect_estimate": "42 new loci",
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "yes",
+        "quote": "We found 75 risk loci, of which 42 were new at the time of analysis.",
+        "location": "Abstract"
+      },
+      {
+        "name": "Signals in previously known loci confirmed by the meta-analysis",
+        "tier": "primary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "met",
+        "effect_estimate": "39 signals in 33 known loci",
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "yes",
+        "quote": "this approach enabled us to define 39 signals in 33 loci already known to be associated with the risk of developing ADD",
+        "location": "Results, GWAS meta-analysis"
+      },
+      {
+        "name": "Stage II follow-up of the new loci (replication in ADGC, CHARGE and FinnGen)",
+        "tier": "primary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "met",
+        "effect_estimate": "17 of the 42 new loci reached P ≤ 5 × 10 −8 in stage I; 25 reached it only after stage II follow-up",
+        "confidence_interval": null,
+        "p_value": "P ≤ 5 × 10 −8",
+        "multiplicity_controlled": "yes",
+        "quote": "Of the 42 new loci, 17 had P ≤ 5 × 10 −8 in stage I and 25 were associated with P ≤ 5 × 10 −8 after follow-up",
+        "location": "Results, GWAS meta-analysis"
+      },
+      {
+        "name": "Genome-wide significance criterion for declaring a signal (including nominal stage II replication and concordant direction of effect)",
+        "tier": "primary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "not_applicable",
+        "effect_estimate": null,
+        "confidence_interval": null,
+        "p_value": "P ≤ 5 × 10 −8 in the stage I and stage II meta-analysis, with P ≤ 0.05 in stage II",
+        "multiplicity_controlled": "yes",
+        "quote": "A signal was considered as significant on the genome-wide level if it (1) was nominally associated ( P ≤ 0.05) in stage II",
+        "location": "Results, GWAS meta-analysis"
+      },
+      {
+        "name": "Loci with P ≤ 5 × 10 −8 in the combined analysis but P > 0.05 in stage II (not counted as significant)",
+        "tier": "primary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "not_met",
+        "effect_estimate": "6 loci",
+        "confidence_interval": null,
+        "p_value": "P > 0.05 in stage II",
+        "multiplicity_controlled": "yes",
+        "quote": "We also identified 6 loci with P ≤ 5 × 10 −8 in the stage I and stage II analysis but with P > 0.05 in stage II",
+        "location": "Results, GWAS meta-analysis"
+      },
+      {
+        "name": "Strongest rare-variant association at a known locus (TREM2 rs75932628)",
+        "tier": "primary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "met",
+        "effect_estimate": "OR 2.39",
+        "confidence_interval": "2.09–2.73",
+        "p_value": "2.5 × 10 −37",
+        "multiplicity_controlled": "yes",
+        "quote": "| rs75932628 | 6 | 41161514 | TREM2 | TREM2 | T/C | 0.003 | 2.39 | 2.09–2.73 | 2.5 × 10 −37 |",
+        "location": "Table 1"
+      },
+      {
+        "name": "Strongest association among the new loci (NCK2 rs143080277)",
+        "tier": "primary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "met",
+        "effect_estimate": "OR 1.47",
+        "confidence_interval": "1.33–1.63",
+        "p_value": "2.1 × 10 −13",
+        "multiplicity_controlled": "yes",
+        "quote": "| 4 | rs143080277 | 2 | 105749599 | NCK2 | C/T | 0.005 | 1.47 | 1.33–1.63 | 2.1 × 10 −13 |",
+        "location": "Table 2"
+      },
+      {
+        "name": "Pathway enrichment analysis of stage I association results (gene sets significant after correction for multiple testing)",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "met",
+        "effect_estimate": "93 gene sets significant",
+        "confidence_interval": null,
+        "p_value": "q ≤ 0.05",
+        "multiplicity_controlled": "yes",
+        "quote": "Ninety-three gene sets were still statistically significant after correction for multiple testing ( q ≤ 0.05; and Supplementary Table ).",
+        "location": "Results, Pathway analyses"
+      },
+      {
+        "name": "Single-cell expression enrichment by brain cell type (Allen Brain Atlas)",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "met",
+        "effect_estimate": "Only microglial expression significantly enriched",
+        "confidence_interval": null,
+        "p_value": "P = 1.7 × 10 −8",
+        "multiplicity_controlled": "unclear",
+        "quote": "Only the microglial expression reached a high level of significance ( P = 1.7 × 10 −8 ; Supplementary Table ); greater expression corresponded to a more significant association with ADD.",
+        "location": "Results, Pathway analyses"
+      },
+      {
+        "name": "Gene prioritization in the new loci",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "met",
+        "effect_estimate": "31 tier 1 genes and 24 tier 2 genes prioritized across the 42 new loci",
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "From all newly identified loci, this gene prioritization yielded 31 tier 1 genes and 24 tier 2.",
+        "location": "Results, Gene prioritization"
+      },
+      {
+        "name": "Association of the genetic risk score (GRS) with conversion to AD in population-based cohorts",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "met",
+        "effect_estimate": "HR 1.076 per average risk allele",
+        "confidence_interval": "1.064–1.088",
+        "p_value": "P = 9.2 × 10 −40",
+        "multiplicity_controlled": "unclear",
+        "quote": "the GRS was significantly associated with conversion to AD; this was shown in a fixed-effect meta-analysis (hazard ratio (HR) (95%CI) per average risk allele = 1.076 (1.064–1.088), P = 9.2 × 10 −40",
+        "location": "Results, GRS"
+      },
+      {
+        "name": "Association of the GRS with conversion to AD in patients with mild cognitive impairment (MCI)",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "met",
+        "effect_estimate": "HR 1.056 per average risk allele",
+        "confidence_interval": "1.040–1.072",
+        "p_value": "P = 2.8 × 10 −12",
+        "multiplicity_controlled": "unclear",
+        "quote": "Likewise, the GRS was significantly associated with AD conversion in patients with MCI (HR = 1.056 (1.040–1.072), P = 2.8 × 10 −12",
+        "location": "Results, GRS"
+      },
+      {
+        "name": "Increase in AD risk from the lowest to the highest GRS decile",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "met",
+        "effect_estimate": "1.9-fold in population-based cohorts (HR = 1.93) and 1.6-fold in MCI cohorts (HR = 1.63)",
+        "confidence_interval": "1.75–2.13 (population-based); 1.42–1.87 (MCI)",
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "the risk of conversion to AD rises with the number of risk alleles from non-APOE risk variants in the GRS by 1.9-fold in population-based cohorts (HR = 1.93 (1.75–2.13)",
+        "location": "Results, GRS"
+      }
+    ],
+    "primary_endpoint_status": {
+      "status": "met",
+      "explanation": "The discovery analysis succeeded on its own terms: the two-stage meta-analysis identified 75 independent genome-wide significant loci for ADD, 33 previously reported and 42 new at the time of analysis.",
+      "quote": "We identified 75 independent loci for ADD; 33 had been reported previously, and 42 correspond to new signals at the time of this analysis."
+    },
+    "multiplicity": {
+      "approach": "Genome-wide significance threshold of P ≤ 5 × 10 −8 in the combined stage I and stage II meta-analysis, plus a requirement for nominal association (P ≤ 0.05) and concordant direction of effect in stage II; PLINK clumping and conditional analyses defined independent signals; q values were used for the pathway gene-set analyses",
+      "quote": "A signal was considered as significant on the genome-wide level if it (1) was nominally associated ( P ≤ 0.05) in stage II",
+      "location": "Results, GWAS meta-analysis"
+    },
+    "safety": {
+      "harms": [],
+      "apoe_stratification_reported": false,
+      "serious_adverse_events": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "deaths": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "discontinuations": {
+        "value": null,
+        "quote": null,
+        "location": null
+      }
+    },
+    "funding": [
+      "This work was funded by a grant (EADB) from the EU Joint Programme – Neurodegenerative Disease Research.",
+      "INSERM UMR1167 is also funded by the INSERM, Institut Pasteur de Lille, Lille Métropole Communauté Urbaine and French government’s LABEX DISTALZ program (development of innovative strategies for a transdisciplinary approach to AD).",
+      "This research was conducted using the UKBB resource (application number 61054)."
+    ],
+    "conflicts": [
+      "H. Hampel is an employee of Eisai; he serves as Senior Associate Editor for the Alzheimers & Dementia journal and, before May 2019, received lecture fees from Servier, Biogen and Roche, research grants from Pfizer, Avid and MSD Avenir, travel funding from Eisai, Functional Neuromodulation, Axovant, Eli Lilly and Company, Takeda, Zinfandel Pharmaceuticals, GE Healthcare and Oryzon Genomics, and consultancy fees from Qynapse, Jung Diagnostics, Cytox, Axovant, Anavex, Takeda, Zinfandel Pharmaceuticals, GE Healthcare, Oryzon Genomics and Functional Neuromodulation; he served as a scientific advisory board member for Functional Neuromodulation, Axovant, Eisai, Eli Lilly and Company, Cytox, GE Healthcare, Takeda and Zinfandel, Oryzon Genomics and Roche Diagnostics.",
+      "The remaining authors declare no competing interests"
+    ],
+    "limitations": [
+      "The UK Biobank proxy-AD designation is based on questionnaire data about parental dementia: 'This method has been used successfully in the past but is less specific than a clinical or pathological diagnosis of AD'.",
+      "Shared GRN and TMEM106B signals with frontotemporal dementia may partly reflect diagnostic misclassification: 'This association might be due to the misclassification of clinical diagnosis of AD and the presence of proxy-ADD cases in the UKBB.'",
+      "All individuals included in stage I are of European ancestry, and the document states that 'higher-powered GWASs of multiancestry populations will be particularly welcome' because 'GRSs developed with European-ancestry populations are known to be less effective with other ancestries'.",
+      "'identification of rare variants with very low frequencies is a major challenge for genetic studies, because available samples with sequencing data in AD are underpowered'",
+      "'gene–gene and gene–environment interactions have not yet been studied in detail'",
+      "'it is probable that additional, yet-unknown loci bear common variants modulating the risk for AD'",
+      "The added predictive value of the GRS was small: 'We found a small but consistent increase in the discrimination between AD converters and nonconverters'.",
+      "Gene prioritization was not performed in the complex IGH gene cluster locus (L27), and in five loci the prioritization score identified no molecular evidence beyond nearest-gene status."
+    ],
+    "risk_of_bias": [
+      {
+        "domain": "Phenotype definition / diagnostic accuracy (proxy cases)",
+        "judgement": "A large share of stage I cases are UK Biobank proxy-ADD cases defined by parental dementia questionnaire, which the document itself says is less specific than clinical or pathological diagnosis.",
+        "quote": "The UKBB’s proxy-AD designation is based on questionnaire data in which individuals are asked whether their parents had dementia."
+      },
+      {
+        "domain": "Generalisability / ancestry restriction",
+        "judgement": "Stage I is restricted to individuals of European ancestry, limiting transferability of the loci and of the GRS to other ancestries.",
+        "quote": "All individuals included in stage I are of European ancestry"
+      },
+      {
+        "domain": "Sample overlap between discovery and GRS validation",
+        "judgement": "The Framingham Heart Study contributed to stage II of the GWAS from which the GRS weights were taken, and was excluded in a sensitivity analysis for that reason.",
+        "quote": "excluded the Framingham Heart Study (FHS), as it was part of the stage II of the GWAS from which ORs for PRS computation were extracted"
+      },
+      {
+        "domain": "Overlap with previously published analyses",
+        "judgement": "Nine of the reported loci had already been reported in three articles that used part of the same GWAS data, so they are not fully independent discoveries.",
+        "quote": "were recently reported in three articles using part of the GWAS data included in our study"
+      }
+    ],
+    "disagreements": [
+      {
+        "question": "Does including UK Biobank proxy-ADD cases distort the biology recovered by the GWAS?",
+        "position": "This document concludes that including proxy-ADD cases does not cause disease-relevant biological information to be missed and adds power.",
+        "attributed_to": "Bellenguez et al., this document",
+        "quote": "This indicates that the inclusion of proxy-ADD cases does not cause disease-relevant biological information to be missed and underlines the additional power of this type of analysis."
+      },
+      {
+        "question": "Have GWASs now characterized most of the common-variant component of AD risk?",
+        "position": "This document notes an existing estimate that fewer than 100 causal common variants may explain the entire AD risk, but argues that substantial further effort is still needed to characterize the missing genetic component.",
+        "attributed_to": "Bellenguez et al., this document, responding to 'a recent study'",
+        "quote": "A recent study estimated that fewer than 100 causal common variants may explain the entire AD risk ; if that estimate is correct, then our study might have already characterized a large proportion"
+      },
+      {
+        "question": "Are the reported signals driven by the UK Biobank proxy data?",
+        "position": "This document reports that none of the observed signals appeared to be especially driven by the UKBB data.",
+        "attributed_to": "Bellenguez et al., this document",
+        "quote": "Similarly, none of the signals observed appeared to be especially driven by the UKBB data"
+      }
+    ],
+    "linked_objects": [],
+    "trial_status_observation": {
+      "status": null,
+      "enrollment": null,
+      "phase": null,
+      "observed_at": null,
+      "source": null
+    },
+    "unlocatable_fields": [
+      "study.phase",
+      "study.intervention",
+      "study.biomarker_confirmation",
+      "study.nct_ids",
+      "authors.affiliation",
+      "authors.orcid",
+      "safety.harms",
+      "safety.serious_adverse_events",
+      "safety.deaths",
+      "safety.discontinuations",
+      "trial_status_observation.status",
+      "trial_status_observation.enrollment",
+      "trial_status_observation.phase",
+      "trial_status_observation.observed_at",
+      "trial_status_observation.source"
+    ],
+    "_meta": {
+      "model": "claude (builder subagent)",
+      "extracted_at": "2026-08-13T16:42:17Z",
+      "source": "raw/bellenguez-2022-gwas/document.md"
+    }
+  }
+}

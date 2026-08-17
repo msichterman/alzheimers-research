@@ -1,0 +1,96 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT01998841",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01998841",
+      "name": "API ADAD Colombia Trial",
+      "drug": "Crenezumab (anti-amyloid beta monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Genentech, Inc.",
+      "status": "Completed",
+      "enrollment": 252,
+      "population": "Cognitively unimpaired carriers of the PSEN1 E280A mutation and non-carrier family members.",
+      "primary_endpoint": "Annualized Rate of Change in the API ADAD Composite Cognitive Test Total Score",
+      "started": "2013-12",
+      "completed_or_readout": "2022-03",
+      "results_summary": "The trial failed to demonstrate a significant clinical benefit. Crenezumab did not slow cognitive decline or delay the onset of clinical Alzheimer's disease compared to placebo in PSEN1 E280A mutation carriers.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03977584",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03977584",
+      "name": "API ADAD Tau PET Substudy",
+      "drug": "Crenezumab / [18F]GTP1",
+      "phase": "2",
+      "sponsor": "Hoffmann-La Roche",
+      "status": "Completed",
+      "enrollment": 114,
+      "population": "Preclinical PSEN1 E280A mutation carriers and non-carriers from the main crenezumab study.",
+      "primary_endpoint": "Annualized Rate of Change in Tau Burden measured by [18F]GTP1 Tau PET",
+      "started": "2019-06",
+      "completed_or_readout": "2022-04",
+      "results_summary": "There was no statistically significant difference in the annualized rate of change in tau burden between mutation carriers treated with crenezumab versus placebo (p=0.1953).",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT06996730",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06996730",
+      "name": "API-2",
+      "drug": "Donanemab and RG6289 / nivegacetor (gamma secretase modulator)",
+      "phase": "2/3",
+      "sponsor": "Banner Health",
+      "status": "Unknown",
+      "enrollment": 240,
+      "population": "PSEN1 E280A Mutation Carriers and Non-Carriers",
+      "primary_endpoint": "Part 1: Change in amyloid load as measured by centiloid [F18]Florbetapir-PET; Part 2: Maintenance of Low Levels of Brain Amyloid",
+      "started": "2026-01",
+      "completed_or_readout": "2030-06",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01760005",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01760005",
+      "name": "DIAN-TU-001",
+      "drug": "Gantenerumab, Solanezumab, Lecanemab, E2814",
+      "phase": "2/3",
+      "sponsor": "Washington University School of Medicine",
+      "status": "Active",
+      "enrollment": 490,
+      "population": "Individuals at risk for or with early-onset autosomal dominant Alzheimer's disease (including PSEN1 mutations).",
+      "primary_endpoint": "Change from baseline in the DIAN-Multivariate Cognitive Endpoint (DIAN-MCE)",
+      "started": "2012-12",
+      "completed_or_readout": null,
+      "results_summary": "Initial arms testing gantenerumab and solanezumab did not meet their primary cognitive endpoints. The trial continues testing other agents including lecanemab and the anti-tau antibody E2814.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2026-02",
+      "kind": "paper",
+      "description": "Results of the API ADAD Colombia Phase 2 Trial of crenezumab in PSEN1 E280A carriers showing no significant clinical benefit.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41579901/"
+    },
+    {
+      "date": "2024-03-15",
+      "kind": "registry-results",
+      "description": "Tau PET longitudinal substudy results (NCT03977584) showing no significant difference in annualized rate of change in tau burden.",
+      "url": "https://clinicaltrials.gov/study/NCT03977584?tab=results"
+    },
+    {
+      "date": "2026-05-28",
+      "kind": "paper",
+      "description": "Preclinical pharmacology of nivegacetor (RG6289), a gamma secretase modulator in clinical development for AD.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42292846/"
+    }
+  ],
+  "evidence_assessment": "The analyzed document evaluates post-mortem transcriptomics to describe disease-specific signatures of PSEN1 E280A Autosomal Dominant Alzheimer's Disease (ADAD) and a uniquely protective APOE3-Christchurch homozygous variant. While the study itself is observational, it provides the molecular rationale for the Colombian kindred that is the focal point of the Alzheimer's Prevention Initiative (API) trials. Clinical evidence in this specific population includes the completed API ADAD trial (NCT01998841), which failed to demonstrate clinical efficacy or significantly reduce tau burden (NCT03977584) using the anti-amyloid antibody crenezumab. In response, a newly registered API-2 trial (NCT06996730) will test donanemab alone and in combination with the gamma secretase modulator nivegacetor (RG6289), which directly targets the APP processing dysfunction caused by the PSEN1 mutation. Furthermore, while the protective effects of the APOE3-Christchurch mutation remain a highly influential finding for target discovery, clinical translation is currently non-existent, and findings are inherently limited by the N=1 sample size.",
+  "discrepancies": [
+    "No explicit discrepancies exist between the document and the clinical record, as the document reports observational post-mortem genetic data rather than clinical outcomes. However, clinical readers must note that findings for the APOE3-Christchurch homozygote rely entirely on a single patient (N=1), increasing the risk of interpreting patient-specific variations as genotype-wide effects."
+  ]
+}

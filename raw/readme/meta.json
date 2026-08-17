@@ -1,0 +1,9 @@
+{
+  "id": "readme",
+  "source": "sources/README.md",
+  "sha256": "105d41b82d2ba499590182e2100001dbf60a90372ad76992746b536b94d03690",
+  "bytes": 1596,
+  "chars": 1581,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:07.878Z"
+}

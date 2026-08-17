@@ -1,0 +1,97 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT02484547",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02484547",
+      "name": "EMERGE (221AD302)",
+      "drug": "Aducanumab (BIIB037)",
+      "phase": "3",
+      "sponsor": "Biogen",
+      "status": "Terminated",
+      "enrollment": 1643,
+      "population": "Adults with early Alzheimer's disease (MCI due to AD or mild AD) with positive amyloid PET.",
+      "primary_endpoint": "Change From Baseline in Clinical Dementia Rating Scale - Sum of Boxes (CDR-SB) Score at Week 78",
+      "started": "2015-09",
+      "completed_or_readout": "2019-08",
+      "results_summary": "Despite early termination for futility, a controversial post-hoc analysis of a larger dataset claimed the high-dose group met the primary endpoint of reducing clinical decline.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02477800",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02477800",
+      "name": "ENGAGE (221AD301)",
+      "drug": "Aducanumab (BIIB037)",
+      "phase": "3",
+      "sponsor": "Biogen",
+      "status": "Terminated",
+      "enrollment": 1653,
+      "population": "Adults with early Alzheimer's disease (MCI due to AD or mild AD) with positive amyloid PET.",
+      "primary_endpoint": "Change From Baseline in Clinical Dementia Rating Sum of Boxes (CDR-SB) Score at Week 78",
+      "started": "2015-08",
+      "completed_or_readout": "2019-08",
+      "results_summary": "Identical in design to EMERGE, this trial failed to meet its primary endpoint, showing no significant clinical benefit of aducanumab over placebo.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04241068",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04241068",
+      "name": "EMBARK",
+      "drug": "Aducanumab (BIIB037)",
+      "phase": "3",
+      "sponsor": "Biogen",
+      "status": "Terminated",
+      "enrollment": 1696,
+      "population": "Subjects who had previously participated in prior aducanumab studies.",
+      "primary_endpoint": "Number of Participants With Treatment-Emergent Adverse Events (TEAEs) and Serious TEAEs",
+      "started": "2020-03",
+      "completed_or_readout": "2024-07",
+      "results_summary": "An open-label redosing study meant to provide continued access and long-term safety data. It was terminated when Biogen decided to discontinue the entire Aduhelm program.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01677572",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01677572",
+      "name": "PRIME",
+      "drug": "Aducanumab (BIIB037)",
+      "phase": "1",
+      "sponsor": "Biogen",
+      "status": "Terminated",
+      "enrollment": 197,
+      "population": "Subjects With Prodromal or Mild Alzheimer's Disease",
+      "primary_endpoint": "Number of Participants with Adverse Events",
+      "started": "2012-10",
+      "completed_or_readout": "2019-07",
+      "results_summary": "Demonstrated dose-dependent reduction in amyloid plaques but revealed a significant dose-dependent risk of Amyloid-Related Imaging Abnormalities (ARIA).",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2021-06-07",
+      "kind": "regulatory",
+      "description": "FDA grants accelerated approval for Aduhelm (aducanumab) based on amyloid plaque reduction, rather than clinical efficacy.",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-grants-accelerated-approval-alzheimers-drug"
+    },
+    {
+      "date": "2022-05-11",
+      "kind": "paper",
+      "description": "Publication of the Phase 3 EMERGE and ENGAGE trial results by Budd Haeberlein et al., detailing the discordant clinical findings.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35542991/"
+    },
+    {
+      "date": "2024-01-31",
+      "kind": "company",
+      "description": "Biogen announces it is discontinuing the development and commercialization of Aduhelm and terminating the post-approval ENVISION study.",
+      "url": "https://investors.biogen.com/news-releases/news-release-details/biogen-realign-resources-alzheimers-disease-franchise"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence supporting aducanumab's efficacy is weak and highly controversial, ultimately leading to the drug's discontinuation. The core claim of clinical benefit rests entirely on a post-hoc analysis of the high-dose arm in the EMERGE trial, which had been previously terminated for futility. Crucially, the identically designed twin trial (ENGAGE) completely failed to replicate these efficacy findings and showed no clinical benefit over placebo. While aducanumab consistently demonstrated dose-dependent amyloid plaque clearance—which served as the basis for its contentious FDA accelerated approval—this biomarker change was coupled with a high incidence of adverse events, particularly amyloid-related imaging abnormalities (ARIA). Given the lack of robust, reproducible clinical outcomes, the sponsor terminated all ongoing trials and the commercial program in early 2024.",
+  "discrepancies": [
+    "The document claims statistically significant superiority (p=0.0120) for the high-dose group on the primary endpoint, despite noting the trial was terminated for futility. This reflects a highly selected, controversial post-hoc re-analysis of a larger dataset that was conducted by the sponsor long after the pre-specified futility cutoff was reached.",
+    "The document's narrative relies entirely on the outcomes of EMERGE (NCT02484547) and omits the crucial context that its identically designed twin trial, ENGAGE (NCT02477800), failed to show clinical efficacy, making the documented claims an un-replicated anomaly."
+  ]
+}

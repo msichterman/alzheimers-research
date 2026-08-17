@@ -1,0 +1,73 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment surrounding the genetic and mechanistic findings of this GWAS is highly bifurcated depending on the audience. Scientists and biotech enthusiasts are energized by the robust validation of lipid processing, tau binding, and immune pathways, viewing them as necessary alternatives to the traditional amyloid hypothesis. However, the biotech investment community remains heavily skeptical, as early attempts to drug these alternative pathways—particularly anti-tau antibodies—have recently resulted in costly late-stage trial failures. Among patients and caregivers, there is virtually no discussion of specific loci like IQCK or ADAM10. Instead, headlines about 'new Alzheimer's genes' primarily trigger existential fear and anxiety regarding heritability, rather than hope for imminent treatments.",
+  "communities": [
+    {
+      "community": "Patients & Caregivers (r/Alzheimers, r/dementia)",
+      "sentiment": "negative",
+      "themes": [
+        "Existential dread about disease heritability",
+        "Confusion around deterministic vs. probabilistic genetics",
+        "Distrust or anxiety regarding consumer genetic testing"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/comments/yig7jf/is_anyone_else_terrified_of_the_fact_that_you/",
+        "https://www.reddit.com/r/dementia/comments/1dhwb7h/is_dementia_hereditary/"
+      ]
+    },
+    {
+      "community": "Science Enthusiasts (r/science)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Lipid processing and fat buildup in the brain",
+        "Moving beyond the amyloid hypothesis",
+        "Immune system and blood-brain barrier damage"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/science/comments/1bn068l/alzheimers_may_be_caused_by_fat_buildup_apoe44_is/",
+        "https://www.reddit.com/r/science/comments/u8qbrr/alzheimers_could_be_caused_by_damage_to_a/"
+      ]
+    },
+    {
+      "community": "Biotech & Investors (r/biotech)",
+      "sentiment": "skeptical",
+      "themes": [
+        "Failure of recent anti-tau antibody trials",
+        "Difficulty of targeting complex metabolic/lipid pathways",
+        "Pipeline fatigue"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/biotech/comments/1p5mt8o/jjs_5b_alzheimers_hope_fades_as_antitau_antibody/",
+        "https://www.reddit.com/r/biotech/comments/1ggyhj1/ucbs_antitau_alzheimers_program_fails_phase_2/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Alzforum",
+      "tone": "positive",
+      "date": "2019-03",
+      "url": "https://www.alzforum.org/news/research-news/massive-gwas-meta-analysis-digs-trove-alzheimers-genes"
+    },
+    {
+      "outlet": "National Institutes of Health (NIH) News",
+      "tone": "positive",
+      "date": "2019-02",
+      "url": "https://www.nih.gov/news-events/news-releases/data-sharing-uncovers-five-new-risk-genes-alzheimers-disease"
+    }
+  ],
+  "hype_vs_evidence": "Media coverage and general science forums often hype the discovery of new risk loci as major stepping stones to imminent cures, oversimplifying the biology. For example, the paper's implication of 'lipid processing' is frequently reduced in public spheres to 'fat buildup' causing the disease, ignoring the nuanced cellular interactions of APOE and cholesterol metabolism. Furthermore, while the public is eager for tau and immunity-based treatments to succeed where amyloid drugs struggled, biotech reality reflects a much harsher landscape where targeting these newly validated pathways (such as tau clearance) has yielded significant clinical failures. The public perception assumes a linear path from genetic discovery to drug development that the clinical trial evidence does not yet support.",
+  "misinformation_flags": [
+    "Oversimplifying cellular lipid metabolism dysfunction as dietary 'fat buildup' causing Alzheimer's.",
+    "Interpreting the discovery of new genetic risk variants as deterministic proof that descendants will inevitably inherit the disease.",
+    "Assuming that identifying non-amyloid pathways like tau automatically translates to viable, immediate treatments, ignoring recent clinical trial failures."
+  ],
+  "searches_run": [
+    "site:reddit.com/r/Alzheimers OR site:reddit.com/r/dementia \"genetics\" OR \"genes\"",
+    "site:reddit.com \"ADAM10\" Alzheimer",
+    "site:reddit.com/r/biotech OR site:reddit.com/r/investing \"ADAM10\" OR \"tau\" Alzheimer",
+    "site:reddit.com/r/science \"lipid\" OR \"immunity\" Alzheimer",
+    "site:alzforum.org \"Kunkle\" GWAS",
+    "\"Kunkle\" \"Nature Genetics\" Alzheimer news"
+  ]
+}

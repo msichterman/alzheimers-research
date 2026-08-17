@@ -1,0 +1,30 @@
+{
+  "id": "maptrx-antisense-tau",
+  "cluster": "tau",
+  "checked_at": "2026-08-13T17:02:32.969Z",
+  "passed": true,
+  "text_sufficiency": {
+    "level": "full-text",
+    "chars": 50692,
+    "sections": [
+      "method",
+      "result",
+      "discussion",
+      "statistical analysis",
+      "participants"
+    ]
+  },
+  "evidence_completeness": "full-text-oa",
+  "failures": [],
+  "warnings": [
+    {
+      "gate": "identity",
+      "detail": "metadata sources disagree on the title: \"Tau-targeting antisense oligonucleotide MAPT&lt;sub&gt;Rx&lt\" vs \"Tau-targeting antisense oligonucleotide MAPTRx in mild Alzhe\" vs \"Tau-targeting antisense oligonucleotide MAPT(Rx) in mild Alz\""
+    },
+    {
+      "gate": "cross-links",
+      "detail": "document names NCT05399888 but no resolved registry record is linked for it"
+    }
+  ],
+  "manifest_discrepancies": []
+}

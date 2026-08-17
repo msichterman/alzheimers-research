@@ -1,0 +1,243 @@
+{
+  "kind": "review",
+  "title": "NIA-AA Research Framework: Toward a biological definition of Alzheimer’s disease",
+  "authors": [
+    {
+      "name": "Clifford R. Jack",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "David A. Bennett",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Kaj Blennow",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Maria C. Carrillo",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Billy Dunn",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Samantha Budd Haeberlein",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "David M. Holtzman",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "William Jagust",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Frank Jessen",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Jason Karlawish",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Enchi Liu",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Jose Luis Molinuevo",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Thomas Montine",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Creighton Phelps",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Katherine P. Rankin",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Christopher C. Rowe",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Philip Scheltens",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Eric Siemers",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Heather M. Snyder",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Reisa Sperling",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Clifford R. Jack",
+  "venue": "Alzheimer's & dementia : the journal of the Alzheimer's Association",
+  "published": "2018",
+  "doi": "10.1016/j.jalz.2018.02.018",
+  "doi_url": "https://doi.org/10.1016/j.jalz.2018.02.018",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/29653606",
+  "copyright": null,
+  "license": {
+    "name": "CC BY-NC-ND 4.0",
+    "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "reuse": "redistribute",
+    "evidence": "This is an open access article under the CC BY-NC-ND license ( http://creativecommons.org/licenses/by-nc-nd/4.0/ )."
+  },
+  "tags": [
+    "review",
+    "biomarkers",
+    "amyloid",
+    "tau",
+    "atn-framework",
+    "diagnostic-criteria",
+    "biological-definition"
+  ],
+  "themes": [
+    "biological definition of AD",
+    "AT(N) biomarker classification",
+    "clinical syndrome versus underlying pathology",
+    "research framework harmonization",
+    "cognitive staging independent of pathology"
+  ],
+  "one_line": "The 2018 NIA-AA research framework proposes shifting the definition of Alzheimer's disease in living people from a clinical syndrome to a biological construct based on the AT(N) system of amyloid, tau, and neurodegeneration biomarkers.",
+  "summary": "In an update to the 2011 guidelines, the National Institute on Aging and Alzheimer's Association (NIA-AA) established a unified research framework that defines Alzheimer's disease (AD) entirely by its underlying biology rather than its clinical symptoms. It introduces the AT(N) classification system, grouping biomarkers into amyloid deposition (A), pathologic tau (T), and neurodegeneration (N). Under this framework, the term 'Alzheimer's disease' specifically requires biomarker evidence of both amyloid and pathologic tau. Cognitive impairment is treated as a downstream symptom used for staging severity rather than diagnosing the disease itself. The authors stress that this biological framework is designed strictly to create a common language for observational and interventional research, and is premature for routine clinical practice. It aims to accelerate the development of disease-modifying therapies by enabling researchers to target specific biological pathways.",
+  "key_claims": [
+    {
+      "claim": "Alzheimer's disease should be defined biologically by neuropathologic changes rather than by a multidomain amnestic dementia syndrome.",
+      "evidence": "10% to 30% of individuals clinically diagnosed as AD dementia do not display AD neuropathologic changes at autopsy, and 30-40% of cognitively unimpaired elderly persons have AD neuropathologic changes.",
+      "strength": "strong",
+      "location": "Section 4"
+    },
+    {
+      "claim": "Biomarkers of neurodegeneration (N) are not specific for AD and must be classified distinctly from amyloid and tau biomarkers.",
+      "evidence": "CSF T-tau increases markedly without P-tau changes in traumatic brain injury, stroke, and Creutzfeldt-Jakob disease (10-20 times higher than AD), indicating it measures general neuronal damage rather than specific AD pathology.",
+      "strength": "strong",
+      "location": "Section 9.3"
+    },
+    {
+      "claim": "A combination of abnormal amyloid and neurodegeneration biomarkers strongly predicts future cognitive decline.",
+      "evidence": "Cognitively impaired and unimpaired individuals with abnormalities in both an amyloid biomarker and a second biomarker (T-tau, P-tau, atrophy, or hypometabolism) show significantly faster cognitive decline compared to those with one or neither.",
+      "strength": "strong",
+      "location": "Section 8"
+    }
+  ],
+  "methods": {
+    "design": "Consensus research framework / Guideline review",
+    "n": null,
+    "population": null,
+    "duration": null,
+    "registration": null
+  },
+  "funding_and_conflicts": "none stated in text; referred to online supplement",
+  "limitations": [
+    "Biomarkers are expensive and invasive, limiting their feasibility in large, diverse, and population-based cohorts.",
+    "Biomarkers lack the absolute sensitivity of an autopsy; a negative PET scan does not equate to a complete absence of pathology.",
+    "Neurodegeneration (N) biomarkers are non-specific and may reflect comorbid conditions common in elderly populations."
+  ],
+  "red_flags": [
+    "The framework's heavy reliance on expensive PET and CSF biomarkers to define AD for interventional research may systematically exclude populations where these technologies are less accessible."
+  ],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "Loss of subscript/superscript formatting for molecular markers (e.g., Aβ 42, P-tau181)",
+      "Empty parentheses (e.g., '()') scattered in text due to stripped figure or citation references during conversion"
+    ]
+  },
+  "search_verification": [
+    "Verified DOI 10.1016/j.jalz.2018.02.018 and PMID 29653606 to confirm the 2018 publication date and venue specifics."
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "fact_check": [
+    {
+      "fact": "FDA mandates a randomized clinical trial featuring ApoE ε4 homozygotes",
+      "status": "corrected",
+      "note": "While true, the clinical trials researcher flagged a discrepancy about the lack of a standalone trial. The FDA document explicitly resolves this: they 'would accept information on this risk from a randomized, clinical trial... (i.e., AHEAD 3-45 Study)' (letter, page 4). Eisai is leveraging an existing trial rather than starting a new one."
+    },
+    {
+      "fact": "Eisai must conduct a prospective observational registry study",
+      "status": "verified",
+      "note": "Verified against letter page 2, which explicitly suggests using the Alzheimer’s Network for Treatment and Diagnostics (ALZ-NET) registry to fulfill PMR 4497-1."
+    },
+    {
+      "fact": "Leqembi increases the risk of intracerebral hemorrhage >1 cm",
+      "status": "verified",
+      "note": "Verified against letter page 1; the FDA specifically defines the 'new safety information' as intracerebral hemorrhage greater than 1 cm in patients with risk factors."
+    }
+  ],
+  "research_page": {
+    "slug": "fda-leqembi-traditional-approval-pmr-2023",
+    "title": "FDA Traditional Approval and Postmarketing Requirements for Leqembi",
+    "description": "The FDA grants traditional approval to lecanemab while mandating extensive postmarketing studies to monitor severe ARIA and intracerebral hemorrhage risks.",
+    "tags": [
+      "regulatory",
+      "fda-approval",
+      "lecanemab",
+      "aria-risk",
+      "postmarketing"
+    ],
+    "source_line_md": "**Source**: [U.S. Food and Drug Administration, 2023](https://www.fda.gov/)",
+    "authors_line_md": "Yasuda & Buracchio — Center for Drug Evaluation and Research, U.S. Food and Drug Administration",
+    "takeaway_md": "The FDA converted Leqembi to traditional approval based on Study 301 (Clarity AD) showing clinical benefit (letter, page 1). However, due to new safety data showing elevated risks of severe ARIA and intracerebral hemorrhages (>1 cm), the agency mandated strict postmarketing registries and trials to monitor high-risk populations like ApoE ε4 homozygotes (letter, pages 1-4).",
+    "key_findings_md": [
+      "Study 301 verified the clinical benefit of lecanemab, fulfilling the initial Accelerated Approval requirement (letter, page 3).",
+      "Postmarketing Requirement (PMR) 4497-1 mandates a prospective registry (such as ALZ-NET) to track ARIA and hemorrhages in real-world settings (letter, page 2).",
+      "PMR 4497-3 requires a clinical trial to evaluate safety in ApoE ε4 homozygotes, for which the FDA explicitly accepted data from the ongoing [AHEAD 3-45](/trials/ahead-3-45) study (letter, page 4).",
+      "Postmarketing Commitment (PMC) 4497-4 requires analytical validation of an *in vitro* diagnostic device to detect ApoE ε4 alleles before July 2025 (letter, page 5)."
+    ],
+    "methods_md": "Regulatory approval and general advice letters outlining postmarketing requirements (PMRs) and commitments (PMCs) scheduled through 2036. The FDA reviewed Phase 3 clinical trial data to verify clinical benefit and assess new safety signals regarding ARIA.",
+    "trial_evidence_md": "The FDA's conversion to traditional approval rests on the Phase 3 [Clarity AD (Study 301)](/trials/clarity-ad-nct03887455) trial, which demonstrated a 27% slowing of clinical decline over 18 months ([NEJM](https://doi.org/10.1056/NEJMoa2212948)). To fulfill the mandated safety studies for ApoE ε4 homozygotes, the FDA accepted the use of the [AHEAD 3-45](/trials/ahead-3-45) trial. The observational registry requirement points toward umbrella efforts like ALZ-NET.",
+    "sentiment_md": "Public and community sentiment is highly mixed. While initially celebrated, the reality of strict monitoring, high out-of-pocket costs, and the risk of severe ARIA has dampened enthusiasm among patients and caregivers ([Reddit](https://www.reddit.com/r/Alzheimers/comments/1cr0vc2/leqembilecanemab/)). The scientific community is intensely focused on risk management ([Alzforum](https://www.alzforum.org/news/conference-coverage/two-new-deaths-leqembi-highlight-need-better-manage-aria)), while retail investors have expressed frustration over the drug's slower-than-expected commercial rollout due to these logistical bottlenecks.",
+    "caveats_md": [
+      "The mandate to track rare but severe events like hemorrhages >1 cm and anaphylaxis through 2036 indicates that lecanemab's real-world safety profile is still being actively mapped outside of controlled trials.",
+      "ApoE ε4 homozygotes bear a disproportionately high risk of severe ARIA, complicating the risk-benefit calculation for a significant subset of patients and forcing clinics to navigate complex screening logistics."
+    ],
+    "relates_to_md": [
+      "[AHEAD 3-45](/trials/ahead-3-45) — The FDA explicitly accepted this trial to fulfill the PMR for studying ApoE ε4 homozygote safety.",
+      "[Biomarkers](/research/biomarkers) — The FDA required the development and validation of an IVD device for ApoE ε4 genotyping to identify high-risk patients before treatment."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "clarity-ad-nct03887455",
+      "title": "Clarity AD (Study BAN2401-G000-301)",
+      "description": "Phase 3 trial evaluating the efficacy and safety of lecanemab in early Alzheimer's disease.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "phase-3",
+        "lecanemab",
+        "amyloid"
+      ],
+      "registry_md": "[NCT03887455](https://clinicaltrials.gov/study/NCT03887455)",
+      "drug": "lecanemab (anti-Aβ protofibril antibody)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "population": "Early Alzheimer's Disease",
+      "primary_endpoint": "Change from Baseline in the CDR-SB at 18 Months",
+      "started": "2019-03",
+      "readout": "2029-06",
+      "why_md": "This pivotal Phase 3 trial was designed to confirm the clinical benefit of lecanemab, serving as the basis for its conversion from accelerated to traditional FDA approval. It also quantified the associated risks of ARIA.",
+      "status_log_md": [
+        "**2023-01-05** — Phase 3 results published in the New England Journal of Medicine, detailing efficacy and safety outcomes.",
+        "**2023-07-06** — Trial data serves as the basis for FDA granting traditional approval to Leqembi."
+      ],
+      "results_md": "Lecanemab slowed clinical decline on the CDR-SB by 27% at 18 months compared to placebo and significantly reduced amyloid burden. However, it increased the risk of amyloid-related imaging abnormalities (ARIA), especially in ApoE ε4 carriers."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2023-01",
+      "title": "2023-01 — Clarity AD (lecanemab) Phase 3 results published",
+      "body_md": "The pivotal Phase 3 trial demonstrated a 27% slowing of clinical decline, confirming lecanemab's efficacy and ultimately leading to full FDA approval, while highlighting severe ARIA risks in ApoE4 carriers. Supported by [Clarity AD](/trials/clarity-ad-nct03887455)."
+    }
+  ],
+  "notes_for_editor": []
+}

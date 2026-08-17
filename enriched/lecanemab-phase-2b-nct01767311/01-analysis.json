@@ -1,0 +1,76 @@
+{
+  "kind": "other",
+  "title": "A Study to Evaluate Safety, Tolerability, and Efficacy of Lecanemab in Subjects With Early Alzheimer's Disease",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2026-03",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "immunotherapy",
+    "biomarkers",
+    "lecanemab",
+    "ban2401",
+    "aria"
+  ],
+  "themes": [
+    "Lecanemab dose-finding",
+    "Amyloid PET reduction",
+    "Clinical decline (ADCOMS, CDR-SB)",
+    "Bayesian adaptive randomization",
+    "ARIA safety profile"
+  ],
+  "one_line": "A Phase 2 registry record detailing the dose-finding, efficacy, and safety of the anti-amyloid antibody lecanemab in 856 participants with early Alzheimer's disease.",
+  "summary": "This document represents a ClinicalTrials.gov registry record for a Phase 2 trial of lecanemab (BAN2401) in early Alzheimer's disease (NCT01767311). The trial enrolled 856 participants with mild cognitive impairment or mild Alzheimer's disease dementia and confirmed amyloid pathology. Participants were assigned via Bayesian adaptive randomization to placebo or one of five lecanemab dosing regimens for an 18-month core phase, followed by an open-label extension phase up to 60 months. The primary outcome was the change from baseline in the Alzheimer's Disease Composite Score (ADCOMS) at 12 months, which yielded a posterior probability of 63.8% for the highest dose. Secondary outcomes demonstrated dose-dependent reductions in brain amyloid load via PET, alongside changes in CDR-SB, ADAS-Cog, and CSF biomarkers. Safety data highlight the incidence of treatment-emergent adverse events, including infusion-related reactions and amyloid-related imaging abnormalities (ARIA).",
+  "key_claims": [
+    {
+      "claim": "Lecanemab 10 mg/kg biweekly substantially reduces brain amyloid burden compared to placebo.",
+      "evidence": "At month 18, Amyloid PET changed by -72.495 Centiloids in the 10 mg/kg biweekly group compared to +1.004 in the placebo group.",
+      "strength": "strong",
+      "location": "SECONDARY: Core Study Phase: Change From Baseline at Months 12 and 18 in Brain Amyloid Pathophysiology as Measured by Amyloid Positron Emission Tomography (PET)"
+    },
+    {
+      "claim": "Lecanemab 10 mg/kg biweekly reduces clinical decline on the ADCOMS scale at 12 months.",
+      "evidence": "ADCOMS change value of 0.077 vs 0.113 for placebo; however, the Bayesian posterior probability was reported as 63.8.",
+      "strength": "weak",
+      "location": "PRIMARY: Core Study Phase: Change From Baseline in Alzheimer's Disease Composite Score (ADCOMS) at Month 12"
+    },
+    {
+      "claim": "High-dose lecanemab treatment causes amyloid-related imaging abnormalities (ARIA) and infusion reactions.",
+      "evidence": "In the open-label extension, 30/180 participants experienced ARIA-microhemorrhages and 15/180 had ARIA-edema; in the core phase, 59/253 in the 10 mg/kg monthly group and 31/161 in the 10 mg/kg biweekly group experienced infusion related reactions.",
+      "strength": "strong",
+      "location": "Adverse events"
+    }
+  ],
+  "methods": {
+    "design": "Placebo-Controlled, Double-Blind, Parallel-Group, Bayesian Adaptive Randomization with Open-Label Extension",
+    "n": 856,
+    "population": "Subjects aged 50-90 with mild cognitive impairment due to Alzheimer's disease or mild Alzheimer's disease dementia and positive amyloid load",
+    "duration": "18 months (Core Phase) and up to 60 months (Extension Phase)",
+    "registration": "NCT01767311"
+  },
+  "funding_and_conflicts": "Lead sponsor: Eisai Inc. Collaborators: Biogen. No individual author conflicts stated.",
+  "limitations": [
+    "The primary clinical efficacy endpoint (ADCOMS at Month 12) achieved a posterior probability of only 63.8%, which falls short of typical statistical thresholds for definitive efficacy.",
+    "This is a registry export, meaning detailed statistical significance testing (p-values) and contextual interpretations typically found in a peer-reviewed publication are absent."
+  ],
+  "red_flags": [
+    "The inclusion/exclusion criteria for the Extension Phase specifically mention discontinuing subjects 'who were APOE4 positive and receiving treatment with lecanemab 10 mg/kg biweekly', indicating a mid-study safety signal or protocol amendment that unequally truncated treatment for the highest dose group based on genotype."
+  ],
+  "parse_quality": {
+    "score": 10,
+    "issues": []
+  },
+  "search_verification": []
+}

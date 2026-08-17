@@ -1,0 +1,73 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT07717567",
+      "registry_url": "https://clinicaltrials.gov/study/NCT07717567",
+      "name": "BLAD",
+      "drug": "Plasma biomarker measurement (Lumipulse G)",
+      "phase": "n/a",
+      "sponsor": "IRCCS San Raffaele",
+      "status": "Recruiting",
+      "enrollment": 2000,
+      "population": "Adults ≥40 years with subjective or objective cognitive complaints of suspected neurodegenerative origin",
+      "primary_endpoint": "Time to clinical progression to all-cause dementia in patients with Mild Cognitive Impairment (MCI)",
+      "started": "2023-09",
+      "completed_or_readout": "2032-06",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT06120361",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06120361",
+      "name": "The Swedish BioFINDER - Primary Care Study",
+      "drug": "Plasma AD biomarkers (p-tau217, Ab42/Ab40, APS 2)",
+      "phase": "n/a",
+      "sponsor": "Skane University Hospital",
+      "status": "Recruiting",
+      "enrollment": 1200,
+      "population": "Patients in primary care seeking medical care due to mild cognitive symptoms",
+      "primary_endpoint": "Presence of brain AD pathology as determined by CSF AD biomarkers (cross-sectional)",
+      "started": "2020-01",
+      "completed_or_readout": "2028-12",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03174938",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03174938",
+      "name": "The Swedish BioFINDER 2 Study",
+      "drug": "CSF and Plasma AD biomarkers (Lumipulse, Elecsys, etc.)",
+      "phase": "n/a",
+      "sponsor": "Skane University Hospital",
+      "status": "Recruiting",
+      "enrollment": 2950,
+      "population": "Patients with dementia and/or parkinsonian symptoms and healthy individuals",
+      "primary_endpoint": "Rates of change on cerebrospinal fluid AD biomarkers",
+      "started": "2017-05",
+      "completed_or_readout": "2036-12",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2026-07",
+      "kind": "paper",
+      "description": "Multicenter validation study evaluating the diagnostic performance of the Lumipulse Plasma Ratio against CSF/PET references",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42418465"
+    },
+    {
+      "date": "2026-02",
+      "kind": "regulatory",
+      "description": "FDA Class 2 Device Recall for Lumipulse G pTau217/BAmyloid 142 Plasma Ratio due to false positive and indeterminate results",
+      "url": null
+    }
+  ],
+  "evidence_assessment": "The clinical evidence initially supporting the Lumipulse G pTau217/Aβ1-42 plasma ratio is robust, with large multicenter validations (e.g., BioFINDER cohorts) demonstrating high sensitivity (>97%) and specificity (>90%) for detecting amyloid pathology compared to CSF/PET gold standards. This strong performance in controlled settings supported the test's clinical utility as an accessible blood-based biomarker for Alzheimer's disease. However, real-world post-market application resulted in a Class 2 FDA recall in early 2026 due to an unexpectedly high frequency of false-positive and indeterminate results. This suggests that while the underlying plasma biomarker hypothesis remains well-validated, the specific Lumipulse assay formulation or its broader real-world implementation exhibited critical reliability issues not fully captured during clinical trials.",
+  "discrepancies": [
+    "The peer-reviewed multicenter validation literature (e.g., PMID 42418465) reports high diagnostic accuracy (90.8% specificity, 97.3% NPV) and presents the assay as a reliable alternative to CSF/PET imaging. In contrast, the FDA recall document highlights a significant real-world defect causing falsely elevated positive and indeterminate results with low specificity, directly contradicting the pristine trial performance."
+  ]
+}

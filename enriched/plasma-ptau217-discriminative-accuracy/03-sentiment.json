@@ -1,0 +1,78 @@
+{
+  "overall": "enthusiastic",
+  "summary": "Public sentiment surrounding the P-tau217 blood test is overwhelmingly enthusiastic and hopeful. The media and scientific communities widely celebrate the test as a revolutionary breakthrough that is just as accurate as invasive lumbar punctures or expensive PET scans. Patients and their caregivers are highly optimistic about gaining early diagnostic clarity, frequently discussing its newfound commercial availability at labs like Quest and LabCorp. However, this hope is tempered by practical questions regarding insurance coverage and out-of-pocket costs. There is also an ongoing conversation in patient forums about the heavy emotional weight of discovering Alzheimer's pathology decades before symptom onset.",
+  "communities": [
+    {
+      "community": "Science & Medical Media",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Revolutionary alternative to PET scans and lumbar punctures",
+        "Highly accurate early detection biomarker",
+        "Potential as a clinical trial endpoint"
+      ],
+      "example_urls": [
+        "https://neurosciencenews.com/p-tau217-blood-test-alzheimers-31056/"
+      ]
+    },
+    {
+      "community": "Patients and Caregivers (r/Alzheimers, r/dementia)",
+      "sentiment": "hopeful",
+      "themes": [
+        "Eagerness for early diagnostic clarity",
+        "Logistics of commercial availability (Quest/LabCorp) and insurance coverage",
+        "The emotional burden of early prediction"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/comments/ixv42w/alzheimers_blood_test/",
+        "https://www.reddit.com/r/Alzheimers/comments/172p1iz/quest_blood_test/"
+      ]
+    },
+    {
+      "community": "Scientists and Clinicians (Alzforum)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Validating accuracy across diverse cohorts",
+        "Predicting cognitive decline and amyloid status",
+        "Clinical utility and assay thresholds"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/conference-coverage/can-p-tau217-predict-alzheimers-symptoms-healthy-people",
+        "https://www.alzforum.org/news/research-news/plasma-p-tau217-flags-alzheimers-pathology-other-disorders"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "ScienceDaily",
+      "tone": "positive",
+      "date": "2026-02",
+      "url": "https://www.sciencedaily.com/releases/2026/02/260222085203.htm"
+    },
+    {
+      "outlet": "NIH Research Matters",
+      "tone": "positive",
+      "date": null,
+      "url": "https://www.nih.gov/news-events/nih-research-matters/blood-test-predicts-start-alzheimers-disease-symptoms"
+    },
+    {
+      "outlet": "HelpDementia",
+      "tone": "neutral",
+      "date": "2026-01",
+      "url": "https://helpdementia.com/p-tau217-alzheimers-blood-tests-what-patients-should-know-in-2026/"
+    }
+  ],
+  "hype_vs_evidence": "Public perception correctly aligns with the scientific consensus that P-tau217 is an exceptionally accurate diagnostic biomarker. However, hype significantly diverges from evidence regarding its use as a precise 'prediction clock' for the general public. While consumer headlines often claim the test can tell anyone exactly when their symptoms will begin (e.g., 'predicts symptom onset within roughly 11 years'), the 20-year prediction timeline in the Palmqvist paper was modeled specifically on a familial Alzheimer's cohort (PSEN1 mutation carriers) who have highly predictable onset ages. For the broader population with sporadic Alzheimer's, predicting the exact timeline to symptom onset is less deterministic.",
+  "misinformation_flags": [
+    "The P-tau217 blood test acts as a definitive standalone 'clock' that can predict the exact year an individual with sporadic Alzheimer's will develop clinical symptoms.",
+    "A positive P-tau217 blood test alone is sufficient for a clinical diagnosis, replacing the need for cognitive assessments or physician evaluations."
+  ],
+  "searches_run": [
+    "site:reddit.com p-tau217",
+    "p-tau217 alzforum",
+    "p-tau217 blood test alzheimer news",
+    "p-tau217 alzheimer caregiver",
+    "site:reddit.com/r/dementia p-tau217",
+    "site:reddit.com/r/Alzheimers blood test",
+    "p-tau217 commercial availability price"
+  ]
+}

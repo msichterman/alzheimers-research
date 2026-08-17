@@ -1,0 +1,9 @@
+{
+  "id": "fda-lumipulse-510k-decision",
+  "source": "sources/fda-lumipulse-510k-decision.html",
+  "sha256": "1140ab15e07049ee50a4dd42da15cf7519e228c857a5ccd44f02593ed06b25b6",
+  "bytes": 40174,
+  "chars": 2517,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:10.816Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "lancet-commission-2024",
+  "cluster": "prevention",
+  "checked_at": "2026-08-13T17:02:33.026Z",
+  "passed": false,
+  "text_sufficiency": {
+    "level": "abstract-only",
+    "chars": 4133,
+    "sections": []
+  },
+  "evidence_completeness": "accepted-manuscript",
+  "failures": [
+    {
+      "gate": "identity",
+      "detail": "regulatory-url https://www.thelancet.com/action/showPdf?pii=S0140-6736(24)01296-0 did not resolve live"
+    },
+    {
+      "gate": "file",
+      "detail": "extracted text is abstract-only (4133 chars, sections: none) — not sufficient for an evidence record"
+    },
+    {
+      "gate": "evidence",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing)"
+    },
+    {
+      "gate": "fidelity",
+      "detail": "no independent critic pass (enriched/<id>/07-fidelity.json missing)"
+    },
+    {
+      "gate": "critical-review",
+      "detail": "no record to review"
+    }
+  ],
+  "warnings": [],
+  "manifest_discrepancies": []
+}

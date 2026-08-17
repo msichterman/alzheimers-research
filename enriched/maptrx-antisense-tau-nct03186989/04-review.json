@@ -1,0 +1,113 @@
+{
+  "fact_check": [
+    {
+      "fact": "The Phase 1b trial (NCT03186989) enrolled 46 participants with mild Alzheimer's disease.",
+      "status": "verified",
+      "note": "Checked against source document ('Enrollment: 46 (ACTUAL)' and Eligibility criteria)."
+    },
+    {
+      "fact": "The Phase 1b primary completion date was May 2022.",
+      "status": "verified",
+      "note": "Checked against source document ('Primary completion: 2022-05-12')."
+    },
+    {
+      "fact": "Phase 2 CELIA trial completed its primary study period around March 2026 and missed its primary clinical endpoint.",
+      "status": "verified",
+      "note": "Checked against clinical-trials researcher output (NCT05399888 completion date: 2026-03) and sentiment researcher output (May 2026 media coverage of missed primary endpoint)."
+    }
+  ],
+  "research_page": {
+    "slug": "maptrx-antisense-tau",
+    "title": "IONIS-MAPTRx Phase 1b registry results",
+    "description": "ClinicalTrials.gov registry results for the Phase 1b multiple ascending dose study of the tau-targeting antisense oligonucleotide IONIS-MAPTRx (diranersen).",
+    "tags": [
+      "paper",
+      "tau",
+      "antisense-oligo",
+      "phase-1"
+    ],
+    "source_line_md": "**Source**: [ClinicalTrials.gov, 2025](https://clinicaltrials.gov/study/NCT03186989)",
+    "authors_line_md": "Ionis Pharmaceuticals, Inc.",
+    "takeaway_md": "This registry record provides the raw safety and pharmacokinetic data for IONIS-MAPTRx (diranersen) in mild Alzheimer's disease. The drug was generally well tolerated, with procedural pain and post-lumbar puncture syndrome as the most common adverse events, establishing the foundation for further clinical testing.",
+    "key_findings_md": [
+      "Maximum observed drug concentrations (Cmax) and other pharmacokinetic measures demonstrated a dose-dependent profile across the 10 mg to 115 mg cohorts (source document).",
+      "Adverse events were predominantly mild to moderate and frequently related to the lumbar puncture administration procedure (source document)."
+    ],
+    "methods_md": "This Phase 1 interventional study (NCT03186989) enrolled 46 participants aged 50-74 with mild Alzheimer's disease. It featured a randomized, double-blind, placebo-controlled multiple ascending dose period (Part 1) followed by an open-label extension (Part 2), administering doses from 10 mg to 115 mg intrathecally over 37 to 64 weeks.",
+    "trial_evidence_md": "This document contains the raw registry data for the Phase 1b [IONIS-MAPTRx trial](/trials/maptrx-nct03186989). While this record lacks statistical conclusions, peer-reviewed analyses of this cohort were published in *Nature Medicine* (2023). The program subsequently advanced to the Phase 2 [CELIA trial](/trials/celia-nct05399888), which missed its primary clinical endpoint in early 2026 despite showing robust tau reduction.",
+    "sentiment_md": "Public perception of diranersen (BIIB080) is mixed. Patient communities historically viewed it as a major hope for validating the tau hypothesis. However, after the Phase 2 CELIA trial missed its primary clinical endpoint in 2026, retail investors and biotech observers became increasingly cautious, balancing the drug's success in lowering biomarker levels against its clinical shortfall and the burden of regular spinal injections.",
+    "caveats_md": [
+      "This document is a raw clinical trial registry record, lacking statistical analyses or peer-reviewed narrative conclusions.",
+      "Cohort sizes were very small (4 to 13 participants per group), which limits broad generalizability of the specific adverse event rates."
+    ],
+    "relates_to_md": [
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Diranersen tests a parallel approach by targeting tau pathology instead of amyloid-beta.",
+      "[Biomarkers](/research/biomarkers) — The trial measured CSF drug concentrations to establish the foundational pharmacodynamics for tau engagement."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "maptrx-nct03186989",
+      "title": "IONIS-MAPTRx Phase 1b",
+      "description": "Phase 1 multiple ascending dose study of the tau-targeting antisense oligonucleotide diranersen in mild Alzheimer's disease.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "tau",
+        "phase-1",
+        "antisense-oligo"
+      ],
+      "registry_md": "[NCT03186989](https://clinicaltrials.gov/study/NCT03186989)",
+      "drug": "IONIS-MAPTRx / BIIB080 / Diranersen (tau-targeting antisense oligonucleotide)",
+      "phase": "Phase 1",
+      "sponsor": "Ionis Pharmaceuticals, Inc.",
+      "population": "Males or females aged 50-74 years diagnosed with mild Alzheimer's disease",
+      "primary_endpoint": "Number of Participants With Adverse Events That Are Related to Treatment",
+      "started": "2017-10",
+      "readout": "2022-05",
+      "why_md": "This foundational trial tested whether an antisense oligonucleotide designed to reduce tau could be safely administered intrathecally to humans. It established the safety and pharmacokinetic profile needed to advance the drug into larger clinical efficacy studies.",
+      "status_log_md": [
+        "**2017-10-12** — Trial started.",
+        "**2022-05-12** — Trial reached its primary completion date."
+      ],
+      "results_md": "The drug was well tolerated across multiple ascending doses, with most adverse events being mild or moderate and related to the lumbar puncture procedure. It successfully demonstrated dose-dependent, sustained reductions in CSF total tau and phosphorylated tau in subsequent publications."
+    },
+    {
+      "slug": "celia-nct05399888",
+      "title": "CELIA (BIIB080 Phase 2)",
+      "description": "Phase 2 trial evaluating the clinical efficacy and optimal dosing of diranersen in mild cognitive impairment or mild Alzheimer's disease.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "tau",
+        "phase-2",
+        "antisense-oligo"
+      ],
+      "registry_md": "[NCT05399888](https://clinicaltrials.gov/study/NCT05399888)",
+      "drug": "Diranersen / BIIB080 (tau-targeting antisense oligonucleotide)",
+      "phase": "Phase 2",
+      "sponsor": "Biogen",
+      "population": "Participants with mild cognitive impairment due to Alzheimer's disease or mild AD dementia",
+      "primary_endpoint": "Dose response in Change From Baseline to Week 76 on the CDR-SB",
+      "started": "2022-08",
+      "readout": "2026-03",
+      "why_md": "Following successful target engagement in Phase 1, the CELIA trial was designed to determine if lowering tau with diranersen translates into a measurable cognitive benefit for patients with early-stage Alzheimer's.",
+      "status_log_md": [
+        "**2022-08** — Trial started.",
+        "**2026-05** — Topline results reported, indicating the trial missed its primary clinical endpoint despite successfully reducing tau pathology."
+      ],
+      "results_md": "Public reports from mid-2026 indicate that while the drug achieved robust reductions in brain tau pathology, it failed to meet its primary clinical endpoint of slowing cognitive decline."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Tau-targeting therapies",
+      "date": "2026-05",
+      "title": "2026-05 — BIIB080 (diranersen) Phase 2 misses primary endpoint",
+      "body_md": "Topline results from the Phase 2 CELIA trial showed that the tau-targeting antisense oligonucleotide diranersen failed to meet its primary clinical endpoint despite robustly reducing tau, sparking debate about the clinical viability of the tau hypothesis. See the [Phase 1b registry record](/research/papers/maptrx-antisense-tau) for background."
+    }
+  ],
+  "notes_for_editor": [
+    "The provided source document is exclusively the raw ClinicalTrials.gov data (NCT03186989), not the peer-reviewed Nature Medicine 2023 publication as loosely conflated in the analyst outputs. I have framed the page to explicitly reflect that it is the registry record while linking to the broader program's context."
+  ]
+}

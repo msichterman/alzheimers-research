@@ -1,0 +1,9 @@
+{
+  "id": "fda-kisunla-risk-review",
+  "source": "sources/fda-kisunla-risk-review.pdf",
+  "sha256": "b5583995c8c6e8ac46fa640dc97f94bf870db2cc7e50477d4e5ab3a8906122b4",
+  "bytes": 582595,
+  "chars": 58609,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:08.751Z"
+}

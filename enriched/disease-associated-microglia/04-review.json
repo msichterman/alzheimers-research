@@ -1,0 +1,94 @@
+{
+  "fact_check": [
+    {
+      "fact": "The source document has 14 authors, despite the header only listing 10.",
+      "status": "verified",
+      "note": "Checked the citation block in the source document, which lists 14 authors (Keren-Shaul H. through Amit I.)."
+    },
+    {
+      "fact": "AL002 Phase 2 INVOKE-2 trial failed its primary endpoint.",
+      "status": "verified",
+      "note": "Cross-checked the clinical researcher's output against registry data (NCT04592874); the trial failed to improve CDR-SB and induced ARIA."
+    },
+    {
+      "fact": "DAM activation is a two-step process requiring TREM2.",
+      "status": "verified",
+      "note": "Confirmed against the source abstract, which states initial activation is Trem2-independent while the second step requires Trem2."
+    }
+  ],
+  "research_page": {
+    "slug": "disease-associated-microglia-cell-2017",
+    "title": "Disease-Associated Microglia (DAM) and TREM2 in AD (Cell, 2017)",
+    "description": "Single-cell RNA sequencing reveals a unique, TREM2-dependent microglia state (DAM) that colocalizes with Aβ plaques.",
+    "tags": [
+      "paper",
+      "microglia",
+      "trem2",
+      "preclinical",
+      "genetics"
+    ],
+    "source_line_md": "**Source**: [Cell, 2017](https://doi.org/10.1016/j.cell.2017.05.018) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/28602351/)",
+    "authors_line_md": "Keren-Shaul et al.",
+    "takeaway_md": "This foundational preclinical study identified \"Disease-Associated Microglia\" (DAM), a specialized cellular state that clusters around amyloid plaques and phagocytoses them. It demonstrated that transitioning to this protective state requires the TREM2 receptor, a finding that sparked massive biopharma investment in TREM2-activating drugs.",
+    "key_findings_md": [
+      "Researchers identified a novel subset of microglia, termed DAM, by mapping immune populations in wild-type and Alzheimer's transgenic mouse brains.",
+      "DAMs colocalize with amyloid plaques and contain intracellular Aβ particles, suggesting a phagocytic role.",
+      "The activation of the DAM program is a two-step process: an initial Trem2-independent downregulation of microglial checkpoints, followed by Trem2-dependent full activation."
+    ],
+    "methods_md": "Single-cell RNA sequencing and immunohistochemical analysis of wild-type mice, Alzheimer's transgenic (Tg-AD) mice, Trem2-knockout (Trem2−/−) Tg-AD mice, and human brain slices.",
+    "trial_evidence_md": "While this paper positioned TREM2-dependent DAMs as a highly promising therapeutic target to restrict neurodegeneration, clinical translation has proven difficult. The first major test of this hypothesis in humans, the TREM2 agonistic antibody [AL002](/trials/al002-invoke-2-nct04592874), failed to slow cognitive decline in a Phase 2 trial and increased amyloid-related imaging abnormalities (ARIA).",
+    "sentiment_md": "Perception of this hypothesis is sharply divided. The scientific and investment communities (e.g., driving Sanofi's acquisition of Vigil Neuroscience) enthusiastically embraced TREM2 agonists as a potential paradigm shift. However, commercial discourse frequently oversimplifies DAMs as universally protective, overlooking emerging scientific nuance that these microglia can become senescent or harmful over time.",
+    "caveats_md": [
+      "The mechanistic description of the two-step DAM activation relies almost exclusively on transgenic mouse models, which may not accurately reflect human Alzheimer's pathophysiology.",
+      "Subsequent clinical failures of TREM2 agonists strongly suggest that pharmacologically forcing this microglial state in humans does not safely or effectively restrict neurodegeneration."
+    ],
+    "relates_to_md": [
+      "[AL002 Phase 2 (INVOKE-2)](/trials/al002-invoke-2-nct04592874) — The leading clinical test of the TREM2 agonist hypothesis, which failed.",
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — DAMs act primarily by phagocytosing amyloid-beta plaques."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "al002-invoke-2-nct04592874",
+      "title": "INVOKE-2: AL002 Phase 2 in Early AD",
+      "description": "Phase 2 trial evaluating the TREM2 agonistic antibody AL002 in early Alzheimer's disease.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "trem2",
+        "al002",
+        "microglia",
+        "antibodies"
+      ],
+      "registry_md": "[NCT04592874](https://clinicaltrials.gov/study/NCT04592874)",
+      "drug": "AL002 (TREM2 agonistic antibody)",
+      "phase": "2",
+      "sponsor": "Alector Inc.",
+      "population": "Early Alzheimer's Disease",
+      "primary_endpoint": "Disease progression measured by CDR-SB",
+      "started": "2021-01",
+      "readout": "2024-08",
+      "why_md": "This trial was the first major clinical test of the hypothesis that pharmacological TREM2 activation can stimulate disease-associated microglia (DAM) to clear amyloid plaques and slow progression. Its failure raises significant questions about the viability of targeting TREM2 in human patients.",
+      "status_log_md": [
+        "**2021-01** — Trial begins enrollment.",
+        "**2024-08** — Trial reads out, missing its primary clinical endpoint."
+      ],
+      "results_md": "The trial failed to meet its primary and secondary endpoints; AL002 did not significantly change the CDR-SB score versus placebo. Additionally, the drug induced amyloid-related imaging abnormalities (ARIA), leading to the termination of its open-label extension."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Foundations",
+      "date": "2017-06",
+      "title": "2017-06 — Discovery of Disease-Associated Microglia (DAM)",
+      "body_md": "Researchers map a novel, TREM2-dependent microglial state that clusters around amyloid plaques, sparking a wave of biotech investment into TREM2 agonists. Detailed in [Keren-Shaul et al.](/research/papers/disease-associated-microglia-cell-2017)."
+    },
+    {
+      "section": "Disease-modifying era",
+      "date": "2024-08",
+      "title": "2024-08 — First TREM2 agonist fails in Phase 2",
+      "body_md": "The leading TREM2-activating antibody, [AL002](/trials/al002-invoke-2-nct04592874), fails to slow cognitive decline and induces ARIA in the INVOKE-2 trial, casting doubt on the microglial activation hypothesis."
+    }
+  ],
+  "notes_for_editor": []
+}

@@ -1,0 +1,34 @@
+{
+  "id": "petersen-2026-ptau217-onset",
+  "cluster": "biomarkers",
+  "checked_at": "2026-08-13T17:02:33.009Z",
+  "passed": false,
+  "text_sufficiency": {
+    "level": "full-text",
+    "chars": 69996,
+    "sections": [
+      "method",
+      "result",
+      "discussion",
+      "statistical analysis",
+      "participants"
+    ]
+  },
+  "evidence_completeness": "full-text-oa",
+  "failures": [
+    {
+      "gate": "evidence",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing)"
+    },
+    {
+      "gate": "fidelity",
+      "detail": "no independent critic pass (enriched/<id>/07-fidelity.json missing)"
+    },
+    {
+      "gate": "critical-review",
+      "detail": "no record to review"
+    }
+  ],
+  "warnings": [],
+  "manifest_discrepancies": []
+}

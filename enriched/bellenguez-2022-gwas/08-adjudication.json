@@ -1,0 +1,50 @@
+{
+  "id": "bellenguez-2022-gwas",
+  "adjudicated_at": "2026-08-13T17:01:00Z",
+  "rulings": [
+    {
+      "conflict_id": "bellenguez-2022-gwas#0",
+      "field": "study.n",
+      "verdict": "neither",
+      "correct_value": "111,326 clinically diagnosed/'proxy' AD cases and 677,663 controls in the two-stage GWAS (stage I: 39,106 clinically diagnosed AD cases, 46,828 proxy-ADD cases, 401,577 controls; stage II: 25,392 AD cases and 276,086 controls). 788,989 is only the arithmetic sum of cases plus controls and is never stated as a total in the document.",
+      "quote": "We performed a two-stage genome-wide association study totaling 111,326 clinically diagnosed/‘proxy’ AD cases and 677,663 controls.",
+      "reasoning": "The two readings count different things: 111,326 is the case (including proxy-case) total, while 788,989 is the unstated cases-plus-controls sum. Neither can stand as a bare 'study.n' without saying what it counts."
+    },
+    {
+      "conflict_id": "bellenguez-2022-gwas#1",
+      "field": "primary_endpoint_status.status",
+      "verdict": "a",
+      "correct_value": "not_applicable",
+      "quote": "Meta-analysis of genome-wide association studies on Alzheimer’s disease and related dementias identifies new loci and enables generation of a new genetic risk score associated with the risk of future Alzheimer’s disease and dementia.",
+      "reasoning": "This is an observational two-stage GWAS meta-analysis with no protocol-defined primary endpoint to meet or miss; nothing in the document declares an endpoint or reports it as 'met'."
+    },
+    {
+      "conflict_id": "bellenguez-2022-gwas#2",
+      "field": "multiplicity.approach",
+      "verdict": "both",
+      "correct_value": "Genome-wide significance threshold of P ≤ 5 × 10 −8 in the combined stage I and stage II meta-analysis, plus a requirement for nominal association (P ≤ 0.05) and concordant direction of effect in stage II; PLINK clumping and conditional analyses defined independent signals; q values were used for the pathway gene-set analyses",
+      "quote": "A signal was considered as significant on the genome-wide level if it (1) was nominally associated ( P ≤ 0.05) in stage II, (2) had the same direction of association in the stage I and II analyses and (3) was associated with the ADD risk with P ≤ 5 × 10 −8 in the stage I and stage II meta-analysis.",
+      "reasoning": "Both readings describe the same thing; reading B ('correction for multiple testing') is a generic restatement, while reading A's components are each stated in the document, including 'We used q values to account for multiple testing' for the pathway analyses and the PLINK clumping/conditional-analysis step."
+    },
+    {
+      "conflict_id": "bellenguez-2022-gwas#3",
+      "field": "outcomes[primary].effect_estimate",
+      "verdict": "b",
+      "correct_value": "75 risk loci (of which 42 were new at the time of analysis)",
+      "quote": "We found 75 risk loci, of which 42 were new at the time of analysis.",
+      "reasoning": "The document states the headline finding explicitly in the abstract, so the field is not empty; the locus count is the study's primary quantitative result."
+    },
+    {
+      "conflict_id": "bellenguez-2022-gwas#4",
+      "field": "outcomes[primary].confidence_interval",
+      "verdict": "neither",
+      "correct_value": null,
+      "quote": "| Variant a | Chromosome | Position b | Gene c | Known locus | Minor/major allele | MAF d | OR e | 95% CI | P value |",
+      "reasoning": "No interval is attached to the primary finding (a count of 75 loci). The only 95% CIs in the document belong to per-variant odds ratios in Tables 1 and 2 and to the GRS hazard ratios, not to the primary outcome. Both readings recorded nothing, which matches the document."
+    }
+  ],
+  "notes": [
+    "Conflict #4 is degenerate: both readings were null. Ruled 'neither' because the document reports no confidence interval for the primary outcome; the null value stands.",
+    "Sample-size reporting in this paper is layered (stage I clinically diagnosed cases, stage I proxy-ADD cases, stage I controls, stage II cases/controls, and the figure-level EADB stage I n = 487,511). Any downstream record should carry the label with the number."
+  ]
+}

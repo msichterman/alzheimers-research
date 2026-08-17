@@ -1,0 +1,381 @@
+{
+  "id": "verubecestat-apecs",
+  "checked_at": "2026-08-13T16:29:45.766Z",
+  "builder_model": "claude (builder subagent)",
+  "critic_model": "gemini-3.1-pro-preview",
+  "fields_compared": 29,
+  "disagreements": 4,
+  "conflicts": 3,
+  "coverage_gaps": 2,
+  "agreement_rate": 0.862,
+  "passed": false,
+  "needs_adjudication": true,
+  "disagreement_rows": [
+    {
+      "field": "study.population",
+      "builder": "Patients aged 50 to 85 years with prodromal Alzheimer's disease — memory impairment (subjective memory decline for at least 1 year corroborated by an informant, RBANS Delayed Memory Index score of 85 or less) and elevated brain amyloid on PET, with MMSE 24 to 30, who did not meet criteria for dementia",
+      "critic": "patients who had memory impairment and elevated brain amyloid levels but whose condition did not meet the case definition of dementia",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.intervention",
+      "builder": "Oral verubecestat (a BACE-1 inhibitor) at 12 mg per day or 40 mg per day, once daily, administered as identical-appearing tablets",
+      "critic": "oral verubecestat at a dose of 12 mg, oral verubecestat at a dose of 40 mg",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": null,
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change from week 13 to week 104 in the CDR-SB score].tier",
+      "builder": "secondary",
+      "critic": "primary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ],
+  "conflict_rows": [
+    {
+      "field": "study.population",
+      "builder": "Patients aged 50 to 85 years with prodromal Alzheimer's disease — memory impairment (subjective memory decline for at least 1 year corroborated by an informant, RBANS Delayed Memory Index score of 85 or less) and elevated brain amyloid on PET, with MMSE 24 to 30, who did not meet criteria for dementia",
+      "critic": "patients who had memory impairment and elevated brain amyloid levels but whose condition did not meet the case definition of dementia",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.intervention",
+      "builder": "Oral verubecestat (a BACE-1 inhibitor) at 12 mg per day or 40 mg per day, once daily, administered as identical-appearing tablets",
+      "critic": "oral verubecestat at a dose of 12 mg, oral verubecestat at a dose of 40 mg",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change from week 13 to week 104 in the CDR-SB score].tier",
+      "builder": "secondary",
+      "critic": "primary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ],
+  "builder_values_not_found_in_document": [],
+  "critic_values_not_found_in_document": [],
+  "all_rows": [
+    {
+      "field": "study.design",
+      "builder": "randomized, double-blind, placebo-controlled, parallel group, 104-week trial period (part 1), followed by an optional extension period (part 2); conducted at 238 centers in 22 countries from November 2013 through April 2018",
+      "critic": "randomized, double-blind, placebo-controlled, parallel group, 104-week trial period",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.n",
+      "builder": 1454,
+      "critic": 1454,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.population",
+      "builder": "Patients aged 50 to 85 years with prodromal Alzheimer's disease — memory impairment (subjective memory decline for at least 1 year corroborated by an informant, RBANS Delayed Memory Index score of 85 or less) and elevated brain amyloid on PET, with MMSE 24 to 30, who did not meet criteria for dementia",
+      "critic": "patients who had memory impairment and elevated brain amyloid levels but whose condition did not meet the case definition of dementia",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.comparator",
+      "builder": "Oral matching placebo, once daily (485 patients randomly assigned to receive matching placebo)",
+      "critic": "oral placebo",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.followup",
+      "builder": "104 weeks (part 1), with an optional extension period of up to 5 years (part 2); the trial was terminated early and no patients completed the extension phase",
+      "critic": "104-week",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.intervention",
+      "builder": "Oral verubecestat (a BACE-1 inhibitor) at 12 mg per day or 40 mg per day, once daily, administered as identical-appearing tablets",
+      "critic": "oral verubecestat at a dose of 12 mg, oral verubecestat at a dose of 40 mg",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.phase",
+      "builder": null,
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "primary_endpoint_status.status",
+      "builder": "not_met",
+      "critic": "not_met",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "multiplicity.approach",
+      "builder": "Bonferroni approach splitting the overall alpha between the two dose levels of verubecestat, in conjunction with a hierarchical sequential testing approach of outcomes; once superiority was not shown for the primary CDR-SB outcome, all subsequent outcomes were assumed not to have differed significantly and are reported as point estimates with 97.51% confidence intervals (95% for exploratory outcomes) not adjusted for multiple comparisons",
+      "critic": "Bonferroni approach (splitting the overall α between the two dose levels of verubecestat) in conjunction with a hierarchical sequential testing approach",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].name",
+      "builder": "Change from baseline to week 104 in the Clinical Dementia Rating Scale–Sum of Boxes score (CDR-SB)",
+      "critic": "change from baseline to week 104 in the Clinical Dementia Rating Scale–Sum of Boxes score",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].met",
+      "builder": "not_met",
+      "critic": "not_met",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "Model-based mean change from baseline to week 104: 1.65 in the 12-mg group, 2.02 in the 40-mg group, and 1.58 in the placebo group — the 40-mg group was worse than placebo",
+      "critic": "1.65 in the 12-mg group, 2.02 in the 40-mg group, and 1.58 in the placebo group",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": null,
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].p_value",
+      "builder": "P = 0.67 for the comparison between the 12-mg group and the placebo group and P = 0.01 for the comparison between the 40-mg group and the placebo group, favoring the placebo group",
+      "critic": "P=0.67 for the comparison between the 12-mg group and the placebo group and P=0.01 for the comparison between the 40-mg group and the placebo group",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].multiplicity_controlled",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[ARIA-E].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[ARIA-H].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[symptomatic ARIA].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[macrohemorrhage].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[death].reported",
+      "builder": "reported",
+      "critic": "reported",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[death].counts",
+      "builder": "placebo: three | verubecestat 12 mg per day: three | verubecestat 40 mg per day: one",
+      "critic": "placebo group: 3 | 12-mg group: 3 | 40-mg group: 1",
+      "agree": true,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.apoe_stratification_reported",
+      "builder": false,
+      "critic": false,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[Change from baseline to week 104 in the Clinical Dementia Rating Scale–Sum of Boxes score (CDR-SB)].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change from baseline to week 104 in the Clinical Dementia Rating Scale–Sum of Boxes score (CDR-SB)].tier",
+      "builder": "primary",
+      "critic": "primary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Progression to the diagnosis of dementia due to Alzheimer’s disease].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Progression to the diagnosis of dementia due to Alzheimer’s disease].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change from week 13 to week 104 in the CDR-SB score].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change from week 13 to week 104 in the CDR-SB score].tier",
+      "builder": "secondary",
+      "critic": "primary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ]
+}

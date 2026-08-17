@@ -1,0 +1,791 @@
+{
+  "id": "verubecestat-apecs",
+  "built_at": "2026-08-13T16:59:45.871Z",
+  "derived_from": {
+    "builder": "enriched/<id>/05-evidence.json",
+    "independent_critic": "enriched/<id>/06-critique.json",
+    "fidelity_diff": "enriched/<id>/07-fidelity.json",
+    "adjudication": "enriched/<id>/08-adjudication.json"
+  },
+  "conflicts_found": 5,
+  "conflicts_ruled": 5,
+  "conflicts_unresolved": 0,
+  "conflicts_needing_manual_apply": 1,
+  "adjudication_changelog": [
+    {
+      "field": "study.population",
+      "verdict": "both",
+      "resolved_value": "Patients aged 50 to 85 years with prodromal Alzheimer's disease — memory impairment (subjective memory decline for at least 1 year corroborated by an informant, RBANS Delayed Memory Index score of 85 or less) and elevated brain amyloid on PET, with MMSE 24 to 30, who did not meet criteria for dementia",
+      "applied": true,
+      "disposition": "applied",
+      "quote": "Patients were eligible for enrollment in the trial if they were between 50 and 85 years of age and if they did not meet criteria for dementia , but had had a subjective decrease in memory for at least 1 year corroborated by an informant.",
+      "reasoning": "Both readings describe the same population at different resolution; every element of reading B (age 50 to 85, informant-corroborated 1-year memory decline, RBANS Delayed Memory Index of 85 or less, amyloid on PET, MMSE 24 to 30, no dementia) is stated in the Patients section, so it is the more precise supported value."
+    },
+    {
+      "field": "study.intervention",
+      "verdict": "both",
+      "resolved_value": "Oral verubecestat (a BACE-1 inhibitor) at 12 mg per day or 40 mg per day, once daily, administered as identical-appearing tablets",
+      "applied": true,
+      "disposition": "applied",
+      "quote": "In part 1, patients were randomly assigned in a 1:1:1 ratio to receive, once daily, oral verubecestat at a dose of 12 mg, oral verubecestat at a dose of 40 mg, or oral placebo.",
+      "reasoning": "The two readings name the same two dose arms; the document additionally supports the once-daily schedule, the BACE-1 inhibitor identity, and 'All the assigned trial regimens were administered as identical-appearing tablets.', making reading A the fuller supported value."
+    },
+    {
+      "field": "outcomes[Change from week 13 to week 104 in the CDR-SB score].tier",
+      "verdict": "b",
+      "resolved_value": "secondary",
+      "applied": true,
+      "disposition": "applied",
+      "quote": "There were seven secondary outcomes: the progression to the diagnosis of dementia due to Alzheimer’s disease; the change from week 13 to week 104 in the CDR-SB score;",
+      "reasoning": "The Outcomes section names the change from BASELINE to week 104 in CDR-SB as the single primary efficacy outcome and lists the change from WEEK 13 to week 104 in CDR-SB as the second of seven secondary outcomes."
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "verdict": "neither",
+      "resolved_value": null,
+      "applied": true,
+      "disposition": "applied",
+      "quote": "The model-based mean change score from baseline to week 104 in the CDR-SB score (the primary outcome) was 1.65 in the 12-mg group, 2.02 in the 40-mg group, and 1.58 in the placebo group (P = 0.67 for the comparison between the 12-mg group and the placebo group and P = 0.01 for the comparison between the 40-mg group and the placebo group, favoring the placebo group) ().",
+      "reasoning": "The primary CDR-SB result is given as three group mean changes and two P values, with no interval. The Statistical Analysis section says confidence intervals were estimated from the ANCOVA model, and 97.51% CIs are printed for the secondary hazard ratios (1.30; 1.01 to 1.68 and 1.38; 1.07 to 1.79), but no confidence interval value for the primary outcome is printed anywhere in this document."
+    },
+    {
+      "field": "safety.harms[death].counts",
+      "verdict": "both",
+      "resolved_value": "placebo group: 3 | 12-mg group: 3 | 40-mg group: 1",
+      "applied": false,
+      "disposition": "advisory only — harm entries are not rewritten from a presence ruling",
+      "quote": "In part 1 of the trial, there were three deaths in the placebo group, three in the 12-mg group, and one in the 40-mg group (, and in the ).",
+      "reasoning": "The document reports deaths per arm with explicit counts, and both readings record exactly those numbers (3 placebo, 3 in the 12-mg group, 1 in the 40-mg group), differing only in wording and arm labels; reading B's labels match the document's own group names."
+    }
+  ],
+  "unresolved": [],
+  "needs_manual_apply": [
+    {
+      "field": "safety.harms[death].counts",
+      "verdict": "both",
+      "resolved_value": "placebo group: 3 | 12-mg group: 3 | 40-mg group: 1",
+      "reason": "advisory only — harm entries are not rewritten from a presence ruling"
+    }
+  ],
+  "record": {
+    "document_kind": "journal_article",
+    "title": {
+      "value": "Randomized Trial of Verubecestat for Prodromal Alzheimer’s Disease",
+      "quote": "Randomized Trial of Verubecestat for Prodromal Alzheimer’s Disease",
+      "location": "Title line"
+    },
+    "authors": [
+      {
+        "name": "Michael F. Egan",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "James Kost",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Tiffini Voss",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Yuki Mukai",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Paul S. Aisen",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Jeffrey L. Cummings",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Pierre N. Tariot",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Bruno Vellas",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Christopher H. van Dyck",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Merce Boada",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Ying Zhang",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Wen Li",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Christine Furtek",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Erin Mahoney",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Lyn Harper Mozley",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Yi Mo",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Cyrille Sur",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "David Michelson",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      }
+    ],
+    "study": {
+      "design": {
+        "value": "randomized, double-blind, placebo-controlled, parallel group, 104-week trial period (part 1), followed by an optional extension period (part 2); conducted at 238 centers in 22 countries from November 2013 through April 2018",
+        "quote": "The trial consisted of a randomized, double-blind, placebo-controlled, parallel group, 104-week trial period (part 1), followed by an optional extension period with a planned duration of up to 5 years (part 2).",
+        "location": "Methods, Trial Design, paragraph 1"
+      },
+      "phase": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "n": {
+        "value": 1454,
+        "quote": "A total of 1454 patients were enrolled; 485 were randomly assigned to receive oral verubecestat at a dose of 12 mg per day (the 12-mg group)",
+        "location": "Results, Patient Characteristics, paragraph 1"
+      },
+      "n_description": {
+        "value": "1454 patients enrolled and randomly assigned 1:1:1 — 485 to verubecestat 12 mg/day, 484 to verubecestat 40 mg/day, 485 to matching placebo; efficacy analyses used a modified intention-to-treat population whose per-group numbers differed from the randomized numbers",
+        "quote": "The number of patients in each group in the modified intention-to-treat population differed from the number of patients who were randomly assigned to a trial group () because of differences in the numbers of missing data in each group.",
+        "location": "Results, Patient Characteristics, paragraph 1"
+      },
+      "population": {
+        "value": "Patients aged 50 to 85 years with prodromal Alzheimer's disease — memory impairment (subjective memory decline for at least 1 year corroborated by an informant, RBANS Delayed Memory Index score of 85 or less) and elevated brain amyloid on PET, with MMSE 24 to 30, who did not meet criteria for dementia",
+        "quote": "in patients who had memory impairment and elevated brain amyloid levels but whose condition did not meet the case definition of dementia",
+        "location": "Abstract, Methods"
+      },
+      "followup": {
+        "value": "104 weeks (part 1), with an optional extension period of up to 5 years (part 2); the trial was terminated early and no patients completed the extension phase",
+        "quote": "We conducted a randomized, double-blind, placebo-controlled, 104-week trial to evaluate verubecestat at doses of 12 mg and 40 mg per day, as compared with placebo",
+        "location": "Abstract, Methods"
+      },
+      "intervention": {
+        "value": "Oral verubecestat (a BACE-1 inhibitor) at 12 mg per day or 40 mg per day, once daily, administered as identical-appearing tablets",
+        "quote": "In part 1, patients were randomly assigned in a 1:1:1 ratio to receive, once daily, oral verubecestat at a dose of 12 mg, oral verubecestat at a dose of 40 mg, or oral placebo.",
+        "location": "Methods, Trial Design, paragraph 1"
+      },
+      "comparator": {
+        "value": "Oral matching placebo, once daily (485 patients randomly assigned to receive matching placebo)",
+        "quote": "In part 1, patients were randomly assigned in a 1:1:1 ratio to receive, once daily, oral verubecestat at a dose of 12 mg, oral verubecestat at a dose of 40 mg, or oral placebo.",
+        "location": "Methods, Trial Design, paragraph 1"
+      },
+      "biomarker_confirmation": {
+        "value": "Brain amyloid confirmed by a radiologist's visual inspection of amyloid-ligand PET imaging; the diagnosis of prodromal Alzheimer's disease was confirmed by independent review",
+        "quote": "the presence of brain amyloid as gauged by a radiologist’s visual inspection of amyloid-ligand positronemission tomography (PET) imaging",
+        "location": "Methods, Patients, paragraph 1"
+      },
+      "nct_ids": [],
+      "cohorts": [
+        "Alzheimer’s Disease Neuroimaging Initiative"
+      ]
+    },
+    "outcomes": [
+      {
+        "name": "Change from baseline to week 104 in the Clinical Dementia Rating Scale–Sum of Boxes score (CDR-SB)",
+        "tier": "primary",
+        "prespecified": "yes",
+        "prespecification_evidence": "The primary efficacy outcome was the change from baseline to week 104 in the Clinical Dementia Rating Scale–Sum of Boxes score (CDR-SB; scores range from 0 to 18",
+        "met": "not_met",
+        "effect_estimate": "Model-based mean change from baseline to week 104: 1.65 in the 12-mg group, 2.02 in the 40-mg group, and 1.58 in the placebo group — the 40-mg group was worse than placebo",
+        "confidence_interval": null,
+        "p_value": "P = 0.67 for the comparison between the 12-mg group and the placebo group and P = 0.01 for the comparison between the 40-mg group and the placebo group, favoring the placebo group",
+        "multiplicity_controlled": "yes",
+        "quote": "The model-based mean change score from baseline to week 104 in the CDR-SB score (the primary outcome) was 1.65 in the 12-mg group, 2.02 in the 40-mg group, and 1.58 in the placebo group",
+        "location": "Results, Clinical Outcomes, paragraph 1"
+      },
+      {
+        "name": "Progression to the diagnosis of dementia due to Alzheimer’s disease",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "prespecification_evidence": "There were seven secondary outcomes: the progression to the diagnosis of dementia due to Alzheimer’s disease; the change from week 13 to week 104 in the CDR-SB score",
+        "met": "not_met",
+        "effect_estimate": "24.5 events per 100 patient-years in the 12-mg group, 25.5 in the 40-mg group, and 19.3 in the placebo group; hazard ratio 1.30 for 12 mg vs. placebo and hazard ratio 1.38 for 40 mg vs. placebo, favoring placebo",
+        "confidence_interval": "97.51% confidence interval [CI], 1.01 to 1.68 (12 mg vs. placebo) and 97.51% CI, 1.07 to 1.79 (40 mg vs. placebo), unadjusted for multiple comparisons",
+        "p_value": null,
+        "multiplicity_controlled": "no",
+        "quote": "The event rates for dementia due to Alzheimer’s disease per 100 patient-years were 24.5 in the 12-mg group, 25.5 in the 40-mg group, and 19.3 in the placebo group",
+        "location": "Results, Clinical Outcomes, paragraph 2"
+      },
+      {
+        "name": "Change from week 13 to week 104 in the CDR-SB score",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "prespecification_evidence": "There were seven secondary outcomes: the progression to the diagnosis of dementia due to Alzheimer’s disease; the change from week 13 to week 104 in the CDR-SB score",
+        "met": "not_met",
+        "effect_estimate": null,
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "no",
+        "quote": "The failure to support the primary hypothesis of superiority of verubecestat over placebo with respect to the CDR-SB score precluded formal statistical inferences for the remaining outcomes.",
+        "location": "Results, Clinical Outcomes, paragraph 1"
+      },
+      {
+        "name": "Change from baseline to week 104 in the three-domain composite cognition score (CCS-3D)",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "prespecification_evidence": "the change from baseline to week 104 in the three-domain composite cognition score (CCS-3D; derived from the z scores",
+        "met": "not_met",
+        "effect_estimate": "Suggested that verubecestat may be inferior to placebo; unadjusted confidence intervals excluded 0 for three of the five remaining secondary outcomes",
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "no",
+        "quote": "Results for the other secondary and exploratory outcomes of cognition (the CCS-3D, ADAS-cog, and MMSE scores), function (the ADCS-ADL MCI score), and neuropsychiatric symptoms (the NPI score) also suggested that verubecestat may be inferior to placebo",
+        "location": "Results, Clinical Outcomes, paragraph 2"
+      },
+      {
+        "name": "Score on the Alzheimer’s Disease Cooperative Study Activities of Daily Living for Mild Cognitive Impairment scale (ADCS-ADL MCI)",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "prespecification_evidence": "the score on the Alzheimer’s Disease Cooperative Study Activities of Daily Living for Mild Cognitive Impairment scale (ADCS-ADL MCI ; scores range from 0 to 53, with lower scores indicating worse function)",
+        "met": "not_met",
+        "effect_estimate": "Suggested that verubecestat may be inferior to placebo",
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "no",
+        "quote": "function (the ADCS-ADL MCI score), and neuropsychiatric symptoms (the NPI score) also suggested that verubecestat may be inferior to placebo, since the unadjusted confidence intervals excluded 0",
+        "location": "Results, Clinical Outcomes, paragraph 2"
+      },
+      {
+        "name": "Total hippocampal volume on MRI",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "prespecification_evidence": "There were seven secondary outcomes: the progression to the diagnosis of dementia due to Alzheimer’s disease; the change from week 13 to week 104 in the CDR-SB score",
+        "met": "not_met",
+        "effect_estimate": "Hippocampal volume was lower at week 104 than at baseline by 6.1% in the placebo group and by 6.5 to 6.7% in the verubecestat groups",
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "no",
+        "quote": "The hippocampal volume, as assessed by MRI, was lower at week 104 than at baseline, by 6.1% in the placebo group and by 6.5 to 6.7% in the verubecestat groups",
+        "location": "Results, Biomarkers, paragraph 1"
+      },
+      {
+        "name": "Cortical amyloid load on PET",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "prespecification_evidence": "the total hippocampal volume on MRI; the cortical amyloid load on PET",
+        "met": "not_applicable",
+        "effect_estimate": "Brain amyloid load increased from baseline to week 104 in the placebo group and was reduced from baseline in both verubecestat groups, but did not reach the 0.69 SUVR threshold for being amyloid-negative",
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "no",
+        "quote": "An increase from baseline to week 104 in the brain amyloid load, as assessed by PET, was observed in the placebo group; in contrast, there was a reduction from baseline in the brain amyloid load in both verubecestat groups",
+        "location": "Results, Biomarkers, paragraph 1"
+      },
+      {
+        "name": "Concentration of total tau in cerebrospinal fluid",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "prespecification_evidence": "scores range from 0 to 53, with lower scores indicating worse function) ; and the concentration of total tau in cerebrospinal fluid.",
+        "met": "not_applicable",
+        "effect_estimate": null,
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "no",
+        "quote": "this excludes concentrations of tau in cerebrospinal fluid, which were not analyzed",
+        "location": "Results, Clinical Outcomes, paragraph 2"
+      },
+      {
+        "name": "Change from baseline to week 104 in the ADAS-cog 13 score",
+        "tier": "exploratory",
+        "prespecified": "yes",
+        "prespecification_evidence": "Exploratory outcomes included the change from baseline to week 104 in scores on the 13-item cognitive subscale version of the Alzheimer’s Disease Assessment Scale (ADAS-cog 13 ; scores range from 0 to 85",
+        "met": "not_met",
+        "effect_estimate": "Both dose levels of verubecestat were associated with poorer outcomes on the ADAS-cog measures of cognition; unadjusted confidence intervals excluded 0 for all four exploratory outcomes",
+        "confidence_interval": "unadjusted confidence intervals that excluded zero for between-group differences",
+        "p_value": null,
+        "multiplicity_controlled": "no",
+        "quote": "In exploratory analyses, both dose levels of verubecestat were associated with poorer outcomes on the CCS-3D and the ADAS-cog measures of cognition that, relative to placebo, appeared worse at week 13",
+        "location": "Discussion, paragraph 1"
+      },
+      {
+        "name": "Score on the Mini–Mental State Examination (MMSE)",
+        "tier": "exploratory",
+        "prespecified": "yes",
+        "prespecification_evidence": "Other exploratory outcomes included the scores on the MMSE and the Neuropsychiatric Inventory (NPI; scores range from 1 to 144, with higher scores indicating more severe symptoms)",
+        "met": "not_met",
+        "effect_estimate": "Suggested that verubecestat may be inferior to placebo; unadjusted confidence intervals excluded 0 for all four exploratory outcomes",
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "no",
+        "quote": "and all four exploratory outcomes ( and , and and through in the ). These comparisons are exploratory, and the confidence intervals are unadjusted; thus, the strength of any resulting inferences is limited.",
+        "location": "Results, Clinical Outcomes, paragraph 2"
+      },
+      {
+        "name": "Score on the Neuropsychiatric Inventory (NPI)",
+        "tier": "exploratory",
+        "prespecified": "yes",
+        "prespecification_evidence": "Other exploratory outcomes included the scores on the MMSE and the Neuropsychiatric Inventory (NPI; scores range from 1 to 144, with higher scores indicating more severe symptoms)",
+        "met": "not_met",
+        "effect_estimate": "Neuropsychiatric symptoms (the NPI score) also suggested that verubecestat may be inferior to placebo",
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "no",
+        "quote": "and neuropsychiatric symptoms (the NPI score) also suggested that verubecestat may be inferior to placebo, since the unadjusted confidence intervals excluded 0 for three of the five remaining secondary outcomes",
+        "location": "Results, Clinical Outcomes, paragraph 2"
+      },
+      {
+        "name": "CDR-SB score by time point (weeks 13, 26 and 52) — exploratory analysis according to time point",
+        "tier": "exploratory",
+        "prespecified": "yes",
+        "prespecification_evidence": "Analyses at other time points and subgroup anaIyses were prespecified, but the triaI was not powered for such anaIyses.",
+        "met": "not_met",
+        "effect_estimate": "CDR-SB scores were higher (more impairment) in the 40-mg group than in the placebo group at 13, 26, and 52 weeks",
+        "confidence_interval": "the lower limit of unadjusted confidence intervals greater than 0",
+        "p_value": null,
+        "multiplicity_controlled": "no",
+        "quote": "scores on the CDR-SB were also higher (signifying more impairment of cognition and daily functioning) in the 40-mg group than in the placebo group at 13, 26, and 52 weeks",
+        "location": "Results, Clinical Outcomes, paragraph 1"
+      },
+      {
+        "name": "Exploratory subgroup analyses of the effect of verubecestat on the CDR-SB score by baseline APOE4 gene-carrier status, age, sex, MMSE score, and PET SUVR",
+        "tier": "subgroup",
+        "prespecified": "yes",
+        "prespecification_evidence": "Analyses at other time points and subgroup anaIyses were prespecified, but the triaI was not powered for such anaIyses.",
+        "met": "not_applicable",
+        "effect_estimate": "Did not suggest that the effect of verubecestat on the CDR-SB score was altered by these subgroup variables",
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "no",
+        "quote": "Exploratory subgroup analyses did not suggest that the effect of verubecestat on the CDR-SB score was altered by baseline APOE4 gene-carrier status, age, sex, MMSE score, or PET SUVR",
+        "location": "Results, Clinical Outcomes, paragraph 1"
+      },
+      {
+        "name": "Sensitivity analysis of CDR-SB excluding assessments performed after announcement of the trial termination",
+        "tier": "post_hoc",
+        "prespecified": "unclear",
+        "prespecification_evidence": "We also performed a sensitivity analysis excluding assessments conducted after notification of the termination of the trial.",
+        "met": "not_applicable",
+        "effect_estimate": "CDR-SB results were similar to the main analysis",
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "no",
+        "quote": "CDR-SB results were similar in the sensitivity analysis, which excluded assessments performed after announcement of the trial termination",
+        "location": "Results, Clinical Outcomes, paragraph 1"
+      },
+      {
+        "name": "Cerebrospinal fluid concentrations of A β 42, A β 40 and sAPP β (biomarker substudy)",
+        "tier": "post_hoc",
+        "prespecified": "unclear",
+        "prespecification_evidence": "Since there were few patients in the substudy of biomarkers in cerebrospinal fluid (five or six patients per group), planned analyses were not performed",
+        "met": "not_applicable",
+        "effect_estimate": "Greater than 60% reductions from baseline in concentrations of A β 42, A β 40, and sAPP β in cerebrospinal fluid with verubecestat",
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "no",
+        "quote": "however, greater than 60% reductions from baseline in concentrations of A β 42, A β 40, and sAPP β in cerebrospinal fluid were seen with verubecestat",
+        "location": "Results, Biomarkers, paragraph 1"
+      }
+    ],
+    "primary_endpoint_status": {
+      "status": "not_met",
+      "explanation": "The primary outcome — change from baseline to week 104 in CDR-SB — showed no benefit of verubecestat over placebo (1.65 in the 12-mg group and 2.02 in the 40-mg group vs. 1.58 in the placebo group, P = 0.67 and P = 0.01 respectively), with the 40-mg comparison significantly favouring placebo, and the trial was terminated for futility.",
+      "quote": "verubecestat showed no benefit with respect to the primary clinical outcome (a change in the CDR-SB score from baseline to week 104), as compared with placebo"
+    },
+    "multiplicity": {
+      "approach": "Bonferroni approach splitting the overall alpha between the two dose levels of verubecestat, in conjunction with a hierarchical sequential testing approach of outcomes; once superiority was not shown for the primary CDR-SB outcome, all subsequent outcomes were assumed not to have differed significantly and are reported as point estimates with 97.51% confidence intervals (95% for exploratory outcomes) not adjusted for multiple comparisons",
+      "quote": "A Bonferroni approach (splitting the overall α between the two dose levels of verubecestat) in conjunction with a hierarchical sequential testing approach of outcomes was used to control for the type 1 error rate",
+      "location": "Methods, Statistical Analysis, paragraph 2"
+    },
+    "safety": {
+      "harms": [
+        {
+          "name": "death",
+          "arm": "placebo",
+          "count": "three",
+          "denominator": null,
+          "percentage": null,
+          "apoe_stratum": null,
+          "quote": "In part 1 of the trial, there were three deaths in the placebo group, three in the 12-mg group, and one in the 40-mg group",
+          "location": "Results, Safety, paragraph 1"
+        },
+        {
+          "name": "death",
+          "arm": "verubecestat 12 mg per day",
+          "count": "three",
+          "denominator": null,
+          "percentage": null,
+          "apoe_stratum": null,
+          "quote": "In part 1 of the trial, there were three deaths in the placebo group, three in the 12-mg group, and one in the 40-mg group",
+          "location": "Results, Safety, paragraph 1"
+        },
+        {
+          "name": "death",
+          "arm": "verubecestat 40 mg per day",
+          "count": "one",
+          "denominator": null,
+          "percentage": null,
+          "apoe_stratum": null,
+          "quote": "In part 1 of the trial, there were three deaths in the placebo group, three in the 12-mg group, and one in the 40-mg group",
+          "location": "Results, Safety, paragraph 1"
+        },
+        {
+          "name": "amyloid-related imaging abnormalities",
+          "arm": "verubecestat (both dose groups) vs. placebo",
+          "count": null,
+          "denominator": null,
+          "percentage": null,
+          "apoe_stratum": null,
+          "quote": "verubecestat was associated with a greater incidence of rash than placebo but not with a greater incidence of delirium or amyloid-related imaging abnormalities",
+          "location": "Results, Safety, paragraph 2"
+        },
+        {
+          "name": "amyloid-related imaging abnormalities",
+          "arm": "verubecestat (both dose groups)",
+          "count": null,
+          "denominator": null,
+          "percentage": null,
+          "apoe_stratum": null,
+          "quote": "As in the previous trial, verubecestat was not associated with amyloid-related imaging abnormalities that have been reported with antiamyloid immunotherapies.",
+          "location": "Discussion, paragraph 3"
+        },
+        {
+          "name": "delirium",
+          "arm": "verubecestat (both dose groups) vs. placebo",
+          "count": null,
+          "denominator": null,
+          "percentage": null,
+          "apoe_stratum": null,
+          "quote": "verubecestat was associated with a greater incidence of rash than placebo but not with a greater incidence of delirium or amyloid-related imaging abnormalities",
+          "location": "Results, Safety, paragraph 2"
+        },
+        {
+          "name": "rash (prespecified adverse event of clinical interest)",
+          "arm": "verubecestat (both dose groups) vs. placebo",
+          "count": null,
+          "denominator": null,
+          "percentage": null,
+          "apoe_stratum": null,
+          "quote": "Among the prespecified adverse events of clinical interest in part 1, verubecestat was associated with a greater incidence of rash than placebo",
+          "location": "Results, Safety, paragraph 2"
+        },
+        {
+          "name": "rash, dermatitis, or urticaria",
+          "arm": "both verubecestat groups vs. placebo",
+          "count": null,
+          "denominator": null,
+          "percentage": null,
+          "apoe_stratum": null,
+          "quote": "reported more frequently in both verubecestat groups than in the placebo group (lower limit of the 95% confidence interval for the difference of >0) included rash, dermatitis, or urticaria; sleep disturbance; weight loss; and cough",
+          "location": "Results, Safety, paragraph 2"
+        },
+        {
+          "name": "sleep disturbance",
+          "arm": "both verubecestat groups vs. placebo",
+          "count": null,
+          "denominator": null,
+          "percentage": null,
+          "apoe_stratum": null,
+          "quote": "reported more frequently in both verubecestat groups than in the placebo group (lower limit of the 95% confidence interval for the difference of >0) included rash, dermatitis, or urticaria; sleep disturbance; weight loss; and cough",
+          "location": "Results, Safety, paragraph 2"
+        },
+        {
+          "name": "weight loss",
+          "arm": "both verubecestat groups vs. placebo",
+          "count": null,
+          "denominator": null,
+          "percentage": null,
+          "apoe_stratum": null,
+          "quote": "reported more frequently in both verubecestat groups than in the placebo group (lower limit of the 95% confidence interval for the difference of >0) included rash, dermatitis, or urticaria; sleep disturbance; weight loss; and cough",
+          "location": "Results, Safety, paragraph 2"
+        },
+        {
+          "name": "cough",
+          "arm": "both verubecestat groups vs. placebo",
+          "count": null,
+          "denominator": null,
+          "percentage": null,
+          "apoe_stratum": null,
+          "quote": "reported more frequently in both verubecestat groups than in the placebo group (lower limit of the 95% confidence interval for the difference of >0) included rash, dermatitis, or urticaria; sleep disturbance; weight loss; and cough",
+          "location": "Results, Safety, paragraph 2"
+        },
+        {
+          "name": "change in hair color",
+          "arm": "verubecestat 12 mg per day",
+          "count": null,
+          "denominator": null,
+          "percentage": "2.5%",
+          "apoe_stratum": null,
+          "quote": "A change in hair color was observed in both the 12-mg group (2.5%) and the 40-mg group (5.0%) but not in the placebo group",
+          "location": "Results, Safety, paragraph 2"
+        },
+        {
+          "name": "change in hair color",
+          "arm": "verubecestat 40 mg per day",
+          "count": null,
+          "denominator": null,
+          "percentage": "5.0%",
+          "apoe_stratum": null,
+          "quote": "A change in hair color was observed in both the 12-mg group (2.5%) and the 40-mg group (5.0%) but not in the placebo group",
+          "location": "Results, Safety, paragraph 2"
+        },
+        {
+          "name": "change in hair color",
+          "arm": "placebo",
+          "count": "not observed",
+          "denominator": null,
+          "percentage": null,
+          "apoe_stratum": null,
+          "quote": "A change in hair color was observed in both the 12-mg group (2.5%) and the 40-mg group (5.0%) but not in the placebo group",
+          "location": "Results, Safety, paragraph 2"
+        },
+        {
+          "name": "falls and injuries",
+          "arm": "verubecestat groups vs. placebo",
+          "count": null,
+          "denominator": null,
+          "percentage": null,
+          "apoe_stratum": null,
+          "quote": "The incidence of falls and injuries and suicidal ideation was higher in the verubecestat groups than in the placebo group, but the lower limits of the 95% confidence intervals of differences between groups included zero",
+          "location": "Results, Safety, paragraph 2"
+        },
+        {
+          "name": "suicidal ideation",
+          "arm": "verubecestat groups vs. placebo",
+          "count": null,
+          "denominator": null,
+          "percentage": null,
+          "apoe_stratum": null,
+          "quote": "The incidence of falls and injuries and suicidal ideation was higher in the verubecestat groups than in the placebo group, but the lower limits of the 95% confidence intervals of differences between groups included zero",
+          "location": "Results, Safety, paragraph 2"
+        },
+        {
+          "name": "weight change at week 104",
+          "arm": "verubecestat 12 mg per day",
+          "count": "−1.3±4.2 kg (mean ±SD)",
+          "denominator": null,
+          "percentage": null,
+          "apoe_stratum": null,
+          "quote": "There was a mean (±SD) weight change at week 104 of −1.3±4.2 kg in the 12-mg group and −1.3±5.3 kg in the 40-mg group, as compared with 0.4±4.0 kg in the placebo group.",
+          "location": "Results, Safety, paragraph 2"
+        },
+        {
+          "name": "weight change at week 104",
+          "arm": "verubecestat 40 mg per day",
+          "count": "−1.3±5.3 kg (mean ±SD)",
+          "denominator": null,
+          "percentage": null,
+          "apoe_stratum": null,
+          "quote": "There was a mean (±SD) weight change at week 104 of −1.3±4.2 kg in the 12-mg group and −1.3±5.3 kg in the 40-mg group, as compared with 0.4±4.0 kg in the placebo group.",
+          "location": "Results, Safety, paragraph 2"
+        },
+        {
+          "name": "weight change at week 104",
+          "arm": "placebo",
+          "count": "0.4±4.0 kg (mean ±SD)",
+          "denominator": null,
+          "percentage": null,
+          "apoe_stratum": null,
+          "quote": "There was a mean (±SD) weight change at week 104 of −1.3±4.2 kg in the 12-mg group and −1.3±5.3 kg in the 40-mg group, as compared with 0.4±4.0 kg in the placebo group.",
+          "location": "Results, Safety, paragraph 2"
+        },
+        {
+          "name": "serious adverse events reported in more than 1% of patients in at least one trial group (osteoarthritis, basal-cell carcinoma, squamouscell carcinoma, syncope, prostate cancer)",
+          "arm": "all groups (similar incidences among the groups)",
+          "count": null,
+          "denominator": null,
+          "percentage": "more than 1% of the patients in at least one trial group",
+          "apoe_stratum": null,
+          "quote": "Serious adverse events that were reported in more than 1% of the patients in at least one trial group in this part of the trial included osteoarthritis, basal-cell carcinoma, squamouscell carcinoma, syncope, and prostate cancer",
+          "location": "Results, Safety, paragraph 1"
+        },
+        {
+          "name": "adverse events (overall)",
+          "arm": "verubecestat vs. placebo",
+          "count": null,
+          "denominator": null,
+          "percentage": null,
+          "apoe_stratum": null,
+          "quote": "In part 1 of the trial, adverse events were more common with verubecestat than with placebo",
+          "location": "Results, Safety, paragraph 1"
+        }
+      ],
+      "apoe_stratification_reported": false,
+      "serious_adverse_events": {
+        "value": "Serious adverse events reported in more than 1% of patients in at least one trial group in part 1 included osteoarthritis, basal-cell carcinoma, squamous-cell carcinoma, syncope, and prostate cancer, with similar incidences among the groups",
+        "quote": "Serious adverse events that were reported in more than 1% of the patients in at least one trial group in this part of the trial included osteoarthritis, basal-cell carcinoma, squamouscell carcinoma, syncope, and prostate cancer",
+        "location": "Results, Safety, paragraph 1"
+      },
+      "deaths": {
+        "value": "In part 1: three deaths in the placebo group, three in the 12-mg group, and one in the 40-mg group",
+        "quote": "In part 1 of the trial, there were three deaths in the placebo group, three in the 12-mg group, and one in the 40-mg group",
+        "location": "Results, Safety, paragraph 1"
+      },
+      "discontinuations": {
+        "value": null,
+        "quote": null,
+        "location": null
+      }
+    },
+    "funding": [
+      "Merck Sharp & Dohme (MSD) — \"(Funded by Merck Sharp & Dohme; ClinicalTrials.gov number, .)\"",
+      "Merck Sharp & Dohme (MSD) — \"Supported by Merck Sharp & Dohme (MSD).\""
+    ],
+    "conflicts": [
+      "The sponsor (Merck Sharp & Dohme [MSD]) designed the trial in consultation with the academic authors; data were collected by the investigators and analyzed by the sponsor.",
+      "The first draft of the manuscript was written by the first author and a professional medical writer who was employed by the sponsor.",
+      "Confidentiality agreements were in place between the sponsor and the authors.",
+      "Multiple named authors and acknowledged contributors are identified as employees of MSD (e.g., pharmacokinetic analysis, administrative support, manuscript preparation and submission assistance).",
+      "The individual author disclosure statements themselves are not contained in this document: \"Disclosure forms provided by the authors are available with the full text of this article at NEJM.org .\""
+    ],
+    "limitations": [
+      "The comparisons beyond the primary outcome are exploratory with unadjusted confidence intervals: \"These comparisons are exploratory, and the confidence intervals are unadjusted; thus, the strength of any resulting inferences is limited.\"",
+      "The trial was not powered for time-point or subgroup analyses: \"Analyses at other time points and subgroup anaIyses were prespecified, but the triaI was not powered for such anaIyses.\"",
+      "Early termination for futility meant far fewer completers than planned: \"the number of patients who completed the trial at week 104 in each group (231 in the 12-mg group, 234 in the 40-mg group, and 239 patients in the placebo group) () was less than the 338 patients per group who had been expected to complete the trial.\"",
+      "No patients completed the extension phase: \"None of the patients completed the extension phase because of the early termination\"",
+      "The cerebrospinal fluid biomarker substudy was too small for its planned analyses: \"Since there were few patients in the substudy of biomarkers in cerebrospinal fluid (five or six patients per group), planned analyses were not performed\"",
+      "Formal statistical inference for outcomes after the primary was precluded by the hierarchical plan: \"A formal statistical analysis was not performed because of the hierarchical analysis plan and failure to show superiority of the drug in the analysis of the primary outcome\"",
+      "Earlier time-point findings are suggestive only: \"suggesting but not confirming the possibility of worse performance at these earlier time points in the high-dose verubecestat group\"",
+      "MRI surveillance for amyloid-related imaging abnormalities was discontinued during the trial: \"MRI was initially performed to assess for possible amyloid-related imaging abnormalities but was subsequently discontinued on the basis of feedback from the independent monitoring committee and regulatory recommendations.\""
+    ],
+    "risk_of_bias": [
+      {
+        "domain": "sponsor analysis",
+        "judgement": "The sponsor designed the trial and analysed the data; the first manuscript draft was written with a sponsor-employed medical writer, and confidentiality agreements were in place between sponsor and authors.",
+        "quote": "The sponsor (Merck Sharp & Dohme [MSD]) designed the trial in consultation with the academic authors. Data were collected by the investigators and analyzed by the sponsor."
+      },
+      {
+        "domain": "attrition",
+        "judgement": "Fewer than half of enrolled patients completed part 1, and completion numbers fell well short of the planned 338 per group because of the early stop.",
+        "quote": "A total of 704 patients (47.7 to 49.3% of the patients in each group) completed part 1 of the trial"
+      },
+      {
+        "domain": "early termination for futility",
+        "judgement": "The trial was stopped about 12 months before scheduled completion of part 1 on the recommendation of the data and safety monitoring committee, reducing the information available for all outcomes.",
+        "quote": "At the time of trial termination, enrollment had been completed and approximately 12 months remained before the scheduled completion of part 1."
+      },
+      {
+        "domain": "multiplicity and selective inference",
+        "judgement": "After the primary outcome failed, the hierarchical gatekeeping plan precluded formal inference; all subsequent estimates are reported with unadjusted confidence intervals, which the paper itself says limits inference.",
+        "quote": "Separately for each dose level, if significant superiority was not shown, all subsequent outcomes were assumed not to have differed significantly between the groups and are reported as point estimates with 97.51% confidence intervals"
+      },
+      {
+        "domain": "incomplete safety ascertainment",
+        "judgement": "MRI surveillance for amyloid-related imaging abnormalities was stopped part-way through the trial, so the absence of ARIA is based on incomplete imaging follow-up.",
+        "quote": "MRI was initially performed to assess for possible amyloid-related imaging abnormalities but was subsequently discontinued on the basis of feedback from the independent monitoring committee and regulatory recommendations."
+      },
+      {
+        "domain": "internal reporting inconsistency",
+        "judgement": "The abstract and the Results section assign the 234 and 231 completer counts to different groups: the abstract reads 234, 231, 239 in the order 12-mg, 40-mg, placebo, while the Results text reads 231 in the 12-mg group and 234 in the 40-mg group.",
+        "quote": "A total of 234 patients, 231 patients, and 239 patients per group, respectively, completed 104 weeks of the trial regimen."
+      }
+    ],
+    "disagreements": [
+      {
+        "question": "Does BACE-1 inhibition with verubecestat benefit patients with prodromal Alzheimer's disease?",
+        "position": "No. Verubecestat did not improve clinical ratings of dementia, and some measures suggested that cognition and daily function were worse with verubecestat than with placebo.",
+        "attributed_to": "This document (Egan et al., the trial investigators and sponsor Merck Sharp & Dohme)",
+        "quote": "Verubecestat did not improve clinical ratings of dementia among patients with prodromal Alzheimer’s disease, and some measures suggested that cognition and daily function were worse among patients who received verubecestat than among those who received placebo."
+      },
+      {
+        "question": "Did verubecestat accelerate progression to dementia due to Alzheimer's disease?",
+        "position": "The hazard ratios for progression to dementia, whose confidence intervals excluded 1 and favoured placebo, suggest that verubecestat may have accelerated progression, although formal statistical analysis was not performed.",
+        "attributed_to": "This document (Egan et al.)",
+        "quote": "did not include 1, suggesting that verubecestat may have accelerated the progression to diagnosis of dementia due to Alzheimer’s disease"
+      },
+      {
+        "question": "Why do these results differ from the earlier verubecestat trial in mild-to-moderate Alzheimer's dementia, where no overall treatment effect was seen?",
+        "position": "Patients here were on average 3 to 4 years earlier in the disease course and patients at an earlier stage may be more sensitive to substantial BACE-1 inhibition, perhaps because of a role of BACE-1 in normal synaptic function; effects due to BACE-2 inhibition are also possible.",
+        "attributed_to": "This document (Egan et al.)",
+        "quote": "Patients at an earlier stage of the disease may be more sensitive to the effects of substantial BACE-1 inhibition, perhaps because of a role of BACE-1 in normal synaptic function."
+      },
+      {
+        "question": "Did verubecestat engage its intended target?",
+        "position": "Yes — cortical amyloid load declined on PET and cerebrospinal fluid A β 42 and related APP metabolites fell by more than 60%, indicating the drug was acting at its intended target despite the absence of clinical benefit.",
+        "attributed_to": "This document (Egan et al.)",
+        "quote": "Taken together, these findings indicate that verubecestat was acting at its intended target."
+      },
+      {
+        "question": "Is verubecestat associated with amyloid-related imaging abnormalities, as antiamyloid immunotherapies are?",
+        "position": "No. As in the previous trial, verubecestat was not associated with amyloid-related imaging abnormalities of the kind reported with antiamyloid immunotherapies.",
+        "attributed_to": "This document (Egan et al.)",
+        "quote": "As in the previous trial, verubecestat was not associated with amyloid-related imaging abnormalities that have been reported with antiamyloid immunotherapies."
+      }
+    ],
+    "linked_objects": [],
+    "trial_status_observation": {
+      "status": "Terminated early for futility — a decision to stop the trial was made in February 2018 at the recommendation of the data and safety monitoring committee, on the basis of futility of finding superiority for either verubecestat dose over placebo; enrollment had been completed and approximately 12 months remained before scheduled completion of part 1, and no patients completed the extension phase",
+      "enrollment": "1454 patients enrolled (485 verubecestat 12 mg, 484 verubecestat 40 mg, 485 placebo)",
+      "phase": null,
+      "observed_at": "February 2018 (decision to stop); the trial ran from November 2013 through April 2018",
+      "source": "This journal article's Results section, reporting the recommendation of the data and safety monitoring committee"
+    },
+    "unlocatable_fields": [
+      "study.phase",
+      "study.nct_ids",
+      "authors[].affiliation",
+      "authors[].orcid",
+      "authors[].corresponding",
+      "outcomes[primary].confidence_interval",
+      "outcomes[primary].multiplicity_adjusted_effect_estimate",
+      "safety.discontinuations",
+      "safety.harms[].denominator",
+      "safety.harms[ARIA-E]",
+      "safety.harms[ARIA-H]",
+      "safety.harms[symptomatic ARIA]",
+      "safety.harms[macrohemorrhage]",
+      "safety.apoe_stratification_reported (no safety outcome is broken down by APOE genotype)",
+      "conflicts (individual author disclosure statements)"
+    ],
+    "_meta": {
+      "model": "claude (builder subagent)",
+      "extracted_at": "2026-08-13T16:16:18Z",
+      "source": "raw/verubecestat-apecs/document.md"
+    }
+  }
+}

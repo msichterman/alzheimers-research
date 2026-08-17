@@ -1,0 +1,107 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT07169578",
+      "registry_url": "https://clinicaltrials.gov/study/NCT07169578",
+      "name": "TRONTIER 1",
+      "drug": "Trontinemab (anti-amyloid/TfR1 brain shuttle)",
+      "phase": "3",
+      "sponsor": "Hoffmann-La Roche",
+      "status": "Recruiting",
+      "enrollment": 800,
+      "population": "Individuals aged 50 to 90 years with early symptomatic Alzheimer's disease (MCI to mild dementia)",
+      "primary_endpoint": "Change from baseline to Week 72 in Clinical Dementia Rating, Sum of Boxes (CDR-SB)",
+      "started": "2025-09",
+      "completed_or_readout": "2028-06",
+      "results_summary": null,
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT07170150",
+      "registry_url": "https://clinicaltrials.gov/study/NCT07170150",
+      "name": "TRONTIER 2",
+      "drug": "Trontinemab (anti-amyloid/TfR1 brain shuttle)",
+      "phase": "3",
+      "sponsor": "Hoffmann-La Roche",
+      "status": "Recruiting",
+      "enrollment": 800,
+      "population": "Individuals aged 50 to 90 years with early symptomatic Alzheimer's disease (MCI to mild dementia)",
+      "primary_endpoint": "Change from baseline to Week 72 in Clinical Dementia Rating, Sum of Boxes (CDR-SB)",
+      "started": "2025-11",
+      "completed_or_readout": "2028-06",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04639050",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04639050",
+      "name": "Brainshuttle AD",
+      "drug": "Trontinemab (anti-amyloid/TfR1 brain shuttle)",
+      "phase": "2",
+      "sponsor": "Hoffmann-La Roche",
+      "status": "Active",
+      "enrollment": 241,
+      "population": "Prodromal or Mild to Moderate Alzheimer's Disease",
+      "primary_endpoint": "Percentage of Participants With Adverse Events (AEs)",
+      "started": "2021-03",
+      "completed_or_readout": "2027-07",
+      "results_summary": "Demonstrated rapid and profound amyloid clearance (over 90% became amyloid-negative by 6 months at 3.6 mg/kg) alongside normalization of downstream tau and neurodegenerative biomarkers with a very low ARIA-E rate (~1%).",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04023994",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04023994",
+      "name": null,
+      "drug": "Trontinemab (anti-amyloid/TfR1 brain shuttle)",
+      "phase": "1",
+      "sponsor": "Hoffmann-La Roche",
+      "status": "Completed",
+      "enrollment": 36,
+      "population": "Healthy Participants",
+      "primary_endpoint": "Percentage of Participants With Adverse Events (AEs) up to 2 months after dosing",
+      "started": "2019-08",
+      "completed_or_readout": "2020-07",
+      "results_summary": "Showed a linear relationship between plasma and CSF concentrations, with a CSF/plasma ratio 8-fold higher than standard gantenerumab, and an acceptable safety profile with no severe hematological AEs.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT07717411",
+      "registry_url": "https://clinicaltrials.gov/study/NCT07717411",
+      "name": null,
+      "drug": "Trontinemab (anti-amyloid/TfR1 brain shuttle)",
+      "phase": "3",
+      "sponsor": "Hoffmann-La Roche",
+      "status": "Unknown",
+      "enrollment": 1600,
+      "population": "Cognitively Unimpaired Individuals at Risk for Progression to Symptomatic Alzheimer's Disease",
+      "primary_endpoint": "Time to Progression, defined as confirmed Clinical Dementia Rating - Global Score (CDR-GS) > 0",
+      "started": "2026-11",
+      "completed_or_readout": "2032-09",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2025-08-21",
+      "kind": "news",
+      "description": "Alzforum conference coverage of AAIC 2025 detailing Trontinemab's Phase 1/2 Brainshuttle AD results and the initiation of Phase 3 trials.",
+      "url": "https://www.alzforum.org/news/conference-coverage/roche-spells-out-phase-three-plans-trontinemab"
+    },
+    {
+      "date": "2025-08-21",
+      "kind": "news",
+      "description": "Alzforum Therapeutics profile for Trontinemab, summarizing preclinical development, Phase 1/2 safety and biomarker endpoints, and Phase 3 rationale.",
+      "url": "https://www.alzforum.org/therapeutics/trontinemab"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence for Trontinemab is highly promising based on Phase 1/2 (Brainshuttle AD) biomarker data, which demonstrated unprecedented speed and magnitude of amyloid plaque clearance. At the highest doses (3.6 mg/kg), over 90% of participants achieved amyloid negativity within 28 weeks, accompanied by robust normalization of downstream tau, astrocytic, and synaptic biomarkers. The rate of ARIA-E was exceptionally low (~1%), suggesting that the TfR1-mediated brain-shuttle mechanism successfully enhances CNS target engagement while minimizing vascular toxicity. However, long-term clinical efficacy and safety (e.g., assessing the ~10% rate of anemia seen in early trials) have not yet been proven, which is the primary objective of the currently recruiting global Phase 3 TRONTIER 1 and TRONTIER 2 trials.",
+  "discrepancies": [
+    "The document's tags list 'amyloid' and 'tau', which could imply a bispecific Aβ/Tau drug. However, Trontinemab specifically targets amyloid beta (via gantenerumab) linked to a transferrin receptor 1 (TfR1) brain shuttle. It does not directly target tau, although it has been shown to reduce downstream tau biomarkers."
+  ]
+}

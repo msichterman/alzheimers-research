@@ -1,0 +1,9 @@
+{
+  "id": "fda-kisunla-label",
+  "source": "sources/fda-kisunla-label.pdf",
+  "sha256": "54cd9855816af3052ed621d37ed476ce69474d3e811fc21a0202b9c2c1cb7fa2",
+  "bytes": 877274,
+  "chars": 55540,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:08.703Z"
+}

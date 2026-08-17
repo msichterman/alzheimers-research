@@ -1,0 +1,114 @@
+{
+  "kind": "review",
+  "title": "Blood biomarkers for Alzheimer’s disease in clinical practice and trials",
+  "authors": [
+    {
+      "name": "Hansson, Oskar",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "has acquired research support (for the institution) from ADx, Avid Radiopharmaceuticals, Biogen, Eli Lilly, Eisai, Fujirebio, GE Healthcare, Pfizer and Roche. In the past 2 years, he has received consultancy and/or speaker fees from AC Immune, Amylyx, ALZpath, BioArctic, Biogen, Cerveau, Eisai, Fujirebio, Genentech, Novartis, Roche and Siemens."
+    },
+    {
+      "name": "Blennow, Kaj",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "consultant on advisory boards or on data-monitoring committees for Abcam, Axon, BioArctic, Biogen, JOMDD–Shimadzu, Julius Clinical, Lilly, MagQu, Novartis, Ono Pharma, Pharmatrophix, Prothena, Roche Diagnostics and Siemens Healthineers and is a cofounder of Brain Biomarker Solutions in Gothenburg (BBS)"
+    },
+    {
+      "name": "Zetterberg, Henrik",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "served on scientific advisory boards and/or as a consultant for AbbVie, Acumen, Alector, Alzinova, ALZpath, Annexon, Apellis, Artery Therapeutics, AZTherapies, CogRx, Denali, Eisai, NervGen, Novo Nordisk, Passage Bio, Pinteon Therapeutics, Prothena, Red Abbey Labs, reMYND, Roche, Samumed, Siemens Healthineers, Triplet Therapeutics and Wave; has given lectures in symposia sponsored by Cellectricon, Fujirebio, AlzeCure, Biogen and Roche; and is a cofounder of Brain Biomarker Solutions in Gothenburg (BBS)"
+    },
+    {
+      "name": "Dage, Jeffrey",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "inventor on patents or patent applications of Eli Lilly relating to the assays, methods, reagents and/or compositions of matter related to measurement of p-tau217. J.D. has served as a consultant for AbbVie, Genotix Biotechnologies, Gates Ventures, Karuna Therapeutics, ALZpath and Cognito Therapeutics and received research support from ADx NeuroSciences, Fujirebio, ALZpath, Roche Diagnostics and Eli Lilly in the past 2 years. J.D. has received speaker fees from Eli Lilly."
+    }
+  ],
+  "first_author": "Hansson, Oskar",
+  "venue": "Nature aging",
+  "published": "2023",
+  "doi": "10.1038/s43587-023-00403-3",
+  "doi_url": "https://doi.org/10.1038/s43587-023-00403-3",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/37202517",
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": "Reprints and permissions information is available at www.nature.com/reprints ."
+  },
+  "tags": [
+    "review",
+    "biomarkers",
+    "amyloid",
+    "tau",
+    "plasma-p-tau217",
+    "clinical-implementation"
+  ],
+  "themes": [
+    "Transition of blood biomarkers to clinical practice",
+    "Superiority and robustness of plasma p-tau217",
+    "Cost and time reductions for clinical trials",
+    "Standardization of analytical assays"
+  ],
+  "one_line": "Blood-based biomarkers, particularly plasma p-tau217, show exceptional robustness and accuracy for diagnosing Alzheimer's disease and are poised to transform clinical practice and streamline trial recruitment.",
+  "summary": "This review evaluates the readiness of blood-based biomarkers (BBMs) for diagnosing and monitoring Alzheimer's disease (AD) in clinical practice and trials. The authors examine the performance of several plasma biomarkers, noting that plasma Aβ42/Aβ40 assays often suffer from low robustness due to small effect sizes and susceptibility to analytical variability. In contrast, plasma p-tau isoforms, specifically p-tau217, demonstrate a massive 300–700% increase in symptomatic AD, ensuring high diagnostic accuracy and resilience to comorbidities. BBMs are highly effective as prescreening tools in clinical trials to verify AD pathology, substantially reducing the need for expensive and invasive cerebrospinal fluid (CSF) tests or positron emission tomography (PET) scans. Despite these promising developments, the authors stress the necessity for further analytical standardization and real-world prospective validation in primary care. Ultimately, the review envisions a near-term shift where primary care physicians utilize blood tests alongside brief cognitive assessments to identify AD efficiently.",
+  "key_claims": [
+    {
+      "claim": "Plasma p-tau217 is superior to other plasma biomarkers (like Aβ42/Aβ40 and NfL) for AD diagnosis and prognosis due to its exceptional robustness.",
+      "evidence": "A 300–700% fold increase in symptomatic AD versus a minor 8–15% drop in Aβ42/Aβ40, making p-tau217 highly resistant to test-retest variability and analytical errors.",
+      "strength": "strong",
+      "location": "BBMs as diagnostic biomarkers in clinical practice / Robustness"
+    },
+    {
+      "claim": "Prescreening with blood-based biomarkers greatly reduces the cost and time required to enroll participants in Alzheimer's clinical trials.",
+      "evidence": "Retrospective models of the A4 trial show that initial blood testing drastically reduces the amount of confirmatory PET/CSF tests necessary to find Aβ-positive individuals.",
+      "strength": "strong",
+      "location": "BBMs as prescreening biomarkers in clinical trials"
+    },
+    {
+      "claim": "The plasma Aβ42/Aβ40 ratio has low clinical robustness and poses implementation difficulties for routine laboratory testing.",
+      "evidence": "Simulations show that minor increases in analytical total error (e.g., 10% bias) severely degrade the diagnostic performance of the Aβ42/Aβ40 ratio.",
+      "strength": "strong",
+      "location": "Robustness"
+    }
+  ],
+  "methods": {
+    "design": "review",
+    "n": null,
+    "population": null,
+    "duration": null,
+    "registration": null
+  },
+  "funding_and_conflicts": "Funded by multiple organizations including the Swedish Research Council, Knut and Alice Wallenberg Foundation, NIH, and Alzheimer's Association. Extensive conflicts declared: all authors have served on advisory boards, received consultancy/speaker fees, or acquired research support from multiple pharmaceutical and diagnostics companies (e.g., Biogen, Eli Lilly, Roche, Eisai). J.D. is an inventor on patents related to p-tau217 assays; K.B. and H.Z. are cofounders of Brain Biomarker Solutions.",
+  "limitations": [
+    "Most current data relies on retrospective cohorts rather than prospective real-world clinical use.",
+    "Lack of standardized pre-analytical and analytical methods limits universal laboratory implementation.",
+    "Uncertainty remains on how BBM performance translates specifically to highly heterogeneous primary care populations."
+  ],
+  "red_flags": [
+    "Authors hold patents (J.D.) or equity (K.B., H.Z.) directly related to the diagnostic biomarkers heavily praised in the review.",
+    "Strong optimistic framing for a clinical rollout 'revolution in the next 2-4 years' despite acknowledging missing standardizations and prospective primary care validations."
+  ],
+  "parse_quality": {
+    "score": 9,
+    "issues": [
+      "Loss of citation reference numbers leaving empty brackets '()'.",
+      "Occasional concatenated reference tags like 'refs. ,,'."
+    ]
+  },
+  "search_verification": [
+    "Did not perform web search as the explicit instructions to 'trust it' if stated were met, and avoiding searching for authors' info was mandated."
+  ]
+}

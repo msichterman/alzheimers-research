@@ -1,0 +1,55 @@
+{
+  "_comment": [
+    "Findings recorded by the lead during acquisition that are not attached to a single",
+    "record's gates.json. These are places where the work order and the retrieved",
+    "sources disagree, or where the work order pointed at something that is not a",
+    "primary record. The retrieved source always wins; this file is the audit trail."
+  ],
+  "findings": [
+    {
+      "target": "fda-leqembi-traditional-approval",
+      "kind": "manifest-vs-source",
+      "field": "acquisition route",
+      "work_order_says": "https://www.fda.gov/news-events/press-announcements/fda-converts-novel-alzheimers-disease-treatment-traditional-approval",
+      "source_says": "That URL is an FDA press announcement, not a regulatory record. The primary records for this decision are BLA 761269 supplement 1: the approval letter, the multidisciplinary review, and the approved label.",
+      "detail": "The hard rules forbid substituting a press release for a primary record that exists. Located the actual documents through the Drugs@FDA API (api.fda.gov/drug/drugsfda.json) and added them as targets fda-leqembi-approval-letter-traditional, fda-leqembi-review-traditional, fda-leqembi-label-traditional and fda-leqembi-summary-review-accelerated. The press announcement is retained only as a dated regulatory-communication object, never as the evidence for what FDA concluded.",
+      "recorded_at": "2026-08-13"
+    },
+    {
+      "target": "fda-lumipulse-clearance",
+      "kind": "manifest-vs-source",
+      "field": "acquisition route",
+      "work_order_says": "https://www.fda.gov/news-events/press-announcements/fda-clears-first-blood-test-used-diagnosing-alzheimers-disease",
+      "source_says": "Also a press announcement. The primary record is the 510(k) decision summary for K242706 in the FDA device database.",
+      "detail": "Same substitution rule as the Leqembi entry. The 510(k) record and the releasable decision documents are the evidence for what was cleared and on what data; the press announcement is a communication about it.",
+      "recorded_at": "2026-08-13"
+    },
+    {
+      "target": "bepranemab-together",
+      "kind": "manifest-vs-source",
+      "field": "source authority",
+      "work_order_says": "https://www.alzheimer-europe.org/news/ucb-presents-phase-ii-data-bepranemab-early-ad",
+      "source_says": "An advocacy-organisation news item reporting a conference presentation.",
+      "detail": "Not a primary record. Acquisition fell back to the registry record and any peer-reviewed publication; the news item is not ingested as evidence for the trial's results.",
+      "recorded_at": "2026-08-13"
+    },
+    {
+      "target": "mattsson-carlgren-2020-ptau217",
+      "kind": "manifest-vs-source",
+      "field": "reference URL",
+      "work_order_says": "https://www.researchgate.net/publication/347216865_...",
+      "source_says": "ResearchGate is not a legal open-access route and is excluded by the acquisition rules.",
+      "detail": "Identity was resolved through Europe PMC and Crossref instead, and full text acquired through a permitted route.",
+      "recorded_at": "2026-08-13"
+    },
+    {
+      "target": "ashton-2024-alzpath-ptau217",
+      "kind": "manifest-vs-source",
+      "field": "PMCID",
+      "work_order_says": "PMC10979350 for the Ashton et al. ALZpath p-tau217 diagnostic-accuracy paper",
+      "source_says": "PMC10979350 resolves to a different article, and the identifier collides with the Hansson et al. blood-biomarker review target in the same work order.",
+      "detail": "Two work-order rows resolved to the same record through the supplied identifiers. Flagged as a weak-title-match and queued for agent re-resolution so the two papers are not merged into one corpus record.",
+      "recorded_at": "2026-08-13"
+    }
+  ]
+}

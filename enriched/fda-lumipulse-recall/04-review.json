@@ -1,0 +1,60 @@
+{
+  "fact_check": [
+    {
+      "fact": "The recall involves 128 units.",
+      "status": "verified",
+      "note": "Matches 'Quantity in Commerce' in the FDA recall notice."
+    },
+    {
+      "fact": "The test yields a higher frequency of classification in the indeterminate and positive zone.",
+      "status": "verified",
+      "note": "Matches the 'Manufacturer Reason for Recall' in the FDA notice."
+    },
+    {
+      "fact": "The recall was initiated on December 11, 2025.",
+      "status": "verified",
+      "note": "Matches 'Date Initiated by Firm' in the FDA notice."
+    }
+  ],
+  "research_page": {
+    "slug": "fda-recall-lumipulse-plasma-ratio",
+    "title": "FDA Class 2 Recall: Lumipulse G pTau217/Aβ1-42 Plasma Ratio",
+    "description": "The FDA issued a Class 2 recall for the Lumipulse G plasma ratio test in February 2026 due to a high rate of false-positive and indeterminate results.",
+    "tags": [
+      "regulatory",
+      "biomarkers",
+      "plasma",
+      "recall"
+    ],
+    "source_line_md": "**Source**: U.S. Food & Drug Administration, 2026",
+    "authors_line_md": "U.S. Food & Drug Administration",
+    "takeaway_md": "In early 2026, the FDA issued a Class 2 device recall for the Lumipulse G pTau217/Aβ1-42 plasma ratio test. Post-market use revealed the test yielded an unexpectedly high frequency of false-positive and indeterminate results, challenging the high diagnostic specificity initially observed in clinical trials.",
+    "key_findings_md": [
+      "The test produced falsely elevated positive and indeterminate ratios when compared back to FDA-cleared CSF testing and PET imaging (FDA recall notice).",
+      "This defect risks incorrectly diagnosing patients with Alzheimer's-associated amyloid pathology or prompting unnecessary additional clinical testing (FDA recall notice).",
+      "The recall impacts 128 units distributed across multiple U.S. states (FDA recall notice)."
+    ],
+    "methods_md": "This is a Class 2 Device Recall notification posted by the FDA in February 2026. The manufacturer, Fujirebio Diagnostics, Inc., initiated the recall in December 2025 after observing inaccurate real-world results from distributed units.",
+    "trial_evidence_md": "Initial multicenter validation studies demonstrated high diagnostic accuracy for this plasma ratio. However, the FDA recall highlights a significant discrepancy, showing that the assay's real-world deployment suffered from low specificity and false-positive results that directly contradict the pristine performance seen in controlled clinical settings.",
+    "sentiment_md": "Public sentiment shifted from early enthusiasm for an accessible blood test to cautious skepticism following the recall. Scientific and medical commentary frames the event as an early warning about the premature clinical adoption of plasma biomarkers. Meanwhile, patient and caregiver communities remain largely quiet, suggesting the recall's specifics have not yet widely penetrated general consumer discussions.",
+    "caveats_md": [
+      "The notice is a regulatory action rather than a formal statistical analysis, meaning it does not provide exact real-world false-positive rates or confidence intervals.",
+      "The technical cause of the assay's failure remains under investigation by the manufacturer, leaving it unclear if the issue is a localized manufacturing defect or a broader systemic flaw in the assay's design."
+    ],
+    "relates_to_md": [
+      "[Biomarkers](/research/biomarkers) — This recall illustrates the challenges in translating plasma biomarkers from clinical trials into reliable real-world diagnostic tools.",
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — The recalled test measures Aβ1-42 and pTau217 to estimate the presence of amyloid pathology in the brain.",
+      "[Next Steps After an Alzheimer's Diagnosis](/journey/newly-diagnosed) — False-positive biomarker results can cause significant psychological distress and lead to inappropriate care planning."
+    ]
+  },
+  "trial_pages": [],
+  "timeline_entries": [
+    {
+      "section": "Diagnostics & Biomarkers",
+      "date": "2026-02",
+      "title": "2026-02 — FDA recalls Lumipulse plasma Alzheimer's test",
+      "body_md": "The FDA issued a Class 2 device recall for the Lumipulse G pTau217/Aβ1-42 plasma ratio test due to false-positive and indeterminate results, highlighting a gap between clinical trial performance and real-world reliability. See [FDA Recall Notice](/research/papers/fda-recall-lumipulse-plasma-ratio)."
+    }
+  ],
+  "notes_for_editor": []
+}

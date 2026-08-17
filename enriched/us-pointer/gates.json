@@ -1,0 +1,36 @@
+{
+  "id": "us-pointer",
+  "cluster": "prevention",
+  "checked_at": "2026-08-13T17:02:33.025Z",
+  "passed": false,
+  "text_sufficiency": {
+    "level": "abstract-only",
+    "chars": 5296,
+    "sections": [
+      "result",
+      "outcome",
+      "participants"
+    ]
+  },
+  "evidence_completeness": "full-text-oa",
+  "failures": [
+    {
+      "gate": "file",
+      "detail": "extracted text is abstract-only (5296 chars, sections: result/outcome/participants) — not sufficient for an evidence record"
+    },
+    {
+      "gate": "evidence",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing)"
+    },
+    {
+      "gate": "fidelity",
+      "detail": "no independent critic pass (enriched/<id>/07-fidelity.json missing)"
+    },
+    {
+      "gate": "critical-review",
+      "detail": "no record to review"
+    }
+  ],
+  "warnings": [],
+  "manifest_discrepancies": []
+}

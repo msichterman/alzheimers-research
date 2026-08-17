@@ -1,0 +1,189 @@
+{
+  "kind": "research-paper",
+  "title": "Plasma GFAP is an early marker of amyloid-β but not tau pathology in Alzheimer’s disease",
+  "authors": [
+    {
+      "name": "Pereira, Joana B.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "reports no competing interests"
+    },
+    {
+      "name": "Janelidze, Shorena",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "reports no competing interests"
+    },
+    {
+      "name": "Smith, Ruben",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "reports no competing interests"
+    },
+    {
+      "name": "Mattsson-Carlgren, Niklas",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "reports no competing interests"
+    },
+    {
+      "name": "Palmqvist, Sebastian",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "has served at scientific advisory boards for Geras Solutions and Hoffmann-La Roche"
+    },
+    {
+      "name": "Teunissen, Charlotte E.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "reports no competing interests"
+    },
+    {
+      "name": "Zetterberg, Henrik",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "has served at scientific advisory boards for Denali, Roche Diagnostics, Wave, Samumed and CogRx, has given lectures in symposia sponsored by Fujirebio, Alzecure and Biogen, and is a co-founder of Brain Biomarker Solutions in Gothenburg AB"
+    },
+    {
+      "name": "Stomrud, Erik",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "reports no competing interests"
+    },
+    {
+      "name": "Ashton, Nicholas J.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "reports no competing interests"
+    },
+    {
+      "name": "Blennow, Kaj",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "has served as a consultant or at advisory boards for Abcam, Axon, Biogen, Lilly, MagQu, Novartis and Roche Diagnostics, and is a co-founder of Brain Biomarker Solutions in Gothenburg AB"
+    },
+    {
+      "name": "Hansson, Oskar",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "has acquired research support (for the institution) from AVID Radiopharmaceuticals, Biogen, Eli Lilly, Eisai, GE Healthcare, Pfizer and Roche. In the past 2 years, he has received consultancy/speaker fees from AC Immune, Alzpath, Biogen, Cerveau and Roche"
+    }
+  ],
+  "first_author": "Pereira, Joana B.",
+  "venue": "Brain",
+  "published": "2021-07",
+  "doi": "10.1093/brain/awab223",
+  "doi_url": "https://doi.org/10.1093/brain/awab223",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/34259835",
+  "copyright": null,
+  "license": {
+    "name": "CC BY-NC 4.0",
+    "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "reuse": "redistribute",
+    "evidence": "This is an Open Access article distributed under the terms of the Creative Commons Attribution-NonCommercial License ( https://creativecommons.org/licenses/by-nc/4.0/ ), which permits non-commercial re-use, distribution, and reproduction in any medium, provided the original work is properly cited."
+  },
+  "tags": [
+    "paper",
+    "amyloid",
+    "tau",
+    "inflammation",
+    "biomarkers",
+    "gfap",
+    "astrocytosis",
+    "plasma-biomarkers"
+  ],
+  "themes": [
+    "Plasma GFAP as a biomarker for early Alzheimer's disease",
+    "Astrocytosis relationship with amyloid-β pathology",
+    "Plasma versus CSF GFAP performance",
+    "Mediation of amyloid-β effects on tau accumulation",
+    "Prediction of cognitive decline via astrocytic markers"
+  ],
+  "one_line": "Plasma GFAP is a highly sensitive and accessible early biomarker of astrocytosis driven by amyloid-β pathology in Alzheimer's disease, outperforming CSF GFAP in predicting amyloid status and future cognitive decline.",
+  "summary": "This prospective cohort study evaluated the utility of plasma and CSF GFAP as biomarkers for astrocytosis and classical Alzheimer's disease pathologies in vivo. Researchers analyzed 504 participants from the Swedish BioFINDER-2 cohort, spanning cognitively unimpaired individuals to those with dementia and non-Alzheimer's neurodegenerative disorders. They discovered that plasma GFAP is significantly elevated in early Alzheimer's disease stages, correlating strongly with amyloid-β-PET burden even in cognitively unimpaired individuals with normal baseline amyloid levels. In contrast, plasma GFAP was not independently associated with tau pathology after controlling for amyloid-β burden. Plasma GFAP demonstrated higher diagnostic accuracy for predicting an amyloid-β-positive status compared to CSF GFAP and other glial markers such as YKL-40 and sTREM2. Longitudinal analyses further revealed that plasma GFAP predicts both future amyloid-β accumulation and cognitive decline, and it may mediate the effect of amyloid-β on tau accumulation. Ultimately, plasma GFAP emerges as a specific, non-invasive early marker of astrocytosis secondary to amyloid pathology.",
+  "key_claims": [
+    {
+      "claim": "Plasma GFAP is significantly elevated in individuals with early amyloid-β pathology.",
+      "evidence": "Group comparisons showed elevated plasma GFAP levels in amyloid-β-positive cognitively unimpaired and cognitively impaired individuals compared to amyloid-β-negative groups (P < 0.01).",
+      "strength": "strong",
+      "location": "Results / Plasma GFAP is associated with early amyloid-β pathology / Figure 1"
+    },
+    {
+      "claim": "Plasma GFAP correlates with amyloid-β-PET burden independently of tau-PET burden.",
+      "evidence": "Linear regression models showed significant associations between plasma GFAP and global amyloid-β-PET burden across multiple groups (e.g., all cognitively unimpaired, t = 4.24, P < 0.001) that remained significant after controlling for tau-PET.",
+      "strength": "strong",
+      "location": "Results / Plasma and CSF GFAP concentrations are associated with amyloid-β-PET independently of tau-PET burden / Figure 2"
+    },
+    {
+      "claim": "Plasma GFAP predicts an amyloid-β-positive status more accurately than CSF GFAP, sTREM2, and YKL-40.",
+      "evidence": "Receiver operating curve (ROC) analyses yielded an AUC of 0.761 for plasma GFAP in the whole sample, which was significantly better than CSF GFAP (0.694), CSF sTREM2 (0.643), and CSF YKL-40 (0.706).",
+      "strength": "strong",
+      "location": "Results / Plasma GFAP identifies an amyloid-β-positive status more accurately than CSF GFAP and other glial markers / Table 2"
+    },
+    {
+      "claim": "Plasma GFAP predicts longitudinal amyloid-β accumulation and cognitive decline.",
+      "evidence": "Linear mixed models found plasma GFAP predicted longitudinal amyloid-β deposition (t = 2.888, P = 0.004) and cognitive decline on the MMSE (t = -3.303, P = 0.001) in the pooled sample after adjusting for covariates.",
+      "strength": "moderate",
+      "location": "Results / Plasma GFAP concentration is associated with longitudinal amyloid-β accumulation determined by PET"
+    },
+    {
+      "claim": "Astrocytosis may partially mediate the relationship between amyloid-β and tau pathology.",
+      "evidence": "Mediation analyses found that plasma GFAP mediated the effect of global amyloid-β-PET on tau-PET across multiple Braak stages in cognitively unimpaired and impaired individuals.",
+      "strength": "weak",
+      "location": "Results / Plasma GFAP may partially mediate the relationship between amyloid-β-PET and tau-PET over the course of Alzheimer’s disease"
+    }
+  ],
+  "methods": {
+    "design": "prospective cohort study",
+    "n": 504,
+    "population": "cognitively unimpaired controls, mild cognitive impairment, Alzheimer's disease dementia, and non-Alzheimer's disease neurodegenerative disorders from the Swedish BioFINDER-2 cohort",
+    "duration": "median 1.7 to 1.9 years follow-up for longitudinal subsample",
+    "registration": "NCT03174938"
+  },
+  "funding_and_conflicts": "Funded by the Swedish Research Council, Knut and Alice Wallenberg foundation, Marianne and Marcus Wallenberg foundation, Strategic Research Area MultiPark, Swedish Alzheimer Foundation, Swedish Brain Foundation, and others. PET precursors provided by GE Healthcare and Roche. Conflicts: S. Palmqvist (Geras Solutions, Hoffmann-La Roche), H. Zetterberg (Denali, Roche Diagnostics, Wave, Samumed, CogRx, Fujirebio, Alzecure, Biogen, Brain Biomarker Solutions), K. Blennow (Abcam, Axon, Biogen, Lilly, MagQu, Novartis, Roche Diagnostics, Brain Biomarker Solutions), O. Hansson (AVID Radiopharmaceuticals, Biogen, Eli Lilly, Eisai, GE Healthcare, Pfizer, Roche, AC Immune, Alzpath, Cerveau). All other authors report no competing interests.",
+  "limitations": [
+    "Lack of serial longitudinal measures for plasma and CSF GFAP to establish temporal trajectories over the course of the disease.",
+    "Short follow-up period (~2 years) with only one follow-up for amyloid-β-PET and two for cognition, potentially limiting the ability to detect stronger longitudinal effects.",
+    "Did not utilize an astrocytosis-specific PET imaging tracer (e.g., 11C-deuterium-L-deprenyl) to assess the relationship between plasma GFAP and regional brain astrocytosis."
+  ],
+  "red_flags": [
+    "Using cross-sectional global amyloid-β-PET SUVR as a 'proxy for time' in spline models relies on the strong, unproven assumption that amyloid accumulation is perfectly linear and uniform with disease time.",
+    "Inferring that astrocytosis might contribute to tau accumulation via mediation analysis, which inherently cannot establish true causality or directionality from these observational data.",
+    "Longitudinal results for amyloid accumulation and cognitive decline were significant in the whole sample but failed to reach significance when cognitively impaired and unimpaired groups were analyzed separately, suggesting the effect may be driven by baseline group differences rather than intra-group predictive power."
+  ],
+  "parse_quality": {
+    "score": 7,
+    "issues": [
+      "The full author byline and their affiliations were completely omitted during PDF-to-Markdown conversion.",
+      "Minor ligature and spacing artifacts persist (e.g., 'amyloid-β42/40' lacking spacing).",
+      "Table 1 has disjointed formatting with misaligned or missing headers for several rows.",
+      "Table 2 is missing the leftmost column header for the statistical metrics.",
+      "The references list is poorly formatted and completely lacks article titles for several entries."
+    ]
+  },
+  "search_verification": [
+    "Searched Crossref API for DOI 10.1093/brain/awab223 to verify publication details and retrieve the missing author list, since the PDF-to-Markdown conversion completely stripped the author byline and affiliations."
+  ]
+}

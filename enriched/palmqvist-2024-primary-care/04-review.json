@@ -1,0 +1,116 @@
+{
+  "fact_check": [
+    {
+      "fact": "The APS2 blood test has a diagnostic accuracy range of 88-92% in primary and secondary care cohorts.",
+      "status": "verified",
+      "note": "Matches the abstract's reported diagnostic accuracy range of 88%-92%."
+    },
+    {
+      "fact": "Primary care physicians had a diagnostic accuracy of 61% and dementia specialists had 73% using standard clinical evaluation.",
+      "status": "verified",
+      "note": "Matches the abstract's Results section exactly."
+    },
+    {
+      "fact": "The percentage of p-tau217 alone provides diagnostic accuracy equivalent to the combined APS2 score.",
+      "status": "verified",
+      "note": "Abstract confirms APS2 (90%) was not statistically different from p-tau217 alone (90%) in the overall population."
+    }
+  ],
+  "research_page": {
+    "slug": "aps2-blood-biomarkers-primary-care-jama-2024",
+    "title": "Blood Biomarkers to Detect Alzheimer Disease in Primary and Secondary Care (JAMA 2024)",
+    "description": "A prospective study showing the APS2 blood test achieves 88-92% diagnostic accuracy for Alzheimer's pathology, outperforming standard clinical evaluations.",
+    "tags": [
+      "paper",
+      "biomarkers",
+      "blood-test",
+      "primary-care",
+      "amyloid",
+      "tau"
+    ],
+    "source_line_md": "**Source**: [JAMA, 2024](https://doi.org/10.1001/jama.2024.13855) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/39068545)",
+    "authors_line_md": "Palmqvist et al. — Skane University Hospital",
+    "takeaway_md": "The APS2 blood test (combining p-tau217 and Aβ42/40 ratios) accurately detects Alzheimer's disease pathology in approximately 90% of patients with cognitive symptoms. It significantly outperforms standard diagnostic evaluations by both primary care physicians and dementia specialists, highlighting its potential to dramatically improve and streamline Alzheimer's diagnosis in routine practice.",
+    "key_findings_md": [
+      "The APS2 blood test demonstrated 88% to 92% diagnostic accuracy for Alzheimer's pathology across primary and secondary care cohorts (JAMA abstract).",
+      "Standard clinical evaluation yielded a diagnostic accuracy of only 61% for primary care physicians and 73% for dementia specialists, compared to 91% using the APS2 test (JAMA abstract).",
+      "The percentage of p-tau217 alone achieved a diagnostic accuracy of 90%, showing no statistical difference from the combined APS2 score (JAMA abstract)."
+    ],
+    "methods_md": "A prospective cohort study of 1,213 patients (mean age 74.2 years, 48% women) undergoing clinical evaluation for cognitive symptoms in primary and secondary care settings in Sweden. The study ran from February 2020 to January 2024, evaluating predefined cutoff values for the APS2 blood test.",
+    "trial_evidence_md": "This paper reports findings from the Swedish BioFINDER primary care ([NCT06120361](/trials/biofinder-primary-care-nct06120361)) and secondary care ([NCT03174938](/trials/biofinder-2-nct03174938)) cohorts. The prospective evidence strongly supports the clinical utility of the APS2 biomarker (commercially available as PrecivityAD2) for detecting Alzheimer's pathology. The test is increasingly being integrated into both therapeutic endpoint strategies and dedicated diagnostic workflow trials.",
+    "sentiment_md": "Public perception is overwhelmingly hopeful, heavily influenced by media headlines emphasizing the test's high accuracy over human doctors ([HealthDay News](https://www.healthday.com/health-news/neurology/blood-test-91-accurate-at-predicting-alzheimers-outperforming-doctors)). However, patient communities and the broader public frequently misinterpret the test as a standalone \"lie-detector\" for clinical dementia or an asymptomatic screening tool, rather than a measure of pathology that must be contextualized with observed cognitive symptoms.",
+    "caveats_md": [
+      "The blood test detects the presence of underlying Alzheimer's pathology (amyloid and tau), which does not automatically equate to a clinical diagnosis of dementia without corresponding cognitive symptoms.",
+      "The available text is limited to the abstract, obscuring detailed methodological limitations, specific demographic diversity of the Swedish cohorts, and full financial disclosures of the authors."
+    ],
+    "relates_to_md": [
+      "[Biomarkers](/research/biomarkers) — Discusses the utility of fluid biomarkers like p-tau217 and Aβ42/40 in clinical practice.",
+      "[BioFINDER - Primary Care](/trials/biofinder-primary-care-nct06120361) — The primary care trial cohort from which this data is drawn.",
+      "[BioFINDER 2](/trials/biofinder-2-nct03174938) — The secondary care memory clinic trial cohort utilized in this study."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "biofinder-primary-care-nct06120361",
+      "title": "BioFINDER - Primary Care",
+      "description": "A prospective trial evaluating the diagnostic accuracy of the PrecivityAD2/APS2 blood test in primary care patients with mild cognitive symptoms.",
+      "badge": "Recruiting",
+      "tags": [
+        "trial",
+        "primary-care",
+        "biomarkers",
+        "blood-test",
+        "diagnostic"
+      ],
+      "registry_md": "[NCT06120361](https://clinicaltrials.gov/study/NCT06120361)",
+      "drug": "PrecivityAD2 / APS2 (Diagnostic Test)",
+      "phase": "n/a",
+      "sponsor": "Skane University Hospital",
+      "population": "Patients seeking medical care due to mild cognitive symptoms in primary care units.",
+      "primary_endpoint": "Presence of brain AD pathology as determined by CSF AD biomarkers",
+      "started": "2020-01",
+      "readout": "2028-12",
+      "why_md": "This study evaluates whether blood-based biomarkers like the APS2 score can accurately detect Alzheimer's pathology in primary care settings, where access to specialized imaging or CSF tests is typically limited. It provides key real-world validation for integrating blood tests into frontline cognitive evaluations. See [Biomarkers](/research/biomarkers) for more context.",
+      "status_log_md": [
+        "**2024-07-28** — JAMA publishes findings showing 88-92% diagnostic accuracy for the APS2 algorithm in the primary care cohort, outperforming standard physician evaluation. ([JAMA](https://doi.org/10.1001/jama.2024.13855))"
+      ],
+      "results_md": "A 2024 readout reported in JAMA demonstrated that the APS2 blood test achieved 88% to 92% diagnostic accuracy in the primary care cohort, compared to only 61% for standard clinical evaluation by primary care physicians."
+    },
+    {
+      "slug": "biofinder-2-nct03174938",
+      "title": "BioFINDER 2",
+      "description": "A large prospective study assessing blood and CSF biomarkers across healthy individuals and patients with cognitive symptoms in secondary care.",
+      "badge": "Recruiting",
+      "tags": [
+        "trial",
+        "secondary-care",
+        "biomarkers",
+        "diagnostic"
+      ],
+      "registry_md": "[NCT03174938](https://clinicaltrials.gov/study/NCT03174938)",
+      "drug": "Biomarkers including p-tau217 / Abeta42 (Diagnostic Test)",
+      "phase": "n/a",
+      "sponsor": "Skane University Hospital",
+      "population": "Healthy individuals, SCD/MCI, AD dementia, and other dementias evaluated in memory clinics (secondary care).",
+      "primary_endpoint": "Clinical diagnosis according to consensus group decision blinded to the diagnostic test",
+      "started": "2017-05",
+      "readout": "2036-12",
+      "why_md": "This expansive cohort study aims to validate fluid and imaging biomarkers for Alzheimer's and related dementias in specialized memory clinic settings. It serves as a foundational dataset for comparing novel blood tests against gold-standard evaluations by dementia specialists.",
+      "status_log_md": [
+        "**2024-07-28** — JAMA publishes findings showing the APS2 test achieved approximately 91% diagnostic accuracy in the secondary care cohort, significantly outperforming standard evaluation by dementia specialists. ([JAMA](https://doi.org/10.1001/jama.2024.13855))"
+      ],
+      "results_md": "In a 2024 JAMA publication, the APS2 blood test demonstrated high diagnostic accuracy (~91%) in the secondary care cohort, superior to the 73% diagnostic accuracy achieved by dementia specialists using standard clinical evaluation."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Biomarkers",
+      "date": "2024-07",
+      "title": "2024-07 — APS2 blood test demonstrates high diagnostic accuracy in primary care",
+      "body_md": "A prospective study published in JAMA showed the APS2 blood test accurately detected Alzheimer's pathology in about 90% of symptomatic patients, significantly outperforming standard clinical evaluations by both primary care doctors and specialists. ([Blood Biomarkers to Detect Alzheimer Disease in Primary and Secondary Care](/research/papers/aps2-blood-biomarkers-primary-care-jama-2024))"
+    }
+  ],
+  "notes_for_editor": [
+    "Only the abstract of the JAMA article was available for this review. Recommend flagging this page for a future update to extract detailed demographic limitations and financial disclosures from the full manuscript."
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT01409915",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01409915",
+      "name": "Pilot Phase 2 Trial of GM-CSF (Leukine) in Alzheimer's Disease",
+      "drug": "Sargramostim (GM-CSF)",
+      "phase": "2",
+      "sponsor": "University of Colorado, Denver",
+      "status": "Completed",
+      "enrollment": 44,
+      "population": "Adults 55-85 years old with mild-to-moderate Alzheimer's disease (MMSE 10-26) and elevated cortical amyloid",
+      "primary_endpoint": "Adverse Events (AEs) by Body System",
+      "started": "2011-03",
+      "completed_or_readout": "2019-12",
+      "results_summary": "Sargramostim was generally safe. While MMSE scores showed a 1.45 unit improvement from a significantly lower baseline, ADAS-Cog13 scores worsened compared to placebo at follow-up.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04902703",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04902703",
+      "name": "Phase II Trial to Evaluate Safety and Efficacy of GM-CSF/Sargramostim in Alzheimer's Disease",
+      "drug": "Sargramostim (GM-CSF)",
+      "phase": "2",
+      "sponsor": "University of Colorado, Denver",
+      "status": "Recruiting",
+      "enrollment": 42,
+      "population": "Adults 60-85 years old with probable mild or moderate Alzheimer's disease and positive amyloid biomarkers",
+      "primary_endpoint": "Safety as measured by number of Adverse Events (AEs) by body system",
+      "started": "2022-06",
+      "completed_or_readout": "2026-11",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02667496",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02667496",
+      "name": "Safety Study of Sargramostim in Treating Patients With Mild Cognitive Impairment Due to Alzheimer's Disease",
+      "drug": "Sargramostim (GM-CSF)",
+      "phase": "2",
+      "sponsor": "Sanofi",
+      "status": "Terminated",
+      "enrollment": 0,
+      "population": "Adults 40-80 years old with mild cognitive impairment (MCI) due to Alzheimer's disease",
+      "primary_endpoint": "Change from baseline in standardized uptake value ratio as measured by PET using florbetapir F18 (Amyvid)",
+      "started": "2016-11",
+      "completed_or_readout": "2017-03",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2021-03-24",
+      "kind": "paper",
+      "description": "Phase II trial reporting safety, immune activation, and mixed cognitive outcomes for sargramostim in Alzheimer's disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33778150"
+    },
+    {
+      "date": "2021-03-23",
+      "kind": "registry-results",
+      "description": "ClinicalTrials.gov results posting for NCT01409915 showing baseline imbalances and mixed cognitive outcomes.",
+      "url": "https://clinicaltrials.gov/study/NCT01409915"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence for sargramostim (GM-CSF) in Alzheimer's disease relies almost entirely on a single, short-duration (3-week treatment), underpowered (N=40 analyzed) Phase 2 trial (NCT01409915). While the trial met its primary safety endpoint and showed exploratory improvements in MMSE and some plasma biomarkers, these findings are severely confounded by a significant baseline cognitive imbalance between the treatment and placebo groups. Furthermore, the standard cognitive endpoint ADAS-Cog13 showed no benefit and actually worsened at follow-up. An earlier Sanofi-sponsored Phase 2 trial (NCT02667496) was withdrawn due to slow recruitment, leaving an ongoing Phase 2 trial (NCT04902703) as the only active attempt to replicate these highly preliminary and tenuous findings. Overall, current evidence is weak and insufficient to demonstrate clinical cognitive efficacy.",
+  "discrepancies": [
+    "The document claims 'no drug-related serious adverse events', but the registry lists 1 serious adverse event (Myocardial Infarction) in the sargramostim group, which was presumably deemed unrelated by investigators.",
+    "The registry confirms the document's red flag of severe baseline imbalance in cognitive scores (MMSE: placebo 20.75 vs sargramostim 17.10; ADAS-Cog13: placebo 36.20 vs sargramostim 43.20), casting doubt on the reliability of the cognitive benefit claims.",
+    "While the document highlights MMSE improvement, the registry results show that on the ADAS-Cog13 scale, the sargramostim group worsened at the 45-day follow-up (score increased from 43.20 to 47.67) compared to placebo (36.20 to 36.33)."
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT01208675",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01208675",
+      "name": "BioFINDER-1 (The Swedish BioFINDER Study)",
+      "drug": "plasma p-tau181 (Diagnostic Biomarker)",
+      "phase": "n/a",
+      "sponsor": "Skane University Hospital",
+      "status": "Completed",
+      "enrollment": 1150,
+      "population": "Cognitively healthy elderly, mild cognitive impairment, Alzheimer's dementia, and other dementias",
+      "primary_endpoint": "Time to conversion to clinically probable AD in MCI subjects or healthy elderly subjects with normal and abnormal biomarkers",
+      "started": "2010-09",
+      "completed_or_readout": "2024-12",
+      "results_summary": "Established foundational evidence that CSF and plasma biomarkers, including p-tau, can accurately identify AD pathology and predict clinical progression.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03174938",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03174938",
+      "name": "BioFINDER-2 (The Swedish BioFINDER 2 Study)",
+      "drug": "plasma p-tau181 (Diagnostic Biomarker)",
+      "phase": "n/a",
+      "sponsor": "Skane University Hospital",
+      "status": "Recruiting",
+      "enrollment": 2950,
+      "population": "Cognitively healthy individuals, patients with subjective cognitive decline, mild cognitive impairment, Alzheimer's disease and other neurodegenerative diseases",
+      "primary_endpoint": "Clinical diagnosis",
+      "started": "2017-05",
+      "completed_or_readout": "2036-12",
+      "results_summary": "Interim baseline findings evaluated plasma p-tau181 and other markers, establishing strong diagnostic accuracy for p-tau181 in distinguishing Alzheimer's disease.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT06120361",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06120361",
+      "name": "The Swedish BioFINDER - Primary Care Study",
+      "drug": "plasma p-tau181 (Diagnostic Biomarker)",
+      "phase": "n/a",
+      "sponsor": "Skane University Hospital",
+      "status": "Recruiting",
+      "enrollment": 1200,
+      "population": "Patients seeking medical care due to mild cognitive symptoms in primary care units",
+      "primary_endpoint": "Presence of brain AD pathology as determined by CSF AD biomarkers",
+      "started": "2020-01",
+      "completed_or_readout": "2028-12",
+      "results_summary": "Pilot and early data from this setting demonstrated the utility of p-tau181 in non-specialized settings, although initial study samples lacked PET or CSF validation.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01231971",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01231971",
+      "name": "Alzheimer's Disease Neuroimaging Initiative 2 (ADNI-2)",
+      "drug": "plasma p-tau181 (Diagnostic Biomarker)",
+      "phase": "n/a",
+      "sponsor": "University of Southern California",
+      "status": "Completed",
+      "enrollment": 1182,
+      "population": "Normal controls, mild cognitive impairment, and mild Alzheimer's disease",
+      "primary_endpoint": "Rate of volume change of whole brain, hippocampus and other structural MRI measures",
+      "started": "2011-02",
+      "completed_or_readout": "2017-11",
+      "results_summary": "Subsequent studies utilizing ADNI samples fully validated the plasma p-tau181 assay's diagnostic performance and its ability to predict clinical progression.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT00869817",
+      "registry_url": "https://clinicaltrials.gov/study/NCT00869817",
+      "name": "Dominantly Inherited Alzheimer Network (DIAN)",
+      "drug": "plasma p-tau181 (Diagnostic Biomarker)",
+      "phase": "n/a",
+      "sponsor": "Washington University School of Medicine",
+      "status": "Recruiting",
+      "enrollment": 700,
+      "population": "Individuals at risk for carrying a mutation for early-onset familial Alzheimer's disease",
+      "primary_endpoint": "Positive predictive power of a biomarker or group of biomarkers",
+      "started": "2009-01",
+      "completed_or_readout": "2026-09",
+      "results_summary": "Longitudinal analysis of DIAN samples showed that plasma p-tau181 increases early in presymptomatic familial AD and tracks well with disease progression.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2021-02",
+      "kind": "paper",
+      "description": "Validation of plasma p-tau181 in the independent ADNI cohort, demonstrating accurate diagnosis and prediction of clinical progression.",
+      "url": "https://doi.org/10.1038/s41380-020-00923-z"
+    },
+    {
+      "date": "2021-10",
+      "kind": "paper",
+      "description": "Validation of plasma p-tau181 in presymptomatic and symptomatic familial Alzheimer's disease within the DIAN cohort.",
+      "url": "https://doi.org/10.1038/s41380-020-0838-x"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence supporting plasma p-tau181 as a diagnostic and prognostic biomarker for Alzheimer's disease is highly robust and extensively replicated. This 2020 document serves as a foundational interim readout from the Swedish BioFINDER observational cohorts, establishing the ultrasensitive assay's high accuracy for differentiating AD from other neurodegenerative diseases. While the document's longitudinal claims were initially based on a very small subset (n=88), subsequent large-scale analyses in independent cohorts like ADNI and DIAN have confirmed these findings. Today, plasma p-tau assays (including p-tau181 and p-tau217) are widely recognized as accurate, scalable blood-based biomarkers for AD pathology, paving the way for clinical use and trial prescreening.",
+  "discrepancies": [
+    "The document presents data from a 'primary-care cohort' claiming it differentiates AD, but the formal Swedish BioFINDER Primary Care Study (NCT06120361) only officially began in January 2020 (and was posted to CT.gov in 2023). This indicates the paper likely used an early pilot or retrospective samples, and as noted in the paper's limitations, this specific cohort lacked independent PET or CSF biomarker confirmation for AD diagnosis.",
+    "The document's claims about the biomarker predicting one-year cognitive decline and hippocampal atrophy are based on a heavily restricted longitudinal subset (n=88) rather than the full cohort of 1,131 participants, representing an extremely early interim analysis of long-term cohorts like BioFINDER-2 that are scheduled to run until 2036."
+  ]
+}

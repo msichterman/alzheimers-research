@@ -1,0 +1,83 @@
+{
+  "fact_check": [
+    {
+      "fact": "644,188 total individuals in the meta-analysis",
+      "status": "verified",
+      "note": "Checked against text: 54,233 AD cases + 46,828 proxy cases + 543,127 controls = 644,188."
+    },
+    {
+      "fact": "Two novel loci (TRANK1 and VWA5B2) failed to replicate in an independent cohort",
+      "status": "corrected",
+      "note": "The analyst states both failed to replicate, but the text specifies VWA5B2 had an opposite effect direction in the East Asian cohort, while TRANK1 could not be tested at all because the SNP was absent from the dataset."
+    },
+    {
+      "fact": "Multi-ancestry PRS achieved an AUC of 79% in the admixed Colombian cohort",
+      "status": "verified",
+      "note": "Checked against Results/Polygenic risk scoring text: 79% with APOE variants, outperforming the 75% European-derived score."
+    }
+  ],
+  "research_page": {
+    "slug": "multi-ancestry-gwas-alzheimers-2023",
+    "title": "Multi-ancestry meta-analysis and fine-mapping in Alzheimer's disease",
+    "description": "A diverse genome-wide association study of 644,188 individuals improves fine-mapping resolution for known targets like progranulin (GRN) and evaluates multi-ancestry genetic risk scores.",
+    "tags": [
+      "paper",
+      "genetics",
+      "gwas",
+      "multi-ancestry",
+      "polygenic-risk-score"
+    ],
+    "source_line_md": "**Source**: [Molecular Psychiatry, 2023](https://doi.org/10.1038/s41380-023-02089-w) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/37198259)",
+    "authors_line_md": "Julie Lake et al. — Data Tecnica International LLC / NIH",
+    "takeaway_md": "This meta-analysis highlights the concrete value of diversifying genetic datasets beyond European populations. By including East Asian, African American, and Caribbean Hispanic cohorts, the study successfully pinpointed single likely causal variants at nine known Alzheimer's risk loci (including *GRN*) and demonstrated that multi-ancestry polygenic risk scores are significantly better at predicting disease in admixed populations.",
+    "key_findings_md": [
+      "Improved fine-mapping resolution at nine known risk loci to a 99% credible set of 1–2 variants, including *GRN*, *RHOH*, and *CTSB* (paper, Table 2).",
+      "Multi-ancestry polygenic risk scores achieved a 79% predictive AUC in an admixed Colombian cohort, outperforming the 75% AUC of European-only scores (paper, Fig. 4).",
+      "Nominated two putative new risk loci on chromosome 3 (*TRANK1* and *VWA5B2*), though the statistical signals were sub-significant in the primary model."
+    ],
+    "methods_md": "Multi-ancestry genome-wide association study (GWAS) meta-analysis evaluating 644,188 individuals (54,233 clinical AD cases, 46,828 proxy-AD cases, and 543,127 controls). Cohorts incorporated European, East Asian, African American, and Caribbean Hispanic ancestries.",
+    "trial_evidence_md": "This study provides genetic validation for established clinical targets rather than evaluating interventions. Notably, it successfully fine-mapped the *GRN* locus to a single likely causal variant. *GRN* encodes progranulin, the target of several active clinical programs including [PROGRESS-AD](/trials/progress-ad-nct06079190), a Phase 2 trial of the monoclonal antibody AL101/GSK4527226 in early Alzheimer's.",
+    "sentiment_md": "Public perception is exceptionally quiet outside of academic circles. Specialized genetic and bioinformatics communities focus heavily on the study's methodological implications—specifically the urgent need for non-European genomic data to address Eurocentric bias in risk prediction—rather than focusing on the weakly supported novel risk loci.",
+    "caveats_md": [
+      "The practical utility of the multi-ancestry polygenic risk scores was tested solely in an admixed Colombian cohort; broad validation across other heavily admixed global populations is needed to confirm true generalizability.",
+      "The discovery of the two 'novel' loci is statistically fragile; the field requires rigorous replication before treating them as definitive Alzheimer's risk factors.",
+      "Because roughly 85% of the underlying genomic data remains European, the mathematical ability to fine-map variants that are unique to African or Asian ancestries is still fundamentally restricted."
+    ],
+    "relates_to_md": [
+      "[Biomarkers](/research/biomarkers) — Genetic risk profiling (like the polygenic risk scores evaluated here) is a foundational component of modern biomarker development."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "progress-ad-nct06079190",
+      "title": "PROGRESS-AD (AL101 in Early Alzheimer's)",
+      "description": "Phase 2 trial evaluating the progranulin-elevating antibody AL101/GSK4527226 in participants with amyloid-positive early Alzheimer's disease.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "phase-2",
+        "al101",
+        "progranulin",
+        "grn"
+      ],
+      "registry_md": "[NCT06079190](https://clinicaltrials.gov/study/NCT06079190)",
+      "drug": "AL101 / GSK4527226 (Progranulin-elevating monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "GlaxoSmithKline / Alector Inc.",
+      "population": "Participants with early Alzheimer's disease (MCI due to AD and mild AD dementia) with amyloid positivity",
+      "primary_endpoint": "Change from Baseline in CDR-SB Score for Dose 1 vs Placebo Across Weeks 52, 64 and 76",
+      "started": "2023-10",
+      "readout": "2026-09 / expected",
+      "why_md": "Genetic studies consistently link *GRN* (progranulin) variants to neurodegenerative diseases. This trial tests whether artificially elevating progranulin levels with a monoclonal antibody can slow cognitive and functional decline in early Alzheimer's.",
+      "status_log_md": [
+        "**2023-10-01** — Trial initiated ([Registry](https://clinicaltrials.gov/study/NCT06079190))."
+      ],
+      "results_md": null
+    }
+  ],
+  "timeline_entries": [],
+  "notes_for_editor": [
+    "I corrected the analyst's claim about the TRANK1 replication failure; the SNP was simply missing from the replication dataset, so it wasn't a 'failure' to replicate, just an inability to test.",
+    "Created a trial page for PROGRESS-AD (AL101) as it directly acts on the GRN locus successfully fine-mapped in this document, making it a pivotal related program."
+  ]
+}

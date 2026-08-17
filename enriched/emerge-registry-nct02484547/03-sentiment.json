@@ -1,0 +1,69 @@
+{
+  "overall": "skeptical",
+  "summary": "Public sentiment around aducanumab (Aduhelm) is overwhelmingly skeptical and fraught with controversy across nearly all communities. While there is a sliver of hope among desperate patients and caregivers who desire any chance at slowing Alzheimer's, the dominant narrative is focused on concerns over its high price tag, severe side effects like ARIA, and questionable efficacy. The scientific community is highly critical of the FDA's decision to approve the drug based on amyloid reduction rather than clear clinical benefit, especially given the EMERGE trial's early termination for futility. Investors initially celebrated the approval, but financial circles quickly recognized the commercial hurdles of a high-cost drug lacking definitive clinical consensus. Ultimately, the drug's reputation has been severely damaged by the perceived gap between its biological mechanism and meaningful cognitive preservation.",
+  "communities": [
+    {
+      "community": "Patients & Caregivers (r/Alzheimers, r/dementia)",
+      "sentiment": "mixed",
+      "themes": [
+        "Desperation for any potential treatment to slow the disease",
+        "Anxiety over severe side effects like brain swelling and bleeding (ARIA)",
+        "Outrage at the exorbitant $56k annual cost and lack of insurance coverage"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/comments/rl15i3/call_for_the_accelerated_withdrawal_of_aducanumab/",
+        "https://www.reddit.com/r/Alzheimers/comments/nyjhcf/new_alzheimers_drug_aducanumab_what_we_know_so_far/"
+      ]
+    },
+    {
+      "community": "Scientific & Medical Community (r/science)",
+      "sentiment": "negative",
+      "themes": [
+        "Lack of clear clinical efficacy despite successful amyloid clearance",
+        "Disagreement with the FDA's use of a surrogate endpoint",
+        "High incidence of ARIA complicating the risk-reward ratio"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/science/comments/nw5hu9/fda_approved_a_new_alzheimers_drug_despite/"
+      ]
+    },
+    {
+      "community": "Retail Investors (r/stocks)",
+      "sentiment": "skeptical",
+      "themes": [
+        "Initial excitement over BIIB's sudden market cap jump",
+        "Long-term skepticism of Medicare/Medicaid reimbursement likelihood",
+        "Concerns over scientific integrity ultimately impacting commercial viability"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/stocks/comments/nuf3aq/biogen_biib_drug_aduhelm_aducanumab_approved_by/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "The New York Times",
+      "tone": "critical",
+      "date": "2021-07",
+      "url": "https://www.nytimes.com/2021/07/19/health/alzheimers-drug-aduhelm-fda.html"
+    },
+    {
+      "outlet": "STAT News",
+      "tone": "critical",
+      "date": "2021-06",
+      "url": "https://www.statnews.com/2021/06/29/biogen-fda-alzheimers-drug-approval-aduhelm-project-onyx/"
+    }
+  ],
+  "hype_vs_evidence": "Public hype, initially fueled by headlines declaring the first new Alzheimer's drug in 20 years, quickly crashed into the reality of the clinical data. While the EMERGE trial results showed statistically significant slowing of decline in the high-dose group, the public and scientific discourse rightfully fixated on the trial's early termination for futility and the conflicting data from its sister trial. The public accurately perceives the high risk of ARIA (brain swelling and microhemorrhages), which aligns perfectly with the strong evidence of adverse events in the registry. The primary divergence lies in the FDA's reliance on amyloid clearance as a surrogate endpoint, which many in the public and scientific sphere feel does not reliably translate to the meaningful cognitive preservation promised by early marketing hype.",
+  "misinformation_flags": [
+    "Aducanumab reverses or cures Alzheimer's disease (it only aims to slow clinical decline)",
+    "The drug was fully proven effective before FDA approval (the approval was highly contested and utilized the accelerated pathway based on a surrogate endpoint)"
+  ],
+  "searches_run": [
+    "aducanumab site:reddit.com/r/Alzheimers",
+    "aducanumab site:reddit.com/r/dementia",
+    "aducanumab site:reddit.com/r/science",
+    "site:reddit.com/r/stocks aduhelm OR biogen OR aducanumab",
+    "aducanumab fda approval news site:nytimes.com OR site:statnews.com"
+  ]
+}

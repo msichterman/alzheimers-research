@@ -1,0 +1,9 @@
+{
+  "id": "mathys-2019-single-cell",
+  "source": "sources/mathys-2019-single-cell.xml",
+  "sha256": "5f1c567bb7243368c51e3621a76465c74a6b233a94e3acf78ac190c2926cdec3",
+  "bytes": 138873,
+  "chars": 68011,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:11.092Z"
+}

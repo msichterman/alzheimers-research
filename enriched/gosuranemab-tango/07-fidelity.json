@@ -1,0 +1,381 @@
+{
+  "id": "gosuranemab-tango",
+  "checked_at": "2026-08-13T16:54:15.831Z",
+  "builder_model": "claude (builder subagent)",
+  "critic_model": "gemini-3.1-pro-preview",
+  "fields_compared": 30,
+  "disagreements": 4,
+  "conflicts": 2,
+  "coverage_gaps": 2,
+  "agreement_rate": 0.867,
+  "passed": false,
+  "needs_adjudication": true,
+  "disagreement_rows": [
+    {
+      "field": "study.intervention",
+      "builder": "Intravenous gosuranemab q4w: low dose (125 mg q4w or 375 mg q12w), intermediate dose (600 mg q4w), high dose (2,000 mg q4w), for 78 weeks",
+      "critic": "low-dose (125 mg once every 4 weeks (q4w), n = 58; 375 mg q12w, n = 58), intermediate-dose (600 mg q4w, n = 106) or high-dose (2,000 mg q4w, n = 214) gosuranemab",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "Any AE: placebo 181/214 (84.6%) vs total gosuranemab 381/436 (87.4%); SAEs: placebo 26/214 (12.1%) vs total gosuranemab 50/436 (11.5%)",
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": null,
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[death].reported",
+      "builder": "reported",
+      "critic": "absent",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    }
+  ],
+  "conflict_rows": [
+    {
+      "field": "study.intervention",
+      "builder": "Intravenous gosuranemab q4w: low dose (125 mg q4w or 375 mg q12w), intermediate dose (600 mg q4w), high dose (2,000 mg q4w), for 78 weeks",
+      "critic": "low-dose (125 mg once every 4 weeks (q4w), n = 58; 375 mg q12w, n = 58), intermediate-dose (600 mg q4w, n = 106) or high-dose (2,000 mg q4w, n = 214) gosuranemab",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[death].reported",
+      "builder": "reported",
+      "critic": "absent",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    }
+  ],
+  "builder_values_not_found_in_document": [],
+  "critic_values_not_found_in_document": [],
+  "all_rows": [
+    {
+      "field": "study.design",
+      "builder": "Randomized, double-blind, placebo-controlled, parallel-group, multiple-dose phase 2 trial with a 78-week placebo-controlled period followed by a dose-blind long-term extension",
+      "critic": "randomized, double-blind, placebo-controlled, parallel-group and multiple-dose long-term trial",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.n",
+      "builder": 654,
+      "critic": 654,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.population",
+      "builder": "Adults aged 50–80 years with mild cognitive impairment (MCI) due to AD or mild AD dementia by NIA-AA criteria, with a CDR global score of 0.5 (MCI) or 0.5–1.0 (mild AD dementia), MMSE 22–30, and evidence of amyloid pathology",
+      "critic": "patients with mild cognitive impairment (MCI) due to AD and those with mild AD dementia",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.comparator",
+      "builder": "Placebo (0.9% NaCl) intravenously q4w, n = 214",
+      "critic": "placebo (0.9% NaCl q4w)",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.followup",
+      "builder": "78-week double-blind, placebo-controlled period, followed by a dose-blind long-term extension analysed up to week 104",
+      "critic": "78 weeks",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.intervention",
+      "builder": "Intravenous gosuranemab q4w: low dose (125 mg q4w or 375 mg q12w), intermediate dose (600 mg q4w), high dose (2,000 mg q4w), for 78 weeks",
+      "critic": "low-dose (125 mg once every 4 weeks (q4w), n = 58; 375 mg q12w, n = 58), intermediate-dose (600 mg q4w, n = 106) or high-dose (2,000 mg q4w, n = 214) gosuranemab",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.phase",
+      "builder": "Phase 2",
+      "critic": "phase 2",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "primary_endpoint_status.status",
+      "builder": "met",
+      "critic": "met",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "multiplicity.approach",
+      "builder": "None for the reported comparisons: analyses were two-sided at a 5% significance level and no adjustments were made for multiple comparisons. Sample size for the secondary CDR-SB objective was based on the multiple comparison procedure—modeling approach.",
+      "critic": "No adjustments were made for multiple comparisons.",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].name",
+      "builder": "Incidence of adverse events (AEs) and serious adverse events (SAEs) during the placebo-controlled period",
+      "critic": "incidence of AEs and SAEs",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].met",
+      "builder": "met",
+      "critic": "met",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "Any AE: placebo 181/214 (84.6%) vs total gosuranemab 381/436 (87.4%); SAEs: placebo 26/214 (12.1%) vs total gosuranemab 50/436 (11.5%)",
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": null,
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].p_value",
+      "builder": null,
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].multiplicity_controlled",
+      "builder": "unclear",
+      "critic": "unclear",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[ARIA-E].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[ARIA-H].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[symptomatic ARIA].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[macrohemorrhage].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[death].reported",
+      "builder": "reported",
+      "critic": "absent",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.apoe_stratification_reported",
+      "builder": false,
+      "critic": false,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[Incidence of adverse events (AEs) and serious adverse events (SAEs) during the placebo-controlled period].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Incidence of adverse events (AEs) and serious adverse events (SAEs) during the placebo-controlled period].tier",
+      "builder": "primary",
+      "critic": "primary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change in the Clinical Dementia Rating Scale Sum of Boxes (CDR-SB) score from baseline over time at week 78].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change in the Clinical Dementia Rating Scale Sum of Boxes (CDR-SB) score from baseline over time at week 78].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Incidence of anti-gosuranemab serum antibody responses over time up to week 90 (immunogenicity)].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Incidence of anti-gosuranemab serum antibody responses over time up to week 90 (immunogenicity)].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change from baseline at week 78 in the 13-item Alzheimer's Disease Assessment Scale–Cognitive Subscale (ADAS-Cog13) score].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change from baseline at week 78 in the 13-item Alzheimer's Disease Assessment Scale–Cognitive Subscale (ADAS-Cog13) score].tier",
+      "builder": "exploratory",
+      "critic": "exploratory",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "semorinemab-lauriet",
+  "source": "sources/semorinemab-lauriet.xml",
+  "sha256": "e1ee7811f3db345b01545f566eb5bc69c881f35ba12a1dac43726c14404b3201",
+  "bytes": 106180,
+  "chars": 43512,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:11.275Z"
+}

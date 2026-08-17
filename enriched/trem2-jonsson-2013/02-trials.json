@@ -1,0 +1,107 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT04592874",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04592874",
+      "name": "INVOKE-2",
+      "drug": "AL002 (TREM2 agonistic antibody)",
+      "phase": "2",
+      "sponsor": "Alector Inc.",
+      "status": "Completed",
+      "enrollment": 356,
+      "population": "Participants With Early Alzheimer's Disease",
+      "primary_endpoint": "Disease Progression as Measured by the Clinical Dementia Rating - Sum of Boxes (CDR-SB) Score",
+      "started": "2021-01",
+      "completed_or_readout": "2024-08",
+      "results_summary": "The study did not meet its primary endpoint; AL002 failed to show clinical improvement over placebo on the CDR-SB score despite demonstrating target engagement. The most frequent adverse events were MRI changes resembling ARIA.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05744401",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05744401",
+      "name": null,
+      "drug": "AL002 (TREM2 agonistic antibody)",
+      "phase": "2",
+      "sponsor": "Alector Inc.",
+      "status": "Terminated",
+      "enrollment": 197,
+      "population": "Participants from the parent Phase 2 AL002 study (INVOKE-2)",
+      "primary_endpoint": "Incidence and severity of adverse events",
+      "started": "2023-01",
+      "completed_or_readout": "2025-01",
+      "results_summary": "The extension study was terminated early because the parent study (INVOKE-2) failed to meet its primary clinical endpoint and showed no treatment effects favoring AL002 on secondary endpoints.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03635047",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03635047",
+      "name": null,
+      "drug": "AL002 (TREM2 agonistic antibody)",
+      "phase": "1",
+      "sponsor": "Alector Inc.",
+      "status": "Completed",
+      "enrollment": 69,
+      "population": "Healthy Volunteers and Participants With Mild to Moderate Alzheimer's Disease",
+      "primary_endpoint": "Evaluation of safety and tolerability of AL002 measured by number of subjects with adverse events and Dose Limiting Adverse Event (DLAEs)",
+      "started": "2018-11",
+      "completed_or_readout": "2020-08",
+      "results_summary": "AL002 was found to be generally safe and tolerable, and it demonstrated target engagement via measurable reductions in soluble TREM2 in the central nervous system.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT06343636",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06343636",
+      "name": null,
+      "drug": "VG-3927 (Small molecule TREM2 agonist)",
+      "phase": "1",
+      "sponsor": "Vigil Neuroscience, Inc.",
+      "status": "Completed",
+      "enrollment": 115,
+      "population": "Healthy Adults and Patients With Alzheimer's Disease",
+      "primary_endpoint": "Adverse Events",
+      "started": "2023-09",
+      "completed_or_readout": "2025-01",
+      "results_summary": "The Phase 1 study was completed successfully; specific clinical outcomes are pending full publication but aim to validate safety and pharmacokinetic profile.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05450549",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05450549",
+      "name": null,
+      "drug": "DNL919 (ATV:TREM2 agonist)",
+      "phase": "1",
+      "sponsor": "Denali Therapeutics Inc.",
+      "status": "Completed",
+      "enrollment": 47,
+      "population": "Healthy Participants",
+      "primary_endpoint": "Safety: Incidence, severity, and seriousness of treatment-emergent adverse events (TEAEs)",
+      "started": "2022-07",
+      "completed_or_readout": "2023-06",
+      "results_summary": "Phase 1 safety and tolerability study completed in healthy volunteers.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2026-05",
+      "kind": "paper",
+      "description": "Publication of the Phase 2 randomized INVOKE-2 trial results for AL002, detailing the failure to meet primary CDR-SB endpoints.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41787076/"
+    },
+    {
+      "date": "2024-10-23",
+      "kind": "paper",
+      "description": "Publication of AL002 preclinical and Phase 1 data demonstrating successful TREM2 target engagement.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39444037/"
+    }
+  ],
+  "evidence_assessment": "The document represents foundational genetic epidemiology linking the TREM2 R47H variant to an increased risk of Alzheimer's disease, generating the therapeutic hypothesis that pharmacological activation of TREM2 could clear amyloid plaques and mitigate disease. Based on this mechanism, several TREM2 agonists advanced to clinical trials. However, clinical translation has recently faced a major setback: Alector's TREM2 agonistic antibody, AL002, failed its Phase 2 INVOKE-2 trial (NCT04592874), showing no clinical benefit on the CDR-SB score over placebo and leading to the termination of its open-label extension in early 2025. While other TREM2-targeted therapies like Denali's DNL919 and Vigil Neuroscience's VG-3927 have successfully navigated Phase 1 safety trials, the efficacy of TREM2 agonism as a viable disease-modifying treatment in early Alzheimer's disease remains unproven in human clinical trials.",
+  "discrepancies": [
+    "While the document accurately identifies TREM2 mutations as a risk factor and proposes that enhancing TREM2 function could prevent or modify Alzheimer's disease, recent clinical trial results (INVOKE-2) contradict the translational assumption that monoclonal TREM2 agonism alters clinical trajectory in early, established Alzheimer's disease."
+  ]
+}

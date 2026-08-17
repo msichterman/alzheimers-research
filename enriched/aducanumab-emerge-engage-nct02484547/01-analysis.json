@@ -1,0 +1,68 @@
+{
+  "kind": "other",
+  "title": "221AD302 Phase 3 Study of Aducanumab (BIIB037) in Early Alzheimer's Disease",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2021",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "immunotherapy",
+    "aducanumab",
+    "aria"
+  ],
+  "themes": [
+    "Aducanumab efficacy and safety",
+    "Amyloid-related imaging abnormalities (ARIA)",
+    "Clinical Dementia Rating Scale-Sum of Boxes (CDR-SB)",
+    "Early Alzheimer's disease treatment",
+    "Trial terminated for futility"
+  ],
+  "one_line": "A Phase 3 registry record for aducanumab in early Alzheimer's disease showing a stark contradiction: the trial was terminated for futility, yet the posted results claim statistically significant superiority for the high-dose group across primary and secondary endpoints.",
+  "summary": "This document is a ClinicalTrials.gov registry record detailing a Phase 3, multicenter, randomized, double-blind, placebo-controlled trial evaluating the efficacy and safety of aducanumab (BIIB037) in participants with early Alzheimer's disease (NCT02484547). The intervention consisted of monthly intravenous infusions of low and high doses of aducanumab compared to a placebo over 78 weeks. The record notes that the study was terminated prematurely due to a futility analysis, not safety concerns. Paradoxically, the posted efficacy results show that the high-dose group achieved statistically significant superiority over placebo on the primary endpoint (CDR-SB) as well as all secondary cognitive and functional endpoints (MMSE, ADAS-Cog 13, ADCS-ADL-MCI). Safety data reveals a high incidence of adverse events in the treatment arms, specifically amyloid-related imaging abnormalities including edema/effusion (ARIA-E) and microhemorrhages (ARIA-H).",
+  "key_claims": [
+    {
+      "claim": "High-dose aducanumab significantly slows clinical decline in early Alzheimer's disease compared to placebo.",
+      "evidence": "Difference in CDR-SB at Week 78 was -0.39 (95% CI -0.694 to -0.086), p=0.0120. Secondary endpoints (MMSE, ADAS-Cog 13, ADCS-ADL-MCI) were also significantly improved (p=0.0493, p=0.0097, and p=0.0006 respectively).",
+      "strength": "moderate",
+      "location": "Posted results / PRIMARY and SECONDARY outcomes"
+    },
+    {
+      "claim": "Aducanumab treatment causes high rates of amyloid-related imaging abnormalities (ARIA).",
+      "evidence": "ARIA-oedema/effusion occurred in 183/547 (33.5%) of the high-dose group and 138/544 (25.4%) of the low-dose group, compared to only 12/547 (2.2%) of the placebo group.",
+      "strength": "strong",
+      "location": "Posted results / Adverse events / Other adverse events"
+    }
+  ],
+  "methods": {
+    "design": "Multicenter, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group",
+    "n": 1643,
+    "population": "Adults aged 50-85 with MCI due to AD or mild AD, a CDR-Global Score of 0.5, MMSE 24-30, and a positive amyloid PET scan.",
+    "duration": "78 weeks",
+    "registration": "NCT02484547"
+  },
+  "funding_and_conflicts": "Lead sponsor: Biogen. No individual author conflicts are stated in the registry record.",
+  "limitations": [
+    "The study was terminated early based on a futility analysis, which truncates the planned data collection and complicates the interpretation of the final efficacy results.",
+    "Findings represent a structured registry data dump rather than a peer-reviewed publication, lacking qualitative discussion or contextualization of the results."
+  ],
+  "red_flags": [
+    "Massive contradiction between study status and outcomes: The registry record explicitly states the study was 'discontinued based on futility analysis', yet the statistical analyses for the primary and all secondary endpoints conclude 'SUPERIORITY' and report statistically significant p-values for the high-dose group. This indicates the posted results may reflect a post-hoc or highly selected re-analysis rather than the analysis that triggered the futility termination."
+  ],
+  "parse_quality": {
+    "score": 10,
+    "issues": []
+  },
+  "search_verification": []
+}

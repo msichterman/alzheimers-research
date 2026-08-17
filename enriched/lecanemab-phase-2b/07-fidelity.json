@@ -1,0 +1,461 @@
+{
+  "id": "lecanemab-phase-2b",
+  "checked_at": "2026-08-13T16:26:04.555Z",
+  "builder_model": "claude (builder subagent)",
+  "critic_model": "gemini-3.1-pro-preview",
+  "fields_compared": 36,
+  "disagreements": 5,
+  "conflicts": 3,
+  "coverage_gaps": 2,
+  "agreement_rate": 0.861,
+  "passed": false,
+  "needs_adjudication": true,
+  "disagreement_rows": [
+    {
+      "field": "multiplicity.approach",
+      "builder": "No multiplicity correction for frequentist key secondary analyses (all p-values nominal); Bayesian analyses stated not to require multiplicity adjustment",
+      "critic": "none stated for Bayesian, no correction applied for frequentist",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "64% probability of being better than placebo with 25% less decline on ADCOMS at 12 months (threshold was 80%)",
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": null,
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].multiplicity_controlled",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[macrohemorrhage].reported",
+      "builder": "reported",
+      "critic": "absent",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    }
+  ],
+  "conflict_rows": [
+    {
+      "field": "multiplicity.approach",
+      "builder": "No multiplicity correction for frequentist key secondary analyses (all p-values nominal); Bayesian analyses stated not to require multiplicity adjustment",
+      "critic": "none stated for Bayesian, no correction applied for frequentist",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].multiplicity_controlled",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[macrohemorrhage].reported",
+      "builder": "reported",
+      "critic": "absent",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    }
+  ],
+  "builder_values_not_found_in_document": [],
+  "critic_values_not_found_in_document": [],
+  "all_rows": [
+    {
+      "field": "study.design",
+      "builder": "18-month, multicenter, double-blind, placebo-controlled Bayesian design clinical trial employing response adaptive randomization across placebo and five lecanemab arms",
+      "critic": "randomized double-blind clinical trial, utilized a Bayesian design with response-adaptive randomization",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.n",
+      "builder": 854,
+      "critic": 854,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.population",
+      "builder": "Subjects with early Alzheimer's disease in 2 subgroups — mild cognitive impairment due to AD or mild AD dementia — all confirmed amyloid positive by amyloid PET or CSF Aβ1–42, with objective episodic memory impairment on WMS-IV LMII and MMSE ≥22 at screening and baseline",
+      "critic": "early Alzheimer’s disease, mild cognitive impairment due to Alzheimer’s disease (AD) and mild AD dementia",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.comparator",
+      "builder": "Placebo, given as biweekly infusions to maintain the blind",
+      "critic": "placebo",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.followup",
+      "builder": "18 months of treatment",
+      "critic": "18-month",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.intervention",
+      "builder": "Lecanemab (BAN2401) in five arms: 2.5 mg/kg biweekly, 5 mg/kg monthly, 5 mg/kg biweekly, 10 mg/kg monthly, 10 mg/kg biweekly",
+      "critic": "lecanemab (2.5 mg/kg biweekly, 5 mg/kg monthly, 5 mg/kg biweekly, 10 mg/kg monthly, 10 mg/kg biweekly)",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.phase",
+      "builder": "phase 2b proof-of-concept, dose-ranging efficacy study",
+      "critic": "phase 2b",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "primary_endpoint_status.status",
+      "builder": "not_met",
+      "critic": "not_met",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "multiplicity.approach",
+      "builder": "No multiplicity correction for frequentist key secondary analyses (all p-values nominal); Bayesian analyses stated not to require multiplicity adjustment",
+      "critic": "none stated for Bayesian, no correction applied for frequentist",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].name",
+      "builder": "Bayesian analysis of 12-month change from baseline on the Alzheimer’s Disease Composite Score (ADCOMS) for the ED90 dose (10 mg/kg biweekly)",
+      "critic": "12-month clinical change on the Alzheimer’s Disease Composite Score (ADCOMS) for the ED90 dose",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].met",
+      "builder": "not_met",
+      "critic": "not_met",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "64% probability of being better than placebo with 25% less decline on ADCOMS at 12 months (threshold was 80%)",
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": null,
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].p_value",
+      "builder": null,
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].multiplicity_controlled",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[ARIA-E].reported",
+      "builder": "reported",
+      "critic": "reported",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[ARIA-E].counts",
+      "builder": "placebo: 2 | lecanemab 2.5 mg/kg biweekly: 1 | lecanemab 5 mg/kg monthly: 1 | lecanemab 5 mg/kg biweekly: 3 | lecanemab 10 mg/kg monthly: 25 | lecanemab 10 mg/kg biweekly: 16 | placebo: 2 | lecanemab 2.5 mg/kg biweekly: 1 | lecanemab 5 mg/kg monthly: 1 | lecanemab 5 mg/kg biweekly: 3 | lecanemab 10 ",
+      "critic": "placebo: 2 | 2.5 mg/kg biweekly: 1 | 5 mg/kg monthly: 1 | 5 mg/kg biweekly: 3 | 10 mg/kg monthly: 25 | 10 mg/kg biweekly: 16 | placebo: 2 | 10 mg/kg biweekly: 7 | lecanemab: 5",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[ARIA-H].reported",
+      "builder": "reported",
+      "critic": "reported",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[ARIA-H].counts",
+      "builder": "placebo: 13 | lecanemab groups (all arms combined): 65 | lecanemab 2.5 mg/kg biweekly: 2 | lecanemab 5 mg/kg monthly: 7 | lecanemab 5 mg/kg biweekly: 17 | lecanemab 10 mg/kg monthly: 28 | lecanemab 10 mg/kg biweekly: 11 | lecanemab (all arms combined): 57 | lecanemab (all arms combined): 8 | placebo",
+      "critic": "placebo: 13 | lecanemab: 65 | lecanemab: 57 | lecanemab: 8",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[symptomatic ARIA].reported",
+      "builder": "reported",
+      "critic": "reported",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[symptomatic ARIA].counts",
+      "builder": "lecanemab (all arms combined): 5 | lecanemab 2.5 mg/kg biweekly, 10 mg/kg monthly, 10 mg/kg biweekly: one severe at 2.5 mg/kg biweekly; one mild at 10 mg/kg monthly; one moderate and two severe at 10 mg/kg biweekly | all arms (placebo and lecanemab): 0",
+      "critic": "lecanemab: 5",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[macrohemorrhage].reported",
+      "builder": "reported",
+      "critic": "absent",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[death].reported",
+      "builder": "reported",
+      "critic": "reported",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[death].counts",
+      "builder": "placebo: 2 | lecanemab 2.5 mg/kg biweekly: 2 | lecanemab 5 mg/kg monthly: 0 | lecanemab 5 mg/kg biweekly: 1 | lecanemab 10 mg/kg monthly: 2 | lecanemab 10 mg/kg biweekly: 0",
+      "critic": "placebo: 2 | 2.5 mg/kg biweekly: 2 | 5 mg/kg monthly: 0 | 5 mg/kg biweekly: 1 | 10 mg/kg monthly: 2 | 10 mg/kg biweekly: 0",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.apoe_stratification_reported",
+      "builder": true,
+      "critic": true,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[Bayesian analysis of 12-month change from baseline on the Alzheimer’s Disease Composite Score (ADCOMS) for the ED90 dose (10 mg/kg biweekly)].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Bayesian analysis of 12-month change from baseline on the Alzheimer’s Disease Composite Score (ADCOMS) for the ED90 dose (10 mg/kg biweekly)].tier",
+      "builder": "primary",
+      "critic": "primary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change from baseline at 18 months in brain amyloid by PET Standard Uptake Value ratio (SUVr), lecanemab 10 mg/kg biweekly vs placebo].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Change from baseline at 18 months in brain amyloid by PET Standard Uptake Value ratio (SUVr), lecanemab 10 mg/kg biweekly vs placebo].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[ADCOMS change from baseline at 18 months, frequentist MMRM, lecanemab 10 mg/kg biweekly vs placebo].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": false
+    },
+    {
+      "field": "outcomes[ADCOMS change from baseline at 18 months, frequentist MMRM, lecanemab 10 mg/kg biweekly vs placebo].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[CDR-SB change from baseline at 18 months, frequentist MMRM, lecanemab 10 mg/kg biweekly vs placebo].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": false
+    },
+    {
+      "field": "outcomes[CDR-SB change from baseline at 18 months, frequentist MMRM, lecanemab 10 mg/kg biweekly vs placebo].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[ADAS-Cog14 change from baseline at 18 months, frequentist MMRM, lecanemab 10 mg/kg biweekly vs placebo].prespecified",
+      "builder": "yes",
+      "critic": "yes",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": false
+    },
+    {
+      "field": "outcomes[ADAS-Cog14 change from baseline at 18 months, frequentist MMRM, lecanemab 10 mg/kg biweekly vs placebo].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ]
+}

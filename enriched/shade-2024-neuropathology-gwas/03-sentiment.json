@@ -1,0 +1,55 @@
+{
+  "overall": "quiet",
+  "summary": "Public sentiment regarding the Fardo et al. (2024) GWAS on neuropathology endophenotypes is exceedingly quiet across mainstream and patient communities. Because the document focuses on foundational genetic discoveries—specifically identifying APOC2, COL4A1, and LZTS1 as risk loci—rather than a therapeutic drug or active clinical trial, it has not captured the attention of patients, caregivers, or retail investors. Media coverage is strictly limited to institutional press releases from the researchers' university (UKNow) highlighting the scientific achievement. Among the scientific and medical communities, the findings are treated as methodological contributions to understanding the genetic architecture of dementia without generating mainstream hype.",
+  "communities": [
+    {
+      "community": "Patients and Caregivers (e.g., r/Alzheimers, r/dementia)",
+      "sentiment": "quiet",
+      "themes": [
+        "Absence of discussion regarding APOC2, COL4A1, or GWAS endophenotypes",
+        "Community focus remains exclusively on practical caregiving, symptom management, and approved clinical treatments"
+      ],
+      "example_urls": [
+        "https://old.reddit.com/search?q=APOC2+Alzheimer"
+      ]
+    },
+    {
+      "community": "Retail Investors",
+      "sentiment": "quiet",
+      "themes": [
+        "No relevant commercial asset, ticker, or biotechnology company associated with these loci to drive market speculation or chatter"
+      ],
+      "example_urls": [
+        "https://old.reddit.com/search?q=LZTS1+Alzheimer"
+      ]
+    },
+    {
+      "community": "Science Media & Institutional Press",
+      "sentiment": "hopeful",
+      "themes": [
+        "Framing the study as 'decoding dementia' and uncovering 'genetic keys'",
+        "Highlighting academic funding, local institutional prestige, and the large-scale collaborative nature of the meta-analysis"
+      ],
+      "example_urls": [
+        "https://news.google.com/search?q=%22Fardo%22+neuropathology&hl=en-US&gl=US&ceid=US%3Aen"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "UKNow (University of Kentucky)",
+      "tone": "positive",
+      "date": "2024-10",
+      "url": "https://news.google.com/read/CBMimwFBVV95cUxQNFg5MFFqZmhGNHZzSTE5NzRKczZsZGlLUnJtOEw3ZzB4T0pyREY5UVNvOXcxQXFEWWUzM21rUHI5eFF1UEtCbjhRQlRhX2FodmdxVXlIMFBPR0lzMFJXMDFvRFozRjN4WTl3OXJkUjA3bW1IVVFfRmRsSmRMbHBkMVhEclVNUTJzU0dJajV3andtdFlNblBVbnR0Zw?hl=en-US&gl=US&ceid=US%3Aen"
+    }
+  ],
+  "hype_vs_evidence": "There is virtually no hype surrounding these findings outside of standard institutional self-promotion. The University of Kentucky press release uses somewhat optimistic framing like 'uncover genetic keys' and 'decoding dementia,' which slightly simplifies the complex, incremental nature of GWAS findings for a lay audience. However, the academic evidence strictly bounds the claims to statistical associations between specific loci and endophenotypes, with no premature promises of imminent cures. Public perception aligns well with the evidence by appropriately ignoring it as a clinical breakthrough and treating it as basic science.",
+  "misinformation_flags": [],
+  "searches_run": [
+    "site:reddit.com \"APOC2\" AND (\"Alzheimer\" OR \"CAA\")",
+    "site:reddit.com \"LZTS1\" Alzheimer",
+    "\"Fardo\" AND \"neuropathology\" site:news.google.com",
+    "site:alzforum.org \"Fardo\" APOC2",
+    "\"neuropathology endophenotypes\" Alzheimer site:reddit.com"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "tau-pet-vs-phospho-tau",
+  "cluster": "biomarkers",
+  "checked_at": "2026-08-13T17:02:33.018Z",
+  "passed": false,
+  "text_sufficiency": {
+    "level": "full-text",
+    "chars": 31932,
+    "sections": [
+      "method",
+      "result",
+      "discussion",
+      "participants"
+    ]
+  },
+  "evidence_completeness": "full-text-oa",
+  "failures": [
+    {
+      "gate": "evidence",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing)"
+    },
+    {
+      "gate": "fidelity",
+      "detail": "no independent critic pass (enriched/<id>/07-fidelity.json missing)"
+    },
+    {
+      "gate": "critical-review",
+      "detail": "no record to review"
+    }
+  ],
+  "warnings": [],
+  "manifest_discrepancies": []
+}

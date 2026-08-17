@@ -1,0 +1,9 @@
+{
+  "id": "ovod-2017-silk-plasma-abeta",
+  "source": "sources/ovod-2017-silk-plasma-abeta.xml",
+  "sha256": "9d24d042d8da21e53defbad4ee50dca65e51c6ea1e9a175f8d8bdf569beba09b",
+  "bytes": 68661,
+  "chars": 26367,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:11.118Z"
+}

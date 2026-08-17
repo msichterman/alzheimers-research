@@ -1,0 +1,74 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment surrounding sabirnetug (ACU193) is sharply divided by audience. Patient and caregiver communities remain notably quiet on the topic, as the drug is still in Phase 2 and lacks the mainstream recognition of approved anti-amyloid therapies. Conversely, retail investors are highly enthusiastic and speculative, actively tracking Acumen's stock (ABOS) based on Phase 1 safety and biomarker success. Scientific and medical media take a more measured, hopeful tone, focusing heavily on the drug's unique mechanism of targeting soluble amyloid-beta oligomers rather than amyloid plaques.",
+  "communities": [
+    {
+      "community": "Retail Investors (r/Wallstreetbetsnew, r/StockTitan, r/Annovis)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Stock price catalysts and market cap comparisons to competitors",
+        "Phase 1 'positive results' interpreted as guaranteed future success",
+        "Anticipation of Phase 2 (ALTITUDE-AD) data readouts"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Wallstreetbetsnew/comments/151ngu6/racumen_pharmaceutical/",
+        "https://www.reddit.com/r/Annovis/comments/15235k8/anvs_market_cap_of_acumen_pharmaceuticals_vs/"
+      ]
+    },
+    {
+      "community": "Science and Medical Media (Alzforum, NeurologyLive)",
+      "sentiment": "hopeful",
+      "themes": [
+        "Testing and validation of the 'oligomer hypothesis'",
+        "Differentiation from fibrillar plaque-clearing antibodies",
+        "Biomarker tracking and target engagement"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/therapeutics/remternetug",
+        "https://www.alzforum.org/"
+      ]
+    },
+    {
+      "community": "Patients and Caregivers (r/Alzheimers, r/dementia)",
+      "sentiment": "quiet",
+      "themes": [
+        "Lack of awareness of specific early-stage pipeline drugs",
+        "Discussion dominated by currently approved therapies (e.g., Leqembi)"
+      ],
+      "example_urls": []
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "NeurologyLive",
+      "tone": "positive",
+      "date": null,
+      "url": "https://www.neurologylive.com/view/first-patient-dosed-phase-2-extension-study-sabirnetug-early-alzheimer-disease"
+    },
+    {
+      "outlet": "Clinical Trials Arena",
+      "tone": "neutral",
+      "date": null,
+      "url": "https://www.clinicaltrialsarena.com/news/acumen-trial-sabirnetug-alzheimers/"
+    },
+    {
+      "outlet": "QuiverQuant",
+      "tone": "neutral",
+      "date": "2026-08",
+      "url": "https://www.quiverquant.com/news/Acumen+Pharmaceuticals+Reports+Second-Quarter+2026+Results+and+Advances+Alzheimer%E2%80%99s+Pipeline%2C+with+ALTITUDE-AD+Topline+Data+Expected+in+Late+2026"
+    }
+  ],
+  "hype_vs_evidence": "There is a notable divergence between retail investor hype and actual clinical evidence. Financial communities frequently point to 'positive Phase 1 results' (from the INTERCEPT-AD trial) as proof that the drug is highly effective at treating Alzheimer's. However, Phase 1 was strictly designed to evaluate safety, pharmacokinetics, and biomarker target engagement, not clinical efficacy. The true test of whether sabirnetug actually slows cognitive decline is the ongoing Phase 2 ALTITUDE-AD trial, which will not yield efficacy results until late 2026.",
+  "misinformation_flags": [
+    "Equating Phase 1 safety and biomarker success with proven clinical efficacy to slow cognitive and functional decline."
+  ],
+  "searches_run": [
+    "site:reddit.com sabirnetug OR ACU193 OR \"Acumen Pharmaceuticals\"",
+    "ABOS stock \"Acumen\" alzheimer site:reddit.com",
+    "site:reddit.com sabirnetug",
+    "site:reddit.com ACU193",
+    "sabirnetug alzforum",
+    "ACU193 alzheimer news",
+    "\"Acumen Pharmaceuticals\" alzheimers site:reddit.com"
+  ]
+}

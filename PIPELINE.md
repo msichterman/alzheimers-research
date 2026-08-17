@@ -47,14 +47,32 @@ Stages 2 and 3 run in parallel after 1; stage 4 runs last. Documents are process
 
 ## Configuration
 
-Environment variables, all optional:
+### Credentials
+
+Every model call — the OpenCode agent stages and the direct Gemini lane in
+`pipeline/gemini.mjs` — goes through **Vertex AI, location `global`, project
+`flamel-os`**, authenticated with Application Default Credentials. There is no
+API-key or OAuth fallback: one credential path, so a run cannot half-succeed on
+a different account.
+
+```bash
+gcloud auth application-default login    # once; refreshes itself after that
+```
+
+### Environment variables
+
+All optional:
 
 | Variable | Default | Meaning |
 | --- | --- | --- |
-| `PIPELINE_MODEL` | `sonnet` | Model for agent stages (`haiku` cheaper, `opus` deeper). |
+| `PIPELINE_MODEL` | `google-vertex/gemini-3.1-pro-preview` | OpenCode model for agent stages. |
 | `PIPELINE_MAX_TURNS` | `60` | Max agent turns per stage. |
 | `PIPELINE_TIMEOUT_MS` | `900000` | Per-stage timeout (15 min). |
-| `PIPELINE_CONCURRENCY` | `2` | Documents enriched at once. |
+| `PIPELINE_CONCURRENCY` | `1` | Documents enriched at once. |
+| `GOOGLE_VERTEX_PROJECT` | `flamel-os` | Vertex project for the direct Gemini lane (`GOOGLE_CLOUD_PROJECT` also read). |
+| `GOOGLE_VERTEX_LOCATION` | `global` | Vertex location. |
+| `GEMINI_PRO_MODEL` | `gemini-3.1-pro-preview` | Model for the critic, grounded leads and A/B lanes. |
+| `GEMINI_FLASH_MODEL` | `gemini-3.7-flash` | Cheap lane. Declared but unused today; every current caller asks for pro. |
 
 Useful flags:
 

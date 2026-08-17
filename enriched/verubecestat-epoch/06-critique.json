@@ -1,0 +1,387 @@
+{
+  "extracted_by": "gemini-3.1-pro-preview",
+  "extracted_at": "2026-08-13T16:28:47.310Z",
+  "independent": true,
+  "saw_builder_output": false,
+  "source": "raw/verubecestat-epoch/document.md",
+  "source_sha256": "e6393c113917daecb43b5f9773dcddff574882bf863637adac5d821119766cc8",
+  "truncated": false,
+  "tokens": {
+    "in": 6816,
+    "out": 4870
+  },
+  "record": {
+    "document_kind": "journal_article",
+    "title": {
+      "value": "Randomized Trial of Verubecestat for Mild-to-Moderate Alzheimer’s Disease",
+      "quote": "Randomized Trial of Verubecestat for Mild-to-Moderate Alzheimer’s Disease",
+      "location": "Title"
+    },
+    "study": {
+      "design": {
+        "value": "randomized, double-blind, placebo-controlled, 78-week trial",
+        "quote": "We conducted a randomized, double-blind, placebo-controlled, 78-week trial",
+        "location": "Abstract, METHODS"
+      },
+      "n": {
+        "value": 1958,
+        "quote": "A total of 1958 patients underwent randomization",
+        "location": "Abstract, RESULTS"
+      },
+      "population": {
+        "value": "mild-to-moderate Alzheimer’s disease",
+        "quote": "patients who had a clinical diagnosis of mild-to-moderate Alzheimer’s disease.",
+        "location": "Abstract, METHODS"
+      },
+      "biomarker_confirmation": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "cohorts": [],
+      "comparator": {
+        "value": "placebo",
+        "quote": "as compared with placebo",
+        "location": "Abstract, METHODS"
+      },
+      "followup": {
+        "value": "78-week",
+        "quote": "78-week trial",
+        "location": "Abstract, METHODS"
+      },
+      "intervention": {
+        "value": "verubecestat at doses of 12 mg and 40 mg per day",
+        "quote": "verubecestat at doses of 12 mg and 40 mg per day",
+        "location": "Abstract, METHODS"
+      },
+      "n_description": {
+        "value": "underwent randomization",
+        "quote": "A total of 1958 patients underwent randomization",
+        "location": "Abstract, RESULTS"
+      },
+      "nct_ids": [],
+      "phase": {
+        "value": "phase 3",
+        "quote": "intended to transition to a phase 3 trial if satisfactory safety results were observed.",
+        "location": "METHODS, TRIAL DESIGN"
+      }
+    },
+    "outcomes": [
+      {
+        "name": "change from baseline to week 78 in the score on the cognitive subscale of the Alzheimer’s Disease Assessment Scale (ADAS-cog",
+        "tier": "primary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "The estimated mean change from baseline to week 78 in the ADAS-cog score was 7.9 in the 12-mg group, 8.0 in the 40-mg group, and 7.7 in the placebo group (P=0.63 for the comparison between the 12-mg group and the placebo group and P=0.46 for the comparison between the 40-mg group and the placebo group).",
+        "location": "Abstract, RESULTS",
+        "confidence_interval": null,
+        "effect_estimate": "7.9 in the 12-mg group, 8.0 in the 40-mg group, and 7.7 in the placebo group",
+        "multiplicity_controlled": "yes",
+        "p_value": "P=0.63",
+        "prespecification_evidence": "The coprimary efficacy outcomes were the change from baseline in the score on the ADAS-cog and the ADCS-ADL at week 78."
+      },
+      {
+        "name": "change from baseline to week 78 in the score on the Alzheimer’s Disease Cooperative Study Activities of Daily Living Inventory scale (ADCS-ADL",
+        "tier": "primary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "The estimated mean change from baseline to week 78 in the ADCS-ADL score was −8.4 in the 12-mg group, −8.2 in the 40-mg group, and −8.9 in the placebo group (P=0.49 for the comparison between the 12-mg group and the placebo group and P=0.32 for the comparison between the 40-mg group and the placebo group).",
+        "location": "Abstract, RESULTS",
+        "confidence_interval": null,
+        "effect_estimate": "−8.4 in the 12-mg group, −8.2 in the 40-mg group, and −8.9 in the placebo group",
+        "multiplicity_controlled": "yes",
+        "p_value": "P=0.49",
+        "prespecification_evidence": "The coprimary efficacy outcomes were the change from baseline in the score on the ADAS-cog and the ADCS-ADL at week 78."
+      },
+      {
+        "name": "change from baseline at week 78 in the CDR-SB score",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "Scores for the secondary clinical outcomes of CDR-SB, MMSE, and NPI worsened over time in all three trial groups, and there were no significant differences between verubecestat and placebo for any of these outcomes",
+        "location": "RESULTS, CLINICAL OUTCOMES",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": "yes",
+        "p_value": null,
+        "prespecification_evidence": "The secondary outcomes were the change from baseline at week 78 in the CDR-SB score"
+      },
+      {
+        "name": "change from baseline at week 78 in the total hippocampal volume as assessed by MRI",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "The hippocampal volume, as assessed by MRI, was lower at week 78 than at baseline in all three trial groups, but the reductions in the verubecestat groups were numerically greater than the reduction in the placebo group",
+        "location": "RESULTS, BIOMARKERS",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": "yes",
+        "p_value": null,
+        "prespecification_evidence": "The secondary outcomes were the change from baseline at week 78 in the CDR-SB score, the total hippocampal volume as assessed by MRI"
+      },
+      {
+        "name": "change from baseline at week 78 in the concentration of total tau in cerebrospinal fluid",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "the concentration of total tau increased by 7.5% from baseline to week 78 in the placebo group, but there were no marked differences between the verubecestat groups and the placebo group in either the change in total tau or the change in phosphorylated tau from baseline to week 78",
+        "location": "RESULTS, BIOMARKERS",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": "yes",
+        "p_value": null,
+        "prespecification_evidence": "The secondary outcomes were the change from baseline at week 78 in the CDR-SB score, the total hippocampal volume as assessed by MRI, the concentration of total tau in cerebrospinal fluid"
+      },
+      {
+        "name": "change from baseline at week 78 in the brain amyloid load as assessed by PET",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "met",
+        "quote": "In the PET amyloid substudy, no change from baseline in the brain amyloid load was observed in the placebo group at week 78; in contrast, both verubecestat groups showed a reduction from baseline",
+        "location": "RESULTS, BIOMARKERS",
+        "confidence_interval": null,
+        "effect_estimate": "mean (±SD) standardized uptake value ratio changed from 0.87±0.11 at baseline to 0.83±0.10 at week 78",
+        "multiplicity_controlled": "yes",
+        "p_value": null,
+        "prespecification_evidence": "The secondary outcomes were the change from baseline at week 78 in the CDR-SB score, the total hippocampal volume as assessed by MRI, the concentration of total tau in cerebrospinal fluid, the brain amyloid load as assessed by PET"
+      },
+      {
+        "name": "change from baseline at week 78 in the MMSE score",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "Scores for the secondary clinical outcomes of CDR-SB, MMSE, and NPI worsened over time in all three trial groups, and there were no significant differences between verubecestat and placebo for any of these outcomes",
+        "location": "RESULTS, CLINICAL OUTCOMES",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": "yes",
+        "p_value": null,
+        "prespecification_evidence": "The secondary outcomes were the change from baseline at week 78 in the CDR-SB score, the total hippocampal volume as assessed by MRI, the concentration of total tau in cerebrospinal fluid, the brain amyloid load as assessed by PET, the MMSE score"
+      },
+      {
+        "name": "change from baseline at week 78 in the NPI score",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "Scores for the secondary clinical outcomes of CDR-SB, MMSE, and NPI worsened over time in all three trial groups, and there were no significant differences between verubecestat and placebo for any of these outcomes",
+        "location": "RESULTS, CLINICAL OUTCOMES",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": "yes",
+        "p_value": null,
+        "prespecification_evidence": "The secondary outcomes were the change from baseline at week 78 in the CDR-SB score, the total hippocampal volume as assessed by MRI, the concentration of total tau in cerebrospinal fluid, the brain amyloid load as assessed by PET, the MMSE score, and the NPI score."
+      },
+      {
+        "name": "coprimary outcomes (ADAS-cog and ADCS-ADL)",
+        "tier": "subgroup",
+        "prespecified": "yes",
+        "met": "not_applicable",
+        "quote": "In an exploratory subgroup analysis of the coprimary outcomes (ADAS-cog and ADCS-ADL), no significant differences between the placebo group and either verubecestat group were noted either among patients with mild Alzheimer’s disease (as defined by the score on the MMSE) or among patients who tested positive for APOE4",
+        "location": "RESULTS, CLINICAL OUTCOMES",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": "no",
+        "p_value": null,
+        "prespecification_evidence": "Although subgroup analyses that were based on patient characteristics were prespecified, the trial was not adequately powered for such analyses."
+      }
+    ],
+    "primary_endpoint_status": {
+      "status": "not_met",
+      "quote": "The declines in the verubecestat groups did not differ significantly from those in the placebo group at week 78 for either of the coprimary outcomes.",
+      "explanation": "Verubecestat did not significantly reduce cognitive or functional decline compared to placebo on the ADAS-cog or ADCS-ADL scales at 78 weeks."
+    },
+    "safety": {
+      "harms": [
+        {
+          "name": "deaths",
+          "arm": "12-mg group",
+          "quote": "There were 9 deaths in the 12-mg group, 12 deaths in the 40-mg group, and 5 deaths in the placebo group",
+          "location": "RESULTS, SAFETY",
+          "apoe_stratum": null,
+          "count": "9",
+          "denominator": null,
+          "percentage": null
+        },
+        {
+          "name": "deaths",
+          "arm": "40-mg group",
+          "quote": "There were 9 deaths in the 12-mg group, 12 deaths in the 40-mg group, and 5 deaths in the placebo group",
+          "location": "RESULTS, SAFETY",
+          "apoe_stratum": null,
+          "count": "12",
+          "denominator": null,
+          "percentage": null
+        },
+        {
+          "name": "deaths",
+          "arm": "placebo group",
+          "quote": "There were 9 deaths in the 12-mg group, 12 deaths in the 40-mg group, and 5 deaths in the placebo group",
+          "location": "RESULTS, SAFETY",
+          "apoe_stratum": null,
+          "count": "5",
+          "denominator": null,
+          "percentage": null
+        },
+        {
+          "name": "amyloid-related imaging abnormalities",
+          "arm": "verubecestat",
+          "quote": "verubecestat was associated with the occurrence of rash but not of delirium or amyloid-related imaging abnormalities.",
+          "location": "RESULTS, SAFETY",
+          "apoe_stratum": null,
+          "count": null,
+          "denominator": null,
+          "percentage": null
+        }
+      ],
+      "apoe_stratification_reported": false,
+      "deaths": {
+        "value": "9 deaths in the 12-mg group, 12 deaths in the 40-mg group, and 5 deaths in the placebo group",
+        "quote": "There were 9 deaths in the 12-mg group, 12 deaths in the 40-mg group, and 5 deaths in the placebo group",
+        "location": "RESULTS, SAFETY"
+      },
+      "discontinuations": {
+        "value": "9.4% in the 40-mg group, 8.3% in the 12-mg group, and 5.8% in the placebo group",
+        "quote": "the percentage of patients who had an adverse event that led to discontinuation of the trial regimen was 9.4% in the 40-mg group, 8.3% in the 12-mg group, and 5.8% in the placebo group",
+        "location": "RESULTS, SAFETY"
+      },
+      "serious_adverse_events": {
+        "value": "syncope (7 of 652 patients [1.1%] in the 12-mg group, 8 of 652 patients [1.2%] in the 40-mg group, and 5 of 653 patients [0.8%] in the placebo group) and basal-cell carcinoma (8 of 652 patients [1.2%] in the 12-mg group, 9 of 652 patients [1.4%] in the 40-mg group, and 15 of 653 patients [2.3%] in the placebo group)",
+        "quote": "Serious adverse events that were reported in more than 1% of the patients in at least one trial group were syncope (7 of 652 patients [1.1%] in the 12-mg group, 8 of 652 patients [1.2%] in the 40-mg group, and 5 of 653 patients [0.8%] in the placebo group) and basal-cell carcinoma (8 of 652 patients [1.2%] in the 12-mg group, 9 of 652 patients [1.4%] in the 40-mg group, and 15 of 653 patients [2.3%] in the placebo group).",
+        "location": "RESULTS, SAFETY"
+      }
+    },
+    "unlocatable_fields": [
+      "study.biomarker_confirmation.value",
+      "study.biomarker_confirmation.quote",
+      "study.biomarker_confirmation.location",
+      "study.cohorts",
+      "study.nct_ids",
+      "outcomes.confidence_interval",
+      "safety.harms.denominator",
+      "safety.harms.percentage",
+      "safety.harms.apoe_stratum",
+      "authors.affiliation",
+      "authors.corresponding",
+      "authors.orcid",
+      "conflicts",
+      "disagreements",
+      "linked_objects",
+      "risk_of_bias"
+    ],
+    "authors": [
+      {
+        "name": "Michael F. Egan",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "James Kost",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Pierre N. Tariot",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Paul S. Aisen",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Jeffrey L. Cummings",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Bruno Vellas",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Cyrille Sur",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Yuki Mukai",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Tiffini Voss",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Christine Furtek",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Erin Mahoney",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Lyn Harper Mozley",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Rik Vandenberghe",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Yi Mo",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "David Michelson",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      }
+    ],
+    "conflicts": [],
+    "disagreements": [],
+    "funding": [
+      "Supported by Merck.",
+      "Funded by Merck"
+    ],
+    "limitations": [
+      "A limitation of our trial was the lack of requirement for the presence of an amyloid biomarker at screening, thereby potentially allowing patients who had dementia owing to nonamyloid-related disease to be included."
+    ],
+    "linked_objects": [],
+    "multiplicity": {
+      "approach": "Bonferroni correction ... in conjunction with a closed sequential testing approach",
+      "location": "METHODS, STATISTICAL ANALYSIS",
+      "quote": "A Bonferroni correction (which was applied to both dose levels of verubecestat) in conjunction with a closed sequential testing approach was used to control for the type 1 error rate, with testing of primary outcomes and then secondary outcomes, in the order described in the statistical plan in the protocol."
+    },
+    "risk_of_bias": [],
+    "trial_status_observation": {
+      "status": "terminated early for futility",
+      "observed_at": "February 2017",
+      "source": "RESULTS, PATIENT CHARACTERISTICS",
+      "enrollment": "1958",
+      "phase": "phase 3"
+    }
+  }
+}

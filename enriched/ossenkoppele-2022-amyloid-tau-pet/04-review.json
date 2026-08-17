@@ -1,0 +1,123 @@
+{
+  "fact_check": [
+    {
+      "fact": "A+T NEO-T+ hazard ratio of 19.2 for MCI and 41.3 for all-cause dementia",
+      "status": "verified",
+      "note": "Checked against the paper's Abstract and Results sections."
+    },
+    {
+      "fact": "A+T MTL+ hazard ratio of 14.6 for MCI progression",
+      "status": "verified",
+      "note": "Checked against the paper's Abstract."
+    },
+    {
+      "fact": "Follow-up duration was 41.8 ± 18.9 months",
+      "status": "verified",
+      "note": "Checked against the participant characteristics table in the Main text."
+    },
+    {
+      "fact": "Media claims that PET scans diagnose Alzheimer's 'decades' before symptoms",
+      "status": "disputed",
+      "note": "The study's actual average follow-up was 3.5 years. It establishes group-level short-term clinical progression risk, not a multi-decade lifetime prediction."
+    }
+  ],
+  "research_page": {
+    "slug": "amyloid-tau-pet-cognitive-decline-ossenkoppele",
+    "title": "Amyloid and tau PET predict short-term decline in unimpaired individuals",
+    "description": "Cognitively unimpaired individuals with amyloid and tau PET positivity face an exceptionally high risk of progressing to MCI and dementia within 3-5 years.",
+    "tags": [
+      "paper",
+      "biomarkers",
+      "pet-imaging",
+      "preclinical-ad",
+      "tau",
+      "amyloid"
+    ],
+    "source_line_md": "**Source**: [Nature Medicine, 2022](https://doi.org/10.1038/s41591-022-02049-x) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/36357681)",
+    "authors_line_md": "Rik Ossenkoppele et al.",
+    "takeaway_md": "Cognitively unimpaired individuals with both amyloid and tau PET positivity face a significantly higher risk of short-term clinical progression (3–5 years) to mild cognitive impairment and dementia. The risk is exceptionally high—over 40-fold—when tau pathology has spread to the neocortex. These findings validate the biological definition of preclinical Alzheimer's disease and provide a critical stratification tool for early-intervention trials.",
+    "key_findings_md": [
+      "Individuals with neocortical tau (A+T NEO-T+) progressed to MCI at 19.2 times the rate of biomarker-negative peers (paper, Abstract).",
+      "Progression to all-cause dementia was 41.3 times higher for the A+T NEO-T+ group compared to the reference group (paper, Abstract).",
+      "Cognitive decline in tau-positive groups was significantly faster on global cognitive measures than in groups with amyloid alone or negative biomarkers (paper, Results)."
+    ],
+    "methods_md": "This multicenter longitudinal observational study followed 1,325 cognitively unimpaired individuals from seven cohorts for an average of 41.8 months. Participants were grouped by amyloid and tau PET status, specifically differentiating between tau in the medial temporal lobe (MTL) versus the neocortex (NEO-T).",
+    "trial_evidence_md": "This study provides robust observational evidence linking PET biomarkers to rapid clinical decline, supporting the biological definition of preclinical Alzheimer's disease. However, predicting decline is only part of the clinical puzzle. The failure of the [A4 Study](/research/papers/solanezumab-a4-prevention) (solanezumab) in a similar population means early detection does not yet guarantee an actionable preventative treatment. The field awaits readouts from trials of highly potent plaque-clearing therapies like [AHEAD 3-45](/trials/ahead-3-45) and [TRAILBLAZER-ALZ 3](/trials/trailblazer-alz-3) to see if early intervention can halt this predicted progression.",
+    "sentiment_md": "Public perception is sharply divided. The scientific community largely celebrates the validation of the biological cascade and its utility for clinical trial design. In contrast, patient and caregiver communities express deep skepticism about early testing. They cite the psychological burden of a preclinical diagnosis without an accessible, curative treatment to alter the disease course.",
+    "caveats_md": [
+      "The study establishes relative risk over a short follow-up (~3.5 years), not absolute lifetime risk, and does not account for competing risks like mortality.",
+      "The group with isolated tau positivity (A-T+) was too small for main analyses, limiting insights into tau's impact independent of amyloid.",
+      "Differences in PET tracers, cognitive tests, and recruitment strategies across the seven participating cohorts may introduce variability into the pooled findings."
+    ],
+    "relates_to_md": [
+      "[Biomarkers](/research/biomarkers) — Supports the use of amyloid and tau PET for defining preclinical Alzheimer's risk.",
+      "[Preclinical Alzheimer's Disease](/journey/amyloid-hypothesis-consumer) — Validates the biological criteria for identifying pre-symptomatic disease.",
+      "[AHEAD 3-45](/trials/ahead-3-45) — Highlights the high-risk population targeted by secondary prevention trials.",
+      "[BioFINDER-1](/trials/biofinder-1-nct01208675) — One of the major cohorts contributing foundational data to this study."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "biofinder-1-nct01208675",
+      "title": "BioFINDER-1",
+      "description": "Observational cohort study tracking clinical conversion in healthy elderly and MCI patients using CSF and PET biomarkers.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "observational",
+        "biomarkers",
+        "pet-imaging",
+        "csf"
+      ],
+      "registry_md": "[NCT01208675](https://clinicaltrials.gov/study/NCT01208675)",
+      "drug": "none (observational)",
+      "phase": "n/a",
+      "sponsor": "Skane University Hospital",
+      "population": "Cognitively healthy elderly subjects and patients with mild cognitive impairment",
+      "primary_endpoint": "Time to conversion to clinically probable AD with normal and abnormal biomarkers",
+      "started": "2010-09",
+      "readout": "2024-12",
+      "why_md": "BioFINDER-1 is a foundational observational cohort that established the predictive validity of cerebrospinal fluid and [PET biomarkers](/research/biomarkers) for tracking Alzheimer's disease progression. Its longitudinal data directly supports modern biological criteria for preclinical Alzheimer's.",
+      "status_log_md": [
+        "**2024-12-01** — Study officially completed (registry).",
+        "**2010-09-01** — Study initiated (registry)."
+      ],
+      "results_md": "Data from BioFINDER-1 has been widely published, demonstrating that individuals with normal cognition but abnormal amyloid and tau biomarkers are at high risk for subsequent clinical decline, forming the backbone of major prognostic models in the field."
+    },
+    {
+      "slug": "biofinder-2-nct03174938",
+      "title": "BioFINDER-2",
+      "description": "Longitudinal cohort study using next-generation PET and blood-based biomarkers to refine predictive models for cognitive decline.",
+      "badge": "Recruiting",
+      "tags": [
+        "trial",
+        "observational",
+        "biomarkers",
+        "pet-imaging",
+        "blood-tests"
+      ],
+      "registry_md": "[NCT03174938](https://clinicaltrials.gov/study/NCT03174938)",
+      "drug": "none (observational)",
+      "phase": "n/a",
+      "sponsor": "Skane University Hospital",
+      "population": "Cognitively healthy individuals, SCD, MCI, AD dementia, and other dementias",
+      "primary_endpoint": "Clinical diagnosis according to consensus group decision blinded to diagnostic test; Change in CDR-SB",
+      "started": "2017-05",
+      "readout": "2036-12",
+      "why_md": "BioFINDER-2 extends earlier observational work by incorporating next-generation [PET tracers and blood-based biomarkers](/research/biomarkers) across a broader diagnostic spectrum. It aims to refine our ability to predict cognitive decline and stratify patients for early intervention.",
+      "status_log_md": [
+        "**2017-05-01** — Study initiated (registry)."
+      ],
+      "results_md": null
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2022-11",
+      "title": "2022-11 — Tau PET neocortical spread linked to 40-fold dementia risk",
+      "body_md": "A major multi-cohort study of 1,325 cognitively unimpaired individuals ([Ossenkoppele et al.](/research/papers/amyloid-tau-pet-cognitive-decline-ossenkoppele)) demonstrates that combined amyloid and neocortical tau PET positivity strongly predicts short-term progression to dementia, validating biological definitions of preclinical Alzheimer's."
+    }
+  ],
+  "notes_for_editor": []
+}

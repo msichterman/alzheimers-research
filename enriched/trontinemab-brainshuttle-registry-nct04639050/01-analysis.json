@@ -1,0 +1,54 @@
+{
+  "kind": "other",
+  "title": "Brainshuttle AD: A Multiple Ascending Dose Study to Investigate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of RO7126209 Following Intravenous Infusion in Participants With Prodromal or Mild to Moderate Alzheimer's Disease",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2020-11",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "immunotherapy",
+    "trontinemab",
+    "ro7126209",
+    "brainshuttle"
+  ],
+  "themes": [
+    "Alzheimer's disease",
+    "Safety and tolerability",
+    "Pharmacokinetics and pharmacodynamics",
+    "Amyloid clearance",
+    "Multiple ascending dose",
+    "Brainshuttle technology"
+  ],
+  "one_line": "A Phase Ib/IIa clinical trial registry record (NCT04639050) evaluating the safety, tolerability, and amyloid-reducing efficacy of RO7126209 (trontinemab) in patients with prodromal or mild to moderate Alzheimer's disease.",
+  "summary": "This document is a ClinicalTrials.gov registry record for NCT04639050, a Phase Ib/IIa, randomized, double-blind, placebo-controlled study sponsored by Hoffmann-La Roche. The trial evaluates RO7126209, an intravenously administered immunotherapy utilizing Brainshuttle technology, in 241 participants aged 50 to 85 with prodromal or mild to moderate Alzheimer's disease and confirmed amyloid positivity. The study consists of multiple parts: dose finding, expansion, dose/frequency relationship, and an open-label extension. Primary outcome measures focus on the percentage of participants with adverse events and changes in brain amyloid load as measured by amyloid PET scans. The trial is currently active but not recruiting, with a primary completion estimated for July 2027.",
+  "key_claims": [],
+  "methods": {
+    "design": "Phase Ib/IIa, randomized, double-blind, placebo-controlled, multiple ascending dose, parallel-group",
+    "n": 241,
+    "population": "Adults aged 50-85 with prodromal or mild to moderate Alzheimer's disease and positive amyloid PET scans",
+    "duration": "Up to 233 weeks (including open-label extension and safety follow-up)",
+    "registration": "NCT04639050"
+  },
+  "funding_and_conflicts": "Lead sponsor: Hoffmann-La Roche. No individual investigator conflicts of interest are stated in the registry record.",
+  "limitations": [
+    "This is a trial registry record, not a completed study report; no clinical results, efficacy, or safety data are available as the trial is ongoing."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 10,
+    "issues": []
+  },
+  "search_verification": []
+}

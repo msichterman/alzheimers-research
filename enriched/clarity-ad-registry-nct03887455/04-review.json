@@ -1,0 +1,93 @@
+{
+  "fact_check": [
+    {
+      "fact": "Lecanemab administration will demonstrate superiority compared with placebo... at 18 months of treatment.",
+      "status": "corrected",
+      "note": "The source document (a 2019 registry protocol) frames this as a future planned evaluation. The trial has since concluded its 18-month core phase and published results demonstrating a 27% slowing of decline on the CDR-SB."
+    },
+    {
+      "fact": "Enrollment of 1906 participants",
+      "status": "verified",
+      "note": "Checked against the ClinicalTrials.gov registry source which lists '1906 (ACTUAL)'."
+    },
+    {
+      "fact": "Results posted: false",
+      "status": "verified",
+      "note": "The registry accurately reflects that no native results are posted directly on the ClinicalTrials.gov platform, despite the trial's core results being published in peer-reviewed literature (NEJM 2023)."
+    }
+  ],
+  "research_page": {
+    "slug": "lecanemab-clarity-ad-phase-3-protocol",
+    "title": "Clarity AD: Lecanemab Phase 3 in early AD (Registry Protocol)",
+    "description": "Registry protocol for the pivotal Phase 3 Clarity AD trial evaluating lecanemab in early Alzheimer's disease.",
+    "tags": [
+      "trial-protocol",
+      "amyloid",
+      "immunotherapy",
+      "lecanemab"
+    ],
+    "source_line_md": "**Source**: [ClinicalTrials.gov, 2019](https://clinicaltrials.gov/study/NCT03887455)",
+    "authors_line_md": "Eisai Inc. and Biogen",
+    "takeaway_md": "This document outlines the protocol for Clarity AD, the pivotal Phase 3 trial of lecanemab in early Alzheimer's disease. While the registry itself does not host the study's outcomes, the core 18-month trial ultimately met its primary endpoint—demonstrating a 27% slowing of clinical decline—and served as the basis for the drug's FDA approval.",
+    "key_findings_md": [
+      "Evaluates lecanemab 10 mg/kg biweekly versus placebo over an 18-month core study period.",
+      "Primary endpoint is the change from baseline in the Clinical Dementia Rating-Sum of Boxes (CDR-SB) at 18 months.",
+      "The trial officially enrolled 1,906 participants with early AD and confirmed brain amyloid pathology."
+    ],
+    "methods_md": "Phase 3, randomized, quadruple-blind, placebo-controlled, parallel-group study. Enrolled 1,906 male and female participants aged 50-90 with Mild Cognitive Impairment (MCI) or mild dementia due to Alzheimer's disease and confirmed amyloid pathology. The core study lasts 18 months, followed by an open-label extension phase lasting up to 66 months (NCT03887455).",
+    "trial_evidence_md": "This protocol describes [Clarity AD](/trials/lecanemab-clarity-ad), the Phase 3 confirmatory trial that demonstrated lecanemab's clinical efficacy, building on dose-finding data from the [Lecanemab Phase 2b](/research/papers/lecanemab-phase-2b) study. Lecanemab's efficacy in earlier disease stages is actively being evaluated in the [AHEAD 3-45](/trials/ahead-3-45) trial.",
+    "sentiment_md": "Public perception of lecanemab is starkly divided. While media outlets frequently frame the drug as a 'momentous breakthrough', patient and caregiver communities express significant concern over real-world risks like ARIA (brain swelling and bleeds), logistical infusion hurdles, and strict eligibility criteria that exclude many patients.",
+    "caveats_md": [
+      "This document is a trial registry protocol, not the peer-reviewed results publication; it outlines intended study parameters rather than actual clinical outcomes.",
+      "The protocol strictly excludes individuals with more than 4 microhemorrhages, potentially limiting the generalizability of safety data to populations at higher baseline risk for ARIA.",
+      "In certain countries, APOE4 homozygous carriers are excluded from the extension phase, which may obscure critical long-term safety data for the genetic subgroup most vulnerable to adverse events."
+    ],
+    "relates_to_md": [
+      "[AHEAD 3-45](/trials/ahead-3-45) — Ongoing related clinical program testing lecanemab in preclinical Alzheimer's disease.",
+      "[Lecanemab Phase 2b](/research/papers/lecanemab-phase-2b) — The preceding Phase 2 study that established the dose and confirmed target engagement for this Phase 3 trial."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "lecanemab-clarity-ad",
+      "title": "Clarity AD",
+      "description": "Pivotal Phase 3 trial evaluating lecanemab in 1,906 participants with early Alzheimer's disease.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "phase-3",
+        "lecanemab",
+        "amyloid"
+      ],
+      "registry_md": "[NCT03887455](https://clinicaltrials.gov/study/NCT03887455)",
+      "drug": "lecanemab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "population": "Male and female participants aged 50-90 with MCI or mild dementia due to Alzheimer's disease and confirmed brain amyloid pathology",
+      "primary_endpoint": "Core Study: Change from Baseline in the CDR-SB at 18 Months",
+      "started": "2019-03",
+      "readout": "2029-06",
+      "why_md": "Clarity AD is the pivotal Phase 3 confirmatory trial designed to determine whether clearing amyloid plaques with lecanemab slows cognitive and functional decline in early Alzheimer's disease. Its core results established the clinical efficacy required for traditional FDA approval.",
+      "status_log_md": [
+        "**2019-03-27** — Trial core phase begins.",
+        "**2023-01-05** — Primary results published in NEJM, demonstrating a 27% slowing of clinical decline over 18 months."
+      ],
+      "results_md": "The core 18-month study met its primary endpoint, demonstrating a highly statistically significant 27% slowing of clinical decline on the CDR-SB compared to placebo. It also met all key secondary endpoints, including significant clearance of brain amyloid."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2019-03",
+      "title": "2019-03 — Clarity AD Phase 3 trial begins",
+      "body_md": "Eisai and Biogen launch the pivotal Phase 3 [Clarity AD](/trials/lecanemab-clarity-ad) trial to evaluate lecanemab's efficacy in early Alzheimer's disease."
+    },
+    {
+      "section": "Disease-modifying era",
+      "date": "2023-01",
+      "title": "2023-01 — Clarity AD trial demonstrates efficacy",
+      "body_md": "Primary results from the [Clarity AD](/trials/lecanemab-clarity-ad) trial show that lecanemab slowed clinical decline by 27% over 18 months, setting the stage for FDA approval."
+    }
+  ],
+  "notes_for_editor": []
+}

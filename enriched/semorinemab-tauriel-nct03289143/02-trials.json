@@ -1,0 +1,77 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT03289143",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03289143",
+      "name": "TAURIEL",
+      "drug": "Semorinemab (anti-tau monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Genentech, Inc.",
+      "status": "Terminated",
+      "enrollment": 457,
+      "population": "Patients with prodromal to mild Alzheimer's disease",
+      "primary_endpoint": "Change From Baseline on the CDR-SB",
+      "started": "2017-10",
+      "completed_or_readout": "2021-01",
+      "results_summary": "The trial failed to meet its primary efficacy endpoint, showing no significant difference in CDR-SB decline between semorinemab and placebo at week 73. Secondary cognitive and functional endpoints also showed no clinical benefit, leading to early termination of the open-label extension.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03828747",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03828747",
+      "name": "LAURIET",
+      "drug": "Semorinemab (anti-tau monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Genentech, Inc.",
+      "status": "Completed",
+      "enrollment": 272,
+      "population": "Patients with moderate Alzheimer's disease",
+      "primary_endpoint": "Change From Baseline to Week 49/61 in Cognitive Function (ADAS-Cog11) and Functional Capacities (ADCS-ADL)",
+      "started": "2019-01",
+      "completed_or_readout": "2023-08",
+      "results_summary": "Semorinemab met one co-primary endpoint by reducing cognitive decline on the ADAS-Cog11 relative to placebo, but failed to show any benefit on the co-primary functional endpoint (ADCS-ADL) or other secondary global measures.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02820896",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02820896",
+      "name": null,
+      "drug": "Semorinemab (RO7105705)",
+      "phase": "1",
+      "sponsor": "Genentech, Inc.",
+      "status": "Completed",
+      "enrollment": 74,
+      "population": "Healthy participants and participants with mild-to-moderate Alzheimer's disease",
+      "primary_endpoint": "Number of Participants with Adverse Events",
+      "started": "2016-06",
+      "completed_or_readout": "2017-06",
+      "results_summary": "Evaluated safety, tolerability, and pharmacokinetics, confirming target engagement (reduction of N-terminal tau in CSF) but producing no posted efficacy readouts.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2022-08-01",
+      "kind": "paper",
+      "description": "Peer-reviewed publication of the phase II TAURIEL trial results in JAMA Neurology.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35696185/"
+    },
+    {
+      "date": "2023-10-03",
+      "kind": "paper",
+      "description": "Peer-reviewed publication of the phase II LAURIET trial results in Neurology.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37643887/"
+    },
+    {
+      "date": "2024-03-11",
+      "kind": "news",
+      "description": "Pharmaceutical pipeline databases (AdisInsight) reported the formal discontinuation of clinical development of semorinemab for Alzheimer's disease.",
+      "url": "https://adisinsight.springer.com/drugs/800046712"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence strongly corroborates the document's central claim that semorinemab lacks clinical efficacy for early Alzheimer's disease. The phase II TAURIEL trial decisively missed its primary and secondary endpoints, failing to slow decline on the CDR-SB or other cognitive metrics compared to placebo despite verified target engagement. A subsequent phase II trial in moderate AD (LAURIET) further reinforced this lack of holistic efficacy, meeting a cognitive measure but completely failing its functional coprimary endpoint. Due to this consistent lack of meaningful clinical benefit across two separate trials, Genentech formally discontinued the semorinemab clinical program for Alzheimer's disease in early 2024.",
+  "discrepancies": []
+}

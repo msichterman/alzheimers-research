@@ -1,0 +1,206 @@
+{
+  "kind": "research-paper",
+  "title": "Trial of Solanezumab in Preclinical Alzheimer’s Disease",
+  "authors": [
+    {
+      "name": "Reisa A. Sperling",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Michael C. Donohue",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Rema Raman",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Michael S. Rafii",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Keith Johnson",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Colin L. Masters",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Christopher H. van Dyck",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Takeshi Iwatsubo",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Gad A. Marshall",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Roy Yaari",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Michele Mancini",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Karen C. Holdridge",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Michael Case",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "John R. Sims",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Paul S. Aisen",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Reisa A. Sperling",
+  "venue": "The New England journal of medicine",
+  "published": "2023",
+  "doi": "10.1056/NEJMoa2305032",
+  "doi_url": "https://doi.org/10.1056/NEJMoa2305032",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/37458272",
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law."
+  },
+  "tags": [
+    "paper",
+    "trial",
+    "amyloid",
+    "prevention",
+    "immunotherapy",
+    "biomarkers",
+    "solanezumab",
+    "a4-study",
+    "pacc"
+  ],
+  "themes": [
+    "Preclinical Alzheimer's disease",
+    "Anti-amyloid monoclonal antibodies",
+    "Monomeric amyloid targeting",
+    "Cognitive decline tracking"
+  ],
+  "one_line": "A phase 3 clinical trial found that solanezumab, an antibody targeting monomeric amyloid, did not slow cognitive decline compared to placebo over 240 weeks in cognitively unimpaired older adults with preclinical Alzheimer's disease.",
+  "summary": "This phase 3, randomized, double-blind, placebo-controlled trial (the A4 study) evaluated the efficacy of solanezumab in 1,169 cognitively unimpaired older adults with preclinical Alzheimer's disease, defined by elevated brain amyloid levels. Participants received intravenous solanezumab or placebo every 4 weeks for 240 weeks. The trial protocol was amended mid-study to quadruple the solanezumab dose from 400 mg to 1,600 mg. The primary endpoint was the change in the Preclinical Alzheimer Cognitive Composite (PACC) score. Results demonstrated no significant difference between the solanezumab and placebo groups in slowing cognitive decline; in fact, the solanezumab group showed a numerically greater decline. Brain amyloid levels continued to increase in both groups, though slightly less in the solanezumab cohort, and adverse events were balanced. The findings suggest that targeting monomeric amyloid does not effectively slow clinical progression in preclinical Alzheimer's disease.",
+  "key_claims": [
+    {
+      "claim": "Solanezumab does not slow cognitive decline in preclinical Alzheimer's disease compared to placebo.",
+      "evidence": "At 240 weeks, the mean change in PACC score was −1.43 in the solanezumab group and −1.13 in the placebo group (difference, −0.30; 95% CI, −0.82 to 0.22; P = 0.26).",
+      "strength": "strong",
+      "location": "RESULTS / TRIAL END POINTS"
+    },
+    {
+      "claim": "Solanezumab slows amyloid accumulation but does not reduce it below baseline.",
+      "evidence": "Amyloid levels on brain PET increased by a mean of 11.6 centiloids in the solanezumab group and 19.3 centiloids in the placebo group.",
+      "strength": "moderate",
+      "location": "RESULTS / TRIAL END POINTS"
+    },
+    {
+      "claim": "Solanezumab is associated with a very low risk of ARIA with edema (ARIA-E).",
+      "evidence": "ARIA with edema occurred in less than 1% of the participants in each group (1 case in solanezumab, 2 cases in placebo).",
+      "strength": "strong",
+      "location": "RESULTS / SAFETY"
+    }
+  ],
+  "methods": {
+    "design": "Phase 3 randomized, double-blind, placebo-controlled trial",
+    "n": 1169,
+    "population": "Persons 65 to 85 years of age with a global Clinical Dementia Rating score of 0, MMSE score ≥ 25, and elevated brain amyloid on 18 F-florbetapir PET",
+    "duration": "240 weeks",
+    "registration": "NCT02008357"
+  },
+  "funding_and_conflicts": "Funded by the National Institute on Aging (NIH), Eli Lilly (which provided trial drug and matching placebo), Alzheimer's Association, Accelerating Medicines Partnership (FNIH), GHR Foundation, Davis Alzheimer Prevention Program, Yugilbar Foundation, and other private donors. Trial designed with Eli Lilly employees. No individual author conflicts are explicitly listed in the provided text.",
+  "limitations": [
+    "Participants were not representative of older persons at risk for cognitive decline, with an underrepresentation of Black and Hispanic/Latino individuals.",
+    "The trial was complicated by a mid-trial dose increase from 400 mg to 1600 mg.",
+    "Widespread disruption of site activities and visit timing due to the COVID-19 pandemic necessitated a change to the statistical analysis plan."
+  ],
+  "red_flags": [
+    "Protocol amendment to quadruple the dose after ~970 participants were already enrolled.",
+    "Statistical analysis plan altered before unblinding (using days since baseline rather than categorical visit) due to COVID-19-related missed visits.",
+    "Numerical worsening in primary and secondary cognitive outcomes for the treatment group compared to placebo."
+  ],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "Markdown conversion stripped internal figure/table cross-references, leaving empty parentheses like '()' or '( and )'.",
+      "Loss of precise appendix/supplementary labels (e.g., '(see the , available with full text)')."
+    ]
+  },
+  "search_verification": [
+    "Used provided PMID (37458272), PMCID (PMC10559996), and internal text clues ('database lock in early 2023') to verify 2023 publication date."
+  ]
+}

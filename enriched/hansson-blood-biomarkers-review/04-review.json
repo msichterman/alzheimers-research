@@ -1,0 +1,95 @@
+{
+  "fact_check": [
+    {
+      "fact": "Plasma p-tau217 increases by about 300–700% in symptomatic AD compared to healthy individuals and other neurodegenerative diseases.",
+      "status": "verified",
+      "note": "Checked against source document: 'increases of about 300–700% compared to both healthy individuals and patients with other neurodegenerative diseases'."
+    },
+    {
+      "fact": "The A4 trial required 3.5 years and more than 4,000 amyloid PET scans to identify 1,169 participants.",
+      "status": "verified",
+      "note": "Checked against source document: 'it took 3.5 years and more than 4,000 amyloid PET scans to identify 1,169 participants'."
+    },
+    {
+      "fact": "Plasma Aβ42/Aβ40 ratio has a modest drop of 8–15% in symptomatic AD.",
+      "status": "verified",
+      "note": "Checked against source document: 'the very modest drop of 8–15% in symptomatic AD means that this biomarker has low performance and robustness'."
+    },
+    {
+      "fact": "The A4 trial (NCT02008357) results are reported in this document.",
+      "status": "disputed",
+      "note": "The clinical-trials researcher labeled A4 as 'reported-here', but this document is a review that merely cites A4's screening inefficiency as historical context."
+    }
+  ],
+  "research_page": {
+    "slug": "plasma-ptau217-clinical-review-2023",
+    "title": "Blood biomarkers for AD in clinical practice and trials",
+    "description": "A 2023 review positioning plasma p-tau217 as a highly accurate, cost-effective diagnostic and trial-screening tool.",
+    "tags": [
+      "review",
+      "biomarkers",
+      "blood-tests",
+      "p-tau217"
+    ],
+    "source_line_md": "**Source**: [Nature aging, 2023](https://doi.org/10.1038/s43587-023-00403-3) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/37202517/)",
+    "authors_line_md": "Hansson et al. — Skane University Hospital / University of Gothenburg",
+    "takeaway_md": "Blood-based biomarkers like plasma p-tau217 can accurately distinguish Alzheimer's from other neurodegenerative diseases. They are already transforming clinical trials by replacing expensive PET screening and are expected to shift routine diagnosis into primary care once analytical standardization is achieved.",
+    "key_findings_md": [
+      "Plasma p-tau217 shows a 300–700% increase in symptomatic Alzheimer's patients compared to healthy individuals, making it a highly robust marker (paper).",
+      "The plasma Aβ42/Aβ40 ratio only drops 8–15% in symptomatic disease, resulting in poor robustness for routine clinical use (paper).",
+      "Prescreening with blood biomarkers drastically improves trial efficiency; for context, the historical A4 trial required over 4,000 PET scans across 3.5 years just to enroll 1,169 participants (paper)."
+    ],
+    "methods_md": "Narrative review synthesizing evidence on the diagnostic performance, robustness, and clinical implementation of blood-based biomarkers for Alzheimer's disease.",
+    "trial_evidence_md": "This review reflects a major clinical shift: blood biomarkers are replacing PET scans for prescreening in trials like [AHEAD 3-45](/trials/ahead-3-45). The authors argue for the eventual use of these markers in primary care, a claim they are prospectively testing in the ongoing [BioFINDER - Primary Care](/trials/biofinder-pc-nct06120361) trial.",
+    "sentiment_md": "Public and investor sentiment is highly optimistic, focusing on the avoidance of invasive spinal taps and expensive PET scans. However, the media often mischaracterizes the tests as standalone diagnostics for asymptomatic individuals, leading to distress among patients who test positive without available preventative treatments.",
+    "caveats_md": [
+      "The authors hold significant financial conflicts of interest, including patent rights to p-tau217 assays and ownership in biomarker startups.",
+      "Current diagnostic cutoffs are predominantly based on retrospective, batch-analyzed data rather than real-world prospective testing."
+    ],
+    "relates_to_md": [
+      "[Biomarkers](/research/biomarkers) — Focuses on the clinical implementation of blood-based tau and amyloid tests.",
+      "[Trial of Solanezumab in Preclinical Alzheimer’s Disease](/research/papers/solanezumab-a4-prevention) — Discusses the A4 trial's costly PET screening as a rationale for blood-based prescreening."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "biofinder-pc-nct06120361",
+      "title": "BioFINDER - Primary Care",
+      "description": "Diagnostic validation of blood-based biomarkers in 1,200 primary care patients evaluated for cognitive impairment.",
+      "badge": "Recruiting",
+      "tags": [
+        "trial",
+        "biomarkers",
+        "p-tau217",
+        "diagnostics",
+        "primary-care"
+      ],
+      "registry_md": "[NCT06120361](https://clinicaltrials.gov/study/NCT06120361)",
+      "drug": "Blood-based biomarker diagnostic validation",
+      "phase": "n/a",
+      "sponsor": "Skane University Hospital",
+      "population": "Primary care patients evaluated for cognitive impairment",
+      "primary_endpoint": "Presence of brain AD pathology as determined by CSF AD biomarkers",
+      "started": "2020-01",
+      "readout": "2028-12",
+      "why_md": "Current blood biomarker cutoffs rely mostly on retrospective batch analysis. This trial evaluates whether plasma p-tau217 can accurately and prospectively diagnose Alzheimer's in real-world primary care settings, where patients have greater heterogeneity and more comorbidities.",
+      "status_log_md": [
+        "**2020-01-01** — Trial begins.",
+        "**2024-07-28** — Interim results published in [JAMA](https://doi.org/10.1001/jama.2024.13855) demonstrating ~90% diagnostic accuracy for plasma p-tau217 in primary care."
+      ],
+      "results_md": "Interim data (2024) demonstrated that plasma p-tau217 combined with a brief memory test provides approximately 90% diagnostic accuracy in primary care settings."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Diagnostics",
+      "date": "2024-07",
+      "title": "2024-07 — BioFINDER-Primary Care validates p-tau217",
+      "body_md": "Interim results from the [BioFINDER - Primary Care](/trials/biofinder-pc-nct06120361) trial demonstrate that plasma p-tau217 has ~90% diagnostic accuracy in real-world primary care settings."
+    }
+  ],
+  "notes_for_editor": [
+    "The clinical-trials researcher incorrectly flagged the A4 trial (NCT02008357) as 'reported-here'. Because this document is a review that simply cites A4's screening inefficiencies as historical context, I omitted an A4 trial page and instead linked to the existing A4 paper page (/research/papers/solanezumab-a4-prevention).",
+    "I created a trial page for BioFINDER-Primary Care since it is the pivotal prospective validation program explicitly answering the core limitation (lack of primary care data) raised by the authors."
+  ]
+}

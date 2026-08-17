@@ -1,0 +1,96 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT03352557",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03352557",
+      "name": "TANGO",
+      "drug": "Gosuranemab / BIIB092 (anti-N-terminal tau monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Biogen",
+      "status": "Terminated",
+      "enrollment": 654,
+      "population": "Participants With Early Alzheimer's Disease",
+      "primary_endpoint": "Percentage of Participants With Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+      "started": "2018-05",
+      "completed_or_readout": "2021-08",
+      "results_summary": "The study met primary safety endpoints and showed robust target engagement by significantly reducing unbound N-terminal tau in the CSF. However, it completely failed to demonstrate clinical efficacy on secondary cognitive/functional endpoints or reduce brain tau accumulation via PET, leading to early termination of its extension phase.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03068468",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03068468",
+      "name": "PASSPORT",
+      "drug": "Gosuranemab / BIIB092 (anti-N-terminal tau monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Biogen",
+      "status": "Terminated",
+      "enrollment": 490,
+      "population": "Participants With Progressive Supranuclear Palsy (PSP)",
+      "primary_endpoint": "Change From Baseline in Progressive Supranuclear Palsy Rating Scale (PSPRS) at Week 52",
+      "started": "2017-06",
+      "completed_or_readout": "2020-02",
+      "results_summary": "Gosuranemab was generally well tolerated but definitively missed its primary efficacy endpoint of slowing disease progression on the PSPRS over 52 weeks. The trial and broader PSP development program were subsequently terminated.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02460094",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02460094",
+      "name": null,
+      "drug": "Gosuranemab / BMS-986168 (anti-N-terminal tau monoclonal antibody)",
+      "phase": "1",
+      "sponsor": "Biogen",
+      "status": "Completed",
+      "enrollment": 48,
+      "population": "Patients With Progressive Supranuclear Palsy (PSP)",
+      "primary_endpoint": "Safety and Tolerability as Measured by Percentage of Participants with Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+      "started": "2015-10",
+      "completed_or_readout": "2016-10",
+      "results_summary": "This multiple ascending dose trial demonstrated that the drug had an acceptable safety and tolerability profile. It also established proof of biological mechanism by showing robust, dose-dependent reductions in CSF unbound eTau.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02294851",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02294851",
+      "name": null,
+      "drug": "Gosuranemab / BMS-986168 (anti-N-terminal tau monoclonal antibody)",
+      "phase": "1",
+      "sponsor": "Biogen",
+      "status": "Completed",
+      "enrollment": 65,
+      "population": "Healthy Subjects",
+      "primary_endpoint": "Safety and tolerability, as measured by incidence of AEs, serious AEs, AEs leading to discontinuation, and death",
+      "started": "2014-12",
+      "completed_or_readout": "2016-04",
+      "results_summary": "The single ascending dose study in healthy volunteers successfully established initial safety and tolerability without identifying dose-limiting toxicities.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2023-11",
+      "kind": "paper",
+      "description": "TANGO Phase 2 study full publication showing target engagement but definitive lack of clinical efficacy in early Alzheimer's disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38012285"
+    },
+    {
+      "date": "2021-08",
+      "kind": "paper",
+      "description": "PASSPORT Phase 2 trial results demonstrating the failure of gosuranemab to slow disease progression in Progressive Supranuclear Palsy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34385707"
+    },
+    {
+      "date": "2019-07",
+      "kind": "paper",
+      "description": "Phase 1b multiple ascending dose results demonstrating safety, tolerability, and target engagement of BIIB092 in patients with PSP.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31122495"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence strongly supports that gosuranemab safely and robustly engages its target (extracellular N-terminal tau), as demonstrated across rigorous Phase 1 and Phase 2 trials in both Alzheimer's disease and Progressive Supranuclear Palsy (PSP). However, despite effectively clearing unbound tau in cerebrospinal fluid, large double-blind Phase 2 trials (TANGO for early AD and PASSPORT for PSP) definitively failed to show any benefit in slowing clinical, functional, or cognitive decline. In TANGO, gosuranemab also failed to reduce the accumulation of pathological tau on PET imaging. This comprehensive lack of clinical efficacy across multiple tauopathies led to the complete termination of the drug's development program.",
+  "discrepancies": [
+    "The document's title and text emphasize the TANGO trial as a study of 'efficacy and safety', but the ClinicalTrials.gov record (NCT03352557) dictates that the primary endpoint was exclusively safety and tolerability metrics, with clinical efficacy measures like CDR-SB strictly designated as secondary or exploratory."
+  ]
+}

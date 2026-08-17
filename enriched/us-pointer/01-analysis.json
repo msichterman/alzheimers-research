@@ -1,0 +1,339 @@
+{
+  "kind": "research-paper",
+  "title": "Structured vs Self-Guided Multidomain Lifestyle Interventions for Global Cognitive Function",
+  "authors": [
+    {
+      "name": "Baker, Laura D.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Espeland, Mark A.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Whitmer, Rachel A.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Snyder, Heather M.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Leng, Xiaoyan",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Lovato, Laura",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Papp, Kathryn V.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Yu, Melissa",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Kivipelto, Miia",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Alexander, Ashley S.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Antkowiak, Susan",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Cleveland, Maryjo",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Day, Claire",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Elbein, Richard",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Farias, Sarah Tomaszewski",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Felton, Deborah",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Garcia, Katelyn R.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Gitelman, Darren R.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Graef, Sarah",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Howard, Marjorie",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Katula, Jeffrey",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Lambert, Katherine",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Matongo, Olivia",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "McDonald, Anne Marie",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Pavlik, Valory",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Raman, Rema",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Salloway, Stephen",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Tangney, Christy",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Ventrelle, Jennifer",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Wilmoth, Sharon",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Willliams, Benjamin J.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Wing, Rena",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Woolard, Nancy",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Carrillo, Maria C.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Baker, Laura D.",
+  "venue": "JAMA",
+  "published": "2025",
+  "doi": "10.1001/jama.2025.12923",
+  "doi_url": "https://doi.org/10.1001/jama.2025.12923",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40720610",
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "paper",
+    "trial",
+    "prevention",
+    "us-pointer",
+    "lifestyle-intervention",
+    "mind-diet"
+  ],
+  "themes": [
+    "Multidomain lifestyle intervention",
+    "Dementia risk reduction",
+    "Global cognitive function",
+    "Diet and exercise"
+  ],
+  "one_line": "A structured multidomain lifestyle intervention yielded a statistically significant but very small improvement in cognitive trajectories over two years compared to a self-guided intervention in at-risk older adults.",
+  "summary": "This randomized clinical trial evaluated the efficacy of two 2-year multidomain lifestyle interventions in preserving global cognitive function among 2,111 older adults at risk for cognitive decline. Participants were assigned to either a structured, high-intensity intervention or a self-guided, lower-intensity intervention, both of which emphasized physical exercise, the MIND diet, cognitive challenge, and cardiovascular monitoring. Over the study period, both groups showed an increase in mean global cognitive composite z-scores from baseline. The structured intervention group exhibited a statistically significant greater annual rate of increase compared to the self-guided group (0.243 SD vs 0.213 SD per year, respectively). The benefit of the structured intervention was independent of APOE ε4 carrier status but appeared more pronounced in individuals with lower baseline cognition. Further research is necessary to determine the clinical relevance and long-term sustainability of the modest cognitive benefits observed.",
+  "key_claims": [
+    {
+      "claim": "A structured, higher-intensity multidomain lifestyle intervention provides greater benefit to global cognition than a self-guided intervention in at-risk older adults.",
+      "evidence": "Mean global cognitive composite z-score increased by 0.243 SD per year in the structured group vs 0.213 SD per year in the self-guided group (difference of 0.029 SD; 95% CI, 0.008-0.050; P = .008).",
+      "strength": "moderate",
+      "location": "Abstract / Results"
+    }
+  ],
+  "methods": {
+    "design": "Single-blind, multicenter randomized clinical trial",
+    "n": 2111,
+    "population": "Older adults (age 60-79 years) at risk of cognitive decline with a sedentary lifestyle, suboptimal diet, and at least 2 additional risk factors.",
+    "duration": "2 years",
+    "registration": "NCT03688126"
+  },
+  "funding_and_conflicts": "none stated",
+  "limitations": [
+    "The clinical significance of the very small absolute difference between groups (0.029 SD/year) is unclear.",
+    "Functional outcomes and biomarkers are not included in this abstract to corroborate the neurocognitive test scores.",
+    "Both groups showed an increase in cognitive scores from baseline, making it difficult to distinguish true cognitive benefit from test practice effects in the absence of a strict 'no-intervention' control group."
+  ],
+  "red_flags": [
+    "The trajectory of cognitive improvement in both groups heavily suggests practice effects on the cognitive tests. Characterizing a 0.029 SD relative difference between two improving slopes as a 'benefit on global cognition' may overstate the true clinical utility of the structured intervention."
+  ],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "The conversion stripped all author affiliations and superscript markings.",
+      "No copyright, licensing, or full text details were extracted beyond the abstract."
+    ]
+  },
+  "search_verification": []
+}

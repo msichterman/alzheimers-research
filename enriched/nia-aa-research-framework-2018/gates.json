@@ -1,0 +1,28 @@
+{
+  "id": "nia-aa-research-framework-2018",
+  "cluster": "conceptual",
+  "checked_at": "2026-08-13T17:02:33.016Z",
+  "passed": false,
+  "text_sufficiency": {
+    "level": "full-text",
+    "chars": 76569,
+    "sections": []
+  },
+  "evidence_completeness": "full-text-oa",
+  "failures": [
+    {
+      "gate": "evidence",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing)"
+    },
+    {
+      "gate": "fidelity",
+      "detail": "no independent critic pass (enriched/<id>/07-fidelity.json missing)"
+    },
+    {
+      "gate": "critical-review",
+      "detail": "no record to review"
+    }
+  ],
+  "warnings": [],
+  "manifest_discrepancies": []
+}

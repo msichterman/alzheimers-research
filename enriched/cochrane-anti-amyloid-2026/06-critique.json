@@ -1,0 +1,373 @@
+{
+  "extracted_by": "gemini-3.1-pro-preview",
+  "extracted_at": "2026-08-13T16:30:57.910Z",
+  "independent": true,
+  "saw_builder_output": false,
+  "source": "raw/cochrane-anti-amyloid-2026/document.md",
+  "source_sha256": "ca22d7a870e3569204f03139ffbf21f7c4569786793b6ad3d5a9270d4869022d",
+  "truncated": false,
+  "tokens": {
+    "in": 29746,
+    "out": 4043
+  },
+  "record": {
+    "document_kind": "systematic_review",
+    "title": {
+      "value": "Amyloid‐beta‐targeting monoclonal antibodies for people with mild cognitive impairment or mild dementia due to Alzheimer’s disease",
+      "quote": "Amyloid‐beta‐targeting monoclonal antibodies for people with mild cognitive impairment or mild dementia due to Alzheimer’s disease",
+      "location": "Title"
+    },
+    "study": {
+      "design": {
+        "value": "systematic review",
+        "quote": "This Cochrane review was funded in part by",
+        "location": "Abstract, Funding"
+      },
+      "n": {
+        "value": 20342,
+        "quote": "Overall, we included 17 studies with 20,342 participants.",
+        "location": "Abstract, Included studies"
+      },
+      "population": {
+        "value": "people with mild cognitive impairment or mild dementia due to Alzheimer’s disease",
+        "quote": "people with mild cognitive impairment or mild dementia due to Alzheimer’s disease",
+        "location": "Abstract, Objectives"
+      },
+      "biomarker_confirmation": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "cohorts": [],
+      "comparator": {
+        "value": "placebo or no treatment",
+        "quote": "placebo or no treatment",
+        "location": "Abstract, Eligibility criteria"
+      },
+      "followup": {
+        "value": "at least 12 months",
+        "quote": "lasted at least 12 months",
+        "location": "Abstract, Eligibility criteria"
+      },
+      "intervention": {
+        "value": "amyloid‐beta‐targeting monoclonal antibodies aducanumab, bapineuzumab, crenezumab, donanemab, gantenerumab, lecanemab, ponezumab, remternetug, and solanezumab",
+        "quote": "amyloid‐beta‐targeting monoclonal antibodies aducanumab, bapineuzumab, crenezumab, donanemab, gantenerumab, lecanemab, ponezumab, remternetug, and solanezumab",
+        "location": "Abstract, Objectives"
+      },
+      "n_description": {
+        "value": "participants",
+        "quote": "participants",
+        "location": "Abstract, Included studies"
+      },
+      "nct_ids": [],
+      "phase": {
+        "value": "phase-3",
+        "quote": "phase‐3 randomised controlled trials (RCTs)",
+        "location": "Criteria for considering studies for this review, Types of studies"
+      }
+    },
+    "outcomes": [
+      {
+        "name": "cognitive function as measured by the ADAS‐Cog (Alzheimer's Disease Assessment Scale‐Cognitive) scale",
+        "tier": "primary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "Compared to placebo, amyloid‐beta‐targeting monoclonal antibodies probably result in little to no difference in cognitive function as measured by the ADAS‐Cog (Alzheimer's Disease Assessment Scale‐Cognitive) scale (standardised mean difference (SMD) −0.11, 95% confidence interval (CI) −0.16 to −0.06; 13 studies, 9895 participants; moderate certainty).",
+        "location": "Abstract, Synthesis of results",
+        "confidence_interval": "95% CI −0.16 to −0.06",
+        "effect_estimate": "SMD −0.11",
+        "multiplicity_controlled": null,
+        "p_value": null,
+        "prespecification_evidence": "Our outcomes of critical importance were: cognitive function"
+      },
+      {
+        "name": "dementia severity as measured by the CDR‐SB (Clincal Dementia Rating Sum of Boxes) scale",
+        "tier": "primary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "Amyloid‐beta‐targeting monoclonal antibodies may result in little to no difference in dementia severity as measured by the CDR‐SB (Clincal Dementia Rating Sum of Boxes) scale (SMD −0.12, 95% CI −0.24 to −0.00; 9 studies, 8053 participants; low certainty).",
+        "location": "Abstract, Synthesis of results",
+        "confidence_interval": "95% CI −0.24 to −0.00",
+        "effect_estimate": "SMD −0.12",
+        "multiplicity_controlled": null,
+        "p_value": null,
+        "prespecification_evidence": "Our outcomes of critical importance were: cognitive function; dementia severity"
+      },
+      {
+        "name": "functional ability as measured on the ADCS‐ADL (Alzheimer's Disease Cooperative Study ‐ Activities of Daily Living) scale",
+        "tier": "primary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "Amyloid‐beta‐targeting monoclonal antibodies probably result in little to no difference in functional ability as measured on the ADCS‐ADL (Alzheimer's Disease Cooperative Study ‐ Activities of Daily Living) scale (SMD 0.09, 95% CI 0.03 to 0.16; 3 studies, 3478 participants; moderate certainty)",
+        "location": "Abstract, Synthesis of results",
+        "confidence_interval": "95% CI 0.03 to 0.16",
+        "effect_estimate": "SMD 0.09",
+        "multiplicity_controlled": null,
+        "p_value": null,
+        "prespecification_evidence": "Our outcomes of critical importance were: cognitive function; dementia severity; functional ability"
+      }
+    ],
+    "primary_endpoint_status": {
+      "status": "not_met",
+      "quote": "The effect of amyloid‐beta‐targeting monoclonal antibodies on cognitive function and dementia severity at 18 months in people with mild cognitive impairment or mild dementia due to Alzheimer’s disease is trivial, while on functional ability, it is small at best.",
+      "explanation": "The review found that amyloid-beta-targeting monoclonal antibodies resulted in trivial or no clinically meaningful differences in cognitive function, dementia severity, and functional ability compared to placebo."
+    },
+    "safety": {
+      "harms": [
+        {
+          "name": "Any ARIA E",
+          "arm": "placebo",
+          "quote": "12 per 1000",
+          "location": "Summary of findings 1",
+          "apoe_stratum": null,
+          "count": "12 per 1000",
+          "denominator": null,
+          "percentage": null
+        },
+        {
+          "name": "Any ARIA E",
+          "arm": "amyloid‐beta‐targeting monoclonal antibodies",
+          "quote": "118.91 per 1000 (88.91 to 159.91)",
+          "location": "Summary of findings 1",
+          "apoe_stratum": null,
+          "count": "118.91 per 1000",
+          "denominator": null,
+          "percentage": null
+        },
+        {
+          "name": "Symptomatic ARIA E",
+          "arm": "placebo",
+          "quote": "1 per 1000",
+          "location": "Summary of findings 1",
+          "apoe_stratum": null,
+          "count": "1 per 1000",
+          "denominator": null,
+          "percentage": null
+        },
+        {
+          "name": "Symptomatic ARIA E",
+          "arm": "amyloid‐beta‐targeting monoclonal antibodies",
+          "quote": "30 per 1000 (23 to 39)",
+          "location": "Summary of findings 1",
+          "apoe_stratum": null,
+          "count": "30 per 1000",
+          "denominator": null,
+          "percentage": null
+        },
+        {
+          "name": "Symptomatic ARIA H",
+          "arm": "placebo",
+          "quote": "2 per 1000",
+          "location": "Summary of findings 1",
+          "apoe_stratum": null,
+          "count": "2 per 1000",
+          "denominator": null,
+          "percentage": null
+        },
+        {
+          "name": "Symptomatic ARIA H",
+          "arm": "amyloid‐beta‐targeting monoclonal antibodies",
+          "quote": "7 per 1000 (1 to 33)",
+          "location": "Summary of findings 1",
+          "apoe_stratum": null,
+          "count": "7 per 1000",
+          "denominator": null,
+          "percentage": null
+        },
+        {
+          "name": "SAE",
+          "arm": "placebo",
+          "quote": "162 per 1000",
+          "location": "Summary of findings 1",
+          "apoe_stratum": null,
+          "count": "162 per 1000",
+          "denominator": null,
+          "percentage": null
+        },
+        {
+          "name": "SAE",
+          "arm": "amyloid‐beta‐targeting monoclonal antibodies",
+          "quote": "168 per 1000 (152 to 188)",
+          "location": "Summary of findings 1",
+          "apoe_stratum": null,
+          "count": "168 per 1000",
+          "denominator": null,
+          "percentage": null
+        },
+        {
+          "name": "Mortality",
+          "arm": "placebo",
+          "quote": "12 per 1000",
+          "location": "Summary of findings 1",
+          "apoe_stratum": null,
+          "count": "12 per 1000",
+          "denominator": null,
+          "percentage": null
+        },
+        {
+          "name": "Mortality",
+          "arm": "amyloid‐beta‐targeting monoclonal antibodies",
+          "quote": "14 per 1000 (9 to 23)",
+          "location": "Summary of findings 1",
+          "apoe_stratum": null,
+          "count": "14 per 1000",
+          "denominator": null,
+          "percentage": null
+        }
+      ],
+      "apoe_stratification_reported": false,
+      "deaths": {
+        "value": "ARD 2 more events per 1000",
+        "quote": "overall mortality (ARD 2 more events per 1000, 95% CI 3 fewer to 11 more; 7 studies, 9733 participants; high certainty).",
+        "location": "Abstract, Synthesis of results"
+      },
+      "discontinuations": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "serious_adverse_events": {
+        "value": "ARD 6 more events per 1000",
+        "quote": "At 18 months, amyloid‐beta‐targeting monoclonal antibodies do not increase serious adverse events (ARD 6 more events per 1000, 95% CI 10 fewer to 26 more; 9 studies, 11,904 participants; high certainty)",
+        "location": "Abstract, Synthesis of results"
+      }
+    },
+    "unlocatable_fields": [
+      "study.biomarker_confirmation",
+      "safety.discontinuations",
+      "multiplicity.approach",
+      "trial_status_observation.status"
+    ],
+    "authors": [
+      {
+        "name": "F Nonino",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "E Richard",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "G Filippini",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "S Minozzi",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "C Del Giovane",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "MC Bassi",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "M Gonzalez-Lorenzo",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "C De Santis",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "E Baldin",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "L Vignatelli",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "L Sambati",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "CB",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      }
+    ],
+    "conflicts": [
+      "ER and FN declare non‐financial interests, being unpaid consultants of the European Medicine Agency's Scientific Advisory Group Neurology (SAG‐N).",
+      "FN, EB, LV, and LS declare non‐financial interests by practising as neurologists within a public institution.",
+      "ER, FN, SM, CB, CDS, LS, EB, LV, GF, CDG, and MGL declare no commercial or non‐commercial conflicts of interest relevant to this review."
+    ],
+    "disagreements": [
+      {
+        "question": "reimbursement by the UK NHS",
+        "position": "benefits are too small to justify the cost to the NHS",
+        "attributed_to": "National Institute for Health and Care Excellence",
+        "quote": "the National Institute for Health and Care Excellence expressed a negative opinion about its reimbursement by the UK NHS (National Health System) since benefits are too small to justify the cost to the NHS []."
+      },
+      {
+        "question": "net clinical benefit for people with AD",
+        "position": "does not offer benefit to patients with MCI or early dementia due to AD",
+        "attributed_to": "German Institute for Quality and Efficiency in German Healthcare (IQWIG)",
+        "quote": "Recently, the German Institute for Quality and Efficiency in German Healthcare (IQWIG) concluded that lecanemab does not offer benefit to patients with MCI or early dementia due to AD []."
+      }
+    ],
+    "funding": [
+      "This Cochrane review was funded in part by the Drug and Medical Devices Governance Area, Regione Emilia‐Romagna, Bologna, Italy.",
+      "The publication of this article was supported by \"Ricerca Corrente\" funding from the Italian Ministry of Health."
+    ],
+    "limitations": [
+      "The external validity of the study results for the wider AD population is limited.",
+      "We found notable heterogeneity amongst studies in the outcomes of efficacy and in the tools that the study authors used to assess them.",
+      "An important limitation of the available published literature is the lack of data on symptomatic ARIA",
+      "we had some concerns with respect to efficacy outcome measures, the magnitude of which may have been substantially impacted by functional unblinding.",
+      "All included studies were funded by the pharmaceutical industry",
+      "Another limitation of the evidence on amyloid‐beta‐targeting monoclonal antibodies is the lack of extractable data on the education level of participants"
+    ],
+    "linked_objects": [
+      {
+        "relation": "registry_record",
+        "identifier": "CRD420251114325",
+        "note": "PROSPERO registration number"
+      }
+    ],
+    "multiplicity": {
+      "approach": null,
+      "location": null,
+      "quote": null
+    },
+    "risk_of_bias": [
+      {
+        "domain": "measurement of the outcomes",
+        "judgement": "some concerns",
+        "quote": "for the efficacy outcomes, we judged the overall risk of bias as \"some concerns\" for all studies, due to bias in measurement of the outcomes, as adverse effects (i.e. infusion reaction) were much more frequent in the treated arm, which could lead to functional unblinding."
+      }
+    ],
+    "trial_status_observation": {
+      "status": null,
+      "observed_at": null,
+      "source": null,
+      "enrollment": null,
+      "phase": null
+    }
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "kind": "research-paper",
+  "title": "Single Nucleus RNA Sequencing Demonstrates an Autosomal Dominant Alzheimer’s Disease Profile and Possible Mechanisms of Disease Protection",
+  "authors": [
+    {
+      "name": "Almeida, Maria Camila",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Eger, Sarah J",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "He, Caroline",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Audouard, Morgane",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Nikitina, Arina",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Glasauer, Stella M K",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Han, Dasol",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Mejía-Cupajita, Barbara",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Acosta–Uribe, Juliana",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "consultant for a pharmaceutical company Tecnoquimicas (Colombia)"
+    },
+    {
+      "name": "Villalba-Moreno, Nelson David",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Littau, Jessica Lisa",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Elcheikhali, Megan",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Keane Rivera, Erica",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Carrettiero, Daniel Carneiro",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Villegas–Lanau, Carlos Andrés",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Sepulveda-Falla, Diego",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Lopera, Francisco",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Consult for Biogen, Viewmind. Has grants supported by NIH, Red-Lat, Alzheimeŕs Association, Biogen, DIAN-TU, DIAN-Obs, Large PD and Enroll-HD."
+    },
+    {
+      "name": "Kosik, Kenneth S",
+      "affiliation": null,
+      "orcid": null,
+      "email": "kosik@ucsb.edu",
+      "corresponding": true,
+      "conflicts": "consult for ADRx and Expansion Therapeutics and is a member of the Tau Consortium BOD"
+    }
+  ],
+  "first_author": "Almeida, Maria Camila",
+  "venue": "Neuron",
+  "published": "2024",
+  "doi": "10.1016/j.neuron.2024.02.009",
+  "doi_url": "https://doi.org/10.1016/j.neuron.2024.02.009",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/38417436",
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "quote-and-summarize",
+    "evidence": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law."
+  },
+  "tags": [
+    "paper",
+    "genetics",
+    "amyloid",
+    "tau",
+    "transcriptomics",
+    "autophagy",
+    "apoe3-christchurch"
+  ],
+  "themes": [
+    "Autosomal dominant vs. sporadic Alzheimer's transcriptomics",
+    "Cell-type specific disease vulnerabilities",
+    "Chaperone-mediated autophagy in ADAD",
+    "Protective mechanisms of APOE3 Christchurch variant",
+    "Astrocyte LRP1 expression and tau uptake"
+  ],
+  "one_line": "Single-nucleus RNA sequencing reveals that autosomal dominant Alzheimer's disease is uniquely characterized by increased autophagy and chaperone gene expression, while the protective APOE3 Christchurch variant is associated with increased astrocyte LRP1 and altered neuronal tau processing factors.",
+  "summary": "This study compares the single-nucleus transcriptomes of frontal cortex tissues from individuals with autosomal dominant Alzheimer's disease (PSEN1-E280A), sporadic AD, and non-AD controls. The researchers found that PSEN1-E280A carriers exhibit a distinct transcriptomic profile characterized by the strong upregulation of autophagy-related genes and molecular chaperones across multiple cell types, especially astrocytes and neurons. In contrast, sporadic AD cases demonstrated a more pronounced human Alzheimer microglia (HAM) signature. Additionally, the study analyzed a unique PSEN1-E280A patient homozygous for the APOE3 Christchurch variant who was relatively spared from dementia and tau pathology. In this individual, astrocytes showed increased expression of LRP1 (involved in tau uptake) and lipid metabolism genes, while neurons exhibited upregulation of FKBP1B and downregulation of PSEN1 and FKBP5, suggesting a multifaceted cellular mechanism for disease protection.",
+  "key_claims": [
+    {
+      "claim": "Autosomal dominant AD (PSEN1-E280A) has a distinct molecular signature from sporadic AD characterized by increased chaperone and autophagy gene expression.",
+      "evidence": "Pseudobulk differential gene expression and hd-WGCNA of astrocytes and neurons showed significant upregulation of autophagy genes (HSP90AB1, HSPA9, ATG8 family) and a higher chaperone-mediated autophagy (CMA) score in PSEN1-E280A vs sporadic AD cases.",
+      "strength": "strong",
+      "location": "Cellular systems dysregulated in PSEN1-E280A Alzheimer’s disease astrocytes; Unique and shared transcriptional regulation in PSEN1-E280A and sporadic AD neurons"
+    },
+    {
+      "claim": "Sporadic AD exhibits a more pronounced human Alzheimer microglia (HAM) profile than PSEN1-E280A AD.",
+      "evidence": "HAM score calculation of 2,663 microglia nuclei showed significant enhancement in sporadic AD cases compared to controls (p < 1 E-4) and directly higher expression vs PSEN1-E280A (p = 3.1 E-3).",
+      "strength": "moderate",
+      "location": "A more pronounced Human Alzheimer Microglia (HAM) profile in sporadic AD patients compared to PSEN1-E280A AD"
+    },
+    {
+      "claim": "The APOE3 Christchurch homozygous variant confers protection against tau pathology potentially through astrocyte-mediated tau uptake and altered neuronal factors.",
+      "evidence": "Astrocytes from the single PSEN1-E280A_APOE3-CC-hom case showed significant upregulation of LRP1 (validated by IF). Excitatory neurons showed significant downregulation of PSEN1 and FKBP5, and upregulation of FKBP1B and VPS35.",
+      "strength": "moderate",
+      "location": "A protective profile of PSEN1-E280A APOE3 Christchurch"
+    },
+    {
+      "claim": "Heterozygosity for the APOE3 Christchurch variant does not activate the protective astrocyte transcriptomic profile seen in homozygotes.",
+      "evidence": "Comparison of three heterozygotes (without delayed onset) vs non-carriers showed only 10 overexpressed and 45 underexpressed genes in astrocytes, notably lacking the lipid synthesis, oxidoreductase, and LRP1 upregulation seen in the homozygote.",
+      "strength": "moderate",
+      "location": "A protective profile of PSEN1-E280A APOE3 Christchurch"
+    }
+  ],
+  "methods": {
+    "design": "Case-control post-mortem observational study using single-nucleus RNA sequencing, spatial transcriptomics, and immunofluorescence.",
+    "n": 27,
+    "population": "Post-mortem human brain samples (frontal and occipital cortex) from 10 PSEN1-E280A carriers, 8 sporadic AD, 8 non-AD controls, and 1 PSEN1-E280A / APOE3-Christchurch homozygote.",
+    "duration": null,
+    "registration": null
+  },
+  "funding_and_conflicts": "Funded by NIH 1RF1AG062479-01, FAPESP 2019/22819-8, and FAPESP 2019/22708-1. Conflicts declared: KSK consults for ADRx, Expansion Therapeutics, and Tau Consortium BOD. FL consults for Biogen, Viewmind, and has grants from NIH, Red-Lat, Alzheimer's Association, Biogen, DIAN-TU, DIAN-Obs, Large PD, and Enroll-HD. JAU consults for Tecnoquimicas.",
+  "limitations": [
+    "Very small sample size (n=1) for the APOE3 Christchurch homozygote analysis limits generalizability.",
+    "Analysis relies on end-stage post-mortem tissue, which may not capture early or dynamic disease progression.",
+    "Sporadic AD cases have inherent clinical and genetic variation compared to the genetically homogenous PSEN1-E280A cohort.",
+    "Statistical significance in the n=1 CC-hom comparison relies on treating cells/nuclei as independent units (pseudo-replication bias), though random effects for patient were modeled."
+  ],
+  "red_flags": [
+    "The analysis for the APOE3-Christchurch homozygote relies on a single patient (n=1), inherently requiring pseudo-replication in statistical models; the authors acknowledge this but the risk of inflating patient-specific effects as genotype effects remains high.",
+    "The conclusion that astrocyte LRP1 upregulation prevents neuronal tau spread is highly speculative and based on correlative colocalization rather than functional mechanistic assays."
+  ],
+  "parse_quality": {
+    "score": 9,
+    "issues": [
+      "Minor ligature/spacing artifacts (e.g., 'Alzheimeŕs', 'PSEN1 -E280A')",
+      "Missing figure references replaced with empty parentheses '()' due to figure stripping during markdown conversion"
+    ]
+  },
+  "search_verification": []
+}

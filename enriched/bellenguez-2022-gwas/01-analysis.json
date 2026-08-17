@@ -1,0 +1,173 @@
+{
+  "kind": "research-paper",
+  "title": "New insights into the genetic etiology of Alzheimer’s disease and related dementias",
+  "authors": [
+    {
+      "name": "Bellenguez, Céline",
+      "affiliation": null,
+      "orcid": null,
+      "email": "celine.bellenguez@pasteur-lille.fr",
+      "corresponding": true,
+      "conflicts": "The remaining authors declare no competing interests"
+    },
+    {
+      "name": "Lambert, Jean-Charles",
+      "affiliation": null,
+      "orcid": null,
+      "email": "Jean-Charles.Lambert@pasteur-lille.fr",
+      "corresponding": true,
+      "conflicts": "The remaining authors declare no competing interests"
+    },
+    {
+      "name": "Kuçukali, Fhari",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "The remaining authors declare no competing interests"
+    },
+    {
+      "name": "Jansen, Iris",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "The remaining authors declare no competing interests"
+    },
+    {
+      "name": "Kleineidam, Luca",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "The remaining authors declare no competing interests"
+    },
+    {
+      "name": "Moreno-Grau, Sonia",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "The remaining authors declare no competing interests"
+    },
+    {
+      "name": "Amin, Najaf",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "The remaining authors declare no competing interests"
+    },
+    {
+      "name": "Naj, Adam",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "The remaining authors declare no competing interests"
+    },
+    {
+      "name": "Campos-Martin, Rafael",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "The remaining authors declare no competing interests"
+    },
+    {
+      "name": "Hampel, H.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Employee of Eisai. Received lecture fees from Servier, Biogen and Roche; research grants from Pfizer, Avid and MSD Avenir; travel funding from Eisai, Functional Neuromodulation, Axovant, Eli Lilly and Company, Takeda, Zinfandel Pharmaceuticals, GE Healthcare and Oryzon Genomics; and consultancy fees from Qynapse, Jung Diagnostics, Cytox, Axovant, Anavex, Takeda, Zinfandel Pharmaceuticals, GE Healthcare, Oryzon Genomics and Functional Neuromodulation. Served as a scientific advisory board member for Functional Neuromodulation, Axovant, Eisai, Eli Lilly and Company, Cytox, GE Healthcare, Takeda and Zinfandel, Oryzon Genomics and Roche Diagnostics."
+    }
+  ],
+  "first_author": "Bellenguez, Céline",
+  "venue": "Nature Genetics",
+  "published": "2022",
+  "doi": "10.1038/s41588-022-01024-z",
+  "doi_url": "https://doi.org/10.1038/s41588-022-01024-z",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/35379992",
+  "copyright": null,
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0",
+    "reuse": "redistribute",
+    "evidence": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source"
+  },
+  "tags": [
+    "paper",
+    "genetics",
+    "amyloid",
+    "tau",
+    "inflammation",
+    "gwas",
+    "polygenic-risk-score",
+    "microglia"
+  ],
+  "themes": [
+    "GWAS meta-analysis of Alzheimer's disease",
+    "Genetic risk score (GRS) prediction",
+    "Microglial involvement in AD pathogenesis",
+    "TNF-alpha pathway and LUBAC complex",
+    "Cross-talk between endocytosis and immune response"
+  ],
+  "one_line": "A large-scale GWAS meta-analysis identifies 75 risk loci for Alzheimer's disease, implicates microglia and the TNF-alpha pathway, and develops a highly predictive genetic risk score.",
+  "summary": "This study presents a two-stage genome-wide association study (GWAS) meta-analysis of Alzheimer’s disease (AD) and related dementias, analyzing 111,326 cases and 677,663 controls. The researchers identified 75 risk loci, 42 of which were novel at the time of the analysis. Pathway and single-cell enrichment analyses strongly implicated amyloid, tau, and microglia-related processes, highlighting a potential role for the TNF-alpha pathway and the linear ubiquitin chain assembly complex (LUBAC). Furthermore, the authors prioritized 31 genes in the newly discovered loci and validated cryptic splicing events in the TSPAN14 gene. They also constructed a new genetic risk score (GRS) that significantly predicts the risk of future AD and the progression from mild cognitive impairment (MCI) to AD, operating independently of age and APOE status.",
+  "key_claims": [
+    {
+      "claim": "75 risk loci are associated with Alzheimer's disease and related dementias.",
+      "evidence": "Two-stage GWAS meta-analysis of 111,326 clinically diagnosed/'proxy' AD cases and 677,663 controls, followed by validation in an independent sample of 25,392 AD cases and 276,086 controls.",
+      "strength": "strong",
+      "location": "Main > GWAS meta-analysis / Table 1 / Table 2"
+    },
+    {
+      "claim": "Microglia are strongly implicated in the genetic etiology of AD.",
+      "evidence": "Single-cell expression enrichment analysis showed highly significant association (P = 1.7 × 10^-8) of AD risk with microglial expression.",
+      "strength": "strong",
+      "location": "Main > Pathway analyses"
+    },
+    {
+      "claim": "The TNF-alpha pathway and LUBAC are involved in AD pathogenesis.",
+      "evidence": "Gene prioritization identified genes such as SHARPIN, RBCK1, and OTULIN, which regulate the TNF-alpha signaling pathway and the LUBAC complex.",
+      "strength": "moderate",
+      "location": "Main > Discussion"
+    },
+    {
+      "claim": "A new genetic risk score (GRS) predicts future AD risk and progression from MCI to AD.",
+      "evidence": "Cox regression models showed a 1.6- to 1.9-fold increase in AD risk from the lowest to highest decile in population and MCI cohorts, adding discriminative ability beyond age and APOE ε4.",
+      "strength": "strong",
+      "location": "Main > GRS"
+    }
+  ],
+  "methods": {
+    "design": "Two-stage Genome-Wide Association Study (GWAS) meta-analysis",
+    "n": 788989,
+    "population": "European ancestry individuals (clinically diagnosed AD cases, proxy-ADD cases based on family history, and controls)",
+    "duration": "Longitudinal follow-up up to 10 years (for GRS prospective cohort analysis)",
+    "registration": null
+  },
+  "funding_and_conflicts": "Funded by the EU Joint Programme – Neurodegenerative Disease Research (EADB), INSERM, and others, using the UK Biobank resource. H. Hampel declared conflicts of interest (employee of Eisai, received various fees and grants). Remaining authors declared no competing interests.",
+  "limitations": [
+    "Inclusion of proxy-ADD cases based on family history questionnaires, which is less specific than clinical diagnosis.",
+    "GRS was developed and tested on European-ancestry populations, limiting generalizability and efficacy in other ancestries.",
+    "Limited power to identify very rare variants or structural variations.",
+    "Inability to fully determine colocalization for some signals (e.g., CTSB, TNIP1)."
+  ],
+  "red_flags": [
+    "Combination of clinically diagnosed AD cases and proxy-ADD cases introduces phenotypic heterogeneity to boost statistical power.",
+    "Potential circular reasoning in pathway analysis, as previously known AD pathways were heavily weighted in the characterization of new genetic risk factors."
+  ],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "Large author consortium lists are merged into flattened text blocks, hindering structured affiliation extraction.",
+      "Table grid structures are flattened into text.",
+      "Missing visual data for figures and supplementary materials."
+    ]
+  },
+  "search_verification": [
+    "Confirmed PMID 35379992 and DOI 10.1038/s41588-022-01024-z are present in the text and valid."
+  ]
+}

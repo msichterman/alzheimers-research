@@ -1,0 +1,96 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT04437511",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04437511",
+      "name": "TRAILBLAZER-ALZ 2 (Study AACI)",
+      "drug": "Donanemab (anti-amyloid beta monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Active, not recruiting",
+      "enrollment": "1736",
+      "population": "Participants With Early Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline on the Integrated Alzheimer's Disease Rating Scale (iADRS) (Overall Population)",
+      "started": "2020-06",
+      "completed_or_readout": "2023-04",
+      "results_summary": "Donanemab significantly slowed clinical and cognitive decline at 76 weeks compared to placebo, showing a 22.3% reduction in decline on the iADRS and a 29% reduction in CDR-SB. ARIA was a common, known adverse event.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03367403",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03367403",
+      "name": "TRAILBLAZER-ALZ",
+      "drug": "Donanemab (LY3002813)",
+      "phase": "2",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Completed",
+      "enrollment": "272",
+      "population": "Participants With Early Symptomatic Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline in the Integrated Alzheimer's Disease Rating Scale (iADRS) Score",
+      "started": "2017-12",
+      "completed_or_readout": "2020-12",
+      "results_summary": "Demonstrated that donanemab resulted in a better composite score for cognition and the ability to perform activities of daily living than placebo at 76 weeks.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05108922",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05108922",
+      "name": "TRAILBLAZER-ALZ 4",
+      "drug": "Donanemab vs Aducanumab",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Completed",
+      "enrollment": "148",
+      "population": "Participants With Early Symptomatic Alzheimer's Disease",
+      "primary_endpoint": "Percentage of Participants Who Reach Complete Amyloid Plaque Clearance on Florbetapir F18 Positron Emission Tomography (PET) Scan",
+      "started": "2021-11",
+      "completed_or_readout": "2022-09",
+      "results_summary": "Demonstrated superior amyloid plaque clearance for donanemab compared to aducanumab in early, symptomatic Alzheimer's disease.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05026866",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05026866",
+      "name": "TRAILBLAZER-ALZ 3",
+      "drug": "Donanemab (LY3002813)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Active, not recruiting",
+      "enrollment": "2996",
+      "population": "Participants With Preclinical Alzheimer's Disease",
+      "primary_endpoint": "Time to Clinical Progression of Composite Endpoint",
+      "started": "2021-08",
+      "completed_or_readout": "2027-11",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2023-08-08",
+      "kind": "paper",
+      "description": "TRAILBLAZER-ALZ 2 Phase 3 trial pivotal results published in JAMA.",
+      "url": "https://doi.org/10.1001/jama.2023.13239"
+    },
+    {
+      "date": "2021-05-06",
+      "kind": "paper",
+      "description": "TRAILBLAZER-ALZ Phase 2 trial results published in NEJM.",
+      "url": "https://doi.org/10.1056/NEJMoa2100708"
+    },
+    {
+      "date": "2024-07-02",
+      "kind": "regulatory",
+      "description": "FDA approval of Kisunla (donanemab-azbt) for early symptomatic Alzheimer's disease.",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/761248Orig1s000ltr.pdf"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence robustly supports the document's efficacy claims, primarily driven by the Phase 3 TRAILBLAZER-ALZ 2 (NCT04437511) trial, which successfully replicated the positive outcomes of the Phase 2 TRAILBLAZER-ALZ (NCT03367403) study. Donanemab demonstrated a statistically significant and clinically meaningful slowing of cognitive decline on the iADRS and CDR-SB scales compared to placebo. The safety profile, characterized by significant risks of ARIA-E and ARIA-H (particularly in ApoE ε4 carriers), is thoroughly characterized in the clinical record and aligns with class effects of anti-amyloid monoclonal antibodies. Given established physician familiarity with managing ARIA risks from prior therapies (like lecanemab and aducanumab), the FDA’s decision to mandate rigorous labeling and pharmacovigilance rather than a formal REMS program is entirely consistent with the verifiable evidence and recent regulatory precedent.",
+  "discrepancies": [
+    "The document reports an 'n' of 2802, while the clinical registry for the pivotal Phase 3 trial (NCT04437511) lists an enrollment of 1736; the larger number in the FDA review represents an expanded safety pool analyzing patients across multiple donanemab trials, rather than solely the primary efficacy cohort of Study AACI."
+  ]
+}

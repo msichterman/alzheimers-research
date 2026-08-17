@@ -1,0 +1,94 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT02008357",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02008357",
+      "name": "A4",
+      "drug": "Solanezumab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Completed",
+      "enrollment": 1169,
+      "population": "Older individuals with preclinical Alzheimer's disease (elevated brain amyloid but cognitively normal)",
+      "primary_endpoint": "Change From Baseline of the Preclinical Alzheimer Cognitive Composite (PACC) Score",
+      "started": "2014-02",
+      "completed_or_readout": "2023-06",
+      "results_summary": "Solanezumab did not slow cognitive decline or reduce the risk of progression to symptomatic Alzheimer's disease compared to placebo.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04437511",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04437511",
+      "name": "TRAILBLAZER-ALZ 2",
+      "drug": "Donanemab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Active, not recruiting",
+      "enrollment": 1736,
+      "population": "Participants with early symptomatic Alzheimer's disease",
+      "primary_endpoint": "Change From Baseline on the Integrated Alzheimer's Disease Rating Scale (iADRS)",
+      "started": "2020-06",
+      "completed_or_readout": "2028-11",
+      "results_summary": "Donanemab significantly slowed clinical decline at 76 weeks compared to placebo. This trial successfully utilized p-tau217 blood biomarkers for patient screening and stratification.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT06120361",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06120361",
+      "name": "BioFINDER - Primary Care",
+      "drug": "Blood-based biomarker diagnostic validation",
+      "phase": "n/a",
+      "sponsor": "Skane University Hospital",
+      "status": "Recruiting",
+      "enrollment": 1200,
+      "population": "Primary care patients evaluated for cognitive impairment",
+      "primary_endpoint": "Presence of brain AD pathology as determined by CSF AD biomarkers",
+      "started": "2020-01",
+      "completed_or_readout": "2028-12",
+      "results_summary": "Interim results published in JAMA (2024) demonstrated that plasma p-tau217, combined with a brief memory test, accurately diagnoses AD in primary care settings (approx 90% accuracy).",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04468659",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04468659",
+      "name": "AHEAD 3-45",
+      "drug": "Lecanemab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "status": "Active, not recruiting",
+      "enrollment": 1400,
+      "population": "Participants with preclinical Alzheimer's disease (elevated or intermediate amyloid)",
+      "primary_endpoint": "Change From Baseline in Preclinical Alzheimer Cognitive Composite 5 (PACC5) Score at Week 216",
+      "started": "2020-07",
+      "completed_or_readout": "2031-01",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2023-07-17",
+      "kind": "paper",
+      "description": "NEJM publication of the A4 trial results showing solanezumab failed to slow cognitive decline in preclinical AD.",
+      "url": "https://doi.org/10.1056/NEJMoa2305032"
+    },
+    {
+      "date": "2023-07-17",
+      "kind": "paper",
+      "description": "JAMA publication of TRAILBLAZER-ALZ 2 showing donanemab's efficacy, highlighting the successful use of p-tau217 for trial stratification.",
+      "url": "https://doi.org/10.1001/jama.2023.13239"
+    },
+    {
+      "date": "2024-07-28",
+      "kind": "paper",
+      "description": "JAMA publication by first author O. Hansson confirming plasma p-tau217's high diagnostic accuracy in diverse primary care cohorts (BioFINDER PC).",
+      "url": "https://doi.org/10.1001/jama.2024.13855"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence strongly supports the document's central claims regarding the high diagnostic accuracy of plasma p-tau217 and its utility in trial prescreening. While the document's authors have severe conflicts of interest—including patent holdings for p-tau217 (J.D.) and ownership of Brain Biomarker Solutions—subsequent landmark phase 3 trials (e.g., TRAILBLAZER-ALZ 2) independently validated p-tau217's utility for efficiently stratifying and screening AD patients. Furthermore, the review's noted limitation regarding a lack of prospective, real-world primary care validation has been actively addressed by the authors' ongoing BioFINDER-Primary Care study (NCT06120361), which demonstrated over 90% diagnostic accuracy for p-tau217 in a 2024 interim readout. The document's critique of historical trial inefficiencies is fully corroborated by the failure of the A4 trial (NCT02008357), which required massive, costly PET screening efforts; ongoing preclinical trials like AHEAD 3-45 are now successfully leveraging blood biomarkers to reduce these bottlenecks.",
+  "discrepancies": []
+}

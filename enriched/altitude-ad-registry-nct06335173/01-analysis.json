@@ -1,0 +1,52 @@
+{
+  "kind": "other",
+  "title": "A Phase 2 Double-Blind, Randomized, Placebo-Controlled Trial to Evaluate the Efficacy and Safety of Intravenous Sabirnetug in Early Alzheimer's Disease",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2024-03",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "immunotherapy",
+    "biomarkers",
+    "sabirnetug",
+    "altitude-ad"
+  ],
+  "themes": [
+    "Phase 2 clinical trial",
+    "Monoclonal antibody therapy",
+    "Amyloid-beta oligomer targeting",
+    "Early Alzheimer's disease"
+  ],
+  "one_line": "ALTITUDE-AD (NCT06335173) is an ongoing Phase 2, randomized, placebo-controlled trial evaluating the efficacy and safety of intravenous sabirnetug in early Alzheimer's disease.",
+  "summary": "The ALTITUDE-AD study is a Phase 2, double-blind, randomized, placebo-controlled clinical trial sponsored by Acumen Pharmaceuticals. It evaluates the efficacy and safety of the intravenous monoclonal antibody sabirnetug (ACU193) in 542 participants aged 50 to 90 with early Alzheimer's disease. Participants receive either 35 mg/kg or 50 mg/kg of sabirnetug or a placebo every four weeks. The primary endpoint is the change from baseline in the Integrated Alzheimer's Disease Rating Scale (iADRS) score over 80 weeks. Secondary endpoints include additional cognitive assessments, safety monitoring (such as ARIA), and biomarker analysis (amyloid, tau). The trial began in February 2024 and is expected to conclude in October 2026, with no results currently posted.",
+  "key_claims": [],
+  "methods": {
+    "design": "Phase 2 Double-Blind, Randomized, Placebo-Controlled Trial",
+    "n": 542,
+    "population": "Adults aged 50-90 with mild cognitive impairment (MCI) due to AD or probable AD, MMSE 22-30, CDR-GS 0.5 or 1.0, and evidence of cerebral amyloid",
+    "duration": "80 weeks",
+    "registration": "NCT06335173"
+  },
+  "funding_and_conflicts": "Sponsor: Acumen Pharmaceuticals; conflicts: none stated",
+  "limitations": [
+    "This document is a clinical trial registry entry, not a publication of findings; no efficacy or safety results are currently available to evaluate."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 10,
+    "issues": []
+  },
+  "search_verification": []
+}

@@ -1,0 +1,81 @@
+{
+  "fact_check": [
+    {
+      "fact": "Enrollment of 542 participants in ALTITUDE-AD",
+      "status": "verified",
+      "note": "Checked against 'Enrollment: 542 (ACTUAL)' in the registry document."
+    },
+    {
+      "fact": "Primary endpoint is change in iADRS score at week 80",
+      "status": "verified",
+      "note": "Checked against 'Primary outcome measures' in the registry document."
+    },
+    {
+      "fact": "Sabirnetug dosages are 35 mg/kg or 50 mg/kg every four weeks",
+      "status": "verified",
+      "note": "Checked against 'Arms' section in the registry document."
+    },
+    {
+      "fact": "Phase 1 INTERCEPT-AD resulted in a 20-25% reduction in amyloid plaques",
+      "status": "unverified",
+      "note": "Claimed by the trials researcher, but this data is not present in the provided Phase 2 ALTITUDE-AD registry document."
+    }
+  ],
+  "research_page": {
+    "slug": "sabirnetug-altitude-ad-phase-2",
+    "title": "ALTITUDE-AD: Sabirnetug in Early Alzheimer's Disease (Phase 2)",
+    "description": "A Phase 2 clinical trial evaluating sabirnetug (ACU193), a monoclonal antibody targeting amyloid-beta oligomers, in adults with early Alzheimer's disease.",
+    "tags": [
+      "trial",
+      "amyloid",
+      "immunotherapy",
+      "sabirnetug"
+    ],
+    "source_line_md": "**Source**: [ClinicalTrials.gov, 2024](https://clinicaltrials.gov/study/NCT06335173)",
+    "authors_line_md": "Acumen Pharmaceuticals",
+    "takeaway_md": "The ALTITUDE-AD trial evaluates whether sabirnetug—a monoclonal antibody designed to specifically target amyloid-beta oligomers—can slow cognitive decline. Results are not expected until late 2026, meaning clinical efficacy remains entirely unproven.",
+    "key_findings_md": [
+      "No clinical results are currently available; the trial is fully enrolled and active as of mid-2026 ([NCT06335173](https://clinicaltrials.gov/study/NCT06335173))."
+    ],
+    "methods_md": "Phase 2, double-blind, randomized, placebo-controlled trial enrolling 542 adults (aged 50-90) with mild cognitive impairment or probable AD and evidence of amyloid accumulation. Participants receive intravenous sabirnetug (35 mg/kg or 50 mg/kg) or placebo every four weeks over an 80-week period ([NCT06335173](https://clinicaltrials.gov/study/NCT06335173)).",
+    "trial_evidence_md": "Sabirnetug's clinical evidence currently relies on the completed Phase 1 [INTERCEPT-AD (NCT04931459)](https://clinicaltrials.gov/study/NCT04931459) trial, which demonstrated safety and central target engagement. Efficacy hinges on the outcome of the ongoing pivotal [ALTITUDE-AD](/trials/sabirnetug-nct06335173) study.",
+    "sentiment_md": "Public perception is sharply divided: retail investors have generated significant speculative hype equating Phase 1 biomarker data with clinical success, while patients and caregivers remain largely unaware of the drug. Scientific media maintains a measured outlook focused on the drug's mechanism.",
+    "caveats_md": [
+      "Investor and market enthusiasm currently outpaces the scientific reality, as Phase 1 data only established safety and target engagement, not clinical benefit."
+    ],
+    "relates_to_md": [
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Sabirnetug tests a specific refinement of the amyloid hypothesis by targeting soluble oligomers rather than fibrillar plaques."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "sabirnetug-nct06335173",
+      "title": "ALTITUDE-AD",
+      "description": "Phase 2 trial of intravenous sabirnetug in 542 adults with early Alzheimer's disease.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "sabirnetug",
+        "amyloid"
+      ],
+      "registry_md": "[NCT06335173](https://clinicaltrials.gov/study/NCT06335173)",
+      "drug": "Sabirnetug (anti-amyloid-beta oligomer monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Acumen Pharmaceuticals",
+      "population": "Adults aged 50-90 with mild cognitive impairment (MCI) or probable AD and cerebral amyloid accumulation",
+      "primary_endpoint": "Change from Baseline in Integrated Alzheimer's Disease Rating Scale (iADRS) Score at Week 80",
+      "started": "2024-02",
+      "readout": "2026-10",
+      "why_md": "This trial tests whether specifically targeting soluble amyloid-beta oligomers—believed by some to be the most neurotoxic form of [amyloid](/research/amyloid-hypothesis)—can slow cognitive and functional decline. It serves as the first test of clinical efficacy for sabirnetug.",
+      "status_log_md": [
+        "**2024-02-29** — Trial begins enrollment ([NCT06335173](https://clinicaltrials.gov/study/NCT06335173)).",
+        "**2025-10-27** — Registry updated to reflect active, not recruiting status, confirming 542 actual participants enrolled."
+      ],
+      "results_md": null
+    }
+  ],
+  "timeline_entries": [],
+  "notes_for_editor": [
+    "Phase 1 (INTERCEPT-AD) data such as 'mild-to-moderate ARIA-E in 5 of 48' could not be strictly verified against the provided Phase 2 registry text. It was carried forward as necessary context from the trials researcher, but marked unverified in the fact check."
+  ]
+}

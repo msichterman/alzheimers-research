@@ -1,0 +1,94 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT03352557",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03352557",
+      "name": "TANGO",
+      "drug": "gosuranemab (BIIB092; anti-tau monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Biogen",
+      "status": "Terminated",
+      "enrollment": 654,
+      "population": "Mild cognitive impairment due to Alzheimer's disease or mild Alzheimer's disease",
+      "primary_endpoint": "Percentage of Participants With Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+      "started": "2018-05",
+      "completed_or_readout": "2021-08",
+      "results_summary": "The trial was terminated for futility after BIIB092 failed to show clinical benefit on the primary efficacy measure (CDR-SB) compared to placebo at Week 78. The safety profile was comparable to placebo.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03068468",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03068468",
+      "name": "PASSPORT",
+      "drug": "gosuranemab (BIIB092; anti-tau monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Biogen",
+      "status": "Terminated",
+      "enrollment": 490,
+      "population": "Progressive Supranuclear Palsy (PSP)",
+      "primary_endpoint": "Change From Baseline in Progressive Supranuclear Palsy Rating Scale (PSPRS) at Week 52",
+      "started": "2017-06",
+      "completed_or_readout": "2020-02",
+      "results_summary": "Failed to meet primary efficacy endpoint on the PSPRS at Week 52, leading to the discontinuation of the PSP development program for gosuranemab.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02460094",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02460094",
+      "name": "CN002-003",
+      "drug": "gosuranemab (BIIB092)",
+      "phase": "1",
+      "sponsor": "Biogen",
+      "status": "Completed",
+      "enrollment": 48,
+      "population": "Progressive Supranuclear Palsy",
+      "primary_endpoint": "Safety and Tolerability as Measured by Percentage of Participants with Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+      "started": "2015-10",
+      "completed_or_readout": "2016-10",
+      "results_summary": "Safety and tolerability were established across multiple ascending intravenous doses, supporting advancement to Phase 2 trials.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02294851",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02294851",
+      "name": "CN002-001",
+      "drug": "gosuranemab (BIIB092)",
+      "phase": "1",
+      "sponsor": "Biogen",
+      "status": "Completed",
+      "enrollment": 65,
+      "population": "Healthy Subjects",
+      "primary_endpoint": "Safety and tolerability, as measured by incidence of AEs, serious AEs, AEs leading to discontinuation, and death",
+      "started": "2014-12",
+      "completed_or_readout": "2016-04",
+      "results_summary": "Single ascending doses were found to be safe and well-tolerated in healthy volunteers.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2023-12",
+      "kind": "paper",
+      "description": "TANGO: a placebo-controlled randomized phase 2 study of efficacy and safety of the anti-tau monoclonal antibody gosuranemab in early Alzheimer's disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38012285/"
+    },
+    {
+      "date": "2021-08",
+      "kind": "paper",
+      "description": "Safety and efficacy of anti-tau monoclonal antibody gosuranemab in progressive supranuclear palsy: a phase 2, randomized, placebo-controlled trial (PASSPORT).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34385707/"
+    },
+    {
+      "date": "2019-06",
+      "kind": "paper",
+      "description": "Safety of the tau-directed monoclonal antibody BIIB092 in progressive supranuclear palsy: a randomised, placebo-controlled, multiple ascending dose phase 1b trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31122495/"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence strongly supports the document's conclusion that BIIB092 (gosuranemab) lacks efficacy in slowing cognitive and functional impairment in early Alzheimer's disease. The Phase 2 TANGO trial (NCT03352557) was robustly designed (quadruple-blind, placebo-controlled) but was terminated for futility when the treatment failed to show clinical benefit on the CDR-SB compared to placebo. This failure mirrors the drug's earlier clinical trajectory in another tauopathy; the Phase 2 PASSPORT trial (NCT03068468) for progressive supranuclear palsy (PSP) was similarly halted due to a lack of efficacy. Peer-reviewed publications for both the TANGO and PASSPORT studies confirm that while the antibody was generally well-tolerated and lowered N-terminal tau in cerebrospinal fluid, it did not translate to cognitive or functional benefits, resulting in the discontinuation of gosuranemab's development.",
+  "discrepancies": []
+}

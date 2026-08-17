@@ -1,0 +1,234 @@
+{
+  "kind": "research-paper",
+  "title": "Donanemab in Early Symptomatic Alzheimer Disease",
+  "authors": [
+    {
+      "name": "Sims, John R.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Zimmer, Jennifer A.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Evans, Cynthia D.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Lu, Ming",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Ardayfio, Paul",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Sparks, JonDavid",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Wessels, Alette M.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Shcherbinin, Sergey",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Wang, Hong",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Nery, Emel Serap Monkul",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Collins, Emily C.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Solomon, Paul",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Salloway, Stephen",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Apostolova, Liana G.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Hansson, Oskar",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Ritchie, Craig",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Brooks, Dawn A.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Mintun, Mark",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Skovronsky, Daniel M.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Sims, John R.",
+  "venue": "JAMA",
+  "published": "2023",
+  "doi": "10.1001/jama.2023.13239",
+  "doi_url": "https://doi.org/10.1001/jama.2023.13239",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/37459141/",
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "paper",
+    "trial",
+    "amyloid",
+    "tau",
+    "immunotherapy",
+    "donanemab",
+    "monoclonal-antibody"
+  ],
+  "themes": [
+    "Amyloid plaque clearance",
+    "Slowing of clinical progression",
+    "Early symptomatic Alzheimer disease",
+    "Amyloid-related imaging abnormalities (ARIA)"
+  ],
+  "one_line": "In the Phase 3 TRAILBLAZER-ALZ 2 trial, the amyloid-clearing monoclonal antibody donanemab significantly slowed clinical progression in patients with early symptomatic Alzheimer disease, though it was associated with notable adverse events including ARIA and treatment-related deaths.",
+  "summary": "This document presents the abstract for the TRAILBLAZER-ALZ 2 study, an 18-month Phase 3 randomized, double-blind, placebo-controlled clinical trial investigating the efficacy and safety of donanemab in early symptomatic Alzheimer's disease. The trial enrolled 1,736 participants with mild cognitive impairment or mild dementia who exhibited amyloid and tau pathology on PET imaging. Participants were administered donanemab or a placebo intravenously every four weeks. Donanemab significantly slowed clinical progression at 76 weeks, measured by the iADRS and CDR-SB scores, in both the low/medium tau and combined tau populations. However, donanemab treatment was associated with a higher incidence of amyloid-related imaging abnormalities (ARIA-E) and infusion-related reactions, with three deaths in the active treatment group considered treatment-related.",
+  "key_claims": [
+    {
+      "claim": "Donanemab treatment significantly slows clinical progression in patients with early symptomatic Alzheimer disease and amyloid/tau pathology.",
+      "evidence": "LSM change in iADRS score at 76 weeks was −6.02 in the donanemab group versus −9.27 in the placebo group (difference, 3.25; P < .001) for the low/medium tau population.",
+      "strength": "strong",
+      "location": "Abstract > Results"
+    },
+    {
+      "claim": "Donanemab reduces the rate of cognitive and functional decline as measured by CDR-SB.",
+      "evidence": "LSM change in CDR-SB score at 76 weeks was 1.20 with donanemab versus 1.88 with placebo (difference, −0.67; P < .001) in the low/medium tau population.",
+      "strength": "strong",
+      "location": "Abstract > Results"
+    },
+    {
+      "claim": "Donanemab is associated with a significantly higher risk of amyloid-related imaging abnormalities (ARIA-E) compared to placebo.",
+      "evidence": "ARIA of edema or effusion occurred in 24.0% (52 symptomatic) of the donanemab group compared to 2.1% (0 symptomatic) of the placebo group.",
+      "strength": "strong",
+      "location": "Abstract > Results"
+    }
+  ],
+  "methods": {
+    "design": "Multicenter, randomized, double-blind, placebo-controlled, 18-month phase 3 trial",
+    "n": 1736,
+    "population": "Participants with early symptomatic Alzheimer disease (mild cognitive impairment/mild dementia) with amyloid and low/medium or high tau pathology based on positron emission tomography imaging",
+    "duration": "76 weeks (treatment every 4 weeks for 72 weeks)",
+    "registration": "NCT04437511"
+  },
+  "funding_and_conflicts": "none stated",
+  "limitations": [
+    "High attrition rate: only 1320 (76%) of the 1736 randomized participants completed the trial.",
+    "The document is an abstract only; detailed limitations are not self-reported in this excerpt."
+  ],
+  "red_flags": [
+    "Three deaths in the donanemab group were considered treatment-related, representing a severe safety signal that warrants close examination in the full text.",
+    "The provided text is just the abstract, preventing a comprehensive critical appraisal of the full methodology, detailed safety data, and author conflict disclosures."
+  ],
+  "parse_quality": {
+    "score": 9,
+    "issues": [
+      "The document is truncated to the abstract and title metadata.",
+      "Author affiliations, full conflict of interest disclosures, and copyright details are missing from the excerpt entirely."
+    ]
+  },
+  "search_verification": [
+    "No web search performed; the DOI (10.1001/jama.2023.13239) and PubMed ID (37459141) were explicitly stated in the document metadata."
+  ]
+}

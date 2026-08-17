@@ -1,0 +1,311 @@
+{
+  "id": "centiloid-project",
+  "checked_at": "2026-08-13T16:55:15.801Z",
+  "builder_model": "claude (builder subagent)",
+  "critic_model": "gemini-3.1-pro-preview",
+  "fields_compared": 22,
+  "disagreements": 6,
+  "conflicts": 1,
+  "coverage_gaps": 5,
+  "agreement_rate": 0.727,
+  "passed": false,
+  "needs_adjudication": true,
+  "disagreement_rows": [
+    {
+      "field": "study.design",
+      "builder": "A methods and standardisation study by a working group: a cross-sectional calibration that linearly scales the outcome of any amyloid PET analysis method or tracer onto a 0 to 100 'Centiloid' (CL) scale anchored at the mean of young controls (0) and the mean of typical Alzheimer's disease patients (100). The process has three levels: Level-1 defines the standard method and the anchor points; Level-2 is how an independent site calibrates its own tracer or method to the scale; Level-3 is exact reproduction of an already-calibrated method as a pipeline check.",
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "study.n",
+      "builder": null,
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "study.population",
+      "builder": "Two anchor groups plus a separate VOI-definition set: cognitively normal subjects under 45 years of age (34 young controls, 31.5 ± 6.3 years, range 22-43); patients diagnosed with AD by 1984 NINCDS-ADRDA criteria with a Clinical Dementia Rating global score of 0.5 or 1 (45 analysed, mean age 67.5 ± 10.5 yrs, range 50 to 89); and separately 19 AD-CTX subjects and 25 amyloid-negative older controls used only to define the cortical target region",
+      "critic": "young controls (≤45 years) and typical Alzheimer’s disease patients",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].met",
+      "builder": "not_applicable",
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "1.009 SUVr, set to 0 CL",
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": null,
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    }
+  ],
+  "conflict_rows": [
+    {
+      "field": "study.population",
+      "builder": "Two anchor groups plus a separate VOI-definition set: cognitively normal subjects under 45 years of age (34 young controls, 31.5 ± 6.3 years, range 22-43); patients diagnosed with AD by 1984 NINCDS-ADRDA criteria with a Clinical Dementia Rating global score of 0.5 or 1 (45 analysed, mean age 67.5 ± 10.5 yrs, range 50 to 89); and separately 19 AD-CTX subjects and 25 amyloid-negative older controls used only to define the cortical target region",
+      "critic": "young controls (≤45 years) and typical Alzheimer’s disease patients",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ],
+  "builder_values_not_found_in_document": [],
+  "critic_values_not_found_in_document": [],
+  "all_rows": [
+    {
+      "field": "study.design",
+      "builder": "A methods and standardisation study by a working group: a cross-sectional calibration that linearly scales the outcome of any amyloid PET analysis method or tracer onto a 0 to 100 'Centiloid' (CL) scale anchored at the mean of young controls (0) and the mean of typical Alzheimer's disease patients (100). The process has three levels: Level-1 defines the standard method and the anchor points; Level-2 is how an independent site calibrates its own tracer or method to the scale; Level-3 is exact reproduction of an already-calibrated method as a pipeline check.",
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "study.n",
+      "builder": null,
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "study.population",
+      "builder": "Two anchor groups plus a separate VOI-definition set: cognitively normal subjects under 45 years of age (34 young controls, 31.5 ± 6.3 years, range 22-43); patients diagnosed with AD by 1984 NINCDS-ADRDA criteria with a Clinical Dementia Rating global score of 0.5 or 1 (45 analysed, mean age 67.5 ± 10.5 yrs, range 50 to 89); and separately 19 AD-CTX subjects and 25 amyloid-negative older controls used only to define the cortical target region",
+      "critic": "young controls (≤45 years) and typical Alzheimer’s disease patients",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.comparator",
+      "builder": "The 'standard PiB method' — PiB 50-70 min SUVr computed with the standard CTX target VOI and whole cerebellum (WC) reference VOI — is the reference against which any non-standard method or other tracer is calibrated; an F-18 tracer already directly calibrated to it may serve as a surrogate reference, no more than one step removed from PiB",
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "study.followup",
+      "builder": null,
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "study.intervention",
+      "builder": "[C-11]Pittsburgh Compound-B (PiB) PET, 10-15 mCi injected, with the standard measure taken as the 50-70 min post-injection SUVr; FDG PET (~7 mCi) was additionally acquired in 13 AD-CTX subjects to build the cerebellar gray reference region",
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "study.phase",
+      "builder": null,
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "primary_endpoint_status.status",
+      "builder": "not_applicable",
+      "critic": "not_applicable",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "multiplicity.approach",
+      "builder": "none stated — the paper describes no adjustment for multiple comparisons; its quality criteria are correlation-based acceptance thresholds (slope, intercept, R 2) and a relative variance ratio rather than hypothesis tests",
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[primary].name",
+      "builder": "The 0 Centiloid anchor: mean 50-70 min PiB SUVr of the 34 YC-0 young control subjects, using the standard CTX target and whole cerebellum reference VOIs",
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[primary].met",
+      "builder": "not_applicable",
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "1.009 SUVr, set to 0 CL",
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": null,
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[primary].p_value",
+      "builder": null,
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[primary].prespecified",
+      "builder": "unclear",
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[primary].multiplicity_controlled",
+      "builder": "unclear",
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[ARIA-E].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[ARIA-H].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[symptomatic ARIA].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[macrohemorrhage].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[death].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.apoe_stratification_reported",
+      "builder": false,
+      "critic": false,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    }
+  ]
+}

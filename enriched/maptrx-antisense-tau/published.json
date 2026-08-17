@@ -1,0 +1,18 @@
+{
+  "published_at": "2026-08-16T22:50:29.382Z",
+  "files": [
+    "docs/research/papers/maptrx-antisense-tau.mdx",
+    "docs/trials/mapt-rx-nct03186989.mdx",
+    "docs/trials/diranersen-celia-nct05399888.mdx"
+  ],
+  "timeline": [
+    {
+      "title": "2023-04 — First evidence of tau reduction via ASO",
+      "action": "skipped (already present)"
+    },
+    {
+      "title": "2026-07 — CELIA Phase 2 misses primary endpoint",
+      "action": "skipped (already present)"
+    }
+  ]
+}

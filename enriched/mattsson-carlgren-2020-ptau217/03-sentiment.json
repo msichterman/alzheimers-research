@@ -1,0 +1,82 @@
+{
+  "overall": "hopeful",
+  "summary": "The public perception of p-tau217 blood testing is overwhelmingly hopeful but dotted with practical anxieties. Science enthusiasts and journalists heavily amplify the \"game changer\" narrative, emphasizing the test's high accuracy and its potential to end the reliance on painful lumbar punctures or expensive PET scans. Retail investors track diagnostic company milestones closely, seeing scalable blood tests as a massive untapped commercial market. However, caregivers and patients exhibit a more mixed and anxious sentiment; while they welcome easier diagnostics, they frequently express concerns about the emotional burden of predicting a disease with limited treatment options, navigating confusing test scores, and dealing with out-of-pocket costs.",
+  "communities": [
+    {
+      "community": "science enthusiasts and general public (r/science, r/longevity)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Replaces painful lumbar punctures and expensive PET scans",
+        "Highly accurate early detection",
+        "Accelerates clinical trials by making screening cheap and easy"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/science/comments/19dmwmk/a_blood_test_for_detecting_alzheimers_disease_by/",
+        "https://www.reddit.com/r/science/comments/169pq8r/new_blood_test_gives_very_high_accuracy_to_screen/"
+      ]
+    },
+    {
+      "community": "caregivers and patients (r/Alzheimers, r/dementia)",
+      "sentiment": "mixed",
+      "themes": [
+        "Anxiety about predictive testing when no definitive cure exists",
+        "Confusion navigating commercial test scores (e.g., PrecivityAD)",
+        "Frustration with doctors hesitating to order the tests or insurance denying coverage"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/comments/1d9sy4k/can_an_alzheimers_patient_suspect_something_wrong/",
+        "https://www.reddit.com/r/Alzheimers/comments/17wdz9l/our_amyloid_test_came_back_a_95_does_anyone_know/"
+      ]
+    },
+    {
+      "community": "retail investors & biopharma (ALZpath, Beckman Coulter)",
+      "sentiment": "hopeful",
+      "themes": [
+        "Commercialization of diagnostics and market size",
+        "FDA approvals and CE marks as stock catalysts",
+        "Comparing assay accuracy between ALZpath, Lilly, and Roche"
+      ],
+      "example_urls": [
+        "https://news.beckmancoulter.com/2026-07-07-Beckman-Coulter-Diagnostics-Expands-Alzheimers-Portfolio-with-CE-Marked-p-Tau217-Blood-Test-and-New-High-Specificity-Research-Assay",
+        "https://link.springer.com/article/10.1186/s40478-025-02064-2"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "CNN",
+      "tone": "positive",
+      "date": "2024-07",
+      "url": "https://www.cnn.com/2024/07/28/health/alzheimer-blood-test-p-tau-217-wellness/index.html"
+    },
+    {
+      "outlet": "BBC",
+      "tone": "positive",
+      "date": "2020-07",
+      "url": "https://www.bbc.co.uk/news/health-53567486"
+    },
+    {
+      "outlet": "JAMA Network",
+      "tone": "neutral",
+      "date": "2024-07",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2821669"
+    },
+    {
+      "outlet": "The Scientist",
+      "tone": "neutral",
+      "date": "2023-08",
+      "url": "https://www.the-scientist.com/news-opinion/first-alzheimers-blood-test-rolled-out-for-clinical-use-in-us-68117"
+    }
+  ],
+  "hype_vs_evidence": "The media heavily hypes p-tau217 as a 'definitive 90% accurate' standalone diagnostic, occasionally implying it is a generalized dementia screen. However, the evidence specifically validates it for Alzheimer's-specific pathology (amyloid and tau correlation) in preclinical and prodromal stages, not for other dementias. Furthermore, while the public sees it as predicting AD 20 years in advance, the BioFINDER study evidence shows it tracks longitudinal progression and correlates with cognitive decline over a ~4-6 year median timeframe, rather than providing an absolute timeline for symptom onset decades out.",
+  "misinformation_flags": [
+    "The blood test can predict exactly when you will get Alzheimer's 20 years in advance.",
+    "The test screens for all types of dementia."
+  ],
+  "searches_run": [
+    "site:reddit.com \"p-tau217\"",
+    "site:reddit.com/r/Alzheimers \"blood test\"",
+    "\"p-tau217\" stock OR biotech OR ALZpath OR investing",
+    "alzheimer blood test (HackerNews API)"
+  ]
+}

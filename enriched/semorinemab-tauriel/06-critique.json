@@ -1,0 +1,393 @@
+{
+  "extracted_by": "gemini-3.1-pro-preview",
+  "extracted_at": "2026-08-13T16:53:26.594Z",
+  "independent": true,
+  "saw_builder_output": false,
+  "source": "raw/semorinemab-tauriel/document.md",
+  "source_sha256": "c451473a4a712178ab13051a88f140e156741c48b9f7e6713318a8e0fa222dce",
+  "truncated": false,
+  "tokens": {
+    "in": 8941,
+    "out": 5236
+  },
+  "record": {
+    "document_kind": "journal_article",
+    "title": {
+      "value": "Safety and Efficacy of Semorinemab in Individuals With Prodromal to Mild Alzheimer Disease",
+      "quote": "Safety and Efficacy of Semorinemab in Individuals With Prodromal to Mild Alzheimer Disease",
+      "location": "Title"
+    },
+    "study": {
+      "design": {
+        "value": "phase 2 randomized, double-blind, placebo-controlled, parallel-group clinical trial",
+        "quote": "This phase 2 randomized, double-blind, placebo-controlled, parallel-group clinical trial was conducted between October 18, 2017, and July 16, 2020",
+        "location": "Abstract, Design, Setting, and Participants"
+      },
+      "n": {
+        "value": 457,
+        "quote": "In this randomized clinical trial of 457 participants with prodromal to mild Alzheimer disease",
+        "location": "Abstract, Findings"
+      },
+      "population": {
+        "value": "Individuals aged 50 to 80 years (inclusive) with prodromal to mild AD, Mini-Mental State Examination scores between 20 and 30 (inclusive), and confirmed β-amyloid pathology",
+        "quote": "Individuals aged 50 to 80 years (inclusive) with prodromal to mild AD, Mini-Mental State Examination scores between 20 and 30 (inclusive), and confirmed β-amyloid pathology (by positron emission tomography or cerebrospinal fluid) were included.",
+        "location": "Abstract, Design, Setting, and Participants"
+      },
+      "biomarker_confirmation": {
+        "value": "positron emission tomography or cerebrospinal fluid",
+        "quote": "confirmed β-amyloid pathology (by positron emission tomography or cerebrospinal fluid)",
+        "location": "Abstract, Design, Setting, and Participants"
+      },
+      "cohorts": [
+        "Tauriel study"
+      ],
+      "comparator": {
+        "value": "placebo",
+        "quote": "During the 73-week blinded study period, participants received intravenous infusions of placebo or semorinemab",
+        "location": "Abstract, Interventions"
+      },
+      "followup": {
+        "value": "73-week",
+        "quote": "During the 73-week blinded study period, participants received intravenous infusions of placebo or semorinemab",
+        "location": "Abstract, Interventions"
+      },
+      "intervention": {
+        "value": "intravenous infusions of placebo or semorinemab (1500 mg, 4500 mg, or 8100 mg) every 2 weeks for the first 3 infusions and every 4 weeks thereafter",
+        "quote": "During the 73-week blinded study period, participants received intravenous infusions of placebo or semorinemab (1500 mg, 4500 mg, or 8100 mg) every 2 weeks for the first 3 infusions and every 4 weeks thereafter.",
+        "location": "Abstract, Interventions"
+      },
+      "n_description": {
+        "value": "randomized",
+        "quote": "457 were randomized",
+        "location": "Results, Participant Disposition and Baseline Characteristics"
+      },
+      "nct_ids": [
+        "NCT03289143"
+      ],
+      "phase": {
+        "value": "phase 2",
+        "quote": "This phase 2 randomized, double-blind, placebo-controlled, parallel-group clinical trial",
+        "location": "Abstract, Design, Setting, and Participants"
+      }
+    },
+    "outcomes": [
+      {
+        "name": "change from baseline on the Clinical Dementia Rating–Sum of Boxes score from baseline to week 73",
+        "tier": "primary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "similar increases were seen on the Clinical Dementia Rating–Sum of Boxes score in the placebo (n = 126; Δ = 2.19 [95% CI, 1.74-2.63]) and semorinemab (1500 mg: n = 86; Δ = 2.36 [95% CI, 1.83-2.89]; 4500 mg: n = 126; Δ = 2.36 [95% CI, 1.92-2.79]; 8100 mg: n = 84; Δ = 2.41 [95% CI, 1.88-2.94]) arms.",
+        "location": "Abstract, Results",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": "unclear",
+        "p_value": null,
+        "prespecification_evidence": "The primary efficacy outcome measure was change from baseline to week 73 on the CDR–Sum of Boxes (CDR-SB)"
+      },
+      {
+        "name": "change from baseline to week 73 on the 13-item version of the Alzheimer’s Disease Assessment Scale–Cognitive Subscale (ADAS-Cog-13)",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "efficacy analyses using mixed models for repeated measures models showed no differences in rates of clinical decline between the placebo arm and any semorinemab dose arm at any post-dosing time point on the CDR-SB, ADAS-Cog-13, RBANS total index, ADCS-ADL, or A-IADL-Q",
+        "location": "Results, Efficacy",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": "unclear",
+        "p_value": null,
+        "prespecification_evidence": "Secondary efficacy outcome measures included change from baseline to week 73 on the 13-item version of the Alzheimer’s Disease Assessment Scale–Cognitive Subscale (ADAS-Cog-13)"
+      },
+      {
+        "name": "RBANS total index",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "efficacy analyses using mixed models for repeated measures models showed no differences in rates of clinical decline between the placebo arm and any semorinemab dose arm at any post-dosing time point on the CDR-SB, ADAS-Cog-13, RBANS total index, ADCS-ADL, or A-IADL-Q",
+        "location": "Results, Efficacy",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": "unclear",
+        "p_value": null,
+        "prespecification_evidence": "Secondary efficacy outcome measures included change from baseline to week 73 on the 13-item version of the Alzheimer’s Disease Assessment Scale–Cognitive Subscale (ADAS-Cog-13), RBANS total index"
+      },
+      {
+        "name": "Alzheimer’s Disease Cooperative Study–Activities of Daily Living Scale (ADCS-ADL)",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "efficacy analyses using mixed models for repeated measures models showed no differences in rates of clinical decline between the placebo arm and any semorinemab dose arm at any post-dosing time point on the CDR-SB, ADAS-Cog-13, RBANS total index, ADCS-ADL, or A-IADL-Q",
+        "location": "Results, Efficacy",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": "unclear",
+        "p_value": null,
+        "prespecification_evidence": "Secondary efficacy outcome measures included change from baseline to week 73 on the 13-item version of the Alzheimer’s Disease Assessment Scale–Cognitive Subscale (ADAS-Cog-13), RBANS total index, Alzheimer’s Disease Cooperative Study–Activities of Daily Living Scale (ADCS-ADL)"
+      },
+      {
+        "name": "Amsterdam Instrumental Activities of Daily Living Questionnaire (A-IADL-Q)",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "efficacy analyses using mixed models for repeated measures models showed no differences in rates of clinical decline between the placebo arm and any semorinemab dose arm at any post-dosing time point on the CDR-SB, ADAS-Cog-13, RBANS total index, ADCS-ADL, or A-IADL-Q",
+        "location": "Results, Efficacy",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": "unclear",
+        "p_value": null,
+        "prespecification_evidence": "Secondary efficacy outcome measures included change from baseline to week 73 on the 13-item version of the Alzheimer’s Disease Assessment Scale–Cognitive Subscale (ADAS-Cog-13), RBANS total index, Alzheimer’s Disease Cooperative Study–Activities of Daily Living Scale (ADCS-ADL), and Amsterdam Instrumental Activities of Daily Living Questionnaire (A-IADL-Q)."
+      },
+      {
+        "name": "plasma total tau levels",
+        "tier": "exploratory",
+        "prespecified": "yes",
+        "met": "met",
+        "quote": "Plasma total tau (A) remained unchanged in the placebo arm but increased in a dose-dependent fashion in the 1500-mg and 4500-mg semorinemab arms and appeared to saturate above the 4500-mg dose",
+        "location": "Results, Plasma and CSF Tau Indices",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": "unclear",
+        "p_value": null,
+        "prespecification_evidence": "exploratory pharmacodynamic end points, including plasma total tau levels"
+      },
+      {
+        "name": "total (tTau) and hyperphosphorylated tau (pTau181) levels",
+        "tier": "exploratory",
+        "prespecified": "yes",
+        "met": "met",
+        "quote": "Analyses of variance indicated significant effects of treatment arm for change from baseline at both time points for CSF tTau (week 49: F 3,59 = 3.73, P = .02; week 73: F 3,46 = 2.80, P = .050) and pTau181 (week 49: F 3,59 = 4.05, P = .01; week 73: F 3,46 = 3.79, P = .02).",
+        "location": "Results, Plasma and CSF Tau Indices",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": "unclear",
+        "p_value": null,
+        "prespecification_evidence": "exploratory biomarker end points, including total (tTau) and hyperphosphorylated tau (pTau181) levels"
+      },
+      {
+        "name": "change from baseline to week 73 in ventricular, whole brain, cerebral cortex, and hippocampal volumes",
+        "tier": "exploratory",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "There were no differences between any treatment arms in rates of cerebral atrophy on any measure.",
+        "location": "Results, Neuroimaging Biomarkers",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": "unclear",
+        "p_value": null,
+        "prespecification_evidence": "T1 sequences were used to determine change from baseline to week 73 in ventricular, whole brain, cerebral cortex, and hippocampal volumes."
+      },
+      {
+        "name": "Change from baseline to week 73 on this measure [[ 18 F]GTP1 standardized uptake value ratio (SUVR)]",
+        "tier": "exploratory",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "There were no differences between treatment arms in the rate of increase in [ 18 F]GTP1 SUVR.",
+        "location": "Results, Neuroimaging Biomarkers",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": "unclear",
+        "p_value": null,
+        "prespecification_evidence": "Change from baseline to week 73 on this measure was calculated as an exploratory pharmacodynamic end point."
+      }
+    ],
+    "primary_endpoint_status": {
+      "status": "not_met",
+      "quote": "similar increases were seen on the Clinical Dementia Rating–Sum of Boxes score in the placebo (n = 126; Δ = 2.19 [95% CI, 1.74-2.63]) and semorinemab (1500 mg: n = 86; Δ = 2.36 [95% CI, 1.83-2.89]; 4500 mg: n = 126; Δ = 2.36 [95% CI, 1.92-2.79]; 8100 mg: n = 84; Δ = 2.41 [95% CI, 1.88-2.94]) arms.",
+      "explanation": "The change in CDR-SB score from baseline to week 73 was similar between the placebo and all semorinemab dose arms."
+    },
+    "safety": {
+      "harms": [
+        {
+          "name": "asymptomatic sulcal effusions",
+          "arm": "placebo",
+          "quote": "Two participants (1 each in placebo and 4500-mg semorinemab arms) had asymptomatic sulcal effusions",
+          "location": "Results, MRI Abnormalities",
+          "apoe_stratum": null,
+          "count": "1",
+          "denominator": null,
+          "percentage": null
+        },
+        {
+          "name": "asymptomatic sulcal effusions",
+          "arm": "4500-mg semorinemab",
+          "quote": "Two participants (1 each in placebo and 4500-mg semorinemab arms) had asymptomatic sulcal effusions",
+          "location": "Results, MRI Abnormalities",
+          "apoe_stratum": null,
+          "count": "1",
+          "denominator": null,
+          "percentage": null
+        },
+        {
+          "name": "deaths",
+          "arm": "placebo",
+          "quote": "Four deaths occurred during the blinded portion of the study (placebo: 2; 4500 mg: 1; 8100 mg: 1).",
+          "location": "Results, Adverse Events",
+          "apoe_stratum": null,
+          "count": "2",
+          "denominator": null,
+          "percentage": null
+        },
+        {
+          "name": "deaths",
+          "arm": "4500 mg",
+          "quote": "Four deaths occurred during the blinded portion of the study (placebo: 2; 4500 mg: 1; 8100 mg: 1).",
+          "location": "Results, Adverse Events",
+          "apoe_stratum": null,
+          "count": "1",
+          "denominator": null,
+          "percentage": null
+        },
+        {
+          "name": "deaths",
+          "arm": "8100 mg",
+          "quote": "Four deaths occurred during the blinded portion of the study (placebo: 2; 4500 mg: 1; 8100 mg: 1).",
+          "location": "Results, Adverse Events",
+          "apoe_stratum": null,
+          "count": "1",
+          "denominator": null,
+          "percentage": null
+        }
+      ],
+      "apoe_stratification_reported": false,
+      "deaths": {
+        "value": "Four deaths occurred during the blinded portion of the study (placebo: 2; 4500 mg: 1; 8100 mg: 1).",
+        "quote": "Four deaths occurred during the blinded portion of the study (placebo: 2; 4500 mg: 1; 8100 mg: 1).",
+        "location": "Results, Adverse Events"
+      },
+      "discontinuations": {
+        "value": "19%",
+        "quote": "The overall discontinuation rate during the blinded portion of the study was 19%",
+        "location": "Results, Participant Disposition and Baseline Characteristics"
+      },
+      "serious_adverse_events": {
+        "value": "An imbalance in serious AEs was observed, with higher rates in the semorinemab arms, primarily in the infections/infestations (placebo: 2 [1.5%]; 1500 mg: 3 [3.4%]; 4500 mg: 4 [3.0%]; 8100 mg: 6 [6.7%]) and psychiatric disorders (placebo: 1 [0.8%]; 1500 mg: 2 [2.2%]; 4500 mg: 4 [3.0%]; 8100 mg: 3 [3.3%]) system organ classes.",
+        "quote": "An imbalance in serious AEs was observed, with higher rates in the semorinemab arms, primarily in the infections/infestations (placebo: 2 [1.5%]; 1500 mg: 3 [3.4%]; 4500 mg: 4 [3.0%]; 8100 mg: 6 [6.7%]) and psychiatric disorders (placebo: 1 [0.8%]; 1500 mg: 2 [2.2%]; 4500 mg: 4 [3.0%]; 8100 mg: 3 [3.3%]) system organ classes.",
+        "location": "Results, Adverse Events"
+      }
+    },
+    "unlocatable_fields": [
+      "multiplicity.approach",
+      "multiplicity.location",
+      "multiplicity.quote",
+      "conflicts",
+      "funding",
+      "risk_of_bias",
+      "trial_status_observation",
+      "linked_objects",
+      "disagreements"
+    ],
+    "authors": [
+      {
+        "name": "Edmond Teng",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Paul T. Manser",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Karen Pickthorn",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Flavia Brunstein",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Mira Blendstrup",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Sandra Sanabria Bohorquez",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Kristin R. Wildsmith",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Bali Toth",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Michael Dolton",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Vidya Ramakrishnan",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Ashwini Bobbala",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Sietske A. M. Sikkes",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Michael Ward",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Reina N. Fuji",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Geoffrey A. Kerchner",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      }
+    ],
+    "conflicts": [],
+    "disagreements": [],
+    "funding": [],
+    "limitations": [
+      "The COVID-19 pandemic contributed to missed doses and/or remote or missed clinical assessments for some participants.",
+      "Relatively few longitudinal CSF samples were available for analyses of tau indices, limiting the ability to determine whether semorinemab-related reductions in CSF tau were dose-dependent and/or related to clinical outcomes.",
+      "The limited racial and ethnic diversity among trial participants may restrict the generalizability of our findings."
+    ],
+    "linked_objects": [],
+    "multiplicity": {
+      "approach": null,
+      "location": null,
+      "quote": null
+    },
+    "risk_of_bias": [],
+    "trial_status_observation": {
+      "status": null,
+      "observed_at": null,
+      "source": null,
+      "enrollment": null,
+      "phase": null
+    }
+  }
+}

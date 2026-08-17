@@ -1,0 +1,147 @@
+{
+  "fact_check": [
+    {
+      "fact": "Trial enrolled 197 participants",
+      "status": "verified",
+      "note": "Checked against registry Enrollment field (ACTUAL)"
+    },
+    {
+      "fact": "Trial was terminated due to safety concerns",
+      "status": "corrected",
+      "note": "Checked against 'Why stopped' field; the trial was discontinued based on Phase 3 futility analysis, expressly noting it was not due to safety concerns."
+    },
+    {
+      "fact": "Aduhelm program was discontinued in early 2024",
+      "status": "verified",
+      "note": "Checked against clinical-trials researcher evidence (Biogen press release, Jan 31, 2024)."
+    }
+  ],
+  "research_page": {
+    "slug": "aducanumab-prime-registry",
+    "title": "Aducanumab in prodromal or mild AD (PRIME Phase 1b registry)",
+    "description": "A Phase 1b registry record for aducanumab that demonstrated amyloid reduction but was terminated when subsequent Phase 3 trials hit futility.",
+    "tags": [
+      "trial",
+      "amyloid",
+      "immunotherapy",
+      "aducanumab"
+    ],
+    "source_line_md": "**Source**: [ClinicalTrials.gov, 2012](https://clinicaltrials.gov/study/NCT01677572)",
+    "authors_line_md": "Biogen",
+    "takeaway_md": "The Phase 1b PRIME study evaluated the safety and amyloid-clearing ability of aducanumab in early Alzheimer's disease. The trial was terminated early in 2019—not for safety issues, but because the broader Phase 3 program (ENGAGE and EMERGE) hit a futility boundary, initiating a years-long controversy over the drug's efficacy.",
+    "key_findings_md": [
+      "Enrolled 197 participants across multiple dosing arms to assess safety and amyloid reduction via PET imaging (registry).",
+      "Terminated in July 2019 strictly due to external futility analyses of Phase 3 trials, not intrinsic safety signals (registry)."
+    ],
+    "methods_md": "A randomized, double-blind, placebo-controlled, multiple-dose Phase 1b trial (NCT01677572) enrolling 197 ambulatory adults (50-90 years) with prodromal or mild Alzheimer's disease and a positive amyloid PET scan. The core placebo-controlled period lasted 52 weeks, with a long-term extension originally planned up to week 518.",
+    "trial_evidence_md": "PRIME provided the foundational surrogate biomarker evidence (dose-dependent amyloid clearance) that ultimately supported aducanumab's controversial accelerated FDA approval in 2021. However, clinical efficacy remained deeply disputed due to contradictory results in the Phase 3 [ENGAGE](/trials/engage-nct02477800) and [EMERGE](/trials/emerge-nct02484547) trials. After failing to replicate convincing cognitive benefits and facing widespread market rejection, Biogen discontinued the entire Aduhelm program in January 2024.",
+    "sentiment_md": "Public and expert sentiment around aducanumab remains overwhelmingly negative, largely viewed as a cautionary tale of regulatory capture and premature commercialization. Initial patient hope quickly eroded due to high costs, severe ARIA side effects, unproven cognitive benefits, and Medicare coverage restrictions, culminating in widespread distrust following its 2024 market withdrawal.",
+    "caveats_md": [
+      "This document is a clinical registry record (NCT01677572) rather than a peer-reviewed publication, meaning outcome data and safety results are not detailed in the source text.",
+      "The trial was designed primarily for safety and biomarker outcomes (PET imaging), so any potential clinical cognitive benefits observed during the study were exploratory."
+    ],
+    "relates_to_md": [
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Evaluated an anti-Aβ monoclonal antibody intended to clear cerebral amyloid.",
+      "[Biomarkers](/research/biomarkers) — Used florbetapir PET scans as a secondary endpoint to track amyloid clearance."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "aducanumab-prime-nct01677572",
+      "title": "PRIME",
+      "description": "Phase 1b multiple-dose study of aducanumab in prodromal or mild Alzheimer's disease.",
+      "badge": "Terminated",
+      "tags": [
+        "trial",
+        "aducanumab",
+        "phase-1"
+      ],
+      "registry_md": "[NCT01677572](https://clinicaltrials.gov/study/NCT01677572)",
+      "drug": "Aducanumab (anti-Aβ IgG1 mAb)",
+      "phase": "1",
+      "sponsor": "Biogen",
+      "population": "Ambulatory adults aged 50-90 with prodromal or mild AD and positive amyloid PET",
+      "primary_endpoint": "Number of Participants with Adverse Events",
+      "started": "2012-10",
+      "readout": "2019-07",
+      "why_md": "Designed to establish the safety, tolerability, and biomarker efficacy (amyloid plaque clearance) of multiple aducanumab doses. It provided the foundational evidence of dose-dependent amyloid reduction for the program.",
+      "status_log_md": [
+        "**2012-10-05** — Trial begins enrollment.",
+        "**2019-07-31** — Trial terminated due to futility in the broader Phase 3 program."
+      ],
+      "results_md": "Demonstrated dose- and time-dependent reduction of amyloid-beta plaques. The study was terminated early without completing the long-term extension due to futility in the Phase 3 EMERGE and ENGAGE trials."
+    },
+    {
+      "slug": "engage-nct02477800",
+      "title": "ENGAGE",
+      "description": "Phase 3 trial evaluating aducanumab in early Alzheimer's disease that failed to meet its primary endpoint.",
+      "badge": "Terminated",
+      "tags": [
+        "trial",
+        "aducanumab",
+        "phase-3"
+      ],
+      "registry_md": "[NCT02477800](https://clinicaltrials.gov/study/NCT02477800)",
+      "drug": "Aducanumab (anti-Aβ IgG1 mAb)",
+      "phase": "3",
+      "sponsor": "Biogen",
+      "population": "Patients with early Alzheimer's disease",
+      "primary_endpoint": "Change from baseline in CDR-SB at Week 78",
+      "started": "2015-08",
+      "readout": "2019-08",
+      "why_md": "One of two pivotal Phase 3 trials intended to prove the clinical cognitive benefit of aducanumab to support FDA approval.",
+      "status_log_md": [
+        "**2015-08** — Trial begins.",
+        "**2019-03** — Trial halted early after a futility analysis suggested it would not meet primary endpoints."
+      ],
+      "results_md": "Failed to meet its primary clinical endpoint, showing no significant difference in clinical decline compared to placebo, directly conflicting with the companion EMERGE trial."
+    },
+    {
+      "slug": "emerge-nct02484547",
+      "title": "EMERGE",
+      "description": "Phase 3 trial evaluating aducanumab in early Alzheimer's disease, controversially claimed as positive post-hoc.",
+      "badge": "Terminated",
+      "tags": [
+        "trial",
+        "aducanumab",
+        "phase-3"
+      ],
+      "registry_md": "[NCT02484547](https://clinicaltrials.gov/study/NCT02484547)",
+      "drug": "Aducanumab (anti-Aβ IgG1 mAb)",
+      "phase": "3",
+      "sponsor": "Biogen",
+      "population": "Patients with early Alzheimer's disease",
+      "primary_endpoint": "Change from baseline in CDR-SB at Week 78",
+      "started": "2015-09",
+      "readout": "2019-08",
+      "why_md": "The second of two pivotal Phase 3 trials for aducanumab. After initially halting for futility, post-hoc analysis of a high-dose subset formed the basis of aducanumab's accelerated approval.",
+      "status_log_md": [
+        "**2015-09** — Trial begins.",
+        "**2019-03** — Initially halted for futility alongside ENGAGE.",
+        "**2019-10** — Sponsor announced post-hoc analysis showing highest dose group met primary endpoint."
+      ],
+      "results_md": "Initially declared futile, a later re-analysis by the sponsor claimed a statistically significant reduction in clinical decline (CDR-SB) for the high-dose group, driving accelerated FDA approval despite widespread scientific skepticism."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2012-10",
+      "title": "2012-10 — PRIME trial begins",
+      "body_md": "Biogen initiates the Phase 1b [PRIME study](/research/papers/aducanumab-prime-registry) to evaluate the safety and amyloid-clearing efficacy of multiple aducanumab doses."
+    },
+    {
+      "section": "Disease-modifying era",
+      "date": "2019-03",
+      "title": "2019-03 — Aducanumab Phase 3 trials halted for futility",
+      "body_md": "Biogen halts the [ENGAGE](/trials/engage-nct02477800) and [EMERGE](/trials/emerge-nct02484547) trials after an independent data monitoring committee finds they are unlikely to meet their primary endpoints."
+    },
+    {
+      "section": "Disease-modifying era",
+      "date": "2024-01",
+      "title": "2024-01 — Biogen discontinues Aduhelm",
+      "body_md": "Following a highly controversial accelerated approval and severe commercial failure, Biogen officially discontinues the aducanumab program to reallocate resources."
+    }
+  ],
+  "notes_for_editor": []
+}

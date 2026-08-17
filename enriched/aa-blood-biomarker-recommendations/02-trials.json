@@ -1,0 +1,77 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT04468659",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04468659",
+      "name": "AHEAD 3-45",
+      "drug": "lecanemab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "status": "Active, not recruiting",
+      "enrollment": 1400,
+      "population": "Participants with preclinical Alzheimer's disease and elevated or intermediate amyloid (ages 55-80)",
+      "primary_endpoint": "Change From Baseline in Preclinical Alzheimer Cognitive Composite 5 (PACC5) Score at Week 216",
+      "started": "2020-07",
+      "completed_or_readout": "2028-12",
+      "results_summary": "The trial is ongoing. Published baseline analyses demonstrate that using plasma Aβ42/Aβ40 and p-tau217 concentration ratios significantly increased the accuracy of amyloid PET classification, validating their use as a pre-screening tool.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05026866",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05026866",
+      "name": "TRAILBLAZER-ALZ 3",
+      "drug": "donanemab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Active, not recruiting",
+      "enrollment": 2996,
+      "population": "Participants with preclinical Alzheimer's disease with intact cognitive functioning and plasma P-tau levels consistent with amyloid pathology",
+      "primary_endpoint": "Time to Clinical Progression of Composite Endpoint as Measured by Clinical Dementia Rating (CDR)",
+      "started": "2021-08",
+      "completed_or_readout": "2027-11",
+      "results_summary": "Final efficacy results are pending. Screening and baseline data published in 2025 confirm the clinical feasibility of using plasma p-tau217 assays to enroll amyloid-positive asymptomatic individuals at scale.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04437511",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04437511",
+      "name": "TRAILBLAZER-ALZ 2",
+      "drug": "donanemab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Active, not recruiting",
+      "enrollment": 1736,
+      "population": "Early symptomatic Alzheimer's disease",
+      "primary_endpoint": "Change From Baseline on the Integrated Alzheimer's Disease Rating Scale (iADRS)",
+      "started": "2020-06",
+      "completed_or_readout": "2023-04",
+      "results_summary": "The trial demonstrated significant clinical benefit in slowing cognitive decline. Secondary and exploratory biomarker analyses showed that donanemab treatment robustly cleared amyloid plaques and significantly lowered plasma p-tau217 levels.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2024-02",
+      "kind": "paper",
+      "description": "Analysis of AHEAD 3-45 screening data validating that plasma Aβ42/Aβ40 and p-tau217 ratios increase the accuracy of amyloid PET classification.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37932961/"
+    },
+    {
+      "date": "2025-09",
+      "kind": "paper",
+      "description": "Screening and baseline data from TRAILBLAZER-ALZ 3 demonstrating the clinical utility of donanemab pre-screening with blood-based biomarkers.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40955720/"
+    },
+    {
+      "date": "2022-12",
+      "kind": "paper",
+      "description": "Secondary analysis of TRAILBLAZER-ALZ highlighting the association of donanemab treatment with exploratory plasma biomarkers like p-tau217.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36251300/"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence strongly supports the document's central claim that blood-based biomarkers (BBMs) can effectively serve as pre-screening tools in Alzheimer's disease clinical trials. Major ongoing Phase 3 preclinical trials, including AHEAD 3-45 (lecanemab) and TRAILBLAZER-ALZ 3 (donanemab), successfully utilized plasma p-tau217 and Aβ42/Aβ40 assays to identify amyloid-positive asymptomatic individuals, substantially reducing the reliance on and cost of PET scans. Recent baseline data publications from both programs confirm the high diagnostic accuracy of these plasma markers against PET standards. Importantly, the evidence aligns perfectly with the document's conservative stance: BBMs are heavily utilized for trial enrichment and pre-screening, but have not yet been accepted by regulatory bodies as primary surrogate endpoints or standalone diagnostics without CSF or PET confirmation.",
+  "discrepancies": []
+}

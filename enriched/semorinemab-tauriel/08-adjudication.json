@@ -1,0 +1,34 @@
+{
+  "id": "semorinemab-tauriel",
+  "adjudicated_at": "2026-08-13T16:57:19Z",
+  "rulings": [
+    {
+      "conflict_id": "semorinemab-tauriel#0",
+      "field": "study.population",
+      "verdict": "both",
+      "correct_value": "Individuals aged 50 to 80 years (inclusive) with prodromal to mild Alzheimer disease, Mini-Mental State Examination scores between 20 and 30 (inclusive), and confirmed β-amyloid pathology (by positron emission tomography or cerebrospinal fluid)",
+      "quote": "Individuals aged 50 to 80 years (inclusive) with prodromal to mild AD, Mini-Mental State Examination scores between 20 and 30 (inclusive), and confirmed β-amyloid pathology (by positron emission tomography or cerebrospinal fluid) were included.",
+      "reasoning": "Both readings restate the same eligibility sentence; reading A additionally carries the parenthetical confirmation method (PET or CSF), which the document prints, so it is the more precise version of the same fact."
+    },
+    {
+      "conflict_id": "semorinemab-tauriel#1",
+      "field": "outcomes[primary].effect_estimate",
+      "verdict": "a",
+      "correct_value": "placebo Δ = 2.19; semorinemab 1500 mg Δ = 2.36 (adjusted change from baseline in CDR-SB points)",
+      "quote": "similar increases were seen on the Clinical Dementia Rating–Sum of Boxes score in the placebo (n = 126; Δ = 2.19 [95% CI, 1.74-2.63]) and semorinemab (1500 mg: n = 86; Δ = 2.36 [95% CI, 1.83-2.89]; 4500 mg: n = 126; Δ = 2.36 [95% CI, 1.92-2.79]; 8100 mg: n = 84; Δ = 2.41 [95% CI, 1.88-2.94]) arms",
+      "reasoning": "The document explicitly prints the adjusted CDR-SB change values of 2.19 for placebo and 2.36 for the 1500-mg arm, so the reading that found nothing is wrong."
+    },
+    {
+      "conflict_id": "semorinemab-tauriel#2",
+      "field": "outcomes[primary].confidence_interval",
+      "verdict": "b",
+      "correct_value": "placebo 95% CI, 1.74-2.63; semorinemab 1500 mg 95% CI, 1.83-2.89",
+      "quote": "placebo (n = 126; Δ = 2.19 [95% CI, 1.74-2.63]) and semorinemab (1500 mg: n = 86; Δ = 2.36 [95% CI, 1.83-2.89]",
+      "reasoning": "Unusually for this kind of report, the Results abstract does print 95% CIs alongside each arm's CDR-SB change, and they match reading B exactly."
+    }
+  ],
+  "notes": [
+    "This trial designates two primary outcomes: 'The primary outcomes were change from baseline on the Clinical Dementia Rating–Sum of Boxes score from baseline to week 73 and assessments of the safety and tolerability for semorinemab compared with placebo.' Safety/tolerability is co-primary with CDR-SB, and the Safety Monitoring section separately names 'The primary safety outcomes were the nature, frequency, and severity of adverse events (AEs) and serious AEs'. Rulings #1 and #2 concern the CDR-SB limb of the primary outcome, which is the limb the readings addressed; a downstream record should not represent CDR-SB as the sole primary endpoint.",
+    "The effect-estimate and CI values cited by the two readings are drawn from the abstract Results paragraph; the same figures appear graphically in Figure 2 (error bars = 95% CIs), which is not machine-readable in this markdown rendering."
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "overall": "hopeful",
+  "summary": "Public and scientific sentiment surrounding the EADB GWAS study is largely hopeful, driven by the sheer scale of discovering 75 risk loci and the implication of new biological pathways like microglia and TNF-alpha. Science media and institutional outlets are highly enthusiastic about the potential for the new Genetic Risk Score (GRS) to predict disease progression. However, patient and caregiver communities exhibit a more mixed, anxious reaction, often grappling with the implications of genetic determinism and the utility of knowing their risk. Meanwhile, retail investors show little direct reaction to the study itself, though there is tangential interest in the pathways it validates.",
+  "communities": [
+    {
+      "community": "Science media and research community",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Unprecedented sample size validating 42 novel loci",
+        "Strong implication of microglia and immune response (TNF-alpha, LUBAC)",
+        "Development of a highly predictive Genetic Risk Score (GRS)"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/papers/new-insights-genetic-etiology-alzheimers-and-related-dementia",
+        "https://neurosciencenews.com/alzheimers-75-genes-20307/"
+      ]
+    },
+    {
+      "community": "Patients and caregivers (e.g., r/Alzheimers, DTC genetics users)",
+      "sentiment": "mixed",
+      "themes": [
+        "Anxiety over genetic determinism vs. lifestyle prevention",
+        "Confusion about polygenic risk scores compared to established markers like APOE4",
+        "Navigating raw data from consumer DNA tests for the 75 loci"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/community-news/genetic-wild-west-23andme-raw-data-contains-75-alzheimers-mutations",
+        "https://www.reddit.com/r/Alzheimers/comments/yig7jf/is_anyone_else_terrified_of_the_fact_that_you/"
+      ]
+    },
+    {
+      "community": "Retail investors and biotech watchers",
+      "sentiment": "quiet",
+      "themes": [
+        "General interest in TNF-alpha inhibitors (e.g., MYMD/TNF Pharmaceuticals)",
+        "Long-term implications for PROTACs and ubiquitin ligase targets",
+        "Lack of immediate commercial catalysts tied directly to the paper"
+      ],
+      "example_urls": [
+        "https://www.fiercepharma.com/marketing/mymd-pharmaceuticals-no-more-meet-tnf-pharmaceuticals",
+        "https://www.semanticscholar.org/paper/Involvement-of-heterologous-ubiquitination-linear-Sato-Terawaki/fac8ea43149a553bcc01835788c1cdb5d8336728"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Nature Genetics",
+      "tone": "positive",
+      "date": "2022-04",
+      "url": "https://www.nature.com/articles/s41588-022-01024-z"
+    },
+    {
+      "outlet": "Neuroscience News",
+      "tone": "positive",
+      "date": "2022-04",
+      "url": "https://neurosciencenews.com/alzheimers-75-genes-20307/"
+    },
+    {
+      "outlet": "Mayo Clinic Press",
+      "tone": "neutral",
+      "date": null,
+      "url": "https://mcpress.mayoclinic.org/healthy-brain/understanding-dementia-risk-from-lifestyle-to-genetics-medication-and-everywhere-in-between/"
+    }
+  ],
+  "hype_vs_evidence": "Media coverage accurately reports the scale of the findings but often frames the discovery of 75 risk loci as an immediate breakthrough for treatments, glossing over the decades-long timeline required to translate GWAS loci into clinical therapies. The Genetic Risk Score (GRS) is highly predictive on a population level, but direct-to-consumer interpretations sometimes incorrectly assume it provides deterministic diagnostic certainty for individuals. Furthermore, the reliance on 'proxy-ADD' cases (diagnosed by family history) in the EADB dataset introduces phenotypic heterogeneity that the public largely misses when assuming these loci are purely linked to clinical Alzheimer's.",
+  "misinformation_flags": [
+    "The belief that carrying variants among the 75 risk loci guarantees a person will develop Alzheimer's, ignoring that it is a probabilistic risk score.",
+    "The assumption that analyzing consumer raw DNA data (e.g., 23andMe) for these 75 mutations provides a clinically validated Alzheimer's diagnosis."
+  ],
+  "searches_run": [
+    "site:reddit.com 75 risk loci Alzheimer",
+    "Bellenguez \"75 risk loci\" Alzheimer news",
+    "\"75 risk loci\" alzforum",
+    "Alzheimer \"75\" genetic risk score reddit",
+    "\"EADB\" Alzheimer news",
+    "\"LUBAC\" Alzheimer stock",
+    "\"TNF-alpha\" Alzheimer stock reddit"
+  ]
+}

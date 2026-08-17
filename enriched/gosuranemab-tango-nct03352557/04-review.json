@@ -1,0 +1,94 @@
+{
+  "fact_check": [
+    {
+      "fact": "654 participants enrolled",
+      "status": "verified",
+      "note": "Matches registry data (Enrollment: 654 ACTUAL)."
+    },
+    {
+      "fact": "Change from baseline at Week 78 on CDR-SB was 1.71 for placebo and ranged from 1.76 to 2.23 for BIIB092",
+      "status": "verified",
+      "note": "Matches SECONDARY: PC Period: Change From Baseline Over Time at Week 78 on the CDR-SB Score."
+    },
+    {
+      "fact": "Percentage of participants with adverse events ranged from 82.8% to 88.7% for BIIB092 compared to 84.6% for placebo",
+      "status": "verified",
+      "note": "Matches PRIMARY: PC Period: Percentage of Participants With AEs and SAEs."
+    },
+    {
+      "fact": "Highest dose group (2000 mg) showed accelerated cognitive decline on the ADAS-Cog13",
+      "status": "unverified",
+      "note": "ADAS-Cog13 is not listed as a posted secondary outcome measure in the registry results, though it was widely discussed in scientific media."
+    }
+  ],
+  "research_page": {
+    "slug": "gosuranemab-tango",
+    "title": "Gosuranemab in early AD (TANGO)",
+    "description": "Phase 2 trial of the anti-tau antibody gosuranemab terminated for lack of efficacy.",
+    "tags": [
+      "trial",
+      "tau",
+      "immunotherapy",
+      "gosuranemab"
+    ],
+    "source_line_md": "**Source**: [ClinicalTrials.gov, 2022](https://clinicaltrials.gov/study/NCT03352557) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/38012285/)",
+    "authors_line_md": "Biogen",
+    "takeaway_md": "Gosuranemab (BIIB092), an N-terminal anti-tau monoclonal antibody, failed to slow clinical decline in early Alzheimer's disease compared to placebo. The Phase 2 TANGO trial was terminated for futility after 78 weeks, and Biogen discontinued the drug's development for Alzheimer's.",
+    "key_findings_md": [
+      "Gosuranemab showed no clinical benefit over placebo, with CDR-SB scores worsening by 1.76 to 2.23 points across dose groups compared to a 1.71 worsening for placebo (registry data).",
+      "Adverse event rates were balanced between treatment (82.8% to 88.7%) and placebo (84.6%), with serious adverse events ranging from 10.3% to 12.3% for gosuranemab versus 12.1% for placebo (registry data).",
+      "Scientific post-mortems noted that the highest dose group (2000 mg) experienced accelerated cognitive decline on the ADAS-Cog13 compared to placebo, though this was not included in the top-line registry results."
+    ],
+    "methods_md": "A Phase 2, quadruple-blind, placebo-controlled, parallel-group trial enrolling 654 adults (aged 50-80) with mild cognitive impairment due to AD or mild AD with confirmed amyloid positivity. The trial evaluated multiple doses over a 78-week placebo-controlled period, registered as NCT03352557.",
+    "trial_evidence_md": "The TANGO trial ([NCT03352557](/trials/gosuranemab-nct03352557)) was robustly designed but halted for futility. This failure mirrors the drug's earlier clinical trajectory in another tauopathy; the Phase 2 PASSPORT trial ([NCT03068468](https://clinicaltrials.gov/study/NCT03068468)) for progressive supranuclear palsy (PSP) was similarly halted due to a lack of efficacy, compounding doubts regarding the viability of targeting N-terminal tau.",
+    "sentiment_md": "Public response was largely muted among caregivers and retail investors, as the trial's failure in June 2021 was overshadowed by the controversial FDA approval of Biogen's aducanumab in the same month. However, the scientific community critically analyzed the results on platforms like [Alzforum](https://www.alzforum.org/news/conference-coverage/more-tau-antibodies-bid-adieu-semorinemab-keeps-foot-door), expressing concern over the accelerated decline seen in the highest dose group.",
+    "caveats_md": [
+      "The source document is a top-line clinical registry summary; detailed statistical analyses and p-values are omitted and must be referenced from the peer-reviewed publication.",
+      "The study's early termination for futility truncated the planned long-term extension data collection."
+    ],
+    "relates_to_md": [
+      "[Biomarkers](/research/biomarkers) — Evaluates tau as a therapeutic target in Alzheimer's disease.",
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Participants were required to have confirmed amyloid beta positivity to enroll."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "gosuranemab-nct03352557",
+      "title": "TANGO: Gosuranemab Phase 2 in early AD",
+      "description": "Phase 2 trial evaluating the anti-tau antibody gosuranemab in early Alzheimer's disease, terminated for futility.",
+      "badge": "Terminated",
+      "tags": [
+        "trial",
+        "tau",
+        "Phase 2",
+        "gosuranemab"
+      ],
+      "registry_md": "[NCT03352557](https://clinicaltrials.gov/study/NCT03352557)",
+      "drug": "gosuranemab (anti-tau monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Biogen",
+      "population": "Mild cognitive impairment due to Alzheimer's disease or mild Alzheimer's disease",
+      "primary_endpoint": "Percentage of Participants With Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+      "started": "2018-05",
+      "readout": "2021-08",
+      "why_md": "This trial aimed to determine if targeting N-terminal tau with the monoclonal antibody gosuranemab could slow cognitive and functional decline in early Alzheimer's disease. It tested multiple doses against a placebo over 78 weeks.",
+      "status_log_md": [
+        "**2018-05-03** — Trial starts.",
+        "**2021-06-16** — Biogen announces top-line Phase 2 results, indicating the trial missed its primary efficacy endpoint.",
+        "**2021-08-30** — Primary completion and formal termination of the study."
+      ],
+      "results_md": "The trial was terminated for futility after 78 weeks when gosuranemab failed to show clinical benefit on the Clinical Dementia Rating Scale - Sum of Boxes (CDR-SB) compared to placebo. Adverse events were balanced between the treatment and placebo arms, but development of the drug for Alzheimer's was discontinued."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Clinical trials",
+      "date": "2021-06",
+      "title": "2021-06 — Gosuranemab development discontinued",
+      "body_md": "Biogen's anti-tau antibody gosuranemab fails to slow cognitive decline in the Phase 2 TANGO trial, leading to the program's termination. [Read the TANGO results](/research/papers/gosuranemab-tango)."
+    }
+  ],
+  "notes_for_editor": [
+    "The ADAS-Cog13 finding showing accelerated cognitive decline in the high-dose group was widely reported in scientific media but is not present in the posted ClinicalTrials.gov results."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "fda-kisunla-statistical-review",
+  "cluster": "regulatory",
+  "checked_at": "2026-08-13T17:02:32.958Z",
+  "passed": false,
+  "text_sufficiency": {
+    "level": "structured-record",
+    "chars": 193712,
+    "sections": []
+  },
+  "evidence_completeness": "regulator-or-registry",
+  "failures": [
+    {
+      "gate": "fidelity",
+      "detail": "5 conflict(s) reached no adjudicator ruling: outcomes[primary].effect_estimate (no adjudicator ruling for this conflict); outcomes[primary].confidence_interval (no adjudicator ruling for this conflict); outcomes[ADAS-Cog13 change from baseline at Week 76 with death imputed as the worst score (FDA-requested sensitivity analysis)].prespecified (no adjudicator ruling for this conflict)"
+    }
+  ],
+  "warnings": [],
+  "manifest_discrepancies": []
+}

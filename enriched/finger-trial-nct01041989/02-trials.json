@@ -1,0 +1,73 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT01041989",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01041989",
+      "name": "FINGER",
+      "drug": "Multi-domain lifestyle intervention (nutrition, exercise, cognitive training, vascular monitoring)",
+      "phase": "n/a",
+      "sponsor": "Finnish Institute for Health and Welfare",
+      "status": "Unknown",
+      "enrollment": 1260,
+      "population": "Adults aged 60-77 years with elevated dementia risk (CAIDE score >= 6) and cognition at or slightly below average for age",
+      "primary_endpoint": "Cognitive impairment assessed with a Neuropsychological Test Battery (NTB), and Stroop and Trail Making tests over 2 years",
+      "started": "2009-09",
+      "completed_or_readout": "2013-12",
+      "results_summary": "At 2 years, the multidomain intervention significantly improved cognitive functioning compared to the control group (between-group difference in NTB total Z score change of 0.022 per year, p=0.030).",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03688126",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03688126",
+      "name": "US-POINTER",
+      "drug": "Structured multi-domain lifestyle intervention",
+      "phase": "n/a",
+      "sponsor": "Wake Forest University Health Sciences",
+      "status": "Completed",
+      "enrollment": 2111,
+      "population": "Adults aged 60-79 years at risk of cognitive decline with a sedentary lifestyle and suboptimal diet",
+      "primary_endpoint": "Global cognitive function composite score",
+      "started": "2019-01",
+      "completed_or_readout": "2025-05",
+      "results_summary": "A structured multidomain intervention produced a statistically significant, greater improvement in global cognition over 2 years compared to an unstructured, self-guided intervention (difference of 0.029 SD/year, p=0.008).",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05109169",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05109169",
+      "name": "MET-FINGER",
+      "drug": "Metformin + Multi-domain lifestyle intervention",
+      "phase": "2",
+      "sponsor": "Imperial College London",
+      "status": "Active",
+      "enrollment": 600,
+      "population": "Older adults at risk for dementia",
+      "primary_endpoint": "Change in cognition, unit on a scale",
+      "started": "2023-01",
+      "completed_or_readout": "2028-06",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2015-06-06",
+      "kind": "paper",
+      "description": "Primary 2-year results of the FINGER trial in The Lancet, demonstrating significant cognitive benefits of the multidomain intervention.",
+      "url": "https://doi.org/10.1016/S0140-6736(15)60461-5"
+    },
+    {
+      "date": "2025-08-26",
+      "kind": "paper",
+      "description": "Primary results of the US-POINTER trial in JAMA, demonstrating that structured lifestyle interventions significantly improve global cognition.",
+      "url": "https://doi.org/10.1001/jama.2025.12923"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence supporting the central claim—that a multi-domain lifestyle intervention can reduce cognitive decline—is robust, highly influential, and successfully replicated. The original FINGER trial provided landmark proof-of-concept in 2015, demonstrating that combining nutritional guidance, physical exercise, cognitive training, and vascular risk monitoring significantly preserved cognitive function in at-risk older adults over two years. This breakthrough inspired the World-Wide FINGERS network, leading directly to replications like the US-POINTER trial, which confirmed in August 2025 that structured lifestyle interventions improve global cognition more than self-guided approaches. Ongoing studies, such as the MET-FINGER trial, are actively investigating whether layering pharmacological treatments like metformin onto these established lifestyle modifications can yield even greater neuroprotective benefits.",
+  "discrepancies": [
+    "The document correctly notes that no empirical data or results are posted directly on the ClinicalTrials.gov registry for NCT01041989 and that its status is listed as 'UNKNOWN'; however, this reflects poor registry maintenance rather than a lack of actual data, as the study's highly successful primary outcomes were peer-reviewed and published in The Lancet in 2015."
+  ]
+}

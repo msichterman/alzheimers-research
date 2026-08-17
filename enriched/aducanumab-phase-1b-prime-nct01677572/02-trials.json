@@ -1,0 +1,77 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT01677572",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01677572",
+      "name": "PRIME",
+      "drug": "Aducanumab (anti-Aβ IgG1 mAb)",
+      "phase": "1",
+      "sponsor": "Biogen",
+      "status": "Terminated",
+      "enrollment": 197,
+      "population": "Ambulatory participants aged 50-90 years with prodromal or mild Alzheimer's disease and a positive florbetapir PET scan",
+      "primary_endpoint": "Number of Participants with Adverse Events",
+      "started": "2012-10",
+      "completed_or_readout": "2019-07",
+      "results_summary": "The PRIME study demonstrated that aducanumab reduced amyloid-beta plaques in a dose- and time-dependent manner, and suggested slowing of clinical decline. The study was ultimately terminated early when the broader Phase 3 program hit a futility boundary.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02477800",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02477800",
+      "name": "ENGAGE",
+      "drug": "Aducanumab (anti-Aβ IgG1 mAb)",
+      "phase": "3",
+      "sponsor": "Biogen",
+      "status": "Terminated",
+      "enrollment": 1653,
+      "population": "Patients with early Alzheimer's disease",
+      "primary_endpoint": "Change From Baseline in Clinical Dementia Rating Sum of Boxes (CDR-SB) Score at Week 78",
+      "started": "2015-08",
+      "completed_or_readout": "2019-08",
+      "results_summary": "ENGAGE was terminated early due to futility and failed to meet its primary clinical endpoint, showing no significant difference in clinical decline compared to placebo. This stood in direct conflict with the companion EMERGE trial.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02484547",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02484547",
+      "name": "EMERGE",
+      "drug": "Aducanumab (anti-Aβ IgG1 mAb)",
+      "phase": "3",
+      "sponsor": "Biogen",
+      "status": "Terminated",
+      "enrollment": 1643,
+      "population": "Patients with early Alzheimer's disease",
+      "primary_endpoint": "Change From Baseline in Clinical Dementia Rating Scale - Sum of Boxes (CDR-SB) Score at Week 78",
+      "started": "2015-09",
+      "completed_or_readout": "2019-08",
+      "results_summary": "EMERGE was initially terminated for futility alongside ENGAGE, but subsequent post-hoc analyses revealed that the highest dose group met the primary endpoint with a statistically significant reduction in CDR-SB decline.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2016-09-01",
+      "kind": "paper",
+      "description": "Primary publication of the PRIME trial results showing aducanumab reduces Abeta plaques in Alzheimer's disease.",
+      "url": "https://doi.org/10.1038/nature19323"
+    },
+    {
+      "date": "2021-06-07",
+      "kind": "regulatory",
+      "description": "FDA grants accelerated approval for aducanumab (Aduhelm) based on the surrogate endpoint of amyloid plaque reduction.",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-grants-accelerated-approval-alzheimers-drug"
+    },
+    {
+      "date": "2024-01-31",
+      "kind": "company",
+      "description": "Biogen announces the discontinuation of the Aduhelm program to realign resources in its Alzheimer's disease franchise.",
+      "url": "https://investors.biogen.com/news-releases/news-release-details/biogen-realign-resources-alzheimers-disease-franchise"
+    }
+  ],
+  "evidence_assessment": "The document accurately represents the registry record for the Phase 1b PRIME study (NCT01677572), which provided the foundational biomarker evidence for aducanumab by demonstrating dose-dependent clearance of amyloid-beta plaques. However, the clinical efficacy of aducanumab remains one of the most controversial topics in Alzheimer's disease research. While the PRIME trial was appropriately terminated following a futility analysis of the Phase 3 EMERGE and ENGAGE trials, Biogen later resurrected the drug based on post-hoc analyses showing mixed but partially positive results in the high-dose group of EMERGE. This data led to a highly contested FDA accelerated approval in 2021 based purely on the surrogate biomarker endpoint rather than clear cognitive benefit. Ultimately, the overall clinical evidence failed to replicate convincingly, and Biogen formally discontinued the Aduhelm program entirely in early 2024.",
+  "discrepancies": []
+}

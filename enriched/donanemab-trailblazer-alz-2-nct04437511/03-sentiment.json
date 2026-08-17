@@ -1,0 +1,77 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment regarding donanemab (Kisunla) is highly bifurcated. Financial communities and mainstream headlines often frame the drug as a historic breakthrough, driving immense enthusiasm. However, caregivers, patients, and the medical community express cautious or mixed sentiments, heavily weighing the logistical burdens of infusions and MRI monitoring against the modest 2.9-point clinical benefit on the iADRS scale. The high incidence of ARIA (brain swelling and microhemorrhages) remains a dominant concern across patient-advocacy and scientific forums, tempering excitement with anxiety about safety.",
+  "communities": [
+    {
+      "community": "Caregivers and Patients (e.g., r/dementia)",
+      "sentiment": "skeptical",
+      "themes": [
+        "Fear of ARIA and fatal brain bleeds",
+        "Doubt about noticeable clinical benefit in daily life",
+        "Logistical burden of regular MRIs and IV infusions"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/dementia/comments/1dcum01/donanemab/",
+        "https://nanforcaregivers.com/resources-blog/alzheimers-infusion-drug-therapy-guide"
+      ]
+    },
+    {
+      "community": "Science and Medical Professionals (e.g., Alzforum, r/medicine)",
+      "sentiment": "mixed",
+      "themes": [
+        "Validation of the amyloid hypothesis",
+        "Debate over clinical meaningfulness vs. statistical significance",
+        "Concerns regarding broad real-world applicability beyond strict trial criteria"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/community-news/donanemab-approved-us",
+        "https://www.reddit.com/r/medicine/comments/10gxlsc/what_do_you_think_about_donanemab/"
+      ]
+    },
+    {
+      "community": "Retail Investors (e.g., r/stocks, Hacker News)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Eli Lilly ($LLY) revenue potential and stock growth",
+        "Massive total addressable market for Alzheimer's",
+        "Comparisons to the success of GLP-1 weight loss drugs"
+      ],
+      "example_urls": [
+        "https://news.ycombinator.com/item?id=36758826"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Alzheimer's Association",
+      "tone": "positive",
+      "date": "2024-07",
+      "url": "https://www.alz.org/alzheimers-dementia/treatments/donanemab"
+    },
+    {
+      "outlet": "The People's Pharmacy",
+      "tone": "critical",
+      "date": "2024-08",
+      "url": "https://www.peoplespharmacy.com/articles/kisunla-donanemab-breakthrough-or-boondoggle-against-alzheimers"
+    },
+    {
+      "outlet": "Association of Health Care Journalists",
+      "tone": "critical",
+      "date": "2024-10",
+      "url": "https://healthjournalism.org/blog/2024/10/reporters-uncover-conflicts-and-dubious-data-on-latest-alzheimers-drug/"
+    }
+  ],
+  "hype_vs_evidence": "There is a distinct gap between the 'breakthrough' narrative in financial and general media and the granular evidence from TRAILBLAZER-ALZ 2. While the trial definitively proved biological efficacy (massive amyloid plaque clearance), the public often interprets 'slowed decline' as halting or reversing the disease, which the trial results explicitly do not support. Furthermore, public perception often underestimates the safety profile; the significant increase in ARIA requires intense monitoring that limits real-world utility compared to the idealized perception of a simple dementia cure.",
+  "misinformation_flags": [
+    "Donanemab is a cure that stops or reverses Alzheimer's disease.",
+    "The drug regrows lost neurons or restores lost memory.",
+    "Side effects like ARIA are minor and equivalent to typical pharmaceutical side effects."
+  ],
+  "searches_run": [
+    "site:reddit.com donanemab alzheimers",
+    "site:reddit.com donanemab caregiver",
+    "eli lilly donanemab stock news",
+    "donanemab alzforum",
+    "donanemab ARIA side effects news 2024 OR 2025"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "apoe-r136s-protection",
+  "source": "sources/apoe-r136s-protection.xml",
+  "sha256": "3bb735e3c828dfac030f3871bfe0fdda9f357d6d5add73a2e998ab5aea9ee234",
+  "bytes": 316945,
+  "chars": 143678,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:07.908Z"
+}

@@ -1,0 +1,67 @@
+{
+  "fact_check": [
+    {
+      "fact": "GWAS meta-analysis identified seven independent genome-wide significant loci across 11 neuropathology endophenotypes in 7,804 participants.",
+      "status": "verified",
+      "note": "Checked against source document abstract and results text."
+    },
+    {
+      "fact": "Three new genetic loci (COL4A1, LZTS1, APOC2) were significantly associated with neuropathology endophenotypes.",
+      "status": "verified",
+      "note": "Checked against source document abstract and Table 2."
+    },
+    {
+      "fact": "The APOC2 association with cerebral amyloid angiopathy (CAA) is independent of APOE diplotypes.",
+      "status": "verified",
+      "note": "Checked against source document results ('remained significantly associated with CAA (OR = 0.81; P = 8.0 × 10 −12) after adjusting for APOE diplotypes')."
+    },
+    {
+      "fact": "TMEM106B and GRN are primarily associated with non-AD pathologies (hippocampal sclerosis and LATE-NC).",
+      "status": "verified",
+      "note": "Checked against source document Table 3 and results."
+    }
+  ],
+  "research_page": {
+    "slug": "gwas-neuropathology-fardo-2024",
+    "title": "GWAS of neuropathology endophenotypes (Fardo et al., 2024)",
+    "description": "A large-scale GWAS of autopsied brains identified novel genetic risk loci for specific dementia-related neuropathologies, including APOC2 for cerebral amyloid angiopathy.",
+    "tags": [
+      "paper",
+      "genetics",
+      "biomarkers",
+      "amyloid",
+      "gwas",
+      "neuropathology",
+      "cerebrovascular"
+    ],
+    "source_line_md": "**Source**: [Nature Genetics, 2024](https://doi.org/10.1038/s41588-024-01939-9) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/39379761)",
+    "authors_line_md": "David W. Fardo et al. — University of Kentucky",
+    "takeaway_md": "By running GWAS against specific brain pathologies rather than clinical diagnoses, researchers identified novel genetic drivers for vascular dementia contributors (*COL4A1*, *LZTS1*, *APOC2*). The study also clarified that some known dementia risk genes (like *GRN* and *TMEM106B*) primarily drive non-Alzheimer's pathologies such as hippocampal sclerosis and LATE, rather than classic amyloid or tau.",
+    "key_findings_md": [
+      "Identified three novel risk loci: *LZTS1* for arteriolosclerosis, *COL4A1* for atherosclerosis, and *APOC2* for cerebral amyloid angiopathy (CAA) (paper, Table 2).",
+      "The *APOC2* locus association with CAA remained highly significant even after adjusting for known *APOE* alleles, marking an independent genetic risk factor in the APOE region (paper, Results).",
+      "Known dementia loci *TMEM106B* and *GRN* were significantly associated with non-AD pathologies (hippocampal sclerosis and LATE-NC) but not with classic amyloid plaques or neurofibrillary tangles (paper, Results)."
+    ],
+    "methods_md": "Genome-wide association study (GWAS) meta-analysis of 7,804 deceased participants from the NACC, ROSMAP, and ACT cohorts with available autopsy and genotype data.",
+    "trial_evidence_md": "The novel loci (*APOC2*, *COL4A1*, *LZTS1*) are foundational discoveries with no active clinical trials targeting them for dementia. While the study reinforces the role of *GRN* in non-AD pathologies, clinical translation of the *GRN* pathway recently faced a major setback when the Phase 3 [INFRONT-3](https://clinicaltrials.gov/study/NCT04374136) trial of latozinemab for FTD-GRN was terminated for lack of efficacy.",
+    "sentiment_md": "Public and investor sentiment is quiet, as the findings represent early-stage foundational genetics rather than actionable therapeutic breakthroughs. Media coverage was largely limited to standard institutional press releases.",
+    "caveats_md": [
+      "The study population was restricted to participants of European descent, limiting the generalizability of these genetic associations to other ancestries.",
+      "Three examined pathologies (gross infarcts, microinfarcts, and Lewy bodies) yielded no genome-wide significant loci, likely due to sample size constraints or heterogeneity in grading across research centers."
+    ],
+    "relates_to_md": [
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Provides genetic nuance by separating *APOE*'s effects on general amyloid plaques from *APOC2*'s independent effect on vascular amyloid (CAA).",
+      "[Biomarkers](/research/biomarkers) — Demonstrates the value of linking genetic risk loci directly to specific neuropathology endophenotypes rather than broad clinical diagnoses."
+    ]
+  },
+  "trial_pages": [],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2026-01",
+      "title": "2026-01 — INFRONT-3 trial (latozinemab) terminated",
+      "body_md": "The Phase 3 [INFRONT-3](https://clinicaltrials.gov/study/NCT04374136) trial of latozinemab, targeting the *GRN* pathway in frontotemporal dementia, was terminated after failing to meet its primary efficacy endpoint."
+    }
+  ],
+  "notes_for_editor": []
+}

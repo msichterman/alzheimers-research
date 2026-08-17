@@ -1,0 +1,100 @@
+{
+  "fact_check": [
+    {
+      "fact": "The patient did not develop mild cognitive impairment until her seventies, nearly three decades after the expected onset age for PSEN1 E280A carriers.",
+      "status": "verified",
+      "note": "Checked against the source document abstract and clinical assessments section."
+    },
+    {
+      "fact": "The patient was homozygous for the APOE3 Christchurch (R136S) mutation.",
+      "status": "verified",
+      "note": "Checked against the source document whole exome/genome sequencing and Sanger sequencing results."
+    },
+    {
+      "fact": "The API ADAD trial of crenezumab in the Colombian kindred failed to meet its primary endpoint.",
+      "status": "verified",
+      "note": "Checked against the clinical-trials researcher extraction for NCT01998841."
+    }
+  ],
+  "research_page": {
+    "slug": "apoe3-christchurch-case-report",
+    "title": "Resistance to early-onset Alzheimer's via APOE3 Christchurch",
+    "description": "A single-patient case report showing that a homozygous APOE3 Christchurch mutation delayed Alzheimer's symptom onset by three decades despite high amyloid burden.",
+    "tags": [
+      "paper",
+      "genetics",
+      "amyloid",
+      "tau",
+      "apoe3-christchurch",
+      "psen1",
+      "case-report"
+    ],
+    "source_line_md": "**Source**: [Nature medicine, 2019](https://doi.org/10.1038/s41591-019-0611-3) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/31686034)",
+    "authors_line_md": "Arboleda-Velasquez et al. — Massachusetts Eye and Ear / University of Antioquia",
+    "takeaway_md": "A homozygous APOE3 Christchurch mutation appears to confer profound resistance to tau pathology and cognitive decline, even in the presence of a deterministic Alzheimer's mutation (PSEN1 E280A) and high brain amyloid. This highly documented N-of-1 natural experiment suggests that disrupting the APOE-tau cascade could be a powerful therapeutic strategy.",
+    "key_findings_md": [
+      "The patient, a PSEN1 E280A mutation carrier expected to develop cognitive impairment in her early forties, remained cognitively intact until her seventies (paper, Abstract).",
+      "Brain imaging revealed an unusually high amyloid plaque burden, but restricted tau tangles and minimal neurodegeneration compared to younger PSEN1 carriers (paper, MRI and PET imaging).",
+      "Genetic sequencing confirmed the patient was homozygous for the rare APOE3 Christchurch (R136S) variant (paper, Whole exome sequencing).",
+      "In vitro assays showed that the mutant APOE3ch protein significantly reduced amyloid-beta aggregation compared to wild-type APOE3 (paper, Amyloid aggregation studies)."
+    ],
+    "methods_md": "This case report analyzed a single female patient from the Colombian PSEN1 E280A kindred. Assessments included clinical and cognitive ratings, whole exome/genome sequencing, and PiB/FTP PET brain imaging. Researchers also conducted in vitro aggregation and binding assays.",
+    "trial_evidence_md": "While no direct APOE3ch-mimicking therapeutic is in late-stage trials, this finding sits against the backdrop of the [API ADAD](/trials/api-adad-crenezumab) trial in the same Colombian kindred. That trial tested the anti-amyloid antibody crenezumab and failed to slow cognitive decline or tau accumulation. The failure of isolated amyloid clearance in this population strongly supports the document's hypothesis that targeting downstream APOE-tau mechanisms may be more effective. Early-stage attempts to modify APOE isoforms directly, such as Lexeo's APOE2 gene therapy (LX1001), are currently in Phase 1/2 safety testing.",
+    "sentiment_md": "Public perception is predominantly hopeful, with the scientific community and high-risk carriers viewing this as a crucial biological breakthrough rather than an immediate cure. While some general science enthusiasts speculate prematurely about using CRISPR to introduce this mutation into adult patients, most discussion correctly interprets the finding as a biological blueprint for future drug targets.",
+    "caveats_md": [
+      "This is an N-of-1 case study; while highly compelling, the exact mechanisms and extent of protection cannot be definitively generalized to all forms of sporadic Alzheimer's disease.",
+      "The in vitro findings regarding amyloid aggregation provide mechanistic clues but may not fully capture the complex APOE-tau interactions occurring in the living human brain."
+    ],
+    "relates_to_md": [
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Provides a notable exception where extreme amyloid accumulation did not lead to expected tau spread or cognitive decline.",
+      "[Biomarkers](/research/biomarkers) — Utilizes PET imaging to dissociate amyloid burden from tau pathology in vivo."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "api-adad-crenezumab",
+      "title": "API ADAD (Crenezumab)",
+      "description": "A Phase 2 prevention trial of the anti-amyloid antibody crenezumab in preclinical PSEN1 E280A mutation carriers.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "prevention",
+        "crenezumab",
+        "psen1",
+        "api"
+      ],
+      "registry_md": "[NCT01998841](https://clinicaltrials.gov/study/NCT01998841)",
+      "drug": "Crenezumab (anti-amyloid-beta monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Genentech, Inc.",
+      "population": "Preclinical PSEN1 E280A mutation carriers and non-carriers from the Colombian kindred",
+      "primary_endpoint": "Annualized Rate of Change in the API ADAD Composite Cognitive Test Total Score",
+      "started": "2013-12",
+      "readout": "2022-03",
+      "why_md": "This prevention trial aimed to determine if early amyloid clearance with crenezumab could delay the onset of cognitive decline in individuals genetically determined to develop early-onset Alzheimer's disease. Its failure in the same kindred where the APOE3 Christchurch mutation showed protection highlights the potential importance of targeting tau mechanisms downstream of amyloid.",
+      "status_log_md": [
+        "**2013-12-01** — Trial begins enrollment ([NCT01998841](https://clinicaltrials.gov/study/NCT01998841)).",
+        "**2022-03-01** — Primary completion date reached.",
+        "**2024-03-15** — Full results posted confirming the trial failed to meet primary endpoints."
+      ],
+      "results_md": "The trial failed to meet its primary cognitive endpoint (p=0.43). Crenezumab did not significantly slow cognitive decline or delay the onset of Alzheimer's disease compared to placebo in preclinical PSEN1 E280A mutation carriers, nor did it significantly reduce the accumulation of tau burden in a substudy."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Genetics & Risk Factors",
+      "date": "2019-11",
+      "title": "2019-11 — APOE3 Christchurch mutation linked to delayed onset",
+      "body_md": "Researchers identify a woman with the deterministic PSEN1 E280A mutation who escaped dementia for three extra decades, attributed to carrying two copies of the rare [APOE3 Christchurch variant](/research/papers/apoe3-christchurch-case-report)."
+    },
+    {
+      "section": "Clinical Trials",
+      "date": "2022-03",
+      "title": "2022-03 — Crenezumab fails in API ADAD prevention trial",
+      "body_md": "The anti-amyloid antibody crenezumab [fails to slow cognitive decline](/trials/api-adad-crenezumab) in the Colombian kindred carrying the PSEN1 E280A early-onset mutation."
+    }
+  ],
+  "notes_for_editor": [
+    "No direct discrepancies noted between the text and provided registries. LX1001 trial is mentioned as context only; a trial page was created for API ADAD given its pivotal contrast to the case report's findings in the exact same kindred."
+  ]
+}

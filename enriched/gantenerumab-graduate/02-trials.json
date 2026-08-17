@@ -1,0 +1,108 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT03444870",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03444870",
+      "name": "GRADUATE I",
+      "drug": "Gantenerumab",
+      "phase": "3",
+      "sponsor": "Hoffmann-La Roche",
+      "status": "Terminated",
+      "enrollment": 1053,
+      "population": "Early Alzheimer's disease (mild cognitive impairment or mild dementia)",
+      "primary_endpoint": "Change From Baseline to Week 116 in Global Outcome, as Measured by CDR-SB",
+      "started": "2018-06",
+      "completed_or_readout": "2023-02",
+      "results_summary": "Failed to meet its primary endpoint of slowing clinical decline on the CDR-SB compared to placebo. The trial was formally terminated following the negative readout.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03443973",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03443973",
+      "name": "GRADUATE II",
+      "drug": "Gantenerumab",
+      "phase": "3",
+      "sponsor": "Hoffmann-La Roche",
+      "status": "Terminated",
+      "enrollment": 975,
+      "population": "Early Alzheimer's disease (mild cognitive impairment or mild dementia)",
+      "primary_endpoint": "Change From Baseline to Week 116 in Global Outcome, as Measured by CDR-SB",
+      "started": "2018-08",
+      "completed_or_readout": "2022-11",
+      "results_summary": "Failed to meet its primary endpoint of slowing clinical decline on the CDR-SB compared to placebo. The trial was formally terminated alongside the broader development program.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01224106",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01224106",
+      "name": "SCarlet RoAD",
+      "drug": "Gantenerumab",
+      "phase": "3",
+      "sponsor": "Hoffmann-La Roche",
+      "status": "Completed",
+      "enrollment": 799,
+      "population": "Patients with prodromal Alzheimer's disease",
+      "primary_endpoint": "Mean Change From Baseline in Clinical Dementia Rating Scale Sum of Boxes (CDR-SOB) Total Score at Week 104",
+      "started": "2010-11",
+      "completed_or_readout": "2020-09",
+      "results_summary": "An earlier phase 3 trial that was halted early for futility, failing to show a clinical benefit of gantenerumab in prodromal Alzheimer's disease.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02051608",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02051608",
+      "name": "Marguerite RoAD",
+      "drug": "Gantenerumab",
+      "phase": "3",
+      "sponsor": "Hoffmann-La Roche",
+      "status": "Completed",
+      "enrollment": 389,
+      "population": "Patients with mild Alzheimer's disease",
+      "primary_endpoint": "Percentage of Participants With Adverse Events (AEs) or Serious Adverse Events (SAEs)",
+      "started": "2014-03",
+      "completed_or_readout": "2021-04",
+      "results_summary": "An earlier phase 3 trial converted into an open-label safety and dosing study after the initial futility analysis of the broader gantenerumab program.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01760005",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01760005",
+      "name": "DIAN-TU",
+      "drug": "Gantenerumab / Solanezumab / E2814 / Lecanemab",
+      "phase": "2/3",
+      "sponsor": "Washington University School of Medicine",
+      "status": "Active",
+      "enrollment": 490,
+      "population": "Dominantly Inherited Alzheimer's disease (DIAD) mutation carriers and at-risk family members",
+      "primary_endpoint": "Change from baseline in the DIAN-Multivariate Cognitive Endpoint (DIAN-MCE)",
+      "started": "2012-12",
+      "completed_or_readout": "2028-07",
+      "results_summary": "The gantenerumab treatment arm and its open-label extension were discontinued based on findings from an interim efficacy analysis and the overall negative status of the drug program.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2023-11-16",
+      "kind": "paper",
+      "description": "Primary publication of the GRADUATE I and II Phase 3 trials in the New England Journal of Medicine.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37966285"
+    },
+    {
+      "date": "2025-04",
+      "kind": "paper",
+      "description": "Publication detailing the safety and efficacy results from the long-term open-label extension of the DIAN-TU trial involving gantenerumab, confirming the drug's discontinuation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40120616"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence base for gantenerumab is highly robust, mature, and definitively negative regarding its clinical efficacy. Across multiple large-scale Phase 3 programs (GRADUATE I, GRADUATE II, SCarlet RoAD, and Marguerite RoAD), gantenerumab consistently failed to meet primary endpoints for slowing clinical and cognitive decline on the CDR-SB in early and prodromal Alzheimer's disease. While the drug showed target engagement by reducing amyloid-beta plaques and shifting downstream tau biomarkers, the magnitude of amyloid clearance was insufficient to translate into a measurable clinical benefit. Following these negative readouts, Hoffmann-La Roche terminated the GRADUATE program, and the drug's open-label arm in the DIAN-TU platform trial was also discontinued.",
+  "discrepancies": [
+    "The document states an enrollment 'n' of 1,965 participants for the two trials, but the ClinicalTrials.gov registries record a combined enrollment of 2,028 (1,053 in NCT03444870 and 975 in NCT03443973). This discrepancy often arises between the number of enrolled/consented participants (registry) versus those finally randomized or analyzed (paper).",
+    "The document does not explicitly note that the GRADUATE trials were formally 'Terminated' by the sponsor, a status reflected in the registry following the program's overall discontinuation."
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "overall": "mixed",
+  "summary": "Public and professional sentiment regarding the 2018 NIA-AA Research Framework is deeply polarized based on the stakeholder. The scientific and biotech communities are generally enthusiastic, embracing the AT(N) biological framework as a vital tool for harmonizing clinical trials and accelerating drug development. In contrast, clinical practitioners express significant skepticism about applying these definitions outside of research, arguing that biomarker positivity without symptoms ignores the lived reality of Alzheimer's. Patients and caregivers are largely confused or distressed by the concept of 'asymptomatic Alzheimer’s,' focusing heavily on the emotional weight of a biological diagnosis and the steep costs of PET or CSF biomarker testing.",
+  "communities": [
+    {
+      "community": "Scientists & Biotech Investors (Alzforum, r/biotech)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Enables targeted enrollment for clinical trials",
+        "Provides clear surrogate endpoints for FDA approval",
+        "Creates a unified language for tracking pathology"
+      ],
+      "example_urls": [
+        "https://doi.org/10.1016/j.jalz.2018.06.3062",
+        "https://alzres.biomedcentral.com/articles/10.1186/s13195-021-00852-1"
+      ]
+    },
+    {
+      "community": "Clinical Practitioners (Neurology forums, MedTwitter)",
+      "sentiment": "skeptical",
+      "themes": [
+        "Biomarkers do not always correlate with clinical cognitive decline",
+        "Risk of over-diagnosing cognitively normal elderly populations",
+        "High cost and invasiveness of routine biomarker testing"
+      ],
+      "example_urls": [
+        "https://doi.org/10.1038/s41582-021-00508-6",
+        "https://pubmed.ncbi.nlm.nih.gov/41921240"
+      ]
+    },
+    {
+      "community": "Patients & Caregivers (r/dementia, r/Alzheimers)",
+      "sentiment": "mixed",
+      "themes": [
+        "Anxiety over testing positive without having symptoms",
+        "Hope for earlier detection and future disease-modifying cures",
+        "Confusion between having 'the biology' versus 'the clinical disease'"
+      ],
+      "example_urls": [
+        "https://europepmc.org/article/MED/41116271",
+        "https://www.medschool.pitt.edu/news/biomarker-test-can-detect-alzheimers-pathology-earlier-pitt-study-shows"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Scientific American",
+      "tone": "positive",
+      "date": "2024-03",
+      "url": "https://www.scientificamerican.com/article/better-biomarkers-could-help-us-treat-alzheimers/"
+    },
+    {
+      "outlet": "New Atlas",
+      "tone": "positive",
+      "date": "2024-01",
+      "url": "https://newatlas.com/brain/alzheimers-dementia/alzheimers-biomarkers-visible-decade-before-symptoms/"
+    },
+    {
+      "outlet": "JAMA Neurology",
+      "tone": "neutral",
+      "date": "2020-05",
+      "url": "https://jamanetwork.com/journals/jamaneurology/article-abstract/2763344"
+    }
+  ],
+  "hype_vs_evidence": "Public hype frequently frames the biological AT(N) framework as an immediate diagnostic tool for the general public, assuming a positive amyloid or tau scan guarantees the eventual onset of severe dementia. However, the 2018 NIA-AA document explicitly states this framework is intended strictly for observational and interventional research to create a common language, not for routine clinical care. The framework notes that 30-40% of cognitively unimpaired elderly individuals possess these biomarkers without ever developing clinical symptoms, a nuance that is frequently lost in mainstream media coverage celebrating 'early detection.'",
+  "misinformation_flags": [
+    "A positive amyloid or tau biomarker test means an individual definitively has clinical Alzheimer's disease and will inevitably develop severe dementia.",
+    "The new biological definition completely replaces the need for clinical cognitive assessments in diagnosing dementia in everyday practice."
+  ],
+  "searches_run": [
+    "site:alzforum.org \"NIA-AA research framework\"",
+    "site:reddit.com/r/Alzheimers \"amyloid\" \"tau\" definition",
+    "alzheimer biomarker biology news",
+    "AT(N) alzheimer framework sentiment OR attitude OR perception"
+  ]
+}

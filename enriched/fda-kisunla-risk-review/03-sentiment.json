@@ -1,0 +1,74 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment toward donanemab (Kisunla) is highly bifurcated as of mid-2026. Caregivers and patients express a mix of cautious hope regarding its ability to slow cognitive decline and significant anxiety over severe side effects like brain bleeding (ARIA). Furthermore, families report deep frustration with logistical hurdles, such as securing coverage through Medicare Advantage plans. Meanwhile, the scientific and medical communities focus on technical refinements, such as slower titration to mitigate risks, while debating the long-term validity of amyloid clearance as a surrogate endpoint. Overall, initial hype has cooled into a pragmatic, mixed reality marked by access challenges and strict safety monitoring.",
+  "communities": [
+    {
+      "community": "Patients and Caregivers (r/dementia, r/Alzheimers)",
+      "sentiment": "mixed",
+      "themes": [
+        "Excitement mixed with intense fear of side effects (ARIA, brain bleeding)",
+        "Frustration with Medicare Advantage access and logistical hurdles",
+        "False hope among families of advanced-stage patients"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/dementia/comments/1ejk7s0/thoughts_on_new_fda_approved_drug_kisunla/",
+        "https://www.reddit.com/r/Alzheimers/comments/1exr0x0/lecanemab_vs_donanemab/"
+      ]
+    },
+    {
+      "community": "Scientists and Specialists (Alzforum)",
+      "sentiment": "mixed",
+      "themes": [
+        "Optimizing dosing protocols to mitigate ARIA risks",
+        "Debating the validity of amyloid plaque removal as a clinical surrogate",
+        "Efficacy of treatment in patients with mixed pathologies (e.g., Lewy bodies)"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/therapeutics/kisunla",
+        "https://www.alzforum.org/news/conference-coverage"
+      ]
+    },
+    {
+      "community": "Retail Investors (r/investing)",
+      "sentiment": "quiet",
+      "themes": [
+        "Stock price movement (Eli Lilly catalyst)",
+        "Broader biotech basket discussions rather than specific drug focus"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/investing/comments/ml60u3/eli_lilly_up_20_after_donanemab_shows_clinical/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Nature",
+      "tone": "critical",
+      "date": "2025-09",
+      "url": "https://news.google.com/search?q=donanemab+kisunla"
+    },
+    {
+      "outlet": "MedPage Today",
+      "tone": "positive",
+      "date": "2025-12",
+      "url": "https://news.google.com/search?q=donanemab+kisunla"
+    },
+    {
+      "outlet": "Patient Care Online",
+      "tone": "neutral",
+      "date": "2025-09",
+      "url": "https://news.google.com/search?q=donanemab+kisunla"
+    }
+  ],
+  "hype_vs_evidence": "There is a distinct divergence between public hope for a 'cure' and the clinical reality that donanemab only modestly slows decline (-22.3% to -29%) in early-stage patients. Media and caregivers occasionally extrapolate trial results to broader, older, and more advanced Alzheimer's populations, despite trials like AACI strictly focusing on mild cognitive impairment and mild dementia. Additionally, while the FDA did not require a REMS program due to assumed specialist familiarity, patient forums show that laypeople are often surprised and alarmed by the severe reality of ARIA and fatal hemorrhage risks once treatment begins.",
+  "misinformation_flags": [
+    "Belief that donanemab reverses or cures Alzheimer's disease rather than just modestly slowing decline.",
+    "Assumption that the drug is suitable for late-stage or severe Alzheimer's patients (e.g., patients in their 90s with advanced dementia)."
+  ],
+  "searches_run": [
+    "site:reddit.com/r/dementia OR site:reddit.com/r/Alzheimers donanemab OR kisunla",
+    "site:alzforum.org donanemab OR kisunla",
+    "donanemab kisunla alzheimer news 2024",
+    "site:reddit.com/r/investing donanemab kisunla"
+  ]
+}

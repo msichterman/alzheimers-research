@@ -1,0 +1,559 @@
+{
+  "id": "lancet-commission-2020",
+  "built_at": "2026-08-13T16:59:45.859Z",
+  "derived_from": {
+    "builder": "enriched/<id>/05-evidence.json",
+    "independent_critic": "enriched/<id>/06-critique.json",
+    "fidelity_diff": "enriched/<id>/07-fidelity.json",
+    "adjudication": null
+  },
+  "conflicts_found": 8,
+  "conflicts_ruled": 0,
+  "conflicts_unresolved": 8,
+  "conflicts_needing_manual_apply": 0,
+  "adjudication_changelog": [],
+  "unresolved": [
+    {
+      "field": "study.population",
+      "reason": "no adjudicator ruling for this conflict"
+    },
+    {
+      "field": "outcomes[primary].name",
+      "reason": "no adjudicator ruling for this conflict"
+    },
+    {
+      "field": "outcomes[primary].met",
+      "reason": "no adjudicator ruling for this conflict"
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "reason": "no adjudicator ruling for this conflict"
+    },
+    {
+      "field": "outcomes[primary].prespecified",
+      "reason": "no adjudicator ruling for this conflict"
+    },
+    {
+      "field": "outcomes[New random-effects meta-analysis: pooled relative risk of all-cause dementia from traumatic brain injury of all severities (analysis performed by the Commission)].prespecified",
+      "reason": "no adjudicator ruling for this conflict"
+    },
+    {
+      "field": "study.n",
+      "reason": "no adjudicator ruling for this conflict"
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "reason": "no adjudicator ruling for this conflict"
+    }
+  ],
+  "needs_manual_apply": [],
+  "record": {
+    "document_kind": "systematic_review",
+    "title": {
+      "value": "Dementia prevention, intervention, and care: 2020 report of the Lancet Commission",
+      "quote": "Dementia prevention, intervention, and care: 2020 report of the Lancet Commission",
+      "location": "Title"
+    },
+    "authors": [],
+    "study": {
+      "design": {
+        "value": "Commission evidence synthesis: a reconvened expert Commission using a triangulation framework, presenting a narrative synthesis of existing systematic reviews and meta-analyses and performing new systematic literature reviews and meta-analyses (for excessive alcohol consumption and traumatic brain injury) to build an updated 12 risk factor life-course model and population attributable fraction (PAF) calculation",
+        "quote": "Within this framework, we present a narrative synthesis of evidence including systematic reviews and meta-analyses and explain its balance, strengths, and limitations.",
+        "location": "Introduction, paragraph 2"
+      },
+      "phase": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "n": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "n_description": {
+        "value": "The report states no single headline N of its own. Its new PAF calculation drew communality (risk-factor clustering) from a representative sample of over 10 000 UK community-dwelling adults, covering 11 of the 12 risk factors; the risk factor relative risks come from separately reported meta-analyses and cohort studies.",
+        "quote": "We used a representative sample of over 10 000 UK community-dwelling adults, to calculate communality (clustering of risk factors) of 11 risk factors for which data existed, to allow calculation of each factor's unique risk.",
+        "location": "Total PAF calculation, PAF calculation"
+      },
+      "population": {
+        "value": "The worldwide population at risk of dementia, modelled with global risk factor figures; the report states that nearly all the underlying evidence comes from studies in high-income countries",
+        "quote": "Nearly all the evidence is from studies in high-income countries (HIC), so risks might differ in other countries and interventions might require modification for different cultures and environments.",
+        "location": "Introduction, paragraph 3"
+      },
+      "followup": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "intervention": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "comparator": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "biomarker_confirmation": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "nct_ids": [],
+      "cohorts": [
+        "Global Burden of Diseases, Injuries, and Risk Factors Study",
+        "IIDP Project (Indianapolis–Ibadan Dementia) in USA and Nigeria",
+        "Bordeaux study, France",
+        "Rotterdam study, Netherlands",
+        "Framingham Heart Study, USA",
+        "Framingham Offspring cohort",
+        "CFAS (Cognitive Function and Ageing Study), UK",
+        "SPRINT (Systolic Blood Pressure Intervention Trial) and SPRINT MIND",
+        "FINGER randomised controlled trial",
+        "HATICE (Healthy Ageing Through Internet Counselling in the Elderly)",
+        "World Wide FINGERS",
+        "HUNT study, Norway",
+        "Whitehall study / UK Whitehall study (UK civil servants)",
+        "UK Biobank",
+        "Health Survey England",
+        "Australian longitudinal Alzheimer's Disease Neuroimaging Initiative"
+      ]
+    },
+    "outcomes": [
+      {
+        "name": "Combined weighted population attributable fraction (PAF) of dementia for the 12 potentially modifiable risk factors",
+        "tier": "primary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "not_applicable",
+        "effect_estimate": "around 40% of worldwide dementias, presented as theoretically preventable or delayable",
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "Together the 12 modifiable risk factors account for around 40% of worldwide dementias, which consequently could theoretically be prevented or delayed.",
+        "location": "Executive summary, paragraph 1"
+      },
+      {
+        "name": "Population attributable fraction for less education (early life, <45 years)",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "not_applicable",
+        "effect_estimate": "relative risk 1·6; risk factor prevalence 40·0%; communality 61·2%; unweighted PAF 19·4%; weighted PAF 7·1%",
+        "confidence_interval": "95% CI 1·3–2·0 (relative risk)",
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "| Less education | 1·6 (1·3–2·0) | 40·0% | 61·2% | 19·4% | 7·1% |",
+        "location": "Table 1. PAF for 12 dementia risk factors"
+      },
+      {
+        "name": "Population attributable fraction for hearing loss (midlife, age 45–65 years)",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "not_applicable",
+        "effect_estimate": "relative risk 1·9; risk factor prevalence 31·7%; communality 45·6%; unweighted PAF 22·2%; weighted PAF 8·2%",
+        "confidence_interval": "95% CI 1·4–2·7 (relative risk)",
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "| Hearing loss | 1·9 (1·4–2·7) | 31·7% | 45·6% | 22·2% | 8·2% |",
+        "location": "Table 1. PAF for 12 dementia risk factors"
+      },
+      {
+        "name": "Population attributable fraction for traumatic brain injury (midlife, age 45–65 years)",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "not_applicable",
+        "effect_estimate": "relative risk 1·8; risk factor prevalence 12·1%; communality 55·2%; unweighted PAF 9·2%; weighted PAF 3·4%",
+        "confidence_interval": "95% CI 1·5–2·2 (relative risk)",
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "| Traumatic brain injury | 1·8 (1·5–2·2) | 12·1% | 55·2% | 9·2% | 3·4% |",
+        "location": "Table 1. PAF for 12 dementia risk factors"
+      },
+      {
+        "name": "Population attributable fraction for hypertension (midlife, age 45–65 years)",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "not_applicable",
+        "effect_estimate": "relative risk 1·6; risk factor prevalence 8·9%; communality 68·3%; unweighted PAF 5·1%; weighted PAF 1·9%",
+        "confidence_interval": "95% CI 1·2–2·2 (relative risk)",
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "| Hypertension | 1·6 (1·2–2·2) | 8·9% | 68·3% | 5·1% | 1·9% |",
+        "location": "Table 1. PAF for 12 dementia risk factors"
+      },
+      {
+        "name": "Population attributable fraction for alcohol consumption of more than 21 units per week (midlife, age 45–65 years)",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "not_applicable",
+        "effect_estimate": "relative risk 1·2; risk factor prevalence 11·8%; communality 73·3%; unweighted PAF 2·1%; weighted PAF 0·8%",
+        "confidence_interval": "95% CI 1·1–1·3 (relative risk)",
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "| Alcohol (>21 units/week) | 1·2 (1·1–1·3) | 11·8% | 73·3% | 2·1% | 0·8% |",
+        "location": "Table 1. PAF for 12 dementia risk factors"
+      },
+      {
+        "name": "Population attributable fraction for obesity, body-mass index 30 or higher (midlife, age 45–65 years)",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "not_applicable",
+        "effect_estimate": "relative risk 1·6; risk factor prevalence 3·4%; communality 58·5%; unweighted PAF 2·0%; weighted PAF 0·7%",
+        "confidence_interval": "95% CI 1·3–1·9 (relative risk)",
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "| Obesity (body-mass index ≥30) | 1·6 (1·3–1·9) | 3·4% | 58·5% | 2·0% | 0·7% |",
+        "location": "Table 1. PAF for 12 dementia risk factors"
+      },
+      {
+        "name": "Population attributable fraction for smoking (later life, age >65 years)",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "not_applicable",
+        "effect_estimate": "relative risk 1·6; risk factor prevalence 27·4%; communality 62·3%; unweighted PAF 14·1%; weighted PAF 5·2%",
+        "confidence_interval": "95% CI 1·2–2·2 (relative risk)",
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "| Smoking | 1·6 (1·2–2·2) | 27·4% | 62·3% | 14·1% | 5·2% |",
+        "location": "Table 1. PAF for 12 dementia risk factors"
+      },
+      {
+        "name": "Population attributable fraction for depression (later life, age >65 years)",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "not_applicable",
+        "effect_estimate": "relative risk 1·9; risk factor prevalence 13·2%; communality 69·8%; unweighted PAF 10·6%; weighted PAF 3·9%",
+        "confidence_interval": "95% CI 1·6–2·3 (relative risk)",
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "| Depression | 1·9 (1·6–2·3) | 13·2% | 69·8% | 10·6% | 3·9% |",
+        "location": "Table 1. PAF for 12 dementia risk factors"
+      },
+      {
+        "name": "Population attributable fraction for social isolation (later life, age >65 years)",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "not_applicable",
+        "effect_estimate": "relative risk 1·6; risk factor prevalence 11·0%; communality 28·1%; unweighted PAF 4·2%; weighted PAF 3·5%",
+        "confidence_interval": "95% CI 1·3–1·9 (relative risk)",
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "| Social isolation | 1·6 (1·3–1·9) | 11·0% | 28·1% | 4·2% | 3·5% |",
+        "location": "Table 1. PAF for 12 dementia risk factors"
+      },
+      {
+        "name": "Population attributable fraction for physical inactivity (later life, age >65 years)",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "not_applicable",
+        "effect_estimate": "relative risk 1·4; risk factor prevalence 17·7%; communality 55·2%; unweighted PAF 9·6%; weighted PAF 1·6%",
+        "confidence_interval": "95% CI 1·2–1·7 (relative risk)",
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "| Physical inactivity | 1·4 (1·2–1·7) | 17·7% | 55·2% | 9·6% | 1·6% |",
+        "location": "Table 1. PAF for 12 dementia risk factors"
+      },
+      {
+        "name": "Population attributable fraction for diabetes (later life, age >65 years)",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "not_applicable",
+        "effect_estimate": "relative risk 1·5; risk factor prevalence 6·4%; communality 71·4%; unweighted PAF 3·1%; weighted PAF 1·1%",
+        "confidence_interval": "95% CI 1·3–1·8 (relative risk)",
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "| Diabetes | 1·5 (1·3–1·8) | 6·4% | 71·4% | 3·1% | 1·1% |",
+        "location": "Table 1. PAF for 12 dementia risk factors"
+      },
+      {
+        "name": "Population attributable fraction for air pollution (later life, age >65 years)",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "not_applicable",
+        "effect_estimate": "relative risk 1·1; risk factor prevalence 75·0%; communality 13·3%; unweighted PAF 6·3%; weighted PAF 2·3%",
+        "confidence_interval": "95% CI 1·1–1·1 (relative risk)",
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "| Air pollution | 1·1 (1·1–1·1) | 75·0% | 13·3% | 6·3% | 2·3% |",
+        "location": "Table 1. PAF for 12 dementia risk factors"
+      },
+      {
+        "name": "New random-effects meta-analysis: relative risk of all-cause dementia for drinking more than 21 units of alcohol weekly in midlife, versus lighter drinking (analysis performed by the Commission)",
+        "tier": "primary",
+        "prespecified": "unclear",
+        "prespecification_evidence": "We used inclusion criteria: original population-based cohort studies measuring drinking during midlife, as alcohol intake tends to fall with age",
+        "met": "not_applicable",
+        "effect_estimate": "RR 1·18; three studies met the inclusion criteria; weighted PAF 0·8",
+        "confidence_interval": "95% Cl 1·06–1·31",
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "The RR associated with drinking—more than 21 units (168 g) of alcohol weekly—compared with lighter drinking was 1·18 (95% Cl 1·06–1·31; ).",
+        "location": "Incorporation of the new chosen risks in new systematic reviews, Alcohol"
+      },
+      {
+        "name": "New random-effects meta-analysis: pooled relative risk of all-cause dementia from traumatic brain injury of all severities (analysis performed by the Commission)",
+        "tier": "primary",
+        "prespecified": "unclear",
+        "prespecification_evidence": "We used inclusion criteria: original population-based cohort studies, baseline TBI of all severities reported, and all-cause dementia ascertained at follow-up using validated clinical measures.",
+        "met": "not_applicable",
+        "effect_estimate": "pooled RR 1·84 for all cause dementia from all severities of TBI, with heterogeneity in study-specific estimates; TBI adult population prevalence 12·1%; weighted PAF 3·4",
+        "confidence_interval": "95% CI 1·54–2·20",
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "The pooled RR was 1·84 (95% CI 1·54–2·20) for all cause dementia from all severities of TBI ( ) although there was heterogeneity in study-specific estimates, possibly because of different populations.",
+        "location": "Incorporation of the new chosen risks in new systematic reviews, TBI"
+      },
+      {
+        "name": "Relative risk of dementia for air pollution exposure, three highest quartiles versus lowest quartile, taken from a single Canadian cohort because meta-analysis was not possible",
+        "tier": "primary",
+        "prespecified": "unclear",
+        "prespecification_evidence": "We included longitudinal studies with assessment of all cause air pollution exposure; use of formal assessment of cognitive function at baseline; report of incident all-cause dementia, data from adults (age ≥18 years); and a minimum follow-up of 6 months.",
+        "met": "not_applicable",
+        "effect_estimate": "RR 1·09 for those in the three highest quartiles of air pollution exposure compared to the lowest",
+        "confidence_interval": "1·07–1·11",
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "We calculated the RR of dementia for those in the three highest quartiles compared to the lowest was 1·09 (1·07–1·11).",
+        "location": "Incorporation of the new chosen risks in new systematic reviews, Pollution"
+      },
+      {
+        "name": "Attributable fraction of dementia for exposure to the highest three quartiles versus the lowest quartile of PM 2·5 and NO 2, and the weighted PAF carried into the 12 factor model",
+        "tier": "primary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "not_applicable",
+        "effect_estimate": "attributable fraction 6·1%; weighted PAF 2·3",
+        "confidence_interval": "4·8–7·5 (attributable fraction)",
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "The attributable fraction for exposure to the highest three quartiles versus the lowest quartile of PM 2·5 and NO 2 was 6·1% (4·8–7·5). The weighted PAF was 2·3.",
+        "location": "Incorporation of the new chosen risks in new systematic reviews, Pollution"
+      }
+    ],
+    "primary_endpoint_status": {
+      "status": "not_applicable",
+      "explanation": "This is a Commission evidence synthesis with no endpoint of its own: it reports modelled population attributable fractions built from reviewed observational evidence under an assumption of causation, not a tested endpoint with a prespecified success threshold.",
+      "quote": "We performed systematic literature reviews and meta-analyses where needed to generate new evidence for our analysis of potentially modifiable risk factors for dementia."
+    },
+    "multiplicity": {
+      "approach": "none stated — the report does not describe any adjustment or control for multiple comparisons across its risk factor analyses",
+      "quote": null,
+      "location": null
+    },
+    "safety": {
+      "harms": [],
+      "apoe_stratification_reported": false,
+      "serious_adverse_events": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "deaths": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "discontinuations": {
+        "value": null,
+        "quote": null,
+        "location": null
+      }
+    },
+    "funding": [
+      "University College London (UCL)",
+      "the Alzheimer's Society, UK",
+      "the Economic and Social Research Council",
+      "Alzheimer's Research UK",
+      "The report states these organisations funded the fares, accommodation, and food for the Commission meeting but had no role in the writing of the manuscript or the decision to submit it for publication",
+      "University College London Hospitals National Institute for Health Research Biomedical Research Centre (support for setting up a website)"
+    ],
+    "conflicts": [
+      "AS reports grants from Wellcome Trust (200163/Z/15/Z), outside the submitted work",
+      "DA reports grants from Eli Lilly, during the conduct of the study",
+      "CBa reports grants and personal fees from Aca-dia and Lundbeck; and personal fees from Roche, Otsuka, Biogen, Eli Lilly, and Pfizer, outside the submitted work",
+      "SB reports grants and personal fees from AbbVie, personal fees and non-financial support from Eli Lilly, and personal fees from Eleusis, Daval International, Boehringer Ingelheim, Axovant Sciences, Lundbeck, and Nutricia, outside the submitted work; and he has been employed by the Department of Health for England",
+      "NF reports non-financial support from Eli Lilly, outside the submitted work",
+      "LNG and her institutions are entitled to receive royalties from fees associated with online training for the tailored activity program, which is an evidence-based program referenced in the Review",
+      "RH reports grants from Department of Health, NIHR HTA Programme, outside the submitted work; and he is a Scientific Trustee of the charity Alzheimer's Research UK",
+      "MK reports grants from the UK Medical Research Council (S011676, R024227), NordForsk (75021) and the Academy of Finland (311492), outside the submitted work",
+      "EBL reports other (royalties) from UpToDate, outside the submitted work",
+      "KRo reports personal fees from several institutions and companies including Lundbeck and SunLife Insurance; he is President and Chief Science Officer of DGI Clinical, which in the last 5 years has contracts with pharma and device manufacturers (Baxter, Baxalta, Shire, Hollister, Nutricia, Roche, Otsuka) on individualised outcome measurement",
+      "LSS reports grants and personal fees from Eli Lilly, Merck, and Roche/Genentech; personal fees from Avraham, Boehringer Ingelheim, Neurim, Neuronix, Cognition, Eisai, Takeda, vTv, and Abbott; and grants from Biogen, Novartis, Biohaven, and Washington University DIAN-TU, outside the submitted work",
+      "The remaining authors declare no conflict of interests"
+    ],
+    "limitations": [
+      "Together the 12 modifiable risk factors account for around 40% of worldwide dementias, which consequently could theoretically be prevented or delayed.",
+      "We have made assumptions to calculate this new model.",
+      "We have assumed a causal relationship between risk factors and dementia, although we have been cautious and not included risk factors with less good evidence.",
+      "Association does not prove causation, however, as already noted, the reductions in prevalence and incidence in several HIC suggests that at least some of the risk factors estimated here do have a causal relationship with the clinical expression of dementia.",
+      "Although behaviour change is difficult and some associations might not be purely causal, individuals have a huge potential to reduce their dementia risk.",
+      "We used global figures for dementia risk although we know the risk factors prevalence varies between countries and most global research is from HIC, so LMIC are under-represented because of lack of data.",
+      "Nearly all the evidence is from studies in high-income countries (HIC), so risks might differ in other countries and interventions might require modification for different cultures and environments.",
+      "No single database exists with all 12 risk factors together, but we found 11 of the factors in a UK database and used the mean figure for communality calculations for TBI.",
+      "We do not know how far findings of communality in other geographical populations might differ, or in those with a differing distribution of age groups or sex.",
+      "We found that social isolation was not explicitly measured and had to use proxies, such as cohabitation when considering prevalence, which are approximate.",
+      "We were also unable to meta-analyse data on pollution and thus unlike the other relative risks, the figure comes from only one study, from an area of low pollution so is likely to be an underestimate.",
+      "Specifically, evidence for the association of alcohol misuse with dementia comes from HIC and future studies from LMIC are needed to complete the picture.",
+      "Risk factors might also matter more at a time of higher biological vulnerability, which the studies we have drawn on cannot establish.",
+      "The length of exposure required for risk or protection effect, and their inter-relationships as they change across life is unclear—it seems probable that longer or more intense exposure has stronger effects.",
+      "Additionally, as our communality figures show, risk factors overlap. We cannot establish from these data if having multiple risk factors has an additive or synergistic effect.",
+      "When measuring a risk nearer to the age of dementia onset, then it is more likely that prodromal change affects, or even causes it.",
+      "Data from RCTs on interventions to prevent cognitive decline, all-cause dementia, or Alzheimer's disease are few.",
+      "Although we have more to learn about effectiveness, avoiding or delaying even a proportion of potentially modifiable dementias should be a national priority for all."
+    ],
+    "risk_of_bias": [
+      {
+        "domain": "modelled estimate rather than demonstrated prevention (assumption of causation)",
+        "judgement": "The 40% headline is a population attributable fraction calculated under an explicit assumption that the risk factor associations are causal; the report itself frames the resulting prevention as theoretical, not demonstrated by intervention",
+        "quote": "We have assumed a causal relationship between risk factors and dementia, although we have been cautious and not included risk factors with less good evidence."
+      },
+      {
+        "domain": "absence of randomised evidence for the modelled preventive effect",
+        "judgement": "The report states that trial data on interventions to prevent dementia are few, so the PAF model is built almost entirely on observational associations",
+        "quote": "Data from RCTs on interventions to prevent cognitive decline, all-cause dementia, or Alzheimer's disease are few."
+      },
+      {
+        "domain": "reverse causation",
+        "judgement": "For several late-life risk factors the report states the direction of effect cannot be resolved; inactivity and depression may be consequences of prodromal dementia",
+        "quote": "People might stop exercising due to prodromal dementia so inactivity might be either a consequence or a cause or both in dementia and might be more of a risk in those with cardiovascular morbidity."
+      },
+      {
+        "domain": "proxy measurement of exposures",
+        "judgement": "Two of the 12 risk factors were represented in the PAF calculation by proxies rather than direct measures",
+        "quote": "We used cohabitation as a proxy measure for social contact, and urbanicity for air pollution exposure."
+      },
+      {
+        "domain": "overlap and non-independence of risk factors (communality)",
+        "judgement": "The 12 risk factors are substantially correlated, which the report handles by weighting for communality; its own analysis found substantial overlap and the communality of TBI could not be measured at all",
+        "quote": "Our analysis found four principal components, explaining 55% of the total variance between the eleven risk factors, suggesting substantial overlap."
+      },
+      {
+        "domain": "single-study basis for the air pollution estimate",
+        "judgement": "The air pollution relative risk rests on one Canadian cohort from a low-pollution setting, without meta-analysis",
+        "quote": "As meta-analysis was not possible, we used data from the only study of all-cause air pollution with the outcome of all-cause dementia, with low-moderate risk of bias."
+      },
+      {
+        "domain": "residual confounding",
+        "judgement": "The report acknowledges that raised dementia risk from air pollutants remains open to residual confounding, particularly its entanglement with poverty and deprivation",
+        "quote": "Although the higher levels of dementia from air pollutants are still subject to the potential for residual confounding, the effects on animal models are evidence of physiological effects over and above those driven by life-course deprivation."
+      },
+      {
+        "domain": "geographical generalisability of the global estimate",
+        "judgement": "Global PAF figures are derived predominantly from high-income country data, with LMIC under-represented despite the report claiming higher preventive potential there",
+        "quote": "We used global figures for dementia risk although we know the risk factors prevalence varies between countries and most global research is from HIC, so LMIC are under-represented because of lack of data."
+      },
+      {
+        "domain": "industry relationships among Commission authors",
+        "judgement": "Several Commission members declare grants and personal fees from companies developing dementia therapeutics, including one grant reported as during the conduct of the study",
+        "quote": "DA reports grants from Eli Lilly, during the conduct of the study."
+      }
+    ],
+    "disagreements": [
+      {
+        "question": "Is the 40% figure a demonstrated preventive effect or a modelled estimate?",
+        "position": "The Commission presents 40% as a modelled population attributable fraction computed under an assumption of causation, describing the associated dementias as ones that could theoretically be prevented or delayed rather than as prevention already shown",
+        "attributed_to": "2020 report of the Lancet Commission on dementia prevention, intervention, and care",
+        "quote": "Together the 12 modifiable risk factors account for around 40% of worldwide dementias, which consequently could theoretically be prevented or delayed."
+      },
+      {
+        "question": "Do amyloid and tau biomarkers support pre-symptomatic diagnosis of Alzheimer's disease in everyday practice?",
+        "position": "No; the Commission states that most cognitively normal people with only these biomarkers never develop the disease and that no evidence supports pre-symptomatic diagnosis in everyday practice",
+        "attributed_to": "2020 report of the Lancet Commission on dementia prevention, intervention, and care",
+        "quote": "Amyloid-β and tau biomarkers indicate risk of progression to Alzheimer's dementia but most people with normal cognition with only these biomarkers never develop the disease."
+      },
+      {
+        "question": "Can prognosis be given to an individual on the basis of amyloid or tau biomarkers?",
+        "position": "No; the Commission holds that individual-level prognostication is not possible because most cognitively normal people with these markers do not develop dementia in a clinically relevant timeframe",
+        "attributed_to": "2020 report of the Lancet Commission on dementia prevention, intervention, and care",
+        "quote": "at the individual level prognostication is not possible as most cognitively normal people with these markers do not develop dementia within a clinically relevant timeframe"
+      },
+      {
+        "question": "Should vitamins, oils or dietary supplements be used to prevent dementia?",
+        "position": "No; the Commission recommends against them because extensive trial testing has produced no signals of benefit",
+        "attributed_to": "2020 report of the Lancet Commission on dementia prevention, intervention, and care",
+        "quote": "We do not recommend taking additional vitamins, oils, or mixed dietary supplements as a means of preventing dementia as extensive testing in trials has not led to signals of beneficial effects."
+      },
+      {
+        "question": "Do statins prevent cognitive decline or dementia in older people at vascular risk?",
+        "position": "No; the Commission reports a Cochrane review finding good evidence that they do not",
+        "attributed_to": "Cochrane review, as cited by the Lancet Commission",
+        "quote": "A Cochrane review reported good evidence that statins given to older people at risk of vascular disease do not prevent cognitive decline or dementia."
+      },
+      {
+        "question": "Does intensive glycaemic control reduce dementia risk in type 2 diabetes?",
+        "position": "No; the Commission states plainly that intensive diabetic control does not decrease the risk of dementia, while maintaining that diabetes itself is a clear risk factor",
+        "attributed_to": "2020 report of the Lancet Commission on dementia prevention, intervention, and care",
+        "quote": "Overall type 2 diabetes is a clear risk factor for development of future dementia; however, whether any particular medication ameliorates this risk is unclear. Intensive diabetic control does not decrease the risk of dementia."
+      },
+      {
+        "question": "Has anti-amyloid drug development produced advances by 2020?",
+        "position": "No; the Commission reports no advances in amyloid-beta therapeutics and negative phase 3 results for monoclonal antibodies and beta-secretase inhibitors",
+        "attributed_to": "2020 report of the Lancet Commission on dementia prevention, intervention, and care",
+        "quote": "No advances have been reported in Aβ therapeutics, with negative results from phase 3 trials of monoclonal antibodies (eg, solanezumab, crenezumab) and inhibitors of β-secretase, a protease involved in the production of Aβ peptides."
+      },
+      {
+        "question": "Which preventive medication has established effect on dementia?",
+        "position": "Only antihypertensive treatment for hypertension; the Commission names it as the sole known effective preventive medication for dementia",
+        "attributed_to": "2020 report of the Lancet Commission on dementia prevention, intervention, and care",
+        "quote": "Aim to maintain systolic BP of 130 mm Hg or less in midlife from around age 40 years (antihypertensive treatment for hypertension is the only known effective preventive medication for dementia)."
+      }
+    ],
+    "linked_objects": [],
+    "trial_status_observation": {
+      "status": null,
+      "enrollment": null,
+      "phase": null,
+      "observed_at": null,
+      "source": null
+    },
+    "unlocatable_fields": [
+      "authors",
+      "authors[].name (the retrieved text names contributors only by initials, e.g. GL, JH, AS, NM, and prints no author list)",
+      "authors[].affiliation",
+      "authors[].orcid",
+      "authors[].corresponding",
+      "study.phase",
+      "study.n (the report states no headline participant N of its own)",
+      "study.followup",
+      "study.intervention",
+      "study.comparator",
+      "study.biomarker_confirmation",
+      "study.nct_ids",
+      "outcomes[].p_value",
+      "outcomes[].prespecification_evidence (for the PAF table entries)",
+      "outcomes[].confidence_interval (combined 40% PAF)",
+      "multiplicity.quote",
+      "multiplicity.location",
+      "safety.harms",
+      "safety.harms[ARIA-E]",
+      "safety.harms[ARIA-H]",
+      "safety.harms[symptomatic ARIA]",
+      "safety.harms[macrohemorrhage]",
+      "safety.harms[death]",
+      "safety.serious_adverse_events",
+      "safety.deaths",
+      "safety.discontinuations",
+      "linked_objects",
+      "trial_status_observation"
+    ],
+    "_meta": {
+      "model": "claude (builder subagent)",
+      "extracted_at": "2026-08-13T00:00:00Z",
+      "source": "raw/lancet-commission-2020/document.md"
+    }
+  }
+}

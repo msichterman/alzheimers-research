@@ -1,0 +1,439 @@
+{
+  "extracted_by": "gemini-3.1-pro-preview",
+  "extracted_at": "2026-08-13T16:27:00.060Z",
+  "independent": true,
+  "saw_builder_output": false,
+  "source": "raw/gantenerumab-graduate/document.md",
+  "source_sha256": "6ee18ccd189d7d0746ae5c782f42bcb951323fceb0192a530d89163f726bbfa7",
+  "truncated": false,
+  "tokens": {
+    "in": 7807,
+    "out": 4946
+  },
+  "record": {
+    "document_kind": "journal_article",
+    "title": {
+      "value": "Two Phase 3 Trials of Gantenerumab in Early Alzheimer’s Disease",
+      "quote": "Two Phase 3 Trials of Gantenerumab in Early Alzheimer’s Disease",
+      "location": "Title"
+    },
+    "study": {
+      "design": {
+        "value": "phase 3, multicenter, randomized, double-blind, placebo-controlled, parallel-group trials",
+        "quote": "The GRADUATE I and II trials were phase 3, multicenter, randomized, double-blind, placebo-controlled, parallel-group trials.",
+        "location": "METHODS, TRIAL DESIGN, paragraph 1"
+      },
+      "n": {
+        "value": 1965,
+        "quote": "Of the 9993 persons who underwent screening, 1965 were enrolled in the trials",
+        "location": "Results, Trial Population, paragraph 1"
+      },
+      "population": {
+        "value": "Persons 50 to 90 years of age were eligible for inclusion in the trials if they had mild cognitive impairment due to Alzheimer’s disease or had mild dementia due to Alzheimer’s disease",
+        "quote": "Persons 50 to 90 years of age were eligible for inclusion in the trials if they had mild cognitive impairment due to Alzheimer’s disease or had mild dementia due to Alzheimer’s disease",
+        "location": "METHODS, ELIGIBILITY CRITERIA, paragraph 1"
+      },
+      "biomarker_confirmation": {
+        "value": "presence of amyloid plaque on visual reading of PET or a ratio of phosphorylated tau 181 to A β 42 of more than 0.024 on CSF testing",
+        "quote": "presence of amyloid plaque on visual reading of PET or a ratio of phosphorylated tau 181 to A β 42 of more than 0.024 on CSF testing.",
+        "location": "METHODS, ELIGIBILITY CRITERIA, paragraph 1"
+      },
+      "cohorts": [
+        "GRADUATE I",
+        "GRADUATE II"
+      ],
+      "comparator": {
+        "value": "placebo",
+        "quote": "Participants were randomly assigned in a 1:1 ratio to receive gantenerumab or placebo",
+        "location": "METHODS, RANDOMIZATION AND TREATMENT, paragraph 1"
+      },
+      "followup": {
+        "value": "116 weeks",
+        "quote": "The double-blind treatment period was initially planned to be 104 weeks and was extended to 116 weeks",
+        "location": "METHODS, RANDOMIZATION AND TREATMENT, paragraph 2"
+      },
+      "intervention": {
+        "value": "gantenerumab... target level of 510 mg every 2 weeks",
+        "quote": "the gantenerumab dose was increased over a period of 36 weeks to a target level of 510 mg every 2 weeks",
+        "location": "METHODS, RANDOMIZATION AND TREATMENT, paragraph 2"
+      },
+      "n_description": {
+        "value": "enrolled in the trials",
+        "quote": "1965 were enrolled in the trials",
+        "location": "Results, Trial Population, paragraph 1"
+      },
+      "nct_ids": [
+        "NCT03444870",
+        "NCT03443973"
+      ],
+      "phase": {
+        "value": "phase 3",
+        "quote": "The GRADUATE I and II trials were phase 3",
+        "location": "METHODS, TRIAL DESIGN, paragraph 1"
+      }
+    },
+    "outcomes": [
+      {
+        "name": "change from baseline in the score on the Clinical Dementia Rating scale−Sum of Boxes (CDR-SB; range, 0 to 18, with higher scores indicating greater cognitive impairment) at week 116",
+        "tier": "primary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "In the GRADUATE I trial, the estimated mean change from baseline in the CDR-SB score at week 116 was 3.35 in the gantenerumab group and 3.65 in the placebo group (difference, −0.31; 95% confidence interval [CI], −0.66 to 0.05; P = 0.10)",
+        "location": "Results, Clinical Outcomes, paragraph 1",
+        "confidence_interval": "95% CI, −0.66 to 0.05",
+        "effect_estimate": "−0.31",
+        "multiplicity_controlled": "yes",
+        "p_value": "P = 0.10",
+        "prespecification_evidence": "The primary outcome was the change from baseline in the score on the CDR−Sum of Boxes"
+      },
+      {
+        "name": "change from baseline in the score on the Clinical Dementia Rating scale−Sum of Boxes (CDR-SB; range, 0 to 18, with higher scores indicating greater cognitive impairment) at week 116",
+        "tier": "primary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "In the GRADUATE II trial, the change was 2.82 in the gantenerumab group and 3.01 in the placebo group (difference, −0.19; 95% CI, −0.55 to 0.17; P = 0.30).",
+        "location": "Results, Clinical Outcomes, paragraph 1",
+        "confidence_interval": "95% CI, −0.55 to 0.17",
+        "effect_estimate": "−0.19",
+        "multiplicity_controlled": "yes",
+        "p_value": "P = 0.30",
+        "prespecification_evidence": "The primary outcome was the change from baseline in the score on the CDR−Sum of Boxes"
+      },
+      {
+        "name": "change from baseline in the score on the 13-item cognitive subscale of the Alzheimer’s Disease Assessment Scale (ADAS-Cog 13 ; range, 0 to 85, with higher scores indicating greater cognitive impairment)",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "Estimates of the treatment effect with respect to the secondary outcomes — the change from baseline in the ADAS-Cog 13 , ADCS-ADL, and FAQ scores at week 116 in the gantenerumab group as compared with the placebo group — for the GRADUATE I and II trials... were not significant because the hierarchical analysis had failed with the analysis of the primary outcome in each trial.",
+        "location": "Results, Clinical Outcomes, paragraph 2",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": "yes",
+        "p_value": null,
+        "prespecification_evidence": "Three outcomes were defined in the statistical analysis plan as confirmatory secondary outcomes: the change from baseline in the score on the 13-item cognitive subscale of the Alzheimer’s Disease Assessment Scale"
+      },
+      {
+        "name": "change from baseline in the total score on the Alzheimer’s Disease Cooperative Study−Activities of Daily Living Inventory (ADCS-ADL; range, 0 to 78, with lower scores indicating greater functional impairment)",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "Estimates of the treatment effect with respect to the secondary outcomes — the change from baseline in the ADAS-Cog 13 , ADCS-ADL, and FAQ scores at week 116 in the gantenerumab group as compared with the placebo group — for the GRADUATE I and II trials... were not significant because the hierarchical analysis had failed with the analysis of the primary outcome in each trial.",
+        "location": "Results, Clinical Outcomes, paragraph 2",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": "yes",
+        "p_value": null,
+        "prespecification_evidence": "Three outcomes were defined in the statistical analysis plan as confirmatory secondary outcomes: ... in the total score on the Alzheimer’s Disease Cooperative Study−Activities of Daily Living Inventory"
+      },
+      {
+        "name": "change from baseline in the score on the Functional Activities Questionnaire (FAQ; range, 0 to 30, with higher scores indicating greater functional impairment) at week 116",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "Estimates of the treatment effect with respect to the secondary outcomes — the change from baseline in the ADAS-Cog 13 , ADCS-ADL, and FAQ scores at week 116 in the gantenerumab group as compared with the placebo group — for the GRADUATE I and II trials... were not significant because the hierarchical analysis had failed with the analysis of the primary outcome in each trial.",
+        "location": "Results, Clinical Outcomes, paragraph 2",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": "yes",
+        "p_value": null,
+        "prespecification_evidence": "Three outcomes were defined in the statistical analysis plan as confirmatory secondary outcomes: ... and in the score on the Functional Activities Questionnaire"
+      }
+    ],
+    "primary_endpoint_status": {
+      "status": "not_met",
+      "quote": "In two randomized trials of gantenerumab... there was no significant difference between the gantenerumab group and the placebo group in the primary clinical outcome, the change from baseline in the CDR-SB score at week 116.",
+      "explanation": "Gantenerumab did not significantly slow clinical decline on the CDR-SB compared to placebo at 116 weeks in either the GRADUATE I or GRADUATE II trial."
+    },
+    "safety": {
+      "harms": [
+        {
+          "name": "death",
+          "arm": "gantenerumab",
+          "quote": "Overall, 10 deaths occurred in the gantenerumab group",
+          "location": "Results, ADVERSE EVENTS, paragraph 1",
+          "apoe_stratum": null,
+          "count": "10",
+          "denominator": null,
+          "percentage": null
+        },
+        {
+          "name": "death",
+          "arm": "placebo",
+          "quote": "and 14 deaths occurred in the placebo group.",
+          "location": "Results, ADVERSE EVENTS, paragraph 1",
+          "apoe_stratum": null,
+          "count": "14",
+          "denominator": null,
+          "percentage": null
+        },
+        {
+          "name": "ARIA-E",
+          "arm": "gantenerumab",
+          "quote": "The incidence of ARIA-E overall was 24.9% with gantenerumab",
+          "location": "Results, ARIA, paragraph 1",
+          "apoe_stratum": null,
+          "count": null,
+          "denominator": null,
+          "percentage": "24.9%"
+        },
+        {
+          "name": "ARIA-E",
+          "arm": "placebo",
+          "quote": "and 2.7% with placebo",
+          "location": "Results, ARIA, paragraph 1",
+          "apoe_stratum": null,
+          "count": null,
+          "denominator": null,
+          "percentage": "2.7%"
+        },
+        {
+          "name": "symptomatic ARIA-E",
+          "arm": "gantenerumab",
+          "quote": "5.0% of the participants receiving gantenerumab had ARIA-E temporally associated with central nervous system (CNS) symptoms",
+          "location": "Results, ARIA, paragraph 1",
+          "apoe_stratum": null,
+          "count": null,
+          "denominator": null,
+          "percentage": "5.0%"
+        },
+        {
+          "name": "symptomatic ARIA-E",
+          "arm": "placebo",
+          "quote": "whereas only 0.2% of the participants receiving placebo had symptomatic ARIA-E.",
+          "location": "Results, ARIA, paragraph 1",
+          "apoe_stratum": null,
+          "count": null,
+          "denominator": null,
+          "percentage": "0.2%"
+        },
+        {
+          "name": "ARIA-H",
+          "arm": "gantenerumab",
+          "quote": "The incidence of any new ARIA-H was 22.9% with gantenerumab",
+          "location": "Results, ARIA, paragraph 2",
+          "apoe_stratum": null,
+          "count": null,
+          "denominator": null,
+          "percentage": "22.9%"
+        },
+        {
+          "name": "ARIA-H",
+          "arm": "placebo",
+          "quote": "and 12.3% with placebo",
+          "location": "Results, ARIA, paragraph 2",
+          "apoe_stratum": null,
+          "count": null,
+          "denominator": null,
+          "percentage": "12.3%"
+        },
+        {
+          "name": "Intraparenchymal macrohemorrhages (>10 mm)",
+          "arm": "gantenerumab",
+          "quote": "Intraparenchymal macrohemorrhages (>10 mm) and subarachnoid hemorrhages were reported in 1.4% and 1.0% of the participants receiving gantenerumab and placebo, respectively.",
+          "location": "Results, ADVERSE EVENTS, paragraph 1",
+          "apoe_stratum": null,
+          "count": null,
+          "denominator": null,
+          "percentage": "1.4%"
+        },
+        {
+          "name": "Intraparenchymal macrohemorrhages (>10 mm)",
+          "arm": "placebo",
+          "quote": "Intraparenchymal macrohemorrhages (>10 mm) and subarachnoid hemorrhages were reported in 1.4% and 1.0% of the participants receiving gantenerumab and placebo, respectively.",
+          "location": "Results, ADVERSE EVENTS, paragraph 1",
+          "apoe_stratum": null,
+          "count": null,
+          "denominator": null,
+          "percentage": "1.0%"
+        }
+      ],
+      "apoe_stratification_reported": true,
+      "deaths": {
+        "value": "10 deaths occurred in the gantenerumab group, and 14 deaths occurred in the placebo group",
+        "quote": "Overall, 10 deaths occurred in the gantenerumab group, and 14 deaths occurred in the placebo group.",
+        "location": "Results, ADVERSE EVENTS, paragraph 1"
+      },
+      "discontinuations": {
+        "value": "9.1% of the participants in the gantenerumab group, as compared with 1.8% of those in the placebo group",
+        "quote": "Discontinuation of gantenerumab or placebo due to an adverse event occurred in 9.1% of the participants in the gantenerumab group, as compared with 1.8% of those in the placebo group",
+        "location": "Results, ADVERSE EVENTS, paragraph 1"
+      },
+      "serious_adverse_events": {
+        "value": "13.6% and 16.5% of the participants in the gantenerumab and placebo groups, respectively",
+        "quote": "serious adverse events were reported in 13.6% and 16.5% of the participants in the gantenerumab and placebo groups, respectively.",
+        "location": "Results, ADVERSE EVENTS, paragraph 1"
+      }
+    },
+    "unlocatable_fields": [
+      "conflicts",
+      "disagreements",
+      "linked_objects",
+      "risk_of_bias",
+      "trial_status_observation"
+    ],
+    "authors": [
+      {
+        "name": "R.J. Bateman",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "J. Smith",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "M.C. Donohue",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "P. Delmar",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "R. Abbas",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "S. Salloway",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "J. Wojtowicz",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "K. Blennow",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "T. Bittner",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "S.E. Black",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "G. Klein",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "M. Boada",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "T. Grimmer",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "A. Tamaoka",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "R.J. Perry",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "R.S. Turner",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "D. Watson",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "M. Woodward",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "A. Thanasopoulou",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "C. Lane",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "M. Baudler",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "N.C. Fox",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "J.L. Cummings",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "P. Fontoura",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "R.S. Doody",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      }
+    ],
+    "funding": [
+      "F. Hoffmann−La Roche"
+    ],
+    "limitations": [
+      "lack of racial diversity in the trial population from the United States, which may affect the generalizability of our findings",
+      "multiple differences between the protocol for these trials and the protocols for earlier trials of anti-amyloid monoclonal antibodies (including the previously untested dose-escalation scheme), which make it difficult to draw comparisons between trials."
+    ],
+    "multiplicity": {
+      "approach": "fixed hierarchical testing procedure",
+      "location": "METHODS, STATISTICAL ANALYSIS, paragraph 2",
+      "quote": "Primary and secondary outcomes were analyzed according to a fixed hierarchical testing procedure, in the order provided above, for control of the overall type I error at 5%."
+    }
+  }
+}

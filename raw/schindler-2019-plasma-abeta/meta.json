@@ -1,0 +1,9 @@
+{
+  "id": "schindler-2019-plasma-abeta",
+  "source": "sources/schindler-2019-plasma-abeta.xml",
+  "sha256": "571aa8dd8aa8ef2e49c94332d79f95db36e86e8ccaac9713f6131d70bfc5cf86",
+  "bytes": 53887,
+  "chars": 2292,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:11.269Z"
+}

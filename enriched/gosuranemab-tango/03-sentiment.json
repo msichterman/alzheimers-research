@@ -1,0 +1,71 @@
+{
+  "overall": "quiet",
+  "summary": "Public sentiment regarding gosuranemab is overwhelmingly quiet, as the drug was abandoned by Biogen years ago following the TANGO Phase 2 trial failure. On social platforms like Reddit, discussion essentially ceased around 2021, and patient/caregiver communities have moved on to newer therapies. However, recent media coverage of a different Biogen tau drug, diranersen (BIIB080), has generated a new wave of misinformation. Several low-tier and automated health news sites are currently falsely reporting that gosuranemab is advancing to Phase 3 trials, mistakenly attributing diranersen's recent trial results to the abandoned gosuranemab.",
+  "communities": [
+    {
+      "community": "Reddit (r/longevity, r/Alzheimers)",
+      "sentiment": "quiet",
+      "themes": [
+        "Historical acknowledgment of trial failure",
+        "Discussion shifted entirely to newer therapies like diranersen"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/longevity/comments/o4ee9u/biogen_shelves_gosuranemab_after_negative/"
+      ]
+    },
+    {
+      "community": "Low-tier health media & automated news",
+      "sentiment": "mixed",
+      "themes": [
+        "False claims of Phase 3 advancement",
+        "Conflation with diranersen (BIIB080)",
+        "Focusing on biomarker engagement rather than cognitive outcomes"
+      ],
+      "example_urls": [
+        "https://med-sens-news.vercel.app/article/biogen-advances-controversial-alzheimers-drug-to-phase-3-despite-mixed-trial-results"
+      ]
+    },
+    {
+      "community": "Patient/Caregiver blogs (Legacy)",
+      "sentiment": "quiet",
+      "themes": [
+        "Past anecdotal hope for related tauopathies (e.g. Corticobasal Syndrome)",
+        "No active Alzheimer's patient advocacy"
+      ],
+      "example_urls": [
+        "http://www.treatingcbs.com/video-evidence-home"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "MedSense News",
+      "tone": "positive",
+      "date": "2026-05",
+      "url": "https://med-sens-news.vercel.app/article/biogen-advances-controversial-alzheimers-drug-to-phase-3-despite-mixed-trial-results"
+    },
+    {
+      "outlet": "pharmaphorum",
+      "tone": "neutral",
+      "date": "2026-08",
+      "url": "https://pharmaphorum.com/news/trial-miss-doesnt-dent-biogens-faith-alzheimers-drug"
+    },
+    {
+      "outlet": "Alzforum",
+      "tone": "critical",
+      "date": "2021-06",
+      "url": "https://www.alzforum.org/news/research-news/gosuranemab-biogens-anti-tau-immunotherapy-does-not-fly-psp"
+    }
+  ],
+  "hype_vs_evidence": "The scientific evidence from the TANGO trial conclusively showed that gosuranemab failed to slow clinical decline or reduce tau accumulation in the brain, leading Biogen to discontinue it years ago. However, public perception in the current media landscape (2026) is being artificially inflated by low-quality news outlets confusing gosuranemab with another Biogen drug, diranersen (BIIB080). This has led to false hype that gosuranemab is entering Phase 3 trials and showing 'unprecedented' biomarker results, completely diverging from the clinical reality that gosuranemab is a dead end.",
+  "misinformation_flags": [
+    "Biogen is advancing gosuranemab into Phase 3 clinical trials based on mixed Phase 2 data.",
+    "Gosuranemab showed an 'unprecedented drop in tau' in recent trials (this actually refers to diranersen/BIIB080)."
+  ],
+  "searches_run": [
+    "gosuranemab reddit",
+    "gosuranemab biogen alzheimer news",
+    "BIIB092 alzforum",
+    "site:reddit.com gosuranemab OR diranersen"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "consensus-gwas-2026",
+  "source": "sources/consensus-gwas-2026.xml",
+  "sha256": "2cc7ff6a6a4a99ef68691833a2c0d1e7a7c5628b5ba7a0bf2e71da497984a55a",
+  "bytes": 285964,
+  "chars": 72970,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:08.010Z"
+}

@@ -1,0 +1,78 @@
+{
+  "fact_check": [
+    {
+      "fact": "FDA mandates a randomized controlled trial for maintenance dosing of donanemab following initial plaque clearance (PMC 4605-3).",
+      "status": "verified",
+      "note": "Source document (p. 8) confirms PMC 4605-3 requires randomization to maintenance dose or placebo for at least 2 years, with the Clinical Dementia Rating scale as the primary endpoint."
+    },
+    {
+      "fact": "The FDA mandates validation of an in vitro diagnostic (IVD) test to detect ApoE ε4 alleles (PMC 4605-4).",
+      "status": "verified",
+      "note": "Source document (p. 8) confirms PMC 4605-4 requires analytical validation testing for an FDA-cleared or approved IVD device to identify patients at increased risk of ARIA."
+    }
+  ],
+  "research_page": {
+    "slug": "fda-approval-kisunla-donanemab",
+    "title": "FDA Approval Letter for Kisunla (donanemab)",
+    "description": "The FDA's approval for Kisunla mandates strict postmarketing studies to monitor ARIA, large cerebral hemorrhages, and ApoE4-related risks.",
+    "tags": [
+      "fda",
+      "donanemab",
+      "kisunla",
+      "aria"
+    ],
+    "source_line_md": "**Source**: U.S. Food and Drug Administration, 2024",
+    "authors_line_md": "Teresa J. Buracchio — Office of Neuroscience, Center for Drug Evaluation and Research, FDA",
+    "takeaway_md": "The FDA approved donanemab (Kisunla) but requires extensive postmarketing surveillance due to severe risks of ARIA and intracerebral hemorrhage. Eli Lilly must establish a large observational registry, a retrospective cohort study, a trial for maintenance dosing, and an FDA-cleared in vitro diagnostic for ApoE ε4 detection.",
+    "key_findings_md": [
+      "FDA mandates a prospective registry to evaluate real-world rates of ARIA and intracerebral hemorrhage (>1 cm), particularly targeting high-risk groups like ApoE ε4 homozygotes (Letter, p. 5).",
+      "The sponsor must validate administrative claim codes and conduct a retrospective cohort study to assess clinical safety outcomes using real-world data (Letter, p. 6).",
+      "The FDA requires a randomized, double-blind controlled trial to evaluate maintenance dosing of donanemab versus placebo for at least two years after initial amyloid plaque clearance (Letter, p. 8).",
+      "An FDA-cleared in vitro diagnostic (IVD) device must be validated by July 2026 to accurately detect ApoE ε4 alleles, helping to identify patients at elevated risk for ARIA (Letter, p. 8)."
+    ],
+    "methods_md": "This is a regulatory approval letter (BLA 761248) issued July 2, 2024, outlining postmarketing requirements (PMRs) and postmarketing commitments (PMCs) under section 505(o) of the FDCA for adult Alzheimer's patients.",
+    "trial_evidence_md": "The approval rests on efficacy and safety data from the pivotal TRAILBLAZER-ALZ 2 Phase 3 trial ([NCT04437511](https://clinicaltrials.gov/study/NCT04437511)). To satisfy the new postmarketing surveillance mandates, a prospective observational registry is currently recruiting up to 6,250 participants ([NCT06566170](https://clinicaltrials.gov/study/NCT06566170)). The mandated maintenance dosing trial (PMC 4605-3) and retrospective claims study (PMR 4605-2) do not yet have distinct active ClinicalTrials.gov registrations, though the maintenance trial may incorporate crossover participants from the ongoing [TRAILBLAZER-ALZ 3](/trials/trailblazer-alz-3) prevention trial.",
+    "sentiment_md": "Public sentiment toward Kisunla is deeply mixed. Patient and caregiver communities weigh the drug's modest clinical benefit against severe side effects like ARIA and allergic reactions. The medical community emphasizes a narrow risk-benefit profile, while retail investors largely ignore the Alzheimer's portfolio in favor of the sponsor's GLP-1 weight-loss drugs. Expectations among some patients are occasionally inflated by misinformation suggesting the drug can halt the disease for a decade, contrasting sharply with the roughly 4-month delay in progression observed in trials.",
+    "caveats_md": [
+      "This document outlines regulatory mandates and safety commitments; it does not present primary clinical trial data on efficacy or adverse event frequencies.",
+      "The specific designs and endpoints of the mandated retrospective cohort study and maintenance dosing trial remain subject to FDA review and have not yet been published."
+    ],
+    "relates_to_md": [
+      "[TRAILBLAZER-ALZ 3](/trials/trailblazer-alz-3) — Participants completing this trial may be utilized to fulfill the FDA's maintenance dosing trial requirement.",
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — The severe side effect profile and extensive safety monitoring required for Kisunla highlights the complex risk-benefit calculus of amyloid-clearing therapies."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "donanemab-alz-net-registry-nct06566170",
+      "title": "Kisunla (donanemab) ALZ-NET Safety Registry",
+      "description": "A prospective observational registry tracking real-world safety, ARIA, and hemorrhage rates in early symptomatic Alzheimer's patients treated with donanemab.",
+      "badge": "Recruiting",
+      "tags": [
+        "trial",
+        "donanemab",
+        "kisunla",
+        "registry",
+        "observational"
+      ],
+      "registry_md": "[NCT06566170](https://clinicaltrials.gov/study/NCT06566170)",
+      "drug": "Donanemab (Anti-amyloid monoclonal antibody)",
+      "phase": "Observational / Phase 4",
+      "sponsor": "Eli Lilly and Company",
+      "population": "US participants with early symptomatic Alzheimer's disease prescribed donanemab",
+      "primary_endpoint": "Long-term effectiveness of donanemab plus usual care versus usual care alone, specifically tracking ARIA and hemorrhage",
+      "started": "2024-10",
+      "readout": "2033-02",
+      "why_md": "This registry fulfills an FDA postmarketing requirement (PMR 4605-1) for Kisunla's approval. It tracks real-world safety outcomes—particularly ARIA-E, ARIA-H, and large cerebral hemorrhages—outside the highly controlled environment of earlier pivotal trials, aiming to understand risks in diverse populations including ApoE4 homozygotes.",
+      "status_log_md": [
+        "**2024-07-02** — FDA mandates the registry as a condition of Kisunla's approval (PMR 4605-1).",
+        "**2024-10** — Registry begins recruiting participants."
+      ],
+      "results_md": null
+    }
+  ],
+  "timeline_entries": [],
+  "notes_for_editor": [
+    "No timeline entry was generated because the '2024-07 — Donanemab approval' milestone is already present on the existing site timeline."
+  ]
+}

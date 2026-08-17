@@ -1,0 +1,14 @@
+{
+  "id": "tilavonemab-early-ad",
+  "prepared_at": "2026-08-13T16:55:51.044Z",
+  "instructions": "Two independent extractions of the same retrieved document disagree on these fields. For each conflict, decide against the document which reading is correct — or that both are, or neither is. You are not told which pipeline produced which reading, and you must not guess.",
+  "conflicts": [
+    {
+      "conflict_id": "tilavonemab-early-ad#0",
+      "field": "study.population",
+      "reading_a": "adults aged 55–85 years who met the National Institute on Aging and the Alzheimer’s Association criteria for mild cognitive impairment or probable Alzheimer’s disease and had a Clinical Dementia Rating (CDR) global score of 0.5 at screening Visit 1, a Mini-Mental State Examination (MMSE) score of 22 to 30, inclusive, at screening Visit 1, and a Repeated Battery for the Assessment of Neuropsychological Status-Delayed Memory Index (RBANS-DMI) score of ≤85; a positive amyloid PET scan; a Modified Hachinski Ischemic Scale score of ≤4",
+      "reading_b": "Adults aged 55–85 years meeting NIA-AA criteria for mild cognitive impairment or probable Alzheimer's disease, with a CDR global score of 0.5, MMSE 22–30, RBANS-Delayed Memory Index score of <=85, a positive amyloid PET scan and a Modified Hachinski Ischemic Scale score of <=4",
+      "note": null
+    }
+  ]
+}

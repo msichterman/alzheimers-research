@@ -1,0 +1,9 @@
+{
+  "id": "gantenerumab-graduate-nct03443973",
+  "source": "sources/gantenerumab-graduate-nct03443973.json",
+  "sha256": "0cb416e13da732f3b46c8b2a69520f0b129787ea66b93cd913bc3cc49a12bbc4",
+  "bytes": 199192,
+  "chars": 64192,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:10.823Z"
+}

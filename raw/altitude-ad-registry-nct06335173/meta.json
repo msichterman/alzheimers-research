@@ -1,0 +1,9 @@
+{
+  "id": "altitude-ad-registry-nct06335173",
+  "source": "sources/altitude-ad-registry-nct06335173.json",
+  "sha256": "8c9049092d1bd5051bc259dfde2cefd846a6e61079a3fd0a69f286f4d2ca9cb9",
+  "bytes": 31520,
+  "chars": 17500,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:07.898Z"
+}

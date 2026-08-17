@@ -1,0 +1,118 @@
+{
+  "fact_check": [
+    {
+      "fact": "1,965 participants were enrolled across both trials.",
+      "status": "verified",
+      "note": "Checked against source document (Results). The clinical registries list 2,028 combined, reflecting a common discrepancy between initially consented versus formally randomized/analyzed populations."
+    },
+    {
+      "fact": "CDR-SB difference at week 116 was -0.31 (GRADUATE I) and -0.19 (GRADUATE II).",
+      "status": "verified",
+      "note": "Checked against source document (Clinical Outcomes)."
+    },
+    {
+      "fact": "ARIA-E occurred in 24.9% of gantenerumab patients.",
+      "status": "verified",
+      "note": "Checked against source document (Abstract and ARIA section)."
+    },
+    {
+      "fact": "Amyloid-negative status was attained in 28.0% and 26.8% of patients.",
+      "status": "verified",
+      "note": "Checked against source document (Biomarker Outcomes)."
+    }
+  ],
+  "research_page": {
+    "slug": "gantenerumab-graduate",
+    "title": "Two Phase 3 Trials of Gantenerumab in Early Alzheimer’s Disease",
+    "description": "The anti-amyloid antibody gantenerumab failed to slow clinical decline in two large Phase 3 trials, leading to the program's discontinuation.",
+    "tags": [
+      "paper",
+      "trial",
+      "amyloid",
+      "gantenerumab",
+      "monoclonal-antibody"
+    ],
+    "source_line_md": "**Source**: [The New England Journal of Medicine, 2023](https://doi.org/10.1056/NEJMoa2304430) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/37966285)",
+    "authors_line_md": "R.J. Bateman et al. — F. Hoffmann-La Roche",
+    "takeaway_md": "Gantenerumab failed to significantly slow cognitive decline in early Alzheimer's disease over 116 weeks. While the drug reduced brain amyloid and shifted some fluid biomarkers toward normal, the magnitude of plaque clearance was surprisingly weak, with roughly a quarter of patients achieving amyloid negativity ([paper](https://doi.org/10.1056/NEJMoa2304430)).",
+    "key_findings_md": [
+      "Did not significantly slow decline on the CDR-SB compared to placebo in either GRADUATE I (difference −0.31, P=0.10) or GRADUATE II (difference −0.19, P=0.30) ([paper, Abstract](https://doi.org/10.1056/NEJMoa2304430)).",
+      "Only 28.0% (GRADUATE I) and 26.8% (GRADUATE II) of treated participants reached amyloid-negative status by week 116 ([paper, Results](https://doi.org/10.1056/NEJMoa2304430)).",
+      "ARIA-E occurred in 24.9% of treated participants versus 2.7% on placebo, with 5.0% experiencing symptomatic ARIA-E ([paper, Abstract](https://doi.org/10.1056/NEJMoa2304430)).",
+      "Treated patients showed improvements in downstream fluid biomarkers, including lower CSF p-tau181 and higher Aβ42 ([paper, Results](https://doi.org/10.1056/NEJMoa2304430))."
+    ],
+    "methods_md": "Two Phase 3, multicenter, randomized, double-blind, placebo-controlled trials. Enrolled 1,965 participants aged 50 to 90 with early Alzheimer's disease and evidence of amyloid plaques. Evaluated subcutaneous gantenerumab versus placebo over 116 weeks ([NCT03444870](https://clinicaltrials.gov/study/NCT03444870), [NCT03443973](https://clinicaltrials.gov/study/NCT03443973)).",
+    "trial_evidence_md": "These trials mark the definitive failure of the gantenerumab clinical program. Following negative readouts in [GRADUATE I](/trials/gantenerumab-graduate-1-nct03444870) and [GRADUATE II](/trials/gantenerumab-graduate-2-nct03443973), Hoffmann-La Roche formally terminated the studies. Earlier trials (SCarlet RoAD and Marguerite RoAD) had similarly failed to show clinical benefit, and the gantenerumab arm of the DIAN-TU prevention trial was subsequently discontinued.",
+    "sentiment_md": "Public and market sentiment is highly skeptical. Retail investors view the failure as a major setback for Roche, while patient communities express frustration that clearing amyloid did not translate to memory improvements, fueling distrust in the [amyloid hypothesis](/journey/amyloid-hypothesis-consumer) and heightening fears around ARIA risks. Scientific focus has largely shifted toward trontinemab, a next-generation \"brain-shuttle\" drug designed to solve gantenerumab's delivery limitations.",
+    "caveats_md": [
+      "The lack of racial diversity in the US trial cohort limits the generalizability of the findings to broader populations.",
+      "A novel dose-escalation scheme was used to manage ARIA-E, making direct comparisons with earlier gantenerumab studies difficult.",
+      "Because amyloid removal was much lower than predicted, the trials could not definitively test whether profound plaque clearance yields clinical benefit."
+    ],
+    "relates_to_md": [
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Adds to the debate on whether insufficient amyloid clearance explains clinical failures.",
+      "[Biomarkers](/research/biomarkers) — Demonstrates that moving downstream fluid biomarkers (p-tau181) does not guarantee clinical cognitive benefit."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "gantenerumab-graduate-1-nct03444870",
+      "title": "GRADUATE I",
+      "description": "Phase 3 trial evaluating subcutaneous gantenerumab in early Alzheimer's disease.",
+      "badge": "Terminated",
+      "tags": [
+        "trial",
+        "phase-3",
+        "gantenerumab"
+      ],
+      "registry_md": "[NCT03444870](https://clinicaltrials.gov/study/NCT03444870)",
+      "drug": "Gantenerumab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Hoffmann-La Roche",
+      "population": "Early Alzheimer's disease (mild cognitive impairment or mild dementia)",
+      "primary_endpoint": "Change from baseline to week 116 in CDR-SB",
+      "started": "2018-06",
+      "readout": "2023-02",
+      "why_md": "Designed to confirm whether subcutaneous gantenerumab could slow cognitive decline in early [Alzheimer's disease](/journey/newly-diagnosed) by clearing brain amyloid.",
+      "status_log_md": [
+        "**2023-02-01** — Trial formally terminated following a negative primary readout for efficacy ([registry](https://clinicaltrials.gov/study/NCT03444870))."
+      ],
+      "results_md": "The trial failed to meet its primary endpoint, showing no significant difference in clinical decline on the CDR-SB compared to placebo. Amyloid clearance was significantly lower than predicted ([paper](/research/papers/gantenerumab-graduate))."
+    },
+    {
+      "slug": "gantenerumab-graduate-2-nct03443973",
+      "title": "GRADUATE II",
+      "description": "Phase 3 trial evaluating subcutaneous gantenerumab in early Alzheimer's disease.",
+      "badge": "Terminated",
+      "tags": [
+        "trial",
+        "phase-3",
+        "gantenerumab"
+      ],
+      "registry_md": "[NCT03443973](https://clinicaltrials.gov/study/NCT03443973)",
+      "drug": "Gantenerumab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Hoffmann-La Roche",
+      "population": "Early Alzheimer's disease (mild cognitive impairment or mild dementia)",
+      "primary_endpoint": "Change from baseline to week 116 in CDR-SB",
+      "started": "2018-08",
+      "readout": "2022-11",
+      "why_md": "A parallel twin study to GRADUATE I, aiming to provide robust, replicated evidence of gantenerumab's efficacy in clearing [amyloid](/research/amyloid-hypothesis).",
+      "status_log_md": [
+        "**2022-11-01** — Trial terminated alongside the broader development program after missing the primary endpoint ([registry](https://clinicaltrials.gov/study/NCT03443973))."
+      ],
+      "results_md": "Failed to meet the primary endpoint, with no significant slowing of clinical decline versus placebo. Only 26.8% of patients reached amyloid-negative status ([paper](/research/papers/gantenerumab-graduate))."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Anti-amyloid setbacks",
+      "date": "2022-11",
+      "title": "2022-11 — Gantenerumab Phase 3 program fails",
+      "body_md": "Roche announces that the GRADUATE I and II trials missed their primary endpoints, failing to significantly slow clinical decline in early Alzheimer's disease. The results effectively end the drug's clinical development program ([paper](/research/papers/gantenerumab-graduate))."
+    }
+  ],
+  "notes_for_editor": [
+    "The source document notes 1,965 enrolled participants, but the clinical registries combined show 2,028. This is a common discrepancy reflecting initially consented vs. randomized/analyzed populations."
+  ]
+}

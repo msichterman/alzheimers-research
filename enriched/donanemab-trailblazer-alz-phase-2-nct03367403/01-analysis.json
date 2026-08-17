@@ -1,0 +1,74 @@
+{
+  "kind": "other",
+  "title": "A Study of LY3002813 in Participants With Early Symptomatic Alzheimer's Disease (TRAILBLAZER-ALZ)",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2021-09",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "tau",
+    "immunotherapy",
+    "donanemab",
+    "trailblazer-alz"
+  ],
+  "themes": [
+    "Donanemab efficacy and safety",
+    "Amyloid plaque reduction",
+    "Cognitive and functional decline",
+    "Phase 2 clinical trial results"
+  ],
+  "one_line": "Phase 2 TRAILBLAZER-ALZ trial results indicate that donanemab significantly reduced amyloid plaque deposition and showed a borderline significant slowing of cognitive decline on the iADRS compared to placebo.",
+  "summary": "This document contains the ClinicalTrials.gov registry results for TRAILBLAZER-ALZ (NCT03367403), a Phase 2 trial evaluating donanemab (LY3002813) in patients with early symptomatic Alzheimer's disease. The trial randomized 272 participants to receive donanemab monotherapy, placebo, or a discontinued combination therapy. Over 76 weeks, donanemab monotherapy demonstrated a statistically significant but modest superiority over placebo on the primary endpoint, the Integrated Alzheimer's Disease Rating Scale (iADRS). However, key secondary cognitive and functional endpoints, including the CDR-SB, MMSE, and ADCS-iADL, did not reach statistical significance. Biomarker outcomes showed a dramatic and highly significant reduction in brain amyloid plaque deposition measured by PET scan. The safety profile included expected adverse events such as amyloid-related imaging abnormalities (ARIA), with a number of cases reported in the donanemab monotherapy arm.",
+  "key_claims": [
+    {
+      "claim": "Donanemab monotherapy significantly slows cognitive and functional decline compared to placebo as measured by the iADRS.",
+      "evidence": "Mean Difference 3.20 (95% CI 0.12 to 6.27), p=0.042 in mixed models analysis.",
+      "strength": "moderate",
+      "location": "Posted results > PRIMARY: Change From Baseline in the Integrated Alzheimer's Disease Rating Scale (iADRS) Score"
+    },
+    {
+      "claim": "Donanemab significantly reduces brain amyloid plaque deposition compared to placebo.",
+      "evidence": "Mean Difference -85.06 Centiloids (95% CI -92.68 to -77.43), p=<0.001.",
+      "strength": "strong",
+      "location": "Posted results > SECONDARY: Change From Baseline in Brain Amyloid Plaque Deposition as Measured by Florbetapir F18 Positron Emission Tomography (PET) Scan"
+    },
+    {
+      "claim": "Donanemab does not demonstrate statistically significant superiority over placebo on the CDR-SB.",
+      "evidence": "Mean Difference -0.36 (95% CI -0.83 to 0.12), p=0.139.",
+      "strength": "strong",
+      "location": "Posted results > SECONDARY: Change From Baseline in the Clinical Dementia Rating Scale Sum of Boxes (CDR-SB) Score"
+    }
+  ],
+  "methods": {
+    "design": "Interventional, randomized, double-blind, placebo-controlled Phase 2 trial",
+    "n": 272,
+    "population": "Adults aged 60-85 with early symptomatic Alzheimer's disease, gradual memory decline for ≥ 6 months, MMSE 20-28, and positive amyloid and tau PET scans.",
+    "duration": "76 Weeks",
+    "registration": "NCT03367403"
+  },
+  "funding_and_conflicts": "Lead sponsor: Eli Lilly and Company",
+  "limitations": [
+    "Most secondary clinical outcomes (CDR-SB, MMSE, ADCS-iADL) failed to reach statistical significance despite the primary outcome being positive.",
+    "The combination arm (donanemab + LY3202626) was discontinued due to futility, resulting in an unbalanced trial completion."
+  ],
+  "red_flags": [
+    "Discrepancy between a barely significant primary endpoint (iADRS p=0.042) and non-significant standard secondary cognitive endpoints (CDR-SB p=0.139, MMSE p=0.227), suggesting a potentially marginal or complex clinical benefit despite massive biomarker changes."
+  ],
+  "parse_quality": {
+    "score": 10,
+    "issues": []
+  },
+  "search_verification": []
+}

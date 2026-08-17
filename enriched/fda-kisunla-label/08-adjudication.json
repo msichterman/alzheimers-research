@@ -1,0 +1,52 @@
+{
+  "id": "fda-kisunla-label",
+  "adjudicated_at": "2026-08-13T17:00:00Z",
+  "rulings": [
+    {
+      "conflict_id": "fda-kisunla-label#0",
+      "field": "study.population",
+      "verdict": "both",
+      "correct_value": "Patients with Alzheimer's disease with confirmed presence of amyloid pathology and mild cognitive impairment or mild dementia stage of disease, consistent with Stage 3 and Stage 4 Alzheimer's disease; enrolled with MMSE score of >=20 and <=28 and a progressive change in memory function for at least 6 months (Study 1, NCT04437511)",
+      "quote": "in patients with Alzheimer’s disease (patients with confirmed presence of amyloid pathology and mild cognitive impairment or mild dementia stage of disease, consistent with Stage 3 and Stage 4 Alzheimer’s disease). Patients were enrolled with a Mini-Mental State Examination (MMSE) score of ≥20 and ≤28 and had a progressive change in memory function for at least 6 months.",
+      "reasoning": "Both readings describe the Study 1 population at different levels of detail and every element of each is printed in section 14; reading A is the label's verbatim study-population sentence and reading B adds the enrollment criteria that follow it."
+    },
+    {
+      "conflict_id": "fda-kisunla-label#1",
+      "field": "study.intervention",
+      "verdict": "both",
+      "correct_value": "KISUNLA (donanemab-azbt) 700 mg by intravenous infusion over approximately 30 minutes every 4 weeks for the first 3 doses, then 1400 mg every 4 weeks, for up to 72 weeks; in Study 1 treatment was switched to placebo based on amyloid PET levels at Weeks 24, 52, and 76",
+      "quote": "In Study 1, 1736 patients were randomized 1:1 to receive 700 mg of KISUNLA every 4 weeks for the first 3 doses, and then 1400 mg every 4 weeks (N = 860) or placebo (N = 876) for a total of up to 72 weeks.",
+      "reasoning": "Same regimen at two levels of detail; the infusion route and 30-minute duration are printed in Dosage and Administration (2.2), and the amyloid-PET stopping rule is printed both as a labeled recommendation and as the Study 1 switch-to-placebo rule."
+    },
+    {
+      "conflict_id": "fda-kisunla-label#2",
+      "field": "safety.harms[macrohemorrhage].reported",
+      "verdict": "b",
+      "correct_value": "reported",
+      "quote": "Intracerebral hemorrhage greater than 1 cm in diameter was reported in 0.5% (4/853) of patients in Study 1 after treatment with KISUNLA compared to 0.2% (2/874) of patients on placebo. Fatal events of intracerebral hemorrhage in patients taking KISUNLA have been observed.",
+      "reasoning": "The label does not use the word 'macrohemorrhage' but reports the same harm by its printed definition, intracerebral hemorrhage greater than 1 cm in diameter, with arm-specific numerators and denominators."
+    },
+    {
+      "conflict_id": "fda-kisunla-label#3",
+      "field": "safety.harms[death].reported",
+      "verdict": "a",
+      "correct_value": "reported",
+      "quote": "One fatal intracerebral hemorrhage occurred in a patient taking KISUNLA in the setting of focal neurologic symptoms of ARIA and the use of a thrombolytic agent.",
+      "reasoning": "Deaths are reported in the label, in the boxed warning ('some of which have been fatal'), in section 5.1 ('Fatal events of intracerebral hemorrhage in patients taking KISUNLA have been observed'), and as the single fatal case above."
+    },
+    {
+      "conflict_id": "fda-kisunla-label#4",
+      "field": "outcomes[primary].confidence_interval",
+      "verdict": "neither",
+      "correct_value": null,
+      "quote": "Patients treated with KISUNLA demonstrated a statistically significant reduction in clinical decline on iADRS compared to placebo at Week 76 in the combined population (2.92, p<0.0001) and the low/medium tau population (3.25, p<0.0001).",
+      "reasoning": "The label reports the primary iADRS results and every row of Table 8 as point estimates with p-values only; no confidence interval for the primary endpoint appears anywhere in the document."
+    }
+  ],
+  "notes": [
+    "The label reports deaths only qualitatively (fatal intracerebral hemorrhage; boxed-warning class statement). No mortality count, rate, or denominator by arm is printed, so a death harm entry should carry no numerator/denominator from this source.",
+    "Reading B for study.intervention imports 'consider stopping dosing ... on amyloid PET imaging' from Dosage and Administration (2.2), which is the labeled prescribing recommendation. The Study 1 protocol version of the same rule is stated separately: dosing was switched to placebo if amyloid was <11 Centiloids on one PET or 11 to <25 Centiloids on 2 consecutive PETs.",
+    "ARIA figures in this label carry explicit denominators that any harms extraction should preserve: ARIA 36% (307/853) vs 14% (122/874); ARIA-E 24% (201/853) vs 2% (17/874); ARIA-H 31% (263/853) vs 13% (111/874); symptomatic ARIA 6% (52/853). APOE strata (KISUNLA vs placebo): homozygotes 55% vs 22% (143/850 homozygotes), heterozygotes 36% vs 13% (452/850), noncarriers 25% vs 12% (255/850). Table 6 percentages (ARIA-H microhemorrhage 25 vs 11, ARIA-E 24 vs 2, ARIA-H superficial siderosis 15 vs 3, headache 13 vs 10, infusion-related reaction 9 vs 0.5) are over N = 853 and N = 874.",
+    "Safety denominators (853/874, the treated population) differ from efficacy denominators (860/876, randomized) in this label; do not mix them."
+  ]
+}

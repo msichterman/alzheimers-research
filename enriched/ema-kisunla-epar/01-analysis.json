@@ -1,0 +1,128 @@
+{
+  "kind": "other",
+  "title": "Assessment report: Kisunla (International non-proprietary name: donanemab), Procedure No. EMEA/H/C/006024/0000",
+  "authors": [
+    {
+      "name": "Mol, Peter",
+      "affiliation": "Committee for Medicinal Products for Human Use (CHMP)",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Cessak, Grzegorz",
+      "affiliation": "Committee for Medicinal Products for Human Use (CHMP)",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Philadelphy, Daniela",
+      "affiliation": "Committee for Medicinal Products for Human Use (CHMP)",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Mueller-Berghaus, Jan",
+      "affiliation": "Committee for Medicinal Products for Human Use (CHMP)",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Mol, Peter",
+  "venue": "European Medicines Agency",
+  "published": "2025-07",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": "© European Medicines Agency, 2025. Reproduction is authorised provided the source is acknowledged.",
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "redistribute",
+    "evidence": "Reproduction is authorised provided the source is acknowledged."
+  },
+  "tags": [
+    "review",
+    "trial",
+    "amyloid",
+    "immunotherapy",
+    "donanemab",
+    "regulatory-epar",
+    "alzheimers-disease"
+  ],
+  "themes": [
+    "Amyloid-targeting therapies",
+    "Early symptomatic Alzheimer's disease",
+    "Amyloid-related imaging abnormalities (ARIA)",
+    "APOE4 carrier status risk factors",
+    "Risk minimization measures",
+    "Regulatory benefit-risk assessment"
+  ],
+  "one_line": "Following an initial rejection, the EMA's CHMP recommended approval of donanemab for early Alzheimer's disease, restricted to APOE-ε4 heterozygotes and non-carriers to mitigate severe ARIA risks.",
+  "summary": "This document is the European Medicines Agency (EMA) CHMP Assessment Report detailing the regulatory evaluation of Kisunla (donanemab) for early symptomatic Alzheimer's disease. Donanemab is a monoclonal antibody that targets insoluble N3pG amyloid-beta plaques to facilitate their microglial-mediated clearance. Initially, the CHMP adopted a negative opinion due to the drug's modest clinical efficacy and significant safety concerns, particularly amyloid-related imaging abnormalities (ARIA) and intracerebral hemorrhages. Upon re-examination, the applicant proposed restricting the indication to APOE-ε4 heterozygotes and non-carriers, excluding homozygotes who face the highest risk of severe and fatal ARIA. With the implementation of strict risk minimization measures—including mandatory APOE4 testing, frequent MRI monitoring, absolute contraindications for patients with prior hemorrhages or on anticoagulants, and a controlled access program—the CHMP concluded that the revised benefit-risk profile was positive and recommended granting marketing authorization.",
+  "key_claims": [
+    {
+      "claim": "Donanemab reduces brain amyloid plaque load and slows clinical decline in early symptomatic Alzheimer's disease.",
+      "evidence": "In the AACI-PC study, donanemab showed a 2.65-point LS mean change difference in iADRS (19.6% slowing) and a -0.69 difference in CDR-SB (28.5% slowing) vs placebo in the APOE4 non-carrier/heterozygote population at 76 weeks.",
+      "strength": "moderate",
+      "location": "Section 6.2 Favourable effects / Table 67"
+    },
+    {
+      "claim": "Donanemab carries a substantial risk of amyloid-related imaging abnormalities (ARIA) and macro-hemorrhages, which can be fatal.",
+      "evidence": "In the restricted population, ARIA-E occurred in 15.7% of treated patients, ARIA-H in 18.8%, and symptomatic ARIA in 4.3%, with 7 treatment-related deaths reported across the clinical program.",
+      "strength": "strong",
+      "location": "Section 6.4 Unfavourable effects / Table 67"
+    },
+    {
+      "claim": "Restricting treatment to APOE-ε4 heterozygotes and non-carriers significantly improves the drug's safety profile.",
+      "evidence": "ARIA-E incidence was approximately halved in the restricted population (20.6%) compared to APOE4 homozygotes (41.3%), and severe radiographic ARIA was reduced.",
+      "strength": "moderate",
+      "location": "Section 6.4 Unfavourable effects"
+    },
+    {
+      "claim": "A modified dose titration regimen further minimizes the risk of ARIA-E.",
+      "evidence": "Study AACQ demonstrated a 28% relative risk reduction in ARIA-E (14.7% vs 20.4%) compared to standard dosing in the indicated population at week 52, while achieving comparable amyloid reduction.",
+      "strength": "moderate",
+      "location": "Section 5.2.1 / Study AACQ"
+    }
+  ],
+  "methods": {
+    "design": "Randomised, double-blind, placebo-controlled Phase 3 trial (AACI) with a long-term extension, supplemented by Phase 2 (AACG) and Phase 3b (AACQ) studies",
+    "n": 1736,
+    "population": "Adults aged 60-85 with mild cognitive impairment or mild dementia due to AD, with confirmed amyloid and tau pathology",
+    "duration": "76-week double-blind period, with up to 18 months of treatment and a long-term extension",
+    "registration": "2020-000077-25"
+  },
+  "funding_and_conflicts": "Eli Lilly Nederland B.V. (Applicant). CHMP member conflicts are not stated in the report.",
+  "limitations": [
+    "Missing data handling and imputation methods (e.g., J2R vs CIR) strongly influenced the magnitude of efficacy effect sizes.",
+    "Long-term efficacy and disease progression after treatment cessation at 18 months remain uncertain and rely heavily on extrapolation models.",
+    "Absolute effect sizes on continuous clinical scales (iADRS, CDR-SB) were small, raising questions about clinical relevance for individual patients.",
+    "Potential for functional unblinding due to intensive MRI monitoring for ARIA events and symptomatic adverse reactions.",
+    "Long-term consequences of ARIA and accelerated whole brain volume loss associated with treatment are not fully characterized."
+  ],
+  "red_flags": [
+    "Primary endpoint was changed from CDR-SB to the unvalidated iADRS scale, and sample size was increased, while the pivotal Phase 3 study was already ongoing.",
+    "High dropout rate in the donanemab arm (29.3%) compared to placebo (20.1%), largely driven by ARIA adverse events.",
+    "Efficacy in patients with high tau load was negligible, yet the final approved indication does not exclude this subgroup.",
+    "Use of an 'enhanced titration' regimen as a post-hoc risk minimization measure was based on 52-week data from a separate study without corresponding 76-week efficacy data."
+  ],
+  "parse_quality": {
+    "score": 9,
+    "issues": [
+      "Minor formatting artifacts in large tables",
+      "Occasional run-on words in table headers",
+      "Some multi-page tables are split, slightly disrupting reading flow"
+    ]
+  },
+  "search_verification": [
+    "Did not perform external web search as the document is an internal EMA regulatory assessment report (EPAR) which do not receive standard DOIs or PubMed indexing."
+  ]
+}

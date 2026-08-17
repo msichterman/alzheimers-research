@@ -1,0 +1,146 @@
+{
+  "fact_check": [
+    {
+      "fact": "iADRS score declined by 22.3% and CDR-SB by 29% in the overall population",
+      "status": "verified",
+      "note": "Checked against Section 4 of the FDA DRM review, which confirms these statistically significant reductions at 76 weeks."
+    },
+    {
+      "fact": "N=2802 trial participants",
+      "status": "corrected",
+      "note": "The pivotal Study AACI randomized 1,727 patients. The 2,802 figure represents the expanded all-donanemab safety pool used for long-term safety evaluation."
+    },
+    {
+      "fact": "ARIA occurred in 36% of donanemab patients vs. 14% on placebo",
+      "status": "verified",
+      "note": "Confirmed in Section 5.2.1 for the placebo-controlled period of Study AACI."
+    },
+    {
+      "fact": "5 fatal cases related to ARIA were identified",
+      "status": "verified",
+      "note": "Confirmed in Section 5.2.1, which attributes these deaths to ARIA-E, ARIA-H, and complications involving intracerebral hemorrhage."
+    }
+  ],
+  "research_page": {
+    "slug": "fda-risk-review-donanemab-kisunla",
+    "title": "FDA Risk Assessment and Risk Mitigation Review: Donanemab (Kisunla)",
+    "description": "An FDA safety review concluded that donanemab does not require a REMS program, relying instead on boxed warnings and post-market pharmacovigilance to manage ARIA risks.",
+    "tags": [
+      "fda-review",
+      "donanemab",
+      "amyloid",
+      "immunotherapy",
+      "ARIA"
+    ],
+    "source_line_md": "**Source**: [Center for Drug Evaluation and Research, 2024](https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/761248Orig1s000ltr.pdf) — FDA BLA 761248.",
+    "authors_line_md": "Darling CC, Sheppard JE, LaCivita CL — FDA Division of Risk Management",
+    "takeaway_md": "The FDA determined that donanemab (Kisunla) effectively slows clinical decline in early Alzheimer's disease but carries a significant risk of Amyloid Related Imaging Abnormalities (ARIA) and intracerebral hemorrhage. Because prescribers are likely familiar with ARIA protocols from prior anti-amyloid therapies, a formal Risk Evaluation and Mitigation Strategy (REMS) is unnecessary. Risks will be managed via a boxed warning, medication guides, and enhanced pharmacovigilance.",
+    "key_findings_md": [
+      "Donanemab slowed clinical decline at 76 weeks in the overall population, reducing iADRS decline by 22.3% and CDR-SB decline by 29% (Section 4).",
+      "ARIA (-E or -H) occurred in 36% of donanemab patients compared to 14% on placebo in the pivotal Phase 3 trial (Section 5.2.1).",
+      "Severe radiographic ARIA-H occurred in 22% of ApoE ε4 homozygotes treated with donanemab, compared to 8% of heterozygotes and 4% of noncarriers (Section 5.2.1).",
+      "Five fatal cases related to ARIA were identified in the safety pool, including instances complicated by intracerebral hemorrhage and concurrent thrombolytic (tPA) use (Section 5.2.1)."
+    ],
+    "methods_md": "FDA regulatory risk assessment evaluating the 1,727-participant, 76-week placebo-controlled TRAILBLAZER-ALZ 2 Phase 3 trial alongside an expanded safety pool of 2,802 patients with early symptomatic Alzheimer's disease.",
+    "trial_evidence_md": "Donanemab's efficacy and safety were primarily established in the Phase 3 [TRAILBLAZER-ALZ 2](/trials/trailblazer-alz-2), supported by the Phase 2 [TRAILBLAZER-ALZ](/trials/trailblazer-alz-1). The FDA review pooled safety data across the donanemab program, including [TRAILBLAZER-ALZ 4](/trials/trailblazer-alz-4), evaluating ARIA risks that ultimately shaped the drug's 2024 approval.",
+    "sentiment_md": "Public perception of donanemab is bifurcated. Patient and caregiver communities express cautious hope for slowing cognitive decline, tempered by significant anxiety over ARIA risks and frustration with Medicare Advantage access hurdles. Concurrently, specialists debate long-term clinical utility and optimal titration protocols to mitigate bleeding events.",
+    "caveats_md": [
+      "The clinical safety population consisted of relatively healthy patients with mild Alzheimer's disease, potentially underestimating ARIA and hemorrhage risks in older populations or those with advanced comorbidities.",
+      "ApoE ε4 testing is highly recommended to inform ARIA risk before initiating treatment, but an FDA-authorized diagnostic test for ApoE ε4 alleles was not available at the time of the review."
+    ],
+    "relates_to_md": [
+      "[Donanemab approval](/timeline) — The FDA review directly informed Kisunla's July 2024 approval.",
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Contributes to the safety and efficacy profile of the broader anti-amyloid monoclonal antibody class.",
+      "[ARIA-Aducanumab](/research/papers/aria-aducanumab-emerge-engage) — The FDA's decision to forego a REMS relies on prescriber familiarity with ARIA management established by prior anti-amyloid approvals."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "trailblazer-alz-2",
+      "title": "TRAILBLAZER-ALZ 2 (Study AACI)",
+      "description": "Phase 3 pivotal trial evaluating donanemab in early symptomatic Alzheimer's disease.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "donanemab",
+        "phase-3"
+      ],
+      "registry_md": "[NCT04437511](https://clinicaltrials.gov/study/NCT04437511)",
+      "drug": "Donanemab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "population": "Early symptomatic Alzheimer's disease with amyloid and tau pathology",
+      "primary_endpoint": "Change from baseline on the iADRS at 76 weeks",
+      "started": "2020-06",
+      "readout": "2023-04",
+      "why_md": "This pivotal trial was designed to confirm the efficacy and safety of donanemab in slowing clinical decline. It served as the primary basis for the drug's 2024 FDA approval.",
+      "status_log_md": [
+        "**2020-06-01** — Trial begins enrollment.",
+        "**2023-04-01** — Trial completed.",
+        "**2023-08-08** — Pivotal results published in JAMA."
+      ],
+      "results_md": "Donanemab significantly slowed clinical decline at 76 weeks, demonstrating a 22.3% reduction in decline on the iADRS and a 29% reduction on the CDR-SB compared to placebo. ARIA (-E or -H) occurred in 36% of treated patients."
+    },
+    {
+      "slug": "trailblazer-alz-1",
+      "title": "TRAILBLAZER-ALZ (Study AACG)",
+      "description": "Phase 2 proof-of-concept trial evaluating donanemab in early symptomatic Alzheimer's disease.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "donanemab",
+        "phase-2"
+      ],
+      "registry_md": "[NCT03367403](https://clinicaltrials.gov/study/NCT03367403)",
+      "drug": "Donanemab (anti-amyloid monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Eli Lilly and Company",
+      "population": "Early symptomatic Alzheimer's disease",
+      "primary_endpoint": "Change from baseline in the iADRS score at 76 weeks",
+      "started": "2017-12",
+      "readout": "2020-12",
+      "why_md": "Established early proof-of-concept for donanemab, showing significant amyloid plaque clearance and a slowing of cognitive decline that warranted progression to Phase 3.",
+      "status_log_md": [
+        "**2017-12-01** — Trial begins enrollment.",
+        "**2020-12-01** — Trial completed.",
+        "**2021-05-06** — Results published in NEJM."
+      ],
+      "results_md": "Donanemab resulted in a significantly better composite score for cognition and the ability to perform activities of daily living than placebo at 76 weeks."
+    },
+    {
+      "slug": "trailblazer-alz-4",
+      "title": "TRAILBLAZER-ALZ 4",
+      "description": "Phase 3 head-to-head trial comparing amyloid clearance between donanemab and aducanumab.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "donanemab",
+        "aducanumab",
+        "phase-3"
+      ],
+      "registry_md": "[NCT05108922](https://clinicaltrials.gov/study/NCT05108922)",
+      "drug": "Donanemab vs. Aducanumab",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "population": "Early symptomatic Alzheimer's disease",
+      "primary_endpoint": "Percentage of participants reaching complete amyloid plaque clearance on PET scan",
+      "started": "2021-11",
+      "readout": "2022-09",
+      "why_md": "Designed to directly compare the plaque-clearing efficacy of donanemab against aducanumab, the first approved drug in the anti-amyloid class.",
+      "status_log_md": [
+        "**2021-11-01** — Trial begins enrollment.",
+        "**2022-09-01** — Trial completed."
+      ],
+      "results_md": "Demonstrated superior amyloid plaque clearance for donanemab compared to aducanumab in patients with early symptomatic Alzheimer's disease."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2023-01",
+      "title": "2023-01 — FDA issues Complete Response Letter for donanemab",
+      "body_md": "The FDA initially declined accelerated approval for donanemab due to an insufficient safety database, requesting more data to characterize long-term risks before its eventual 2024 approval. ([FDA Risk Review](/research/papers/fda-risk-review-donanemab-kisunla))"
+    }
+  ],
+  "notes_for_editor": []
+}

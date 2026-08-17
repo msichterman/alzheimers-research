@@ -1,0 +1,173 @@
+{
+  "kind": "research-paper",
+  "title": "Longitudinal plasma p-tau217 is increased in early stages of Alzheimer’s disease",
+  "authors": [
+    {
+      "name": "Mattsson-Carlgren, Niklas",
+      "affiliation": "Clinical Memory Research Unit, Faculty of Medicine, Lund University, Lund, Sweden; Department of Neurology, Skåne University Hospital, Lund University, Lund, Sweden; Wallenberg Center for Molecular Medicine, Lund University, Lund, Sweden",
+      "orcid": "https://orcid.org/0000-0002-8885-7724",
+      "email": null,
+      "corresponding": null,
+      "conflicts": "reports no competing interests"
+    },
+    {
+      "name": "Janelidze, Shorena",
+      "affiliation": "Clinical Memory Research Unit, Faculty of Medicine, Lund University, Lund, Sweden",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "reports no competing interests"
+    },
+    {
+      "name": "Palmqvist, Sebastian",
+      "affiliation": "Clinical Memory Research Unit, Faculty of Medicine, Lund University, Lund, Sweden; Memory Clinic, Skåne University Hospital, Malmö, Sweden",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "reports no competing interests"
+    },
+    {
+      "name": "Cullen, Nicholas",
+      "affiliation": "Clinical Memory Research Unit, Faculty of Medicine, Lund University, Lund, Sweden; Wallenberg Center for Molecular Medicine, Lund University, Lund, Sweden",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "reports no competing interests"
+    },
+    {
+      "name": "Svenningsson, Anna L",
+      "affiliation": "Clinical Memory Research Unit, Faculty of Medicine, Lund University, Lund, Sweden; Memory Clinic, Skåne University Hospital, Malmö, Sweden",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "reports no competing interests"
+    },
+    {
+      "name": "Strandberg, Olof",
+      "affiliation": "Clinical Memory Research Unit, Faculty of Medicine, Lund University, Lund, Sweden",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "reports no competing interests"
+    },
+    {
+      "name": "Mengel, David",
+      "affiliation": "Laboratory for Neurodegenerative Research, Ann Romney Center for Neurologic Diseases, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA, USA",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "reports no competing interests"
+    },
+    {
+      "name": "Walsh, Dominic M",
+      "affiliation": "Laboratory for Neurodegenerative Research, Ann Romney Center for Neurologic Diseases, Brigham and Women’s Hospital and Harvard Medical School, Boston, MA, USA",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "is an employee of Biogen"
+    },
+    {
+      "name": "Stomrud, Erik",
+      "affiliation": "Clinical Memory Research Unit, Faculty of Medicine, Lund University, Lund, Sweden; Memory Clinic, Skåne University Hospital, Malmö, Sweden",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "reports no competing interests"
+    },
+    {
+      "name": "Dage, Jeffrey L",
+      "affiliation": "Eli Lilly and Company, Indianapolis, IN, USA",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "is an employee of Eli Lilly and Company"
+    },
+    {
+      "name": "Hansson, Oskar",
+      "affiliation": "Clinical Memory Research Unit, Faculty of Medicine, Lund University, Lund, Sweden; Memory Clinic, Skåne University Hospital, Malmö, Sweden",
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "acquired research support (for the institution) from Roche, Pfizer, GE Healthcare, Biogen, Eli Lilly and AVID Radiopharmaceuticals. In the past 2 years, he has received consultancy/speaker fees (paid to the institution) from Biogen and Roche"
+    }
+  ],
+  "first_author": "Mattsson-Carlgren, Niklas",
+  "venue": "Brain",
+  "published": "2020-11",
+  "doi": "10.1093/brain/awaa286",
+  "doi_url": "https://doi.org/10.1093/brain/awaa286",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/33068398/",
+  "copyright": null,
+  "license": {
+    "name": "CC BY-NC 4.0",
+    "url": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "reuse": "redistribute",
+    "evidence": "This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License ( http://creativecommons.org/licenses/by-nc/4.0/ ), which permits non-commercial re-use, distribution, and reproduction in any medium, provided the original work is properly cited."
+  },
+  "tags": [
+    "paper",
+    "biomarkers",
+    "tau",
+    "amyloid",
+    "p-tau217",
+    "plasma-biomarkers",
+    "longitudinal-study"
+  ],
+  "themes": [
+    "Longitudinal trajectory of plasma p-tau217 in early Alzheimer's disease",
+    "Comparison of p-tau217 and NfL for tracking disease progression",
+    "Association of plasma p-tau217 with cognitive decline and brain atrophy"
+  ],
+  "one_line": "Plasma p-tau217 levels increase longitudinally in preclinical and prodromal Alzheimer's disease and correlate with cognitive decline and brain atrophy, suggesting utility as a minimally invasive biomarker for monitoring disease progression.",
+  "summary": "This study investigated the longitudinal changes of plasma p-tau217 in 150 cognitively unimpaired individuals and 100 patients with mild cognitive impairment from the Swedish BioFINDER cohort. Over a median follow-up of 4.3 years, plasma p-tau217 levels increased significantly in participants with preclinical (amyloid-β positive, cognitively unimpaired) and prodromal (amyloid-β positive, mild cognitive impairment) Alzheimer's disease. In contrast, p-tau217 remained stable in amyloid-β negative individuals and those who did not progress to Alzheimer's disease dementia. The longitudinal increases in p-tau217 were significantly correlated with worsening cognitive scores (MMSE and mPACC) and accelerated brain atrophy in the temporal cortex and hippocampus. Plasma neurofilament light (NfL), a general marker of neurodegeneration, did not show an Alzheimer's disease-specific increase over time. The findings indicate that plasma p-tau217 is a dynamic biomarker during early Alzheimer's disease and could be valuable for monitoring disease progression and evaluating therapies in clinical trials.",
+  "key_claims": [
+    {
+      "claim": "Plasma p-tau217 increases over time in preclinical and prodromal Alzheimer’s disease.",
+      "evidence": "Preclinical (Aβ+ CU) and prodromal (Aβ+ MCI) AD had accelerated p-tau217 compared to Aβ- CU (β = 0.56, P < 0.001) and Aβ- MCI (β = 0.67, P < 0.001).",
+      "strength": "strong",
+      "location": "Abstract / Results"
+    },
+    {
+      "claim": "Plasma p-tau217 does not change in Aβ- participants or MCI patients who do not convert to AD dementia.",
+      "evidence": "P-tau217 remained stable over time in the Aβ− MCI group (β = 0.12, P = 0.39) and in MCI patients who did not develop AD dementia (β = 0.053, P = 0.68).",
+      "strength": "strong",
+      "location": "Results"
+    },
+    {
+      "claim": "Longitudinal increases in p-tau217 correlate with worsening of cognition.",
+      "evidence": "For each standard deviation higher slope of p-tau217, the decline in MMSE accelerated by β = −0.15 points (P < 0.001) in the overall CU group, and β = −0.35 points (P < 0.001) in overall MCI.",
+      "strength": "strong",
+      "location": "Results (Longitudinal plasma p-tau217 and longitudinal cognition)"
+    },
+    {
+      "claim": "Longitudinally increased p-tau217 correlated with accelerated atrophy of temporal cortex and hippocampus.",
+      "evidence": "For each SD higher slope of p-tau217 the thinning of temporal cortex accelerated by β = −0.0057 mm (P < 0.001) per year in the overall CU group. Hippocampal volume atrophy accelerated by β = −7.56 mm3 (P < 0.001).",
+      "strength": "moderate",
+      "location": "Results (Longitudinal plasma p-tau217 and longitudinal atrophy)"
+    }
+  ],
+  "methods": {
+    "design": "prospective cohort study (Swedish BioFINDER)",
+    "n": 250,
+    "population": "150 cognitively unimpaired participants and 100 patients with mild cognitive impairment",
+    "duration": "repeatedly for up to 6 years (median time from first to last sample, 4.3 years)",
+    "registration": null
+  },
+  "funding_and_conflicts": "Funded by Swedish Research Council, Wallenberg foundations, Lund University, and others. D.M. received a Research Fellowship from German Research Foundation. O.H. received support/fees from Roche, Pfizer, GE Healthcare, Biogen, Eli Lilly, AVID. J.L.D. is an employee of Eli Lilly. D.M.W. is an employee of Biogen. Other authors report no competing interests.",
+  "limitations": [
+    "Subgroups were relatively small (e.g. n=49 Aβ+ MCI), lowering power to detect some structural correlations.",
+    "Study cohort restricted to Swedish BioFINDER, limiting geographical and ethnic diversity."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 7,
+    "issues": [
+      "Author byline and affiliations completely omitted from text",
+      "No explicit publisher copyright statement retained",
+      "Markdown otherwise cleanly preserves special characters, statistics, and tables"
+    ]
+  },
+  "search_verification": [
+    "Used Crossref API (via bash/curl) for DOI 10.1093/brain/awaa286 to recover missing author byline, affiliations, ORCIDs, and publication date."
+  ]
+}

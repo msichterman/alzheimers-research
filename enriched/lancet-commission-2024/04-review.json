@@ -1,0 +1,147 @@
+{
+  "fact_check": [
+    {
+      "fact": "Fourteen modifiable risk factors account for 45% of worldwide dementia cases",
+      "status": "verified",
+      "note": "Table 1 calculates a weighted Population Attributable Fraction (PAF) of 45.3% across 14 factors, rounded to 45%."
+    },
+    {
+      "fact": "Hearing loss and high LDL cholesterol are the highest midlife contributors to dementia risk",
+      "status": "verified",
+      "note": "Table 1 shows both factors have a weighted Population Attributable Fraction (PAF) of 7%."
+    },
+    {
+      "fact": "Prevalence of high LDL cholesterol is 76.5% globally",
+      "status": "corrected",
+      "note": "Table 1 footnote specifies this prevalence figure was extrapolated from a single regional cohort (the Norwegian HUNT study, n=37,000), not a global sample."
+    },
+    {
+      "fact": "Physical exercise alone improves cognition in patients who already have dementia",
+      "status": "disputed",
+      "note": "Table 2 (DAPA, Sanders, Harwood) demonstrates that purely physical interventions had no significant effect on cognition, activities of daily living, or quality of life in existing dementia patients."
+    }
+  ],
+  "research_page": {
+    "slug": "lancet-commission-2024-dementia-prevention",
+    "title": "2024 Lancet Commission report on dementia prevention",
+    "description": "The 2024 Lancet Commission report identifies 14 modifiable risk factors accounting for 45% of global dementia cases and reviews non-pharmacological interventions.",
+    "tags": [
+      "paper",
+      "review",
+      "epidemiology",
+      "prevention",
+      "modifiable-risk-factors",
+      "non-pharmacological"
+    ],
+    "source_line_md": "**Source**: [The Lancet, 2024](https://doi.org/10.1016/s0140-6736(24)01296-0) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/39096926/)",
+    "authors_line_md": "Livingston et al. — The Lancet standing Commission",
+    "takeaway_md": "Fourteen modifiable risk factors—including high LDL cholesterol and vision loss, newly added in 2024—account for an estimated 45% of worldwide dementia cases. Additionally, non-pharmacological interventions that are tailored and psychosocial (like TAP and WHELD) improve quality of life and reduce behavioral symptoms, whereas purely physical exercise programs generally do not benefit cognition in patients who already have dementia.",
+    "key_findings_md": [
+      "14 modifiable risk factors account for a weighted Population Attributable Fraction (PAF) of 45.3% of global dementia cases (Table 1).",
+      "Hearing loss (7.0%) and high LDL cholesterol (6.9%) are the highest midlife contributors to dementia risk (Table 1).",
+      "Tailored activity and well-being programs (WHELD, TAP) successfully improve quality of life and reduce neuropsychiatric symptoms like agitation (Table 2).",
+      "Purely physical exercise interventions (DAPA, Harwood, Sanders) do not improve cognition, mobility, or activities of daily living in people who already have dementia (Table 2)."
+    ],
+    "methods_md": "Systematic review and epidemiological modeling. Prevalence data for the PAF model was derived from global populations, though high LDL cholesterol prevalence (76.5%) was extrapolated entirely from 37,000 participants in the Norwegian HUNT study. The report also reviewed randomized controlled trials (RCTs) of non-pharmacological activity programs for people with dementia and their carers.",
+    "trial_evidence_md": "The Lancet report aligns directly with published trial data for non-pharmacological interventions. RCTs of personalized, multidomain psychosocial programs ([WHELD](/trials/wheld-nct01855152), [TAP](/trials/tap-nct00259467)) demonstrated significant reductions in behavioral symptoms and improved quality of life. In contrast, rigorous RCTs focused exclusively on aerobic or strength training ([DAPA](/trials/dapa-isrctn10416500), PrAISED, Sanders) consistently failed to show cognitive or functional benefits for patients who already have dementia.",
+    "sentiment_md": "Public and media sentiment is overwhelmingly hopeful, focusing heavily on the empowering message that nearly half of dementia cases are linked to actionable lifestyle choices. However, popular coverage frequently misinterprets the 45% Population Attributable Fraction (a theoretical societal metric) as an individual guarantee of prevention. Furthermore, wellness communities often mistakenly promote standalone physical exercise as a proven cognitive treatment for existing dementia patients, contrary to the report's actual findings.",
+    "caveats_md": [
+      "The 45% figure is a Population Attributable Fraction (PAF), meaning it assumes the complete, theoretical elimination of these risks across the entire population, not a 45% reduced risk for an individual.",
+      "Prevalence data for high LDL cholesterol is extrapolated from a specific regional cohort (the Norwegian HUNT study) rather than a globally representative sample.",
+      "While physical inactivity is a risk factor for *developing* dementia (2% PAF), the evidence explicitly does not support exercise alone as an effective intervention for improving cognition once dementia has begun."
+    ],
+    "relates_to_md": [
+      "[WHELD](/trials/wheld-nct01855152) — Evaluated person-centered care and activities in nursing homes",
+      "[Project TAP](/trials/tap-nct00259467) — Evaluated tailored psychosocial activities at home",
+      "[DAPA](/trials/dapa-isrctn10416500) — Evaluated aerobic and strength exercise in dementia patients"
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "wheld-nct01855152",
+      "title": "WHELD",
+      "description": "Person-centred care and activities for people with dementia living in nursing homes.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "non-pharmacological",
+        "nursing-home"
+      ],
+      "registry_md": "[NCT01855152](https://clinicaltrials.gov/study/NCT01855152)",
+      "drug": "Person-centred care and activities",
+      "phase": "n/a",
+      "sponsor": "King's College London",
+      "population": "People with dementia living in nursing homes (n=1000)",
+      "primary_endpoint": "Quality of Life (DEMQOL-proxy)",
+      "started": "2013-08",
+      "readout": "2015-03",
+      "why_md": "Evaluates whether training care staff to promote tailored person-centered activities and social interactions improves quality of life and reduces agitation in nursing home residents with dementia.",
+      "status_log_md": [
+        "**2013-08** — Trial started",
+        "**2015-03** — Trial completed"
+      ],
+      "results_md": "The WHELD intervention significantly improved quality of life and reduced agitation and neuropsychiatric symptoms compared to usual care. It also reduced the use of antipsychotic medications in nursing home residents."
+    },
+    {
+      "slug": "tap-nct00259467",
+      "title": "Project TAP (Tailored Activity Program)",
+      "description": "Tailored psychosocial activities for older adults with dementia and their family caregivers.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "non-pharmacological",
+        "caregiver"
+      ],
+      "registry_md": "[NCT00259467](https://clinicaltrials.gov/study/NCT00259467)",
+      "drug": "Tailored Activity Program (TAP)",
+      "phase": "1",
+      "sponsor": "Thomas Jefferson University",
+      "population": "Older adults with dementia and their family caregivers (n=60)",
+      "primary_endpoint": "Behavioral occurrence",
+      "started": "2004-02",
+      "readout": "2007-01",
+      "why_md": "Evaluates whether personalized psychosocial activities based on a patient's preserved capabilities can reduce dementia-related behaviors and improve caregiver well-being.",
+      "status_log_md": [
+        "**2004-02** — Trial started",
+        "**2007-01** — Trial completed"
+      ],
+      "results_md": "TAP reduced the frequency and severity of dementia-related behaviors and improved caregiver well-being. Caregivers reported the intervention made life easier and improved their ability to provide home care."
+    },
+    {
+      "slug": "dapa-isrctn10416500",
+      "title": "DAPA (Dementia And Physical Activity)",
+      "description": "Moderate to high intensity aerobic and strength exercise in mild to moderate dementia.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "non-pharmacological",
+        "exercise"
+      ],
+      "registry_md": "[ISRCTN10416500](https://www.isrctn.com/ISRCTN10416500)",
+      "drug": "Moderate to high intensity aerobic and strength exercise",
+      "phase": "n/a",
+      "sponsor": "University of Warwick",
+      "population": "People with mild to moderate dementia living in the community (n=494)",
+      "primary_endpoint": "ADAS-cog at 12 months",
+      "started": null,
+      "readout": "2018-05",
+      "why_md": "Evaluates whether aerobic and strength exercise can slow cognitive impairment or improve activities of daily living in patients who already have dementia.",
+      "status_log_md": [
+        "**2018-05** — Trial completed/read out with results [published in the BMJ](https://doi.org/10.1136/bmj.k1675)"
+      ],
+      "results_md": "The exercise training program improved physical fitness but did not slow cognitive impairment. Cognitive scores were slightly worse in the exercise group, and there were no meaningful improvements in secondary clinical outcomes or activities of daily living."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Prevention & Epidemiology",
+      "date": "2024-08",
+      "title": "2024-08 — Lancet Commission updates modifiable risk factors to 14",
+      "body_md": "The [2024 Lancet Commission report](/research/papers/lancet-commission-2024-dementia-prevention) added high LDL cholesterol and vision loss to its epidemiological model, estimating that 14 modifiable risk factors now account for 45% of global dementia cases."
+    }
+  ],
+  "notes_for_editor": [
+    "Table 1 formatting errors in the source document merged citations with data values (e.g., '71 59.0'). We decoupled these based on context (prevalence = 59.0%, PAF = 7%).",
+    "Included trial pages for WHELD, TAP, and DAPA as they represent the core dichotomy (tailored psychosocial activities work vs. purely physical exercise fails) highlighted in the Commission report. Omitted PrAISED and Sanders trial pages to minimize clutter, as they largely duplicate DAPA's findings."
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT04592874",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04592874",
+      "name": "INVOKE-2",
+      "drug": "AL002 (TREM2 agonizing antibody)",
+      "phase": "2",
+      "sponsor": "Alector Inc.",
+      "status": "Completed",
+      "enrollment": 356,
+      "population": "Participants with early Alzheimer's disease",
+      "primary_endpoint": "Disease Progression as Measured by the Clinical Dementia Rating - Sum of Boxes (CDR-SB) Score",
+      "started": "2021-01",
+      "completed_or_readout": "2024-08",
+      "results_summary": "Failed to meet the primary endpoint on CDR-SB and showed no treatment effects favoring AL002 on secondary clinical and functional endpoints.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05744401",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05744401",
+      "name": "INVOKE-2 OLE",
+      "drug": "AL002 (TREM2 agonizing antibody)",
+      "phase": "2",
+      "sponsor": "Alector Inc.",
+      "status": "Terminated",
+      "enrollment": 197,
+      "population": "Participants who completed the INVOKE-2 trial",
+      "primary_endpoint": "Number of participants with adverse events",
+      "started": "2023-01",
+      "completed_or_readout": "2025-01",
+      "results_summary": "Study was terminated early because the parent trial (INVOKE-2) failed to meet primary and secondary efficacy endpoints.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03943264",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03943264",
+      "name": "XPRO1595-AD",
+      "drug": "XPro1595 / Pegipanermin (soluble TNF inhibitor)",
+      "phase": "1",
+      "sponsor": "Inmune Bio, Inc.",
+      "status": "Completed",
+      "enrollment": 20,
+      "population": "Patients with Alzheimer's disease and biomarkers of inflammation",
+      "primary_endpoint": "Number of patients with a treatment-emergent adverse event",
+      "started": "2019-11",
+      "completed_or_readout": "2021-09",
+      "results_summary": "Initial Phase 1b trial to determine safety and ability to reduce neuroinflammation biomarkers. Results were submitted to the registry but remain unposted.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05318976",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05318976",
+      "name": "XPro1595-AD-02",
+      "drug": "XPro1595 / Pegipanermin (soluble TNF inhibitor)",
+      "phase": "2",
+      "sponsor": "Inmune Bio, Inc.",
+      "status": "Completed",
+      "enrollment": 207,
+      "population": "Patients with early Alzheimer's disease and biomarkers of inflammation",
+      "primary_endpoint": "Change in Early and Mild Alzheimer's Cognitive Composite (EMACC)",
+      "started": "2022-02",
+      "completed_or_readout": "2025-05",
+      "results_summary": "Large Phase 2 trial. The trial completed, but the lack of positive data combined with the termination of its extension study leaves its clinical efficacy highly uncertain.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05522387",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05522387",
+      "name": "XPro1595-AD-OLE",
+      "drug": "XPro1595 / Pegipanermin (soluble TNF inhibitor)",
+      "phase": "2",
+      "sponsor": "Inmune Bio, Inc.",
+      "status": "Terminated",
+      "enrollment": 11,
+      "population": "Patients completing previous XPro1595 studies",
+      "primary_endpoint": "Number of participants who experience adverse events",
+      "started": "2023-02",
+      "completed_or_readout": "2024-07",
+      "results_summary": "Terminated early due to 'Sponsor resource allocation', stopping long-term evaluation.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01068353",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01068353",
+      "name": "STEADI-09",
+      "drug": "Etanercept (TNF-alpha inhibitor)",
+      "phase": "2",
+      "sponsor": "University of Southampton",
+      "status": "Completed",
+      "enrollment": 41,
+      "population": "Patients with probable Alzheimer's disease",
+      "primary_endpoint": "Frequency of adverse events and serious adverse events",
+      "started": "2011-01",
+      "completed_or_readout": "2013-12",
+      "results_summary": "Well-tolerated but did not show significant differences from placebo in cognitive outcomes (ADAS-cog or MMSE).",
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2015-05-01",
+      "kind": "paper",
+      "description": "Etanercept in Alzheimer disease: A randomized, placebo-controlled, double-blind, phase 2 trial (STEADI-09 results).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25934853/"
+    },
+    {
+      "date": "2025-01-31",
+      "kind": "registry-results",
+      "description": "AL002 INVOKE-2 OLE terminated due to failure of parent trial to meet primary and secondary endpoints.",
+      "url": "https://clinicaltrials.gov/study/NCT05744401"
+    }
+  ],
+  "evidence_assessment": "The genetic and single-cell enrichment evidence robustly implicates microglia and the TNF-alpha pathway in Alzheimer's disease pathogenesis, as described in the document. However, the clinical evidence for therapeutic translation of these specific targets is currently weak or negative. The most prominent microglial target, TREM2, was tested via the agonizing antibody AL002 (INVOKE-2 trial), which definitively failed to show clinical or functional benefit, leading to the termination of its extension study. Similarly, direct inhibition of the TNF-alpha pathway using etanercept showed no cognitive benefit in early Phase 2 trials, and the clinical development of the soluble TNF-alpha inhibitor pegipanermin (XPro1595) has seen curtailed programs (such as its terminated open-label extension). This suggests that while these pathways are genetically linked to disease risk, modulating them later in the disease process has not yet proven clinically viable.",
+  "discrepancies": [
+    "The document strongly implies that modulating microglia and the TNF-alpha/LUBAC pathways could be therapeutically relevant based on genetic etiology, but the clinical record shows that therapies directly targeting these pathways (e.g., TREM2 agonist AL002, TNF inhibitors like etanercept) have failed to demonstrate clinical efficacy or have halted their development programs."
+  ]
+}

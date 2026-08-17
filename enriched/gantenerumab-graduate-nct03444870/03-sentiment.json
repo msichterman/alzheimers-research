@@ -1,0 +1,74 @@
+{
+  "overall": "negative",
+  "summary": "Public sentiment regarding gantenerumab is primarily negative and disappointed following the termination of the Phase 3 GRADUATE trials. Despite successfully reducing brain amyloid, the drug's failure to significantly slow cognitive decline has fueled skepticism around the amyloid hypothesis in scientific communities. Patient and caregiver communities express frustration over another dashed hope, while investors view the clinical failure as a major setback for Roche and a win for its competitors.",
+  "communities": [
+    {
+      "community": "Scientists and Researchers (r/longevity, Alzforum)",
+      "sentiment": "skeptical",
+      "themes": [
+        "Questioning the amyloid cascade hypothesis",
+        "Disconnection between biomarker success and clinical efficacy",
+        "Debate over subcutaneous versus intravenous dosing efficacy"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/longevity/comments/yz8v5r/antiamyloid_drug_gantenerumab_falls_short_in/",
+        "https://www.alzforum.org/therapeutics/gantenerumab"
+      ]
+    },
+    {
+      "community": "Patients and Caregivers",
+      "sentiment": "negative",
+      "themes": [
+        "Frustration with repeated clinical trial failures",
+        "Despair over lack of accessible treatments",
+        "Shifting focus to competing therapies like lecanemab"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/IndustrialPharmacy/comments/17wud3v/gantenerumab_does_not_slow_clinical_decline_in/",
+        "https://www.dementiacarecentral.com/aboutdementia/treating/gantenerumab/"
+      ]
+    },
+    {
+      "community": "Retail Investors",
+      "sentiment": "negative",
+      "themes": [
+        "Impact on Roche's stock value",
+        "Competitive advantage for Biogen and Eisai",
+        "High risk of Alzheimer's drug development"
+      ],
+      "example_urls": [
+        "https://pharmaphorum.com/news/alzheimers-treatment-hopes-take-another-dive-as-roche-drug-fails-trial",
+        "https://finance.yahoo.com/news/investors-reacting-roche-holding-swx-101639930.html"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "New England Journal of Medicine",
+      "tone": "neutral",
+      "date": "2023-11",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2304430"
+    },
+    {
+      "outlet": "Fierce Biotech",
+      "tone": "critical",
+      "date": "2023-11",
+      "url": "https://www.fiercebiotech.com/biotech/year-after-roches-alzheimers-fail-scientists-reflect-what-could-have-been"
+    },
+    {
+      "outlet": "Clinical Trials Arena",
+      "tone": "positive",
+      "date": null,
+      "url": "https://www.clinicaltrialsarena.com/news/roche-alzheimer-drug-could-prevent-onset/"
+    }
+  ],
+  "hype_vs_evidence": "Earlier hype regarding gantenerumab focused heavily on its FDA Breakthrough Therapy Designation and the convenience of its subcutaneous delivery method. However, public perception crashed when the GRADUATE I evidence showed that clearing amyloid plaques (-66.44 centiloids) did not translate into a statistically significant slowing of cognitive decline (p=0.0954 on CDR-SB). This stark divergence between surrogate biomarker success and actual clinical benefit forced a public reckoning, re-aligning expectations with the trial's negative efficacy data.",
+  "misinformation_flags": [
+    "The circulating belief that removing amyloid plaques guarantees cognitive improvement or halts Alzheimer's entirely, which is explicitly contradicted by gantenerumab's successful target engagement but lack of clinical efficacy."
+  ],
+  "searches_run": [
+    "gantenerumab roche alzheimers",
+    "site:reddit.com gantenerumab",
+    "roche gantenerumab stock investor"
+  ]
+}

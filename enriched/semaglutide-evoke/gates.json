@@ -1,0 +1,36 @@
+{
+  "id": "semaglutide-evoke",
+  "cluster": "amyloid-antibody",
+  "checked_at": "2026-08-13T17:02:32.921Z",
+  "passed": false,
+  "text_sufficiency": {
+    "level": "partial-text",
+    "chars": 17493,
+    "sections": [
+      "result",
+      "outcome"
+    ]
+  },
+  "evidence_completeness": "registry-substitute",
+  "failures": [
+    {
+      "gate": "evidence",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing)"
+    },
+    {
+      "gate": "fidelity",
+      "detail": "no independent critic pass (enriched/<id>/07-fidelity.json missing)"
+    },
+    {
+      "gate": "critical-review",
+      "detail": "no record to review"
+    }
+  ],
+  "warnings": [
+    {
+      "gate": "file",
+      "detail": "extracted text looks partial (17493 chars, sections: result/outcome)"
+    }
+  ],
+  "manifest_discrepancies": []
+}

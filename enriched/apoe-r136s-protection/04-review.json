@@ -1,0 +1,92 @@
+{
+  "fact_check": [
+    {
+      "fact": "The homozygous APOE-R136S mutation reduces tau-488 uptake by approximately 50%.",
+      "status": "verified",
+      "note": "Checked against the source document (Results / Figure 3); E4-S/S neurons exhibited an ~50% reduction in MFI compared to E4 neurons."
+    },
+    {
+      "fact": "The heterozygous APOE-R136S mutation provides protection against APOE4-driven tau pathology.",
+      "status": "disputed",
+      "note": "Checked against the source document (Results / Figures 1, 2); the heterozygous (E4-R/S) mutation provided partial protection against neurodegeneration and inflammation, but did not significantly reduce tau accumulation."
+    },
+    {
+      "fact": "The original patient protected from early-onset Alzheimer's carried the R136S mutation on an APOE4 background.",
+      "status": "corrected",
+      "note": "Checked against the source document (Introduction); the original protected patient carried the homozygous mutation on an APOE3 background (APOE3-Christchurch), not APOE4."
+    }
+  ],
+  "research_page": {
+    "slug": "apoe-r136s-christchurch-tau-mice",
+    "title": "APOE-R136S (Christchurch) mutation protects against APOE4-driven pathology",
+    "description": "The homozygous APOE-R136S mutation fully rescues APOE4-driven tau pathology, neurodegeneration, and neuroinflammation in preclinical models.",
+    "tags": [
+      "paper",
+      "tau",
+      "inflammation",
+      "genetics",
+      "apoe4",
+      "animal-model"
+    ],
+    "source_line_md": "**Source**: [Nature Neuroscience, 2023](https://doi.org/10.1038/s41593-023-01480-8) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/37957317)",
+    "authors_line_md": "Nelson et al. — Gladstone Institutes / UCSF",
+    "takeaway_md": "The rare APOE-R136S (Christchurch) mutation completely protects against APOE4-driven tau pathology, neurodegeneration, and neuroinflammation in preclinical models when homozygous, but only offers partial structural protection when heterozygous. The mutation appears to work by disrupting APOE's binding to heparan sulfate proteoglycans (HSPGs), which subsequently blunts neuronal tau uptake.",
+    "key_findings_md": [
+      "Homozygous APOE-R136S mutation fully rescued hippocampal volume and significantly reduced tau accumulation and gliosis in PS19-E4 tauopathy mice (paper, Figures 1, 4, 5).",
+      "Heterozygous mutation provided partial protection against neurodegeneration and neuroinflammation, but did not significantly reduce tau pathology (paper, Figures 1, 4).",
+      "In human iPSC-derived neurons, the homozygous mutation reduced tau uptake by roughly 50% by impairing the HSPG pathway (paper, Figure 3).",
+      "Single-nucleus RNA sequencing showed the mutation dose-dependently increased disease-protective homeostatic glial populations and virtually eliminated disease-associated astrocytes, microglia, and oligodendrocytes (paper, Figures 6-8)."
+    ],
+    "methods_md": "In vivo and in vitro study evaluating human APOE4 knock-in tauopathy mice (PS19-E4) and CRISPR-edited human iPSC-derived neurons. Mice (n=20-31 per group) were evaluated at 6 and 10 months of age. Single-nucleus RNA sequencing evaluated 175,080 nuclei from 15 mice.",
+    "trial_evidence_md": "There are currently no clinical trials evaluating the APOE-R136S mutation or R136S-mimicking therapies in humans; the evidence remains strictly preclinical. However, the broader strategy of introducing protective APOE variants to APOE4 carriers is being tested clinically, notably in the [LX1001-01](/trials/lx1001-01-nct03634007) trial, which uses gene therapy to deliver the protective APOE2 allele.",
+    "sentiment_md": "Public perception is highly optimistic, anchored to the dramatic narrative of the original Colombian patient who delayed early-onset Alzheimer's by decades. However, online longevity and biohacker communities frequently conflate the profound protection of the rare homozygous mutation with the much milder effects of the heterozygous mutation, and sometimes mistakenly assume that interventions mimicking this genetic effect are already available.",
+    "caveats_md": [
+      "The preclinical models isolate tau pathology without amyloid-beta plaques, meaning the mutation's ability to protect against amyloid-driven inflammatory and neurodegenerative effects remains unknown.",
+      "The study engineered the mutation onto the high-risk APOE4 allele to test rescue effects, whereas the original highly protected human case occurred on the neutral APOE3 allele.",
+      "The finding that a single copy (heterozygous) fails to prevent tau pathology sharply contrasts with public expectations of broad protection."
+    ],
+    "relates_to_md": [
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — The original Christchurch patient resisted dementia despite extremely high amyloid burden, prompting investigations into tau and inflammation.",
+      "[LX1001-01](/trials/lx1001-01-nct03634007) — A gene therapy trial testing the related concept of introducing a different protective APOE variant (APOE2) to APOE4 carriers."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "lx1001-01-nct03634007",
+      "title": "LX1001-01",
+      "description": "AAVrh.10hAPOE2 gene therapy in APOE4 homozygotes with mild cognitive impairment or mild-to-moderate Alzheimer's disease.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "gene-therapy",
+        "apoe2",
+        "apoe4"
+      ],
+      "registry_md": "[NCT03634007](https://clinicaltrials.gov/study/NCT03634007)",
+      "drug": "LX1001 (AAVrh.10hAPOE2 gene therapy)",
+      "phase": "1/2",
+      "sponsor": "Lexeo Therapeutics",
+      "population": "APOE4 homozygotes with mild cognitive impairment or mild-to-moderate Alzheimer's disease (n=15)",
+      "primary_endpoint": "Safety and toxicity of intrathecal administration",
+      "started": "2019-11",
+      "readout": "2024-11",
+      "why_md": "This trial tests the hypothesis that delivering a protective APOE variant (APOE2) to the central nervous system can mitigate the detrimental effects of the APOE4 allele. It serves as the closest clinical analogue to preclinical research investigating protective APOE mutations like Christchurch (R136S).",
+      "status_log_md": [
+        "**2024-08-16** — Interim Phase 1/2 results reported in a review showing target engagement and tau biomarker reductions ([Source](https://doi.org/10.7759/cureus.67037))."
+      ],
+      "results_md": "Interim data indicated detectable APOE2 protein in CSF across cohorts, with reductions in total tau and phosphorylated tau observed in a subset of participants at one year, alongside a favorable safety and tolerability profile."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2024-08",
+      "title": "2024-08 — First clinical evidence for APOE gene therapy",
+      "body_md": "Interim Phase 1/2 results from the [LX1001-01](/trials/lx1001-01-nct03634007) trial show that delivering the protective APOE2 gene to APOE4 homozygotes results in target engagement and preliminary tau biomarker reductions."
+    }
+  ],
+  "notes_for_editor": [
+    "ALZ-801 was omitted as a dedicated trial page because it is merely a context trial (a GAG mimetic) rather than a pivotal related program for the APOE mutation strategy.",
+    "The LX1001 Long-Term Follow-up trial (NCT05400330) was omitted from the page generation to avoid clutter, as the main Phase 1/2 page adequately captures the program's clinical status."
+  ]
+}

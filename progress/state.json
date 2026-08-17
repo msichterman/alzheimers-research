@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-08-14T16:36:47.468Z",
+  "counts": {
+    "validated": 12,
+    "extracted": 0,
+    "parsed": 0,
+    "acquired": 0,
+    "resolved": 0,
+    "quarantined": 103,
+    "unresolved": 0
+  },
+  "completeness": {
+    "registry-substitute": 6,
+    "full-text-oa": 62,
+    "none": 11,
+    "registry-only": 18,
+    "regulator-or-registry": 15,
+    "accepted-manuscript": 3
+  },
+  "quarantine": 120,
+  "unresolved_identifiers": 2,
+  "manifest_discrepancies": 10,
+  "rounds": 1
+}

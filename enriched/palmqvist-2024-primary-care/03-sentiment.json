@@ -1,0 +1,74 @@
+{
+  "overall": "enthusiastic",
+  "summary": "Public sentiment toward the APS2 (PrecivityAD2) Alzheimer's blood test is overwhelmingly enthusiastic and hopeful, driven by widespread media coverage touting its 91% accuracy over standard physician evaluations. In patient and caregiver communities, the test is celebrated as a transformative tool that finally offers objective validation for early cognitive symptoms that doctors previously dismissed or misdiagnosed. However, the broader public and political spheres increasingly treat the test as an absolute, standalone lie-detector for clinical dementia. Meanwhile, medical professionals maintain a more mixed and cautious view, emphasizing that the test detects pathology rather than clinical disease and expressing concerns about its potential misuse as a broad screening tool without appropriate clinical context.",
+  "communities": [
+    {
+      "community": "Patient & Caregiver Forums (e.g., r/Alzheimers, r/LivingWithDementia)",
+      "sentiment": "hopeful",
+      "themes": [
+        "Using APS2 scores to validate early, unconfirmed cognitive symptoms",
+        "Navigating access to the PrecivityAD2 test when primary care doctors are unaware of it",
+        "Sharing and interpreting numerical test results online for support"
+      ],
+      "example_urls": [
+        "https://reddit.com/r/Alzheimers/comments/1j23i5q/i_was_faxed_a_copy_of_my_scored_precivityad2/",
+        "https://reddit.com/r/LivingWithDementia/comments/1k3whn7/_/moo4vjr/"
+      ]
+    },
+    {
+      "community": "Science & Medical Professionals (e.g., r/neurology, r/biotech)",
+      "sentiment": "mixed",
+      "themes": [
+        "Recognizing the test's strong diagnostic performance for AD pathology",
+        "Cautioning against using the test for broad screening rather than symptomatic evaluation",
+        "Highlighting the slow adoption rate among general practitioners"
+      ],
+      "example_urls": [
+        "https://reddit.com/r/neurology/comments/17lrybt/_/k7o33ow/",
+        "https://reddit.com/r/biotech/comments/1dtsud5/_/lbfl3vt/"
+      ]
+    },
+    {
+      "community": "General Public & Political Discourse (e.g., r/politics)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Weaponizing the blood test to demand cognitive proof from political figures",
+        "Viewing the test as a simple, objective binary for clinical Alzheimer's disease"
+      ],
+      "example_urls": [
+        "https://reddit.com/r/politics/comments/1kfeyz1/_/mqr6ewv/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "HealthDay News",
+      "tone": "positive",
+      "date": "2024-07",
+      "url": "https://www.healthday.com/health-news/neurology/blood-test-91-accurate-at-predicting-alzheimers-outperforming-doctors"
+    },
+    {
+      "outlet": "Medical Xpress",
+      "tone": "positive",
+      "date": "2024-07",
+      "url": "https://medicalxpress.com/news/2024-07-blood-accurate-alzheimer-outperforming-doctors.html"
+    },
+    {
+      "outlet": "Prevention",
+      "tone": "positive",
+      "date": "2024-08",
+      "url": "https://www.prevention.com/health/memory/a61793666/new-blood-test-alzheimers-disease/"
+    }
+  ],
+  "hype_vs_evidence": "Public perception is heavily skewed by the '91% accuracy' headline, leading many to believe the APS2 test is a definitive, standalone diagnostic tool for clinical Alzheimer's disease. In reality, the evidence from the JAMA study demonstrates the test's high accuracy in detecting Alzheimer's pathology (amyloid and tau) specifically in patients who are already undergoing clinical evaluation for cognitive symptoms. The public and media frequently conflate the presence of this pathology with the clinical disease itself, ignoring that a positive test must be contextualized with cognitive symptoms. Consequently, there is unwarranted hype around using the blood test as a universal screening tool for asymptomatic individuals or as objective 'proof' of dementia.",
+  "misinformation_flags": [
+    "The APS2 blood test is a standalone diagnostic tool that definitively proves a patient has clinical Alzheimer's disease, regardless of their cognitive symptoms.",
+    "The test is appropriate for broad screening in healthy, asymptomatic individuals to see if they will get Alzheimer's.",
+    "The test can be used as a simple 'lie-detector' to prove whether a political figure has dementia."
+  ],
+  "searches_run": [
+    "\"APS2\" Alzheimer blood test news (DuckDuckGo)",
+    "PrecivityAD2 (PullPush API)",
+    "\"APS2\" Alzheimer (PullPush API)"
+  ]
+}

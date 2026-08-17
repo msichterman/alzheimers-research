@@ -1,0 +1,169 @@
+{
+  "fact_check": [
+    {
+      "fact": "Lecanemab slowed cognitive decline by 47%",
+      "status": "corrected",
+      "note": "The document accurately cites the Phase 2b secondary endpoint (47%), but the subsequent, fully powered Phase 3 Clarity AD trial showed a more modest 27% reduction. This discrepancy ultimately strengthens the authors' point that most AD progression is independent of amyloid."
+    },
+    {
+      "fact": "EMERGE showed a 22% reduction in decline while ENGAGE showed no effect (+2%)",
+      "status": "verified",
+      "note": "Checked against the source document and verified by the clinical trials record for the twin aducanumab Phase 3 trials."
+    },
+    {
+      "fact": "Gantenerumab and solanezumab reduced amyloid load but had no effect on cognitive decline in the DIAN-TU trial",
+      "status": "verified",
+      "note": "Checked against the clinical trials registry for NCT01760005 (DIAN-TU-001)."
+    }
+  ],
+  "research_page": {
+    "slug": "probabilistic-model-alzheimers-frisoni",
+    "title": "The probabilistic model of Alzheimer's disease",
+    "description": "A proposed framework shifting from a deterministic amyloid hypothesis to a probabilistic model, stratifying AD risk across three variants based on APOE genotype.",
+    "tags": [
+      "review",
+      "amyloid hypothesis",
+      "probabilistic model",
+      "APOE",
+      "genetics"
+    ],
+    "source_line_md": "**Source**: [Nature reviews. Neuroscience, 2021](https://doi.org/10.1038/s41583-021-00533-w) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/34815562)",
+    "authors_line_md": "Frisoni et al.",
+    "takeaway_md": "The authors argue that the deterministic 'amyloid cascade' model fails to explain the full clinical spectrum of sporadic Alzheimer's disease, given the modest cognitive benefits of anti-amyloid therapies. They propose a probabilistic model that categorizes AD into three variants—autosomal dominant, APOE ε4-related, and APOE ε4-unrelated—where decreasing amyloid penetrance is offset by increasing influence from stochastic genetic and environmental factors.",
+    "key_findings_md": [
+      "Anti-amyloid therapies clear plaques but yield only modest or inconsistent cognitive benefits, implying that over 50% of clinical progression is independent of Aβ deposition (paper, Evidence against).",
+      "In autopsy series, the combination of isolated amyloidosis and tauopathy severe enough to justify dementia without other co-morbid pathologies accounts for less than 20% of cases (paper, Evidence against).",
+      "The APOE ε4 genotype significantly modifies AD risk and presentation, with lifetime dementia risk reaching up to 95% for ε4/ε4 carriers compared to 20% for ε2/ε2 carriers (paper, APOE ε4-related sporadic AD).",
+      "APOE ε4-unrelated sporadic AD accounts for 30–40% of amyloid-positive cases, typically presenting later in life and demonstrating heavy modulation by non-APOE genetics and lifestyle factors (paper, APOE ε4-unrelated sporadic AD)."
+    ],
+    "methods_md": "This perspective article synthesizes epidemiological, clinical, and neuropathological evidence to propose a new conceptual model for Alzheimer's disease. It draws heavily on results from major anti-amyloid clinical trials and genome-wide association studies.",
+    "trial_evidence_md": "The authors base their critique of the deterministic amyloid hypothesis heavily on the mixed results of major anti-amyloid trials. They note that [gantenerumab and solanezumab](/trials/dian-tu-001) in autosomal dominant AD, as well as aducanumab ([EMERGE](/trials/aducanumab-emerge) and [ENGAGE](/trials/aducanumab-engage)), failed to halt or profoundly slow cognitive decline despite robust amyloid clearance. While the paper cites a 47% reduction in cognitive decline from lecanemab's Phase 2b [Study 201](/trials/lecanemab-study-201), the fully powered Phase 3 Clarity AD trial later demonstrated a 27% reduction, which further reinforces the authors' premise that the majority of disease progression occurs independently of Aβ.",
+    "sentiment_md": "Public and professional sentiment regarding the amyloid hypothesis remains highly fractured. Patient communities express desperate hope for anti-amyloid treatments while remaining anxious about side effects like ARIA. In contrast, the medical and scientific communities share the paper's skepticism toward the deterministic amyloid model, frequently debating the clinical meaningfulness of these drugs and heavily criticizing the FDA's controversial handling of aducanumab.",
+    "caveats_md": [
+      "The concepts of 'resistance' and 'resilience' used in the probabilistic model are theoretical constructs that currently elude direct biological observation.",
+      "The proposed taxonomy relies heavily on APOE stratification but lacks extensive clinicopathological data on rarer, highly penetrant risk genes (like TREM2) that might identify other distinct AD subtypes."
+    ],
+    "relates_to_md": [
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Offers a direct critique and proposed revision of the traditional deterministic amyloid cascade model.",
+      "[Understanding the Amyloid Hypothesis](/journey/amyloid-hypothesis-consumer) — Provides consumer-friendly context on why treatments targeting amyloid have shown only modest benefits.",
+      "[Aducanumab Phase 3 Trials](/research/papers/aria-aducanumab-emerge-engage) — Contextualizes the controversial aducanumab results within the broader probabilistic model."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "dian-tu-001",
+      "title": "DIAN-TU-001",
+      "description": "Phase 2/3 trial evaluating gantenerumab and solanezumab in individuals with early-onset genetic Alzheimer's disease.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "anti-amyloid",
+        "gantenerumab",
+        "solanezumab",
+        "early-onset"
+      ],
+      "registry_md": "[NCT01760005](https://clinicaltrials.gov/study/NCT01760005)",
+      "drug": "gantenerumab, solanezumab (anti-amyloid)",
+      "phase": "2/3",
+      "sponsor": "Washington University School of Medicine",
+      "population": "Individuals at risk for or with a type of early onset Alzheimer's disease caused by a genetic mutation",
+      "primary_endpoint": "Change from baseline in the DIAN-Multivariate Cognitive Endpoint (DIAN-MCE)",
+      "started": "2012-12",
+      "readout": "2028-04",
+      "why_md": "This trial tests whether anti-amyloid therapies can prevent or delay cognitive decline in patients with autosomal dominant (genetic) Alzheimer's disease, a population where amyloid overproduction is the known cause.",
+      "status_log_md": [
+        "**2021-06-01** — Primary results published showing target engagement but a lack of cognitive benefit for both gantenerumab and solanezumab, [PubMed](https://pubmed.ncbi.nlm.nih.gov/34155411/)"
+      ],
+      "results_md": "Neither gantenerumab nor solanezumab met the primary cognitive endpoint of slowing clinical decline, despite gantenerumab demonstrating significant reductions in amyloid plaques."
+    },
+    {
+      "slug": "lecanemab-study-201",
+      "title": "Study 201 (Lecanemab Phase 2b)",
+      "description": "Phase 2 trial evaluating the safety and efficacy of lecanemab in early Alzheimer's disease.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "anti-amyloid",
+        "lecanemab"
+      ],
+      "registry_md": "[NCT01767311](https://clinicaltrials.gov/study/NCT01767311)",
+      "drug": "lecanemab (anti-amyloid)",
+      "phase": "2",
+      "sponsor": "Eisai Inc.",
+      "population": "Subjects with early Alzheimer's disease",
+      "primary_endpoint": "Change From Baseline in Alzheimer's Disease Composite Score (ADCOMS) at Month 12",
+      "started": "2012-12",
+      "readout": "2024-12",
+      "why_md": "This proof-of-concept trial aimed to determine the optimal dose and initial efficacy signal of lecanemab in clearing amyloid plaques and slowing cognitive decline in early AD.",
+      "status_log_md": [
+        "**2021-04-01** — Results published demonstrating a 47% slowing of clinical decline at 18 months on ADCOMS for the highest dose, [PubMed](https://pubmed.ncbi.nlm.nih.gov/33865446/)"
+      ],
+      "results_md": "The trial missed its primary 12-month ADCOMS endpoint. However, at 18 months, the highest dose demonstrated robust amyloid clearance and a 47% reduction in clinical decline on ADCOMS, setting the stage for the pivotal Phase 3 Clarity AD trial."
+    },
+    {
+      "slug": "aducanumab-emerge",
+      "title": "EMERGE (221AD302)",
+      "description": "Phase 3 trial of aducanumab in early Alzheimer's disease.",
+      "badge": "Terminated",
+      "tags": [
+        "trial",
+        "anti-amyloid",
+        "aducanumab"
+      ],
+      "registry_md": "[NCT02484547](https://clinicaltrials.gov/study/NCT02484547)",
+      "drug": "aducanumab (anti-amyloid)",
+      "phase": "3",
+      "sponsor": "Biogen",
+      "population": "Subjects with early Alzheimer's disease",
+      "primary_endpoint": "Change From Baseline in CDR-SB Score at Week 78",
+      "started": "2015-09",
+      "readout": "2019-08",
+      "why_md": "One of two twin pivotal trials designed to confirm the efficacy of aducanumab in slowing cognitive decline.",
+      "status_log_md": [
+        "**2019-08-01** — Trial terminated early following a futility analysis.",
+        "**2022-05-01** — Primary publication of results showing a post-hoc 22% reduction in decline for the high-dose group, [PubMed](https://pubmed.ncbi.nlm.nih.gov/35542991/)"
+      ],
+      "results_md": "Terminated early for futility alongside ENGAGE. Subsequent post-hoc analyses by the sponsor indicated a 22% reduction in clinical decline for the high-dose group."
+    },
+    {
+      "slug": "aducanumab-engage",
+      "title": "ENGAGE (221AD301)",
+      "description": "Phase 3 trial of aducanumab in early Alzheimer's disease.",
+      "badge": "Terminated",
+      "tags": [
+        "trial",
+        "anti-amyloid",
+        "aducanumab"
+      ],
+      "registry_md": "[NCT02477800](https://clinicaltrials.gov/study/NCT02477800)",
+      "drug": "aducanumab (anti-amyloid)",
+      "phase": "3",
+      "sponsor": "Biogen",
+      "population": "Subjects with early Alzheimer's disease",
+      "primary_endpoint": "Change From Baseline in CDR-SB Score at Week 78",
+      "started": "2015-08",
+      "readout": "2019-08",
+      "why_md": "One of two twin pivotal trials designed to confirm the efficacy of aducanumab in slowing cognitive decline.",
+      "status_log_md": [
+        "**2019-08-01** — Trial terminated early following a futility analysis.",
+        "**2022-05-01** — Primary publication of results showing no clinical benefit, [PubMed](https://pubmed.ncbi.nlm.nih.gov/35542991/)"
+      ],
+      "results_md": "Terminated early for futility. Unlike EMERGE, it failed to show any significant treatment effect on cognitive decline even in post-hoc analyses, sparking deep controversy around the drug's subsequent FDA approval."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2024-01",
+      "title": "2024-01 — Biogen discontinues Aduhelm",
+      "body_md": "Biogen ends its program for the controversial anti-amyloid drug Aduhelm (aducanumab), shifting focus to lecanemab following sluggish sales and widespread skepticism about its clinical benefit. [Read more](/research/papers/aria-aducanumab-emerge-engage)"
+    },
+    {
+      "section": "Disease-modifying era",
+      "date": "2021-06",
+      "title": "2021-06 — DIAN-TU-001 misses primary endpoint",
+      "body_md": "The DIAN-TU-001 trial reports that gantenerumab and solanezumab failed to slow cognitive decline in patients with autosomal dominant Alzheimer's disease, despite target engagement. [Read more](/trials/dian-tu-001)"
+    }
+  ],
+  "notes_for_editor": []
+}

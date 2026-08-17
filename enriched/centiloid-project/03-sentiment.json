@@ -1,0 +1,49 @@
+{
+  "overall": "quiet",
+  "summary": "Public sentiment around the Centiloid scale is sharply divided by audience: it is enthusiastically embraced as a standard by scientists, but entirely absent from general public and retail investor discourse. On platforms like Reddit, patients, caregivers, and investors focus exclusively on drug brand names and top-line cognitive benefits rather than the underlying radiological metrics, yielding zero search results for the technical term. Conversely, specialized science outlets treat the Centiloid scale as the definitive 'common language' of amyloid PET imaging, highlighting recent FDA acceptance and AI integrations. The project's goal of standardizing quantitative amyloid estimates has succeeded brilliantly in academia, but remains too technical to cross over into mainstream Alzheimer's conversations.",
+  "communities": [
+    {
+      "community": "Science & Research Community (Alzforum)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Standardization of trial endpoints across tracers",
+        "FDA acceptance of Centiloid quantification",
+        "Establishing Centiloid positivity thresholds for diagnostics"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/research-news/massive-meta-analysis-pegs-centiloid-positivity-thresholds",
+        "https://www.alzforum.org/news/research-news/ai-aids-quantification-amyloid-pet-scans"
+      ]
+    },
+    {
+      "community": "Patients, Caregivers & Retail Investors (Reddit)",
+      "sentiment": "quiet",
+      "themes": [
+        "Absence of technical biomarker discussion",
+        "Focus on drug efficacy and clinical outcomes over radiological methodology"
+      ],
+      "example_urls": []
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Alzforum",
+      "tone": "positive",
+      "date": "2026-07",
+      "url": "https://www.alzforum.org/news/research-news/massive-meta-analysis-pegs-centiloid-positivity-thresholds"
+    },
+    {
+      "outlet": "Alzforum",
+      "tone": "positive",
+      "date": "2026-02",
+      "url": "https://www.alzforum.org/news/research-news/ai-aids-quantification-amyloid-pet-scans"
+    }
+  ],
+  "hype_vs_evidence": "The scientific community's enthusiasm accurately reflects the Centiloid Project's success in creating a unifying 0-100 scale for amyloid PET. However, current discourse sometimes pushes beyond the evidence by attempting to peg rigid diagnostic thresholds to the scale, whereas the original authors cautioned against ignoring variance from scanner hardware, attenuation correction, and reconstruction algorithms across sites. Furthermore, the complete lack of public engagement shows a disconnect between clinical trial endpoints and patient comprehension; if Centiloids ever enter mainstream reporting, there is a high risk that the public will misinterpret '0 Centiloids' as a total cure rather than a relative radiological anchor based on young controls.",
+  "misinformation_flags": [],
+  "searches_run": [
+    "site:reddit.com \"centiloid\"",
+    "site:reddit.com centiloid alzheimer",
+    "site:alzforum.org centiloid"
+  ]
+}

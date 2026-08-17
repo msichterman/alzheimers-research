@@ -25,12 +25,15 @@ Scope retrieval with `contentTypes`, then narrow with `filters` (every entry mus
 | `trial` | One clinical trial: registry link, phase, population, dated status log | `status` (`Recruiting`, `Active`, `Completed`, `Terminated`), `phase`, `drug` |
 | `paper` | One paper or review, with a Critical review record | `year` |
 | `topic` | Synthesis across sources on one question | `stance` (`mainstream`, `contested`, `emerging`) |
+| `consumer-guide` | Plain-language guides for patients & caregivers | `stage` (`newly-diagnosed`, `general-knowledge`), `audience` (`family`, `patients`) |
 
 Plan before reading: `list_pages` with a type and filters, then `get_page` only on what you need.
 
 ```json
 { "contentTypes": ["trial"], "filters": { "status": "Active", "phase": "3" } }
 ```
+
+5. **Knowledge Graph (`dist/graph.json`)** — cross-document graph linking trials, drugs, molecular targets, biological pathways, and authors. Useful for multi-hop questions (e.g., "Which trials target TREM2 or microglial activation?").
 
 ## Reading a paper note
 

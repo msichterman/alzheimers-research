@@ -1,0 +1,67 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment surrounding diranersen (BIIB080) is highly fragmented, ranging from cautious optimism among patients to deep skepticism among investors. Media coverage is split between amplifying Biogen's claims of cognitive benefit and focusing on the mixed clinical outcomes that caused the company's stock to slide. The patient and caregiver communities remain largely quiet, correctly identifying that the drug is still in early testing and awaiting definitive Phase 3 data before celebrating. Consequently, there is little organic hype among the general public, while financial analysts heavily scrutinize the trial's failure to meet all expectations.",
+  "communities": [
+    {
+      "community": "Patients and Caregivers (r/Alzheimers)",
+      "sentiment": "quiet",
+      "themes": [
+        "Very early stages of testing",
+        "Cautious hope for tau-targeting therapies",
+        "Slow progress of Alzheimer's research"
+      ],
+      "example_urls": [
+        "https://old.reddit.com/r/Alzheimers/comments/1v37f0m/celia_clinical_trial_of_tautargeting_therapy/"
+      ]
+    },
+    {
+      "community": "Retail Investors and Financial Analysts",
+      "sentiment": "skeptical",
+      "themes": [
+        "Mixed trial results and missed endpoints",
+        "Stock sliding despite positive press releases",
+        "Questions over Biogen's decision to push to Phase 3"
+      ],
+      "example_urls": [
+        "https://old.reddit.com/r/StockTitan/comments/1uw8dw8/biib_biogen_presents_phase_2_celia_data_at_aaic/",
+        "https://old.reddit.com/r/Quantisnow/comments/1uw8hkc/ionis_partner_biogen_presents_phase_2_celia_data/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Reuters",
+      "tone": "neutral",
+      "date": "2026-07",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZjkxUXJSY1ZCREl0RGZWaDJ0OUhoU1J5d3I3ZFpXQURiTUYtQnFEWVkweHJZMmVYU1R1dVBUY01FQ2U3SVlKZEVyQnBFS2ZrNVcwR0lKUFFoU0FyTDEtU01zTHNKM01WdHBMTnlpNDZkVXdIQVM2TUtnaUVqaU1kSVV2Z3pqSFZLMm9Ydmh1TmtJRE5ORnJVSnZkQjhHeFJkZWEwYTlBd0U4UlFYN3psbThxaXJ3VmxsVVB5QjhuQ0JzQXI3UDdmdGZPNDRGSVFh?oc=5"
+    },
+    {
+      "outlet": "STAT",
+      "tone": "positive",
+      "date": "2026-07",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTWdibHd1Y0JNQjhrdTVhR2x4R3J2cE4yTXp6MV9VcjdHZTkxNHZ3dWhZUnhJTjRvZGVscGRxRDJYMFBrSDFoajBYalI5YkdobFA4ZUNpOWgyRVVGZUk5R2NBVUhxSnVOd1RzV3ppNnRQY1NZUnBsU2h1ZnQ0QXFYb3JsTFFIZzQ0ZkwtMHZhUzJ4V21vSzJSSjFR?oc=5"
+    },
+    {
+      "outlet": "BioPharma Dive",
+      "tone": "critical",
+      "date": "2026-07",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOT0l0aFkwMVBQZEJzMWIxWC1adUxJNWN1NVNGVXpITHMtd2lJU3NsN21sVU5ZRG8zaUMwbV9iYllpSmRxZC1mQUxwUUFlOTBOSC1uOThiU0psRDJnOU1ST2FycEF1YnVnOWNUSlRxUHg0WWVnMTJ1NVRITU5Hbms1c2ZQdDVjRkZGTDBHNl9yVHgzejJya09HOHQyZDZ5Mm5CZVRF?oc=5"
+    },
+    {
+      "outlet": "Fierce Biotech",
+      "tone": "critical",
+      "date": "2026-07",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSW45Q216RDR0VU1LTmgzRXF2M1BEdVExcGZhVDBDWlQzNHVVLXpNYmRtRHFGZkJPZGJxc3gzQkpQSzE1eldnUE5xdGUyMkE4RkxvdEl6aHBfNFMweUV5RTI5OWNzcHNzQUNWNGJLaTRyZllYblBJQmQtZzUzVzh3YWF5Ry1xSjV5azhfNmhoREdVdk8wRk8zaFZTZTZIRUk2Mm5IeUYyYw?oc=5"
+    }
+  ],
+  "hype_vs_evidence": "Biogen's press releases generate hype by claiming diranersen is the first tau-targeting drug to show cognitive benefit in early Alzheimer's. However, the evidence from the Phase 2 CELIA trial is more nuanced, with investor-focused media pointing out missed endpoints and 'mixed' clinical results. The patient community remains largely insulated from this corporate hype, appropriately recognizing the data as an early milestone that requires full Phase 3 validation rather than an immediate breakthrough.",
+  "misinformation_flags": [
+    "Statements claiming diranersen's efficacy is definitively 'on par with approved therapies' (like Leqembi) are premature, given that Phase 2 results were mixed and full Phase 3 efficacy trials are still required to prove this comparison."
+  ],
+  "searches_run": [
+    "https://news.google.com/rss/search?q=BIIB080+alzheimer",
+    "https://news.google.com/rss/search?q=diranersen+alzheimer",
+    "https://old.reddit.com/search?q=BIIB080",
+    "https://old.reddit.com/search?q=diranersen"
+  ]
+}

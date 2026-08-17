@@ -1,0 +1,56 @@
+{
+  "id": "cochrane-anti-amyloid-2026",
+  "prepared_at": "2026-08-13T16:55:51.036Z",
+  "instructions": "Two independent extractions of the same retrieved document disagree on these fields. For each conflict, decide against the document which reading is correct — or that both are, or neither is. You are not told which pipeline produced which reading, and you must not guess.",
+  "conflicts": [
+    {
+      "conflict_id": "cochrane-anti-amyloid-2026#0",
+      "field": "study.comparator",
+      "reading_a": "placebo (all 17 included studies used placebo as the comparison)",
+      "reading_b": "placebo or no treatment",
+      "note": null
+    },
+    {
+      "conflict_id": "cochrane-anti-amyloid-2026#1",
+      "field": "study.followup",
+      "reading_a": "studies lasted 18 to 27 months; results analysed at 12, 18, 24 and above 24 months, with the main analyses reported at 18 months",
+      "reading_b": "at least 12 months",
+      "note": null
+    },
+    {
+      "conflict_id": "cochrane-anti-amyloid-2026#2",
+      "field": "outcomes[primary].name",
+      "reading_a": "Cognitive function assessed with the ADAS‐Cog scale at 18 months",
+      "reading_b": "cognitive function as measured by the ADAS‐Cog (Alzheimer's Disease Assessment Scale‐Cognitive) scale",
+      "note": null
+    },
+    {
+      "conflict_id": "cochrane-anti-amyloid-2026#3",
+      "field": "safety.harms[ARIA-E].reported",
+      "reading_a": "absent",
+      "reading_b": "reported",
+      "note": null
+    },
+    {
+      "conflict_id": "cochrane-anti-amyloid-2026#4",
+      "field": "safety.harms[ARIA-H].reported",
+      "reading_a": "absent",
+      "reading_b": "reported",
+      "note": null
+    },
+    {
+      "conflict_id": "cochrane-anti-amyloid-2026#5",
+      "field": "safety.harms[symptomatic ARIA].counts",
+      "reading_a": "placebo: 1 per 1000 | amyloid‐beta‐targeting monoclonal antibodies: 30 per 1000 | placebo: 2 per 1000 | amyloid‐beta‐targeting monoclonal antibodies: 7 per 1000",
+      "reading_b": "amyloid‐beta‐targeting monoclonal antibodies versus placebo (pooled): ARD 29 more per 1000 (RR 52.49) | amyloid‐beta‐targeting monoclonal antibodies versus placebo (pooled): ARD 4 more per 1000 (RR 3.00)",
+      "note": null
+    },
+    {
+      "conflict_id": "cochrane-anti-amyloid-2026#6",
+      "field": "safety.harms[death].reported",
+      "reading_a": "absent",
+      "reading_b": "reported",
+      "note": null
+    }
+  ]
+}

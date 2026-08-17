@@ -1,0 +1,96 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT04971733",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04971733",
+      "name": "E2814-G000-103",
+      "drug": "etalanetug (anti-tau monoclonal antibody)",
+      "phase": "1/2",
+      "sponsor": "Eisai Inc.",
+      "status": "Completed",
+      "enrollment": 8,
+      "population": "Adults with mild to moderate cognitive impairment due to dominantly inherited Alzheimer's disease (DIAD)",
+      "primary_endpoint": "Number of participants with Treatment-emergent Adverse Events (TEAEs) and change from baseline in CSF MTBR-tau",
+      "started": "2021-06",
+      "completed_or_readout": "2024-05",
+      "results_summary": "The trial demonstrated target engagement with dose-dependent reductions in CSF tau biomarkers like MTBR-tau. However, treatment-emergent adverse events were observed across all dosage groups, including serious adverse events at the 3000 mg and 4500 mg dose levels.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04231513",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04231513",
+      "name": "E2814-A001-001",
+      "drug": "etalanetug",
+      "phase": "1",
+      "sponsor": "Eisai Inc.",
+      "status": "Completed",
+      "enrollment": 72,
+      "population": "Healthy participants",
+      "primary_endpoint": "Number of participants with Treatment-emergent Adverse Events (TEAEs) and Serious Adverse Events (SAEs)",
+      "started": "2019-12",
+      "completed_or_readout": "2023-03",
+      "results_summary": "Confirmed basic safety, tolerability, and pharmacokinetics of single and multiple ascending doses in healthy volunteers, supporting advancement into patient populations.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05269394",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05269394",
+      "name": "DIAN-TU-001 (E2814 Arm)",
+      "drug": "etalanetug + lecanemab",
+      "phase": "2/3",
+      "sponsor": "Washington University School of Medicine",
+      "status": "Active",
+      "enrollment": 197,
+      "population": "Individuals with a dominantly inherited Alzheimer's disease (DIAD) genetic mutation",
+      "primary_endpoint": "Change from Week 24 to Week 104 and Week 208 in tau PET in the symptomatic population",
+      "started": "2021-12",
+      "completed_or_readout": "2028-04",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT06602258",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06602258",
+      "name": "E2814-G000-202",
+      "drug": "etalanetug + lecanemab",
+      "phase": "2",
+      "sponsor": "Eisai Inc.",
+      "status": "Active",
+      "enrollment": 105,
+      "population": "Participants with early Alzheimer's disease (MCI to mild AD dementia)",
+      "primary_endpoint": "Change from baseline in CSF MTBR-tau-243 at 6 months",
+      "started": "2024-09",
+      "completed_or_readout": "2026-12",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2026-04-10",
+      "kind": "paper",
+      "description": "Publication of the Phase 1b/2 trial results for etalanetug (E2814) in dominantly inherited Alzheimer's disease assessing safety and target engagement.",
+      "url": "https://doi.org/10.1186/s13195-026-02047-y"
+    },
+    {
+      "date": "2025-07-01",
+      "kind": "paper",
+      "description": "Publication of the Phase 1, first-in-human, single and multiple ascending dose study in healthy subjects.",
+      "url": "https://doi.org/10.1097/WAD.0000000000000680"
+    },
+    {
+      "date": "2025-06-10",
+      "kind": "registry-results",
+      "description": "ClinicalTrials.gov results posted for the Phase 1b/2 study (NCT04971733) in DIAD.",
+      "url": "https://clinicaltrials.gov/study/NCT04971733"
+    }
+  ],
+  "evidence_assessment": "Etalanetug (E2814) has demonstrated preliminary safety and target engagement in an open-label Phase 1b/2 trial (NCT04971733), showing dose-dependent reductions in CSF tau biomarkers but also significant adverse events at higher doses. The clinical evidence from this specific document is highly exploratory due to the extremely small sample size (n=8) and lack of a placebo control in this cohort. Basic safety and pharmacokinetics were previously established in a Phase 1 study involving 72 healthy volunteers (NCT04231513). Robust efficacy and longer-term safety evaluations are currently ongoing in much larger, controlled trials, including a Phase 2/3 platform trial in DIAD (NCT05269394) and a Phase 2 study in early Alzheimer's disease (NCT06602258), both of which are evaluating etalanetug concurrently with lecanemab. Until these larger, controlled trials report out, the clinical evidence supporting etalanetug's therapeutic efficacy remains weak.",
+  "discrepancies": [
+    "The document's key claims report '2 out of 8 participants in the 3000 mg cohort' and '1 out of 4 in the 4500 mg cohort' experiencing serious TEAEs, which implies at least 12 participants if cohorts are distinct. However, the registry explicitly confirms a total actual enrollment of only 8 participants for the entire trial, indicating that participants were likely intra-patient dose-escalated or the document's cohort denominators are improperly contextualized."
+  ]
+}

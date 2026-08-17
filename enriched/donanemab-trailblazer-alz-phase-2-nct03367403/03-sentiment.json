@@ -1,0 +1,95 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment surrounding donanemab is deeply fractured across different communities. General news consumers and retail investors show high enthusiasm, driven by top-line percentage claims of slowed cognitive decline and regulatory milestones. Patient and caregiver communities exhibit a cautious hope, recognizing the modest benefits alongside the heavy burden of side effects and MRI monitoring. Conversely, scientific and investigative media are highly skeptical, focusing on safety risks like brain bleeds, conflicts of interest, and the actual clinical meaningfulness of the results. This polarization highlights a significant gap between biomarker success and the reality of the drug's cognitive benefits.",
+  "communities": [
+    {
+      "community": "General Public & Mainstream Reddit (r/worldnews, r/longevity, r/science)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Major breakthrough in Alzheimer's treatment",
+        "Top-line figures of 35% slowed cognitive decline",
+        "Concerns about side effects like brain bleeds"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/longevity/comments/136uae4/new_alzheimers_drug_slows_cognitive_decline_by_35/",
+        "https://www.reddit.com/r/science/comments/15258iy/new_findings_confirm_that_donanemab_can_delay_the/"
+      ]
+    },
+    {
+      "community": "Patients & Caregivers (r/dementia, patient forums)",
+      "sentiment": "hopeful",
+      "themes": [
+        "Modest clinical benefits",
+        "Relief over FDA advisory support",
+        "Logistical burdens of treatment and MRI monitoring"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/dementia/comments/1dcum01/donanemab/",
+        "https://www.reddit.com/r/dementia/comments/1der6gm/alzheimers_drug_donanemab_with_modest_benefits/"
+      ]
+    },
+    {
+      "community": "Retail Investors (r/investing, r/stocks)",
+      "sentiment": "mixed",
+      "themes": [
+        "Initial stock surges on trial data",
+        "Regulatory setbacks and delayed FDA nods",
+        "Market competition with Biogen/Eisai (Leqembi)"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/investing/comments/kv332t/eli_lilly_up_20_after_donanemab_shows_clinical/",
+        "https://www.reddit.com/r/stocks/comments/15342e9/eli_lillys_lly_alzheimers_drug_shows_promise_in/"
+      ]
+    },
+    {
+      "community": "Science & Investigative Media",
+      "sentiment": "skeptical",
+      "themes": [
+        "Questionable clinical efficacy versus biomarker success",
+        "Severe safety risks including trial deaths",
+        "Conflicts of interest and dubious data"
+      ],
+      "example_urls": [
+        "https://scitechdaily.com/critical-flaws-new-alzheimers-drug-could-actually-be-a-safety-risk/",
+        "https://healthjournalism.org/blog/2024/10/reporters-uncover-conflicts-and-dubious-data-on-latest-alzheimers-drug/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Science Magazine (AAAS)",
+      "tone": "critical",
+      "date": "2023-05",
+      "url": "https://www.science.org/content/article/it-s-not-miracle-drug-eli-lilly-antibody-slows-alzheimer-s-disease-safety-issues-linger"
+    },
+    {
+      "outlet": "SciTechDaily",
+      "tone": "critical",
+      "date": "2024-09",
+      "url": "https://scitechdaily.com/critical-flaws-new-alzheimers-drug-could-actually-be-a-safety-risk/"
+    },
+    {
+      "outlet": "Pharmaphorum",
+      "tone": "neutral",
+      "date": "2026-08",
+      "url": "https://pharmaphorum.com/news/fda-blocks-early-nod-for-lillys-alzheimers-drug-donanemab"
+    },
+    {
+      "outlet": "Investors.com",
+      "tone": "positive",
+      "date": null,
+      "url": "https://www.investors.com/news/technology/eli-lilly-stock-fda-advisory-committee-alzheimers-treatment/"
+    }
+  ],
+  "hype_vs_evidence": "Public and mainstream media hype significantly outpaces the clinical evidence from the Phase 2 TRAILBLAZER-ALZ trial. General audiences are fixated on headline claims of a '35% slowing of cognitive decline', viewing the drug as a major breakthrough. However, the Phase 2 evidence reveals that while donanemab effectively clears amyloid plaques, its clinical benefits are marginal; standard secondary endpoints like the CDR-SB and MMSE failed to reach statistical significance. Scientific circles and journalists are accurately reflecting this discrepancy, noting that massive biomarker changes do not cleanly translate to miracle clinical outcomes and are accompanied by severe safety risks.",
+  "misinformation_flags": [
+    "Treating amyloid plaque clearance as perfectly synonymous with dramatic clinical cognitive improvement, despite non-significant secondary clinical endpoints.",
+    "Overstating the '35% slower decline' metric as a universal outcome while ignoring the lack of statistical significance on standard measures like the CDR-SB in earlier trial results."
+  ],
+  "searches_run": [
+    "site:reddit.com donanemab alzheimers",
+    "donanemab eli lilly stock reddit",
+    "donanemab alzforum",
+    "donanemab caregiver forum"
+  ]
+}

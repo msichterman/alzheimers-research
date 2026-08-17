@@ -1,0 +1,1095 @@
+{
+  "id": "holstege-2022-exome",
+  "built_at": "2026-08-13T16:59:45.858Z",
+  "derived_from": {
+    "builder": "enriched/<id>/05-evidence.json",
+    "independent_critic": "enriched/<id>/06-critique.json",
+    "fidelity_diff": "enriched/<id>/07-fidelity.json",
+    "adjudication": null
+  },
+  "conflicts_found": 6,
+  "conflicts_ruled": 0,
+  "conflicts_unresolved": 6,
+  "conflicts_needing_manual_apply": 0,
+  "adjudication_changelog": [],
+  "unresolved": [
+    {
+      "field": "study.population",
+      "reason": "no adjudicator ruling for this conflict"
+    },
+    {
+      "field": "outcomes[primary].name",
+      "reason": "no adjudicator ruling for this conflict"
+    },
+    {
+      "field": "outcomes[primary].prespecified",
+      "reason": "no adjudicator ruling for this conflict"
+    },
+    {
+      "field": "outcomes[Genes whose rare damaging variant burden was confirmed as associated with AD in the stage 1 + stage 2 meta-analysis].prespecified",
+      "reason": "no adjudicator ruling for this conflict"
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "reason": "no adjudicator ruling for this conflict"
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "reason": "no adjudicator ruling for this conflict"
+    }
+  ],
+  "needs_manual_apply": [],
+  "record": {
+    "document_kind": "journal_article",
+    "title": {
+      "value": "Exome sequencing identifies rare damaging variants in ATP8B4 and ABCA1 as risk factors for Alzheimer’s disease",
+      "quote": "# Exome sequencing identifies rare damaging variants in ATP8B4 and ABCA1 as risk factors for Alzheimer’s disease",
+      "location": "Title line"
+    },
+    "authors": [
+      {
+        "name": "Henne Holstege",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Marc Hulsman",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Camille Charbonnier",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Benjamin Grenier-Boley",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Olivier Quenez",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Detelina Grozeva",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Jeroen G. J. van Rooij",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Rebecca Sims",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Shahzad Ahmad",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Najaf Amin",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Penny J. Norsworthy",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Oriol Dols-Icardo",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Holger Hummerich",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Amit Kawalia",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Philippe Amouyel",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Gary W. Beecham",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Claudine Berr",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Joshua C. Bis",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Anne Boland",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Paola Bossù",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Femke Bouwman",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Jose Bras",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Dominique Campion",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "J. Nicholas Cochran",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Antonio Daniele",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Jean-François Dartigues",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Stéphanie Debette",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Jean-François Deleuze",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Nicola Denning",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Anita L. DeStefano",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Lindsay A. Farrer",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Maria Victoria Fernández",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Nick C. Fox",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Daniela Galimberti",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Emmanuelle Genin",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Johan J. P. Gille",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Yann Le Guen",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Rita Guerreiro",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Jonathan L. Haines",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Clive Holmes",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "M. Arfan Ikram",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "M. Kamran Ikram",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Iris E. Jansen",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Robert Kraaij",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Marc Lathrop",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Afina W. Lemstra",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Alberto Lleó",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Lauren Luckcuck",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Marcel M. A. M. Mannens",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Rachel Marshall",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Eden R. Martin",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Carlo Masullo",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Richard Mayeux",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Patrizia Mecocci",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Alun Meggy",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Merel O. Mol",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Kevin Morgan",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Richard M. Myers",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Benedetta Nacmias",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Adam C. Naj",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Valerio Napolioni",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Florence Pasquier",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Pau Pastor",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Margaret A. Pericak-Vance",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Rachel Raybould",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Richard Redon",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Marcel J. T. Reinders",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Anne-Claire Richard",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Steffi G. Riedel-Heller",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Fernando Rivadeneira",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Stéphane Rousseau",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Natalie S. Ryan",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Salha Saad",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Pascual Sanchez-Juan",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Gerard D. Schellenberg",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Philip Scheltens",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Jonathan M. Schott",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Davide Seripa",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Sudha Seshadri",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Daoud Sie",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Erik A. Sistermans",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Sandro Sorbi",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Resie van Spaendonk",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Gianfranco Spalletta",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Niccolo’ Tesi",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Betty Tijms",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "André G. Uitterlinden",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Sven J. van der Lee",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Pieter Jelle Visser",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Michael Wagner",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "David Wallon",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Li-San Wang",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Aline Zarea",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Jordi Clarimon",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "John C. van Swieten",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Michael D. Greicius",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Jennifer S. Yokoyama",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Carlos Cruchaga",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "John Hardy",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Alfredo Ramirez",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Simon Mead",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Wiesje M. van der Flier",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Cornelia M. van Duijn",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Julie Williams",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Gaël Nicolas",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Céline Bellenguez",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      },
+      {
+        "name": "Jean-Charles Lambert",
+        "affiliation": null,
+        "orcid": null,
+        "corresponding": null
+      }
+    ],
+    "study": {
+      "design": {
+        "value": "Multistage exome-wide gene-based rare-variant burden analysis (stage 1 discovery, independent stage 2 confirmation, fixed-effect meta-analysis, plus a merged mega-sample and a GWAS-locus-targeted burden analysis)",
+        "quote": "Multistage gene burden analysis in exome sequencing data from 32,558 individuals identifies rare damaging variants in ATP8B4 and ABCA1 as risk factors for Alzheimer’s disease.",
+        "location": "Abstract, one-sentence summary"
+      },
+      "phase": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "n": {
+        "value": 32558,
+        "quote": "Here, we compared the gene-based burden of rare damaging variants in exome sequencing data from 32,558 individuals—16,036 AD cases and 16,522 controls.",
+        "location": "Abstract"
+      },
+      "n_description": {
+        "value": "Individuals with exome sequencing data compared in the combined stage 1 + stage 2 meta-analysis: 16,036 AD cases and 16,522 controls (stage 1 was 12,652 cases and 8,693 controls, n = 21,345; stage 2 was 3,384 cases and 7,829 controls, n = 11,213)",
+        "quote": "Here, we compared the gene-based burden of rare damaging variants in exome sequencing data from 32,558 individuals—16,036 AD cases and 16,522 controls.",
+        "location": "Abstract"
+      },
+      "population": {
+        "value": "Individuals of European ancestry only (non-European ancestry samples removed at QC), comprising AD cases diagnosed by NIA-AA or NINCDS-ADRDA criteria — 4,060 early-onset (age at onset ≤65 years) and 8,592 late-onset (age at onset >65 years) cases in stage 1 — and controls not diagnosed with AD; carriers of pathogenic PSEN1, PSEN2, APP or other Mendelian dementia variants and relatives up to the third degree were removed",
+        "quote": "samples were removed when they had high missingness, high contamination, a discordant genetic sex annotation, non-European ancestry, high numbers of new variants",
+        "location": "Methods, Sample processing, genotype calling and QC"
+      },
+      "followup": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "intervention": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "comparator": {
+        "value": "Controls not diagnosed with AD (8,693 in stage 1 and 7,829 in stage 2; 16,522 in total), sequenced on the same paired-end Illumina platforms as cases",
+        "quote": "otherwise, samples were classified as late-onset AD (366 samples). Controls were not diagnosed with AD. All contributing datasets were sequenced using a paired-end Illumina platform",
+        "location": "Methods, Sample processing, genotype calling and QC"
+      },
+      "biomarker_confirmation": {
+        "value": "AD was diagnosed clinically (NIA-AA or NINCDS-ADRDA criteria); where possible, supportive evidence of an AD pathophysiological process such as cerebrospinal fluid biomarkers was sought, or the diagnosis was confirmed by neuropathological examination",
+        "quote": "When possible, supportive evidence for an AD pathophysiological process was sought (including cerebrospinal fluid biomarkers) or the diagnosis was confirmed by neuropathological examination",
+        "location": "Methods, Sample processing, genotype calling and QC"
+      },
+      "nct_ids": [],
+      "cohorts": [
+        "Alzheimer Disease European Sequencing (ADES) consortium",
+        "Alzheimer’s Disease Sequencing Project (ADSP)",
+        "Alzheimer’s Disease Neuroimaging Initiative (ADNI)",
+        "ADES-FR",
+        "AgeCoDe-UKBonn",
+        "Barcelona SPIN",
+        "AC-EMC",
+        "ERF and Rotterdam",
+        "ADC-Amsterdam",
+        "100-plus study",
+        "EMIF-90+",
+        "Control Brain Consortium",
+        "PERADES",
+        "StEP-AD",
+        "Knight-ADRC",
+        "UCSF/NYGC/UAB",
+        "UCL-DRC EOAD",
+        "NIAGADS (ADSP data repository)",
+        "Genome Aggregation Database v.2.1 (nonneurological set)",
+        "dbSNP v.150"
+      ]
+    },
+    "outcomes": [
+      {
+        "name": "Exome-wide significant association of rare predicted damaging variants in ATP8B4 and ABCA1 with AD risk (new genes)",
+        "tier": "primary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "met",
+        "effect_estimate": "ATP8B4 (LOF + REVEL ≥ 25) meta-analysis OR 1.5; ABCA1 (LOF + REVEL ≥ 75) meta-analysis OR 1.7",
+        "confidence_interval": "1.3–1.7 (ATP8B4); 1.4–2.1 (ABCA1)",
+        "p_value": "9.6 × 10 −9 (ATP8B4, Holm–Bonferroni 3.0 × 10 −4); 2.6 × 10 −7 (ABCA1, Holm–Bonferroni 8.0 × 10 −3)",
+        "multiplicity_controlled": "yes",
+        "quote": "we observed a significant association of rare, predicted damaging variants in ATP8B4 and ABCA1 with AD risk, and a suggestive signal in ADAM10",
+        "location": "Abstract"
+      },
+      {
+        "name": "ATP8B4 rare-variant burden (LOF + REVEL ≥ 25), stage 1, stage 2 and meta-analysis",
+        "tier": "primary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "met",
+        "effect_estimate": "OR 1.5 in the meta-analysis (stage 1 OR 1.5; stage 2 OR 1.4)",
+        "confidence_interval": "1.3–1.7 (meta-analysis); 1.3–1.8 (stage 1); 1.0–1.8 (stage 2)",
+        "p_value": "9.6 × 10 −9 meta-analysis; Holm–Bonferroni 3.0 × 10 −4",
+        "multiplicity_controlled": "yes",
+        "quote": "ATP8B4 LOF + REVEL ≥ 25 7.2 × 10 −6 0.02 72/575 1.5 (1.3–1.8) 3.3 × 10 −3 40/286 1.4 (1.0–1.8) 9.6 × 10 −9 3.0 × 10 −4 1.5 (1.3–1.7) 9.7 × 10 −1",
+        "location": "Table 1"
+      },
+      {
+        "name": "ABCA1 rare-variant burden (LOF + REVEL ≥ 75), stage 1, stage 2 and meta-analysis",
+        "tier": "primary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "met",
+        "effect_estimate": "OR 1.7 in the meta-analysis (stage 1 OR 1.7; stage 2 OR 1.6)",
+        "confidence_interval": "1.4–2.1 (meta-analysis); 1.3–2.2 (stage 1); 1.1–2.3 (stage 2)",
+        "p_value": "2.6 × 10 −7 meta-analysis; Holm–Bonferroni 8.0 × 10 −3",
+        "multiplicity_controlled": "yes",
+        "quote": "ABCA1 LOF + REVEL ≥ 75 6.1 × 10 −6 0.019 93/280 1.7 (1.3–2.2) 6.6 × 10 −3 48/159 1.6 (1.1–2.3) 2.6 × 10 −7 8.0 × 10 −3 1.7 (1.4–2.1) 6.3 × 10 −1",
+        "location": "Table 1"
+      },
+      {
+        "name": "Genes whose rare damaging variant burden was confirmed as associated with AD in the stage 1 + stage 2 meta-analysis",
+        "tier": "primary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "met",
+        "effect_estimate": "5 genes: SORL1, TREM2, ABCA7, ATP8B4 and ABCA1",
+        "confidence_interval": null,
+        "p_value": "Holm–Bonferroni corrected P < 0.05 across 31,204 tests",
+        "multiplicity_controlled": "yes",
+        "quote": "This confirmed the AD association of rare damaging variants in the SORL1 , TREM2 , ABCA7 , ATP8B4 and ABCA1 genes.",
+        "location": "Main, stage 2 paragraph"
+      },
+      {
+        "name": "Stage 1 discovery: burden tests showing a differential rare-variant burden between AD cases and controls",
+        "tier": "primary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "met",
+        "effect_estimate": "13 of 31,204 tests, covering 6 genes (SORL1, TREM2, ABCA7, ATP8B4, ADAM10 and ABCA1)",
+        "confidence_interval": null,
+        "p_value": "false discovery rate (FDR) < 0.1",
+        "multiplicity_controlled": "yes",
+        "quote": "Of all the burden tests performed, 13 tests, covering 6 genes, indicated a differential rare-variant burden between AD cases and controls (false discovery rate (FDR) < 0.1)",
+        "location": "Main, stage 1 paragraph"
+      },
+      {
+        "name": "Stage 2 independent confirmation of the stage 1 genes",
+        "tier": "primary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "met",
+        "effect_estimate": "All stage 1 genes reached P < 0.05 in stage 2; stage 2 effect sizes correlated with stage 1 (Pearson's r on log odds = 0.91)",
+        "confidence_interval": null,
+        "p_value": "P < 0.05 (one-sided, in the stage 1 direction)",
+        "multiplicity_controlled": "yes",
+        "quote": "All genes selected in stage 1 reached P < 0.05 (Table , stage 2). The stage 2 effect sizes of these genes correlated with those observed in stage 1 (Pearson’s r on log odds = 0.91).",
+        "location": "Main, stage 2 paragraph"
+      },
+      {
+        "name": "ADAM10 rare-variant burden association with AD",
+        "tier": "primary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "not_met",
+        "effect_estimate": "Suggestive only; not significant exome-wide after multiple-testing correction",
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "yes",
+        "quote": "The association signal of the ADAM10 gene was not significant exome-wide, presumably because prioritized variants in this gene are extremely few and rare",
+        "location": "Main, stage 2 paragraph"
+      },
+      {
+        "name": "Exome-wide significance criterion for the meta-analysis",
+        "tier": "primary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "not_applicable",
+        "effect_estimate": null,
+        "confidence_interval": null,
+        "p_value": "Holm–Bonferroni corrected P < 0.05 (stage 1 selection at Benjamini–Hochberg FDR < 0.1 across 31,204 tests)",
+        "multiplicity_controlled": "yes",
+        "quote": "For the meta-analysis, genes were considered significantly associated with AD when the corrected P was <0.05 after family-wise correction using the Holm–Bonferroni procedure",
+        "location": "Methods, Gene burden testing"
+      },
+      {
+        "name": "GWAS-locus-targeted burden analysis: candidate driver genes in known AD GWAS loci",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "met",
+        "effect_estimate": "Suggestive signals of increased AD risk in RIN3, CLU, ZCWPW1 and ACE among 67 testable genes (187 tests) from the 75 loci of the most recent GWAS",
+        "confidence_interval": null,
+        "p_value": "FDR < 0.05",
+        "multiplicity_controlled": "yes",
+        "quote": "our analysis indicated a suggestive signal of increased AD risk in RIN3 , CLU , ZCWPW1 and ACE (FDR < 0.05) (Table and Supplementary Table ); these signals will have to be confirmed in a larger dataset",
+        "location": "Main, GWAS-targeted analysis paragraph"
+      },
+      {
+        "name": "Relationship between rare damaging variant burden and age at onset",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "met",
+        "effect_estimate": "Increased carrier frequencies in younger cases and larger effect sizes with earlier age at onset",
+        "confidence_interval": null,
+        "p_value": "P = 0.0001",
+        "multiplicity_controlled": "unclear",
+        "quote": "For damaging variants in most genes, we observed increased carrier frequencies in younger cases and larger effect sizes were associated with an earlier age at onset ( P = 0.0001)",
+        "location": "Main, variant characterization paragraph"
+      },
+      {
+        "name": "Enrichment of the strongest-effect variants in early-onset AD",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "met",
+        "effect_estimate": "Loss-of-function variants with the strongest effects are enriched in early-onset AD cases",
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "Variants associated with the strongest effect on AD risk, in particular loss-of-function variants, are enriched in early-onset AD cases.",
+        "location": "Abstract"
+      },
+      {
+        "name": "Carrier frequency of predicted damaging variants across the ten identified genes",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "not_applicable",
+        "effect_estimate": "Up to 18% of EOAD and 14% of LOAD cases versus 9% of controls",
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "Up to 18% EOAD and 14% LOAD cases carried at least 1 predicted damaging variant in 1 of the 10 genes, compared to 9% of the controls",
+        "location": "Main, variant frequency paragraph"
+      },
+      {
+        "name": "Attributable fraction of cases explained by rare variants in a specific gene",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "not_applicable",
+        "effect_estimate": "0.1% to 2.4% of EOAD cases per gene; 0 to 1.3% of LOAD cases",
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "The fractions of EOAD cases in our sample that could be attributed to a rare variant in a specific gene ranged between 0.1 and 2.4%",
+        "location": "Main, variant frequency paragraph"
+      },
+      {
+        "name": "Interaction between the rare-variant AD association and APOE-ε4 dosage",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "not_met",
+        "effect_estimate": "No interaction effects observed",
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "in a separate analysis we observed no interaction effects between the rare-variant AD association and APOE-ε4 dosage",
+        "location": "Main, sensitivity analyses paragraph"
+      },
+      {
+        "name": "Age-matched sensitivity analysis of the ten identified genes",
+        "tier": "secondary",
+        "prespecified": "unclear",
+        "prespecification_evidence": null,
+        "met": "met",
+        "effect_estimate": "Supported a role in AD for all ten identified genes",
+        "confidence_interval": null,
+        "p_value": null,
+        "multiplicity_controlled": "unclear",
+        "quote": "We performed an age-matched sensitivity analysis to investigate possible effects from other age-related conditions, which supported a role in AD for all ten identified genes",
+        "location": "Main, sensitivity analyses paragraph"
+      }
+    ],
+    "primary_endpoint_status": {
+      "status": "met",
+      "explanation": "The discovery analysis succeeded on its own terms: ATP8B4 and ABCA1 reached exome-wide significance as new AD risk genes in the stage 1 + stage 2 meta-analysis, alongside confirmation of SORL1, TREM2 and ABCA7, while ADAM10 remained only suggestive.",
+      "quote": "Together, we report ATP8B4 and ABCA1 as new AD risk factors with exome-wide significance and we report suggestive evidence for the association of rare variants in the ADAM10 gene with AD risk."
+    },
+    "multiplicity": {
+      "approach": "Benjamini–Hochberg FDR < 0.1 across the 31,204 stage 1 burden tests to select genes for confirmation; one-sided stage 2 testing in the direction observed in stage 1; family-wise Holm–Bonferroni correction (P < 0.05) across all 31,204 tests for the fixed-effect meta-analysis; a stricter Benjamini–Hochberg FDR < 0.05 for the GWAS-targeted analysis because it had no separate confirmation stage",
+      "quote": "For the meta-analysis, genes were considered significantly associated with AD when the corrected P was <0.05 after family-wise correction using the Holm–Bonferroni procedure",
+      "location": "Methods, Gene burden testing"
+    },
+    "safety": {
+      "harms": [],
+      "apoe_stratification_reported": false,
+      "serious_adverse_events": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "deaths": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "discontinuations": {
+        "value": null,
+        "quote": null,
+        "location": null
+      }
+    },
+    "funding": [
+      "Computing hours were granted in 2016, 2017, 2018 and 2019 to H. Holstege by the Dutch Research Council (project name: 100-plus; project nos. 15318 and 17232).",
+      "The work in this manuscript was carried out on the Cartesius supercomputer, which is embedded in the Dutch national e-infrastructure with the support of the SURF Cooperative.",
+      "This research was conducted using the funding obtained by the following study cohorts: ADES-FR, AgeCoDe-UKBonn; Barcelona SPIN; AC-EMC; ERF and Rotterdam; ADC-Amsterdam; 100-plus study; EMIF-90+; Control Brain Consortium; PERADES; StEP-AD; Knight-ADRC; UCSF/NYGC/UAB; UCL-DRC EOAD; ADSP.",
+      "Full consortium acknowledgements and funding sources are listed in Section 4 of the Supplementary"
+    ],
+    "conflicts": [
+      "The authors declare no competing interests."
+    ],
+    "limitations": [
+      "The study was powered only for large effects or common carrier frequencies: 'this analysis has only the power to discover genes for which either the differential variant burden is associated with a large effect size, and/or genes for which large numbers of damaging variant carriers are observed'.",
+      "Estimated power to reach P < 1 × 10 −6 in stage 1 was only 41, 22, 11 and 4% across the four deleteriousness thresholds.",
+      "The ADAM10 signal could not be confirmed exome-wide: 'the signal can be confirmed only in larger datasets'.",
+      "The GWAS driver-gene signals in RIN3, CLU, ZCWPW1 and ACE are suggestive: 'these signals will have to be confirmed in a larger dataset' and 'Larger datasets will be required to further confirm these signals.'",
+      "Site-specific technical bias: 'We observed site-specific technical biases, since data were generated at multiple centers, using heterogeneous methods'.",
+      "Samples were restricted to European ancestry — samples with 'non-European ancestry' were removed at QC.",
+      "'Since APOE status was used as the selection criterion in several contributing datasets, burden tests were not adjusted for APOE-ε4 dosage'.",
+      "'damaging variants (including APOE-ε4 / ε4 ) were observed in only 30% of the EOAD cases (Supplementary Table ), suggesting that additional damaging variants are yet to be discovered'.",
+      "'the effect of structural variants such as copy number variants and repetitive sequences will need to be investigated in future analyses'.",
+      "Genes with a cumulative minor allele count below 10 could not be analysed at all, and only 13,222 of 19,822 autosomal protein-coding genes were tested at the most permissive threshold."
+    ],
+    "risk_of_bias": [
+      {
+        "domain": "Batch / centre effects in sequencing data",
+        "judgement": "Data were generated at multiple centres with heterogeneous methods, producing site-specific technical biases that required dedicated quality-control procedures.",
+        "quote": "We observed site-specific technical biases, since data were generated at multiple centers, using heterogeneous methods"
+      },
+      {
+        "domain": "Confounding by APOE selection",
+        "judgement": "APOE status was a selection criterion in several contributing datasets, so burden tests could not be adjusted for APOE-ε4 dosage; the interaction analysis had to be run on a reduced dataset.",
+        "quote": "Since APOE status was used as the selection criterion in several contributing datasets, burden tests were not adjusted for APOE-ε4 dosage"
+      },
+      {
+        "domain": "Age differences between cases and controls",
+        "judgement": "The document recognised that age-related conditions could explain the effects and addressed this with an age-matched, propensity-weighted sensitivity analysis that supported all ten genes.",
+        "quote": "We determined if the observed effects could be explained by age differences between cases and controls."
+      },
+      {
+        "domain": "Generalisability / ancestry restriction",
+        "judgement": "Only European-ancestry samples were retained, so the gene burdens are not established in other ancestries.",
+        "quote": "samples were removed when they had high missingness, high contamination, a discordant genetic sex annotation, non-European ancestry"
+      },
+      {
+        "domain": "Partial data for a subset of samples (exome extracts)",
+        "judgement": "Some contributing samples were exome extracts containing only reads covering the ten stage 1 genes, and these were excluded from the mega-sample GWAS burden analysis.",
+        "quote": "Exome extract samples only contained the raw reads that cover the ten genes identified in stage 1."
+      }
+    ],
+    "disagreements": [
+      {
+        "question": "Do rare variants in ADAM10 associate with AD risk?",
+        "position": "This document reports that two rare ADAM10 missense variants previously reported to segregate incompletely with late-onset AD did not associate with AD in its own data, and that its own ADAM10 signal remained suggestive rather than exome-wide significant.",
+        "attributed_to": "Holstege et al., this document",
+        "quote": "two rare missense variants in ADAM10 were reported before to incompletely segregate with LOAD in a few families (these variants did not associate with AD in our study; Supplementary )"
+      },
+      {
+        "question": "Can rare-variant burden analysis identify the causal driver genes behind common-variant GWAS loci?",
+        "position": "This document argues that its analysis of rare protein-modifying variants identifies RIN3, CLU, ZCWPW1 and ACE as potential drivers in GWAS loci and thereby addresses a drawback of GWAS.",
+        "attributed_to": "Holstege et al., this document",
+        "quote": "we identified RIN3 , CLU , ZCWPW1 and ACE as potential drivers in GWAS loci, illustrating how analyses of rare protein-modifying variants can solve this drawback of GWAS studies"
+      },
+      {
+        "question": "Are the ATP8B4 rare-variant associations driven by loss of function?",
+        "position": "This document notes that the odds ratio point estimate for ATP8B4 loss-of-function variants was close to 1, allowing that the driving missense variants may not act through a loss-of-function mechanism.",
+        "attributed_to": "Holstege et al., this document",
+        "quote": "the OR point estimate for ATP8B4 LOF variants was close to 1, allowing for the possibility that the missense variants that drive the ATP8B4 association do not depend on a LOF effect"
+      },
+      {
+        "question": "Is the rare-variant burden in GWAS loci independent of the GWAS sentinel variant?",
+        "position": "This document concludes that the associations persisted when restricted to very rare variants (MAF < 0.1%), suggesting the rare-variant burden is independent of the GWAS sentinel variant.",
+        "attributed_to": "Holstege et al., this document",
+        "quote": "the AD associations in these genes persisted when focusing on the burden of only the very rare variants (MAF < 0.1%), suggesting that the rare-variant burden is not in linkage with, and thus independent from, the GWAS sentinel variant"
+      }
+    ],
+    "linked_objects": [],
+    "trial_status_observation": {
+      "status": null,
+      "enrollment": null,
+      "phase": null,
+      "observed_at": null,
+      "source": null
+    },
+    "unlocatable_fields": [
+      "study.phase",
+      "study.followup",
+      "study.intervention",
+      "study.nct_ids",
+      "authors.affiliation",
+      "authors.orcid",
+      "authors.corresponding",
+      "safety.harms",
+      "safety.serious_adverse_events",
+      "safety.deaths",
+      "safety.discontinuations",
+      "trial_status_observation.status",
+      "trial_status_observation.enrollment",
+      "trial_status_observation.phase",
+      "trial_status_observation.observed_at",
+      "trial_status_observation.source"
+    ],
+    "_meta": {
+      "model": "claude (builder subagent)",
+      "extracted_at": "2026-08-13T16:42:17Z",
+      "source": "raw/holstege-2022-exome/document.md"
+    }
+  }
+}

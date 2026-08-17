@@ -1,0 +1,58 @@
+{
+  "kind": "other",
+  "title": "A Phase III, Multicenter, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group Efficacy and Safety Study of Trontinemab in Participants With Early Symptomatic Alzheimer's Disease (MCI to Mild Dementia Due to AD)",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2025-09",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "tau",
+    "biomarkers",
+    "immunotherapy",
+    "trontinemab",
+    "phase-3"
+  ],
+  "themes": [
+    "Phase 3 clinical trial",
+    "Trontinemab vs Placebo",
+    "Early symptomatic Alzheimer's disease",
+    "Amyloid and tau biomarkers"
+  ],
+  "one_line": "A Phase 3, randomized, double-blind, placebo-controlled clinical trial protocol evaluating the efficacy and safety of trontinemab in 800 participants with early symptomatic Alzheimer's disease.",
+  "summary": "This document is a clinical trial registry record for NCT07169578, a Phase 3 study sponsored by Hoffmann-La Roche. The trial evaluates the safety and efficacy of intravenous trontinemab against a placebo in individuals with early symptomatic Alzheimer's disease. It plans to enroll approximately 800 participants aged 50 to 90 years who have confirmed amyloid pathology. Participants must exhibit mild cognitive impairment or mild dementia due to Alzheimer's, along with specific baseline cognitive scores. The primary outcome measure is the change in the Clinical Dementia Rating, Sum of Boxes (CDR-SB) at Week 72. Secondary outcomes assess further cognitive and functional changes, alongside amyloid and tau load via PET imaging, and multiple fluid biomarkers. As of the retrieval date, the study is recruiting and has not yet posted results.",
+  "key_claims": [],
+  "methods": {
+    "design": "Phase III, Multicenter, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group",
+    "n": 800,
+    "population": "Individuals aged 50 to 90 years with early symptomatic Alzheimer's disease (MCI to mild dementia) and evidence of AD pathology",
+    "duration": "72 weeks",
+    "registration": "NCT07169578"
+  },
+  "funding_and_conflicts": "Hoffmann-La Roche is the lead sponsor; no specific investigator conflicts of interest are stated in the registry record.",
+  "limitations": [
+    "Study is currently recruiting; no data or results are available to assess.",
+    "Detailed statistical analysis plan is not included in the basic registry summary."
+  ],
+  "red_flags": [
+    "Typographical error in inclusion criteria ('score of 85 or order' instead of '85 or under'), which could cause minor confusion for screening."
+  ],
+  "parse_quality": {
+    "score": 9,
+    "issues": [
+      "Minor typographical error identified in the source text ('85 or order')."
+    ]
+  },
+  "search_verification": []
+}

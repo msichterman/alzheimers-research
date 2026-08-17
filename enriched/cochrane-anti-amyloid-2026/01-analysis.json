@@ -1,0 +1,186 @@
+{
+  "kind": "review",
+  "title": "Amyloid‐beta‐targeting monoclonal antibodies for people with mild cognitive impairment or mild dementia due to Alzheimer’s disease",
+  "authors": [
+    {
+      "name": "Nonino, F.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": true,
+      "conflicts": "Unpaid consultant of the European Medicine Agency's Scientific Advisory Group Neurology (SAG-N); practises as a neurologist within a public institution; declares no commercial or non-commercial conflicts of interest relevant to this review."
+    },
+    {
+      "name": "Richard, E.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Unpaid consultant of the European Medicine Agency's Scientific Advisory Group Neurology (SAG-N); declares no commercial or non-commercial conflicts of interest relevant to this review."
+    },
+    {
+      "name": "Filippini, G.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Joint Co-ordinating Editor of the Cochrane Multiple Sclerosis and Rare Diseases of the CNS; declares no commercial or non-commercial conflicts of interest relevant to this review."
+    },
+    {
+      "name": "Minozzi, S.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Declares no commercial or non-commercial conflicts of interest relevant to this review."
+    },
+    {
+      "name": "Del Giovane, C.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Declares no commercial or non-commercial conflicts of interest relevant to this review."
+    },
+    {
+      "name": "Bassi, M. C.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Gonzalez-Lorenzo, M.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Declares no commercial or non-commercial conflicts of interest relevant to this review."
+    },
+    {
+      "name": "De Santis, C.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Declares no commercial or non-commercial conflicts of interest relevant to this review."
+    },
+    {
+      "name": "Baldin, E.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Practises as a neurologist within a public institution; declares no commercial or non-commercial conflicts of interest relevant to this review."
+    },
+    {
+      "name": "Vignatelli, L.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Practises as a neurologist within a public institution; declares no commercial or non-commercial conflicts of interest relevant to this review."
+    },
+    {
+      "name": "Sambati, L.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Practises as a neurologist within a public institution; declares no commercial or non-commercial conflicts of interest relevant to this review."
+    },
+    {
+      "name": "CB",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Declares no commercial or non-commercial conflicts of interest relevant to this review."
+    }
+  ],
+  "first_author": "Nonino, F.",
+  "venue": "The Cochrane Database of Systematic Reviews",
+  "published": "2026",
+  "doi": "10.1002/14651858.CD016297",
+  "doi_url": "https://doi.org/10.1002/14651858.CD016297",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41985900",
+  "copyright": null,
+  "license": {
+    "name": "CC BY-NC 4.0",
+    "url": null,
+    "reuse": "redistribute",
+    "evidence": "This is an open access article under the terms of the Creative Commons Attribution-Non-Commercial Licence , which permits use, distribution and reproduction in any medium, provided the original work is properly cited and is not used for commercial purposes."
+  },
+  "tags": [
+    "review",
+    "amyloid",
+    "immunotherapy",
+    "monoclonal-antibodies",
+    "alzheimers-disease",
+    "mci"
+  ],
+  "themes": [
+    "Efficacy of anti-amyloid treatments",
+    "Risk of amyloid-related imaging abnormalities (ARIA)",
+    "Minimal clinically important differences",
+    "Validity of the amyloid cascade hypothesis",
+    "Safety profile of monoclonal antibodies"
+  ],
+  "one_line": "A systematic review of 17 randomized controlled trials finds that amyloid-beta-targeting monoclonal antibodies offer trivial clinical benefits for mild Alzheimer's disease while significantly increasing the risk of potentially severe brain edema and microhemorrhages.",
+  "summary": "This Cochrane systematic review evaluates the clinical benefits and harms of amyloid-beta-targeting monoclonal antibodies (e.g., lecanemab, donanemab, aducanumab) in individuals with mild cognitive impairment or mild dementia due to Alzheimer’s disease. Based on an analysis of 17 phase-3 randomized controlled trials encompassing 20,342 participants, the review demonstrates that successful clearance of brain amyloid plaques does not translate into clinically meaningful improvements. At 18 months, treatments resulted in only trivial differences in cognitive function, dementia severity, and functional ability compared to placebo, falling well below minimal clinically important difference thresholds. Conversely, the antibodies probably cause a significant absolute increase in both asymptomatic and symptomatic amyloid-related imaging abnormalities (ARIA), including edema and microhemorrhages. Given these small effect sizes, the high risk of ARIA, and the immense resource burden of administering and monitoring these therapies, the authors conclude that these treatments do not offer a favorable benefit-to-risk profile.",
+  "key_claims": [
+    {
+      "claim": "Amyloid-beta-targeting monoclonal antibodies result in little to no clinically meaningful difference in cognitive function at 18 months.",
+      "evidence": "Pooled SMD of -0.11 on the ADAS-Cog scale (95% CI -0.16 to -0.06), which translates to an absolute reduction of 0.85 points—well below the widely accepted minimal clinically important difference of 2 to 4 points.",
+      "strength": "strong",
+      "location": "Synthesis of results / Cognitive function"
+    },
+    {
+      "claim": "The treatments result in little to no difference in overall dementia severity at 18 months.",
+      "evidence": "Pooled SMD of -0.12 on the CDR-SB scale (95% CI -0.24 to 0.00), equating to a 0.29-point reduction, which is below the 1-2 point clinical significance threshold.",
+      "strength": "moderate",
+      "location": "Synthesis of results / Dementia severity"
+    },
+    {
+      "claim": "Anti-amyloid monoclonal antibodies increase the absolute risk of amyloid-related imaging abnormalities involving edema (ARIA E).",
+      "evidence": "Relative Risk of 10.02 (95% CI 7.49 to 13.41), representing an absolute risk difference of 107 more events per 1000 participants compared to placebo.",
+      "strength": "strong",
+      "location": "Synthesis of results / Any ARIA E"
+    },
+    {
+      "claim": "The treatments do not increase overall mortality or serious adverse events at 18 months.",
+      "evidence": "RR 1.17 for mortality (95% CI 0.74 to 1.86, or 2 more events per 1000) and RR 1.04 for serious adverse events (95% CI 0.94 to 1.16).",
+      "strength": "strong",
+      "location": "Synthesis of results / Serious adverse events (SAEs) & Mortality"
+    }
+  ],
+  "methods": {
+    "design": "Systematic review and meta-analysis of phase-3 randomised controlled trials",
+    "n": 20342,
+    "population": "Adults with a clinical diagnosis of mild cognitive impairment (MCI) or mild dementia due to probable or possible Alzheimer's disease",
+    "duration": "Follow-up of at least 12 months (primary analyses at 18, 24, and >24 months)",
+    "registration": "CRD420251114325"
+  },
+  "funding_and_conflicts": "The review was funded by the Drug and Medical Devices Governance Area, Regione Emilia-Romagna, Italy, and the Italian Ministry of Health ('Ricerca Corrente'). All 17 included primary trials were funded entirely by the pharmaceutical industry. Some review authors declare non-financial interests (unpaid consultants for EMA's SAG-N or public institution neurologists).",
+  "limitations": [
+    "Lack of transparent and separate reporting on symptomatic versus asymptomatic ARIA across the primary studies.",
+    "Short follow-up periods (mostly 18 months) relative to the chronic progression of Alzheimer's disease.",
+    "Lack of socioeconomic data and poor representation of non-white ethnicities in the primary trials limits external validity and equity assessment.",
+    "All included primary trials were funded and heavily controlled by the pharmaceutical industry."
+  ],
+  "red_flags": [
+    "Potential functional unblinding: Noticeable side effects (ARIA, infusion reactions) in the active treatment arms may have unblinded participants and assessors, positively biasing subjective outcome scales like CDR-SB.",
+    "The systematic failure of primary study authors to clearly report the clinical manifestations of ARIA (i.e., whether they were symptomatic) leaves a crucial gap in understanding the true severity of the adverse effects."
+  ],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "The explicit author byline was missing from the head of the document and had to be reconstructed from the 'Contributions of authors' section using initials.",
+      "Minor ligature and spacing artifacts persist (e.g., run-on words in the license string and hyphenation artifacts like 'Amyloid-beta-targeting')."
+    ]
+  },
+  "search_verification": [
+    "No external search performed; the DOI (10.1002/14651858.CD016297) and PMID (41985900) were explicitly provided in the document header and trusted per instructions."
+  ]
+}

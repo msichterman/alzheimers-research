@@ -1,0 +1,87 @@
+{
+  "overall": "skeptical",
+  "summary": "Public sentiment around bepranemab is largely constrained to scientific and pharma industry circles, where the tone is highly skeptical following the TOGETHER trial results. While the drug successfully engaged its target and reduced tau accumulation, it failed to meet its primary clinical endpoint of slowing disease progression. Pharma media heavily emphasized Roche's sudden exit from their partnership just prior to the data release, framing the trial as a clear clinical failure. Meanwhile, general patient, caregiver, and retail investor communities remain almost completely quiet, lacking the mainstream hype typically seen with FDA-approved therapies. Some researchers maintain a slightly mixed outlook due to post-hoc subgroup analyses showing potential benefit in specific populations.",
+  "communities": [
+    {
+      "community": "Science and Pharma Media",
+      "sentiment": "negative",
+      "themes": [
+        "Failure to meet primary clinical endpoint",
+        "Roche abandoning the partnership prior to data release",
+        "Biomarker success (tau reduction) not translating to clinical success"
+      ],
+      "example_urls": [
+        "https://www.fiercebiotech.com/biotech/ucbs-tau-drug-flunks-phase-2-alzheimers-trial-days-after-roches-exit-120m-bet",
+        "https://www.nature.com/articles/d41573-024-00180-7"
+      ]
+    },
+    {
+      "community": "Researchers and Neurologists (Alzforum)",
+      "sentiment": "mixed",
+      "themes": [
+        "Potential clinical benefit in subgroups (low baseline tau, no ApoE4)",
+        "Accelerated learning about the anti-tau hypothesis",
+        "Disconnect between tau PET imaging and cognitive scores"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/therapeutics/bepranemab"
+      ]
+    },
+    {
+      "community": "Patients and Caregivers (Reddit, Forums)",
+      "sentiment": "quiet",
+      "themes": [
+        "Lack of awareness or discussion about the experimental drug",
+        "Conversations focused on approved therapies rather than Phase II pipeline failures"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/"
+      ]
+    },
+    {
+      "community": "Retail Investors",
+      "sentiment": "quiet",
+      "themes": [
+        "No significant retail chatter regarding UCB stock or the drug's failure",
+        "Absence of retail hype typical of US-based biotech stocks"
+      ],
+      "example_urls": []
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "FierceBiotech",
+      "tone": "critical",
+      "date": "2024-11",
+      "url": "https://www.fiercebiotech.com/biotech/ucbs-tau-drug-flunks-phase-2-alzheimers-trial-days-after-roches-exit-120m-bet"
+    },
+    {
+      "outlet": "Nature",
+      "tone": "critical",
+      "date": "2024-11",
+      "url": "https://www.nature.com/articles/d41573-024-00180-7"
+    },
+    {
+      "outlet": "NeurologyLive",
+      "tone": "neutral",
+      "date": "2024-11",
+      "url": "https://www.neurologylive.com/view/anti-tau-agent-bepranemab-slows-tau-accumulation-phase-2-together-trial"
+    }
+  ],
+  "hype_vs_evidence": "The clinical evidence from the TOGETHER trial shows a clear failure to meet the primary clinical endpoint of slowing cognitive decline, despite successfully slowing tau accumulation on PET scans. However, UCB's press releases and the trial's publication abstract spin the biomarker reduction as a 'clinical benefit', relying heavily on post-hoc subgroup analyses. Media outlets and industry watchers correctly cut through the hype, identifying this as a clinical failure and highlighting that partner Roche abandoned the drug before data release. Public perception among patients and retail investors is virtually non-existent, reflecting how the drug failed to reach the mainstream hype associated with successful late-stage therapies.",
+  "misinformation_flags": [
+    "The abstract's overarching claim that bepranemab 'provides clinical benefit' is misleading and masks the fact that the drug failed to meet its primary clinical endpoint in the broader trial population."
+  ],
+  "searches_run": [
+    "site:reddit.com bepranemab",
+    "bepranemab reddit alzheimers",
+    "bepranemab caregiver forum",
+    "UCB stock bepranemab",
+    "mid-region tau alzheimer news",
+    "bepranemab failed clinical",
+    "bepranemab TOGETHER trial results alzforum",
+    "bepranemab UCB stock price drop alzheimer",
+    "site:reddit.com/r/investing UCB bepranemab",
+    "site:reddit.com/r/biotech bepranemab"
+  ]
+}

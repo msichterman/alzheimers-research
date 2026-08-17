@@ -1,0 +1,54 @@
+{
+  "kind": "other",
+  "title": "A Study to Test the Efficacy, Safety, and Tolerability of Bepranemab (UCB0107) in Patients With Mild Cognitive Impairment or Mild Alzheimer's Disease (AD)",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2021-04",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "tau",
+    "immunotherapy",
+    "bepranemab",
+    "ucb0107"
+  ],
+  "themes": [
+    "Clinical trial registration",
+    "Monoclonal antibody therapy",
+    "Prodromal to mild Alzheimer's disease",
+    "Tau burden assessment"
+  ],
+  "one_line": "A Phase 2 clinical trial registry record detailing a study to evaluate the efficacy and safety of the monoclonal antibody bepranemab in patients with prodromal to mild Alzheimer's disease.",
+  "summary": "This document is a ClinicalTrials.gov registry record (NCT04867616) outlining the design of a Phase 2, quadruple-blind, placebo-controlled study of bepranemab (UCB0107). The trial enrolled 466 participants aged 50 to 80 with prodromal to mild Alzheimer's disease and confirmed cerebral amyloid accumulation. The primary objective is to assess the change from baseline to Week 80 in the Clinical Dementia Rating Scale Sum of Boxes (CDR-SB). Secondary endpoints include safety measures, tau burden assessed by GTP1 PET, and cognitive and functional changes. The study completed in August 2025, but results are not yet posted to the registry.",
+  "key_claims": [],
+  "methods": {
+    "design": "Phase 2, interventional, randomized, quadruple-blind, placebo-controlled",
+    "n": 466,
+    "population": "Adults aged 50 to 80 years with prodromal/mild cognitive impairment due to AD or mild AD, and evidence of cerebral Aβ accumulation.",
+    "duration": "80-week double-blind treatment period, followed by an open-label extension",
+    "registration": "NCT04867616"
+  },
+  "funding_and_conflicts": "Lead sponsor: UCB Biopharma SRL. No individual conflicts of interest are stated in the registry record.",
+  "limitations": [
+    "Document is a clinical trial registry record only and contains no study results or efficacy data."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 10,
+    "issues": []
+  },
+  "search_verification": [
+    "Recognized document as a ClinicalTrials.gov registry record. No DOI or PubMed ID is expected for the registry entry itself."
+  ]
+}

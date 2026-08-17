@@ -1,0 +1,56 @@
+{
+  "id": "verubecestat-epoch",
+  "prepared_at": "2026-08-13T16:55:51.045Z",
+  "instructions": "Two independent extractions of the same retrieved document disagree on these fields. For each conflict, decide against the document which reading is correct — or that both are, or neither is. You are not told which pipeline produced which reading, and you must not guess.",
+  "conflicts": [
+    {
+      "conflict_id": "verubecestat-epoch#0",
+      "field": "study.intervention",
+      "reading_a": "verubecestat at doses of 12 mg and 40 mg per day",
+      "reading_b": "oral verubecestat 12 mg or 40 mg once daily; a 60-mg dose level was included only in the phase 2 lead-in safety cohort and was prespecified to be dropped for the phase 3 component",
+      "note": null
+    },
+    {
+      "conflict_id": "verubecestat-epoch#1",
+      "field": "safety.harms[macrohemorrhage].reported",
+      "reading_a": "reported",
+      "reading_b": "absent",
+      "note": null
+    },
+    {
+      "conflict_id": "verubecestat-epoch#2",
+      "field": "outcomes[change from baseline at week 78 in the CDR-SB score].tier",
+      "reading_a": "primary",
+      "reading_b": "secondary",
+      "note": null
+    },
+    {
+      "conflict_id": "verubecestat-epoch#3",
+      "field": "outcomes[change from baseline at week 78 in the MMSE score].tier",
+      "reading_a": "secondary",
+      "reading_b": "primary",
+      "note": null
+    },
+    {
+      "conflict_id": "verubecestat-epoch#4",
+      "field": "outcomes[change from baseline at week 78 in the NPI score].tier",
+      "reading_a": "primary",
+      "reading_b": "secondary",
+      "note": null
+    },
+    {
+      "conflict_id": "verubecestat-epoch#5",
+      "field": "outcomes[change from baseline to week 78 in cerebrospinal fluid concentrations of A-beta-40, A-beta-42 and sAPP-beta].tier",
+      "reading_a": "exploratory",
+      "reading_b": "secondary",
+      "note": null
+    },
+    {
+      "conflict_id": "verubecestat-epoch#6",
+      "field": "outcomes[primary].confidence_interval",
+      "reading_a": null,
+      "reading_b": null,
+      "note": "One reading found nothing here. Decide whether the document actually states this; 'neither' is correct if it does not."
+    }
+  ]
+}

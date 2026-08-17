@@ -1,0 +1,80 @@
+{
+  "kind": "other",
+  "title": "Efficacy and Safety Trial of Verubecestat (MK-8931) in Participants With Prodromal Alzheimer's Disease (MK-8931-019)",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2019-05",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "verubecestat",
+    "bace-inhibitor"
+  ],
+  "themes": [
+    "BACE inhibition",
+    "Prodromal Alzheimer's disease",
+    "Clinical trial outcomes",
+    "Drug safety and adverse events"
+  ],
+  "one_line": "A Phase III trial of the BACE inhibitor verubecestat in prodromal Alzheimer's disease was terminated, showing no clinical benefit and a possible worsening of cognition and adverse events compared to placebo.",
+  "summary": "This document is a ClinicalTrials.gov registry extract for a Phase III, randomized, placebo-controlled trial (NCT01953601 / APECS) evaluating the BACE1 inhibitor verubecestat (12 mg or 40 mg daily) in 1,454 participants with prodromal Alzheimer's disease. The study was structured with a 104-week base study (Part 1) and a planned 260-week extension (Part 2). Results demonstrated that neither dose of verubecestat improved the primary cognitive endpoint (change in CDR-SB at Week 104) compared to placebo. Notably, the 40 mg dose resulted in a statistically significant worsening of CDR-SB scores. Furthermore, verubecestat treatment was associated with a higher hazard ratio for progression to probable AD dementia and increased frequencies of overall adverse events and study discontinuations due to adverse events. Although the drug successfully reduced cortical amyloid load and CSF total tau, the trial was terminated due to a lack of clinical efficacy and unfavorable safety signals.",
+  "key_claims": [
+    {
+      "claim": "Verubecestat does not improve global cognitive function in prodromal Alzheimer's disease and significantly worsens it at higher doses.",
+      "evidence": "In Part 1, the difference in Least Squares Mean change for CDR-SB at Week 104 compared to placebo was 0.1 (p=0.6734) for the 12 mg dose and 0.4 (p=0.0141) for the 40 mg dose, indicating worse performance.",
+      "strength": "strong",
+      "location": "PRIMARY: Part 1 (Base Study). Least Squares Mean (LSM) Change From Baseline in Clinical Dementia Rating Sum of Boxes (CDR-SB) Score at Week 104"
+    },
+    {
+      "claim": "Verubecestat accelerates the progression to a clinical diagnosis of probable AD dementia.",
+      "evidence": "The event-rate per 100 participant-years for progression to probable AD dementia was significantly higher for verubecestat 12 mg (HR 1.301, p=0.0222) and 40 mg (HR 1.382, p=0.0050) compared to placebo.",
+      "strength": "strong",
+      "location": "SECONDARY: Part 1 (Base Study). Event-Rate Per 100 Participant Years for Progression to a Clinical Diagnosis of Probable AD Dementia"
+    },
+    {
+      "claim": "Verubecestat successfully engages its target, reducing brain cortical amyloid load.",
+      "evidence": "The Least Squares Mean Change from baseline in Composite Cortical Amyloid SUVR at Week 104 showed significant reductions compared to placebo for both 12 mg (-0.05 difference, p<0.0001) and 40 mg (-0.06 difference, p<0.0001) doses.",
+      "strength": "strong",
+      "location": "SECONDARY: Part 1 (Base Study). Least Squares Mean Change From Baseline in Composite Cortical Amyloid Standard Uptake Value Ratio (SUVR)..."
+    },
+    {
+      "claim": "Verubecestat is associated with an increased incidence of adverse events and discontinuations compared to placebo.",
+      "evidence": "In Part 1, 91.3% of the 12 mg group and 92.1% of the 40 mg group experienced ≥1 adverse event, compared to 87.0% in the placebo group. Discontinuations due to AEs were 6.6% (12 mg) and 10.1% (40 mg) vs 4.5% (placebo).",
+      "strength": "strong",
+      "location": "PRIMARY: Part 1 (Base Study). Percentage of Participants Who Experienced ≥1 Adverse Event (AE) / Percentage of Participants Who Discontinued From Study Drug Due to an Adverse Event (AE)"
+    }
+  ],
+  "methods": {
+    "design": "Phase III, randomized, placebo-controlled, parallel-group, double-blind clinical trial",
+    "n": 1454,
+    "population": "Individuals aged 50-85 with Amnestic Mild Cognitive Impairment Due to Alzheimer's Disease (Prodromal AD), with objective memory impairment and positive amyloid PET or CSF.",
+    "duration": "104 weeks for Part 1 (Base Study), with a planned up to 260-week extension (Part 2)",
+    "registration": "NCT01953601"
+  },
+  "funding_and_conflicts": "Lead sponsor: Merck Sharp & Dohme LLC. No individual author conflicts of interest are stated in this registry record.",
+  "limitations": [
+    "The document is a structured registry data export and lacks the narrative discussion, nuanced interpretation, or contextualization typically found in a peer-reviewed publication.",
+    "Because the overall study status is 'TERMINATED', long-term outcomes (like the 130-week extension data) are truncated or incomplete, limiting inferences about the long-term safety profile."
+  ],
+  "red_flags": [
+    "Worsening of the primary clinical endpoint (CDR-SB) and an increased hazard ratio for progression to AD dementia in the higher dose (40 mg) verubecestat group suggests target-related toxicity or cognitive detriment despite successful biomarker engagement."
+  ],
+  "parse_quality": {
+    "score": 10,
+    "issues": []
+  },
+  "search_verification": [
+    "Searched PubMed for NCT01953601 to verify if this text was a published article. Confirmed that while the APECS trial was published in NEJM (PMID 30970186), the provided document is strictly the ClinicalTrials.gov registry extract. Therefore, bibliographic publication identifiers and author lists have been explicitly set to null."
+  ]
+}

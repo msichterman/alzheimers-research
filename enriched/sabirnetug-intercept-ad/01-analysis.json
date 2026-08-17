@@ -1,0 +1,93 @@
+{
+  "kind": "research-paper",
+  "title": "INTERCEPT-AD, a phase 1 study of intravenous sabirnetug in participants with mild cognitive impairment or mild dementia due to Alzheimer's disease",
+  "authors": [],
+  "first_author": null,
+  "venue": "The Journal of Prevention of Alzheimer's Disease",
+  "published": "2024",
+  "doi": "10.1016/j.tjpad.2024.100005",
+  "doi_url": "https://doi.org/10.1016/j.tjpad.2024.100005",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39800458/",
+  "copyright": null,
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "http://creativecommons.org/licenses/by/4.0/",
+    "reuse": "redistribute",
+    "evidence": "This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/)."
+  },
+  "tags": [
+    "paper",
+    "trial",
+    "amyloid",
+    "immunotherapy",
+    "biomarkers",
+    "sabirnetug",
+    "acu193",
+    "mild-cognitive-impairment"
+  ],
+  "themes": [
+    "Phase 1 clinical trial",
+    "Amyloid-beta oligomer targeting",
+    "Monoclonal antibody safety",
+    "Target engagement in CSF",
+    "Amyloid related imaging abnormalities (ARIA)"
+  ],
+  "one_line": "A Phase 1 first-in-human trial of sabirnetug (ACU193), a monoclonal antibody targeting amyloid-beta oligomers, found it to be generally well-tolerated with dose-dependent central target engagement and amyloid plaque reduction in early Alzheimer's disease.",
+  "summary": "The INTERCEPT-AD study was a Phase 1, randomized, double-blind, placebo-controlled trial evaluating the safety, pharmacokinetics, and pharmacodynamics of sabirnetug in 65 participants with early symptomatic Alzheimer's disease. Sabirnetug is a humanized monoclonal antibody designed to selectively target soluble globular amyloid-beta oligomers. Participants received single ascending doses (up to 60 mg/kg) or multiple ascending doses (up to 60 mg/kg) intravenously. The drug was generally well tolerated, with amyloid-related imaging abnormalities (ARIA-E) occurring in 10.4% of treated participants, mostly asymptomatic and notably absent in the small subgroup of APOE ε4 homozygotes. Sabirnetug demonstrated dose-proportional pharmacokinetics and clear evidence of target engagement in the cerebrospinal fluid. Furthermore, treatment over three months led to unexpected reductions in amyloid plaque load on PET scans by approximately 20-25% at higher doses. These results supported the initiation of the subsequent Phase 2 ALTITUDE-AD trial.",
+  "key_claims": [
+    {
+      "claim": "Sabirnetug is generally well tolerated with a manageable safety profile in early Alzheimer's disease.",
+      "evidence": "Of 48 participants given sabirnetug, five developed ARIA-E, including one instance that was mildly symptomatic. Infusion reactions were not frequent (6.3% for sabirnetug versus 0.0% for placebo).",
+      "strength": "strong",
+      "location": "Results / Treatment-emergent adverse events"
+    },
+    {
+      "claim": "Sabirnetug demonstrates dose-dependent and exposure-dependent target engagement with amyloid-beta oligomers in the CSF.",
+      "evidence": "Pharmacokinetic/pharmacodynamic modeling showed target engagement approached maximal response in cohorts 6 (60 mg/kg Q4W) and 7 (25 mg/kg Q2W), with Emax = 22.71 AU/mL sabirnetug-AβO complex.",
+      "strength": "strong",
+      "location": "Results / Central target engagement of sabirnetug in cerebrospinal fluid"
+    },
+    {
+      "claim": "Multiple doses of sabirnetug reduce amyloid plaque load on PET scans.",
+      "evidence": "Over three months, approximately 25% and 20% reduction in amyloid plaques were observed in participants receiving three infusions of sabirnetug 60 mg/kg every four weeks and 25 mg/kg every two weeks, respectively.",
+      "strength": "moderate",
+      "location": "Results / Positron emission tomography"
+    },
+    {
+      "claim": "APOE ε4 homozygotes do not develop ARIA-E when treated with sabirnetug.",
+      "evidence": "None of the six apolipoprotein E ε4 homozygotes who received sabirnetug developed ARIA-E.",
+      "strength": "weak",
+      "location": "Results / Amyloid related imaging abnormalities"
+    }
+  ],
+  "methods": {
+    "design": "Randomized, double-blind, placebo-controlled, ascending dose first-in-human phase 1 study",
+    "n": 65,
+    "population": "Men and women aged 55 to 90 years with mild cognitive impairment or mild dementia due to Alzheimer's disease and positive amyloid PET scans",
+    "duration": "Single dose with 20-week follow-up (Part A); Three doses over 8-12 weeks with up to 20-week follow-up (Part B)",
+    "registration": "NCT04931459"
+  },
+  "funding_and_conflicts": "Funded by Acumen Pharmaceuticals, Inc. The 'Declaration of competing interest' states 'None', but the 'Role of the sponsor' section reveals that Acumen employees designed, conducted, and analyzed the study, and co-authored the paper.",
+  "limitations": [
+    "Small sample sizes per dose cohort (n=6 to n=8 in active groups)",
+    "Short duration of treatment (maximum of three doses over a few months)",
+    "Lack of statistical power for clinical cognitive endpoints",
+    "Exploratory nature of PET and cognitive assessments in a Phase 1 setting"
+  ],
+  "red_flags": [
+    "Contradictory conflict of interest statement: 'None' is declared immediately after disclosing that the sponsor's employees ran the study and wrote the paper.",
+    "Strong implications about APOE ε4 homozygotes lacking ARIA-E risk are based on an extremely small subgroup of just 6 participants.",
+    "Plaque reduction is emphasized despite the drug being specifically designed not to target plaque, potentially representing a post-hoc narrative shift."
+  ],
+  "parse_quality": {
+    "score": 7,
+    "issues": [
+      "The author list and affiliations are completely missing from the provided text.",
+      "Empty bracket reference citations (e.g., '[]', '[, , ]') throughout the text.",
+      "Tables 1, 2, and 3 have some parsing artifacts, missing visual structure for complex nested headers."
+    ]
+  },
+  "search_verification": [
+    "No web search performed; extracted metadata strictly from the provided text."
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT03634007",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03634007",
+      "name": "LX1001-01",
+      "drug": "LX1001 / AAVrh.10hAPOE2 (APOE2 gene therapy)",
+      "phase": "1/2",
+      "sponsor": "Lexeo Therapeutics",
+      "status": "Completed",
+      "enrollment": 15,
+      "population": "APOE4 homozygotes with mild cognitive impairment or mild-to-moderate Alzheimer's disease",
+      "primary_endpoint": "Safety and toxicity of intrathecal administration",
+      "started": "2019-11",
+      "completed_or_readout": "2024-11",
+      "results_summary": "Interim data reported detectable APOE2 protein in CSF across cohorts. At one year, reductions in total tau and phosphorylated tau were observed in a subset of participants, alongside a favorable safety and tolerability profile.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05400330",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05400330",
+      "name": "LX1001 Long-Term Follow-up",
+      "drug": "LX1001 / AAVrh.10hAPOE2 (APOE2 gene therapy)",
+      "phase": "1/2",
+      "sponsor": "Lexeo Therapeutics",
+      "status": "Active",
+      "enrollment": 15,
+      "population": "APOE4 homozygote Alzheimer's participants who previously received LX1001",
+      "primary_endpoint": "Long-term safety profile and occurrence of adverse events",
+      "started": "2023-05",
+      "completed_or_readout": "2028-11",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04770220",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04770220",
+      "name": "APOLLOE4",
+      "drug": "Valiltramiprosate / ALZ-801 (Aβ-oligomer inhibitor / GAG mimetic)",
+      "phase": "3",
+      "sponsor": "Alzheon Inc.",
+      "status": "Completed",
+      "enrollment": 325,
+      "population": "Early symptomatic Alzheimer's disease patients who are APOE4/4 homozygotes",
+      "primary_endpoint": "Change in ADAS-Cog13 score",
+      "started": "2021-05",
+      "completed_or_readout": "2024-07",
+      "results_summary": "The trial missed its primary clinical endpoint (ADAS-Cog13) in the overall early AD population, though it showed a statistically significant slowing of hippocampal atrophy (18%). Pre-specified analyses of the MCI subgroup suggested nominal cognitive benefits.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2024-08-16",
+      "kind": "paper",
+      "description": "Cureus review summarizing interim Phase 1/2 results of LX1001 (AAVrh.10hAPOE2) gene therapy showing target engagement and tau biomarker reductions.",
+      "url": "https://doi.org/10.7759/cureus.67037"
+    },
+    {
+      "date": "2025-11-01",
+      "kind": "paper",
+      "description": "Published peer-reviewed results of the Phase 3 APOLLOE4 trial of valiltramiprosate in APOE4/4 homozygotes.",
+      "url": "https://doi.org/10.1007/s40265-025-02250-5"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence directly supporting the APOE-R136S (Christchurch) mutation as a therapeutic intervention remains entirely in the preclinical and observational stages. There are currently no registered clinical trials testing Christchurch-mimicking drugs or R136S-specific gene therapies. However, the document's foundational hypothesis—that introducing a protective APOE variant can mitigate APOE4-driven Alzheimer's pathology—is currently being tested in the clinic by Lexeo Therapeutics (LX1001), which uses an AAV vector to deliver the protective APOE2 allele to APOE4 homozygotes. Interim Phase 1/2 results for LX1001 have demonstrated successful target engagement (APOE2 expression) and preliminary reductions in tau biomarkers, validating the gene therapy approach for APOE modulation. Meanwhile, other targeted approaches exclusively for the APOE4/4 population, such as the GAG-mimetic oligomer inhibitor ALZ-801, have faced hurdles, missing their primary cognitive endpoints in Phase 3 while showing some structural brain preservation.",
+  "discrepancies": [
+    "The document's strong claims regarding the APOE-R136S mutation rescuing APOE4-driven pathology are based exclusively on preclinical mouse and iPSC models; there are currently no clinical trials testing this specific mutation or its exact mechanism (HSPG blockade via R136S) in humans."
+  ]
+}

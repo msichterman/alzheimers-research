@@ -1,0 +1,100 @@
+{
+  "fact_check": [
+    {
+      "fact": "Gantenerumab did not significantly slow clinical decline, showing a -0.31 difference on the CDR-SB compared to placebo (p=0.0954).",
+      "status": "verified",
+      "note": "Checked against 'PRIMARY: DBT Period: Change From Baseline to Week 116 in Global Outcome, as Measured by CDR-SB'."
+    },
+    {
+      "fact": "Gantenerumab robustly reduced brain amyloid load by -66.44 centiloids.",
+      "status": "verified",
+      "note": "Checked against 'SECONDARY: DBT Period: Change From Baseline to Week 116 in Brain Amyloid Load'."
+    },
+    {
+      "fact": "Gantenerumab significantly improved CSF biomarkers of neurodegeneration, including tTau, pTau-181, and Neurogranin.",
+      "status": "verified",
+      "note": "Checked against 'SECONDARY: DBT Period: Percent Change From Baseline to Week 116 in Cerebrospinal Fluid (CSF) Marker of Disease' endpoints; all showed p < 0.001."
+    },
+    {
+      "fact": "105 participants on gantenerumab experienced ARIA-E vs 5 on placebo.",
+      "status": "verified",
+      "note": "Checked against 'SECONDARY: DBT Period: Number of Participants With at Least One Amyloid-Related Imaging Abnormalities-Edema (ARIA-E)'."
+    },
+    {
+      "fact": "40 participants on gantenerumab experienced ARIA-H vs 6 on placebo.",
+      "status": "verified",
+      "note": "Checked against 'SECONDARY: DBT Period: Number of Participants With at Least One Amyloid-Related Imaging Abnormalities-Haemosiderin Deposition (ARIA-H)'."
+    }
+  ],
+  "research_page": {
+    "slug": "gantenerumab-graduate-1-registry",
+    "title": "GRADUATE I: Gantenerumab Phase 3 Registry Results",
+    "description": "Phase 3 registry results showing subcutaneous gantenerumab cleared brain amyloid but failed to significantly slow clinical decline in early Alzheimer's disease.",
+    "tags": [
+      "trial",
+      "amyloid",
+      "immunotherapy",
+      "gantenerumab",
+      "registry"
+    ],
+    "source_line_md": "**Source**: [ClinicalTrials.gov, 2018](https://clinicaltrials.gov/study/NCT03444870)",
+    "authors_line_md": "Hoffmann-La Roche",
+    "takeaway_md": "In the Phase 3 GRADUATE I trial, gantenerumab robustly cleared brain amyloid plaques and improved downstream biomarkers. However, it failed to demonstrate a statistically significant slowing of clinical decline on the primary endpoint (CDR-SB), leading to the termination of the gantenerumab development program.",
+    "key_findings_md": [
+      "Gantenerumab did not significantly slow cognitive decline, showing a -0.31 difference on the CDR-SB at 116 weeks compared to placebo (p=0.0954) (Registry, Primary Outcome).",
+      "The drug successfully engaged its target, reducing brain amyloid load by a difference of -66.44 centiloids versus placebo (p < 0.0001) (Registry, Secondary Outcome).",
+      "Treatment significantly improved downstream CSF biomarkers of neurodegeneration, including total tau, pTau-181, and neurogranin (p < 0.001 for all) (Registry, Secondary Outcome).",
+      "ARIA-E occurred more frequently in the treatment group (105 participants) compared to placebo (5 participants) (Registry, Secondary Outcome).",
+      "Injection site reactions were more than twice as common in the treatment group (94 participants) than in the placebo group (43 participants) (Registry, Secondary Outcome)."
+    ],
+    "methods_md": "Phase 3, randomized, double-blind, placebo-controlled trial enrolling 1,053 participants aged 50-90 with early (prodromal to mild) Alzheimer's disease and confirmed amyloid pathology. Participants received subcutaneous gantenerumab (titrated to 510 mg every two weeks) or placebo over a 116-week double-blind treatment period (NCT03444870).",
+    "trial_evidence_md": "GRADUATE I ([NCT03444870](/trials/gantenerumab-graduate-1-nct03444870)) read out negative simultaneously with its sister trial GRADUATE II. Together, they conclusively demonstrated that gantenerumab's amyloid clearance did not translate to clinical efficacy, confirming earlier futility signals seen in the SCarlet RoAD, Marguerite RoAD, and DIAN-TU-001 trials. Consequently, Roche terminated the entire gantenerumab clinical development program.",
+    "sentiment_md": "Public perception following the trial's termination is markedly negative. For patients and investors, it represented another significant setback in Alzheimer's drug development. Within the scientific community, the stark disconnect between gantenerumab's successful target engagement (amyloid clearance) and its lack of clinical benefit fueled intense debate and renewed skepticism regarding the amyloid cascade hypothesis.",
+    "caveats_md": [
+      "This page reflects raw registry data; the peer-reviewed analysis combining these results with the sister GRADUATE II trial provides the definitive evaluation of the program.",
+      "The trial's China extension phase and long-term open-label extension were terminated early following the global futility results, leaving those endpoints incomplete."
+    ],
+    "relates_to_md": [
+      "[Two Phase 3 Trials of Gantenerumab in Early Alzheimer’s Disease](/research/papers/gantenerumab-graduate) — The peer-reviewed publication combining results from both GRADUATE I and II.",
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — The disconnect between gantenerumab's amyloid clearance and its lack of clinical efficacy became a central debate point in evaluating this hypothesis."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "gantenerumab-graduate-1-nct03444870",
+      "title": "GRADUATE I",
+      "description": "Phase 3 trial of subcutaneous gantenerumab in early Alzheimer's disease.",
+      "badge": "Terminated",
+      "tags": [
+        "trial",
+        "gantenerumab",
+        "phase-3",
+        "terminated"
+      ],
+      "registry_md": "[NCT03444870](https://clinicaltrials.gov/study/NCT03444870)",
+      "drug": "Gantenerumab",
+      "phase": "3",
+      "sponsor": "Hoffmann-La Roche",
+      "population": "Patients with early (prodromal to mild) Alzheimer's disease with evidence of amyloid pathology",
+      "primary_endpoint": "Change from baseline in CDR-SB at Week 116",
+      "started": "2018-06",
+      "readout": "2022-12",
+      "why_md": "GRADUATE I evaluated whether subcutaneous gantenerumab could slow cognitive decline in early Alzheimer's disease. Alongside GRADUATE II, it aimed to prove that an optimized, higher dosing strategy could achieve the clinical efficacy that eluded earlier trials.",
+      "status_log_md": [
+        "**2018-06-06** — Trial begins enrollment.",
+        "**2022-11-14** — Roche announces the trial failed to meet its primary endpoint, terminating the gantenerumab program.",
+        "**2022-12-28** — Primary completion date reached."
+      ],
+      "results_md": "The trial failed to meet its primary endpoint. Gantenerumab showed a non-significant treatment difference of -0.31 on the CDR-SB (p=0.0954) compared to placebo. Despite robust target engagement, including a significant reduction in brain amyloid and downstream tau biomarkers, the lack of clinical benefit led to the termination of the drug's development program."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2022-11",
+      "title": "2022-11 — Gantenerumab Phase 3 program terminated",
+      "body_md": "Roche discontinues development of gantenerumab after the [GRADUATE I](/research/papers/gantenerumab-graduate-1-registry) and II trials show that robust brain amyloid clearance failed to significantly slow clinical decline."
+    }
+  ],
+  "notes_for_editor": []
+}

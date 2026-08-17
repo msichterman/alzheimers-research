@@ -1,0 +1,182 @@
+{
+  "kind": "research-paper",
+  "title": "Masitinib for mild-to-moderate Alzheimer’s disease: results from a randomized, placebo-controlled, phase 3, clinical trial",
+  "authors": [
+    {
+      "name": "Dubois, Bruno",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "consultant fees from AB Science and Biogen and an institutional grant from Roche and Foundation Merck-Avenir"
+    },
+    {
+      "name": "López-Arrieta, Jesús",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Lipschitz, Stanley",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Triantafyllos, Doskas",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Spiru, Luiza",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Moroz, Svitlana",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Venger, Olena",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "no competing interests"
+    },
+    {
+      "name": "Vermersch, Patrick",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "honoraria and consulting fees from Biogen, Sanofi-Genzyme, Novartis, Teva, Merck, Roche, Celgene, Imcyse, and AB Science; and research grants from Sanofi-Genzyme, Roche, and Merck"
+    },
+    {
+      "name": "Moussy, Alain",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "employee and shareholder of AB Science"
+    },
+    {
+      "name": "Mansfield, Colin D.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "employee and shareholder of AB Science"
+    },
+    {
+      "name": "Hermine, Olivier",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "employee and shareholder of AB Science"
+    },
+    {
+      "name": "Tsolaki, Magda",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "no competing interests"
+    }
+  ],
+  "first_author": "Dubois, Bruno",
+  "venue": "Alzheimer's Research & Therapy",
+  "published": "2023",
+  "doi": "10.1186/s13195-023-01169-x",
+  "doi_url": "https://doi.org/10.1186/s13195-023-01169-x",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/36849969",
+  "copyright": null,
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "reuse": "redistribute",
+    "evidence": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were m"
+  },
+  "tags": [
+    "paper",
+    "trial",
+    "inflammation",
+    "small-molecule",
+    "masitinib",
+    "tyrosine-kinase-inhibitor",
+    "mast-cells"
+  ],
+  "themes": [
+    "Neuroimmune modulation",
+    "Tyrosine kinase inhibition",
+    "Clinical efficacy in mild-to-moderate AD",
+    "Protocol amendments and dose titration"
+  ],
+  "one_line": "A phase 3 clinical trial indicates that the tyrosine kinase inhibitor masitinib at 4.5 mg/kg/day significantly slows cognitive deterioration in mild-to-moderate Alzheimer's disease, though a higher dose arm failed to show a significant effect.",
+  "summary": "This document reports the results of AB09004, a randomized, double-blind, placebo-controlled phase 3 trial evaluating the efficacy and safety of the oral tyrosine kinase inhibitor masitinib in patients with mild-to-moderate Alzheimer's disease. Masitinib targets activated cells of the neuroimmune system, particularly mast cells and microglia. The study investigated a masitinib dose of 4.5 mg/kg/day as well as a separate titrated 6.0 mg/kg/day arm, both given as adjuncts to standard care. Results showed that patients receiving the 4.5 mg/kg/day dose experienced a significant cognitive benefit over 24 weeks compared to placebo, according to the primary ADAS-cog endpoint. A trend toward functional improvement was also observed on the ADCS-ADL scale. However, the titrated 6.0 mg/kg/day group failed to demonstrate significant efficacy. Safety findings were consistent with the known profile of masitinib, though a noticeably higher dropout rate was observed in the treatment arm compared to placebo.",
+  "key_claims": [
+    {
+      "claim": "Masitinib at 4.5 mg/kg/day significantly slows cognitive deterioration in mild-to-moderate Alzheimer's disease.",
+      "evidence": "Least-squares mean change from baseline to week 24 in ADAS-cog was -1.46 for masitinib vs 0.69 for placebo, yielding a between-group difference of -2.15 (p < 0.001).",
+      "strength": "strong",
+      "location": "Abstract / Results and Table 2"
+    },
+    {
+      "claim": "Masitinib 4.5 mg/kg/day demonstrates an overall functional improvement trend.",
+      "evidence": "ADCS-ADL primary endpoint between-group difference was 1.82 (p = 0.038), missing the required 2.5% alpha significance level.",
+      "strength": "moderate",
+      "location": "Abstract / Results and Table 2"
+    },
+    {
+      "claim": "Titrated masitinib at 6.0 mg/kg/day does not show a significant treatment effect.",
+      "evidence": "Between-group difference for ADAS-cog was -0.43 (p = 0.483) and for ADCS-ADL was 0.20 (p = 0.807).",
+      "strength": "strong",
+      "location": "Results / Primary efficacy analysis"
+    }
+  ],
+  "methods": {
+    "design": "Randomized, double-blind, placebo-controlled, parallel-group phase 3 trial",
+    "n": 718,
+    "population": "Patients aged ≥50 years with a clinical diagnosis of mild-to-moderate probable AD (MMSE score 12–25) treated with a cholinesterase inhibitor and/or memantine for at least 6 months",
+    "duration": "24 weeks",
+    "registration": "NCT01872598"
+  },
+  "funding_and_conflicts": "Funded by AB Science. Conflicts: AM, OH, and CDM are employees and shareholders of AB Science; BD and PV received consulting fees/honoraria from AB Science and other pharmaceutical companies. Other authors declared no competing interests.",
+  "limitations": [
+    "Lack of fluid- and imaging-based biomarkers to support underlying disease modification or target engagement.",
+    "Patient inclusion was based purely on standard clinical criteria without biological biomarker confirmation.",
+    "High premature discontinuation rate in the 4.5 mg/kg/day treatment arm (34.5%) compared to the pooled placebo group (14.6%)."
+  ],
+  "red_flags": [
+    "Protocol amendments altered the primary efficacy analysis from co-primary endpoints to multiple primary endpoints with a 2.5% significance level fallback after 81% of patients had reached the 24-week timepoint.",
+    "Significantly higher dropout rate in the masitinib arm (34.5%) versus placebo (14.6%), which may introduce bias despite imputation models.",
+    "Post-hoc analyses were presented to justify the failure of the 6.0 mg/kg/day arm, attributing it to an 'atypical improvement' in the placebo group.",
+    "The trial sponsor (AB Science) heavily participated in the design, conduct, data analysis, and reporting, with three authors being employees/shareholders."
+  ],
+  "parse_quality": {
+    "score": 9,
+    "issues": [
+      "Missing spaces in the license attribution text ('changes were m' truncated).",
+      "Empty or missing reference brackets in the background section ('[]', '[, ]').",
+      "Data tables converted into linear text, making columns slightly harder to isolate automatically."
+    ]
+  },
+  "search_verification": [
+    "Did not perform web search because DOI (10.1186/s13195-023-01169-x) and PMID (36849969) were clearly stated in the document text."
+  ]
+}

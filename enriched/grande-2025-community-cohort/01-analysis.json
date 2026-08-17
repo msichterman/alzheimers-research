@@ -1,0 +1,193 @@
+{
+  "kind": "research-paper",
+  "title": "Blood-based biomarkers of Alzheimer’s disease and incident dementia in the community",
+  "authors": [
+    {
+      "name": "Grande, Giulia",
+      "affiliation": null,
+      "orcid": "https://orcid.org/0000-0001-6312-3815",
+      "email": null,
+      "corresponding": true,
+      "conflicts": "none"
+    },
+    {
+      "name": "Valletta, Martina",
+      "affiliation": null,
+      "orcid": "https://orcid.org/0000-0003-0139-8287",
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Rizzuto, Debora",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Xia, Xin",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Qiu, Chengxuan",
+      "affiliation": null,
+      "orcid": "https://orcid.org/0000-0003-1922-4912",
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Orsini, Nicola",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Dale, Matilda",
+      "affiliation": null,
+      "orcid": "https://orcid.org/0000-0002-5788-7744",
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Andersson, Sarah",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Fredolini, Claudia",
+      "affiliation": null,
+      "orcid": "https://orcid.org/0000-0002-7674-2014",
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Winblad, Bengt",
+      "affiliation": null,
+      "orcid": "https://orcid.org/0000-0002-0011-1179",
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Laukka, Erika J.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Fratiglioni, Laura",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Vetrano, Davide L.",
+      "affiliation": null,
+      "orcid": "https://orcid.org/0000-0002-3099-4830",
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    }
+  ],
+  "first_author": "Grande, Giulia",
+  "venue": "Nature Medicine",
+  "published": "2025",
+  "doi": "10.1038/s41591-025-03605-x",
+  "doi_url": "https://doi.org/10.1038/s41591-025-03605-x",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40140622",
+  "copyright": null,
+  "license": {
+    "name": "CC BY 4.0",
+    "url": null,
+    "reuse": "redistribute",
+    "evidence": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made."
+  },
+  "tags": [
+    "paper",
+    "biomarkers",
+    "amyloid",
+    "tau",
+    "epidemiology",
+    "p-tau217",
+    "nfl",
+    "gfap"
+  ],
+  "themes": [
+    "Predictive performance of blood AD biomarkers",
+    "Community-based dementia screening",
+    "Long-term risk of AD dementia",
+    "Combining p-tau217 with NfL or GFAP"
+  ],
+  "one_line": "In a large community-based cohort, elevated blood levels of p-tau181, p-tau217, NfL, and GFAP predicted the onset of all-cause and Alzheimer's dementia up to 16 years later with high negative predictive value but low positive predictive value.",
+  "summary": "This population-based longitudinal study evaluated the clinical validity of six blood-based Alzheimer's disease biomarkers in a dementia-free cohort of 2,148 older adults from Sweden, followed for up to 16 years. Elevated baseline concentrations of p-tau181, p-tau217, neurofilament light chain (NfL), and glial fibrillary acidic protein (GFAP) were significantly associated with an increased hazard of both all-cause and Alzheimer's dementia. The biomarkers demonstrated strong predictive performance (AUCs between 71% and 83%) driven primarily by high negative predictive values exceeding 90%, while their positive predictive values remained low. Combining p-tau217 with NfL or GFAP improved positive predictive values to roughly 43%. Although these biomarkers show excellent utility for ruling out impending dementia in a community setting, the low positive predictive values indicate they are not yet suitable as standalone screening tools for asymptomatic individuals.",
+  "key_claims": [
+    {
+      "claim": "Elevated baseline levels of p-tau181, p-tau217, NfL, and GFAP are associated with a higher hazard of incident all-cause and AD dementia.",
+      "evidence": "Fully adjusted Cox regression models showed a dose-response relationship across quartiles (P < 0.001 for trend). For example, HRs for AD dementia in the top quartile vs bottom quartile were 3.69 for p-tau181, 3.27 for p-tau217, 5.01 for NfL, and 5.65 for GFAP.",
+      "strength": "strong",
+      "location": "Results / Table 2"
+    },
+    {
+      "claim": "Blood biomarkers have high negative predictive value (NPV) but low positive predictive value (PPV) for 10-year dementia incidence.",
+      "evidence": "NPVs for single biomarkers exceeded 90% (e.g., 94.8% for p-tau217), but PPVs were low (e.g., 33.3% for p-tau217). The highest single AUC for all-cause dementia was 82.6% for NfL.",
+      "strength": "strong",
+      "location": "Results / Table 3"
+    },
+    {
+      "claim": "Combining biomarkers improves positive predictive value for dementia prediction.",
+      "evidence": "Combining p-tau217 and NfL yielded a PPV of 43.1% and NPV of 95.1% for all-cause dementia (AUC 79.0%). Combining p-tau217 and GFAP yielded a PPV of 23.5% and NPV of 95.6% for AD dementia (AUC 71.2%).",
+      "strength": "moderate",
+      "location": "Results / Combination of biomarkers"
+    },
+    {
+      "claim": "Blood amyloid β42/40 ratio and total tau are not strongly associated with incident dementia in this community cohort.",
+      "evidence": "HRs for top vs bottom quartiles were not statistically significant (P for trend = 0.116 for Aβ42/40 and 0.076 for t-tau in AD dementia).",
+      "strength": "moderate",
+      "location": "Results / Table 2"
+    }
+  ],
+  "methods": {
+    "design": "Prospective population-based longitudinal cohort study",
+    "n": 2148,
+    "population": "Dementia-free older adults (aged 60 and older) from the SNAC-K cohort in Sweden",
+    "duration": "Up to 16 years (median 10.2 years)",
+    "registration": null
+  },
+  "funding_and_conflicts": "Funding from Swedish Research Council, Swedish Ministry of Health and Social Affairs, Stiftelsen Sigurd och Elsa Goljes minne, Hjärnfonden, Gamla Tjänarinnor foundation, and Karolinska Institutet. The authors declare no competing interests.",
+  "limitations": [
+    "Dementia diagnoses were purely clinical without neuroimaging or CSF biomarkers, risking misclassification.",
+    "Biomarkers were measured in serum rather than plasma, which might affect bioavailability and accuracy (especially for amyloid β).",
+    "Specific predictive cut-offs derived from the training sample were not externally validated in an independent cohort.",
+    "Missing baseline biomarker data for 823 individuals who were older, less educated, and had more comorbidities, likely underestimating the associations."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 7,
+    "issues": [
+      "Author names and affiliations were completely stripped from the markdown header; only initials remained in the Author Contributions section.",
+      "Spacing around some technical symbols and chemical names is occasionally missing (e.g., Aβ42/40).",
+      "Table cell alignments and paddings are slightly imperfect."
+    ]
+  },
+  "search_verification": [
+    "Checked Crossref API using DOI 10.1038/s41591-025-03605-x to retrieve the full printed author list and ORCIDs, as the PDF-to-Markdown conversion completely dropped the author block."
+  ]
+}

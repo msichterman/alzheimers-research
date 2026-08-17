@@ -1,0 +1,83 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT03186989",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03186989",
+      "name": "IONIS-MAPTRx Phase 1b",
+      "drug": "MAPT Rx / BIIB080 (tau-targeting antisense oligonucleotide)",
+      "phase": "1",
+      "sponsor": "Ionis Pharmaceuticals, Inc.",
+      "status": "Completed",
+      "enrollment": 46,
+      "population": "Mild Alzheimer's Disease",
+      "primary_endpoint": "Number of Participants With Adverse Events That Are Related to Treatment With ISIS 814907",
+      "started": "2017-10",
+      "completed_or_readout": "2022-05",
+      "results_summary": "The phase 1b trial showed that BIIB080 (MAPT Rx) was well-tolerated with mostly mild-to-moderate adverse events. It led to dose-dependent, sustained reductions in CSF total tau and p-tau181 concentrations. Exploratory findings noted a slightly greater increase in ventricular volume in treatment groups compared to placebo.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05399888",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05399888",
+      "name": "CELIA",
+      "drug": "Diranersen / BIIB080 (tau-targeting antisense oligonucleotide)",
+      "phase": "2",
+      "sponsor": "Biogen",
+      "status": "Active",
+      "enrollment": 416,
+      "population": "Mild Cognitive Impairment Due to Alzheimer's Disease or Mild AD Dementia Between 50 to 80 Years of Age",
+      "primary_endpoint": "Dose response in Change From Baseline to Week 76 on the CDR-SB",
+      "started": "2022-08",
+      "completed_or_readout": "2026-03",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT06454721",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06454721",
+      "name": null,
+      "drug": "Diranersen / [89Zr]Zr-DFO-Diranersen",
+      "phase": "1",
+      "sponsor": "Biogen",
+      "status": "Completed",
+      "enrollment": 5,
+      "population": "Healthy Volunteer",
+      "primary_endpoint": "CNS Biodistribution Assessed as the Percentage of Dose Taken up by Each Region of Interest",
+      "started": "2025-01",
+      "completed_or_readout": "2026-03",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2023-06",
+      "kind": "paper",
+      "description": "Primary Phase 1b trial results demonstrating MAPT Rx safety and robust dose-dependent reductions in CSF tau biomarkers in mild AD.",
+      "url": "https://doi.org/10.1038/s41591-023-02326-3"
+    },
+    {
+      "date": "2023-12-01",
+      "kind": "paper",
+      "description": "Exploratory tau biomarker results from the BIIB080 Phase 1b multiple ascending-dose study.",
+      "url": "https://doi.org/10.1001/jamaneurol.2023.3861"
+    },
+    {
+      "date": "2026-02",
+      "kind": "paper",
+      "description": "Exploratory analyses of clinical outcomes from the BIIB080 Phase 1b study in mild Alzheimer's disease.",
+      "url": "https://doi.org/10.1038/s43587-025-01031-9"
+    },
+    {
+      "date": "2022-05",
+      "kind": "registry-results",
+      "description": "Summary results posted on ClinicalTrials.gov for the Phase 1b study of IONIS-MAPTRx.",
+      "url": "https://clinicaltrials.gov/study/NCT03186989?tab=results"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence for MAPT Rx (diranersen/BIIB080) as a tau-lowering therapy is grounded in the completed Phase 1b study (NCT03186989), which robustly demonstrated safety and dose-dependent reductions in CSF tau biomarkers (t-tau and p-tau181). These biomarker reductions offer strong proof-of-concept for target engagement via antisense-mediated suppression of tau synthesis in the CNS. A larger Phase 2 trial (CELIA / NCT05399888) is evaluating clinical efficacy (measured by CDR-SB) and longer-term safety in patients with mild cognitive impairment or early AD dementia. While the Phase 1b trial noted mild adverse events (primarily post-lumbar puncture headaches) and a slight increase in ventricular volume requiring further longitudinal monitoring, the drug program remains active with no major clinical safety roadblocks reported to date. Overall, the evidence for target engagement is strong, but evidence for clinical efficacy is pending the Phase 2 readouts following its primary completion in early 2026.",
+  "discrepancies": []
+}

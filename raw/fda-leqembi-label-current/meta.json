@@ -1,0 +1,9 @@
+{
+  "id": "fda-leqembi-label-current",
+  "source": "sources/fda-leqembi-label-current.pdf",
+  "sha256": "9635683bd78e35fc465113d9d6b5123dc0724831a78d04f27403b8c1633c9aea",
+  "bytes": 1784701,
+  "chars": 82140,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:09.540Z"
+}

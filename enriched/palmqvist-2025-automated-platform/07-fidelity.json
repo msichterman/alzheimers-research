@@ -1,0 +1,371 @@
+{
+  "id": "palmqvist-2025-automated-platform",
+  "checked_at": "2026-08-13T17:06:54.197Z",
+  "builder_model": "claude (builder subagent)",
+  "critic_model": "gemini-3.1-pro-preview",
+  "fields_compared": 22,
+  "disagreements": 7,
+  "conflicts": 6,
+  "coverage_gaps": 1,
+  "agreement_rate": 0.682,
+  "passed": false,
+  "needs_adjudication": true,
+  "disagreement_rows": [
+    {
+      "field": "primary_endpoint_status.status",
+      "builder": "not_applicable",
+      "critic": "met",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "multiplicity.approach",
+      "builder": "None — the document states results were not corrected for multiple comparisons; AUCs were compared using DeLong statistics and accuracies/PPVs/NPVs with a bootstrap hypothesis test",
+      "critic": "none stated",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].name",
+      "builder": "Accuracy of plasma p-tau217 (Lumipulse) for AD pathology, single cutoff >0.27 pg/ml, Malmö secondary care cohort (cutoff derivation cohort)",
+      "critic": "AD pathology defined as abnormal cerebrospinal fluid Aβ42:p-tau181",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].met",
+      "builder": "not_applicable",
+      "critic": "met",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "accuracy 89% at single cutoff >0.27 pg ml−1 (established at 90% specificity in this same cohort)",
+      "critic": "0.93–0.96",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": "95% confidence interval (CI), 86–93%",
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].prespecified",
+      "builder": "no",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ],
+  "conflict_rows": [
+    {
+      "field": "primary_endpoint_status.status",
+      "builder": "not_applicable",
+      "critic": "met",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "multiplicity.approach",
+      "builder": "None — the document states results were not corrected for multiple comparisons; AUCs were compared using DeLong statistics and accuracies/PPVs/NPVs with a bootstrap hypothesis test",
+      "critic": "none stated",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].name",
+      "builder": "Accuracy of plasma p-tau217 (Lumipulse) for AD pathology, single cutoff >0.27 pg/ml, Malmö secondary care cohort (cutoff derivation cohort)",
+      "critic": "AD pathology defined as abnormal cerebrospinal fluid Aβ42:p-tau181",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].met",
+      "builder": "not_applicable",
+      "critic": "met",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "accuracy 89% at single cutoff >0.27 pg ml−1 (established at 90% specificity in this same cohort)",
+      "critic": "0.93–0.96",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].prespecified",
+      "builder": "no",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ],
+  "builder_values_not_found_in_document": [],
+  "critic_values_not_found_in_document": [],
+  "all_rows": [
+    {
+      "field": "study.design",
+      "builder": "Multi-cohort diagnostic accuracy validation of plasma p-tau217 using predefined biomarker cutoffs established in one secondary care cohort (Malmö) and then applied to four independent out-of-sample cohorts, four in secondary care and one in primary care",
+      "critic": "independent secondary care cohorts and a primary care cohort",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.n",
+      "builder": 1767,
+      "critic": 1767,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.population",
+      "builder": "1,767 patients with cognitive symptoms (subjective cognitive decline, mild cognitive impairment or dementia) recruited while undergoing a memory investigation in clinical practice. CARE SETTING: 1,219 from four secondary care specialist memory clinics / outpatient neurodegenerative clinics — Memory Clinic of Skåne University Hospital (Malmö, Sweden, n=337), Memory Clinic of Sahlgrenska University Hospital (Gothenburg, Sweden, n=165), Cognitive and Behavioural Neurology Unit (Barcelona, Spain, n=487) and the outpatient neurodegenerative clinic of Brescia University Hospital (Italy, n=230); and 548 from a primary care cohort recruited from 19 primary care units in the south of Sweden, where patients sought medical help in primary care for cognitive symptoms. REFERENCE STANDARD: AD pathology defined by the CSF Aβ42:p-tau181 ratio measured with the FDA-approved Lumipulse assay (cutoff <11.94), or a positive [18F]flutemetamol PET visual read for the 87 primary care participants who could not undergo lumbar puncture.",
+      "critic": "participants with cognitive symptoms",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.comparator",
+      "builder": "Comparator index tests: the plasma p-tau217:Aβ42 (Lumipulse) ratio and a mass-spectrometry-based method for plasma %p-tau217 (p-tau217:np-tau217 × 100), both compared against Lumipulse plasma p-tau217 as secondary analyses",
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "study.followup",
+      "builder": null,
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "study.intervention",
+      "builder": null,
+      "critic": "plasma phospho-tau217 (p-tau217) using predefined biomarker cutoffs",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.phase",
+      "builder": null,
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "primary_endpoint_status.status",
+      "builder": "not_applicable",
+      "critic": "met",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "multiplicity.approach",
+      "builder": "None — the document states results were not corrected for multiple comparisons; AUCs were compared using DeLong statistics and accuracies/PPVs/NPVs with a bootstrap hypothesis test",
+      "critic": "none stated",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].name",
+      "builder": "Accuracy of plasma p-tau217 (Lumipulse) for AD pathology, single cutoff >0.27 pg/ml, Malmö secondary care cohort (cutoff derivation cohort)",
+      "critic": "AD pathology defined as abnormal cerebrospinal fluid Aβ42:p-tau181",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].met",
+      "builder": "not_applicable",
+      "critic": "met",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": "accuracy 89% at single cutoff >0.27 pg ml−1 (established at 90% specificity in this same cohort)",
+      "critic": "0.93–0.96",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": "95% confidence interval (CI), 86–93%",
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].p_value",
+      "builder": null,
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].prespecified",
+      "builder": "no",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[primary].multiplicity_controlled",
+      "builder": "no",
+      "critic": "no",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[ARIA-E].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[ARIA-H].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[symptomatic ARIA].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[macrohemorrhage].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[death].reported",
+      "builder": "absent",
+      "critic": "absent",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.apoe_stratification_reported",
+      "builder": false,
+      "critic": false,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    }
+  ]
+}

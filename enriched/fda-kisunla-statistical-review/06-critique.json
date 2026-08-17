@@ -1,0 +1,317 @@
+{
+  "extracted_by": "gemini-3.1-pro-preview",
+  "extracted_at": "2026-08-13T16:53:29.753Z",
+  "independent": true,
+  "saw_builder_output": false,
+  "source": "raw/fda-kisunla-statistical-review/document.md",
+  "source_sha256": "024565fe8c129d3ef9c80343a8f5f240c0636217e8838c8eb9a1829eb7c82787",
+  "truncated": false,
+  "tokens": {
+    "in": 57424,
+    "out": 4754
+  },
+  "record": {
+    "document_kind": "regulatory_review",
+    "title": {
+      "value": "STATISTICAL REVIEW(S)",
+      "quote": "STATISTICAL REVIEW(S)",
+      "location": "Header"
+    },
+    "study": {
+      "design": {
+        "value": "multicenter, randomized, double-blind, placebo-controlled, Phase 3 study",
+        "quote": "Study AACI is a multicenter, randomized, double-blind, placebo-controlled, Phase 3 study of participants with early symptomatic AD.",
+        "location": "3.2.1.1 Design"
+      },
+      "n": {
+        "value": 1736,
+        "quote": "Of the 8,240 subjects assessed for eligibility, 1,736 subjects (donanemab 860, placebo 876) were randomized.",
+        "location": "3.2.3 Patient Disposition, Demographic and Baseline Characteristics"
+      },
+      "population": {
+        "value": "early symptomatic AD with the presence of brain amyloid and tau pathology (intermediate and high)",
+        "quote": "early symptomatic AD with the presence of brain amyloid and tau pathology (intermediate and high)",
+        "location": "Table 1 List of all studies included in analysis"
+      },
+      "biomarker_confirmation": {
+        "value": "flortaucipir F18 PET scan criteria for evidence of pathologic tau deposition, florbetapir F18 PET or florbetaben F18 PET scan criteria",
+        "quote": "Patient met flortaucipir F18 PET scan criteria for evidence of pathologic tau deposition\n- Patient met florbetapir F18 PET or florbetaben F18 PET scan criteria",
+        "location": "3.2.1.1 Design, Study Population"
+      },
+      "cohorts": [],
+      "comparator": {
+        "value": "placebo IV Q4W",
+        "quote": "Placebo: Q4W",
+        "location": "3.2.1.1 Design"
+      },
+      "followup": {
+        "value": "76 weeks",
+        "quote": "Participants received up to 72 weeks of treatment. Participants had planned assessments every 4 weeks after randomization with final endpoint measures and safety assessments performed 4 weeks following the last dose",
+        "location": "3.2.1.1 Design"
+      },
+      "intervention": {
+        "value": "Donanemab: 700 mg administered by intravenous (IV) infusion once every four weeks (Q4W) for the first 3 doses, then 1400 mg IV Q4W",
+        "quote": "Donanemab: 700 mg administered by intravenous (IV) infusion once every four weeks (Q4W) for the first 3 doses, then 1400 mg IV Q4W",
+        "location": "3.2.1.1 Design"
+      },
+      "n_description": {
+        "value": "randomized",
+        "quote": "Of the 8,240 subjects assessed for eligibility, 1,736 subjects (donanemab 860, placebo 876) were randomized.",
+        "location": "3.2.3 Patient Disposition, Demographic and Baseline Characteristics"
+      },
+      "nct_ids": [],
+      "phase": {
+        "value": "Phase 3",
+        "quote": "Study AACI is a multicenter, randomized, double-blind, placebo-controlled, Phase 3 study",
+        "location": "3.2.1.1 Design"
+      }
+    },
+    "outcomes": [
+      {
+        "name": "iADRS (integrated Alzheimer’s Disease Rating Scale) change from baseline at Week 76",
+        "tier": "primary",
+        "prespecified": "yes",
+        "met": "met",
+        "quote": "Study AACI showed that the donanemab arm compared to the placebo arm had statistically significantly less decline at Week 76 as measured by iADRS: intermediate tau population (3.3; 95% CI 1.9, 4.6; p < 0.001); overall population (2.9; 95% CI 1.5, 4.3; p < 0.001).",
+        "location": "1 EXECUTIVE SUMMARY",
+        "confidence_interval": "95% CI 1.5, 4.3",
+        "effect_estimate": "2.9",
+        "multiplicity_controlled": "yes",
+        "p_value": "p < 0.001",
+        "prespecification_evidence": "A natural cubic spline analysis with 2 degrees of freedom was pre-specified to assess the difference between treatment groups."
+      },
+      {
+        "name": "CDR-SB (Clinical Dementia Rating Scale – Sum of Boxes) change from baseline at Week 76",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "met",
+        "quote": "The donanemab arm compared to the placebo arm had statistically significantly less decline at Week 76 as measured by the secondary endpoint CDR-SB: intermediate tau population (-0.7; 95% CI -1.0, -0.4; p < 0.001); overall population (-0.7; 95% CI -1.0, -0.5; p < 0.001).",
+        "location": "1 EXECUTIVE SUMMARY",
+        "confidence_interval": "95% CI -1.0, -0.5",
+        "effect_estimate": "-0.7",
+        "multiplicity_controlled": "yes",
+        "p_value": "p < 0.001",
+        "prespecification_evidence": "Endpoints tested with multiplicity control:\n- CDR-SB change from baseline at Week 76"
+      },
+      {
+        "name": "ADCS-iADL change from baseline at Week 76",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "met",
+        "quote": "At Week 76, the donanemab arm compared to the placebo arm had statistically significantly less decline as measured by ADCS-iADL. The difference in adjusted mean change from baseline of ADCS-iADL in the intermediate tau population was 1.8 (95% CI 0.9, 2.7; p-value < 0.001) and the overall population was 1.7 (95% CI 0.8, 2.6; p-value < 0.001",
+        "location": "3.2.4.2 Analysis of Select Clinical Endpoints",
+        "confidence_interval": "95% CI 0.8, 2.6",
+        "effect_estimate": "1.7",
+        "multiplicity_controlled": "yes",
+        "p_value": "p-value < 0.001",
+        "prespecification_evidence": "Endpoints tested with multiplicity control:\n- ADCS-iADL change from baseline at Week 76"
+      },
+      {
+        "name": "ADAS-Cog13 change from baseline at Week 76",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "met",
+        "quote": "At Week 76, the donanemab arm compared to the placebo arm had statistically significantly less decline as measured by ADAS-COG13. The difference in adjusted mean change from baseline of ADAS-COG13 in the intermediate tau population was -1.5 (95% CI -2.3, -0.8; p-value < 0.001) and the overall population was -1.3 (95% CI -2.1, -0.6; p-value < 0.001)",
+        "location": "3.2.4.2 Analysis of Select Clinical Endpoints",
+        "confidence_interval": "95% CI -2.1, -0.6",
+        "effect_estimate": "-1.3",
+        "multiplicity_controlled": "yes",
+        "p_value": "p-value < 0.001",
+        "prespecification_evidence": "Endpoints tested with multiplicity control:\n- ADAS-Cog13 change from baseline at Week 76"
+      },
+      {
+        "name": "Time to substantial decline in CDR global score (CDR-G) by Week 76",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "met",
+        "quote": "By Week 76, the donanemab arm compared to the placebo arm had statistically significantly less risk for substantial decline in CDR-G. The hazard ratio (HR) in the intermediate tau population was 0.6 (95% CI 0.5, 0.8; p-value < 0.001) and the overall population was 0.6 (95% CI 0.5, 0.8; p-value < 0.001)",
+        "location": "3.2.4.2 Analysis of Select Clinical Endpoints",
+        "confidence_interval": "95% CI 0.5, 0.8",
+        "effect_estimate": "0.6",
+        "multiplicity_controlled": "yes",
+        "p_value": "p-value < 0.001",
+        "prespecification_evidence": "Endpoints tested with multiplicity control:\n- Time to substantial decline in CDR global score (CDR-G) by Week 76"
+      },
+      {
+        "name": "Amyloid centiloid (CL) change from baseline at Week 76",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "met",
+        "quote": "At Week 76, the donanemab arm compared to the placebo arm had statistically significantly more amyloid plaque reduction as measured by amyloid PET (centiloid units). The difference in adjusted mean change from baseline in amyloid centiloids in the intermediate tau population was -88.2 (95% CI -91.2, -85.2; p < 0.0001) and the overall population was -86.4 (95% CI -88.9, -83.9; p < 0.0001)",
+        "location": "3.2.4.4 Analysis of Amyloid PET",
+        "confidence_interval": "95% CI -88.9, -83.9",
+        "effect_estimate": "-86.4",
+        "multiplicity_controlled": "yes",
+        "p_value": "p < 0.0001",
+        "prespecification_evidence": "Endpoints tested with multiplicity control:\n- Amyloid centiloid (CL) change from baseline at Week 76"
+      }
+    ],
+    "primary_endpoint_status": {
+      "status": "met",
+      "quote": "Study AACI showed that the donanemab arm compared to the placebo arm had statistically significantly less decline at Week 76 as measured by iADRS: intermediate tau population (3.3; 95% CI 1.9, 4.6; p < 0.001); overall population (2.9; 95% CI 1.5, 4.3; p < 0.001).",
+      "explanation": "The primary endpoint of iADRS change from baseline at Week 76 was met in both the intermediate tau and overall populations."
+    },
+    "safety": {
+      "harms": [
+        {
+          "name": "death",
+          "arm": "Donanemab",
+          "quote": "At 76 weeks, the cumulative incidence (i.e. cumulative percentage) of death for donanemab is 2.2% versus 1.2% for placebo",
+          "location": "4.1. Trial AACI",
+          "apoe_stratum": null,
+          "count": "17",
+          "denominator": "853",
+          "percentage": "2.2%"
+        },
+        {
+          "name": "death",
+          "arm": "Placebo",
+          "quote": "At 76 weeks, the cumulative incidence (i.e. cumulative percentage) of death for donanemab is 2.2% versus 1.2% for placebo",
+          "location": "4.1. Trial AACI",
+          "apoe_stratum": null,
+          "count": "10",
+          "denominator": "874",
+          "percentage": "1.2%"
+        },
+        {
+          "name": "death",
+          "arm": "Donanemab",
+          "quote": "Mortality at 76 weeks+57 days",
+          "location": "Table 5A",
+          "apoe_stratum": null,
+          "count": "19",
+          "denominator": "853",
+          "percentage": "2.5%"
+        },
+        {
+          "name": "death",
+          "arm": "Placebo",
+          "quote": "Mortality at 76 weeks+57 days",
+          "location": "Table 5A",
+          "apoe_stratum": null,
+          "count": "11",
+          "denominator": "874",
+          "percentage": "1.4%"
+        }
+      ],
+      "apoe_stratification_reported": false,
+      "deaths": {
+        "value": "17 (2.2%) on donanemab and 10 (1.2%) on placebo at 76 weeks",
+        "quote": "At 76 weeks, the cumulative incidence (i.e. cumulative percentage) of death for donanemab is 2.2% versus 1.2% for placebo",
+        "location": "4.1. Trial AACI"
+      },
+      "discontinuations": {
+        "value": "221 (25.9%) on donanemab and 170 (19.5%) on placebo",
+        "quote": "Of the 853 participants randomized to donanemab, 221 (25.9%) discontinued the trial early. Of the 874 participants randomized to placebo, 170 (19.5%) discontinued the trial early.",
+        "location": "3. Assessment of Trial Disposition"
+      },
+      "serious_adverse_events": {
+        "value": "148 (17.4%) on donanemab and 138 (15.8%) on placebo",
+        "quote": "SAE Incidence 148 (17.4%) 138 (15.8%)",
+        "location": "Table 2 Tabular summary of AE and SAE Incidence at Week 76 + 57 Days, Trial AACI (Safety Population)"
+      }
+    },
+    "unlocatable_fields": [
+      "nct_ids",
+      "cohorts"
+    ],
+    "authors": [
+      {
+        "name": "Ping Li",
+        "affiliation": "Division of Analytics and Informatics (DAI)",
+        "corresponding": false,
+        "orcid": null
+      },
+      {
+        "name": "Fengyu Zhao",
+        "affiliation": "Division of Biometrics VII (DBVII)",
+        "corresponding": false,
+        "orcid": null
+      },
+      {
+        "name": "Yueqin Zhao",
+        "affiliation": "Division of Biometrics VII (DBVII)",
+        "corresponding": false,
+        "orcid": null
+      },
+      {
+        "name": "Mat Soukup",
+        "affiliation": "Division of Biometrics VII (DBVII)",
+        "corresponding": false,
+        "orcid": null
+      },
+      {
+        "name": "Van Tran",
+        "affiliation": "DBI",
+        "corresponding": false,
+        "orcid": null
+      },
+      {
+        "name": "Xiaofeng (Tina) Wang",
+        "affiliation": "DBI",
+        "corresponding": false,
+        "orcid": null
+      },
+      {
+        "name": "John P. Lawrence",
+        "affiliation": "DBI",
+        "corresponding": false,
+        "orcid": null
+      },
+      {
+        "name": "James Hung",
+        "affiliation": "DBI",
+        "corresponding": false,
+        "orcid": null
+      },
+      {
+        "name": "Tristan Massie",
+        "affiliation": "Division of Biometrics I",
+        "corresponding": false,
+        "orcid": null
+      }
+    ],
+    "conflicts": [],
+    "disagreements": [
+      {
+        "question": "Primary endpoint selection",
+        "position": "The Division had not agreed to iADRS as the primary endpoint and had advised instead CDR-SB (Clinical Dementia Rating Scale – Sum of Boxes) as one of the alternatives.",
+        "attributed_to": "FDA Division",
+        "quote": "The Division had not agreed to iADRS as the primary endpoint and had advised instead CDR-SB (Clinical Dementia Rating Scale – Sum of Boxes) as one of the alternatives."
+      },
+      {
+        "question": "Primary statistical analysis model",
+        "position": "MMRM had typically been used in AD studies, including study AACG, as the primary analysis model. However, for study AACI, Sponsor proposed natural cubic splines with 2 degrees of freedom (NCS2) based on analyses that showed NCS2 attaining higher statistical power compared to MMRM. After Sponsor responded to the Division’s concerns about bias and Type I error inflation, the Division agreed to the NCS2 model as the primary analysis model.",
+        "attributed_to": "FDA Division",
+        "quote": "MMRM had typically been used in AD studies, including study AACG, as the primary analysis model. However, for study AACI, Sponsor proposed natural cubic splines with 2 degrees of freedom (NCS2) based on analyses that showed NCS2 attaining higher statistical power compared to MMRM. After Sponsor responded to the Division’s concerns about bias and Type I error inflation, the Division agreed to the NCS2 model as the primary analysis model."
+      }
+    ],
+    "funding": [],
+    "limitations": [],
+    "linked_objects": [],
+    "multiplicity": {
+      "approach": "Bretz’s graphical approach",
+      "location": "3.2.2.5 Multiplicity Control",
+      "quote": "A prespecified hypothesis testing plan employed Bretz’s graphical approach (Bretz et al. 2009, 2011) to provide control of the study-wise Type I error rate for the primary and key secondary hypotheses at 2-sided level α=0.05."
+    },
+    "risk_of_bias": [
+      {
+        "domain": "missing data",
+        "judgement": "High missing data rates can result in efficacy and safety estimates that are unreliable for decision making.",
+        "quote": "Study discontinuation was high with the donanemab arm having a higher rate compared to the placebo arm (27% vs. 20%). The tipping point analysis to assess sensitivity of the CDR-SB primary analysis to missing data assumptions showed that the results in both the intermediate tau and overall population were not statistically significant near the delta pair (0, 0.5), where 0.5 is the minimum within-subject scale increment change."
+      },
+      {
+        "domain": "handling of death",
+        "judgement": "Ignoring deaths, a negative outcome, could bias the primary analysis result for these endpoints.",
+        "quote": "Another issue was the handling of death, which resulted in missing data, in the primary analysis of clinical endpoints. Although Sponsor was advised to account for death in the primary efficacy analysis, Sponsor instead assumed death was not informative and treated measurements after death as being missing; thereby, ignoring the severity of death in a patient’s disease trajectory."
+      }
+    ],
+    "trial_status_observation": {
+      "status": "completed",
+      "observed_at": "April 14, 2023",
+      "source": "data cut-off date",
+      "enrollment": "1736",
+      "phase": "Phase 3"
+    }
+  }
+}

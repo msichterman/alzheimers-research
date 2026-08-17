@@ -1,0 +1,81 @@
+{
+  "kind": "other",
+  "title": "HIGHLIGHTS OF PRESCRIBING INFORMATION: KISUNLA (donanemab-azbt) injection",
+  "authors": [],
+  "first_author": null,
+  "venue": "U.S. Food and Drug Administration / Eli Lilly and Company",
+  "published": "2024-07",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": "Copyright © 2024, Eli Lilly and Company. All rights reserved.",
+  "license": {
+    "name": "all rights reserved",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": "Copyright © 2024, Eli Lilly and Company. All rights reserved."
+  },
+  "tags": [
+    "immunotherapy",
+    "amyloid",
+    "trial",
+    "donanemab",
+    "fda-label",
+    "adverse-events"
+  ],
+  "themes": [
+    "Donanemab efficacy in early Alzheimer's disease",
+    "Amyloid-related imaging abnormalities (ARIA) risk and management",
+    "ApoE ε4 genotype as a risk factor for ARIA",
+    "Dosing interruption based on amyloid plaque clearance"
+  ],
+  "one_line": "FDA prescribing information and medication guide for KISUNLA (donanemab-azbt), detailing indications, dosage, warnings (particularly ARIA), and clinical efficacy for early symptomatic Alzheimer's disease.",
+  "summary": "KISUNLA (donanemab-azbt) is an FDA-approved monoclonal antibody directed against aggregated forms of beta amyloid. It is indicated for the treatment of mild cognitive impairment or mild dementia stages of Alzheimer's disease. Treatment involves intravenous infusions every four weeks, with a recommendation to consider stopping once amyloid plaques are reduced to minimal levels on PET imaging. The label includes a boxed warning for Amyloid Related Imaging Abnormalities (ARIA), which can cause serious or life-threatening edema (ARIA-E) and microhemorrhages (ARIA-H). The risk of ARIA is notably higher in ApoE ε4 homozygotes, prompting recommendations for genetic testing prior to treatment. Clinical efficacy was demonstrated in Study 1 (NCT04437511), where donanemab significantly slowed clinical decline on the iADRS and CDR-SB scales compared to placebo over 76 weeks.",
+  "key_claims": [
+    {
+      "claim": "KISUNLA significantly reduces clinical decline in early Alzheimer's disease.",
+      "evidence": "In Study 1, the combined population showed a statistically significant reduction in decline on CDR-SB (-0.70 difference from placebo, representing 29% slowing, p<0.0001) and iADRS at Week 76.",
+      "strength": "strong",
+      "location": "14 CLINICAL STUDIES, Table 8"
+    },
+    {
+      "claim": "KISUNLA robustly clears brain amyloid beta plaque.",
+      "evidence": "Amyloid Beta PET Centiloid adjusted mean change from baseline was -87.0 compared to -0.7 for placebo (difference of -86.4, p<0.0001).",
+      "strength": "strong",
+      "location": "12.2 Pharmacodynamics, Table 7"
+    },
+    {
+      "claim": "Treatment with KISUNLA carries a substantial risk of Amyloid Related Imaging Abnormalities (ARIA).",
+      "evidence": "ARIA was observed in 36% of KISUNLA-treated patients vs 14% on placebo; the incidence of severe radiographic ARIA-E and ARIA-H was highest in ApoE ε4 homozygotes.",
+      "strength": "strong",
+      "location": "5.1 Amyloid Related Imaging Abnormalities"
+    }
+  ],
+  "methods": {
+    "design": "Double-blind, placebo-controlled, parallel-group clinical trial (Study 1)",
+    "n": 1736,
+    "population": "Patients with confirmed presence of amyloid pathology and mild cognitive impairment or mild dementia stage of Alzheimer’s disease",
+    "duration": "Up to 76 weeks",
+    "registration": "NCT04437511"
+  },
+  "funding_and_conflicts": "Eli Lilly and Company (implied as manufacturer and sponsor).",
+  "limitations": [
+    "No data exists beyond the 76-week duration of Study 1 to guide whether additional dosing may be needed for longer-term clinical benefit.",
+    "There are limited data for dosing patients who have experienced recurrent episodes of ARIA-E.",
+    "Limited exposure to non-aspirin antithrombotic medications prevents definitive conclusions about intracerebral hemorrhage risks in those patients.",
+    "Safety and effectiveness in pediatric patients have not been established."
+  ],
+  "red_flags": [
+    "Amyloid PET values began to increase at a median rate of 2.80 Centiloids/year during the off-treatment period after dosing was stopped.",
+    "Minor discrepancy in study duration reporting: the text describes patients being randomized 'for a total of up to 72 weeks', but primary efficacy endpoints and tables are reported at 'Week 76'."
+  ],
+  "parse_quality": {
+    "score": 6,
+    "issues": [
+      "Loss of tabular structure resulting in linear, confusing text for Tables 2, 3, 4, and 5.",
+      "Severe OCR artifacts and garbled text from Figure 2's chart axes (e.g., '0.0 w en 0, I0.5 C>+ C a, n:s I.. .c 0 1.0 ( )').",
+      "The Medication Guide at the end is completely mangled into disjointed, pipe-delimited fragments."
+    ]
+  },
+  "search_verification": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "tilavonemab-early-ad",
+  "adjudicated_at": "2026-08-13T16:57:19Z",
+  "rulings": [
+    {
+      "conflict_id": "tilavonemab-early-ad#0",
+      "field": "study.population",
+      "verdict": "both",
+      "correct_value": "adults aged 55–85 years who met the National Institute on Aging and the Alzheimer’s Association criteria for mild cognitive impairment or probable Alzheimer’s disease and had a Clinical Dementia Rating (CDR) global score of 0.5 at screening Visit 1, a Mini-Mental State Examination (MMSE) score of 22 to 30, inclusive, at screening Visit 1, and a Repeated Battery for the Assessment of Neuropsychological Status-Delayed Memory Index (RBANS-DMI) score of ≤85; a positive amyloid PET scan; a Modified Hachinski Ischemic Scale score of ≤4",
+      "quote": "Eligible patients were adults aged 55–85 years who met the National Institute on Aging and the Alzheimer’s Association criteria for mild cognitive impairment or probable Alzheimer’s disease and had a Clinical Dementia Rating (CDR) global score of 0.5 at screening Visit 1, a Mini-Mental State Examination (MMSE) score of 22 to 30, inclusive, at screening Visit 1, and a Repeated Battery for the Assessment of Neuropsychological Status-Delayed Memory Index (RBANS-DMI) score of ≤85; a positive amyloid PET scan; a Modified Hachinski Ischemic Scale score of ≤4",
+      "reasoning": "The two readings are the same eligibility criteria at different levels of detail — reading B abbreviates NIA-AA and drops the 'at screening Visit 1' qualifiers — and reading A reproduces the document's sentence essentially verbatim, so it is the value that should stand."
+    }
+  ],
+  "notes": [
+    "Neither reading mentions the further criterion in the same sentence — a reliable study partner able to provide information on the patient's cognitive and functional abilities — which a maintainer may wish to add to the population field.",
+    "For this trial the clinical efficacy measure genuinely is primary: 'The primary efficacy end point was the change from baseline to Week 96 in Clinical Dementia Rating-Sum of Boxes (CDR-SB) score.' Safety evaluations (adverse events, MRI) are described as evaluations rather than as a designated primary endpoint, unlike the companion anti-tau trials in this batch."
+  ]
+}

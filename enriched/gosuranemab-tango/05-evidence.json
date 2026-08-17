@@ -1,0 +1,1357 @@
+{
+  "document_kind": "journal_article",
+  "title": {
+    "value": "TANGO: a placebo-controlled randomized phase 2 study of efficacy and safety of the anti-tau monoclonal antibody gosuranemab in early Alzheimer’s disease",
+    "quote": "TANGO: a placebo-controlled randomized phase 2 study of efficacy and safety of the anti-tau monoclonal antibody gosuranemab in early Alzheimer’s disease",
+    "location": "Title (document heading)"
+  },
+  "authors": [],
+  "study": {
+    "design": {
+      "value": "Randomized, double-blind, placebo-controlled, parallel-group, multiple-dose phase 2 trial with a 78-week placebo-controlled period followed by a dose-blind long-term extension",
+      "quote": "we report the results of TANGO ( NCT03352557 ), a randomized, double-blind, placebo-controlled, parallel-group and multiple-dose long-term trial of gosuranemab—a monoclonal antibody to N-terminal tau",
+      "location": "Abstract"
+    },
+    "phase": {
+      "value": "Phase 2",
+      "quote": "The authors present the results of a phase 2 study of gosuranemab, a monoclonal antibody targeting N-terminal tau, in patients with early Alzheimer’s disease.",
+      "location": "Abstract, editorial summary paragraph"
+    },
+    "n": {
+      "value": 654,
+      "quote": "A total of 654 participants were randomized (updated from the preplanned 528 participants due to overenrollment caused by fast recruitment) to one of four groups (650 participants were dosed)",
+      "location": "Results, 'Participants'"
+    },
+    "n_description": {
+      "value": "654 randomized; 650 dosed and included in the full analysis set (four participants were randomized but not dosed and were excluded from the analysis)",
+      "quote": "Efficacy analyses were performed on the full analysis set (that is, all randomized participants who received the study treatment (gosuranemab or placebo)). Four participants were randomized but not dosed and excluded from the analysis.",
+      "location": "Methods, 'Statistics and reproducibility'"
+    },
+    "population": {
+      "value": "Adults aged 50–80 years with mild cognitive impairment (MCI) due to AD or mild AD dementia by NIA-AA criteria, with a CDR global score of 0.5 (MCI) or 0.5–1.0 (mild AD dementia), MMSE 22–30, and evidence of amyloid pathology",
+      "quote": "The primary objective of this study was to evaluate the safety and tolerability of gosuranemab in patients with mild cognitive impairment (MCI) due to AD and those with mild AD dementia.",
+      "location": "Main, final paragraph; eligibility detail in Methods, 'Eligibility criteria'"
+    },
+    "followup": {
+      "value": "78-week double-blind, placebo-controlled period, followed by a dose-blind long-term extension analysed up to week 104",
+      "quote": "This randomized, parallel-group study consisted of a 78-week double-blind, placebo-controlled phase and a subsequent dose-blind LTE phase.",
+      "location": "Methods, 'Study overview'"
+    },
+    "intervention": {
+      "value": "Intravenous gosuranemab q4w: low dose (125 mg q4w or 375 mg q12w), intermediate dose (600 mg q4w), high dose (2,000 mg q4w), for 78 weeks",
+      "quote": "low-dose (125 mg once every 4 weeks (q4w), n = 58; 375 mg q12w, n = 58), intermediate-dose (600 mg q4w, n = 106) or high-dose (2,000 mg q4w, n = 214) gosuranemab",
+      "location": "Abstract"
+    },
+    "comparator": {
+      "value": "Placebo (0.9% NaCl) intravenously q4w, n = 214",
+      "quote": "(2) intermediate-dose gosuranemab (600 mg q4w), (3) high-dose gosuranemab (2,000 mg q4w) or (4) placebo (0.9% NaCl q4w)",
+      "location": "Methods, 'Study overview'"
+    },
+    "biomarker_confirmation": {
+      "value": "Evidence of amyloid pathology confirmed by amyloid PET (visual read) or CSF testing",
+      "quote": "Participants must also have demonstrated evidence of amyloid pathology, confirmed by amyloid PET (visual read) or CSF testing.",
+      "location": "Methods, 'Eligibility criteria'"
+    },
+    "nct_ids": [
+      "NCT03352557",
+      "NCT02294851",
+      "NCT02460094",
+      "NCT03068468",
+      "NCT03658135"
+    ],
+    "cohorts": [
+      "ADNI1 (Alzheimer's Disease Neuroimaging Initiative)",
+      "ADNI2 (Alzheimer's Disease Neuroimaging Initiative)",
+      "ADNI GO (Alzheimer's Disease Neuroimaging Initiative)"
+    ]
+  },
+  "outcomes": [
+    {
+      "name": "Incidence of adverse events (AEs) and serious adverse events (SAEs) during the placebo-controlled period",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "For the placebo-controlled period of this study, the primary endpoint was the incidence of AEs and SAEs.",
+      "met": "met",
+      "effect_estimate": "Any AE: placebo 181/214 (84.6%) vs total gosuranemab 381/436 (87.4%); SAEs: placebo 26/214 (12.1%) vs total gosuranemab 50/436 (11.5%)",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Overall, the incidence of adverse events (AEs) and serious AEs (SAEs) was similar across the treatment and placebo groups.",
+      "location": "Results, 'Primary endpoint results for gosuranemab safety and tolerability'"
+    },
+    {
+      "name": "Change in the Clinical Dementia Rating Scale Sum of Boxes (CDR-SB) score from baseline over time at week 78",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "The secondary endpoints were (1) the change in the CDR-SB score from baseline over time at week 78, and (2) the incidence of anti-gosuranemab serum antibody responses over time up to week 90.",
+      "met": "not_met",
+      "effect_estimate": "Difference from placebo at week 78: –0.01 (high dose), 0.38 (intermediate dose), 0.34 (low dose); adjusted mean change from baseline: placebo 1.85, low dose 2.20, intermediate dose 2.24, high dose 1.85",
+      "confidence_interval": "Adjusted mean change from baseline at week 78: 1.85 (95% CI 1.48, 2.21) high dose; 2.24 (95% CI 1.75, 2.72) intermediate dose; 2.20 (95% CI 1.72, 2.67) low dose; 1.85 (95% CI 1.48, 2.22) placebo",
+      "p_value": "P = 0.9778 (high dose); P = 0.1965 (intermediate dose); P = 0.2362 (low dose)",
+      "multiplicity_controlled": "no",
+      "quote": "The difference between the treated groups and the placebo group at week 78 was –0.01 ( P = 0.9778) for the high-dose group, 0.38 ( P = 0.1965) for the intermediate-dose group",
+      "location": "Results, 'Secondary endpoint results for cognitive and functional measurements (CDR-SB)'"
+    },
+    {
+      "name": "Incidence of anti-gosuranemab serum antibody responses over time up to week 90 (immunogenicity)",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "The secondary endpoints were (1) the change in the CDR-SB score from baseline over time at week 78, and (2) the incidence of anti-gosuranemab serum antibody responses over time up to week 90.",
+      "met": "met",
+      "effect_estimate": "One participant in the intermediate-dose group (1.0%) and four participants in the placebo group (1.9%) had a positive treatment-emergent antibody response; persistent responses in two placebo participants (0.9%) and none in gosuranemab-treated participants",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The incidence of treatment-emergent anti-gosuranemab antibody responses was low at all time points and similar between all gosuranemab dose groups and the placebo group.",
+      "location": "Results, 'Secondary endpoint results for immunogenicity'"
+    },
+    {
+      "name": "Change from baseline at week 78 in the 13-item Alzheimer's Disease Assessment Scale–Cognitive Subscale (ADAS-Cog13) score",
+      "tier": "exploratory",
+      "prespecified": "yes",
+      "prespecification_evidence": "Key exploratory endpoints included (1) the change from baseline at week 78 in the ADAS-Cog13, MMSE, ADCS-ADL and FAQ scores",
+      "met": "not_met",
+      "effect_estimate": "difference = 1.69 (high dose, favouring placebo); difference = 1.79 (intermediate dose); difference = 1.73 (low dose)",
+      "confidence_interval": null,
+      "p_value": "P = 0.0378 (high dose); P = 0.0681 (intermediate dose); P = 0.0719 (low dose)",
+      "multiplicity_controlled": "no",
+      "quote": "patients in the high-dose gosuranemab group performed statistically significantly worse than those in the placebo group (Extended Data Fig. ; difference = 1.69, P = 0.0378); however, no dose–response was observed for this measure",
+      "location": "Results, 'Exploratory endpoints: other key efficacy outcomes (cognitive and functional analyses)'"
+    },
+    {
+      "name": "Change from baseline at week 78 in the Mini-Mental State Examination (MMSE) score",
+      "tier": "exploratory",
+      "prespecified": "yes",
+      "prespecification_evidence": "Key exploratory endpoints included (1) the change from baseline at week 78 in the ADAS-Cog13, MMSE, ADCS-ADL and FAQ scores",
+      "met": "not_met",
+      "effect_estimate": "difference = –0.35 (high dose); difference = –0.81 (intermediate dose); difference = −0.79 (low dose)",
+      "confidence_interval": "Adjusted mean change from baseline at week 78: –3.66 (95% CI –4.34, –2.99) high dose; –4.13 (95% CI –5.03, –3.22) intermediate dose; –4.11 (95% CI –4.98, –3.23) low dose; −3.32 (95% CI –4.00, −2.64) placebo",
+      "p_value": "P = 0.0446 (high dose); P = 0.1415 (intermediate dose); P = 0.1415 (low dose)",
+      "multiplicity_controlled": "no",
+      "quote": "No other significant differences were observed between the gosuranemab groups and the placebo group in any other exploratory endpoints, such as Mini-Mental State Examination (MMSE) scores (difference = –0.35, P = 0.0446 for the high-dose group",
+      "location": "Results, 'Exploratory endpoints: other key efficacy outcomes (cognitive and functional analyses)'"
+    },
+    {
+      "name": "Change from baseline at week 78 in the AD Cooperative Study–Activities of Daily Living (ADCS-ADL) score",
+      "tier": "exploratory",
+      "prespecified": "yes",
+      "prespecification_evidence": "Key exploratory endpoints included (1) the change from baseline at week 78 in the ADAS-Cog13, MMSE, ADCS-ADL and FAQ scores",
+      "met": "not_met",
+      "effect_estimate": "difference = –0.06 (high dose); difference = –1.06 (intermediate dose); difference = –1.47 (low dose)",
+      "confidence_interval": "Adjusted mean change from baseline at week 78: –5.14 (95% CI –6.47, –3.81) high dose; –6.13 (95% CI –7.93, –4.34) intermediate dose; –6.54 (95% CI –8.28, –4.81) low dose; –5.08 (95% CI –6.42, –3.73) placebo",
+      "p_value": "P = 0.9429 (high dose); P = 0.3336 (intermediate dose); P = 0.1685 (low dose)",
+      "multiplicity_controlled": "no",
+      "quote": "AD Cooperative Study–Activities of Daily Living (ADCS-ADL) scores (difference = –0.06, P = 0.9429 for the high-dose group; difference = –1.06, P = 0.3336 for the intermediate-dose group",
+      "location": "Results, 'Exploratory endpoints: other key efficacy outcomes (cognitive and functional analyses)'"
+    },
+    {
+      "name": "Change from baseline at week 78 in the Functional Activities Questionnaire (FAQ) score",
+      "tier": "exploratory",
+      "prespecified": "yes",
+      "prespecification_evidence": "Key exploratory endpoints included (1) the change from baseline at week 78 in the ADAS-Cog13, MMSE, ADCS-ADL and FAQ scores",
+      "met": "not_met",
+      "effect_estimate": "difference = –0.4 (high dose); difference = –0.52 (intermediate dose); difference = 0.08 (low dose)",
+      "confidence_interval": "Adjusted mean change from baseline at week 78: 4.16 (95% CI 3.17, 5.14) high dose; 4.04 (95% CI 2.72, 5.35) intermediate dose; 4.64 (95% CI 3.37, 5.91) low dose; 4.56 (95% CI 3.56, 5.55) placebo",
+      "p_value": "P = 0.5320 (high dose); P = 0.5100 (intermediate dose); P = 0.9139 (low dose)",
+      "multiplicity_controlled": "no",
+      "quote": "Functional Activities Questionnaire (FAQ) scores (difference = –0.4, P = 0.5320 for the high-dose group; difference = –0.52, P = 0.5100 for the intermediate-dose group; difference = 0.08, P = 0.9139 for the low-dose group)",
+      "location": "Results, 'Exploratory endpoints: other key efficacy outcomes (cognitive and functional analyses)'"
+    },
+    {
+      "name": "Change from baseline in the cerebrospinal fluid (CSF) levels of unbound N-terminal tau at week 76 (target engagement, not a clinical efficacy measure)",
+      "tier": "exploratory",
+      "prespecified": "yes",
+      "prespecification_evidence": "Key exploratory endpoints included (1) the change from baseline at week 78 in the ADAS-Cog13, MMSE, ADCS-ADL and FAQ scores; (2) the change from baseline in the CSF levels of unbound N-terminal tau",
+      "met": "met",
+      "effect_estimate": "Adjusted mean change from baseline at week 76: −212.83 pg ml −1 (−92.6%) high dose; −199.45 pg ml −1 (−86.0%) intermediate dose; −187.15 pg ml −1 (−80.1%) 375 mg q12w; −191.38 pg ml −1 (−82.1%) 125 mg q4w; −19.39 pg ml −1 (−8.8%) placebo",
+      "confidence_interval": null,
+      "p_value": "P < 0.0001 (all treatment groups versus placebo)",
+      "multiplicity_controlled": "no",
+      "quote": "At week 76, decreases in unbound N-terminal tau levels in the CSF were statistically significant in all treatment groups relative to the placebo group ( P < 0.0001).",
+      "location": "Results, 'Exploratory endpoints: CSF biomarkers'"
+    },
+    {
+      "name": "Change from baseline in the CSF levels of phosphorylated tau181 (p-tau181) at week 76",
+      "tier": "exploratory",
+      "prespecified": "yes",
+      "prespecification_evidence": "(3) the change from baseline in tau levels as measured by CSF testing (that is, t-tau, p-tau181) and tau PET",
+      "met": "met",
+      "effect_estimate": "Adjusted mean change from baseline at week 76: −26.52 pg ml −1 (−23.8%) high dose; −17.44 pg ml −1 (−15.9%) intermediate dose; −11.72 pg ml −1 (−10.6%) 375 mg q12w; −18.84 pg ml −1 (−17.6%) 125 mg q4w; −1.05 pg ml −1 (−1.1%) placebo — only the high-dose group differed significantly from placebo",
+      "confidence_interval": null,
+      "p_value": "P = 0.0022 (high dose versus placebo)",
+      "multiplicity_controlled": "no",
+      "quote": "only the high-dose group showed a significant difference from placebo ( P = 0.0022; Fig. )",
+      "location": "Results, 'Exploratory endpoints: CSF biomarkers'"
+    },
+    {
+      "name": "Change from baseline in the CSF levels of total tau at week 76",
+      "tier": "exploratory",
+      "prespecified": "yes",
+      "prespecification_evidence": "(3) the change from baseline in tau levels as measured by CSF testing (that is, t-tau, p-tau181) and tau PET",
+      "met": "met",
+      "effect_estimate": "Adjusted mean change from baseline at week 76: −97.46 pg ml −1 (−15.5%) high dose; −110.57 pg ml −1 (−15.5%) intermediate dose; −9.41 pg ml −1 (−1.3%) 375 mg q12w; −56.14 pg ml −1 (−8.0%) 125 mg q4w; 37.21 pg ml −1 (6.2%) placebo",
+      "confidence_interval": null,
+      "p_value": "P = 0.0138 (125 mg q4w low dose); P < 0.0001 (intermediate and high dose)",
+      "multiplicity_controlled": "no",
+      "quote": "a significant difference from placebo was observed in the 125 mg q4w low-dose group ( P = 0.0138) and the intermediate-dose and high-dose groups ( P < 0.0001 for both; Fig. )",
+      "location": "Results, 'Exploratory endpoints: CSF biomarkers'"
+    },
+    {
+      "name": "Adjusted mean change from baseline to week 78 in tau PET standardized uptake value ratio (SUVR) in Braak stage I–II, III–IV and V–VI composite regions",
+      "tier": "exploratory",
+      "prespecified": "yes",
+      "prespecification_evidence": "(3) the change from baseline in tau levels as measured by CSF testing (that is, t-tau, p-tau181) and tau PET",
+      "met": "not_met",
+      "effect_estimate": "Braak I–II: –0.012 high dose, 0.054 intermediate dose, 0.033 low dose, 0.047 placebo; Braak III–IV: 0.129, 0.178, 0.142, 0.177; Braak V–VI: 0.135, 0.175, 0.168, 0.180",
+      "confidence_interval": "Braak I–II: –0.012 (95% CI −0.055, 0.031) high dose and 0.047 (95% CI 0.002, 0.091) placebo; Braak III–IV: 0.129 (95% CI 0.082, 0.176) high dose and 0.177 (95% CI 0.128, 0.227) placebo; Braak V–VI: 0.135 (95% CI 0.087, 0.183) high dose and 0.180 (95% CI 0.130, 0.230) placebo",
+      "p_value": "P > 0.05",
+      "multiplicity_controlled": "no",
+      "quote": "No significant differences were observed between the gosuranemab and placebo groups ( P > 0.05) in the adjusted mean change in the tau positron emission tomography (PET) standardized uptake value ratio (SUVR) in each brain composite region",
+      "location": "Results, 'Exploratory endpoint: tau PET neuroimaging'"
+    },
+    {
+      "name": "Change from baseline to week 78 in brain volume measured by structural MRI (whole-brain, hippocampal and lateral ventricle volume)",
+      "tier": "exploratory",
+      "prespecified": "yes",
+      "prespecification_evidence": "(4) the change from baseline in brain volume as measured by MRI",
+      "met": "not_met",
+      "effect_estimate": "Whole-brain and hippocampal volume decreases were small and comparable between groups; lateral ventricle volume showed a <1-cm3 increase in the high-dose group relative to placebo",
+      "confidence_interval": null,
+      "p_value": "P = 0.0481 (high dose versus placebo, lateral ventricle volume)",
+      "multiplicity_controlled": "no",
+      "quote": "The lateral ventricle volume increased in all groups, with a <1-cm 3 statistically significant ( P = 0.0481) increase observed in the high-dose group relative to the placebo group at week 78",
+      "location": "Results, 'Exploratory endpoint: tau PET neuroimaging', final paragraph"
+    },
+    {
+      "name": "Change from baseline in CDR-SB score at week 104 during the long-term extension (early-start versus late-start high-dose groups)",
+      "tier": "post_hoc",
+      "prespecified": "no",
+      "prespecification_evidence": "Post hoc analysis of the aborted LTE period",
+      "met": "not_applicable",
+      "effect_estimate": "Adjusted mean change from baseline at week 104: 2.92 low dose; 3.04 intermediate dose; 2.35 high dose; 2.55 late-start high-dose group",
+      "confidence_interval": "2.92 (95% CI 2.34, 3.49) low dose; 3.04 (95% CI 2.45, 3.62) intermediate dose; 2.35 (95% CI 1.92, 2.79) high dose; 2.55 (95% CI 2.10, 2.99) late-start high-dose group",
+      "p_value": "P > 0.05",
+      "multiplicity_controlled": "no",
+      "quote": "At week 104, the adjusted mean change in CDR-SB scores from baseline was 2.92 (95% CI 2.34, 3.49) in the low-dose group, 3.04 (95% CI 2.45, 3.62) in the intermediate-dose group",
+      "location": "Results, 'Post hoc analysis of the aborted LTE period'"
+    },
+    {
+      "name": "Change from baseline in ADAS-Cog13 score at week 104 during the long-term extension",
+      "tier": "post_hoc",
+      "prespecified": "no",
+      "prespecification_evidence": "Post hoc analysis of the aborted LTE period",
+      "met": "not_applicable",
+      "effect_estimate": "difference = 1.57 (low dose); difference = 0.8 (intermediate dose); difference = 1.80 (high dose) versus the late-start high-dose (formerly placebo) group",
+      "confidence_interval": null,
+      "p_value": "P = 0.2105 (low dose); P = 0.5296 (intermediate dose); P = 0.0907 (high dose)",
+      "multiplicity_controlled": "no",
+      "quote": "In contrast to week 78, none of the other treatment groups showed a statistically significant difference in the change from the baseline ADAS-Cog13 score at week 104 compared to the late-start high-dose (formerly placebo) group",
+      "location": "Results, 'Post hoc analysis of the aborted LTE period'"
+    }
+  ],
+  "primary_endpoint_status": {
+    "status": "met",
+    "explanation": "The document's own primary endpoint was safety and tolerability (the incidence of AEs and SAEs), which the document reports as acceptable and comparable to placebo; the clinical efficacy measure, change in CDR-SB at week 78, was a secondary endpoint and was not met, with no dose separating from placebo.",
+    "quote": "Gosuranemab had an acceptable safety profile and was generally well tolerated (incidence of serious adverse events: placebo, 12.1%; low dose, 10.3%; intermediate dose, 12.3%; high dose, 11.7%)."
+  },
+  "multiplicity": {
+    "approach": "None for the reported comparisons: analyses were two-sided at a 5% significance level and no adjustments were made for multiple comparisons. Sample size for the secondary CDR-SB objective was based on the multiple comparison procedure—modeling approach.",
+    "quote": "Analyses were two-sided at a 5% significance level. No adjustments were made for multiple comparisons.",
+    "location": "Fig. 2 caption (repeated in Extended Data Fig. 1–4 captions and Supplementary Table caption)"
+  },
+  "safety": {
+    "harms": [
+      {
+        "name": "Any AE",
+        "arm": "placebo (q4w)",
+        "count": "181",
+        "denominator": "214",
+        "percentage": "84.6%",
+        "apoe_stratum": null,
+        "quote": "| Any AE | 181 (84.6) | 50 (86.2) | 48 (82.8) | 94 (88.7) | 189 (88.3) | 381 (87.4) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Any AE",
+        "arm": "gosuranemab 125 mg q4w (low dose)",
+        "count": "50",
+        "denominator": "58",
+        "percentage": "86.2%",
+        "apoe_stratum": null,
+        "quote": "| Any AE | 181 (84.6) | 50 (86.2) | 48 (82.8) | 94 (88.7) | 189 (88.3) | 381 (87.4) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Any AE",
+        "arm": "gosuranemab 375 mg q12w (low dose)",
+        "count": "48",
+        "denominator": "58",
+        "percentage": "82.8%",
+        "apoe_stratum": null,
+        "quote": "| Any AE | 181 (84.6) | 50 (86.2) | 48 (82.8) | 94 (88.7) | 189 (88.3) | 381 (87.4) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Any AE",
+        "arm": "gosuranemab 600 mg q4w (intermediate dose)",
+        "count": "94",
+        "denominator": "106",
+        "percentage": "88.7%",
+        "apoe_stratum": null,
+        "quote": "| Any AE | 181 (84.6) | 50 (86.2) | 48 (82.8) | 94 (88.7) | 189 (88.3) | 381 (87.4) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Any AE",
+        "arm": "gosuranemab 2,000 mg q4w (high dose)",
+        "count": "189",
+        "denominator": "214",
+        "percentage": "88.3%",
+        "apoe_stratum": null,
+        "quote": "| Any AE | 181 (84.6) | 50 (86.2) | 48 (82.8) | 94 (88.7) | 189 (88.3) | 381 (87.4) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Any AE",
+        "arm": "total gosuranemab (all doses combined)",
+        "count": "381",
+        "denominator": "436",
+        "percentage": "87.4%",
+        "apoe_stratum": null,
+        "quote": "| Any AE | 181 (84.6) | 50 (86.2) | 48 (82.8) | 94 (88.7) | 189 (88.3) | 381 (87.4) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Treatment-related AEs",
+        "arm": "placebo (q4w)",
+        "count": "47",
+        "denominator": "214",
+        "percentage": "22.0%",
+        "apoe_stratum": null,
+        "quote": "| Treatment-related a AEs | 47 (22.0) | 15 (25.9) | 12 (20.7) | 21 (19.8) | 50 (23.4) | 98 (22.5) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Treatment-related AEs",
+        "arm": "gosuranemab 125 mg q4w (low dose)",
+        "count": "15",
+        "denominator": "58",
+        "percentage": "25.9%",
+        "apoe_stratum": null,
+        "quote": "| Treatment-related a AEs | 47 (22.0) | 15 (25.9) | 12 (20.7) | 21 (19.8) | 50 (23.4) | 98 (22.5) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Treatment-related AEs",
+        "arm": "gosuranemab 375 mg q12w (low dose)",
+        "count": "12",
+        "denominator": "58",
+        "percentage": "20.7%",
+        "apoe_stratum": null,
+        "quote": "| Treatment-related a AEs | 47 (22.0) | 15 (25.9) | 12 (20.7) | 21 (19.8) | 50 (23.4) | 98 (22.5) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Treatment-related AEs",
+        "arm": "gosuranemab 600 mg q4w (intermediate dose)",
+        "count": "21",
+        "denominator": "106",
+        "percentage": "19.8%",
+        "apoe_stratum": null,
+        "quote": "| Treatment-related a AEs | 47 (22.0) | 15 (25.9) | 12 (20.7) | 21 (19.8) | 50 (23.4) | 98 (22.5) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Treatment-related AEs",
+        "arm": "gosuranemab 2,000 mg q4w (high dose)",
+        "count": "50",
+        "denominator": "214",
+        "percentage": "23.4%",
+        "apoe_stratum": null,
+        "quote": "| Treatment-related a AEs | 47 (22.0) | 15 (25.9) | 12 (20.7) | 21 (19.8) | 50 (23.4) | 98 (22.5) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Treatment-related AEs",
+        "arm": "total gosuranemab (all doses combined)",
+        "count": "98",
+        "denominator": "436",
+        "percentage": "22.5%",
+        "apoe_stratum": null,
+        "quote": "| Treatment-related a AEs | 47 (22.0) | 15 (25.9) | 12 (20.7) | 21 (19.8) | 50 (23.4) | 98 (22.5) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "SAEs",
+        "arm": "placebo (q4w)",
+        "count": "26",
+        "denominator": "214",
+        "percentage": "12.1%",
+        "apoe_stratum": null,
+        "quote": "| SAEs | 26 (12.1) | 6 (10.3) | 6 (10.3) | 13 (12.3) | 25 (11.7) | 50 (11.5) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "SAEs",
+        "arm": "gosuranemab 125 mg q4w (low dose)",
+        "count": "6",
+        "denominator": "58",
+        "percentage": "10.3%",
+        "apoe_stratum": null,
+        "quote": "| SAEs | 26 (12.1) | 6 (10.3) | 6 (10.3) | 13 (12.3) | 25 (11.7) | 50 (11.5) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "SAEs",
+        "arm": "gosuranemab 375 mg q12w (low dose)",
+        "count": "6",
+        "denominator": "58",
+        "percentage": "10.3%",
+        "apoe_stratum": null,
+        "quote": "| SAEs | 26 (12.1) | 6 (10.3) | 6 (10.3) | 13 (12.3) | 25 (11.7) | 50 (11.5) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "SAEs",
+        "arm": "gosuranemab 600 mg q4w (intermediate dose)",
+        "count": "13",
+        "denominator": "106",
+        "percentage": "12.3%",
+        "apoe_stratum": null,
+        "quote": "| SAEs | 26 (12.1) | 6 (10.3) | 6 (10.3) | 13 (12.3) | 25 (11.7) | 50 (11.5) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "SAEs",
+        "arm": "gosuranemab 2,000 mg q4w (high dose)",
+        "count": "25",
+        "denominator": "214",
+        "percentage": "11.7%",
+        "apoe_stratum": null,
+        "quote": "| SAEs | 26 (12.1) | 6 (10.3) | 6 (10.3) | 13 (12.3) | 25 (11.7) | 50 (11.5) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "SAEs",
+        "arm": "total gosuranemab (all doses combined)",
+        "count": "50",
+        "denominator": "436",
+        "percentage": "11.5%",
+        "apoe_stratum": null,
+        "quote": "| SAEs | 26 (12.1) | 6 (10.3) | 6 (10.3) | 13 (12.3) | 25 (11.7) | 50 (11.5) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Treatment-related SAEs",
+        "arm": "placebo (q4w)",
+        "count": "2",
+        "denominator": "214",
+        "percentage": "0.9%",
+        "apoe_stratum": null,
+        "quote": "| Treatment-related SAEs | 2 (0.9) | 0 | 0 | 0 | 2 (0.9) | 2 (0.5) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Treatment-related SAEs",
+        "arm": "gosuranemab 125 mg q4w (low dose)",
+        "count": "0",
+        "denominator": "58",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "| Treatment-related SAEs | 2 (0.9) | 0 | 0 | 0 | 2 (0.9) | 2 (0.5) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Treatment-related SAEs",
+        "arm": "gosuranemab 375 mg q12w (low dose)",
+        "count": "0",
+        "denominator": "58",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "| Treatment-related SAEs | 2 (0.9) | 0 | 0 | 0 | 2 (0.9) | 2 (0.5) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Treatment-related SAEs",
+        "arm": "gosuranemab 600 mg q4w (intermediate dose)",
+        "count": "0",
+        "denominator": "106",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "| Treatment-related SAEs | 2 (0.9) | 0 | 0 | 0 | 2 (0.9) | 2 (0.5) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Treatment-related SAEs",
+        "arm": "gosuranemab 2,000 mg q4w (high dose)",
+        "count": "2",
+        "denominator": "214",
+        "percentage": "0.9%",
+        "apoe_stratum": null,
+        "quote": "| Treatment-related SAEs | 2 (0.9) | 0 | 0 | 0 | 2 (0.9) | 2 (0.5) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Treatment-related SAEs",
+        "arm": "total gosuranemab (all doses combined)",
+        "count": "2",
+        "denominator": "436",
+        "percentage": "0.5%",
+        "apoe_stratum": null,
+        "quote": "| Treatment-related SAEs | 2 (0.9) | 0 | 0 | 0 | 2 (0.9) | 2 (0.5) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Drug withdrawal due to AEs",
+        "arm": "placebo (q4w)",
+        "count": "11",
+        "denominator": "214",
+        "percentage": "5.1%",
+        "apoe_stratum": null,
+        "quote": "| Drug withdrawal due to AEs | 11 (5.1) | 4 (6.9) | 2 (3.4) | 0 | 8 (3.7) | 14 (3.2) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Drug withdrawal due to AEs",
+        "arm": "gosuranemab 125 mg q4w (low dose)",
+        "count": "4",
+        "denominator": "58",
+        "percentage": "6.9%",
+        "apoe_stratum": null,
+        "quote": "| Drug withdrawal due to AEs | 11 (5.1) | 4 (6.9) | 2 (3.4) | 0 | 8 (3.7) | 14 (3.2) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Drug withdrawal due to AEs",
+        "arm": "gosuranemab 375 mg q12w (low dose)",
+        "count": "2",
+        "denominator": "58",
+        "percentage": "3.4%",
+        "apoe_stratum": null,
+        "quote": "| Drug withdrawal due to AEs | 11 (5.1) | 4 (6.9) | 2 (3.4) | 0 | 8 (3.7) | 14 (3.2) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Drug withdrawal due to AEs",
+        "arm": "gosuranemab 600 mg q4w (intermediate dose)",
+        "count": "0",
+        "denominator": "106",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "| Drug withdrawal due to AEs | 11 (5.1) | 4 (6.9) | 2 (3.4) | 0 | 8 (3.7) | 14 (3.2) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Drug withdrawal due to AEs",
+        "arm": "gosuranemab 2,000 mg q4w (high dose)",
+        "count": "8",
+        "denominator": "214",
+        "percentage": "3.7%",
+        "apoe_stratum": null,
+        "quote": "| Drug withdrawal due to AEs | 11 (5.1) | 4 (6.9) | 2 (3.4) | 0 | 8 (3.7) | 14 (3.2) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Drug withdrawal due to AEs",
+        "arm": "total gosuranemab (all doses combined)",
+        "count": "14",
+        "denominator": "436",
+        "percentage": "3.2%",
+        "apoe_stratum": null,
+        "quote": "| Drug withdrawal due to AEs | 11 (5.1) | 4 (6.9) | 2 (3.4) | 0 | 8 (3.7) | 14 (3.2) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Study withdrawal due to AEs",
+        "arm": "placebo (q4w)",
+        "count": "11",
+        "denominator": "214",
+        "percentage": "5.1%",
+        "apoe_stratum": null,
+        "quote": "| Study withdrawal due to AEs | 11 (5.1) | 2 (3.4) | 1 (1.7) | 0 | 6 (2.8) | 9 (2.1) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Study withdrawal due to AEs",
+        "arm": "gosuranemab 125 mg q4w (low dose)",
+        "count": "2",
+        "denominator": "58",
+        "percentage": "3.4%",
+        "apoe_stratum": null,
+        "quote": "| Study withdrawal due to AEs | 11 (5.1) | 2 (3.4) | 1 (1.7) | 0 | 6 (2.8) | 9 (2.1) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Study withdrawal due to AEs",
+        "arm": "gosuranemab 375 mg q12w (low dose)",
+        "count": "1",
+        "denominator": "58",
+        "percentage": "1.7%",
+        "apoe_stratum": null,
+        "quote": "| Study withdrawal due to AEs | 11 (5.1) | 2 (3.4) | 1 (1.7) | 0 | 6 (2.8) | 9 (2.1) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Study withdrawal due to AEs",
+        "arm": "gosuranemab 600 mg q4w (intermediate dose)",
+        "count": "0",
+        "denominator": "106",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "| Study withdrawal due to AEs | 11 (5.1) | 2 (3.4) | 1 (1.7) | 0 | 6 (2.8) | 9 (2.1) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Study withdrawal due to AEs",
+        "arm": "gosuranemab 2,000 mg q4w (high dose)",
+        "count": "6",
+        "denominator": "214",
+        "percentage": "2.8%",
+        "apoe_stratum": null,
+        "quote": "| Study withdrawal due to AEs | 11 (5.1) | 2 (3.4) | 1 (1.7) | 0 | 6 (2.8) | 9 (2.1) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Study withdrawal due to AEs",
+        "arm": "total gosuranemab (all doses combined)",
+        "count": "9",
+        "denominator": "436",
+        "percentage": "2.1%",
+        "apoe_stratum": null,
+        "quote": "| Study withdrawal due to AEs | 11 (5.1) | 2 (3.4) | 1 (1.7) | 0 | 6 (2.8) | 9 (2.1) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Mortality events (deaths)",
+        "arm": "placebo (q4w)",
+        "count": "1",
+        "denominator": "214",
+        "percentage": "0.5%",
+        "apoe_stratum": null,
+        "quote": "| Mortality events | 1 (0.5) | 1 (1.7) | 0 | 0 | 1 (0.5) | 2 (0.5) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Mortality events (deaths)",
+        "arm": "gosuranemab 125 mg q4w (low dose)",
+        "count": "1",
+        "denominator": "58",
+        "percentage": "1.7%",
+        "apoe_stratum": null,
+        "quote": "| Mortality events | 1 (0.5) | 1 (1.7) | 0 | 0 | 1 (0.5) | 2 (0.5) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Mortality events (deaths)",
+        "arm": "gosuranemab 375 mg q12w (low dose)",
+        "count": "0",
+        "denominator": "58",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "| Mortality events | 1 (0.5) | 1 (1.7) | 0 | 0 | 1 (0.5) | 2 (0.5) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Mortality events (deaths)",
+        "arm": "gosuranemab 600 mg q4w (intermediate dose)",
+        "count": "0",
+        "denominator": "106",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "| Mortality events | 1 (0.5) | 1 (1.7) | 0 | 0 | 1 (0.5) | 2 (0.5) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Mortality events (deaths)",
+        "arm": "gosuranemab 2,000 mg q4w (high dose)",
+        "count": "1",
+        "denominator": "214",
+        "percentage": "0.5%",
+        "apoe_stratum": null,
+        "quote": "| Mortality events | 1 (0.5) | 1 (1.7) | 0 | 0 | 1 (0.5) | 2 (0.5) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Mortality events (deaths)",
+        "arm": "total gosuranemab (all doses combined)",
+        "count": "2",
+        "denominator": "436",
+        "percentage": "0.5%",
+        "apoe_stratum": null,
+        "quote": "| Mortality events | 1 (0.5) | 1 (1.7) | 0 | 0 | 1 (0.5) | 2 (0.5) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Infusion reactions",
+        "arm": "placebo (q4w)",
+        "count": "79",
+        "denominator": "214",
+        "percentage": "36.9%",
+        "apoe_stratum": null,
+        "quote": "| Infusion reactions | 79 (36.9) | 31 (53.4) | 23 (39.7) | 38 (35.8) | 75 (35.0) | 167 (38.3) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Infusion reactions",
+        "arm": "gosuranemab 125 mg q4w (low dose)",
+        "count": "31",
+        "denominator": "58",
+        "percentage": "53.4%",
+        "apoe_stratum": null,
+        "quote": "| Infusion reactions | 79 (36.9) | 31 (53.4) | 23 (39.7) | 38 (35.8) | 75 (35.0) | 167 (38.3) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Infusion reactions",
+        "arm": "gosuranemab 375 mg q12w (low dose)",
+        "count": "23",
+        "denominator": "58",
+        "percentage": "39.7%",
+        "apoe_stratum": null,
+        "quote": "| Infusion reactions | 79 (36.9) | 31 (53.4) | 23 (39.7) | 38 (35.8) | 75 (35.0) | 167 (38.3) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Infusion reactions",
+        "arm": "gosuranemab 600 mg q4w (intermediate dose)",
+        "count": "38",
+        "denominator": "106",
+        "percentage": "35.8%",
+        "apoe_stratum": null,
+        "quote": "| Infusion reactions | 79 (36.9) | 31 (53.4) | 23 (39.7) | 38 (35.8) | 75 (35.0) | 167 (38.3) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Infusion reactions",
+        "arm": "gosuranemab 2,000 mg q4w (high dose)",
+        "count": "75",
+        "denominator": "214",
+        "percentage": "35.0%",
+        "apoe_stratum": null,
+        "quote": "| Infusion reactions | 79 (36.9) | 31 (53.4) | 23 (39.7) | 38 (35.8) | 75 (35.0) | 167 (38.3) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Infusion reactions",
+        "arm": "total gosuranemab (all doses combined)",
+        "count": "167",
+        "denominator": "436",
+        "percentage": "38.3%",
+        "apoe_stratum": null,
+        "quote": "| Infusion reactions | 79 (36.9) | 31 (53.4) | 23 (39.7) | 38 (35.8) | 75 (35.0) | 167 (38.3) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Falls",
+        "arm": "placebo (q4w)",
+        "count": "23",
+        "denominator": "214",
+        "percentage": "10.7%",
+        "apoe_stratum": null,
+        "quote": "| Falls | 23 (10.7) | 7 (12.1) | 11 (19.0) | 20 (18.9) | 30 (14.0) | 68 (15.6) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Falls",
+        "arm": "gosuranemab 125 mg q4w (low dose)",
+        "count": "7",
+        "denominator": "58",
+        "percentage": "12.1%",
+        "apoe_stratum": null,
+        "quote": "| Falls | 23 (10.7) | 7 (12.1) | 11 (19.0) | 20 (18.9) | 30 (14.0) | 68 (15.6) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Falls",
+        "arm": "gosuranemab 375 mg q12w (low dose)",
+        "count": "11",
+        "denominator": "58",
+        "percentage": "19.0%",
+        "apoe_stratum": null,
+        "quote": "| Falls | 23 (10.7) | 7 (12.1) | 11 (19.0) | 20 (18.9) | 30 (14.0) | 68 (15.6) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Falls",
+        "arm": "gosuranemab 600 mg q4w (intermediate dose)",
+        "count": "20",
+        "denominator": "106",
+        "percentage": "18.9%",
+        "apoe_stratum": null,
+        "quote": "| Falls | 23 (10.7) | 7 (12.1) | 11 (19.0) | 20 (18.9) | 30 (14.0) | 68 (15.6) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Falls",
+        "arm": "gosuranemab 2,000 mg q4w (high dose)",
+        "count": "30",
+        "denominator": "214",
+        "percentage": "14.0%",
+        "apoe_stratum": null,
+        "quote": "| Falls | 23 (10.7) | 7 (12.1) | 11 (19.0) | 20 (18.9) | 30 (14.0) | 68 (15.6) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Falls",
+        "arm": "total gosuranemab (all doses combined)",
+        "count": "68",
+        "denominator": "436",
+        "percentage": "15.6%",
+        "apoe_stratum": null,
+        "quote": "| Falls | 23 (10.7) | 7 (12.1) | 11 (19.0) | 20 (18.9) | 30 (14.0) | 68 (15.6) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Nasopharyngitis",
+        "arm": "placebo (q4w)",
+        "count": "22",
+        "denominator": "214",
+        "percentage": "10.3%",
+        "apoe_stratum": null,
+        "quote": "| Nasopharyngitis | 22 (10.3) | 4 (6.9) | 6 (10.3) | 9 (8.5) | 24 (11.2) | 43 (9.9) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Nasopharyngitis",
+        "arm": "gosuranemab 125 mg q4w (low dose)",
+        "count": "4",
+        "denominator": "58",
+        "percentage": "6.9%",
+        "apoe_stratum": null,
+        "quote": "| Nasopharyngitis | 22 (10.3) | 4 (6.9) | 6 (10.3) | 9 (8.5) | 24 (11.2) | 43 (9.9) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Nasopharyngitis",
+        "arm": "gosuranemab 375 mg q12w (low dose)",
+        "count": "6",
+        "denominator": "58",
+        "percentage": "10.3%",
+        "apoe_stratum": null,
+        "quote": "| Nasopharyngitis | 22 (10.3) | 4 (6.9) | 6 (10.3) | 9 (8.5) | 24 (11.2) | 43 (9.9) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Nasopharyngitis",
+        "arm": "gosuranemab 600 mg q4w (intermediate dose)",
+        "count": "9",
+        "denominator": "106",
+        "percentage": "8.5%",
+        "apoe_stratum": null,
+        "quote": "| Nasopharyngitis | 22 (10.3) | 4 (6.9) | 6 (10.3) | 9 (8.5) | 24 (11.2) | 43 (9.9) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Nasopharyngitis",
+        "arm": "gosuranemab 2,000 mg q4w (high dose)",
+        "count": "24",
+        "denominator": "214",
+        "percentage": "11.2%",
+        "apoe_stratum": null,
+        "quote": "| Nasopharyngitis | 22 (10.3) | 4 (6.9) | 6 (10.3) | 9 (8.5) | 24 (11.2) | 43 (9.9) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Nasopharyngitis",
+        "arm": "total gosuranemab (all doses combined)",
+        "count": "43",
+        "denominator": "436",
+        "percentage": "9.9%",
+        "apoe_stratum": null,
+        "quote": "| Nasopharyngitis | 22 (10.3) | 4 (6.9) | 6 (10.3) | 9 (8.5) | 24 (11.2) | 43 (9.9) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Arthralgia",
+        "arm": "placebo (q4w)",
+        "count": "14",
+        "denominator": "214",
+        "percentage": "6.5%",
+        "apoe_stratum": null,
+        "quote": "| Arthralgia | 14 (6.5) | 6 (10.3) | 7 (12.1) | 9 (8.5) | 19 (8.9) | 41 (9.4) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Arthralgia",
+        "arm": "gosuranemab 125 mg q4w (low dose)",
+        "count": "6",
+        "denominator": "58",
+        "percentage": "10.3%",
+        "apoe_stratum": null,
+        "quote": "| Arthralgia | 14 (6.5) | 6 (10.3) | 7 (12.1) | 9 (8.5) | 19 (8.9) | 41 (9.4) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Arthralgia",
+        "arm": "gosuranemab 375 mg q12w (low dose)",
+        "count": "7",
+        "denominator": "58",
+        "percentage": "12.1%",
+        "apoe_stratum": null,
+        "quote": "| Arthralgia | 14 (6.5) | 6 (10.3) | 7 (12.1) | 9 (8.5) | 19 (8.9) | 41 (9.4) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Arthralgia",
+        "arm": "gosuranemab 600 mg q4w (intermediate dose)",
+        "count": "9",
+        "denominator": "106",
+        "percentage": "8.5%",
+        "apoe_stratum": null,
+        "quote": "| Arthralgia | 14 (6.5) | 6 (10.3) | 7 (12.1) | 9 (8.5) | 19 (8.9) | 41 (9.4) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Arthralgia",
+        "arm": "gosuranemab 2,000 mg q4w (high dose)",
+        "count": "19",
+        "denominator": "214",
+        "percentage": "8.9%",
+        "apoe_stratum": null,
+        "quote": "| Arthralgia | 14 (6.5) | 6 (10.3) | 7 (12.1) | 9 (8.5) | 19 (8.9) | 41 (9.4) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Arthralgia",
+        "arm": "total gosuranemab (all doses combined)",
+        "count": "41",
+        "denominator": "436",
+        "percentage": "9.4%",
+        "apoe_stratum": null,
+        "quote": "| Arthralgia | 14 (6.5) | 6 (10.3) | 7 (12.1) | 9 (8.5) | 19 (8.9) | 41 (9.4) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Headache",
+        "arm": "placebo (q4w)",
+        "count": "20",
+        "denominator": "214",
+        "percentage": "9.3%",
+        "apoe_stratum": null,
+        "quote": "| Headache | 20 (9.3) | 1 (1.7) | 6 (10.3) | 11 (10.4) | 22 (10.3) | 40 (9.2) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Headache",
+        "arm": "gosuranemab 125 mg q4w (low dose)",
+        "count": "1",
+        "denominator": "58",
+        "percentage": "1.7%",
+        "apoe_stratum": null,
+        "quote": "| Headache | 20 (9.3) | 1 (1.7) | 6 (10.3) | 11 (10.4) | 22 (10.3) | 40 (9.2) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Headache",
+        "arm": "gosuranemab 375 mg q12w (low dose)",
+        "count": "6",
+        "denominator": "58",
+        "percentage": "10.3%",
+        "apoe_stratum": null,
+        "quote": "| Headache | 20 (9.3) | 1 (1.7) | 6 (10.3) | 11 (10.4) | 22 (10.3) | 40 (9.2) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Headache",
+        "arm": "gosuranemab 600 mg q4w (intermediate dose)",
+        "count": "11",
+        "denominator": "106",
+        "percentage": "10.4%",
+        "apoe_stratum": null,
+        "quote": "| Headache | 20 (9.3) | 1 (1.7) | 6 (10.3) | 11 (10.4) | 22 (10.3) | 40 (9.2) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Headache",
+        "arm": "gosuranemab 2,000 mg q4w (high dose)",
+        "count": "22",
+        "denominator": "214",
+        "percentage": "10.3%",
+        "apoe_stratum": null,
+        "quote": "| Headache | 20 (9.3) | 1 (1.7) | 6 (10.3) | 11 (10.4) | 22 (10.3) | 40 (9.2) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Headache",
+        "arm": "total gosuranemab (all doses combined)",
+        "count": "40",
+        "denominator": "436",
+        "percentage": "9.2%",
+        "apoe_stratum": null,
+        "quote": "| Headache | 20 (9.3) | 1 (1.7) | 6 (10.3) | 11 (10.4) | 22 (10.3) | 40 (9.2) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Diarrhea",
+        "arm": "placebo (q4w)",
+        "count": "12",
+        "denominator": "214",
+        "percentage": "5.6%",
+        "apoe_stratum": null,
+        "quote": "| Diarrhea | 12 (5.6) | 11 (19.0) | 3 (5.2) | 6 (5.7) | 11 (5.1) | 31 (7.1) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Diarrhea",
+        "arm": "gosuranemab 125 mg q4w (low dose)",
+        "count": "11",
+        "denominator": "58",
+        "percentage": "19.0%",
+        "apoe_stratum": null,
+        "quote": "| Diarrhea | 12 (5.6) | 11 (19.0) | 3 (5.2) | 6 (5.7) | 11 (5.1) | 31 (7.1) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Diarrhea",
+        "arm": "gosuranemab 375 mg q12w (low dose)",
+        "count": "3",
+        "denominator": "58",
+        "percentage": "5.2%",
+        "apoe_stratum": null,
+        "quote": "| Diarrhea | 12 (5.6) | 11 (19.0) | 3 (5.2) | 6 (5.7) | 11 (5.1) | 31 (7.1) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Diarrhea",
+        "arm": "gosuranemab 600 mg q4w (intermediate dose)",
+        "count": "6",
+        "denominator": "106",
+        "percentage": "5.7%",
+        "apoe_stratum": null,
+        "quote": "| Diarrhea | 12 (5.6) | 11 (19.0) | 3 (5.2) | 6 (5.7) | 11 (5.1) | 31 (7.1) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Diarrhea",
+        "arm": "gosuranemab 2,000 mg q4w (high dose)",
+        "count": "11",
+        "denominator": "214",
+        "percentage": "5.1%",
+        "apoe_stratum": null,
+        "quote": "| Diarrhea | 12 (5.6) | 11 (19.0) | 3 (5.2) | 6 (5.7) | 11 (5.1) | 31 (7.1) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Diarrhea",
+        "arm": "total gosuranemab (all doses combined)",
+        "count": "31",
+        "denominator": "436",
+        "percentage": "7.1%",
+        "apoe_stratum": null,
+        "quote": "| Diarrhea | 12 (5.6) | 11 (19.0) | 3 (5.2) | 6 (5.7) | 11 (5.1) | 31 (7.1) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Constipation",
+        "arm": "placebo (q4w)",
+        "count": "8",
+        "denominator": "214",
+        "percentage": "3.7%",
+        "apoe_stratum": null,
+        "quote": "| Constipation | 8 (3.7) | 6 (10.3) | 1 (1.7) | 2 (1.9) | 6 (2.8) | 15 (3.4) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Constipation",
+        "arm": "gosuranemab 125 mg q4w (low dose)",
+        "count": "6",
+        "denominator": "58",
+        "percentage": "10.3%",
+        "apoe_stratum": null,
+        "quote": "| Constipation | 8 (3.7) | 6 (10.3) | 1 (1.7) | 2 (1.9) | 6 (2.8) | 15 (3.4) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Constipation",
+        "arm": "gosuranemab 375 mg q12w (low dose)",
+        "count": "1",
+        "denominator": "58",
+        "percentage": "1.7%",
+        "apoe_stratum": null,
+        "quote": "| Constipation | 8 (3.7) | 6 (10.3) | 1 (1.7) | 2 (1.9) | 6 (2.8) | 15 (3.4) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Constipation",
+        "arm": "gosuranemab 600 mg q4w (intermediate dose)",
+        "count": "2",
+        "denominator": "106",
+        "percentage": "1.9%",
+        "apoe_stratum": null,
+        "quote": "| Constipation | 8 (3.7) | 6 (10.3) | 1 (1.7) | 2 (1.9) | 6 (2.8) | 15 (3.4) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Constipation",
+        "arm": "gosuranemab 2,000 mg q4w (high dose)",
+        "count": "6",
+        "denominator": "214",
+        "percentage": "2.8%",
+        "apoe_stratum": null,
+        "quote": "| Constipation | 8 (3.7) | 6 (10.3) | 1 (1.7) | 2 (1.9) | 6 (2.8) | 15 (3.4) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Constipation",
+        "arm": "total gosuranemab (all doses combined)",
+        "count": "15",
+        "denominator": "436",
+        "percentage": "3.4%",
+        "apoe_stratum": null,
+        "quote": "| Constipation | 8 (3.7) | 6 (10.3) | 1 (1.7) | 2 (1.9) | 6 (2.8) | 15 (3.4) |",
+        "location": "Table 3. Primary safety endpoint for the placebo-controlled period"
+      },
+      {
+        "name": "Cerebral microhemorrhages (new microhemorrhages on MRI)",
+        "arm": "total gosuranemab (all doses combined)",
+        "count": null,
+        "denominator": null,
+        "percentage": "5.0%",
+        "apoe_stratum": null,
+        "quote": "The incidence of cerebral microhemorrhages was lower in the gosuranemab-treated groups (5.0%) than in the placebo group (11.4%).",
+        "location": "Results, 'Primary endpoint results for gosuranemab safety and tolerability', final paragraph"
+      },
+      {
+        "name": "Cerebral microhemorrhages (new microhemorrhages on MRI)",
+        "arm": "placebo (q4w)",
+        "count": null,
+        "denominator": null,
+        "percentage": "11.4%",
+        "apoe_stratum": null,
+        "quote": "The incidence of cerebral microhemorrhages was lower in the gosuranemab-treated groups (5.0%) than in the placebo group (11.4%).",
+        "location": "Results, 'Primary endpoint results for gosuranemab safety and tolerability', final paragraph"
+      },
+      {
+        "name": "Cerebral hemorrhage leading to discontinuation",
+        "arm": "placebo (q4w)",
+        "count": null,
+        "denominator": null,
+        "percentage": "1.4%",
+        "apoe_stratum": null,
+        "quote": "(for example, cerebral hemorrhage, with an incidence of 1.4% in the placebo group and 1.1% in the combined gosuranemab groups)",
+        "location": "Results, 'Primary endpoint results for gosuranemab safety and tolerability'"
+      },
+      {
+        "name": "Cerebral hemorrhage leading to discontinuation",
+        "arm": "total gosuranemab (all doses combined)",
+        "count": null,
+        "denominator": null,
+        "percentage": "1.1%",
+        "apoe_stratum": null,
+        "quote": "(for example, cerebral hemorrhage, with an incidence of 1.4% in the placebo group and 1.1% in the combined gosuranemab groups)",
+        "location": "Results, 'Primary endpoint results for gosuranemab safety and tolerability'"
+      },
+      {
+        "name": "Death",
+        "arm": "placebo (q4w)",
+        "count": "1",
+        "denominator": "214",
+        "percentage": "0.5%",
+        "apoe_stratum": null,
+        "quote": "During the placebo-controlled period, one death occurred in the placebo group (0.5%) and two deaths occurred across all gosuranemab groups (0.5%).",
+        "location": "Results, 'Primary endpoint results for gosuranemab safety and tolerability'"
+      },
+      {
+        "name": "Death",
+        "arm": "total gosuranemab (all doses combined)",
+        "count": "2",
+        "denominator": "436",
+        "percentage": "0.5%",
+        "apoe_stratum": null,
+        "quote": "During the placebo-controlled period, one death occurred in the placebo group (0.5%) and two deaths occurred across all gosuranemab groups (0.5%).",
+        "location": "Results, 'Primary endpoint results for gosuranemab safety and tolerability'"
+      },
+      {
+        "name": "Treatment-related death (subdural hematoma related to a possible fall)",
+        "arm": "gosuranemab 2,000 mg q4w (high dose)",
+        "count": "1",
+        "denominator": "214",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "One death (in the high-dose group) was considered treatment-related (subdural hematoma related to a possible fall); the other two deaths were not considered related to treatment",
+        "location": "Results, 'Primary endpoint results for gosuranemab safety and tolerability'"
+      },
+      {
+        "name": "Seizure leading to discontinuation",
+        "arm": "placebo (q4w) and gosuranemab 2,000 mg q4w (high dose)",
+        "count": "one case in each group",
+        "denominator": null,
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "the only AE leading to discontinuation that was reported in more than one participant was seizure (one case in the placebo group, one case in the high-dose gosuranemab group)",
+        "location": "Results, 'Primary endpoint results for gosuranemab safety and tolerability'"
+      },
+      {
+        "name": "Death during the long-term extension (LTE) period",
+        "arm": "all groups during the LTE period",
+        "count": "6",
+        "denominator": null,
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "Six participants died during the LTE period, with one participant (from the high-dose group) dying before receiving any dose in this period; no deaths during the LTE period were considered treatment-related.",
+        "location": "Results, 'Post hoc analysis of the aborted LTE period'"
+      },
+      {
+        "name": "SAEs during the LTE period",
+        "arm": "early-start high-dose gosuranemab group (LTE period)",
+        "count": null,
+        "denominator": "168",
+        "percentage": "6.0%",
+        "apoe_stratum": null,
+        "quote": "similar between the early-start ( n = 168) and late-start ( n = 165) high-dose groups (AEs: 61.3% in the early-start group, 60.0% in the late-start group; SAEs: 6.0% in the early-start group, 7.9% in the late-start group)",
+        "location": "Results, 'Post hoc analysis of the aborted LTE period'"
+      },
+      {
+        "name": "SAEs during the LTE period",
+        "arm": "late-start high-dose gosuranemab group (LTE period)",
+        "count": null,
+        "denominator": "165",
+        "percentage": "7.9%",
+        "apoe_stratum": null,
+        "quote": "similar between the early-start ( n = 168) and late-start ( n = 165) high-dose groups (AEs: 61.3% in the early-start group, 60.0% in the late-start group; SAEs: 6.0% in the early-start group, 7.9% in the late-start group)",
+        "location": "Results, 'Post hoc analysis of the aborted LTE period'"
+      }
+    ],
+    "apoe_stratification_reported": false,
+    "serious_adverse_events": {
+      "value": "SAEs: placebo 26/214 (12.1%); 125 mg q4w 6/58 (10.3%); 375 mg q12w 6/58 (10.3%); 600 mg q4w 13/106 (12.3%); 2,000 mg q4w 25/214 (11.7%); total gosuranemab 50/436 (11.5%). Treatment-related SAEs were low (gosuranemab 0.5%, placebo 0.9%)",
+      "quote": "Gosuranemab had an acceptable safety profile and was generally well tolerated (incidence of serious adverse events: placebo, 12.1%; low dose, 10.3%; intermediate dose, 12.3%; high dose, 11.7%).",
+      "location": "Abstract; Table 3"
+    },
+    "deaths": {
+      "value": "Placebo-controlled period: 3 deaths (1 placebo, 0.5%; 2 across all gosuranemab groups, 0.5%), one of which (high dose, subdural hematoma related to a possible fall) was considered treatment-related. LTE period: 6 deaths, none considered treatment-related",
+      "quote": "During the placebo-controlled period, one death occurred in the placebo group (0.5%) and two deaths occurred across all gosuranemab groups (0.5%).",
+      "location": "Results, 'Primary endpoint results for gosuranemab safety and tolerability'"
+    },
+    "discontinuations": {
+      "value": "Treatment discontinuation due to AEs: placebo 11/214 (5.1%) versus combined gosuranemab 14/436 (3.2%); study withdrawal due to AEs: placebo 11 (5.1%) versus combined gosuranemab 9 (2.1%); 32 participants (4.9%) discontinued study treatment for COVID-19-related reasons",
+      "quote": "Rates of treatment discontinuation due to AEs were low overall and comparable between the placebo (5.1%) and combined gosuranemab (3.2%) groups.",
+      "location": "Results, 'Primary endpoint results for gosuranemab safety and tolerability'; Table 3"
+    }
+  },
+  "funding": [
+    "This study was sponsored and funded by Biogen Inc.",
+    "Medical writing and editorial support was funded by Biogen Inc. and provided by Nucleus Global in accordance with the Good Publication Practice guidelines"
+  ],
+  "conflicts": [
+    "M.S., J.K., J.O'G., E.H., J.C., D.G., Y.L. and H.H. are employees and shareholders of Biogen",
+    "E.R., R.R., L.V., A.M.R. and S.B.H. are former employees and shareholders of Biogen",
+    "E.R. is a current employee of Takeda Pharmaceuticals; R.R. is a current employee of Vigil Neuroscience; A.M.R. is a current employee of AstraZeneca; L.V. is a current employee of Moderna; S.B.H. is a current employee of the Enigma Biomedical Group",
+    "The remaining authors declare no competing interests"
+  ],
+  "limitations": [
+    "Biological/technical limitation: targeting an N-terminal tau epitope may not sufficiently capture the extracellular tau species responsible for mediating tau pathology propagation",
+    "Pathological tau species may spread through pathways not accessible to monoclonal antibodies, such as exosomes or nanotubes, and most tau resides inside neurons",
+    "Preclinical tau transgenic mouse models are unsuitable for testing therapeutics aimed at intercepting extracellular tau, calling into question their predictive value",
+    "The study was affected by the COVID-19 pandemic; visit-scheduling flexibility kept discontinuation low at the expense of increased protocol deviations",
+    "Limited data were collected during the LTE period due to the early termination of the study",
+    "Improved fluid measures are needed to understand the extracellular availability of pathological tau"
+  ],
+  "risk_of_bias": [
+    {
+      "domain": "sponsor analysis",
+      "judgement": "The trial was sponsored and funded by Biogen, the statistical analysis was performed by Biogen statisticians/programmers, and most authors are current or former Biogen employees and shareholders.",
+      "quote": "M.S., J.K., J.O’G., E.H., J.C., D.G., Y.L. and H.H. are employees and shareholders of Biogen. E.R., R.R., L.V., A.M.R. and S.B.H. are former employees and shareholders of Biogen."
+    },
+    {
+      "domain": "multiplicity / selective inference",
+      "judgement": "No adjustment for multiple comparisons was made across the many secondary and exploratory comparisons reported, so nominal P values (including the significant ADAS-Cog13, p-tau181, total tau and lateral ventricle results) are unadjusted.",
+      "quote": "Analyses were two-sided at a 5% significance level. No adjustments were made for multiple comparisons."
+    },
+    {
+      "domain": "early termination / attrition",
+      "judgement": "The long-term extension was terminated early for lack of efficacy and no participant completed it, so LTE analyses rest on truncated follow-up.",
+      "quote": "The LTE period of the study was terminated early owing to the lack of efficacy demonstrated upon readout after the placebo-controlled period."
+    },
+    {
+      "domain": "protocol deviations (COVID-19)",
+      "judgement": "Pandemic-driven scheduling flexibility increased protocol deviations, which the document states were generally balanced across groups.",
+      "quote": "This flexibility made possible the low discontinuation rate observed in the study, at the expense of increased protocol deviations."
+    },
+    {
+      "domain": "post-hoc analysis of the extension",
+      "judgement": "The delayed-start / LTE comparisons are labelled post hoc by the document itself and are limited by early termination.",
+      "quote": "Data from the LTE period were analyzed up to week 104, during which the sample size was still substantial (the n for each group was >50% of the total sample size at baseline)."
+    },
+    {
+      "domain": "overenrollment relative to plan",
+      "judgement": "Enrollment exceeded the preplanned 528 participants, reaching 654 because of fast recruitment.",
+      "quote": "A total of 654 participants were randomized (updated from the preplanned 528 participants due to overenrollment caused by fast recruitment)"
+    }
+  ],
+  "disagreements": [
+    {
+      "question": "Does target engagement of extracellular N-terminal tau translate into reduced tau pathology or clinical benefit?",
+      "position": "This document concludes that gosuranemab bound extracellular N-terminal tau robustly but that this engagement produced neither a reduction in tau PET-measured pathology nor clinical benefit.",
+      "attributed_to": "The TANGO investigators (Biogen-sponsored study report)",
+      "quote": "Thus, gosuranemab effectively bound extracellular N-terminal tau, but this binding did not reduce the accumulation of pathological tau as detected by tau PET."
+    },
+    {
+      "question": "Are tau transgenic mouse models predictive of clinical efficacy for anti-tau antibodies?",
+      "position": "This document argues the predictive value of these preclinical models is questionable, since agents effective in mice have failed clinically.",
+      "attributed_to": "The TANGO investigators (Discussion)",
+      "quote": "However, similar to gosuranemab, these agents have failed to demonstrate a clear clinical benefit in patients with early AD, calling into question the predictive value of these mouse studies for clinical efficacy."
+    },
+    {
+      "question": "Is the N-terminus of tau the right therapeutic epitope?",
+      "position": "This document argues an N-terminal epitope may not capture the extracellular tau species that propagate pathology, and that intracellular tau may be the more important target.",
+      "attributed_to": "The TANGO investigators (Discussion)",
+      "quote": "Thus, targeting an N-terminal tau epitope may not sufficiently capture extracellular tau species responsible for mediating tau pathology propagation."
+    },
+    {
+      "question": "Have all anti-tau antibody trials in AD been negative?",
+      "position": "This document notes that, in contrast to the negative early-AD trials, semorinemab showed partial efficacy on one coprimary endpoint in moderate AD in the Lauriet trial.",
+      "attributed_to": "The TANGO investigators, citing the Lauriet trial of semorinemab",
+      "quote": "By contrast, in the Lauriet trial, semorinemab demonstrated partial efficacy compared to placebo, with a reduced rate of cognitive decline based on one coprimary endpoint (ADAS-Cog11 scores) in participants with moderate AD ."
+    }
+  ],
+  "linked_objects": [
+    {
+      "relation": "registry_record",
+      "identifier": "NCT03352557",
+      "note": "ClinicalTrials.gov registration for TANGO; the document states the full protocol, statistical analysis plan and trial results are posted there"
+    },
+    {
+      "relation": "registry_record",
+      "identifier": "EudraCT 2017-002901-37",
+      "note": "European registry record with posted results, named in the data availability statement"
+    },
+    {
+      "relation": "published_version_of",
+      "identifier": "10.1038/s43587-023-00523-w",
+      "note": "DOI of this Nature Aging article, which also hosts the supplementary protocol and statistical analysis plans"
+    }
+  ],
+  "trial_status_observation": {
+    "status": "The long-term extension period was terminated early owing to lack of efficacy after the placebo-controlled readout; none of the participants completed the LTE period",
+    "enrollment": "654 participants randomized, 650 dosed (preplanned 528)",
+    "phase": "Phase 2",
+    "observed_at": "Study visits occurred between May 2018 and August 2021 (the document dates the study conduct window but does not date the termination decision itself)",
+    "source": "TANGO primary publication, Nature Aging (Methods, 'Study overview'; Results, 'Post hoc analysis of the aborted LTE period')"
+  },
+  "unlocatable_fields": [
+    "authors (the retrieved document prints no author byline; only author initials appear in the author contributions section)",
+    "authors[].affiliation",
+    "authors[].orcid",
+    "authors[].corresponding",
+    "safety.harms[ARIA-E] (ARIA is not reported in this anti-tau antibody trial)",
+    "safety.harms[ARIA-H] (not reported; the document reports cerebral microhemorrhages on MRI instead)",
+    "safety.harms[symptomatic ARIA] (not reported)",
+    "safety.harms[macrohemorrhage] (not reported as such; cerebral hemorrhage is reported only as a discontinuation category)",
+    "safety.harms[*].apoe_stratum (no harm is reported by APOE genotype)",
+    "outcomes[primary].confidence_interval (no interval is reported for the safety primary endpoint)",
+    "outcomes[primary].p_value (no P value is reported for the safety primary endpoint)",
+    "outcomes[immunogenicity].p_value",
+    "outcomes[ADAS-Cog13].confidence_interval",
+    "outcomes[CSF unbound N-terminal tau].confidence_interval",
+    "outcomes[CSF p-tau181].confidence_interval",
+    "outcomes[CSF total tau].confidence_interval",
+    "outcomes[brain volume MRI].confidence_interval",
+    "outcomes[LTE ADAS-Cog13 week 104].confidence_interval"
+  ],
+  "_meta": {
+    "model": "claude (builder subagent)",
+    "extracted_at": "2026-08-13T16:39:52Z",
+    "source": "raw/gosuranemab-tango/document.md"
+  }
+}

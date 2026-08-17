@@ -1,0 +1,90 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT06566170",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06566170",
+      "name": null,
+      "drug": "Donanemab (Anti-amyloid monoclonal antibody)",
+      "phase": "n/a",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Recruiting",
+      "enrollment": 6250,
+      "population": "US participants with early symptomatic Alzheimer's disease",
+      "primary_endpoint": "Long-term effectiveness of donanemab plus usual care versus usual care alone",
+      "started": "2024-10",
+      "completed_or_readout": "2033-02",
+      "results_summary": null,
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04437511",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04437511",
+      "name": "TRAILBLAZER-ALZ 2",
+      "drug": "Donanemab (Anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Active, not recruiting",
+      "enrollment": 1736,
+      "population": "Participants with early symptomatic Alzheimer's disease",
+      "primary_endpoint": "Change from baseline on the Integrated Alzheimer's Disease Rating Scale (iADRS)",
+      "started": "2020-06",
+      "completed_or_readout": "2023-04",
+      "results_summary": "Donanemab significantly slowed clinical and functional decline in patients with early symptomatic Alzheimer's disease compared to placebo over 76 weeks. It achieved substantial amyloid plaque clearance, leading to trial-specified treatment cessation for many patients, but was associated with higher rates of ARIA and infusion-related reactions.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03367403",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03367403",
+      "name": "TRAILBLAZER-ALZ",
+      "drug": "Donanemab (Anti-amyloid monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Completed",
+      "enrollment": 272,
+      "population": "Participants with early symptomatic Alzheimer's disease",
+      "primary_endpoint": "Change from baseline in the Integrated Alzheimer's Disease Rating Scale (iADRS) Score",
+      "started": "2017-12",
+      "completed_or_readout": "2020-12",
+      "results_summary": "Donanemab demonstrated a significant slowing of cognitive and functional decline compared to placebo at 76 weeks, serving as the proof-of-concept for the amyloid-clearing limited-duration dosing paradigm.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05026866",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05026866",
+      "name": "TRAILBLAZER-ALZ 3",
+      "drug": "Donanemab (Anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Active, not recruiting",
+      "enrollment": 2996,
+      "population": "Participants with preclinical Alzheimer's disease",
+      "primary_endpoint": "Time to clinical progression of composite endpoint as measured by Clinical Dementia Rating (CDR)",
+      "started": "2021-08",
+      "completed_or_readout": "2027-11",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2023-08-08",
+      "kind": "paper",
+      "description": "Primary efficacy and safety results of the TRAILBLAZER-ALZ 2 Phase 3 trial.",
+      "url": "https://doi.org/10.1001/jama.2023.13239"
+    },
+    {
+      "date": "2021-05-06",
+      "kind": "paper",
+      "description": "Primary results of the TRAILBLAZER-ALZ Phase 2 trial.",
+      "url": "https://doi.org/10.1056/NEJMoa2100708"
+    }
+  ],
+  "evidence_assessment": "The FDA's mandate for extensive postmarketing requirements (PMRs) and commitments (PMCs) is strongly justified by the clinical evidence record. The pivotal Phase 3 TRAILBLAZER-ALZ 2 trial established donanemab's efficacy in slowing cognitive decline but also identified substantial safety risks, primarily amyloid-related imaging abnormalities (ARIA) and cerebral hemorrhages. These risks are notably higher in ApoE ε4 carriers, substantiating the FDA's requirement for an in vitro diagnostic (IVD) test to identify this high-risk population. To ensure long-term, real-world safety monitoring outside controlled trial environments, the FDA mandated a large prospective observational registry, which is currently recruiting (NCT06566170). The additional mandates for a maintenance dosing trial and a retrospective claims database study emphasize the agency's commitment to optimizing administration and monitoring rare, severe adverse events over time.",
+  "discrepancies": [
+    "The FDA document specifies mandated postmarketing requirements for a retrospective claims database study (PMR 4605-2) and a randomized controlled trial for maintenance dosing (PMR 4605-3), but these specific studies are not yet explicitly registered or identifiable in ClinicalTrials.gov as distinct active trials."
+  ]
+}

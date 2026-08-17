@@ -1,0 +1,123 @@
+{
+  "kind": "other",
+  "title": "SUMMARY REVIEW: APPLICATION NUMBER 761269Orig1s000",
+  "authors": [
+    {
+      "name": "Mani, Ranjit B.",
+      "affiliation": "Center for Drug Evaluation and Research",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Yasuda, Sally U.",
+      "affiliation": "Center for Drug Evaluation and Research",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Buracchio, Teresa J.",
+      "affiliation": "Center for Drug Evaluation and Research",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Dunn, William H.",
+      "affiliation": "Center for Drug Evaluation and Research",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Mani, Ranjit B.",
+  "venue": "Center for Drug Evaluation and Research",
+  "published": "2023-01",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "review",
+    "trial",
+    "amyloid",
+    "immunotherapy",
+    "lecanemab",
+    "fda-approval",
+    "aria"
+  ],
+  "themes": [
+    "Accelerated approval via surrogate endpoints",
+    "Dose-dependent amyloid plaque reduction",
+    "Amyloid-related imaging abnormalities (ARIA)",
+    "ApoE ε4 carrier safety risks",
+    "Infusion-related reactions"
+  ],
+  "one_line": "The FDA granted accelerated approval to lecanemab for early Alzheimer's disease based on its robust reduction of brain amyloid plaques, balancing this surrogate efficacy against safety risks like ARIA and infusion reactions.",
+  "summary": "This FDA Summary Review outlines the clinical, statistical, and safety rationale for granting accelerated approval to the anti-amyloid monoclonal antibody lecanemab (Leqembi) for treating mild cognitive impairment or mild dementia due to Alzheimer's disease. The decision is anchored by Study 201, a Phase 2b trial demonstrating that lecanemab at 10 mg/kg biweekly significantly reduces brain amyloid plaques in a time- and dose-dependent manner. The FDA deemed this plaque reduction a surrogate endpoint reasonably likely to predict clinical benefit, supported by numerical trends showing slowed cognitive decline. Key safety findings include a notable increase in Amyloid-Related Imaging Abnormalities (ARIA-E and ARIA-H), which present a substantially higher risk for ApoE ε4 homozygotes. Despite statistical limitations—such as a lack of type I error control and failure to meet the prespecified Bayesian success threshold on the primary clinical endpoint—the agency determined the benefit-risk profile is favorable for accelerated approval, mandating enhanced pharmacovigilance and a confirmatory Phase 3 trial.",
+  "key_claims": [
+    {
+      "claim": "Lecanemab profoundly reduces brain amyloid plaque burden in a dose- and time-dependent manner.",
+      "evidence": "In Study 201, the 10 mg/kg biweekly arm achieved a mean difference of -0.31 SUVR (-73.5 Centiloids) compared to placebo at Week 79 (p<0.001).",
+      "strength": "strong",
+      "location": "Section 1 / Section 6: Surrogate Endpoint"
+    },
+    {
+      "claim": "The surrogate endpoint of amyloid plaque reduction is reasonably likely to predict clinical benefit.",
+      "evidence": "A 64% probability of the 10 mg/kg biweekly regimen being superior to placebo by 25% on ADCOMS at Week 53, alongside numerical advantages on secondary endpoints like CDR-SB.",
+      "strength": "moderate",
+      "location": "Section 1 / Section 6: Clinical Endpoints"
+    },
+    {
+      "claim": "Lecanemab increases the risk of Amyloid-Related Imaging Abnormalities (ARIA-E and ARIA-H).",
+      "evidence": "ARIA-E occurred in 10% of treated patients versus 1% on placebo; ARIA-H occurred in 6% of treated patients versus 5% on placebo.",
+      "strength": "strong",
+      "location": "Section 1 / Section 7: Safety (Table 5)"
+    },
+    {
+      "claim": "ApoE ε4 homozygotes face a disproportionately higher risk of ARIA when treated with lecanemab.",
+      "evidence": "ARIA-E incidence was 50% (5 out of 10) in ApoE ε4 homozygotes, compared to 5% in heterozygotes and 8% in non-carriers at the proposed dose.",
+      "strength": "strong",
+      "location": "Section 1 / Section 7: Amyloid-Relating Imaging Abnormalities (ARIA)"
+    }
+  ],
+  "methods": {
+    "design": "Multicenter, randomized, double-blind, placebo-controlled, parallel-group trial using Bayesian response adaptive randomization (Study 201)",
+    "n": 856,
+    "population": "Patients aged 50-90 with MCI due to Alzheimer's disease or mild Alzheimer's disease dementia, with evidence of brain Aβ pathology",
+    "duration": "18-month (78-week) placebo-controlled treatment period",
+    "registration": null
+  },
+  "funding_and_conflicts": "The applicant adequately disclosed financial arrangements with clinical investigators. No conflicts are stated for the FDA authors.",
+  "limitations": [
+    "Small sample size of ApoE ε4 carriers in the proposed dose arm due to a mid-study protocol amendment restricting their randomization.",
+    "Lack of sufficient racial diversity, specifically an under-representation of African American and Hispanic patients.",
+    "The 6-month safety database size did not meet standard ICH E1 guidelines for long-term treatment of non-life-threatening conditions."
+  ],
+  "red_flags": [
+    "Study 201 failed to achieve its prespecified Bayesian success criterion (80% probability) on the primary clinical endpoint (ADCOMS at Week 53), achieving only 64%.",
+    "The statistical analysis plan for Study 201 did not control for type I error across interim analyses, prompting the FDA biostatistics reviewer to classify the efficacy results as strictly exploratory."
+  ],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "Minor spacing artifacts and run-together words (e.g., 'lecanemab-irmb')",
+      "Orphaned footnotes injected into body text",
+      "Formatting artifacts and slight misalignments in tabular data (e.g., Table 1, Table 5)"
+    ]
+  },
+  "search_verification": [
+    "Searched for standard publication DOIs and PMIDs; confirmed that FDA administrative summary reviews do not receive academic identifiers."
+  ]
+}

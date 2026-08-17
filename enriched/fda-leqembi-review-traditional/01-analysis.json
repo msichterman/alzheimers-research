@@ -1,0 +1,159 @@
+{
+  "kind": "other",
+  "title": "Approval Package for: APPLICATION NUMBER: 761269Orig1s001 (Leqembi injection)",
+  "authors": [
+    {
+      "name": "Buracchio, Teresa J.",
+      "affiliation": "Office of Neuroscience, Center for Drug Evaluation and Research, FDA",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Yasuda, Sally U.",
+      "affiliation": "Division of Neurology 1, Center for Drug Evaluation and Research, FDA",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Krudys, Kevin M.",
+      "affiliation": "Division of Neurology 1, Center for Drug Evaluation and Research, FDA",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Erten-Lyons, Deniz",
+      "affiliation": "Division of Neurology 1, Center for Drug Evaluation and Research, FDA",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Massie, Tristan S.",
+      "affiliation": "Office of Biostatistics, Center for Drug Evaluation and Research, FDA",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Zhang, Yifei N.",
+      "affiliation": "Office of Clinical Pharmacology, Center for Drug Evaluation and Research, FDA",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Alfaro, Cara L.",
+      "affiliation": "Office of Scientific Investigations, Center for Drug Evaluation and Research, FDA",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    },
+    {
+      "name": "Abraham, Danielle S.",
+      "affiliation": "Division of Epidemiology I, Center for Drug Evaluation and Research, FDA",
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Buracchio, Teresa J.",
+  "venue": "Center for Drug Evaluation and Research, Food and Drug Administration",
+  "published": "2023-07",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": "© 2023 Eisai Inc. and Biogen",
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "review",
+    "trial",
+    "amyloid",
+    "tau",
+    "biomarkers",
+    "immunotherapy",
+    "genetics",
+    "lecanemab",
+    "fda-approval",
+    "aria"
+  ],
+  "themes": [
+    "Alzheimer's disease treatment",
+    "Anti-amyloid monoclonal antibodies",
+    "Amyloid-related imaging abnormalities (ARIA)",
+    "ApoE e4 genotype risk",
+    "Clinical efficacy verification"
+  ],
+  "one_line": "FDA review and traditional approval of lecanemab (Leqembi) for early Alzheimer's disease, verifying clinical benefit in reducing cognitive decline while highlighting serious ARIA risks, especially in ApoE ε4 homozygotes.",
+  "summary": "This FDA approval package documents the traditional approval of Leqembi (lecanemab-irmb) for the treatment of early Alzheimer's disease, transitioning it from accelerated approval. The approval is based primarily on Study 301 (CLARITY-AD), an 18-month Phase 3 trial demonstrating that lecanemab significantly reduced clinical decline on the CDR-SB scale by 27% compared to placebo. Key secondary endpoints, including amyloid PET burden reduction and other cognitive scales, consistently supported the primary outcome across most demographics. However, the review extensively details safety concerns, particularly Amyloid Related Imaging Abnormalities (ARIA-E and ARIA-H), which occurred at higher rates in lecanemab-treated patients. The risk of severe and symptomatic ARIA, as well as intracerebral hemorrhage, was markedly elevated in patients homozygous for the ApoE ε4 allele and those on concomitant anticoagulants. Consequently, the FDA mandated a Boxed Warning regarding these risks and required postmarketing studies to further characterize safety in high-risk subpopulations.",
+  "key_claims": [
+    {
+      "claim": "Lecanemab treatment significantly reduces clinical decline in early Alzheimer's disease.",
+      "evidence": "Study 301 primary endpoint (CDR-SB) showed a treatment difference of -0.451 (-27% less decline) vs placebo at 18 months (p=0.00005), supported by key secondary endpoints (ADAS-Cog14, ADCS MCI-ADL).",
+      "strength": "strong",
+      "location": "Efficacy Results – Primary Endpoint / Table 6"
+    },
+    {
+      "claim": "Lecanemab effectively reduces brain amyloid beta plaque levels.",
+      "evidence": "Amyloid PET substudy showed a reduction of -59.1 Centiloids compared to placebo at week 79.",
+      "strength": "strong",
+      "location": "Efficacy Results – Pharmacodynamic endpoints / Table 11"
+    },
+    {
+      "claim": "ApoE ε4 homozygotes are at a substantially higher risk for ARIA and severe ARIA.",
+      "evidence": "ARIA-E occurred in 33% of ApoE ε4 homozygotes treated with lecanemab vs 11% of heterozygotes and 5% of noncarriers. Severe ARIA-E was highest in homozygotes (15%).",
+      "strength": "strong",
+      "location": "Impact of ApoE ε4 Allele Status on Frequency of ARIA / Table 21"
+    },
+    {
+      "claim": "Concomitant use of anticoagulants with lecanemab increases the risk of intracerebral hemorrhage.",
+      "evidence": "Incidence of intracerebral hemorrhage in subjects on an anticoagulant and lecanemab was 2.5% (2/79) compared to 0% (0/72) on an anticoagulant with placebo.",
+      "strength": "moderate",
+      "location": "Effect of Antithrombotic Medications on ARIA risk / Table 29"
+    }
+  ],
+  "methods": {
+    "design": "Randomized, double-blind, placebo-controlled, parallel-group Phase 3 clinical trial (Study 301 / CLARITY-AD) with an open-label extension.",
+    "n": 1795,
+    "population": "Patients aged 50 to 90 years with mild cognitive impairment (MCI) due to Alzheimer’s disease or mild Alzheimer’s disease dementia with confirmed amyloid pathology.",
+    "duration": "18 months",
+    "registration": "NCT03887455"
+  },
+  "funding_and_conflicts": "Study funded by Eisai Inc. and Biogen. The applicant adequately disclosed financial interests or agreements with clinical investigators; 13 investigators in Japan had disclosable financial interests but enrolled low numbers of patients, mitigating bias risk.",
+  "limitations": [
+    "Black/African American patients were under-represented in the clinical trials compared to the general U.S. Alzheimer's population.",
+    "The small sample size of ApoE ε4 homozygotes (n=132 placebo, n=136 lecanemab) limits the statistical power and interpretability of efficacy analyses in this high-risk subgroup.",
+    "Patients with moderate or severe dementia, or with baseline MRI findings suggestive of severe cerebral amyloid angiopathy (CAA), were excluded, limiting generalizability to these populations.",
+    "The long-term clinical implications of the observed decreases in whole brain volume and increases in ventricular volume associated with lecanemab treatment remain unclear."
+  ],
+  "red_flags": [
+    "Exploratory subgroup analyses showed no clinical benefit on the primary endpoint (CDR-SB) for ApoE ε4 homozygotes, who also bore the highest risk for severe ARIA and intracerebral hemorrhages.",
+    "The sponsor's claim that lecanemab preserves 5.3 months of time relative to placebo was challenged by the statistical reviewer because the assumption of linearity over time was questionable (a quadratic model fit better).",
+    "Several fatal intracerebral hemorrhages occurred in the open-label extension, specifically in patients with underlying cerebral amyloid angiopathy (CAA) or concurrent use of anticoagulants/thrombolytics (e.g., tPA)."
+  ],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "Some tables are slightly misaligned in markdown.",
+      "Occasional artifacts in text due to PDF conversion (e.g., run-together words, missing spaces, hyphenation issues)."
+    ]
+  },
+  "search_verification": [
+    "Identified document as an FDA Approval Package (regulatory document), which does not have standard DOI or PubMed indexing natively."
+  ]
+}

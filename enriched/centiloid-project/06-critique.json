@@ -1,0 +1,223 @@
+{
+  "extracted_by": "gemini-3.1-pro-preview",
+  "extracted_at": "2026-08-13T16:55:15.796Z",
+  "independent": true,
+  "saw_builder_output": false,
+  "source": "raw/centiloid-project/document.md",
+  "source_sha256": "db31e9cc8539350e25d4974d25344a9ad358f74c19e19ee94c209174c48a581a",
+  "truncated": false,
+  "tokens": {
+    "in": 15700,
+    "out": 1874
+  },
+  "record": {
+    "document_kind": "journal_article",
+    "title": {
+      "value": "The Centiloid Project: Standardizing Quantitative Amyloid Plaque Estimation by PET",
+      "quote": "The Centiloid Project: Standardizing Quantitative Amyloid Plaque Estimation by PET",
+      "location": "Title"
+    },
+    "study": {
+      "design": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "n": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "population": {
+        "value": "young controls (≤45 years) and typical Alzheimer’s disease patients",
+        "quote": "young controls (≤45 years) and typical Alzheimer’s disease patients.",
+        "location": "Abstract"
+      },
+      "biomarker_confirmation": {
+        "value": "amyloid imaging with PiB-PET",
+        "quote": "amyloid imaging with PiB-PET",
+        "location": "Abstract"
+      },
+      "cohorts": [
+        "AIBL"
+      ],
+      "comparator": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "followup": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "intervention": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "n_description": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "nct_ids": [],
+      "phase": {
+        "value": null,
+        "quote": null,
+        "location": null
+      }
+    },
+    "outcomes": [],
+    "primary_endpoint_status": {
+      "status": "not_applicable",
+      "quote": "Our working group was formed to standardize quantitative amyloid imaging measures by scaling the outcome of each particular analysis method or tracer to a 0 to 100 scale",
+      "explanation": "The document describes the development of a standardization method for amyloid PET imaging, not a clinical trial with a primary efficacy endpoint."
+    },
+    "safety": {
+      "harms": [],
+      "apoe_stratification_reported": false,
+      "deaths": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "discontinuations": {
+        "value": null,
+        "quote": null,
+        "location": null
+      },
+      "serious_adverse_events": {
+        "value": null,
+        "quote": null,
+        "location": null
+      }
+    },
+    "unlocatable_fields": [
+      "study.design",
+      "study.n",
+      "study.comparator",
+      "study.followup",
+      "study.intervention",
+      "study.n_description",
+      "study.phase",
+      "safety.deaths",
+      "safety.discontinuations",
+      "safety.serious_adverse_events",
+      "multiplicity.approach",
+      "trial_status_observation.status",
+      "trial_status_observation.observed_at",
+      "trial_status_observation.source"
+    ],
+    "authors": [
+      {
+        "name": "William E. Klunk",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Robert A. Koeppe",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Julie C. Price",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Tammie Benzinger",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Michael D. Devous",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "William Jagust",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Keith Johnson",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Chester A. Mathis",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Davneet Minhas",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Michael J. Pontecorvo",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Christopher C. Rowe",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Daniel Skovronsky",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Mark Mintun",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      }
+    ],
+    "conflicts": [
+      "GE Healthcare holds a license agreement with the University of Pittsburgh based on the PiB technology described in this manuscript. Drs. Klunk and Mathis are co-inventors of PiB and, as such, have a financial interest in this license agreement.",
+      "Dr. Jagust is a consultant to Genentech, Synarc, and F. Hoffman LaRoche",
+      "Dr. Rowe has received research grants for imaging in dementia from Bayer-Schering Pharma, Avid Radiopharmaceuticals, GE Healthcare, Piramal and Astra Zeneca. He has been a consultant and conference speaker for Bayer Schering Pharma and GE Healthcare.",
+      "Dr. Benzinger has received research grants for imaging in dementia from Avid Radiopharmaceuticals, a wholly owned subsidiary of Eli Lilly.",
+      "Dr. Devous has received grants from Avid Radiopharmaceuticals, and has served as a consultant for Eli Lilly, Piramal, Navidea, and GE Healthcare.",
+      "Drs. Pontecorvo, Skovronsky and Mintun are employees of Avid Radiopharmaceuticals, a wholly owned subsidiary of Eli Lilly and Company."
+    ],
+    "disagreements": [],
+    "funding": [
+      "National Institute on Aging: R37 AG025516 (WEK), P01 AG025204 (WEK), P50 AG005133 (WEK), R01 AG034570 (WJ), P01 AG026276 (TB), U19 AG032438 (TB)"
+    ],
+    "limitations": [
+      "One critical assumption when translating the online level-1 data into site-acquired Centiloid data is that, when analyzed by the standard method presented here, any given subject would yield essentially the same PiB SUVr 50-70 min value if scanned at two different sites several days apart. It is not currently clear how differences in scanners, reconstruction algorithms, instrument resolution or methods of attenuation correction might affect this assumption, but we are aware that this assumption is incorrect at least to some degree.",
+      "we have not investigated effects of substantial differences in scanner design and software nor can we account for future developments in instrumentation that might render our assumptions about the similarities invalid."
+    ],
+    "linked_objects": [],
+    "multiplicity": {
+      "approach": null,
+      "location": null,
+      "quote": null
+    },
+    "risk_of_bias": [],
+    "trial_status_observation": {
+      "status": null,
+      "observed_at": null,
+      "source": null,
+      "enrollment": null,
+      "phase": null
+    }
+  }
+}

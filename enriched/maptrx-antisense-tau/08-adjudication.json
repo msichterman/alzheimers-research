@@ -1,0 +1,42 @@
+{
+  "id": "maptrx-antisense-tau",
+  "adjudicated_at": "2026-08-13T16:36:02Z",
+  "rulings": [
+    {
+      "conflict_id": "maptrx-antisense-tau#0",
+      "field": "study.population",
+      "verdict": "both",
+      "correct_value": "Adults aged 50–74 years with mild AD, defined by CDR Overall Global Score of 1 or Global Score of 0.5 with a Memory Score of 1, MMSE 20–27 inclusive, a CSF pattern of low Aβ42 and elevated t-tau and p-tau, and a diagnosis of probable AD by NIA-AA criteria",
+      "quote": "Eligible participants were between the ages of 50 and 74 years and had mild AD, defined by a CDR Overall Global Score of 1 or Global Score of 0.5 with a Memory Score of 1, Mini-Mental State Examination score (MMSE ) of 20–27 inclusive (scores range from 0 to 30, 20–27 may represent mild AD); CSF pattern of low Aβ42 and elevated t-tau and p-tau consistent with diagnosis of AD; and diagnosis of probable AD based on National Institute of Aging-Alzheimer Association criteria (for further details, see ).",
+      "reasoning": "The readings are the same eligibility criteria at different detail levels; reading B additionally carries the age range, the CSF biomarker pattern, and the NIA-AA probable AD diagnosis, all stated verbatim in the Methods, making B the more precise supported value."
+    },
+    {
+      "conflict_id": "maptrx-antisense-tau#1",
+      "field": "study.intervention",
+      "verdict": "both",
+      "correct_value": "MAPT Rx (ISIS 814907/BIIB080), a tau-targeting antisense oligonucleotide, given as intrathecal bolus injections: 10 mg, 30 mg or 60 mg monthly (four doses each) or 115 mg quarterly (two doses)",
+      "quote": "A centralized automated randomization system assigned participants 3:1 to receive bolus IT injections of MAPT Rx or placebo (artificial CSF) within each of four dose cohorts during the 13 week treatment period: cohort A, 10 mg monthly, cohort B 30 mg monthly or cohort C, 60 mg monthly (total of four doses each); or cohort D, 115 mg quarterly (total of two doses).",
+      "reasoning": "Both readings describe the same intrathecal bolus regimen — reading B at the abstract's 'every 4 or 12 weeks' level and reading A at the cohort-by-dose level — and the document supports every element of A, including the MAPT Rx (ISIS 814907/BIIB080) identity and the dose/frequency/number-of-doses per cohort."
+    },
+    {
+      "conflict_id": "maptrx-antisense-tau#2",
+      "field": "outcomes[primary].effect_estimate",
+      "verdict": "b",
+      "correct_value": "Adverse events in 94% of MAPT Rx-treated participants versus 75% of placebo-treated participants; all mild (88%) or moderate (12%); no serious adverse events in MAPT Rx-treated participants",
+      "quote": "Adverse events (AEs) were reported in 94% of participants treated with MAPT Rx and 75% of participants treated with placebo; all events were considered mild (88%) or moderate (12%) in severity by investigators (Table ; for AE incidence and frequency by treatment group, see Extended Data Table ).",
+      "reasoning": "The primary endpoint of this trial is safety (\"The primary objective was evaluation of the safety of MAPT Rx.\"), and every value in reading B is printed in the document's 'Primary endpoint of safety' section and abstract, including \"No serious adverse events were reported in MAPT Rx -treated patients.\" Reading A's null is wrong because the document does state the primary result — though it is a pair of descriptive per-arm proportions, since \"Safety data were summarized according to treatment group\" with descriptive statistics only and no between-group estimate was computed."
+    },
+    {
+      "conflict_id": "maptrx-antisense-tau#3",
+      "field": "outcomes[primary].confidence_interval",
+      "verdict": "neither",
+      "correct_value": null,
+      "quote": "The primary objective of the trial was the evaluation of the safety of MAPT Rx treatment. Safety data were summarized according to treatment group. Quantitative assessments were summarized using descriptive statistics including number of patients, mean, median, standard deviation, standard error of mean, interquartile range (25th percentile, 75th percentile) and range (minimum, maximum).",
+      "reasoning": "The primary safety endpoint is reported as descriptive per-arm percentages (94% vs 75%; mild 88% / moderate 12%) with no inferential comparison; the Statistical analysis section enumerates the summary statistics used and confidence intervals are not among them. No confidence interval for the primary endpoint appears anywhere in the document."
+    }
+  ],
+  "notes": [
+    "Reading A omits the placebo comparator (artificial CSF, 3:1 randomization) that the document states alongside the active regimen; if the intervention field is meant to cover trial arms rather than the active drug alone, the placebo arm should be added.",
+    "The document describes a 13-week multiple-ascending-dose part 1 followed by a 23-week post-treatment period and an open-label long-term extension (part 2); the dosing values adjudicated here are those of MAD part 1 only."
+  ]
+}

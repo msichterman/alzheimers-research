@@ -1,0 +1,63 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT03688126",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03688126",
+      "name": "U.S. POINTER",
+      "drug": "Multidomain lifestyle intervention (diet, physical and cognitive exercise, cardiometabolic risk management)",
+      "phase": "n/a",
+      "sponsor": "Wake Forest University Health Sciences",
+      "status": "Completed",
+      "enrollment": 2000,
+      "population": "Sedentary adults aged 60-79 with low MIND diet scores, elevated risk for cognitive decline, and no baseline cognitive impairment",
+      "primary_endpoint": "Global cognitive function composite score",
+      "started": "2019-01",
+      "completed_or_readout": "2025-05",
+      "results_summary": "The structured multidomain lifestyle intervention significantly improved global cognitive function over 2 years compared to an unstructured, self-guided intervention (mean difference 0.029 SD/year, p=0.008). However, it did not significantly alter amyloid or tau biomarker trajectories.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01041989",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01041989",
+      "name": "FINGER",
+      "drug": "Multidomain lifestyle intervention",
+      "phase": "n/a",
+      "sponsor": "Finnish Institute for Health and Welfare",
+      "status": "Unknown",
+      "enrollment": 1200,
+      "population": "At-risk elderly people",
+      "primary_endpoint": "Cognitive impairment assessed with a Neuropsychological Test Battery, and Stroop and Trail Making tests.",
+      "started": "2009-09",
+      "completed_or_readout": "2025-12",
+      "results_summary": "The original 2-year trial met its primary endpoint in 2015, showing that a multidomain lifestyle intervention improved or maintained cognitive functioning in at-risk elderly individuals compared to general health advice. Extended follow-up is ongoing.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2025-08-26",
+      "kind": "paper",
+      "description": "Primary cognitive outcomes from the U.S. POINTER trial showing a significant cognitive benefit of the structured intervention on global cognition.",
+      "url": "https://doi.org/10.1001/jama.2025.12923"
+    },
+    {
+      "date": "2026-06-01",
+      "kind": "paper",
+      "description": "POINTER Imaging Ancillary Study showing no intervention group differences in longitudinal amyloid or tau imaging biomarkers.",
+      "url": "https://doi.org/10.1001/jamaneurol.2026.0832"
+    },
+    {
+      "date": "2015-06-06",
+      "kind": "paper",
+      "description": "Primary readout of the FINGER study demonstrating that lifestyle interventions can prevent cognitive decline in at-risk elderly people.",
+      "url": "https://doi.org/10.1016/S0140-6736(15)60461-5"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence supporting multidomain lifestyle interventions for cognitive protection is robust, anchored by large-scale randomized trials like FINGER and now U.S. POINTER. The U.S. POINTER trial successfully adapted the FINGER model for an American demographic, demonstrating that a structured, high-intensity lifestyle intervention significantly improved global cognitive function over 2 years compared to a self-guided program. Although the cognitive benefit was statistically significant, the overall effect size was relatively modest (a 0.029 SD/year difference). Furthermore, a 2026 ancillary imaging study revealed that the intervention did not alter the trajectory of Alzheimer's-specific brain biomarkers like amyloid or tau. This indicates that while lifestyle interventions provide measurable cognitive resilience, they likely act through compensatory mechanisms or vascular improvements rather than directly modifying core Alzheimer's disease pathology.",
+  "discrepancies": [
+    "The document states that study results are marked as not posted, but peer-reviewed primary results were actually published in JAMA in August 2025, followed by imaging outcomes in JAMA Neurology in June 2026.",
+    "The document states enrollment was 2,000 participants (matching the original registry target), but the published primary readout in JAMA states 2,111 participants were actually enrolled."
+  ]
+}

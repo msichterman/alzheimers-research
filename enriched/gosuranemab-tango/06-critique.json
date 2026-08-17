@@ -1,0 +1,322 @@
+{
+  "extracted_by": "gemini-3.1-pro-preview",
+  "extracted_at": "2026-08-13T16:54:15.825Z",
+  "independent": true,
+  "saw_builder_output": false,
+  "source": "raw/gosuranemab-tango/document.md",
+  "source_sha256": "03a19edfc149a3595b795f74cc98f10ed5e3dc72bc19c9b45e30667da2ce7a6b",
+  "truncated": false,
+  "tokens": {
+    "in": 17304,
+    "out": 3584
+  },
+  "record": {
+    "document_kind": "journal_article",
+    "title": {
+      "value": "TANGO: a placebo-controlled randomized phase 2 study of efficacy and safety of the anti-tau monoclonal antibody gosuranemab in early Alzheimer’s disease",
+      "quote": "TANGO: a placebo-controlled randomized phase 2 study of efficacy and safety of the anti-tau monoclonal antibody gosuranemab in early Alzheimer’s disease",
+      "location": "Title"
+    },
+    "study": {
+      "design": {
+        "value": "randomized, double-blind, placebo-controlled, parallel-group and multiple-dose long-term trial",
+        "quote": "randomized, double-blind, placebo-controlled, parallel-group and multiple-dose long-term trial",
+        "location": "Abstract"
+      },
+      "n": {
+        "value": 654,
+        "quote": "Participants were randomized ( n = 654)",
+        "location": "Abstract"
+      },
+      "population": {
+        "value": "patients with mild cognitive impairment (MCI) due to AD and those with mild AD dementia",
+        "quote": "patients with mild cognitive impairment (MCI) due to AD and those with mild AD dementia",
+        "location": "Main, paragraph 4"
+      },
+      "biomarker_confirmation": {
+        "value": "evidence of amyloid pathology, confirmed by amyloid PET (visual read) or CSF testing",
+        "quote": "evidence of amyloid pathology, confirmed by amyloid PET (visual read) or CSF testing",
+        "location": "Methods, Eligibility criteria"
+      },
+      "cohorts": [],
+      "comparator": {
+        "value": "placebo (0.9% NaCl q4w)",
+        "quote": "placebo (0.9% NaCl q4w)",
+        "location": "Methods, Study overview"
+      },
+      "followup": {
+        "value": "78 weeks",
+        "quote": "intravenously for 78 weeks",
+        "location": "Abstract"
+      },
+      "intervention": {
+        "value": "low-dose (125 mg once every 4 weeks (q4w), n = 58; 375 mg q12w, n = 58), intermediate-dose (600 mg q4w, n = 106) or high-dose (2,000 mg q4w, n = 214) gosuranemab",
+        "quote": "low-dose (125 mg once every 4 weeks (q4w), n = 58; 375 mg q12w, n = 58), intermediate-dose (600 mg q4w, n = 106) or high-dose (2,000 mg q4w, n = 214) gosuranemab",
+        "location": "Abstract"
+      },
+      "n_description": {
+        "value": "randomized",
+        "quote": "Participants were randomized ( n = 654)",
+        "location": "Abstract"
+      },
+      "nct_ids": [
+        "NCT03352557",
+        "NCT02294851",
+        "NCT02460094",
+        "NCT03068468",
+        "NCT03658135"
+      ],
+      "phase": {
+        "value": "phase 2",
+        "quote": "a phase 2 study of gosuranemab",
+        "location": "Abstract, Subject terms"
+      }
+    },
+    "outcomes": [
+      {
+        "name": "incidence of AEs and SAEs",
+        "tier": "primary",
+        "prespecified": "yes",
+        "met": "met",
+        "quote": "For the placebo-controlled period of this study, the primary endpoint was the incidence of AEs and SAEs.",
+        "location": "Methods, Primary and secondary endpoints",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": "unclear",
+        "p_value": null,
+        "prespecification_evidence": "For the placebo-controlled period of this study, the primary endpoint was the incidence of AEs and SAEs."
+      },
+      {
+        "name": "change in the CDR-SB score from baseline over time at week 78",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "The secondary endpoints were (1) the change in the CDR-SB score from baseline over time at week 78",
+        "location": "Methods, Primary and secondary endpoints",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": "no",
+        "p_value": "P = 0.9778",
+        "prespecification_evidence": "The secondary endpoints were (1) the change in the CDR-SB score from baseline over time at week 78"
+      },
+      {
+        "name": "incidence of anti-gosuranemab serum antibody responses over time up to week 90",
+        "tier": "secondary",
+        "prespecified": "yes",
+        "met": "met",
+        "quote": "The secondary endpoints were [...] (2) the incidence of anti-gosuranemab serum antibody responses over time up to week 90.",
+        "location": "Methods, Primary and secondary endpoints",
+        "confidence_interval": null,
+        "effect_estimate": null,
+        "multiplicity_controlled": "unclear",
+        "p_value": null,
+        "prespecification_evidence": "The secondary endpoints were [...] (2) the incidence of anti-gosuranemab serum antibody responses over time up to week 90."
+      },
+      {
+        "name": "change from baseline in the 13-item Alzheimer’s Disease Assessment Scale–Cognitive Subscale (ADAS-Cog13) score at week 78",
+        "tier": "exploratory",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "In one exploratory endpoint, the change from baseline in the 13-item Alzheimer’s Disease Assessment Scale–Cognitive Subscale (ADAS-Cog13) score at week 78, patients in the high-dose gosuranemab group performed statistically significantly worse than those in the placebo group",
+        "location": "Results, Exploratory endpoints: other key efficacy outcomes (cognitive and functional analyses)",
+        "confidence_interval": null,
+        "effect_estimate": "difference = 1.69",
+        "multiplicity_controlled": "no",
+        "p_value": "P = 0.0378",
+        "prespecification_evidence": "Key exploratory endpoints included (1) the change from baseline at week 78 in the ADAS-Cog13, MMSE, ADCS-ADL and FAQ scores"
+      }
+    ],
+    "primary_endpoint_status": {
+      "status": "met",
+      "quote": "Gosuranemab had an acceptable safety profile and was generally well tolerated",
+      "explanation": "The primary objective of assessing safety and tolerability was met, with similar incidence of adverse events across treatment and placebo groups."
+    },
+    "safety": {
+      "harms": [
+        {
+          "name": "Mortality events",
+          "arm": "Placebo",
+          "quote": "Mortality events | 1 (0.5)",
+          "location": "Table 3",
+          "apoe_stratum": null,
+          "count": "1",
+          "denominator": "214",
+          "percentage": "0.5"
+        },
+        {
+          "name": "Mortality events",
+          "arm": "125 mg q4w",
+          "quote": "Mortality events | 1 (0.5) | 1 (1.7)",
+          "location": "Table 3",
+          "apoe_stratum": null,
+          "count": "1",
+          "denominator": "58",
+          "percentage": "1.7"
+        },
+        {
+          "name": "Mortality events",
+          "arm": "375 mg q12w",
+          "quote": "Mortality events | 1 (0.5) | 1 (1.7) | 0",
+          "location": "Table 3",
+          "apoe_stratum": null,
+          "count": "0",
+          "denominator": "58",
+          "percentage": "0"
+        },
+        {
+          "name": "Mortality events",
+          "arm": "600 mg q4w",
+          "quote": "Mortality events | 1 (0.5) | 1 (1.7) | 0 | 0",
+          "location": "Table 3",
+          "apoe_stratum": null,
+          "count": "0",
+          "denominator": "106",
+          "percentage": "0"
+        },
+        {
+          "name": "Mortality events",
+          "arm": "2,000 mg q4w",
+          "quote": "Mortality events | 1 (0.5) | 1 (1.7) | 0 | 0 | 1 (0.5)",
+          "location": "Table 3",
+          "apoe_stratum": null,
+          "count": "1",
+          "denominator": "214",
+          "percentage": "0.5"
+        },
+        {
+          "name": "Mortality events",
+          "arm": "Total gosuranemab",
+          "quote": "Mortality events | 1 (0.5) | 1 (1.7) | 0 | 0 | 1 (0.5) | 2 (0.5)",
+          "location": "Table 3",
+          "apoe_stratum": null,
+          "count": "2",
+          "denominator": "436",
+          "percentage": "0.5"
+        }
+      ],
+      "apoe_stratification_reported": false,
+      "deaths": {
+        "value": "one death occurred in the placebo group (0.5%) and two deaths occurred across all gosuranemab groups (0.5%)",
+        "quote": "During the placebo-controlled period, one death occurred in the placebo group (0.5%) and two deaths occurred across all gosuranemab groups (0.5%).",
+        "location": "Results, Primary endpoint results for gosuranemab safety and tolerability"
+      },
+      "discontinuations": {
+        "value": "5.1% in the placebo group and 3.2% in the combined gosuranemab groups",
+        "quote": "Rates of treatment discontinuation due to AEs were low overall and comparable between the placebo (5.1%) and combined gosuranemab (3.2%) groups.",
+        "location": "Results, Primary endpoint results for gosuranemab safety and tolerability"
+      },
+      "serious_adverse_events": {
+        "value": "placebo, 12.1%; low dose, 10.3%; intermediate dose, 12.3%; high dose, 11.7%",
+        "quote": "incidence of serious adverse events: placebo, 12.1%; low dose, 10.3%; intermediate dose, 12.3%; high dose, 11.7%",
+        "location": "Abstract"
+      }
+    },
+    "unlocatable_fields": [
+      "trial_status_observation"
+    ],
+    "authors": [
+      {
+        "name": "M.S.",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "J.K.",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "J.O’G.",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "E.R.",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "R.R.",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "L.V.",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "E.H.",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "S.S.",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "A.M.R.",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "J.C.",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "D.G.",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Y.L.",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "H.H.",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "S.B.H.",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      }
+    ],
+    "conflicts": [
+      "M.S., J.K., J.O’G., E.H., J.C., D.G., Y.L. and H.H. are employees and shareholders of Biogen. E.R., R.R., L.V., A.M.R. and S.B.H. are former employees and shareholders of Biogen. E.R. is a current employee of Takeda Pharmaceuticals. R.R. is a current employee of Vigil Neuroscience. A.M.R. is a current employee of AstraZeneca. L.V. is a current employee of Moderna. S.B.H. is a current employee of the Enigma Biomedical Group."
+    ],
+    "disagreements": [],
+    "funding": [
+      "This study was sponsored and funded by Biogen Inc."
+    ],
+    "limitations": [
+      "This study was affected by the COVID-19 pandemic.",
+      "Limited data were collected during the LTE period due to the early termination of the study."
+    ],
+    "linked_objects": [],
+    "multiplicity": {
+      "approach": "No adjustments were made for multiple comparisons.",
+      "location": "Figure 2 caption",
+      "quote": "No adjustments were made for multiple comparisons."
+    },
+    "risk_of_bias": []
+  }
+}

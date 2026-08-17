@@ -1,0 +1,197 @@
+{
+  "kind": "research-paper",
+  "title": "Tau-PET is superior to phospho-tau when predicting cognitive decline in symptomatic AD patients",
+  "authors": [
+    {
+      "name": "Smith, Ruben",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "no disclosures"
+    },
+    {
+      "name": "Cullen, Nicholas C.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "no disclosures"
+    },
+    {
+      "name": "Pichet Binette, Alexa",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "no disclosures"
+    },
+    {
+      "name": "Leuzy, Antoine",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "no disclosures"
+    },
+    {
+      "name": "Blennow, Kaj",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "consultant, at advisory boards, or at data monitoring committees for Abcam, Axon, Biogen, JOMDD/Shimadzu. Julius Clinical, Lilly, MagQu, Novartis, Prothena, Roche Diagnostics, and Siemens Healthineers, and is a co-founder of Brain Biomarker Solutions in Gothenburg AB (BBS)"
+    },
+    {
+      "name": "Zetterberg, Henrik",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "scientific advisory boards and/or as a consultant for Alector, Eisai, Denali, Roche Diagnostics, Wave, Samumed, Siemens Healthineers, Pinteon Therapeutics, Nervgen, AZTherapies, CogRx and Red Abbey Labs, has given lectures in symposia sponsored by Cellectricon, Fujirebio, Alzecure and Biogen, and is a co-founder of Brain Biomarker Solutions in Gothenburg AB (BBS)"
+    },
+    {
+      "name": "Klein, Gregory",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "full time employee of F. Hoffmann-La Roche Ltd, Basel, Switzerland"
+    },
+    {
+      "name": "Borroni, Edilio",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "full time employee of F. Hoffmann-La Roche Ltd, Basel, Switzerland"
+    },
+    {
+      "name": "Ossenkoppele, Rik",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "no disclosures"
+    },
+    {
+      "name": "Janelidze, Shorena",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "no disclosures"
+    },
+    {
+      "name": "Palmqvist, Sebastian",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "scientific advisory boards and/or given lectures in symposia sponsored by Roche, Biogen, and Geras Solutions"
+    },
+    {
+      "name": "Mattsson-Carlgren, Niklas",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "no disclosures"
+    },
+    {
+      "name": "Stomrud, Erik",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "no disclosures"
+    },
+    {
+      "name": "Hansson, Oskar",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "acquired research support (for the institution) from AVID Radiopharmaceuticals, Biogen, Eli Lilly, Eisai, GE Healthcare, Pfizer, and Roche. In the past 2 years, he has received consultancy/speaker fees from AC Immune, Alzpath, Biogen, Cerveau and Roche"
+    }
+  ],
+  "first_author": "Smith, Ruben",
+  "venue": "Alzheimer's & dementia : the journal of the Alzheimer's Association",
+  "published": null,
+  "doi": "10.1002/alz.12875",
+  "doi_url": "https://doi.org/10.1002/alz.12875",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/36516028/",
+  "copyright": null,
+  "license": {
+    "name": "all rights reserved",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law."
+  },
+  "tags": [
+    "paper",
+    "tau",
+    "amyloid",
+    "biomarkers",
+    "genetics",
+    "cognitive-decline",
+    "pet-imaging",
+    "disease-progression"
+  ],
+  "themes": [
+    "Tau-PET strongly predicts cognitive decline",
+    "Baseline cognition composite as a robust predictor",
+    "Comparison of fluid and imaging biomarkers",
+    "Biomarker-based enrichment for clinical trials",
+    "Modest predictive contributions of NfL and cortical thickness"
+  ],
+  "one_line": "Baseline tau-PET and cognitive scores are the strongest independent predictors of cognitive decline in symptomatic Alzheimer's disease patients, outperforming plasma and CSF p-tau.",
+  "summary": "This study evaluated the ability of various imaging and fluid biomarkers to predict cognitive decline in patients with amnestic mild cognitive impairment (MCI) and mild Alzheimer's dementia. The researchers compared tau-PET, cortical atrophy, baseline cognition, APOE status, and plasma/CSF levels of p-tau217, NfL, and Aβ 42/40 over a two-year period using data from the BioFINDER-2 cohort and the ADNI validation cohort. They found that baseline tau-PET and a composite baseline cognitive score were the strongest independent predictors of cognitive decline. Cortical thickness and NfL provided modest additional predictive value, whereas plasma and CSF p-tau217 did not significantly improve the model's predictive performance beyond tau-PET. Furthermore, using a predictive algorithm to enrich patient selection for theoretical clinical trials led to significantly lower required sample sizes while preserving statistical power. The findings suggest that tau-PET is highly valuable for prognostic assessments and trial enrichment in symptomatic stages of Alzheimer's disease.",
+  "key_claims": [
+    {
+      "claim": "Baseline tau-PET and baseline cognition are the strongest independent predictors of cognitive decline over two years.",
+      "evidence": "Tau-PET showed the highest t-values (t = −6.26) and R2 (0.33) among individual biomarkers; combination with cognition yielded the most parsimonious predictive model with the lowest Akaike Information Criterion.",
+      "strength": "strong",
+      "location": "Results / Prediction of cognitive decline by individual biomarkers & Prediction of cognitive decline by biomarker combinations"
+    },
+    {
+      "claim": "Plasma and CSF p-tau217 do not provide significant independent predictive value beyond tau-PET and baseline cognition in symptomatic patients.",
+      "evidence": "Stepwise removal of variables and MuMIn data-driven selection consistently excluded p-tau from the most parsimonious models predicting cognitive decline.",
+      "strength": "moderate",
+      "location": "Results / Prediction of cognitive decline by biomarker combinations"
+    },
+    {
+      "claim": "Biomarker-based enrichment using tau-PET, cognition, NfL, and cortical thickness significantly reduces required clinical trial sample sizes.",
+      "evidence": "Restricting study inclusion to the 50% of participants with the highest predicted risk for cognitive decline resulted in a need for ~52% fewer participants to achieve 80% statistical power compared to having no enrichment strategy.",
+      "strength": "strong",
+      "location": "Results / Enrichment for clinical trials using biomarkers"
+    }
+  ],
+  "methods": {
+    "design": "Longitudinal cohort study with linear regression and automated model selection",
+    "n": 168,
+    "population": "Patients with amnestic mild cognitive impairment (MCI) or amnestic mild dementia (MMSE ≥ 22) (118 from BioFINDER-2; 50 from ADNI)",
+    "duration": "2-3 years of longitudinal follow-up",
+    "registration": null
+  },
+  "funding_and_conflicts": "Funded by the Swedish Research Council, Knut and Alice Wallenberg foundation, NIH, DOD, and various industry partners. Multiple authors declare conflicts of interest, including consulting, speaker fees, advisory board memberships, and full-time employment with pharmaceutical companies such as Roche, Biogen, and Lilly.",
+  "limitations": [
+    "Short follow-up period (2-3 years).",
+    "Relatively small sample size, particularly for AD dementia participants.",
+    "Lack of ethnic diversity (majority European descent).",
+    "Important biomarkers such as FDG-PET were not available in the dataset and were thus excluded."
+  ],
+  "red_flags": [
+    "Automated data-driven model selection (MuMIn) and stepwise variable removal on a relatively small sample (n=118) poses a risk of overfitting, although the findings were validated in an independent cohort."
+  ],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "Citation brackets are completely empty (e.g., '[]', '[, ]') indicating references were stripped during conversion.",
+      "Affiliation and contact details were stripped from the author byline.",
+      "Missing table and figure contents (only inline references remain).",
+      "Minor ligature and spacing issues in some terms (e.g., 'indvidualized', 'symtomatic')."
+    ]
+  },
+  "search_verification": []
+}

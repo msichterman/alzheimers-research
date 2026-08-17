@@ -1,0 +1,130 @@
+{
+  "fact_check": [
+    {
+      "fact": "Study 2 adjusted mean change from baseline at 18 months in CDR-SB was -0.45 (-27%) with p<0.0001",
+      "status": "verified",
+      "note": "Checked against label Table 8."
+    },
+    {
+      "fact": "ApoE ε4 homozygotes incidence of ARIA was 45% vs 19% in heterozygotes and 13% in noncarriers",
+      "status": "verified",
+      "note": "Checked against label Section 5.1."
+    },
+    {
+      "fact": "Severe radiographic ARIA-H incidence was 13.5% in ApoE ε4 homozygotes vs 1.1% in noncarriers",
+      "status": "verified",
+      "note": "Checked against label Section 5.1."
+    },
+    {
+      "fact": "ApoE ε4 homozygotes showed no treatment effect on the primary endpoint (CDR-SB)",
+      "status": "verified",
+      "note": "Checked against label Section 14."
+    },
+    {
+      "fact": "Study 1 (NCT01767311) missed its 12-month primary clinical endpoint",
+      "status": "verified",
+      "note": "Checked against label Section 14 (did not meet the prespecified success criterion of 80% at Week 53)."
+    },
+    {
+      "fact": "Patients taking LEQEMBI with an anticoagulant had a 2.5% intracerebral hemorrhage incidence compared to none on placebo",
+      "status": "verified",
+      "note": "Checked against label Section 5.1 (Concomitant Antithrombotic Medication)."
+    }
+  ],
+  "research_page": {
+    "slug": "leqembi-fda-label",
+    "title": "LEQEMBI (lecanemab-irmb) Prescribing Information",
+    "description": "The FDA prescribing information for Leqembi details its efficacy in early Alzheimer's alongside severe boxed warnings regarding ARIA, particularly for ApoE ε4 homozygotes.",
+    "tags": [
+      "fda-label",
+      "lecanemab",
+      "amyloid",
+      "immunotherapy",
+      "aria"
+    ],
+    "source_line_md": "**Source**: [U.S. Food and Drug Administration, 2023](https://www.fda.gov/drugsatfda)",
+    "authors_line_md": "Eisai Inc. and Biogen",
+    "takeaway_md": "Lecanemab (Leqembi) is FDA-approved for mild cognitive impairment or mild dementia stages of Alzheimer's disease, showing a 27% slowing of clinical decline over 18 months. However, it carries a boxed warning for ARIA (brain swelling and bleeding), which is significantly more frequent and severe in ApoE ε4 homozygotes—a subgroup that also showed no primary clinical benefit in exploratory analyses.",
+    "key_findings_md": [
+      "Lecanemab reduced clinical decline on the CDR-SB by 27% (-0.45 difference) at 18 months (p<0.0001) in Study 2 (CLARITY AD).",
+      "The drug reduces amyloid beta plaque levels dose- and time-dependently, with Study 2 showing continuous reductions through 18 months.",
+      "ApoE ε4 homozygotes had a 45% incidence of ARIA compared to 19% in heterozygotes and 13% in noncarriers, with severe ARIA-H reaching 13.5%.",
+      "An exploratory analysis found no treatment effect on the primary clinical endpoint (CDR-SB) for ApoE ε4 homozygotes.",
+      "Patients taking lecanemab concomitantly with anticoagulants experienced a 2.5% incidence of intracerebral hemorrhage, compared to 0% on placebo."
+    ],
+    "methods_md": "Double-blind, placebo-controlled, parallel-group, randomized studies evaluating 2,651 patients with mild cognitive impairment or mild dementia associated with Alzheimer's disease and confirmed amyloid pathology. Treatment duration spanned up to 18 months across two pivotal trials (NCT01767311 and NCT03887455).",
+    "trial_evidence_md": "Efficacy is supported primarily by [Study 2 (CLARITY AD)](/trials/clarity-ad-nct03887455), which met its primary endpoint for reducing clinical decline, and Study 1, a Phase 2 trial that demonstrated significant amyloid clearance. While Study 1 is cited in the label for its biomarker success, the label notes it missed its 12-month primary clinical composite endpoint (Week 53).",
+    "sentiment_md": "Public reception is highly stratified: retail investors and pharmaceutical media celebrate the drug's commercial expansion, while patients and caregivers express deep anxiety over brain bleeding risks and logistical burdens. A significant disconnect persists between the clinical reality of modestly slowed decline and media narratives falsely implying cognitive restoration.",
+    "caveats_md": [
+      "ApoE ε4 homozygotes (about 15% of patients) face double the ARIA risk and drastically higher rates of severe microhemorrhages, yet exploratory analyses showed no primary clinical benefit for this subgroup.",
+      "Using anticoagulants alongside Leqembi significantly elevates the risk of intracerebral hemorrhage.",
+      "The incidence of neutralizing anti-drug antibodies might be underestimated due to assay interference from serum lecanemab concentrations.",
+      "Despite public relations narratives of 'improvement,' the drug's proven clinical benefit is a moderate slowing of inevitable cognitive decline, not disease reversal."
+    ],
+    "relates_to_md": [
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Lecanemab's mechanism of clearing aggregated amyloid beta plaques directly tests this hypothesis.",
+      "[Biomarkers](/research/biomarkers) — Patient selection requires confirmed amyloid pathology, and disease modification is tracked via PET SUVR and fluid biomarkers.",
+      "[AHEAD 3-45](/trials/ahead-3-45) — An ongoing pivotal trial evaluating lecanemab for secondary prevention in preclinical Alzheimer's disease."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "clarity-ad-nct03887455",
+      "title": "CLARITY AD (Study 2)",
+      "description": "Pivotal Phase 3 trial evaluating lecanemab in early Alzheimer's disease.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "phase-3",
+        "lecanemab"
+      ],
+      "registry_md": "[NCT03887455](https://clinicaltrials.gov/study/NCT03887455)",
+      "drug": "Lecanemab (anti-amyloid beta monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "population": "Early Alzheimer's Disease (mild cognitive impairment or mild dementia)",
+      "primary_endpoint": "Change from Baseline in the CDR-SB at 18 Months",
+      "started": "2019-03",
+      "readout": "2029-06",
+      "why_md": "This pivotal Phase 3 trial provided the confirmatory evidence required for the traditional FDA approval of lecanemab. It evaluates the drug's impact on clinical decline in patients with early Alzheimer's disease and confirmed amyloid pathology.",
+      "status_log_md": [
+        "**2023-01-05** — Phase 3 results published in the New England Journal of Medicine, showing a 27% slowing of decline on CDR-SB.",
+        "**2023-07-06** — FDA grants traditional approval to lecanemab based on these confirmatory data."
+      ],
+      "results_md": "The trial met its primary endpoint, demonstrating a 27% reduction in clinical decline on the CDR-SB compared to placebo at 18 months. Lecanemab significantly reduced brain amyloid beta plaque levels, though ARIA occurred frequently and was particularly severe in ApoE ε4 carriers."
+    },
+    {
+      "slug": "lecanemab-study-1-nct01767311",
+      "title": "Lecanemab Study 1 (Phase 2)",
+      "description": "Phase 2 dose-ranging trial of lecanemab in early Alzheimer's disease.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "phase-2",
+        "lecanemab"
+      ],
+      "registry_md": "[NCT01767311](https://clinicaltrials.gov/study/NCT01767311)",
+      "drug": "Lecanemab (anti-amyloid beta monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Eisai Inc.",
+      "population": "Early Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline in ADCOMS at Month 12",
+      "started": "2012-12",
+      "readout": "2024-12",
+      "why_md": "This Phase 2b trial established the proof-of-concept for lecanemab's amyloid-clearing mechanism and provided the initial signals of clinical efficacy that justified advancing to the Phase 3 CLARITY AD trial.",
+      "status_log_md": [
+        "**2021-04-17** — Results published in Alzheimer's Research & Therapy showing significant dose- and time-dependent amyloid plaque reduction."
+      ],
+      "results_md": "While the study missed its 12-month primary clinical composite endpoint (ADCOMS), it demonstrated robust clearance of amyloid plaque. Extended 18-month analyses indicated a slowing of clinical decline at the highest dose, leading to Phase 3 advancement."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2023-01",
+      "title": "2023-01 — CLARITY AD Phase 3 results published",
+      "body_md": "Results from the pivotal Phase 3 trial of [lecanemab](/research/papers/leqembi-fda-label) are published, demonstrating a 27% slowing of clinical decline and forming the basis for full FDA approval."
+    }
+  ],
+  "notes_for_editor": []
+}

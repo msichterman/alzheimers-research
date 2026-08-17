@@ -1,0 +1,42 @@
+{
+  "id": "fda-kisunla-statistical-review",
+  "prepared_at": "2026-08-13T16:55:51.038Z",
+  "instructions": "Two independent extractions of the same retrieved document disagree on these fields. For each conflict, decide against the document which reading is correct — or that both are, or neither is. You are not told which pipeline produced which reading, and you must not guess.",
+  "conflicts": [
+    {
+      "conflict_id": "fda-kisunla-statistical-review#0",
+      "field": "outcomes[primary].effect_estimate",
+      "reading_a": "3.3 iADRS points (NCS2 difference in adjusted mean change from baseline)",
+      "reading_b": "2.9",
+      "note": null
+    },
+    {
+      "conflict_id": "fda-kisunla-statistical-review#1",
+      "field": "outcomes[primary].confidence_interval",
+      "reading_a": "95% CI 1.5, 4.3",
+      "reading_b": "95% CI 1.9, 4.6",
+      "note": null
+    },
+    {
+      "conflict_id": "fda-kisunla-statistical-review#2",
+      "field": "outcomes[ADAS-Cog13 change from baseline at Week 76 with death imputed as the worst score (FDA-requested sensitivity analysis)].prespecified",
+      "reading_a": "no",
+      "reading_b": "yes",
+      "note": null
+    },
+    {
+      "conflict_id": "fda-kisunla-statistical-review#3",
+      "field": "outcomes[ADAS-Cog13 change from baseline at Week 76 with death imputed as the worst score (FDA-requested sensitivity analysis)].tier",
+      "reading_a": "post_hoc",
+      "reading_b": "secondary",
+      "note": null
+    },
+    {
+      "conflict_id": "fda-kisunla-statistical-review#4",
+      "field": "outcomes[Brain amyloid change from baseline at Week 76 by amyloid PET (Phase 2 Study AACG)].tier",
+      "reading_a": "exploratory",
+      "reading_b": "secondary",
+      "note": null
+    }
+  ]
+}

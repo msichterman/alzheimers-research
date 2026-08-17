@@ -1,0 +1,103 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT03887455",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03887455",
+      "name": "CLARITY AD",
+      "drug": "Lecanemab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "status": "Active, not recruiting",
+      "enrollment": 1906,
+      "population": "Participants with Early Alzheimer's Disease",
+      "primary_endpoint": "Core Study: Change from Baseline in the CDR-SB at 18 Months",
+      "started": "2019-03",
+      "completed_or_readout": "2029-06",
+      "results_summary": "Lecanemab reduced markers of amyloid in early Alzheimer's disease and resulted in moderately less decline on measures of cognition and function than placebo at 18 months.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04437511",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04437511",
+      "name": "TRAILBLAZER-ALZ 2",
+      "drug": "Donanemab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Active, not recruiting",
+      "enrollment": 1736,
+      "population": "Participants with Early Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline on the Integrated Alzheimer's Disease Rating Scale (iADRS) (Overall Population)",
+      "started": "2020-06",
+      "completed_or_readout": "2028-11",
+      "results_summary": "Donanemab significantly slowed clinical progression at 76 weeks in participants with early symptomatic Alzheimer disease and amyloid/tau pathology.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04777396",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04777396",
+      "name": "EVOKE",
+      "drug": "Semaglutide (GLP-1 receptor agonist, repurposed)",
+      "phase": "3",
+      "sponsor": "Novo Nordisk A/S",
+      "status": "Completed",
+      "enrollment": 1840,
+      "population": "People With Early Alzheimer's Disease",
+      "primary_endpoint": "Change in the Clinical Dementia Rating - Sum of Boxes (CDR-SB) score",
+      "started": "2021-05",
+      "completed_or_readout": "2026-01",
+      "results_summary": "Semaglutide failed to demonstrate significant clinical improvement on primary cognitive endpoints compared to placebo in early Alzheimer's disease.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05399888",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05399888",
+      "name": "CELIA",
+      "drug": "Diranersen / BIIB080 (tau-targeting antisense oligonucleotide)",
+      "phase": "2",
+      "sponsor": "Biogen",
+      "status": "Active, not recruiting",
+      "enrollment": 416,
+      "population": "Participants With Mild Cognitive Impairment Due to Alzheimer's Disease (AD) or Mild AD Dementia Between 50 to 80 Years of Age",
+      "primary_endpoint": "Dose response in Change From Baseline to Week 76 on the CDR-SB",
+      "started": "2022-08",
+      "completed_or_readout": "2028-06",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2023-01-05",
+      "kind": "paper",
+      "description": "CLARITY AD Phase 3 results showing Lecanemab slowed cognitive decline by 27%.",
+      "url": "https://doi.org/10.1056/NEJMoa2212948"
+    },
+    {
+      "date": "2023-07-17",
+      "kind": "paper",
+      "description": "TRAILBLAZER-ALZ 2 Phase 3 results demonstrating Donanemab significantly slowed clinical progression.",
+      "url": "https://doi.org/10.1001/jama.2023.13239"
+    },
+    {
+      "date": "2024-07-02",
+      "kind": "regulatory",
+      "description": "FDA approval of Donanemab (Kisunla) for early symptomatic Alzheimer's disease.",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-treatment-adults-alzheimers-disease-0"
+    },
+    {
+      "date": "2026-05-01",
+      "kind": "paper",
+      "description": "EVOKE and EVOKE+ Phase 3 trials results showing oral semaglutide failed to demonstrate significant clinical improvement in early Alzheimer's disease.",
+      "url": "https://doi.org/10.1016/s0140-6736(26)00459-9"
+    }
+  ],
+  "evidence_assessment": "The document accurately maps a maturing Alzheimer's drug pipeline heavily oriented towards disease-targeted therapies (DTTs), reflecting a critical shift in the field. Clinical evidence firmly grounds the document's emphasis on amyloid-targeting biologics, as lecanemab and donanemab both achieved Phase 3 primary endpoints and subsequent FDA approvals by slowing cognitive decline. However, the document's optimism regarding the substantial volume of repurposed drugs (35% of the pipeline) must be heavily contextualized against mid-2026 trial readouts. Most notably, the high-profile Phase 3 EVOKE and EVOKE+ trials evaluating repurposed semaglutide failed to meet primary endpoints, demonstrating the inherent risk in this pipeline segment. Ultimately, while the pipeline features impressive mechanistic diversity—such as tau and inflammation targets—the proven clinical landscape remains predominantly concentrated on anti-amyloid monoclonal antibodies, with other disease-modifying mechanisms still awaiting definitive late-stage validation.",
+  "discrepancies": [
+    "The document's pipeline snapshot as of January 2026 treats massive repurposed drug programs (like semaglutide in EVOKE) as active candidates, but recent 2026 readouts definitively show they failed their Phase 3 primary endpoints, making the viable repurposed pipeline smaller than the review implies.",
+    "The authors explicitly count 192 'active' trials for AD, whereas an unfiltered query of ClinicalTrials.gov for active interventional AD trials yields almost 800 results, indicating the authors applied heavy, subjective filtering criteria (e.g., excluding non-pharmacological, device, or dietary supplement interventions) not strictly transparent in the raw counts."
+  ]
+}

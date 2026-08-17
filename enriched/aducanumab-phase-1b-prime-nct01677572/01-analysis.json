@@ -1,0 +1,63 @@
+{
+  "kind": "other",
+  "title": "Multiple Dose Study of Aducanumab (BIIB037) (Recombinant, Fully Human Anti-Aβ IgG1 mAb) in Participants With Prodromal or Mild Alzheimer's Disease",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2012-09",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "immunotherapy",
+    "aducanumab",
+    "biib037"
+  ],
+  "themes": [
+    "Aducanumab safety and tolerability",
+    "Amyloid plaque reduction",
+    "Prodromal or mild Alzheimer's disease",
+    "Monoclonal antibody treatments"
+  ],
+  "one_line": "A Phase 1b registry record for a randomized, double-blind, placebo-controlled trial evaluating the safety, tolerability, and pharmacodynamics of multiple doses of aducanumab in patients with prodromal or mild Alzheimer's disease, which was ultimately terminated due to futility in Phase 3.",
+  "summary": "This document is a ClinicalTrials.gov registry record for a Phase 1b trial (NCT01677572) evaluating multiple doses of aducanumab, a human anti-Aβ monoclonal antibody, in participants with prodromal or mild Alzheimer's disease. The trial aimed to assess the drug's safety, tolerability, pharmacokinetics, and its effect on cerebral amyloid plaque content using PET imaging. Participants were randomized to receive various intravenous doses of aducanumab or placebo every 4 weeks for 52 weeks, with an optional long-term extension. The study enrolled 197 participants and was active from October 2012 to July 2019. It was terminated because later Phase 3 trials of aducanumab (NCT02477800 and NCT02484547) were discontinued based on a futility analysis.",
+  "key_claims": [
+    {
+      "claim": "The study was discontinued based on a futility analysis conducted on subsequent Phase 3 trials rather than any observed safety concerns in this trial.",
+      "evidence": "Stated directly in the 'Why stopped' field of the registry metadata.",
+      "strength": "strong",
+      "location": "Mutable fields"
+    }
+  ],
+  "methods": {
+    "design": "Randomized, double-blinded, placebo-controlled, multiple-dose, staggered, parallel group",
+    "n": 197,
+    "population": "Ambulatory participants aged 50-90 years with prodromal or mild Alzheimer's disease, MMSE 20-30, and a positive florbetapir PET amyloid scan.",
+    "duration": "52-week placebo-controlled period, with a long-term extension up to week 518",
+    "registration": "NCT01677572"
+  },
+  "funding_and_conflicts": "Lead sponsor: Biogen. No individual author conflicts are stated.",
+  "limitations": [
+    "This is a clinical trial registry record, not a peer-reviewed publication of the study's results.",
+    "The trial was terminated early based on external Phase 3 futility analysis."
+  ],
+  "red_flags": [
+    "Study terminated early due to futility in larger Phase 3 trials (NCT02477800 and NCT02484547)."
+  ],
+  "parse_quality": {
+    "score": 10,
+    "issues": []
+  },
+  "search_verification": [
+    "Searched for NCT01677572 to confirm the nature of the document. Recognized this as the pure ClinicalTrials.gov registry entry for the PRIME study. Because it is a registry record rather than a journal article, it legitimately lacks a DOI, PubMed ID, author list, and copyright statement."
+  ]
+}

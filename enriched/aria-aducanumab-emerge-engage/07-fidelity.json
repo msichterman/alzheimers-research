@@ -1,0 +1,781 @@
+{
+  "id": "aria-aducanumab-emerge-engage",
+  "checked_at": "2026-08-13T16:32:13.733Z",
+  "builder_model": "claude (builder subagent)",
+  "critic_model": "gemini-3.1-pro-preview",
+  "fields_compared": 43,
+  "disagreements": 18,
+  "conflicts": 15,
+  "coverage_gaps": 3,
+  "agreement_rate": 0.581,
+  "passed": false,
+  "needs_adjudication": true,
+  "disagreement_rows": [
+    {
+      "field": "outcomes[primary].met",
+      "builder": null,
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": null,
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": null,
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[ARIA-H].reported",
+      "builder": "reported",
+      "critic": "absent",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[macrohemorrhage].reported",
+      "builder": "reported",
+      "critic": "absent",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[Incidence of ARIA (ARIA-E or ARIA-H) during the placebo-controlled period, 10-mg/kg group].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Incidence of ARIA-edema (ARIA-E)].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Incidence of ARIA-H (ARIA-microhemorrhage and ARIA–superficial siderosis), 10-mg/kg group].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Symptomatic ARIA-E among participants with ARIA-E in the 10-mg/kg group].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Radiographic resolution of ARIA-E events in the 10-mg/kg group].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Hazard of ARIA-E associated with ApoE ε4 carrier status (proportional hazards model, 10-mg/kg group)].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Hazard of ARIA-E associated with ApoE ε4 carrier status (proportional hazards model, 10-mg/kg group)].tier",
+      "builder": "exploratory",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Hazard of ARIA-E associated with baseline brain microhemorrhages (proportional hazards model, 10-mg/kg group)].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Hazard of ARIA-E associated with baseline brain microhemorrhages (proportional hazards model, 10-mg/kg group)].tier",
+      "builder": "exploratory",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Hazard of isolated ARIA-H per additional year of baseline age (proportional hazards model, 10-mg/kg group)].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Hazard of isolated ARIA-H per additional year of baseline age (proportional hazards model, 10-mg/kg group)].tier",
+      "builder": "exploratory",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Course of ARIA-E events that started radiographically mild and asymptomatic with continued dosing (10-mg/kg group)].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Course of ARIA-E events that started radiographically mild and asymptomatic with continued dosing (10-mg/kg group)].tier",
+      "builder": "exploratory",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ],
+  "conflict_rows": [
+    {
+      "field": "safety.harms[ARIA-H].reported",
+      "builder": "reported",
+      "critic": "absent",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[macrohemorrhage].reported",
+      "builder": "reported",
+      "critic": "absent",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[Incidence of ARIA (ARIA-E or ARIA-H) during the placebo-controlled period, 10-mg/kg group].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Incidence of ARIA-edema (ARIA-E)].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Incidence of ARIA-H (ARIA-microhemorrhage and ARIA–superficial siderosis), 10-mg/kg group].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Symptomatic ARIA-E among participants with ARIA-E in the 10-mg/kg group].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Radiographic resolution of ARIA-E events in the 10-mg/kg group].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Hazard of ARIA-E associated with ApoE ε4 carrier status (proportional hazards model, 10-mg/kg group)].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Hazard of ARIA-E associated with ApoE ε4 carrier status (proportional hazards model, 10-mg/kg group)].tier",
+      "builder": "exploratory",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Hazard of ARIA-E associated with baseline brain microhemorrhages (proportional hazards model, 10-mg/kg group)].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Hazard of ARIA-E associated with baseline brain microhemorrhages (proportional hazards model, 10-mg/kg group)].tier",
+      "builder": "exploratory",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Hazard of isolated ARIA-H per additional year of baseline age (proportional hazards model, 10-mg/kg group)].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Hazard of isolated ARIA-H per additional year of baseline age (proportional hazards model, 10-mg/kg group)].tier",
+      "builder": "exploratory",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Course of ARIA-E events that started radiographically mild and asymptomatic with continued dosing (10-mg/kg group)].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Course of ARIA-E events that started radiographically mild and asymptomatic with continued dosing (10-mg/kg group)].tier",
+      "builder": "exploratory",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ],
+  "builder_values_not_found_in_document": [],
+  "critic_values_not_found_in_document": [],
+  "all_rows": [
+    {
+      "field": "study.design",
+      "builder": "Secondary analysis (pooled/integrated safety data set) of 2 double-blind, placebo-controlled, parallel-group, phase 3 randomized clinical trials (EMERGE and ENGAGE)",
+      "critic": "secondary analysis of 2 double-blind, placebo-controlled, parallel-group, phase 3 randomized clinical trials",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.n",
+      "builder": 3285,
+      "critic": 3285,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.population",
+      "builder": "Individuals aged 50 to 85 years meeting clinical criteria for mild cognitive impairment due to Alzheimer disease or mild dementia due to Alzheimer disease, with amyloid pathology confirmed by visual assessment of amyloid PET; patients on nonaspirin antiplatelet agents or anticoagulation were excluded, as were patients with more than 4 microhemorrhages or any area of siderosis at baseline",
+      "critic": "individuals aged 50 to 85 years who met clinical criteria for mild cognitive impairment due to AD or mild dementia due to AD",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.comparator",
+      "builder": "Placebo (n = 1087 in the safety population; n = 1076 in the MRI safety population)",
+      "critic": "placebo",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.followup",
+      "builder": "Monthly intravenous doses over 76 weeks for a total of 20 doses (placebo-controlled period); postbaseline routine MRIs at weeks 14, 22, 30, 42, 54, 66, and 78",
+      "critic": "76 weeks for a total of 20 doses",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.intervention",
+      "builder": "Intravenous aducanumab, high dose or low dose, once every 4 weeks, with dose titration; high-dose target 10 mg/kg (titrated from 1 to 3 to 6 to 10 mg/kg over 24 weeks) from protocol version 4; low dose 3 mg/kg in ApoE ε4 carriers or 6 mg/kg in noncarriers",
+      "critic": "high-dose or low-dose intravenous aducanumab",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "study.phase",
+      "builder": "phase 3",
+      "critic": "phase 3",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "primary_endpoint_status.status",
+      "builder": "not_applicable",
+      "critic": "not_applicable",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "multiplicity.approach",
+      "builder": "none stated",
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[primary].name",
+      "builder": null,
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[primary].met",
+      "builder": null,
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[primary].effect_estimate",
+      "builder": null,
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[primary].confidence_interval",
+      "builder": null,
+      "critic": null,
+      "agree": false,
+      "kind": "coverage-gap",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[primary].p_value",
+      "builder": null,
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[primary].prespecified",
+      "builder": null,
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[primary].multiplicity_controlled",
+      "builder": null,
+      "critic": null,
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[ARIA-E].reported",
+      "builder": "reported",
+      "critic": "reported",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[ARIA-E].counts",
+      "builder": "aducanumab 10 mg/kg: 425 | placebo: 111 | aducanumab 3 mg/kg: 274 | aducanumab 6 mg/kg: 104 | aducanumab 10 mg/kg: 362 | aducanumab 6 mg/kg: 83 | aducanumab 3 mg/kg: 223 | placebo: 29 | aducanumab 10 mg/kg: 290 | aducanumab 10 mg/kg: 72 | aducanumab 10 mg/kg: 105 | aducanumab 10 mg/kg: 185 | placebo",
+      "critic": "10 mg/kg: 362 | Placebo: 29 | 10 mg/kg: 290 | 10 mg/kg: 72 | 10 mg/kg: 94",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[ARIA-H].reported",
+      "builder": "reported",
+      "critic": "absent",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[symptomatic ARIA].reported",
+      "builder": "reported",
+      "critic": "reported",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[symptomatic ARIA].counts",
+      "builder": "aducanumab 10 mg/kg: 94 | aducanumab 10 mg/kg: 77 | aducanumab 10 mg/kg: 17 | placebo; aducanumab 3 mg/kg; aducanumab 6 mg/kg: placebo 3; 3 mg/kg 51; 6 mg/kg 17 | aducanumab 10 mg/kg: 103 | placebo: 5 | aducanumab 10 mg/kg: 268 | aducanumab 10 mg/kg: 64 events became moderate; 1 event became severe;",
+      "critic": "10 mg/kg: 94",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[macrohemorrhage].reported",
+      "builder": "reported",
+      "critic": "absent",
+      "agree": false,
+      "kind": "conflict",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": null
+    },
+    {
+      "field": "safety.harms[death].reported",
+      "builder": "reported",
+      "critic": "reported",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.harms[death].counts",
+      "builder": "all groups (EMERGE and ENGAGE integrated safety data set): 0",
+      "critic": "overall: 0",
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "safety.apoe_stratification_reported",
+      "builder": true,
+      "critic": true,
+      "agree": true,
+      "kind": "agree",
+      "critical": true,
+      "builder_quote_located": null,
+      "critic_quote_located": null
+    },
+    {
+      "field": "outcomes[Incidence of ARIA (ARIA-E or ARIA-H) during the placebo-controlled period, 10-mg/kg group].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Incidence of ARIA (ARIA-E or ARIA-H) during the placebo-controlled period, 10-mg/kg group].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Incidence of ARIA-edema (ARIA-E)].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Incidence of ARIA-edema (ARIA-E)].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Incidence of ARIA-H (ARIA-microhemorrhage and ARIA–superficial siderosis), 10-mg/kg group].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Incidence of ARIA-H (ARIA-microhemorrhage and ARIA–superficial siderosis), 10-mg/kg group].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Symptomatic ARIA-E among participants with ARIA-E in the 10-mg/kg group].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Symptomatic ARIA-E among participants with ARIA-E in the 10-mg/kg group].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Radiographic resolution of ARIA-E events in the 10-mg/kg group].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Radiographic resolution of ARIA-E events in the 10-mg/kg group].tier",
+      "builder": "secondary",
+      "critic": "secondary",
+      "agree": true,
+      "kind": "agree",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Hazard of ARIA-E associated with ApoE ε4 carrier status (proportional hazards model, 10-mg/kg group)].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Hazard of ARIA-E associated with ApoE ε4 carrier status (proportional hazards model, 10-mg/kg group)].tier",
+      "builder": "exploratory",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Hazard of ARIA-E associated with baseline brain microhemorrhages (proportional hazards model, 10-mg/kg group)].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Hazard of ARIA-E associated with baseline brain microhemorrhages (proportional hazards model, 10-mg/kg group)].tier",
+      "builder": "exploratory",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Hazard of isolated ARIA-H per additional year of baseline age (proportional hazards model, 10-mg/kg group)].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": null,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Hazard of isolated ARIA-H per additional year of baseline age (proportional hazards model, 10-mg/kg group)].tier",
+      "builder": "exploratory",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Course of ARIA-E events that started radiographically mild and asymptomatic with continued dosing (10-mg/kg group)].prespecified",
+      "builder": "unclear",
+      "critic": "yes",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    },
+    {
+      "field": "outcomes[Course of ARIA-E events that started radiographically mild and asymptomatic with continued dosing (10-mg/kg group)].tier",
+      "builder": "exploratory",
+      "critic": "secondary",
+      "agree": false,
+      "kind": "conflict",
+      "critical": false,
+      "builder_quote_located": true,
+      "critic_quote_located": true
+    }
+  ]
+}

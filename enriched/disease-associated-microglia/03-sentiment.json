@@ -1,0 +1,68 @@
+{
+  "overall": "hopeful",
+  "summary": "Public sentiment is strongly bifurcated by audience. The scientific and biopharma communities are deeply engaged with the DAM and TREM2 hypothesis, viewing it as a promising new therapeutic avenue. Institutional investors are highly enthusiastic, driven by major acquisitions like Sanofi's purchase of Vigil Neuroscience for its TREM2 agonist. However, patients and caregivers are largely disconnected from the 'DAM' cellular terminology, occasionally discussing TREM2 only as a minor genetic risk factor found in commercial DNA tests. While science explores the nuanced, sometimes harmful role of DAMs over time, the financial sector treats microglial activation primarily as a silver bullet.",
+  "communities": [
+    {
+      "community": "Scientists & Researchers",
+      "sentiment": "hopeful",
+      "themes": [
+        "TREM2-dependent activation",
+        "Senescent vs protective DAMs",
+        "Modulating microglia for therapy"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/research-news/hot-dam-specific-microglia-engulf-plaques",
+        "https://www.reddit.com/r/science/comments/193bp0j/an_exhausted_population_of_microglia_that/"
+      ]
+    },
+    {
+      "community": "Retail & Institutional Investors",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Sanofi/Vigil acquisition",
+        "Alector AL002 pipeline",
+        "TREM2 agonists as paradigm shifts"
+      ],
+      "example_urls": [
+        "https://pharmaphorum.com/news/sanofi-makes-alzheimers-play-vigil-takeover",
+        "https://www.ainvest.com/news/sanofi-bold-move-trem2-strategic-bet-alzheimer-innovation-2508/"
+      ]
+    },
+    {
+      "community": "Patients & Caregivers (r/Alzheimers)",
+      "sentiment": "quiet",
+      "themes": [
+        "TREM2 as a minor genetic risk factor",
+        "Lifestyle and environmental impacts"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/comments/3rsig2/im_confused_why_can_alzheimers_be_called_not/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Alzforum",
+      "tone": "positive",
+      "date": "2025-11",
+      "url": "https://www.alzforum.org/news/research-news/protective-microglia-unmasked-they-act-regulatory-t-cells"
+    },
+    {
+      "outlet": "Pharmaphorum",
+      "tone": "positive",
+      "date": "2026-08",
+      "url": "https://pharmaphorum.com/news/sanofi-makes-alzheimers-play-vigil-takeover"
+    }
+  ],
+  "hype_vs_evidence": "Investor perception runs significantly ahead of the foundational evidence by treating TREM2 activation as an unambiguous cure. While the original paper identified DAMs as a plaque-clearing subset with protective potential, subsequent scientific discourse notes that DAMs can also undergo replicative senescence or contribute to synapse loss. Biopharma hype focuses exclusively on the protective phagocytic angle, pouring hundreds of millions into TREM2 agonists. This downplays the complexity of microglial states in human disease progression and the translational gap from the paper's transgenic mouse models.",
+  "misinformation_flags": [
+    "Oversimplifying TREM2 activation as universally protective, ignoring emerging evidence that some DAM phenotypes become senescent or hyper-prune synapses."
+  ],
+  "searches_run": [
+    "site:reddit.com \"disease-associated microglia\" alzheimer",
+    "site:reddit.com TREM2 alzheimer",
+    "TREM2 alzheimer investor stock",
+    "\"disease-associated microglia\" patient caregiver",
+    "site:alzforum.org \"disease-associated microglia\""
+  ]
+}

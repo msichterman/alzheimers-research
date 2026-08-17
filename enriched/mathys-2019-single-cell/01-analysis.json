@@ -1,0 +1,217 @@
+{
+  "kind": "research-paper",
+  "title": "Single-cell transcriptomic analysis of Alzheimer’s disease",
+  "authors": [
+    {
+      "name": "Hansruedi Mathys",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "The authors declare no competing interests."
+    },
+    {
+      "name": "Jose Davila-Velderrain",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "The authors declare no competing interests."
+    },
+    {
+      "name": "Zhuyu Peng",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "The authors declare no competing interests."
+    },
+    {
+      "name": "Fan Gao",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "The authors declare no competing interests."
+    },
+    {
+      "name": "Shahin Mohammadi",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "The authors declare no competing interests."
+    },
+    {
+      "name": "Jennie Z. Young",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "The authors declare no competing interests."
+    },
+    {
+      "name": "Madhvi Menon",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "The authors declare no competing interests."
+    },
+    {
+      "name": "Liang He",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "The authors declare no competing interests."
+    },
+    {
+      "name": "Fatema Abdurrob",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "The authors declare no competing interests."
+    },
+    {
+      "name": "Xueqiao Jiang",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "The authors declare no competing interests."
+    },
+    {
+      "name": "Anthony J. Martorell",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "The authors declare no competing interests."
+    },
+    {
+      "name": "Richard M. Ransohoff",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "The authors declare no competing interests."
+    },
+    {
+      "name": "Brian P. Hafler",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "The authors declare no competing interests."
+    },
+    {
+      "name": "David A. Bennett",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "The authors declare no competing interests."
+    },
+    {
+      "name": "Manolis Kellis",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "The authors declare no competing interests."
+    },
+    {
+      "name": "Li-Huei Tsai",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": "The authors declare no competing interests."
+    }
+  ],
+  "first_author": "Hansruedi Mathys",
+  "venue": "Nature",
+  "published": "2019",
+  "doi": "10.1038/s41586-019-1195-2",
+  "doi_url": "https://doi.org/10.1038/s41586-019-1195-2",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/31042697",
+  "copyright": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+  "license": {
+    "name": "all rights reserved",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": "Reprints and permissions information is available at http://www.nature.com/reprints ."
+  },
+  "tags": [
+    "paper",
+    "amyloid",
+    "tau",
+    "inflammation",
+    "genetics",
+    "single-cell",
+    "transcriptomics",
+    "sex-differences"
+  ],
+  "themes": [
+    "Single-nucleus RNA-sequencing of human prefrontal cortex",
+    "Cell-type-specific vulnerability to Alzheimer's pathology",
+    "Perturbations in myelination processes",
+    "Transcriptional sexual dimorphism in Alzheimer's disease"
+  ],
+  "one_line": "Single-nucleus transcriptomic profiling of 48 human prefrontal cortex samples reveals profound cell-type-specific and sex-specific transcriptional responses to Alzheimer's disease pathology.",
+  "summary": "This study analyzed 80,660 single-nucleus transcriptomes from the prefrontal cortex of 48 elderly individuals (24 with Alzheimer's disease pathology and 24 controls) from the ROSMAP cohort. The researchers identified 40 distinct transcriptionally defined cellular subpopulations across six major brain cell types. They found that early stages of AD pathology are marked by highly cell-type-specific transcriptional changes, particularly widespread gene repression in neurons. In contrast, late-stage pathology is characterized by a global, cross-cell-type upregulation of stress response and protein folding genes. Myelination-related pathways were consistently disrupted across both neuronal and glial cell types, indicating a central role for myelin integrity in AD progression. Furthermore, the study uncovered striking sex differences in the transcriptional response to AD, with female cells overrepresented in AD-associated subpopulations and exhibiting distinct transcriptional shifts, particularly in oligodendrocytes and neurons, compared to males.",
+  "key_claims": [
+    {
+      "claim": "Alzheimer's disease pathology induces strong, highly cell-type-specific transcriptional perturbations early in the disease.",
+      "evidence": "1,031 unique differentially expressed genes (DEGs) were identified, with 95% of DEGs perturbed in only one major cell type. Neurons showed massive downregulation (75% in Excitatory, 95% in Inhibitory neurons).",
+      "strength": "strong",
+      "location": "Systematic differential expression analysis reveals common and cell-type-specific alterations of gene expression to Alzheimer’s pathology"
+    },
+    {
+      "claim": "Myelination-related processes are recurrently perturbed across multiple major cell types in AD.",
+      "evidence": "Top DEGs across cell types included myelination regulators like LINGO1, CNTNAP2, ERBB2IP, and BEX1. Significant downregulation of NTNG1 in Excitatory neurons was validated via RNA in situ hybridization.",
+      "strength": "strong",
+      "location": "Systematic differential expression analysis reveals common and cell-type-specific alterations of gene expression to Alzheimer’s pathology"
+    },
+    {
+      "claim": "Late-stage AD pathology is characterized by a shared, cell-agnostic upregulation of stress response genes.",
+      "evidence": "Comparison of early vs. late pathology revealed commonly upregulated genes across cell types involved in protein folding (e.g., HSP90AA1, HSPA1A) and autophagy/apoptosis.",
+      "strength": "strong",
+      "location": "Cell-type-specific changes during pathological progression"
+    },
+    {
+      "claim": "There is a distinct sexual dimorphism in the transcriptional response to AD pathology, particularly in oligodendrocytes and neurons.",
+      "evidence": "Female cells were significantly overrepresented in AD-associated subpopulations. In males, AD correlated with global transcriptional activation in oligodendrocytes (Oli), which was absent in females. Females showed much stronger global down-regulation in neurons.",
+      "strength": "moderate",
+      "location": "Sex-specific differential response to AD pathology"
+    }
+  ],
+  "methods": {
+    "design": "post-mortem single-nucleus RNA-sequencing (snRNA-seq) case-control study",
+    "n": 48,
+    "population": "older adults from the Religious Order Study (ROSMAP) cohort (24 with AD-pathology, 24 no-pathology)",
+    "duration": null,
+    "registration": null
+  },
+  "funding_and_conflicts": "Funded by the Cure Alzheimer’s Fund (CAF), the JBP Foundation, NIH grants (RF1AG054321, RF1AG062377, RF1AG054012, U01NS110453, R01AG062335, R01AG058002, P30AG10161, R01AG15819, R01AG17917, U01AG46152, R01AG57473, R01MH109978, R01HG008155, U01MH119509), and the Swiss National Science Foundation. The authors declare no competing interests.",
+  "limitations": [
+    "Lower statistical power to detect differentially expressed genes in lower-abundance non-neuronal cell types.",
+    "Observational nature of the data cannot distinguish whether transcriptional changes are protective responses or pathogenic drivers.",
+    "Cannot definitively rule out that changes in relative subpopulation abundance are due to differential cell survival/vulnerability rather than cell state shifts.",
+    "Small sample sizes for sub-analyses, particularly the sex-specific comparisons (n=12 per sex/pathology group)."
+  ],
+  "red_flags": [
+    "Subgrouping the 24 AD individuals into early vs. late pathology, and later subdividing by sex, results in very small groups, risking over-interpretation of trends."
+  ],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "Missing reference numbers inside parentheses due to PDF-to-Markdown conversion stripping (e.g., '(, )', '()')"
+    ]
+  },
+  "search_verification": [
+    "Checked explicit document identifiers (DOI: 10.1038/s41586-019-1195-2, PMID: 31042697) via pattern recognition to confirm 2019 publication date. No external tools were required as the metadata within the text was unambiguous."
+  ]
+}

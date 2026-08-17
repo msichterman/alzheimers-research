@@ -1,0 +1,124 @@
+{
+  "fact_check": [
+    {
+      "fact": "1402 total participants across 3 cohorts",
+      "status": "verified",
+      "note": "Checked against source abstract; 81 (Arizona) + 699 (BioFINDER-2) + 622 (Colombian) = 1402."
+    },
+    {
+      "fact": "Discriminative accuracy (AUC) of 0.89 in neuropathology cohort and 0.96 in clinical cohort",
+      "status": "verified",
+      "note": "Matches source findings exactly."
+    },
+    {
+      "fact": "Elevated P-tau217 up to 20 years prior to estimated onset of MCI",
+      "status": "verified",
+      "note": "Matches source results, specific to the PSEN1 E280A mutation carriers (cohort 3)."
+    },
+    {
+      "fact": "Trial discrepancy: 622 participants evaluated in the Colombian kindred vs 252 in the API ADAD trial",
+      "status": "verified",
+      "note": "The paper uses the broader foundational family registry (n=622), not just the formal API ADAD therapeutic trial participants (n=252)."
+    }
+  ],
+  "research_page": {
+    "slug": "palmqvist-ptau217-jama-2020",
+    "title": "Discriminative Accuracy of Plasma P-tau217 for Alzheimer Disease (JAMA 2020)",
+    "description": "Plasma P-tau217 distinguishes Alzheimer's from other neurodegenerative diseases with up to 96% accuracy and detects pathology decades before symptoms in familial cases.",
+    "tags": [
+      "paper",
+      "tau",
+      "biomarkers",
+      "p-tau217",
+      "blood-test",
+      "diagnostic-accuracy"
+    ],
+    "source_line_md": "**Source**: [JAMA, 2020](https://doi.org/10.1001/jama.2020.12134) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/32722745)",
+    "authors_line_md": "Palmqvist et al.",
+    "takeaway_md": "Plasma P-tau217 is a highly accurate blood-based diagnostic tool for Alzheimer's disease. It performs comparably to established CSF and PET measures, clearly distinguishing Alzheimer's from other neurodegenerative disorders, and can detect pathological changes up to 20 years before symptom onset in genetic forms of the disease.",
+    "key_findings_md": [
+      "Plasma P-tau217 differentiated neuropathologically defined Alzheimer's from non-Alzheimer's with an AUC of 0.89, significantly outperforming plasma P-tau181 and NfL (paper, Results).",
+      "In a clinical cohort, the biomarker discriminated Alzheimer's dementia from other neurodegenerative diseases with 96% accuracy (AUC 0.96), performing comparably to CSF and PET measures (paper, Results).",
+      "Among PSEN1 E280A familial mutation carriers, P-tau217 levels were significantly elevated starting around age 25, approximately 20 years before the estimated onset of mild cognitive impairment (paper, Results).",
+      "Plasma P-tau217 correlated with tau tangles only in individuals who already had β-amyloid plaques (paper, Results)."
+    ],
+    "methods_md": "Cross-sectional study evaluating 1,402 participants across three diverse cohorts: an Arizona neuropathology cohort (n=81), the Swedish BioFINDER-2 clinical cohort (n=699), and a Colombian autosomal-dominant Alzheimer's kindred (n=622).",
+    "trial_evidence_md": "This study draws foundational cross-sectional validation data from the ongoing [BioFINDER 2](/trials/biofinder-2-nct03174938) cohort. To analyze predictive timelines in genetic early-onset disease, it utilizes the broader 622-person observational registry supporting the [API ADAD](/trials/api-adad-nct01998841) therapeutic trial.",
+    "sentiment_md": "Public and media reception of the P-tau217 blood test is highly enthusiastic, framing it as a revolutionary, accessible alternative to expensive PET scans and invasive lumbar punctures. However, mainstream media frequently oversimplifies the findings, erroneously reporting that the test acts as a universal [20-year predictive clock](https://www.nih.gov/news-events/nih-research-matters/blood-test-predicts-start-alzheimers-disease-symptoms) for the general public.",
+    "caveats_md": [
+      "The 20-year prediction timeline observed in this study applies specifically to individuals with an autosomal-dominant genetic mutation; it cannot be used as a precise symptom clock for the broader population with sporadic Alzheimer's.",
+      "As a cross-sectional study, it evaluates different individuals at various disease stages rather than tracking intra-individual biomarker changes over time."
+    ],
+    "relates_to_md": [
+      "[Biomarkers](/research/biomarkers) — Positions P-tau217 as a highly accurate alternative to CSF and PET imaging.",
+      "[Next Steps After an Alzheimer's Diagnosis](/journey/newly-diagnosed) — Validates the clinical utility of blood tests in modern diagnostic pathways."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "biofinder-2-nct03174938",
+      "title": "BioFINDER 2",
+      "description": "Observational cohort evaluating diagnostic biomarkers across the cognitive spectrum, from healthy individuals to dementia.",
+      "badge": "Recruiting",
+      "tags": [
+        "trial",
+        "observational",
+        "biomarker",
+        "p-tau217"
+      ],
+      "registry_md": "[NCT03174938](https://clinicaltrials.gov/study/NCT03174938)",
+      "drug": "Diagnostic Biomarkers (including Plasma P-tau217)",
+      "phase": "n/a",
+      "sponsor": "Skane University Hospital",
+      "population": "Cognitively healthy individuals, subjective cognitive decline, MCI, Alzheimer's dementia, and other dementias",
+      "primary_endpoint": "Clinical diagnosis",
+      "started": "2017-05",
+      "readout": "2036-12 / expected",
+      "why_md": "BioFINDER 2 is a massive longitudinal cohort designed to validate novel blood-based and imaging [biomarkers](/research/biomarkers) for neurodegenerative diseases. It provided the clinical validation data establishing the 96% diagnostic accuracy of plasma P-tau217.",
+      "status_log_md": [
+        "**2017-05-01** — Trial begins enrollment.",
+        "**2020-07-28** — Baseline cross-sectional data published in [JAMA](/research/papers/palmqvist-ptau217-jama-2020) demonstrating exceptional accuracy of plasma P-tau217."
+      ],
+      "results_md": "Ongoing longitudinal data collection. Cross-sectional results published in 2020 demonstrated that plasma P-tau217 could distinguish Alzheimer's from other neurodegenerative diseases with 96% accuracy, performing comparably to more invasive CSF and PET measures."
+    },
+    {
+      "slug": "api-adad-nct01998841",
+      "title": "API ADAD (GN28352)",
+      "description": "Phase 2 trial of crenezumab in the Colombian PSEN1 E280A kindred.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "anti-amyloid",
+        "crenezumab",
+        "familial-ad"
+      ],
+      "registry_md": "[NCT01998841](https://clinicaltrials.gov/study/NCT01998841)",
+      "drug": "Crenezumab (anti-amyloid)",
+      "phase": "2",
+      "sponsor": "Genentech, Inc.",
+      "population": "Preclinical PSEN1 E280A mutation carriers and non-carriers (Colombian kindred)",
+      "primary_endpoint": "Annualized Rate of Change in the API ADAD Composite Cognitive Test Total Score",
+      "started": "2013-12",
+      "readout": "2023-08",
+      "why_md": "The API ADAD trial evaluated crenezumab in the world's largest known early-onset Alzheimer's kindred. While evaluating a therapeutic, the underlying observational registry for this kindred has been invaluable for mapping the early longitudinal trajectories of [biomarkers](/research/biomarkers).",
+      "status_log_md": [
+        "**2013-12-01** — Trial starts.",
+        "**2020-07-28** — Registry data utilized to map [P-tau217](/research/papers/palmqvist-ptau217-jama-2020) trajectories, showing elevation up to 20 years before symptom onset.",
+        "**2023-08-01** — Trial completed; therapeutic endpoint missed."
+      ],
+      "results_md": "The therapeutic trial failed to show a significant clinical benefit of crenezumab on cognitive decline. However, data from the foundational observational registry proved that plasma p-tau217 elevates up to 20 years before mild cognitive impairment onset in this genetic population."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Diagnostic Advances",
+      "date": "2020-07",
+      "title": "2020-07 — Plasma P-tau217 validated as highly accurate biomarker",
+      "body_md": "Cross-sectional data published by [Palmqvist et al.](/research/papers/palmqvist-ptau217-jama-2020) demonstrated that the plasma P-tau217 blood test distinguishes Alzheimer's disease from other neurodegenerative disorders with up to 96% accuracy, performing comparably to invasive CSF and PET measures."
+    }
+  ],
+  "notes_for_editor": [
+    "Note: Ensure the 'Diagnostic Advances' timeline section exists or merge the timeline entry into an appropriate existing section.",
+    "Did not create trial pages for the Lilly P-tau217 Clinical Impact Study or BioFINDER-1 per guidelines, as they were provided solely as context."
+  ]
+}

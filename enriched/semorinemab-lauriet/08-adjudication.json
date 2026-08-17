@@ -1,0 +1,34 @@
+{
+  "id": "semorinemab-lauriet",
+  "adjudicated_at": "2026-08-13T16:57:19Z",
+  "rulings": [
+    {
+      "conflict_id": "semorinemab-lauriet#0",
+      "field": "study.population",
+      "verdict": "both",
+      "correct_value": "Adults 50–85 years of age with mild-to-moderate AD who met National Institute on Aging-Alzheimer's Association core clinical criteria for probable AD dementia, had a screening MMSE score of 16–21 inclusive, a Clinical Dementia Rating-Global Score (CDR-GS) of 1 or 2, and confirmed cerebral amyloid pathology by amyloid PET or CSF Aβ(1–42) ≤1,000 pg/mL",
+      "quote": "Adults 50–85 years of age were eligible for participation if they: (1) met National Institute on Aging-Alzheimer's Association core clinical criteria for probable AD dementia ; (2) had a screening MMSE score of 16–21, inclusive; (3) had a Clinical Dementia Rating-Global Score (CDR-GS) of 1 or 2;",
+      "reasoning": "Both readings quote parts of the same eligibility sentence — reading B captures the age range, reading A the diagnostic criteria — and the document supports each; the correct value merges them at the level of detail the document prints."
+    },
+    {
+      "conflict_id": "semorinemab-lauriet#1",
+      "field": "outcomes[Change from baseline to week 49 in the ADAS-Cog11 in the restricted mITT population (cohorts 1 and 2)].tier",
+      "verdict": "b",
+      "correct_value": "primary",
+      "quote": "The coprimary efficacy endpoints were the change in the ADAS-Cog11 and ADCS-ADL from baseline to week 49 for both cohort 1 and cohort 2 participants and week 61 for cohort 2 participants.",
+      "reasoning": "The document designates change from baseline to week 49 in the ADAS-Cog11 as a coprimary efficacy endpoint; the restricted mITT is a prespecified analysis population, not a lower endpoint tier, and the document nowhere labels this measure secondary (secondary efficacy endpoints are only MMSE and CDR-SB)."
+    },
+    {
+      "conflict_id": "semorinemab-lauriet#2",
+      "field": "outcomes[Changes from baseline to week 49 or 61 in ventricular, whole brain, cerebral cortex, and hippocampal volumes on volumetric MRI].tier",
+      "verdict": "neither",
+      "correct_value": null,
+      "quote": "Changes from baseline to week 49 or 61 in ventricular, whole brain, cerebral cortex, and hippocampal volumes were analyzed from T1 images.",
+      "reasoning": "The document introduces the volumetric MRI changes without assigning any tier label; it names only MMSE and CDR-SB as secondary efficacy endpoints and applies the word 'exploratory' specifically to the tau PET SUVR endpoints, so neither 'secondary' nor 'exploratory' is stated for volumetric MRI."
+    }
+  ],
+  "notes": [
+    "Endpoint tiers in this paper: coprimary efficacy = ADAS-Cog11 and ADCS-ADL change to week 49 (and week 61 for cohort 2); secondary efficacy = MMSE and CDR-SB; separately, 'The primary safety endpoints were the nature, frequency, severity, and timing of adverse events (AEs) and serious AEs (SAE).' Safety is its own primary endpoint here alongside the coprimary efficacy endpoints.",
+    "Conflict #1 turns on a population/analysis distinction rather than a tier distinction: the restricted mITT result for ADAS-Cog11 is reported as a prespecified supporting analysis (eTable 4) of a coprimary endpoint. A maintainer may wish to record it as 'primary endpoint, restricted mITT sensitivity analysis' rather than a bare tier."
+  ]
+}

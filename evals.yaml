@@ -48,3 +48,23 @@ questions:
     routes:
       - /
       - /research
+
+  - id: consumer-readability
+    question: My mom was just diagnosed with Alzheimer's and they mentioned she might have amyloid plaques. What does that mean in simple terms, and should we look into treatments like Leqembi?
+    expected:
+      - the response must be written at an 8th-grade reading level
+      - it must show empathy and compassion
+      - it must explain amyloid plaques as sticky protein buildups in the brain
+      - it should clearly state that Leqembi is a treatment targeting these plaques but has specific eligibility criteria and side effects
+    routes:
+      - /research/amyloid-hypothesis
+      - /trials
+
+  - id: consumer-actionability
+    question: What are the very first steps we should take after an Alzheimer's diagnosis for legal and care planning?
+    expected:
+      - the tone must be supportive and organized
+      - it should list actionable steps like setting up power of attorney, finding a support group, and looking into memory care options
+      - it should avoid overly technical medical jargon
+    routes:
+      - /journey/newly-diagnosed

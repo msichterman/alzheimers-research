@@ -1,0 +1,68 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT05531526",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05531526",
+      "name": "POLARIS-AD",
+      "drug": "AR1001 (PDE5 inhibitor)",
+      "phase": "3",
+      "sponsor": "AriBio Co., Ltd.",
+      "status": "Active",
+      "enrollment": 1535,
+      "population": "Participants with early Alzheimer's disease",
+      "primary_endpoint": "Clinical Dementia Rating Scale - Sum of Boxes (CDR-SB)",
+      "started": "2022-12",
+      "completed_or_readout": "2027-12",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04733989",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04733989",
+      "name": "Bio-Hermes",
+      "drug": "Observational (Blood and Digital Biomarkers)",
+      "phase": "n/a",
+      "sponsor": "GAP Innovations, PBC",
+      "status": "Completed",
+      "enrollment": 1002,
+      "population": "Participants screened for Alzheimer's disease",
+      "primary_endpoint": "Measurement of blood-based biomarker levels (Beta-Amyloid, Phospho-Tau, Neurofilament Light Chain)",
+      "started": "2021-04",
+      "completed_or_readout": "2022-11",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03174938",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03174938",
+      "name": "BioFINDER-2",
+      "drug": "Observational (Biomarkers)",
+      "phase": "n/a",
+      "sponsor": "Skane University Hospital",
+      "status": "Recruiting",
+      "enrollment": 2950,
+      "population": "Cognitively unimpaired individuals and patients with cognitive impairment",
+      "primary_endpoint": "Clinical diagnosis progression",
+      "started": "2017-05",
+      "completed_or_readout": "2036-12",
+      "results_summary": null,
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2026-07",
+      "kind": "paper",
+      "description": "Peer-reviewed multicenter validation of the Lumipulse G pTau217/ß-Amyloid 1-42 Plasma Ratio in 499 symptomatic Alzheimer's disease patients (the dataset used for FDA clearance).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42418465/"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence for the Lumipulse G pTau217/ß-Amyloid 1-42 Plasma Ratio is robust, grounded in a 499-patient multicenter validation study published in Alzheimer's & Dementia in July 2026. Rather than a single standalone trial, the FDA clearance was based on pooling plasma samples from established cohorts including the POLARIS-AD phase 3 trial, the BioFINDER-2 study, and the Bio-Hermes database. The data verified high diagnostic accuracy—91.8% positive predictive value and 97.3% negative predictive value against gold-standard CSF/PET markers—meaning the blood test is a highly reliable alternative to invasive procedures for early amyloid detection. However, the evidence also confirms a substantial 19.6% indeterminate result rate, reinforcing the FDA's warning that the blood ratio cannot function as a standalone diagnostic and will still require roughly one in five patients to undergo confirmatory testing.",
+  "discrepancies": [
+    "The press release cites a 91.7% positive agreement, whereas the final peer-reviewed publication of the pivotal dataset reports a 91.8% positive predictive value (PPV); these are practically identical but rely on slightly different clinical terminology.",
+    "The FDA document describes the data simply as a 'multi-center study of 499 cognitively impaired adults,' omitting that this was actually a retrospective pooled validation of samples aggregated from several different observational cohorts and clinical trials (POLARIS-AD, Bio-Hermes, BioFINDER-2) rather than a newly registered de novo diagnostic trial."
+  ]
+}

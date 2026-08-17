@@ -1,0 +1,623 @@
+{
+  "generated_at": "2026-08-13T17:02:33.034Z",
+  "entries": [
+    {
+      "id": "lecanemab-clarity-ad",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "donanemab-trailblazer-alz-2",
+      "stage": "validation",
+      "reason": "file, evidence, fidelity, critical-review",
+      "detail": "extracted text is abstract-only (5106 chars, sections: result/outcome/participants) — not sufficient for an evidence record · no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "donanemab-trailblazer-alz-phase-2",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "aducanumab-emerge-engage",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "aducanumab-phase-1b-prime",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "solanezumab-expedition",
+      "stage": "validation",
+      "reason": "file, file, evidence, fidelity, critical-review",
+      "detail": "no primary document acquired · no extracted text layer at raw/<id>/document.md · no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "bapineuzumab-phase-3",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "lanabecestat-amaranth-daybreak",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "semaglutide-evoke",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "trontinemab-brainshuttle-registry",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "trontier-1-registry",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "trontier-2-registry",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "trailrunner-alz-1-registry",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "remternetug-prevention-registry",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "sabirnetug-intercept-ad",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "altitude-ad-registry",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "fda-leqembi-traditional-approval",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "fda-leqembi-approval-letter-traditional",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "fda-leqembi-review-traditional",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "fda-leqembi-label-traditional",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "fda-leqembi-summary-review-accelerated",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "fda-leqembi-label-current",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "fda-kisunla-approval-letter",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "fda-kisunla-statistical-review",
+      "stage": "validation",
+      "reason": "fidelity",
+      "detail": "5 conflict(s) reached no adjudicator ruling: outcomes[primary].effect_estimate (no adjudicator ruling for this conflict); outcomes[primary].confidence_interval (no adjudicator ruling for this conflict); outcomes[ADAS-Cog13 change from baseline at Week 76 with death imputed as the worst score (FDA-requested sensitivity analysis)].prespecified (no adjudicator ruling for this conflict)"
+    },
+    {
+      "id": "fda-kisunla-risk-review",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "fda-kisunla-label",
+      "stage": "validation",
+      "reason": "fidelity, fidelity",
+      "detail": "5 conflict(s) reached no adjudicator ruling: study.population (no adjudicator ruling for this conflict); study.intervention (no adjudicator ruling for this conflict); safety.harms[macrohemorrhage].reported (no adjudicator ruling for this conflict) · the two extractions disagree on whether the document reports: outcomes[primary].confidence_interval"
+    },
+    {
+      "id": "ema-leqembi-epar",
+      "stage": "validation",
+      "reason": "file, evidence, fidelity, critical-review",
+      "detail": "no extracted text layer at raw/<id>/document.md · no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "ema-kisunla-epar",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "celia-biib080-registry",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "aadvac1-adamant",
+      "stage": "validation",
+      "reason": "file, evidence, fidelity, critical-review",
+      "detail": "no primary document acquired · no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "bepranemab-together",
+      "stage": "validation",
+      "reason": "file, evidence, fidelity, critical-review",
+      "detail": "extracted text is abstract-only (3036 chars, sections: method/result) — not sufficient for an evidence record · no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "dian-tu-tau-nexgen-registry",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "e2814-lecanemab-registry",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "e2814-diad-registry",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "al002-invoke-2",
+      "stage": "validation",
+      "reason": "file, file, evidence, fidelity, critical-review",
+      "detail": "no primary document acquired · no extracted text layer at raw/<id>/document.md · no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "invoke-2-registry",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "sargramostim-phase-2",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "masitinib-phase-3",
+      "stage": "validation",
+      "reason": "evidence, fidelity, cross-links, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · a published correction exists (10.1186/s13195-023-01230-9) but is not linked on the record · no record to review"
+    },
+    {
+      "id": "trem2-jonsson-2013",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "trem2-guerreiro-2013",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "disease-associated-microglia",
+      "stage": "validation",
+      "reason": "file, file, evidence, fidelity, critical-review",
+      "detail": "no primary document acquired · extracted text is abstract-only (2574 chars, sections: none) — not sufficient for an evidence record · no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "trem2-apoe-microglia",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "mathys-2019-single-cell",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "mathys-2024-multiregion",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "single-cell-cognitive-resilience",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "bellenguez-2022-gwas",
+      "stage": "validation",
+      "reason": "fidelity, fidelity",
+      "detail": "5 conflict(s) reached no adjudicator ruling: study.n (no adjudicator ruling for this conflict); primary_endpoint_status.status (no adjudicator ruling for this conflict); multiplicity.approach (no adjudicator ruling for this conflict) · the two extractions disagree on whether the document reports: outcomes[primary].effect_estimate, outcomes[primary].confidence_interval"
+    },
+    {
+      "id": "wightman-2021-gwas",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "kunkle-2019-gwas",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "consensus-gwas-2026",
+      "stage": "validation",
+      "reason": "fidelity, fidelity",
+      "detail": "6 conflict(s) reached no adjudicator ruling: study.n (no adjudicator ruling for this conflict); study.population (no adjudicator ruling for this conflict); outcomes[primary].prespecified (no adjudicator ruling for this conflict) · the two extractions disagree on whether the document reports: outcomes[primary].effect_estimate, outcomes[primary].confidence_interval"
+    },
+    {
+      "id": "lake-2023-multiancestry",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "holstege-2022-exome",
+      "stage": "validation",
+      "reason": "fidelity, fidelity",
+      "detail": "6 conflict(s) reached no adjudicator ruling: study.population (no adjudicator ruling for this conflict); outcomes[primary].name (no adjudicator ruling for this conflict); outcomes[primary].prespecified (no adjudicator ruling for this conflict) · the two extractions disagree on whether the document reports: outcomes[primary].effect_estimate, outcomes[primary].confidence_interval"
+    },
+    {
+      "id": "shade-2024-neuropathology-gwas",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "apoe3-christchurch-resistance",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "christchurch-snrnaseq",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "apoe-r136s-protection",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "app-a673t-protection",
+      "stage": "validation",
+      "reason": "file, file, evidence, fidelity, critical-review",
+      "detail": "no primary document acquired · no extracted text layer at raw/<id>/document.md · no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "app-a673t-mechanism",
+      "stage": "validation",
+      "reason": "file, evidence, fidelity, critical-review",
+      "detail": "extracted text is abstract-only (3092 chars, sections: none) — not sufficient for an evidence record · no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "asc-specks-cross-seed",
+      "stage": "validation",
+      "reason": "file, file, evidence, fidelity, critical-review",
+      "detail": "no primary document acquired · no extracted text layer at raw/<id>/document.md · no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "nlrp3-tau-pathology",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "nlrp3-heneka-2013",
+      "stage": "validation",
+      "reason": "file, evidence, fidelity, critical-review",
+      "detail": "extracted text is abstract-only (4816 chars, sections: method) — not sufficient for an evidence record · no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "plasma-ptau217-discriminative-accuracy",
+      "stage": "validation",
+      "reason": "file, evidence, fidelity, critical-review",
+      "detail": "extracted text is abstract-only (5342 chars, sections: result/outcome/participants) — not sufficient for an evidence record · no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "karikari-2020-ptau181",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "janelidze-2020-ptau181",
+      "stage": "validation",
+      "reason": "file, file, evidence, fidelity, critical-review",
+      "detail": "no primary document acquired · no extracted text layer at raw/<id>/document.md · no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "mattsson-carlgren-2020-ptau217",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "palmqvist-2024-primary-care",
+      "stage": "validation",
+      "reason": "file, evidence, fidelity, critical-review",
+      "detail": "extracted text is abstract-only (5466 chars, sections: result/outcome/participants) — not sufficient for an evidence record · no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "palmqvist-2025-automated-platform",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "petersen-2026-ptau217-onset",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "grande-2025-community-cohort",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "fda-lumipulse-clearance",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "fda-lumipulse-510k-decision",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "fda-lumipulse-recall",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "jack-2024-revised-criteria",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "nia-aa-research-framework-2018",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "centiloid-project",
+      "stage": "validation",
+      "reason": "fidelity, fidelity",
+      "detail": "6 conflict(s) reached no adjudicator ruling: study.population (no adjudicator ruling for this conflict); study.design (no adjudicator ruling for this conflict); study.n (no adjudicator ruling for this conflict) · the two extractions disagree on whether the document reports: study.design, study.n"
+    },
+    {
+      "id": "ossenkoppele-2022-amyloid-tau-pet",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "tau-pet-vs-phospho-tau",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "ptau217-taupet-prediction",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "ashton-2024-alzpath-ptau217",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "schindler-2019-plasma-abeta",
+      "stage": "validation",
+      "reason": "file, evidence, fidelity, critical-review",
+      "detail": "extracted text is abstract-only (2293 chars, sections: method/result) — not sufficient for an evidence record · no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "nakamura-2018-plasma-amyloid",
+      "stage": "validation",
+      "reason": "file, file, evidence, fidelity, critical-review",
+      "detail": "no primary document acquired · no extracted text layer at raw/<id>/document.md · no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "ovod-2017-silk-plasma-abeta",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "benedet-2021-gfap",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "pereira-2021-gfap",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "aa-blood-biomarker-recommendations",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "hansson-blood-biomarkers-review",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "us-pointer",
+      "stage": "validation",
+      "reason": "file, evidence, fidelity, critical-review",
+      "detail": "extracted text is abstract-only (5296 chars, sections: result/outcome/participants) — not sufficient for an evidence record · no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "finger-trial",
+      "stage": "validation",
+      "reason": "file, evidence, fidelity, critical-review",
+      "detail": "extracted text is abstract-only (5069 chars, sections: result/outcome) — not sufficient for an evidence record · no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "sprint-mind",
+      "stage": "validation",
+      "reason": "file, evidence, fidelity, critical-review",
+      "detail": "extracted text is abstract-only (4513 chars, sections: result/outcome/participants) — not sufficient for an evidence record · no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "mapt-trial",
+      "stage": "validation",
+      "reason": "file, file, evidence, fidelity, critical-review",
+      "detail": "no primary document acquired · no extracted text layer at raw/<id>/document.md · no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "predivia-trial",
+      "stage": "validation",
+      "reason": "file, evidence, fidelity, critical-review",
+      "detail": "extracted text is abstract-only (4804 chars, sections: none) — not sufficient for an evidence record · no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "lancet-commission-2024",
+      "stage": "validation",
+      "reason": "identity, file, evidence, fidelity, critical-review",
+      "detail": "regulatory-url https://www.thelancet.com/action/showPdf?pii=S0140-6736(24)01296-0 did not resolve live · extracted text is abstract-only (4133 chars, sections: none) — not sufficient for an evidence record · no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "lancet-commission-2020",
+      "stage": "validation",
+      "reason": "fidelity, fidelity",
+      "detail": "8 conflict(s) reached no adjudicator ruling: study.population (no adjudicator ruling for this conflict); outcomes[primary].name (no adjudicator ruling for this conflict); outcomes[primary].met (no adjudicator ruling for this conflict) · the two extractions disagree on whether the document reports: study.n"
+    },
+    {
+      "id": "mendes-2025-network-meta-analysis",
+      "stage": "validation",
+      "reason": "file, file, evidence, fidelity, critical-review",
+      "detail": "no primary document acquired · no extracted text layer at raw/<id>/document.md · no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "cummings-pipeline-2026",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "karran-de-strooper-amyloid-hypothesis",
+      "stage": "validation",
+      "reason": "file, file, evidence, fidelity, critical-review",
+      "detail": "no primary document acquired · no extracted text layer at raw/<id>/document.md · no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "probabilistic-model-amyloid",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "clarity-ad-registry",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "trailblazer-alz-2-registry",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "emerge-registry",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "engage-registry",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "us-pointer-registry",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "finger-registry",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    },
+    {
+      "id": "sprint-mind-registry",
+      "stage": "validation",
+      "reason": "evidence, fidelity, critical-review",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing) · no independent critic pass (enriched/<id>/07-fidelity.json missing) · no record to review"
+    }
+  ]
+}

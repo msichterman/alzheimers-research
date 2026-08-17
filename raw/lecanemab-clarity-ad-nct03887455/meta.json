@@ -1,0 +1,9 @@
+{
+  "id": "lecanemab-clarity-ad-nct03887455",
+  "source": "sources/lecanemab-clarity-ad-nct03887455.json",
+  "sha256": "e457103f6c3e42c7a3bc6ec436e3e8d59d54d4cca5442ff458e10a8a7f8547e9",
+  "bytes": 64112,
+  "chars": 17983,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:11.071Z"
+}

@@ -1,0 +1,102 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT07383311",
+      "registry_url": "https://clinicaltrials.gov/study/NCT07383311",
+      "name": "SpSleep",
+      "drug": "Spermidine (polyamine)",
+      "phase": "n/a",
+      "sponsor": "University Medicine Greifswald",
+      "status": "Recruiting",
+      "enrollment": 76,
+      "population": "Older adults with Subjective Cognitive Decline (SCD) or Mild Cognitive Impairment (MCI)",
+      "primary_endpoint": "Effects of spermidine supplementation on sleep quality (EEG mean power spectra)",
+      "started": "2025-10",
+      "completed_or_readout": "2029-05",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05200208",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05200208",
+      "name": "Improving Sleep and Cognition in Alzheimer's Disease",
+      "drug": "Citicoline (choline donor)",
+      "phase": "n/a",
+      "sponsor": "Emory University",
+      "status": "Completed",
+      "enrollment": 20,
+      "population": "Individuals diagnosed with Alzheimer's Disease",
+      "primary_endpoint": "Pittsburgh Sleep Quality Index (PSQI) and Epworth Sleepiness Scale (ESS)",
+      "started": "2022-07",
+      "completed_or_readout": "2025-09",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT06029894",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06029894",
+      "name": "Improving Sleep and AD Biomarkers",
+      "drug": "Citicoline (choline donor)",
+      "phase": "n/a",
+      "sponsor": "Emory University",
+      "status": "Completed",
+      "enrollment": 100,
+      "population": "Older adults with Mild Cognitive Impairment (MCI)",
+      "primary_endpoint": "Change in PSQI, ESS, REM sleep percentage, sleep duration, plasma choline, beta-amyloid 42, and tau levels",
+      "started": "2023-12",
+      "completed_or_readout": "2025-12",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04251182",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04251182",
+      "name": "T3D959-202",
+      "drug": "T3D-959 (PPAR delta/gamma agonist)",
+      "phase": "2",
+      "sponsor": "T3D Therapeutics, Inc.",
+      "status": "Completed",
+      "enrollment": 250,
+      "population": "Subjects with mild-to-moderate Alzheimer's Disease",
+      "primary_endpoint": "Change in ADAS-Cog11 and ADCS-CGIC",
+      "started": "2021-03",
+      "completed_or_readout": "2023-01",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT06964230",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06964230",
+      "name": "T3D959-301",
+      "drug": "T3D-959 (PPAR delta/gamma agonist)",
+      "phase": "2/3",
+      "sponsor": "T3D Therapeutics, Inc.",
+      "status": "Not Yet Recruiting",
+      "enrollment": 376,
+      "population": "Subjects with mild-to-moderate Alzheimer's Disease",
+      "primary_endpoint": "Change in ADAS-Cog13 and ADCS-iADL",
+      "started": "2026-10",
+      "completed_or_readout": "2031-04",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2024",
+      "kind": "paper",
+      "description": "Single-cell multiregion dissection of Alzheimer's disease (Mathys et al., Nature)",
+      "url": "https://doi.org/10.1038/s41586-024-07606-7"
+    }
+  ],
+  "evidence_assessment": "The analyzed document presents observational, post-mortem transcriptomic data identifying cellular vulnerabilities and resilience pathways in Alzheimer's disease, rather than reporting a clinical intervention. However, its central mechanistic claims regarding astrocyte choline metabolism, polyamine biosynthesis, and glial glycolysis are supported by active, albeit early-to-mid stage, clinical development programs. Citicoline, a choline donor, has completed early-phase trials (NCT05200208, NCT06029894) assessing its impact on cognition and AD biomarkers in MCI and AD populations. The polyamine spermidine is actively being evaluated (NCT07383311) to enhance autophagy and memory consolidation in patients with cognitive decline. Furthermore, interventions targeting brain glucose metabolism, such as the PPAR delta/gamma agonist T3D-959, have completed Phase 2 testing (NCT04251182) and are advancing to Phase 2b/3 (NCT06964230). Currently, there are no active interventional clinical trials targeting Reelin signaling, rendering that specific vulnerability pathway purely preclinical at this time.",
+  "discrepancies": [
+    "The document is a basic science transcriptomics study and does not report an interventional clinical trial; thus, there are no direct discrepancies with trial registries.",
+    "While the paper highlights Reelin signaling as a major vulnerability pathway for excitatory neurons, the clinical record shows no active trials targeting this mechanism, indicating it remains strictly in the preclinical/observational phase."
+  ]
+}

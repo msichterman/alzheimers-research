@@ -1,0 +1,9 @@
+{
+  "id": "fda-kisunla-approval-letter",
+  "source": "sources/fda-kisunla-approval-letter.pdf",
+  "sha256": "f88317e7252808fbe9bb33e48ba777327ce29563fcf60f1d2981ccef1e01b2e3",
+  "bytes": 553278,
+  "chars": 20029,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:08.632Z"
+}

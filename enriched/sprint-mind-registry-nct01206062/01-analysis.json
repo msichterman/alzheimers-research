@@ -1,0 +1,85 @@
+{
+  "kind": "other",
+  "title": "Systolic Blood Pressure Intervention Trial",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2010-09",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "prevention",
+    "epidemiology",
+    "hypertension",
+    "cardiovascular",
+    "sprint"
+  ],
+  "themes": [
+    "Intensive blood pressure control",
+    "Cardiovascular event reduction",
+    "All-cause mortality",
+    "Cognitive impairment and dementia",
+    "Adverse events in hypertension treatment"
+  ],
+  "one_line": "The SPRINT trial demonstrated that intensive systolic blood pressure control (<120 mm Hg) significantly reduces cardiovascular events and all-cause mortality in high-risk adults without diabetes, though with an increase in certain adverse events.",
+  "summary": "The Systolic Blood Pressure Intervention Trial (SPRINT) was a large-scale, randomized, single-masked clinical trial evaluating the effects of intensive versus standard blood pressure control. Enrolling 9,361 adults aged 50 and older with elevated cardiovascular risk but no diabetes or prior stroke, the trial compared an intensive systolic blood pressure goal of less than 120 mm Hg to a standard goal of less than 140 mm Hg. The National Institutes of Health stopped the intervention early after finding a significant reduction in the primary composite cardiovascular outcome (HR 0.75) and all-cause mortality (HR 0.73) in the intensive arm. Secondary outcomes evaluating the incidence of all-cause dementia and a 50% decline in eGFR showed non-significant reductions. However, the intensive treatment arm experienced higher rates of certain adverse events, including hypotension, syncope, electrolyte abnormalities, and acute kidney injury.",
+  "key_claims": [
+    {
+      "claim": "Intensive systolic blood pressure control (<120 mm Hg) significantly reduces the risk of major cardiovascular events compared to standard control (<140 mm Hg).",
+      "evidence": "Primary composite outcome occurred in 243 intensive vs 319 standard participants: Hazard Ratio 0.75 (95% CI 0.64 to 0.89), p=<0.001.",
+      "strength": "strong",
+      "location": "Posted results / PRIMARY: Number of Participants With First Occurrence of a Myocardial Infarction..."
+    },
+    {
+      "claim": "Intensive systolic blood pressure control significantly reduces all-cause mortality.",
+      "evidence": "155 deaths in intensive vs 210 in standard arm: Hazard Ratio 0.73 (95% CI 0.60 to 0.90), p=0.003.",
+      "strength": "strong",
+      "location": "Posted results / SECONDARY: Number of Participants With All-cause Mortality"
+    },
+    {
+      "claim": "Intensive blood pressure control does not significantly reduce the incidence of all-cause dementia within the trial's observed timeframe.",
+      "evidence": "149 cases in intensive vs 176 in standard arm: Hazard Ratio 0.83 (95% CI 0.67 to 1.04), p=.10.",
+      "strength": "strong",
+      "location": "Posted results / SECONDARY: Number of Patients With All-cause Dementia"
+    },
+    {
+      "claim": "Intensive blood pressure control increases the risk of certain adverse events, including hypotension, syncope, and acute kidney injury.",
+      "evidence": "Hypotension (48 vs 27), syncope (56 vs 33), and acute kidney injury or acute renal failure (11 vs 3) were higher in the intensive arm compared to the standard arm.",
+      "strength": "moderate",
+      "location": "Posted results / Adverse events / Other adverse events"
+    }
+  ],
+  "methods": {
+    "design": "Randomized, single-masked interventional clinical trial",
+    "n": 9361,
+    "population": "Adults aged 50+ with SBP 130-180 mm Hg and at least one additional CVD risk factor (e.g., CKD, Framingham score >=15%, age >75), excluding those with diabetes or prior stroke.",
+    "duration": "Up to 6 years (intervention stopped early after ~3.3 years median follow-up)",
+    "registration": "NCT01206062"
+  },
+  "funding_and_conflicts": "Lead sponsor: National Heart, Lung, and Blood Institute (NHLBI). Collaborators: NIA, NIDDK, NINDS, Wake Forest University Health Sciences. Conflicts of interest not stated in the registry record.",
+  "limitations": [
+    "The intervention was stopped earlier than planned due to significant preliminary results, which can truncate long-term follow-up necessary for slower-developing outcomes like dementia and end-stage renal disease.",
+    "Statistical transformation complexities for MRI structural outcomes (inverse hyperbolic sine transformation) make back-transformation to clinically intuitive original scales difficult.",
+    "Data on adverse events rely on absolute counts without comprehensive time-to-event or severity scaling in the basic registry summary."
+  ],
+  "red_flags": [
+    "Early termination for benefit: NIH stopped the blood pressure intervention earlier than originally planned, a practice known to occasionally overestimate the true magnitude of a treatment effect."
+  ],
+  "parse_quality": {
+    "score": 9,
+    "issues": [
+      "Minor spacing artifacts in mathematical operators within eligibility criteria (e.g., '< 110 mm Hg', '< 20 ml/min').",
+      "Adverse events section contains raw text ratios (e.g., '1793/4678') that require manual interpretation."
+    ]
+  },
+  "search_verification": []
+}

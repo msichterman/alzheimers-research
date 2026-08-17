@@ -1,0 +1,371 @@
+{
+  "extracted_by": "gemini-3.1-pro-preview",
+  "extracted_at": "2026-08-13T16:55:18.069Z",
+  "independent": true,
+  "saw_builder_output": false,
+  "source": "raw/tilavonemab-early-ad/document.md",
+  "source_sha256": "0f0c2a2ccb374db2a46aed684ea03b5df4c3c86031b9dfe01cf5f01aa376aaaa",
+  "truncated": false,
+  "tokens": {
+    "in": 10420,
+    "out": 5028
+  },
+  "record": {
+    "document_kind": "journal_article",
+    "title": {
+      "value": "Tilavonemab in early Alzheimer’s disease: results from a phase 2, randomized, double-blind study",
+      "quote": "Tilavonemab in early Alzheimer’s disease: results from a phase 2, randomized, double-blind study",
+      "location": "Title"
+    },
+    "study": {
+      "design": {
+        "value": "phase 2, multiple-dose, randomized, double-blind, placebo-controlled study",
+        "quote": "This was a phase 2, multiple-dose, randomized, double-blind, placebo-controlled study",
+        "location": "Materials and methods, Study design and participants, paragraph 1"
+      },
+      "n": {
+        "value": 453,
+        "quote": "A total of 453 patients were randomized",
+        "location": "Abstract, paragraph 3"
+      },
+      "population": {
+        "value": "adults aged 55–85 years who met the National Institute on Aging and the Alzheimer’s Association criteria for mild cognitive impairment or probable Alzheimer’s disease and had a Clinical Dementia Rating (CDR) global score of 0.5 at screening Visit 1, a Mini-Mental State Examination (MMSE) score of 22 to 30, inclusive, at screening Visit 1, and a Repeated Battery for the Assessment of Neuropsychological Status-Delayed Memory Index (RBANS-DMI) score of ≤85; a positive amyloid PET scan; a Modified Hachinski Ischemic Scale score of ≤4",
+        "quote": "Eligible patients were adults aged 55–85 years who met the National Institute on Aging and the Alzheimer’s Association criteria for mild cognitive impairment or probable Alzheimer’s disease and had a Clinical Dementia Rating (CDR) global score of 0.5 at screening Visit 1, a Mini-Mental State Examination (MMSE) score of 22 to 30, inclusive, at screening Visit 1, and a Repeated Battery for the Assessment of Neuropsychological Status-Delayed Memory Index (RBANS-DMI) score of ≤85; a positive amyloid PET scan; a Modified Hachinski Ischemic Scale score of ≤4",
+        "location": "Materials and methods, Study design and participants, paragraph 1"
+      },
+      "biomarker_confirmation": {
+        "value": "positive amyloid PET scan",
+        "quote": "a positive amyloid PET scan",
+        "location": "Materials and methods, Study design and participants, paragraph 1"
+      },
+      "cohorts": [],
+      "comparator": {
+        "value": "placebo",
+        "quote": "placebo administered via intravenous infusion every 4 weeks",
+        "location": "Materials and methods, Randomization and masking, paragraph 1"
+      },
+      "followup": {
+        "value": "96-week",
+        "quote": "96-week double-blind treatment period",
+        "location": "Materials and methods, Procedures, paragraph 1"
+      },
+      "intervention": {
+        "value": "one of three tilavonemab doses (300 mg, 1000 mg, 2000 mg) ... administered via intravenous infusion every 4 weeks",
+        "quote": "one of three tilavonemab doses (300 mg, 1000 mg, 2000 mg) or placebo administered via intravenous infusion every 4 weeks",
+        "location": "Materials and methods, Randomization and masking, paragraph 1"
+      },
+      "n_description": {
+        "value": "randomized",
+        "quote": "A total of 453 patients were randomized",
+        "location": "Abstract, paragraph 3"
+      },
+      "nct_ids": [
+        "NCT02880956",
+        "NCT02494024",
+        "NCT02985879",
+        "NCT03712787"
+      ],
+      "phase": {
+        "value": "phase 2",
+        "quote": "This was a phase 2, multiple-dose, randomized, double-blind, placebo-controlled study",
+        "location": "Materials and methods, Study design and participants, paragraph 1"
+      }
+    },
+    "outcomes": [
+      {
+        "name": "change from baseline to Week 96 in Clinical Dementia Rating-Sum of Boxes (CDR-SB) score",
+        "tier": "primary",
+        "prespecified": "yes",
+        "met": "not_met",
+        "quote": "The least squares mean change from baseline at Week 96 in the CDR-SB score with tilavonemab was not significantly different compared with placebo [300 mg ( n = 85): −0.07 (95% confidence interval, CI: −0.83 to 0.69); 1000 mg ( n = 91): −0.06 (95% CI: −0.81 to 0.68); 2000 mg ( n = 81): 0.16 (95% CI: −0.60 to 0.93); all P ≥ 0.05].",
+        "location": "Abstract, paragraph 3",
+        "confidence_interval": "95% CI: −0.60 to 0.93",
+        "effect_estimate": "0.16",
+        "multiplicity_controlled": "yes",
+        "p_value": "P ≥ 0.05",
+        "prespecification_evidence": "The primary efficacy end point was the change from baseline to Week 96 in Clinical Dementia Rating-Sum of Boxes (CDR-SB) score."
+      }
+    ],
+    "primary_endpoint_status": {
+      "status": "not_met",
+      "quote": "The least squares mean change from baseline at Week 96 in the CDR-SB score with tilavonemab was not significantly different compared with placebo",
+      "explanation": "The change in CDR-SB score from baseline to Week 96 was not significantly different between any tilavonemab dose group and placebo."
+    },
+    "safety": {
+      "harms": [
+        {
+          "name": "Microhaemorrhage",
+          "arm": "Placebo",
+          "quote": "| Microhaemorrhage | 9/116 (7.8) | 10/107 (9.3) | 15/116 (12.9) | 9/111 (8.1) |",
+          "location": "Table 2",
+          "apoe_stratum": null,
+          "count": "9",
+          "denominator": "116",
+          "percentage": "7.8"
+        },
+        {
+          "name": "Microhaemorrhage",
+          "arm": "Tilavonemab 300 mg",
+          "quote": "| Microhaemorrhage | 9/116 (7.8) | 10/107 (9.3) | 15/116 (12.9) | 9/111 (8.1) |",
+          "location": "Table 2",
+          "apoe_stratum": null,
+          "count": "10",
+          "denominator": "107",
+          "percentage": "9.3"
+        },
+        {
+          "name": "Microhaemorrhage",
+          "arm": "Tilavonemab 1000 mg",
+          "quote": "| Microhaemorrhage | 9/116 (7.8) | 10/107 (9.3) | 15/116 (12.9) | 9/111 (8.1) |",
+          "location": "Table 2",
+          "apoe_stratum": null,
+          "count": "15",
+          "denominator": "116",
+          "percentage": "12.9"
+        },
+        {
+          "name": "Microhaemorrhage",
+          "arm": "Tilavonemab 2000 mg",
+          "quote": "| Microhaemorrhage | 9/116 (7.8) | 10/107 (9.3) | 15/116 (12.9) | 9/111 (8.1) |",
+          "location": "Table 2",
+          "apoe_stratum": null,
+          "count": "9",
+          "denominator": "111",
+          "percentage": "8.1"
+        },
+        {
+          "name": "Cerebral oedema",
+          "arm": "Placebo",
+          "quote": "| Cerebral oedema | 3/116 (2.6) | 3/107 (2.8) | 2/116 (1.7) | 2/111 (1.8) |",
+          "location": "Table 2",
+          "apoe_stratum": null,
+          "count": "3",
+          "denominator": "116",
+          "percentage": "2.6"
+        },
+        {
+          "name": "Cerebral oedema",
+          "arm": "Tilavonemab 300 mg",
+          "quote": "| Cerebral oedema | 3/116 (2.6) | 3/107 (2.8) | 2/116 (1.7) | 2/111 (1.8) |",
+          "location": "Table 2",
+          "apoe_stratum": null,
+          "count": "3",
+          "denominator": "107",
+          "percentage": "2.8"
+        },
+        {
+          "name": "Cerebral oedema",
+          "arm": "Tilavonemab 1000 mg",
+          "quote": "| Cerebral oedema | 3/116 (2.6) | 3/107 (2.8) | 2/116 (1.7) | 2/111 (1.8) |",
+          "location": "Table 2",
+          "apoe_stratum": null,
+          "count": "2",
+          "denominator": "116",
+          "percentage": "1.7"
+        },
+        {
+          "name": "Cerebral oedema",
+          "arm": "Tilavonemab 2000 mg",
+          "quote": "| Cerebral oedema | 3/116 (2.6) | 3/107 (2.8) | 2/116 (1.7) | 2/111 (1.8) |",
+          "location": "Table 2",
+          "apoe_stratum": null,
+          "count": "2",
+          "denominator": "111",
+          "percentage": "1.8"
+        },
+        {
+          "name": "Death",
+          "arm": "Placebo",
+          "quote": "| Death | 1 (0.9) | 2 (1.9) | 2 (1.7) | 1 (0.9) |",
+          "location": "Table 2",
+          "apoe_stratum": null,
+          "count": "1",
+          "denominator": "116",
+          "percentage": "0.9"
+        },
+        {
+          "name": "Death",
+          "arm": "Tilavonemab 300 mg",
+          "quote": "| Death | 1 (0.9) | 2 (1.9) | 2 (1.7) | 1 (0.9) |",
+          "location": "Table 2",
+          "apoe_stratum": null,
+          "count": "2",
+          "denominator": "108",
+          "percentage": "1.9"
+        },
+        {
+          "name": "Death",
+          "arm": "Tilavonemab 1000 mg",
+          "quote": "| Death | 1 (0.9) | 2 (1.9) | 2 (1.7) | 1 (0.9) |",
+          "location": "Table 2",
+          "apoe_stratum": null,
+          "count": "2",
+          "denominator": "116",
+          "percentage": "1.7"
+        },
+        {
+          "name": "Death",
+          "arm": "Tilavonemab 2000 mg",
+          "quote": "| Death | 1 (0.9) | 2 (1.9) | 2 (1.7) | 1 (0.9) |",
+          "location": "Table 2",
+          "apoe_stratum": null,
+          "count": "1",
+          "denominator": "113",
+          "percentage": "0.9"
+        }
+      ],
+      "apoe_stratification_reported": false,
+      "deaths": {
+        "value": "6",
+        "quote": "There were six deaths during the study",
+        "location": "Results, paragraph 9"
+      },
+      "discontinuations": {
+        "value": "20",
+        "quote": "In total, 20 (4.4%) patients discontinued study drug due to an adverse event.",
+        "location": "Results, paragraph 9"
+      },
+      "serious_adverse_events": {
+        "value": "84",
+        "quote": "Serious adverse events were reported for 84 (18.5%) patients",
+        "location": "Results, paragraph 9"
+      }
+    },
+    "unlocatable_fields": [
+      "cohorts",
+      "apoe_stratum",
+      "affiliation",
+      "corresponding",
+      "orcid",
+      "status",
+      "observed_at",
+      "source",
+      "enrollment"
+    ],
+    "authors": [
+      {
+        "name": "Hana Florian",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Deli Wang",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Steven E Arnold",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Mercè Boada",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Qi Guo",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Ziyi Jin",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Hui Zheng",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Nahome Fisseha",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Hari Varun Kalluri",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Beatrice Rendenbach-Mueller",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Kumar Budur",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      },
+      {
+        "name": "Michael Gold",
+        "affiliation": null,
+        "corresponding": null,
+        "orcid": null
+      }
+    ],
+    "conflicts": [
+      "S.E.A. has received fees for serving on advisory boards for Allyx Therapeutics, Inc., Bob’s Last Marathon, Cassava, Cortexyme, Inc., Sage Therapeutics, Inc., vTv Therapeutics, Inc., and for consulting to AbbVie Inc., Boyle Shaughnessy Law, Cognito Therapeutics, Inc., Eisai, EIP Pharma, Inc., M3 Biotech, Inc., Orthogonal Neuroscience, Inc., and Risen Pharmaceutical Technology Co, Ltd. He has received sponsored research grant support from the following commercial entities: AbbVie Inc., Amylyx, Inc., Athira Pharma, Inc., Chromadex, Inc., EIP Pharma, Inc., Janssen Pharmaceuticals, Inc., Novartis AG, Seer Biosciences, Inc. and vTv Therapeutics, Inc. He has received sponsored research grant support from the following non-commercial entities: Alzheimer's Association, Alzheimer's Drug Discovery Foundation, Challenger Foundation, John Sperling Foundation, and the National Institutes of Health.",
+      "M.B. has received consulting fees from Grifols, Araclon Biotech, Roche, Biogen, Lilly, Merck, and Zambon. She has served on advisory boards for Grifols, Roche, Lilly, Araclon Biotech, Merck, Zambon, Biogen, Novo-Nordisk, Eisai, and Schwabe Pharma, and has given lectures for Roche, Biogen, Grifols, Nutricia, Araclon Biotech, and Novo-Nordisk. She has received funding from Life Molecular Imaging, Bioiberica, Grifols, Araclon Biotech, Roche, and Janssen, and grants from CIBERNED (Instituto de Salud Carlos III [ISCIII]), EU/EFPIA Innovative Medicines Initiative Joint Undertaking, ADAPTED Grant No. 115975, from EXIT project, EU Euronanomed3 Program JCT2017 Grant No. AC17/00100, MOPEAD, Innovative Medicine Initiative, Grant. No. 115985, PreDADQoL, ERA-NET (call 2015) Grant No. AC15/00082, TARTAGLIA, Red federada para accelerar la aplicación de la inteligencia artificial en el sistema sanitario español, dentro del marco del Programa Misiones IA (2021), PREADAPT Project, Joint Program for Neurodegenerative Diseases (JPND) Grant No. AC19/00097, and from grants PI13/02434, PI16/01861 BA19/00020, and PI19/01301, European Marie Sklodowska Curie. Acción Estratégica en Salud, integrated in the Spanish National RCDCI Plan and financed by Instituto de Salud Carlos III (ISCIII)-Subdirección General de Evaluación and the Fondo Europeo de Desarrollo Regional (FEDER—‘Una manera de Hacer Europa’), by Fundación bancaria ‘La Caixa’ and Grífols SA (GR@ACE project).",
+      "H.F., D.W., Q.G., Z.J., H.Z., N.F., H.V.K., and M.G. are employees of AbbVie Inc., and may hold AbbVie stock and/or stock options.",
+      "B.R.-M. is an employee of AbbVie Deutschland GmbH.",
+      "K.B. is a former employee of AbbVie Inc., currently employed by Harmony Biosciences."
+    ],
+    "disagreements": [],
+    "funding": [
+      "AbbVie Inc. funded the research for this study and participated in the study design; study research; collection, analysis, and interpretation of data; and writing, reviewing, and approving this manuscript for publication."
+    ],
+    "limitations": [
+      "A key limitation to this study is the natural history of the disease as it presents in the study population. Because Alzheimer’s disease begins before symptoms manifest, it is possible that even patients clinically diagnosed with early Alzheimer’s disease are already too advanced pathologically to benefit from treatment with an anti-tau antibody.",
+      "Furthermore, tau imaging was not available at the time the trial began, and, therefore, the effect of tilavonemab on tau accumulation could be assessed only in a small subset of patients.",
+      "An additional limitation is the lack of diversity in the study population, as most of the participants were White and well educated."
+    ],
+    "linked_objects": [
+      {
+        "relation": "registry_record",
+        "identifier": "NCT02880956",
+        "note": "Clinical trial registration for the main study"
+      },
+      {
+        "relation": "registry_record",
+        "identifier": "NCT02494024",
+        "note": "Phase 1 single ascending-dose study"
+      },
+      {
+        "relation": "registry_record",
+        "identifier": "NCT02985879",
+        "note": "Phase 2 trial in PSP"
+      },
+      {
+        "relation": "registry_record",
+        "identifier": "NCT03712787",
+        "note": "Extension study"
+      }
+    ],
+    "multiplicity": {
+      "approach": "Bonferroni method",
+      "location": "Materials and methods, Statistical analysis, paragraph 1",
+      "quote": "with Bonferroni method to adjust multiplicity"
+    },
+    "risk_of_bias": [],
+    "trial_status_observation": {
+      "status": null,
+      "observed_at": null,
+      "source": null,
+      "enrollment": null,
+      "phase": null
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "e2814-lecanemab-registry-nct06602258",
+  "source": "sources/e2814-lecanemab-registry-nct06602258.json",
+  "sha256": "ad66cc00e6597dff5731deb404d298c908cdb4cdc8daa1ef86779a26360814cb",
+  "bytes": 19587,
+  "chars": 12855,
+  "parser": "@firecrawl/anydoc@0.1.8",
+  "parsed_at": "2026-08-13T16:51:08.027Z"
+}

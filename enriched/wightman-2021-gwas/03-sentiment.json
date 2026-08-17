@@ -1,0 +1,56 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment regarding this milestone GWAS is strongly divided by community. The scientific and bioinformatics communities are highly enthusiastic, praising the massive sample size (over 1.1 million) and the definitive validation of the microglia and neuroinflammation hypotheses. However, in patient and caregiver communities, there is noticeable quietness regarding the specific paper, accompanied by general treatment fatigue when 'new genes' are announced in the news. Caregivers often express frustration that genetic discoveries do not yield immediate therapeutic benefits, and there is persistent public confusion between deterministic early-onset genes and the polygenic risk modifiers identified here.",
+  "communities": [
+    {
+      "community": "Scientists & Bioinformaticians (Alzforum, r/bioinformatics)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Praise for the massive sample size and use of proxy cases",
+        "Strong consensus around the microglia and immune cell hypothesis",
+        "Interest in the genetic crossover between AD and FTD (e.g., TMEM106B)"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/news/research-news/alzheimers-risk-variants-found-diverse-populations",
+        "https://www.alzforum.org/papers/genome-wide-association-study-1126563-individuals-identifies-new-risk-loci-alzheimers-disease",
+        "https://www.reddit.com/r/bioinformatics/comments/1bkdw41/any_open_source_datasets_for_gwas/"
+      ]
+    },
+    {
+      "community": "Caregivers & Patients (r/Alzheimers, r/dementia)",
+      "sentiment": "quiet",
+      "themes": [
+        "Treatment fatigue regarding constant announcements of 'new genes'",
+        "Confusion over whether individuals should seek genetic testing",
+        "Frustration at the lack of immediate clinical or therapeutic applicability"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Scholar/comments/pn7795/article_a_genomewide_association_study_with/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Nature Genetics (and associated academic press)",
+      "tone": "positive",
+      "date": "2021-09",
+      "url": "https://www.nature.com/articles/s41588-021-00921-z"
+    },
+    {
+      "outlet": "Alzforum",
+      "tone": "positive",
+      "date": "2021-09",
+      "url": "https://www.alzforum.org/papers/genome-wide-association-study-1126563-individuals-identifies-new-risk-loci-alzheimers-disease"
+    }
+  ],
+  "hype_vs_evidence": "Media coverage in scientific outlets closely matches the evidence, appropriately emphasizing the shift toward immune and microglial pathways. However, mainstream translations of these GWAS results occasionally hype the findings as holding the 'key' to a cure. Public perception frequently struggles with the concept of polygenicity; the evidence shows these 38 loci confer relatively small, cumulative shifts in risk, but the public often perceives newly discovered Alzheimer's genes as deterministic sentences.",
+  "misinformation_flags": [
+    "The misconception that possessing one of the newly identified risk variants (like those near TNIP1 or TMEM106B) guarantees the development of Alzheimer's disease.",
+    "The conflation of these subtle, late-onset polygenic risk modifiers with deterministic, early-onset familial Alzheimer's mutations (like APP or PSEN1)."
+  ],
+  "searches_run": [
+    "site:reddit.com Wightman Alzheimer GWAS",
+    "site:alzforum.org Wightman Alzheimer GWAS",
+    "Wightman Alzheimer Nature Genetics microglia immunity -alzforum.org"
+  ]
+}

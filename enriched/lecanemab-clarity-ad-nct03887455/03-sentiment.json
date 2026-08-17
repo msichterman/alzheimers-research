@@ -1,0 +1,80 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment surrounding Lecanemab (Leqembi) is deeply mixed across different communities. Patients and caregivers are initially hopeful about accessing the first disease-modifying treatment, viewing it as a historic milestone for Alzheimer's care. However, the reality of treatment often leads to frustration due to grueling infusion schedules, severe flu-like side effects, and the anxiety of mandatory MRI monitoring for ARIA. Furthermore, because the drug only slows decline rather than reversing it, many patients express distress over the lack of visible cognitive improvement. Meanwhile, retail investors and the biotech community remain highly enthusiastic about high continuation rates and new subcutaneous formulations. The scientific community maintains a cautious stance, balancing the momentous validation of the amyloid hypothesis against the significant risks of brain swelling and bleeding.",
+  "communities": [
+    {
+      "community": "Patients and Caregivers (e.g., r/Alzheimers, r/GenX)",
+      "sentiment": "mixed",
+      "themes": [
+        "Frustration with flu-like side effects and body aches",
+        "Anxiety over ARIA risks and frequent MRI monitoring",
+        "Uncertainty of efficacy due to lack of visible cognitive improvement",
+        "Devastation over strict early-stage eligibility criteria"
+      ],
+      "example_urls": [
+        "https://old.reddit.com/r/Alzheimers/comments/1rcv1fp/lecanemab_after_10_infusions_how_am_i_doing/",
+        "https://old.reddit.com/r/Alzheimers/comments/1rjsgrc/11th_lecanemab_infusion/"
+      ]
+    },
+    {
+      "community": "Retail Investors (e.g., r/StockTitan)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "FDA approval of subcutaneous (SC) formulation",
+        "High patient continuation rates past 18 months",
+        "Expanded market access and revenue potential"
+      ],
+      "example_urls": [
+        "https://old.reddit.com/r/StockTitan/comments/1uvp3dp/biib_fda_approves_leqembi_iqlik_lecanemabirmb/"
+      ]
+    },
+    {
+      "community": "Medical and Science Community (e.g., r/medicine, r/science)",
+      "sentiment": "mixed",
+      "themes": [
+        "Momentous breakthrough in validating the amyloid hypothesis",
+        "Significant risks of brain swelling and microhemorrhages (ARIA)",
+        "Debate over the clinical meaningfulness of modest CDR-SB changes"
+      ],
+      "example_urls": [
+        "https://old.reddit.com/r/science/comments/z8ez5o/alzheimers_drug_in_development_lecanemab_may/",
+        "https://old.reddit.com/r/medicine/comments/1057sjo/fda_oks_lecanemab_for_alzheimers_disease/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "BBC News",
+      "tone": "positive",
+      "date": "2022-11",
+      "url": "https://www.bbc.com/news/health-63749586"
+    },
+    {
+      "outlet": "The New York Times",
+      "tone": "critical",
+      "date": "2022-11",
+      "url": "https://www.nytimes.com/2022/11/29/health/lecanemab-alzheimers-drug.html"
+    },
+    {
+      "outlet": "Medscape",
+      "tone": "neutral",
+      "date": "2023-01",
+      "url": "https://www.medscape.com/viewarticle/986625?src=wnl_newsalrt_230106_MSCPEDIT_FDA_Lecanemab&uac=306494BT&impID=5066846"
+    },
+    {
+      "outlet": "The Canadian Press",
+      "tone": "positive",
+      "date": "2026-07",
+      "url": "https://www.thecanadianpressnews.ca/national/canadas-drug-agency-recommends-funding-lecanemab-for-early-stage-alzheimers-disease/article_20b0fdd5-b98a-51b7-88fb-eddc784b311c.html"
+    }
+  ],
+  "hype_vs_evidence": "Public perception, particularly among desperate families, often anticipates that Lecanemab will halt or reverse cognitive decline. In contrast, the Clarity AD trial evidence only demonstrates a modest slowing of clinical decline (a 0.45-point difference on the 18-point CDR-SB scale over 18 months). This divergence leads to immense frustration when patients endure grueling side effects and MRI monitoring without experiencing any subjective cognitive improvement. Furthermore, public hype frequently overlooks the strict eligibility window, leaving many families devastated when they learn the drug is strictly indicated for early-stage mild cognitive impairment.",
+  "misinformation_flags": [
+    "Lecanemab halts or reverses Alzheimer's disease progression (it only modestly slows clinical decline).",
+    "Lecanemab can be prescribed to patients in moderate or late stages of Alzheimer's (it is strictly indicated for early symptomatic stages with confirmed amyloid pathology)."
+  ],
+  "searches_run": [
+    "lecanemab OR leqembi (side effects OR ARIA OR caregivers OR patients) site:old.reddit.com",
+    "lecanemab OR leqembi eisai biogen stock site:old.reddit.com"
+  ]
+}

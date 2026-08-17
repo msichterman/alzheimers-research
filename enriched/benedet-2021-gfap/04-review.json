@@ -1,0 +1,115 @@
+{
+  "fact_check": [
+    {
+      "fact": "Funding and conflicts of interest are 'none stated'.",
+      "status": "corrected",
+      "note": "The parsed document omitted the disclosures section. Clinical registry data for the ALFA cohort (NCT02485730) explicitly lists Obra Social La Caixa as a collaborator, and standard publications from this author group typically carry extensive industry disclosures."
+    },
+    {
+      "fact": "The ALFA+ cohort included individuals in the entire AD continuum.",
+      "status": "corrected",
+      "note": "The ALFA+ cohort strictly enrolled cognitively healthy individuals at elevated risk (preclinical AD). Data for symptomatic stages were supplied by the TRIAD and BioCogBank Paris Lariboisière cohorts."
+    },
+    {
+      "fact": "Plasma GFAP discriminated Aβ-positive from Aβ-negative individuals with an AUC of 0.69 to 0.86.",
+      "status": "verified",
+      "note": "Matches the ranges provided in the source document's Table 2 across all three cohorts."
+    }
+  ],
+  "research_page": {
+    "slug": "plasma-gfap-benedet-2021",
+    "title": "Plasma vs CSF GFAP across the AD continuum (Benedet et al., 2021)",
+    "description": "Plasma GFAP outperforms CSF GFAP as an accessible biomarker for detecting early amyloid-β pathology and reactive astrogliosis.",
+    "tags": [
+      "paper",
+      "biomarkers",
+      "plasma-gfap",
+      "csf-gfap",
+      "amyloid"
+    ],
+    "source_line_md": "**Source**: [JAMA Neurology, 2021](https://doi.org/10.1001/jamaneurol.2021.3671) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/34661615/)",
+    "authors_line_md": "Andréa L. Benedet et al.",
+    "takeaway_md": "Plasma GFAP levels rise significantly during preclinical Alzheimer's disease and accurately discriminate amyloid-positive from amyloid-negative individuals. The magnitude of this change and its diagnostic accuracy consistently outperform cerebrospinal fluid (CSF) GFAP. The evidence is robust, drawing from three independent observational cohorts, positioning plasma GFAP as a highly sensitive, blood-based proxy for early amyloid-related astrogliosis.",
+    "key_findings_md": [
+      "Plasma GFAP levels showed a 54% increase in preclinical AD and a 107% increase in AD dementia compared to amyloid-negative individuals in the TRIAD cohort (paper, Results).",
+      "Plasma GFAP discriminated amyloid-positive from amyloid-negative individuals with higher accuracy (AUC 0.69–0.86) than CSF GFAP (AUC 0.59–0.76) across all cohorts (paper, Table 2).",
+      "Plasma GFAP elevations were specifically driven by amyloid-β pathology, which mediated 60-63% of GFAP's association with tau, whereas CSF GFAP correlated more with broad neuroinflammation markers like sTREM2 (paper, Results)."
+    ],
+    "methods_md": "Observational cross-sectional study of 871 individuals across the AD continuum. Participants were drawn from the TRIAD (Canada), ALFA+ (Spain), and BioCogBank (France) cohorts between July 2014 and January 2020.",
+    "trial_evidence_md": "The findings are grounded in three well-established independent cohorts. The [ALFA Cohort](/trials/alfa-cohort-nct02485730) prospectively tracks early preclinical biomarker profiles in cognitively healthy adults. Active recruitment in related cohorts like [BioCogBank-AD](/trials/biocogbank-ad-nct06582199) aims to further validate these blood-based markers for clinical utility in symptomatic stages.",
+    "sentiment_md": "Public perception is highly optimistic, though consumer enthusiasm often outpaces scientific reality. Mainstream media and retail investors frequently hype plasma GFAP as a definitive 'finger-prick' test that can predict dementia decades early. In contrast, researchers view GFAP as a valuable but specific proxy for amyloid-related astrogliosis that must be interpreted alongside other markers (like p-tau217) in multiplex diagnostic panels.",
+    "caveats_md": [
+      "The cross-sectional design establishes correlation but cannot definitively prove longitudinal tracking of disease progression within individual patients.",
+      "Definitions of amyloid-β pathology and available data varied across the three contributing cohorts, complicating direct comparisons.",
+      "The study did not include measurements of amyloid-β in blood to directly compare against GFAP."
+    ],
+    "relates_to_md": [
+      "[Biomarkers](/research/biomarkers) — Compares the utility of blood-based versus CSF diagnostics for early AD detection.",
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Links reactive astrogliosis specifically to amyloid-β burden rather than isolated tau pathology."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "alfa-cohort-nct02485730",
+      "title": "ALFA Cohort",
+      "description": "Observational biomarker cohort of cognitively healthy adults at elevated risk for Alzheimer's disease.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "observational",
+        "biomarkers",
+        "preclinical"
+      ],
+      "registry_md": "[NCT02485730](https://clinicaltrials.gov/study/NCT02485730)",
+      "drug": "N/A (Biomarker)",
+      "phase": "n/a",
+      "sponsor": "Barcelonabeta Brain Research Center, Pasqual Maragall Foundation",
+      "population": "Cognitively healthy adults aged 45-64 who are first-degree descendants of an Alzheimer's patient",
+      "primary_endpoint": "Change from preclinical phase of AD to Mild Cognitive Impairment",
+      "started": "2016-10",
+      "readout": "2025-12",
+      "why_md": "The ALFA cohort provides critical data on the earliest physiological changes in Alzheimer's disease before cognitive symptoms appear. It serves as a foundational dataset for validating preclinical blood-based markers like [plasma GFAP](/research/papers/plasma-gfap-benedet-2021).",
+      "status_log_md": [
+        "**2016-10** — Trial begins enrolling participants (registry).",
+        "**2021-10** — Cohort data validates plasma GFAP as an early indicator of amyloid-β pathology in JAMA Neurology."
+      ],
+      "results_md": "While no aggregate clinical results have been formally posted to the registry, the cohort has generated extensive peer-reviewed data confirming early preclinical biomarker profiles, including GFAP and p-tau changes prior to cognitive decline."
+    },
+    {
+      "slug": "biocogbank-ad-nct06582199",
+      "title": "BioCogBank-AD",
+      "description": "Observational cohort of adults with mild cognitive impairment or early dementia due to AD.",
+      "badge": "Recruiting",
+      "tags": [
+        "trial",
+        "observational",
+        "biomarkers",
+        "early-ad"
+      ],
+      "registry_md": "[NCT06582199](https://clinicaltrials.gov/study/NCT06582199)",
+      "drug": "N/A (Biomarker)",
+      "phase": "n/a",
+      "sponsor": "Assistance Publique - Hôpitaux de Paris",
+      "population": "Adults aged 50-90 with mild cognitive impairment or early dementia due to AD (confirmed by abnormal CSF amyloid and tau)",
+      "primary_endpoint": "Mean levels of new blood biomarkers assessing biological resilience",
+      "started": "2024-10",
+      "readout": "2027-09",
+      "why_md": "This cohort aims to validate new blood biomarkers for biological resilience in symptomatic Alzheimer's patients, building on earlier foundational evidence distinguishing plasma biomarkers across the [disease continuum](/research/papers/plasma-gfap-benedet-2021).",
+      "status_log_md": [
+        "**2024-10** — Trial begins recruiting participants (registry)."
+      ],
+      "results_md": null
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Diagnostics",
+      "date": "2021-10",
+      "title": "2021-10 — Plasma GFAP validated as early Alzheimer's biomarker",
+      "body_md": "A pivotal multi-cohort study demonstrates that plasma GFAP significantly outperforms CSF GFAP in detecting early amyloid-β pathology, establishing momentum for accessible [blood-based diagnostics](/research/papers/plasma-gfap-benedet-2021)."
+    }
+  ],
+  "notes_for_editor": [
+    "The source document parse stripped the funding and conflicts of interest section, which typically contains significant industry disclosures for these authors. Fact-check updated to reflect this discrepancy based on clinical registry data."
+  ]
+}

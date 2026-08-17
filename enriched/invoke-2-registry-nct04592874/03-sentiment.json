@@ -1,0 +1,74 @@
+{
+  "overall": "negative",
+  "summary": "The public sentiment surrounding AL002 is distinctly negative among scientific and investor communities following the failure of the INVOKE-2 phase 2 trial. Retail investors have focused heavily on Alector's resulting stock plunge and subsequent workforce reductions, viewing the pipeline setback as a major blow to the company. Scientific and medical commentators express disappointment but are pivoting to debate whether the TREM2 hypothesis itself is flawed or if the mechanism was simply tested too late in the disease process. Caregiver forums and patient networks remain completely quiet about this specific agent, prioritizing discussions on approved anti-amyloid therapies like lecanemab. Ultimately, the lack of efficacy coupled with unexpected ARIA side effects has largely extinguished prior enthusiasm for the drug.",
+  "communities": [
+    {
+      "community": "r/Alzheimers and caregiver forums",
+      "sentiment": "quiet",
+      "themes": [
+        "Focus on approved therapies rather than pipeline failures",
+        "Lack of awareness of AL002 or the TREM2 mechanism"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Alzheimers/"
+      ]
+    },
+    {
+      "community": "Retail investors and biotech watchers",
+      "sentiment": "negative",
+      "themes": [
+        "Stock price collapse following trial results",
+        "Alector's 17% workforce layoffs",
+        "AbbVie partnership implications"
+      ],
+      "example_urls": [
+        "https://www.biospace.com/drug-development/alectors-abbvie-partnered-alzheimers-program-fails-phase-ii-triggering-a-17-layoff",
+        "https://www.stocktitan.net/news/ALEC/alector-announces-results-from-al002-invoke-2-phase-2-trial-in-wxpu1m2kq1sj.html"
+      ]
+    },
+    {
+      "community": "Science media and researchers",
+      "sentiment": "negative",
+      "themes": [
+        "Failure to slow cognitive and functional decline",
+        "Increased ARIA rates complicating the safety profile",
+        "Future viability of the TREM2 hypothesis"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/therapeutics/al002",
+        "https://www.neurologylive.com/view/al002-falls-short-phase-2-invoke-2-trial-early-alzheimer-disease"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "NeurologyLive",
+      "tone": "neutral",
+      "date": "2025-10",
+      "url": "https://www.neurologylive.com/view/al002-falls-short-phase-2-invoke-2-trial-early-alzheimer-disease"
+    },
+    {
+      "outlet": "BioSpace",
+      "tone": "critical",
+      "date": "2025-10",
+      "url": "https://www.biospace.com/drug-development/alectors-abbvie-partnered-alzheimers-program-fails-phase-ii-triggering-a-17-layoff"
+    },
+    {
+      "outlet": "Alzforum",
+      "tone": "neutral",
+      "date": null,
+      "url": "https://www.alzforum.org/therapeutics/al002"
+    }
+  ],
+  "hype_vs_evidence": "Before the trial readout, there was moderate optimism that targeting neuroinflammation via TREM2 could provide a safer alternative to direct anti-amyloid therapies. However, current public perception in scientific and investor circles now squarely aligns with the negative clinical evidence showing AL002 did not slow disease progression. Furthermore, the clinical evidence that AL002 significantly increased ARIA-E and ARIA-H rates directly contradicts earlier hopes that a microglial approach would inherently avoid the imaging abnormalities associated with plaque-clearing antibodies. Because patient communities never developed significant hype for AL002 prior to the readout, the divergence between hope and evidence is primarily limited to biotech investors and researchers.",
+  "misinformation_flags": [
+    "Some earlier investor speculation incorrectly assumed that targeting TREM2 would bypass the risk of ARIA completely, a claim definitively disproven by the trial's safety data showing elevated ARIA-E and ARIA-H."
+  ],
+  "searches_run": [
+    "AL002 alzheimer site:reddit.com",
+    "Alector AL002 alzheimer trial results",
+    "AL002 Alector stock phase 2",
+    "AL002 alzforum",
+    "AL002 caregiver alzheimer"
+  ]
+}

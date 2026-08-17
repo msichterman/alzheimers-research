@@ -59,14 +59,21 @@ errata), `citedByCount`, and `fullTextUrlList` (the OA PDF).
 Authoritative for status, phase, enrollment, sponsor, and dates. Registry beats paper beats press
 release, always. Single record: `https://clinicaltrials.gov/api/v2/studies/NCT05686044`.
 
-## Manual fallback
+**PubMed eUtils** — `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=…&retmode=json`.
+Useful when verifying PMID records or secondary indexing directly.
 
-Use `WebSearch` / `WebFetch` for what the two APIs do not index:
+**Altmetric** — `https://api.altmetric.com/v1/doi/…` or `https://api.altmetric.com/v1/pmid/…`.
+Provides attention scores, news outlet pickups, and social dissemination traces.
 
+## Manual fallback & Public Sentiment
+
+Use web search and direct fetches for what the primary APIs do not index:
+
+- **Public Sentiment & Patient Voices** — r/Alzheimers, r/dementia, ALZConnected forums, and caregiver discussions. Search via DuckDuckGo Lite (`https://html.duckduckgo.com/html/?q=site:reddit.com/r/Alzheimers+<drug>`).
+- **Investor & Trade Reaction** — FierceBiotech, STAT News, Seeking Alpha, SEC filings (8-K / 10-K) for unvarnished trial primary endpoint disclosures.
 - **Regulatory** — FDA approval letters, CRLs, AdComm briefing documents (`fda.gov`), EMA EPARs (`ema.europa.eu`).
-- **Sponsor filings** — SEC 8-K/10-K for trial outcomes disclosed to investors before publication.
-- **Expert reaction** — Alzforum news and comment threads.
-- **Locating a PDF** for a paper Europe PMC has as metadata only (publisher site, institutional repository).
+- **Expert reaction** — Alzforum news analysis and community commentaries (`alzforum.org`).
+- **Locating an OA PDF** for a paper Europe PMC has as metadata only (publisher repository, institutional green OA).
 
 Rules when doing this by hand:
 
@@ -75,3 +82,4 @@ Rules when doing this by hand:
 3. Landing pages and abstracts do not go into `sources/` — `parse` handles PDF/DOCX/EPUB and friends,
    not HTML. They stay citations.
 4. Anything found this way still passes through `references/source-tiers.md` before ingest.
+5. In `ego-browser nodejs <<'EOF'` heredocs, use `cliLog(...)` to print findings to console rather than relative `fs.writeFileSync()` calls. Always close opened task spaces (`completeTaskSpace(task.id, { keep: false })`).

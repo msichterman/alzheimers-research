@@ -1,0 +1,80 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT03688126",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03688126",
+      "name": "US POINTER",
+      "drug": "Structured Multidomain Lifestyle Intervention",
+      "phase": "n/a",
+      "sponsor": "Wake Forest University Health Sciences",
+      "status": "Completed",
+      "enrollment": 2000,
+      "population": "Older adults (60-79 years) at risk of cognitive decline with sedentary lifestyle and suboptimal diet",
+      "primary_endpoint": "Global cognitive function composite score slope over 2 years",
+      "started": "2019-01",
+      "completed_or_readout": "2025-05",
+      "results_summary": "The structured intervention group showed a statistically significant but clinically negligible greater annual increase in cognitive z-scores (0.029 SD/year difference) compared to the self-guided group, with both groups improving overall.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01041989",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01041989",
+      "name": "FINGER",
+      "drug": "Lifestyle counseling (multidomain)",
+      "phase": "n/a",
+      "sponsor": "Finnish Institute for Health and Welfare",
+      "status": "Unknown",
+      "enrollment": 1200,
+      "population": "Older adults aged 60-77 years with increased dementia risk",
+      "primary_endpoint": "Cognitive impairment assessed with a Neuropsychological Test Battery",
+      "started": "2009-09",
+      "completed_or_readout": "2013-12",
+      "results_summary": "A 2-year multidomain intervention improved or maintained cognitive functioning in at-risk elderly people from the general population compared to standard health counseling.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT00672685",
+      "registry_url": "https://clinicaltrials.gov/study/NCT00672685",
+      "name": "MAPT",
+      "drug": "Omega-3 fatty acids and multidomain intervention",
+      "phase": "n/a",
+      "sponsor": "University Hospital, Toulouse",
+      "status": "Completed",
+      "enrollment": 1680,
+      "population": "Frail elderly subjects 70 years and older",
+      "primary_endpoint": "Change in cognitive function at 36 months",
+      "started": "2008-05",
+      "completed_or_readout": "2014-04",
+      "results_summary": "Neither omega-3 supplementation nor a multidomain lifestyle intervention, alone or in combination, resulted in a significant improvement in cognitive decline over 3 years.",
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2025-08-26",
+      "kind": "paper",
+      "description": "JAMA publication of US POINTER primary results showing a marginal structured intervention benefit.",
+      "url": "https://doi.org/10.1001/jama.2025.12923"
+    },
+    {
+      "date": "2015-06-06",
+      "kind": "paper",
+      "description": "Lancet publication of the FINGER trial demonstrating modest cognitive protection from lifestyle intervention.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25771249"
+    },
+    {
+      "date": "2017-05-01",
+      "kind": "paper",
+      "description": "Lancet Neurology publication of the MAPT trial finding no significant cognitive benefit from omega-3 or multidomain intervention.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28359749"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence supporting structured multidomain lifestyle interventions for global cognitive benefit is mixed and heavily confounded by practice effects. While the US POINTER trial achieved its primary endpoint, the absolute difference between the structured and self-guided groups was clinically negligible (0.029 SD/year). Notably, both groups experienced an overall increase in cognitive test scores from baseline, indicating that the neuropsychological battery was highly subject to test-retest practice effects rather than capturing genuine, sustained cognitive enhancement. Taken together with earlier trials like MAPT (which showed no significant benefit) and FINGER (which showed modest protective effects), the claim that these interventions meaningfully alter the clinical trajectory of cognitive decline remains weakly supported in the absence of functional or robust biomarker corroboration.",
+  "discrepancies": [
+    "The document states the trial had 2,111 participants, whereas the ClinicalTrials.gov record lists an actual enrollment of 2,000.",
+    "The document describes the trial design as 'Single-blind', but the registry specifies 'Triple' masking (Care Provider, Investigator, Outcomes Assessor)."
+  ]
+}

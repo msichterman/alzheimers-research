@@ -1,0 +1,79 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT03887455",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03887455",
+      "name": "CLARITY-AD / Study 301",
+      "drug": "Lecanemab (anti-Aβ protofibril antibody)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "status": "Active, not recruiting",
+      "enrollment": 1906,
+      "population": "Participants with early Alzheimer's disease (MCI or mild dementia) with confirmed amyloid pathology",
+      "primary_endpoint": "Change from Baseline in the Clinical Dementia Rating-Sum of Boxes (CDR-SB) at 18 Months",
+      "started": "2019-03",
+      "completed_or_readout": "2029-06",
+      "results_summary": "Lecanemab treatment significantly reduced clinical decline by 27% on the CDR-SB compared to placebo at 18 months, with accompanying reductions in brain amyloid burden. These findings formed the direct basis for the FDA's traditional approval.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01767311",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01767311",
+      "name": "Study 201",
+      "drug": "Lecanemab (anti-Aβ protofibril antibody)",
+      "phase": "2",
+      "sponsor": "Eisai Inc.",
+      "status": "Completed",
+      "enrollment": 856,
+      "population": "Subjects with early Alzheimer's disease",
+      "primary_endpoint": "Change From Baseline in Alzheimer's Disease Composite Score (ADCOMS) at Month 12",
+      "started": "2012-12",
+      "completed_or_readout": "2024-12",
+      "results_summary": "This Phase 2b proof-of-concept trial missed its primary 12-month endpoint but demonstrated dose-dependent amyloid clearance and potential clinical benefit on multiple cognitive scales at 18 months.",
+      "relation_to_document": "prior-phase",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04468659",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04468659",
+      "name": "AHEAD 3-45",
+      "drug": "Lecanemab (anti-Aβ protofibril antibody)",
+      "phase": "3",
+      "sponsor": "Eisai Inc.",
+      "status": "Active, not recruiting",
+      "enrollment": 1400,
+      "population": "Preclinical Alzheimer's Disease with elevated or intermediate amyloid",
+      "primary_endpoint": "Change From Baseline in Preclinical Alzheimer Cognitive Composite 5 (PACC5) Score at Week 216",
+      "started": "2020-07",
+      "completed_or_readout": "2028-12",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2023-01",
+      "kind": "paper",
+      "description": "Publication of the Phase 3 CLARITY-AD primary 18-month clinical outcomes (van Dyck et al., N Engl J Med).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36449413/"
+    },
+    {
+      "date": "2021-04",
+      "kind": "paper",
+      "description": "Publication of the Phase 2b proof-of-concept trial results for lecanemab (Swanson et al., Alzheimers Res Ther).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33865446/"
+    },
+    {
+      "date": "2025-12",
+      "kind": "paper",
+      "description": "Publication of long-term safety and efficacy outcomes from the CLARITY-AD open-label extension study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41355080/"
+    }
+  ],
+  "evidence_assessment": "The clinical evidence supporting lecanemab's efficacy is robust, anchored by the pivotal Phase 3 CLARITY-AD trial (NCT03887455). The study successfully met its primary clinical endpoint (CDR-SB) and key secondary biomarker endpoints, independently confirming the preliminary signals observed in the Phase 2 Study 201 (NCT01767311). The reduction in amyloid plaque burden directly corresponds to a statistically significant, albeit modest, slowing of cognitive decline over an 18-month period. However, the evidence record clearly delineates serious safety risks (ARIA-E and intracerebral hemorrhages), which are heavily concentrated in ApoE ε4 homozygotes and patients receiving concurrent anticoagulants. The overall evidence base firmly justifies the FDA's decision to grant traditional approval while appropriately instituting a Boxed Warning to manage life-threatening ARIA risks in vulnerable subpopulations.",
+  "discrepancies": [
+    "The FDA document reports the Study 301 (CLARITY-AD) enrollment as 1,795 participants (which refers to the final randomized cohort), whereas ClinicalTrials.gov reports the actual enrollment count as 1,906 participants."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "kind": "other",
+  "title": "A Clinical Trial of Trontinemab in Participants With Early Symptomatic Alzheimer's Disease",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2025-09",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "tau",
+    "immunotherapy",
+    "biomarkers",
+    "trontinemab",
+    "phase-3"
+  ],
+  "themes": [
+    "Monoclonal antibodies",
+    "Early symptomatic Alzheimer's disease",
+    "Phase 3 clinical trials",
+    "Fluid biomarkers",
+    "Amyloid clearance"
+  ],
+  "one_line": "This is a ClinicalTrials.gov registry entry for NCT07170150, a Phase 3 study evaluating the efficacy and safety of the anti-amyloid immunotherapy trontinemab in 800 patients with early symptomatic Alzheimer's disease.",
+  "summary": "This document is a clinical trial registry record from ClinicalTrials.gov detailing a Phase 3, multicenter, randomized, double-blind, placebo-controlled study of trontinemab (NCT07170150). Sponsored by Hoffmann-La Roche, the trial aims to enroll approximately 800 participants aged 50 to 90 with mild cognitive impairment or mild dementia due to Alzheimer's disease. Participants must have confirmed amyloid pathology via PET or CSF fluid biomarkers and baseline MMSE scores of 22 or higher. The primary outcome measure is the change in the Clinical Dementia Rating-Sum of Boxes (CDR-SB) score from baseline to Week 72. Secondary measures include various cognitive scales (ADAS-Cog-13, iADRS, MMSE), safety assessments such as ARIA incidence, and changes in PET and fluid biomarkers for amyloid and tau. The trial is listed as currently recruiting, with a primary completion date estimated for June 2028.",
+  "key_claims": [],
+  "methods": {
+    "design": "Phase III, Multicenter, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group",
+    "n": 800,
+    "population": "Adults aged 50 to 90 years with early symptomatic Alzheimer's disease (MCI to mild dementia) and confirmed amyloid pathology.",
+    "duration": "72 weeks",
+    "registration": "NCT07170150"
+  },
+  "funding_and_conflicts": "Lead sponsor: Hoffmann-La Roche. No author conflicts of interest are provided in this registry record.",
+  "limitations": [
+    "This is a registry protocol record, not a peer-reviewed publication reporting study results."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 10,
+    "issues": []
+  },
+  "search_verification": []
+}

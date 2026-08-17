@@ -1,0 +1,32 @@
+{
+  "id": "app-a673t-mechanism",
+  "cluster": "genetics",
+  "checked_at": "2026-08-13T17:02:32.996Z",
+  "passed": false,
+  "text_sufficiency": {
+    "level": "abstract-only",
+    "chars": 3092,
+    "sections": []
+  },
+  "evidence_completeness": "full-text-oa",
+  "failures": [
+    {
+      "gate": "file",
+      "detail": "extracted text is abstract-only (3092 chars, sections: none) — not sufficient for an evidence record"
+    },
+    {
+      "gate": "evidence",
+      "detail": "no evidence record extracted (enriched/<id>/05-evidence.json missing)"
+    },
+    {
+      "gate": "fidelity",
+      "detail": "no independent critic pass (enriched/<id>/07-fidelity.json missing)"
+    },
+    {
+      "gate": "critical-review",
+      "detail": "no record to review"
+    }
+  ],
+  "warnings": [],
+  "manifest_discrepancies": []
+}

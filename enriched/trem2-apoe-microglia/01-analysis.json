@@ -1,0 +1,392 @@
+{
+  "kind": "research-paper",
+  "title": "The TREM2-APOE pathway drives the transcriptional phenotype of dysfunctional microglia in neurodegenerative diseases",
+  "authors": [
+    {
+      "name": "Krasemann, Susanne",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Madore, Charlotte",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Cialic, Ron",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Baufeld, Caroline",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Calcagno, Narghes",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "El Fatimy, Rachid",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Beckers, Lien",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "O’Loughlin, Elaine",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Xu, Yang",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Fanek, Zain",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Greco, David J.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Smith, Scott T.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Tweet, George",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Humulock, Zachary",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Zrzavy, Tobias",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Conde-Sanroman, Patricia",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Gacias, Mar",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Weng, Zhiping",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Chen, Hao",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Tjon, Emily",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Mazaheri, Fargol",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Hartmann, Kristin",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Madi, Asaf",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Ulrich, Jason",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Glatzel, Markus",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Worthmann, Anna",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Heeren, Joerg",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Budnik, Bogdan",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Lemere, Cynthia",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Ikezu, Tsuneya",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Heppner, Frank L.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Litvak, Vladimir",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Holtzman, David M.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Lassmann, Hans",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Weiner, Howard L.",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Ochando, Jordi",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "none"
+    },
+    {
+      "name": "Haass, Christian",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": false,
+      "conflicts": "Roche advisor and collaborator"
+    },
+    {
+      "name": "Butovsky, Oleg",
+      "affiliation": null,
+      "orcid": null,
+      "email": "obutovsky@rics.bwh.harvard.edu",
+      "corresponding": true,
+      "conflicts": "none"
+    }
+  ],
+  "first_author": "Krasemann, Susanne",
+  "venue": "Immunity",
+  "published": "2017",
+  "doi": "10.1016/j.immuni.2017.08.008",
+  "doi_url": "https://doi.org/10.1016/j.immuni.2017.08.008",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/28930663",
+  "copyright": "all legal disclaimers that apply to the journal pertain",
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": "This file is available for text mining. It may also be used consistent with the principles of fair use under the copyright law."
+  },
+  "tags": [
+    "paper",
+    "amyloid",
+    "inflammation",
+    "genetics",
+    "apoe",
+    "trem2",
+    "microglia"
+  ],
+  "themes": [
+    "Microglia phenotype switch",
+    "TREM2-APOE pathway",
+    "Phagocytosis of apoptotic neurons",
+    "Loss of tolerogenic function",
+    "Neurodegeneration and neuroinflammation"
+  ],
+  "one_line": "The TREM2-APOE pathway drives a phenotypic switch in microglia from a homeostatic to a neurodegenerative state following the phagocytosis of apoptotic neurons.",
+  "summary": "This study identifies a specific APOE-dependent molecular signature in microglia across models of ALS, MS, and AD, as well as in human AD brains. Phagocytosis of apoptotic neurons triggers a switch from a homeostatic state to a neurodegenerative phenotype (MGnD) characterized by the suppression of TGF-beta signaling. This phenotypic shift is mediated by TREM2, which induces APOE signaling. Genetic targeting of the TREM2-APOE pathway restored the homeostatic microglial signature and prevented neuronal loss in acute neurodegeneration models. Furthermore, the APOE-mediated MGnD phenotype was linked to the loss of microglial tolerogenic function, suggesting this pathway as a therapeutic target for restoring homeostatic microglia.",
+  "key_claims": [
+    {
+      "claim": "The TREM2-APOE pathway mediates a switch from homeostatic to neurodegenerative microglia.",
+      "evidence": "Genetic deletion of Trem2 or Apoe in AD and ALS models restored homeostatic genes (e.g., P2ry12, Tmem119) and suppressed inflammatory molecules.",
+      "strength": "strong",
+      "location": "Results: Genetic targeting of Trem2 suppresses the APOE pathway and restores the homeostatic microglia in APP-PS1 and SOD1 mice"
+    },
+    {
+      "claim": "MGnD microglia are associated with neuritic Aβ-plaques.",
+      "evidence": "Clec7a+P2ry12- microglia were found in close proximity to neuritic Aβ-plaques and dystrophic neurites in APP-PS1 mice and human AD tissue.",
+      "strength": "strong",
+      "location": "Results: The MGnD-microglia subset is associated with neuritic Aβ-plaques and diffuse neuritic dystrophy in the AD cortex"
+    },
+    {
+      "claim": "Phagocytosis of apoptotic neurons suppresses homeostatic microglia and induces the MGnD phenotype.",
+      "evidence": "Injection of apoptotic neurons into naive mice brain induced Apoe expression and changed microglia morphology, whereas live neurons or PBS did not.",
+      "strength": "moderate",
+      "location": "Results: Phagocytosis of apoptotic neurons suppresses homeostatic microglia"
+    },
+    {
+      "claim": "APOE activation suppresses microglial tolerogenic function.",
+      "evidence": "Ex vivo assays showed that WT microglia at peak EAE fail to suppress T cell proliferation, whereas Apoe-/- microglia maintain this ability, which is abrogated by adding recombinant Apoe.",
+      "strength": "moderate",
+      "location": "Results: Activation of the APOE pathway suppresses the tolerogenic function of microglia"
+    }
+  ],
+  "methods": {
+    "design": "In vivo and in vitro animal models alongside post-mortem human brain tissue analysis",
+    "n": null,
+    "population": "Mouse models (SOD1 G93A, APP-PS1, EAE, Apoe-/-, Trem2-/-) and post-mortem human AD and control cortex samples",
+    "duration": null,
+    "registration": null
+  },
+  "funding_and_conflicts": "Funded by NIH-NINDS, NIH-NIA, National Multiple Sclerosis Society, Amyotrophic Lateral Sclerosis Association, and others. Conflict declared by Christian Haass (Roche advisor and collaborator); all other authors declare no conflict of interests.",
+  "limitations": [
+    "Human neuronal apoptosis is a rare event compared to focal apoptosis (synaptosis/necroptosis), which may limit the direct translational relevance of the apoptotic neuron injection model.",
+    "The data distribution for statistical analysis was explicitly assumed to be normal without formal testing, which could impact the validity of the statistical significance."
+  ],
+  "red_flags": [
+    "Authors state 'Data distribution was assumed to be normal, but this was not formally tested', undermining the rigor of the parametric statistical tests used."
+  ],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "Missing table formatting in the KEY RESOURCES TABLE section",
+      "Minor concatenated text and formatting artifacts resulting from PDF to Markdown conversion"
+    ]
+  },
+  "search_verification": [
+    "DOI 10.1016/j.immuni.2017.08.008 and PMID 28930663 found explicitly in document text; trusted per instructions without external tool call."
+  ]
+}

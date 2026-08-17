@@ -1,0 +1,84 @@
+{
+  "fact_check": [
+    {
+      "fact": "iADRS difference of 2.92 points and CDR-SB difference of -0.70 points",
+      "status": "verified",
+      "note": "Checked against FDA label Section 14 text and Table 8."
+    },
+    {
+      "fact": "36% incidence of ARIA overall, rising to 55% in ApoE ε4 homozygotes",
+      "status": "verified",
+      "note": "Checked against FDA label Section 5.1."
+    },
+    {
+      "fact": "Amyloid PET values increased at 2.80 Centiloids/year off-treatment",
+      "status": "verified",
+      "note": "Checked against FDA label Section 12.2."
+    }
+  ],
+  "research_page": {
+    "slug": "kisunla-fda-label",
+    "title": "FDA Prescribing Information: Kisunla (donanemab)",
+    "description": "FDA prescribing information for Kisunla (donanemab), detailing efficacy, finite dosing guidelines, and boxed warnings for amyloid-related imaging abnormalities.",
+    "tags": [
+      "fda-label",
+      "donanemab",
+      "amyloid",
+      "immunotherapy"
+    ],
+    "source_line_md": "**Source**: [FDA/Eli Lilly, 2024](https://www.accessdata.fda.gov/)",
+    "authors_line_md": "Eli Lilly and Company",
+    "takeaway_md": "Kisunla (donanemab) is FDA-approved for early symptomatic Alzheimer's disease, showing a statistically significant slowing of clinical decline over 76 weeks. It introduces a finite dosing model where infusions stop once plaques clear, but it carries a severe boxed warning for ARIA, which is especially risky for ApoE ε4 homozygotes.",
+    "key_findings_md": [
+      "Donanemab significantly slowed decline on the iADRS by 2.92 points and CDR-SB by 0.70 points (29%) over 76 weeks compared to placebo (FDA label, Section 14).",
+      "Brain amyloid plaque was robustly cleared, showing a -86.4 Centiloid difference versus placebo at week 76 (FDA label, Table 7).",
+      "Amyloid-Related Imaging Abnormalities (ARIA) occurred in 36% of treated patients versus 14% on placebo (FDA label, Section 5.1).",
+      "ApoE ε4 homozygotes face the highest risk of ARIA at 55%, compared to 36% for heterozygotes and 25% for noncarriers (FDA label, Section 5.1)."
+    ],
+    "methods_md": "The prescribing information relies heavily on Study 1 (TRAILBLAZER-ALZ 2, [NCT04437511](/trials/trailblazer-alz-2)), a 76-week double-blind, placebo-controlled Phase 3 trial enrolling 1,736 patients with early Alzheimer's disease and confirmed amyloid pathology.",
+    "trial_evidence_md": "The FDA approval is rooted in the pivotal Phase 3 [TRAILBLAZER-ALZ 2](/trials/trailblazer-alz-2) trial, which successfully replicated efficacy signals from the Phase 2 TRAILBLAZER-ALZ study. A minor reporting discrepancy flagged by the analyst regarding 72 weeks of dosing versus a 76-week endpoint accurately reflects the trial's formal protocol, which included a 4-week observation period before the final primary assessment.",
+    "sentiment_md": "Public perception is sharply divided. Retail investors and mainstream media enthusiastically highlight the finite dosing model and top-line efficacy percentages. In contrast, caregiver and neurology communities express skepticism, questioning whether a 0.70-point absolute CDR-SB improvement justifies the intense [logistical burdens and ARIA risks](https://www.reddit.com/r/medicine/comments/what_do_you_think_about_donanemab/).",
+    "caveats_md": [
+      "The highly promoted finite dosing model is not a permanent fix; plaque accumulation definitively resumes once infusions stop.",
+      "While the relative 29% slowing of decline dominates headlines, patients still experience progressive, absolute cognitive loss during the treatment period.",
+      "Safety monitoring is extremely burdensome, requiring at least five MRI scans in the first year to monitor for potentially fatal brain hemorrhages."
+    ],
+    "relates_to_md": [
+      "[TRAILBLAZER-ALZ 3](/trials/trailblazer-alz-3) — Ongoing Phase 3 prevention trial testing donanemab in preclinical AD.",
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — The theoretical basis for amyloid-targeting monoclonal antibodies like donanemab."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "trailblazer-alz-2",
+      "title": "TRAILBLAZER-ALZ 2",
+      "description": "Pivotal Phase 3 trial of donanemab in participants with early symptomatic Alzheimer's disease.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "donanemab",
+        "phase-3",
+        "amyloid"
+      ],
+      "registry_md": "[NCT04437511](https://clinicaltrials.gov/study/NCT04437511)",
+      "drug": "Donanemab (LY3002813)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "population": "Participants with Early Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline on the Integrated Alzheimer's Disease Rating Scale (iADRS)",
+      "started": "2020-06",
+      "readout": "2023-04",
+      "why_md": "Evaluates the clinical efficacy and safety of donanemab to clear amyloid plaques in early symptomatic Alzheimer's disease. It tests a finite dosing model where treatment stops once plaques are sufficiently reduced on PET imaging.",
+      "status_log_md": [
+        "**2020-06-01** — Trial begins enrollment.",
+        "**2023-04-01** — Topline results reported.",
+        "**2024-07-02** — FDA approves donanemab (Kisunla) based on trial data."
+      ],
+      "results_md": "Donanemab significantly slowed clinical progression at 76 weeks compared to placebo, showing a 2.92-point improvement on the iADRS score and a 0.70-point improvement on CDR-SB. It robustly cleared brain amyloid plaque, though 36% of treated patients experienced ARIA."
+    }
+  ],
+  "timeline_entries": [],
+  "notes_for_editor": [
+    "No new timeline entries were created because the approval of donanemab (Kisunla) in 2024-07 already exists in the timeline."
+  ]
+}

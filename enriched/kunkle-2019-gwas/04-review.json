@@ -1,0 +1,68 @@
+{
+  "fact_check": [
+    {
+      "fact": "Meta-analysis included 94,437 individuals (35,274 clinical/autopsy-documented Alzheimer’s disease cases and 59,163 controls)",
+      "status": "verified",
+      "note": "Checked against source document Abstract and Results (Meta-analysis of Alzheimer’s disease GWAS)."
+    },
+    {
+      "fact": "Five new genome-wide loci identified: IQCK, ACE, ADAM10, ADAMTS1, and WWOX",
+      "status": "verified",
+      "note": "Checked against source document Abstract and Results."
+    },
+    {
+      "fact": "HLA-DR15 haplotype identified as a risk factor",
+      "status": "verified",
+      "note": "Checked against source document Abstract and Results (Fine-mapping of the HLA region)."
+    },
+    {
+      "fact": "Phase 2 trial of acitretin (NCT01078168) demonstrated target engagement by increasing CSF APPs-α",
+      "status": "verified",
+      "note": "Checked against clinical-trials researcher output and related evidence."
+    }
+  ],
+  "research_page": {
+    "slug": "gwas-meta-analysis-kunkle-2019",
+    "title": "GWAS meta-analysis identifies five new LOAD risk loci (Kunkle et al., 2019)",
+    "description": "A large-scale genetic meta-analysis of 94,437 individuals identifies five novel risk loci for late-onset Alzheimer's disease and implicates tau, immunity, and lipid processing.",
+    "tags": [
+      "paper",
+      "genetics",
+      "GWAS",
+      "amyloid",
+      "tau",
+      "inflammation"
+    ],
+    "source_line_md": "**Source**: [Nature Genetics, 2019](https://doi.org/10.1038/s41588-019-0358-2) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/30820047)",
+    "authors_line_md": "Kunkle et al.",
+    "takeaway_md": "This large-scale genome-wide association meta-analysis of 94,437 individuals confirmed 20 known risk loci and identified five new ones (*IQCK*, *ACE*, *ADAM10*, *ADAMTS1*, and *WWOX*). The genetic evidence strongly implicates lipid metabolism, tau binding, immunity, and amyloid processing in late-onset Alzheimer's pathogenesis, highlighting the complexity of the disease beyond amyloid alone.",
+    "key_findings_md": [
+      "Identified five new genome-wide significant risk loci: *IQCK*, *ACE*, *ADAM10*, *ADAMTS1*, and *WWOX* ([paper, Abstract](https://doi.org/10.1038/s41588-019-0358-2)).",
+      "Fine-mapping confirmed the *HLA-DR15* haplotype as a significant risk factor for late-onset Alzheimer's disease ([paper, Results](https://doi.org/10.1038/s41588-019-0358-2)).",
+      "Pathway analyses demonstrated significant genetic involvement of the immune response, lipid metabolism, and tau binding proteins, alongside amyloid precursor protein (APP) processing ([paper, Results](https://doi.org/10.1038/s41588-019-0358-2))."
+    ],
+    "methods_md": "Genome-wide association meta-analysis of 94,437 individuals of European ancestry, comprising 35,274 clinically diagnosed or autopsy-documented late-onset Alzheimer's disease cases and 59,163 controls.",
+    "trial_evidence_md": "This GWAS provides genetic validation for targets actively explored in clinical trials, though definitive large-scale efficacy data proving disease modification via these pathways remains in development. For example, a completed Phase 2 trial of acitretin ([NCT01078168](https://clinicaltrials.gov/study/NCT01078168)) successfully engaged the *ADAM10* (alpha-secretase) pathway by increasing CSF APPs-α levels. Additionally, vascular risk reduction trials like rrAD ([NCT02913664](https://clinicaltrials.gov/study/NCT02913664)) and IPAT ([NCT05331144](https://clinicaltrials.gov/study/NCT05331144)) evaluate interventions targeting the *ACE* locus via angiotensin pathway blockade.",
+    "sentiment_md": "Public perception of these genetic discoveries is sharply divided by audience. Science enthusiasts and researchers express optimism about the validation of non-amyloid pathways like lipid processing and immunity. However, the biotech community remains skeptical, noting the recent clinical failures of drugs targeting these alternative mechanisms, particularly anti-tau therapies. Meanwhile, among patients and caregivers, news of 'new Alzheimer's genes' frequently triggers existential anxiety and misunderstanding about the deterministic nature of genetic risk, rather than providing immediate hope for treatments.",
+    "caveats_md": [
+      "The study population was restricted to individuals of European ancestry, limiting the generalizability of these genetic risk factors to other global populations.",
+      "While the study nominates specific genes at each locus, many genome-wide association loci are intergenic; identifying the exact causal gene or regulatory mechanism requires further functional validation.",
+      "The imputation methods used may have missed rare causal variants that contribute meaningfully to disease risk."
+    ],
+    "relates_to_md": [
+      "[Biomarkers](/research/biomarkers) — Identifies genetic markers and loci underlying Alzheimer's disease risk.",
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Provides genetic evidence linking APP and amyloid processing pathways to late-onset disease, broadening its relevance beyond early-onset populations.",
+      "[Understanding the Amyloid Hypothesis](/journey/amyloid-hypothesis-consumer) — Frames how modern genetics support both amyloid and alternative neurodegenerative pathways."
+    ]
+  },
+  "trial_pages": [],
+  "timeline_entries": [
+    {
+      "section": "Genetics & Biomarkers",
+      "date": "2019-03",
+      "title": "2019-03 — Kunkle et al. GWAS meta-analysis published",
+      "body_md": "A meta-analysis of over 94,000 individuals identifies five novel genetic risk loci for late-onset Alzheimer's disease and genetically links the disease to immune, lipid processing, and tau pathways. ([Kunkle et al.](/research/papers/gwas-meta-analysis-kunkle-2019))"
+    }
+  ],
+  "notes_for_editor": []
+}

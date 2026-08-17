@@ -1,0 +1,124 @@
+{
+  "fact_check": [
+    {
+      "fact": "Donanemab showed a 2.65-point LS mean change difference in iADRS (19.6% slowing) and a -0.69 difference in CDR-SB (28.5% slowing) vs placebo in the APOE4 non-carrier/heterozygote population at 76 weeks.",
+      "status": "verified",
+      "note": "Verified against Table 45 of the CHMP assessment report, which reflects the hybrid J2R/CIR imputation approach adopted during the re-examination procedure."
+    },
+    {
+      "fact": "ARIA-E occurred in 15.7% of treated patients, ARIA-H in 18.8%, and symptomatic ARIA in 4.3%, with 7 treatment-related deaths reported across the clinical program.",
+      "status": "verified",
+      "note": "Verified against Tables 28, 48, and 62. Seven treatment-related deaths occurred across the program (six in APOE4 heterozygotes, one in a non-carrier)."
+    },
+    {
+      "fact": "The AACI-PC study efficacy outcomes are specifically for the 'APOE4 non-carrier/heterozygote population', differing from the initial trial's tau-based stratifications.",
+      "status": "verified",
+      "note": "The EMA CHMP restricted the indication to APOE4 heterozygotes and non-carriers post-hoc during the re-examination procedure to establish a positive benefit-risk profile by excluding high-risk homozygotes."
+    },
+    {
+      "fact": "The primary endpoint was changed from CDR-SB to iADRS while the pivotal Phase 3 study was already ongoing.",
+      "status": "verified",
+      "note": "Verified against Table 8 (Protocol Amendments). Protocol amendment (b) changed the primary analysis from CDR-SB to iADRS and adapted it from Phase 2 to Phase 3."
+    }
+  ],
+  "research_page": {
+    "slug": "donanemab-ema-assessment-2025",
+    "title": "EMA CHMP Assessment Report: Kisunla (donanemab)",
+    "description": "The European Medicines Agency's final 2025 assessment recommending approval of donanemab for early Alzheimer's disease, restricted to APOE4 heterozygotes and non-carriers to mitigate ARIA risks.",
+    "tags": [
+      "regulatory-epar",
+      "donanemab",
+      "immunotherapy",
+      "amyloid"
+    ],
+    "source_line_md": "**Source**: [European Medicines Agency, 2025](https://www.ema.europa.eu) — Procedure No. EMEA/H/C/006024/0000",
+    "authors_line_md": "Peter Mol et al. — Committee for Medicinal Products for Human Use (CHMP)",
+    "takeaway_md": "Following an initial rejection in March 2025, the EMA approved donanemab by restricting its use to APOE4 heterozygotes and non-carriers. This subgroup analysis demonstrated a 19.6% to 28.5% slowing of clinical decline over 76 weeks, while halving the incidence of severe amyloid-related imaging abnormalities (ARIA) compared to homozygotes. Treatment requires mandatory APOE4 testing and strict MRI monitoring.",
+    "key_findings_md": [
+      "In APOE4 heterozygotes and non-carriers, donanemab slowed decline by 19.6% on the iADRS (2.65 points) and 28.5% on the CDR-SB (-0.69 points) versus placebo at 76 weeks using conservative missing-data imputation (Table 45).",
+      "ARIA-E occurred in 15.7% of the restricted population versus 24.0% in the overall trial population, while ARIA-H occurred in 18.8% versus 31.4% (Table 28).",
+      "A modified dose-titration regimen further reduced ARIA-E incidence to 14.7% in the restricted population and was adopted as an additional risk minimization measure (Table 59).",
+      "Seven treatment-related deaths occurred across the clinical program, six of which were in APOE4 heterozygotes and one in a non-carrier, primarily due to ARIA or macrohemorrhages exacerbated by thrombolytics (Table 62).",
+      "Treatment is limited to a maximum of 18 months, or until amyloid plaque clearance is confirmed via a validated method (Section 3.1.1)."
+    ],
+    "methods_md": "This regulatory assessment evaluates data from the pivotal Phase 3 [TRAILBLAZER-ALZ 2 (AACI)](/trials/trailblazer-alz-2-aaci) trial (n=1,736), the Phase 2 [TRAILBLAZER-ALZ (AACG)](/trials/trailblazer-alz-aacg) study, and the Phase 3b [TRAILBLAZER-ALZ 6 (AACQ)](/trials/trailblazer-alz-6-aacq) modified-titration study. Efficacy and safety conclusions rely on a post-hoc restricted subgroup of APOE4 heterozygotes and non-carriers (n=1,447 across datasets).",
+    "trial_evidence_md": "This document provides the definitive regulatory review of [TRAILBLAZER-ALZ 2 (AACI)](/trials/trailblazer-alz-2-aaci), establishing its European approval basis. Notably, the EMA based its approval on a post-hoc genetic subgroup (APOE4 non-carriers and heterozygotes) and required conservative statistical imputation for safety-related dropouts, contrasting with the primary trial publications that stratified efficacy by tau levels.",
+    "sentiment_md": "Public response to the EMA's reversal is sharply divided. Investors view the approval as a significant commercial milestone, while the scientific community debates the clinical meaningfulness of the absolute point differences and the severe safety trade-offs. Patient communities express frustration over the strict APOE4 exclusions, which deny access to those at highest genetic risk.",
+    "caveats_md": [
+      "The approved efficacy estimates rely on post-hoc subgroup analyses (APOE4 heterozygotes and non-carriers) rather than the trial's prospectively defined tau-based populations.",
+      "Absolute clinical benefits are modest (e.g., 0.69 points on the 18-point CDR-SB scale over 18 months), making individual patient benefit difficult to ascertain.",
+      "Long-term outcomes after the mandatory 18-month treatment cessation remain uncertain, and accelerated brain volume loss observed in treated patients lacks a definitive mechanistic explanation.",
+      "Fatalities from ARIA and macrohemorrhages still occurred in the restricted population, particularly when complicated by comorbid hypertension or concomitant thrombolytic therapy for ischemic stroke."
+    ],
+    "relates_to_md": [
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Evaluates the clinical impact of profound amyloid plaque clearance.",
+      "[Biomarkers](/research/biomarkers) — Details the use of amyloid PET for stopping criteria and APOE4 testing for eligibility.",
+      "[Aducanumab EMERGE and ENGAGE](/research/papers/aria-aducanumab-emerge-engage) — Contextualizes the class-wide risks of ARIA and the regulatory scrutiny of anti-amyloid therapies."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "trailblazer-alz-2-aaci",
+      "title": "TRAILBLAZER-ALZ 2 (AACI)",
+      "description": "Pivotal Phase 3 trial of donanemab in early symptomatic Alzheimer's disease with amyloid and tau pathology.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "phase-3",
+        "donanemab"
+      ],
+      "registry_md": "[NCT04437511](https://clinicaltrials.gov/study/NCT04437511)",
+      "drug": "Donanemab (anti-N3pG amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "population": "Early symptomatic Alzheimer's disease with confirmed amyloid and tau pathology",
+      "primary_endpoint": "Change from baseline on the iADRS at 76 weeks",
+      "started": "2020-06",
+      "readout": "2023-04",
+      "why_md": "This pivotal trial established the efficacy of donanemab in slowing clinical decline in early Alzheimer's disease by profoundly clearing amyloid plaques. It also characterized the substantial risks of [ARIA](/research/amyloid-hypothesis), leading to genotype-restricted regulatory approvals in Europe.",
+      "status_log_md": [
+        "**2020-06-01** — Trial begins.",
+        "**2023-04-01** — Primary double-blind placebo-controlled phase completed.",
+        "**2023-08-08** — Primary results published in JAMA.",
+        "**2025-07-24** — [EMA CHMP recommends approval](/research/papers/donanemab-ema-assessment-2025) based on post-hoc APOE4 subgroup analyses."
+      ],
+      "results_md": "Donanemab significantly slowed clinical progression at 76 weeks. In the overall population, it slowed iADRS decline by roughly 20% and CDR-SB by 26-29%. However, it caused high rates of ARIA and several fatalities, leading European regulators to restrict its use exclusively to APOE4 heterozygotes and non-carriers."
+    },
+    {
+      "slug": "trailblazer-alz-6-aacq",
+      "title": "TRAILBLAZER-ALZ 6 (AACQ)",
+      "description": "Phase 3b trial evaluating modified donanemab dose-titration regimens to reduce ARIA.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "phase-3b",
+        "donanemab",
+        "aria"
+      ],
+      "registry_md": "[NCT05738486](https://clinicaltrials.gov/study/NCT05738486)",
+      "drug": "Donanemab (anti-N3pG amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "population": "Adults with early symptomatic Alzheimer's disease",
+      "primary_endpoint": "Percentage of participants with ARIA-E at 24 weeks",
+      "started": "2023-02",
+      "readout": "2024-05",
+      "why_md": "Designed to address the high rates of ARIA seen in earlier trials, this study tests whether a slower, modified dose-titration regimen can improve donanemab's safety profile without compromising amyloid clearance.",
+      "status_log_md": [
+        "**2023-02-01** — Trial begins.",
+        "**2024-05-01** — Primary endpoint data collection completed.",
+        "**2025-07-24** — [EMA CHMP incorporates 52-week data](/research/papers/donanemab-ema-assessment-2025) into its benefit-risk assessment for European approval."
+      ],
+      "results_md": "A modified titration regimen (350 mg, then 700 mg, then 1,050 mg) reduced the relative risk of ARIA-E by 28% compared to standard dosing at 52 weeks in the restricted population, while achieving comparable amyloid plaque clearance. This regimen was subsequently adopted by European regulators as a required risk minimization measure."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2025-07",
+      "title": "2025-07 — EMA CHMP recommends Kisunla (donanemab) approval for APOE4 non-homozygotes",
+      "body_md": "Following an initial rejection, the [EMA CHMP recommended approval](/research/papers/donanemab-ema-assessment-2025) for donanemab, notably restricting the indication exclusively to APOE4 heterozygotes and non-carriers to manage severe ARIA risks."
+    }
+  ],
+  "notes_for_editor": []
+}

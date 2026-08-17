@@ -1,0 +1,317 @@
+{
+  "kind": "research-paper",
+  "title": "Differences Between Plasma and Cerebrospinal Fluid Glial Fibrillary Acidic Protein Levels Across the Alzheimer Disease Continuum",
+  "authors": [
+    {
+      "name": "Andréa L. Benedet",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Marta Milà-Alomà",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Agathe Vrillon",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Nicholas J. Ashton",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Tharick A. Pascoal",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Firoza Lussier",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Thomas K. Karikari",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Claire Hourregue",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Emmanuel Cognat",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Julien Dumurgier",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Jenna Stevenson",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Nesrine Rahmouni",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Vanessa Pallen",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Nina M. Poltronetti",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Gemma Salvadó",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Mahnaz Shekari",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Gregory Operto",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Juan Domingo Gispert",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Carolina Minguillon",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Karine Fauria",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Gwendlyn Kollmorgen",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Ivonne Suridjan",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Eduardo R. Zimmer",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Henrik Zetterberg",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "José Luis Molinuevo",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Claire Paquet",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Pedro Rosa-Neto",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Kaj Blennow",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    },
+    {
+      "name": "Marc Suárez-Calvet",
+      "affiliation": null,
+      "orcid": null,
+      "email": null,
+      "corresponding": null,
+      "conflicts": null
+    }
+  ],
+  "first_author": "Andréa L. Benedet",
+  "venue": "JAMA Neurology",
+  "published": "2021",
+  "doi": "10.1001/jamaneurol.2021.3671",
+  "doi_url": "https://doi.org/10.1001/jamaneurol.2021.3671",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/34661615/",
+  "copyright": null,
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "reuse": "redistribute",
+    "evidence": "This is an open access article distributed under the terms of the CC-BY License."
+  },
+  "tags": [
+    "paper",
+    "biomarkers",
+    "amyloid",
+    "tau",
+    "plasma-gfap",
+    "csf-gfap",
+    "reactive-astrogliosis"
+  ],
+  "themes": [
+    "Plasma vs CSF GFAP utility",
+    "Preclinical Alzheimer's detection",
+    "Tracking reactive astrogliosis",
+    "Amyloid-β pathology correlation",
+    "Blood-based biomarkers"
+  ],
+  "one_line": "Plasma GFAP significantly outperforms CSF GFAP as an early, accessible biomarker for detecting amyloid-β pathology across the Alzheimer's disease continuum.",
+  "summary": "This observational cross-sectional study evaluated plasma and cerebrospinal fluid (CSF) levels of glial fibrillary acidic protein (GFAP) across the Alzheimer's disease (AD) continuum. Data were collected from three independent cohorts comprising 871 participants, ranging from cognitively unimpaired individuals with preclinical AD to patients with AD dementia. The researchers found that plasma GFAP levels were significantly elevated early in the preclinical stages of AD and continued to rise as the disease progressed. Notably, the magnitude of changes in plasma GFAP consistently exceeded those observed in CSF GFAP. Plasma GFAP also demonstrated higher accuracy in discriminating between amyloid-β positive and negative individuals compared to CSF GFAP. Finally, mediation analyses suggested that plasma GFAP elevations are specifically driven by amyloid-β pathology, whereas CSF GFAP elevations are more closely related to broader neuroinflammatory responses like sTREM2 and YKL40.",
+  "key_claims": [
+    {
+      "claim": "Plasma GFAP levels are significantly elevated in preclinical AD and symptomatic stages compared to cognitively unimpaired Aβ-negative individuals.",
+      "evidence": "In the TRIAD cohort, plasma GFAP levels showed a 54% increase in preclinical AD (P = .001; d = 0.66) and a 107% increase in AD dementia (P < .001; d = 2.10) compared to Aβ-negative individuals.",
+      "strength": "strong",
+      "location": "Results / Plasma GFAP Levels Throughout the AD Continuum"
+    },
+    {
+      "claim": "Plasma GFAP discriminates Aβ-positive from Aβ-negative individuals more accurately than CSF GFAP.",
+      "evidence": "AUC for plasma GFAP ranged from 0.69 to 0.86 across cohorts, whereas AUC for CSF GFAP ranged from 0.59 to 0.76.",
+      "strength": "strong",
+      "location": "Results / Table 2"
+    },
+    {
+      "claim": "Plasma GFAP elevations are specifically associated with Aβ pathology, while CSF GFAP is associated with broader neuroinflammation.",
+      "evidence": "Mediation analyses showed 60-63% of plasma GFAP's association with tau was mediated by Aβ. Furthermore, CSF GFAP, but not plasma GFAP, correlated positively with neuroinflammatory markers sTREM2 and YKL40.",
+      "strength": "moderate",
+      "location": "Results / Association of CSF and Plasma GFAP Levels With Neuroinflammation"
+    }
+  ],
+  "methods": {
+    "design": "observational, cross-sectional",
+    "n": 871,
+    "population": "Individuals across the AD continuum (cognitively unimpaired, preclinical AD, MCI, AD dementia, and non-AD disorders) from the TRIAD, ALFA+, and BioCogBank Paris Lariboisière cohorts",
+    "duration": "Data collected July 29, 2014 to January 31, 2020",
+    "registration": null
+  },
+  "funding_and_conflicts": "none stated",
+  "limitations": [
+    "Cross-sectional design precludes definitive longitudinal conclusions",
+    "Differences in cohort design, goals, and available data",
+    "Varying definitions of Aβ pathology across the three included cohorts",
+    "Did not include measurements of Aβ in blood to compare against GFAP"
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "Author affiliations, emails, and ORCIDs were stripped during conversion",
+      "Funding and conflict of interest disclosures are completely missing from the text",
+      "Table 1 formatting is slightly flattened, making columns harder to interpret",
+      "Supplementary figure references exist in text but the actual figures/data are not present"
+    ]
+  },
+  "search_verification": [
+    "Used the parsed DOI (10.1001/jamaneurol.2021.3671) to confirm publication year is 2021",
+    "Constructed valid pubmed URL based on explicitly provided PMID (34661615)"
+  ]
+}

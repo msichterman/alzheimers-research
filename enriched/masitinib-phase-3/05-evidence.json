@@ -1,0 +1,626 @@
+{
+  "document_kind": "journal_article",
+  "title": {
+    "value": "Masitinib for mild-to-moderate Alzheimer’s disease: results from a randomized, placebo-controlled, phase 3, clinical trial",
+    "quote": "Masitinib for mild-to-moderate Alzheimer’s disease: results from a randomized, placebo-controlled, phase 3, clinical trial",
+    "location": "Title line"
+  },
+  "authors": [
+    {
+      "name": "Bruno Dubois",
+      "affiliation": null,
+      "orcid": null,
+      "corresponding": null
+    },
+    {
+      "name": "Jesús López-Arrieta",
+      "affiliation": null,
+      "orcid": null,
+      "corresponding": null
+    },
+    {
+      "name": "Stanley Lipschitz",
+      "affiliation": null,
+      "orcid": null,
+      "corresponding": null
+    },
+    {
+      "name": "Doskas Triantafyllos",
+      "affiliation": null,
+      "orcid": null,
+      "corresponding": null
+    },
+    {
+      "name": "Luiza Spiru",
+      "affiliation": null,
+      "orcid": null,
+      "corresponding": null
+    },
+    {
+      "name": "Svitlana Moroz",
+      "affiliation": null,
+      "orcid": null,
+      "corresponding": null
+    },
+    {
+      "name": "Olena Venger",
+      "affiliation": null,
+      "orcid": null,
+      "corresponding": null
+    },
+    {
+      "name": "Patrick Vermersch",
+      "affiliation": null,
+      "orcid": null,
+      "corresponding": null
+    },
+    {
+      "name": "Alain Moussy",
+      "affiliation": null,
+      "orcid": null,
+      "corresponding": null
+    },
+    {
+      "name": "Colin D. Mansfield",
+      "affiliation": null,
+      "orcid": null,
+      "corresponding": null
+    },
+    {
+      "name": "Olivier Hermine",
+      "affiliation": null,
+      "orcid": null,
+      "corresponding": null
+    },
+    {
+      "name": "Magda Tsolaki",
+      "affiliation": null,
+      "orcid": null,
+      "corresponding": null
+    }
+  ],
+  "study": {
+    "design": {
+      "value": "International, double-blind, multicenter, phase 3, randomized, placebo-controlled trial over a 24-week treatment period, run as two prospectively declared parallel groups (four arms) with distinct statistical analyses and control arms",
+      "quote": "Study AB09004 was an international, double-blind, multicenter, phase 3, randomized, placebo-controlled trial over a 24-week treatment period.",
+      "location": "Methods, Study design"
+    },
+    "phase": {
+      "value": "phase 3",
+      "quote": "Study AB09004 was an international, double-blind, multicenter, phase 3, randomized, placebo-controlled trial over a 24-week treatment period.",
+      "location": "Methods, Study design"
+    },
+    "n": {
+      "value": 718,
+      "quote": "a total of 718 patients from 119 hospital clinics and specialized AD centers in 20 countries were randomized to study AB09004",
+      "location": "Results, Patients"
+    },
+    "n_description": {
+      "value": "randomized: 718 patients total; 370 in the masitinib 4.5 mg/kg/day parallel group (185 masitinib vs 185 placebo), 278 in the titrated 6.0 mg/kg/day parallel group (186 masitinib vs 92 placebo), 58 in the terminated 3.0 mg/kg/day arm and 12 in the terminated 6.0 mg/kg/day arm",
+      "quote": "370 in the masitinib 4.5 mg/kg/day parallel group (185 masitinib versus 185 placebo), and 278 in the titrated masitinib 6.0 mg/kg/day parallel group (186 masitinib versus 92 placebo)",
+      "location": "Results, Patients"
+    },
+    "population": {
+      "value": "Patients aged at least 50 years meeting standard clinical criteria for dementia probably due to Alzheimer's disease, with baseline MMSE 12 to 25 (mild or moderate dementia), on a cholinesterase inhibitor, memantine or both for at least 6 months; biomarker tests were not required for inclusion",
+      "quote": "they met standard clinical criteria for dementia that was probably due to AD (biomarker tests were not required for patient inclusion) [, ], had a baseline MMSE score of 12 to 25 (corresponding to mild or moderate dementia)",
+      "location": "Methods, Patient population"
+    },
+    "followup": {
+      "value": "24-week treatment period, with efficacy measured at week-0, week-8, week-12 and week-24",
+      "quote": "During the 24-week assessment period, clinical efficacy was measured at week-0, week-8, week-12, and week-24 according to the following instruments",
+      "location": "Methods, Assessments"
+    },
+    "intervention": {
+      "value": "Masitinib 4.5 mg/kg/day orally in two intakes (first parallel group); and, in the independent parallel group, masitinib initiated at 4.5 mg/kg/day for 12 weeks then titrated to 6.0 mg/kg/day; given as an adjunct to cholinesterase inhibitor and/or memantine",
+      "quote": "randomized (1:1) to receive masitinib 4.5 mg/kg/day (administered orally as two intakes) or placebo. A second, independent parallel group (distinct for statistical analysis and control arm), randomized patients (2:1) to masitinib",
+      "location": "Abstract, Methods"
+    },
+    "comparator": {
+      "value": "Placebo (or equivalent placebo in the titrated parallel group), on a background of cholinesterase inhibitor and/or memantine; safety was compared against a pooled placebo population",
+      "quote": "or equivalent placebo. Multiple primary outcomes (each tested at a significance level of 2.5%) were least-squares mean change from baseline to week 24 in the Alzheimer’s Disease Assessment Scale - cognitive subscale (ADAS-cog)",
+      "location": "Abstract, Methods"
+    },
+    "biomarker_confirmation": {
+      "value": "None: biomarker tests as recommended by IWG or NIA-AA criteria were not required for patient inclusion, which was based on standard clinical criteria for probable AD dementia",
+      "quote": "Biomarker tests, as recommended by the IWG or by the NIA-AA diagnostic criteria [, ], were also not required for patient inclusion, which was based instead on standard clinical criteria for dementia that was probably AD",
+      "location": "Discussion, limitations paragraph"
+    },
+    "nct_ids": [
+      "NCT01872598"
+    ],
+    "cohorts": [
+      "Study AB09004"
+    ]
+  },
+  "outcomes": [
+    {
+      "name": "ADAS-cog (primary endpoint): least-squares mean change from baseline to week 24, masitinib 4.5 mg/kg/day parallel group",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "All assessments were prespecified in the protocol or Statistical Analysis Plan prior to unblinding.",
+      "met": "met",
+      "effect_estimate": "ΔADAS-cog −2.15 (masitinib −1.46 versus placebo +0.69)",
+      "confidence_interval": "97.5%CI [−3.48, −0.81]",
+      "p_value": "p <0.001",
+      "multiplicity_controlled": "yes",
+      "quote": "with a δADAS-cog of −1.46 (representing an overall improvement in cognition) versus +0.69 (representing increased cognitive deterioration), respectively, and corresponding ΔADAS-cog of −2.15 (97.5%CI [−3.48, −0.81]); p <0.001.",
+      "location": "Results, Primary efficacy analysis"
+    },
+    {
+      "name": "ADCS-ADL (primary endpoint): least-squares mean change from baseline to week 24, masitinib 4.5 mg/kg/day parallel group",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "All assessments were prespecified in the protocol or Statistical Analysis Plan prior to unblinding.",
+      "met": "not_met",
+      "effect_estimate": "ΔADCS-ADL +1.82 (masitinib +1.01 versus placebo −0.81), described by the document as nonsignificant",
+      "confidence_interval": "97.5%CI [(−0.15, 3.79]",
+      "p_value": "p =0.038",
+      "multiplicity_controlled": "yes",
+      "quote": "giving a nonsignificant ΔADCS-ADL of +1.82 (97.5%CI [(−0.15, 3.79]); p =0.038.",
+      "location": "Results, Primary efficacy analysis"
+    },
+    {
+      "name": "ADAS-cog (primary endpoint): change from baseline to week 24, titrated masitinib 6.0 mg/kg/day parallel group",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "All assessments were prespecified in the protocol or Statistical Analysis Plan prior to unblinding.",
+      "met": "not_met",
+      "effect_estimate": "ΔADAS-cog −0.43",
+      "confidence_interval": "97.5%CI [(−1.81, 0.95]",
+      "p_value": "p =0.483",
+      "multiplicity_controlled": "yes",
+      "quote": "Results from the titrated masitinib dose of 6.0 mg/kg/day parallel group did not show any significant difference between the masitinib and placebo treatment arms for either ADAS-cog or ADCS-ADL; ΔADAS-cog was −0.43 (97.5%CI [(−1.81, 0.95]), p =0.483",
+      "location": "Results, Primary efficacy analysis"
+    },
+    {
+      "name": "ADCS-ADL (primary endpoint): change from baseline to week 24, titrated masitinib 6.0 mg/kg/day parallel group",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "All assessments were prespecified in the protocol or Statistical Analysis Plan prior to unblinding.",
+      "met": "not_met",
+      "effect_estimate": "ΔADCS-ADL +0.20",
+      "confidence_interval": "97.5%CI [(−1.64, 2.04]",
+      "p_value": "p =0.807",
+      "multiplicity_controlled": "yes",
+      "quote": "while ΔADCS-ADL was +0.20 (97.5%CI [(−1.64, 2.04]), p =0.807 (Table ).",
+      "location": "Results, Primary efficacy analysis"
+    },
+    {
+      "name": "Clinical response rate at week 24 (ADAS-cog decrease ≥4 without ADCS-ADL deterioration or CIBIC-plus worsening), masitinib 4.5 mg/kg/day parallel group",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "A key secondary endpoint was analysis of clinical response (logistic regression model with logit as link function), wherein a positive response was defined as a decrease from baseline at week 24 in ADAS-cog of ≥4",
+      "met": "met",
+      "effect_estimate": "responder rate 22.5% masitinib versus 13% placebo; odds ratio 1.96",
+      "confidence_interval": "95%CI [1.11, 3.46]",
+      "p_value": "p =0.020",
+      "multiplicity_controlled": "no",
+      "quote": "masitinib-treated patients showed a significantly increased probability of cognitive improvement at week 24 relative to placebo, with a clinical responder rate of 22.5% versus 13%, respectively (odds ratio 1.96 (95%CI [1.11, 3.46]); p =0.020)",
+      "location": "Results, Secondary endpoint analyses"
+    },
+    {
+      "name": "CIBIC-plus improvement at week 24, masitinib 4.5 mg/kg/day parallel group",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Other secondary endpoints included: MMSE and CDR (assessed according to change from baseline on timepoints of week 8, week 12, and week 24 using a mixed model of repeated measures methodology), and assessment of CIBIC-plus improvement",
+      "met": "met",
+      "effect_estimate": "odds ratio 1.71 (36 (20.5%) placebo versus 47 (25.8%) masitinib)",
+      "confidence_interval": "95%CI [1.02, 2.85]",
+      "p_value": "p =0.040",
+      "multiplicity_controlled": "no",
+      "quote": "Significance was also reached for analysis of CIBIC-Plus improvement at week 24 (odds ratio 1.71 (95%CI [1.02, 2.85]); p =0.040).",
+      "location": "Results, Secondary endpoint analyses"
+    },
+    {
+      "name": "CIBIC-plus worsening at week 24, masitinib 4.5 mg/kg/day parallel group",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "All assessments were prespecified in the protocol or Statistical Analysis Plan prior to unblinding.",
+      "met": "not_met",
+      "effect_estimate": "37 (21.0%) placebo versus 23 (12.6%) masitinib; odds ratio 0.64",
+      "confidence_interval": "[0.36, 1.14]",
+      "p_value": "0.127",
+      "multiplicity_controlled": "no",
+      "quote": "CIBIC-plus improvement 36 (20.5%) 47 (25.8%) 1.71 [1.02, 2.85] 0.040 CIBIC-plus worsening 37 (21.0%) 23 (12.6%) 0.64 [0.36, 1.14] 0.127",
+      "location": "Table 2"
+    },
+    {
+      "name": "CDR change from baseline at week 24, masitinib 4.5 mg/kg/day parallel group",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Other secondary endpoints included: MMSE and CDR (assessed according to change from baseline on timepoints of week 8, week 12, and week 24 using a mixed model of repeated measures methodology)",
+      "met": "not_met",
+      "effect_estimate": "−0.025",
+      "confidence_interval": "95%CI [−0.146, 0.095]",
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "There was no discernable effect between treatment-arms at week 24 for the outcomes of CDR (−0.025 (95%CI [−0.146, 0.095]) and MMSE (0.226 (95%CI [−0.4634, 0.9164]).",
+      "location": "Results, Secondary endpoint analyses"
+    },
+    {
+      "name": "MMSE change from baseline at week 24, masitinib 4.5 mg/kg/day parallel group",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Other secondary endpoints included: MMSE and CDR (assessed according to change from baseline on timepoints of week 8, week 12, and week 24 using a mixed model of repeated measures methodology)",
+      "met": "not_met",
+      "effect_estimate": "0.226",
+      "confidence_interval": "95%CI [−0.4634, 0.9164]",
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "There was no discernable effect between treatment-arms at week 24 for the outcomes of CDR (−0.025 (95%CI [−0.146, 0.095]) and MMSE (0.226 (95%CI [−0.4634, 0.9164]).",
+      "location": "Results, Secondary endpoint analyses"
+    },
+    {
+      "name": "ADAS-cog, jump-to-reference sensitivity analysis, masitinib 4.5 mg/kg/day parallel group",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Consistency of the primary analysis was tested using predefined sensitivity analyses including multiple imputation and the conservative jump-to-reference method.",
+      "met": "met",
+      "effect_estimate": "ΔADAS-cog −1.86 in the text; Table 2 reports −1.89 for the same jump-to-reference analysis",
+      "confidence_interval": "95%CI [(−3.03, −0.69] in the text; [−3.06, −0.72] in Table 2",
+      "p_value": "p =0.002",
+      "multiplicity_controlled": "no",
+      "quote": "Jump-to-reference and multiple imputation sensitivity analyses confirmed the study’s primary objective was achieved for the primary endpoint of ADAS-cog, with a significant ΔADAS-cog of −1.86 (95%CI [(−3.03, −0.69]; p =0.002)",
+      "location": "Results, Primary efficacy analysis"
+    },
+    {
+      "name": "ADAS-cog, multiple imputation sensitivity analysis, masitinib 4.5 mg/kg/day parallel group",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Consistency of the primary analysis was tested using predefined sensitivity analyses including multiple imputation and the conservative jump-to-reference method.",
+      "met": "met",
+      "effect_estimate": "ΔADAS-cog −2.04",
+      "confidence_interval": "95%CI [(−3.41, −0.67]",
+      "p_value": "p =0.004",
+      "multiplicity_controlled": "no",
+      "quote": "Jump-to-reference and multiple imputation sensitivity analyses confirmed the study’s primary objective was achieved for the primary endpoint of ADAS-cog, with a significant ΔADAS-cog of −1.86 (95%CI [(−3.03, −0.69]; p =0.002) and −2.04 (95%CI [(−3.41, −0.67]; p =0.004), respectively.",
+      "location": "Results, Primary efficacy analysis"
+    },
+    {
+      "name": "ADAS-cog, ITT population sensitivity analysis, masitinib 4.5 mg/kg/day parallel group",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "All assessments were prespecified in the protocol or Statistical Analysis Plan prior to unblinding.",
+      "met": "met",
+      "effect_estimate": "ΔADAS-cog −2.08",
+      "confidence_interval": "95%CI [(−3.22, −0.94]",
+      "p_value": "p <0.001",
+      "multiplicity_controlled": "no",
+      "quote": "with a significant ΔADAS-cog of −2.08 (95%CI [(−3.22, −0.94]; p <0.001) (Table )",
+      "location": "Results, Primary efficacy analysis"
+    },
+    {
+      "name": "ADCS-ADL, jump-to-reference / multiple imputation / ITT sensitivity analyses, masitinib 4.5 mg/kg/day parallel group",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Consistency of the primary analysis was tested using predefined sensitivity analyses including multiple imputation and the conservative jump-to-reference method.",
+      "met": "not_met",
+      "effect_estimate": "1.71 (JTR), 1.72 (MI), 1.20 (ITT)",
+      "confidence_interval": "95% CI [−0.01, 3.43] (JTR); [−0.26, 3.70] (MI); [−0.60, 3.00] (ITT)",
+      "p_value": "0.051 (JTR); 0.089 (MI); 0.192 (ITT)",
+      "multiplicity_controlled": "no",
+      "quote": "ADCS-ADL (JTR analysis) −0.90 (±0.79) 0.81 (±0.76) 1.71 [−0.01, 3.43] 0.051 ADAS-Cog (MI analysis) 0.88 (±0.63) −1.16 (±0.65) −2.04 [−3.41, −0.67] 0.004 ADCS-ADL (MI analysis) −0.95 (±0.93) 0.77 (±0.90) 1.72 [−0.26, 3.70] 0.089",
+      "location": "Table 2"
+    },
+    {
+      "name": "ADAS-cog by mixed model for repeated measures (MMRM), masitinib 4.5 mg/kg/day parallel group",
+      "tier": "post_hoc",
+      "prespecified": "no",
+      "prespecification_evidence": "An additional post hoc analysis according to mixed model for repeated measures (MMRM) methodology also produced a significant ΔADAS-cog of −0.95",
+      "met": "not_applicable",
+      "effect_estimate": "ΔADAS-cog −0.95, while ADCS-ADL analysis under these conditions remained nonsignificant",
+      "confidence_interval": "95%CI [−1.89 −0.02]",
+      "p_value": "p =0.046",
+      "multiplicity_controlled": "no",
+      "quote": "An additional post hoc analysis according to mixed model for repeated measures (MMRM) methodology also produced a significant ΔADAS-cog of −0.95 (95%CI [−1.89 −0.02]; p =0.046), while ADCS-ADL analysis under these conditions remained nonsignificant",
+      "location": "Results, Primary efficacy analysis"
+    },
+    {
+      "name": "ADAS-cog for titrated masitinib 6.0 mg/kg/day versus the pooled placebo cohort (post hoc sensitivity analysis)",
+      "tier": "post_hoc",
+      "prespecified": "no",
+      "prespecification_evidence": "This scenario is supported by a post hoc sensitivity analysis using the pooled placebo cohort ( n =267)",
+      "met": "not_applicable",
+      "effect_estimate": "a significant treatment effect (at an alpha level of 0.05) in terms of the ADAS-cog primary endpoint; no numeric estimate given in the retrieved text",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "no",
+      "quote": "a post hoc sensitivity analysis using the pooled placebo cohort ( n =267), in which an expected worsening in ADAS-cog and ADCS-ADL is observed for placebo, with stable or improved score for the titrated masitinib 6.0 mg/kg/day cohort",
+      "location": "Discussion, paragraph 1"
+    }
+  ],
+  "primary_endpoint_status": {
+    "status": "mixed",
+    "explanation": "Of the four primary-endpoint tests, only ADAS-cog in the masitinib 4.5 mg/kg/day parallel group was significant (p<0.001 at the 2.5% level); the co-listed ADCS-ADL endpoint was nonsignificant (p=0.038), and neither primary endpoint was met in the titrated 6.0 mg/kg/day parallel group.",
+    "quote": "giving a nonsignificant ΔADCS-ADL of +1.82 (97.5%CI [(−0.15, 3.79]); p =0.038."
+  },
+  "multiplicity": {
+    "approach": "Multiple primary endpoints of ADAS-cog or ADCS-ADL at week 24 based on a fallback procedure with a significance level of 2.5% each, with the treatment effect demonstrated if at least one is significant; sensitivity analyses and secondary endpoints were tested at 0.05",
+    "quote": "with treatment effect being demonstrated by a significant between-group difference (Δ, masitinib versus placebo) on at least one of the multiple primary endpoints, with a significance level of 0.025",
+    "location": "Methods, Outcomes and statistical analysis"
+  },
+  "safety": {
+    "harms": [
+      {
+        "name": "Treatment-emergent adverse events (any grade)",
+        "arm": "masitinib 4.5 mg/kg/day",
+        "count": "161",
+        "denominator": "185",
+        "percentage": "87%",
+        "apoe_stratum": null,
+        "quote": "The incidence of treatment-emergent adverse events (AE) for masitinib (4.5 mg/kg/day), titrated masitinib (6.0 mg/kg/day), and pooled placebo was 87% (161/185), 86% (160/186), and 77.5% (217/280), respectively",
+        "location": "Results, Safety analysis"
+      },
+      {
+        "name": "Treatment-emergent adverse events (any grade)",
+        "arm": "titrated masitinib 6.0 mg/kg/day",
+        "count": "160",
+        "denominator": "186",
+        "percentage": "86%",
+        "apoe_stratum": null,
+        "quote": "The incidence of treatment-emergent adverse events (AE) for masitinib (4.5 mg/kg/day), titrated masitinib (6.0 mg/kg/day), and pooled placebo was 87% (161/185), 86% (160/186), and 77.5% (217/280), respectively",
+        "location": "Results, Safety analysis"
+      },
+      {
+        "name": "Treatment-emergent adverse events (any grade)",
+        "arm": "pooled placebo",
+        "count": "217",
+        "denominator": "280",
+        "percentage": "77.5%",
+        "apoe_stratum": null,
+        "quote": "The incidence of treatment-emergent adverse events (AE) for masitinib (4.5 mg/kg/day), titrated masitinib (6.0 mg/kg/day), and pooled placebo was 87% (161/185), 86% (160/186), and 77.5% (217/280), respectively",
+        "location": "Results, Safety analysis"
+      },
+      {
+        "name": "Severe adverse events (grades 3 or 4)",
+        "arm": "masitinib 4.5 mg/kg/day",
+        "count": "49",
+        "denominator": "185",
+        "percentage": "26.5% (IRR=1.4)",
+        "apoe_stratum": null,
+        "quote": "The incidence of severe AE was 26.5% (49/185, IRR=1.4) for masitinib (4.5 mg/kg/day), 25.3% (47/186, IRR=1.3) for titrated masitinib (6.0 mg/kg/day), and 19.3% (54/280) for pooled placebo",
+        "location": "Results, Safety analysis"
+      },
+      {
+        "name": "Severe adverse events (grades 3 or 4)",
+        "arm": "titrated masitinib 6.0 mg/kg/day",
+        "count": "47",
+        "denominator": "186",
+        "percentage": "25.3% (IRR=1.3)",
+        "apoe_stratum": null,
+        "quote": "The incidence of severe AE was 26.5% (49/185, IRR=1.4) for masitinib (4.5 mg/kg/day), 25.3% (47/186, IRR=1.3) for titrated masitinib (6.0 mg/kg/day), and 19.3% (54/280) for pooled placebo",
+        "location": "Results, Safety analysis"
+      },
+      {
+        "name": "Severe adverse events (grades 3 or 4)",
+        "arm": "pooled placebo",
+        "count": "54",
+        "denominator": "280",
+        "percentage": "19.3%",
+        "apoe_stratum": null,
+        "quote": "The incidence of severe AE was 26.5% (49/185, IRR=1.4) for masitinib (4.5 mg/kg/day), 25.3% (47/186, IRR=1.3) for titrated masitinib (6.0 mg/kg/day), and 19.3% (54/280) for pooled placebo",
+        "location": "Results, Safety analysis"
+      },
+      {
+        "name": "Non-fatal serious adverse events (SAE)",
+        "arm": "masitinib 4.5 mg/kg/day",
+        "count": "24",
+        "denominator": "185",
+        "percentage": "13% (IRR=2.4)",
+        "apoe_stratum": null,
+        "quote": "while the incidence of non-fatal serious AE (SAE) was 13% (24/185, IRR=2.4), 13.4% (25/186, IRR=2.5), and 5.4% (15/280), respectively",
+        "location": "Results, Safety analysis"
+      },
+      {
+        "name": "Non-fatal serious adverse events (SAE)",
+        "arm": "titrated masitinib 6.0 mg/kg/day",
+        "count": "25",
+        "denominator": "186",
+        "percentage": "13.4% (IRR=2.5)",
+        "apoe_stratum": null,
+        "quote": "while the incidence of non-fatal serious AE (SAE) was 13% (24/185, IRR=2.4), 13.4% (25/186, IRR=2.5), and 5.4% (15/280), respectively",
+        "location": "Results, Safety analysis"
+      },
+      {
+        "name": "Non-fatal serious adverse events (SAE)",
+        "arm": "pooled placebo",
+        "count": "15",
+        "denominator": "280",
+        "percentage": "5.4%",
+        "apoe_stratum": null,
+        "quote": "while the incidence of non-fatal serious AE (SAE) was 13% (24/185, IRR=2.4), 13.4% (25/186, IRR=2.5), and 5.4% (15/280), respectively",
+        "location": "Results, Safety analysis"
+      },
+      {
+        "name": "Death (adverse event leading to death)",
+        "arm": "masitinib 4.5 mg/kg/day, titrated masitinib 6.0 mg/kg/day and pooled placebo",
+        "count": "one death in each of the masitinib 4.5 mg/kg/day and titrated 6.0 mg/kg/day treatment-arms; Table 3 also lists 0.4% (1) for pooled placebo",
+        "denominator": "185 (M4.5), 186 (tM6.0), 280 (pooled placebo)",
+        "percentage": "0.5% (1) for M4.5; 0.5% (1) for tM6.0; 0.4% (1) for pooled placebo",
+        "apoe_stratum": null,
+        "quote": "There was one death in each of these treatment-arms, none of which were treatment-related.",
+        "location": "Results, Safety analysis"
+      },
+      {
+        "name": "Stevens-Johnson syndrome (serious adverse event, judged possible/inconclusive on dermatology review)",
+        "arm": "titrated masitinib 6.0 mg/kg/day",
+        "count": "3 patients",
+        "denominator": "186",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "and Stevens-Johnson syndrome (3 patients for titrated masitinib 6.0 mg/kg/day) (eTable 4 in the ). None of the Stevens-Johnson syndrome events were life-threatening",
+        "location": "Results, Safety analysis"
+      },
+      {
+        "name": "Pneumonia (serious adverse event)",
+        "arm": "masitinib 4.5 mg/kg/day",
+        "count": "3 patients",
+        "denominator": "185",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "The most common SAE (MedDRA preferred terms) for masitinib relative to pooled placebo were neutropenia (all masitinib doses), pneumonia (3 patients for masitinib 4.5 mg/kg/day)",
+        "location": "Results, Safety analysis"
+      },
+      {
+        "name": "Neutropenia (most common serious adverse event for masitinib)",
+        "arm": "all masitinib doses",
+        "count": "not given as a count in the retrieved text",
+        "denominator": null,
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "The most common SAE (MedDRA preferred terms) for masitinib relative to pooled placebo were neutropenia (all masitinib doses), pneumonia (3 patients for masitinib 4.5 mg/kg/day)",
+        "location": "Results, Safety analysis"
+      },
+      {
+        "name": "Maculo-papular rash, neutropenia, hypoalbuminemia (masitinib's known safety profile)",
+        "arm": "masitinib",
+        "count": "not given as a count in the retrieved text",
+        "denominator": null,
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "Safety was consistent with masitinib’s known profile (maculo-papular rash, neutropenia, hypoalbuminemia).",
+        "location": "Abstract, Results"
+      },
+      {
+        "name": "Treatment-emergent adverse event leading to permanent discontinuation",
+        "arm": "masitinib 4.5 mg/kg/day, titrated 6.0 mg/kg/day and pooled placebo",
+        "count": "29 (M4.5), 45 (tM6.0), 14 (pooled placebo)",
+        "denominator": "185 (M4.5), 186 (tM6.0), 280 (pooled placebo)",
+        "percentage": "15.7% (IRR 3.1), 24.2% (IRR 4.8), 5.0%",
+        "apoe_stratum": null,
+        "quote": "TEAE leading to permanent discontinuation 24.1% (14) 4.8 15.7% (29) 3.1 24.2% (45) 4.8 5.0% (14)",
+        "location": "Table 3"
+      }
+    ],
+    "apoe_stratification_reported": false,
+    "serious_adverse_events": {
+      "value": "Non-fatal serious AE: 13% (24/185) for masitinib 4.5 mg/kg/day (IRR=2.4), 13.4% (25/186) for titrated masitinib 6.0 mg/kg/day (IRR=2.5), and 5.4% (15/280) for pooled placebo",
+      "quote": "while the incidence of non-fatal serious AE (SAE) was 13% (24/185, IRR=2.4), 13.4% (25/186, IRR=2.5), and 5.4% (15/280), respectively",
+      "location": "Results, Safety analysis"
+    },
+    "deaths": {
+      "value": "One death in each of the masitinib 4.5 mg/kg/day and titrated masitinib 6.0 mg/kg/day treatment-arms, none treatment-related",
+      "quote": "There was one death in each of these treatment-arms, none of which were treatment-related.",
+      "location": "Results, Safety analysis"
+    },
+    "discontinuations": {
+      "value": "Premature discontinuation before week 24 was 34.5% (148/429) for masitinib-treated patients versus 14.6% (41/282) for pooled placebo",
+      "quote": "Premature discontinuation before week 24 was higher for masitinib-treated patients at 34.5% (148/429) as compared with the pooled placebo group at 14.6% (41/282)",
+      "location": "Results, Patients"
+    }
+  },
+  "funding": [
+    "Masitinib is under clinical development by the study funder, AB Science, Paris, France. The funder participated in the design, conduct, management, and reporting of the study.",
+    "The sponsor (AB Science) participated in the design, conduct, management, and reporting of the study."
+  ],
+  "conflicts": [
+    "Masitinib is under clinical development by the study funder, AB Science. AM, OH, and CDM are employees and shareholders of AB Science.",
+    "BD reports consultant fees from AB Science and Biogen and an institutional grant from Roche and Foundation Merck-Avenir.",
+    "PV reports honoraria and consulting fees from Biogen, Sanofi-Genzyme, Novartis, Teva, Merck, Roche, Celgene, Imcyse, and AB Science; and research grants from Sanofi-Genzyme, Roche, and Merck. All remaining authors have no competing interests."
+  ],
+  "limitations": [
+    "A limitation of our trial was the lack of fluid- and imaging-based biomarkers as evidence to support modification of underlying disease processes (e.g., cerebrospinal fluid tests measuring tau or measuring the brain volume using MRI scanning), or proof of target engagement (e.g., neuroinflammatory markers).",
+    "Biomarker tests, as recommended by the IWG or by the NIA-AA diagnostic criteria [, ], were also not required for patient inclusion",
+    "Masitinib (4.5 mg/kg/day) may benefit people with mild-to-moderate AD. A confirmatory study has been initiated to substantiate these data.",
+    "Based on these results, masitinib (4.5 mg/kg/day) as an adjunct to cholinesterase inhibitor and/or memantine, could benefit patients with mild-to-moderate AD, and a confirmatory pivotal study, including biomarker outcomes, has been initiated.",
+    "Efficacy results from the independent parallel group of titrated masitinib 6.0 mg/kg/day versus placebo ( n =186 and 91 patients, respectively) were inconclusive and no new safety signal was observed.",
+    "Nevertheless, in the absence of evidence for a masitinib dose-dependent treatment effect (i.e., the change from baseline in ADAS-cog and ADCS-ADL was smaller for the titrated 6.0 mg/kg/day masitinib arm relative to the 4.5 mg/kg/day masitinib arm)",
+    "In the absence of a consensus regarding the minimal clinically important change for ADAS-Cog [, ], the most appropriate comparison comes from benchmark ADAS-Cog benefit according to well-established AD therapies.",
+    "Detection of this difference, with a two-sided 0.05 significance level and a power of 80%, would require a minimum sample size of 300 patients for the masitinib 4.5 mg/kg/day parallel group (150 per treatment-arm), and a total of 225 patients for the titrated masitinib 6.0 mg/kg/day parallel group (150 masitinib versus 75 placebo)."
+  ],
+  "risk_of_bias": [
+    {
+      "domain": "changing the primary endpoint definition late in the trial",
+      "judgement": "The primary efficacy analysis was changed from co-primary endpoints at alpha 5% to multiple primary endpoints (fallback, 2.5%) by protocol amendment after 81% of randomized patients could have reached the week-24 timepoint",
+      "quote": "multiple primary endpoints of ADAS-cog or ADCS-ADL at week 24 (based on fallback procedure with a significance level of 2.5%) (protocol version 10.0, December 2017, after 81% (580/718) of randomized patients could have reached the 24-week timepoint)"
+    },
+    {
+      "domain": "differential attrition and imputation",
+      "judgement": "Premature discontinuation before week 24 was more than twice as high on masitinib as on pooled placebo (34.5% vs 14.6%), with missing total scores imputed by a clustering/single-mean method",
+      "quote": "Premature discontinuation before week 24 was higher for masitinib-treated patients at 34.5% (148/429) as compared with the pooled placebo group at 14.6% (41/282)"
+    },
+    {
+      "domain": "post-randomization exclusion from the analysis population",
+      "judgement": "The primary analysis used a full analysis dataset that excluded patients whose scores were judged potentially influenced by strong bias (12 patients excluded from the ITT population of the 4.5 mg/kg/day group), rather than the full ITT population",
+      "quote": "Primary efficacy analysis was done according to a full analysis dataset (FAS) in which patients received at least one dose of the trial regimen and whose scores had not been potentially influenced by any source of strong bias"
+    },
+    {
+      "domain": "sponsor involvement in analysis and reporting",
+      "judgement": "The sponsor AB Science designed, conducted, managed and reported the study and collected and analyzed the data, and three authors are employees and shareholders of AB Science",
+      "quote": "The sponsor (AB Science) participated in the design, conduct, management, and reporting of the study."
+    },
+    {
+      "domain": "internal numerical inconsistency between text and tables",
+      "judgement": "The jump-to-reference ADAS-cog result is reported as −1.86 (95%CI [−3.03, −0.69]) in the Results text but as −1.89 [−3.06, −0.72] in Table 2; Table 1 heads the titrated masitinib arm as n=182 while Table 2 and the text give N=186",
+      "quote": "ADAS-Cog (JTR analysis) 0.85 (±0.54) −1.04 (±0.52) −1.89 [−3.06, −0.72] 0.002"
+    },
+    {
+      "domain": "arms terminated and protocol design changed mid-study",
+      "judgement": "The 6 mg/kg/day starting-dose arm and the 3.0 mg/kg/day arm were terminated during the study and an independent titrated parallel group was added; the document asserts these amendments had no impact on the study outcome",
+      "quote": "Regarding the previously mentioned protocol amendments, these had no impact on the study outcome."
+    }
+  ],
+  "disagreements": [
+    {
+      "question": "Why did the titrated masitinib 6.0 mg/kg/day parallel group show no treatment effect?",
+      "position": "This document attributes the null result to an atypical improvement in that group's placebo arm, supported by a post hoc pooled-placebo sensitivity analysis, rather than to absence of drug effect",
+      "attributed_to": "the authors of this article (AB Science-sponsored study AB09004)",
+      "quote": "One explanation of this divergent result is that the titrated 6.0 mg/kg/day parallel group placebo arm showed an atypical improvement over 24 weeks, as exemplified by the positive change from baseline in ADCS-ADL score"
+    },
+    {
+      "question": "Is a roughly 2-point ADAS-cog difference clinically meaningful in mild-to-moderate AD?",
+      "position": "This document argues the observed ADAS-cog improvement is clinically meaningful by benchmarking against approved AD therapies, in the acknowledged absence of consensus on the minimal clinically important change",
+      "attributed_to": "the authors of this article",
+      "quote": "The observed improvement in ADAS-Cog for masitinib (4.5 mg/kg/day) relative to control is therefore clinically meaningful, especially when considering its administration on a background of cholinesterase inhibitors and memantine"
+    },
+    {
+      "question": "Should study AB09004 be described as a successful phase 3 trial?",
+      "position": "This document claims it as the first successful randomized, controlled phase 3 trial in AD of a tyrosine kinase inhibitor targeting innate immune cells, while also stating a confirmatory study has been initiated",
+      "attributed_to": "the authors of this article",
+      "quote": "Study AB09004 represents the first successful randomized, controlled, phase 3 trial in AD of a tyrosine kinase inhibitor, targeting innate immune cells."
+    },
+    {
+      "question": "Would the original co-primary endpoint definition have changed the conclusion?",
+      "position": "This document asserts the original co-primary definition at alpha 0.05 would also have returned a significant result for masitinib 4.5 mg/kg/day had it been retained",
+      "attributed_to": "the authors of this article",
+      "quote": "furthermore, the original co-primary endpoint definition (i.e., change from baseline at week 24 in both ADAS-cog and ADCS-ADL at an alpha level of 0.05) would also have returned a significant result for masitinib (4.5 mg/kg/day), had it been retained"
+    }
+  ],
+  "linked_objects": [
+    {
+      "relation": "registry_record",
+      "identifier": "NCT01872598",
+      "note": "ClinicalTrials.gov registration for study AB09004, named in the trial registration section"
+    },
+    {
+      "relation": "registry_record",
+      "identifier": "EudraCT: 2010-021218-50",
+      "note": "EudraCT registration for study AB09004, named in the trial registration section"
+    }
+  ],
+  "trial_status_observation": {
+    "status": null,
+    "enrollment": null,
+    "phase": null,
+    "observed_at": null,
+    "source": null
+  },
+  "unlocatable_fields": [
+    "authors[].affiliation",
+    "authors[].orcid",
+    "authors[].corresponding",
+    "outcomes[CDR].p_value",
+    "outcomes[MMSE].p_value",
+    "trial_status_observation.status",
+    "trial_status_observation.enrollment",
+    "trial_status_observation.phase",
+    "trial_status_observation.observed_at",
+    "trial_status_observation.source",
+    "linked_objects[correction]"
+  ],
+  "_meta": {
+    "model": "claude (builder subagent)",
+    "extracted_at": "2026-08-13T00:00:00Z",
+    "source": "raw/masitinib-phase-3/document.md"
+  }
+}

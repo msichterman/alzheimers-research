@@ -1,0 +1,94 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT03174938",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03174938",
+      "name": "BioFINDER2",
+      "drug": "N/A (Biomarker cohort)",
+      "phase": "n/a",
+      "sponsor": "Skane University Hospital",
+      "status": "Recruiting",
+      "enrollment": 2950,
+      "population": "Cognitively healthy individuals, subjective cognitive decline, MCI, AD dementia, and other dementias.",
+      "primary_endpoint": "Clinical diagnosis according to consensus group decision and change in Clinical Dementia Rating-Sum of Boxes (CDR-SB).",
+      "started": "2017-05",
+      "completed_or_readout": "2036-12",
+      "results_summary": "As a longitudinal biomarker cohort, BioFINDER-2 has not completed its final readout but has produced numerous publications showing the utility of tau-PET, p-tau, and other biomarkers in predicting AD progression.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02854033",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02854033",
+      "name": "ADNI3",
+      "drug": "N/A (Biomarker cohort)",
+      "phase": "n/a",
+      "sponsor": "University of Southern California",
+      "status": "Completed",
+      "enrollment": 1141,
+      "population": "Cognitively normal, mild cognitive impairment (MCI), and mild AD dementia participants.",
+      "primary_endpoint": "Rate of change in cognition as measured by ADAS-Cog13, Logical Memory Test, and MMSE over 5 years.",
+      "started": "2016-12",
+      "completed_or_readout": "2024-05",
+      "results_summary": "Longitudinal data from ADNI3 provided validation for the predictive models developed in BioFINDER-2, confirming that tau-PET and baseline cognition strongly predict cognitive decline.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03367403",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03367403",
+      "name": "TRAILBLAZER-ALZ",
+      "drug": "donanemab (anti-amyloid monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Completed",
+      "enrollment": 272,
+      "population": "Participants with early symptomatic Alzheimer's disease enrolled specifically based on tau-PET imaging (intermediate tau pathology).",
+      "primary_endpoint": "Change From Baseline in the Integrated Alzheimer's Disease Rating Scale (iADRS) Score at 76 Weeks.",
+      "started": "2017-12",
+      "completed_or_readout": "2020-12",
+      "results_summary": "The trial successfully demonstrated that donanemab slowed cognitive and functional decline at 76 weeks compared to placebo. It effectively validated the tau-PET enrichment strategy theoretically proposed in the document.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT04437511",
+      "registry_url": "https://clinicaltrials.gov/study/NCT04437511",
+      "name": "TRAILBLAZER-ALZ 2",
+      "drug": "donanemab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Eli Lilly and Company",
+      "status": "Active",
+      "enrollment": 1736,
+      "population": "Participants with early symptomatic Alzheimer's disease (MCI or mild dementia) with tau-PET evidence of AD pathology.",
+      "primary_endpoint": "Change From Baseline on the Integrated Alzheimer's Disease Rating Scale (iADRS) at Week 76.",
+      "started": "2020-06",
+      "completed_or_readout": "2023-04",
+      "results_summary": "Confirmed the Phase 2 findings, showing donanemab significantly slowed clinical decline (iADRS and CDR-SB) at 76 weeks in early AD patients enriched for tau pathology, leading to FDA approval.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2021-05-06",
+      "kind": "paper",
+      "description": "NEJM publication of TRAILBLAZER-ALZ (Phase 2 donanemab) results validating tau-PET enrichment.",
+      "url": "https://doi.org/10.1056/nejmoa2100708"
+    },
+    {
+      "date": "2023-08-08",
+      "kind": "paper",
+      "description": "JAMA publication of TRAILBLAZER-ALZ 2 (Phase 3 donanemab) results confirming the efficacy of drug in a tau-PET enriched cohort.",
+      "url": "https://doi.org/10.1001/jama.2023.13239"
+    },
+    {
+      "date": "2024-07-02",
+      "kind": "regulatory",
+      "description": "FDA approves donanemab (Kisunla) for early symptomatic Alzheimer's disease based on the TRAILBLAZER-ALZ trials.",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-treatment-adults-alzheimers-disease"
+    }
+  ],
+  "evidence_assessment": "The document claims that tau-PET imaging combined with baseline cognition offers superior prediction of cognitive decline compared to fluid biomarkers (like p-tau), enabling powerful clinical trial enrichment. This theoretical finding is strongly supported by real-world clinical trial data, most notably Eli Lilly's donanemab program. The Phase 2 (TRAILBLAZER-ALZ) and Phase 3 (TRAILBLAZER-ALZ 2) trials utilized tau-PET to enroll patients with intermediate tau pathology, effectively validating that such enrichment strategies yield cohorts with predictable clinical trajectories. This allowed the drug's disease-modifying effects to be robustly proven, leading to the FDA approval of donanemab (Kisunla) in July 2024. Overall, the clinical evidence overwhelmingly validates the document's central assertion that biomarker-based enrichment using tau-PET significantly optimizes interventional AD trials.",
+  "discrepancies": []
+}

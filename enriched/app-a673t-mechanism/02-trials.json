@@ -1,0 +1,130 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT01739348",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01739348",
+      "name": "EPOCH",
+      "drug": "Verubecestat (BACE1 inhibitor)",
+      "phase": "2/3",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "status": "Terminated",
+      "enrollment": 2211,
+      "population": "Mild to Moderate Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline in the Alzheimer's Disease Assessment Scale-Cognitive Subscale (ADAS-Cog) Score",
+      "started": "2012-11",
+      "completed_or_readout": "2017-04",
+      "results_summary": "Trial terminated early due to lack of efficacy. Verubecestat did not improve clinical ratings of dementia, and patients experienced more adverse events including cognitive worsening compared to placebo.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT01953601",
+      "registry_url": "https://clinicaltrials.gov/study/NCT01953601",
+      "name": "APECS",
+      "drug": "Verubecestat (BACE1 inhibitor)",
+      "phase": "3",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "status": "Terminated",
+      "enrollment": 1454,
+      "population": "Prodromal Alzheimer's Disease",
+      "primary_endpoint": "Least Squares Mean (LSM) Change From Baseline in Clinical Dementia Rating Sum of Boxes (CDR-SB) Score at Week 104",
+      "started": "2013-11",
+      "completed_or_readout": "2018-04",
+      "results_summary": "Trial terminated early after interim analysis indicated it was unlikely to establish a positive benefit/risk profile. Patients on verubecestat showed statistically significant worsening on cognitive measures compared to placebo.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02245737",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02245737",
+      "name": "AMARANTH",
+      "drug": "Lanabecestat (BACE inhibitor)",
+      "phase": "2",
+      "sponsor": "AstraZeneca",
+      "status": "Terminated",
+      "enrollment": 2218,
+      "population": "Early Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline on the 13-item Alzheimer's Disease Assessment Scale - Cognitive Subscale (ADAS-Cog13)",
+      "started": "2014-09",
+      "completed_or_readout": "2018-10",
+      "results_summary": "Terminated for futility. Lanabecestat failed to slow cognitive decline and was associated with some cognitive worsening and psychiatric adverse events.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02956486",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02956486",
+      "name": "MISSION AD1",
+      "drug": "Elenbecestat (BACE inhibitor)",
+      "phase": "3",
+      "sponsor": "Eisai Co., Ltd.",
+      "status": "Terminated",
+      "enrollment": 2212,
+      "population": "Early Alzheimer's Disease",
+      "primary_endpoint": "Change From Baseline up to Month 24 in the Clinical Dementia Rating-sum of Boxes (CDR-SB) Score",
+      "started": "2016-10",
+      "completed_or_readout": "2020-01",
+      "results_summary": "Terminated after a Data Safety Monitoring Board recommended stopping due to an unfavorable risk-benefit ratio for patients.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT02569398",
+      "registry_url": "https://clinicaltrials.gov/study/NCT02569398",
+      "name": "EARLY",
+      "drug": "Atabecestat (BACE inhibitor)",
+      "phase": "2",
+      "sponsor": "Janssen Research & Development, LLC",
+      "status": "Terminated",
+      "enrollment": 557,
+      "population": "Asymptomatic at Risk for Developing Alzheimer's Dementia",
+      "primary_endpoint": "Change From Baseline in Preclinical Alzheimer Cognitive Composite (PACC) Score at Endpoint (Month 24)",
+      "started": "2015-10",
+      "completed_or_readout": "2018-12",
+      "results_summary": "Terminated primarily due to safety concerns regarding liver enzyme elevations. Subsequent analysis also demonstrated early cognitive worsening in the treatment arm versus placebo.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT03131453",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03131453",
+      "name": "Generation 2",
+      "drug": "Umibecestat (BACE inhibitor)",
+      "phase": "2",
+      "sponsor": "Novartis Pharmaceuticals",
+      "status": "Terminated",
+      "enrollment": 1145,
+      "population": "At Risk for the Onset of Clinical Symptoms of Alzheimer's Disease",
+      "primary_endpoint": "Time to Event (Diagnosis of Mild Cognitive Impairment or Dementia, Due to Alzheimer's Disease)",
+      "started": "2017-08",
+      "completed_or_readout": "2020-03",
+      "results_summary": "Halted prematurely after treatment with umibecestat was linked to a worsening of cognitive measures and reduced brain volume compared to placebo.",
+      "relation_to_document": "context",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2018-05",
+      "kind": "paper",
+      "description": "Randomized Trial of Verubecestat for Mild-to-Moderate Alzheimer's Disease (EPOCH trial results)",
+      "url": "https://doi.org/10.1056/NEJMoa1714011"
+    },
+    {
+      "date": "2019-04",
+      "kind": "paper",
+      "description": "Randomized Trial of Verubecestat for Prodromal Alzheimer's Disease (APECS trial results)",
+      "url": "https://doi.org/10.1056/NEJMoa1812840"
+    },
+    {
+      "date": "2020-01",
+      "kind": "paper",
+      "description": "Efficacy and safety of lanabecestat for treatment of early and mild Alzheimer's disease (AMARANTH and DAYBREAK-ALZ trial results)",
+      "url": "https://doi.org/10.1016/S1474-4422(19)30398-8"
+    }
+  ],
+  "evidence_assessment": "The document analyzed provides strong basic-science rationale and human genetic validation that reducing BACE1 cleavage and subsequent Aβ generation is protective against Alzheimer's disease. However, the pharmacological translation of this mechanism has completely failed in the clinic. Every major BACE1 inhibitor (e.g., verubecestat, lanabecestat, atabecestat, elenbecestat, umibecestat) tested in Phase 2/3 trials was halted prematurely. Crucially, these clinical trials did not simply fail to show efficacy; most demonstrated paradoxical cognitive worsening and increased adverse events in the treated groups. This indicates that while lifelong, modest reduction of BACE1 activity via the A673T mutation is protective, acute and substantial pharmacological inhibition in older adults is detrimental, likely due to off-target effects on other BACE1 substrates vital for synaptic function.",
+  "discrepancies": [
+    "The document's findings strongly support BACE1 reduction as a protective and therapeutic mechanism against Alzheimer's, but the clinical record shows that pharmacological BACE1 inhibition uniformly fails in clinical trials and frequently causes active cognitive worsening."
+  ]
+}

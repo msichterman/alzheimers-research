@@ -1,0 +1,22 @@
+{
+  "published_at": "2026-08-16T22:50:29.376Z",
+  "files": [
+    "docs/research/papers/lancet-commission-2020-dementia-prevention.mdx",
+    "docs/trials/finger-nct01041989.mdx",
+    "docs/trials/mapt-nct00672685.mdx"
+  ],
+  "timeline": [
+    {
+      "title": "2015-06 — FINGER trial demonstrates benefits of multidomain lifestyle intervention",
+      "action": "skipped (already present)"
+    },
+    {
+      "title": "2019-02 — SPRINT MIND shows intensive blood pressure control reduces MCI",
+      "action": "skipped (already present)"
+    },
+    {
+      "title": "2020-07 — Lancet Commission updates modifiable risk factor model",
+      "action": "skipped (already present)"
+    }
+  ]
+}

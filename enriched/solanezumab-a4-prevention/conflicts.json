@@ -1,0 +1,28 @@
+{
+  "id": "solanezumab-a4-prevention",
+  "prepared_at": "2026-08-13T16:55:51.043Z",
+  "instructions": "Two independent extractions of the same retrieved document disagree on these fields. For each conflict, decide against the document which reading is correct — or that both are, or neither is. You are not told which pipeline produced which reading, and you must not guess.",
+  "conflicts": [
+    {
+      "conflict_id": "solanezumab-a4-prevention#0",
+      "field": "study.population",
+      "reading_a": "Cognitively unimpaired persons 65 to 85 years of age living independently without a diagnosis of mild cognitive impairment or dementia (global CDR score of 0, MMSE 25 to 30, Wechsler Memory Scale Logical Memory Delayed Recall 6 to 18) with elevated brain amyloid levels on florbetapir PET — i.e., preclinical Alzheimer's disease",
+      "reading_b": "Persons 65 to 85 years of age with a global Clinical Dementia Rating score of 0 (range, 0 to 3, with 0 indicating no cognitive impairment and 3 severe dementia), a score on the Mini–Mental State Examination of 25 or more (range, 0 to 30, with lower scores indicating poorer cognition), and elevated brain amyloid levels on 18 F-florbetapir positron-emission tomography (PET)",
+      "note": null
+    },
+    {
+      "conflict_id": "solanezumab-a4-prevention#1",
+      "field": "safety.harms[ARIA-E].reported",
+      "reading_a": "absent",
+      "reading_b": "reported",
+      "note": null
+    },
+    {
+      "conflict_id": "solanezumab-a4-prevention#2",
+      "field": "safety.harms[ARIA-H].reported",
+      "reading_a": "absent",
+      "reading_b": "reported",
+      "note": null
+    }
+  ]
+}

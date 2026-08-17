@@ -1,0 +1,86 @@
+{
+  "kind": "other",
+  "title": "A Phase III, Multicenter, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group, Efficacy, and Safety Study of Gantenerumab in Patients With Early (Prodromal to Mild) Alzheimer's Disease",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2018-02",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "immunotherapy",
+    "gantenerumab",
+    "graduate-i"
+  ],
+  "themes": [
+    "Gantenerumab clinical efficacy",
+    "Brain amyloid clearance",
+    "ARIA adverse events",
+    "Biomarkers of neurodegeneration",
+    "Clinical trial termination"
+  ],
+  "one_line": "The Phase 3 GRADUATE I trial of subcutaneous gantenerumab in early Alzheimer's disease was terminated after failing to meet its primary clinical efficacy endpoint, despite significantly reducing brain amyloid load.",
+  "summary": "This document contains the ClinicalTrials.gov registry entry and results for GRADUATE I (NCT03444870), a Phase 3, randomized, double-blind, placebo-controlled trial evaluating the anti-amyloid antibody gantenerumab in patients with early Alzheimer's disease. The trial enrolled 1,053 participants who received either subcutaneous gantenerumab (titrated to 510 mg every two weeks) or placebo for 116 weeks. The primary endpoint, change from baseline in the Clinical Dementia Rating-Sum of Boxes (CDR-SB), showed a non-significant treatment difference of -0.31 (p=0.0954). Secondary cognitive and functional endpoints, including ADAS-Cog13 and ADCS-ADL, also failed to reach statistical significance. Although gantenerumab demonstrated robust target engagement by significantly clearing brain amyloid plaques (-66.44 centiloids) and improving downstream CSF biomarkers (tTau, pTau-181, Neurogranin), the lack of clinical benefit led the sponsor to terminate the development program.",
+  "key_claims": [
+    {
+      "claim": "Gantenerumab did not significantly slow clinical decline compared to placebo on the primary endpoint.",
+      "evidence": "Difference in adjusted mean for CDR-SB change from baseline to Week 116 was -0.31 (95% CI -0.66 to 0.05), p=0.0954.",
+      "strength": "strong",
+      "location": "PRIMARY: DBT Period: Change From Baseline to Week 116 in Global Outcome, as Measured by CDR-SB"
+    },
+    {
+      "claim": "Gantenerumab did not significantly improve secondary cognitive and functional endpoints compared to placebo.",
+      "evidence": "Difference in adjusted mean for ADAS-Cog13 was -1.25 (p=0.0544) and for ADCS-ADL was 1.11 (p=0.1729).",
+      "strength": "strong",
+      "location": "SECONDARY: DBT Period: Change From Baseline to Week 116 in ADAS-Cog13 and ADCS-ADL"
+    },
+    {
+      "claim": "Gantenerumab robustly reduced brain amyloid load.",
+      "evidence": "Difference in adjusted means was -66.44 centiloids (95% CI -74.71 to -58.16), p<0.0001, in favor of gantenerumab over placebo.",
+      "strength": "strong",
+      "location": "SECONDARY: DBT Period: Change From Baseline to Week 116 in Brain Amyloid Load"
+    },
+    {
+      "claim": "Gantenerumab significantly improved CSF biomarkers of neurodegeneration.",
+      "evidence": "Significant percent changes from baseline in tTau (p<0.001), pTau-181 (p<0.001), and Neurogranin (p<0.001) compared to placebo.",
+      "strength": "strong",
+      "location": "SECONDARY: DBT Period: Percent Change From Baseline to Week 116 in Cerebrospinal Fluid (CSF) Marker of Disease"
+    },
+    {
+      "claim": "Gantenerumab was associated with increased incidence of amyloid-related imaging abnormalities (ARIA).",
+      "evidence": "105 participants on gantenerumab experienced ARIA-E vs 5 on placebo; 40 participants on gantenerumab experienced ARIA-H vs 6 on placebo.",
+      "strength": "strong",
+      "location": "SECONDARY: DBT Period: Number of Participants With at Least One Amyloid-Related Imaging Abnormalities"
+    }
+  ],
+  "methods": {
+    "design": "Phase 3, Multicenter, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group",
+    "n": 1053,
+    "population": "Patients aged 50-90 with early (prodromal to mild) Alzheimer's disease (MMSE >= 22) and evidence of amyloid pathology",
+    "duration": "116 weeks (Double-Blind Treatment Period)",
+    "registration": "NCT03444870"
+  },
+  "funding_and_conflicts": "Lead sponsor: Hoffmann-La Roche. No author conflicts stated as this is a registry entry.",
+  "limitations": [
+    "Clinical development was terminated early due to lack of efficacy in the pre-planned analysis, preventing completion of the China extension phase.",
+    "Potential unblinding risk due to significantly higher rates of ARIA-E and injection site reactions in the gantenerumab arm."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 9,
+    "issues": [
+      "Standard ClinicalTrials.gov API export format; lacks demographic baseline tables typically found in published manuscripts."
+    ]
+  },
+  "search_verification": []
+}

@@ -1,0 +1,90 @@
+{
+  "kind": "research-paper",
+  "title": "Efficacy and Safety of Lanabecestat for Treatment of Early and Mild Alzheimer Disease",
+  "authors": [],
+  "first_author": null,
+  "venue": "JAMA Neurology",
+  "published": "2019",
+  "doi": "10.1001/jamaneurol.2019.3988",
+  "doi_url": "https://doi.org/10.1001/jamaneurol.2019.3988",
+  "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/31764959",
+  "copyright": null,
+  "license": {
+    "name": "CC BY-NC-ND 4.0",
+    "url": null,
+    "reuse": "quote-and-summarize",
+    "evidence": "This is an open access article distributed under the terms of the CC-BY-NC-ND License."
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "small-molecule",
+    "biomarkers",
+    "lanabecestat",
+    "bace1-inhibitor"
+  ],
+  "themes": [
+    "BACE1 inhibitor futility",
+    "Target engagement without clinical benefit",
+    "Off-target psychiatric adverse events",
+    "Early termination of trials"
+  ],
+  "one_line": "The BACE1 inhibitor lanabecestat significantly reduced CSF amyloid levels but was terminated early for futility because it failed to slow cognitive or functional decline and increased psychiatric adverse events in patients with early or mild Alzheimer's disease.",
+  "summary": "The AMARANTH and DAYBREAK-ALZ phase 3 clinical trials evaluated the efficacy and safety of lanabecestat, an oral BACE1 inhibitor, in patients with early Alzheimer's disease and mild Alzheimer's disease dementia. Despite demonstrating clear target engagement via significant dose-dependent reductions in CSF Aβ1-40 and Aβ1-42 levels and reduced amyloid PET burden, both trials were terminated early for futility. Treatment with lanabecestat at 20 mg and 50 mg daily failed to slow cognitive or functional decline compared with placebo on the ADAS-Cog13 and other secondary measures. Furthermore, lanabecestat was associated with adverse effects including weight loss, hair color changes, and psychiatric symptoms such as anxiety and depression. The trials experienced population overlap, particularly driven by a restrictive memory cutoff in AMARANTH, yielding patient cohorts that behaved similarly to mild AD populations. These findings underscore the broader failure of BACE inhibitors in symptomatic Alzheimer's disease, suggesting that reducing amyloid production at this stage does not confer clinical benefits and may present off-target toxicities.",
+  "key_claims": [
+    {
+      "claim": "Lanabecestat significantly reduces amyloid production and burden.",
+      "evidence": "CSF Aβ1-40 concentration reduced by 58.0% and 73.3% and Aβ1-42 concentration by 51.3% and 65.5% for 20 mg and 50 mg doses respectively.",
+      "strength": "strong",
+      "location": "Biomarkers"
+    },
+    {
+      "claim": "Lanabecestat does not slow cognitive or functional decline in early or mild Alzheimer's disease.",
+      "evidence": "Both studies terminated early for futility; no consistent dose-related differences observed on ADAS-Cog13 or ADCS-iADL.",
+      "strength": "strong",
+      "location": "Primary and Secondary Efficacy Analyses"
+    },
+    {
+      "claim": "Lanabecestat treatment increases the risk of psychiatric adverse events, weight loss, and hair color changes.",
+      "evidence": "TEAEs in psychiatric disorders SOC were 24.5%-33.5% for lanabecestat vs 13.3% for placebo; weight decrease ≥7% occurred in 12.7%-24.9% for lanabecestat vs 6.3% for placebo.",
+      "strength": "strong",
+      "location": "Safety and Tolerability / Table 3"
+    },
+    {
+      "claim": "Lanabecestat treatment causes greater hippocampal volume loss compared to placebo.",
+      "evidence": "Annualized percentage change in volume was -0.52% and -0.48% for 20 mg and 50 mg lanabecestat vs placebo in AMARANTH.",
+      "strength": "moderate",
+      "location": "Biomarkers"
+    }
+  ],
+  "methods": {
+    "design": "randomized, double-blind, placebo-controlled, phase 2/3 and phase 3 clinical trials",
+    "n": 3940,
+    "population": "men and women aged 55 to 85 years meeting NIA-AA criteria for early AD or mild AD dementia with confirmed amyloid positivity",
+    "duration": "104 weeks (AMARANTH) and 78 weeks (DAYBREAK-ALZ), though terminated early",
+    "registration": "NCT02245737 and NCT02783573"
+  },
+  "funding_and_conflicts": "none stated",
+  "limitations": [
+    "Lower overall study treatment exposure than planned due to early trial termination.",
+    "Potential selection of patients too far along in the disease continuum for disease-modifying treatment to show efficacy, despite amyloid positivity confirmation.",
+    "Significant overlap in baseline cognitive impairment between the early AD (AMARANTH) and mild AD (DAYBREAK-ALZ) cohorts.",
+    "Insufficient postdose CSF samples in DAYBREAK-ALZ for meaningful biomarker analysis."
+  ],
+  "red_flags": [
+    "Primary efficacy outcome showed numerical worsening at certain time points in lanabecestat arms.",
+    "Increased psychiatric adverse events potentially confounded the detection of cognitive benefits."
+  ],
+  "parse_quality": {
+    "score": 6,
+    "issues": [
+      "The entire author block, affiliations, and contact details were completely stripped during conversion.",
+      "Funding sources and conflict of interest disclosures are missing.",
+      "Publication copyright details and precise dates are omitted.",
+      "Table header rows (Table 2 and Table 3) contain minor alignment and empty column artifacts."
+    ]
+  },
+  "search_verification": [
+    "Identifiers (PMID 31764959, PMCID PMC6902191, DOI 10.1001/jamaneurol.2019.3988) were explicitly provided in the text and used directly without requiring external WebSearch confirmation."
+  ]
+}

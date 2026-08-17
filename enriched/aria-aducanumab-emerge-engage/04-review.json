@@ -1,0 +1,131 @@
+{
+  "fact_check": [
+    {
+      "fact": "41.3% of patients receiving high-dose aducanumab experienced ARIA.",
+      "status": "verified",
+      "note": "Checked against source document (Results / Table 1)."
+    },
+    {
+      "fact": "26.0% of patients with ARIA-E experienced clinical symptoms.",
+      "status": "verified",
+      "note": "Checked against source document (Results)."
+    },
+    {
+      "fact": "The Phase 3 trials were terminated early due to 'invalid assumptions' in the futility analysis.",
+      "status": "disputed",
+      "note": "The source paper frames it this way, but clinical and regulatory consensus maintains the trials were halted for actual futility; ENGAGE failed even in post-hoc analysis."
+    },
+    {
+      "fact": "Missing conflict of interest and funding declarations.",
+      "status": "verified",
+      "note": "The provided markdown extract lacks these standard declarations, obscuring the sponsor's involvement in the post-hoc analysis."
+    }
+  ],
+  "research_page": {
+    "slug": "aria-aducanumab-emerge-engage",
+    "title": "ARIA in Aducanumab Phase 3 Trials (EMERGE & ENGAGE)",
+    "description": "Secondary safety analysis of the EMERGE and ENGAGE trials revealing a 41.3% ARIA incidence in patients receiving high-dose aducanumab.",
+    "tags": [
+      "paper",
+      "trial",
+      "amyloid",
+      "immunotherapy",
+      "aria",
+      "aducanumab",
+      "adverse-events"
+    ],
+    "source_line_md": "**Source**: [JAMA Neurology, 2021](https://doi.org/10.1001/jamaneurol.2021.4161) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/34807243)",
+    "authors_line_md": "Salloway et al.",
+    "takeaway_md": "Aducanumab causes a high rate of amyloid-related imaging abnormalities (ARIA), affecting 41.3% of patients on the highest dose. While most cases are asymptomatic and resolve radiographically, the high incidence underscores a significant physical risk that ultimately outweighed the drug's disputed clinical benefits.",
+    "key_findings_md": [
+      "41.3% of patients receiving 10 mg/kg aducanumab experienced ARIA, most commonly presenting as brain swelling or ARIA-E (35.2%) (paper, Results).",
+      "ApoE ε4 carriers faced a much higher risk of ARIA-E (43.0%) compared to noncarriers (20.3%) at the highest dose (paper, Table 1).",
+      "Among patients with ARIA-E, 26.0% experienced clinical symptoms such as headache, confusion, dizziness, or nausea (paper, Results).",
+      "Most ARIA-E events (98.2%) resolved radiographically, with 82.8% resolving within 16 weeks of detection (paper, Results)."
+    ],
+    "methods_md": "This is a secondary safety analysis of two double-blind, placebo-controlled, phase 3 randomized clinical trials (EMERGE and ENGAGE). The integrated dataset included 3,285 adults aged 50 to 85 with early Alzheimer's disease over a 76-week placebo-controlled period.",
+    "trial_evidence_md": "This paper reports secondary safety data from the [EMERGE](/trials/emerge-nct02484547) and [ENGAGE](/trials/engage-nct02477800) phase 3 trials. Both trials were terminated early for futility, but the FDA controversially granted accelerated approval based on a post-hoc analysis of EMERGE. Because ENGAGE completely failed to show efficacy, this high ARIA rate became the focal point of the drug's unfavorable risk-benefit profile, culminating in Biogen abandoning the aducanumab program entirely in 2024.",
+    "sentiment_md": "Public and professional perception of aducanumab (Aduhelm) is overwhelmingly negative. While early marketing offered desperate hope, patients and caregivers quickly grew disillusioned by high costs and the severe physical risks of ARIA. The scientific community widely views the drug's FDA approval as a regulatory failure driven by statistical manipulation, noting that simply clearing amyloid plaques did not translate to a meaningful cognitive rescue.",
+    "caveats_md": [
+      "Nearly half of the participants did not complete their full dosing course because the sponsor halted the trials early, limiting the reliability of the long-term safety data.",
+      "The incidence of ARIA in broader, real-world populations remains unclear because these global trials lacked racial and ethnic diversity.",
+      "The authors analyze a highly contested dataset and treat the trials' early termination as a statistical mistake, minimizing the fact that the drug's clinical efficacy was heavily disputed and ultimately rejected by the market."
+    ],
+    "relates_to_md": [
+      "[Aducanumab accelerated approval](/timeline) — The safety profile reported here directly influenced the controversial regulatory and commercial trajectory of the drug.",
+      "[Understanding the Amyloid Hypothesis](/journey/amyloid-hypothesis-consumer) — Highlights the physical trade-offs and risks of amyloid-clearing therapies."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "emerge-nct02484547",
+      "title": "EMERGE (Aducanumab Phase 3)",
+      "description": "Phase 3 trial of aducanumab in early Alzheimer's disease, terminated early for futility but later used as the basis for accelerated approval.",
+      "badge": "Terminated",
+      "tags": [
+        "trial",
+        "aducanumab",
+        "phase-3",
+        "amyloid"
+      ],
+      "registry_md": "[NCT02484547](https://clinicaltrials.gov/study/NCT02484547)",
+      "drug": "Aducanumab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Biogen",
+      "population": "Early Alzheimer's Disease (n=1643)",
+      "primary_endpoint": "Change From Baseline in CDR-SB at Week 78",
+      "started": "2015-09",
+      "readout": "2019-08",
+      "why_md": "Designed alongside ENGAGE to confirm the efficacy and safety of aducanumab. Its post-hoc analysis served as the primary basis for the drug's controversial FDA accelerated approval despite its early termination.",
+      "status_log_md": [
+        "**2015-09-01** — Trial begins enrollment.",
+        "**2019-03-21** — Terminated early for futility based on an independent pooled interim analysis.",
+        "**2019-10-22** — Biogen announces post-hoc analysis indicating the high-dose arm met the primary endpoint.",
+        "**2024-01-31** — Biogen formally discontinues the aducanumab program."
+      ],
+      "results_md": "The trial was halted early for futility. A controversial post-hoc analysis by the sponsor later claimed that patients in the high-dose arm experienced a significant slowing of clinical decline, though this remained heavily disputed given the failure of the identical ENGAGE trial."
+    },
+    {
+      "slug": "engage-nct02477800",
+      "title": "ENGAGE (Aducanumab Phase 3)",
+      "description": "Phase 3 trial of aducanumab in early Alzheimer's disease, terminated early for futility and failed to show post-hoc efficacy.",
+      "badge": "Terminated",
+      "tags": [
+        "trial",
+        "aducanumab",
+        "phase-3",
+        "amyloid"
+      ],
+      "registry_md": "[NCT02477800](https://clinicaltrials.gov/study/NCT02477800)",
+      "drug": "Aducanumab (anti-amyloid monoclonal antibody)",
+      "phase": "3",
+      "sponsor": "Biogen",
+      "population": "Early Alzheimer's Disease (n=1653)",
+      "primary_endpoint": "Change From Baseline in CDR-SB at Week 78",
+      "started": "2015-08",
+      "readout": "2019-08",
+      "why_md": "Designed identically to EMERGE to test aducanumab's efficacy. Its failure to show clinical benefit deeply complicated the drug's regulatory review and validated early futility models.",
+      "status_log_md": [
+        "**2015-08-01** — Trial begins enrollment.",
+        "**2019-03-21** — Terminated early for futility based on an independent pooled interim analysis.",
+        "**2019-10-22** — Post-hoc analysis confirms the trial failed to meet its primary endpoint."
+      ],
+      "results_md": "Like EMERGE, ENGAGE was terminated early for futility. Unlike EMERGE, the subsequent post-hoc analysis showed no significant clinical benefit, creating a conflicting evidence base that led to widespread scientific pushback against FDA approval."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2019-03",
+      "title": "2019-03 — Phase 3 aducanumab trials halted for futility",
+      "body_md": "Biogen terminates the [EMERGE](/trials/emerge-nct02484547) and [ENGAGE](/trials/engage-nct02477800) trials based on an independent interim analysis, though later post-hoc data mining led to a highly controversial FDA approval."
+    },
+    {
+      "section": "Disease-modifying era",
+      "date": "2024-01",
+      "title": "2024-01 — Biogen abandons aducanumab",
+      "body_md": "Following restrictive Medicare coverage, severe commercial failure, and an unfavorable [ARIA safety profile](/research/papers/aria-aducanumab-emerge-engage), Biogen formally discontinues the aducanumab program."
+    }
+  ],
+  "notes_for_editor": []
+}

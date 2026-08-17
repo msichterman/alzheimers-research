@@ -1,0 +1,62 @@
+{
+  "overall": "mixed",
+  "summary": "Public sentiment surrounding semaglutide's potential for Alzheimer's disease represents a sharp divide between patient communities and the clinical reality following the November 2025 readout. Prior to the EVOKE trial results, GLP-1 user communities and caregivers expressed profound enthusiasm, hoping the drug offered a safe alternative to amyloid-targeting therapies. However, after Novo Nordisk announced that EVOKE and EVOKE+ failed to meet their primary endpoints, pharmaceutical media and retail investors quickly pivoted to a negative or highly skeptical tone. The financial impact was immediate, with significant disappointment surrounding the stock drop. Despite the definitive clinical failure, anecdotal hopes and outdated narratives about semaglutide's neuroprotective benefits continue to circulate among patients taking the drug for weight loss.",
+  "communities": [
+    {
+      "community": "GLP-1 Users (r/Semaglutide, r/Mounjaro)",
+      "sentiment": "hopeful",
+      "themes": [
+        "Neuroprotective benefits",
+        "Family history of Alzheimer's",
+        "Alternative to amyloid drugs"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/Semaglutide/comments/11bosie/do_you_ever_worry_about_these_meds_going_away/",
+        "https://www.reddit.com/r/Semaglutide/comments/13y6ipv/on_route_to_hospital_with_my_grandfather_who_has/"
+      ]
+    },
+    {
+      "community": "Retail Investors & Pharma Media",
+      "sentiment": "negative",
+      "themes": [
+        "Missed primary endpoints",
+        "Stock price impact",
+        "Definitive failure of the trial"
+      ],
+      "example_urls": [
+        "https://glp1newsnow.substack.com/p/novo-nordisks-evoke-alzheimers-trial",
+        "https://www.biospace.com/press-releases/novo-nordisk-a-s-evoke-phase-3-trials-did-not-demonstrate-a-statistically-significant-reduction-in-alzheimers-disease-progression"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "BioSpace",
+      "tone": "neutral",
+      "date": "2025-11",
+      "url": "https://www.biospace.com/press-releases/novo-nordisk-a-s-evoke-phase-3-trials-did-not-demonstrate-a-statistically-significant-reduction-in-alzheimers-disease-progression"
+    },
+    {
+      "outlet": "Medscape",
+      "tone": "neutral",
+      "date": "2025-11",
+      "url": "https://www.medscape.com/viewarticle/failed-semaglutide-early-alzheimers-not-end-road-2025a1000y4l"
+    },
+    {
+      "outlet": "GLP1 News Now",
+      "tone": "critical",
+      "date": "2025-11",
+      "url": "https://glp1newsnow.substack.com/p/novo-nordisks-evoke-alzheimers-trial"
+    }
+  ],
+  "hype_vs_evidence": "There is a stark divergence between the public hype surrounding GLP-1 agonists and the actual clinical evidence for Alzheimer's disease. Early observational data and intense media hype drove widespread belief among weight-loss patients that semaglutide provides neuroprotection and prevents cognitive decline. However, the rigorous phase 3 EVOKE trials definitively failed to demonstrate a statistically significant reduction in disease progression compared to placebo. Public perception in broader communities continues to run ahead of the science, often citing exploratory claims as proven preventative benefits despite the negative trial readout.",
+  "misinformation_flags": [
+    "Claims that semaglutide is an established or proven preventative treatment for Alzheimer's disease and cognitive decline.",
+    "Assertions that weight-loss doses of GLP-1 agonists actively improve memory in humans."
+  ],
+  "searches_run": [
+    "site:reddit.com semaglutide alzheimers",
+    "EVOKE trial Novo Nordisk Alzheimer's news",
+    "site:reddit.com EVOKE alzheimer"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "kind": "other",
+  "title": "LEQEMBI (lecanemab-irmb) Prescribing Information",
+  "authors": [],
+  "first_author": null,
+  "venue": "U.S. Food and Drug Administration (FDA)",
+  "published": "2026-01",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": "© 2025 Eisai Inc. and Biogen",
+  "license": {
+    "name": "all rights reserved",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": "© 2025 Eisai Inc. and Biogen"
+  },
+  "tags": [
+    "amyloid",
+    "immunotherapy",
+    "trial",
+    "fda-label",
+    "lecanemab"
+  ],
+  "themes": [
+    "Prescribing Information",
+    "Amyloid beta-directed monoclonal antibody",
+    "Subcutaneous and intravenous administration",
+    "Amyloid Related Imaging Abnormalities (ARIA)",
+    "ApoE ε4 genotyping"
+  ],
+  "one_line": "The official FDA prescribing information for LEQEMBI (lecanemab-irmb) detailing indications, dosage for intravenous and subcutaneous routes, ARIA warnings, and efficacy data.",
+  "summary": "This document is the FDA-approved prescribing information and medication guide for LEQEMBI (lecanemab-irmb), an amyloid beta-directed monoclonal antibody. It is indicated for the treatment of Alzheimer’s disease in patients with mild cognitive impairment or mild dementia stage who have confirmed amyloid pathology. The label details dosage and administration instructions, including a newly added subcutaneous injection maintenance option (IQLIK autoinjector). It carries a Boxed Warning for Amyloid Related Imaging Abnormalities (ARIA), emphasizing that ApoE ε4 homozygotes are at a significantly higher risk for severe ARIA events and recommending genetic testing prior to treatment. Clinical efficacy is supported by two randomized trials (Study 1 and Study 2) showing that LEQEMBI reduces amyloid beta plaque levels and significantly slows clinical decline on the CDR-SB scale over 18 months.",
+  "key_claims": [
+    {
+      "claim": "LEQEMBI treatment reduces clinical decline on the global cognitive and functional scale, CDR-SB, compared to placebo at 18 months.",
+      "evidence": "In Study 2 (N=1795), LEQEMBI showed an adjusted mean change difference from placebo of -0.45 (-27%) with P<0.0001.",
+      "strength": "strong",
+      "location": "Section 14 CLINICAL STUDIES / Study 2 / Table 10"
+    },
+    {
+      "claim": "LEQEMBI reduces amyloid beta plaque levels in the brain in a dose- and time-dependent manner.",
+      "evidence": "In Study 1, LEQEMBI 10 mg/kg every two weeks reduced PET SUVR compared to placebo at Week 79 (difference -0.310, P<0.001); in Study 2, 67% of patients had amyloid levels less than 30 Centiloids after 79 weeks.",
+      "strength": "strong",
+      "location": "Section 12.2 Pharmacodynamics / Section 14 CLINICAL STUDIES"
+    },
+    {
+      "claim": "The risk of ARIA, including symptomatic and serious ARIA, is increased in ApoE ε4 homozygotes.",
+      "evidence": "In Study 2, the incidence of ARIA was 45% in ApoE ε4 homozygotes on LEQEMBI vs. 19% in heterozygotes and 13% in noncarriers.",
+      "strength": "strong",
+      "location": "Section 5.1 WARNINGS AND PRECAUTIONS / Incidence of ARIA"
+    }
+  ],
+  "methods": {
+    "design": "Double-blind, placebo-controlled, parallel-group, randomized clinical trials",
+    "n": 2651,
+    "population": "Patients with Alzheimer’s disease (mild cognitive impairment or mild dementia stage) with confirmed presence of amyloid pathology",
+    "duration": "18 months",
+    "registration": "NCT01767311, NCT03887455"
+  },
+  "funding_and_conflicts": "Manufactured by Eisai Inc., marketed by Eisai Inc. and Biogen.",
+  "limitations": [
+    "Limited data to assess the long-term clinical benefit of transitioning to the maintenance dosing regimen of intravenous every 4 weeks or subcutaneous every week.",
+    "Limited safety data and experience in patients who continued dosing through symptomatic ARIA-E or recurrent ARIA-E.",
+    "Safety and effectiveness in pediatric patients have not been established.",
+    "No adequate data on LEQEMBI use in pregnant women to evaluate for drug-associated risks."
+  ],
+  "red_flags": [
+    "In an exploratory subgroup analysis of ApoE ε4 homozygotes in Study 2, a treatment effect was not observed on the primary clinical endpoint (CDR-SB), though secondary endpoints favored LEQEMBI."
+  ],
+  "parse_quality": {
+    "score": 8,
+    "issues": [
+      "Tables 5, 6, and 8 have shifted cells and merged text strings (e.g., 'Rash¹ 6 4 Nausea/Vomiting 6 4' rendered continuously).",
+      "Some footnoted text and superscripts (e.g., 10^9/L) were flattened or disjointed during conversion."
+    ]
+  },
+  "search_verification": []
+}

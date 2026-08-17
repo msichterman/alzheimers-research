@@ -1,0 +1,46 @@
+{
+  "id": "tilavonemab-early-ad",
+  "cluster": "tau",
+  "checked_at": "2026-08-13T17:02:32.975Z",
+  "passed": true,
+  "text_sufficiency": {
+    "level": "full-text",
+    "chars": 38039,
+    "sections": [
+      "method",
+      "result",
+      "discussion",
+      "statistical analysis",
+      "outcome",
+      "participants"
+    ]
+  },
+  "evidence_completeness": "full-text-oa",
+  "failures": [],
+  "warnings": [
+    {
+      "gate": "cross-links",
+      "detail": "document names NCT02880956 but no resolved registry record is linked for it"
+    },
+    {
+      "gate": "cross-links",
+      "detail": "document names NCT03712787 but no resolved registry record is linked for it"
+    },
+    {
+      "gate": "cross-links",
+      "detail": "document names NCT02494024 but no resolved registry record is linked for it"
+    },
+    {
+      "gate": "cross-links",
+      "detail": "document names NCT02985879 but no resolved registry record is linked for it"
+    }
+  ],
+  "manifest_discrepancies": [
+    {
+      "field": "n",
+      "work_order_says": 450,
+      "source_says": 453,
+      "detail": "work order states N=450; the retrieved document states N=453. The document wins."
+    }
+  ]
+}

@@ -1,0 +1,859 @@
+{
+  "document_kind": "journal_article",
+  "title": {
+    "value": "Randomized Phase II Study of the Safety and Efficacy of Semorinemab in Participants With Mild-to-Moderate Alzheimer Disease: Lauriet",
+    "quote": "Randomized Phase II Study of the Safety and Efficacy of Semorinemab in Participants With Mild-to-Moderate Alzheimer Disease: Lauriet",
+    "location": "Title line at the head of the document"
+  },
+  "authors": [
+    { "name": "Cecilia Monteiro, MD, PhD", "affiliation": "Genentech, Inc., South San Francisco, CA", "orcid": null, "corresponding": null },
+    { "name": "Balazs Toth, MS", "affiliation": "Genentech, Inc., South San Francisco, CA", "orcid": null, "corresponding": null },
+    { "name": "Flavia Brunstein, MD", "affiliation": "Genentech, Inc., South San Francisco, CA", "orcid": null, "corresponding": null },
+    { "name": "Ashwini Bobbala, MS", "affiliation": "Genentech, Inc., South San Francisco, CA", "orcid": null, "corresponding": null },
+    { "name": "Seema Datta, PhD", "affiliation": "Genentech, Inc., South San Francisco, CA", "orcid": null, "corresponding": null },
+    { "name": "Ryan Ceniceros, BS", "affiliation": "Genentech, Inc., South San Francisco, CA", "orcid": null, "corresponding": null },
+    { "name": "Sandra M. Sanabria Bohorquez, PhD", "affiliation": "Genentech, Inc., South San Francisco, CA", "orcid": null, "corresponding": null },
+    { "name": "Veronica G. Anania, PhD", "affiliation": "Genentech, Inc., South San Francisco, CA", "orcid": null, "corresponding": null },
+    { "name": "Kristin R. Wildsmith, PhD", "affiliation": "Genentech, Inc., South San Francisco, CA", "orcid": null, "corresponding": null },
+    { "name": "Stephen P. Schauer, BA", "affiliation": "Genentech, Inc., South San Francisco, CA", "orcid": null, "corresponding": null },
+    { "name": "Julie Lee, MS", "affiliation": "Genentech, Inc., South San Francisco, CA", "orcid": null, "corresponding": null },
+    { "name": "Michael J. Dolton, PhD", "affiliation": "Genentech, Inc., South San Francisco, CA", "orcid": null, "corresponding": null },
+    { "name": "Vidya Ramakrishnan, PhD", "affiliation": "Genentech, Inc., South San Francisco, CA", "orcid": null, "corresponding": null },
+    { "name": "Daniel Abramzon, MS", "affiliation": "Genentech, Inc., South San Francisco, CA", "orcid": null, "corresponding": null },
+    { "name": "Edmond Teng, MD, PhD", "affiliation": "Genentech, Inc., South San Francisco, CA", "orcid": null, "corresponding": null }
+  ],
+  "study": {
+    "design": {
+      "value": "Multicenter, randomized, double-blind, placebo-controlled, parallel-group, phase 2 study with an optional open-label extension (the Lauriet study)",
+      "quote": "The Lauriet study was a multicenter, randomized, double-blind, placebo-controlled, parallel-group, phase 2 study with an optional open-label extension (OLE) that was conducted at 49 study locations across the United States",
+      "location": "Methods, Study Design, first sentence"
+    },
+    "phase": {
+      "value": "Phase 2",
+      "quote": "Lauriet is a phase 2 study of an anti-tau monoclonal antibody, semorinemab, in patients with mild-to-moderate AD.",
+      "location": "Abstract, Background and Objectives, final sentence"
+    },
+    "n": {
+      "value": 272,
+      "quote": "Between December 3, 2018, and February 27, 2020, 624 individuals were screened, 272 participants were randomized, and 238 were included in the modified intent-to-treat population",
+      "location": "Abstract, Results, first sentence"
+    },
+    "n_description": {
+      "value": "Randomized; 267 received at least 1 dose of semorinemab or placebo (safety evaluable population) and 238 were included in the modified intent-to-treat (mITT) population; the restricted mITT population comprised 204",
+      "quote": "624 people were screened, 272 were randomized, and 267 received at least 1 dose of semorinemab or placebo (safety evaluable population) (). The mITT population was composed of 238 participants.",
+      "location": "Results, first paragraph"
+    },
+    "population": {
+      "value": "Participants with mild-to-moderate AD who met National Institute on Aging-Alzheimer's Association core clinical criteria for probable AD dementia, with a screening MMSE score of 16–21 inclusive and a Clinical Dementia Rating-Global Score (CDR-GS) of 1 or 2",
+      "quote": "met National Institute on Aging-Alzheimer's Association core clinical criteria for probable AD dementia ; (2) had a screening MMSE score of 16–21, inclusive; (3) had a Clinical Dementia Rating-Global Score (CDR-GS) of 1 or 2",
+      "location": "Methods, Participants, first sentence"
+    },
+    "followup": {
+      "value": "4,500 mg of IV semorinemab or placebo every 4 weeks for 48 or 60 weeks of blinded treatment (60 weeks for cohort 2, extended because of the COVID-19 pandemic)",
+      "quote": "participants with mild-to-moderate AD received 4,500 mg of IV semorinemab or placebo every 4 weeks for 48 or 60 weeks.",
+      "location": "Abstract, Methods"
+    },
+    "intervention": {
+      "value": "4,500 mg of IV semorinemab, the first 3 doses biweekly to reach steady state followed by every 4-week dosing",
+      "quote": "Participants were randomly assigned (1:1) through a centralized randomization system to 4,500 mg of semorinemab or placebo IV. The first 3 doses of study drug were administered biweekly to reach steady-state concentrations followed by every 4-week dosing.",
+      "location": "Methods, Randomization and Blinding, first sentences"
+    },
+    "comparator": {
+      "value": "Placebo (the same volume of IV saline as participants receiving semorinemab), randomized 1:1",
+      "quote": "For blinding purposes, participants assigned to placebo received the same volume of IV saline as participants receiving semorinemab.",
+      "location": "Methods, Randomization and Blinding, final sentence"
+    },
+    "biomarker_confirmation": {
+      "value": "Centralized independent qualitative visual read of amyloid PET scan (new or prior scans) confirming cerebral amyloid pathology, or CSF Aβ (1–42) ≤1,000 pg/mL by Elecsys Aβ 1–42 CSF immunoassay",
+      "quote": "had a centralized independent qualitative visual read of amyloid PET scan (new or prior scans) confirming the presence of cerebral amyloid pathology or CSF Aβ (1–42) ≤1,000 pg/mL measured by Elecsys Aβ 1–42 CSF immunoassay",
+      "location": "Methods, Participants, inclusion criterion 4"
+    },
+    "nct_ids": ["NCT03828747", "NCT03289143", "NCT02820896"],
+    "cohorts": [
+      "Lauriet study",
+      "cohort 1 (participants who completed the originally planned 48 weeks of blinded treatment and/or missed no blinded doses)",
+      "cohort 2 (participants who missed at least 1 dose of blinded study drug due to the pandemic; treated for 60 weeks)",
+      "modified intent-to-treat (mITT) population",
+      "restricted mITT population",
+      "safety evaluable population",
+      "Tauriel study (the companion phase 2 study in prodromal-to-mild AD, cited for comparison)"
+    ]
+  },
+  "outcomes": [
+    {
+      "name": "Coprimary endpoint: change from baseline to week 49 in the ADAS-Cog11 (cohorts 1 and 2, mITT population)",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "The coprimary efficacy endpoints were the change in the ADAS-Cog11 and ADCS-ADL from baseline to week 49 for both cohort 1 and cohort 2 participants and week 61 for cohort 2 participants.",
+      "met": "met",
+      "effect_estimate": "−2.89 points (semorinemab adjusted mean 3.96 vs placebo 6.85), a 42.2% relative reduction in decline",
+      "confidence_interval": "95% CI −4.56 to −1.21",
+      "p_value": "p = 0.0008",
+      "multiplicity_controlled": "unclear",
+      "quote": "At week 49, the semorinemab arm demonstrated a 42.2% reduction (−2.89 points, 95% CI −4.56 to −1.21, p = 0.0008) in decline on the ADAS-Cog11 (coprimary endpoint) relative to the placebo arm.",
+      "location": "Abstract, Results; the same figures appear in Table 2 and in Results, paragraph following Table 1"
+    },
+    {
+      "name": "Coprimary endpoint: change from baseline to week 49 in the ADCS-ADL (cohorts 1 and 2, mITT population)",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "The coprimary efficacy endpoints were the change in the ADAS-Cog11 and ADCS-ADL from baseline to week 49 for both cohort 1 and cohort 2 participants and week 61 for cohort 2 participants.",
+      "met": "not_met",
+      "effect_estimate": "−0.83 points absolute difference between the 2 treatment arms in ADCS-ADL score change from baseline (semorinemab adjusted mean −7.63 vs placebo −6.80)",
+      "confidence_interval": "95% CI −3.39 to 1.72",
+      "p_value": "p = 0.52 (reported as 0.5207 in Table 2)",
+      "multiplicity_controlled": "unclear",
+      "quote": "no treatment effects were observed on the ADCS-ADL scale (coprimary endpoint; absolute difference between the 2 treatment arms in the ADCS-ADL score change from baseline of −0.83 points, 95% CI −3.39 to 1.72, p = 0.52)",
+      "location": "Abstract, Results; Table 2 row 'Change from baseline to week 49 in the ADCS-ADL'"
+    },
+    {
+      "name": "Coprimary endpoint: change from baseline to week 61 in the ADAS-Cog11 (cohort 2 only)",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "The coprimary efficacy endpoints were the change in the ADAS-Cog11 and ADCS-ADL from baseline to week 49 for both cohort 1 and cohort 2 participants and week 61 for cohort 2 participants.",
+      "met": "met",
+      "effect_estimate": "−2.75 points (semorinemab adjusted mean 5.71 vs placebo 8.47), 32.5% relative reduction",
+      "confidence_interval": "95% CI −5.31 to −0.20",
+      "p_value": "p = 0.0351",
+      "multiplicity_controlled": "unclear",
+      "quote": "These findings were consistent at week 61 (cohort 2 only; change from baseline in the ADAS-Cog11 of −2.75 points, 95% CI −5.31 to −0.20, p = 0.0351; )",
+      "location": "Results, paragraph following Table 1; Table 2 row 'Change from baseline to week 61 in the ADAS-Cog11'"
+    },
+    {
+      "name": "Coprimary endpoint: change from baseline to week 61 in the ADCS-ADL (cohort 2 only)",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "The coprimary efficacy endpoints were the change in the ADAS-Cog11 and ADCS-ADL from baseline to week 49 for both cohort 1 and cohort 2 participants and week 61 for cohort 2 participants.",
+      "met": "not_met",
+      "effect_estimate": "−1.72 least square mean difference (semorinemab adjusted mean −9.29 vs placebo −7.57); relative reduction −22.7%",
+      "confidence_interval": "95% CI −5.50 to 2.07",
+      "p_value": "0.3704",
+      "multiplicity_controlled": "unclear",
+      "quote": "| Change from baseline to week 61 in the ADCS-ADL | 40 | −9.29 (−11.95 to −6.63) | 33 | −7.57 (−10.47 to −4.68) | −1.72 (−5.50 to 2.07) | −22.7 | 0.3704 |",
+      "location": "Table 2, Primary, Secondary, and Exploratory Outcomes in the mITT Population (N = 238)"
+    },
+    {
+      "name": "Primary safety endpoints: nature, frequency, severity, and timing of adverse events (AEs) and serious AEs",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "The primary safety endpoints were the nature, frequency, severity, and timing of adverse events (AEs) and serious AEs (SAE).",
+      "met": "not_applicable",
+      "effect_estimate": "Treatment-emergent AEs well balanced between arms (semorinemab 112/135 [83.0%] vs placebo 107/132 [81.1%]); the document states semorinemab was safe and well tolerated. No statistical threshold is reported for this endpoint.",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The proportion of participants experiencing at least 1 treatment-emergent AE, regardless of causality assessment, were well balanced between treatment arms (). The most commonly reported AEs are listed in .",
+      "location": "Results, adverse events paragraph, first sentences"
+    },
+    {
+      "name": "Secondary endpoint: change from baseline to week 49 in the CDR-SB (mITT population)",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Secondary efficacy endpoints included change from baseline on the MMSE and Clinical Dementia Rating-Sum of Boxes (CDR-SB).",
+      "met": "not_met",
+      "effect_estimate": "0.26 least square mean difference (semorinemab adjusted mean 1.80 vs placebo 1.54); relative reduction −17.2%",
+      "confidence_interval": "95% CI −0.29 to 0.82",
+      "p_value": "0.3501",
+      "multiplicity_controlled": "unclear",
+      "quote": "| Change from baseline to week 49 in the CDR-SB | 109 | 1.80 (1.37 to 2.23) | 101 | 1.54 (1.12 to 1.96) | 0.26 (−0.29 to 0.82) | −17.2 | 0.3501 |",
+      "location": "Table 2, Primary, Secondary, and Exploratory Outcomes in the mITT Population (N = 238)"
+    },
+    {
+      "name": "Secondary endpoint: change from baseline to week 61 in the CDR-SB (cohort 2 only)",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Secondary efficacy endpoints included change from baseline on the MMSE and Clinical Dementia Rating-Sum of Boxes (CDR-SB).",
+      "met": "not_met",
+      "effect_estimate": "0.17 least square mean difference (semorinemab adjusted mean 2.45 vs placebo 2.28); relative reduction −7.6%",
+      "confidence_interval": "95% CI −0.87 to 1.22",
+      "p_value": "0.7431",
+      "multiplicity_controlled": "unclear",
+      "quote": "| Change from baseline to week 61 in the CDR-SB | 40 | 2.45 (1.72 to 3.18) | 33 | 2.28 (1.50 to 3.06) | 0.17 (−0.87 to 1.22) | −7.6 | 0.7431 |",
+      "location": "Table 2, Primary, Secondary, and Exploratory Outcomes in the mITT Population (N = 238)"
+    },
+    {
+      "name": "Secondary endpoint: change from baseline to week 49 in the MMSE (mITT population)",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Secondary efficacy endpoints included change from baseline on the MMSE and Clinical Dementia Rating-Sum of Boxes (CDR-SB).",
+      "met": "not_met",
+      "effect_estimate": "0.27 least square mean difference (semorinemab adjusted mean −2.86 vs placebo −3.12); relative reduction 8.5%",
+      "confidence_interval": "95% CI −0.58 to 1.11",
+      "p_value": "0.5366",
+      "multiplicity_controlled": "unclear",
+      "quote": "| Change from baseline to week 49 in the MMSE | 105 | −2.86 (−3.51 to −2.21) | 97 | −3.12 (−3.76 to −2.48) | 0.27 (−0.58 to 1.11) | 8.5 | 0.5366 |",
+      "location": "Table 2, Primary, Secondary, and Exploratory Outcomes in the mITT Population (N = 238)"
+    },
+    {
+      "name": "Secondary endpoint: change from baseline to week 61 in the MMSE (cohort 2 only)",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Secondary efficacy endpoints included change from baseline on the MMSE and Clinical Dementia Rating-Sum of Boxes (CDR-SB).",
+      "met": "not_met",
+      "effect_estimate": "1.08 least square mean difference (semorinemab adjusted mean −3.14 vs placebo −4.22); relative reduction 25.5%",
+      "confidence_interval": "95% CI −0.15 to 2.30",
+      "p_value": "0.0851",
+      "multiplicity_controlled": "unclear",
+      "quote": "| Change from baseline to week 61 in the MMSE | 39 | −3.14 (−4.00 to −2.29) | 29 | −4.22 (−5.14 to −3.30) | 1.08 (−0.15 to 2.30) | 25.5 | 0.0851 |",
+      "location": "Table 2, Primary, Secondary, and Exploratory Outcomes in the mITT Population (N = 238)"
+    },
+    {
+      "name": "Change from baseline to week 49 in the ADAS-Cog11 in the restricted mITT population (cohorts 1 and 2)",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "The blinded treatment period was extended to account for missed doses, and prespecified analysis of a restricted mITT population yielded results that were very similar to those seen in the mITT population.",
+      "met": "not_applicable",
+      "effect_estimate": "−2.96 points change from baseline in the ADAS-Cog11",
+      "confidence_interval": "95% CI −4.86 to −1.05",
+      "p_value": "p = 0.0025",
+      "multiplicity_controlled": "unclear",
+      "quote": "in the restricted mITT population at week 49 (cohorts 1 and 2: change from baseline to week 49 in the ADAS-Cog11 of −2.96 points, 95% CI −4.86 to −1.05, p = 0.0025; eTable 4",
+      "location": "Results, paragraph following Table 1"
+    },
+    {
+      "name": "Annualized change from baseline in whole cortical gray (WCG) [18F]GTP1 tau PET SUVR",
+      "tier": "exploratory",
+      "prespecified": "yes",
+      "prespecification_evidence": "Change in SUVR from baseline to week 49 or 61 in the whole cortical gray (WCG), cortical lobes, and in vivo Braak regions of interest (ROI) were calculated as exploratory biomarker endpoints.",
+      "met": "not_applicable",
+      "effect_estimate": "0.00 least square mean difference (semorinemab 0.06 vs placebo 0.06); relative reduction 0.2%",
+      "confidence_interval": "95% CI −0.02 to 0.02",
+      "p_value": "0.9941",
+      "multiplicity_controlled": "unclear",
+      "quote": "| Annualized change from baseline in WCG [ 18 F]GTP1 tau PET | 95 | 0.06 (0.04 to 0.08) | 93 | 0.06 (0.04 to 0.08) | 0.00 (−0.02 to 0.02) | 0.2 | 0.9941 |",
+      "location": "Table 2, Primary, Secondary, and Exploratory Outcomes in the mITT Population (N = 238)"
+    },
+    {
+      "name": "Rate of tau accumulation on [18F]GTP1 tau PET, including frontal, parietal, temporal, occipital regions and in vivo Braak stage ROI",
+      "tier": "exploratory",
+      "prespecified": "yes",
+      "prespecification_evidence": "Change in SUVR from baseline to week 49 or 61 in the whole cortical gray (WCG), cortical lobes, and in vivo Braak regions of interest (ROI) were calculated as exploratory biomarker endpoints.",
+      "met": "not_applicable",
+      "effect_estimate": "Annualized rate of change in [18F]GTP1 WCG SUVR similar between treatment arms; regional and Braak ROI analyses yielded analogous results",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The annualized rate of change in [ 18 F]GTP1 WCG SUVR was similar between the treatment arms, suggesting that semorinemab did not alter the rate of tau accumulation and/or spread on this measure",
+      "location": "Results, tau PET paragraph, first sentence"
+    },
+    {
+      "name": "Changes from baseline to week 49 or 61 in ventricular, whole brain, cerebral cortex, and hippocampal volumes on volumetric MRI",
+      "tier": "exploratory",
+      "prespecified": "yes",
+      "prespecification_evidence": "Changes from baseline to week 49 or 61 in ventricular, whole brain, cerebral cortex, and hippocampal volumes were analyzed from T1 images.",
+      "met": "not_applicable",
+      "effect_estimate": "Significant longitudinal declines in whole brain, cerebral cortex and hippocampal volumes and increases in ventricular volume across arms, with no differences between semorinemab and placebo in rates of cerebral atrophy",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Volumetric MRI analyses demonstrated significant longitudinal declines in whole brain, cerebral cortex, and hippocampal volumes and concomitant increases in ventricular volume across treatment arms. There were no differences between semorinemab and placebo in rates of cerebral atrophy on any measure",
+      "location": "Results, volumetric MRI paragraph"
+    },
+    {
+      "name": "Plasma total tau and plasma ptau217 levels",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "Increased substantially (>20-fold) compared with baseline in semorinemab-treated participants and remained elevated over the course of treatment",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "In participants treated with semorinemab, plasma total tau and plasma ptau217 levels increased substantially (>20-fold) compared with those in baseline, consistent with strong peripheral target engagement observed in previous studies",
+      "location": "Results, biomarker paragraph, first sentence"
+    },
+    {
+      "name": "CSF total tau, ptau181, ptau217 and N-terminal tau",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "Significant reduction in CSF total tau, ptau181 and ptau217 with semorinemab but not placebo; no significant change from baseline in N-terminal tau in either group",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "A significant reduction in CSF total tau, ptau181, and ptau217 was observed with semorinemab but not with placebo, and no significant change from baseline was observed for N-terminal tau in either treatment group",
+      "location": "Results, biomarker paragraph, final sentence"
+    },
+    {
+      "name": "Semorinemab serum and CSF pharmacokinetics and antidrug antibodies",
+      "tier": "secondary",
+      "prespecified": "yes",
+      "prespecification_evidence": "blood collection (for safety outcomes and semorinemab serum pharmacokinetics and detection of antidrug antibodies), and MRI were performed at different time points",
+      "met": "not_applicable",
+      "effect_estimate": "Serum trough concentrations reached steady state around 4 weeks; mean CSF/serum semorinemab ratio 0.29% (SD 0.13); antidrug antibodies not detected",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The mean CSF/serum semorinemab ratio was 0.29% (SD 0.13), consistent with CSF:serum ratios observed in previous studies. , Antidrug antibodies to semorinemab were not detected.",
+      "location": "Results, pharmacokinetics paragraph, final sentences"
+    },
+    {
+      "name": "Prespecified subgroup analyses of the primary and secondary endpoints by baseline tau burden (WCG SUVR ≥1.39 vs <1.39), baseline disease severity (MMSE 16–18 vs 19–21), and APOEε4 carrier status",
+      "tier": "subgroup",
+      "prespecified": "yes",
+      "prespecification_evidence": "Additional prespecified subgroup analyses included the following: (1) baseline tau burden (with subgroups defined as (i) high: WCG SUVR ≥1.39, the median value for all 264 participants who had a baseline [ 18 F]GTP1 scan",
+      "met": "not_applicable",
+      "effect_estimate": "Consistent with the overall group results; the ADAS-Cog11 treatment effect was maintained in all 3 prespecified subgroup analyses",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Prespecified subgroup analyses (i.e., baseline tau burden high vs low, baseline disease severity MMSE score 16–18 vs MMSE score 19–21, and APOEε4 carrier vs noncarrier) for the primary and secondary endpoints were consistent with the overall group results (eFigure 3).",
+      "location": "Results, paragraph following Table 1, final sentence"
+    },
+    {
+      "name": "Post hoc analysis of ADAS-Cog11 domains and items",
+      "tier": "post_hoc",
+      "prespecified": "no",
+      "prespecification_evidence": "A post hoc analysis of the ADAS-Cog11 domains and items showed that the effect observed on the ADAS-Cog11 was primarily driven by the memory domain",
+      "met": "not_applicable",
+      "effect_estimate": "Effect primarily driven by the memory domain; within that domain the largest effect was in the 'word recognition' item",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "A post hoc analysis of the ADAS-Cog11 domains and items showed that the effect observed on the ADAS-Cog11 was primarily driven by the memory domain; within the memory domain, the largest effect was observed in the “word recognition” item",
+      "location": "Results, paragraph following Figure 2"
+    },
+    {
+      "name": "Post hoc domain analyses of the ADCS-ADL, MMSE and CDR-SB",
+      "tier": "post_hoc",
+      "prespecified": "no",
+      "prespecification_evidence": "Similar post hoc domain analyses in the ADCS-ADL, MMSE, and CDR-SB did not reveal differences between treatment groups (eFigure 5–7).",
+      "met": "not_applicable",
+      "effect_estimate": "No differences between treatment groups",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Similar post hoc domain analyses in the ADCS-ADL, MMSE, and CDR-SB did not reveal differences between treatment groups (eFigure 5–7).",
+      "location": "Results, paragraph following Figure 2, final sentence"
+    },
+    {
+      "name": "Sensitivity analysis of missing data restricted to participants who completed week 49 clinical assessments",
+      "tier": "exploratory",
+      "prespecified": "yes",
+      "prespecification_evidence": "Sensitivity analyses exploring the effects of missing data included only participants who completed week 49 clinical assessments and yielded similar results to the primary results.",
+      "met": "not_applicable",
+      "effect_estimate": "Yielded similar results to the primary results",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Sensitivity analyses exploring the effects of missing data included only participants who completed week 49 clinical assessments and yielded similar results to the primary results.",
+      "location": "Methods, Statistical Analysis, second paragraph"
+    }
+  ],
+  "primary_endpoint_status": {
+    "status": "not_met",
+    "explanation": "The two coprimary endpoints split: the ADAS-Cog11 showed a 42.2% reduction in cognitive decline at week 49 (−2.89 points, 95% CI −4.56 to −1.21, p = 0.0008) while the functional coprimary ADCS-ADL showed no treatment effect (−0.83 points, 95% CI −3.39 to 1.72, p = 0.52), and the document itself concludes that on the prespecified coprimary endpoints the study was negative.",
+    "quote": "Based on the results of the prespecified coprimary endpoints, this study was negative. While semorinemab had a significant effect on cognition measured by the ADAS-Cog11, this effect did not extend to improved functional or global outcomes."
+  },
+  "multiplicity": {
+    "approach": "none stated — the document describes no multiple-comparison adjustment; it reports a 2-sided α = 0.2 significance level for the sample size calculation, coprimary endpoints requiring both cognitive and functional measures, and a prespecified interim futility analysis at approximately 40% completion",
+    "quote": "This calculation assumed an average decline of 6 points in ADAS-Cog11 for placebo-treated participants, an SD across participants of 7.5, a dropout rate of 10%, and a 2-sided α = 0.2 significance level.",
+    "location": "Methods, Statistical Analysis, first paragraph"
+  },
+  "safety": {
+    "harms": [
+      {
+        "name": "Patients with ≥1 AE (treatment-emergent adverse event)",
+        "arm": "semorinemab 4,500 mg",
+        "count": "112",
+        "denominator": "135",
+        "percentage": "83.0",
+        "apoe_stratum": null,
+        "quote": "| Patients with ≥1 AE | 112 (83.0) | 107 (81.1) |",
+        "location": "Table 3, Summary of Treatment-Emergent AEs in Safety Evaluable Population (n = 267)"
+      },
+      {
+        "name": "Patients with ≥1 AE (treatment-emergent adverse event)",
+        "arm": "placebo",
+        "count": "107",
+        "denominator": "132",
+        "percentage": "81.1",
+        "apoe_stratum": null,
+        "quote": "| Patients with ≥1 AE | 112 (83.0) | 107 (81.1) |",
+        "location": "Table 3, Summary of Treatment-Emergent AEs in Safety Evaluable Population (n = 267)"
+      },
+      {
+        "name": "Patients with ≥1 serious AE",
+        "arm": "semorinemab 4,500 mg",
+        "count": "23",
+        "denominator": "135",
+        "percentage": "17.0",
+        "apoe_stratum": null,
+        "quote": "| Patients with ≥1 serious AE | 23 (17.0) | 23 (17.4) |",
+        "location": "Table 3, Summary of Treatment-Emergent AEs in Safety Evaluable Population (n = 267)"
+      },
+      {
+        "name": "Patients with ≥1 serious AE",
+        "arm": "placebo",
+        "count": "23",
+        "denominator": "132",
+        "percentage": "17.4",
+        "apoe_stratum": null,
+        "quote": "| Patients with ≥1 serious AE | 23 (17.0) | 23 (17.4) |",
+        "location": "Table 3, Summary of Treatment-Emergent AEs in Safety Evaluable Population (n = 267)"
+      },
+      {
+        "name": "Death",
+        "arm": "semorinemab 4,500 mg",
+        "count": "1",
+        "denominator": "135",
+        "percentage": "0.7",
+        "apoe_stratum": null,
+        "quote": "| Deaths | 1 (0.7) | 3 (2.3) |\n| Patients with ≥1 AE add: related to study drug | 13 (9.6) | 14 (10.6) |",
+        "location": "Table 3, Summary of Treatment-Emergent AEs in Safety Evaluable Population (n = 267)"
+      },
+      {
+        "name": "Death",
+        "arm": "placebo",
+        "count": "3",
+        "denominator": "132",
+        "percentage": "2.3",
+        "apoe_stratum": null,
+        "quote": "| Deaths | 1 (0.7) | 3 (2.3) |\n| Patients with ≥1 AE add: related to study drug | 13 (9.6) | 14 (10.6) |",
+        "location": "Table 3, Summary of Treatment-Emergent AEs in Safety Evaluable Population (n = 267)"
+      },
+      {
+        "name": "Death (double-blind treatment period and/or safety follow-up period; none assessed as related to study drug)",
+        "arm": "both arms (1 semorinemab [unexplained death]; 3 placebo [2 unexplained deaths; 1 because of COVID])",
+        "count": "4",
+        "denominator": "267 (safety evaluable population)",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "participants died during the double-blind treatment period and/or during the safety follow-up period; none assessed as related to the study drug (1 in the semorinemab arm [unexplained death], 3 in the placebo arm [2 unexplained deaths; 1 because of COVID]).",
+        "location": "Results, SAE paragraph, final sentence"
+      },
+      {
+        "name": "Patients with ≥1 grade ≥3 AEs",
+        "arm": "semorinemab 4,500 mg",
+        "count": "29",
+        "denominator": "135",
+        "percentage": "21.5",
+        "apoe_stratum": null,
+        "quote": "| Patients with ≥1 grade ≥3 AEs | 29 (21.5) | 21 (15.9%) |",
+        "location": "Table 3, Summary of Treatment-Emergent AEs in Safety Evaluable Population (n = 267)"
+      },
+      {
+        "name": "Patients with ≥1 grade ≥3 AEs",
+        "arm": "placebo",
+        "count": "21",
+        "denominator": "132",
+        "percentage": "15.9%",
+        "apoe_stratum": null,
+        "quote": "| Patients with ≥1 grade ≥3 AEs | 29 (21.5) | 21 (15.9%) |",
+        "location": "Table 3, Summary of Treatment-Emergent AEs in Safety Evaluable Population (n = 267)"
+      },
+      {
+        "name": "Grade ≥3 AEs (proportion by arm, as stated in the text)",
+        "arm": "semorinemab 4,500 mg vs placebo",
+        "count": null,
+        "denominator": null,
+        "percentage": "semorinemab 22%; placebo 16%",
+        "apoe_stratum": null,
+        "quote": "Grade ≥3 AEs were reported slightly more frequently with the semorinemab arm (22%) relative to the placebo (16%) arm",
+        "location": "Results, adverse events paragraph"
+      },
+      {
+        "name": "Grade ≥3 fall",
+        "arm": "semorinemab 4,500 mg and placebo",
+        "count": "1 patient in placebo, 3 patients in semorinemab",
+        "denominator": "semorinemab 135; placebo 132 (safety evaluable population)",
+        "percentage": "placebo 0.8%; semorinemab 2.2%",
+        "apoe_stratum": null,
+        "quote": "the most common Grade ≥ 3 AEs were fall (1 [0.8%] patient in placebo, 3 [2.2%] patients in semorinemab), and agitation (3 [2.3%] patients in placebo, 1 [0.7%] patient in semorinemab)",
+        "location": "Results, adverse events paragraph"
+      },
+      {
+        "name": "Grade ≥3 agitation",
+        "arm": "semorinemab 4,500 mg and placebo",
+        "count": "3 patients in placebo, 1 patient in semorinemab",
+        "denominator": "semorinemab 135; placebo 132 (safety evaluable population)",
+        "percentage": "placebo 2.3%; semorinemab 0.7%",
+        "apoe_stratum": null,
+        "quote": "and agitation (3 [2.3%] patients in placebo, 1 [0.7%] patient in semorinemab). Eleven participants (6 in the semorinemab arm, 5 in the placebo arm) discontinued the study because of a nonfatal AE",
+        "location": "Results, adverse events paragraph"
+      },
+      {
+        "name": "Patients who discontinued because of a nonfatal AE",
+        "arm": "semorinemab 4,500 mg",
+        "count": "6",
+        "denominator": "135",
+        "percentage": "4.4",
+        "apoe_stratum": null,
+        "quote": "| Patients who discontinued because of a nonfatal AE | 6 (4.4) | 5 (3.8) |",
+        "location": "Table 3, Summary of Treatment-Emergent AEs in Safety Evaluable Population (n = 267)"
+      },
+      {
+        "name": "Patients who discontinued because of a nonfatal AE",
+        "arm": "placebo",
+        "count": "5",
+        "denominator": "132",
+        "percentage": "3.8",
+        "apoe_stratum": null,
+        "quote": "| Patients who discontinued because of a nonfatal AE | 6 (4.4) | 5 (3.8) |",
+        "location": "Table 3, Summary of Treatment-Emergent AEs in Safety Evaluable Population (n = 267)"
+      },
+      {
+        "name": "Patients with ≥1 AE related to study drug",
+        "arm": "semorinemab 4,500 mg",
+        "count": "13",
+        "denominator": "135",
+        "percentage": "9.6",
+        "apoe_stratum": null,
+        "quote": "| Patients with ≥1 AE add: related to study drug | 13 (9.6) | 14 (10.6) |",
+        "location": "Table 3, Summary of Treatment-Emergent AEs in Safety Evaluable Population (n = 267)"
+      },
+      {
+        "name": "Patients with ≥1 AE related to study drug",
+        "arm": "placebo",
+        "count": "14",
+        "denominator": "132",
+        "percentage": "10.6",
+        "apoe_stratum": null,
+        "quote": "| Patients with ≥1 AE add: related to study drug | 13 (9.6) | 14 (10.6) |",
+        "location": "Table 3, Summary of Treatment-Emergent AEs in Safety Evaluable Population (n = 267)"
+      },
+      {
+        "name": "Fall",
+        "arm": "semorinemab 4,500 mg",
+        "count": "14",
+        "denominator": "135",
+        "percentage": "10.4",
+        "apoe_stratum": null,
+        "quote": "| Fall | 14 (10.4) | 19 (14.4) |\n| Urinary tract infection | 11 (8.1) | 16 (12.1) |",
+        "location": "Table 3, AEs reported in ≥5% of patients"
+      },
+      {
+        "name": "Fall",
+        "arm": "placebo",
+        "count": "19",
+        "denominator": "132",
+        "percentage": "14.4",
+        "apoe_stratum": null,
+        "quote": "| Fall | 14 (10.4) | 19 (14.4) |\n| Urinary tract infection | 11 (8.1) | 16 (12.1) |",
+        "location": "Table 3, AEs reported in ≥5% of patients"
+      },
+      {
+        "name": "Infusion-related reaction",
+        "arm": "semorinemab 4,500 mg",
+        "count": "14",
+        "denominator": "135",
+        "percentage": "10.4",
+        "apoe_stratum": null,
+        "quote": "| Infusion-related reaction | 14 (10.4) | 5 (3.8) |",
+        "location": "Table 3, AEs reported in ≥5% of patients"
+      },
+      {
+        "name": "Infusion-related reaction",
+        "arm": "placebo",
+        "count": "5",
+        "denominator": "132",
+        "percentage": "3.8",
+        "apoe_stratum": null,
+        "quote": "| Infusion-related reaction | 14 (10.4) | 5 (3.8) |",
+        "location": "Table 3, AEs reported in ≥5% of patients"
+      },
+      {
+        "name": "Urinary tract infection",
+        "arm": "semorinemab 4,500 mg",
+        "count": "11",
+        "denominator": "135",
+        "percentage": "8.1",
+        "apoe_stratum": null,
+        "quote": "| Urinary tract infection | 11 (8.1) | 16 (12.1) |",
+        "location": "Table 3, AEs reported in ≥5% of patients"
+      },
+      {
+        "name": "Urinary tract infection",
+        "arm": "placebo",
+        "count": "16",
+        "denominator": "132",
+        "percentage": "12.1",
+        "apoe_stratum": null,
+        "quote": "| Urinary tract infection | 11 (8.1) | 16 (12.1) |",
+        "location": "Table 3, AEs reported in ≥5% of patients"
+      },
+      {
+        "name": "Anxiety",
+        "arm": "semorinemab 4,500 mg",
+        "count": "9",
+        "denominator": "135",
+        "percentage": "6.7",
+        "apoe_stratum": null,
+        "quote": "| Anxiety | 9 (6.7) | 12 (9.1) |\n| Headache | 11 (8.1) | 9 (6.8) |\n| Infusion-related reaction | 14 (10.4) | 5 (3.8) |",
+        "location": "Table 3, AEs reported in ≥5% of patients"
+      },
+      {
+        "name": "Anxiety",
+        "arm": "placebo",
+        "count": "12",
+        "denominator": "132",
+        "percentage": "9.1",
+        "apoe_stratum": null,
+        "quote": "| Anxiety | 9 (6.7) | 12 (9.1) |\n| Headache | 11 (8.1) | 9 (6.8) |\n| Infusion-related reaction | 14 (10.4) | 5 (3.8) |",
+        "location": "Table 3, AEs reported in ≥5% of patients"
+      },
+      {
+        "name": "Headache",
+        "arm": "semorinemab 4,500 mg",
+        "count": "11",
+        "denominator": "135",
+        "percentage": "8.1",
+        "apoe_stratum": null,
+        "quote": "| Headache | 11 (8.1) | 9 (6.8) |\n| Infusion-related reaction | 14 (10.4) | 5 (3.8) |",
+        "location": "Table 3, AEs reported in ≥5% of patients"
+      },
+      {
+        "name": "Headache",
+        "arm": "placebo",
+        "count": "9",
+        "denominator": "132",
+        "percentage": "6.8",
+        "apoe_stratum": null,
+        "quote": "| Headache | 11 (8.1) | 9 (6.8) |\n| Infusion-related reaction | 14 (10.4) | 5 (3.8) |",
+        "location": "Table 3, AEs reported in ≥5% of patients"
+      },
+      {
+        "name": "Depression",
+        "arm": "semorinemab 4,500 mg",
+        "count": "10",
+        "denominator": "135",
+        "percentage": "7.4",
+        "apoe_stratum": null,
+        "quote": "| Depression | 10 (7.4) | 6 (4.5) |\n| Hypertension | 8 (5.9) | 5 (3.8) |",
+        "location": "Table 3, AEs reported in ≥5% of patients"
+      },
+      {
+        "name": "Depression",
+        "arm": "placebo",
+        "count": "6",
+        "denominator": "132",
+        "percentage": "4.5",
+        "apoe_stratum": null,
+        "quote": "| Depression | 10 (7.4) | 6 (4.5) |\n| Hypertension | 8 (5.9) | 5 (3.8) |",
+        "location": "Table 3, AEs reported in ≥5% of patients"
+      },
+      {
+        "name": "Nasopharyngitis",
+        "arm": "semorinemab 4,500 mg",
+        "count": "9",
+        "denominator": "135",
+        "percentage": "6.7",
+        "apoe_stratum": null,
+        "quote": "| Nasopharyngitis | 9 (6.7) | 3 (2.3) |\n| Insomnia | 7 (5.2) | 3 (2.3) |",
+        "location": "Table 3, AEs reported in ≥5% of patients"
+      },
+      {
+        "name": "Nasopharyngitis",
+        "arm": "placebo",
+        "count": "3",
+        "denominator": "132",
+        "percentage": "2.3",
+        "apoe_stratum": null,
+        "quote": "| Nasopharyngitis | 9 (6.7) | 3 (2.3) |\n| Insomnia | 7 (5.2) | 3 (2.3) |",
+        "location": "Table 3, AEs reported in ≥5% of patients"
+      },
+      {
+        "name": "Systemic infusion reaction AEs (chills, dizziness, headache, hypertension/blood pressure increased)",
+        "arm": "semorinemab 4,500 mg and placebo",
+        "count": "chills (semorinemab: 3; placebo: 0), dizziness (semorinemab: 2; placebo: 0), headache (semorinemab: 2; placebo: 0), hypertension/blood pressure increased (semorinemab: 3; placebo: 2)",
+        "denominator": "semorinemab 135; placebo 132 (safety evaluable population)",
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "The most frequently reported systemic infusion reaction AEs were chills (semorinemab: 3; placebo: 0), dizziness (semorinemab: 2; placebo: 0), headache (semorinemab: 2; placebo: 0), and hypertension/blood pressure increased (semorinemab: 3; placebo: 2).",
+        "location": "Results, adverse events paragraph, final sentence"
+      },
+      {
+        "name": "Vasogenic edema",
+        "arm": "both arms",
+        "count": "0 (no reports)",
+        "denominator": null,
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "consisting mainly of microhemorrhages, but rates in both arms were within expected background rates. There were no reports of vasogenic edema (eTable 7, links.lww.com/WNL/D41 ).",
+        "location": "Results, MRI abnormalities paragraph"
+      },
+      {
+        "name": "MRI abnormalities (mainly microhemorrhages)",
+        "arm": "both arms; slightly higher rates in the placebo arm than in the semorinemab arm",
+        "count": null,
+        "denominator": null,
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "MRI abnormalities during the double-blind treatment period occurred at slightly higher rates in the placebo arm than in the semorinemab arm, consisting mainly of microhemorrhages, but rates in both arms were within expected background rates.",
+        "location": "Results, MRI abnormalities paragraph, first sentence"
+      }
+    ],
+    "apoe_stratification_reported": false,
+    "serious_adverse_events": {
+      "value": "23 (17.0%) in the semorinemab arm and 23 (17.4%) in the placebo arm; well balanced between arms and none considered related to study drug",
+      "quote": "SAEs were well balanced between arms, and none were considered related to study drug (for more details on the most frequently reported SAEs, see eTable 6, links.lww.com/WNL/D41 ).",
+      "location": "Results, SAE paragraph, first sentence; counts in Table 3"
+    },
+    "deaths": {
+      "value": "Four deaths: 1 in the semorinemab arm (unexplained death) and 3 in the placebo arm (2 unexplained deaths; 1 because of COVID); none assessed as related to study drug",
+      "quote": "participants died during the double-blind treatment period and/or during the safety follow-up period; none assessed as related to the study drug (1 in the semorinemab arm [unexplained death], 3 in the placebo arm [2 unexplained deaths; 1 because of COVID]).",
+      "location": "Results, SAE paragraph, final sentence"
+    },
+    "discontinuations": {
+      "value": "Overall discontinuation rate during the placebo-controlled treatment period was 24%, with reasons well balanced across arms; 11 participants (6 semorinemab, 5 placebo) discontinued the study because of a nonfatal AE, none assessed as related to study drug",
+      "quote": "Eleven participants (6 in the semorinemab arm, 5 in the placebo arm) discontinued the study because of a nonfatal AE; none were assessed as related to study drug.",
+      "location": "Results, adverse events paragraph"
+    }
+  },
+  "funding": [
+    "This work was supported by Genentech, Inc."
+  ],
+  "conflicts": [
+    "All authors are employees of Genentech, Inc. and shareholders in F. Hoffmann La Roche, Ltd. Go to Neurology.org/N for full disclosures.",
+    "The sponsor formed an unblinded data monitoring committee (independent from the study team) that reviewed and monitored safety data for potential concerns",
+    "During the double-blind period of the study, participants, investigators, and the sponsor study team were blinded to treatment allocation"
+  ],
+  "limitations": [
+    "The COVID-19 pandemic contributed to missed doses and/or remote or missed clinical assessments for some participants; there might be unknown effects of the pandemic on the results that were not assessed by the preplanned sensitivity analyses",
+    "The relatively small sample size may restrict the generalizability of the findings",
+    "The lack of racial and ethnic diversity in the study cohort may restrict the generalizability of the findings",
+    "The observed ADAS-Cog11 treatment effect, given the absence of treatment effects on any of the other clinical endpoints, may represent a false-positive result",
+    "The possible cognitive benefit did not extend to improved functional or global outcomes and therefore may not meet the established regulatory standards for a disease-modifying drug for AD"
+  ],
+  "risk_of_bias": [
+    {
+      "domain": "sponsor conduct, authorship and analysis",
+      "judgement": "The study was funded by Genentech, Inc., and every listed author is an employee of Genentech and a shareholder in F. Hoffmann La Roche; sponsor staff performed the statistical analysis and study supervision, and the sponsor formed the data monitoring committee.",
+      "quote": "All authors are employees of Genentech, Inc. and shareholders in F. Hoffmann La Roche, Ltd. Go to Neurology.org/N for full disclosures."
+    },
+    {
+      "domain": "liberal type I error rate / multiplicity",
+      "judgement": "The sample size calculation used a 2-sided α = 0.2 significance level, far more permissive than conventional α = 0.05, and the document describes no adjustment for the multiple endpoints, two time points (week 49 and week 61) and three subgroup analyses reported.",
+      "quote": "a dropout rate of 10%, and a 2-sided α = 0.2 significance level"
+    },
+    {
+      "domain": "attrition and protocol change during conduct",
+      "judgement": "The overall discontinuation rate during the placebo-controlled period was 24%, and 34 of 272 randomized participants were excluded from the mITT population (272 randomized, 238 analysed); the protocol was amended mid-study in April 2020 to create two cohorts with different treatment durations.",
+      "quote": "The overall discontinuation rate during the placebo-controlled treatment period (excluding safety follow-up) was 24%; reasons for study discontinuation were well balanced across the 2 treatment arms."
+    },
+    {
+      "domain": "COVID-19 disruption of drug exposure",
+      "judgement": "Between March 2020 and the end of the double-blind period, 110 participants missed a total of 397 doses, with 45 cohort 2 participants missing 3 or more doses; the document argues serum exposure was negligibly affected, and analyses in the main manuscript use the mITT rather than the restricted mITT population.",
+      "quote": "Between March 2020 and the end of the double-blind treatment period, 110 participants missed a total of 397 doses; in cohort 2 (i.e., participants who missed 1 or more doses during the double-blind portion of the study), 45 participants missed 3 or more doses"
+    },
+    {
+      "domain": "isolated positive endpoint / risk of false-positive",
+      "judgement": "The document itself raises that the single positive coprimary result, driven post hoc by one item of one domain, may be a false positive given the absence of effects on all other clinical endpoints.",
+      "quote": "Alternatively, the observed ADAS-Cog11 treatment effect, given the absence of treatment effects on any of the other clinical endpoints, may represent a false-positive result."
+    },
+    {
+      "domain": "generalizability",
+      "judgement": "Participants were predominantly non-Hispanic White (White: 109/123 semorinemab, 101/115 placebo), and the document states the lack of racial and ethnic diversity and the relatively small sample size may restrict generalizability.",
+      "quote": "The relatively small sample size and lack of racial and ethnic diversity in the study cohort may also restrict the generalizability of our findings."
+    },
+    {
+      "domain": "remote outcome assessment",
+      "judgement": "Because of the COVID-19 pandemic, CDR and/or ADCS-ADL assessments could be performed by telephone, introducing heterogeneity in the administration of the functional coprimary and a secondary endpoint; the document does not report how many assessments were remote.",
+      "quote": "Because of the COVID-19 pandemic, the option to perform CDR and/or ADCS-ADL assessments through telephone was included."
+    }
+  ],
+  "disagreements": [
+    {
+      "question": "Was the Lauriet study positive or negative on its coprimary endpoints?",
+      "position": "Negative. Despite a statistically significant ADAS-Cog11 result, the document states that on the prespecified coprimary endpoints the study was negative because the cognitive effect did not extend to functional or global outcomes.",
+      "attributed_to": "Monteiro et al., the Lauriet investigators (this document)",
+      "quote": "Based on the results of the prespecified coprimary endpoints, this study was negative. While semorinemab had a significant effect on cognition measured by the ADAS-Cog11, this effect did not extend to improved functional or global outcomes."
+    },
+    {
+      "question": "Does semorinemab slow functional decline in mild-to-moderate AD?",
+      "position": "No — the document classifies its own finding as Class I evidence that semorinemab does not slow functional decline in patients with mild-to-moderate AD.",
+      "attributed_to": "Monteiro et al., the Lauriet investigators (this document), under the journal's Classification of Evidence scheme",
+      "quote": "This study provides Class I evidence that semorinemab does not slow functional decline in patients with mild-to-moderate AD."
+    },
+    {
+      "question": "Is the observed ADAS-Cog11 benefit real or a false positive?",
+      "position": "The document holds both readings open: it argues the effect was consistent across subgroups, at week 61 and in the restricted mITT population, while explicitly stating the effect may represent a false-positive result given the absence of effects on every other clinical endpoint.",
+      "attributed_to": "Monteiro et al., the Lauriet investigators (this document)",
+      "quote": "Alternatively, the observed ADAS-Cog11 treatment effect, given the absence of treatment effects on any of the other clinical endpoints, may represent a false-positive result."
+    },
+    {
+      "question": "Might N-terminal tau-targeted antibodies be more effective at later disease stages than in prodromal-to-mild AD?",
+      "position": "The document raises this as a possibility, noting Tauriel, gosuranemab, tilavonemab and zagotenemab all failed in prodromal-to-mild AD and none of the other molecules have been studied in mild-to-moderate AD.",
+      "attributed_to": "Monteiro et al., the Lauriet investigators (this document)",
+      "quote": "When considered in the context of these prior results, our data raise the possibility that N-terminal tau–targeted therapies might be more effective at later disease stages."
+    },
+    {
+      "question": "Does semorinemab work through the mechanism originally hypothesised (blocking tau spread and NFT accumulation)?",
+      "position": "No. Semorinemab had no effect on NFT accumulation measured by tau PET or on cerebral atrophy, so the document proposes instead that any benefit may come from reducing soluble toxic tau species — a revision of the original therapeutic hypothesis.",
+      "attributed_to": "Monteiro et al., the Lauriet investigators (this document)",
+      "quote": "these results suggest that semorinemab could be alleviating cognitive dysfunction by reducing the amount of soluble tau toxic species"
+    },
+    {
+      "question": "Do the different results of Tauriel and Lauriet reflect the disease stage of the populations studied?",
+      "position": "The document proposes that the more severe baseline cognitive and functional deficits in Lauriet relative to Tauriel might explain why the two studies yielded different results.",
+      "attributed_to": "Monteiro et al., the Lauriet investigators (this document)",
+      "quote": "These differences in the studies' populations might explain why they yielded different results."
+    },
+    {
+      "question": "Should semorinemab or other anti-tau therapies be developed further in this population?",
+      "position": "The document argues the results may warrant further exploration of semorinemab or other anti-tau therapies in mild-to-moderate AD, including combination with anti-Aβ antibodies, while conceding the cognitive benefit may not meet regulatory standards for a disease-modifying drug.",
+      "attributed_to": "Monteiro et al., the Lauriet investigators (this document)",
+      "quote": "these results may warrant further exploration of semorinemab or other anti-tau therapies in this population. Combining semorinemab or other anti-tau therapies with other disease-modifying drugs such as anti-Aβ antibodies , may be of particular interest."
+    }
+  ],
+  "linked_objects": [
+    {
+      "relation": "registry_record",
+      "identifier": "NCT03828747",
+      "note": "ClinicalTrials.gov registration for the Lauriet study; results have been posted to clinicaltrials.gov and EudraCT"
+    },
+    {
+      "relation": "registry_record",
+      "identifier": "EudraCT 2018-003398-87",
+      "note": "EudraCT registration for the Lauriet study, given in the Trial Registration Information section"
+    },
+    {
+      "relation": "registry_record",
+      "identifier": "NCT03289143",
+      "note": "ClinicalTrials.gov identifier for the companion Tauriel phase 2 study in prodromal-to-mild AD, cited by this document for comparison"
+    },
+    {
+      "relation": "registry_record",
+      "identifier": "NCT02820896",
+      "note": "ClinicalTrials.gov identifier for the phase 1 study of semorinemab in healthy volunteers and participants with mild-to-moderate AD, cited by this document"
+    },
+    {
+      "relation": "published_version_of",
+      "identifier": "10.1212/WNL.0000000000207663",
+      "note": "DOI of this document (Neurology); also indexed as PMID 37643887 and PMCID PMC10573141. The footnotes note an accompanying Editorial, page 593, whose identifier is not given."
+    }
+  ],
+  "trial_status_observation": {
+    "status": null,
+    "enrollment": null,
+    "phase": null,
+    "observed_at": null,
+    "source": null
+  },
+  "unlocatable_fields": [
+    "authors[].orcid",
+    "authors[].corresponding (no corresponding author is identified in the retrieved text)",
+    "safety.harms[ARIA-E] (the document does not use the term ARIA; it reports that there were no reports of vasogenic edema)",
+    "safety.harms[ARIA-H] (the document does not use the term ARIA-H; MRI abnormalities consisting mainly of microhemorrhages are reported without counts by arm)",
+    "safety.harms[symptomatic ARIA] (not reported)",
+    "safety.harms[macrohemorrhage] (not reported)",
+    "safety.harms[MRI abnormalities].count, .denominator and .percentage by arm (referred to eTable 7, which is not in the retrieved document)",
+    "safety.harms[systemic infusion reaction AEs].percentage",
+    "safety.apoe_stratification_reported — APOEε4 status was a randomization stratum and an efficacy subgroup, but no safety outcome is reported by APOE genotype",
+    "outcomes[exploratory: plasma and CSF tau].prespecification_evidence (the document does not state whether the plasma/CSF tau species analyses were prespecified)",
+    "outcomes[exploratory: plasma and CSF tau].effect_estimate numeric values, confidence intervals and p-values (only direction and significance are stated; figures are referenced but not reproduced)",
+    "outcomes[primary].multiplicity_controlled (the document does not state whether the coprimary comparisons sat inside any multiplicity-control scheme)",
+    "study.n by arm for the randomized population (Table 1 gives mITT arm sizes of 123 semorinemab and 115 placebo; randomized arm sizes are referred to eTable 1)",
+    "trial_status_observation.status",
+    "trial_status_observation.enrollment",
+    "trial_status_observation.phase",
+    "trial_status_observation.observed_at",
+    "trial_status_observation.source"
+  ],
+  "_meta": {
+    "model": "claude (builder subagent)",
+    "extracted_at": "2026-08-13T00:00:00Z",
+    "source": "raw/semorinemab-lauriet/document.md"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "verubecestat-apecs",
+  "cluster": "bace",
+  "checked_at": "2026-08-13T17:02:32.920Z",
+  "passed": true,
+  "text_sufficiency": {
+    "level": "full-text",
+    "chars": 26679,
+    "sections": [
+      "method",
+      "result",
+      "discussion",
+      "statistical analysis",
+      "outcome"
+    ]
+  },
+  "evidence_completeness": "full-text-oa",
+  "failures": [],
+  "warnings": [
+    {
+      "gate": "fidelity",
+      "detail": "1 adjudicated ruling(s) could not be applied automatically and need a hand edit: safety.harms[death].counts"
+    }
+  ],
+  "manifest_discrepancies": [
+    {
+      "field": "n",
+      "work_order_says": 1451,
+      "source_says": 1454,
+      "detail": "work order states N=1451; the retrieved document states N=1454. The document wins."
+    }
+  ]
+}

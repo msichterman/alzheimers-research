@@ -1,6 +1,7 @@
 import { createHash } from "node:crypto";
 import { spawn } from "node:child_process";
 import {
+  appendFileSync,
   existsSync,
   mkdirSync,
   readFileSync,
@@ -18,12 +19,15 @@ export const ENRICHED_DIR = join(ROOT, "enriched");
 export const DOCS_DIR = join(ROOT, "docs");
 export const PROMPTS_DIR = join(ROOT, "pipeline", "prompts");
 
-export const MODEL = process.env.PIPELINE_MODEL || "sonnet";
+// Vertex, not the `google` provider: OpenCode's Gemini OAuth lane needs the
+// Gemini for Google Cloud API, which is off on flamel-os. Vertex runs on the
+// same project through ADC and is already configured in ~/.config/opencode.
+export const MODEL = process.env.PIPELINE_MODEL || "google-vertex/gemini-3.1-pro-preview";
 export const MAX_TURNS = Number(process.env.PIPELINE_MAX_TURNS || 60);
 export const STAGE_TIMEOUT_MS = Number(
   process.env.PIPELINE_TIMEOUT_MS || 15 * 60 * 1000,
 );
-export const CONCURRENCY = Number(process.env.PIPELINE_CONCURRENCY || 2);
+export const CONCURRENCY = Number(process.env.PIPELINE_CONCURRENCY || 1);
 
 export function log(id, message) {
   const stamp = new Date().toISOString().slice(11, 19);
@@ -143,14 +147,11 @@ export async function runAgent(prompt, { id, stage, logPath }) {
 function claudePrint(prompt, { id, stage, logPath }) {
   return new Promise((resolvePromise, reject) => {
     const args = [
-      "-p",
-      "--output-format", "json",
-      "--model", MODEL,
-      "--max-turns", String(MAX_TURNS),
-      "--allowed-tools", "WebSearch,WebFetch,Read",
-      "--strict-mcp-config",
+      "run",
+      "-m", MODEL,
+      "--format", "json",
     ];
-    const child = spawn("claude", args, {
+    const child = spawn("opencode", args, {
       cwd: ROOT,
       stdio: ["pipe", "pipe", "pipe"],
     });
@@ -161,8 +162,34 @@ function claudePrint(prompt, { id, stage, logPath }) {
       reject(new Error(`${stage} timed out after ${STAGE_TIMEOUT_MS / 60000} min`));
     }, STAGE_TIMEOUT_MS);
 
-    child.stdout.on("data", (chunk) => (stdout += chunk));
-    child.stderr.on("data", (chunk) => (stderr += chunk));
+    if (logPath) {
+      ensureDir(dirname(logPath));
+      writeFileSync(logPath, `--- args ---\n${args.join(" ")}\n--- stdout ---\n`);
+    }
+
+    child.stdout.on("data", (chunk) => {
+      stdout += chunk;
+      if (logPath) {
+        appendFileSync(logPath, chunk);
+      }
+      // Print brief tool_use / progress to console
+      const chunkStr = chunk.toString();
+      for (const line of chunkStr.split("\n")) {
+        if (!line.trim()) continue;
+        try {
+          const ev = JSON.parse(line);
+          if (ev.type === "tool_use" && ev.part?.tool) {
+            log(id, `${stage}: tool call -> ${ev.part.tool} (${ev.part.state?.title || ev.part.callID || ""})`);
+          }
+        } catch {}
+      }
+    });
+    child.stderr.on("data", (chunk) => {
+      stderr += chunk;
+      if (logPath) {
+        appendFileSync(logPath, chunk);
+      }
+    });
     child.on("error", (error) => {
       clearTimeout(timer);
       reject(error);
@@ -173,18 +200,47 @@ function claudePrint(prompt, { id, stage, logPath }) {
         ensureDir(dirname(logPath));
         writeFileSync(logPath, `--- args ---\n${args.join(" ")}\n--- stdout ---\n${stdout}\n--- stderr ---\n${stderr}\n`);
       }
-      let envelope;
-      try {
-        envelope = JSON.parse(stdout.slice(stdout.indexOf("{")));
-      } catch {
-        reject(new Error(`${stage}: claude exited ${code}; unparseable output. ${stderr.slice(0, 400)}`));
+
+      let resultText = "";
+      let totalCost = 0;
+      let turns = 0;
+      let sessionID = "";
+
+      const lines = stdout.trim().split("\n");
+      for (const line of lines) {
+        if (!line.trim()) continue;
+        try {
+          const event = JSON.parse(line);
+          if (event.sessionID) sessionID = event.sessionID;
+          if (event.type === "text" && event.part?.text) {
+            resultText += event.part.text;
+          } else if (event.type === "step_finish") {
+            turns++;
+            // OpenCode carries the step cost on the part, not the event.
+            const cost = event.part?.cost ?? event.cost;
+            if (cost) totalCost += cost;
+          }
+        } catch (err) {
+          // Ignore parse errors on individual lines
+        }
+      }
+
+      if (code !== 0 && !resultText) {
+        reject(new Error(`${stage}: opencode exited ${code}; no output. ${stderr.slice(0, 400)}`));
         return;
       }
-      if (envelope.is_error || envelope.subtype !== "success") {
-        reject(new Error(`${stage}: claude reported ${envelope.subtype || "error"}. ${String(envelope.result || "").slice(0, 400)}`));
-        return;
-      }
-      log(id, `${stage}: done in ${Math.round((envelope.duration_ms || 0) / 1000)}s, ${envelope.num_turns} turns, $${(envelope.total_cost_usd || 0).toFixed(2)}`);
+
+      const envelope = {
+        is_error: false,
+        subtype: "success",
+        result: resultText,
+        duration_ms: 0,
+        num_turns: turns,
+        total_cost_usd: totalCost,
+        session_id: sessionID
+      };
+
+      log(id, `${stage}: done, ${envelope.num_turns} turns, $${(envelope.total_cost_usd || 0).toFixed(4)}`);
       resolvePromise(envelope);
     });
 
@@ -216,10 +272,12 @@ export function yamlString(value) {
   return `"${String(value).replace(/\\/g, "\\\\").replace(/"/g, '\\"')}"`;
 }
 
-/** Keep agent-authored Markdown safe inside MDX: escape bare braces, strip HTML comments. */
+/** Keep agent-authored Markdown safe inside MDX: escape bare braces, strip HTML comments, escape math <. */
 export function mdxSafe(markdown) {
   return String(markdown)
     .replace(/<!--[\s\S]*?-->/g, "")
     .replace(/([{}])/g, "\\$1")
+    .replace(/<(?=[\s\d=])/g, "&lt;")
+    .replace(/<(?![a-zA-Z/])/g, "&lt;")
     .trim();
 }

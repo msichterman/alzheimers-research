@@ -1,0 +1,456 @@
+{
+  "document_kind": "journal_article",
+  "title": {
+    "value": "Safety and efficacy of sargramostim (GM‐CSF) in the treatment of Alzheimer's disease",
+    "quote": "Safety and efficacy of sargramostim (GM‐CSF) in the treatment of Alzheimer's disease",
+    "location": "Title line"
+  },
+  "authors": [
+    {
+      "name": "Huntington Potter",
+      "affiliation": null,
+      "orcid": null,
+      "corresponding": null
+    },
+    {
+      "name": "Jonathan H. Woodcock",
+      "affiliation": null,
+      "orcid": null,
+      "corresponding": null
+    },
+    {
+      "name": "Timothy D. Boyd",
+      "affiliation": null,
+      "orcid": null,
+      "corresponding": null
+    }
+  ],
+  "study": {
+    "design": {
+      "value": "randomized, double-blind, placebo-controlled phase II trial",
+      "quote": "We carried out a randomized, double‐blind, placebo‐controlled phase II trial to test the safety and efficacy of sargramostim treatment in mild‐to‐moderate AD participants",
+      "location": "METHODS, paragraph 1"
+    },
+    "phase": {
+      "value": "phase II",
+      "quote": "We carried out a randomized, double‐blind, placebo‐controlled phase II trial to test the safety and efficacy of sargramostim treatment",
+      "location": "METHODS, paragraph 1"
+    },
+    "n": {
+      "value": 40,
+      "quote": "were randomized to receive either sargramostim (20 participants, standard Food and Drug Administration dosage 250 mcg/m 2 /day subcutaneous injection [SC], 5 days/week for 3 weeks) or placebo (20 participants, SC saline",
+      "location": "METHODS, paragraph 2"
+    },
+    "n_description": {
+      "value": "randomized: 20 participants to sargramostim and 20 participants to placebo",
+      "quote": "Participants who met eligibility criteria (Table ) were randomized to receive either sargramostim (20 participants, standard Food and Drug Administration dosage 250 mcg/m 2 /day subcutaneous injection [SC], 5 days/week for 3 weeks)",
+      "location": "METHODS, paragraph 2"
+    },
+    "population": {
+      "value": "Participants with clinically diagnosed mild-to-moderate Alzheimer's disease and a screening MMSE score of 10 to 26 inclusive",
+      "quote": "mild‐to‐moderate AD participants, defined by clinical diagnosis and a screening Mini‐Mental State Examination (MMSE) score of 10 to 26 inclusive",
+      "location": "METHODS, paragraph 1"
+    },
+    "followup": {
+      "value": "5 days/week for 3 weeks of treatment plus follow-up visits at 45 days (FU1) and 90 days (FU2) after end of treatment",
+      "quote": "Treatments (20 participants/group) occurred 5 days/week for 3 weeks plus two follow‐up (FU) visits (FU1 at 45 days and FU2 at 90 days) with neurological, neuropsychological, blood biomarker, and imaging assessments.",
+      "location": "Abstract, Methods"
+    },
+    "intervention": {
+      "value": "sargramostim (GM-CSF/leukine) 250 mcg/m2/day subcutaneous injection, 5 days/week for 3 weeks",
+      "quote": "sargramostim (20 participants, standard Food and Drug Administration dosage 250 mcg/m 2 /day subcutaneous injection [SC], 5 days/week for 3 weeks)",
+      "location": "METHODS, paragraph 2"
+    },
+    "comparator": {
+      "value": "placebo (subcutaneous saline), 5 days/week for 3 weeks, 20 participants",
+      "quote": "or placebo (20 participants, SC saline, 5 days/week for 3 weeks)",
+      "location": "METHODS, paragraph 2"
+    },
+    "biomarker_confirmation": {
+      "value": "Amyloid-PET imaging was an inclusion criterion for the second half of the study; all 16 participants so assessed were amyloid-positive",
+      "quote": "For the second half of the study, amyloid‐PET imaging was used as an inclusion criterion. All 16 participants diagnosed as having mild‐to‐moderate AD at screening, who were then assessed by amyloid‐PET imaging, were found to be amyloid‐positive",
+      "location": "RESULTS, Amyloid imaging"
+    },
+    "nct_ids": [
+      "NCT01409915"
+    ],
+    "cohorts": []
+  },
+  "outcomes": [
+    {
+      "name": "Safety (drug-related serious adverse events, including amyloid-related imaging abnormalities)",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Primary endpoint: safety and innate immune system activation\n\n- Short‐term sargramostim treatment in mild‐to‐moderate AD participants increased innate immune cell and cytokine measures and was safe and well tolerated.",
+      "met": "met",
+      "effect_estimate": "no drug-related serious adverse events and no amyloid-related imaging abnormalities",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Data and Safety Monitoring Board (DSMB) assessments of study events found no drug‐related serious adverse events (SAEs), including no amyloid‐related imaging abnormalities",
+      "location": "RESULTS, Safety (primary endpoint)"
+    },
+    {
+      "name": "Innate immune system activation: absolute monocyte, lymphocyte and neutrophil counts at end of treatment",
+      "tier": "primary",
+      "prespecified": "yes",
+      "prespecification_evidence": "Primary endpoint: safety and innate immune system activation\n\n- Short‐term sargramostim treatment in mild‐to‐moderate AD participants increased innate immune cell and cytokine measures and was safe and well tolerated.",
+      "met": "met",
+      "effect_estimate": "monocytes, lymphocytes and neutrophils statistically significantly increased in the sargramostim group compared with placebo at EOT",
+      "confidence_interval": null,
+      "p_value": "P = .0005, P = .0512, and P < .0001, respectively",
+      "multiplicity_controlled": "unclear",
+      "quote": "Absolute numbers of monocytes (A), lymphocytes (B), and neutrophils (C) were all statistically significantly increased during the treatment phase (15 injections over 3 weeks) in the sargramostim group compared to the placebo group",
+      "location": "Figure 1 caption"
+    },
+    {
+      "name": "MMSE total score change from baseline at end of treatment, sargramostim group vs its own baseline",
+      "tier": "secondary",
+      "prespecified": "unclear",
+      "prespecification_evidence": "Analyses for potential efficacy revealed a statistically significant positive treatment effect of sargramostim on the MMSE, which was selected as an outcome measure based on its superior sensitivity to temporal changes.",
+      "met": "met",
+      "effect_estimate": "1.45 MMSE points higher relative to baseline",
+      "confidence_interval": "95% confidence interval [CI]: [0.44, 2.46]",
+      "p_value": "P = .0074",
+      "multiplicity_controlled": "unclear",
+      "quote": "a statistically significant improvement in the sargramostim group at the end of treatment (EOT; A) compared to baseline (1.45, 95% confidence interval [CI]: [0.44, 2.46], P = .0074)",
+      "location": "Figure 2 caption"
+    },
+    {
+      "name": "Difference in mean change from baseline in MMSE total score, sargramostim vs placebo, at end of treatment",
+      "tier": "secondary",
+      "prespecified": "unclear",
+      "prespecification_evidence": "Although this trial was small and thus inherently underpowered, several secondary/exploratory outcomes were statistically significant.",
+      "met": "met",
+      "effect_estimate": "1.80 MMSE points",
+      "confidence_interval": "95% CI: [0.12, 3.49]",
+      "p_value": "P = .0370",
+      "multiplicity_controlled": "unclear",
+      "quote": "and compared to the placebo group (1.80, 95% CI: [0.12, 3.49], P = .0370)",
+      "location": "Figure 2 caption"
+    },
+    {
+      "name": "Difference in mean change from baseline in MMSE total score, sargramostim vs placebo, at 45-day follow-up (FU1)",
+      "tier": "secondary",
+      "prespecified": "unclear",
+      "prespecification_evidence": "Although this trial was small and thus inherently underpowered, several secondary/exploratory outcomes were statistically significant.",
+      "met": "met",
+      "effect_estimate": "1.75 MMSE points",
+      "confidence_interval": "95% CI: [0.21, 3.29]",
+      "p_value": "P = .0272",
+      "multiplicity_controlled": "unclear",
+      "quote": "and at the first follow‐up visit (FU1; B) at 45 days after the EOT, compared to the placebo‐treated group (1.75, 95% CI: [0.21, 3.29], P = .0272)",
+      "location": "Figure 2 caption"
+    },
+    {
+      "name": "ADAS‐Cog13 total score at end of treatment",
+      "tier": "secondary",
+      "prespecified": "unclear",
+      "prespecification_evidence": "Although this trial was small and thus inherently underpowered, several secondary/exploratory outcomes were statistically significant.",
+      "met": "not_met",
+      "effect_estimate": "no statistically significant sargramostim effect compared to baseline or to placebo at EOT",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The ADAS‐Cog13 assessment showed no statistically significant sargramostim effect compared to baseline or compared to the placebo group at EOT.",
+      "location": "RESULTS, Efficacy (secondary/exploratory endpoints)"
+    },
+    {
+      "name": "ADAS‐Cog13 total score at 45-day follow-up (FU1)",
+      "tier": "secondary",
+      "prespecified": "unclear",
+      "prespecification_evidence": "Although this trial was small and thus inherently underpowered, several secondary/exploratory outcomes were statistically significant.",
+      "met": "not_met",
+      "effect_estimate": "4.46 point increase (worsening) vs baseline; 4.33 point increase vs placebo",
+      "confidence_interval": "95% confidence interval [CI]: [2.11, 6.82] vs baseline; 95% CI: [0.90, 7.76] vs placebo",
+      "p_value": "P = .0009 vs baseline; P = .0147 vs placebo",
+      "multiplicity_controlled": "unclear",
+      "quote": "the ADAS‐Cog13 showed a statistically significant increase (worsening) in the sargramostim group compared to baseline (4.46, 95% confidence interval [CI]: [2.11, 6.82], P = .0009), and compared to the placebo group (4.33, 95% CI: [0.90, 7.76], P = .0147)",
+      "location": "Figure 3 caption"
+    },
+    {
+      "name": "ADAS‐Cog13 Memory Subscale at end of treatment",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": "Although this trial was small and thus inherently underpowered, several secondary/exploratory outcomes were statistically significant.",
+      "met": "not_met",
+      "effect_estimate": "-1.84 (trending improvement from baseline in the sargramostim group compared to placebo)",
+      "confidence_interval": "95% CI: [–3.82, 0.11]",
+      "p_value": "P = .0632",
+      "multiplicity_controlled": "unclear",
+      "quote": "the ADAS‐Cog13 Memory Subscale showed a statistically trending improvement from baseline in the sargramostim group compared to placebo (–1.84, 95% CI: [–3.82, 0.11], P = .0632)",
+      "location": "Figure 3 caption"
+    },
+    {
+      "name": "ADCS‐ADL at end of treatment",
+      "tier": "secondary",
+      "prespecified": "unclear",
+      "prespecification_evidence": "Although this trial was small and thus inherently underpowered, several secondary/exploratory outcomes were statistically significant.",
+      "met": "not_met",
+      "effect_estimate": "small, non-significant improvement in the sargramostim group",
+      "confidence_interval": null,
+      "p_value": "P = .3485",
+      "multiplicity_controlled": "unclear",
+      "quote": "The ADCS‐ADL showed a small, non‐significant improvement in the sargramostim group at EOT ( P = .3485; Figure ; Table in supporting information)",
+      "location": "RESULTS, Efficacy (secondary/exploratory endpoints)"
+    },
+    {
+      "name": "CDR‐SB and TRAILS‐A",
+      "tier": "secondary",
+      "prespecified": "unclear",
+      "prespecification_evidence": "Although this trial was small and thus inherently underpowered, several secondary/exploratory outcomes were statistically significant.",
+      "met": "not_met",
+      "effect_estimate": "no statistically significant effects of sargramostim treatment",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "CDR‐SB and TRAILS‐A measures showed no statistically significant effects of sargramostim treatment (Figure ; Tables in supporting information)",
+      "location": "RESULTS, Efficacy (secondary/exploratory endpoints)"
+    },
+    {
+      "name": "Plasma amyloid beta 40 (Aβ40) at end of treatment",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "met",
+      "effect_estimate": "8.4% increase from baseline; 10% higher compared to the placebo-treated group",
+      "confidence_interval": null,
+      "p_value": "P = .0127 vs baseline; P = .0105 vs placebo",
+      "multiplicity_controlled": "unclear",
+      "quote": "mean plasma Aβ40 level, which is reduced in AD,, showed an 8.4% increase from baseline ( P = .0127), and was 10% higher compared to the placebo‐treated group ( P = .0105",
+      "location": "RESULTS, Plasma biomarkers of AD neuropathology"
+    },
+    {
+      "name": "Plasma total tau at end of treatment (N4PB assay)",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "met",
+      "effect_estimate": "decreased by 17% vs baseline and by 24% vs the placebo-treated group baseline change",
+      "confidence_interval": null,
+      "p_value": "P = .0327 vs baseline; P = .0174 vs placebo",
+      "multiplicity_controlled": "unclear",
+      "quote": "decreased by 17% in the sargramostim‐treated group compared to baseline ( P = .0327) and decreased by 24% ( P = .0174) compared to the placebo‐treated group baseline change",
+      "location": "RESULTS, Plasma biomarkers of AD neuropathology"
+    },
+    {
+      "name": "Plasma UCH‐L1 at end of treatment",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "met",
+      "effect_estimate": "decreased by 40% vs baseline and by 42% vs placebo",
+      "confidence_interval": null,
+      "p_value": "P = .0017 vs baseline; P = .0019 vs placebo",
+      "multiplicity_controlled": "unclear",
+      "quote": "UCH‐L1,, , decreased by 40% in the sargramostim‐treated group compared to baseline ( P = .0017), and by 42% in the sargramostim‐treated group compared to the placebo‐treated group ( P = .0019",
+      "location": "RESULTS, Plasma biomarkers of AD neuropathology"
+    },
+    {
+      "name": "Amyloid-PET standardized uptake value ratio (SUVr), baseline to FU1, in the 16-participant imaging substudy",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_met",
+      "effect_estimate": "no statistically significant changes in SUVr for each ligand separately or combined by Centiloid scale conversion",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "There were no statistically significant changes in standardized uptake value ratio (SUVr) for each ligand separately or when combined by Centiloid scale conversion or by the method of Properzi et al.",
+      "location": "RESULTS, Amyloid imaging"
+    },
+    {
+      "name": "MMSE responder analysis: participants with higher MMSE than baseline at either EOT or FU1",
+      "tier": "post_hoc",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "16 of 20 (80%) sargramostim-treated vs 7 of 20 (35%) placebo-treated participants",
+      "confidence_interval": null,
+      "p_value": "P = .0040",
+      "multiplicity_controlled": "unclear",
+      "quote": "16 of 20 (80%) sargramostim‐treated participants can be considered “responders” in that they showed a higher MMSE score compared to baseline at either the EOT or at the 45‐day follow‐up visit",
+      "location": "Figure 2 caption"
+    },
+    {
+      "name": "MMSE treatment effect using baseline-adjustment models (sensitivity analysis)",
+      "tier": "post_hoc",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "1.60 at EOT; 1.80 at FU1",
+      "confidence_interval": "95% CI: [–0.21, 3.40] at EOT; 95% CI: [0.15, 3.46] at FU1",
+      "p_value": "P = .0808 at EOT; P = .0338 at FU1",
+      "multiplicity_controlled": "unclear",
+      "quote": "using baseline adjustment models, the treatment effect was only marginally statistically non‐significant at EOT (1.60, 95% CI: [–0.21, 3.40], P = .0808) and was statistically significant at FU1 (1.80, 95% CI: [0.15, 3.46], P = .0338)",
+      "location": "RESULTS, Efficacy (secondary/exploratory endpoints)"
+    }
+  ],
+  "primary_endpoint_status": {
+    "status": "met",
+    "explanation": "The trial's primary endpoint was safety, and the Data and Safety Monitoring Board found no drug-related serious adverse events and no amyloid-related imaging abnormalities.",
+    "quote": "Data and Safety Monitoring Board (DSMB) assessments of study events found no drug‐related serious adverse events (SAEs), including no amyloid‐related imaging abnormalities"
+  },
+  "multiplicity": {
+    "approach": "none stated",
+    "quote": null,
+    "location": null
+  },
+  "safety": {
+    "harms": [
+      {
+        "name": "drug-related serious adverse events (SAEs)",
+        "arm": "sargramostim (250 μg/m2/day, SC)",
+        "count": "0 (none found)",
+        "denominator": null,
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "Data and Safety Monitoring Board (DSMB) assessments of study events found no drug‐related serious adverse events (SAEs)",
+        "location": "RESULTS, Safety (primary endpoint)"
+      },
+      {
+        "name": "amyloid-related imaging abnormalities (ARIA), determined by MRI visual reads for microhemorrhages or edema",
+        "arm": "sargramostim (250 μg/m2/day, SC)",
+        "count": "0 (none)",
+        "denominator": null,
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "including no amyloid‐related imaging abnormalities (ARIAs, determined by MRI visual reads for microhemorrhages or edema; Table in supporting information)",
+        "location": "RESULTS, Safety (primary endpoint)"
+      },
+      {
+        "name": "dermatological adverse events",
+        "arm": "sargramostim vs placebo",
+        "count": "sixteen for sargramostim vs. five for placebo",
+        "denominator": null,
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "The most common sargramostim‐associated AEs were dermatological (sixteen for sargramostim vs. five for placebo)",
+        "location": "RESULTS, Safety (primary endpoint)"
+      },
+      {
+        "name": "gastrointestinal adverse events",
+        "arm": "sargramostim vs placebo",
+        "count": "eight for sargramostim vs. five for placebo",
+        "denominator": null,
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "The most common sargramostim‐associated AEs were dermatological (sixteen for sargramostim vs. five for placebo), gastrointestinal (eight for sargramostim vs. five for placebo)",
+        "location": "RESULTS, Safety (primary endpoint)"
+      },
+      {
+        "name": "headache",
+        "arm": "sargramostim vs placebo",
+        "count": "eight for sargramostim vs. two for placebo",
+        "denominator": null,
+        "percentage": null,
+        "apoe_stratum": null,
+        "quote": "and headache (eight for sargramostim vs. two for placebo), as expected for this medication",
+        "location": "RESULTS, Safety (primary endpoint)"
+      }
+    ],
+    "apoe_stratification_reported": false,
+    "serious_adverse_events": {
+      "value": "No drug-related serious adverse events were found by the Data and Safety Monitoring Board",
+      "quote": "Data and Safety Monitoring Board (DSMB) assessments of study events found no drug‐related serious adverse events (SAEs), including no amyloid‐related imaging abnormalities",
+      "location": "RESULTS, Safety (primary endpoint)"
+    },
+    "deaths": {
+      "value": null,
+      "quote": null,
+      "location": null
+    },
+    "discontinuations": {
+      "value": null,
+      "quote": null,
+      "location": null
+    }
+  },
+  "funding": [
+    "Research support was provided by the States of Colorado and Florida, the University of Colorado School of Medicine, the University of Colorado Hospital, the Global Down Syndrome Foundation, the Linda Crnic Institute for Down Syndrome, an Alzheimer's Association Part the Cloud Grant, the Dana Foundation, Don and Sue Fisher, the Hewit Family Foundation, the Sprout Foundation, Marcy and Bruce Benson, Les Mendelson, and other generous philanthropists.",
+    "This project was also supported by NIH/NCATS Colorado CTSA Grant Number UL1 TR002535.",
+    "the University of Colorado Anschutz Brain Imaging Center (BIC), which is supported by an NIH High‐End Instrumentation Grant S10OD018435 (Tregallas, PI)"
+  ],
+  "conflicts": [
+    "Drs. Potter and Boyd are two of the inventors on several U.S. patents owned by the University of South Florida, but not licensed.",
+    "As of Feb.1 2021, Dr. Boyd is an employee of Partner Therapeutics."
+  ],
+  "limitations": [
+    "Although this trial was small and thus inherently underpowered, several secondary/exploratory outcomes were statistically significant.",
+    "The main weaknesses are the short treatment period, small sample size, especially in the amyloid‐PET substudy, and non‐memory cognitive measures, showing no direct treatment effects.",
+    "However, the powers of the tests are limited by the small number of participants.",
+    "the main conclusion of the study is that additional longer, larger trials of GM‐CSF/sargramostim in AD are warranted",
+    "The article indicates that a larger, longer trial of GM‐CSF/sargramostim in AD is warranted.",
+    "An extended treatment trial testing the long‐term safety and efficacy of GM‐CSF/sargramostim in AD is warranted."
+  ],
+  "risk_of_bias": [
+    {
+      "domain": "baseline imbalance",
+      "judgement": "Mean MMSE scores differed statistically significantly between the sargramostim and placebo groups at baseline, and the primary MMSE analysis used an unadjusted cell means model",
+      "quote": "although the mean MMSE scores at screening were not significantly different between the sargramostim and placebo groups, they were at baseline (–3.65, 95% confidence interval [CI]: [–6.71, 0.59], P = .0207)"
+    },
+    {
+      "domain": "interim result disclosure during an ongoing trial",
+      "judgement": "The authors reported interim study results at symposia in 2018 while the trial was ongoing, and tested afterwards for resulting bias",
+      "quote": "Because we reported interim study results at symposia in 2018, we tested for a potential subsequent bias and found no significant difference between the mean total MMSE scores of participants enrolled during the first and second halves of the trial."
+    },
+    {
+      "domain": "underpowered sample",
+      "judgement": "The document states the trial was small and inherently underpowered, and that the amyloid-PET substudy tests had limited power",
+      "quote": "Although this trial was small and thus inherently underpowered, several secondary/exploratory outcomes were statistically significant."
+    },
+    {
+      "domain": "investigator conflict of interest",
+      "judgement": "Two authors are inventors on U.S. patents and one became an employee of a company selling sargramostim",
+      "quote": "Drs. Potter and Boyd are two of the inventors on several U.S. patents owned by the University of South Florida, but not licensed. As of Feb.1 2021, Dr. Boyd is an employee of Partner Therapeutics."
+    }
+  ],
+  "disagreements": [
+    {
+      "question": "Is inflammation solely detrimental in Alzheimer's disease?",
+      "position": "This document argues its GM-CSF findings call the consensus view into question, holding that stimulating rather than suppressing the innate immune system can be beneficial in AD",
+      "attributed_to": "the authors of this article (Potter, Woodcock, Boyd et al.)",
+      "quote": "These results called into question the consensus view that inflammation is solely detrimental in AD."
+    },
+    {
+      "question": "Are general anti-inflammatory drugs or targeted immune modulators the better therapeutic strategy in AD?",
+      "position": "Given the failure of NSAID trials, this document argues targeted modulators of neuroinflammation may be a better therapeutic strategy than general anti-inflammatory drugs",
+      "attributed_to": "the authors of this article",
+      "quote": "suggests that targeted modulators of neuroinflammation may be a better therapeutic strategy than general anti‐inflammatory drugs"
+    }
+  ],
+  "linked_objects": [
+    {
+      "relation": "registry_record",
+      "identifier": "NCT01409915",
+      "note": "The trial registration named in the document for this randomized, double-blind, placebo-controlled phase II trial"
+    }
+  ],
+  "trial_status_observation": {
+    "status": null,
+    "enrollment": null,
+    "phase": null,
+    "observed_at": null,
+    "source": null
+  },
+  "unlocatable_fields": [
+    "authors[].affiliation",
+    "authors[].orcid",
+    "authors[].corresponding",
+    "study.cohorts",
+    "multiplicity.quote",
+    "multiplicity.location",
+    "safety.deaths",
+    "safety.discontinuations",
+    "trial_status_observation.status",
+    "trial_status_observation.enrollment",
+    "trial_status_observation.phase",
+    "trial_status_observation.observed_at",
+    "trial_status_observation.source"
+  ],
+  "_meta": {
+    "model": "claude (builder subagent)",
+    "extracted_at": "2026-08-13T00:00:00Z",
+    "source": "raw/sargramostim-phase-2/document.md"
+  }
+}

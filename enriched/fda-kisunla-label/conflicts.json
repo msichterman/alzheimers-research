@@ -1,0 +1,42 @@
+{
+  "id": "fda-kisunla-label",
+  "prepared_at": "2026-08-13T16:55:51.037Z",
+  "instructions": "Two independent extractions of the same retrieved document disagree on these fields. For each conflict, decide against the document which reading is correct — or that both are, or neither is. You are not told which pipeline produced which reading, and you must not guess.",
+  "conflicts": [
+    {
+      "conflict_id": "fda-kisunla-label#0",
+      "field": "study.population",
+      "reading_a": "patients with Alzheimer’s disease (patients with confirmed presence of amyloid pathology and mild cognitive impairment or mild dementia stage of disease, consistent with Stage 3 and Stage 4 Alzheimer’s disease)",
+      "reading_b": "Indicated for the treatment of Alzheimer's disease, with treatment to be initiated in patients with mild cognitive impairment or mild dementia stage of disease — the population in which treatment was initiated in the clinical trials; Study 1 enrolled patients with confirmed amyloid pathology, MMSE 20 to 28, and progressive memory change for at least 6 months",
+      "note": null
+    },
+    {
+      "conflict_id": "fda-kisunla-label#1",
+      "field": "study.intervention",
+      "reading_a": "700 mg of KISUNLA every 4 weeks for the first 3 doses, and then 1400 mg every 4 weeks",
+      "reading_b": "KISUNLA (donanemab-azbt) 700 mg by intravenous infusion over approximately 30 minutes every four weeks for the first three doses, followed by 1400 mg every four weeks; consider stopping dosing based on reduction of amyloid plaques to minimal levels on amyloid PET imaging",
+      "note": null
+    },
+    {
+      "conflict_id": "fda-kisunla-label#2",
+      "field": "safety.harms[macrohemorrhage].reported",
+      "reading_a": "absent",
+      "reading_b": "reported",
+      "note": null
+    },
+    {
+      "conflict_id": "fda-kisunla-label#3",
+      "field": "safety.harms[death].reported",
+      "reading_a": "reported",
+      "reading_b": "absent",
+      "note": null
+    },
+    {
+      "conflict_id": "fda-kisunla-label#4",
+      "field": "outcomes[primary].confidence_interval",
+      "reading_a": null,
+      "reading_b": null,
+      "note": "One reading found nothing here. Decide whether the document actually states this; 'neither' is correct if it does not."
+    }
+  ]
+}

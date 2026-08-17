@@ -1,0 +1,87 @@
+{
+  "fact_check": [
+    {
+      "fact": "Trial NCT06602258 enrolled 105 participants",
+      "status": "verified",
+      "note": "Matches the 'Enrollment' field in the ClinicalTrials.gov API record."
+    },
+    {
+      "fact": "Phase 1 trials of etalanetug reduced CSF MTBR-tau243 by up to 71.6%",
+      "status": "verified",
+      "note": "Matches the Phase 1 (NCT04971733) results summary provided by the clinical-trials researcher."
+    },
+    {
+      "fact": "E2814 administered concurrently with lecanemab has a dose-dependent effect on CSF MTBR-tau-243 at 6 months",
+      "status": "unverified",
+      "note": "This is the stated primary outcome measure (hypothesis) of the ongoing trial; no results have been generated or posted yet."
+    }
+  ],
+  "research_page": {
+    "slug": "etalanetug-lecanemab-phase-2-registry",
+    "title": "Etalanetug + Lecanemab Phase 2 Registry (NCT06602258)",
+    "description": "Registry record for a Phase 2 trial evaluating the anti-tau antibody etalanetug combined with anti-amyloid lecanemab in early Alzheimer's disease.",
+    "tags": [
+      "trial-registry",
+      "tau",
+      "amyloid",
+      "combination-therapy",
+      "immunotherapy"
+    ],
+    "source_line_md": "**Source**: [ClinicalTrials.gov, 2024](https://clinicaltrials.gov/study/NCT06602258)",
+    "authors_line_md": "Eisai Inc.",
+    "takeaway_md": "This ongoing Phase 2 trial is evaluating the safety and biomarker efficacy of combining the experimental anti-tau antibody etalanetug (E2814) with the approved anti-amyloid lecanemab. As a registry record, no clinical results are available yet, but it marks an important step toward multi-target combination therapies.",
+    "key_findings_md": [
+      "No clinical findings are available; the trial is currently active but not recruiting, with primary completion expected in December 2026."
+    ],
+    "methods_md": "Phase 2, quadruple-blind, placebo-controlled, dose-finding trial. Enrolled 105 participants aged 50-80 with early Alzheimer's disease (MCI or mild dementia). Evaluates four doses of intravenous etalanetug versus placebo, all administered concurrently with weekly subcutaneous lecanemab, over up to 27 months.",
+    "trial_evidence_md": "Etalanetug (E2814) has demonstrated target engagement and adequate safety in Phase 1 trials ([NCT04971733](https://clinicaltrials.gov/study/NCT04971733), [NCT04231513](https://clinicaltrials.gov/study/NCT04231513)). This [Phase 2 trial](/trials/etalanetug-nct06602258) is the first to test its efficacy in sporadic early AD alongside lecanemab, paralleling the ongoing DIAN-TU Tau platform trial in dominantly inherited AD.",
+    "sentiment_md": "Public perception is highly segmented. Scientists and retail investors show enthusiasm driven by an FDA Fast Track designation and early biomarker reductions in dominantly inherited AD. Meanwhile, patient and caregiver communities remain largely unaware of etalanetug, focusing instead on already-approved monotherapies.",
+    "caveats_md": [
+      "This is a registry record, not a completed study, meaning efficacy and safety for this combination in sporadic Alzheimer's remain completely unproven.",
+      "Current investor and scientific enthusiasm relies heavily on extrapolating early, small-cohort biomarker data from dominantly inherited Alzheimer's to the broader sporadic disease population."
+    ],
+    "relates_to_md": [
+      "[Lecanemab Phase 2b](/research/papers/lecanemab-phase-2b) — Background on the backbone anti-amyloid therapy used in this combination trial.",
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — The foundational framework being tested here via simultaneous amyloid and tau targeting."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "etalanetug-nct06602258",
+      "title": "Etalanetug + Lecanemab Phase 2",
+      "description": "Phase 2 dose-finding study of anti-tau etalanetug combined with lecanemab in early Alzheimer's disease.",
+      "badge": "Active",
+      "tags": [
+        "trial",
+        "phase-2",
+        "combination-therapy",
+        "tau",
+        "amyloid"
+      ],
+      "registry_md": "[NCT06602258](https://clinicaltrials.gov/study/NCT06602258)",
+      "drug": "Etalanetug + Lecanemab (anti-tau MTBR + anti-amyloid)",
+      "phase": "2",
+      "sponsor": "Eisai Inc.",
+      "population": "Early Alzheimer's disease (MCI or mild dementia)",
+      "primary_endpoint": "Change from baseline in CSF MTBR-tau-243 at 6 months",
+      "started": "2024-09",
+      "readout": "2026-12",
+      "why_md": "This trial investigates whether targeting tau (etalanetug) concurrently with amyloid (lecanemab) provides synergistic biomarker benefits over anti-amyloid therapy alone. It marks a critical industry shift toward multi-target combination therapies for [early Alzheimer's disease](/research).",
+      "status_log_md": [
+        "**2024-09-30** — Trial begins enrollment, per [ClinicalTrials.gov](https://clinicaltrials.gov/study/NCT06602258)."
+      ],
+      "results_md": null
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2024-09",
+      "title": "2024-09 — Etalanetug and lecanemab combination Phase 2 begins",
+      "body_md": "Eisai initiates a Phase 2 trial ([NCT06602258](/research/papers/etalanetug-lecanemab-phase-2-registry)) evaluating the anti-tau antibody etalanetug concurrently with the anti-amyloid lecanemab in early Alzheimer's disease."
+    }
+  ],
+  "notes_for_editor": [
+    "The source document is a ClinicalTrials.gov registry, not a published paper. The research page serves as a placeholder detailing the trial's design and status until peer-reviewed results are available."
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "fact_check": [
+    {
+      "fact": "Psychiatric adverse events were 24.5%-33.5% for lanabecestat vs 13.3% for placebo.",
+      "status": "corrected",
+      "note": "The analyst improperly combined placebo rates across the two studies. In AMARANTH, the placebo rate was 24.5% (vs. 29.9%-33.5% for lanabecestat). In DAYBREAK-ALZ, the placebo rate was 13.3% (vs. 14.8%-17.3% for lanabecestat)."
+    },
+    {
+      "fact": "Weight decrease ≥7% occurred in 12.7%-24.9% for lanabecestat vs 6.3% for placebo.",
+      "status": "corrected",
+      "note": "The analyst conflated placebo rates again. AMARANTH's placebo rate was 12.7%, while DAYBREAK-ALZ's placebo rate was 6.3%."
+    },
+    {
+      "fact": "Lanabecestat reduced CSF Aβ1-40 by 58.0% and 73.3%, and Aβ1-42 by 51.3% and 65.5%.",
+      "status": "verified",
+      "note": "Matches the Biomarkers section of the source document for the 20 mg and 50 mg doses in AMARANTH."
+    }
+  ],
+  "research_page": {
+    "slug": "lanabecestat-amaranth-daybreak-alz",
+    "title": "Lanabecestat in early and mild Alzheimer's (AMARANTH & DAYBREAK-ALZ)",
+    "description": "The BACE1 inhibitor lanabecestat successfully engaged its amyloid target but was terminated for futility after failing to slow clinical decline and increasing psychiatric adverse events.",
+    "tags": [
+      "paper",
+      "trial-results",
+      "bace-inhibitor",
+      "amyloid"
+    ],
+    "source_line_md": "**Source**: [JAMA Neurology, 2019](https://doi.org/10.1001/jamaneurol.2019.3988) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/31764959)",
+    "authors_line_md": "AstraZeneca and Eli Lilly (Author list omitted in source extract)",
+    "takeaway_md": "Lanabecestat, an oral BACE1 inhibitor, effectively reduced cerebrospinal fluid amyloid levels but failed to slow cognitive or functional decline in early and mild Alzheimer's disease. The phase 3 trials, AMARANTH and DAYBREAK-ALZ, were halted early for futility in 2018. The drug was also associated with off-target toxicities, including psychiatric adverse events, weight loss, and hair color changes, cementing the broader failure of the BACE inhibitor class.",
+    "key_findings_md": [
+      "Failed to slow cognitive or functional decline on the ADAS-Cog13 or secondary measures, prompting early termination for futility in both trials (paper, Abstract).",
+      "Significantly reduced CSF Aβ1-40 (by up to 73.3%) and Aβ1-42 (by up to 65.5%), demonstrating clear target engagement despite clinical failure (paper, Biomarkers).",
+      "Increased the incidence of psychiatric adverse events, particularly anxiety and depression, with 33.5% of the high-dose AMARANTH cohort experiencing a psychiatric event vs. 24.5% on placebo (paper, Table 3).",
+      "Caused weight loss of ≥7% in up to 24.9% of treated patients (vs. 12.7% on placebo in AMARANTH), along with notable hair color changes (paper, Table 3).",
+      "Accelerated hippocampal volume loss compared to placebo in the AMARANTH trial (-0.52% for 20 mg vs. placebo) (paper, Biomarkers)."
+    ],
+    "methods_md": "AMARANTH (phase 2/3) and DAYBREAK-ALZ (phase 3) were global, randomized, double-blind, placebo-controlled trials evaluating 20 mg and 50 mg daily oral lanabecestat. The trials enrolled 3,940 total patients aged 55 to 85 with amyloid-positive early AD (AMARANTH) or mild AD dementia (DAYBREAK-ALZ). Planned for 104 and 78 weeks respectively, both studies were terminated early in 2018 following an interim futility analysis.",
+    "trial_evidence_md": "This paper reports the terminal readouts for the pivotal Phase 2/3 [AMARANTH](/trials/lanabecestat-amaranth-nct02245737) and Phase 3 [DAYBREAK-ALZ](/trials/lanabecestat-daybreak-alz-nct02783573) trials. The concurrent failure of these trials resulted in the discontinuation of the entire lanabecestat clinical program, including an open-label extension study. The clinical registry data aligns completely with the published findings of target engagement without clinical benefit.",
+    "sentiment_md": "Public and scientific perception of lanabecestat is negative but highly inactive, as the drug was written off following its 2018 termination. In the research community, lanabecestat is frequently cited on forums like Alzforum as a textbook example of BACE inhibitor failure, reinforcing the consensus that inhibiting amyloid production in symptomatic patients causes unacceptable off-target toxicities without yielding clinical benefits.",
+    "caveats_md": [
+      "The AMARANTH trial utilized a strict memory impairment cutoff during screening that resulted in an 'early AD' cohort with a baseline cognitive profile almost identical to the 'mild AD' cohort in DAYBREAK-ALZ.",
+      "Due to early termination for futility, total treatment exposure was significantly shorter than planned, which limited the collection and analysis of post-dose biomarker data, particularly in the DAYBREAK-ALZ cohort."
+    ],
+    "relates_to_md": [
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Adds to the body of evidence that BACE1 inhibitors, which target amyloid production, are ineffective and potentially toxic in symptomatic AD.",
+      "[Verubecestat in mild-to-moderate AD](/research/papers/verubecestat-epoch) — Another BACE inhibitor that failed in phase 3 trials due to futility and similar off-target adverse events.",
+      "[Verubecestat in prodromal AD](/research/papers/verubecestat-apecs) — Reinforces the class-wide failure of BACE inhibitors, echoing the cognitive worsening and safety issues seen with verubecestat."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "lanabecestat-amaranth-nct02245737",
+      "title": "AMARANTH",
+      "description": "Phase 2/3 trial evaluating the BACE1 inhibitor lanabecestat in early Alzheimer's disease.",
+      "badge": "Terminated",
+      "tags": [
+        "trial",
+        "bace-inhibitor",
+        "early-ad"
+      ],
+      "registry_md": "[NCT02245737](https://clinicaltrials.gov/study/NCT02245737)",
+      "drug": "Lanabecestat (BACE1 inhibitor)",
+      "phase": "2/3",
+      "sponsor": "AstraZeneca / Eli Lilly",
+      "population": "Early Alzheimer's Disease",
+      "primary_endpoint": "Change from baseline on the ADAS-Cog13",
+      "started": "2014-09",
+      "readout": "2018-10",
+      "why_md": "AMARANTH was designed to test whether inhibiting the BACE1 enzyme to block amyloid production could slow cognitive decline in early Alzheimer's disease. The trial was halted early when interim analysis showed futility, contributing to the broader abandonment of BACE inhibitors for symptomatic AD.",
+      "status_log_md": [
+        "**2014-09-30** — First patient visit for the trial.",
+        "**2018-06-12** — Sponsors announce the early termination of the trial for futility based on an independent data monitoring committee recommendation.",
+        "**2018-10-04** — Last patient visit (trial concluded).",
+        "**2019-12-01** — [Primary results published](/research/papers/lanabecestat-amaranth-daybreak-alz) in JAMA Neurology."
+      ],
+      "results_md": "Terminated early for futility. While lanabecestat robustly reduced CSF amyloid levels, it failed to separate from placebo on the ADAS-Cog13 or functional measures, and was associated with increased psychiatric adverse events, weight loss, and hippocampal volume loss."
+    },
+    {
+      "slug": "lanabecestat-daybreak-alz-nct02783573",
+      "title": "DAYBREAK-ALZ",
+      "description": "Phase 3 trial evaluating the BACE1 inhibitor lanabecestat in mild Alzheimer's disease dementia.",
+      "badge": "Terminated",
+      "tags": [
+        "trial",
+        "bace-inhibitor",
+        "mild-ad"
+      ],
+      "registry_md": "[NCT02783573](https://clinicaltrials.gov/study/NCT02783573)",
+      "drug": "Lanabecestat (BACE1 inhibitor)",
+      "phase": "3",
+      "sponsor": "AstraZeneca / Eli Lilly",
+      "population": "Mild Alzheimer's Disease Dementia",
+      "primary_endpoint": "Change from baseline on the ADAS-Cog13",
+      "started": "2016-07",
+      "readout": "2018-09",
+      "why_md": "DAYBREAK-ALZ ran alongside AMARANTH to test the efficacy of lanabecestat in a slightly more advanced population (mild AD dementia). It sought to determine if reducing amyloid production could alter the clinical trajectory of patients already experiencing symptomatic dementia.",
+      "status_log_md": [
+        "**2016-07-01** — First patient visit for the trial.",
+        "**2018-06-12** — Sponsors announce the early termination of the trial for futility, concurrently with AMARANTH.",
+        "**2018-09-28** — Last patient visit (trial concluded).",
+        "**2019-12-01** — [Primary results published](/research/papers/lanabecestat-amaranth-daybreak-alz) in JAMA Neurology alongside AMARANTH."
+      ],
+      "results_md": "Terminated early for futility alongside AMARANTH. The trial demonstrated no significant slowing of cognitive or functional decline compared to placebo, confirming that BACE1 inhibition lacked clinical efficacy in mild AD."
+    }
+  ],
+  "timeline_entries": [
+    {
+      "section": "Disease-modifying era",
+      "date": "2018-06",
+      "title": "2018-06 — Lanabecestat Phase 3 program halted for futility",
+      "body_md": "AstraZeneca and Eli Lilly terminated the AMARANTH and DAYBREAK-ALZ trials of their BACE1 inhibitor lanabecestat after an interim analysis revealed it [failed to slow cognitive decline](/research/papers/lanabecestat-amaranth-daybreak-alz) despite effectively lowering amyloid levels."
+    }
+  ],
+  "notes_for_editor": [
+    "The source text was stripped of all author names and affiliations during conversion; I added AstraZeneca and Eli Lilly to the authors line based on the text context and clinical trial data, but you may want to manually retrieve the correct author list from the DOI."
+  ]
+}

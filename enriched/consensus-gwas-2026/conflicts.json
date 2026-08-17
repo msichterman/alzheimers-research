@@ -1,0 +1,49 @@
+{
+  "id": "consensus-gwas-2026",
+  "prepared_at": "2026-08-13T16:55:51.036Z",
+  "instructions": "Two independent extractions of the same retrieved document disagree on these fields. For each conflict, decide against the document which reading is correct — or that both are, or neither is. You are not told which pipeline produced which reading, and you must not guess.",
+  "conflicts": [
+    {
+      "conflict_id": "consensus-gwas-2026#0",
+      "field": "study.n",
+      "reading_a": 978514,
+      "reading_b": 128681,
+      "note": null
+    },
+    {
+      "conflict_id": "consensus-gwas-2026#1",
+      "field": "study.population",
+      "reading_a": "European-ancestry participants from 52 studies: clinically diagnosed AD cases, biobank cases identified by International Classification of Diseases codes, and proxy ADRD cases (individuals reporting at least one biological relative, parent or sibling, affected with dementia), plus controls and proxy controls",
+      "reading_b": "European-ancestry samples, the UK Biobank (UKBB) and FinnGen",
+      "note": null
+    },
+    {
+      "conflict_id": "consensus-gwas-2026#2",
+      "field": "outcomes[primary].prespecified",
+      "reading_a": "unclear",
+      "reading_b": "yes",
+      "note": null
+    },
+    {
+      "conflict_id": "consensus-gwas-2026#3",
+      "field": "outcomes[Number of genome-wide significant (tier 1) loci associated with ADRD risk in the main meta-analysis].prespecified",
+      "reading_a": "yes",
+      "reading_b": "unclear",
+      "note": null
+    },
+    {
+      "conflict_id": "consensus-gwas-2026#4",
+      "field": "outcomes[primary].effect_estimate",
+      "reading_a": null,
+      "reading_b": "91 tier 1 loci, of which 16 new in European-ancestry samples and 56 associated with clinically diagnosed AD",
+      "note": "One reading found nothing here. Decide whether the document actually states this; 'neither' is correct if it does not."
+    },
+    {
+      "conflict_id": "consensus-gwas-2026#5",
+      "field": "outcomes[primary].confidence_interval",
+      "reading_a": null,
+      "reading_b": null,
+      "note": "One reading found nothing here. Decide whether the document actually states this; 'neither' is correct if it does not."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "overall": "mixed",
+  "summary": "The public discourse surrounding blood-based biomarkers for Alzheimer's disease is highly polarized between breakthrough enthusiasm and practical confusion. General audiences and science enthusiasts on platforms like Reddit view the p-tau217 tests as a revolutionary step for early, non-invasive mass screening. Mainstream health outlets initially echoed this hype, touting the test's ability to forecast dementia up to 15 years in advance. However, more recent media coverage and clinical sentiment reflect the distress and confusion caused by the tests' low positive predictive values, as asymptomatic individuals misinterpret their results. Patients with unrelated cognitive issues, such as long COVID, are also inappropriately seeking out the expensive test to rule out dementia. Ultimately, the public hype significantly outpaces the test's clinical utility for widespread, standalone screening.",
+  "communities": [
+    {
+      "community": "r/science & r/longevity",
+      "sentiment": "hopeful",
+      "themes": [
+        "Non-invasive alternative to painful lumbar punctures",
+        "Early detection 10 to 15 years before symptoms",
+        "Routine screening potential in memory clinics"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/science/comments/19dmwmk/a_blood_test_for_detecting_alzheimers_disease_by/",
+        "https://www.reddit.com/r/longevity/comments/168xfk3/a_twostep_workflow_based_on_blood_plasma_ptau217/"
+      ]
+    },
+    {
+      "community": "General public & over-50 demographic (r/globalhealth, r/WayOfTheBern)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Mass screening revolution for everyone over 50",
+        "15-year early warning system",
+        "Accessibility and low cost compared to brain scans"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/globalhealth/comments/19dm2f4/alzheimers_blood_test_revolution_for_over50s/",
+        "https://www.reddit.com/r/WayOfTheBern/comments/19d76gg/breakthrough_alzheimers_blood_test_could_detect/"
+      ]
+    },
+    {
+      "community": "r/covidlonghaulers & undiagnosed cognitive patients",
+      "sentiment": "hopeful",
+      "themes": [
+        "Seeking out the test to explain severe brain fog",
+        "Willingness to pay out-of-pocket for expensive screening",
+        "Using the test to rule out early-onset dementia"
+      ],
+      "example_urls": [
+        "https://www.reddit.com/r/covidlonghaulers/comments/1ae58v1/ptau_217_test/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "The Telegraph (via Reddit)",
+      "tone": "positive",
+      "date": "2024-01",
+      "url": "https://www.reddit.com/r/globalhealth/comments/19dm2f4/alzheimers_blood_test_revolution_for_over50s/"
+    },
+    {
+      "outlet": "ScienceDaily",
+      "tone": "positive",
+      "date": "2026-02",
+      "url": "https://www.sciencedaily.com/releases/2026/02/260222085203.htm"
+    },
+    {
+      "outlet": "The New York Times",
+      "tone": "critical",
+      "date": "2026-08",
+      "url": "https://www.nytimes.com/2026/08/12/well/mind/alzheimers-disease-blood-tests-prediction.html"
+    },
+    {
+      "outlet": "NIH Research Matters",
+      "tone": "neutral",
+      "date": "2026-03",
+      "url": "https://www.nih.gov/news-events/nih-research-matters/blood-test-predicts-start-alzheimers-disease-symptoms"
+    }
+  ],
+  "hype_vs_evidence": "Public perception is heavily fixated on the idea that these blood tests can definitively predict Alzheimer's disease up to 15 years in advance. However, the evidence from the Grande et al. paper explicitly states that while the tests have an excellent negative predictive value (NPV > 90%) for ruling out dementia, their positive predictive value (PPV) is extremely low (around 33-43%). This means a positive test result does not guarantee a patient will develop Alzheimer's, making it unsuitable as a standalone diagnostic or mass screening tool. The media's portrayal of the test as an absolute '15-year early warning system' ignores these statistical realities, leading to unnecessary psychological distress and confusion among asymptomatic individuals who test positive.",
+  "misinformation_flags": [
+    "Claiming the blood test can accurately and definitively diagnose if an asymptomatic person will develop Alzheimer's in 15 years (False due to low Positive Predictive Value).",
+    "Stating the test is ready to be deployed as a routine mass screening tool for all healthy adults over 50 (Contradicts the paper's conclusion that it is not suitable as a standalone screening tool for asymptomatic individuals)."
+  ],
+  "searches_run": [
+    "site:reddit.com p-tau217 alzheimers blood test",
+    "alzheimer blood test nature medicine grande",
+    "site:alzforum.org p-tau217 blood test screening",
+    "site:reddit.com/r/dementia blood test screening",
+    "p-tau217 false positive dementia test"
+  ]
+}

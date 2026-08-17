@@ -1,0 +1,79 @@
+{
+  "trials": [
+    {
+      "nct_id": "NCT03186989",
+      "registry_url": "https://clinicaltrials.gov/study/NCT03186989",
+      "name": "MAPTRx Phase 1b",
+      "drug": "IONIS-MAPTRx / BIIB080 / Diranersen (tau-targeting antisense oligonucleotide)",
+      "phase": "1",
+      "sponsor": "Ionis Pharmaceuticals, Inc.",
+      "status": "Completed",
+      "enrollment": 46,
+      "population": "Males or females aged 50-74 years diagnosed with mild Alzheimer's disease",
+      "primary_endpoint": "Part 1: Number of Participants With Adverse Events That Are Related to Treatment With ISIS 814907",
+      "started": "2017-10",
+      "completed_or_readout": "2022-05",
+      "results_summary": "The drug was well tolerated across multiple ascending doses, with most adverse events being mild or moderate and related to the lumbar puncture procedure. It successfully demonstrated dose-dependent, sustained reductions in CSF total tau and phosphorylated tau.",
+      "relation_to_document": "reported-here",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT05399888",
+      "registry_url": "https://clinicaltrials.gov/study/NCT05399888",
+      "name": "CELIA",
+      "drug": "Diranersen / BIIB080 (tau-targeting antisense oligonucleotide)",
+      "phase": "2",
+      "sponsor": "Biogen",
+      "status": "Active, not recruiting",
+      "enrollment": 416,
+      "population": "Participants with mild cognitive impairment due to Alzheimer's disease or mild AD dementia",
+      "primary_endpoint": "Dose response in Change From Baseline to Week 76 on the CDR-SB",
+      "started": "2022-08",
+      "completed_or_readout": "2026-03",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    },
+    {
+      "nct_id": "NCT06454721",
+      "registry_url": "https://clinicaltrials.gov/study/NCT06454721",
+      "name": null,
+      "drug": "Diranersen / BIIB080 (tau-targeting antisense oligonucleotide)",
+      "phase": "1",
+      "sponsor": "Biogen",
+      "status": "Completed",
+      "enrollment": 5,
+      "population": "Healthy adults",
+      "primary_endpoint": "CNS Biodistribution of [89Zr]Zr-DFO-Diranersen Assessed as the Percentage of Dose Taken up by Each Region of Interest (ROI)",
+      "started": "2025-01",
+      "completed_or_readout": "2026-03",
+      "results_summary": null,
+      "relation_to_document": "related-program",
+      "verified": "registry"
+    }
+  ],
+  "related_evidence": [
+    {
+      "date": "2023-06",
+      "kind": "paper",
+      "description": "Primary Phase 1b safety, pharmacokinetic, and tau reduction results (Mummery et al., Nature Medicine).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37095250/"
+    },
+    {
+      "date": "2023-12",
+      "kind": "paper",
+      "description": "Exploratory tau biomarker results from the Phase 1b MAD study (Edwards et al., JAMA Neurology).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37902726/"
+    },
+    {
+      "date": "2026-02",
+      "kind": "paper",
+      "description": "Exploratory analyses of clinical outcomes from the Phase 1b study (Shulman et al., Nature Aging).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41673497/"
+    }
+  ],
+  "evidence_assessment": "The foundational clinical evidence for IONIS-MAPTRx (now known by its INN, diranersen, and company code BIIB080) is solid, supported by comprehensive peer-reviewed publications from the Phase 1b trial in leading medical journals. These results established that the tau-targeting antisense oligonucleotide is generally safe, tolerable, and capable of driving dose-dependent target engagement by substantially lowering CSF tau levels. The clinical development program is active and has successfully advanced to the large-scale Phase 2 CELIA trial (NCT05399888). While the Phase 1b data strongly supports the mechanism of action, definitive proof of clinical efficacy and cognitive benefit awaits the readout of the CELIA trial, which completed its primary study period around March 2026.",
+  "discrepancies": [
+    "The document treats the raw, context-free ClinicalTrials.gov registry posting as the sole outcome of the trial, completely omitting the fact that detailed statistical analyses, biomarker evaluations, and narrative conclusions for this exact cohort have already been extensively published in major peer-reviewed journals (Nature Medicine in 2023, JAMA Neurology in 2023, and Nature Aging in 2026)."
+  ]
+}

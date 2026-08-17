@@ -1,0 +1,13 @@
+{
+  "trials": [],
+  "related_evidence": [
+    {
+      "date": "2026",
+      "kind": "paper",
+      "description": "Consensus meta-analysis of genome-wide association studies for Alzheimer’s disease and related dementias (Source document)",
+      "url": "https://doi.org/10.1038/s41588-026-02583-1"
+    }
+  ],
+  "evidence_assessment": "The analyzed document is a large-scale observational genome-wide association study (GWAS) meta-analysis, not an interventional clinical trial report. Consequently, it provides foundational etiological and epidemiological evidence rather than therapeutic efficacy data. The massive sample size of over 1 million individuals strongly supports the statistical validity of the 91 identified risk loci and the derivation of the polygenic risk score (PGS). In a clinical context, this evidence is highly valuable for drug target discovery, understanding disease architecture, and patient stratification in future interventional trials, though it does not directly evaluate or validate any specific therapeutic intervention.",
+  "discrepancies": []
+}

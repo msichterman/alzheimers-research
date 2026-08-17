@@ -1,0 +1,53 @@
+{
+  "kind": "other",
+  "title": "A Randomised Double-blind Placebo-controlled Clinical Trial Investigating the Effect and Safety of Oral Semaglutide in Subjects With Early Alzheimer´s Disease (EVOKE Plus)",
+  "authors": [],
+  "first_author": null,
+  "venue": "ClinicalTrials.gov",
+  "published": "2021-03",
+  "doi": null,
+  "doi_url": null,
+  "pubmed_url": null,
+  "copyright": null,
+  "license": {
+    "name": "unknown",
+    "url": null,
+    "reuse": "unknown",
+    "evidence": null
+  },
+  "tags": [
+    "trial",
+    "amyloid",
+    "biomarkers",
+    "semaglutide",
+    "glp-1",
+    "evoke-plus"
+  ],
+  "themes": [
+    "Clinical trial protocol",
+    "Early Alzheimer's disease",
+    "GLP-1 receptor agonists",
+    "Cognitive and functional assessment"
+  ],
+  "one_line": "A Phase 3 registry record for the EVOKE Plus trial evaluating the efficacy and safety of oral semaglutide in patients with early Alzheimer's disease.",
+  "summary": "This document is a clinical trial registry record (NCT04777409) from ClinicalTrials.gov detailing the protocol for the EVOKE Plus study sponsored by Novo Nordisk A/S. The Phase 3, randomized, quadruple-masked, placebo-controlled trial evaluates once-daily oral semaglutide (up to 14 mg) in 1,840 older adults with mild cognitive impairment or mild dementia of the Alzheimer's type and confirmed amyloid positivity. The primary outcome is the change in the Clinical Dementia Rating - Sum of Boxes (CDR-SB) score from baseline to week 104. Secondary measures assess activities of daily living, cognitive subscales (ADAS-Cog-13, MoCA), time to progression, and cardiovascular safety. Although the registry indicates the trial completed in January 2026, no results have been posted.",
+  "key_claims": [],
+  "methods": {
+    "design": "Randomized, double-blind, placebo-controlled, quadruple-masked Phase 3 interventional trial",
+    "n": 1840,
+    "population": "Adults aged 55-85 with mild cognitive impairment or mild dementia of the Alzheimer's type and confirmed amyloid positivity",
+    "duration": "Up to 173 weeks (104-week main phase, 156-week extension phase)",
+    "registration": "NCT04777409"
+  },
+  "funding_and_conflicts": "Lead sponsor: Novo Nordisk A/S. No conflicts of interest are stated in this registry record.",
+  "limitations": [
+    "This is a trial registry record, not a peer-reviewed publication.",
+    "Results have not yet been posted, so no conclusions regarding efficacy or safety can be drawn."
+  ],
+  "red_flags": [],
+  "parse_quality": {
+    "score": 10,
+    "issues": []
+  },
+  "search_verification": []
+}

@@ -1,0 +1,73 @@
+{
+  "overall": "hopeful",
+  "summary": "Public sentiment around E2814 (etalanetug) and its combination with lecanemab is heavily segmented. Among scientists and retail investors, there is distinct enthusiasm driven by a recent FDA Fast Track designation and early biomarker results in dominantly inherited Alzheimer's disease showing that tau markers 'tanked' in CSF. However, the broader patient and caregiver communities remain almost completely quiet on this experimental therapy, focusing their discussions instead on the already-approved lecanemab (Leqembi). As a result, the discourse is confined to specialized circles, where anticipation for the Phase 2 trial results runs high but has not yet reached mainstream public awareness.",
+  "communities": [
+    {
+      "community": "Scientists and researchers (e.g., Alzforum)",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "Strong biomarker reduction in early trials",
+        "Synergy of anti-tau (etalanetug) and anti-amyloid (lecanemab)",
+        "Focus on MTBR-tau-243 as a reliable marker"
+      ],
+      "example_urls": [
+        "https://www.alzforum.org/therapeutics/etalanetug",
+        "https://www.alzforum.org/news/conference-coverage/after-tau-immunotherapy-tangle-markers-tank-csf-plasma"
+      ]
+    },
+    {
+      "community": "Retail investors",
+      "sentiment": "hopeful",
+      "themes": [
+        "FDA Fast Track designation",
+        "Institutional accumulation of stock",
+        "Pipeline potential beyond Leqembi"
+      ],
+      "example_urls": [
+        "https://business-news-today.com/eisais-etalanetug-earns-fda-fast-track-status-signaling-new-hope-in-alzheimers-therapy/"
+      ]
+    },
+    {
+      "community": "Patients and caregivers (Reddit, AlzConnected)",
+      "sentiment": "quiet",
+      "themes": [
+        "Focus on approved therapies (lecanemab, donanemab)",
+        "Lack of awareness of E2814/etalanetug"
+      ],
+      "example_urls": [
+        "https://alzconnected.org/discussion/69923/lecanemab",
+        "https://connect.mayoclinic.org/discussion/experience-with-donanemab-and-lecanemab/"
+      ]
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Alzforum",
+      "tone": "positive",
+      "date": "2025-12",
+      "url": "https://www.alzforum.org/news/conference-coverage/after-tau-immunotherapy-tangle-markers-tank-csf-plasma"
+    },
+    {
+      "outlet": "Business News Today",
+      "tone": "positive",
+      "date": "2025-09",
+      "url": "https://business-news-today.com/eisais-etalanetug-earns-fda-fast-track-status-signaling-new-hope-in-alzheimers-therapy/"
+    },
+    {
+      "outlet": "PR Newswire (Eisai Press Release)",
+      "tone": "positive",
+      "date": "2026-07",
+      "url": "https://www.prnewswire.com/news-releases/eisai-presents-latest-findings-showed-etalanetug-reduced-alzheimers-disease-tau-tangle-specific-plasma-biomarker-mtbr-tau243-at-alzheimers-association-international-conference-aaic-2026-302823296.html"
+    }
+  ],
+  "hype_vs_evidence": "Enthusiasm within the investor and scientific communities is heavily fueled by early biomarker data from small, open-label trials in dominantly inherited Alzheimer's disease (DIAD) and recent FDA Fast Track designation. This perception assumes that the dramatic drop in tau markers will translate to clinical efficacy in broader populations. However, the Phase 2 trial (NCT06602258) for sporadic early Alzheimer's disease is still ongoing with primary completion not expected until December 2026. Therefore, current hype runs ahead of the clinical evidence for the sporadic AD population, as no efficacy or safety results for this combination therapy have been published yet.",
+  "misinformation_flags": [],
+  "searches_run": [
+    "E2814 lecanemab",
+    "site:reddit.com E2814 OR lecanemab tau alzheimers",
+    "Eisai E2814 stock forum OR site:stocktwits.com OR site:seekingalpha.com",
+    "Etalanetug reddit",
+    "Etalanetug alzforum",
+    "E2814 lecanemab caregiver forum"
+  ]
+}

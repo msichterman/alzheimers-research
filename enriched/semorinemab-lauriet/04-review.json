@@ -1,0 +1,86 @@
+{
+  "fact_check": [
+    {
+      "fact": "Semorinemab reduced cognitive decline by 42.2% on the ADAS-Cog11 at week 49.",
+      "status": "verified",
+      "note": "Matches paper Table 2 (treatment difference −2.89 points, p = 0.0008)."
+    },
+    {
+      "fact": "Semorinemab engaged peripheral tau targets but did not slow brain tau accumulation.",
+      "status": "verified",
+      "note": "Paper Results confirm >20-fold increase in plasma tau (Figure 3) but Table 2 confirms no treatment difference in annualized whole cortical gray PET SUVR change (p = 0.9941)."
+    },
+    {
+      "fact": "The Lauriet trial cohort was strictly 'moderate' severity, meaning the paper's 'mild-to-moderate' label is a discrepancy.",
+      "status": "corrected",
+      "note": "The clinical-trials researcher incorrectly flagged this. Paper Table 1 shows 90% of the cohort had a CDR-Global Score of 1 (mild AD) and only 10% had a 2 (moderate). The population is accurately described as mild-to-moderate."
+    }
+  ],
+  "research_page": {
+    "slug": "semorinemab-lauriet",
+    "title": "Semorinemab in mild-to-moderate AD (Lauriet)",
+    "description": "Phase 2 trial showing an isolated cognitive benefit for semorinemab that is widely considered a statistical artifact due to a lack of functional or biomarker efficacy.",
+    "tags": [
+      "paper",
+      "trial",
+      "tau",
+      "immunotherapy",
+      "biomarkers",
+      "semorinemab",
+      "mild-to-moderate-ad"
+    ],
+    "source_line_md": "**Source**: [Neurology, 2023](https://doi.org/10.1212/WNL.0000000000207663) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/37643887/)",
+    "authors_line_md": "Monteiro et al. — Genentech, Inc.",
+    "takeaway_md": "In the Phase 2 Lauriet trial, the anti-tau antibody semorinemab significantly slowed cognitive decline on the ADAS-Cog11. However, the trial failed its functional coprimary endpoint and all secondary clinical and biomarker measures, leading experts to view the isolated cognitive signal as a false positive.",
+    "key_findings_md": [
+      "Reduced cognitive decline by 42.2% on the ADAS-Cog11 at week 49 compared to placebo (p = 0.0008) (paper, Table 2).",
+      "Failed to show a significant treatment effect on the functional ADCS-ADL scale or on global clinical measures like CDR-SB and MMSE (paper, Table 2).",
+      "Did not alter the rate of tau accumulation on PET imaging or cerebral atrophy on MRI (paper, Table 2).",
+      "Elevated plasma tau biomarkers >20-fold, demonstrating peripheral target engagement without downstream disease modification (paper, Results)."
+    ],
+    "methods_md": "Multicenter, randomized, double-blind, placebo-controlled Phase 2 trial of 272 adults aged 50–85 with probable mild-to-moderate AD. Participants received 4,500 mg IV semorinemab or placebo every four weeks for 48 or 60 weeks. Registered as [NCT03828747](https://clinicaltrials.gov/study/NCT03828747).",
+    "trial_evidence_md": "This paper reports results from the Phase 2 [Lauriet](/trials/semorinemab-lauriet-nct03828747) trial. The broader clinical evidence for semorinemab as a disease-modifying therapy is very weak. Despite Lauriet's isolated cognitive hit, a larger Phase 2 trial in earlier-stage AD ([Tauriel](/research/papers/semorinemab-tauriel)) unambiguously failed its primary endpoint, leading to the program's apparent discontinuation.",
+    "sentiment_md": "Public perception briefly diverged from the scientific evidence when early corporate press releases highlighted the isolated cognitive signal, sparking a retail stock rally for AC Immune. However, the scientific and medical communities remained highly skeptical, recognizing that cognitive benefits without functional or biomarker improvements likely represented a statistical artifact.",
+    "caveats_md": [
+      "The study cohort was predominantly White (89%) and lacked racial and ethnic diversity, limiting the generalizability of the findings.",
+      "The COVID-19 pandemic caused missed doses and altered assessment protocols, which could introduce unaccounted variance despite preplanned sensitivity analyses.",
+      "A post-hoc analysis revealed the cognitive benefit was driven primarily by a single 'word recognition' item, undermining confidence in the drug's true clinical efficacy."
+    ],
+    "relates_to_md": [
+      "[Tauriel Phase 2 trial](/research/papers/semorinemab-tauriel) — Semorinemab's parallel Phase 2 trial in prodromal-to-mild AD, which failed to show clinical efficacy.",
+      "[Amyloid hypothesis](/research/amyloid-hypothesis) — Context for targeting tau versus amyloid in disease-modifying Alzheimer's therapies."
+    ]
+  },
+  "trial_pages": [
+    {
+      "slug": "semorinemab-lauriet-nct03828747",
+      "title": "Lauriet (Semorinemab Phase 2)",
+      "description": "Phase 2 trial of the anti-tau monoclonal antibody semorinemab in mild-to-moderate Alzheimer's disease.",
+      "badge": "Completed",
+      "tags": [
+        "trial",
+        "tau",
+        "semorinemab",
+        "phase-2"
+      ],
+      "registry_md": "[NCT03828747](https://clinicaltrials.gov/study/NCT03828747)",
+      "drug": "Semorinemab (anti-tau monoclonal antibody)",
+      "phase": "2",
+      "sponsor": "Genentech, Inc.",
+      "population": "Mild-to-moderate Alzheimer's disease",
+      "primary_endpoint": "Change from baseline in cognitive function (ADAS-Cog11) and functional capacities (ADCS-ADL) at week 49",
+      "started": "2018-12",
+      "readout": "2023-08",
+      "why_md": "Lauriet tested whether targeting the N-terminal domain of tau could slow disease progression in patients who already exhibit mild-to-moderate symptoms, attempting to establish efficacy in later disease stages after early-stage failures.",
+      "status_log_md": [
+        "**2018-12-03** — Trial begins screening participants (paper, Results).",
+        "**2023-10-03** — Full trial results published in Neurology, showing conflicting cognitive and functional outcomes."
+      ],
+      "results_md": "The trial reported a 42.2% reduction in cognitive decline on the ADAS-Cog11, but failed to demonstrate any benefit on the ADCS-ADL functional scale, secondary clinical measures, or tau accumulation. The isolated cognitive result is widely viewed as a statistical artifact."
+    }
+  ],
+  "timeline_entries": [],
+  "notes_for_editor": [
+    "The clinical trials researcher incorrectly claimed the Lauriet cohort was strictly 'moderate' based on the MMSE 16-21 score, but the paper explicitly states 90% of the cohort had a CDR-Global Score of 1, meaning they actually had mild AD. I corrected this discrepancy and removed their flag."
+  ]
+}

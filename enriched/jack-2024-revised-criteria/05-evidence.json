@@ -1,0 +1,562 @@
+{
+  "_meta": {
+    "model": "claude (builder subagent)",
+    "extracted_at": "2026-08-13T00:00:00Z",
+    "source": "raw/jack-2024-revised-criteria/document.md"
+  },
+  "document_kind": "consensus_statement",
+  "title": {
+    "value": "Revised criteria for diagnosis and staging of Alzheimer's disease: Alzheimer's Association Workgroup",
+    "quote": "Jack CR, Andrews JS, Beach TG, et al. Revised criteria for diagnosis and staging of Alzheimer's disease: Alzheimer's Association Workgroup. Alzheimer's Dement. 2024;20:5143–5169.",
+    "location": "Title line and closing citation line"
+  },
+  "authors": [
+    { "name": "Clifford R. Jack Jr.", "affiliation": "Mayo Clinic", "orcid": null, "corresponding": null },
+    { "name": "J. Scott Andrews", "affiliation": "Takeda Pharmaceuticals", "orcid": null, "corresponding": null },
+    { "name": "Thomas G. Beach", "affiliation": "Banner Health", "orcid": null, "corresponding": null },
+    { "name": "Teresa Burracchio", "affiliation": "US Food and Drug Administration", "orcid": null, "corresponding": null },
+    { "name": "Billy Dunn", "affiliation": null, "orcid": null, "corresponding": null },
+    { "name": "Ana Graf", "affiliation": "Novartis Pharma AG", "orcid": null, "corresponding": null },
+    { "name": "Oskar Hansson", "affiliation": "Lund University", "orcid": null, "corresponding": null },
+    { "name": "Carole Ho", "affiliation": "Denali Therapeutics", "orcid": null, "corresponding": null },
+    { "name": "William Jagust", "affiliation": "University of California, Berkley", "orcid": null, "corresponding": null },
+    { "name": "Eric McDade", "affiliation": "Washington University, St Louis", "orcid": null, "corresponding": null },
+    { "name": "Jose Luis Molinuevo", "affiliation": "H. Lundbeck A/S", "orcid": null, "corresponding": null },
+    { "name": "Ozioma Okonkwo", "affiliation": "University of Wisconsin School of Medicine & Public Health", "orcid": null, "corresponding": null },
+    { "name": "Luca Pani", "affiliation": "University of Miami and the University of Modena and Reggio Emilia", "orcid": null, "corresponding": null },
+    { "name": "Michael Rafii", "affiliation": "University of Southern California and the Alzheimer's Therapeutics Research Institute (ATRI)", "orcid": null, "corresponding": null },
+    { "name": "Philip Scheltens", "affiliation": "Life Science Partners; Professor Emeritus Amsterdam University Medical Center", "orcid": null, "corresponding": null },
+    { "name": "Eric Siemers", "affiliation": "Acumen Pharmaceuticals, Inc.", "orcid": null, "corresponding": null },
+    { "name": "Heather M. Snyder", "affiliation": "Alzheimer's Association, Chicago, IL", "orcid": null, "corresponding": null },
+    { "name": "Reisa Sperling", "affiliation": "Brigham and Women's Hospital", "orcid": null, "corresponding": null },
+    { "name": "Charlotte E. Teunissen", "affiliation": "Amsterdam UMC", "orcid": null, "corresponding": null },
+    { "name": "Maria C. Carrillo", "affiliation": "Alzheimer's Association", "orcid": null, "corresponding": null },
+    { "name": "Eliezer Masliah", "affiliation": "National Institute on Aging at the National Institutes of Health; advisory member to the workgroup", "orcid": null, "corresponding": null },
+    { "name": "Laurie Ryan", "affiliation": "National Institute on Aging at the National Institutes of Health; advisory member to the workgroup", "orcid": null, "corresponding": null }
+  ],
+  "study": {
+    "design": {
+      "value": "Alzheimer's Association-convened workgroup consensus criteria document (steering committee plus full workgroup) that updates the 2018 NIA-AA research framework; document_kind is consensus_statement rather than journal_article or systematic_review because it presents a convened workgroup's recommended diagnostic and staging criteria, not a study protocol or a systematic synthesis of a defined literature search",
+      "quote": "The convening organization for these revised criteria is the AA. The AA identified a four‐person core leadership group for this effort (i.e., a steering committee) as well as a larger full workgroup.",
+      "location": "BACKGROUND, paragraph 2"
+    },
+    "phase": { "value": null, "quote": null, "location": null },
+    "n": {
+      "value": 4889,
+      "quote": "Four thousand eight hundred eighty‐nine individuals met these criteria. Of these, 4637 were symptomatic (i.e., CDR > 0) and 4390/4637 (95%) were Braak NFT stage III to VI",
+      "location": "Rationale for diagnosis of AD by Core 1 biomarkers, NACC autopsy analysis"
+    },
+    "n_description": {
+      "value": "Participants in the December 2023 National Alzheimer's Coordinating Center autopsy data freeze who had CERAD moderate/frequent neuritic plaque density scores and had been assigned both a Braak NFT stage and a Clinical Dementia Rating. This is the workgroup's own supporting autopsy analysis, not enrollment in a trial; the document reports other, separate counts (123 Arizona cases, 252 asymptomatic NACC cases, 34 Mayo cases) which are not merged into this N.",
+      "quote": "the December 2023 data freeze of the National Alzheimer's Coordinating Center (NACC) autopsy database for participants who had CERAD moderate/frequent neuritic plaque density scores and had been assigned both a Braak NFT stage and Clinical Dementia Rating (CDR)",
+      "location": "Rationale for diagnosis of AD by Core 1 biomarkers"
+    },
+    "population": {
+      "value": "Individuals on the Alzheimer's disease continuum — people in whom AD has been diagnosed by Core 1 biomarkers, whether asymptomatic or symptomatic; the criteria explicitly do not apply to individuals who are not in the AD pathway",
+      "quote": "Staging of AD applies only to individuals in whom the disease has been diagnosed by means of Core 1 biomarkers and does not apply to individuals who are not in the AD pathway.",
+      "location": "BIOLOGICAL DISEASE STAGING, opening paragraph"
+    },
+    "followup": { "value": null, "quote": null, "location": null },
+    "intervention": { "value": null, "quote": null, "location": null },
+    "comparator": { "value": null, "quote": null, "location": null },
+    "biomarker_confirmation": {
+      "value": "Abnormality on specific Core 1 biomarkers: amyloid PET, CSF Aβ42/40, CSF p-tau181/Aβ42, CSF t-tau/Aβ42, or 'accurate' plasma assays (accuracy equivalent to approved CSF assays), or combinations of these",
+      "quote": "Currently, we regard the following to be diagnostic of AD: amyloid PET, cerebrospinal fluid (CSF) Aβ 42/40, CSF p‐tau 181/Aβ 42, CSF t‐tau/Aβ 42, “accurate” plasma assays (defined below), or combinations of these.",
+      "location": "BOX 2: The diagnosis of Alzheimer's disease, Core 1 and Core 2 Alzheimer's disease biomarkers"
+    },
+    "nct_ids": [],
+    "cohorts": [
+      "National Alzheimer's Coordinating Center (NACC) autopsy database, December 2023 data freeze",
+      "Arizona Study of Aging and Neurodegenerative Disorders and Brain and Body Donation Program",
+      "Mayo Clinic Study on Aging and Alzheimer's Disease Research Center database",
+      "TRAILBLAZER-ALZ",
+      "TRAILBLAZER-ALZ2",
+      "A4",
+      "AHEAD"
+    ]
+  },
+  "outcomes": [
+    {
+      "name": "Definition of Alzheimer's disease as a biological process beginning with AD neuropathologic change (ADNPC) in asymptomatic people",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "We define Alzheimer's disease (AD) to be a biological process that begins with the appearance of AD neuropathologic change (ADNPC) while people are asymptomatic.",
+      "location": "Highlights"
+    },
+    {
+      "name": "Core 1 biomarkers establish the diagnosis of AD",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "An abnormal Core 1 biomarker result is sufficient to establish a diagnosis of AD and to inform clinical decision making throughout the disease continuum.",
+      "location": "Highlights"
+    },
+    {
+      "name": "Composition of the Core 1 biomarker category (A, T1, hybrid ratios) and its timing relative to amyloid PET",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Core 1 biomarkers become abnormal around the same time as amyloid PET, and are those in the A, T 1 , or hybrid ratio categories (Tables and ).",
+      "location": "BIOMARKER CATEGORIZATION, Core 1 / Core 2 introduction"
+    },
+    {
+      "name": "Core 2 biomarkers (tau PET and T2 biofluids) provide prognostic information and increase confidence AD is contributing to symptoms",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Later‐changing Core 2 biomarkers (biofluid and tau PET) can provide prognostic information, and when abnormal, will increase confidence that AD is contributing to symptoms.",
+      "location": "Highlights"
+    },
+    {
+      "name": "Split of the T biomarker category into T1 (early phosphorylated mid-region fragments) and T2 (tau PET and later tau fragments)",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "These observations led us to split the T biomarker category into two subcategories: T 1 (biofluid analytes of soluble tau fragments that may reflect a reaction to amyloid plaques",
+      "location": "BIOMARKER CATEGORIZATION, timing of T biomarkers"
+    },
+    {
+      "name": "Three broad biomarker categories: core ADNPC biomarkers, non-specific biomarkers, and biomarkers of non-AD copathology",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "We group biomarkers into three broad categories: core biomarkers of AD neuropathologic change (ADNPC), non‐specific biomarkers that are important in AD pathogenesis but are also involved in other brain diseases, and biomarkers of common non‐AD copathologies",
+      "location": "BIOMARKER CATEGORIZATION, paragraph 2 (Table 1)"
+    },
+    {
+      "name": "Addition of three new biomarker categories beyond AT(N): inflammation (I), vascular brain injury (V), alpha-synucleinopathy (S)",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Accordingly, Tables and include three new biomarker categories: inflammatory/immune mechanisms (I), vascular brain injury (V), and alpha‐synucleinopathy (S).",
+      "location": "BIOMARKER CATEGORIZATION, discussion of ATX(N)"
+    },
+    {
+      "name": "Minimum accuracy requirement of 90% for biomarkers used for clinical diagnosis",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "accuracy of 90% for identification of moderate/frequent neuritic plaques at autopsy or an approved surrogate, in the intended-use population",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "We recommend, as a minimum requirement, an accuracy of 90% for the identification of moderate/frequent neuritic plaques at autopsy (or an approved surrogate, which, at this point, would be amyloid PET or CSF) in the intended‐use population.",
+      "location": "BOX 2 / Anchoring Core 1 biomarkers for AD diagnosis to reference standards"
+    },
+    {
+      "name": "Four-stage biological staging scheme (stages A initial, B early, C intermediate, D advanced)",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "We propose a four‐stage scheme based on the sequence of events observed in natural history studies: stage A, initial changing biomarkers; stage B, early changing; stage C, intermediate changing; stage D, advanced changing",
+      "location": "Biological staging scheme overview"
+    },
+    {
+      "name": "Operationalization of biological stages by amyloid PET and tau PET (A+T2−, A+T2MTL+, A+T2MOD+, A+T2HIGH+)",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Stage A ( initial )—abnormal amyloid PET with no uptake on tau PET (A+T 2 −); stage B ( early )—abnormal amyloid PET plus tau PET uptake that is restricted to medial temporal areas (A+T 2MTL +)",
+      "location": "Biological staging with amyloid PET and tau PET (Tables 3 and 4)"
+    },
+    {
+      "name": "Conceptual fluid-only biological staging scheme (Core 1 fluid, p-tau205, MTBR-tau243, non-phosphorylated mid-domain tau fragments)",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "This fluid‐only staging scheme is regarded as conceptual at present, and specifics of this conceptual scheme are likely to change given the rapidly changing nature of the fluid biomarker field.",
+      "location": "Biological staging with fluids (Table 5)"
+    },
+    {
+      "name": "Six-stage numeric clinical staging scheme for individuals on the AD continuum",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "(1) biomarker evidence of AD in asymptomatic individuals; (2) transitional decline, which denotes the earliest detectable clinical symptoms that might be due to AD in individuals who are cognitively unimpaired",
+      "location": "CLINICAL STAGING, Numeric clinical staging (Table 6)"
+    },
+    {
+      "name": "Addition of clinical stage 0 for genetically determined, biomarker-negative, asymptomatic AD",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Stage 0 represents part of the AD continuum and is defined as genetically determined AD (which includes ADAD or DSAD), in an individual who is biomarker negative and clinically asymptomatic",
+      "location": "CLINICAL STAGING, Stage 0"
+    },
+    {
+      "name": "Integrated biological and clinical staging scheme (clinical stages 0–6 in columns, biological stages A–D in rows)",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "we propose an integrated biological and clinical staging scheme in which clinical stages are denoted in the columns using the numeric six‐stage scheme plus stage 0. Biological stages are denoted in the rows.",
+      "location": "INTEGRATED BIOLOGICAL AND CLINICAL STAGING (Table 7)"
+    },
+    {
+      "name": "NACC autopsy analysis: proportion of symptomatic individuals with moderate/frequent neuritic plaques meeting intermediate/high ADNPC",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "4390/4637 (95%) were Braak NFT stage III to VI",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "among symptomatic individuals, knowing only that someone has moderate/frequent plaques (i.e., an abnormal amyloid PET study) means that that individual will nearly always (95% of the time) qualify for a pathologic diagnosis of intermediate‐to‐high ADNPC",
+      "location": "Rationale for diagnosis of AD by Core 1 biomarkers"
+    },
+    {
+      "name": "Autopsy analyses in cognitively unimpaired individuals with moderate/frequent neuritic plaques (Arizona and NACC)",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "107/123 (87%) in the Arizona series and 186/252 (74%) in NACC were Braak III–VI; 226/252 (91%) were Braak II–VI",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "we can conclude that while most (74%−87%) asymptomatic individuals with an abnormal amyloid PET scan (i.e., moderate/frequent neuritic plaques) will meet criteria for intermediate/high ADNPC at that time, a proportion will not.",
+      "location": "Rationale for diagnosis of AD by Core 1 biomarkers"
+    },
+    {
+      "name": "Mayo Clinic analysis of amyloid PET-positive cognitively unimpaired individuals who later progressed and came to autopsy",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "32/34 (94%) received a neuropathological diagnosis of intermediate/high likelihood ADNPC",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "Of the 34 individuals who did meet these restrictive criteria, 32 (94%) received a neuropathological diagnosis of intermediate/high likelihood ADNPC.",
+      "location": "Rationale for diagnosis of AD by Core 1 biomarkers"
+    },
+    {
+      "name": "Prognostic value of PET-based biological staging: hazard ratios for progression from cognitively unimpaired to dementia",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": "HR 1.5 for A+T2− (stage A), HR 5.6 for medial temporal tau PET uptake (stage B), HR 39.9 for neocortical tau PET uptake (stages C and D), relative to an A−T2− reference group; a 40-fold range in hazard ratios",
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "the HR for progression from cognitively unimpaired to dementia was 1.5 for A+T 2 − individuals (stage A in our scheme), HR 5.6 for A+ individuals with tau PET uptake confined to the medial temporal lobe",
+      "location": "Caveats (biological staging), citing a large multi-cohort meta-analysis"
+    },
+    {
+      "name": "The A−T2+ biomarker profile is not consistent with a diagnosis of AD",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The A−T 2 + biomarker profile is not consistent with a diagnosis of AD. First, this combination is rare., , Second, when it does occur, it is often due to quantitative values close to cutpoints",
+      "location": "DIAGNOSIS, paragraph 2"
+    },
+    {
+      "name": "T2N mismatch as an indirect indicator of non-AD copathology in a multimodal AT1T2NISV profile",
+      "tier": "exploratory",
+      "prespecified": "unclear",
+      "prespecification_evidence": null,
+      "met": "not_applicable",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "multiplicity_controlled": "unclear",
+      "quote": "The T 2 −N+ biomarker profile (i.e., T 2 N mismatch) therefore indicates the presence of neurodegeneration or neuronal injury due to a disease(s) other than AD.",
+      "location": "MULTIMODAL BIOMARKER PROFILES AND IDENTIFICATION OF COMORBID PATHOLOGIC CHANGE"
+    }
+  ],
+  "primary_endpoint_status": {
+    "status": "not_applicable",
+    "explanation": "This is a convened workgroup's consensus criteria document for diagnosing and staging Alzheimer's disease, not a study with a prespecified primary endpoint, so there is no endpoint to meet or miss.",
+    "quote": "Our intent is to present objective criteria for diagnosis and staging AD, incorporating recent advances in biomarkers, to serve as a bridge between research and clinical care."
+  },
+  "multiplicity": {
+    "approach": "none stated",
+    "quote": null,
+    "location": null
+  },
+  "safety": {
+    "harms": [],
+    "apoe_stratification_reported": false,
+    "serious_adverse_events": { "value": null, "quote": null, "location": null },
+    "deaths": { "value": null, "quote": null, "location": null },
+    "discontinuations": { "value": null, "quote": null, "location": null }
+  },
+  "funding": [
+    "Clifford R. Jack Jr. received grant funding from the National Institutes of Health, the Alexander family professorship, and the GHR Foundation; and funding from the Alzheimer's Association for travel",
+    "Thomas G. Beach received grant funding from the National Institutes of Health, Veterans Administration, State of Arizona, Life Molecular Imaging, Michael J. Fox Foundation for Parkinson's Research, Avid Radiopharmaceuticals/Eli Lilly, and Gates Foundation",
+    "Oskar Hansson acquired research support (for the institution) from AVID Radiopharmaceuticals, Biogen, C2N Diagnostics, Eli Lilly, Eisai, Fujirebio, GE Healthcare, and Roche",
+    "William Jagust received grants or contracts paid to his institution from the National Institute on Aging, Roche/Genentech, Alzheimer's Association, and BrightFocus Foundation",
+    "Eric McDade received grant funding from NIA, Eli Lilly, Hoffmann-La Roche, Alzheimer's Association, and GHR Foundation, all directly to his institution",
+    "Ozioma Okonkwo received support from NIH grants R01AG062167, R01AG077507, U19AG024904, U19AG078109, U19AG073153, R01AG066203, R01AG070028, R01AG027161, and RF1AG052324, paid to his institution",
+    "Michael Rafii received grants or contracts from Eisai (AHEAD Study) and Eli Lilly (A4 Study), paid to his institution",
+    "Philip Scheltens received grants or contracts from Novo Nordisk, Toyama, UCB, AC Immune, and Alzheon, all paid to his institution",
+    "Reisa Sperling received grants or contracts from the National Institute on Aging, Eli Lilly (public-private partnership trial funding), Eisai (public-private partnership trial funding), Alzheimer's Association, and GHR Foundation",
+    "Charlotte E. Teunissen received grants or contracts from the European Commission (MIRIADE, grant 860197), IMI 3TR (Horizon 2020, grant 831434), EPND (IMI 2 JU, grant 101034344), JPND (bPRIDE), National MS Society, Alzheimer Drug Discovery Foundation, Alzheimer Association, Health Holland, the Dutch Research Council (ZonMW) including TAP-dementia, The Selfridges Group Foundation, and Alzheimer Netherlands",
+    "The convening organization for these revised criteria is the Alzheimer's Association (AA)"
+  ],
+  "conflicts": [
+    "Clifford R. Jack Jr. is employed by Mayo Clinic; within the past 36 months served on a Data Safety Monitoring Board for Roche pro bono (no payments to individual or institution); holds index funds",
+    "J. Scott Andrews is employed by Takeda Pharmaceuticals and is a minor shareholder; leadership/fiduciary roles in the CTAD Task Force—Clinical Meaningfulness and Optimizing Therapies, AD PACE Executive Steering Committee, and UsAgainstAlzheimer's—Clinical Meaningfulness Forum; former employee of Eli Lilly and Company and a minor shareholder",
+    "Thomas G. Beach is employed by Banner Health; consulting fees from Aprinoia Therapeutics and Acadia Pharmaceuticals; consulted for Biogen; honoraria from the World PD Coalition, Mayo Clinic Florida, Stanford University, and IOS Press-Journal of Parkinson's Disease; meeting support from the Alzheimer's Association, AD/PD/Kenes Group, Mayo Clinic Florida, Universitätsklinikum Hamburg-Eppendorf, and the International Movement Disorders Association; NIH funds for reviewing grant proposals; leadership/fiduciary role and stock options with Vivid Genomics",
+    "Teresa Burracchio is employed by the US Food and Drug Administration and has no financial conflicts to disclose",
+    "Billy Dunn is a consultant and has received consulting fees as an advisor for Arch Venture Partners, Cerveau Technologies, Epilepsy Foundation, F-PRIME Capital, Loulou Foundation, and Michael J. Fox Foundation; past leadership/fiduciary roles in the Virginia Neurological Society (past president) and Prothena Inc. (Director); holds stock options with Prothena Inc.",
+    "Ana Graf is employed by Novartis Pharma AG and has stock options in the company",
+    "Oskar Hansson is employed by Lund University; grants or contracts from ADx, AVID Radiopharmaceuticals, Biogen, Eli Lilly, Eisai, Fujirebio, GE Healthcare, Pfizer, and Roche; consulting fees from AC Immune, Amylyx, Alzpath, BioArctic, Biogen, Cerveau, Eisai, Eli Lilly, Fujirebio, Genentech, Merck, Novartis, Novo Nordisk, Roche, Sanofi, and Siemens; consultancy/speaker fees in the past 2 years from AC Immune, Alzpath, BioArctic, Biogen, Bristol Meyer Squibb, Cerveau, Eisai, Eli Lilly, Fujirebio, Merck, Novartis, Novo Nordisk, Roche, Sanofi, and Siemens",
+    "Carole Ho is employed by Denali Therapeutics with stock options; Board Director for Beam Therapeutics and NGM Therapeutics with stock options in both",
+    "William Jagust is employed by University of California, Berkley; consulting fees from Biogen, Clario, Eisai, Lilly, and Prothena; stock with Optoceutics and Molecular Medicine",
+    "Eric McDade is employed by Washington University, St Louis; royalties for work on 'Methods of diagnosing AD with phosphorylation changes' licensed to C2N with royalties to himself and Washington University; consulting fees from Alzamend (SAB member), Sanofi, AstraZeneca, Roche, Grifols, Merck, and Sage; payments from Neurology Live and Kaplan-Projects in Knowledge; travel support from Foundation Alzheimer, Alzheimer's Association, and Eisai; patent planned/issued/pending; paid Data Safety Monitoring Board or Advisory Board participation for Alector and Eli Lilly; paid leadership/fiduciary role in Alzamend",
+    "Jose Luis Molinuevo is a full-time employee of H. Lundbeck A/S",
+    "Ozioma Okonkwo is employed by University of Wisconsin School of Medicine & Public Health; consulting fees from Mayo Clinic Rochester and IUPUI; leadership/fiduciary role in the International Neuropsychological Society (Board Member) and previously an advisory role for Society for Black Neuropsychology",
+    "Luca Pani is employed by the University of Miami and the University of Modena and Reggio Emilia and has no financial conflicts to disclose; in unrelated areas holds options/stocks from Relmada Therapeutics (US) and NetraMark (Canada)",
+    "Michael Rafii is employed by University of Southern California and the Alzheimer's Therapeutics Research Institute; consulting fees from AC Immune and Ionis; Data Safety Monitoring Board or Advisory Board participation for Alzheon, Aptah Bio, Biohaven, Embic, Keystone Bio, Prescient Imaging, and Positrigo",
+    "Philip Scheltens is employed by Life Science Partners and is Professor Emeritus Amsterdam University Medical Center; unpaid Chair of World Dementia Council; holds stock options in EQT AB",
+    "Eric Siemers is employed by Acumen Pharmaceuticals, Inc.; consulting fees from Cogstate Ltd., Cortexyme Inc., Partner Therapeutics Inc., Vaccinex Inc., Gates Ventures LLC, and Hoffman La Roche Ltd, paid to Siemers Integration LLC; Data Safety Monitoring Board for Hoffman La Roche Ltd; unpaid leadership/fiduciary roles with the Alzheimer's Association and BrightFocus Foundation; holds stock options and is a shareholder for Acumen Pharmaceuticals and a shareholder for Eli Lilly and Company",
+    "Heather Snyder is a full-time employee of the Alzheimer's Association, Chicago, IL, and has a spouse employed by Abbott Laboratories in an unrelated area; no financial conflicts to disclose",
+    "Reisa Sperling is employed by Brigham and Women's Hospital; consulting fees from Abbvie, AC Immune, Acumen, Alector, Alnylam, Biohaven, Bristol-Myers Squibb, Cytox, Genentech, Ionis, Janssen, Merck, NervGen, Neuraly, Neurocentria, Oligomerix, Prothena, Roche, Shionogi, and Vaxxinity",
+    "Charlotte E. Teunissen is employed by Amsterdam UMC; recipient of ABOARD, a public-private partnership funded by ZonMW (#73305095007) and Health~Holland; contract researcher for ADx Neurosciences, AC-Immune, Aribio, Axon Neurosciences, Beckman-Coulter, BioConnect, Bioorchestra, Brainstorm Therapeutics, Celgene, Cognition Therapeutics, EIP Pharma, Eisai, Eli Lilly, Fujirebio, Grifols, Instant Nano Biosensors, Merck, Novo Nordisk, Olink, PeopleBio, Quanterix, Roche, Siemens, Toyama, Vivoryon, and the European Commission; honoraria from Eli Lilly, Grifols, Novo Nordisk, Olink, and Roche paid to her institution; editorial board roles",
+    "Maria Carrillo is a full-time employee of the Alzheimer's Association and has a daughter in the neuroscience program at USC; no financial conflicts to disclose",
+    "Eliezer Masliah and Laurie Ryan served as advisory members to the workgroup; employed by the National Institute on Aging at the National Institutes of Health with no financial conflicts to disclose"
+  ],
+  "limitations": [
+    "The criteria are not step-by-step clinical practice guidelines: 'These criteria are not intended to provide step-by-step clinical practice guidelines for clinical workflow or specific treatment protocols'",
+    "The criteria are presently operationalizable at some but by no means all centers, even among major medical institutions in high-income countries; the workgroup views them as a bridge between research and clinical care",
+    "Lack of certified biofluid reference methods and materials, except for CSF Aβ42 (Box 3)",
+    "PET, CSF and blood biomarkers are less sensitive than neuropathologic examination for detection of early/mild ADNPC, and disease staging by PET or fluid biomarkers is not equivalent to neuropathological staging (Box 3)",
+    "Thoroughly studied biomarkers are not available for all relevant diseases, so it cannot be known with certainty in vivo what diseases in addition to AD are present in any individual (Box 3)",
+    "The proportion of the cognitive deficit in any individual attributable to AD versus other neuropathologic entities cannot be known with certainty; only probabilistic estimates can be made (Box 3)",
+    "The fluid-only biological staging scheme is regarded as conceptual at present and its specifics are likely to change",
+    "Core 1 fluid biomarkers can establish that an individual is in biological stage A or higher but cannot at present discriminate between PET stages A–D",
+    "No blood-based biomarkers had received regulatory approval for any intended use at the time of writing, and diagnostic accuracy varies substantially among plasma p-tau and Aβ42/40 assays (0.6 to >0.9)",
+    "Specific proprietary fluid assays, PET ligands, and numeric cutpoints for staging are not specified in the document",
+    "Caveats for tau PET: off-target binding; medial temporal tauopathy does not always precede neocortical tauopathy, particularly in atypical presentations; anatomic ROIs are not fixed; the moderate versus high neocortical uptake cutpoint could be operationalized in different ways",
+    "The Centiloid scale is based on sporadic AD anatomic distribution, so determining A+ versus A− may need special consideration in autosomal dominant AD and Down syndrome AD",
+    "Much of the published AD biomarker data derive from highly educated, non-Hispanic White cohorts and have not been tested extensively in broadly representative populations",
+    "No confirmed disease-specific biomarkers currently exist for LATE, a common and clinically important contributor to late-life cognitive impairment",
+    "There is a dearth of available inflammatory/immune (I) biomarkers despite the importance of these mechanisms",
+    "It is unclear how best to categorize total tau in the current document when all evidence is considered",
+    "Feasibility of implementing these criteria in clinical practice varies across regions, even within World Bank-designated high-income countries"
+  ],
+  "risk_of_bias": [
+    {
+      "domain": "workgroup composition and industry representation",
+      "judgement": "The workgroup was deliberately constituted to include industry representation alongside academic members, and the conflict of interest statement shows many members are employed by or hold equity in pharmaceutical and diagnostics companies whose products the criteria bear on.",
+      "quote": "Members of the full workgroup were selected to provide a range of relevant scientific and clinical expertise; to achieve a representative sample of professional stakeholders; and to achieve a balance of academic and industry representation, sex/ethnicity, and geographic location."
+    },
+    {
+      "domain": "cohort representativeness of the supporting evidence",
+      "judgement": "The document itself states that the biomarker evidence base underlying these criteria comes largely from highly educated, non-Hispanic White cohorts and has not been tested extensively in representative populations.",
+      "quote": "Much of the published AD biomarker data have been derived from highly educated, non‐Hispanic White cohorts and these biomarkers have not yet been tested extensively in broadly representative populations."
+    },
+    {
+      "domain": "selection in the workgroup's own supporting autopsy analysis",
+      "judgement": "The Mayo analysis supporting the claim that unimpaired amyloid-positive individuals would eventually meet ADNPC criteria used restrictive selection (amyloid PET positive while unimpaired, later progressed, and came to autopsy), which the document itself labels restrictive.",
+      "quote": "Of the 34 individuals who did meet these restrictive criteria, 32 (94%) received a neuropathological diagnosis of intermediate/high likelihood ADNPC."
+    }
+  ],
+  "disagreements": [
+    {
+      "question": "Should Alzheimer's disease be defined by its biology or by its clinical syndrome?",
+      "position": "AD is defined by its biology; detection of AD neuropathologic change by biomarkers is equivalent to diagnosing the disease, and syndrome must be separated from etiology.",
+      "attributed_to": "Alzheimer's Association Workgroup (this document)",
+      "quote": "AD is defined by its unique neuropathologic findings; therefore, detection of AD neuropathologic change by biomarkers is equivalent to diagnosing the disease."
+    },
+    {
+      "question": "Are cognitively unimpaired people with abnormal biomarkers 'at risk for' AD or do they already have it?",
+      "position": "They already have the disease; they are at risk only for symptoms, not for the disease itself.",
+      "attributed_to": "Alzheimer's Association Workgroup (this document)",
+      "quote": "Unimpaired individuals with abnormal biomarker test results are at risk for symptoms due to AD. They are not at risk for a disease they already have."
+    },
+    {
+      "question": "Is 'at risk for AD' an appropriate label for unimpaired biomarker-positive individuals?",
+      "position": "No — such individuals should be categorized as AD clinical stage 1 or 2 because they already have the disease.",
+      "attributed_to": "Alzheimer's Association Workgroup (this document)",
+      "quote": "we would categorize these individuals as AD clinical stage 1 or 2, not as “at risk for AD” because they already have the disease.",
+      "location": "Syndromic staging"
+    },
+    {
+      "question": "Is 'prodromal AD' the right term for biomarker-positive individuals with impairment short of dementia?",
+      "position": "No — such a person has the disease, not a prodrome of it; the workgroup's term is 'AD clinical stage 3'.",
+      "attributed_to": "Alzheimer's Association Workgroup (this document)",
+      "quote": "Our position is that such an individual has the disease, not a prodrome of the disease, and our terminology in this instance would be “AD clinical stage 3”"
+    },
+    {
+      "question": "Does a diagnosis of AD require both amyloid and tau biomarker abnormality (A+T+), as the 2018 research framework required?",
+      "position": "No — the T category is split into T1 and T2 and AD is now defined by abnormality on Core 1 biomarkers alone, which anchors in vivo onset to abnormal amyloid PET.",
+      "attributed_to": "Alzheimer's Association Workgroup (this document), departing from the 2018 NIA-AA research framework",
+      "quote": "In the 2018 research framework, an A+T+ biomarker profile was required for a designation of AD based on the AT(N) biomarker classification scheme."
+    },
+    {
+      "question": "Are CSF and imaging biomarkers within the same AT(N) category interchangeable?",
+      "position": "Not always — the revised criteria break from the 2018 assumption of equivalence between imaging and biofluid biomarkers within a category.",
+      "attributed_to": "Alzheimer's Association Workgroup (this document), departing from the 2018 NIA-AA research framework",
+      "quote": "Ample evidence has accumulated that this is not always the case; therefore, in these revised criteria we break from the assumption of equivalence between imaging and biofluid biomarkers within a given biomarker category."
+    },
+    {
+      "question": "Should plasma p-tau217, p-tau181 and p-tau231 be classified as biomarkers of amyloid beta plaques?",
+      "position": "No — the workgroup finds this conceptually difficult to accept because these are tau fragments that also correlate with tau proteinopathy, and resolves it by creating the T1/T2 subcategories.",
+      "attributed_to": "Alzheimer's Association Workgroup (this document), against a proposal in the field",
+      "quote": "plasma p‐tau 217, 181, and 231 have been proposed as biomarkers of Aβ plaques, but this is difficult to accept conceptually because these are tau fragments, not measures of the Aβ proteinopathy pathway."
+    },
+    {
+      "question": "Does the fact that many people die with AD neuropathologic change but without symptoms mean the pathology is benign?",
+      "position": "No — mortality from unrelated causes should not be a criterion used to define what is and what is not a disease.",
+      "attributed_to": "Alzheimer's Association Workgroup (this document)",
+      "quote": "Mortality from unrelated diseases prior to symptom onset from AD should not be interpreted to indicate that ADNPC is benign."
+    },
+    {
+      "question": "Should AD be diagnosed by biomarkers in cognitively unimpaired people in clinical practice?",
+      "position": "It can be, but the workgroup recommends against it for clinical purposes at this time, restricting such testing to observational or therapeutic research studies.",
+      "attributed_to": "Alzheimer's Association Workgroup (this document)",
+      "quote": "We highlight the distinction between can and should . AD can be diagnosed in asymptomatic individuals, but we do not believe this should be done for clinical purposes at this time."
+    },
+    {
+      "question": "Should clinical symptoms serve as the reference standard for AD biomarker validation and approval?",
+      "position": "No — a biomarker that accurately detects ADNPC or a validated surrogate is sufficient to establish the diagnosis, because AD is defined by its biology.",
+      "attributed_to": "Alzheimer's Association Workgroup (this document)",
+      "quote": "Our position is that AD is defined by its biology and therefore a biomarker that can accurately detect ADNPC or a validated surrogate is sufficient to establish the diagnosis of the disease."
+    },
+    {
+      "question": "Should genetic risk alleles such as APOE ε4 count as diagnostic of AD or define a stage?",
+      "position": "No — risk alleles are a risk factor only, because they do not indicate with certainty the presence or severity of ADNPC at a given time.",
+      "attributed_to": "Alzheimer's Association Workgroup (this document)",
+      "quote": "We therefore regard risk alleles as a risk factor for AD, not diagnostic of or a stage of AD."
+    },
+    {
+      "question": "Should total tau remain in the neurodegeneration (N) biomarker category?",
+      "position": "The workgroup removes total tau from the fluid N category as a departure from 2018 and states that it is unclear how best to categorize this measure.",
+      "attributed_to": "Alzheimer's Association Workgroup (this document), departing from the 2018 NIA-AA research framework",
+      "quote": "The absence of total tau from the fluid biomarker N category (Tables and ) is a departure from the 2018 NIA‐AA research framework."
+    },
+    {
+      "question": "Should neurodegeneration (N) and inflammation (I) biomarkers be part of the biological staging scheme?",
+      "position": "No — staging uses only core biomarkers, because N biomarkers do not always follow a stereotypical A+ to T2+ to N+ sequence.",
+      "attributed_to": "Alzheimer's Association Workgroup (this document)",
+      "quote": "We recommend a biological staging scheme that uses only core biomarkers. N biomarkers certainly add prognostic information;, , , however, the temporal relationships between core AD biomarkers and N biomarkers are inconsistent across individuals."
+    },
+    {
+      "question": "Should blood-based biomarkers be treated as equivalent to PET and CSF for diagnosing AD?",
+      "position": "Yes, provided they meet the accuracy benchmark; the workgroup places qualifying blood-based markers on equal footing with established PET and CSF biomarkers.",
+      "attributed_to": "Alzheimer's Association Workgroup (this document)",
+      "quote": "Our position is that BBM that achieve this diagnostic performance benchmark should be considered on equal footing with established PET and CSF biomarkers for diagnosis of AD."
+    },
+    {
+      "question": "Does removing amyloid to below PET detection with immunotherapy mean the disease has been eradicated or reverted to an earlier stage?",
+      "position": "No — the pathogenic process is still present, so the staging schemes should not be read as indicators of natural-history stage after treatment.",
+      "attributed_to": "Alzheimer's Association Workgroup (this document)",
+      "quote": "While Aβ may be reduced to subdetection levels on PET, this does not mean that the disease pathophysiology has been eradicated."
+    },
+    {
+      "question": "Do anti-amyloid immunotherapy results support defining AD biologically?",
+      "position": "Yes — the workgroup reads the replicated link between amyloid PET reduction and clinical benefit as solid empiric support for a biological definition of AD.",
+      "attributed_to": "Alzheimer's Association Workgroup (this document)",
+      "quote": "These findings linking biology to clinical manifestations, which have been replicated across independent therapeutic programs,, , , provide solid empiric support for a biological definition of AD."
+    }
+  ],
+  "linked_objects": [
+    {
+      "relation": "published_version_of",
+      "identifier": "10.1002/alz.13859",
+      "note": "DOI of this document as printed in the identifiers line (also pmid: 38934362, pmcid: PMC11350039)"
+    }
+  ],
+  "trial_status_observation": {
+    "status": null,
+    "enrollment": null,
+    "phase": null,
+    "observed_at": null,
+    "source": null
+  },
+  "unlocatable_fields": [
+    "study.phase",
+    "study.followup",
+    "study.intervention",
+    "study.comparator",
+    "study.nct_ids",
+    "multiplicity.quote",
+    "multiplicity.location",
+    "safety.harms",
+    "safety.serious_adverse_events",
+    "safety.deaths",
+    "safety.discontinuations",
+    "authors[].orcid",
+    "authors[].corresponding",
+    "trial_status_observation.status",
+    "trial_status_observation.enrollment",
+    "trial_status_observation.phase",
+    "trial_status_observation.observed_at",
+    "trial_status_observation.source"
+  ]
+}

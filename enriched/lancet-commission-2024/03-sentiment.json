@@ -1,0 +1,65 @@
+{
+  "overall": "hopeful",
+  "summary": "Public sentiment surrounding the 2024 Lancet Commission report is predominantly hopeful, driven by the empowering message that nearly half of global dementia cases are linked to modifiable risk factors. Medical media and mainstream outlets enthusiastically highlight the 14 factors, focusing heavily on actionable interventions. In genetic risk communities like ApoE4 forums, the mood is highly proactive, with members discussing how lifestyle changes must be paired with emerging therapeutics to shift the paradigm of aging. Meanwhile, biotech retail investor communities remain largely quiet, as their focus is typically anchored on pharmacological trial readouts rather than epidemiological reports. Overall, the findings are celebrated, though the nuance of population-level modeling is frequently lost in translation.",
+  "communities": [
+    {
+      "community": "Science & Medical Media",
+      "sentiment": "enthusiastic",
+      "themes": [
+        "45% of global cases are potentially preventable",
+        "Identifying new risk factors like high LDL cholesterol and vision loss",
+        "Calls for major public health policy shifts"
+      ],
+      "example_urls": [
+        "https://www.medscape.com/viewarticle/almost-50-global-dementia-cases-may-be-preventable-2024a1000e1w",
+        "https://www.bmj.com/content/386/bmj.q1723"
+      ]
+    },
+    {
+      "community": "Patient & Genetic Risk Forums",
+      "sentiment": "hopeful",
+      "themes": [
+        "Destigmatizing dementia through actionable prevention",
+        "Combining lifestyle interventions with pharmacological treatments",
+        "Proactive tracking of biomarkers"
+      ],
+      "example_urls": [
+        "https://forums.apoe4.info/viewtopic.php?t=8946"
+      ]
+    },
+    {
+      "community": "Retail Biotech Investors",
+      "sentiment": "quiet",
+      "themes": [
+        "Minimal discussion of epidemiological data",
+        "Focus remains on drug readouts rather than lifestyle prevention"
+      ],
+      "example_urls": []
+    }
+  ],
+  "media_coverage": [
+    {
+      "outlet": "Medscape",
+      "tone": "positive",
+      "date": "2024-08",
+      "url": "https://www.medscape.com/viewarticle/almost-50-global-dementia-cases-may-be-preventable-2024a1000e1w"
+    },
+    {
+      "outlet": "The BMJ",
+      "tone": "positive",
+      "date": "2024-08",
+      "url": "https://www.bmj.com/content/386/bmj.q1723"
+    }
+  ],
+  "hype_vs_evidence": "Media coverage heavily hypes the notion that dementia is highly preventable on an individual level if one simply adheres to the 14 lifestyle factors. In reality, the 45% figure is a Population Attributable Fraction (PAF)—a theoretical epidemiological metric assuming the complete elimination of these risks across the entire global population, not an individual guarantee. Furthermore, popular wellness culture frequently promotes physical exercise as a direct way to improve cognition in existing dementia patients. However, the Lancet report explicitly notes that purely physical exercise RCTs showed no significant effect on cognition or daily activities for this population, whereas tailored psychosocial interventions successfully improved behavioral symptoms.",
+  "misinformation_flags": [
+    "Physical exercise alone can improve cognition and activities of daily living in patients who already have dementia.",
+    "Controlling the 14 risk factors provides a 45% individual guarantee of preventing dementia."
+  ],
+  "searches_run": [
+    "Lancet Commission 14 risk factors dementia news",
+    "site:medscape.com Lancet dementia 2024",
+    "site:forums.apoe4.info Lancet Commission 2024",
+    "Lancet dementia 2024 prevention stocktwits OR reddit biib OR sava OR anvs"
+  ]
+}

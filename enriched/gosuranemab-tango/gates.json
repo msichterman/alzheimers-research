@@ -1,0 +1,42 @@
+{
+  "id": "gosuranemab-tango",
+  "cluster": "tau",
+  "checked_at": "2026-08-13T17:02:32.974Z",
+  "passed": true,
+  "text_sufficiency": {
+    "level": "full-text",
+    "chars": 59267,
+    "sections": [
+      "method",
+      "result",
+      "discussion",
+      "outcome",
+      "participants"
+    ]
+  },
+  "evidence_completeness": "full-text-oa",
+  "failures": [],
+  "warnings": [
+    {
+      "gate": "fidelity",
+      "detail": "1 adjudicated ruling(s) could not be applied automatically and need a hand edit: safety.harms[death].reported"
+    },
+    {
+      "gate": "cross-links",
+      "detail": "document names NCT02294851 but no resolved registry record is linked for it"
+    },
+    {
+      "gate": "cross-links",
+      "detail": "document names NCT02460094 but no resolved registry record is linked for it"
+    },
+    {
+      "gate": "cross-links",
+      "detail": "document names NCT03068468 but no resolved registry record is linked for it"
+    },
+    {
+      "gate": "cross-links",
+      "detail": "document names NCT03658135 but no resolved registry record is linked for it"
+    }
+  ],
+  "manifest_discrepancies": []
+}
